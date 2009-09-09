@@ -60,12 +60,12 @@ ADMISSION;
 $major->major_requirements = <<<REQ
 <h2>Major Requirements</h2>
 <h3>Specific Major Requirements</h3>
-The major is 35 hours in advertising
-The courses required for a 35-hour major in advertising are as follows:
-ADVT 251, 283, 333, 357, 460, 489
-JOUR 101, 142, 486, 487; and 6 elective journalism hours
+The major is 35 hours in advertising<br />
+The courses required for a 35-hour major in advertising are as follows:<br />
+ADVT 251, 283, 333, 357, 460, 489<br />
+JOUR 101, 142, 486, 487; and 6 elective journalism hours<br />
 
-Students may complete two majors in the College of Journalism and Mass Communications by completing all requirements for each major; however, the second major in the college will not take the place of a 24-hour concentration
+<p>Students may complete two majors in the College of Journalism and Mass Communications by completing all requirements for each major; however, the second major in the college will not take the place of a 24-hour concentration
 
 <h3>Tracks/Options/Concentrations/Emphases Requirements</h3>   
 <p>Three 12-hour concentrations or one 24-hour concentration and one 12-hour concentration. A specified minor may take the place of one 12-hour concentration. A major of 24 or more hours may take the place of a 24-hour concentration. Any of these options must be from outside the College of Journalism and Mass Communications. The concentration requirement must be fulfilled with at least 36 hours from outside the College of Journalism and Mass Communications. A 24-hour concentration could be satisfied by a major from another college.  No grades less than a C will count toward a minor, or concentration.
@@ -74,12 +74,11 @@ Students may complete two majors in the College of Journalism and Mass Communica
 <p>The College of Journalism and Mass Communications recognizes cross-listed courses as equivalent for the purposes of degree requirements. However, a course taken under one department which is cross-listed cannot be applied in all the majors and minors affected by all the cross-listings of the course until at least 36 hours of course work has been recorded in the concentration requirement.
 <h5>Fine and Performing Arts Concentration</h5>
 <p>Students in the College of Journalism and Mass Communications may complete a 24-hour interdisciplinary concentration in courses from the College of Fine and Performing Arts. This concentration would include classes in: 1) art and art history; 2) music; 3) theater and film; 4) dance.
-<p>Students would select courses from the following:
-A. One 3-hour course from each of the four areas    12
-B. Three hours of skills courses (performance or 
-lessons) in one of the four areas   3
-C. One 3-hour &ldquo;capstone&rdquo; course&mdash;a 498 course from one of the four areas 3
-D. Two 3-hour courses in one of the four areas  6
+<p>Students would select courses from the following:<br />
+A. One 3-hour course from each of the four areas    12<br />
+B. Three hours of skills courses (performance or lessons) in one of the four areas   3<br />
+C. One 3-hour &ldquo;capstone&rdquo; course&mdash;a 498 course from one of the four areas 3<br />
+D. Two 3-hour courses in one of the four areas  6<br />
 
 Course options for students:
 <pre>
@@ -130,14 +129,14 @@ DANC 159 Introduction to the History of Dance   3 cr
 
 <h3>Electives</h3>
 
-Mike-I added this Students may need elective (free choice courses) to fulfill the minimum 125 semester hours required for the degree.
+<p>Mike-I added this Students may need elective (free choice courses) to fulfill the minimum 125 semester hours required for the degree.</p>
 
 REQ;
 
 $major->additional_major_requirements = <<<ADDITIONAL
 <h2>Additional Major Requirements</h2>
-Grade Rules (Pass/No Pass, Specific Grade Rules related to the major) 
-No grades less than a C will count toward a major, a minor, or concentration.
+Grade Rules (Pass/No Pass, Specific Grade Rules related to the major) <br />
+No grades less than a C will count toward a major, a minor, or concentration.<br />
 ADDITIONAL;
 
 $major->college_degree_requirements = <<<COLLEGE
@@ -164,12 +163,13 @@ From two different departments, including at least one lab science course from t
 5.  Languages Classical and Modern: 0-6 hours
     Fulfilled by the completion of 6 credit hours at the 200 level or above in a single foreign language in one of the following departments: classics and religious studies, modern languages and literatures, or anthropology. Instruction is currently available in Biblical Hebrew, Chinese, Czech, French, German, Greek, Japanese, Latin, Omaha, Russian, and Spanish. A student who has completed the fourth-year level of one foreign language in high school is exempt from the languages requirement.
 Options for completion of language requirement:
-1.  Regular four-semester sequence: 101, 102, 201, and 202 (5, 5, 3, 3 hours for a total of 16)
-2.  Three-semester sequence: 101, 102, and 210 (5, 5, 6 hours for a total of 16)
-3.  101, 102 fall and spring semesters; 201, 202 summer sessions (5, 5, 3, 3 hours for a total of 16). This and the option below constitute the only possibilities to finish the complete requirement in one year.
-4.  (For Spanish) 101, 102 at UNL; 201, 202 at Monterrey Summer Institute (6 hours). (5, 5, 6 hours for a total of 16.) One six-week summer session (1st summer session). See modern languages non-majors adviser for information and application.
-5.  Students who have taken 3 years or fewer of a foreign language in high school should contact the modern languages and literatures department for recommended placement.
-
+<ol>
+<li>Regular four-semester sequence: 101, 102, 201, and 202 (5, 5, 3, 3 hours for a total of 16)</li>
+<li>Three-semester sequence: 101, 102, and 210 (5, 5, 6 hours for a total of 16)</li>
+<li>101, 102 fall and spring semesters; 201, 202 summer sessions (5, 5, 3, 3 hours for a total of 16). This and the option below constitute the only possibilities to finish the complete requirement in one year.</li>
+<li>(For Spanish) 101, 102 at UNL; 201, 202 at Monterrey Summer Institute (6 hours). (5, 5, 6 hours for a total of 16.) One six-week summer session (1st summer session). See modern languages non-majors adviser for information and application.</li>
+<li>Students who have taken 3 years or fewer of a foreign language in high school should contact the modern languages and literatures department for recommended placement.</li>
+</ol>
     A student who achieves a specified scaled score in the College Level Examination Program (CLEP) subject exam in French, German and Spanish, levels 1 and 2, may be exempted from the language requirement and may also receive credit for the fourth semester course in the language. Students wishing to exercise this option must receive permission from the dean of the College of Journalism and Mass Communications.
     A transfer student with 11 or 12 semester hours of accepted credit in a single foreign language has two choices: a) to complete 201 and 202 in the same language; or b) to enroll in 202 with permission of the chair of the Department of Modern Languages and Literatures.
     A student from a foreign country who has demonstrated acceptable proficiency in his or her native language (other than English) is exempted from the Group J requirement without credit toward the degree. U.S. citizens who present acceptable evidence that their second language is English are exempted from the language requirement without credit toward the degree. All such students should see the dean of the College of Journalism and Mass Communications for this exemption.
@@ -200,21 +200,22 @@ o   Pass/No Pass Limits
 Pass/No Pass Privilege
 All courses in the College of Journalism and Mass Communications must be taken for grade only. No journalism course may be taken Pass/No Pass. This applies to both majors and non-majors.
     The Pass/No Pass (P/N) option is designed to be used by students seeking to expand their intellectual horizons by taking courses in areas where they may have minimum preparation without adversely affecting a student&rsquo;s grade point average.
-1.  Neither a P (pass) nor an N (no pass) contributes to a student&rsquo;s GPA.
-2.  P (pass) is interpreted to mean a grade of C or better. A student who earns a C- or lower will receive a grade of N.
-3.  After eight weeks, a student registered for   P/N cannot change to a grade registration unless the P/N registration is in conflict with a professor, department, college, or university policy governing P/N.
-4.  P/N is not available to students on academic probation unless the course is offered only that way.
-5.  For undergraduates, the 24-hour college limit shall apply. This limit does not include courses offered on a Pass/No Pass only basis or AP credit. This limit does apply to transfer courses from UNO, UNK, UNMC, and other institutions. It also applies to ES/IS courses.
-6.  P/N hours can count toward fulfillment of group requirements, including concentrations, up to the 24 credit hour maximum. No journalism major may take a journalism course Pass/No Pass.
-7.  Students may change to Pass/No Pass until the eighth week (one-half course completion) if the    P/N registration is not in conflict with a professor, department, college or university policy governing the P/N option. Changing from graded to P/N or from P/N to graded can be completed on WAM! or by filing a drop/add form with the Office of Registration and Records, 107 Canfield Administration Building, and needs no instructor&rsquo;s approval.
-
+<ol>
+<li>Neither a P (pass) nor an N (no pass) contributes to a student&rsquo;s GPA.</li>
+<li>P (pass) is interpreted to mean a grade of C or better. A student who earns a C- or lower will receive a grade of N.</li>
+<li>After eight weeks, a student registered for   P/N cannot change to a grade registration unless the P/N registration is in conflict with a professor, department, college, or university policy governing P/N.</li>
+<li>P/N is not available to students on academic probation unless the course is offered only that way.</li>
+<li>For undergraduates, the 24-hour college limit shall apply. This limit does not include courses offered on a Pass/No Pass only basis or AP credit. This limit does apply to transfer courses from UNO, UNK, UNMC, and other institutions. It also applies to ES/IS courses.</li>
+<li>P/N hours can count toward fulfillment of group requirements, including concentrations, up to the 24 credit hour maximum. No journalism major may take a journalism course Pass/No Pass.</li>
+<li>Students may change to Pass/No Pass until the eighth week (one-half course completion) if the    P/N registration is not in conflict with a professor, department, college or university policy governing the P/N option. Changing from graded to P/N or from P/N to graded can be completed on WAM! or by filing a drop/add form with the Office of Registration and Records, 107 Canfield Administration Building, and needs no instructor&rsquo;s approval.</li>
+</ol>
 o   GPA Requirements
 No grades below a C count toward the major, a minor or a concentration.  The college will accept no more than 15 semester hours of grades less than a C from any program outside the University of Nebraska system. No grades less than a C will count toward a major, a minor, or concentration.
 
 
 <h3>Transfer Credit</h3>
-The goal of the following policy is to ensure that students from other campuses meet the same standards required of students who take all their courses at the University of Nebraska&ndash;Lincoln&rsquo;s College of Journalism and Mass Communications.
-The college will accept no more than 15 semester hours of grades less than a C from any program outside the University of Nebraska system. No grades less than a C will count toward a major, a minor, or concentration.
+<p>The goal of the following policy is to ensure that students from other campuses meet the same standards required of students who take all their courses at the University of Nebraska&ndash;Lincoln&rsquo;s College of Journalism and Mass Communications.
+<p>The college will accept no more than 15 semester hours of grades less than a C from any program outside the University of Nebraska system. No grades less than a C will count toward a major, a minor, or concentration.
     
 <p>The college will accept up to 6 hours in journalism and mass communications courses taken at institutions that do not have an accredited journalism and mass communications program. Students must take the remainder of the required hours in journalism courses on campus at the University of Nebraska&ndash;Lincoln.  In advertising, these courses must include 460 and 489 and in broadcasting, 370 and 372 or 360 and 362. In news-editorial, the courses must include 302 and one selected from the following: NEWS 303, 404, or a 400-level writing course. Students from ACEJMC-accredited programs may request equivalency reviews of the required courses at those schools. Degree candidates must accumulate 80 credit hours of non-journalism classes, 65 of those in disciplines listed as liberal arts.
     
