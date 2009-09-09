@@ -5,7 +5,7 @@ UNL_Templates::$options['sharedcodepath'] = dirname(__FILE__).'/sharedcode';
 $page = UNL_Templates::factory('Fixed');
 
 $page->doctitle     = '<title>UNL | Undergraduate Bulletin</title>';
-$page->titlegraphic = '<h1>2010-2011 Undergraduate Bulletin</h1>';
+$page->titlegraphic = '<h1>Undergraduate Bulletin 2010-2011</h1>';
 $page->navlinks     = '
 <ul>
     <li><a href="?view=index">Bulletin Home</a></li>

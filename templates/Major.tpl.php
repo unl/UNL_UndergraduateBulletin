@@ -1,5 +1,9 @@
 <h1><?php echo $this->title; ?></h1>
 <h2><?php echo $this->college; ?></h2>
+<ul class="wdn_tabs">
+    <li><a href="?view=major&amp;name=<?php echo $this->title; ?>"><span>Description</span></a></li>
+    <li><a href="?view=courses&amp;name=<?php echo $this->title; ?>"><span>Courses</span></a></li>
+</ul>
 <div class="three_col left">
     <?php echo $this->description; ?>
     <?php echo $this->admission; ?>
