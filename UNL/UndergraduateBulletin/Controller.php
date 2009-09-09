@@ -5,7 +5,9 @@ class UNL_UndergraduateBulletin_Controller
     
     public $options = array('view'=>'index');
     
-    protected $view_map = array('index'=>'displayIndex');
+    protected $view_map = array(
+        'index' => 'displayIndex',
+        'major' => 'displayMajor');
     
     function __construct($options = array())
     {
@@ -23,6 +25,11 @@ class UNL_UndergraduateBulletin_Controller
     function displayIndex()
     {
         $this->output[] = new UNL_UndergraduateBulletin_Introduction();
+    }
+    
+    function displayMajor()
+    {
+        $this->output[] = UNL_UndergraduateBulletin_Major::getByName('Geography');
     }
     
 }

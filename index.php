@@ -8,7 +8,7 @@ if (file_exists('config.inc.php')) {
 
 require_once 'UNL/Autoload.php';
 
-$controller = new UNL_UndergraduateBulletin_Controller();
+$controller = new UNL_UndergraduateBulletin_Controller($_GET);
 
 UNL_UndergraduateBulletin_OutputController::display($controller);
 
