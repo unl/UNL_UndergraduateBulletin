@@ -23,8 +23,8 @@ MAJOR;
 $major->admission = <<<ADMISSION
 <h2>Admission</h2> 
 <h3>College Admission</h3>
-The entrance requirements for the College of Arts and Sciences are the same as the UNL General Admission Requirements (see “Admission to the University” on page 6). Students who are admitted through the Admission by Review process with core course deficiencies will have certain conditions attached to their enrollment at UNL. These conditions are explained under “Removal of Deficiencies” on page 6 of this bulletin.
-In addition to these requirements, the College of Arts and Sciences strongly recommends a third and fourth year of languages. Four years of high school language will exempt students from the College of Arts and Sciences’ 16-hour language requirement. It will also allow students to continue language study at a more advanced level, and give more opportunity to study abroad.
+The entrance requirements for the College of Arts and Sciences are the same as the UNL General Admission Requirements (see &ldquo;Admission to the University&rdquo; on page 6). Students who are admitted through the Admission by Review process with core course deficiencies will have certain conditions attached to their enrollment at UNL. These conditions are explained under &ldquo;Removal of Deficiencies&rdquo; on page 6 of this bulletin.
+In addition to these requirements, the College of Arts and Sciences strongly recommends a third and fourth year of languages. Four years of high school language will exempt students from the College of Arts and Sciences&rsquo; 16-hour language requirement. It will also allow students to continue language study at a more advanced level, and give more opportunity to study abroad.
 Transfer Students
 To be considered for admission a transfer student, Nebraska resident or nonresident, must have an accumulated average of C (2.0 on a 4.0 scale) and a minimum C average in the last semester of attendance at another college. Transfer students who graduated from high school January 1997 and after must also meet the UNL General Admissions Requirements. Those transfer students who graduated before January 1997 must have completed in high school 3 years of English, 2 years of the same foreign language, 2 years of algebra, and 1 year of geometry. Transfer students who have completed less than 12 credit hours of college study must submit either the ACT or SAT scores.
 Ordinarily, hours earned at an accredited college are accepted by the University. The College, however, will evaluate all hours submitted on an application for transfer and reserves the right to accept or reject any of them. Sixty-six is the maximum number of hours the University will accept on transfer from a two-year college. Transfer credit in the major must be approved by the major adviser on a Request for Substitution Form to meet specific course requirements, group requirements, or course level requirements in the major. At least 9 hours in the major field must be completed at the University regardless of the number of hours transferred.
@@ -33,13 +33,13 @@ Readmitted Students
 Students readmitted to the College of Arts and Sciences will follow the requirements stated in the bulletin published in the first year enrolled at UNL or in any bulletin in effect while they are enrolled in the College of Arts and Sciences. Beginning with the 1990-91 bulletin, the bulletin followed may not be more than 10 years old at the time of graduation. A student must, however, meet the requirements from one bulletin only, and may not choose a portion from one bulletin and the remainder from another.
 <h3>Major/Department Admission</h3>
 No requirements beyond College of Arts and Sciences admission requirements.
-o   Admission GPA
+<h3>Admission GPA</h3>
 Not Applicable
-o   Admission Deficiencies
-You must remove entrance deficiencies before you can graduate from the College of Arts and Sciences. For students entering August 1997 or later and who graduated from high school January 1997 and after, courses taken to remove a high school core course deficiency may not be counted toward either the major, minor, college degree requirements, or university comprehensive education requirements. They may only be counted in the “electives” category in meeting degree requirements. The most common deficiencies are in foreign languages and mathematics.
-For University policy, see “Graduation Requirements” on page 16.
+<h3>Admission Deficiencies</h3>
+You must remove entrance deficiencies before you can graduate from the College of Arts and Sciences. For students entering August 1997 or later and who graduated from high school January 1997 and after, courses taken to remove a high school core course deficiency may not be counted toward either the major, minor, college degree requirements, or university comprehensive education requirements. They may only be counted in the &ldquo;electives&rdquo; category in meeting degree requirements. The most common deficiencies are in foreign languages and mathematics.
+For University policy, see &ldquo;Graduation Requirements&rdquo; on page 16.
 Removing Foreign Language Deficiencies
-A student who has had fewer than two years of one foreign language in high school will need 130 semester hours as a minimum for a degree from the College of Arts and Sciences. A student will also need to complete the “102” course in a language to clear the deficiency and the “202” course to complete the college graduation requirement in language.
+A student who has had fewer than two years of one foreign language in high school will need 130 semester hours as a minimum for a degree from the College of Arts and Sciences. A student will also need to complete the &ldquo;102&rdquo; course in a language to clear the deficiency and the &ldquo;202&rdquo; course to complete the college graduation requirement in language.
 Removing Mathematics Deficiencies
 1.  A deficiency of one year of geometry can be removed by taking two high school geometry courses by Independent Study or by completing a geometry course from an accredited community college or a four-year institution. Neither of these options count for college credit.
 2.  A deficiency of the first year of algebra can be removed by taking two high school Algebra I courses through Extended Education (not for college credit).
@@ -47,11 +47,14 @@ Removing Mathematics Deficiencies
 4.  A student whose deficiency is the additional (fourth) year of mathematics that builds on algebra must successfully complete MATH 101, 102, or 103, or an equivalent course at another institution.
 Removing Other Deficiencies
 Contact the Arts and Sciences Advising Center for specific courses to remove other entrance deficiencies.
-NOTE: The entrance requirements are different for certain preprofessional programs in the College of Arts and Sciences see “Pre-Professional Programs and Combined Degree Programs” on page 217.
-o   Other Admission Requirements
-•   Major Requirements
-o   Core  Requirements
-o   Specific Major Requirements
+NOTE: The entrance requirements are different for certain preprofessional programs in the College of Arts and Sciences see &ldquo;Pre-Professional Programs and Combined Degree Programs&rdquo; on page 217.
+ADMISSION;
+
+$major->additional_major_requirements = <<<ADDITIONAL
+<h2>Other Admission Requirements</h2>
+&bull; Major Requirements
+<h3>Core  Requirements</h3>
+<h3>Specific Major Requirements</h3>
 The major entails a total of 30 hours
 GEOG 140 Introductory Human Geography or GEOG 120 Economic Geography    3hrs
 GEOG 155 Elements of Physical Geography 4hrs
@@ -62,20 +65,23 @@ GEOG 402 Senior Seminar 2 hrs
 Elective Geography courses  9hrs
 
 Of the total 30 hours, 14 hours must be numbered 300 or above. Students wishing to combine a geography major with other majors environmental studies, for example, should see the respective advisers.
-o   Tracks/Options/Concentrations/Emphases Requirements   
+<h3>Tracks/Options/Concentrations/Emphases Requirements</h3>
 Not Applicable
-o   Minor Requirement
+<h3>Minor Requirement</h3>
 No Minor Required
-o   Electives
-•   Additional Major Requirements 
-o   Program Assessment. In order to assist the department in evaluating the effectiveness of its programs, majors will be required to complete written and oral examinations in the Senior Seminar, GEOG 402, over knowledge in all components of the major, as well as over more detailed knowledge in the student’s area of focus. Students will be informed of the scheduling and format of assessment exams in the Senior Seminar. Students will also be given exit interviews prior to graduation to gather their views on the effectiveness of the major.
-Results of participation in this assessment activity will in no way affect a student’s GPA or graduation.
-o   Prerequisite Requirements/Rules
-o   Grade Rules 
-o   Course Level Requirement 
-o   Extended Education, Independent Study Rules, Internship Credit Rules  
-•   College Degree Requirements  
-o   College General Education Requirements  
+<h3>Electives</h3>
+&bull; Additional Major Requirements 
+* Program Assessment. In order to assist the department in evaluating the effectiveness of its programs, majors will be required to complete written and oral examinations in the Senior Seminar, GEOG 402, over knowledge in all components of the major, as well as over more detailed knowledge in the student&rsquo;s area of focus. Students will be informed of the scheduling and format of assessment exams in the Senior Seminar. Students will also be given exit interviews prior to graduation to gather their views on the effectiveness of the major.
+Results of participation in this assessment activity will in no way affect a student&rsquo;s GPA or graduation.
+* Prerequisite Requirements/Rules
+* Grade Rules 
+* Course Level Requirement 
+* Extended Education, Independent Study Rules, Internship Credit Rules
+ADDITIONAL;
+
+$major->college_degree_requirements = <<<COLLEGE
+<h2>College Degree Requirements</h2>  
+<h3>College General Education Requirements</h3>
 Requirements for the Bachelor of Arts Degree
 Students who wish to graduate with a bachelor of arts degree must complete the College graduation requirements, the University ACE requirements, the College of Arts and Sciences distribution requirements, the requirements for a major, and the requirements for a minor or minors if required by the major.
 Requirements for the Bachelor of Science Degree
@@ -106,7 +112,7 @@ Fulfilled by the completion of the 6-credit-hour second-year sequence in a singl
 
 In addition to the College of Arts and  Sciences distribution requirements, the bachelor of science degree requires students to complete 60 semester hours in the natural and mathematical sciences.
 Languages Exemption Policy
-UNL and Arts and Sciences will exempt or waive students from the UNL entrance requirement of two years of the same foreign language or from the College’s language distribution requirement based on documentation only. The following are the options and procedures for documentation:
+UNL and Arts and Sciences will exempt or waive students from the UNL entrance requirement of two years of the same foreign language or from the College&rsquo;s language distribution requirement based on documentation only. The following are the options and procedures for documentation:
 High School Transcripts
 1. For the University entrance requirements, students must show an official high school transcript with two or more years of the same foreign language in high school.
 2. For the College of Arts and Sciences College Distribution Requirements Area 5 languages requirement, students must show an official high school transcript with four or more years of the same foreign language in high school, or show evidence of graduation from a non-English-speaking foreign high school.
@@ -127,12 +133,12 @@ Distance Education
 2. For the College of Arts and Sciences College Distribution Requirements Area 5 languages, the student can seek out a distance education program and complete the equivalent of the 202-level course. The student must submit the request on the College Request for Substitution form and have the course work approved by the Department of Modern Languages and the assistant dean for Advising Services. The student then completes the course and has the distance education program send the transcript to the Admissions Office.
 Third Language Option
 If a student demonstrates knowledge of two foreign languages at the 102 level, the College of Arts and Sciences may consider waiving two semesters of the four semester College Distribution Requirements Area 5 languages requirement. If this waiver were granted, the student would then be required to complete 101 and 102 in another (3rd language) at UNL.
-o   Minimum Hours Required for Graduation
+<h3>Minimum Hours Required for Graduation</h3>
 A minimum of 125 semester hours of credit is required for graduation from the College of Arts and Sciences. Students who enter the College with fewer than two units of one foreign language from high school are required to take 130 semester hours as a minimum for the bachelor of arts or bachelor of science degree. 
-o   Grade Rules 
-•   C- and D grades
+<h3>Grade Rules </h3>
+&bull; C- and D grades
 The College will accept no more than 15 semester hours of C- and D grades from other schools except for UNO and UNK. No transfer C- and D grades can be applied toward requirements in a major or a minor. No UNL C- and D grades can be applied toward requirements in a major or a minor.
-•   Pass/No Pass Limits
+&bull; Pass/No Pass Limits
 University regulations for the Pass/No Pass (P/N) privilege state:
 The Pass/No Pass option is designed for your use by seeking to expand your intellectual horizons by taking courses in areas where you may have had minimal preparation.
 For students in Arts and Sciences, the University regulations for Pass/No Pass apply as follows:
@@ -145,15 +151,15 @@ For students in Arts and Sciences, the University regulations for Pass/No Pass a
 
 Pass/No Pass privileges in the College of Arts and Sciences are extended to students according to the following additional regulations:
 1.  Pass/No Pass hours can count toward fulfillment of University ACE requirements and college distribution requirements up to the 24-hour maximum.
-2.  Many Arts and Sciences departments and programs do not allow courses in the major or minor to be taken Pass/No Pass; students should refer to the department’s or program’s section of the bulletin for clarification. By college rule, departments can allow up to 6 hours of Pass/No Pass in the major or minor.
+2.  Many Arts and Sciences departments and programs do not allow courses in the major or minor to be taken Pass/No Pass; students should refer to the department&rsquo;s or program&rsquo;s section of the bulletin for clarification. By college rule, departments can allow up to 6 hours of Pass/No Pass in the major or minor.
 3.  Freshmen and sophomores may enroll for no more than 6 hours of P/N work per semester.
 4.  Departments may specify that certain courses of theirs can be taken only on a P/N basis.
 5.  The college will permit no more than a total of 24 semester hours of P/N grades to be applied toward degree requirements. This total includes all Pass grades earned at UNL and other US schools.
     NOTE: This 24-hour limit is more restrictive than the University regulation.
 Students who wish to apply P/N hours to their major and minor(s) must obtain approval on a form that is available in the Arts and Sciences Advising Center, 107 Oldfather Hall.
-•   GPA Requirements
+&bull; GPA Requirements
 A total grade point average of at least 2.0 is required.
-o   Transfer Credit Rules
+<h3>Transfer Credit Rules</h3>
 Transfer Credit from Foreign Institutions
 Credit for courses taken at foreign universities and colleges will be transferred only after validation by the appropriate department. This evaluation may include examination of the student over subject matter studied at the foreign institution.
 Normally credit is not given for pre-university work. In some instances, it may be possible to receive credit through satisfactory examination, such as Advanced Placement.
@@ -164,19 +170,19 @@ Maximum 15 hours of C- and D grades are transferable from colleges outside UNL. 
 
 Maximum 66 hours accepted from a community college.
 
-o   Course Level Requirements (Hour Requirement 300+)
+<h3>Course Level Requirements (Hour Requirement 300+)</h3>
 Thirty of the 125 (or 130) semester hours of credit must be in courses numbered above 299. Of the 30 hours above 299, 15 hours (1/2) must be completed in residence at UNL. NOTE: ALEC 397E and ALEC 397K do not count toward this 30 hours.
-o    Residency
-Students must complete at least 30 of the 125 (or 130) total hours for their degree at UNL. Students must complete at least 1/2 of their major course work including 6 hours above 299 in their major, and 15 of the 30 hours required above 299 in residence. Credit earned during study abroad may be used toward the residency requirement if students register through UNL and participate in prior-approved study abroad programs (see “Study Abroad and Exchange Programs” on page 20). Open enrollment and summer independent study courses do not count toward residence. However, 30 semester hours earned through open enrollment courses and summer independent study courses at UNL may be applied toward a degree from the College.
-o   Extended Education, Independent Study, Internship Credit 
-There are many opportunities to earn college credit through the University of Nebraska–Lincoln Extended Education. Majors in the College of Arts and Sciences may apply a maximum of 30 hours of UNL open enrollment courses and summer reading courses toward the total number of hours required for the degree.
+<h3> Residency</h3>
+Students must complete at least 30 of the 125 (or 130) total hours for their degree at UNL. Students must complete at least 1/2 of their major course work including 6 hours above 299 in their major, and 15 of the 30 hours required above 299 in residence. Credit earned during study abroad may be used toward the residency requirement if students register through UNL and participate in prior-approved study abroad programs (see &ldquo;Study Abroad and Exchange Programs&rdquo; on page 20). Open enrollment and summer independent study courses do not count toward residence. However, 30 semester hours earned through open enrollment courses and summer independent study courses at UNL may be applied toward a degree from the College.
+<h3>Extended Education, Independent Study, Internship Credit</h3>
+There are many opportunities to earn college credit through the University of Nebraska&ndash;Lincoln Extended Education. Majors in the College of Arts and Sciences may apply a maximum of 30 hours of UNL open enrollment courses and summer reading courses toward the total number of hours required for the degree.
 For further information, contact:
 Extended Education
-University of Nebraska–Lincoln
+University of Nebraska&ndash;Lincoln
 900 N 21st Street
 Lincoln, NE 68583-8307
 (402) 472-4500
-o   Other College Degree Requirements
+<h3>Other College Degree Requirements</h3>
 Which Bulletin to Follow
 Students who enroll at UNL under the academic year (Fall, Spring, Summer) of the bulletin must fulfill the requirements stated in the bulletin or in any other bulletin which is published while they are enrolled in the College provided the bulletin they follow is no more than ten years old at the time of graduation. A student must, however, meet the requirements from one bulletin only rather than choosing a portion from one bulletin and the remainder from another.
 Students readmitted to the College of Arts and Sciences should review bulletin information found on page 133 under the heading Readmitted Students.
@@ -189,19 +195,20 @@ Any introduction computer course training in DOS, word processing, spread-sheets
 MATH 100A
 Course Restrictions
 Students majoring in the College of Arts and Sciences my use courses in the following areas toward their degree within the following limits:
-•   Maximum 12 hours religion courses that advocate the doctrine or belief of a particular faith. This 12 hour limit does not apply to religious studies courses whose method and approach conforms to the standards of critical scholarship in the academic study of the humanities and social sciences.
-•   Maximum 30 hours by open enrollment and summer reading courses.
-•   Maximum 15 hours of C- and D grades are transferable from colleges outside UNL. The C- and D grades cannot apply to majors or minors. All C- and D grades from UNO or UNK may be transferred but they are not applicable to a major or minor.
-•   Maximum 66 hours accepted from a community college.
-•   Maximum 30 hours of clinical courses.
-•   Maximum 16 hours of applied music lessons and/or music ensemble.
-•   Maximum 4 hours Activity PE, Athletic Practice, or Basic Military Science with a maximum of 1 credit hour per semester.
-•   Maximum 12 hours total from any combination of the following areas:
+&bull; Maximum 12 hours religion courses that advocate the doctrine or belief of a particular faith. This 12 hour limit does not apply to religious studies courses whose method and approach conforms to the standards of critical scholarship in the academic study of the humanities and social sciences.
+&bull; Maximum 30 hours by open enrollment and summer reading courses.
+&bull; Maximum 15 hours of C- and D grades are transferable from colleges outside UNL. The C- and D grades cannot apply to majors or minors. All C- and D grades from UNO or UNK may be transferred but they are not applicable to a major or minor.
+&bull; Maximum 66 hours accepted from a community college.
+&bull; Maximum 30 hours of clinical courses.
+&bull; Maximum 16 hours of applied music lessons and/or music ensemble.
+&bull; Maximum 4 hours Activity PE, Athletic Practice, or Basic Military Science with a maximum of 1 credit hour per semester.
+&bull; Maximum 12 hours total from any combination of the following areas:
 Athletic Coaching (except ATHC 279)
 First Aid (NUTR 170 at UNL)
 Orientation and Study Skills. For example at UNL: ALEC 397E and 397K (neither course is applicable to the courses numbered above 299 requirement); ASCI 107; BIOC 101; BIOS 150, 160; EDPS 150, 209; FDST 107; HRFS 183; NRES 101; NUTR 150; PSYC 100, 150; TEAC 210; VBMS 101
 Military Science, Naval Science, or Aerospace Studies. (This restriction does not apply to cross-listed courses between military science, naval science, or aerospace studies and departments of the College of Arts and Sciences.)
-•   Any restrictions noted specifically by departments. Credit towards the degree may be earned in only one course, including honors sections, from each group of courses listed below:
+&bull; Any restrictions noted specifically by departments. Credit towards the degree may be earned in only one course, including honors sections, from each group of courses listed below:
+<pre>
 BIOS 312 or AGRO 360
 BIOS 313 or 314
 CHEM 105, 109, 111, 113,195
@@ -233,7 +240,7 @@ SOCI 209 or CRIM 355
 SOCI 311 or CRIM 337
 SOCI 474 or CRIM 413
 SPAN 201 and 202, or SPAN 210
-•   For transfer students, course exclusions and restrictions will be determined on the Evaluation of Transfer credits.
-
-ADMISSION;
+</pre>
+&bull; For transfer students, course exclusions and restrictions will be determined on the Evaluation of Transfer credits.
+COLLEGE;
 ?>

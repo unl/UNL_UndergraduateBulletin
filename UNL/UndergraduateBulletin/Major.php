@@ -17,6 +17,18 @@ class UNL_UndergraduateBulletin_Major
     
     public $admission;
     
+    public $major_requirements;
+    
+    public $additional_major_requirements;
+    
+    public $college_degree_requirements;
+    
+    public $requirements_for_minor;
+    
+    public $ace_requirements;
+    
+    public $other;
+    
     static function getByName($name)
     {
         $major = new self();
