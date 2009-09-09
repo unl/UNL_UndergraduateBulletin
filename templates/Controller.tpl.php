@@ -8,7 +8,12 @@ $page->titlegraphic = '<h1>Undergraduate Bulletin 2010-2011</h1>';
 $page->navlinks     = '
 <ul>
     <li><a href="?view=index">Bulletin Home</a></li>
-    <li><a href="?view=major">Major</a></li>
+    <li><a href="?view=major">Major</a>
+        <ul>
+            <li><a href="?view=major&amp;name=Advertising">Advertising</a></li>
+            <li><a href="?view=major&amp;name=Geography">Geography</a></li>
+        </ul>
+    </li>
 </ul>';
 $page->loadSharedCodeFiles();
 $page->addStylesheet('templates/css/all.css');

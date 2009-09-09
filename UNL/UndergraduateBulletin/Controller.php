@@ -29,7 +29,7 @@ class UNL_UndergraduateBulletin_Controller
     
     function displayMajor()
     {
-        $this->output[] = UNL_UndergraduateBulletin_Major::getByName('Geography');
+        $this->output[] = UNL_UndergraduateBulletin_Major::getByName($this->options['name']);
     }
     
 }

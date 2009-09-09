@@ -34,6 +34,7 @@ class UNL_UndergraduateBulletin_Major
         $major = new self();
         switch ($name) {
             case 'Geography':
+            case 'Advertising':
                 include dirname(__FILE__).'/../../data/samples/'.$name.'.php';
                 
                 return $major;
