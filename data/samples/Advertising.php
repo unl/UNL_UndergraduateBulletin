@@ -10,23 +10,23 @@ $major->minor_available = false;
 $major->chief_advisor = 'Michael Goff';
 $major->description = <<<MAJOR
 <h2>Description</h2>
-Advertising
-The advertising major prepares students for careers in a wide variety of communication-related areas. Recent graduates have been placed in more than 20 states and several other countries in diverse advertising careers such as retail and corporate advertising and marketing, media sales, brand management, media planning, account management, research, public relations, media relations, special event planning, Internet communications, copywriting and layout and design.
-The advertising faculty believes that a successful career must be built upon a solid foundation, an education that combines theory and practice. To achieve that end, the major offers courses in copywriting, layout, media planning, graphics, campaign development, research, management, and strategic communications. The curriculum is designed to emphasize strategy, planning and implementation in creative problem solving.
+<h3>Advertising</h3>
+<p>The advertising major prepares students for careers in a wide variety of communication-related areas. Recent graduates have been placed in more than 20 states and several other countries in diverse advertising careers such as retail and corporate advertising and marketing, media sales, brand management, media planning, account management, research, public relations, media relations, special event planning, Internet communications, copywriting and layout and design.
+<p>The advertising faculty believes that a successful career must be built upon a solid foundation, an education that combines theory and practice. To achieve that end, the major offers courses in copywriting, layout, media planning, graphics, campaign development, research, management, and strategic communications. The curriculum is designed to emphasize strategy, planning and implementation in creative problem solving.
     
-Much emphasis is placed on individual relationships between faculty and students, an interaction vital to a student&rsquo;s creative development. A faculty adviser also helps each student tailor an academic plan to meet his or her interests and needs.
+<p>Much emphasis is placed on individual relationships between faculty and students, an interaction vital to a student&rsquo;s creative development. A faculty adviser also helps each student tailor an academic plan to meet his or her interests and needs.
     
-In advertising and strategic communications classes, students often work with actual clients who present real-life problems. This experience gives students a professional perspective on problem-solving in many sectors including nonprofit, retail, small business and community organizations as well as large corporations. Students are encouraged to augment their academic experience with internships.
+<p>In advertising and strategic communications classes, students often work with actual clients who present real-life problems. This experience gives students a professional perspective on problem-solving in many sectors including nonprofit, retail, small business and community organizations as well as large corporations. Students are encouraged to augment their academic experience with internships.
     
-The faculty, with many professional contacts both locally and nationwide, actively help place students in jobs within the state and throughout the country. Students interested in majoring in advertising should contact the college office in 147 Andersen Hall.
+<p>The faculty, with many professional contacts both locally and nationwide, actively help place students in jobs within the state and throughout the country. Students interested in majoring in advertising should contact the college office in 147 Andersen Hall.
 
 MAJOR;
 
 $major->admission = <<<ADMISSION
 <h2>Admission</h2>
 <h3>Admission to the College</h3>
-The entrance requirements for the College of Journalism and Mass Communications, beginning with the fall semester of 1997, are the same as the admission requirements for the University of Nebraska&ndash;Lincoln.
-These include: 
+<p>The entrance requirements for the College of Journalism and Mass Communications, beginning with the fall semester of 1997, are the same as the admission requirements for the University of Nebraska&ndash;Lincoln.
+<p>These include: 
 <ul>
     <li>English (4 units)</li>
     <li>Mathematics (4 units)</li>
@@ -35,26 +35,26 @@ These include:
     <li>Foreign language (2 units).</li>
 </ul>
 
-One unit equals one year of high school credit. Students with one deficiency, two deficiencies but not in the same category, or two deficiencies in foreign language who receive a Deferred Admission or Admission by Review, may be considered for admission to the college. Students who are admitted through the Admission by Review process with core course deficiencies will have certain conditions attached to their enrollment at UNL. Correct…These conditions are explained under Admission to the University,Removal of Deficiencies. on page of this bulletin. High school deficiencies must be removed during the first 30 credit hours of enrollment at UNL (60 hours for foreign language) or the first calendar year, whichever takes longer.
-Readmission
-A student who left the University not in good standing (below a 2.0 grade point average), may be readmitted in the Division of General Studies. Such a student would be eligible to reenter the College of Journalism and Mass Communications upon attaining a 2.0 cumulative GPA.
+<p>One unit equals one year of high school credit. Students with one deficiency, two deficiencies but not in the same category, or two deficiencies in foreign language who receive a Deferred Admission or Admission by Review, may be considered for admission to the college. Students who are admitted through the Admission by Review process with core course deficiencies will have certain conditions attached to their enrollment at UNL. Correct…These conditions are explained under Admission to the University,Removal of Deficiencies. on page of this bulletin. High school deficiencies must be removed during the first 30 credit hours of enrollment at UNL (60 hours for foreign language) or the first calendar year, whichever takes longer.
+<h5>Readmission</h5>
+<p>A student who left the University not in good standing (below a 2.0 grade point average), may be readmitted in the Division of General Studies. Such a student would be eligible to reenter the College of Journalism and Mass Communications upon attaining a 2.0 cumulative GPA.
 
-Students from Other Colleges 
-College of Journalism and Mass Communications courses will be restricted to College of Journalism and Mass Communications majors except where stipulated differently. Students from colleges and departments with a written agreement with the College of Journalism and Mass Communications will be exempt from this policy. Permission may be granted by the dean of the College of Journalism and Mass Communications in special circumstances following the directives provided by the faculty in these matters.
+<h5>Students from Other Colleges</h5> 
+<p>College of Journalism and Mass Communications courses will be restricted to College of Journalism and Mass Communications majors except where stipulated differently. Students from colleges and departments with a written agreement with the College of Journalism and Mass Communications will be exempt from this policy. Permission may be granted by the dean of the College of Journalism and Mass Communications in special circumstances following the directives provided by the faculty in these matters.
 
-ESL Students
-Applicants who speak English as a second language and plan to major in advertising, broadcasting or news-editorial must present a TOEFL score of 600 or higher.  Test of Spoken English) exam: There is no TSE requirement in advertising.
+<h5>ESL Students</h5>
+<p>Applicants who speak English as a second language and plan to major in advertising, broadcasting or news-editorial must present a TOEFL score of 600 or higher.  Test of Spoken English) exam: There is no TSE requirement in advertising.
 
 
 <h3>Admission Deficiency Information</h3>
-Students are encouraged to enroll in natural science courses (with lab) and foreign language courses during their freshman year. The college&rsquo;s policy regarding acceptance of credit for courses taken to remove admission deficiencies is that those credit hours will count toward elective credit but will not count toward the college&rsquo;s ACE or distribution requirements.
+<p>Students are encouraged to enroll in natural science courses (with lab) and foreign language courses during their freshman year. The college&rsquo;s policy regarding acceptance of credit for courses taken to remove admission deficiencies is that those credit hours will count toward elective credit but will not count toward the college&rsquo;s ACE or distribution requirements.
 
 
 
 
 
 <h3>Admission GPA</h3>
-Any student transferring into the college must have at least a 2.0 GPA.  A student with 12 or more hours of college credit must have at least a 2.0 GPA to be admitted or readmitted to the College of    Journalism and Mass Communications.
+<p>Any student transferring into the college must have at least a 2.0 GPA.  A student with 12 or more hours of college credit must have at least a 2.0 GPA to be admitted or readmitted to the College of    Journalism and Mass Communications.
 
 ADMISSION;
 $major->major_requirements = <<<REQ
@@ -68,13 +68,13 @@ JOUR 101, 142, 486, 487; and 6 elective journalism hours
 Students may complete two majors in the College of Journalism and Mass Communications by completing all requirements for each major; however, the second major in the college will not take the place of a 24-hour concentration
 
 <h3>Tracks/Options/Concentrations/Emphases Requirements</h3>   
-Three 12-hour concentrations or one 24-hour concentration and one 12-hour concentration. A specified minor may take the place of one 12-hour concentration. A major of 24 or more hours may take the place of a 24-hour concentration. Any of these options must be from outside the College of Journalism and Mass Communications. The concentration requirement must be fulfilled with at least 36 hours from outside the College of Journalism and Mass Communications. A 24-hour concentration could be satisfied by a major from another college.  No grades less than a C will count toward a minor, or concentration.
+<p>Three 12-hour concentrations or one 24-hour concentration and one 12-hour concentration. A specified minor may take the place of one 12-hour concentration. A major of 24 or more hours may take the place of a 24-hour concentration. Any of these options must be from outside the College of Journalism and Mass Communications. The concentration requirement must be fulfilled with at least 36 hours from outside the College of Journalism and Mass Communications. A 24-hour concentration could be satisfied by a major from another college.  No grades less than a C will count toward a minor, or concentration.
 
-Cross-listed Course Policy
-The College of Journalism and Mass Communications recognizes cross-listed courses as equivalent for the purposes of degree requirements. However, a course taken under one department which is cross-listed cannot be applied in all the majors and minors affected by all the cross-listings of the course until at least 36 hours of course work has been recorded in the concentration requirement.
-Fine and Performing Arts Concentration
-Students in the College of Journalism and Mass Communications may complete a 24-hour interdisciplinary concentration in courses from the College of Fine and Performing Arts. This concentration would include classes in: 1) art and art history; 2) music; 3) theater and film; 4) dance.
-Students would select courses from the following:
+<h5>Cross-listed Course Policy</h5>
+<p>The College of Journalism and Mass Communications recognizes cross-listed courses as equivalent for the purposes of degree requirements. However, a course taken under one department which is cross-listed cannot be applied in all the majors and minors affected by all the cross-listings of the course until at least 36 hours of course work has been recorded in the concentration requirement.
+<h5>Fine and Performing Arts Concentration</h5>
+<p>Students in the College of Journalism and Mass Communications may complete a 24-hour interdisciplinary concentration in courses from the College of Fine and Performing Arts. This concentration would include classes in: 1) art and art history; 2) music; 3) theater and film; 4) dance.
+<p>Students would select courses from the following:
 A. One 3-hour course from each of the four areas    12
 B. Three hours of skills courses (performance or 
 lessons) in one of the four areas   3
