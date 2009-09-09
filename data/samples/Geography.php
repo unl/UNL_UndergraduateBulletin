@@ -8,20 +8,20 @@ $major->hours_required = 120;
 $major->minor_available = true;
 $major->chief_advisor = 'bbieber2';
 $major->description = <<<MAJOR
-<h2>Description</h2>
+<h2 class="sec_header">Description</h2>
 Program Chair: Sunil Narumalani, 302 Hardin Hall
 Professors: Amedeo, Archer, Dewey, Lavin, Lawson, Lonsdale (emeritus), Merchant, Narumalani, Rundquist, Stoddard (emeritus), Wilhite, Wishart
 Associate Professor: Joeckel
 Assistant Professor: Hanson
 Research Assistant Professors: Knutson, Wardlow
 The program of geography offers a wide variety of courses leading to the bachelor of arts and bachelor of science degrees in geography. The objectives of these programs are: 1) to support the goals of a broad liberal education by increasing awareness of the spatial, regional, and environmental aspects of the earth and its peoples; and 2) to provide a specialized knowledge of environmental processes, human-environment relations, American and foreign areas and cultures, and geographic techniques such as cartography, remote sensing and geographic information analysis. An education in geography prepares students for careers in government agencies (e.g., US Census Bureau, Defense Mapping Agency, as well as those involved with foreign service, land management, state tourism, health care delivery systems, environmental assessment, transportation development, land use planning, air traffic control, GIS and cartographic analysis) and a wide variety of businesses, particularly those concerned with environmental mapping, geographic information systems, and planning. A geography major also prepares students for graduate-level degrees in geography, law (especially environmental law), international business, urban and regional planning, and teaching at all levels.
-<h2>Major in Geography</h2>
-The major in geography consists of seven mandatory courses with a common core in human-environment relations. Students should begin their programs with introductory physical and human courses, then move to courses dealing with environmental issues, world regions, and courses in techniques of acquiring and displaying geographic data. An undergraduate seminar which covers historical and philosophical aspects of geography as well as practical matters such as jobs and graduate schools, completes the set of mandatory courses. Beyond this core of required courses are nine hours of electives.
+<h2  class="sec_header">Major in Geography</h2>
+<p>The major in geography consists of seven mandatory courses with a common core in human-environment relations. Students should begin their programs with introductory physical and human courses, then move to courses dealing with environmental issues, world regions, and courses in techniques of acquiring and displaying geographic data. An undergraduate seminar which covers historical and philosophical aspects of geography as well as practical matters such as jobs and graduate schools, completes the set of mandatory courses. Beyond this core of required courses are nine hours of electives.
 Undergraduate Adviser. David Wishart, 320 Hardin Hall, (472-3576)
-Graduate Work. The advanced degrees of master of arts and doctor of philosophy in geography are offered. For details of these programs see the Graduate Studies Bulletin.
+Graduate Work. The advanced degrees of master of arts and doctor of philosophy in geography are offered. For details of these programs see the Graduate Studies Bulletin.</p>
 MAJOR;
 $major->admission = <<<ADMISSION
-<h2>Admission</h2> 
+<h2  class="sec_header">Admission</h2> 
 <h3>College Admission</h3>
 The entrance requirements for the College of Arts and Sciences are the same as the UNL General Admission Requirements (see &ldquo;Admission to the University&rdquo; on page 6). Students who are admitted through the Admission by Review process with core course deficiencies will have certain conditions attached to their enrollment at UNL. These conditions are explained under &ldquo;Removal of Deficiencies&rdquo; on page 6 of this bulletin.
 In addition to these requirements, the College of Arts and Sciences strongly recommends a third and fourth year of languages. Four years of high school language will exempt students from the College of Arts and Sciences&rsquo; 16-hour language requirement. It will also allow students to continue language study at a more advanced level, and give more opportunity to study abroad.
@@ -51,7 +51,7 @@ NOTE: The entrance requirements are different for certain preprofessional progra
 ADMISSION;
 
 $major->additional_major_requirements = <<<ADDITIONAL
-<h2>Other Admission Requirements</h2>
+<h2  class="sec_header">Other Admission Requirements</h2>
 &bull; Major Requirements
 <h3>Core  Requirements</h3>
 <h3>Specific Major Requirements</h3>
@@ -80,7 +80,7 @@ Results of participation in this assessment activity will in no way affect a stu
 ADDITIONAL;
 
 $major->college_degree_requirements = <<<COLLEGE
-<h2>College Degree Requirements</h2>  
+<h2  class="sec_header">College Degree Requirements</h2>  
 <h3>College General Education Requirements</h3>
 Requirements for the Bachelor of Arts Degree
 Students who wish to graduate with a bachelor of arts degree must complete the College graduation requirements, the University ACE requirements, the College of Arts and Sciences distribution requirements, the requirements for a major, and the requirements for a minor or minors if required by the major.
