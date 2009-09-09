@@ -26,7 +26,7 @@
         </tr>
         <tr>
             <td>Minor Available</td>
-            <td><?php echo $this->minor_available; ?></td>
+            <td><?php echo ($this->minor_available)?'Yes':'No'; ?></td>
         </tr>
         <tr>
             <td>Chief Advisor</td>

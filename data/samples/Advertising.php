@@ -9,7 +9,7 @@ $major->hours_required = 125;
 $major->minor_available = false;
 $major->chief_advisor = 'Michael Goff';
 $major->description = <<<MAJOR
-<h2>Description</h2>
+<h2 class="sec_header">Description</h2>
 <h3>Advertising</h3>
 <p>The advertising major prepares students for careers in a wide variety of communication-related areas. Recent graduates have been placed in more than 20 states and several other countries in diverse advertising careers such as retail and corporate advertising and marketing, media sales, brand management, media planning, account management, research, public relations, media relations, special event planning, Internet communications, copywriting and layout and design.
 <p>The advertising faculty believes that a successful career must be built upon a solid foundation, an education that combines theory and practice. To achieve that end, the major offers courses in copywriting, layout, media planning, graphics, campaign development, research, management, and strategic communications. The curriculum is designed to emphasize strategy, planning and implementation in creative problem solving.
@@ -23,7 +23,7 @@ $major->description = <<<MAJOR
 MAJOR;
 
 $major->admission = <<<ADMISSION
-<h2>Admission</h2>
+<h2 class="sec_header">Admission</h2>
 <h3>Admission to the College</h3>
 <p>The entrance requirements for the College of Journalism and Mass Communications, beginning with the fall semester of 1997, are the same as the admission requirements for the University of Nebraska&ndash;Lincoln.
 <p>These include: 
@@ -58,7 +58,7 @@ $major->admission = <<<ADMISSION
 
 ADMISSION;
 $major->major_requirements = <<<REQ
-<h2>Major Requirements</h2>
+<h2 class="sec_header">Major Requirements</h2>
 <h3>Specific Major Requirements</h3>
 The major is 35 hours in advertising<br />
 The courses required for a 35-hour major in advertising are as follows:<br />
@@ -143,13 +143,13 @@ DANC 159 Introduction to the History of Dance   3 cr
 REQ;
 
 $major->additional_major_requirements = <<<ADDITIONAL
-<h2>Additional Major Requirements</h2>
+<h2 class="sec_header">Additional Major Requirements</h2>
 Grade Rules (Pass/No Pass, Specific Grade Rules related to the major) <br />
 No grades less than a C will count toward a major, a minor, or concentration.<br />
 ADDITIONAL;
 
 $major->college_degree_requirements = <<<COLLEGE
-<h2>College Degree Requirements</h2>
+<h2 class="sec_header">College Degree Requirements</h2>
 <h3>College General Education Requirements</h3> 
 <p>To graduate with a bachelor of journalism degree, students must complete requirements from the following areas: the University ACE requirements, the College of Journalism and Mass Communications Distribution Requirements, the requirements for a major offered by the college, and the non-major requirements that are specific to the college.
 <h5>College Distribution Requirements (19 credits + Foreign Language)</h5>
@@ -243,11 +243,11 @@ these 30 hours.
 
 COLLEGE;
 $major->ace_requirements = <<<ACE
-<h2>Ace Requirements</h2>
+<h2 class="sec_header">Ace Requirements</h2>
 <p>All students must fulfill the Achievement Centered Education (ACE) requirements.  College specific information may be found under the College General Education Requirements heading. Information about the ACE program may be viewed at ace.unl.edu.
 ACE;
 $major->other = <<<OTHER
-<h2>Other</h2>
+<h2 class="sec_header">Other</h2>
 <h3>Credit by Examination</h3>
 <p>Through study or experience that parallels a University of Nebraska-Lincoln course, a regularly enrolled university student may feel prepared to pass an examination on the course content for course credit. To apply for credit, a student should:
 <ol> 
@@ -263,7 +263,7 @@ $major->other = <<<OTHER
 <p>The College of Journalism and Mass Communications also gives credit for the subject and general examinations of the College Level Examination Program (CLEP) administered by the College Entrance Examination Board. Inquire in 107 Canfield Administration Building for the current policy regarding CLEP examinations.
  
  
-<h2>Bulletin to Follow:</h2>
+<h2 class="sec_header">Bulletin to Follow:</h2>
 <p>Students who left the university in good standing may be readmitted in the College of Journalism and Mass Communications, and they may choose the bulletin under which they wish to graduate according to the following guidelines:
 <ol>
 <li>Students must fulfill the requirements stated in the Undergraduate Bulletin for the year they enter the College of Journalism and Mass Communications or in any subsequent bulletin published while they are enrolled in the college.</li>
