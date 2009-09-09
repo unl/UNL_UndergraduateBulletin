@@ -18,7 +18,7 @@
     <table class="zentable cool">
         <tr>
             <td>Degrees Offered</td>
-            <td><?php echo $this->degrees_offered; ?></td>
+            <td><?php echo implode(', ',$this->degrees_offered); ?></td>
         </tr>
         <tr>
             <td>Hours Required</td>

@@ -5,7 +5,7 @@ class UNL_UndergraduateBulletin_Major
     
     public $college;
     
-    public $degrees_offered;
+    public $degrees_offered = array();
     
     public $hours_required;
     
