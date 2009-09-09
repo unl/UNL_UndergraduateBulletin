@@ -11,7 +11,7 @@ $page->navlinks     = '
     <li><a href="?view=major">Major</a></li>
 </ul>';
 $page->loadSharedCodeFiles();
-$page->addStylesheet('templates/all.css');
+$page->addStylesheet('templates/css/all.css');
 
 $page->maincontentarea = UNL_UndergraduateBulletin_OutputController::display($this->output, true);
 
