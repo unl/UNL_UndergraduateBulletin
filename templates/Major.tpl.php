@@ -3,3 +3,4 @@
 <?php echo $this->minor_available; ?>
 <?php echo $this->chief_advisor; ?>
 <?php echo $this->description; ?>
+<?php echo $this->admission; ?>

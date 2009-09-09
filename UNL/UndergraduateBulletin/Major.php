@@ -15,18 +15,15 @@ class UNL_UndergraduateBulletin_Major
     
     public $description;
     
+    public $admission;
+    
     static function getByName($name)
     {
         $major = new self();
         switch ($name) {
             case 'Geography':
                 include dirname(__FILE__).'/../../data/samples/'.$name.'.php';
-                $major->title = 'Geography';
-                $major->college = 'Arts & Sciences';
-                $major->hours_required = 120;
-                $major->minor_available = true;
-                $major->chief_advisor = 'bbieber2';
-                $major->description = '';
+                
                 return $major;
         }
         throw new Exception('No major by that name.');
