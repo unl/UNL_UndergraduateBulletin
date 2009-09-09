@@ -74,15 +74,16 @@ JOUR 101, 142, 486, 487; and 6 elective journalism hours<br />
 <p>The College of Journalism and Mass Communications recognizes cross-listed courses as equivalent for the purposes of degree requirements. However, a course taken under one department which is cross-listed cannot be applied in all the majors and minors affected by all the cross-listings of the course until at least 36 hours of course work has been recorded in the concentration requirement.
 <h5>Fine and Performing Arts Concentration</h5>
 <p>Students in the College of Journalism and Mass Communications may complete a 24-hour interdisciplinary concentration in courses from the College of Fine and Performing Arts. This concentration would include classes in: 1) art and art history; 2) music; 3) theater and film; 4) dance.
-<p>Students would select courses from the following:<br />
+<p>Students would select courses from the following:</p>
+<p>
 A. One 3-hour course from each of the four areas    12<br />
 B. Three hours of skills courses (performance or lessons) in one of the four areas   3<br />
 C. One 3-hour &ldquo;capstone&rdquo; course&mdash;a 498 course from one of the four areas 3<br />
-D. Two 3-hour courses in one of the four areas  6<br />
+D. Two 3-hour courses in one of the four areas  6</p>
 
-Course options for students:
-<pre>
+Course options for students:<br />
 I. Art & Art History
+<pre>
 AHIS 101. Art History Survey I
 AHIS 102. Art History Survey  II
 DRAW 101. Drawing (non-majors)
@@ -90,8 +91,10 @@ CERM  131. Ceramics (non-majors)
 PHOT  261. Photography (only offered summers)
 Art Studio 200-level courses: Vis-Lit 140AB and 141AB, as a prerequisite
 Art History 200-level courses: Prerequisite sophomore standing
-Art History 300-level courses: Prerequisite AHIS 101 and AHIS 102 
+Art History 300-level courses: Prerequisite AHIS 101 and AHIS 102
+</pre> 
 II. Theatre & Film
+<pre>
 THEA 112G Intro To Theatre  3 cr
 THEA 114 Basic Acting I 3 cr
 THEA 201 Technical Theatre Practice 3 cr
@@ -100,14 +103,18 @@ THEA 335 History of Theatre I   3 cr
 (prereq THEA 112G)
 THEA 336 History of Theatre II  3 cr
 (prereq THEA 112G)
+</pre>
 III. Music
 Academic Courses
+<pre>
 MUNM 275 Music in Film  3 cr
 MUNM 276G The Music Experience  3 cr
 MUNM 287 History of Rock Music  3 cr
 MUNM 387 History of American Jazz   3 cr
 MUNM 289 Arts: 1945-Present 3 cr
+</pre>
 Ensembles
+<pre>
 MUNM 241 City Campus Choir  1 cr
 MUNM 241 East Campus Choir  1 cr
 MUNM 243 Varsity (men&rsquo;s) Choir  1 cr
@@ -122,7 +129,9 @@ MUNM 251 Big Red Singers    1 cr
 MUNM 253A Jazz Ensemble 1   1 cr
 MUNM 253B Jazz Ensemble 2   1 cr
 MUNM 253E Jazz Vocal Ensemble   1 cr
+</pre>
 IV. Dance
+<pre>
 DANC 112 Modern Dance and Ballet I  3 cr
 DANC 159 Introduction to the History of Dance   3 cr
 </pre>
