@@ -5,6 +5,15 @@
     <li><a href="?view=courses&amp;name=<?php echo $this->title; ?>"><span>Courses</span></a></li>
 </ul>
 <div class="three_col left">
+<ul>
+    <li>Description</li>
+    <li>Admission</li>
+    <li>Major Requirements</li>
+    <li>Additional Major Requirements</li>
+    <li>College Degree Requirements</li>
+    <li>Ace Requirements</li>
+    <li>Other</li>
+</ul>
     <?php echo $this->description; ?>
     <?php echo $this->admission; ?>
     <?php echo $this->major_requirements; ?>
