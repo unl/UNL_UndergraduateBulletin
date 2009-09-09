@@ -14,7 +14,7 @@ Advertising
 The advertising major prepares students for careers in a wide variety of communication-related areas. Recent graduates have been placed in more than 20 states and several other countries in diverse advertising careers such as retail and corporate advertising and marketing, media sales, brand management, media planning, account management, research, public relations, media relations, special event planning, Internet communications, copywriting and layout and design.
 The advertising faculty believes that a successful career must be built upon a solid foundation, an education that combines theory and practice. To achieve that end, the major offers courses in copywriting, layout, media planning, graphics, campaign development, research, management, and strategic communications. The curriculum is designed to emphasize strategy, planning and implementation in creative problem solving.
     
-Much emphasis is placed on individual relationships between faculty and students, an interaction vital to a student’s creative development. A faculty adviser also helps each student tailor an academic plan to meet his or her interests and needs.
+Much emphasis is placed on individual relationships between faculty and students, an interaction vital to a student&rsquo;s creative development. A faculty adviser also helps each student tailor an academic plan to meet his or her interests and needs.
     
 In advertising and strategic communications classes, students often work with actual clients who present real-life problems. This experience gives students a professional perspective on problem-solving in many sectors including nonprofit, retail, small business and community organizations as well as large corporations. Students are encouraged to augment their academic experience with internships.
     
@@ -25,7 +25,7 @@ MAJOR;
 $major->admission = <<<ADMISSION
 <h2>Admission</h2>
 <h3>Admission to the College</h3>
-The entrance requirements for the College of Journalism and Mass Communications, beginning with the fall semester of 1997, are the same as the admission requirements for the University of Nebraska -- Lincoln.
+The entrance requirements for the College of Journalism and Mass Communications, beginning with the fall semester of 1997, are the same as the admission requirements for the University of Nebraska&ndash;Lincoln.
 These include: 
 <ul>
     <li>English (4 units)</li>
@@ -47,7 +47,7 @@ Applicants who speak English as a second language and plan to major in advertisi
 
 
 <h3>Admission Deficiency Information</h3>
-Students are encouraged to enroll in natural science courses (with lab) and foreign language courses during their freshman year. The college’s policy regarding acceptance of credit for courses taken to remove admission deficiencies is that those credit hours will count toward elective credit but will not count toward the college’s ACE or distribution requirements.
+Students are encouraged to enroll in natural science courses (with lab) and foreign language courses during their freshman year. The college&rsquo;s policy regarding acceptance of credit for courses taken to remove admission deficiencies is that those credit hours will count toward elective credit but will not count toward the college&rsquo;s ACE or distribution requirements.
 
 
 
@@ -78,7 +78,7 @@ Students would select courses from the following:
 A. One 3-hour course from each of the four areas    12
 B. Three hours of skills courses (performance or 
 lessons) in one of the four areas   3
-C. One 3-hour “capstone” course—a 498 course from one of the four areas 3
+C. One 3-hour &ldquo;capstone&rdquo; course&mdash;a 498 course from one of the four areas 3
 D. Two 3-hour courses in one of the four areas  6
 
 Course options for students:
@@ -111,9 +111,9 @@ MUNM 289 Arts: 1945-Present 3 cr
 Ensembles
 MUNM 241 City Campus Choir  1 cr
 MUNM 241 East Campus Choir  1 cr
-MUNM 243 Varsity (men’s) Choir  1 cr
+MUNM 243 Varsity (men&rsquo;s) Choir  1 cr
 MUNM 245 University Singers 1 cr
-MUNM 246 University (women’s) Chorale   1 cr
+MUNM 246 University (women&rsquo;s) Chorale   1 cr
 MUNM 247 Symphony Orchestra 1 cr
 MUNM 248A Wind Ensemble 1 cr
 MUNM 248B Symphonic Band    1 cr
@@ -175,10 +175,10 @@ Options for completion of language requirement:
     A student from a foreign country who has demonstrated acceptable proficiency in his or her native language (other than English) is exempted from the Group J requirement without credit toward the degree. U.S. citizens who present acceptable evidence that their second language is English are exempted from the language requirement without credit toward the degree. All such students should see the dean of the College of Journalism and Mass Communications for this exemption.
 Specific Non-Major Requirements
 The College of Journalism and Mass Communications requires all students to complete the following specific course requirements. Many of these may also count toward ACE outcomes or toward distribution requirements:
-A.  Two writing courses—one for ACE outcome 1 and one for the Distribution Requirement Area 1.  One of the two must be from English courses shown for ACE outcome 1.
-B.  Three hours from political science—this counts for Distribution Requirement Area 4.
+A.  Two writing courses&mdash;one for ACE outcome 1 and one for the Distribution Requirement Area 1.  One of the two must be from English courses shown for ACE outcome 1.
+B.  Three hours from political science&mdash;this counts for Distribution Requirement Area 4.
 C.  Six hours from economics. These will also count toward ACE outcomes 6 and 8.
-D.  Nine hours from history—one course for ACE outcome 5, one for Distribution Requirement Area 3, and possibly one for ACE outcome 9.
+D.  Nine hours from history&mdash;one course for ACE outcome 5, one for Distribution Requirement Area 3, and possibly one for ACE outcome 9.
 E.  Nine hours from a humanities department or departments other than history. See ACE outcomes 5 and 9.
 F.  A total of 65 hours selected from the traditional liberal arts departments. See the degree audit for a list of these departments.
 G.  A total of 80 hours from outside the college.
@@ -199,24 +199,24 @@ The college will accept no more than 15 semester hours of grades less than a C f
 o   Pass/No Pass Limits
 Pass/No Pass Privilege
 All courses in the College of Journalism and Mass Communications must be taken for grade only. No journalism course may be taken Pass/No Pass. This applies to both majors and non-majors.
-    The Pass/No Pass (P/N) option is designed to be used by students seeking to expand their intellectual horizons by taking courses in areas where they may have minimum preparation without adversely affecting a student’s grade point average.
-1.  Neither a P (pass) nor an N (no pass) contributes to a student’s GPA.
+    The Pass/No Pass (P/N) option is designed to be used by students seeking to expand their intellectual horizons by taking courses in areas where they may have minimum preparation without adversely affecting a student&rsquo;s grade point average.
+1.  Neither a P (pass) nor an N (no pass) contributes to a student&rsquo;s GPA.
 2.  P (pass) is interpreted to mean a grade of C or better. A student who earns a C- or lower will receive a grade of N.
 3.  After eight weeks, a student registered for   P/N cannot change to a grade registration unless the P/N registration is in conflict with a professor, department, college, or university policy governing P/N.
 4.  P/N is not available to students on academic probation unless the course is offered only that way.
 5.  For undergraduates, the 24-hour college limit shall apply. This limit does not include courses offered on a Pass/No Pass only basis or AP credit. This limit does apply to transfer courses from UNO, UNK, UNMC, and other institutions. It also applies to ES/IS courses.
 6.  P/N hours can count toward fulfillment of group requirements, including concentrations, up to the 24 credit hour maximum. No journalism major may take a journalism course Pass/No Pass.
-7.  Students may change to Pass/No Pass until the eighth week (one-half course completion) if the    P/N registration is not in conflict with a professor, department, college or university policy governing the P/N option. Changing from graded to P/N or from P/N to graded can be completed on WAM! or by filing a drop/add form with the Office of Registration and Records, 107 Canfield Administration Building, and needs no instructor’s approval.
+7.  Students may change to Pass/No Pass until the eighth week (one-half course completion) if the    P/N registration is not in conflict with a professor, department, college or university policy governing the P/N option. Changing from graded to P/N or from P/N to graded can be completed on WAM! or by filing a drop/add form with the Office of Registration and Records, 107 Canfield Administration Building, and needs no instructor&rsquo;s approval.
 
 o   GPA Requirements
 No grades below a C count toward the major, a minor or a concentration.  The college will accept no more than 15 semester hours of grades less than a C from any program outside the University of Nebraska system. No grades less than a C will count toward a major, a minor, or concentration.
 
 
 <h3>Transfer Credit</h3>
-The goal of the following policy is to ensure that students from other campuses meet the same standards required of students who take all their courses at the University of Nebraska—Lincoln’s College of Journalism and Mass Communications.
+The goal of the following policy is to ensure that students from other campuses meet the same standards required of students who take all their courses at the University of Nebraska&ndash;Lincoln&rsquo;s College of Journalism and Mass Communications.
 The college will accept no more than 15 semester hours of grades less than a C from any program outside the University of Nebraska system. No grades less than a C will count toward a major, a minor, or concentration.
     
-The college will accept up to 6 hours in journalism and mass communications courses taken at institutions that do not have an accredited journalism and mass communications program. Students must take the remainder of the required hours in journalism courses on campus at the University of Nebraska—Lincoln.  In advertising, these courses must include 460 and 489 and in broadcasting, 370 and 372 or 360 and 362. In news-editorial, the courses must include 302 and one selected from the following: NEWS 303, 404, or a 400-level writing course. Students from ACEJMC-accredited programs may request equivalency reviews of the required courses at those schools. Degree candidates must accumulate 80 credit hours of non-journalism classes, 65 of those in disciplines listed as liberal arts.
+The college will accept up to 6 hours in journalism and mass communications courses taken at institutions that do not have an accredited journalism and mass communications program. Students must take the remainder of the required hours in journalism courses on campus at the University of Nebraska&ndash;Lincoln.  In advertising, these courses must include 460 and 489 and in broadcasting, 370 and 372 or 360 and 362. In news-editorial, the courses must include 302 and one selected from the following: NEWS 303, 404, or a 400-level writing course. Students from ACEJMC-accredited programs may request equivalency reviews of the required courses at those schools. Degree candidates must accumulate 80 credit hours of non-journalism classes, 65 of those in disciplines listed as liberal arts.
     
 Credit for courses taken at foreign universities and colleges will be transferred only after evaluation by the appropriate professor in the major. This evaluation may include examination of the student over subject matter studied at the foreign institution.  
 
@@ -229,7 +229,7 @@ these 30 hours.
 
 
 <h3>Residency</h3>
-At least 30 of the last 36 hours of credit needed for the degree must be registered for and completed while the student is enrolled in the University of Nebraska–Lincoln. This means the last year of the student’s work must be spent in residence. Open enrollment and summer reading courses do not count toward residence. A maximum of 30 hours of open enrollment and summer reading courses at UNL may be applied toward a degree from the College of Journalism and Mass Communications.
+At least 30 of the last 36 hours of credit needed for the degree must be registered for and completed while the student is enrolled in the University of Nebraska&ndash;Lincoln. This means the last year of the student&rsquo;s work must be spent in residence. Open enrollment and summer reading courses do not count toward residence. A maximum of 30 hours of open enrollment and summer reading courses at UNL may be applied toward a degree from the College of Journalism and Mass Communications.
 
 COLLEGE;
 $major->ace_requirements = <<<ACE
@@ -243,8 +243,8 @@ Through study or experience that parallels a University of Nebraska-Lincoln cour
 1.  Pick up a credit-by-examination form at the Information Window, Office of Registration and Records, 107 Canfield Administration Building; 
 2.  Secure the approval signature of the dean of the college; 
 3.  Have the Credentials Office verify that he or she is currently enrolled; 
-4.  Secure the Bursarâs Receipt for Payment of the examination fee; and 
-5.  Present the completed form to the instructor designated by the dean’s office.
+4.  Secure the Bursar's Receipt for Payment of the examination fee; and 
+5.  Present the completed form to the instructor designated by the dean&rsquo;s office.
 
 The instructor will then give the examination and report the results to the Office of Registration and Records through the dean of the college. A student is not permitted to receive credit by examination in a course that is a prerequisite for one in which he or she already has received credit.
     
@@ -255,7 +255,7 @@ The College of Journalism and Mass Communications also gives credit for the subj
 Students who left the university in good standing may be readmitted in the College of Journalism and Mass Communications, and they may choose the bulletin under which they wish to graduate according to the following guidelines:
 1.  Students must fulfill the requirements stated in the Undergraduate Bulletin for the year they enter the College of Journalism and Mass Communications or in any subsequent bulletin published while they are enrolled in the college.
 2.  A student must, however, meet the requirements from one bulletin only rather than choosing a portion from one bulletin and the remainder from another.
-3.  No returning student may use a bulletin that is 10 years old or older. In addition, any student seeking graduation credit for a College of Journalism and Mass Communications course taken more than 10 years prior to graduation must demonstrate mastery of the material currently included in that course at the proficiency level satisfactory to the college’s advisory committee and one or more faculty members qualified to teach the course in question. Students unable to demonstrate satisfactory mastery of the course material will be required to repeat the original course or a corresponding contemporary course designated by the college’s advisory committee, if the original course is no longer offered.
+3.  No returning student may use a bulletin that is 10 years old or older. In addition, any student seeking graduation credit for a College of Journalism and Mass Communications course taken more than 10 years prior to graduation must demonstrate mastery of the material currently included in that course at the proficiency level satisfactory to the college&rsquo;s advisory committee and one or more faculty members qualified to teach the course in question. Students unable to demonstrate satisfactory mastery of the course material will be required to repeat the original course or a corresponding contemporary course designated by the college&rsquo;s advisory committee, if the original course is no longer offered.
 
 OTHER;
 ?>
