@@ -143,9 +143,9 @@ ADDITIONAL;
 $major->college_degree_requirements = <<<COLLEGE
 <h2>College Degree Requirements</h2>
 <h3>College General Education Requirements</h3> 
-To graduate with a bachelor of journalism degree, students must complete requirements from the following areas: the University ACE requirements, the College of Journalism and Mass Communications Distribution Requirements, the requirements for a major offered by the college, and the non-major requirements that are specific to the college.
-College Distribution Requirements (19 credits + Foreign Language)
-The College distribution requirements (CDR) are designed to further the purposes of liberal education by encouraging study in several different areas. Courses satisfying these requirements may impart specialized knowledge or broadly connect the subject matter to other areas of knowledge. 
+<p>To graduate with a bachelor of journalism degree, students must complete requirements from the following areas: the University ACE requirements, the College of Journalism and Mass Communications Distribution Requirements, the requirements for a major offered by the college, and the non-major requirements that are specific to the college.
+<h5>College Distribution Requirements (19 credits + Foreign Language)</h5>
+<p>The College distribution requirements (CDR) are designed to further the purposes of liberal education by encouraging study in several different areas. Courses satisfying these requirements may impart specialized knowledge or broadly connect the subject matter to other areas of knowledge. 
     All requirements are in addition to University ACE requirements. A student may not use a single course to satisfy more than one of the five College distribution requirements. A student cannot use a single course to satisfy both an ACE outcome and a College distribution requirement. Independent study courses and internships cannot be used to satisfy distribution requirements.
     The five College Distribution Requirements are as follows:
 1.  Written Communication: 3 hours 
@@ -186,15 +186,15 @@ H.  Three 12-hour concentrations or one 24-hour concentration and one 12-hour co
 I.  Thirty of the 125 (or 130) semester hours of credit must be in courses numbered above 299. NOTE: ALEC 397E and ALEC 397K do not count toward these 30 hours.
 
 <h3>Minimum Hours Required for Graduation</h3>
-A minimum of 125 semester hours of credit is required for graduation from the College of Journalism and Mass Communications.
+<p>A minimum of 125 semester hours of credit is required for graduation from the College of Journalism and Mass Communications.
 
-Students who enter the college with fewer than two units of a single foreign language from high school are required to take 130 semester hours as a minimum for the bachelor of journalism degree.
+<p>Students who enter the college with fewer than two units of a single foreign language from high school are required to take 130 semester hours as a minimum for the bachelor of journalism degree.
 
-Candidates for the bachelor of journalism degree must abide by the Accrediting Council on Education in Journalism and Mass Communication accrediting guidelines which require that 80 semester hours of credit be completed in courses outside the College of Journalism and Mass Communications. Sixty-five (65) of the 80 hours must be taken in subjects listed as traditional liberal arts and sciences by the university. See the degree audit for a list of the areas currently considered liberal arts. Students graduating with 125 hours can take no more than 45 hours in the College of Journalism and Mass Communications. Students needing 130 hours to graduate can take no more than 50 hours in College of Journalism and Mass Communication courses. Students wanting to take more than 45 or 50 hours in the college should note that any hours over the 45 or 50 hour limit will be in addition to the hours required to graduate.
+<p>Candidates for the bachelor of journalism degree must abide by the Accrediting Council on Education in Journalism and Mass Communication accrediting guidelines which require that 80 semester hours of credit be completed in courses outside the College of Journalism and Mass Communications. Sixty-five (65) of the 80 hours must be taken in subjects listed as traditional liberal arts and sciences by the university. See the degree audit for a list of the areas currently considered liberal arts. Students graduating with 125 hours can take no more than 45 hours in the College of Journalism and Mass Communications. Students needing 130 hours to graduate can take no more than 50 hours in College of Journalism and Mass Communication courses. Students wanting to take more than 45 or 50 hours in the college should note that any hours over the 45 or 50 hour limit will be in addition to the hours required to graduate.
 
 <h3>Grade Rules</h3>
 o   C- and D Grades 
-The college will accept no more than 15 semester hours of grades less than a C from any program outside the University of Nebraska system. No grades less than a C will count toward a major, a minor, or concentration.
+<p>The college will accept no more than 15 semester hours of grades less than a C from any program outside the University of Nebraska system. No grades less than a C will count toward a major, a minor, or concentration.
 
 o   Pass/No Pass Limits
 Pass/No Pass Privilege
@@ -216,46 +216,50 @@ No grades below a C count toward the major, a minor or a concentration.  The col
 The goal of the following policy is to ensure that students from other campuses meet the same standards required of students who take all their courses at the University of Nebraska&ndash;Lincoln&rsquo;s College of Journalism and Mass Communications.
 The college will accept no more than 15 semester hours of grades less than a C from any program outside the University of Nebraska system. No grades less than a C will count toward a major, a minor, or concentration.
     
-The college will accept up to 6 hours in journalism and mass communications courses taken at institutions that do not have an accredited journalism and mass communications program. Students must take the remainder of the required hours in journalism courses on campus at the University of Nebraska&ndash;Lincoln.  In advertising, these courses must include 460 and 489 and in broadcasting, 370 and 372 or 360 and 362. In news-editorial, the courses must include 302 and one selected from the following: NEWS 303, 404, or a 400-level writing course. Students from ACEJMC-accredited programs may request equivalency reviews of the required courses at those schools. Degree candidates must accumulate 80 credit hours of non-journalism classes, 65 of those in disciplines listed as liberal arts.
+<p>The college will accept up to 6 hours in journalism and mass communications courses taken at institutions that do not have an accredited journalism and mass communications program. Students must take the remainder of the required hours in journalism courses on campus at the University of Nebraska&ndash;Lincoln.  In advertising, these courses must include 460 and 489 and in broadcasting, 370 and 372 or 360 and 362. In news-editorial, the courses must include 302 and one selected from the following: NEWS 303, 404, or a 400-level writing course. Students from ACEJMC-accredited programs may request equivalency reviews of the required courses at those schools. Degree candidates must accumulate 80 credit hours of non-journalism classes, 65 of those in disciplines listed as liberal arts.
     
-Credit for courses taken at foreign universities and colleges will be transferred only after evaluation by the appropriate professor in the major. This evaluation may include examination of the student over subject matter studied at the foreign institution.  
+<p>Credit for courses taken at foreign universities and colleges will be transferred only after evaluation by the appropriate professor in the major. This evaluation may include examination of the student over subject matter studied at the foreign institution.  
 
-Normally, credit is not given for pre-university work. In some instances, it may be possible to receive credit through satisfactory examination.
+<p>Normally, credit is not given for pre-university work. In some instances, it may be possible to receive credit through satisfactory examination.
 
-Course Level Requirements  
-Thirty of the 125 (or 130) semester hours of credit must be in courses numbered above 299. Thirty of the 125 (or 130)
+<h5>Course Level Requirements</h5>  
+<p>Thirty of the 125 (or 130) semester hours of credit must be in courses numbered above 299. Thirty of the 125 (or 130)
 semester hours of credit must be in courses numbered above 299. NOTE: ALEC 397E and ALEC 397K do not count toward
 these 30 hours.
 
 
 <h3>Residency</h3>
-At least 30 of the last 36 hours of credit needed for the degree must be registered for and completed while the student is enrolled in the University of Nebraska&ndash;Lincoln. This means the last year of the student&rsquo;s work must be spent in residence. Open enrollment and summer reading courses do not count toward residence. A maximum of 30 hours of open enrollment and summer reading courses at UNL may be applied toward a degree from the College of Journalism and Mass Communications.
+<p>At least 30 of the last 36 hours of credit needed for the degree must be registered for and completed while the student is enrolled in the University of Nebraska&ndash;Lincoln. This means the last year of the student&rsquo;s work must be spent in residence. Open enrollment and summer reading courses do not count toward residence. A maximum of 30 hours of open enrollment and summer reading courses at UNL may be applied toward a degree from the College of Journalism and Mass Communications.
 
 COLLEGE;
 $major->ace_requirements = <<<ACE
 <h2>Ace Requirements</h2>
-All students must fulfill the Achievement Centered Education (ACE) requirements.  College specific information may be found under the College General Education Requirements heading. Information about the ACE program may be viewed at ace.unl.edu.
+<p>All students must fulfill the Achievement Centered Education (ACE) requirements.  College specific information may be found under the College General Education Requirements heading. Information about the ACE program may be viewed at ace.unl.edu.
 ACE;
 $major->other = <<<OTHER
 <h2>Other</h2>
 <h3>Credit by Examination</h3>
-Through study or experience that parallels a University of Nebraska-Lincoln course, a regularly enrolled university student may feel prepared to pass an examination on the course content for course credit. To apply for credit, a student should: 
-1.  Pick up a credit-by-examination form at the Information Window, Office of Registration and Records, 107 Canfield Administration Building; 
-2.  Secure the approval signature of the dean of the college; 
-3.  Have the Credentials Office verify that he or she is currently enrolled; 
-4.  Secure the Bursar's Receipt for Payment of the examination fee; and 
-5.  Present the completed form to the instructor designated by the dean&rsquo;s office.
+<p>Through study or experience that parallels a University of Nebraska-Lincoln course, a regularly enrolled university student may feel prepared to pass an examination on the course content for course credit. To apply for credit, a student should:
+<ol> 
+<li>Pick up a credit-by-examination form at the Information Window, Office of Registration and Records, 107 Canfield Administration Building;</li> 
+<li>Secure the approval signature of the dean of the college; </li>
+<li>Have the Credentials Office verify that he or she is currently enrolled; </li>
+<li>Secure the Bursar's Receipt for Payment of the examination fee; and </li>
+<li>Present the completed form to the instructor designated by the dean&rsquo;s office.</li>
+</ol>
 
-The instructor will then give the examination and report the results to the Office of Registration and Records through the dean of the college. A student is not permitted to receive credit by examination in a course that is a prerequisite for one in which he or she already has received credit.
+<p>The instructor will then give the examination and report the results to the Office of Registration and Records through the dean of the college. A student is not permitted to receive credit by examination in a course that is a prerequisite for one in which he or she already has received credit.
     
-The College of Journalism and Mass Communications also gives credit for the subject and general examinations of the College Level Examination Program (CLEP) administered by the College Entrance Examination Board. Inquire in 107 Canfield Administration Building for the current policy regarding CLEP examinations.
+<p>The College of Journalism and Mass Communications also gives credit for the subject and general examinations of the College Level Examination Program (CLEP) administered by the College Entrance Examination Board. Inquire in 107 Canfield Administration Building for the current policy regarding CLEP examinations.
  
  
 <h2>Bulletin to Follow:</h2>
-Students who left the university in good standing may be readmitted in the College of Journalism and Mass Communications, and they may choose the bulletin under which they wish to graduate according to the following guidelines:
-1.  Students must fulfill the requirements stated in the Undergraduate Bulletin for the year they enter the College of Journalism and Mass Communications or in any subsequent bulletin published while they are enrolled in the college.
-2.  A student must, however, meet the requirements from one bulletin only rather than choosing a portion from one bulletin and the remainder from another.
-3.  No returning student may use a bulletin that is 10 years old or older. In addition, any student seeking graduation credit for a College of Journalism and Mass Communications course taken more than 10 years prior to graduation must demonstrate mastery of the material currently included in that course at the proficiency level satisfactory to the college&rsquo;s advisory committee and one or more faculty members qualified to teach the course in question. Students unable to demonstrate satisfactory mastery of the course material will be required to repeat the original course or a corresponding contemporary course designated by the college&rsquo;s advisory committee, if the original course is no longer offered.
+<p>Students who left the university in good standing may be readmitted in the College of Journalism and Mass Communications, and they may choose the bulletin under which they wish to graduate according to the following guidelines:
+<ol>
+<li>Students must fulfill the requirements stated in the Undergraduate Bulletin for the year they enter the College of Journalism and Mass Communications or in any subsequent bulletin published while they are enrolled in the college.</li>
+<li>A student must, however, meet the requirements from one bulletin only rather than choosing a portion from one bulletin and the remainder from another.</li>
+<li>No returning student may use a bulletin that is 10 years old or older. In addition, any student seeking graduation credit for a College of Journalism and Mass Communications course taken more than 10 years prior to graduation must demonstrate mastery of the material currently included in that course at the proficiency level satisfactory to the college&rsquo;s advisory committee and one or more faculty members qualified to teach the course in question. Students unable to demonstrate satisfactory mastery of the course material will be required to repeat the original course or a corresponding contemporary course designated by the college&rsquo;s advisory committee, if the original course is no longer offered.</li>
+</ol>
 
 OTHER;
 ?>
