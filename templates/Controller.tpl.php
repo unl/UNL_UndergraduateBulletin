@@ -25,6 +25,7 @@ $page->navlinks     = '
 $page->loadSharedCodeFiles();
 $page->addStylesheet('templates/css/all.css');
 
-$page->maincontentarea = UNL_UndergraduateBulletin_OutputController::display($this->output, true);
+$page->maincontentarea = '<div class="zenbox col right"><h3>This is a Legal Document</h3><a href="#">more information</a></div>';
+$page->maincontentarea .= UNL_UndergraduateBulletin_OutputController::display($this->output, true);
 
 echo $page;
