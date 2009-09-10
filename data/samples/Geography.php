@@ -11,11 +11,11 @@ $major->description = <<<MAJOR
 <h2 class="sec_header">Description</h2>
 
 <p class="intro">The program of geography offers a wide variety of courses leading to the bachelor of arts and bachelor of science degrees in geography. The objectives of these programs are: 1) to support the goals of a broad liberal education by increasing awareness of the spatial, regional, and environmental aspects of the earth and its peoples; and 2) to provide a specialized knowledge of environmental processes, human-environment relations, American and foreign areas and cultures, and geographic techniques such as cartography, remote sensing and geographic information analysis. An education in geography prepares students for careers in government agencies (e.g., US Census Bureau, Defense Mapping Agency, as well as those involved with foreign service, land management, state tourism, health care delivery systems, environmental assessment, transportation development, land use planning, air traffic control, GIS and cartographic analysis) and a wide variety of businesses, particularly those concerned with environmental mapping, geographic information systems, and planning. A geography major also prepares students for graduate-level degrees in geography, law (especially environmental law), international business, urban and regional planning, and teaching at all levels.</p>
-Program Chair: Sunil Narumalani, 302 Hardin Hall
+<p>Program Chair: Sunil Narumalani, 302 Hardin Hall
 Professors: Amedeo, Archer, Dewey, Lavin, Lawson, Lonsdale (emeritus), Merchant, Narumalani, Rundquist, Stoddard (emeritus), Wilhite, Wishart
 Associate Professor: Joeckel
 Assistant Professor: Hanson
-Research Assistant Professors: Knutson, Wardlow
+Research Assistant Professors: Knutson, Wardlow</p>
 <h2  class="sec_header">Major in Geography</h2>
 <p>The major in geography consists of seven mandatory courses with a common core in human-environment relations. Students should begin their programs with introductory physical and human courses, then move to courses dealing with environmental issues, world regions, and courses in techniques of acquiring and displaying geographic data. An undergraduate seminar which covers historical and philosophical aspects of geography as well as practical matters such as jobs and graduate schools, completes the set of mandatory courses. Beyond this core of required courses are nine hours of electives.
 Undergraduate Adviser. David Wishart, 320 Hardin Hall, (472-3576)</p>
