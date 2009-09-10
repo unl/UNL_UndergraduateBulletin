@@ -18,13 +18,13 @@
 #maincontent ol#toc {
     font-size:.65em;
     position:absolute;
-    background-color:#f7f7f7;
+    background:#f7f7f7 url('images/majorContentsLowerBG.png') no-repeat top left;
     list-style: upper-alpha;
     padding:10px 10px 10px 35px;
     min-width:400px;
-    z-index:9;
     margin:-7px 0 0 4px;
-    border:1px solid #ededed;
+    border-right:1px solid #ededed;
+    border-bottom:1px solid #ededed;
     border-radius:5px;
 } 
 #maincontent ol#toc ol { list-style: decimal;padding:0 0 0 25px;}
