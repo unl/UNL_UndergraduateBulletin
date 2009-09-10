@@ -1,15 +1,19 @@
 <?php
 UNL_UndergraduateBulletin_Controller::setReplacementData('doctitle', 'UNL | Undergraduate Bulletin | '.htmlentities($this->title));
-UNL_UndergraduateBulletin_Controller::setReplacementData('head', '<script type="text/javascript">
-WDN.jQuery(document).ready(function() {
-    WDN.jQuery("#major_nav").hover(function() {
-        WDN.jQuery("#major_nav ul").show();
-    },
-    function() {
-        WDN.jQuery("#major_nav ul").hide();
-    });
+UNL_UndergraduateBulletin_Controller::setReplacementData('head', '
+<script type="text/javascript">
+wraphandler.addEvent(window,"load",
+function() {
+    WDN.jQuery("#major_nav").hover(
+        function() {
+            WDN.jQuery("#major_nav ul").show();
+        },
+        function() {
+            WDN.jQuery("#major_nav ul").hide();
+        });
     WDN.jQuery("#major_nav ul").hide();
-});</script>');
+});
+</script>');
 ?>
 <h1><?php echo $this->title; ?></h1>
 <h2 class="subhead">College of <?php echo $this->college; ?></h2>
