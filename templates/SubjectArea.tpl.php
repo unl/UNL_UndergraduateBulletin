@@ -68,37 +68,33 @@ foreach ($this->courses as $course) {
         <dd class='course'>";
         echo  '<table class="zentable cool details">';
         echo  '<tr class="credits">
-                                    <td class="label">Credit Hours:</td>
-                                    <td class="value">'.$credits.'</td>
-                                    </tr>';
+                <td class="label">Credit Hours:</td>
+                <td class="value">'.$credits.'</td>
+                </tr>';
         if (!empty($format)) {
             echo  '<tr class="format">
-                                        <td class="label">Course Format:</td>
-                                        <td class="value">'.$format.'</td>
-                                        </tr>';
+                    <td class="label">Course Format:</td>
+                    <td class="value">'.$format.'</td>
+                   </tr>';
         }
         if (count($course->campuses) == 1
             && $course->campuses[0] != 'UNL') {
             echo  '<tr class="campus">
-                                        <td class="label">Campus:</td>
-                                        <td class="value">'.implode(', ', $course->campuses).'</td>
-                                        </tr>';
+                    <td class="label">Campus:</td>
+                    <td class="value">'.implode(', ', $course->campuses).'</td>
+                   </tr>';
         }
-//        echo  '<tr class="termsOffered alt">
-//                                    <td class="label">Terms Offered:</td>
-//                                    <td class="value">'.implode(', ', $course->termsOffered).'</td>
-//                                    </tr>';
         echo  '<tr class="deliveryMethods">
-                                    <td class="label">Course Delivery:</td>
-                                    <td class="value">'.implode(', ', $course->deliveryMethods).'</td>
-                                    </tr>';
+                <td class="label">Course Delivery:</td>
+                <td class="value">'.implode(', ', $course->deliveryMethods).'</td>
+               </tr>';
         $ace = '';
         if (!empty($course->aceOutcomes)) {
             $ace = implode(', ', $course->aceOutcomes);
             echo  '<tr class="aceOutcomes">
-                                        <td class="label">ACE Outcomes:</td>
-                                        <td class="value">'.$ace.'</td>
-                                        </tr>';
+                    <td class="label">ACE Outcomes:</td>
+                    <td class="value">'.$ace.'</td>
+                   </tr>';
         }
         echo  '</table>';
 
