@@ -68,4 +68,6 @@ WDN.jQuery(document).ready(function() {
     <ul>
     <li><?php echo implode(', ',$this->degrees_offered); ?></li>
     </ul>
+    <h3>Featured Faculty</h3>
+    <h3>Related Majors</h3>
 </div>
