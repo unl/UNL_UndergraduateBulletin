@@ -5,7 +5,7 @@
 $major->title = 'Advertising';
 $major->college = 'College of Journalism and Mass Communications';
 $major->degrees_offered[] = 'Bachelor of Journalism';
-$major->hours_required = 125;
+$major->hours_required = "125-130";
 $major->minor_available = false;
 $major->chief_advisor = 'Michael Goff';
 $major->description = <<<MAJOR

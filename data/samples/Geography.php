@@ -6,7 +6,7 @@ $major->title = 'Geography';
 $major->college = 'Arts &amp; Sciences';
 $major->hours_required = 120;
 $major->minor_available = true;
-$major->chief_advisor = 'bbieber2';
+$major->chief_advisor = 'Dr. Bieber';
 $major->description = <<<MAJOR
 <h2 class="sec_header">Description</h2>
 

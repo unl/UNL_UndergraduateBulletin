@@ -11,13 +11,13 @@ UNL_UndergraduateBulletin_Controller::setReplacementData('head', '<script type="
 </ul>
 <?php
     $regions = array(
-    'description'=>'Description',
-    'admission'=>'Admission',
-    'major_requirements'=>'Major Requirements',
-    'additional_major_requirements'=>'Additional Major Requirements',
-    'college_degree_requirements'=>'College Degree Requirements',
-    'ace_requirements'=>'Ace Requirements',
-    'other'=>'Other',
+    'description'                   => 'Description',
+    'admission'                     => 'Admission',
+    'major_requirements'            => 'Major Requirements',
+    'additional_major_requirements' => 'Additional Major Requirements',
+    'college_degree_requirements'   => 'College Degree Requirements',
+    'ace_requirements'              => 'Ace Requirements',
+    'other'                         => 'Other',
     );
 ?>
 <div class="three_col left">
