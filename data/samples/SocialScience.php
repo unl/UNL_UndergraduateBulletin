@@ -20,18 +20,18 @@ ADMISSION;
 $major->major_requirements = <<<REQ
 <h2 class="sec_header">Major Requirements</h2>
 <h3>Core  Requirements</h3>
-Pre-Professional Education Requirements<br />
-(16 hours)<br />
-Students must complete the following courses before applying to the Secondary Teacher Education Program:<br />
-EDPS 251 (3 hrs)<br />
-EDPS 297 (1 hr)<br />
-TEAC 331, 430, 431, 434, 437, or 496 (3 hrs) or approved transfer course Approved speech class (3 hrs)<br />
-<br />
-Students may complete the following courses prior to acceptance into the Secondary Teacher<br />
-Education Program:<br />
-
-TEAC 259 (Students in business education are not required to take TEAC 259) (3 hrs)<br />
-TEAC 330 (3 hrs)Specific Program Requirements<br />
+<h4>Pre-Professional Education Requirements (16 hours)</h4>
+<p>Students must complete the following courses before applying to the Secondary Teacher Education Program:</p>
+<ul>
+<li>EDPS 251 (3 hrs)</li>
+<li>EDPS 297 (1 hr)</li>
+<li>TEAC 331, 430, 431, 434, 437, or 496 (3 hrs) or approved transfer course Approved speech class (3 hrs)</li>
+</ul>
+<p>Students may complete the following courses prior to acceptance into the Secondary Teacher Education Program:</p>
+<ul>
+<li>TEAC 259 (Students in business education are not required to take TEAC 259) (3 hrs)</li>
+<li>TEAC 330 (3 hrs)Specific Program Requirements</li>
+</ul>
 
 <p>
 Secondary education endorsements (or majors) are divided into fields or single subjects. Students
@@ -42,7 +42,7 @@ enhance employment possibilities. Endorsements that require two subjects are not
 in the &ldquo;Endorsements&rdquo; section. Students may contact the College Student Services Center, 105 Henzlik
 Hall, for additional information or an explanation of the requirements.
 </p>
-Social Science 7-12 is a field endorsement.
+<p><em>Social Science 7-12 is a field endorsement.</em></p>
 
 
 <h5>Specific Major Requirements</h5>
