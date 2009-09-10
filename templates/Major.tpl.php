@@ -30,7 +30,7 @@ WDN.jQuery(document).ready(function() {
 ?>
 <div class="three_col left">
     <div id="major_nav">
-        <a href="#">Contents</a>
+        <a href="#" id="majorContent">Contents</a>
         <ul style="display:none;">
             <?php
             foreach ($regions as $id=>$title) { 
