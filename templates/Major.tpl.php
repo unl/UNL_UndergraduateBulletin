@@ -1,6 +1,7 @@
 <?php
 UNL_UndergraduateBulletin_Controller::setReplacementData('doctitle', 'UNL | Undergraduate Bulletin | '.htmlentities($this->title));
-UNL_UndergraduateBulletin_Controller::setReplacementData('head', '<script type="text/javascript" src="templates/scripts/jQuery.toc.js"></script><script type="text/javascript" src="templates/scripts/majors.js"></script>');
+UNL_UndergraduateBulletin_Controller::setReplacementData('head', '<script type="text/javascript" src="templates/scripts/jQuery.toc.js"></script>
+                                                                  <script type="text/javascript" src="templates/scripts/majors.js"></script>');
 ?>
 <h1><?php echo $this->title; ?></h1>
 <h2 class="subhead">College of <?php echo $this->college; ?></h2>

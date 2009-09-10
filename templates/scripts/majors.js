@@ -1,4 +1,5 @@
-WDN.jQuery(document).ready(function() {
+
+wraphandler.addEvent(window,"load", function() {
     WDN.jQuery("#major_nav").hover(function() {
         WDN.jQuery("#major_nav ol").show();
     },
