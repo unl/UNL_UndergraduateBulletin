@@ -18,6 +18,7 @@ $page->navlinks     = '
         <ul>
             <li><a href="?view=major&amp;name=Advertising">Advertising</a></li>
             <li><a href="?view=major&amp;name=Geography">Geography</a></li>
+            <li><a href="?view=major&amp;name=SocialScience">Social Science Endorsement</a></li>
         </ul>
     </li>
 </ul>';
