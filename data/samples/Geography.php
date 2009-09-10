@@ -109,17 +109,17 @@ $major->college_degree_requirements = <<<COLLEGE
 <p>Courses from interdisciplinary programs will count in the same area as courses from the home/cross-listed department(s). See <a href="http://ascweb.unl.edu/academics/depts.html">http://ascweb.unl.edu/academics/depts.html</a> for a complete list.</p>
 <h5>Bachelor of Arts or Bachelor of Science  (19 credits + Language)</h5>
 <ol style="list-style-type: upper-alpha;">
-<li>Written Communication: 3 hours</br />
+<li>Written Communication: 3 hours<br />
 To be selected from courses approved for ACE outcome 1.</li>
 <li>Natural, Physical and Mathematical Sciences: 7 hours <br />
 From two different departments, including at least one lab science course from the natural or physical sciences. Lab courses may be selected from biochemistry, biological sciences, chemistry, geology, meteorology, physics and astronomy, geography, and anthropology*. All other courses select from: biochemistry, biological sciences, chemistry, computer science and engineering, geology, meteorology, mathematics, physics and astronomy, and statistics.<br />
 <em>* See degree audit or College of Arts and Sciences adviser for approved geography and anthropology lab courses, approved non-lab psychology courses, or courses cross-listed with an Arts and Sciences department.</em></li>
-<li>Humanities: 6 hours</br />
+<li>Humanities: 6 hours<br />
 From two different departments, select from classics*, English, history, modern languages and literatures*, philosophy, and religious studies*.<br />
 <em>*Language courses numbered 210 or below apply only for the foreign language requirement.</em></li>
-<li>Social Sciences: 3 hours</br />
+<li>Social Sciences: 3 hours<br />
 Select from anthropology, communication studies, geography, political science, psychology, or sociology</li>
-<li>Languages Classical and Modern: 0-6 hours</br />
+<li>Languages Classical and Modern: 0-6 hours<br />
 Fulfilled by the completion of the 6-credit-hour second-year sequence in a single foreign language in one of the following departments: Classics and religious studies, modern languages and literatures, or anthropology. Instruction is currently available in Biblical Hebrew, Chinese, Czech, French, German, Greek, Japanese, Latin, Omaha, Russian, and Spanish. A student who has completed the fourth-year level of one foreign language in high school is exempt from the languages requirement.</li></ol>    
 
 <p>In addition to the College of Arts and  Sciences distribution requirements, the bachelor of science degree requires students to complete 60 semester hours in the natural and mathematical sciences.</p>
@@ -153,13 +153,13 @@ The Department of Modern Languages will oversee the test and provide written doc
 <h5>Third Language Option</h5>
 <p>If a student demonstrates knowledge of two foreign languages at the 102 level, the College of Arts and Sciences may consider waiving two semesters of the four semester College Distribution Requirements Area 5 languages requirement. If this waiver were granted, the student would then be required to complete 101 and 102 in another (3rd language) at UNL.</p>
 <h3>Minimum Hours Required for Graduation</h3>
-<p>A minimum of 125 semester hours of credit is required for graduation from the College of Arts and Sciences. Students who enter the College with fewer than two units of one foreign language from high school are required to take 130 semester hours as a minimum for the bachelor of arts or bachelor of science degree. 
+<p>A minimum of 125 semester hours of credit is required for graduation from the College of Arts and Sciences. Students who enter the College with fewer than two units of one foreign language from high school are required to take 130 semester hours as a minimum for the bachelor of arts or bachelor of science degree.</p> 
 <h3>Grade Rules </h3>
 <h4>C- and D grades</h4>
 <p>The College will accept no more than 15 semester hours of C- and D grades from other schools except for UNO and UNK. No transfer C- and D grades can be applied toward requirements in a major or a minor. No UNL C- and D grades can be applied toward requirements in a major or a minor.</p>
 <h4>Pass/No Pass Limits</h4>
 <p>University regulations for the Pass/No Pass (P/N) privilege state:</p>
-<blockquote>The Pass/No Pass option is designed for your use by seeking to expand your intellectual horizons by taking courses in areas where you may have had minimal preparation.</blockqoute>
+<blockquote>The Pass/No Pass option is designed for your use by seeking to expand your intellectual horizons by taking courses in areas where you may have had minimal preparation.</blockquote>
 <p>For students in Arts and Sciences, the University regulations for Pass/No Pass apply as follows:</p>
 <ol>
 <li>Neither the P nor the N grade contribute to your GPA.</li>
@@ -226,10 +226,10 @@ The Department of Modern Languages will oversee the test and provide written doc
 <li>Maximum 4 hours Activity PE, Athletic Practice, or Basic Military Science with a maximum of 1 credit hour per semester.</li>
 <li>Maximum 12 hours total from any combination of the following areas:
 	<ul>
-		<li>Athletic Coaching (except ATHC 279)
-		<li>First Aid (NUTR 170 at UNL)
-		<li>Orientation and Study Skills. For example at UNL: ALEC 397E and 397K (neither course is applicable to the courses numbered above 299 requirement); ASCI 107; BIOC 101; BIOS 150, 160; EDPS 150, 209; FDST 107; HRFS 183; NRES 101; NUTR 150; PSYC 100, 150; TEAC 210; VBMS 101
-		<li>Military Science, Naval Science, or Aerospace Studies. (This restriction does not apply to cross-listed courses between military science, naval science, or aerospace studies and departments of the College of Arts and Sciences.)
+		<li>Athletic Coaching (except ATHC 279)</li>
+		<li>First Aid (NUTR 170 at UNL)</li>
+		<li>Orientation and Study Skills. For example at UNL: ALEC 397E and 397K (neither course is applicable to the courses numbered above 299 requirement); ASCI 107; BIOC 101; BIOS 150, 160; EDPS 150, 209; FDST 107; HRFS 183; NRES 101; NUTR 150; PSYC 100, 150; TEAC 210; VBMS 101</li>
+		<li>Military Science, Naval Science, or Aerospace Studies. (This restriction does not apply to cross-listed courses between military science, naval science, or aerospace studies and departments of the College of Arts and Sciences.)</li>
 	</ul></li>
 <li>Any restrictions noted specifically by departments. Credit towards the degree may be earned in only one course, including honors sections, from each group of courses listed below:
 <ul>

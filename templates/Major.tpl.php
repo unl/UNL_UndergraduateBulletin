@@ -1,19 +1,6 @@
 <?php
 UNL_UndergraduateBulletin_Controller::setReplacementData('doctitle', 'UNL | Undergraduate Bulletin | '.htmlentities($this->title));
-UNL_UndergraduateBulletin_Controller::setReplacementData('head', '
-<script type="text/javascript">
-wraphandler.addEvent(window,"load",
-function() {
-    WDN.jQuery("#major_nav").hover(
-        function() {
-            WDN.jQuery("#major_nav ul").show();
-        },
-        function() {
-            WDN.jQuery("#major_nav ul").hide();
-        });
-    WDN.jQuery("#major_nav ul").hide();
-});
-</script>');
+UNL_UndergraduateBulletin_Controller::setReplacementData('head', '<script type="text/javascript" src="templates/scripts/jQuery.toc.js"></script><script type="text/javascript" src="templates/scripts/majors.js"></script>');
 ?>
 <h1><?php echo $this->title; ?></h1>
 <h2 class="subhead">College of <?php echo $this->college; ?></h2>
@@ -35,16 +22,9 @@ function() {
 <div class="three_col left">
     <div id="major_nav">
         <a href="#" id="majorContent">Contents</a>
-        <ul style="display:none;">
-            <?php
-            foreach ($regions as $id=>$title) { 
-                if (!empty($this->$id)) {
-                    echo '<li><a href="#'.$id.'">'.$title.'</a></li>';
-                }    
-            }
-            ?>
-        </ul>
+        <ol id="toc"></ol>
     </div>
+    <div id="long_content">
     <?php
     foreach ($regions as $id=>$title) { 
         if (!empty($this->$id)) {
@@ -52,6 +32,7 @@ function() {
         }    
     }
     ?>
+    </div>
 </div>
 <div class="col right">
     <table class="zentable cool">
@@ -73,5 +54,5 @@ function() {
     <li><?php echo implode(', ',$this->degrees_offered); ?></li>
     </ul>
     <h3>Featured Faculty</h3>
-    <h3>Related Majors</h3>
+    <h3 id="relatedMajors">Related Majors</h3>
 </div>
