@@ -6,8 +6,9 @@ class UNL_UndergraduateBulletin_Controller
     public $options = array('view'=>'index');
     
     protected $view_map = array(
-        'index' => 'displayIndex',
-        'major' => 'displayMajor');
+        'index'   => 'displayIndex',
+        'major'   => 'displayMajor',
+        'courses' => 'displayCourses');
     
     function __construct($options = array())
     {
@@ -32,5 +33,9 @@ class UNL_UndergraduateBulletin_Controller
         $this->output[] = UNL_UndergraduateBulletin_Major::getByName($this->options['name']);
     }
     
+    function displayCourses()
+    {
+        $this->output[] = new UNL_Services_CourseApproval_SubjectArea('GEOG');
+    }
 }
 ?>

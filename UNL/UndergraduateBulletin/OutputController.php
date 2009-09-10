@@ -8,7 +8,9 @@ class UNL_UndergraduateBulletin_OutputController
     
     static $directory_separator   = '_';
     
-    static $classname_replacement = 'UNL_UndergraduateBulletin_';
+    static $classname_replacement = array(
+        'UNL_UndergraduateBulletin_',
+        'UNL_Services_CourseApproval_');
     
     static protected $cache;
     
@@ -146,10 +148,11 @@ class UNL_UndergraduateBulletin_OutputController
             $class = self::$output_template[$class];
         }
         
-        $class = str_replace(array(self::$classname_replacement,
-                                   self::$directory_separator),
-                             array('',
-                                   DIRECTORY_SEPARATOR),
+        $class = str_replace(self::$classname_replacement,
+                             '',
+                             $class);
+        $class = str_replace(self::$directory_separator,
+                             DIRECTORY_SEPARATOR,
                              $class);
         
         if (!empty(self::$template_path)) {

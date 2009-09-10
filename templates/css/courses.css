@@ -1,0 +1,22 @@
+.course .subjectCode {background-color:#E7F0F9;margin-bottom:-1px;color:#818489;display:block;float:left;min-width:85px;text-align:center;}
+.course .number {font-size:2.5em;padding:7px 0px;margin:0 5px 0 0;background-color:#E7F0F9;display:block;clear:left;float:left;font-weight:bold;min-width:85px;text-align:center;}
+.course .title {font-size:1.5em; display:block; border-bottom:1px solid #C8C8C8;font-style:normal;font-weight:bold;margin-left:95px;}
+.course .crosslistings {margin:4px 0 4px 95px;display:block;}
+.course .crosslistings .crosslisting {font-size:1em;color:#C60203;background:none;}
+
+.course .prereqs,
+.course .notes,
+.course .description {margin:4px 0;float:left;clear:left;width:450px;}
+
+.course .prereqs {color:#0F900A;font-weight:bold;}
+.course .notes {font-style:italic;}
+.course .description {border-left:3px solid #C8C8C8;padding-left:5px;}
+
+.course .details {width:220px;border-collapse:collapse;right:0px;float:right;}
+.course .details tr.alt td {border:1px solid #C9E2F6;border-right:none;border-left:none;background-color:#E3F0FF;}
+.course .details td {}
+.course .details .label {font-weight:bold;}
+.course .details .value {text-align:right;}
+dd {margin:0 0 3em 0;padding-left:0 !important;position:relative;overflow:hidden;}
+dt {padding:3em 0 0 0 !important;}
+.course {clear:both;}
