@@ -52,10 +52,6 @@ WDN.jQuery(document).ready(function() {
 <div class="col right">
     <table class="zentable cool">
         <tr>
-            <td>Degrees Offered</td>
-            <td><?php echo implode(', ',$this->degrees_offered); ?></td>
-        </tr>
-        <tr>
             <td>Hours Required</td>
             <td><?php echo $this->hours_required; ?></td>
         </tr>
@@ -68,4 +64,8 @@ WDN.jQuery(document).ready(function() {
             <td><?php echo $this->chief_advisor; ?></td>
         </tr>
     </table>
+    <h3>Degrees Offered</h3>
+    <ul>
+    <li><?php echo implode(', ',$this->degrees_offered); ?></li>
+    </ul>
 </div>
