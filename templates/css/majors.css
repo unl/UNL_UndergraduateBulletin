@@ -1,4 +1,3 @@
-
 #maincontent h2.subhead {
     text-transform:uppercase;
     color:#3f85ca;
@@ -17,7 +16,17 @@
     position:absolute;
     background-color:#eee;
 }
-
+#major_nav a#majorContent {
+	background:url('images/majorContents.png');
+	width:135px;
+	height:30px;
+	display:block;
+	padding:8px 0 0 50px;
+	color:#3f85ca;
+	}
+#major_nav a#majorContent:active, #major_nav a#majorContent:focus {
+	color:#3f85ca !important;
+	}
 a.top {
 	float:right;
 }
