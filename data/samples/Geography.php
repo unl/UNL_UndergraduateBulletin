@@ -50,21 +50,24 @@ In addition to these requirements, the College of Arts and Sciences strongly rec
 <h4>Removing Other Deficiencies</h4>
 <p>Contact the Arts and Sciences Advising Center for specific courses to remove other entrance deficiencies.</p>
 <p><em>NOTE: The entrance requirements are different for certain preprofessional programs in the College of Arts and Sciences see &ldquo;Pre-Professional Programs and Combined Degree Programs&rdquo; on page 217.</em></p>
+<h3>Other Admission Requirements</h3>
 ADMISSION;
 
 $major->additional_major_requirements = <<<ADDITIONAL
-<h2  class="sec_header">Other Admission Requirements</h2>
-&bull; Major Requirements
+<h2  class="sec_header">Major Requirements</h2>
 <h3>Core  Requirements</h3>
 <h4>Specific Major Requirements</h4>
-The major entails a total of 30 hours
-GEOG 140 Introductory Human Geography or GEOG 120 Economic Geography    3hrs
-GEOG 155 Elements of Physical Geography 4hrs
-GEOG 181 Quality of the Environment 3hrs
-GEOG 272 World Regions  3hrs
-Techniques (see listing), with at least 3 hrs numbered 400 or above 6 hrs
-GEOG 402 Senior Seminar 2 hrs
-Elective Geography courses  9hrs
+<p>The major entails a total of 30 hours:</p>
+<ul>
+
+<li>GEOG 140 Introductory Human Geography or GEOG 120 Economic Geography    3hrs</li>
+<li>GEOG 155 Elements of Physical Geography 4hrs</li>
+<li>GEOG 181 Quality of the Environment 3hrs</li>
+<li>GEOG 272 World Regions  3hrs</li>
+<li>Techniques (see listing), with at least 3 hrs numbered 400 or above 6 hrs</li>
+<li>GEOG 402 Senior Seminar 2 hrs</li>
+<li>Elective Geography courses  9hrs</li>
+</ul>
 
 Of the total 30 hours, 14 hours must be numbered 300 or above. Students wishing to combine a geography major with other majors environmental studies, for example, should see the respective advisers.
 <h3>Tracks/Options/Concentrations/Emphases Requirements</h3>
