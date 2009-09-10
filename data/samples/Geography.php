@@ -17,8 +17,9 @@ Research Assistant Professors: Knutson, Wardlow
 <p>The program of geography offers a wide variety of courses leading to the bachelor of arts and bachelor of science degrees in geography. The objectives of these programs are: 1) to support the goals of a broad liberal education by increasing awareness of the spatial, regional, and environmental aspects of the earth and its peoples; and 2) to provide a specialized knowledge of environmental processes, human-environment relations, American and foreign areas and cultures, and geographic techniques such as cartography, remote sensing and geographic information analysis. An education in geography prepares students for careers in government agencies (e.g., US Census Bureau, Defense Mapping Agency, as well as those involved with foreign service, land management, state tourism, health care delivery systems, environmental assessment, transportation development, land use planning, air traffic control, GIS and cartographic analysis) and a wide variety of businesses, particularly those concerned with environmental mapping, geographic information systems, and planning. A geography major also prepares students for graduate-level degrees in geography, law (especially environmental law), international business, urban and regional planning, and teaching at all levels.</p>
 <h2  class="sec_header">Major in Geography</h2>
 <p>The major in geography consists of seven mandatory courses with a common core in human-environment relations. Students should begin their programs with introductory physical and human courses, then move to courses dealing with environmental issues, world regions, and courses in techniques of acquiring and displaying geographic data. An undergraduate seminar which covers historical and philosophical aspects of geography as well as practical matters such as jobs and graduate schools, completes the set of mandatory courses. Beyond this core of required courses are nine hours of electives.
-Undergraduate Adviser. David Wishart, 320 Hardin Hall, (472-3576)
-Graduate Work. The advanced degrees of master of arts and doctor of philosophy in geography are offered. For details of these programs see the Graduate Studies Bulletin.</p>
+Undergraduate Adviser. David Wishart, 320 Hardin Hall, (472-3576)</p>
+<h4>Graduate Work</h4>
+<p> The advanced degrees of master of arts and doctor of philosophy in geography are offered. For details of these programs see the <a href="http://bulletin.unl.edu">Graduate Studies Bulletin</a>.</p>
 MAJOR;
 $major->admission = <<<ADMISSION
 <h2  class="sec_header">Admission</h2> 
@@ -60,13 +61,13 @@ $major->additional_major_requirements = <<<ADDITIONAL
 <p>The major entails a total of 30 hours:</p>
 <ul>
 
-<li>GEOG 140 Introductory Human Geography or GEOG 120 Economic Geography    3hrs</li>
-<li>GEOG 155 Elements of Physical Geography 4hrs</li>
-<li>GEOG 181 Quality of the Environment 3hrs</li>
-<li>GEOG 272 World Regions  3hrs</li>
-<li>Techniques (see listing), with at least 3 hrs numbered 400 or above 6 hrs</li>
-<li>GEOG 402 Senior Seminar 2 hrs</li>
-<li>Elective Geography courses  9hrs</li>
+<li><a href="#">GEOG 140 Introductory Human Geography</a> or <a href="#">GEOG 120 Economic Geography</a>    (3hrs)</li>
+<li><a href="#">GEOG 155 Elements of Physical Geography</a> (4hrs)</li>
+<li><a href="#">GEOG 181 Quality of the Environment</a> (3hrs)</li>
+<li><a href="#">GEOG 272 World Regions</a>  (3hrs)</li>
+<li>Techniques (see listing), with at least 3 hrs numbered 400 or above (6 hrs)</li>
+<li><a href="#">GEOG 402 Senior Seminar</a> (2 hrs)</li>
+<li>Elective Geography courses  (9hrs)</li>
 </ul>
 
 Of the total 30 hours, 14 hours must be numbered 300 or above. Students wishing to combine a geography major with other majors environmental studies, for example, should see the respective advisers.
