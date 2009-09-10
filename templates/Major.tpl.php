@@ -17,27 +17,37 @@ WDN.jQuery(document).ready(function() {
     <li><a href="?view=major&amp;name=<?php echo $this->title; ?>"><span>Description</span></a></li>
     <li><a href="?view=courses&amp;name=<?php echo $this->title; ?>"><span>Courses</span></a></li>
 </ul>
+<?php
+    $regions = array(
+    'description'=>'Description',
+    'admission'=>'Admission',
+    'major_requirements'=>'Major Requirements',
+    'additional_major_requirements'=>'Additional Major Requirements',
+    'college_degree_requirements'=>'College Degree Requirements',
+    'ace_requirements'=>'Ace Requirements',
+    'other'=>'Other',
+    );
+?>
 <div class="three_col left">
     <div id="major_nav">
         <a href="#">Contents</a>
-        <ul>
-            <li><a href="#description">Description</a></li>
-            <li><a href="#admission">Admission</a></li>
-            <li><a href="#major_req">Major Requirements</a></li>
-            <li><a href="#additional_req">Additional Major Requirements</a></li>
-            <li><a href="#college_req">College Degree Requirements</a></li>
-            <li><a href="#ace_req">Ace Requirements</a></li>
-            <li><a href="#other">Other</a></li>
+        <ul style="display:none;">
+            <?php
+            foreach ($regions as $id=>$title) { 
+                if (!empty($this->$id)) {
+                    echo '<li><a href="'.$id.'">'.$title.'</a></li>';
+                }    
+            }
+            ?>
         </ul>
     </div>
-    <?php echo $this->description; ?>
-    <?php echo $this->admission; ?>
-    <?php echo $this->major_requirements; ?>
-    <?php echo $this->additional_major_requirements; ?>
-    <?php echo $this->college_degree_requirements; ?>
-    <?php echo $this->requirements_for_minor; ?>
-    <?php echo $this->ace_requirements; ?>
-    <?php echo $this->other; ?>
+    <?php
+    foreach ($regions as $id=>$title) { 
+        if (!empty($this->$id)) {
+            echo '<div id="'.$id.'">'.$this->$id.'</div>';
+        }    
+    }
+    ?>
 </div>
 <div class="col right">
     <table class="zentable cool">
