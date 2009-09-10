@@ -45,7 +45,7 @@ Hall, for additional information or an explanation of the requirements.
 <p><em>Social Science 7-12 is a field endorsement.</em></p>
 
 
-<h5>Specific Major Requirements</h5>
+<h3>Specific Major Requirements</h3>
 Specific Program Requirements Social Science. (Grades 7-12) 62-63 hours:<br />
 Endorsement Courses (62-63 hrs)<br />
 <br />
@@ -233,7 +233,7 @@ HIST 486 History of South Africa (Area H)<br />
 <p>
 Note:  Not all courses on these lists of approved courses are taught on a regular basis.  Some require Junior or Senior status.
 </p>
-<h5>Professional Education Requirements</h5>
+<h4>Professional Education Requirements</h4>
 <p>
 Professional Education (28 hours): TEAC 397, 403, 451, 452, 3 hrs each; 497 10 hrs; 497Y, 497Z 1 hr
 each; EDPS 457 3 hrs; SPED 401B (434 for business  education students) 3 hrs. Sections of 397, 403*,
@@ -247,7 +247,7 @@ REQ;
 
 $major->additional_major_requirements = <<<ADDITIONAL
 <h2 class="sec_header">Additional Major Requirements</h2>
-<h4>Grade Rules (Pass/No Pass, Specific Grade Rules related to the major)</h4>
+<h3>Grade Rules (Pass/No Pass, Specific Grade Rules related to the major)</h3>
 <p>
 For students in certification programs, preprofessional and professional education classes
 may not be taken Pass/No Pass unless a class already has a Pass/No Pass designation.  Only one course in each subject endorsement;  two courses in a field endorsement.
@@ -267,7 +267,7 @@ $major->ace_requirements = <<<ACE
 ACE;
 $major->other = <<<OTHER
 <h2 class="sec_header">Other</h2>
-<h4>Felony and Misdemeanor Convictions</h4>
+<h3>Felony and Misdemeanor Convictions</h3>
 <p>The Nebraska Department of Education policy requires that a person with any felony conviction or a misdemeanor conviction involving abuse, neglect, or sexual misconduct shall not be allowed to participate in pre-student teaching laboratory and classroom
 experiences or student teach without approval of the Board of Education. To comply with this policy, the College of Education and Human Sciences will require each student to affirm under oath that he/she does not have any convictions in the above named
 areas prior to each field experience. If a student does have any felony or any misdemeanor convictions, he/she is required to meet with the Certification Officer or the Director of Field Experiences as soon as possible.  To ensure that each individual complies with this

@@ -21,7 +21,7 @@ Research Assistant Professors: Knutson, Wardlow</p>
 <h2  class="sec_header">Major in Geography</h2>
 <p>The major in geography consists of seven mandatory courses with a common core in human-environment relations. Students should begin their programs with introductory physical and human courses, then move to courses dealing with environmental issues, world regions, and courses in techniques of acquiring and displaying geographic data. An undergraduate seminar which covers historical and philosophical aspects of geography as well as practical matters such as jobs and graduate schools, completes the set of mandatory courses. Beyond this core of required courses are nine hours of electives.
 Undergraduate Adviser. David Wishart, 320 Hardin Hall, (472-3576)</p>
-<h4>Graduate Work</h4>
+<h3>Graduate Work</h3>
 <p> The advanced degrees of master of arts and doctor of philosophy in geography are offered. For details of these programs see the <a href="http://bulletin.unl.edu">Graduate Studies Bulletin</a>.</p>
 MAJOR;
 $major->admission = <<<ADMISSION
