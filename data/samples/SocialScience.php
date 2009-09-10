@@ -52,14 +52,14 @@ Endorsement Courses (62-63 hrs)<br />
 HIST 120 World History 3 hrs
 HIST 201 American History to 1877 (Area E) 3 hrs
 HIST 202 American History since 1877 (Area E) 3 hrs
-HIST 360 History of Nebraska & Great Plains 3 hrs
+HIST 360 History of Nebraska &amp; Great Plains 3 hrs
 </pre>
 
 ANTH 110 Introduction to Anthropology   3 hrs<br />
 Select one of the following Anthropology courses 3 -4 hrs<br />
 ANTH 212    Introduction to Cultural Anthropology (Area H)<br />
 ANTH 232 Introduction to Prehistory<br />
-ANTH 242/L Introduction to Physical Anthropology & lab (Area D)<br />
+ANTH 242/L Introduction to Physical Anthropology &amp; lab (Area D)<br />
 
 ECON 211 Principles of Macroeconomics   3 hrs<br />
 ECON 212 Principles of Microeconomics   3 hrs<br />
@@ -100,8 +100,8 @@ HIST 335 Era of the American Revolution
 HIST 340 American Legal History
 HIST 341 American Constitutional History I
 HIST 342 American Constitutional History II
-HIST 343 American Urban & Social History I
-HIST 344 American Urban & Social History II
+HIST 343 American Urban &amp; Social History I
+HIST 344 American Urban &amp; Social History II
 HIST 345 History of the American Presidency
 HIST 346 North American Environmental History
 HIST 347 History of U.S. Foreign Relations to 1909
@@ -113,19 +113,19 @@ HIST 352 American West Since 1900
 HIST 353 From Progressivism to Great Crash
 HIST 354 The Era of Franklin D. Roosevelt
 HIST 355 Post-World War II America
-HIST 356 Race & Ethnicity in the American West (Area H)
-HIST 357 History & Culture of Mexican-American (Area H)
+HIST 356 Race &amp; Ethnicity in the American West (Area H)
+HIST 357 History &amp; Culture of Mexican-American (Area H)
 HIST 359 The Mystic West
-HIST 375 Women & Work in United States History (Area H)
+HIST 375 Women &amp; Work in United States History (Area H)
 HIST 400 Seminar in Great Plains Studies
 HIST 411 Indians in American Popular Culture
 HIST 437 African Americans and Racial Politics
 HIST 441 Women and Gender in the United States
 HIST 442 Antebellum America 1800-1850
-HIST 445 American Civil War & Reconstruction
+HIST 445 American Civil War &amp; Reconstruction
 HIST 446 America in &ldquo;Gilded Age&rdquo;
 HIST 447 Family History of U.S.
-HIST 448 History of Women & Gender in the American West
+HIST 448 History of Women &amp; Gender in the American West
 HIST 456 Black and /or African-American Women&rsquo;s History
 HIST 457 19th Century United States Economic History
 HIST 458 20th Century United States Economic History
@@ -171,10 +171,10 @@ HIST 330 Contemporary Europe
 HIST 332 Jews in the Middle Ages (Area H)
 HIST 333 Jews in the Modern World (Area H)
 HIST 336 The British Empire and Commonwealth
-HIST 338 War & Peace Europe: 1914 -present
+HIST 338 War &amp; Peace Europe: 1914 -present
 HIST 339 The Holocaust (Area H)
 HIST 361 Czech History and Culture
-HIST 362 Eastern Europe & the Balkans  Since 1815
+HIST 362 Eastern Europe &amp; the Balkans  Since 1815
 HIST 409 Religion of Late Western Antiquity
 HIST 412 City States in Classical Greece
 HIST 414 Medieval Culture
@@ -197,12 +197,12 @@ HIST 461 The Russian Revolution
 HIST 462 Recent Russia
 </pre>
 
-Group C Latin American, Asian, Middle Eastern & African 3 hrs<br />
+Group C Latin American, Asian, Middle Eastern &amp; African 3 hrs<br />
 Group C &ndash; Latin American, Asian, Middle Eastern and African History Courses<br />
 
 <pre>
-HIST 150 African Culture & Civilization (Area H)
-HIST 171 Latin American Culture & Civilization (Area H)
+HIST 150 African Culture &amp; Civilization (Area H)
+HIST 171 Latin American Culture &amp; Civilization (Area H)
 HIST 181 Introduction To East Asian Civilization (Area H)
 HIST 209 Ancient Greece 
 HIST 217 Israel: The Holy Land (Area H)
@@ -226,7 +226,7 @@ HIST 471 Latin America and the Outside World
 HIST 473 Spanish-American Colonial Institutions
 HIST 475 History of Brazil
 HIST 478 Pro-seminar in Latin American Studies
-HIST 480 Social & Economic Hist of China Since Late Ming Era 
+HIST 480 Social &amp; Economic Hist of China Since Late Ming Era 
 HIST 485 Africa Since 1800 (Area H)
 HIST 486 History of South Africa (Area H)
 </pre>

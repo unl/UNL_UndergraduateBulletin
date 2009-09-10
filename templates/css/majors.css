@@ -1,0 +1,19 @@
+
+#maincontent h2.subhead {
+    text-transform:uppercase;
+    color:#3f85ca;
+    font-size:.9em;
+    margin-top:-8px;
+    margin-bottom:15px;
+}
+
+#major_nav {
+    position:relative;
+    font-size:150%;
+    width:220px;
+    margin-bottom:1em;
+}
+#major_nav ul {
+    position:absolute;
+    background-color:#eee;
+}

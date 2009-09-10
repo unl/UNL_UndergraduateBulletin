@@ -3,7 +3,7 @@
  * @var UNL_UndergraduateBulletin_Major
  */
 $major->title = 'Geography';
-$major->college = 'Arts & Sciences';
+$major->college = 'Arts &amp; Sciences';
 $major->hours_required = 120;
 $major->minor_available = true;
 $major->chief_advisor = 'bbieber2';

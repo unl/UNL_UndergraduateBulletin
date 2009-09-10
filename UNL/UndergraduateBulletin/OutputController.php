@@ -91,20 +91,28 @@ class UNL_UndergraduateBulletin_OutputController
                 }
                 ob_end_clean();
             }
-            
-            if ($object instanceof UNL_UndergraduateBulletin_PostRunReplacements) {
-                $data = $object->postRun($data);
-            }
-            
+        } else {
+            ob_start();
             if ($return) {
-                return $data;
+                $data = self::sendObjectOutput($object, $return);
+            } else {
+                self::sendObjectOutput($object, $return);
+                $data = ob_get_contents();
             }
-            
-            echo $data;
-            return true;
+            ob_end_clean();
         }
-        
-        return self::sendObjectOutput($object, $return);
+
+
+        if ($object instanceof UNL_UndergraduateBulletin_PostRunReplacements) {
+            $data = $object->postRun($data);
+        }
+
+        if ($return) {
+            return $data;
+        }
+
+        echo $data;
+        return true;
 
     }
     
