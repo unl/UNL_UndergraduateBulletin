@@ -57,7 +57,7 @@ ADMISSION;
 $major->additional_major_requirements = <<<ADDITIONAL
 <h2  class="sec_header">Major Requirements</h2>
 <h3>Core  Requirements</h3>
-<h4>Specific Major Requirements</h4>
+<h3>Specific Major Requirements</h3>
 <p>The major entails a total of 30 hours:</p>
 <ul>
 
@@ -76,32 +76,34 @@ Not Applicable
 <h3>Minor Requirement</h3>
 No Minor Required
 <h3>Electives</h3>
-&bull; Additional Major Requirements 
-* Program Assessment. In order to assist the department in evaluating the effectiveness of its programs, majors will be required to complete written and oral examinations in the Senior Seminar, GEOG 402, over knowledge in all components of the major, as well as over more detailed knowledge in the student&rsquo;s area of focus. Students will be informed of the scheduling and format of assessment exams in the Senior Seminar. Students will also be given exit interviews prior to graduation to gather their views on the effectiveness of the major.
-Results of participation in this assessment activity will in no way affect a student&rsquo;s GPA or graduation.
-* Prerequisite Requirements/Rules
-* Grade Rules 
-* Course Level Requirement 
-* Extended Education, Independent Study Rules, Internship Credit Rules
+<h2  class="sec_header">Additional Major Requirements </h2>
+<h3>Program Assessment</h3>
+<p> In order to assist the department in evaluating the effectiveness of its programs, majors will be required to complete written and oral examinations in the Senior Seminar, GEOG 402, over knowledge in all components of the major, as well as over more detailed knowledge in the student&rsquo;s area of focus. Students will be informed of the scheduling and format of assessment exams in the Senior Seminar. Students will also be given exit interviews prior to graduation to gather their views on the effectiveness of the major.</p>
+<p>Results of participation in this assessment activity will in no way affect a student&rsquo;s GPA or graduation.</p>
+<h3>Prerequisite Requirements/Rules</h3>
+<h3>Grade Rules </h3>
+<h3>Course Level Requirement</h3> 
+<h3>Extended Education, Independent Study Rules, Internship Credit Rules</h3>
 ADDITIONAL;
 
 $major->college_degree_requirements = <<<COLLEGE
 <h2  class="sec_header">College Degree Requirements</h2>  
 <h3>College General Education Requirements</h3>
-Requirements for the Bachelor of Arts Degree
-Students who wish to graduate with a bachelor of arts degree must complete the College graduation requirements, the University ACE requirements, the College of Arts and Sciences distribution requirements, the requirements for a major, and the requirements for a minor or minors if required by the major.
-Requirements for the Bachelor of Science Degree
-The bachelor of science degree is characterized by a strong prescriptive major, an essential scientific base, and the inclusion of a general liberal education as an important aspect of the degree. Requirements for the BS are the same as those for the BA, with the following exceptions:
-The Major
-The major must include between 50-70 credit hours including required collateral courses in other departments. For students who wish to acquire two majors in two departments, the departments will be asked to make some accommodation for the students.
-Scientific Base
-In addition to University ACE requirements and the College distribution requirements, a student must complete 60 semester hours in mathematics and natural sciences, including:
-1. At least one of the following quantitative courses: CSCE 235, MATH 104, PHIL 211, or any mathematics or statistics course numbered 106 or above, except MATH 200 and 201.
-2. At least one natural or physical science course and at least 1 credit of  laboratory work, taken as part of a course or separately, from the following departments: biochemistry, biological sciences, chemistry, geosciences, or physics and astronomy,  ANTH 242/242L, GEOG 155, and the following geography techniques courses also apply: GEOG 317, 412, 414, 415, 417, 418, 419, 420, 422 and 425. Other courses that may be applied toward the 60 hour total include courses in actuarial science for which calculus or above is a prerequisite and up to 12 hours of scientific and technical courses offered by other colleges with approval of the academic adviser.
-College Distribution Requirements
-The College of Arts and Sciences distribution requirements are designed to further the purposes of liberal education by encouraging study in several different areas. Courses satisfying these requirements may impart specialized knowledge or broadly connect the subject matter to other areas of knowledge. 
-All requirements are in addition to University ACE requirements. A student may not use a single course to satisfy more than one of the following five distribution requirements. A student cannot use a single course to satisfy both an ACE outcome and a College distribution requirement. Independent study or reading courses and internships cannot be used to satisfy distribution requirements. To see a complete list of excluded courses, run a degree audit through WAM.
-Courses from interdisciplinary programs will count in the same area as courses from the home/cross-listed department(s). See http://ascweb.unl.edu/academics/depts.html for a complete list.
+<h4>Requirements for the Bachelor of Arts Degree</h4>
+<p>Students who wish to graduate with a bachelor of arts degree must complete the College graduation requirements, the University ACE requirements, the College of Arts and Sciences distribution requirements, the requirements for a major, and the requirements for a minor or minors if required by the major.</p>
+<h4>Requirements for the Bachelor of Science Degree</h4>
+<p>The bachelor of science degree is characterized by a strong prescriptive major, an essential scientific base, and the inclusion of a general liberal education as an important aspect of the degree. Requirements for the BS are the same as those for the BA, with the following exceptions:</p> 
+<h5>The Major</h5>
+<p>The major must include between 50-70 credit hours including required collateral courses in other departments. For students who wish to acquire two majors in two departments, the departments will be asked to make some accommodation for the students.</p>
+<h5>Scientific Base</h5>
+<p>In addition to University ACE requirements and the College distribution requirements, a student must complete 60 semester hours in mathematics and natural sciences, including:</p>
+<ol><li>At least one of the following quantitative courses: CSCE 235, MATH 104, PHIL 211, or any mathematics or statistics course numbered 106 or above, except MATH 200 and 201.</li>
+<li>At least one natural or physical science course and at least 1 credit of  laboratory work, taken as part of a course or separately, from the following departments: biochemistry, biological sciences, chemistry, geosciences, or physics and astronomy,  ANTH 242/242L, GEOG 155, and the following geography techniques courses also apply: GEOG 317, 412, 414, 415, 417, 418, 419, 420, 422 and 425. Other courses that may be applied toward the 60 hour total include courses in actuarial science for which calculus or above is a prerequisite and up to 12 hours of scientific and technical courses offered by other colleges with approval of the academic adviser.</li>
+</ol>
+<h4>College Distribution Requirements</h4>
+<p>The College of Arts and Sciences distribution requirements are designed to further the purposes of liberal education by encouraging study in several different areas. Courses satisfying these requirements may impart specialized knowledge or broadly connect the subject matter to other areas of knowledge.</p> 
+<p>All requirements are in addition to University ACE requirements. A student may not use a single course to satisfy more than one of the following five distribution requirements. A student cannot use a single course to satisfy both an ACE outcome and a College distribution requirement. Independent study or reading courses and internships cannot be used to satisfy distribution requirements. To see a complete list of excluded courses, run a degree audit through WAM.</p>
+<p>Courses from interdisciplinary programs will count in the same area as courses from the home/cross-listed department(s). See <a href="http://ascweb.unl.edu/academics/depts.html">http://ascweb.unl.edu/academics/depts.html</a> for a complete list.</p>
 Bachelor of Arts or Bachelor of Science  (19 credits + Language)
 A.  Written Communication: 3 hours 
 To be selected from courses approved for ACE outcome 1.
