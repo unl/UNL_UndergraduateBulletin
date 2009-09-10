@@ -35,7 +35,7 @@ WDN.jQuery(document).ready(function() {
             <?php
             foreach ($regions as $id=>$title) { 
                 if (!empty($this->$id)) {
-                    echo '<li><a href="'.$id.'">'.$title.'</a></li>';
+                    echo '<li><a href="#'.$id.'">'.$title.'</a></li>';
                 }    
             }
             ?>
