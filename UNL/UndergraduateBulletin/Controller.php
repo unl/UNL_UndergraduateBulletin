@@ -1,6 +1,13 @@
 <?php
 class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_PostRunReplacements
 {
+    /**
+     * URL to this controller.
+     *
+     * @var string
+     */
+    public static $url = '';
+    
     public $output;
     
     public $options = array('view'=>'index');
@@ -8,7 +15,9 @@ class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_
     protected $view_map = array(
         'index'   => 'displayIndex',
         'major'   => 'displayMajorDescription',
-        'courses' => 'displayMajorSubjectAreas');
+        'courses' => 'displayMajorSubjectAreas',
+        'subject' => 'displaySubjectArea'
+        );
     
     protected static $replacement_data = array();
     
@@ -22,6 +31,8 @@ class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_
     {
         if (isset($this->view_map[$this->options['view']])) {
             $this->{$this->view_map[$this->options['view']]}();
+        } else {
+            $this->output[] = new Exception('Sorry, that view does not exist.');
         }
     }
     
@@ -42,6 +53,11 @@ class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_
         $major = UNL_UndergraduateBulletin_Major::getByName($this->options['name']);
         $this->output[] = $major;
         $this->output[] = $major->subjectareas;
+    }
+    
+    function displaySubjectArea()
+    {
+        $this->output[] = new UNL_Services_CourseApproval_SubjectArea($this->options['id']);
     }
     
     public static function setReplacementData($field, $data)
@@ -70,6 +86,41 @@ class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_
         }
         
         return $data;
+    }
+    
+/**
+     * Get the URL for the system or a specific object this controller can display.
+     *
+     * @param mixed $mixed             Optional object to get a URL for.
+     * @param array $additional_params Extra parameters to adjust the URL.
+     * 
+     * @return string
+     */
+    static function getURL($mixed = null, $additional_params = array())
+    {
+        $params = array();
+         
+        $url = self::$url;
+        
+        if (is_object($mixed)) {
+            switch (get_class($mixed)) {
+            
+            default:
+                    
+            }
+        }
+        
+        $params = array_merge($params, $additional_params);
+        
+        $url .= '?';
+        
+        foreach ($params as $option=>$value) {
+            if (!empty($value)) {
+                $url .= "&amp;$option=$value";
+            }
+        }
+        
+        return trim($url, '?;=');
     }
 }
 ?>
