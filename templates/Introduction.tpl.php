@@ -1,4 +1,4 @@
-<div class="three_col left"
+<div class="three_col left">
     <h1>What you can find here:</h1>
     <p>The Undergraduate Bulletin contains information about all programs of undergraduate study at the University of Nebraska&ndash;Lincoln.</p>
     <div class="col left">
