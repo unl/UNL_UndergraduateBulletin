@@ -2,6 +2,6 @@ RewriteEngine On
 
 RewriteBase /workspace/UNL_UndergraduateBulletin/
 
-RewriteRule ^([A-Z]{3,4})/([0-9]{3,4}[A-Z]?)$ ?view=course&subject_id=$1&number=$2&%{QUERY_STRING} [L]
-RewriteRule ^([A-Z]{3,4})/([0-9]{3,4}[A-Z]?)/$ ?view=course&subject_id=$1&number=$2&%{QUERY_STRING} [L]
+RewriteRule ^([A-Z]{3,4})/([\d]?[\d]{2,3}[A-Za-z]?)$ ?view=course&subject_id=$1&number=$2&%{QUERY_STRING} [L]
+RewriteRule ^([A-Z]{3,4})/([\d]?[\d]{2,3}[A-Za-z]?)/$ ?view=course&subject_id=$1&number=$2&%{QUERY_STRING} [L]
 RewriteRule ^([A-Z]{3,4})/$ ?view=subject&id=$1&%{QUERY_STRING} [L]

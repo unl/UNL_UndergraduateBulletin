@@ -16,7 +16,8 @@ class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_
         'index'   => 'displayIndex',
         'major'   => 'displayMajorDescription',
         'courses' => 'displayMajorSubjectAreas',
-        'subject' => 'displaySubjectArea'
+        'subject' => 'displaySubjectArea',
+        'course'  => 'displayCourseListing',
         );
     
     protected static $replacement_data = array();
@@ -58,6 +59,13 @@ class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_
     function displaySubjectArea()
     {
         $this->output[] = new UNL_Services_CourseApproval_SubjectArea($this->options['id']);
+    }
+    
+    function displayCourseListing()
+    {
+        $this->output[] = new UNL_Services_CourseApproval_Listing(
+                                $this->options['subject_id'],
+                                $this->options['number']);
     }
     
     public static function setReplacementData($field, $data)
