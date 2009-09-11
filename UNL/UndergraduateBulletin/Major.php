@@ -5,29 +5,41 @@ class UNL_UndergraduateBulletin_Major
     
     public $college;
     
-    public $degrees_offered = array();
+    protected $_description;
     
-    public $hours_required;
+    protected $_subjectareas;
     
-    public $minor_available;
+    function __get($var)
+    {
+        switch ($var) {
+            case 'description':
+                return $this->getDescription();
+            case 'subjectareas':
+                return $this->getSubjectAreas();
+        }
+        throw new Exception('Unknown member var! '.$var);
+    }
     
-    public $chief_advisor;
+    function getDescription()
+    {
+        if (!$this->_description) {
+            $this->_description = new UNL_UndergraduateBulletin_Major_Description($this);
+        }
+        return $this->_description;
+    }
     
-    public $description;
+    function getSubjectAreas()
+    {
+        if (!$this->_subjectareas) {
+            $this->_subjectareas = new UNL_UndergraduateBulletin_Major_SubjectAreas($this);
+        }
+        return $this->_subjectareas;
+    }
     
-    public $admission;
-    
-    public $major_requirements;
-    
-    public $additional_major_requirements;
-    
-    public $college_degree_requirements;
-    
-    public $requirements_for_minor;
-    
-    public $ace_requirements;
-    
-    public $other;
+    function __set($var, $val)
+    {
+        
+    }
     
     static function getByName($name)
     {
@@ -37,7 +49,6 @@ class UNL_UndergraduateBulletin_Major
             case 'Advertising':
             case 'SocialScience':
                 include dirname(__FILE__).'/../../data/samples/'.$name.'.php';
-                
                 return $major;
         }
         throw new Exception('No major by that name.');

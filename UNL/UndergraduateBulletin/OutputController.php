@@ -123,8 +123,8 @@ class UNL_UndergraduateBulletin_OutputController
         foreach (get_object_vars($object) as $key=>$var) {
             $savant->$key = $var;
         }
-        if (in_array('ArrayAccess', class_implements($object))) {
-            foreach ($object->toArray() as $key=>$var) {
+        if ($object instanceof ArrayAccess) {
+            foreach ($object as $key=>$var) {
                 $savant->$key = $var;
             }
         }

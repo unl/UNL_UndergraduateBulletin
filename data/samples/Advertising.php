@@ -4,11 +4,11 @@
  */
 $major->title = 'Advertising';
 $major->college = 'College of Journalism and Mass Communications';
-$major->degrees_offered[] = 'Bachelor of Journalism';
-$major->hours_required = "125-130";
-$major->minor_available = false;
-$major->chief_advisor = 'Michael Goff';
-$major->description = <<<MAJOR
+$major->description->degrees_offered[] = 'Bachelor of Journalism';
+$major->description->hours_required = "125-130";
+$major->description->minor_available = false;
+$major->description->chief_advisor = 'Michael Goff';
+$major->description->description = <<<MAJOR
 <h2 class="sec_header">Description</h2>
 <h3>Advertising</h3>
 <p>The advertising major prepares students for careers in a wide variety of communication-related areas. Recent graduates have been placed in more than 20 states and several other countries in diverse advertising careers such as retail and corporate advertising and marketing, media sales, brand management, media planning, account management, research, public relations, media relations, special event planning, Internet communications, copywriting and layout and design.
@@ -22,7 +22,7 @@ $major->description = <<<MAJOR
 
 MAJOR;
 
-$major->admission = <<<ADMISSION
+$major->description->admission = <<<ADMISSION
 <h2 class="sec_header">Admission</h2>
 <h3>Admission to the College</h3>
 <p>The entrance requirements for the College of Journalism and Mass Communications, beginning with the fall semester of 1997, are the same as the admission requirements for the University of Nebraska&ndash;Lincoln.
@@ -57,7 +57,7 @@ $major->admission = <<<ADMISSION
 <p>Any student transferring into the college must have at least a 2.0 GPA.  A student with 12 or more hours of college credit must have at least a 2.0 GPA to be admitted or readmitted to the College of    Journalism and Mass Communications.
 
 ADMISSION;
-$major->major_requirements = <<<REQ
+$major->description->major_requirements = <<<REQ
 <h2 class="sec_header">Major Requirements</h2>
 <h3>Specific Major Requirements</h3>
 The major is 35 hours in advertising<br />
@@ -142,13 +142,13 @@ DANC 159 Introduction to the History of Dance   3 cr
 
 REQ;
 
-$major->additional_major_requirements = <<<ADDITIONAL
+$major->description->additional_major_requirements = <<<ADDITIONAL
 <h2 class="sec_header">Additional Major Requirements</h2>
 Grade Rules (Pass/No Pass, Specific Grade Rules related to the major) <br />
 No grades less than a C will count toward a major, a minor, or concentration.<br />
 ADDITIONAL;
 
-$major->college_degree_requirements = <<<COLLEGE
+$major->description->college_degree_requirements = <<<COLLEGE
 <h2 class="sec_header">College Degree Requirements</h2>
 <h3>College General Education Requirements</h3> 
 <p>To graduate with a bachelor of journalism degree, students must complete requirements from the following areas: the University ACE requirements, the College of Journalism and Mass Communications Distribution Requirements, the requirements for a major offered by the college, and the non-major requirements that are specific to the college.
@@ -242,11 +242,11 @@ these 30 hours.
 <p>At least 30 of the last 36 hours of credit needed for the degree must be registered for and completed while the student is enrolled in the University of Nebraska&ndash;Lincoln. This means the last year of the student&rsquo;s work must be spent in residence. Open enrollment and summer reading courses do not count toward residence. A maximum of 30 hours of open enrollment and summer reading courses at UNL may be applied toward a degree from the College of Journalism and Mass Communications.
 
 COLLEGE;
-$major->ace_requirements = <<<ACE
+$major->description->ace_requirements = <<<ACE
 <h2 class="sec_header">Ace Requirements</h2>
 <p>All students must fulfill the Achievement Centered Education (ACE) requirements.  College specific information may be found under the College General Education Requirements heading. Information about the ACE program may be viewed at ace.unl.edu.
 ACE;
-$major->other = <<<OTHER
+$major->description->other = <<<OTHER
 <h2 class="sec_header">Other</h2>
 <h3>Credit by Examination</h3>
 <p>Through study or experience that parallels a University of Nebraska-Lincoln course, a regularly enrolled university student may feel prepared to pass an examination on the course content for course credit. To apply for credit, a student should:

@@ -4,20 +4,20 @@
  */
 $major->title = 'Social Science [Grades 7-12] Endorsement';
 $major->college = 'College of Education and Human Sciences';
-$major->degrees_offered[] = 'Bachelor of Science in Education and Human Sciences';
-$major->hours_required = 125;
-$major->minor_available = false;
-$major->chief_advisor = 'Dr. Beverly Jensen';
-$major->description = <<<MAJOR
+$major->description->degrees_offered[] = 'Bachelor of Science in Education and Human Sciences';
+$major->description->hours_required = 125;
+$major->description->minor_available = false;
+$major->description->chief_advisor = 'Dr. Beverly Jensen';
+$major->description->description = <<<MAJOR
 <h2 class="sec_header">Description</h2>
 <p>Students who complete this endorsement are certified to teach history, anthropology, economics, geography, political science, psychology, and sociology in GRADES 7-12.</p>
 MAJOR;
 
-$major->admission = <<<ADMISSION
+$major->description->admission = <<<ADMISSION
 <h2 class="sec_header">Admission</h2>
 <p>The Social Science 7-12 endorsement has competitive admission.  Students must apply to be admitted into the endorsement.  An interview is required.</p>
 ADMISSION;
-$major->major_requirements = <<<REQ
+$major->description->major_requirements = <<<REQ
 <h2 class="sec_header">Major Requirements</h2>
 <h3>Core  Requirements</h3>
 <h4>Pre-Professional Education Requirements (16 hours)</h4>
@@ -245,7 +245,7 @@ Students must be accepted into the Secondary Teacher Education Program before en
 </p>
 REQ;
 
-$major->additional_major_requirements = <<<ADDITIONAL
+$major->description->additional_major_requirements = <<<ADDITIONAL
 <h2 class="sec_header">Additional Major Requirements</h2>
 <h3>Grade Rules (Pass/No Pass, Specific Grade Rules related to the major)</h3>
 <p>
@@ -261,11 +261,11 @@ either area.  Grades below C (C-, D+, D and D-) may not be applied in any endors
 </p>
 ADDITIONAL;
 
-$major->college_degree_requirements = <<<COLLEGE
+$major->description->college_degree_requirements = <<<COLLEGE
 COLLEGE;
-$major->ace_requirements = <<<ACE
+$major->description->ace_requirements = <<<ACE
 ACE;
-$major->other = <<<OTHER
+$major->description->other = <<<OTHER
 <h2 class="sec_header">Other</h2>
 <h3>Felony and Misdemeanor Convictions</h3>
 <p>The Nebraska Department of Education policy requires that a person with any felony conviction or a misdemeanor conviction involving abuse, neglect, or sexual misconduct shall not be allowed to participate in pre-student teaching laboratory and classroom

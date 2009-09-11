@@ -7,8 +7,8 @@ class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_
     
     protected $view_map = array(
         'index'   => 'displayIndex',
-        'major'   => 'displayMajor',
-        'courses' => 'displayCourses');
+        'major'   => 'displayMajorDescription',
+        'courses' => 'displayMajorSubjectAreas');
     
     protected static $replacement_data = array();
     
@@ -30,14 +30,18 @@ class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_
         $this->output[] = new UNL_UndergraduateBulletin_Introduction();
     }
     
-    function displayMajor()
+    function displayMajorDescription()
     {
-        $this->output[] = UNL_UndergraduateBulletin_Major::getByName($this->options['name']);
+        $major = UNL_UndergraduateBulletin_Major::getByName($this->options['name']);
+        $this->output[] = $major;
+        $this->output[] = $major->description;
     }
     
-    function displayCourses()
+    function displayMajorSubjectAreas()
     {
-        $this->output[] = new UNL_Services_CourseApproval_SubjectArea('GEOG');
+        $major = UNL_UndergraduateBulletin_Major::getByName($this->options['name']);
+        $this->output[] = $major;
+        $this->output[] = $major->subjectareas;
     }
     
     public static function setReplacementData($field, $data)

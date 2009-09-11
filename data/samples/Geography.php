@@ -4,10 +4,10 @@
  */
 $major->title = 'Geography';
 $major->college = 'Arts &amp; Sciences';
-$major->hours_required = 120;
-$major->minor_available = true;
-$major->chief_advisor = 'Dr. Bieber';
-$major->description = <<<MAJOR
+$major->description->hours_required = 120;
+$major->description->minor_available = true;
+$major->description->chief_advisor = 'Dr. Bieber';
+$major->description->description = <<<MAJOR
 <h2 class="sec_header">Description</h2>
 
 <p class="intro">The program of geography offers a wide variety of courses leading to the bachelor of arts and bachelor of science degrees in geography. The objectives of these programs are:</p>
@@ -24,7 +24,7 @@ Undergraduate Adviser. David Wishart, 320 Hardin Hall, (472-3576)</p>
 <h3>Graduate Work</h3>
 <p> The advanced degrees of master of arts and doctor of philosophy in geography are offered. For details of these programs see the <a href="http://bulletin.unl.edu">Graduate Studies Bulletin</a>.</p>
 MAJOR;
-$major->admission = <<<ADMISSION
+$major->description->admission = <<<ADMISSION
 <h2  class="sec_header">Admission</h2> 
 <h3>College Admission</h3>
 <p>The entrance requirements for the College of Arts and Sciences are the same as the UNL General Admission Requirements (see &ldquo;Admission to the University&rdquo; on page 6). Students who are admitted through the Admission by Review process with core course deficiencies will have certain conditions attached to their enrollment at UNL. These conditions are explained under &ldquo;Removal of Deficiencies&rdquo; on page 6 of this bulletin.
@@ -57,7 +57,7 @@ In addition to these requirements, the College of Arts and Sciences strongly rec
 <h3>Other Admission Requirements</h3>
 ADMISSION;
 
-$major->additional_major_requirements = <<<ADDITIONAL
+$major->description->additional_major_requirements = <<<ADDITIONAL
 <h2  class="sec_header">Major Requirements</h2>
 <h3>Core  Requirements</h3>
 <h3>Specific Major Requirements</h3>
@@ -89,7 +89,7 @@ No Minor Required
 <h3>Extended Education, Independent Study Rules, Internship Credit Rules</h3>
 ADDITIONAL;
 
-$major->college_degree_requirements = <<<COLLEGE
+$major->description->college_degree_requirements = <<<COLLEGE
 <h2  class="sec_header">College Degree Requirements</h2>  
 <h3>College General Education Requirements</h3>
 <h4>Requirements for the Bachelor of Arts Degree</h4>
