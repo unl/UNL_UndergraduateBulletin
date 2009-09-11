@@ -104,7 +104,7 @@ foreach ($this->courses as $course) {
         if (!empty($course->notes)) {
             echo  "<p class='notes'>".htmlentities($course->notes)."</p>";
         }
-        echo  "<p class='description'>".htmlentities($course->description)."</p>";
+        echo  "<p class='description'>".htmlentities(iconv("UTF-8", "ISO-8859-1//TRANSLIT", $course->description))."</p>";
         
     echo  "</dd>";
 }
