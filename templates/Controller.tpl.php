@@ -24,9 +24,19 @@ $page->navlinks     = '
     </li>
 </ul>';
 $page->loadSharedCodeFiles();
-$page->addStylesheet($url.'templates/css/all.css');
+$page->addStylesheet('/wdn/templates_3.0/css/content/indicators.css');
+$page->addStylesheet($url. 'templates/css/all.css');
 
-$page->maincontentarea = '<div class="zenbox col right"><h3>This is an official document</h3><a href="#">more information</a></div>';
+
+$page->maincontentarea = '<div id="indicator">
+							<div class="minimize">
+								<a href="#">Close message</a>
+							</div>
+							<div class="message">
+								<h4>This is an official document</h4>
+								<p>Students who enter a college within the University in the 2010 academic year are expected to complete the graduation requirements set forth by that college in this bulletin. <a href="#">More information on this policy</a>.</p>
+							</div>
+						</div>';
 $page->maincontentarea .= UNL_UndergraduateBulletin_OutputController::display($this->output, true);
 
 echo $page;
