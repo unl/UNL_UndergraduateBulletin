@@ -1,8 +1,8 @@
-<div class="three_col left">
+<div class="two_col left">
     <h1>What you can find here:</h1>
     <p>The Undergraduate Bulletin contains information about all programs of undergraduate study at the University of Nebraska&ndash;Lincoln.</p>
     <div class="col left">
-        <h3 class="sec_main">College Information</h3>
+        <h3 class="sec_header">College Information</h3>
         <ul>
             <li>Agricultural Sciences &amp; Natural Resources</li>
             <li>Architecture</li>
@@ -16,20 +16,45 @@
             <li>Public Affairs &amp; Community Service</li>
         </ul>
     </div>
-    <div class="col right">
-        <h3 class="sec_main">Academic Policies</h3>
+    <div class="col left">
+        <h3 class="sec_header">Academic Policies</h3>
         <ul>
             <li>...</li>
         </ul>
     </div>
 </div>
-<div class="col right">
-    <div class="zenbox ">
-        <h3>Find a Course</h3>
-        <input type="text" name="q" />
-    </div>
-    <div class="zenbox">
-        <h3>Areas of Study</h3>
-        <input type="text" name="q" />
-    </div>
+<div class="two_col right">
+        <form class="cool compact">
+        <fieldset>
+        	<legend>Find a Course</legend>
+        <ol>
+        <li>
+        	<label for="courseSearch" class="element">Course</label>
+        	<div class="element">
+        		<input type="text" name="courseSearch" id="courseSearch" value="ACCT 201 - Introduction to Accounting" />
+        	</div>
+        </li>
+        </ol>
+        </fieldset>
+        <p class="submit">
+        	<input type="submit" value="Search" name="submit" />
+        </p>
+        </form>
+        <form class="cool compact">
+        <fieldset>
+        	<legend>Find a Major or Degree</legend>
+        <ol>
+        <li>
+        	<label for="courseSearch" class="element">Major or Degree</label>
+        	<div class="element">
+        		<input type="text" name="areaSearch" id="areaeSarch" value="ACCT - Accounting" />
+        	</div>
+        </li>
+        </ol>
+        </fieldset>
+        <p class="submit">
+        	<input type="submit" value="Search" name="submit" />
+        </p>
+        </form>
+        <div class="clear"></div>
 </div>
