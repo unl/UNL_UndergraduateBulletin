@@ -1,15 +1,15 @@
-.indicator div.message {
+#maincontent div.indicator div.message {
 	background:url(/wdn/templates_3.0/css/content/images/indicators/information.png) no-repeat top left;
 }
-.indicator {
+#maincontent div.indicator {
     border: 1px solid #cad094;
     background:#f8f9d1;
 }
-.indicator div.minimize a, .indicator div.maximize a, .indicator div.minimize a:hover, .indicator div.maximize a:hover {
+#maincontent div.indicator div.minimize a, #maincontent div.indicator div.maximize a, #maincontent div.indicator div.minimize a:hover, #maincontent div.indicator div.maximize a:hover {
 	border: 1px solid #cad094;
 
 }
-.indicator div.minimize a:hover, .indicator div.maximize a:hover {
+#maincontent div.indicator div.minimize a:hover, #maincontent div.indicator div.maximize a:hover {
 	border: 1px solid #aaaf7d;
 
 }
