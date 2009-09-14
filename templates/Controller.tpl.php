@@ -22,6 +22,31 @@ $page->navlinks     = '
             <li><a href="'.$url.'?view=major&amp;name=SocialScience">Social Science Endorsement</a></li>
         </ul>
     </li>
+    <li><a href="#">Academic Policies</a>
+    	<ul>
+            <li><a href="#">Policy 1</a></li>
+            <li><a href="#">Policy 2</a></li>
+            <li><a href="#">Policy 3</a></li>
+            <li><a href="#">Policy 4</a></li>
+            <li><a href="#">Policy 5</a></li>
+            <li><a href="#">Policy 6</a></li>
+        </ul>
+    </li>
+    <li><a href="#">Academic College</a>
+    	<ul>
+            <li><a href="#">Agricultural Sciences &amp; Natural Resources</a></li>
+            <li><a href="#">Architecture</a></li>
+            <li><a href="#">Arts &amp; Sciences</a></li>
+            <li><a href="#">Business Adminsitration</a></li>
+            <li><a href="#">Division of General Studies</a></li>
+            <li><a href="#">Education &amp; Human Sciences</a></li>
+            <li><a href="#">Engineering</a></li>
+            <li><a href="#">Hixson-Lied College of Fine &amp; Performing Arts</a></li>
+            <li><a href="#">Journalism &amp; Mass Communications</a></li>
+            <li><a href="#">Public Affairs &amp; Community Service</a></li>
+        </ul>
+    </li>
+    
 </ul>';
 $page->loadSharedCodeFiles();
 $page->addStylesheet('/wdn/templates_3.0/css/content/forms.css');
