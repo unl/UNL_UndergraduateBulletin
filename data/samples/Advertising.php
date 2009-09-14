@@ -138,8 +138,6 @@ DANC 159 Introduction to the History of Dance   3 cr
 
 <h3>Electives</h3>
 
-<p>Mike-I added this Students may need elective (free choice courses) to fulfill the minimum 125 semester hours required for the degree.</p>
-
 REQ;
 
 $major->description->additional_major_requirements = <<<ADDITIONAL
@@ -155,23 +153,24 @@ $major->description->college_degree_requirements = <<<COLLEGE
 <h5>College Distribution Requirements (19 credits + Foreign Language)</h5>
 <p>The College distribution requirements (CDR) are designed to further the purposes of liberal education by encouraging study in several different areas. Courses satisfying these requirements may impart specialized knowledge or broadly connect the subject matter to other areas of knowledge. 
     All requirements are in addition to University ACE requirements. A student may not use a single course to satisfy more than one of the five College distribution requirements. A student cannot use a single course to satisfy both an ACE outcome and a College distribution requirement. Independent study courses and internships cannot be used to satisfy distribution requirements.
-    The five College Distribution Requirements are as follows:
-1.  Written Communication: 3 hours 
-    To be selected from courses approved for ACE outcome 1.
-2.  Natural, Physical and Mathematical Sciences: 7 hours 
-
-From two different departments, including at least one lab science course from the natural or physical sciences. Lab courses may be selected from biochemistry, biological sciences, chemistry, geosciences, physics and astronomy, geography, and anthropology*. All other courses select from: biochemistry, biological sciences, chemistry, computer science and engineering, geosciences, mathematics, physics and astronomy, and statistics.
-* see degree audit for approved geography and anthropology lab courses
-
-3.  Humanities: 6 hours
-    From two different departments, select from classics*, English, history, modern languages and literatures*, philosophy, and religious studies.*
-*language courses numbered 210 or below apply only for the Foreign Language requirement
-
-4.  Social Sciences: 3 hours
-    Select from anthropology, communication studies, geography, political science, psychology, or sociology.
-5.  Languages Classical and Modern: 0-6 hours
-    Fulfilled by the completion of 6 credit hours at the 200 level or above in a single foreign language in one of the following departments: classics and religious studies, modern languages and literatures, or anthropology. Instruction is currently available in Biblical Hebrew, Chinese, Czech, French, German, Greek, Japanese, Latin, Omaha, Russian, and Spanish. A student who has completed the fourth-year level of one foreign language in high school is exempt from the languages requirement.
-Options for completion of language requirement:
+    The five College Distribution Requirements are as follows:<br />
+<br />
+1.  Written Communication: 3 hours<br /> 
+    To be selected from courses approved for ACE outcome 1.<br />
+2.  Natural, Physical and Mathematical Sciences: 7 hours <br />
+<br />
+From two different departments, including at least one lab science course from the natural or physical sciences. Lab courses may be selected from biochemistry, biological sciences, chemistry, geosciences, physics and astronomy, geography, and anthropology*. All other courses select from: biochemistry, biological sciences, chemistry, computer science and engineering, geosciences, mathematics, physics and astronomy, and statistics.<br />
+* see degree audit for approved geography and anthropology lab courses<br />
+<br />
+3.  Humanities: 6 hours<br />
+    From two different departments, select from classics*, English, history, modern languages and literatures*, philosophy, and religious studies.*<br />
+* language courses numbered 210 or below apply only for the Foreign Language requirement<br />
+<br />
+4.  Social Sciences: 3 hours<br />
+    Select from anthropology, communication studies, geography, political science, psychology, or sociology.<br />
+5.  Languages Classical and Modern: 0-6 hours<br />
+    Fulfilled by the completion of 6 credit hours at the 200 level or above in a single foreign language in one of the following departments: classics and religious studies, modern languages and literatures, or anthropology. Instruction is currently available in Biblical Hebrew, Chinese, Czech, French, German, Greek, Japanese, Latin, Omaha, Russian, and Spanish. A student who has completed the fourth-year level of one foreign language in high school is exempt from the languages requirement.<br />
+Options for completion of language requirement:<br />
 <ol>
 <li>Regular four-semester sequence: 101, 102, 201, and 202 (5, 5, 3, 3 hours for a total of 16)</li>
 <li>Three-semester sequence: 101, 102, and 210 (5, 5, 6 hours for a total of 16)</li>
@@ -179,20 +178,22 @@ Options for completion of language requirement:
 <li>(For Spanish) 101, 102 at UNL; 201, 202 at Monterrey Summer Institute (6 hours). (5, 5, 6 hours for a total of 16.) One six-week summer session (1st summer session). See modern languages non-majors adviser for information and application.</li>
 <li>Students who have taken 3 years or fewer of a foreign language in high school should contact the modern languages and literatures department for recommended placement.</li>
 </ol>
+<p>
     A student who achieves a specified scaled score in the College Level Examination Program (CLEP) subject exam in French, German and Spanish, levels 1 and 2, may be exempted from the language requirement and may also receive credit for the fourth semester course in the language. Students wishing to exercise this option must receive permission from the dean of the College of Journalism and Mass Communications.
     A transfer student with 11 or 12 semester hours of accepted credit in a single foreign language has two choices: a) to complete 201 and 202 in the same language; or b) to enroll in 202 with permission of the chair of the Department of Modern Languages and Literatures.
     A student from a foreign country who has demonstrated acceptable proficiency in his or her native language (other than English) is exempted from the Group J requirement without credit toward the degree. U.S. citizens who present acceptable evidence that their second language is English are exempted from the language requirement without credit toward the degree. All such students should see the dean of the College of Journalism and Mass Communications for this exemption.
-Specific Non-Major Requirements
-The College of Journalism and Mass Communications requires all students to complete the following specific course requirements. Many of these may also count toward ACE outcomes or toward distribution requirements:
-A.  Two writing courses&mdash;one for ACE outcome 1 and one for the Distribution Requirement Area 1.  One of the two must be from English courses shown for ACE outcome 1.
-B.  Three hours from political science&mdash;this counts for Distribution Requirement Area 4.
-C.  Six hours from economics. These will also count toward ACE outcomes 6 and 8.
-D.  Nine hours from history&mdash;one course for ACE outcome 5, one for Distribution Requirement Area 3, and possibly one for ACE outcome 9.
-E.  Nine hours from a humanities department or departments other than history. See ACE outcomes 5 and 9.
-F.  A total of 65 hours selected from the traditional liberal arts departments. See the degree audit for a list of these departments.
-G.  A total of 80 hours from outside the college.
-H.  Three 12-hour concentrations or one 24-hour concentration and one 12-hour concentration. A specified minor may take the place of one 12-hour concentration. A major of 24 or more hours may take the place of a 24-hour concentration. Any of these options must be from outside the College of Journalism and Mass Communications.
-I.  Thirty of the 125 (or 130) semester hours of credit must be in courses numbered above 299. NOTE: ALEC 397E and ALEC 397K do not count toward these 30 hours.
+</p>
+<h3>Specific Non-Major Requirements</h3>
+<p>The College of Journalism and Mass Communications requires all students to complete the following specific course requirements. Many of these may also count toward ACE outcomes or toward distribution requirements:</p>
+A.  Two writing courses&mdash;one for ACE outcome 1 and one for the Distribution Requirement Area 1.  One of the two must be from English courses shown for ACE outcome 1.<br />
+B.  Three hours from political science&mdash;this counts for Distribution Requirement Area 4.<br />
+C.  Six hours from economics. These will also count toward ACE outcomes 6 and 8.<br />
+D.  Nine hours from history&mdash;one course for ACE outcome 5, one for Distribution Requirement Area 3, and possibly one for ACE outcome 9.<br />
+E.  Nine hours from a humanities department or departments other than history. See ACE outcomes 5 and 9.<br />
+F.  A total of 65 hours selected from the traditional liberal arts departments. See the degree audit for a list of these departments.<br />
+G.  A total of 80 hours from outside the college.<br />
+H.  Three 12-hour concentrations or one 24-hour concentration and one 12-hour concentration. A specified minor may take the place of one 12-hour concentration. A major of 24 or more hours may take the place of a 24-hour concentration. Any of these options must be from outside the College of Journalism and Mass Communications.<br />
+I.  Thirty of the 125 (or 130) semester hours of credit must be in courses numbered above 299. NOTE: ALEC 397E and ALEC 397K do not count toward these 30 hours.<br />
 
 <h3>Minimum Hours Required for Graduation</h3>
 <p>A minimum of 125 semester hours of credit is required for graduation from the College of Journalism and Mass Communications.
