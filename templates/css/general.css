@@ -1,15 +1,15 @@
-#maincontent div.indicator div.message {
-	background:url(/wdn/templates_3.0/css/content/images/indicators/information.png) no-repeat top left;
+#maincontent div.wdn_notice div.message {
+	background:url(/wdn/templates_3.0/css/content/images/notice/information.png) no-repeat top left;
 }
-#maincontent div.indicator {
+#maincontent div.wdn_notice {
     border: 1px solid #cad094;
     background:#f8f9d1;
 }
-#maincontent div.indicator div.minimize a, #maincontent div.indicator div.maximize a, #maincontent div.indicator div.minimize a:hover, #maincontent div.indicator div.maximize a:hover {
+#maincontent div.wdn_notice div.minimize a, #maincontent div.wdn_notice div.maximize a, #maincontent div.wdn_notice div.minimize a:hover, #maincontent div.wdn_notice div.maximize a:hover {
 	border: 1px solid #cad094;
 
 }
-#maincontent div.indicator div.minimize a:hover, #maincontent div.indicator div.maximize a:hover {
+#maincontent div.wdn_notice div.minimize a:hover, #maincontent div.wdn_notice div.maximize a:hover {
 	border: 1px solid #aaaf7d;
 
 }
