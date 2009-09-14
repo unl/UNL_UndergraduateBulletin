@@ -12,7 +12,7 @@
 <div class="three_col left">
     <div id="major_nav">
         <a href="#" id="majorContent">Contents</a>
-        <ol id="toc"></ol>
+        <ol id="toc"><li>Intro</li></ol>
     </div>
     <div id="long_content">
     <?php
