@@ -15,7 +15,7 @@ $url = UNL_UndergraduateBulletin_Controller::getURL();
 $page->navlinks     = '
 <ul>
     <li><a href="'.$url.'?view=index">Bulletin Home</a></li>
-    <li><a href="'.$url.'?view=major">Major</a>
+    <li><a href="'.$url.'?view=majors">Majors</a>
         <ul>
             <li><a href="'.$url.'?view=major&amp;name=Advertising">Advertising</a></li>
             <li><a href="'.$url.'?view=major&amp;name=Geography">Geography</a></li>

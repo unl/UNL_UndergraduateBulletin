@@ -14,6 +14,7 @@ class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_
     
     protected $view_map = array(
         'index'   => 'displayIndex',
+        'majors'  => 'displayMajors',
         'major'   => 'displayMajorDescription',
         'courses' => 'displayMajorSubjectAreas',
         'subject' => 'displaySubjectArea',
@@ -40,6 +41,11 @@ class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_
     function displayIndex()
     {
         $this->output[] = new UNL_UndergraduateBulletin_Introduction();
+    }
+    
+    function displayMajors()
+    {
+        $this->output[] = new UNL_UndergraduateBulletin_MajorList();
     }
     
     function displayMajorDescription()
