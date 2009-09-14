@@ -39,10 +39,14 @@
             <td><?php echo $this->chief_advisor; ?></td>
         </tr>
     </table>
+    <?php if (!empty($this->degrees_offered)) { ?>
     <h3>Degrees Offered</h3>
     <ul>
-    <li><?php echo implode(', ',$this->degrees_offered); ?></li>
+        <?php foreach ($this->degrees_offered as $degree) { ?>
+        <li><?php echo $degree; ?></li>
+        <?php } ?>
     </ul>
+    <?php } ?>
     <h3>Featured Faculty</h3>
     <h3 id="relatedMajors">Related Majors</h3>
 </div>
