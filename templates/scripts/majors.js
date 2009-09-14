@@ -1,4 +1,5 @@
 wraphandler.addEvent(window,"load", function() {
+	//Deal with the Table of Contents for the majors pages.
 	WDN.jQuery("#major_nav ol").click(
 		function() {
 			WDN.jQuery("#major_nav ol").hide();
@@ -21,5 +22,16 @@ wraphandler.addEvent(window,"load", function() {
         topLinks:   false, // Add "Top" Links to Each Header
       }
     );
+    //End Deal with the Table of Contents for the majors pages.
+    //
+    //Deal with the interactivity behind the wdn_notice
+    WDN.jQuery(".minimize").click(function() {
+    	WDN.jQuery(this).parent(".wdn_notice").slideUp("slow", function() {
+    			WDN.jQuery(this).wrap("<div class='col right'></div>"); //wrap in a col, floated right
+    			WDN.jQuery(this).children("div.message").children("p").children("a").insertAfter("div.message p").siblings("p").hide();
+    			WDN.jQuery(this).children(".minimize").removeClass("minimize").addClass("maximize");
+    			WDN.jQuery(this).slideDown("slow");
+    	});
+    });
     
 });

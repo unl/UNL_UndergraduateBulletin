@@ -32,7 +32,7 @@ $page->navlinks     = '
             <li><a href="#">Policy 6</a></li>
         </ul>
     </li>
-    <li><a href="#">Academic College</a>
+    <li><a href="#">Academic Colleges</a>
     	<ul>
             <li><a href="#">Agricultural Sciences &amp; Natural Resources</a></li>
             <li><a href="#">Architecture</a></li>
@@ -50,17 +50,17 @@ $page->navlinks     = '
 </ul>';
 $page->loadSharedCodeFiles();
 $page->addStylesheet('/wdn/templates_3.0/css/content/forms.css');
-$page->addStylesheet('/wdn/templates_3.0/css/content/indicators.css');
+$page->addStylesheet('/wdn/templates_3.0/css/content/notice.css');
 $page->addStylesheet($url. 'templates/css/all.css');
 
 
-$page->maincontentarea = '<div class="indicator" id="officialMessage">
+$page->maincontentarea = '<div class="wdn_notice" id="officialMessage">
 							<div class="minimize">
 								<a href="#">Close message</a>
 							</div>
 							<div class="message">
 								<h4>This is an official document</h4>
-								<p>Students who enter a college within the University in the 2010 academic year are expected to complete the graduation requirements set forth by that college in this bulletin. <a href="#">More information on this policy</a>.</p>
+								<p>Students who enter a college within the University in the 2010 academic year are expected to complete the graduation requirements set forth by that college in this bulletin. <a href="#">More information on this policy</a></p>
 							</div>
 						</div>';
 $page->maincontentarea .= UNL_UndergraduateBulletin_OutputController::display($this->output, true);
