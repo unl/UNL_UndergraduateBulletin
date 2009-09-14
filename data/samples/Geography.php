@@ -15,12 +15,12 @@ $major->description->description = <<<MAJOR
 <p class="intro">The program of geography offers a wide variety of courses leading to the bachelor of arts and bachelor of science degrees in geography. The objectives of these programs are:</p>
 <ol class="intro"><li>To support the goals of a broad liberal education by increasing awareness of the spatial, regional, and environmental aspects of the earth and its peoples; and </li><li>To provide a specialized knowledge of environmental processes, human-environment relations, American and foreign areas and cultures, and geographic techniques such as cartography, remote sensing and geographic information analysis</li></ol>
 <p class="intro"> An education in geography prepares students for careers in government agencies (e.g., US Census Bureau, Defense Mapping Agency, as well as those involved with foreign service, land management, state tourism, health care delivery systems, environmental assessment, transportation development, land use planning, air traffic control, GIS and cartographic analysis) and a wide variety of businesses, particularly those concerned with environmental mapping, geographic information systems, and planning. A geography major also prepares students for graduate-level degrees in geography, law (especially environmental law), international business, urban and regional planning, and teaching at all levels.</p>
-<p>Program Chair: Sunil Narumalani, 302 Hardin Hall
-Professors: Amedeo, Archer, Dewey, Lavin, Lawson, Lonsdale (emeritus), Merchant, Narumalani, Rundquist, Stoddard (emeritus), Wilhite, Wishart
-Associate Professor: Joeckel
-Assistant Professor: Hanson
+<p>Program Chair: Sunil Narumalani, 302 Hardin Hall<br />
+Professors: Amedeo, Archer, Dewey, Lavin, Lawson, Lonsdale (emeritus), Merchant, Narumalani, Rundquist, Stoddard (emeritus), Wilhite, Wishart<br />
+Associate Professor: Joeckel<br />
+Assistant Professor: Hanson<br />
 Research Assistant Professors: Knutson, Wardlow</p>
-<h2  class="sec_header">Major in Geography</h2>
+<h3  class="sec_header">Major in Geography</h3>
 <p>The major in geography consists of seven mandatory courses with a common core in human-environment relations. Students should begin their programs with introductory physical and human courses, then move to courses dealing with environmental issues, world regions, and courses in techniques of acquiring and displaying geographic data. An undergraduate seminar which covers historical and philosophical aspects of geography as well as practical matters such as jobs and graduate schools, completes the set of mandatory courses. Beyond this core of required courses are nine hours of electives.
 Undergraduate Adviser. David Wishart, 320 Hardin Hall, (472-3576)</p>
 <h3>Graduate Work</h3>
@@ -56,12 +56,10 @@ In addition to these requirements, the College of Arts and Sciences strongly rec
 <h4>Removing Other Deficiencies</h4>
 <p>Contact the Arts and Sciences Advising Center for specific courses to remove other entrance deficiencies.</p>
 <p><em>NOTE: The entrance requirements are different for certain preprofessional programs in the College of Arts and Sciences see &ldquo;Pre-Professional Programs and Combined Degree Programs&rdquo; on page 217.</em></p>
-<h3>Other Admission Requirements</h3>
 ADMISSION;
 
 $major->description->additional_major_requirements = <<<ADDITIONAL
 <h2  class="sec_header">Major Requirements</h2>
-<h3>Core  Requirements</h3>
 <h3>Specific Major Requirements</h3>
 <p>The major entails a total of 30 hours:</p>
 <ul>
@@ -80,15 +78,10 @@ Of the total 30 hours, 14 hours must be numbered 300 or above. Students wishing 
 Not Applicable
 <h3>Minor Requirement</h3>
 No Minor Required
-<h3>Electives</h3>
 <h2  class="sec_header">Additional Major Requirements </h2>
 <h3>Program Assessment</h3>
 <p> In order to assist the department in evaluating the effectiveness of its programs, majors will be required to complete written and oral examinations in the Senior Seminar, GEOG 402, over knowledge in all components of the major, as well as over more detailed knowledge in the student&rsquo;s area of focus. Students will be informed of the scheduling and format of assessment exams in the Senior Seminar. Students will also be given exit interviews prior to graduation to gather their views on the effectiveness of the major.</p>
 <p>Results of participation in this assessment activity will in no way affect a student&rsquo;s GPA or graduation.</p>
-<h3>Prerequisite Requirements/Rules</h3>
-<h3>Grade Rules </h3>
-<h3>Course Level Requirement</h3> 
-<h3>Extended Education, Independent Study Rules, Internship Credit Rules</h3>
 ADDITIONAL;
 
 $major->description->college_degree_requirements = <<<COLLEGE
