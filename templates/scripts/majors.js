@@ -18,7 +18,7 @@ wraphandler.addEvent(window,"load", function() {
     		WDN.jQuery("#long_content"),      // Scoped to div#long_content
       {
         startLevel: 2,    // H1 and up
-        depth:      3,    // H1 through H4,
+        depth:      2,    // H1 through H4,
         topLinks:   false, // Add "Top" Links to Each Header
       }
     );
