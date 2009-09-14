@@ -4,9 +4,11 @@
  */
 $major->title = 'Geography';
 $major->college = 'Arts &amp; Sciences';
-$major->description->hours_required = 120;
+$major->description->degrees_offered[] = "Bachelor of Science";
+$major->description->degrees_offered[] = "Bachelor of Arts";
+$major->description->hours_required = '125-130';
 $major->description->minor_available = true;
-$major->description->chief_advisor = 'Dr. Bieber';
+$major->description->chief_advisor = 'Dr. Sunil Narumalani';
 $major->description->description = <<<MAJOR
 <h2 class="sec_header">Description</h2>
 
