@@ -29,7 +29,7 @@ $page->addStylesheet('/wdn/templates_3.0/css/content/indicators.css');
 $page->addStylesheet($url. 'templates/css/all.css');
 
 
-$page->maincontentarea = '<div class="indicator">
+$page->maincontentarea = '<div class="indicator" id="officialMessage">
 							<div class="minimize">
 								<a href="#">Close message</a>
 							</div>

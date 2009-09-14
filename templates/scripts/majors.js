@@ -1,4 +1,3 @@
-
 wraphandler.addEvent(window,"load", function() {
 	WDN.jQuery("#major_nav ol").click(
 		function() {
