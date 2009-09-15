@@ -25,7 +25,11 @@
     </div>
 </div>
 <div class="col right">
-    <table class="zentable cool">
+    <table class="major_quick_points zentable cool">
+        <thead>
+            <tr><th colspan="2">Quick Points</th></tr>
+        </thead>
+        <tbody>
         <tr>
             <td>Hours Required</td>
             <td><?php echo $this->hours_required; ?></td>
@@ -38,6 +42,7 @@
             <td>Chief Advisor</td>
             <td><?php echo $this->chief_advisor; ?></td>
         </tr>
+        </tbody>
     </table>
     <?php if (!empty($this->degrees_offered)) { ?>
     <h3>Degrees Offered</h3>
