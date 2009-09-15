@@ -25,22 +25,29 @@
     </div>
 </div>
 <div class="col right">
-    <table class="major_quick_points zentable cool">
+    <table class="major_quick_points zentable cool" summary="Quick points about the <?php echo $this->major->title; ?> major/program.">
+        <caption>Quick points about the <?php echo $this->major->title; ?> major/program.</caption>
         <thead>
-            <tr><th colspan="2">Quick Points</th></tr>
+            <tr>
+                <th colspan="2">Quick Points</th>
+            </tr>
+            <tr>
+                <th scope="col">Attribute</th>
+                <th scope="col">Value</th>
+            </tr>
         </thead>
         <tbody>
         <tr>
-            <td>Hours Required</td>
-            <td><?php echo $this->hours_required; ?></td>
+            <td class="attr">Hours Required:</td>
+            <td class="value"><?php echo $this->hours_required; ?></td>
         </tr>
         <tr>
-            <td>Minor Available</td>
-            <td><?php echo ($this->minor_available)?'Yes':'No'; ?></td>
+            <td class="attr">Minor Available:</td>
+            <td class="value"><?php echo ($this->minor_available)?'Yes':'No'; ?></td>
         </tr>
         <tr>
-            <td>Chief Advisor</td>
-            <td><?php echo $this->chief_advisor; ?></td>
+            <td class="attr">Chief Advisor:</td>
+            <td class="value"><?php echo $this->chief_advisor; ?></td>
         </tr>
         </tbody>
     </table>

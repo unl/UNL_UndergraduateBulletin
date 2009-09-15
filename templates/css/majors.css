@@ -18,6 +18,17 @@
 table.major_quick_points {
     margin-bottom:2em;
 }
+table.major_quick_points thead tr:nth-child(2),
+table.major_quick_points caption {
+    display:none;
+}
+
+table.major_quick_points .attr {
+    font-weight:bold;
+}
+table.major_quick_points .value {
+    text-align:right;
+}
 
 #maincontent ol#toc {
     font-size:.65em;

@@ -31,6 +31,11 @@ class UNL_UndergraduateBulletin_Major_Description
     
     public $other;
     
+    function __construct(UNL_UndergraduateBulletin_Major $major)
+    {
+        $this->major = $major;
+    }
+    
     static function getByName($name)
     {
         $major = new UNL_UndergraduateBulletin_Major();
