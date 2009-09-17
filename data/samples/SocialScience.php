@@ -94,13 +94,13 @@ meets the Nebraska Department of Education competency requirement.</li>
 
 <h4>Post-baccalaureate Students Seeking
 Initial Teaching Certification</h4>
-<p>Students who have received a bachelors degree or higher and desire to obtain an initial teaching certificate may do so by pursuing a non-degree post-baccalaureate initial certification program with or without a masters degree. They must apply to the Graduate College for admission to the University of Nebraska–Lincoln and apply to a Teacher Education Program (TEP) for admission to the initial teaching certification program. Students are also required to apply for admission to a degree program if they desire to pursue a masters
+<p>Students who have received a bachelors degree or higher and desire to obtain an initial teaching certificate may do so by pursuing a non-degree post-baccalaureate initial certification program with or without a masters degree. They must apply to the Graduate College for admission to the University of Nebraska&ndash;Lincoln and apply to a Teacher Education Program (TEP) for admission to the initial teaching certification program. Students are also required to apply for admission to a degree program if they desire to pursue a masters
 degree with their certification program. All students seeking initial certification must meet with the post baccalaureate assistant academic adviser.  Those seeking a masters degree will also meet with a faculty adviser. Post-baccalaureate students
 interested in completing a teacher education program should refer to this bulletin as to policies and regulations for program completion. For specific guidelines, see the Student Services Center.
 </p>
 
 <h4>Admission to Student Teaching</h4>
-<p>All students who are candidates for an appropriately endorsed Nebraska Teacher’s Certificate are required to student teach. Students who plan to student teach in the fall semester must complete the student teaching application form and submit it by the preceding March 1 to the Director of Field Experiences in 104 Henzlik Hall; students planning to student teach in the spring semester must
+<p>All students who are candidates for an appropriately endorsed Nebraska Teacher&rsquo;s Certificate are required to student teach. Students who plan to student teach in the fall semester must complete the student teaching application form and submit it by the preceding March 1 to the Director of Field Experiences in 104 Henzlik Hall; students planning to student teach in the spring semester must
 apply by the preceding October 1. The basic program for student teaching provides for a full-day experience on a semester basis. Students enrolled in an elementary education dual major will complete requirements for student teaching in both majors. Admission to student teaching requires the following:
 </p>
 <ol>
