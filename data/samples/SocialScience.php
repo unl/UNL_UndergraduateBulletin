@@ -15,7 +15,7 @@ $major->description->description = <<<MAJOR
 <pre>
 ACE........................................12 - 30 hours
 Pre-Professional Education Courses.........13 hours
-Social Sciences 7-12 Endorsement...........62-63 hours
+Social Sciences 7-12 Endorsement...........62 - 63 hours
 Professional Education Courses.............30 hours *
 Electives...................................0 - 8 hours
 TOTAL HOURS:  125 - 136
