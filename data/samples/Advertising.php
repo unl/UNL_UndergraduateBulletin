@@ -155,20 +155,20 @@ $major->description->college_degree_requirements = <<<COLLEGE
     All requirements are in addition to University ACE requirements. A student may not use a single course to satisfy more than one of the five College distribution requirements. A student cannot use a single course to satisfy both an ACE outcome and a College distribution requirement. Independent study courses and internships cannot be used to satisfy distribution requirements.
     The five College Distribution Requirements are as follows:<br />
 <br />
-1.  Written Communication: 3 hours<br /> 
+A.  Written Communication: 3 hours<br /> 
     To be selected from courses approved for ACE outcome 1.<br />
-2.  Natural, Physical and Mathematical Sciences: 7 hours <br />
+B.  Natural, Physical and Mathematical Sciences: 7 hours <br />
 <br />
 From two different departments, including at least one lab science course from the natural or physical sciences. Lab courses may be selected from biochemistry, biological sciences, chemistry, geosciences, physics and astronomy, geography, and anthropology*. All other courses select from: biochemistry, biological sciences, chemistry, computer science and engineering, geosciences, mathematics, physics and astronomy, and statistics.<br />
 * see degree audit for approved geography and anthropology lab courses<br />
 <br />
-3.  Humanities: 6 hours<br />
+C.  Humanities: 6 hours<br />
     From two different departments, select from classics*, English, history, modern languages and literatures*, philosophy, and religious studies.*<br />
 * language courses numbered 210 or below apply only for the Foreign Language requirement<br />
 <br />
-4.  Social Sciences: 3 hours<br />
+D.  Social Sciences: 3 hours<br />
     Select from anthropology, communication studies, geography, political science, psychology, or sociology.<br />
-5.  Languages Classical and Modern: 0-6 hours<br />
+E.  Languages Classical and Modern: 0-6 hours<br />
     Fulfilled by the completion of 6 credit hours at the 200 level or above in a single foreign language in one of the following departments: classics and religious studies, modern languages and literatures, or anthropology. Instruction is currently available in Biblical Hebrew, Chinese, Czech, French, German, Greek, Japanese, Latin, Omaha, Russian, and Spanish. A student who has completed the fourth-year level of one foreign language in high school is exempt from the languages requirement.<br />
 Options for completion of language requirement:<br />
 <ol>
