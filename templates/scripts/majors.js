@@ -19,7 +19,7 @@ wraphandler.addEvent(window,"load", function() {
       {
         startLevel: 2,    // H1 and up
         depth:      2,    // H1 through H4,
-        topLinks:   false, // Add "Top" Links to Each Header
+        topLinks:   false // Add "Top" Links to Each Header
       }
     );
     //End: Deal with the Table of Contents for the majors pages.
@@ -35,4 +35,11 @@ wraphandler.addEvent(window,"load", function() {
     	return false;
     });
     //End: Deal with the interactivity behind the wdn_notice
+    //
+    //Deal with the course call numbers that are long
+    WDN.jQuery('.number').each(function(){
+    	if(WDN.jQuery(this).text().length > 3) {
+    		WDN.jQuery(this).addClass('wide');
+    	}
+    });
 });
