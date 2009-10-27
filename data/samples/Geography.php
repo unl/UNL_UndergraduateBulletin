@@ -3,7 +3,7 @@
  * @var UNL_UndergraduateBulletin_Major
  */
 $major->title = 'Geography';
-$major->college = 'Arts &amp; Sciences';
+$major->college = 'College of Arts &amp; Sciences';
 $major->description->degrees_offered[] = "Bachelor of Science";
 $major->description->degrees_offered[] = "Bachelor of Arts";
 $major->description->hours_required = '125-130';
