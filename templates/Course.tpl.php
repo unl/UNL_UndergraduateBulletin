@@ -1,15 +1,29 @@
 <?php
     $listings = '';
-    $crosslistings = '';
+    $crosslistings = array();
+    $groups = array();
     foreach ($course->codes as $listing) {
         if ($listing->subjectArea == $this->subject) {
             $listings .= $listing->courseNumber.'/';
+            if ($listing->hasGroups()) {
+                $groups = array_merge($groups, $listing->groups);
+            }
         } else {
-            $crosslistings .= '<span class="crosslisting">'.$listing->subjectArea.' '.$listing->courseNumber.'</span>, ';
+            if (!isset($crosslistings[(string)$listing->subjectArea])) {
+                $crosslistings[(string)$listing->subjectArea] = array();
+            }
+            $crosslistings[(string)$listing->subjectArea][] = $listing->courseNumber;
         }
     }
+    $groups = implode(', ', array_unique($groups));
+    $cltext = '';
+    foreach ($crosslistings as $cl_subject=>$cl_numbers) {
+        $cltext .= ', '.$cl_subject.' '.implode('/', $cl_numbers);
+    }
     $listings = trim($listings, '/');
-    $crosslistings = trim($crosslistings, ', ');
+    if (!empty($cltext)) {
+        $crosslistings = '<span class="crosslisting">'.trim($cltext, ', ').'</span>';
+    }
     
     $credits = '';
     if (isset($course->credits['Single Value'])) {
@@ -89,6 +103,12 @@
             echo  '<tr class="aceOutcomes">
                     <td class="label">ACE Outcomes:</td>
                     <td class="value">'.$ace.'</td>
+                   </tr>';
+        }
+        if (!empty($groups)) {
+            echo  '<tr class="groups">
+                    <td class="label">Groups:</td>
+                    <td class="value">'.$groups.'</td>
                    </tr>';
         }
         echo  '</table>';
