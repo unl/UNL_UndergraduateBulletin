@@ -9,26 +9,26 @@ foreach ($this->courses as $course) {
 }
 echo  '</dl></div>';
 ?>
-<div class="col right">
-    <h3>Filter Options</h3>
+<div class="col right zenbox" id="displayControl">
+    <h4>Filter Options</h4>
     <form method="POST" action="#" id="filters">
         <?php if (count($this->groups)) : ?>
         <fieldset>
-            <legend>Groups</legend>
+            <legend><span>Groups</span></legend>
             <ol>
                 <?php foreach ($this->groups as $group) : ?>
                 <li>
-                    <label><?php echo $group; ?></label>
                     <div class="element">
                         <input type="checkbox" checked="checked" value="grp_<?php echo md5($group); ?>" />
                     </div>
+                    <label><?php echo $group; ?></label>
                 </li>
                 <?php endforeach; ?>
             </ol>
         </fieldset>
         <?php endif; ?>
         <fieldset>
-            <legend>Course Formats</legend>
+            <legend><span>Course Formats</span></legend>
             <ol>
                 <?php foreach (array(
 'lec'=>'Lecture',
@@ -40,23 +40,22 @@ echo  '</dl></div>';
 'ind'=>'Independent Study',
 'psi'=>'Personalized System of Instruction') as $key=>$type) : ?>
                 <li>
-                    <label><?php echo $type; ?></label>
                     <div class="element">
                         <input type="checkbox" checked="checked" value="<?php echo $key; ?>" />
-                    </div>
+                    </div><label><?php echo $type; ?></label>
                 </li>
                 <?php endforeach; ?>
             </ol>
         </fieldset>
         <fieldset>
-            <legend>Ace Outcomes</legend>
+            <legend><span>Ace Outcomes</span></legend>
             <ol>
                 <?php for ($i=1;$i<=10;$i++) : ?>
                 <li>
-                    <label><?php echo $i; ?></label>
                     <div class="element">
                         <input type="checkbox" checked="checked" value="ace_<?php echo $i; ?>" />
                     </div>
+                    <label><?php echo $i; ?></label>
                 </li>
                 <?php endfor; ?>
             </ol>
