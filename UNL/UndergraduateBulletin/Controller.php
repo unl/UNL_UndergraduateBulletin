@@ -38,7 +38,9 @@ class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_
             $this->output[] = new Exception('Sorry, that view does not exist.');
         }
         switch($this->options['format']) {
-        case 'hcalendar':
+        case 'partial':
+            UNL_UndergraduateBulletin_OutputController::setOutputTemplate(__CLASS__,
+                                                                          'Controller-partial');
         case 'html':
         default:
             // Standard template works for html.
