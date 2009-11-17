@@ -9,7 +9,7 @@ foreach ($this->courses as $course) {
 }
 echo  '</dl></div>';
 ?>
-<div class="col right zenbox">
+<div class="col right">
     <h3>Filter Options</h3>
     <form method="POST" action="#" id="filters">
         <?php if (count($this->groups)) : ?>
@@ -51,7 +51,7 @@ echo  '</dl></div>';
         <fieldset>
             <legend>Ace Outcomes</legend>
             <ol>
-                <?php for ($i=1;$i<=9;$i++) : ?>
+                <?php for ($i=1;$i<=10;$i++) : ?>
                 <li>
                     <label><?php echo $i; ?></label>
                     <div class="element">
