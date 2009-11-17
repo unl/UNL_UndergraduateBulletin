@@ -8,6 +8,9 @@
             $listings .= $listing->courseNumber.'/';
             if ($listing->hasGroups()) {
                 $groups = array_merge($groups, $listing->groups);
+                foreach ($listing->groups as $group) {
+                    $class .= ' grp_'.md5($group);
+                }
             }
         } else {
             if (!isset($crosslistings[(string)$listing->subjectArea])) {

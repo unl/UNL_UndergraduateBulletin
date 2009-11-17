@@ -16,11 +16,11 @@ echo  '</dl></div>';
         <fieldset>
             <legend>Groups</legend>
             <ol>
-                <?php foreach ($this->groups as $key=>$group) : ?>
+                <?php foreach ($this->groups as $group) : ?>
                 <li>
                     <label><?php echo $group; ?></label>
                     <div class="element">
-                        <input type="checkbox" checked="checked" value="grp_<?php echo $key; ?>" />
+                        <input type="checkbox" checked="checked" value="grp_<?php echo md5($group); ?>" />
                     </div>
                 </li>
                 <?php endforeach; ?>
