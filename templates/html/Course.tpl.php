@@ -67,6 +67,10 @@
     }
     $format = trim($format, ', ');
     
+    if (!empty($course->aceOutcomes)) {
+        $class .= ' ace_'.implode(' ace_', $course->aceOutcomes);
+    }
+    
     echo "
         <dt class='$class'>
             <span class='subjectCode'>".htmlentities($this->subject)."</span>

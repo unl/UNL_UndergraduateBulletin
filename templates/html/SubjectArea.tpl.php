@@ -48,5 +48,18 @@ echo  '</dl></div>';
                 <?php endforeach; ?>
             </ol>
         </fieldset>
+        <fieldset>
+            <legend>Ace Outcomes</legend>
+            <ol>
+                <?php for ($i=1;$i<=9;$i++) : ?>
+                <li>
+                    <label><?php echo $i; ?></label>
+                    <div class="element">
+                        <input type="checkbox" checked="checked" value="ace_<?php echo $i; ?>" />
+                    </div>
+                </li>
+                <?php endfor; ?>
+            </ol>
+        </fieldset>
     </form>
 </div>
