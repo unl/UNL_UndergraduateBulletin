@@ -11,7 +11,8 @@ echo  '</dl></div>';
 ?>
 <div class="col right zenbox">
     <h3>Filter Options</h3>
-    <form method="POST">
+    <form method="POST" action="#" id="filters">
+        <?php if (count($this->groups)) : ?>
         <fieldset>
             <legend>Groups</legend>
             <ol>
@@ -19,7 +20,29 @@ echo  '</dl></div>';
                 <li>
                     <label><?php echo $group; ?></label>
                     <div class="element">
-                        <input type="checkbox" value="grp_<?php echo $key; ?>" />
+                        <input type="checkbox" checked="checked" value="grp_<?php echo $key; ?>" />
+                    </div>
+                </li>
+                <?php endforeach; ?>
+            </ol>
+        </fieldset>
+        <?php endif; ?>
+        <fieldset>
+            <legend>Course Formats</legend>
+            <ol>
+                <?php foreach (array(
+'lec'=>'Lecture',
+'lab'=>'Lab',
+'quz'=>'Quiz',
+'rct'=>'Recitation',
+'stu'=>'Studio',
+'fld'=>'Field',
+'ind'=>'Independent Study',
+'psi'=>'Personalized System of Instruction') as $key=>$type) : ?>
+                <li>
+                    <label><?php echo $type; ?></label>
+                    <div class="element">
+                        <input type="checkbox" checked="checked" value="<?php echo $key; ?>" />
                     </div>
                 </li>
                 <?php endforeach; ?>

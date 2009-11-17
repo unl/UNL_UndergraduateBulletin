@@ -42,4 +42,12 @@ wraphandler.addEvent(window,"load", function() {
     		WDN.jQuery(this).addClass('wide');
     	}
     });
+    
+    WDN.jQuery('#filters input').click(function(){
+    	if (this.checked) {
+    		WDN.jQuery('.'+this.value).show();
+    	} else {
+    		WDN.jQuery('.'+this.value).hide();
+    	}
+    });
 });

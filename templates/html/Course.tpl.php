@@ -1,4 +1,5 @@
 <?php
+    $class = 'course';
     $listings = '';
     $crosslistings = array();
     $groups = array();
@@ -32,6 +33,7 @@
     
     $format = '';
     foreach ($course->activities as $type=>$activity) {
+        $class .= ' '.$type;
         switch ($type) {
             case 'lec':
                 $format .= 'Lecture';
@@ -66,7 +68,7 @@
     $format = trim($format, ', ');
     
     echo "
-        <dt class='course'>
+        <dt class='$class'>
             <span class='subjectCode'>".htmlentities($this->subject)."</span>
             <span class='number'>$listings</span>
             <span class='title'>".htmlentities($course->title)."</span>";
@@ -74,7 +76,7 @@
             echo  '<span class="crosslistings">Crosslisted as '.$crosslistings.'</span>';
         }
         echo  "</dt>
-        <dd class='course'>";
+        <dd class='$class'>";
         echo  '<table class="zentable cool details">';
         echo  '<tr class="credits">
                 <td class="label">Credit Hours:</td>
