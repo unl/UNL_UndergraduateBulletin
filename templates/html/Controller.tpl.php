@@ -52,7 +52,7 @@ $page->navlinks     = '
 $page->loadSharedCodeFiles();
 $page->addStylesheet('/wdn/templates_3.0/css/content/forms.css');
 $page->addStylesheet('/wdn/templates_3.0/css/content/notice.css');
-$page->addStylesheet($url. 'templates/css/all.css');
+$page->addStylesheet($url. 'templates/html/css/all.css');
 
 
 $page->maincontentarea = '<div class="wdn_notice" id="officialMessage">

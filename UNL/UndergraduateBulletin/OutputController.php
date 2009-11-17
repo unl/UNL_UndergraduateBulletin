@@ -120,6 +120,7 @@ class UNL_UndergraduateBulletin_OutputController
     {
         include_once 'Savant3.php';
         $savant = new Savant3();
+        $savant->setPath('template', self::$template_path);
         foreach (get_object_vars($object) as $key=>$var) {
             $savant->$key = $var;
         }
@@ -136,18 +137,15 @@ class UNL_UndergraduateBulletin_OutputController
             $savant->trace   = $object->getTrace();
         }
         $templatefile = self::getTemplateFilename(get_class($object));
-        if (file_exists($templatefile)) {
-            if ($return) {
-                ob_start();
-                $savant->display($templatefile);
-                $output = ob_get_clean();
-                return $output;
-            }
-            $savant->display($templatefile);
-            return true;
-        }
         
-        throw new Exception('Sorry, '.$templatefile.' was not found.');
+        if ($return) {
+            ob_start();
+            $savant->display($templatefile);
+            $output = ob_get_clean();
+            return $output;
+        }
+        $savant->display($templatefile);
+        return true;
     }
     
     static function getTemplateFilename($class)
@@ -163,13 +161,8 @@ class UNL_UndergraduateBulletin_OutputController
                              DIRECTORY_SEPARATOR,
                              $class);
         
-        if (!empty(self::$template_path)) {
-            $templatefile = self::$template_path
-                          . DIRECTORY_SEPARATOR . $class . '.tpl.php';
-        } else {
-            $templatefile = 'templates' . DIRECTORY_SEPARATOR
-                          . $class . '.tpl.php';
-        }
+        
+        $templatefile = $class . '.tpl.php';
         
         return $templatefile;
     }

@@ -10,7 +10,8 @@ class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_
     
     public $output;
     
-    public $options = array('view'=>'index');
+    public $options = array('view'=>'index',
+                            'format'=>'html');
     
     protected $view_map = array(
         'index'   => 'displayIndex',
@@ -35,6 +36,14 @@ class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_
             $this->{$this->view_map[$this->options['view']]}();
         } else {
             $this->output[] = new Exception('Sorry, that view does not exist.');
+        }
+        switch($this->options['format']) {
+        case 'hcalendar':
+        case 'html':
+        default:
+            // Standard template works for html.
+            UNL_UndergraduateBulletin_OutputController::$template_path = dirname(dirname(dirname(__FILE__))).'/templates/html';
+            break;
         }
     }
     
