@@ -43,6 +43,7 @@ wraphandler.addEvent(window,"load", function() {
     	}
     });
     
+    // Configure course filters.
     WDN.jQuery('#filters input').click(function(){
     	if (this.checked) {
     		WDN.jQuery('.'+this.value).show();
@@ -50,4 +51,10 @@ wraphandler.addEvent(window,"load", function() {
     		WDN.jQuery('.'+this.value).hide();
     	}
     });
+    
+    WDN.jQuery('#maincontent a.course').click(function(eventObject){
+    	eventObject.preventDefault();
+    	WDN.jQuery.fn.colorbox({width:"640px",href:this.href+'?format=partial',open:true});
+    });
+    
 });
