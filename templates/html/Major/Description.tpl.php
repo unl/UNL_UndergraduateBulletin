@@ -1,4 +1,5 @@
 <?php
+    $url = UNL_UndergraduateBulletin_Controller::getURL();
     $regions = array(
     'description'                   => 'Description',
     'admission'                     => 'Admission',
@@ -18,7 +19,7 @@
     <?php
     foreach ($regions as $id=>$title) { 
         if (!empty($this->$id)) {
-            echo '<div id="'.$id.'"><a href="#header" class="top">Top</a>'.preg_replace('/([A-Z]{3,4})\s+([0-9]{2,3}[A-Z]?)/', '<a class="course" href="$1/$2">$0</a>',$this->$id).'</div>';
+            echo '<div id="'.$id.'"><a href="#header" class="top">Top</a>'.preg_replace('/([A-Z]{3,4})\s+([0-9]{2,3}[A-Z]?)/', '<a class="course" href="'.$url.'$1/$2">$0</a>',$this->$id).'</div>';
         }
     }
     ?>
