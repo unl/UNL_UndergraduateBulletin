@@ -10,8 +10,9 @@ class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_
     
     public $output;
     
-    public $options = array('view'=>'index',
-                            'format'=>'html');
+    public $options = array('view'   => 'index', // The default from the view_map
+                            'format' => 'html',  // The default output format
+    );
     
     protected $view_map = array(
         'index'   => 'displayIndex',
@@ -20,6 +21,7 @@ class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_
         'courses' => 'displayMajorSubjectAreas',
         'subject' => 'displaySubjectArea',
         'course'  => 'displayCourseListing',
+        'college' => 'displayCollege',
         );
     
     protected static $replacement_data = array();
@@ -85,6 +87,11 @@ class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_
                                 $this->options['number']);
     }
     
+    function displayCollege()
+    {
+        $this->output[] = new UNL_UndergraduateBulletin_College($this->options['name']);
+    }
+    
     public static function setReplacementData($field, $data)
     {
         self::$replacement_data[$field] = $data;
@@ -113,7 +120,7 @@ class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_
         return $data;
     }
     
-/**
+    /**
      * Get the URL for the system or a specific object this controller can display.
      *
      * @param mixed $mixed             Optional object to get a URL for.

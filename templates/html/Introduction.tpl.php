@@ -9,7 +9,7 @@
             <li>Arts &amp; Sciences</li>
             <li>Business Adminsitration</li>
             <li>Division of General Studies</li>
-            <li>Education &amp; Human Sciences</li>
+            <li><a href="?view=college&amp;name=Education+%26+Human+Sciences">Education &amp; Human Sciences</a></li>
             <li>Engineering</li>
             <li>Hixson-Lied College of Fine &amp; Performing Arts</li>
             <li>Journalism &amp; Mass Communications</li>
