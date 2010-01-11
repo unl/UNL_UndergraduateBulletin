@@ -9,7 +9,7 @@
 	font-size:115%;
 	line-height:145%;
 	}
-#major_nav {
+#toc_nav {
     position:relative;
     font-size:150%;
     width:220px;
@@ -46,7 +46,7 @@ table.major_quick_points .value {
 #maincontent ol#toc ol ol { list-style: lower-roman;padding:0 0 0 25px;}
 #maincontent ol#toc ol ol ol { list-style: lower-alpha;padding:0 0 0 25px;}
 
-#major_nav a#majorContent {
+#toc_nav a#tocContent {
 	background:url('images/majorContents.png');
 	width:135px;
 	height:30px;
@@ -55,7 +55,7 @@ table.major_quick_points .value {
 	color:#3f85ca;
 	z-index:10;
 	}
-#major_nav a#majorContent:active, #major_nav a#majorContent:focus {
+#toc_nav a#tocContent:active, #toc_nav a#tocContent:focus {
 	color:#3f85ca !important;
 	}
 a.top {

@@ -11,8 +11,8 @@
     );
 ?>
 <div class="three_col left">
-    <div id="major_nav">
-        <a href="#" id="majorContent">Contents</a>
+    <div id="toc_nav">
+        <a href="#" id="tocContent">Contents</a>
         <ol id="toc"><li>Intro</li></ol>
     </div>
     <div id="long_content">
