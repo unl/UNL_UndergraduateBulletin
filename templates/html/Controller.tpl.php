@@ -40,7 +40,7 @@ $page->navlinks     = '
             <li><a href="#">Arts &amp; Sciences</a></li>
             <li><a href="#">Business Adminsitration</a></li>
             <li><a href="#">Division of General Studies</a></li>
-            <li><a href="#">Education &amp; Human Sciences</a></li>
+            <li><a href="?view=college&amp;name=Education+%26+Human+Sciences">Education &amp; Human Sciences</a></li>
             <li><a href="#">Engineering</a></li>
             <li><a href="#">Hixson-Lied College of Fine &amp; Performing Arts</a></li>
             <li><a href="#">Journalism &amp; Mass Communications</a></li>
