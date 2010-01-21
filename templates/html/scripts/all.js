@@ -43,6 +43,7 @@ WDN.jQuery(document).ready(function(){
     //Show/Hide the course information
     WDN.jQuery('#maincontent .title a').click(function() {
     	WDN.jQuery(this).parent('span').parent('dt').next('dd').slideToggle();
+    	WDN.jQuery(this).toggleClass('showIt');
     	return false;
     });
 });
