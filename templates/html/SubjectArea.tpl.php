@@ -1,16 +1,8 @@
 <?php
 echo '<h1>'.htmlentities($this->subject).'</h1>';
-
-echo  '<div class="three_col left">
-    <dl>';
-
-foreach ($this->courses as $course) {
-    include dirname(__FILE__).'/Course.tpl.php';
-}
-echo  '</dl></div>';
-?>
-<div class="col right zenbox" id="displayControl">
-    <h4>Filter Options</h4>
+ ?>
+<div class="col left zenbox energetic" id="displayControl">
+    <h3>Filter Options</h3>
     <form method="POST" action="#" id="filters">
         <?php if (count($this->groups)) : ?>
         <fieldset>
@@ -62,3 +54,13 @@ echo  '</dl></div>';
         </fieldset>
     </form>
 </div>
+<?php
+
+echo  '<div class="three_col right">
+    <dl>';
+
+foreach ($this->courses as $course) {
+    include dirname(__FILE__).'/Course.tpl.php';
+}
+echo  '</dl></div>';
+?>
