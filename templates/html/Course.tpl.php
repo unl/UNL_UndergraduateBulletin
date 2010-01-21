@@ -79,7 +79,7 @@
         <dt class='$class'>
             <span class='subjectCode'>".htmlentities($this->subject)."</span>
             <span class='number'>$listings</span>
-            <span class='title'>".htmlentities($course->title)."</span>";
+            <span class='title'>".htmlentities($course->title)."<a href='#'>Hide desc.</a></span>";
         if (!empty($crosslistings)) {
             echo  '<span class="crosslistings">Crosslisted as '.$crosslistings.'</span>';
         }

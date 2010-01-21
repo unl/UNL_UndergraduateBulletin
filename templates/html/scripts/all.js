@@ -40,4 +40,9 @@ WDN.jQuery(document).ready(function(){
     	eventObject.preventDefault();
     	WDN.jQuery.fn.colorbox({width:"640px",href:this.href+'?format=partial',open:true});
     });
+    //Show/Hide the course information
+    WDN.jQuery('#maincontent .title a').click(function() {
+    	WDN.jQuery(this).parent('span').parent('dt').next('dd').slideToggle();
+    	return false;
+    });
 });
