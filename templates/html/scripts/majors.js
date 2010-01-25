@@ -11,8 +11,9 @@ wraphandler.addEvent(window,"load", function() {
     WDN.jQuery('#filters input').click(function(){
     	if (this.checked) {
     		WDN.jQuery('.'+this.value).show();
+    		//WDN.jQuery('dt.'+this.value).addClass("revealed");
     	} else {
-    		WDN.jQuery('.'+this.value).hide();
+    		WDN.jQuery('.'+this.value).slideUp(600);
     	}
     });
     
