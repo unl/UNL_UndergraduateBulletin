@@ -21,6 +21,7 @@
 .course .details .value {text-align:right;}
 dd {margin:0 0 3em 0;padding-left:0 !important;position:relative;overflow:hidden;}
 dt {padding:3em 0 0 0 !important;}
+dt:first-of-type {padding:0 !important;}
 .course {clear:both;}
 
 /*filter box*/
