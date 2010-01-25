@@ -4,7 +4,7 @@ echo '<h2 class="sec_main"> Courses of Instruction ('.htmlentities($this->subjec
  <div class="col left">
 	<div class="zenbox energetic" id="wdn_filterset">
 	    <h3>Filter these Courses</h3>
-	    <form method="POST" action="#" id="filters">
+	    <form method="post" action="#" id="filters">
 	        <?php if (count($this->groups)) : ?>
 	        <fieldset>
 	            <legend><span>Groups</span></legend>
