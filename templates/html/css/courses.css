@@ -4,7 +4,7 @@
 .course .title {font-size:1.5em; display:block; border-bottom:1px solid #C8C8C8;font-style:normal;font-weight:bold;margin-left:95px;}
 .course .title a {float:right;margin-top:-8px;font-size:.6em;}
 .course .crosslistings {margin:4px 0 4px 95px;display:block;}
-.course .crosslistings .crosslisting {font-size:1em;color:#C60203;background:none;}
+.course .crosslistings .crosslisting {font-size:1em;font-style:italic;background:none;}
 
 .course .prereqs,
 .course .notes,
@@ -26,9 +26,10 @@ dt {padding:3em 0 0 0 !important;}
 /*filter box*/
 #displayControl {
 	}
-#filters legend span {display:block; width:218px; background:#ededed;}
+#filters {color:#a15901;}
+#filters legend span {display:block; width:208px; border-bottom:1px solid #c39863;font-weight:bold;}
 #filters div.element {display:inline;}
-#filters input[type="checkbox"] {width:25px;float:left}
-#filters label {display:inline;margin-left:0px;vertical-align:}
+#filters input[type="checkbox"] {width:20px;float:left;margin-left:-4px;}
+#filters label {display:inline;margin-left:0px;font-size:.9em;}
 #filters ol li {clear:both;}
 #filters ol {list-style:none;padding-left:0px;}
