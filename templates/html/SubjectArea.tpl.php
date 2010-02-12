@@ -1,5 +1,6 @@
 <?php
 echo '<h2 class="sec_main"> Courses of Instruction ('.htmlentities($this->subject).')</h2>';
+echo '<a href="#" id="toggleAllCourseDescriptions">Hide all course descriptions</a>';
  ?>
  <div class="col left">
 	<div class="zenbox energetic" id="wdn_filterset">
