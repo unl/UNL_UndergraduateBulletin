@@ -10,6 +10,6 @@ UNL_UndergraduateBulletin_Controller::setReplacementData('doctitle', 'UNL | Unde
     </div>
     <div id="long_content">
     <?php
-    echo UNL_UndergraduateBulletin_College::convertEpub(file_get_contents($this->file)); ?>
+    echo $this->description; ?>
     </div>
 </div>

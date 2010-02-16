@@ -17,23 +17,22 @@ class UNL_UndergraduateBulletin_Major_Description
     
     public $description;
     
-    public $admission;
-    
-    public $major_requirements;
-    
-    public $additional_major_requirements;
-    
-    public $college_degree_requirements;
-    
-    public $requirements_for_minor;
-    
-    public $ace_requirements;
-    
-    public $other;
-    
     function __construct(UNL_UndergraduateBulletin_Major $major)
     {
         $this->major = $major;
+        
+        $this->parseEPUB($this->major->title);
+    }
+    
+    function parseEPUB($title)
+    {
+        $file = dirname(dirname(dirname(dirname(__FILE__)))).'/data/majors/'.$title.'.epub';
+        if (!file_exists($file)) {
+            throw new Exception('Sorry, no description exists for '.$major->title);
+        }
+        $xhtml = file_get_contents('phar://'.$file.'/OEBPS/'.$title.'.xhtml');
+        $this->description = UNL_UndergraduateBulletin_EPUB_Utilities::convertHeadings($xhtml);
+        $this->description = UNL_UndergraduateBulletin_EPUB_Utilities::addLeaders($this->description);
     }
     
     static function getByName($name)

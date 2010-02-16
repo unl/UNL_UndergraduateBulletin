@@ -61,3 +61,51 @@ table.major_quick_points .value {
 a.top {
 	float:right;
 }
+#maincontent p.requirement-sec-1-bold {
+    font-weight:bold;
+    margin:1em 0 0;
+}
+#maincontent p.requirement-hours {
+	float:right;
+	margin-bottom:1em;
+}
+#maincontent p.requirement-sec-1,
+#maincontent p.requirement-sec-2,
+#maincontent p.requirement-sec-3,
+#maincontent p.requirement-sec-3-,
+#maincontent p.requirement-sec-4 {
+	margin:0 2em 0;
+	display:block;
+	position:relative;
+}
+
+#maincontent p.requirement-sec-2 {
+    margin-left:2em;
+}
+#maincontent p.requirement-sec-3,
+#maincontent p.requirement-sec-3- {
+    margin-left:4em;
+}
+#maincontent p.requirement-sec-4 {
+    margin-left:6em;
+}
+
+#maincontent p span {
+	background-color:#FFF;
+}
+#maincontent p span.req_desc {
+    padding-bottom:1px;
+    border-bottom:2px solid #FFF;
+}
+
+#maincontent p span.leader {
+	display:block;
+	width:100%;
+	border-bottom:1px dotted;
+	}
+
+#maincontent p span.req_value {
+	float:right;
+	padding-left:3px;
+	margin-top:-1.2em;
+}

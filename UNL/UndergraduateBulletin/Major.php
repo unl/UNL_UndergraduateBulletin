@@ -50,6 +50,11 @@ class UNL_UndergraduateBulletin_Major
             case 'SocialScience':
                 include dirname(__FILE__).'/../../data/samples/'.$name.'.php';
                 return $major;
+            case 'Agribusiness':
+                $major = new UNL_UndergraduateBulletin_Major();
+                $major->title = $name;
+                return $major;
+                
         }
         throw new Exception('No major by that name.');
     }
