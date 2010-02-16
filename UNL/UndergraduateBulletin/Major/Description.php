@@ -31,8 +31,23 @@ class UNL_UndergraduateBulletin_Major_Description
             throw new Exception('Sorry, no description exists for '.$major->title);
         }
         $xhtml = file_get_contents('phar://'.$file.'/OEBPS/'.$title.'.xhtml');
-        $this->description = UNL_UndergraduateBulletin_EPUB_Utilities::convertHeadings($xhtml);
+        $simplexml = simplexml_load_string($xhtml);
+        // Fetch all namespaces
+        $namespaces = $simplexml->getNamespaces(true);
+        $simplexml->registerXPathNamespace('default', $namespaces['']);
+        
+        //Register the rest with their prefixes
+        foreach ($namespaces as $prefix => $ns) {
+            $simplexml->registerXPathNamespace($prefix, $ns);
+        }
+        $quickpoints = $simplexml->xpath('//default:p[@class="quick-points"]');
+
+        while (list( , $quickpoint) = each($quickpoints)) {
+            // Handle quickpoint
+        }
+        $this->description = UNL_UndergraduateBulletin_EPUB_Utilities::convertHeadings($simplexml->asXML());
         $this->description = UNL_UndergraduateBulletin_EPUB_Utilities::addLeaders($this->description);
+        
     }
     
     static function getByName($name)
