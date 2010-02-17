@@ -18,16 +18,16 @@
     <div id="long_content">
     <?php
     foreach ($regions as $id=>$title) { 
-        if (!empty($this->$id)) {
-            echo '<div id="'.$id.'"><a href="#header" class="top">Top</a>'.preg_replace('/([A-Z]{3,4})\s+([0-9]{2,3}[A-Z]?)/', '<a class="course" href="'.$url.'$1/$2">$0</a>',$this->$id).'</div>';
+        if (!empty($context->$id)) {
+            echo '<div id="'.$id.'"><a href="#header" class="top">Top</a>'.preg_replace('/([A-Z]{3,4})\s+([0-9]{2,3}[A-Z]?)/', '<a class="course" href="'.$url.'$1/$2">$0</a>',$context->$id).'</div>';
         }
     }
     ?>
     </div>
 </div>
 <div class="col right">
-    <table class="major_quick_points zentable cool" summary="Quick points about the <?php echo $this->major->title; ?> major/program.">
-        <caption>Quick points about the <?php echo $this->major->title; ?> major/program.</caption>
+    <table class="major_quick_points zentable cool" summary="Quick points about the <?php echo $context->major->title; ?> major/program.">
+        <caption>Quick points about the <?php echo $context->major->title; ?> major/program.</caption>
         <thead>
             <tr>
                 <th colspan="2">Quick Points</th>
@@ -40,22 +40,22 @@
         <tbody>
         <tr>
             <td class="attr">Hours Required:</td>
-            <td class="value"><?php echo $this->hours_required; ?></td>
+            <td class="value"><?php echo $context->hours_required; ?></td>
         </tr>
         <tr>
             <td class="attr">Minor Available:</td>
-            <td class="value"><?php echo ($this->minor_available)?'Yes':'No'; ?></td>
+            <td class="value"><?php echo ($context->minor_available)?'Yes':'No'; ?></td>
         </tr>
         <tr>
             <td class="attr">Chief Advisor:</td>
-            <td class="value"><?php echo $this->chief_advisor; ?></td>
+            <td class="value"><?php echo $context->chief_advisor; ?></td>
         </tr>
         </tbody>
     </table>
-    <?php if (!empty($this->degrees_offered)) { ?>
+    <?php if (!empty($context->degrees_offered)) { ?>
     <h3>Degrees Offered</h3>
     <ul>
-        <?php foreach ($this->degrees_offered as $degree) { ?>
+        <?php foreach ($context->degrees_offered as $degree) { ?>
         <li><?php echo $degree; ?></li>
         <?php } ?>
     </ul>

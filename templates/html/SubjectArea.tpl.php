@@ -1,16 +1,16 @@
 <?php
-echo '<h2 class="sec_main"> Courses of Instruction ('.htmlentities($this->subject).')</h2>';
+echo '<h2 class="sec_main"> Courses of Instruction ('.htmlentities($context->subject).')</h2>';
 echo '<a href="#" id="toggleAllCourseDescriptions">Hide all course descriptions</a>';
  ?>
  <div class="col left">
 	<div class="zenbox energetic" id="wdn_filterset">
 	    <h3>Filter these Courses</h3>
 	    <form method="post" action="#" id="filters">
-	        <?php if (count($this->groups)) : ?>
+	        <?php if (count($context->groups)) : ?>
 	        <fieldset>
 	            <legend><span>Groups</span></legend>
 	            <ol>
-	                <?php foreach ($this->groups as $group) : ?>
+	                <?php foreach ($context->groups as $group) : ?>
 	                <li>
 	                    <div class="element">
 	                        <input type="checkbox" checked="checked" value="grp_<?php echo md5($group); ?>" />
@@ -62,7 +62,7 @@ echo '<a href="#" id="toggleAllCourseDescriptions">Hide all course descriptions<
 echo  '<div class="three_col right">
     <dl>';
 
-foreach ($this->courses as $course) {
+foreach ($context->courses as $course) {
     include dirname(__FILE__).'/Course.tpl.php';
 }
 echo  '</dl></div>';

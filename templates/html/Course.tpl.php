@@ -5,7 +5,7 @@
     $crosslistings = array();
     $groups = array();
     foreach ($course->codes as $listing) {
-        if ($listing->subjectArea == $this->subject) {
+        if ($listing->subjectArea == $context->subject) {
             $listings .= $listing->courseNumber.'/';
             if ($listing->hasGroups()) {
                 $groups = array_merge($groups, $listing->groups);
@@ -77,7 +77,7 @@
     
     echo "
         <dt class='$class'>
-            <span class='subjectCode'>".htmlentities($this->subject)."</span>
+            <span class='subjectCode'>".htmlentities($context->subject)."</span>
             <span class='number'>$listings</span>
             <span class='title'>".htmlentities($course->title)."<a href='#'>Hide desc.</a></span>";
         if (!empty($crosslistings)) {

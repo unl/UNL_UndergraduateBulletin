@@ -67,6 +67,6 @@ $page->maincontentarea = '<div class="wdn_notice" id="officialMessage">
 								<p>Students who enter a college within the University in the 2010 academic year are expected to complete the graduation requirements set forth by that college in this bulletin. <a href="#">More information on this policy.</a></p>
 							</div>
 						</div>';
-$page->maincontentarea .= UNL_UndergraduateBulletin_OutputController::display($this->output, true);
+$page->maincontentarea .= $savvy->render($context->output);
 
 echo $page;
