@@ -9,18 +9,16 @@ $page->titlegraphic = '<h1>Undergraduate Bulletin 2010-2011</h1>';
 $page->breadcrumbs  = '
 <ul>
     <li><a href="http://www.unl.edu/">UNL</a></li>
-    <li><a href="'.$url.'?view=index">Undergraduate Bulletin</a></li>
+    <li><a href="'.$url.'">Undergraduate Bulletin</a></li>
 </ul>
 ';
 
 $page->navlinks     = '
 <ul>
-    <li><a href="'.$url.'?view=index">Bulletin Home</a></li>
-    <li><a href="'.$url.'?view=majors">Majors</a>
+    <li><a href="'.$url.'">Bulletin Home</a></li>
+    <li><a href="'.$url.'major/">Majors</a>
         <ul>
-            <li><a href="'.$url.'?view=major&amp;name=Advertising">Advertising</a></li>
-            <li><a href="'.$url.'?view=major&amp;name=Geography">Geography</a></li>
-            <li><a href="'.$url.'?view=major&amp;name=SocialScience">Social Science Endorsement</a></li>
+            <li><a href="'.$url.'major/Agribusiness">Agribusiness</a></li>
         </ul>
     </li>
     <li><a href="#">Academic Policies</a>
@@ -40,7 +38,7 @@ $page->navlinks     = '
             <li><a href="#">Arts &amp; Sciences</a></li>
             <li><a href="#">Business Adminsitration</a></li>
             <li><a href="#">Division of General Studies</a></li>
-            <li><a href="?view=college&amp;name=Education+%26+Human+Sciences">Education &amp; Human Sciences</a></li>
+            <li><a href="'.$url.'college/Education+%26+Human+Sciences">Education &amp; Human Sciences</a></li>
             <li><a href="#">Engineering</a></li>
             <li><a href="#">Hixson-Lied College of Fine &amp; Performing Arts</a></li>
             <li><a href="#">Journalism &amp; Mass Communications</a></li>

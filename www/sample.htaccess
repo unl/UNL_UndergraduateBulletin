@@ -2,6 +2,18 @@ RewriteEngine On
 
 RewriteBase /workspace/UNL_UndergraduateBulletin/www/
 
+# Subject Code: ex CSCE/
+RewriteRule ^([A-Z]{3,4})/$ ?view=subject&id=$1&%{QUERY_STRING} [L]
+
+# Course rewrites, ex: CSCE/420
 RewriteRule ^([A-Z]{3,4})/([\d]?[\d]{2,3}[A-Za-z]?)$ ?view=course&subject_id=$1&number=$2&%{QUERY_STRING} [L]
 RewriteRule ^([A-Z]{3,4})/([\d]?[\d]{2,3}[A-Za-z]?)/$ ?view=course&subject_id=$1&number=$2&%{QUERY_STRING} [L]
-RewriteRule ^([A-Z]{3,4})/$ ?view=subject&id=$1&%{QUERY_STRING} [L]
+
+# Major list
+RewriteRule ^major/$ ?view=majors [L]
+
+# Major ex: major/Agribusiness
+RewriteRule ^major/(.*)$ ?view=major&name=$1 [L]
+
+# College
+RewriteRule ^college/(.*)$ ?view=college&name=$1 [L]
