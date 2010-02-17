@@ -28,7 +28,7 @@ class UNL_UndergraduateBulletin_Major_Description
     
     function parseEPUB($title)
     {
-        $file = dirname(dirname(dirname(dirname(__FILE__)))).'/data/majors/'.$title.'.epub';
+        $file = dirname(dirname(dirname(dirname(dirname(__FILE__))))).'/data/majors/'.$title.'.epub';
         if (!file_exists($file)) {
             throw new Exception('Sorry, no description exists for '.$major->title);
         }

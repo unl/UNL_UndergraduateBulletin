@@ -1,9 +1,9 @@
 <?php
 
-if (file_exists('config.inc.php')) {
-    include_once 'config.inc.php';
+if (file_exists(dirname(__FILE__).'/../config.inc.php')) {
+    include_once dirname(__FILE__).'/../config.inc.php';
 } else {
-    include_once 'config.sample.php';
+    include_once dirname(__FILE__).'/../config.sample.php';
 }
 iconv_set_encoding("internal_encoding", "UTF-8");
 iconv_set_encoding("output_encoding", "UTF-8");
