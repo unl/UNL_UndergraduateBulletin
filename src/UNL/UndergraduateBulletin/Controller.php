@@ -29,7 +29,11 @@ class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_
     function __construct($options = array())
     {
         $this->options = array_merge($this->options, $options);
-        $this->run();
+        try {
+            $this->run();
+        } catch(Exception $e) {
+            $this->output[] = $e;
+        }
     }
     
     function run()

@@ -1,4 +1,4 @@
 <h1>Error</h1>
 <?php
-echo $context->message;
+echo $context->getMessage();
 ?>
