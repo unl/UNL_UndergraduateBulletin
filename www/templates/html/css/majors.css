@@ -61,18 +61,25 @@ table.major_quick_points .value {
 a.top {
 	float:right;
 }
-#maincontent p.requirement-sec-1-bold {
+#maincontent p.requirement-sec-1 {
     font-weight:bold;
     margin:1em 0 0;
 }
 #maincontent p.requirement-hours {
 	float:right;
 	margin-bottom:1em;
+	margin-top:-1em;
 }
-#maincontent p.requirement-sec-1,
+#maincontent p .requirement-ital {
+	font-style: italic;
+}
+#maincontent p .requirement-bold {
+    font-weight: bold;
+}
 #maincontent p.requirement-sec-2,
 #maincontent p.requirement-sec-3,
-#maincontent p.requirement-sec-3-,
+#maincontent p.requirement-sec-3-ledr,
+#maincontent p.requirement-sec-3-note,
 #maincontent p.requirement-sec-4 {
 	margin:0 2em 0;
 	display:block;
@@ -83,7 +90,8 @@ a.top {
     margin-left:2em;
 }
 #maincontent p.requirement-sec-3,
-#maincontent p.requirement-sec-3- {
+#maincontent p.requirement-sec-3-note,
+#maincontent p.requirement-sec-3-ledr {
     margin-left:4em;
 }
 #maincontent p.requirement-sec-4 {
