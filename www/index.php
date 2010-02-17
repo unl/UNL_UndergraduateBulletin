@@ -11,9 +11,9 @@ iconv_set_encoding("output_encoding", "UTF-8");
 
 $controller = new UNL_UndergraduateBulletin_Controller($_GET);
 
-Savvy_ClassToTemplateMapper::$classname_replacement = 'UNL_UndergraduateBulletin_';
 $savvy = new Savvy();
 $savvy->setTemplatePath(dirname(__FILE__).'/templates/html');
+$savvy->setClassToTemplateMapper(new UNL_UndergraduateBulletin_ClassToTemplateMapper());
 
 echo $savvy->render($controller);
 
