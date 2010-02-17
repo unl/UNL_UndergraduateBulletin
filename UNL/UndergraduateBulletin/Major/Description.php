@@ -17,6 +17,8 @@ class UNL_UndergraduateBulletin_Major_Description
     
     public $description;
     
+    public $college;
+    
     function __construct(UNL_UndergraduateBulletin_Major $major)
     {
         $this->major = $major;
@@ -44,6 +46,30 @@ class UNL_UndergraduateBulletin_Major_Description
 
         while (list( , $quickpoint) = each($quickpoints)) {
             // Handle quickpoint
+            if (preg_match('/([A-Z\s]+)+:/', $quickpoint, $matches)) {
+                $value = trim(substr($quickpoint, strlen($matches[1])+1));
+                switch($matches[1]) {
+                    case 'COLLEGE':
+                        $this->college = new UNL_UndergraduateBulletin_College($value);
+                        break;
+                    case 'MAJOR':
+                        break;
+                    case 'DEGREE OFFERED':
+                        $this->degrees_offered[] = $value;
+                        break;
+                    case 'HOURS REQUIRED':
+                        $this->hours_required = $value;
+                        break;
+                    case 'MINOR AVAILABLE':
+                        $this->minor_available = $value;
+                        break;
+                    case 'CHIEF ADVISER':
+                        $this->chief_advisor = $value;
+                        break;
+                    default:
+                        echo 'Unknown quickpoint '.$matches[0];
+                }
+            }
         }
         $this->description = UNL_UndergraduateBulletin_EPUB_Utilities::convertHeadings($simplexml->asXML());
         $this->description = UNL_UndergraduateBulletin_EPUB_Utilities::addLeaders($this->description);
