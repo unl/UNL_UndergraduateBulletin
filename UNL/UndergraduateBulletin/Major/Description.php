@@ -34,14 +34,28 @@ class UNL_UndergraduateBulletin_Major_Description
         }
         $xhtml = file_get_contents('phar://'.$file.'/OEBPS/'.$title.'.xhtml');
         $simplexml = simplexml_load_string($xhtml);
+        
         // Fetch all namespaces
         $namespaces = $simplexml->getNamespaces(true);
         $simplexml->registerXPathNamespace('default', $namespaces['']);
         
-        //Register the rest with their prefixes
+        // Register the rest with their prefixes
         foreach ($namespaces as $prefix => $ns) {
             $simplexml->registerXPathNamespace($prefix, $ns);
         }
+
+        $this->parseQuickPoints($simplexml);
+
+        $body = $simplexml->xpath('//default:body');
+
+        $this->description = UNL_UndergraduateBulletin_EPUB_Utilities::convertHeadings($body[0]->asXML());
+        $this->description = UNL_UndergraduateBulletin_EPUB_Utilities::addLeaders($this->description);
+        
+    }
+    
+    public function parseQuickPoints($simplexml)
+    {
+        
         $quickpoints = $simplexml->xpath('//default:p[@class="quick-points"]');
 
         while (list( , $quickpoint) = each($quickpoints)) {
@@ -71,9 +85,6 @@ class UNL_UndergraduateBulletin_Major_Description
                 }
             }
         }
-        $this->description = UNL_UndergraduateBulletin_EPUB_Utilities::convertHeadings($simplexml->asXML());
-        $this->description = UNL_UndergraduateBulletin_EPUB_Utilities::addLeaders($this->description);
-        
     }
     
     static function getByName($name)
