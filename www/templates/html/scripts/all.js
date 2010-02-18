@@ -37,8 +37,8 @@ WDN.jQuery(document).ready(function(){
     //End: Deal with the interactivity behind the wdn_notice
     
     WDN.jQuery('#maincontent a.course').click(function(eventObject){
+    	WDN.jQuery(this).colorbox({width:"640px",href:this.href+'?format=partial',open:true});
     	eventObject.preventDefault();
-    	WDN.jQuery.fn.colorbox({width:"640px",href:this.href+'?format=partial',open:true});
     });
     //Show/Hide the course information
     WDN.jQuery('#toggleAllCourseDescriptions').click(function() {
