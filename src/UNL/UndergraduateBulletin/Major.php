@@ -51,6 +51,7 @@ class UNL_UndergraduateBulletin_Major
                 include dirname(__FILE__).'/../../data/samples/'.$name.'.php';
                 return $major;
             case 'Agribusiness':
+            case 'Architecture':
                 $major = new UNL_UndergraduateBulletin_Major();
                 $major->title = $name;
                 return $major;
