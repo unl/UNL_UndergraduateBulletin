@@ -67,8 +67,7 @@ a.top {
 }
 #maincontent p.requirement-hours {
 	float:right;
-	margin-bottom:1em;
-	margin-top:-1em;
+	margin-bottom:0em;
 }
 #maincontent p .requirement-ital {
 	font-style: italic;
@@ -81,21 +80,20 @@ a.top {
 #maincontent p.requirement-sec-3-ledr,
 #maincontent p.requirement-sec-3-note,
 #maincontent p.requirement-sec-4 {
-	margin:0 2em 0;
+	margin:0 1em 0 0;
 	display:block;
 	position:relative;
 }
 
-#maincontent p.requirement-sec-2 {
-    margin-left:2em;
-}
 #maincontent p.requirement-sec-3,
 #maincontent p.requirement-sec-3-note,
 #maincontent p.requirement-sec-3-ledr {
-    margin-left:4em;
+    margin-left:1em;
+    margin-right:2em;
 }
 #maincontent p.requirement-sec-4 {
-    margin-left:6em;
+    margin-left:2em;
+    margin-right:3em;
 }
 
 #maincontent p span {
