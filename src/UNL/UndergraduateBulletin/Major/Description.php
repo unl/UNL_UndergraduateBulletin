@@ -60,8 +60,8 @@ class UNL_UndergraduateBulletin_Major_Description
 
         while (list( , $quickpoint) = each($quickpoints)) {
             // Handle quickpoint
-            if (preg_match('/([A-Z\s]+)+:/', $quickpoint, $matches)) {
-                $value = trim(substr($quickpoint, strlen($matches[1])+1));
+            if (preg_match('/([A-Z\s]+)+:/', (string)$quickpoint->span, $matches)) {
+                $value = trim((string)$quickpoint);
                 switch($matches[1]) {
                     case 'COLLEGE':
                         $this->college = new UNL_UndergraduateBulletin_College($value);
@@ -69,6 +69,7 @@ class UNL_UndergraduateBulletin_Major_Description
                     case 'MAJOR':
                         break;
                     case 'DEGREE OFFERED':
+                    case 'DEGREES OFFERED':
                         $this->degrees_offered[] = $value;
                         break;
                     case 'HOURS REQUIRED':
