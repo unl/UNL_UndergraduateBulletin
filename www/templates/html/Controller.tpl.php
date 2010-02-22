@@ -33,8 +33,8 @@ $page->navlinks     = '
     </li>
     <li><a href="#">Academic Colleges</a>
     	<ul>
-            <li><a href="#">Agricultural Sciences &amp; Natural Resources</a></li>
-            <li><a href="#">Architecture</a></li>
+            <li><a href="'.$url.'college/Agricultural+Sciences+%26+Natural+Resources">Agricultural Sciences &amp; Natural Resources</a></li>
+            <li><a href="'.$url.'college/Architecture">Architecture</a></li>
             <li><a href="#">Arts &amp; Sciences</a></li>
             <li><a href="#">Business Adminsitration</a></li>
             <li><a href="#">Division of General Studies</a></li>

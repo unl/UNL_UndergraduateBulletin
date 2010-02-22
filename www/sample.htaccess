@@ -16,4 +16,5 @@ RewriteRule ^major/$ ?view=majors [L]
 RewriteRule ^major/(.*)$ ?view=major&name=$1 [L]
 
 # College
-RewriteRule ^college/(.*)$ ?view=college&name=$1 [L]
+RewriteRule ^college/(.*)\&(.*)$ ?view=college&name=$1\%26$2 [L]
+RewriteRule ^college/(.+)$ ?view=college&name=$1 [L]
