@@ -73,7 +73,7 @@ a.top {
     margin-top:1em;
 }
 
-#maincontent p + p {
+#maincontent p ~ p.numbered-list {
     margin-bottom:0;
 }
 
