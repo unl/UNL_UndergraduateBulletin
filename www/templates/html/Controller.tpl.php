@@ -18,6 +18,7 @@ $page->navlinks     = '
     <li><a href="'.$url.'">Bulletin Home</a></li>
     <li><a href="'.$url.'major/">Majors</a>
         <ul>
+            <li><a href="'.$url.'major/Architecture">Architecture</a></li>
             <li><a href="'.$url.'major/Agribusiness">Agribusiness</a></li>
         </ul>
     </li>
