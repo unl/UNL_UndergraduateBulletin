@@ -5,15 +5,13 @@
     margin-top:-8px;
     margin-bottom:15px;
 }
-#maincontent h2.sec_header {
+#maincontent h2.sec_header,
+#maincontent h3,
+#maincontent h4,
+#maincontent h5 {
     margin-top:1em;
 }
-#maincontent h3 {
-    margin-top:1em;
-}
-#maincontent h4 {
-    margin-top:1em;
-}
+
 .intro {
     font-size:115%;
     line-height:145%;
@@ -78,6 +76,10 @@ margin-bottom:0;
 #maincontent p.list {
     margin-bottom:0em;
 }
+#maincontent p.list-indent {
+    margin-bottom:0em;
+    text-indent:1.5em;
+}
 
 #maincontent p.requirement-sec-1 {
     font-weight:bold;
@@ -87,10 +89,12 @@ margin-bottom:0;
     float:right;
     margin-bottom:0em;
 }
-#maincontent p .requirement-ital {
+#maincontent .requirement-ital,
+#maincontent .basic-text-ital {
     font-style: italic;
 }
-#maincontent p .requirement-bold {
+#maincontent .requirement-bold,
+#maincontent .basic-text-bold {
     font-weight: bold;
 }
 #maincontent p.requirement-sec-2,
@@ -101,6 +105,7 @@ margin-bottom:0;
     margin:0 1em 0 0;
     display:block;
     position:relative;
+    clear:both;
 }
 
 #maincontent p.requirement-sec-3,
