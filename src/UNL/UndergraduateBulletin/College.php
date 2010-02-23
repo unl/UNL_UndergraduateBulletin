@@ -15,10 +15,17 @@ class UNL_UndergraduateBulletin_College
         switch ($var) {
             case 'description':
                 return $this->getDescription();
+            case 'majors':
+                return $this->getDescription()->majors;
         }
         throw new Exception('Unknown member var! '.$var);
     }
 
+    /**
+     * Get the description for this college.
+     * 
+     * @return UNL_UndergraduateBulletin_College_Description
+     */
     function getDescription()
     {
         if (!$this->_description) {

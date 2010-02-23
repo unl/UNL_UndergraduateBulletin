@@ -5,6 +5,8 @@ class UNL_UndergraduateBulletin_College_Description
     
     public $description;
     
+    public $majors = array();
+    
     protected static $files = array(
         //'Education & Human Sciences'=>'CEHS.xhtml',
         'Education & Human Sciences' => 'CEHS.epub/OEBPS/College_Page_test-CEHS.xhtml',
@@ -33,9 +35,33 @@ class UNL_UndergraduateBulletin_College_Description
         }
 
         $body = $simplexml->xpath('//default:body');
+        
+        $this->parseQuickPoints($simplexml);
 
         $this->description = UNL_UndergraduateBulletin_EPUB_Utilities::convertHeadings($body[0]->asXML());
         $this->description = UNL_UndergraduateBulletin_EPUB_Utilities::addLeaders($this->description);
+    }
+    
+    function parseQuickPoints($simplexml)
+    {
+        $quickpoints = $simplexml->xpath('//default:p[@class="quick-points"]');
+
+        while (list( , $quickpoint) = each($quickpoints)) {
+            // Handle quickpoint
+            if (isset($quickpoint->span)) {
+                $point_desc = (string)$quickpoint->span;
+            } else {
+                $point_desc = (string)$quickpoint;
+            }
+            if (preg_match('/([A-Z\s]+)+:/', $point_desc, $matches)) {
+                $value = trim(str_replace($matches[0], '', (string)$quickpoint));
+                switch($matches[1]) {
+                    case 'MAJORS':
+                        $this->majors = explode(', ', $value);
+                        break;
+                }
+            }
+        }
     }
     
     function __toString()

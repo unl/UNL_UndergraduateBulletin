@@ -13,3 +13,13 @@ UNL_UndergraduateBulletin_Controller::setReplacementData('doctitle', 'UNL | Unde
     echo UNL_UndergraduateBulletin_EPUB_Utilities::convertHeadings($context->description); ?>
     </div>
 </div>
+<div class="col right">
+    <h3 id="relatedMajors">Majors</h3>
+    <ul>
+    <?php
+    foreach($context->majors as $major) {
+        echo '<li><a href="'.$url.'major/'.$major.'">'.$major.'</a></li>';
+    }
+    ?>
+    </ul>
+</div>
