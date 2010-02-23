@@ -12,6 +12,7 @@ class UNL_UndergraduateBulletin_EPUB_Utilities
         $html = preg_replace('/<p class="section-2">([^<]*)<\/p>/', '<h4 class="section-2">$1</h4>', $html);
         $html = preg_replace('/<p class="section-3">([^<]*)<\/p>/', '<h5 class="section-3">$1</h5>', $html);
         $html = preg_replace('/([\s]+)?\(([\s]+)?CONTENT BOX HEADING([\s]+)?\)/i', '', $html);
+        $html = str_replace('<table>', '<table class="zentable cool">', $html);
         return $html;
     }
     
