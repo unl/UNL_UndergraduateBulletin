@@ -5,10 +5,10 @@
     margin-top:-8px;
     margin-bottom:15px;
 }
-#maincontent h2.sec_header,
-#maincontent h3,
-#maincontent h4,
-#maincontent h5 {
+#maincontent div.story h2.sec_header,
+#maincontent div.story h3,
+#maincontent div.story h4,
+#maincontent div.story h5 {
     margin-top:1em;
 }
 
@@ -155,10 +155,5 @@ a.top {
 
 #maincontent p.faculty-list {
     margin:0;
-}
-
-#maincontent p.basic-text {
-    margin:0;
-    text-indent: 1.5em;
 }
 
