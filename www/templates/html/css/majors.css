@@ -5,13 +5,19 @@
     margin-top:-8px;
     margin-bottom:15px;
 }
+#maincontent h2.sec_header {
+    margin-top:1em;
+}
 #maincontent h3 {
     margin-top:1em;
 }
+#maincontent h4 {
+    margin-top:1em;
+}
 .intro {
-	font-size:115%;
-	line-height:145%;
-	}
+    font-size:115%;
+    line-height:145%;
+    }
 #toc_nav {
     position:relative;
     font-size:150%;
@@ -50,30 +56,39 @@ table.major_quick_points .value {
 #maincontent ol#toc ol ol ol { list-style: lower-alpha;padding:0 0 0 25px;}
 
 #toc_nav a#tocContent {
-	background:url('images/majorContents.png');
-	width:135px;
-	height:30px;
-	display:block;
-	padding:8px 0 0 50px;
-	color:#3f85ca;
-	z-index:10;
-	}
+    background:url('images/majorContents.png');
+    width:135px;
+    height:30px;
+    display:block;
+    padding:8px 0 0 50px;
+    color:#3f85ca;
+    z-index:10;
+    }
 #toc_nav a#tocContent:active, #toc_nav a#tocContent:focus {
-	color:#3f85ca !important;
-	}
+    color:#3f85ca !important;
+    }
 a.top {
-	float:right;
+    float:right;
 }
+
+#maincontent p + p {
+margin-bottom:0;
+}
+
+#maincontent p.list {
+    margin-bottom:0em;
+}
+
 #maincontent p.requirement-sec-1 {
     font-weight:bold;
     margin:1em 0 0;
 }
 #maincontent p.requirement-hours {
-	float:right;
-	margin-bottom:0em;
+    float:right;
+    margin-bottom:0em;
 }
 #maincontent p .requirement-ital {
-	font-style: italic;
+    font-style: italic;
 }
 #maincontent p .requirement-bold {
     font-weight: bold;
@@ -83,9 +98,9 @@ a.top {
 #maincontent p.requirement-sec-3-ledr,
 #maincontent p.requirement-sec-3-note,
 #maincontent p.requirement-sec-4 {
-	margin:0 1em 0 0;
-	display:block;
-	position:relative;
+    margin:0 1em 0 0;
+    display:block;
+    position:relative;
 }
 
 #maincontent p.requirement-sec-3,
@@ -100,7 +115,7 @@ a.top {
 }
 
 #maincontent p span {
-	background-color:#FFF;
+    background-color:#FFF;
 }
 #maincontent p span.req_desc {
     padding-bottom:1px;
@@ -108,30 +123,31 @@ a.top {
 }
 
 #maincontent p span.leader {
-	display:block;
-	width:100%;
-	border-bottom:1px dotted;
-	}
+    display:block;
+    width:100%;
+    border-bottom:1px dotted;
+    }
 
 #maincontent p span.req_value {
-	float:right;
-	padding-left:3px;
-	margin-top:-1.2em;
+    float:right;
+    padding-left:3px;
+    margin-top:-1.2em;
 }
 
 #maincontent p.quick-points,
 #maincontent p.major-name {
-	display:none;
+    display:none;
 }
 
 #maincontent p.faculty-list {
-	margin:0;
+    margin:0;
 }
 #maincontent .faculty-list-bold {
-	font-weight:bold;
+    font-weight:bold;
 }
 
 #maincontent p.basic-text {
-	margin:1.5em 0;
-	text-indent: 1.5em;
+    margin:0;
+    text-indent: 1.5em;
 }
+
