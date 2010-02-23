@@ -36,14 +36,18 @@ $page->navlinks     = '
     	<ul>
             <li><a href="'.$url.'college/Agricultural+Sciences+%26+Natural+Resources">Agricultural Sciences &amp; Natural Resources</a></li>
             <li><a href="'.$url.'college/Architecture">Architecture</a></li>
+            <!--
             <li><a href="#">Arts &amp; Sciences</a></li>
             <li><a href="#">Business Adminsitration</a></li>
             <li><a href="#">Division of General Studies</a></li>
+            -->
             <li><a href="'.$url.'college/Education+%26+Human+Sciences">Education &amp; Human Sciences</a></li>
+            <!--
             <li><a href="#">Engineering</a></li>
             <li><a href="#">Hixson-Lied College of Fine &amp; Performing Arts</a></li>
             <li><a href="#">Journalism &amp; Mass Communications</a></li>
             <li><a href="#">Public Affairs &amp; Community Service</a></li>
+            -->
         </ul>
     </li>
     
