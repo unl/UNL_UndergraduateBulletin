@@ -56,6 +56,9 @@ WDN.jQuery(document).ready(function(){
     	if(WDN.jQuery(this).text().length > 3) {
     		WDN.jQuery(this).addClass('wide');
     	}
+    	if(WDN.jQuery(this).text().length > 7) {
+    		WDN.jQuery(this).addClass('really');
+    	}
     });
     
     // Configure course filters.
