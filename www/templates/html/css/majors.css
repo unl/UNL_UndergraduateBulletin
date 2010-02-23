@@ -69,8 +69,12 @@ a.top {
     float:right;
 }
 
+#maincontent p + p.header-paragraph {
+    margin-top:1em;
+}
+
 #maincontent p + p {
-margin-bottom:0;
+    margin-bottom:0;
 }
 
 #maincontent p.list {
@@ -90,11 +94,15 @@ margin-bottom:0;
     margin-bottom:0em;
 }
 #maincontent .requirement-ital,
-#maincontent .basic-text-ital {
+#maincontent .basic-text-ital,
+#maincontent .list-ital {
     font-style: italic;
 }
 #maincontent .requirement-bold,
-#maincontent .basic-text-bold {
+#maincontent .basic-text-bold,
+#maincontent .faculty-list-bold,
+#maincontent .list-bold,
+#maincontent .header-paragraph-title {
     font-weight: bold;
 }
 #maincontent p.requirement-sec-2,
@@ -146,9 +154,6 @@ margin-bottom:0;
 
 #maincontent p.faculty-list {
     margin:0;
-}
-#maincontent .faculty-list-bold {
-    font-weight:bold;
 }
 
 #maincontent p.basic-text {
