@@ -40,6 +40,7 @@ class UNL_UndergraduateBulletin_College_Description
 
         $this->description = UNL_UndergraduateBulletin_EPUB_Utilities::convertHeadings($body[0]->asXML());
         $this->description = UNL_UndergraduateBulletin_EPUB_Utilities::addLeaders($this->description);
+        $this->description = UNL_UndergraduateBulletin_EPUB_Utilities::addCourseLinks($this->description);
     }
     
     function parseQuickPoints($simplexml)

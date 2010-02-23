@@ -27,4 +27,9 @@ class UNL_UndergraduateBulletin_EPUB_Utilities
         $html = preg_replace('/<p class="(requirement-sec-1)">(.*)\s([\d]{2,3})<\/p>/', '<p class="$1"><span class="req_desc">$2</span><span class="leader"></span><span class="req_value">$3</span></p>', $html);
         return $html;
     }
+    
+    public static function addCourseLinks($text)
+    {
+        return preg_replace('/([A-Z]{3,4})\s+([0-9]{2,3}[A-Z]?)/', '<a class="course" href="'.UNL_UndergraduateBulletin_Controller::getURL().'$1/$2">$0</a>', $text);
+    }
 }
