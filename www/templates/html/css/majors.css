@@ -47,6 +47,8 @@ table.major_quick_points .value {
     margin:-7px 0 0 4px;
     border-right:1px solid #ededed;
     border-bottom:1px solid #ededed;
+    -moz-box-shadow: 2px 2px 5px #888;
+    -moz-border-radius:5px;
     border-radius:5px;
 } 
 #maincontent ol#toc ol { list-style: decimal;padding:0 0 0 25px;}
@@ -73,7 +75,7 @@ a.top {
     margin-top:1em;
 }
 
-#maincontent p ~ p.numbered-list {
+#maincontent p + p.numbered-list {
     margin-bottom:0;
 }
 
