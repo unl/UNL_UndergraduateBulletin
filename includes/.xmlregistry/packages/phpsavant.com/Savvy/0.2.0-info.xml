@@ -20,10 +20,10 @@ don't need to learn a new markup system.</description>
   <email>cellog@php.net</email>
   <active>yes</active>
  </lead>
- <date>2010-02-16</date>
- <time>21:56:37</time>
+ <date>2010-02-24</date>
+ <time>08:42:31</time>
  <version>
-  <release>0.1.1</release>
+  <release>0.2.0</release>
   <api>0.1.0</api>
  </version>
  <stability>
@@ -31,8 +31,7 @@ don't need to learn a new markup system.</description>
   <api>alpha</api>
  </stability>
  <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
- <notes>Change a few remaining references from Savant to Savvy.
-Remove namespace characters for 5.2 compatibility.
+ <notes>Add __isset and __unset to the ObjectProxy class.
 
 
 Package Savvy API release notes for version 0.1.0.</notes>
@@ -54,7 +53,7 @@ Package Savvy API release notes for version 0.1.0.</notes>
    <file role="php" name="src/Savvy/TemplateException.php" md5sum="0dcf725a67d3db2457f4f9793654e8d1"/>
    <file role="php" name="src/Savvy/ObjectProxy/Traversable.php" md5sum="b2da240e55d55b50b0a509bacd3a61be"/>
    <file role="php" name="src/Savvy/ObjectProxy/ArrayAccess.php" md5sum="9e0ddf3ada4683dfc1f9c8ab9440653b"/>
-   <file role="php" name="src/Savvy/ObjectProxy.php" md5sum="20f6c05f18b9440792604b06b512d5e9"/>
+   <file role="php" name="src/Savvy/ObjectProxy.php" md5sum="5a1050d1caede3e28bc908cf20bf9bf9"/>
    <file role="php" name="src/Savvy/MapperInterface.php" md5sum="127c43a259b071872044a492d101faca"/>
    <file role="php" name="src/Savvy/FilterAbstract.php" md5sum="dc9abe43fa8f2a7ec038d8bc4e2fd0da"/>
    <file role="php" name="src/Savvy/FastCompilerInterface.php" md5sum="213b589107a0b18d2074167f2d0fe864"/>
