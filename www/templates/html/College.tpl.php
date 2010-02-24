@@ -10,7 +10,7 @@ UNL_UndergraduateBulletin_Controller::setReplacementData('doctitle', 'UNL | Unde
     </div>
     <div id="long_content">
     <?php
-    echo UNL_UndergraduateBulletin_EPUB_Utilities::convertHeadings($context->description); ?>
+    echo UNL_UndergraduateBulletin_EPUB_Utilities::convertHeadings($context->getRaw('description')); ?>
     </div>
 </div>
 <div class="col right">
@@ -18,7 +18,7 @@ UNL_UndergraduateBulletin_Controller::setReplacementData('doctitle', 'UNL | Unde
     <ul>
     <?php
     foreach($context->majors as $major) {
-        echo '<li><a href="'.$url.'major/'.$major.'">'.$major.'</a></li>';
+        echo '<li><a href="'.$url.'major/'.urlencode($major).'">'.$major.'</a></li>';
     }
     ?>
     </ul>

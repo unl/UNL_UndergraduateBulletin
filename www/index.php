@@ -15,6 +15,8 @@ $savvy = new Savvy();
 $savvy->setTemplatePath(dirname(__FILE__).'/templates/html');
 $savvy->setClassToTemplateMapper(new UNL_UndergraduateBulletin_ClassToTemplateMapper());
 
+$savvy->setEscape('htmlentities');
+
 echo $savvy->render($controller);
 
 //UNL_UndergraduateBulletin_OutputController::display($controller);

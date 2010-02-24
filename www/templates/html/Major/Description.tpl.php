@@ -17,9 +17,9 @@
     </div>
     <div id="long_content">
     <?php
-    foreach ($regions as $id=>$title) { 
+    foreach ($regions as $id=>$title) {
         if (!empty($context->$id)) {
-            echo '<div id="'.$id.'"><a href="#header" class="top">Top</a>'.$context->$id.'</div>';
+            echo '<div id="'.$id.'"><a href="#header" class="top">Top</a>'.$context->getRaw($id).'</div>';
         }
     }
     ?>
@@ -38,18 +38,22 @@
             </tr>
         </thead>
         <tbody>
-        <tr>
-            <td class="attr">Hours Required:</td>
-            <td class="value"><?php echo $context->hours_required; ?></td>
-        </tr>
-        <tr>
-            <td class="attr">Minor Available:</td>
-            <td class="value"><?php echo ($context->minor_available)?'Yes':'No'; ?></td>
-        </tr>
-        <tr>
-            <td class="attr">Chief Advisor:</td>
-            <td class="value"><?php echo $context->chief_advisor; ?></td>
-        </tr>
+            <tr>
+                <td class="attr">College:</td>
+                <td class="value"><a href="<?php echo $context->college->getURL(); ?>"><?php echo $context->college->name; ?></a></td>
+            </tr>
+            <tr>
+                <td class="attr">Hours Required:</td>
+                <td class="value"><?php echo $context->hours_required; ?></td>
+            </tr>
+            <tr>
+                <td class="attr">Minor Available:</td>
+                <td class="value"><?php echo ($context->minor_available)?'Yes':'No'; ?></td>
+            </tr>
+            <tr>
+                <td class="attr">Chief Advisor:</td>
+                <td class="value"><?php echo $context->chief_advisor; ?></td>
+            </tr>
         </tbody>
     </table>
     <?php if (!empty($context->degrees_offered)) { ?>

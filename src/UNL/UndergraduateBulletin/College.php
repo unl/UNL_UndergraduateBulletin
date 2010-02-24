@@ -33,4 +33,9 @@ class UNL_UndergraduateBulletin_College
         }
         return $this->_description;
     }
+    
+    function getURL()
+    {
+        return UNL_UndergraduateBulletin_Controller::getURL().'college/'.urlencode($this->name);
+    }
 }
