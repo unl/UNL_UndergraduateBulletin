@@ -9,7 +9,7 @@ iconv_set_encoding("internal_encoding", "UTF-8");
 iconv_set_encoding("output_encoding", "UTF-8");
 
 
-$controller = new UNL_UndergraduateBulletin_Controller($_GET);
+$controller = new UNL_UndergraduateBulletin_Controller(UNL_UndergraduateBulletin_Router::getRoute() + $_GET);
 
 $savvy = new Savvy();
 $savvy->setTemplatePath(dirname(__FILE__).'/templates/html');
@@ -19,7 +19,3 @@ $savvy->setEscape('htmlentities');
 
 echo $savvy->render($controller);
 
-//UNL_UndergraduateBulletin_OutputController::display($controller);
-
-
-?>

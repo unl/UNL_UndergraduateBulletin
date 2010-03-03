@@ -43,21 +43,9 @@ class UNL_UndergraduateBulletin_Major
     
     static function getByName($name)
     {
-        $major = new self();
-        switch ($name) {
-            case 'Geography':
-            case 'Advertising':
-            case 'SocialScience':
-                include dirname(__FILE__).'/../../data/samples/'.$name.'.php';
-                return $major;
-            case 'Agribusiness':
-            case 'Architecture':
-                $major = new UNL_UndergraduateBulletin_Major();
-                $major->title = $name;
-                return $major;
-                
-        }
-        throw new Exception('No major by that name.');
+        $major = new UNL_UndergraduateBulletin_Major();
+        $major->title = $name;
+        return $major;
     }
 }
 ?>

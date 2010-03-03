@@ -30,9 +30,9 @@ class UNL_UndergraduateBulletin_Major_Description
     {
         $file = dirname(dirname(dirname(dirname(dirname(__FILE__))))).'/data/majors/'.$title.'.epub';
         if (!file_exists($file)) {
-            throw new Exception('Sorry, no description exists for '.$major->title);
+            throw new Exception('Sorry, no description exists for '.$title. ' in '.$file);
         }
-        $xhtml = file_get_contents('phar://'.$file.'/OEBPS/'.$title.'.xhtml');
+        $xhtml = file_get_contents('phar://'.$file.'/OEBPS/'.str_replace(' ', '_', $title).'.xhtml');
         $simplexml = simplexml_load_string($xhtml);
         
         // Fetch all namespaces
