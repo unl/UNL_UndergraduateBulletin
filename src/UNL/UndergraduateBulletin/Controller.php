@@ -157,5 +157,10 @@ class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_
         
         return trim($url, '?;=');
     }
+    
+    static function getDataDir()
+    {
+        return dirname(dirname(dirname(dirname(__FILE__)))).'/data';
+    }
 }
 ?>
