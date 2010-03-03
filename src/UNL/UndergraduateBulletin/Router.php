@@ -26,7 +26,7 @@ class UNL_UndergraduateBulletin_Router
                 $options['number']     = $matches[2];
                 break;
             // List of all majors
-            case preg_match('/'.$base.'majors$/', $requestURI, $matches):
+            case preg_match('/'.$base.'majors?\/?$/', $requestURI, $matches):
                 $options['view'] = 'majors';
                 break;
             // Individual major major/Architecture
