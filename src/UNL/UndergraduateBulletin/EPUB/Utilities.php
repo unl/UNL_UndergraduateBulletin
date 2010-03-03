@@ -30,6 +30,6 @@ class UNL_UndergraduateBulletin_EPUB_Utilities
     
     public static function addCourseLinks($text)
     {
-        return preg_replace('/([A-Z]{3,4})\s+([0-9]{2,3}[A-Z]?)/', '<a class="course" href="'.UNL_UndergraduateBulletin_Controller::getURL().'$1/$2">$0</a>', $text);
+        return preg_replace('/([A-Z]{3,4})\s+([0-9]{2,3}[A-Z]?)/', '<a class="course" href="'.UNL_UndergraduateBulletin_Controller::getURL().'courses/$1/$2">$0</a>', $text);
     }
 }
