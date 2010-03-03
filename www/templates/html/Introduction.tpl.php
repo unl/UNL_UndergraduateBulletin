@@ -11,7 +11,7 @@
             <li>Division of General Studies</li>
             <li><a href="college/Education+%26+Human+Sciences">Education &amp; Human Sciences</a></li>
             <li>Engineering</li>
-            <li>Hixson-Lied College of Fine &amp; Performing Arts</li>
+            <li><a href="college/Fine+%26+Performing+Arts">Hixson-Lied College of Fine &amp; Performing Arts</a></li>
             <li>Journalism &amp; Mass Communications</li>
             <li>Public Affairs &amp; Community Service</li>
         </ul>

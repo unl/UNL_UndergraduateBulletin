@@ -8,10 +8,10 @@ class UNL_UndergraduateBulletin_College_Description
     public $majors = array();
     
     protected static $files = array(
-        //'Education & Human Sciences'=>'CEHS.xhtml',
         'Education & Human Sciences' => 'CEHS.epub/OEBPS/College_Page_test-CEHS.xhtml',
         'Architecture'               => 'ARCH College.epub/OEBPS/ARCH_College.xhtml',
         'Agricultural Sciences & Natural Resources'=>'CASNR College Page.epub/OEBPS/CASNR_College_Page.xhtml',
+        'Fine & Performing Arts'     => 'FPA College.epub/OEBPS/FPA_College.xhtml'
     );
     
     function __construct(UNL_UndergraduateBulletin_College $college)
@@ -21,7 +21,7 @@ class UNL_UndergraduateBulletin_College_Description
         if (!isset(self::$files[$college->name])) {
             throw new Exception('No description for the '.$college->name.' college.');
         }
-        $file = 'phar://'.dirname(dirname(dirname(dirname(dirname(__FILE__))))).'/data/colleges/'.self::$files[$college->name];
+        $file = 'phar://'.UNL_UndergraduateBulletin_Controller::getDataDir().'/colleges/'.self::$files[$college->name];
         
         $simplexml = simplexml_load_string(file_get_contents($file));
         
