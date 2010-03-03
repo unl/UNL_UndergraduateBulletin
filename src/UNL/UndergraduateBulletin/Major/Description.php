@@ -28,7 +28,7 @@ class UNL_UndergraduateBulletin_Major_Description
     
     function parseEPUB($title)
     {
-        $file = dirname(dirname(dirname(dirname(dirname(__FILE__))))).'/data/majors/'.$title.'.epub';
+        $file = UNL_UndergraduateBulletin_Controller::getDataDir().'/majors/'.$title.'.epub';
         if (!file_exists($file)) {
             throw new Exception('Sorry, no description exists for '.$title. ' in '.$file);
         }
@@ -87,21 +87,6 @@ class UNL_UndergraduateBulletin_Major_Description
                 }
             }
         }
-    }
-    
-    static function getByName($name)
-    {
-        $major = new UNL_UndergraduateBulletin_Major();
-        $description = new self();
-        switch ($name) {
-            case 'Geography':
-            case 'Advertising':
-            case 'SocialScience':
-                include dirname(__FILE__).'/../../data/samples/'.$name.'.php';
-                
-                return $description;
-        }
-        throw new Exception('No major by that name.');
     }
 }
 ?>
