@@ -20,10 +20,10 @@ don't need to learn a new markup system.</description>
   <email>cellog@php.net</email>
   <active>yes</active>
  </lead>
- <date>2010-02-24</date>
- <time>08:42:31</time>
+ <date>2010-03-04</date>
+ <time>13:07:05</time>
  <version>
-  <release>0.2.0</release>
+  <release>0.2.2</release>
   <api>0.1.0</api>
  </version>
  <stability>
@@ -31,7 +31,7 @@ don't need to learn a new markup system.</description>
   <api>alpha</api>
  </stability>
  <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
- <notes>Add __isset and __unset to the ObjectProxy class.
+ <notes>Fix Savvy_ObjectProxy_ArrayAccess::offsetExists()
 
 
 Package Savvy API release notes for version 0.1.0.</notes>
@@ -49,10 +49,10 @@ Package Savvy API release notes for version 0.1.0.</notes>
    <file role="test" name="tests/escape/object.phpt" md5sum="7012a6b97c7cb20391bde8243b582e1b"/>
    <file role="test" name="tests/escape/Foo.tpl.php" md5sum="d960fd1fa4867a04702db10cda65d772"/>
    <file role="test" name="tests/escape/echostring.tpl.php" md5sum="a45c7c6b67b56e43935d844f358f080b"/>
-   <file role="php" name="src/Savvy/UnexpectedValueException.php" md5sum="f8de4f49d70c159f67e0358d6c3fef3e"/>
+   <file role="php" name="src/Savvy/UnexpectedValueException.php" md5sum="bc88ee83b651bea0cb3190c4785be447"/>
    <file role="php" name="src/Savvy/TemplateException.php" md5sum="0dcf725a67d3db2457f4f9793654e8d1"/>
    <file role="php" name="src/Savvy/ObjectProxy/Traversable.php" md5sum="b2da240e55d55b50b0a509bacd3a61be"/>
-   <file role="php" name="src/Savvy/ObjectProxy/ArrayAccess.php" md5sum="9e0ddf3ada4683dfc1f9c8ab9440653b"/>
+   <file role="php" name="src/Savvy/ObjectProxy/ArrayAccess.php" md5sum="a18cde5a30fcd4f6c5b6437a1fa702d9"/>
    <file role="php" name="src/Savvy/ObjectProxy.php" md5sum="5a1050d1caede3e28bc908cf20bf9bf9"/>
    <file role="php" name="src/Savvy/MapperInterface.php" md5sum="127c43a259b071872044a492d101faca"/>
    <file role="php" name="src/Savvy/FilterAbstract.php" md5sum="dc9abe43fa8f2a7ec038d8bc4e2fd0da"/>
