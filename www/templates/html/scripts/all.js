@@ -1,21 +1,21 @@
-WDN.jQuery(document).ready(function(){
+WDN.jQuery(document).ready(function($){
 //Deal with the Table of Contents for the majors pages.
-	WDN.jQuery("#toc_nav ol").click(
+	$("#toc_nav ol").click(
 		function() {
-			WDN.jQuery("#toc_nav ol").hide();
+			$("#toc_nav ol").hide();
 		}
 	);
-    WDN.jQuery("#toc_nav").hover(
+    $("#toc_nav").hover(
 		function() {
-	        WDN.jQuery("#toc_nav ol").show();
+	        $("#toc_nav ol").show();
 	    },
 	    function() {
-	        WDN.jQuery("#toc_nav ol").hide();
+	        $("#toc_nav ol").hide();
 	    }
     );
-    WDN.jQuery("#toc_nav ol").hide();
-    WDN.jQuery("#toc").tableOfContents(
-    		WDN.jQuery("#long_content"),      // Scoped to div#long_content
+    $("#toc_nav ol").hide();
+    $("#toc").tableOfContents(
+    		$("#long_content"),      // Scoped to div#long_content
       {
         startLevel: 2,    // H1 and up
         depth:      2,    // H1 through H4,
@@ -25,49 +25,53 @@ WDN.jQuery(document).ready(function(){
     //End: Deal with the Table of Contents for the majors pages.
 
     //Deal with the interactivity behind the wdn_notice
-    WDN.jQuery(".minimize").click(function() {
-    	WDN.jQuery(this).parent(".wdn_notice").slideUp("slow", function() {
-    			WDN.jQuery(this).wrap("<div class='col right' id='wdn_notice_wrapper'></div>"); //wrap in a col, floated right
-    			WDN.jQuery(this).children("div.message").children("p").children("a").insertAfter("div.message p").siblings("p").hide();
-    			WDN.jQuery(this).children(".minimize").removeClass("minimize").addClass("maximize");
-    			WDN.jQuery(this).slideDown("slow");
+    $(".minimize").click(function() {
+    	$(this).parent(".wdn_notice").slideUp("slow", function() {
+    			$(this).wrap("<div class='col right' id='wdn_notice_wrapper'></div>"); //wrap in a col, floated right
+    			$(this).children("div.message").children("p").children("a").insertAfter("div.message p").siblings("p").hide();
+    			$(this).children(".minimize").removeClass("minimize").addClass("maximize");
+    			$(this).slideDown("slow");
     	});
     	return false;
     });
     //End: Deal with the interactivity behind the wdn_notice
     
-    WDN.jQuery('#maincontent a.course').click(function(eventObject){
-    	WDN.jQuery(this).colorbox({width:"640px",href:this.href+'?format=partial',open:true});
+    $('#maincontent a.course').click(function(eventObject){
+    	$(this).colorbox({width:"640px",href:this.href+'?format=partial',open:true});
     	eventObject.preventDefault();
     });
     //Show/Hide the course information
-    WDN.jQuery('#toggleAllCourseDescriptions').click(function() {
-    	WDN.jQuery('dd').slideToggle();
-    	WDN.jQuery('#maincontent .title a').toggleClass('showIt');
+    $('#toggleAllCourseDescriptions').click(function() {
+    	$('dd').slideToggle();
+    	$('#maincontent .title a').toggleClass('showIt');
     	return false;
     });
-    WDN.jQuery('#maincontent .title a').click(function() {
-    	WDN.jQuery(this).parent('span').parent('dt').next('dd').slideToggle();
-    	WDN.jQuery(this).toggleClass('showIt');
+    $('#maincontent .title a').click(function() {
+    	$(this).parent('span').parent('dt').next('dd').slideToggle();
+    	$(this).toggleClass('showIt');
     	return false;
     });
   //Deal with the course call numbers that are long
-    WDN.jQuery('.number').each(function(){
-    	if(WDN.jQuery(this).text().length > 3) {
-    		WDN.jQuery(this).addClass('wide');
+    $('.number').each(function(){
+    	if($(this).text().length > 3) {
+    		$(this).addClass('wide');
     	}
-    	if(WDN.jQuery(this).text().length > 7) {
-    		WDN.jQuery(this).addClass('really');
+    	if($(this).text().length > 7) {
+    		$(this).addClass('really');
     	}
     });
     
     // Configure course filters.
-    WDN.jQuery('#filters input').click(function(){
+    $('#filters input').click(function(){
     	if (this.checked) {
-    		WDN.jQuery('.'+this.value).show();
-    		//WDN.jQuery('dt.'+this.value).addClass("revealed");
+    		$('.'+this.value).show();
+    		//$('dt.'+this.value).addClass("revealed");
     	} else {
-    		WDN.jQuery('.'+this.value).slideUp(600);
+    		$('.'+this.value).slideUp(600);
     	}
+    });
+    $("#cboxContent").delegate("a.course","click",function (e) {
+    	e.preventDefault();
+    	$(this).colorbox({width:"640px",href:this.href+'?format=partial',open:true});
     });
 });
