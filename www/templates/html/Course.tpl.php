@@ -124,7 +124,7 @@
         echo  '</table>';
 
         if (!empty($course->prerequisite)) {
-            echo  "<p class='prereqs'>Prereqs: ".preg_replace('/([A-Z]{3,4})\s+([0-9]{2,3}[A-Z]?)/', '<a class="course" href="'.$url.'$1/$2">$0</a>', htmlentities($course->prerequisite))."</p>";
+            echo  "<p class='prereqs'>Prereqs: ".preg_replace('/([A-Z]{3,4})\s+([0-9]{2,3}[A-Z]?)/', '<a class="course" href="'.$url.'courses/$1/$2">$0</a>', htmlentities($course->prerequisite))."</p>";
         }
         if (!empty($course->notes)) {
             echo  "<p class='notes'>".htmlentities($course->notes)."</p>";
