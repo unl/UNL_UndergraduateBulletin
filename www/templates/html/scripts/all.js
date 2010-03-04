@@ -70,8 +70,21 @@ WDN.jQuery(document).ready(function($){
     		$('.'+this.value).slideUp(600);
     	}
     });
+    /*
     $("#cboxContent").delegate("a.course","click",function (e) {
     	e.preventDefault();
     	$(this).colorbox({width:"640px",href:this.href+'?format=partial',open:true});
     });
+    */
+    
+    $("#maincontent a.course").each(function () {
+    	$(this).qtip({
+    		content:{
+    			url: this.href+'?format=partial'
+    		},
+            style:{
+    			"width":"598px"
+            }
+    	});
+    }); 
 });
