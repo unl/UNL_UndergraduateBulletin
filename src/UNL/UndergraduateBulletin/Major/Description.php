@@ -61,7 +61,12 @@ class UNL_UndergraduateBulletin_Major_Description
 
         while (list( , $quickpoint) = each($quickpoints)) {
             // Handle quickpoint
-            if (preg_match('/([A-Z\s]+)+:/', (string)$quickpoint->span, $matches)) {
+            if (isset($quickpoint->span)) {
+                $point_desc = (string)$quickpoint->span;
+            } else {
+                $point_desc = (string)$quickpoint;
+            }
+            if (preg_match('/([A-Z\s]+)+:/', $point_desc, $matches)) {
                 $value = trim((string)$quickpoint);
                 switch($matches[1]) {
                     case 'COLLEGE':
