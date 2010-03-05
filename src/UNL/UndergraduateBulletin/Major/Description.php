@@ -1,6 +1,10 @@
 <?php
 class UNL_UndergraduateBulletin_Major_Description
 {
+    protected static $epub_files = array(
+        'CRIM and CRIM JUS'=>'Criminology and Criminal Justice',
+    );
+    
     /**
      * The major associated with this description
      * @var UNL_UndergraduateBulletin_Major
@@ -28,11 +32,8 @@ class UNL_UndergraduateBulletin_Major_Description
     
     function parseEPUB($title)
     {
-        $file = UNL_UndergraduateBulletin_Controller::getDataDir().'/majors/'.$title.'.epub';
-        if (!file_exists($file)) {
-            throw new Exception('Sorry, no description exists for '.$title. ' in '.$file);
-        }
-        $xhtml = file_get_contents('phar://'.$file.'/OEBPS/'.str_replace(' ', '_', $title).'.xhtml');
+        $file = self::getEpubFileByName($title);
+        $xhtml = file_get_contents($file);
         $simplexml = simplexml_load_string($xhtml);
         
         // Fetch all namespaces
@@ -92,6 +93,32 @@ class UNL_UndergraduateBulletin_Major_Description
                 }
             }
         }
+    }
+    
+    static function getNameByFile($filename)
+    {
+        
+        $filename = str_replace(array(UNL_UndergraduateBulletin_Controller::getDataDir().'/majors/', '.epub'), '', $filename);
+        
+        if (isset(self::$epub_files[$filename])) {
+            return self::$epub_files[$filename];
+        }
+        return $filename;
+    }
+    
+    static function getEpubFileByName($name)
+    {
+        if ($new = array_search($name, self::$epub_files)) {
+            $name = $new;
+        }
+        
+        $epub = UNL_UndergraduateBulletin_Controller::getDataDir().'/majors/'.$name.'.epub';
+        
+        if (!file_exists($epub)) {
+            throw new Exception('Sorry, no description exists for '.$name. ' in '.$epub);
+        }
+        
+        return 'phar://'.$epub.'/OEBPS/'.str_replace(' ', '_', $name).'.xhtml';
     }
 }
 ?>

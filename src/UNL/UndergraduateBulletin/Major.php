@@ -1,7 +1,6 @@
 <?php
 class UNL_UndergraduateBulletin_Major
 {
-    protected static $major_file_names = array('CRIM and CRIM JUS'=>'Criminology and Criminal Justice');
     
     public $title;
     
@@ -41,25 +40,6 @@ class UNL_UndergraduateBulletin_Major
     function __set($var, $val)
     {
         
-    }
-    
-    static function getNameByFile($filename)
-    {
-        
-        $filename = str_replace(array(UNL_UndergraduateBulletin_Controller::getDataDir().'/majors/', '.epub'), '', $filename);
-        
-        if (isset(UNL_UndergraduateBulletin_Major::$major_file_names[$filename])) {
-            return UNL_UndergraduateBulletin_Major::$major_file_names[$filename];
-        }
-        return $filename;
-    }
-    
-    static function getFileByName($name)
-    {
-        if ($new = array_search($name, UNL_UndergraduateBulletin_Major::$major_file_names)) {
-            $name = $new;
-        }
-        return UNL_UndergraduateBulletin_Controller::getDataDir().'/majors/'.$name.'.epub';
     }
     
     static function getByName($name)

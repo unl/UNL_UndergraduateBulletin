@@ -9,7 +9,7 @@ class UNL_UndergraduateBulletin_MajorList extends ArrayIterator
     
     function current()
     {
-        return UNL_UndergraduateBulletin_Major::getNameByFile(parent::current());
+        return UNL_UndergraduateBulletin_Major_Description::getNameByFile(parent::current());
     }
 }
 ?>
