@@ -67,7 +67,7 @@ class UNL_UndergraduateBulletin_Major_Description
                 $point_desc = (string)$quickpoint;
             }
             if (preg_match('/([A-Z\s]+)+:/', $point_desc, $matches)) {
-                $value = trim((string)$quickpoint);
+                $value = trim(str_replace($matches[0], '', (string)$quickpoint));
                 switch($matches[1]) {
                     case 'COLLEGE':
                         $this->college = new UNL_UndergraduateBulletin_College($value);
