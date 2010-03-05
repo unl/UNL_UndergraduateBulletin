@@ -9,7 +9,7 @@ class UNL_UndergraduateBulletin_MajorList extends ArrayIterator
     
     function current()
     {
-        return str_replace(array(UNL_UndergraduateBulletin_Controller::getDataDir().'/majors/', '.epub'), '', parent::current());
+        return UNL_UndergraduateBulletin_Major::getNameByFile(parent::current());
     }
 }
 ?>
