@@ -11,7 +11,10 @@ class UNL_UndergraduateBulletin_College_Description
         'Architecture'                              => 'ARCH College.epub/OEBPS/ARCH_College.xhtml',
         'Agricultural Sciences & Natural Resources' => 'CASNR College Page.epub/OEBPS/CASNR_College_Page.xhtml',
         'Education & Human Sciences'                => 'CEHS.epub/OEBPS/College_Page_test-CEHS.xhtml',
-        'Fine & Performing Arts'                    => 'FPA College.epub/OEBPS/FPA_College.xhtml'
+        'Fine & Performing Arts'                    => 'FPA College.epub/OEBPS/FPA_College.xhtml',
+        'Libraries'                                 => 'LIBR College Page.epub/OEBPS/LIBR_College_page.xhtml',
+        'Public Affairs & Community Service'        => 'CPACS College Page.epub/OEBPS/CPACS_College_page.xhtml',
+        'Reserve Officers\' Training Corps (ROTC)'  => 'ROTC College Page.epub/OEBPS/ROTC_College_page.xhtml',
     );
     
     function __construct(UNL_UndergraduateBulletin_College $college)

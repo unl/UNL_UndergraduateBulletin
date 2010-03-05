@@ -13,7 +13,9 @@
             <li>Engineering</li>
             <li><a href="college/Fine+%26+Performing+Arts">Hixson-Lied College of Fine &amp; Performing Arts</a></li>
             <li>Journalism &amp; Mass Communications</li>
-            <li>Public Affairs &amp; Community Service</li>
+            <li><a href="college/Libraries">Libraries</a></li>
+            <li><a href="college/Public+Affairs+%26+Community+Service">Public Affairs &amp; Community Service</a></li>
+            <li><a href="college/Reserve+Officers%27+Training+Corps+%28ROTC%29">Reserve Officers' Training Corps (ROTC)</a></li>
         </ul>
     </div>
     <div class="col left">
