@@ -15,14 +15,14 @@ class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_
     );
     
     protected $view_map = array(
-        'index'   => 'displayIndex',
-        'majors'  => 'displayMajors',
-        'major'   => 'displayMajorDescription',
-        'courses' => 'displayMajorSubjectAreas',
-        'subject' => 'displaySubjectArea',
+        'index'    => 'displayIndex',
+        'majors'   => 'displayMajors',
+        'major'    => 'displayMajorDescription',
+        'courses'  => 'displayMajorSubjectAreas',
+        'subject'  => 'displaySubjectArea',
         'subjects' => 'displaySubjectAreas',
-        'course'  => 'displayCourseListing',
-        'college' => 'displayCollege',
+        'course'   => 'displayCourseListing',
+        'college'  => 'displayCollege',
         );
     
     protected static $replacement_data = array();
