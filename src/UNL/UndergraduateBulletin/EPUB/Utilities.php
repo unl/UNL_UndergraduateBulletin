@@ -12,7 +12,7 @@ class UNL_UndergraduateBulletin_EPUB_Utilities
     
     public static function linkURLs($html)
     {
-        return preg_replace('/(http:\/\/.*)/', '<a href="$0">$0</a>', $html);
+        return preg_replace('/(http:\/\/[^<^\s]+)/', '<a href="$0">$0</a>', $html);
     }
     
     public static function convertHeadings($html)
