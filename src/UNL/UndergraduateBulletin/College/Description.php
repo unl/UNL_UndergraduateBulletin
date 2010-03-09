@@ -62,6 +62,7 @@ class UNL_UndergraduateBulletin_College_Description
                 switch($matches[1]) {
                     case 'MAJORS':
                         $this->majors = explode(', ', $value);
+                        asort($this->majors);
                         break;
                 }
             }
