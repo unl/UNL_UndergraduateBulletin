@@ -1,6 +1,20 @@
 <?php
 class UNL_UndergraduateBulletin_EPUB_Utilities
 {
+    public static function format($html)
+    {
+        $html = self::convertHeadings($html);
+        $html = self::addLeaders($html);
+        $html = self::linkURLs($html);
+        $html = self::addCourseLinks($html);
+        return $html;
+    }
+    
+    public static function linkURLs($html)
+    {
+        return preg_replace('/(http:\/\/.*)/', '<a href="$0">$0</a>', $html);
+    }
+    
     public static function convertHeadings($html)
     {
         $html = preg_replace('/<p class="content-box-h-1">([^<]*)<\/p>/', '<h2 class="sec_header content-box-h-1">$1</h2>', $html);

@@ -51,10 +51,7 @@ class UNL_UndergraduateBulletin_Major_Description
 
         $body = $simplexml->xpath('//default:body');
 
-        $this->description = UNL_UndergraduateBulletin_EPUB_Utilities::convertHeadings($body[0]->asXML());
-        $this->description = UNL_UndergraduateBulletin_EPUB_Utilities::addLeaders($this->description);
-        $this->description = UNL_UndergraduateBulletin_EPUB_Utilities::addCourseLinks($this->description); 
-        
+        $this->description = UNL_UndergraduateBulletin_EPUB_Utilities::format($body[0]->asXML());
     }
     
     public function parseQuickPoints($simplexml)
@@ -90,6 +87,7 @@ class UNL_UndergraduateBulletin_Major_Description
                         $this->minor_available = $value;
                         break;
                     case 'CHIEF ADVISER':
+                    case 'CHIEF ADVISERS':
                         $this->chief_advisor = $value;
                         break;
                     case 'MINOR ONLY':
