@@ -17,6 +17,8 @@ class UNL_UndergraduateBulletin_Major_Description
     
     public $minor_available;
     
+    public $minor_only;
+    
     public $chief_advisor;
     
     public $description;
@@ -87,6 +89,9 @@ class UNL_UndergraduateBulletin_Major_Description
                         break;
                     case 'CHIEF ADVISER':
                         $this->chief_advisor = $value;
+                        break;
+                    case 'MINOR ONLY':
+                        $this->minor_only = $value;
                         break;
                     default:
                         echo 'Unknown quickpoint '.$matches[0];

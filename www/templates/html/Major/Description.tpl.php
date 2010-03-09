@@ -54,6 +54,12 @@
                 <td class="attr">Chief Advisor:</td>
                 <td class="value"><?php echo $context->chief_advisor; ?></td>
             </tr>
+            <?php if (isset($context->minor_only)): ?>
+            <tr>
+                <td class="attr">Minor Only:</td>
+                <td class="value"><?php echo $context->minor_only; ?></td>
+            </tr>
+            <?php endif; ?>
         </tbody>
     </table>
     <?php if (!empty($context->degrees_offered)) { ?>
@@ -64,6 +70,8 @@
         <?php } ?>
     </ul>
     <?php } ?>
+    <!-- 
     <h3>Featured Faculty</h3>
     <h3 id="relatedMajors">Related Majors</h3>
+     -->
 </div>
