@@ -85,9 +85,14 @@ class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_
     
     function displayCourseListing()
     {
-        $this->output[] = new UNL_Services_CourseApproval_Listing(
-                                $this->options['subject_id'],
-                                $this->options['number']);
+        try {
+            $this->output[] = new UNL_Services_CourseApproval_Listing(
+                                    $this->options['subject_id'],
+                                    $this->options['number']);
+        } catch(Exception $e) {
+            header('HTTP/1.0 404 Not Found');
+            $this->output[] = 'That course was not found.';
+        }
     }
     
     function displayCollege()
