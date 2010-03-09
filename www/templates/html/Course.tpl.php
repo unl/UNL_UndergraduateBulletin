@@ -127,9 +127,9 @@
             echo  "<p class='prereqs'>Prereqs: ".preg_replace('/([A-Z]{3,4})\s+([0-9]{2,3}[A-Z]?)/', '<a class="course" href="'.$url.'courses/$1/$2">$0</a>', htmlentities($course->prerequisite))."</p>";
         }
         if (!empty($course->notes)) {
-            echo  "<p class='notes'>".htmlentities($course->notes)."</p>";
+            echo  "<p class='notes'>".$course->notes."</p>";
         }
-        echo  "<p class='description'>".htmlentities(iconv("UTF-8", "ISO-8859-1//TRANSLIT", $course->description))."</p>";
+        echo  "<p class='description'>".iconv("UTF-8", "ISO-8859-1//TRANSLIT", $course->description)."</p>";
         
     echo  "</dd>";
 ?>
