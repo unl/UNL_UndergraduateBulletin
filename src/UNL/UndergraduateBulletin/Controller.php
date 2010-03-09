@@ -20,6 +20,7 @@ class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_
         'major'   => 'displayMajorDescription',
         'courses' => 'displayMajorSubjectAreas',
         'subject' => 'displaySubjectArea',
+        'subjects' => 'displaySubjectAreas',
         'course'  => 'displayCourseListing',
         'college' => 'displayCollege',
         );
@@ -81,6 +82,11 @@ class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_
     function displaySubjectArea()
     {
         $this->output[] = new UNL_Services_CourseApproval_SubjectArea($this->options['id']);
+    }
+    
+    function displaySubjectAreas()
+    {
+        $this->output[] = new UNL_UndergraduateBulletin_SubjectAreas();
     }
     
     function displayCourseListing()
