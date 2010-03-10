@@ -51,7 +51,7 @@ echo '<a href="#" id="toggleAllCourseDescriptions">Hide all course descriptions<
 	                    <div class="element">
 	                        <input type="checkbox" value="ace_<?php echo $i; ?>" />
 	                    </div>
-	                    <label><?php echo $i; ?></label>
+	                    <label><?php echo $i.' '.UNL_UndergraduateBulletin_ACE::$descriptions[$i]; ?></label>
 	                </li>
 	                <?php endfor; ?>
 	            </ol>
