@@ -16,13 +16,17 @@
         <ol id="toc"><li>Intro</li></ol>
     </div>
     <div id="long_content">
-    <?php
-    foreach ($regions as $id=>$title) {
-        if (!empty($context->$id)) {
-            echo '<div id="'.$id.'"><a href="#header" class="top">Top</a>'.$context->getRaw($id).'</div>';
+        <div id="college_requirements">
+            <h2 class="sec_header">COLLEGE ADMISSION</h2>
+            <?php echo $context->college->description->getRaw('admissionRequirements'); ?>
+        </div>
+        <?php
+        foreach ($regions as $id=>$title) {
+            if (!empty($context->$id)) {
+                echo '<div id="'.$id.'"><a href="#header" class="top">Top</a>'.$context->getRaw($id).'</div>';
+            }
         }
-    }
-    ?>
+        ?>
     </div>
 </div>
 <div class="col right">

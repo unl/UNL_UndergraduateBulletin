@@ -17,6 +17,8 @@ class UNL_UndergraduateBulletin_College_Description
         'Reserve Officers\' Training Corps (ROTC)'  => 'ROTC College Page.epub/OEBPS/ROTC_College_page.xhtml',
     );
     
+    protected $_xml;
+    
     function __construct(UNL_UndergraduateBulletin_College $college)
     {
         $this->college = $college;
@@ -26,27 +28,27 @@ class UNL_UndergraduateBulletin_College_Description
         }
         $file = 'phar://'.UNL_UndergraduateBulletin_Controller::getDataDir().'/colleges/'.self::$files[$college->name];
         
-        $simplexml = simplexml_load_string(file_get_contents($file));
+        $this->_xml = simplexml_load_string(file_get_contents($file));
         
         // Fetch all namespaces
-        $namespaces = $simplexml->getNamespaces(true);
-        $simplexml->registerXPathNamespace('default', $namespaces['']);
+        $namespaces = $this->_xml->getNamespaces(true);
+        $this->_xml->registerXPathNamespace('default', $namespaces['']);
         
         // Register the rest with their prefixes
         foreach ($namespaces as $prefix => $ns) {
-            $simplexml->registerXPathNamespace($prefix, $ns);
+            $this->_xml->registerXPathNamespace($prefix, $ns);
         }
 
-        $body = $simplexml->xpath('//default:body');
+        $body = $this->_xml->xpath('//default:body');
         
-        $this->parseQuickPoints($simplexml);
+        $this->parseQuickPoints();
 
         $this->description = UNL_UndergraduateBulletin_EPUB_Utilities::format($body[0]->asXML());
     }
     
-    function parseQuickPoints($simplexml)
+    function parseQuickPoints()
     {
-        $quickpoints = $simplexml->xpath('//default:p[@class="quick-points"]');
+        $quickpoints = $this->_xml->xpath('//default:p[@class="quick-points"]');
 
         while (list( , $quickpoint) = each($quickpoints)) {
             // Handle quickpoint
@@ -64,6 +66,30 @@ class UNL_UndergraduateBulletin_College_Description
                         break;
                 }
             }
+        }
+    }
+    
+    function __get($var)
+    {
+        switch ($var) {
+            case 'admissionRequirements':
+                $nodes = $this->_xml->xpath('//default:p[@class="content-box-m-p"]');
+                $content = '';
+                foreach ($nodes[0]->xpath('following::*') as $node) {
+                    if (!empty($content)) {
+                        foreach ($node->attributes() as $attr => $value) {
+                            if ($attr == 'class') {
+                                switch ($value) {
+                                    case 'content-box-h-1':
+                                        // Found the next section
+                                        return UNL_UndergraduateBulletin_EPUB_Utilities::format($content);
+                                }
+                            }
+                        }
+                    }
+                    $content .= $node->asXML();
+                }
+                return $content;
         }
     }
     
