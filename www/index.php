@@ -13,6 +13,13 @@ $controller = new UNL_UndergraduateBulletin_Controller(UNL_UndergraduateBulletin
 
 $savvy = new Savvy();
 $savvy->setTemplatePath(dirname(__FILE__).'/templates/html');
+
+switch($controller->options['format']) {
+    case 'xml':
+        header('Content-type:text/xml');
+        $savvy->addTemplatePath(dirname(__FILE__).'/templates/xml');
+        break;
+}
 $savvy->setClassToTemplateMapper(new UNL_UndergraduateBulletin_ClassToTemplateMapper());
 
 $savvy->setEscape('htmlentities');

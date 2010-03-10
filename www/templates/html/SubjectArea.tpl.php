@@ -65,7 +65,7 @@ echo  '<div class="three_col right">
     <dl>';
 
 foreach ($context->courses as $course) {
-    include dirname(__FILE__).'/Course.tpl.php';
+    echo $savvy->render($course);
 }
 echo  '</dl></div>';
 ?>

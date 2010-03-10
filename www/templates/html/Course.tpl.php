@@ -1,11 +1,12 @@
 <?php
     $url = UNL_UndergraduateBulletin_Controller::getURL();
     $class = 'course';
+    $subject = (isset($parent->context->subjectArea))? $parent->context->subjectArea:$parent->context->subject;
     $listings = '';
     $crosslistings = array();
     $groups = array();
-    foreach ($course->codes as $listing) {
-        if ($listing->subjectArea == $context->subject) {
+    foreach ($context->codes as $listing) {
+        if ($listing->subjectArea == $subject) {
             $listings .= $listing->courseNumber.'/';
             if ($listing->hasGroups()) {
                 $groups = array_merge($groups, $listing->groups);
@@ -31,12 +32,14 @@
     }
     
     $credits = '';
-    if (isset($course->credits['Single Value'])) {
-        $credits = $course->credits['Single Value'];
+    if (isset($context->credits['Single Value'])) {
+        $credits = $context->credits['Single Value'];
+    } else {
+        // @TODO Handle multi-value credits
     }
     
     $format = '';
-    foreach ($course->activities as $type=>$activity) {
+    foreach ($context->activities as $type=>$activity) {
         $class .= ' '.$type;
         switch ($type) {
             case 'lec':
@@ -71,15 +74,15 @@
     }
     $format = trim($format, ', ');
     
-    if (!empty($course->aceOutcomes)) {
-        $class .= ' ace_'.implode(' ace_', $course->aceOutcomes);
+    if (!empty($context->aceOutcomes)) {
+        $class .= ' ace_'.implode(' ace_', $context->aceOutcomes);
     }
     
     echo "
         <dt class='$class'>
-            <span class='subjectCode'>".htmlentities($context->subject)."</span>
+            <span class='subjectCode'>".$subject."</span>
             <span class='number'>$listings</span>
-            <span class='title'>".htmlentities($course->title)."<a href='#'>Hide desc.</a></span>";
+            <span class='title'>".$context->title."<a href='#'>Hide desc.</a></span>";
         if (!empty($crosslistings)) {
             echo  '<span class="crosslistings">Crosslisted as '.$crosslistings.'</span>';
         }
@@ -96,20 +99,20 @@
                     <td class="value">'.$format.'</td>
                    </tr>';
         }
-        if (count($course->campuses) == 1
-            && $course->campuses[0] != 'UNL') {
+        if (count($context->campuses) == 1
+            && $context->campuses[0] != 'UNL') {
             echo  '<tr class="campus">
                     <td class="label">Campus:</td>
-                    <td class="value">'.implode(', ', $course->campuses).'</td>
+                    <td class="value">'.implode(', ', $context->campuses).'</td>
                    </tr>';
         }
         echo  '<tr class="deliveryMethods">
                 <td class="label">Course Delivery:</td>
-                <td class="value">'.implode(', ', $course->deliveryMethods).'</td>
+                <td class="value">'.implode(', ', $context->deliveryMethods).'</td>
                </tr>';
         $ace = '';
-        if (!empty($course->aceOutcomes)) {
-            $ace = implode(', ', $course->aceOutcomes);
+        if (!empty($context->aceOutcomes)) {
+            $ace = implode(', ', $context->aceOutcomes);
             echo  '<tr class="aceOutcomes">
                     <td class="label">ACE Outcomes:</td>
                     <td class="value">'.$ace.'</td>
@@ -123,13 +126,13 @@
         }
         echo  '</table>';
 
-        if (!empty($course->prerequisite)) {
-            echo  "<p class='prereqs'>Prereqs: ".preg_replace('/([A-Z]{3,4})\s+([0-9]{2,3}[A-Z]?)/', '<a class="course" href="'.$url.'courses/$1/$2">$0</a>', htmlentities($course->prerequisite))."</p>";
+        if (!empty($context->prerequisite)) {
+            echo  "<p class='prereqs'>Prereqs: ".preg_replace('/([A-Z]{3,4})\s+([0-9]{2,3}[A-Z]?)/', '<a class="course" href="'.$url.'courses/$1/$2">$0</a>', $context->prerequisite)."</p>";
         }
-        if (!empty($course->notes)) {
-            echo  "<p class='notes'>".$course->notes."</p>";
+        if (!empty($context->notes)) {
+            echo  "<p class='notes'>".$context->notes."</p>";
         }
-        echo  "<p class='description'>".iconv("UTF-8", "ISO-8859-1//TRANSLIT", $course->description)."</p>";
+        echo  "<p class='description'>".iconv("UTF-8", "ISO-8859-1//TRANSLIT", $context->description)."</p>";
         
     echo  "</dd>";
 ?>
