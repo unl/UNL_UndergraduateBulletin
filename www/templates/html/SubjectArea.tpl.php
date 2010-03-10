@@ -1,5 +1,5 @@
 <?php
-echo '<h2 class="sec_main"> Courses of Instruction ('.htmlentities($context->subject).')</h2>';
+echo '<h2 class="sec_main"> Courses of Instruction ('.$context->subject.')</h2>';
 echo '<a href="#" id="toggleAllCourseDescriptions">Hide all course descriptions</a>';
  ?>
  <div class="col left">
@@ -7,7 +7,7 @@ echo '<a href="#" id="toggleAllCourseDescriptions">Hide all course descriptions<
 	    <h3>Filter these Courses</h3>
 	    <form method="post" action="#" id="filters">
 	        <?php if (count($context->groups)) : ?>
-	        <fieldset>
+	        <fieldset class="groups">
 	            <legend><span>Groups</span></legend>
 	            <ol>
 	                <?php foreach ($context->groups as $group) : ?>
@@ -21,9 +21,10 @@ echo '<a href="#" id="toggleAllCourseDescriptions">Hide all course descriptions<
 	            </ol>
 	        </fieldset>
 	        <?php endif; ?>
-	        <fieldset>
+	        <fieldset class="formats">
 	            <legend><span>Course Formats</span></legend>
 	            <ol>
+	               <li><input type="checkbox" checked="checked" id="filterAll" name="all" value="all" /><label for="filterAll">All formats</label></li>
 	                <?php foreach (array(
 	'lec'=>'Lecture',
 	'lab'=>'Lab',
@@ -35,19 +36,20 @@ echo '<a href="#" id="toggleAllCourseDescriptions">Hide all course descriptions<
 	'psi'=>'Personalized System of Instruction') as $key=>$type) : ?>
 	                <li>
 	                    <div class="element">
-	                        <input type="checkbox" checked="checked" value="<?php echo $key; ?>" />
+	                        <input type="checkbox" value="<?php echo $key; ?>" />
 	                    </div><label><?php echo $type; ?></label>
 	                </li>
 	                <?php endforeach; ?>
 	            </ol>
 	        </fieldset>
-	        <fieldset>
-	            <legend><span>Ace Outcomes</span></legend>
+	        <fieldset class="ace_outcomes">
+	            <legend><span>ACE Outcomes</span></legend>
 	            <ol>
+	                <li><input type="checkbox" checked="checked" id="filterAllACE" name="allace" value="all" /><label for="filterAllACE">All ACE</label></li>
 	                <?php for ($i=1;$i<=10;$i++) : ?>
 	                <li>
 	                    <div class="element">
-	                        <input type="checkbox" checked="checked" value="ace_<?php echo $i; ?>" />
+	                        <input type="checkbox" value="ace_<?php echo $i; ?>" />
 	                    </div>
 	                    <label><?php echo $i; ?></label>
 	                </li>

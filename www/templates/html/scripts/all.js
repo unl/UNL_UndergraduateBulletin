@@ -62,14 +62,40 @@ WDN.jQuery(document).ready(function($){
     });
     
     // Configure course filters.
-    $('#filters input').click(function(){
-    	if (this.checked) {
-    		$('.'+this.value).show();
-    		//$('dt.'+this.value).addClass("revealed");
-    	} else {
-    		$('.'+this.value).slideUp(600);
+//    $('#filters input').click(function(){
+//    	if (this.checked) {
+//    		$('.'+this.value).show();
+//    		//$('dt.'+this.value).addClass("revealed");
+//    	} else {
+//    		$('.'+this.value).slideUp(600);
+//    	}
+//    });
+    WDN.jQuery('#filters input').each(function(){
+    	if (WDN.jQuery(this).attr('value') !== "all") {
+    		// Check and see if we actually have any of these courses
+    		if (WDN.jQuery('.'+WDN.jQuery(this).attr('value')).length == 0) {
+    			WDN.jQuery(this).attr('disabled', 'disabled');
+    			return;
+    		}
     	}
-    });
+    	WDN.jQuery(this).click(function() {
+			if (WDN.jQuery(this).attr('value') === "all") {
+				if (this.checked){
+					WDN.jQuery('#filters input').not('#filterAll').removeAttr('checked');
+					WDN.jQuery('.course').show();
+				} 
+			} else {
+					WDN.jQuery('#filterAll').removeAttr('checked');
+					WDN.jQuery('#filters input').not('#filterAll').each(function(){
+						if(this.checked){
+							WDN.jQuery('.'+WDN.jQuery(this).attr('value')).show();
+						} else {
+							WDN.jQuery('.'+WDN.jQuery(this).attr('value')).hide();
+						}
+					});
+			}
+    	});
+	});
     /*
     $("#cboxContent").delegate("a.course","click",function (e) {
     	e.preventDefault();
@@ -78,21 +104,23 @@ WDN.jQuery(document).ready(function($){
     */
     
     $("#maincontent a.course").each(function () {
-    	$(this).qtip({
-    		content:{
-    			url: this.href+'?format=partial'
-    		},
-            style:{
-    			"width":"598px"
-            }
-    	});
-    	$(this).qtip("api").beforeShow = function(){
-    	    // Check the content
-    	    if ($('div[qtip='+this.id+'] div.qtip-content dt').length == 0) {
-    	        $('div[qtip='+this.id+']').css({width:'120px'});
-    	        $('div[qtip='+this.id+'] div.qtip-content').html('<p>Could not find that course.</p>');
-    	    }
-    	    return true;
-    	};
+    	try {
+	    	$(this).qtip({
+	    		content:{
+	    			url: this.href+'?format=partial'
+	    		},
+	            style:{
+	    			"width":"598px"
+	            }
+	    	});
+	    	$(this).qtip("api").beforeShow = function(){
+	    	    // Check the content
+	    	    if ($('div[qtip='+this.id+'] div.qtip-content dt').length == 0) {
+	    	        $('div[qtip='+this.id+']').css({width:'120px'});
+	    	        $('div[qtip='+this.id+'] div.qtip-content').html('<p>Could not find that course.</p>');
+	    	    }
+	    	    return true;
+	    	};
+    	} catch(e) {}
     }); 
 });
