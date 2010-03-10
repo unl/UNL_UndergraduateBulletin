@@ -73,23 +73,28 @@ class UNL_UndergraduateBulletin_College_Description
     {
         switch ($var) {
             case 'admissionRequirements':
+                // first select the content box for the major page
                 $nodes = $this->_xml->xpath('//default:p[@class="content-box-m-p"]');
                 $content = '';
+                // now loop through all following siblings until we find the next section
                 foreach ($nodes[0]->xpath('following::*') as $node) {
+                    // Check to see if we've captured anything yet.
                     if (!empty($content)) {
+                        // Loop through this node's attributes for the class
                         foreach ($node->attributes() as $attr => $value) {
                             if ($attr == 'class') {
                                 switch ($value) {
                                     case 'content-box-h-1':
-                                        // Found the next section
+                                        // We've found the next section, return the content
                                         return UNL_UndergraduateBulletin_EPUB_Utilities::format($content);
                                 }
                             }
                         }
                     }
+                    // Add the raw xml of this sibling to the content we'll return.
                     $content .= $node->asXML();
                 }
-                return $content;
+                return UNL_UndergraduateBulletin_EPUB_Utilities::format($content);
         }
     }
     
