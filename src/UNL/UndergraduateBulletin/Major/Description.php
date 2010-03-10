@@ -70,8 +70,9 @@ class UNL_UndergraduateBulletin_Major_Description
                 $value = trim(str_replace($matches[0], '', (string)$quickpoint));
                 switch($matches[1]) {
                     case 'COLLEGE':
-                        $value = str_replace('College of ', '', $value);
-                        $value = str_replace(' and ', ' & ', $value);
+                        $value = str_replace(
+                                    array('Hixson-Lied ', 'College of ', ' and '), 
+                                    array('',             '',            ' & '), $value);
                         $this->college = new UNL_UndergraduateBulletin_College($value);
                         break;
                     case 'MAJOR':
