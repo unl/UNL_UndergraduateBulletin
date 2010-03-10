@@ -18,7 +18,7 @@ class UNL_UndergraduateBulletin_Router
                 $options['view'] = 'subjects';
                 break;
             // Subject Code: ex CSCE/
-            case preg_match('/'.$base.'courses\/([A-Z]{3,4})\/$/', $requestURI, $matches):
+            case preg_match('/'.$base.'courses\/([A-Z]{3,4})\/?$/', $requestURI, $matches):
                 $options['view'] = 'subject';
                 $options['id']   = $matches[1];
                 break;
