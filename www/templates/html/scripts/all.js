@@ -86,8 +86,7 @@ WDN.jQuery(document).ready(function($){
     			"width":"598px"
             }
     	});
-    	var api = $(this).qtip("api");
-    	api.beforeShow = function(){
+    	$(this).qtip("api").beforeShow = function(){
     	    // Check the content
     	    if ($('div[qtip='+this.id+'] div.qtip-content dt').length == 0) {
     	        $('div[qtip='+this.id+']').css({width:'120px'});
