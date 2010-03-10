@@ -1,4 +1,4 @@
-<h1>Select A Major</h1>
+<h1>Select A Major or Area of Study</h1>
 <?php
 $url = UNL_UndergraduateBulletin_Controller::getURL();
 ?>
