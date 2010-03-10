@@ -1,4 +1,17 @@
 WDN.jQuery(document).ready(function($){
+	WDN.jQuery(window).scroll(function(){
+		//alert(WDN.jQuery(window).scrollTop());
+		var tocLocation = WDN.jQuery('#toc_nav').offset();
+		var lcLocation = WDN.jQuery('#long_content').offset();
+		if (WDN.jQuery(window).scrollTop() >= (tocLocation.top - 10)) {//when we scroll to the top of the TOC (+padding) then start scrolling the cotents boc
+			WDN.jQuery('#toc_nav').css({'position': 'fixed'});
+			WDN.jQuery('#long_content').css({'margin-top':'73px'});		
+		}
+		if(WDN.jQuery(window).scrollTop() <= (lcLocation.top - 70)) {
+			WDN.jQuery('#toc_nav').css({'position': 'relative'});
+			WDN.jQuery('#long_content').css({'margin-top':'35px'});	
+		}
+	})
 //Deal with the Table of Contents for the majors pages.
 	$("#toc_nav ol").click(
 		function() {
@@ -124,3 +137,17 @@ WDN.jQuery(document).ready(function($){
     	} catch(e) {}
     }); 
 });
+
+function setMenuOffset() {
+	var header = document.getElementById('toc_nav');
+	var longContentPlace = document.getElementById('long_content').offsetTop;
+	//alert(longContentPlace);
+	if (!header) return;
+	var currentOffset = document.documentElement.scrollTop || document.body.scrollTop; // body for Safari
+	var startPos = parseInt(setMenuOffset.initialPos) || longContentPlace;
+	var desiredOffset = startPos - currentOffset;
+	if (desiredOffset < 10)
+	desiredOffset = 10;
+	if (desiredOffset != parseInt(header.style.top))
+	header.style.top = desiredOffset + 'px';
+} 

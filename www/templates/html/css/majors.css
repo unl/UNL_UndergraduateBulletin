@@ -21,6 +21,7 @@
     font-size:150%;
     width:220px;
     margin-bottom:1em;
+    top:10px;
 }
 table.major_quick_points {
     margin-bottom:2em;
@@ -36,7 +37,7 @@ table.major_quick_points .attr {
 table.major_quick_points .value {
     text-align:right;
 }
-
+#long_content {margin-top:35px;}
 #maincontent ol#toc {
     font-size:.65em;
     position:absolute;
