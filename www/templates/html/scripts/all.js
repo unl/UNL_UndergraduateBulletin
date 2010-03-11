@@ -1,18 +1,22 @@
 WDN.jQuery(document).ready(function($){
 	menuFaded = false;
-	var tocLocation = WDN.jQuery('#toc_nav').offset();
-	var lcLocation = WDN.jQuery('#long_content').offset();
+	try {
+		var tocLocation = WDN.jQuery('#toc_nav').offset();
+		var lcLocation = WDN.jQuery('#long_content').offset();
+	} catch(e) {}
 	WDN.jQuery('#toc_bar').html(WDN.jQuery('#maincontent h1:first').html());
-	WDN.jQuery(window).scroll(function(){
-		if (WDN.jQuery(window).scrollTop() > (tocLocation.top - 10)) {//when we scroll to the top of the TOC (+padding) then start scrolling the cotents boc
-			fadeInTOCMenu();
-			menuFaded = true;
-		}
-		if(WDN.jQuery(window).scrollTop() < (lcLocation.top - 73)) {
-			fadeOutTOCMenu();
-			menuFaded = false;
-		}
-	})
+	if (tocLocation) {
+		WDN.jQuery(window).scroll(function(){
+			if (WDN.jQuery(window).scrollTop() > (tocLocation.top - 10)) {//when we scroll to the top of the TOC (+padding) then start scrolling the cotents boc
+				fadeInTOCMenu();
+				menuFaded = true;
+			}
+			if(WDN.jQuery(window).scrollTop() < (lcLocation.top - 73)) {
+				fadeOutTOCMenu();
+				menuFaded = false;
+			}
+		})
+	}
 //Deal with the Table of Contents for the majors pages.
 	WDN.jQuery("#toc_nav ol").click(
 		function() {
