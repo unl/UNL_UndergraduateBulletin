@@ -15,6 +15,7 @@
         <a href="#" id="tocContent">Contents</a>
         <ol id="toc"><li>Intro</li></ol>
     </div>
+    <div id="toc_bar">Major Name</div>
     <div id="long_content">
         <div id="college_requirements">
             <h2 class="sec_header">COLLEGE ADMISSION</h2>

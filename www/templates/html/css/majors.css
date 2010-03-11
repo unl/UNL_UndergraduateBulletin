@@ -22,6 +22,22 @@
     width:220px;
     margin-bottom:1em;
     top:10px;
+    z-index:45;
+}
+#toc_bar {
+	position:fixed;
+	display:none;
+	top:0;
+	left: 0;
+	height:40px;
+	width:100%;
+	background:#fff;
+	text-align:center;	
+	z-index:44;
+	border-bottom:2px solid #eee;
+	font-size:1.8em;
+	padding-top:14px;
+	opacity:0.90;
 }
 table.major_quick_points {
     margin-bottom:2em;
@@ -50,6 +66,9 @@ table.major_quick_points .value {
     border-bottom:1px solid #ededed;
     -moz-box-shadow: 2px 2px 5px #888;
     -moz-border-radius:5px;
+    -webkit-box-shadow: 2px 2px 5px #888;
+    -webkit-border-radius:5px;
+    box-shadow: 2px 2px 5px #888;
     border-radius:5px;
 } 
 #maincontent ol#toc ol { list-style: decimal;padding:0 0 0 25px;}
