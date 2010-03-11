@@ -35,7 +35,12 @@
     if (isset($context->credits['Single Value'])) {
         $credits = $context->credits['Single Value'];
     } else {
-        // @TODO Handle multi-value credits
+        if (isset($context->credits['Lower Range Limit'])) {
+            $credits = $context->credits['Lower Range Limit'].'-';
+        }
+        if (isset($context->credits['Upper Range Limit'])) {
+            $credits .= $context->credits['Upper Range Limit'];
+        }
     }
     
     $format = '';
