@@ -144,14 +144,14 @@ function fadeInTOCMenu() {
 		WDN.log('fading menu in');
 		WDN.jQuery('#toc_nav').css({'position': 'fixed'});
 		WDN.jQuery('#long_content').css({'margin-top':'73px'});	
-		WDN.jQuery('#toc_bar').fadeIn();
+		WDN.jQuery('#toc_bar').fadeIn(200);
 	}
 } 
 function fadeOutTOCMenu() {
 	if (menuFaded) { //menu is displayed
 		WDN.log('fading menu out');
 		WDN.jQuery('#toc_nav').css({'position': 'relative'});
-		WDN.jQuery('#toc_bar').fadeOut();
+		WDN.jQuery('#toc_bar').fadeOut(200);
 		WDN.jQuery('#long_content').css({'margin-top':'35px'});
 	}
 } 
