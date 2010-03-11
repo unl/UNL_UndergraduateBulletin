@@ -8,6 +8,7 @@ UNL_UndergraduateBulletin_Controller::setReplacementData('doctitle', 'UNL | Unde
         <a href="#" id="tocContent">Contents</a>
         <ol id="toc"><li>Intro</li></ol>
     </div>
+    <div id="toc_bar">Major Name</div>
     <div id="long_content">
     <?php
     echo UNL_UndergraduateBulletin_EPUB_Utilities::convertHeadings($context->getRaw('description')); ?>
