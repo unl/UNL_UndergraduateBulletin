@@ -14,22 +14,30 @@ WDN.jQuery(document).ready(function($){
 		}
 	})
 //Deal with the Table of Contents for the majors pages.
-	$("#toc_nav ol").click(
+	WDN.jQuery("#toc_nav ol").click(
 		function() {
-			$("#toc_nav ol").hide();
+			WDN.jQuery("#toc_nav ol").hide();
 		}
 	);
-    $("#toc_nav").hover(
+	WDN.jQuery("#toc_nav").hover(
 		function() {
-	        $("#toc_nav ol").show();
+			WDN.jQuery("#toc_nav ol").show();
+			WDN.jQuery("#toc_nav ol a").click(function(event) {
+		    	//we need to go to the #ID, but above it by 60 pixels
+				var headingTarget = WDN.jQuery(WDN.jQuery(this).attr('href')).offset();
+		    	WDN.jQuery(window).scrollTop(headingTarget.top - 60);
+		    	fadeInTOCMenu();
+				menuFaded = true;
+		    	event.preventDefault();
+		    });
 	    },
 	    function() {
-	        $("#toc_nav ol").hide();
+	    	WDN.jQuery("#toc_nav ol").hide();
 	    }
     );
-    $("#toc_nav ol").hide();
-    $("#toc").tableOfContents(
-    		$("#long_content"),      // Scoped to div#long_content
+	WDN.jQuery("#toc_nav ol").hide();
+	WDN.jQuery("#toc").tableOfContents(
+			WDN.jQuery("#long_content"),      // Scoped to div#long_content
       {
         startLevel: 2,    // H1 and up
         depth:      2,    // H1 through H4,
