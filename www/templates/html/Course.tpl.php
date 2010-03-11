@@ -39,8 +39,12 @@
             $credits = $context->credits['Lower Range Limit'].'-';
         }
         if (isset($context->credits['Upper Range Limit'])) {
-            $credits .= $context->credits['Upper Range Limit'];
+            $credits .= $context->credits['Upper Range Limit'].',';
         }
+        if (isset($context->credits['Per Career Limit'])) {
+            $credits .= ' max '.$context->credits['Per Career Limit'];
+        }
+        $credits = trim($credits, ', ');
     }
     
     $format = '';
