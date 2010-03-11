@@ -8,7 +8,7 @@ WDN.jQuery(document).ready(function($){
 			fadeInTOCMenu();
 			menuFaded = true;
 		}
-		if(WDN.jQuery(window).scrollTop() < (lcLocation.top - 70)) {
+		if(WDN.jQuery(window).scrollTop() < (lcLocation.top - 73)) {
 			fadeOutTOCMenu();
 			menuFaded = false;
 		}
