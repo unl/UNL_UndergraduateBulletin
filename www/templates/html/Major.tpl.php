@@ -10,3 +10,11 @@ UNL_UndergraduateBulletin_Controller::setReplacementData('head', '<script type="
     <li class="<?php echo ($parent->context->options['view']=='major')?'selected':''; ?>"><a href="<?php echo $url; ?>major/<?php echo urlencode($context->title); ?>"><span>Description</span></a></li>
     <li class="<?php echo ($parent->context->options['view']=='courses')?'selected':''; ?>"><a href="<?php echo $url; ?>major/<?php echo urlencode($context->title); ?>/courses"><span>Courses</span></a></li>
 </ul>
+<?php
+if ($context->options['view'] == 'major') {
+    echo $savvy->render($context->description);
+} else {
+    echo $savvy->render($context->subjectareas);
+}
+
+?>

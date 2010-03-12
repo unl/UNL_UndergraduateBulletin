@@ -24,9 +24,9 @@ class UNL_UndergraduateBulletin_Router
                 break;
             // Course rewrites, ex: CSCE/420
             case preg_match('/'.$base.'courses\/([A-Z]{3,4})\/([\d]?[\d]{2,3}[A-Za-z]?)$/', $requestURI, $matches):
-                $options['view']       = 'course';
-                $options['subject_id'] = $matches[1];
-                $options['number']     = $matches[2];
+                $options['view']         = 'course';
+                $options['subjectArea']  = $matches[1];
+                $options['courseNumber'] = $matches[2];
                 break;
             // List of all majors
             case preg_match('/'.$base.'majors?\/?$/', $requestURI, $matches):

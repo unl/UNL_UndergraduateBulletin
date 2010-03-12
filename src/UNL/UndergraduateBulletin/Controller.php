@@ -15,14 +15,14 @@ class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_
     );
     
     protected $view_map = array(
-        'index'    => 'displayIndex',
-        'majors'   => 'displayMajors',
-        'major'    => 'displayMajorDescription',
-        'courses'  => 'displayMajorSubjectAreas',
-        'subject'  => 'displaySubjectArea',
-        'subjects' => 'displaySubjectAreas',
-        'course'   => 'displayCourseListing',
-        'college'  => 'displayCollege',
+        'index'    => 'UNL_UndergraduateBulletin_Introduction',
+        'majors'   => 'UNL_UndergraduateBulletin_MajorList',
+        'major'    => 'UNL_UndergraduateBulletin_Major',
+        'courses'  => 'UNL_UndergraduateBulletin_Major',
+        'subject'  => 'UNL_UndergraduateBulletin_SubjectArea',
+        'subjects' => 'UNL_UndergraduateBulletin_SubjectAreas',
+        'course'   => 'UNL_UndergraduateBulletin_Listing',
+        'college'  => 'UNL_UndergraduateBulletin_College',
         );
     
     protected static $replacement_data = array();
@@ -49,61 +49,10 @@ class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_
             break;
         }
         if (isset($this->view_map[$this->options['view']])) {
-            $this->{$this->view_map[$this->options['view']]}();
+            $this->output[] = new $this->view_map[$this->options['view']]($this->options);
         } else {
             $this->output[] = new Exception('Sorry, that view does not exist.');
         }
-    }
-    
-    function displayIndex()
-    {
-        $this->output[] = new UNL_UndergraduateBulletin_Introduction();
-    }
-    
-    function displayMajors()
-    {
-        $this->output[] = new UNL_UndergraduateBulletin_MajorList();
-    }
-    
-    function displayMajorDescription()
-    {
-        $major = UNL_UndergraduateBulletin_Major::getByName($this->options['name']);
-        $this->output[] = $major;
-        $this->output[] = $major->description;
-    }
-    
-    function displayMajorSubjectAreas()
-    {
-        $major = UNL_UndergraduateBulletin_Major::getByName($this->options['name']);
-        $this->output[] = $major;
-        $this->output[] = $major->subjectareas;
-    }
-    
-    function displaySubjectArea()
-    {
-        $this->output[] = new UNL_Services_CourseApproval_SubjectArea($this->options['id']);
-    }
-    
-    function displaySubjectAreas()
-    {
-        $this->output[] = new UNL_UndergraduateBulletin_SubjectAreas();
-    }
-    
-    function displayCourseListing()
-    {
-        try {
-            $this->output[] = new UNL_Services_CourseApproval_Listing(
-                                    $this->options['subject_id'],
-                                    $this->options['number']);
-        } catch(Exception $e) {
-            header('HTTP/1.0 404 Not Found');
-            $this->output[] = 'That course was not found.';
-        }
-    }
-    
-    function displayCollege()
-    {
-        $this->output[] = new UNL_UndergraduateBulletin_College($this->options['name']);
     }
     
     public static function setReplacementData($field, $data)

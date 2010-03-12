@@ -73,7 +73,7 @@ class UNL_UndergraduateBulletin_Major_Description
                         $value = str_replace(
                                     array('Hixson-Lied ', 'College of ', ' and '), 
                                     array('',             '',            ' & '), $value);
-                        $this->college = new UNL_UndergraduateBulletin_College($value);
+                        $this->college = new UNL_UndergraduateBulletin_College(array('name'=>$value));
                         break;
                     case 'MAJOR':
                         break;

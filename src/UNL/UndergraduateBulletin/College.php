@@ -5,9 +5,9 @@ class UNL_UndergraduateBulletin_College
 
     protected $_description;
     
-    function __construct($name)
+    function __construct($options = array())
     {
-        $this->name = $name;
+        $this->name = $options['name'];
     }
 
     function __get($var)

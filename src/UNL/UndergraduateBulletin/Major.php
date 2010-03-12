@@ -6,9 +6,20 @@ class UNL_UndergraduateBulletin_Major
     
     public $college;
     
+    public $options;
+    
     protected $_description;
     
     protected $_subjectareas;
+    
+    function __construct($options = array())
+    {
+        if (isset($options['name'])) {
+            $this->title = $options['name'];
+        }
+        $this->options = $options;
+    }
+    
     
     function __get($var)
     {
