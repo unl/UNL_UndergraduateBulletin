@@ -1,0 +1,751 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<courses xmlns="http://courseapproval.unl.edu/courses" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://courseapproval.unl.edu/courses /schema/courses.xsd">
+  <course>
+    <title>Basic Business Communication</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>JGEN</subject>
+        <courseNumber>120</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20092</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Principles of written professional communication. Language basics, functional documents and readability.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+    <aceOutcomes>
+      <slo>1</slo>
+    </aceOutcomes>
+  </course>
+  <course>
+    <title>Visual Literacy Lab: Analysis and/or Composition</title>
+    <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>ARCH</subject>
+        <courseNumber>140</courseNumber>
+        <courseLetter>A</courseLetter>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>ARTP</subject>
+        <courseNumber>140</courseNumber>
+        <courseLetter>A</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>IDES</subject>
+        <courseNumber>140</courseNumber>
+        <courseLetter>A</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>TXCD</subject>
+        <courseNumber>140</courseNumber>
+        <courseLetter>A</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>JGEN</subject>
+        <courseNumber>140</courseNumber>
+        <courseLetter>A</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>LARC</subject>
+        <courseNumber>140</courseNumber>
+        <courseLetter>A</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20092</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">ARTP: Art major or candidate for teaching endorsement in art. ARCH: Admission to the College of Architecture. IDES: Admission to the College of Architecture. JGEN: College of Journalism and Mass Communications major and 2.75 GPA. LARC: Admission to the College of Architecture. TXCD: Textiles, Clothing and Design major or minor.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Development of creative and perceptual analytic skills through problem solving in design. Composition and analysis.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lab</type>
+        <hours>6</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">2</credit>
+    </credits>
+    <aceOutcomes>
+      <slo>2</slo>
+    </aceOutcomes>
+  </course>
+  <course>
+    <title>Visual Literacy Lab: Perceptual Drawing</title>
+    <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>ARCH</subject>
+        <courseNumber>140</courseNumber>
+        <courseLetter>B</courseLetter>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>ARTP</subject>
+        <courseNumber>140</courseNumber>
+        <courseLetter>B</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>IDES</subject>
+        <courseNumber>140</courseNumber>
+        <courseLetter>B</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>TXCD</subject>
+        <courseNumber>140</courseNumber>
+        <courseLetter>B</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>JGEN</subject>
+        <courseNumber>140</courseNumber>
+        <courseLetter>B</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>LARC</subject>
+        <courseNumber>140</courseNumber>
+        <courseLetter>B</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20092</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">ARTP: Art major or candidate for teaching endorsement in art. ARCH: Admission to the College of Architecture. IDES: Admission to the College of Architecture. JGEN: College of Journalism and Mass Communications major and 2.75 GPA. LARC: Admission to the College of Architecture. TXCD: Textiles, Clothing and Design major or minor.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Development of creative and perceptual analytic skills through problem solving in drawing and design. Composition and perceptual drawing.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lab</type>
+        <hours>6</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">2</credit>
+    </credits>
+    <aceOutcomes>
+      <slo>2</slo>
+    </aceOutcomes>
+  </course>
+  <course>
+    <title>Visual Literacy Lab: Color</title>
+    <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>TXCD</subject>
+        <courseNumber>141</courseNumber>
+        <courseLetter>A</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>ARCH</subject>
+        <courseNumber>141</courseNumber>
+        <courseLetter>A</courseLetter>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>ARTP</subject>
+        <courseNumber>141</courseNumber>
+        <courseLetter>A</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>IDES</subject>
+        <courseNumber>141</courseNumber>
+        <courseLetter>A</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>JGEN</subject>
+        <courseNumber>141</courseNumber>
+        <courseLetter>A</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>LARC</subject>
+        <courseNumber>141</courseNumber>
+        <courseLetter>A</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20092</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">ARTP: Art major or candidate for teaching endorsement in art.&amp;nbsp; ARCH: Admission to the College of Architecture. IDES: Admission to the College of Architecture. JGEN: College of Journalism and Mass Communications major and 2.75 GPA. LARC: Admission to the College of Architecture. TXCD: Textiles, Clothing and Design major or minor.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Development of creative and perceptual analytic skills through problem solving in drawing and design. Composition and color theory application.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lab</type>
+        <hours>6</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">2</credit>
+    </credits>
+    <aceOutcomes>
+      <slo>2</slo>
+    </aceOutcomes>
+  </course>
+  <course>
+    <title>Visual Literacy Lab: Speculative Drawing</title>
+    <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>ARCH</subject>
+        <courseNumber>141</courseNumber>
+        <courseLetter>B</courseLetter>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>ARTP</subject>
+        <courseNumber>141</courseNumber>
+        <courseLetter>B</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>IDES</subject>
+        <courseNumber>141</courseNumber>
+        <courseLetter>B</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>TXCD</subject>
+        <courseNumber>141</courseNumber>
+        <courseLetter>B</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>JGEN</subject>
+        <courseNumber>141</courseNumber>
+        <courseLetter>B</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>LARC</subject>
+        <courseNumber>141</courseNumber>
+        <courseLetter>B</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20092</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">ARTP: Art major or candidate for teaching endorsement in art. ARCH: Admission to the College of Architecture. IDES: Admission to the College of Architecture. JGEN: College of Journalism and Mass Communications major and 2.75 GPA. LARC: Admission to the College of Architecture. TXCD: Textiles, Clothing and Design major or minor.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Development of creative and perceptual analytic skills through problem solving in drawing and design. Composition and perceptual drawing.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lab</type>
+        <hours>6</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">2</credit>
+    </credits>
+    <aceOutcomes>
+      <slo>2</slo>
+    </aceOutcomes>
+  </course>
+  <course>
+    <title>Visual Literacy: Art and Design</title>
+    <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>ARCH</subject>
+        <courseNumber>143</courseNumber>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>ARTP</subject>
+        <courseNumber>143</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>IDES</subject>
+        <courseNumber>143</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>TXCD</subject>
+        <courseNumber>143</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>JGEN</subject>
+        <courseNumber>143</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>LARC</subject>
+        <courseNumber>143</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20092</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">ARTP: Art major or candidate for teaching endorsement in art. ARCH: Admission to the College of Architecture. IDES: Admission to the College of Architecture. JGEN: College of Journalism and Mass Communications major and 2.75 GPA. LARC: Admission to the College of Architecture. TXCD: Textiles, Clothing and Design major or minor.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to issues in Visual Literacy as they relate to art and design. Formal and critical analysis.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>2</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">2</credit>
+    </credits>
+    <aceOutcomes>
+      <slo>2</slo>
+    </aceOutcomes>
+  </course>
+  <course>
+    <title>Basic Photography</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>JGEN</subject>
+        <courseNumber>184</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20081</effectiveSemester>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Credit in JGEN 184 will not count toward the major in any department in the College of Journalism and Mass Communications. Students must provide their own camera, flash, developing supplies, film and paper. Display of finished work required.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Basic skills in photography. Developing and printing of black and white materials. Camera operations. Depth of field and action. Composition and lighting.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lab</type>
+      </activity>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Honors: Introductory Communication Seminar I</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>JGEN</subject>
+        <courseNumber>187</courseNumber>
+        <courseLetter>H</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>RAIK</subject>
+        <courseNumber>187</courseNumber>
+        <courseLetter>H</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20092</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Good standing in the University Honors Program and admission to the J.D. Edwards Honors Program.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to oral and written communication within the context of the J.D. Edwards Honors Program. Basics of writing, editing and presentation.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>1</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">1</credit>
+    </credits>
+    <aceOutcomes>
+      <slo>2</slo>
+    </aceOutcomes>
+  </course>
+  <course>
+    <title>Honors: Introductory Communication Seminar II</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>JGEN</subject>
+        <courseNumber>188</courseNumber>
+        <courseLetter>H</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>RAIK</subject>
+        <courseNumber>188</courseNumber>
+        <courseLetter>H</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20092</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Good standing in the University Honors Program; admission to the J.D. Edwards Honors Program; JGEN/RAIK 187H.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Continuation of JGEN/RAIK 187H.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Basics of writing, editing, and presentation.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>1</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">2</credit>
+    </credits>
+    <aceOutcomes>
+      <slo>2</slo>
+    </aceOutcomes>
+  </course>
+  <course>
+    <title>Technical Communication I</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>JGEN</subject>
+        <courseNumber>200</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20093</effectiveSemester>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">JGEN 200 does not count toward any College of Journalism and Mass Communications major. JGEN 200 is 'Letter grade only'.<br/></div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to written and oral communication and document design principles and strategies as applied in the sciences and technology. Communications for various audiences and/or purposes and/or situations.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+    <aceOutcomes>
+      <slo>1</slo>
+    </aceOutcomes>
+  </course>
+  <course>
+    <title>Business Communication Strategies</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>JGEN</subject>
+        <courseNumber>220</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20091</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Sophomore standing; 3 hrs English composition or business communication.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Principles of effective written and oral business communication. Communication strategies used in business disciplines.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+    <aceOutcomes>
+      <slo>1</slo>
+    </aceOutcomes>
+  </course>
+  <course>
+    <title>Honors: Applied Communication Seminar I</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>JGEN</subject>
+        <courseNumber>287</courseNumber>
+        <courseLetter>H</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>RAIK</subject>
+        <courseNumber>287</courseNumber>
+        <courseLetter>H</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20092</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Good standing in the University Honors Program; admission to the J.D. Edwards Honors Program; JGEN/RAIK 188H.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Application of oral and written communication within the context of the J.D. Edwards Honors Program. Professional writing and oral presentations.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>1</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">1</credit>
+    </credits>
+    <aceOutcomes>
+      <slo>1</slo>
+    </aceOutcomes>
+  </course>
+  <course>
+    <title>Honors: Applied Communication Seminar II</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>JGEN</subject>
+        <courseNumber>288</courseNumber>
+        <courseLetter>H</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>RAIK</subject>
+        <courseNumber>288</courseNumber>
+        <courseLetter>H</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20092</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Good standing in the University Honors Program; admission to the J.D. Edwards Honors Program; JGEN/RAIK 287H.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Continuation of JGEN/RAIK 287H.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Professional writing and oral presentations.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">2</credit>
+    </credits>
+    <aceOutcomes>
+      <slo>1</slo>
+    </aceOutcomes>
+  </course>
+  <course>
+    <title>Technical Communication II</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>JGEN</subject>
+        <courseNumber>300</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20093</effectiveSemester>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">JGEN 300 does not count toward any College of Journalism and Mass Communications major. JGEN 300 uses team and oral communication projects. JGEN 300 is 'Letter grade only'.<br/></div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Interdisciplinary approach to written and oral communications.  Application of course work from the major to issues in science and technology.  Integrates various perspectives through collaborative learning.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+    <aceOutcomes>
+      <slo>1</slo>
+      <slo>2</slo>
+    </aceOutcomes>
+  </course>
+  <course>
+    <title>Special Topics</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>JGEN</subject>
+        <courseNumber>498</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20081</effectiveSemester>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">JGEN 498/898 may be repeated up to three times so long as the topics are diffrent.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Topics vary each term.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">4</credit>
+      <credit type="Per Career Limit">12</credit>
+    </credits>
+  </course>
+</courses>

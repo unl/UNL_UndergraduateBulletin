@@ -1,0 +1,3278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<courses xmlns="http://courseapproval.unl.edu/courses" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://courseapproval.unl.edu/courses /schema/courses.xsd">
+  <course>
+    <title>Mechanical Drafting</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>101</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>ALEC</subject>
+        <courseNumber>101</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20092</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Develop expertise in the use of drafting equipment, geometric construction, orthographic projections, dimensioning, and the application of ANSI standards.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lab</type>
+      </activity>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Architectural Drafting</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>102</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>ALEC</subject>
+        <courseNumber>122</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20092</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">TEAC/ALEC 101.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Basic skills in the construction of architectural drawings, plot plans, elevation view, wall and floor sections, and roof construction. Architectural modeling.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Computer-Aided Drafting</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>103</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>ALEC</subject>
+        <courseNumber>103</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20092</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">TEAC 102/ALEC 122.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Applying computer commands to create two-dimensional engineering and architectural drawings.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lab</type>
+      </activity>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Wood Technology</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>104</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>ALEC</subject>
+        <courseNumber>104</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20092</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Basic problem solving and inquiry techniques appropriate to the wood working industry. Tools, materials and processes using natural and synthetic industrial materials.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lab</type>
+        <hours>3</hours>
+      </activity>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Industrial Metals and Plastics Materials Processing</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>109</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>ALEC</subject>
+        <courseNumber>109</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20092</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Forming, molding, separating and fabricating of industrial materials.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lab</type>
+      </activity>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Professional Practicum Experiences</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>197</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20081</effectiveSemester>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">An accompanying seminar is included in which hte professional role of the teacher is discussed</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Guided participation in schools and/or selected agencies offering programs for children/youth. Q.	Middle Level</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">4</credit>
+      <credit type="Per Semester Limit">4</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Electricity/Electronics</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>201</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>ALEC</subject>
+        <courseNumber>201</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20092</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to electricity/electronics and its application to industry. AC and DC circuit design, construction, and analysis.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Automotive Technology</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>203</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>ALEC</subject>
+        <courseNumber>203</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20092</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Automotive technology and the equipment related to automotive repairs. The design, theory, and operation of automotive systems through laboratory activities.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lab</type>
+      </activity>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Machine Tool Technology</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>204</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>ALEC</subject>
+        <courseNumber>204</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20092</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">TEAC/ALEC 109.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Basic machine shop practices involving hand tools, precision measuring tools, bench work, layout, engine lathe, milling machine, surface grinders, and pedestal grinders.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lab</type>
+      </activity>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Welding Technology</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>205</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>ALEC</subject>
+        <courseNumber>205</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20092</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Basic knowledge and skill in both oxygen-acetylene welding and cutting, and electrical arc welding.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lab</type>
+      </activity>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Introduction to Industrial Education</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>210</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20081</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Certification, employment potential, terminology, publications, resources, and introduction to the trends, philosophies, methods, and approaches to contemporary industrial education programs.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Single Value">1</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Communicating Across Cultures in the Classroom</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>213</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20081</effectiveSemester>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">TEAC 213 is a required, introductory, pre-professional course for teaching endorsement in English as a Second Language.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Cross-cultural communication in educational settings through the development, analysis, and evaluation of varied pedagogical approaches and strategies for tutoring ESL students in the K to 12th grade setting.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Career and Technical Education: Applications Software</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>229</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20081</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Development of strategies for using various application software packages in Career and Technical Education classrooms.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Construction Technology</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>242</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>ALEC</subject>
+        <courseNumber>242</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20092</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">TEAC/ALEC 104.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Classifications, properties and uses of common construction materials and building practices. Construction of a residential dwelling from plot plan through trim and finish work.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lab</type>
+      </activity>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Production Processes of the Wood Industry</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>243</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>ALEC</subject>
+        <courseNumber>243</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20092</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">TEAC/ALEC 104.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Theory and practice of industrial processing of wood and synthetic materials. Structure and management of manufacturing industries.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lab</type>
+      </activity>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Modern Industries</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>246</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>ALEC</subject>
+        <courseNumber>246</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20092</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Survey of the industrial enterprise. Manufacturing and distribution of goods. Overview of the world of work.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Instructional Technology</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>259</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20081</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Development of strategies for using technology to support K-12 classroom instruction. Electronic portfolios, Internet resources, applications software, and authoring programs.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Coaching Effectiveness and Psychological Components of Sports Performance</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>279</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20081</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Key concepts to becoming an effective coach. Creation of a sound educational philosophy, values development, assessment techniques, practical issues tied to interscholastic coaching, and a review of those psychological factors that can improve sports performance for athletes.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Professional Practicum Experiences II</title>
+    <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>EDPS</subject>
+        <courseNumber>297</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>NUTR</subject>
+        <courseNumber>297</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>SPED</subject>
+        <courseNumber>297</courseNumber>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>297</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20081</effectiveSemester>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">An accompanying seminar is included where the professional role of the teacher is discussed.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Guided participation/observation in schools/agencies offering programs for children/youth. A.	Elementary (1-4 cr, max 4) Parallel EDPS 250. B.	Elementary (1-4 cr, max 4) Parallel TEAC 351. I.	Secondary Art (1-4 cr, max 4) J.	Secondary Business Education (1-4 cr, max 4) M.	Secondary Industrial Education (1-4 cr, max 4) N.	Secondary Language Arts (1-4 cr, max 4) O.	Secondary Marketing Education (1-4 cr, max 4) P.	Secondary Mathematics (1-4 cr, max 4) Q.	Middle Level (1-4 cr, max 4) R.	Secondary Modern Languages (1-4 cr, max 4) V.	Secondary Science (1-4 cr, max 4) W.	Secondary Social Science (1-4 cr, max 4)</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">4</credit>
+      <credit type="Per Career Limit">12</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Industrial Graphics</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>301</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>ALEC</subject>
+        <courseNumber>301</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20092</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Printing, desktop publishing, silk screening, and photography.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lab</type>
+      </activity>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Children's Literature</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>302</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20081</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Admission to the Elementary Teacher Education Program.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Reading in the broad field of children's literature. Survey of various genres; kinds of books; authors, poets, illustrators; historical development; contemporary topics and trends. Principles and practices in selection and adaptation of literature to the needs of the child. Presentation and instructional methodology.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Energy, Power and Transportation Technology</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>303</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>ALEC</subject>
+        <courseNumber>303</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20092</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">TEAC/ALEC 101, 109, 203, 204, and 205.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">TEAC/ALEC 303 is a synthesis of skill-based courses for Industrial Technology Education (ITE) majors.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Design, construct, and test a one-person electric vehicle. Enter the vehicle in a statewide competition.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lab</type>
+      </activity>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Nursery and Pre-kindergarten Education</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>304</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20081</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">EDPS 362, TEAC 197 (1 cr) or permission.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Curriculum materials and equipment; analysis of physical, mental, and emotional development. Records and participation with young children. Parent-teacher relationships.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">2</credit>
+      <credit type="Upper Range Limit">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>The Arts in the Elementary School Curriculum</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>305</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20081</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Admission to the Elementary Teacher Education Program or the Inclusive Education Program.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Exploration and experiences with the arts.  Supporting ways to include and promote the arts within the curriculum of the elementary school.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lab</type>
+        <hours>4</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">4</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Teaching Art in the Elementary School</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>306</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20081</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Admission to Elementary Teacher Education Program; ARTP 117 or equivalent.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">The guidance of art through the elementary school in accordance with the growth and development of the child. Objectives, materials, and methods for meaningful teaching of art.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Teaching Social Studies in the Elementary School</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>307</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20081</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Admission to the Elementary Teacher Education Program; 6 hrs social sciences; TEAC 297B and 351; EDPS 362.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">The role, content, materials, and trends of social studies in childhood education; selection and use of learning experiences; development of lesson plans and/or teaching unit.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Teaching Mathematics in the Elementary School</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>308</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20081</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Admission to the Elementary Teacher Education Program; Parallel MATH 300, TEAC 297B, and TEAC 351.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Scope, content, and organization of the mathematics curriculum; development, use, and sources of instructional materials; teaching procedures.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Educational Program for Kindergarten Children</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>310</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20081</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Admission to the Elementary Teacher Education Program; FACS 270 and EDPS 362, or permission.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Recent developments in education of children and their bearing on the selection and guidance of appropriate activities and materials for the kindergarten. Related functions of home, school, and other educational agencies.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Single Value">2</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Teaching Reading in the Elementary School</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>311</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20081</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Admission to the Elementary Teacher Education Program; TEAC 297B and 351; EDPS 362; Parallel TEAC 397A.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Objectives, scope, content, and organization of the reading curriculum; methods of effective teaching; development, use, and sources of instructional materials.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Teaching Language Arts in the Elementary School</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>313</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20081</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Admission to the Elementary Teacher Education Program; TEAC 297B and 351; EDPS 362; Parallel TEAC 397A.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Theory and practice of teaching the language arts in the elementary school. Selection, construction, and use of instructional materials for and with elementary children.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Teaching Science in the Elementary School</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>315</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20081</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Admission to the Elementary Teacher Education Program; two courses in science; TEAC 297B and 351; EDPS 362.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Role, trends, content, and materials of science in childhood education. Development of science experiences for use with children.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Teaching English Learners in Elementary School</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>317</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20101</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Admission to a Teacher Education Program.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">TEAC 317 is 'Letter grade only'.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Pedagogical, linquistic, and cultural issues of schooling English language learners in general education elementary school classrooms.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Single Value">2</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Career and Technical Education: Multimedia Applications</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>323</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20081</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Integrating instructional multi-media applications into Career and Technical Education courses.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Multicultural Education</title>
+    <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>ETHN</subject>
+        <courseNumber>330</courseNumber>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>330</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20092</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Sophomore standing.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Role of minority group status in American society. Ethnic minority group cultures, the existence of subcultures within the mainstream of society, women in the social setting, and their relationship to the American education process. Analytic methods of study.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+    <aceOutcomes>
+      <slo>9</slo>
+    </aceOutcomes>
+  </course>
+  <course>
+    <title>School and Society</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>331</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20101</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Sophomore standing.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <span style="font-size: 10pt; line-height: 115%; font-family: Arial;">Questions of educational purpose and the complex relationship between school and society. Brings <span style="color: black;">disciplinary resources to bear for developing <em><span style="font-style: normal;">interpretive, normative,</span></em> and <em><span style="font-style: normal;">critical</span></em> perspectives on education, inside and outside of schools.</span></span>
+        <br/>
+      </div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+    <aceOutcomes>
+      <slo>8</slo>
+    </aceOutcomes>
+  </course>
+  <course>
+    <title>Advanced Machine Woodworking</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>340</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>ALEC</subject>
+        <courseNumber>340</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20092</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">TEAC/ALEC 243.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">TEAC/ALEC 340 is a continuation of TEAC/ALEC 243.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Machine woodworking on a major individual project. Wood finishing and maintenance of hand and power tools.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lab</type>
+      </activity>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Seminar in Middle Level Education</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>349</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20081</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Permission.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Active involvement with the philosophy, duties and demands of middle level education. Discussions and readings relating to the professional role of middle level educators in a seminar setting.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Single Value">1</credit>
+      <credit type="Per Semester Limit">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>The Learner Centered Classroom</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>351</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20081</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Admission to the Elementary Teacher Education Program or Special Education/Elementary Education or Early Childhood/Elementary Education;&#13;
+parallel TEAC 297B, TEAC 308, and MATH 300.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Organizing the learning environment in a culturally and socially responsive classroom. Theory and practice of creating a cooperative community that fosters both social and academic development. Theoretical perspectives are linked to actual classroom experience.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>2</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">2</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Health and Wellness the Elementary Classroom</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>380</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20081</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">The integration of elementary subjects through movement activities and the understanding of healthy concepts. Social skills, health, and mental revitalization for improved academic performance.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">2</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Industrial Experience</title>
+    <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>ALEC</subject>
+        <courseNumber>390</courseNumber>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>390</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20092</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Permission.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Occupational experience or supervised occupational experience in conjunction with directed observation to meet vocational industrial teacher certification requirements.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>fld</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">6</credit>
+      <credit type="Per Career Limit">6</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Professional Practicum Experience III</title>
+    <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>EDPS</subject>
+        <courseNumber>397</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>SPED</subject>
+        <courseNumber>397</courseNumber>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>397</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20081</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Admission to Teacher Education Program.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Guided observations and/or clinical experiences in schools and/or agencies offering programs for children and/or youth. A.	Elementary Level (1-10 cr) An accompanying seminar is included where the professional role of the teacher is discussed. D.	Unified Primary K-3 (EDPS, SPED 397D) (1-10 cr) I.	Secondary Art (1-10 cr) J.	Secondary Business Education (1-10 cr) L.	Information Technology (1-10 cr) M.	Secondary Industrial Education (1-10 cr) N.	Secondary Language Arts (1-10 cr) O.	Secondary Marketing Education (1-10 cr) P.	Secondary Mathematics (1-10 cr) Q.	Middle Level (1-10 cr) An accompanying seminar is included where the professional role of the teacher is discussed. R.	Secondary Modern Languages (1-10 cr) V.	Secondary Science (1-10 cr) W.	Secondary Social Science (1-10 cr)</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">10</credit>
+      <credit type="Per Career Limit">10</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Independent Study</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>399</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20081</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Prior arrangement with and permission of individual faculty member.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Special research project or reading program under the direction of a staff member in the department.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">6</credit>
+      <credit type="Per Semester Limit">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Contemporary Children's Literature: Principles and Practices</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>402</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>TEAC</subject>
+        <courseNumber>802</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20081</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">TEAC 302 and successful completion of student teaching or permission.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Contempoary literature for children, all forms and genres; development of meaningful and creative learning activities for children; professional readings and research related to children's literature.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Student Teaching Seminar</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>403</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20103</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Parallel TEAC 497 (Student teaching). <br/></div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Analysis of the school programs. Education and curriculum, teacher certification, teacher and student rights and responsibilities, proper conduct of teachers, selected legal aspects of education, methods of communicating with parents and community members, and current issues which impact education. A. Elementary: K-6 (1-3 cr, max 3) I. Art: K-12 (1-3 cr, max 3) N.	Secondary: Language Arts (1-3 cr, max 3) P.	Secondary: Math (1-3 cr, max 3) Q.	Middle School (1-3 cr, max 3)  R.	Secondary: Modern Language (1-3 cr, max 3)  V.	Secondary: Science (1-3 cr, max 3)  W.	Secondary: Social Science (1-3 cr, max 3)<br/></div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">3</credit>
+      <credit type="Per Career Limit">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Improvement of Instruction in Elementary School Art</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>406</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20081</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">12 hrs education including TEAC 306 or equivalent; teaching experience or student teaching.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Techniques, plans, and procedures for improving instruction in elementary school art. Current practices, issues, and trends; evaluation of instructional materials.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Improvement of Instruction in School Mathematics</title>
+    <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>TEAC</subject>
+        <courseNumber>808</courseNumber>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>408</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20103</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Techniques, plans, and procedures for improving instruction in mathematics. Analysis of current instructional and supervisory practices. Evaluation of research and instructional materials.      A. Primary: K-3 (3 cr)      B. Elementary: 4-6 (3 cr)      E. Secondary: 7-12 (3 cr)      J. Special Topics (3 cr)<br/></div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+      <deliveryMethod>Web</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+      <credit type="Per Career Limit">12</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Reading Processes and Practices</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>411</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>TEAC</subject>
+        <courseNumber>811</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20081</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Overview of reading processes and programs with attention to strategies for comprehension and word identification, approaches, and materials. A.	Teaching Reading (3 cr) B.	Special Topics in Reading (1-6 cr)</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Studies in Teaching English as a Second Language</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>413</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>TEAC</subject>
+        <courseNumber>813</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20081</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Preparation for teaching K-12 learners whose language of nurture is not English. A.	ESL: Acquisition (1-3 cr) B.	ESL: Teaching and Curriculum (1-3 cr) D.	ESL: Assessment (1-3 cr) E.	Special Topics in Teaching ESL (1-6 cr)</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">15</credit>
+      <credit type="Per Career Limit">15</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Teaching English Language Learners (ELLs) in Content Areas</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>413</courseNumber>
+        <courseLetter>M</courseLetter>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>TEAC</subject>
+        <courseNumber>813</courseNumber>
+        <courseLetter>M</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20092</effectiveSemester>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">TEAC 413M/813M is required for English Language Learner (ELL) certification.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Theory and pedagogy in the teaching of English Language Learners (ELLs) in course content areas at all levels of K-12 education.  Identify and design linguistically and culturally responsive instruction for English learners in the disciplines (e.g. language arts, science, mathematics, social sciences).</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Inclusive Early Childhood Methods</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>416</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>TEAC</subject>
+        <courseNumber>816</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20081</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Admission to the Inclusive Early Childhood Teacher Education Program; FACS 270, 270L, 374, and 374L.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">The creation and practice of developmentally appropriate instruction in curricular areas for K to 3rd grades. Role of the teacher and/or facilitator in relationship to the primary curriculum and learning environment.      &#13;
+A. Literacy Methods for the Primary Student: K to 3rd (3 cr) Prereq: Parallel TEAC 397D.      &#13;
+B. Social Studies and Science Methods for the Primary Student: K to 3rd (3 cr) Prereq: Parallel TEAC 397D.      &#13;
+D. Mathematics Methods for the Primary Student: K to 3rd (3 cr) Prereq: Parallel Math 200.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+      <credit type="Per Semester Limit">9</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Teaching Writing in the Elementary School</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>418</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>TEAC</subject>
+        <courseNumber>818</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20081</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Learning and teaching of writing with consideration given to developmental factors of children and adolescents.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Teaching Foreign Language in the Elementary School</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>420</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>TEAC</subject>
+        <courseNumber>820</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20081</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Theory, research and practice of most recent foreign language models and strategies.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Foundations of Career and Technical Education</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>424</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>ALEC</subject>
+        <courseNumber>424</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20101</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Scope and structure of career and technical education within the educational system. Teacher's role and responsibilities in dealing with legislative mandates in the planning, management, and evaluation of a local program.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">3</credit>
+      <credit type="Per Career Limit">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Coordination in Occupational Training Programs</title>
+    <courseCodes>
+      <courseCode type="grad tie-in">
+        <subject>EDAD</subject>
+        <courseNumber>825</courseNumber>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>425</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>TEAC</subject>
+        <courseNumber>825</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20081</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Foundation and scope of current and projected vocational cooperative education programs and general education work experience. Coordination techniques, selection and placement, instructional procedures, youth leadership activities, organization and administration, and evaluation of cooperative occupational education.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Instructional Communication</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>COMM</subject>
+        <courseNumber>427</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>COMM</subject>
+        <courseNumber>827</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>TEAC</subject>
+        <courseNumber>429</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>TEAC</subject>
+        <courseNumber>829</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20081</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Junior/senior standing; College of Education and Human Sciences major; COMM 200, 201; or permission.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Advanced introductory course in instructional communication, focusing on understanding variables associated with the communication process in instructional settings and managing instructional communication more effectively. Provides an experimental and a cognitive understanding of the role of communication in the instructional process.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Introduction to Philosophy of Education</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>430</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>TEAC</subject>
+        <courseNumber>830</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20081</effectiveSemester>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Open to advanced undergraduates and graduate students</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Fundamental ideas and skills that students can use to begin to form personal philosophical perspectives on education that can be justified intellectually, practically, and ethically. Using case studies of realistic school situations and the theoretical work of a range of writers in education, students explore conceptions of teaching, learning, curriculum, and the relationship between school and society.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Studies in the Foundations of Education</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>431</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>TEAC</subject>
+        <courseNumber>831</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20082</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Social and cultural analyses of curriculum, teaching, and education policy from disciplinary perspectives. A. The Anthropology of Education (3 cr) B. The History of Education (3 cr) E. The Sociology of Education (3 cr) J. Special Topics (3 cr)</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+      <credit type="Per Career Limit">12</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Higher Education in America</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>432</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>TEAC</subject>
+        <courseNumber>832</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20081</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">12 hrs education.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">History and development of America's colleges and universities and recent trends and problems in higher education.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Ethics and Education</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>434</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>TEAC</subject>
+        <courseNumber>834</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20081</effectiveSemester>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Open to advanced undergraduates and graduate students</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Basic issues in ethics and education. Using theoretical material and case studies, students consider such ideas and issues as the nature of moral judgment, equality, justice, caring, and respect for persons, and discuss how educators might respond in ethically justifiable ways to difficult situations they may encounter.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Latin American Education</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>436</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>TEAC</subject>
+        <courseNumber>836</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20081</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">12 hours education, social sciences, or Latin American Studies; or permission.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Survey of contemporary practices and problems in Latin American education, with special emphasis on the role of education in the national development.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Democracy and Education</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>437</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20081</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Democracy and how educational institutions and practices might facilitate or hinder democratic process and aims. The fact of cultural and moral pluralism in the United States, and to the educational responses to pluralism that are possible and appropriate in a polity that aims to be democratic. A range of stances on these issues.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Linguistics for the Classroom School Teacher</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>438</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>TEAC</subject>
+        <courseNumber>838</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20081</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Admission to the Teacher Education Program.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Analysis of various aspects of linguistic study including dialects, usage, modern grammar, semantics, lexicography, etc., and their application in the K-12 school English classroom. Investigation and clarification of language concepts and the development of teaching materials that can be used in the classroom.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Literature for Adolescents</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>439</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>TEAC</subject>
+        <courseNumber>839</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20081</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Admission to a Teacher Education Program.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Wide range of young adult literature available for use in schools. Critical and rhetorical tools for responding to a variety of literary texts and techniques for eliciting a wider range of responses to literature; consideration for readers aged 11-16.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Content Area Reading, Grades 4-12</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>441</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>TEAC</subject>
+        <courseNumber>841</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20081</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Simultaneous teaching of academic content and functional teaching of reading in the content areas; assessment of comprehension, vocabulary/concept attainment; analyses of text; improvement of content area learning through reading/writing development.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Career and Technical Education: Curriculum Issues</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>443</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20081</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Curriculum issues in Career and Technical Education courses using instructional technology. Subject integration, application of standards, use of Web-based resources and resource management.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Career and Technical Education: Technology Issues</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>444</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20081</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Technology issues and the impact on society of access, privacy, confidentiality, ethics and emerging technologies; professional attitude and responsibility in using technology.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Managing Industrial Education Laboratory</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>445</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20081</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">TEAC 318.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Planning, organization, and instructional management of industrial education facilities with emphasis on developing a proactive safety program.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>The Middle Level Program</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>446</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20081</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Culminating professional course in a program for the preparation of middle level educators. Best practices in middle level education; history and philosophy of middle level education; interdisciplinary team planning; and teacher-based advising.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Middle Level Teacher-Based Advising</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>447</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20081</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Reading, discussion and research of program designs, content and pedagogies for teacher-based advising for transescent students. Experimental programs and methods for improving student continuous progress and career exploration.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Single Value">2</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Teaching the Transescent Student</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>449</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20081</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Knowledge of the instructional methodology which most accurately supports the learning of the middle level student. Review of the recognized theories and plans for instructing the 10-14 year old student forms the basis for this undergraduate, core middle level teacher education course.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Single Value">2</credit>
+    </credits>
+  </course>
+  <course>
+    <title>American Cultural Perspectives through Popular Music and Guitar</title>
+    <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>TEAC</subject>
+        <courseNumber>450</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>MUED</subject>
+        <courseNumber>850</courseNumber>
+        <courseGroup>Music Education (MUED)</courseGroup>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>TEAC</subject>
+        <courseNumber>850</courseNumber>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>MUED</subject>
+        <courseNumber>450</courseNumber>
+        <courseGroup>Music Education (MUED)</courseGroup>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>MUNM</subject>
+        <courseNumber>450</courseNumber>
+        <courseGroup>Music for Non-majors (MUNM)</courseGroup>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20093</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Exploration of the historical, social and cultural context of late 19th and 20th century America through learning to play jazz and popular music on the guitar to provide an authentic, performance-based encounter in music.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+      <credit type="Per Career Limit">3</credit>
+    </credits>
+    <aceOutcomes>
+      <slo>5</slo>
+      <slo>7</slo>
+    </aceOutcomes>
+  </course>
+  <course>
+    <title>Learning and Teaching Principles and Practices</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>451</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>TEAC</subject>
+        <courseNumber>851</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20081</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Admission to the Teacher Education Program; completion of 80 percent of subject-area course work with a 2.5 GPA or better.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Theoretical issues in the area of teaching and learning as applied to the individual disciplines. I. Secondary Art Prereq: As listed above and TEAC 306 or 406/806. Investigates topics/issues impacting the teaching of art, including the theory and practice of discipline-based art education. Planning and incorporation of innovative approaches embracing the diversity of students. K. Career and Technical Education Prereq: As listed above. Procedures for writing, selecting and organizing subject matter for instruction. L. Methods of Teaching Information Technology (3 cr) Prereq: As listed above and TEAC 259; parallel TEAC 397L or 894L. Objectives, teaching materials, and methods of presentation emphasizing the organization and management of computer science instruction. [IS]N. Secondary Language Arts (3 or 4 cr) Prereq: As listed above, including ENGL 357, 377; and TEAC 438/838; and grade average of "B" (3.0) or better in subject-area. Theoretical issues in the teaching and learning of writing, language, and literature. *O. Marketing Education Prereq: As listed above and TEAC 452K. Objectives, teaching materials, selection, and organization of subject matter, and methods of instruction and evaluation in marketing. [IS]P. Secondary Mathematics Prereq: As listed above. Innovative methodology and planning, teaching, and evaluating math lessons for diverse learners. [IS]R. Secondary Modern Languages Prereq: As listed above. Investigates issues in second language learning and teaching from the perspective of proficiency: contextualized practice in reading, writing, speaking, listening, and culture. Methodological approaches, review of research, testing guidelines, accuracy, the affective and cognitive needs of students, and the incorporation of authentic materials/language. [IS]V. Secondary Science Prereq: As listed above and parallel with TEAC 397. Investigates issues in secondary science learning and teaching with emphasis on contextualized practice in each field as well as interdisciplinary approaches to planning, research, testing, laboratory safety, and the affective and cognitive needs of diverse learners. [IS]W. Secondary Social Science Prereq: As listed above. Theoretical issues in teaching and learning in the individual and integrated social sciences.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">3</credit>
+      <credit type="Upper Range Limit">4</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Curriculum Principles and Practices</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>452</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>TEAC</subject>
+        <courseNumber>852</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20081</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Admission to the Teacher Education Program; completion of 80 percent of subject-area course work with 2.5 GPA or better.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Focus on practical issues in the area of teaching and learning as applied to the individual disciplines. I. Secondary Art Prereq: As listed above and TEAC 306 or 406/806. Theory and research into curriculum incorporating technology, interdisciplinary approaches, active learning, and course content designed to enhance art understanding by students of diversity. J. Business Education Prereq: As listed above and TEAC 451K and parallel with TEAC 397J. Objectives, teaching materials, selection and organization of subject matter, and methods of instruction and evaluation in business subjects. M. Industrial Education Prereq: As listed above and TEAC 451K and parallel TEAC 397M. Objectives, curricula, methodology, evaluation, planning, classroom management and course organization. [IS]N. Secondary Language Arts Prereq: As listed above and parallel with TEAC 397. Planning, teaching, and evaluating language arts lessons for diverse learners.  P. Secondary Mathematics Prereq: As listed above and TEAC 451P/851P with a grade of "C+" or better. Conceptualizing the 7-12 curriculum through multimedia and active, discovery learning. [IS]R. Secondary Modern Languages Prereq: As listed above. Second-language acquisition and learning theory and their relationship to curriculum planning and development. Practice in creative language-use activities designed to build second language reading, writing, speaking, listening, and culture skills. Development of teacher as observer, reflector, and recorder of individual student needs. [IS]V. Secondary Science Prereq: As listed above and TEAC 451V/851V. Curricular materials, including the application of technology, as they relate to classroom instruction with diverse populations. [IS]W. Secondary Social Science Prereq: As listed above. Societal diversity and its impact on the 7-12 social science curriculum, regional and national curricular trends, and emerging theory and research in social studies education.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">2</credit>
+      <credit type="Upper Range Limit">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>The Middle Level Professional Methods</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>453</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>TEAC</subject>
+        <courseNumber>853</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20081</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Admission to the Teacher Education Program.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Development of competence in planning, teaching, classroom management and assessment. Covers the scope, content, and organization of curriculum and instructional materials. I.	Art (2 cr) N.	Language Arts (2 cr) P.	Mathematics (2 cr) T.	Reading (2 cr) V.	Science (2 cr) W.	Social Science (2 cr)</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">12</credit>
+      <credit type="Per Semester Limit">12</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Literature in Education</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>454</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>TEAC</subject>
+        <courseNumber>854</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20081</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Comparative analyses of literature and the role of the reader as meaning maker in educational settings. A.	Literary Response and Analysis (3 cr) B.	Multiethnic Literature for Children and Adolescents (3 cr) E.	Special Topics (3 cr)</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Lower Range Limit">3</credit>
+      <credit type="Upper Range Limit">9</credit>
+      <credit type="Per Semester Limit">9</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Teaching with Technology</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>480</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>TEAC</subject>
+        <courseNumber>880</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20081</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Survey and analysis of the application of technology to improve teaching. Research and related literature on learning, teaching and curriculum, and the critical application of technology and the development of teaching strategies. A.	Survey of Instructional Technology (1-3 cr) B.	Designing Instructional Technology K-12 (1-3 cr) E.	Instructional Technology in Mathematics (1-3 cr) J.	Instructional Technology in Language Arts (1-3 cr) K.	Instructional Technology in Science (1-3 cr) L.	Instructional Technology in Social Sciences (1-3 cr) M.	Technology Supported Assessment and Evaluation (1-3 cr) N.	Web Teaching (1-3 cr) P.	Special Topics (1-3 cr)</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">3</credit>
+      <credit type="Per Semester Limit">15</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Instructional Applications of Computers-Practicum</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>482</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>TEAC</subject>
+        <courseNumber>882</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20081</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Permission.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">A task-oriented practicum in instructional application of computer to provide an opportunity for repetition and/or demonstration of fundamental practice skills. Combines discussion and demonstration with supervised task-centered field experiences.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">2</credit>
+      <credit type="Upper Range Limit">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Workshop Seminar</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>490</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20081</effectiveSemester>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">12</credit>
+      <credit type="Per Semester Limit">12</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Professional Practicum in Postsecondary Education</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>491</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20081</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Permission.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Supervised teaching experiences at postsecondary or adult levels, in public or private schools or agencies.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">10</credit>
+      <credit type="Per Semester Limit">10</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Independent Study</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>495</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>TEAC</subject>
+        <courseNumber>895</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20081</effectiveSemester>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">6</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Problems in Secondary Education</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>496</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>TEAC</subject>
+        <courseNumber>896</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20081</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Permission.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Opportunities for experienced teachers and administrators to develop plans, procedures, or experiments directed to the improvement of the curriculum or administration of the secondary school.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">6</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Student Teaching</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>497</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>pass/no pass only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20081</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Admission by application; completion of all required methods courses and practica with minimum grades of C+ (2.33) per course.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">() Pass/No Pass only.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Supervised teaching experiences in schools. Accompanying seminar focuses on: teacher certification, teacher and student rights and responsibilities, proper conduct of teachers, selected legal aspects of education, methods of communicating with parents and community members, and current issues which impact education. A.	Elementary (K-6) (1-10 cr, max 10) B.	Elementary Art (1-10 cr, max 10) E.	English as a Second Language (1-14 cr, max 14) G.	Elementary Foreign Language (1-10 cr, max 10) I.	Secondary Art (1-10 cr), max 10 J.	Secondary Business Education (1-10 cr, max 10) M.	Secondary Industrial Education (1-10 cr, max 10) N.	Secondary Language Arts (1-10 cr, max 10) O.	Secondary Marketing Education (1-10 cr, max 10) P.	Secondary Mathematics (1-10 cr, max 10) Q.	Middle School (1-10 cr, max 10) R.	Secondary Modern Language (1-10 cr, max 10) V.	Secondary Science (1-10 cr, max 10, max 10) W.	Secondary Social Science (1-10 cr, max 10) Y.	Mainstreaming (NUTR, SPED 497Y) (1 cr) Z.	Multicultural (NUTR, SPED 497Z) (1 cr)</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>fld</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">14</credit>
+      <credit type="Per Semester Limit">14</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Problems in Elementary Education</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>498</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>TEAC</subject>
+        <courseNumber>898</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20081</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Permission.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Opportunities to develop plans, procedures, experiments, and models directed to the improvement of elementary school education on an independent study basis.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">2</credit>
+      <credit type="Upper Range Limit">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Honors Thesis</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>499</courseNumber>
+        <courseLetter>H</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20081</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Good standing in the University Honors Program or by invitation.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Conduct a scholarly research project and write a University Honors Program or undergraduate thesis.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Reading and Writing Disabilities: Adolescents</title>
+    <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>TEAC</subject>
+        <courseNumber>806</courseNumber>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>SPED</subject>
+        <courseNumber>406</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>SPED</subject>
+        <courseNumber>806</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20081</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Parallel SPED 406A/806A.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Theory and techniques for assessing and teaching word identification, vocabulary, comprehension and writing skills in grades 7 to 12.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">3</credit>
+      <credit type="Per Career Limit">6</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Reading Center Practicum II</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>SPED</subject>
+        <courseNumber>406</courseNumber>
+        <courseLetter>A</courseLetter>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>SPED</subject>
+        <courseNumber>806</courseNumber>
+        <courseLetter>A</courseLetter>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>TEAC</subject>
+        <courseNumber>806</courseNumber>
+        <courseLetter>A</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20081</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Permission.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">SPED 406A/806A requires two hours per week in a Reading Center.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Teaching and/or tutoring experience evaluating and instructing students with reading problems in a Reading Center. Assessment, instructional planning, delivery of instruction, writing diagnostic reports and parent communication.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">3</credit>
+      <credit type="Per Semester Limit">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Approaches to Middle School General Music</title>
+    <courseCodes>
+      <courseCode type="grad tie-in">
+        <subject>MUED</subject>
+        <courseNumber>873</courseNumber>
+        <courseGroup>Music Education (MUED)</courseGroup>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>TEAC</subject>
+        <courseNumber>873</courseNumber>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>MUED</subject>
+        <courseNumber>473</courseNumber>
+        <courseGroup>Music Education (MUED)</courseGroup>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20081</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">MUED 344 or permission.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">For prospective new and experienced general music/middle school teachers. Characteristics of middle school students, materials, methodology, guitar and recorder techniques, and curriculum development.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+      <credit type="Per Career Limit">3</credit>
+    </credits>
+  </course>
+</courses>

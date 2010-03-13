@@ -1,0 +1,957 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<courses xmlns="http://courseapproval.unl.edu/courses" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://courseapproval.unl.edu/courses /schema/courses.xsd">
+  <course>
+    <title>Introduction to Water Science</title>
+    <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>GEOG</subject>
+        <courseNumber>281</courseNumber>
+        <courseGroup>Physical Geography</courseGroup>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>NRES</subject>
+        <courseNumber>281</courseNumber>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>WATS</subject>
+        <courseNumber>281</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20081</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">High school chemistry or one semester college chemistry; one course in geology or physical geography or soil.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Survey of the water science from the perspective of both natural and social sciences. Water budget, precipitation, evapotranspiration, runoff and stream flow, groundwater, water quality parameters, economics of water, water policy, water law and water politics.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Spring</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Career Experiences</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>WATS</subject>
+        <courseNumber>299</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>pass/no pass only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20081</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Permission and advanced approval of plan or work.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Pass/No Pass only.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Student participation in water science applications. May include participation in water resource management, water measurement, water quality monitoring, water supply, water administration; research in laboratories, green houses and fields; or preparation of educational materials.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">5</credit>
+      <credit type="Per Career Limit">12</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Soil Conservation and Watershed Management</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MSYM</subject>
+        <courseNumber>354</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>SOIL</subject>
+        <courseNumber>354</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>WATS</subject>
+        <courseNumber>354</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20081</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">AGRO/SOIL 153 and MSYM 109 or equivalent.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Watershed hydrology, soil erosion, erosion control, water management, and land surveying and mapping. Includes rainfall-runoff relationships; determination of watershed characteristics; terraces, waterways, vegetative filters, and residue management; ponds, wetlands, non-point source pollution control, and water conservation; profile and topographic surveying.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lab</type>
+        <hours>3</hours>
+      </activity>
+      <activity>
+        <type>lec</type>
+        <hours>2</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Soils, Environment and Water Quality</title>
+    <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>AGRO</subject>
+        <courseNumber>361</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>GEOL</subject>
+        <courseNumber>361</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>SOIL</subject>
+        <courseNumber>361</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>WATS</subject>
+        <courseNumber>361</courseNumber>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>NRES</subject>
+        <courseNumber>361</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20101</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">AGRO/HORT/SOIL 153; MATH 102 or 103; and one semester chemistry or equivalent.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Chemical and physical processes that influence the fate and transport of contaminants (inorganic, organic, microbial) in soil-water environments. Extent, fate, mitigation and impact of various sources of pollution. Remedial technologies used for environmental restoration of contaminated environments.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+      <deliveryMethod>Web</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Microclimate: The Biological Environment</title>
+    <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>AGRO</subject>
+        <courseNumber>408</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>AGRO</subject>
+        <courseNumber>808</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>GEOG</subject>
+        <courseNumber>408</courseNumber>
+        <courseGroup>Physical Geography</courseGroup>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>GEOG</subject>
+        <courseNumber>808</courseNumber>
+        <courseGroup>Physical Geography</courseGroup>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>HORT</subject>
+        <courseNumber>408</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>HORT</subject>
+        <courseNumber>808</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>METR</subject>
+        <courseNumber>408</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>METR</subject>
+        <courseNumber>808</courseNumber>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>NRES</subject>
+        <courseNumber>408</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>NRES</subject>
+        <courseNumber>808</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>WATS</subject>
+        <courseNumber>408</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20081</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Junior standing, MATH 106 or equivalent, 5 hrs physics, major in any of the physical or biological sciences or engineering; or permission.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Physical factors that create the biological environment. Radiation and energy balances of earth's surfaces, terrestrial and marine. Temperature, humidity, and wind regimes near the surface. Control of the physical environment through irrigation, windbreaks, frost protection, manipulation of light, and radiation. Applications to air pollution research. Instruments for measuring environmental conditions and remote sensing of the environment.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Chemistry of Natural Waters</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>GEOL</subject>
+        <courseNumber>418</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>GEOL</subject>
+        <courseNumber>818</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>NRES</subject>
+        <courseNumber>419</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>NRES</subject>
+        <courseNumber>819</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>WATS</subject>
+        <courseNumber>418</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20081</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">2 semesters of college chemistry, or CHEM 109 and 110, 113 and 114, or CHEM 111; or permission.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Principles of water chemistry and their use in precipitation, surface water, and groundwater studies. Groundwater applications used to determine the time and source of groundwater recharge, estimate groundwater residence time, identify aquifer mineralogy, examine the degree of mixing between waters of various sources and evaluate what types of biological and chemical processes have occurred during the water's journey through the aquifer system.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Chemistry of Natural Waters Laboratory</title>
+    <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>WATS</subject>
+        <courseNumber>418</courseNumber>
+        <courseLetter>L</courseLetter>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>GEOL</subject>
+        <courseNumber>418</courseNumber>
+        <courseLetter>L</courseLetter>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>GEOL</subject>
+        <courseNumber>818</courseNumber>
+        <courseLetter>l</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>NRES</subject>
+        <courseNumber>419</courseNumber>
+        <courseLetter>L</courseLetter>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>NRES</subject>
+        <courseNumber>819</courseNumber>
+        <courseLetter>l</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20081</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Two semesters college chemistry or permission.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Parallel: GEOL 418/818, NRES 419/819, WATS 418. Offered even numbered calendar years or as needed.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Basic laboratory techniques used to perform water analysis including various wet chemical techniques, instrument use (AA, IC, UV-Visible) and computer modeling. Techniques for sample collection and preservation, parameter estimation and chemical analysis.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lab</type>
+        <hours>1</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">1</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Irrigation Systems Management</title>
+    <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>HORT</subject>
+        <courseNumber>452</courseNumber>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>MSYM</subject>
+        <courseNumber>452</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>WATS</subject>
+        <courseNumber>452</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>MSYM</subject>
+        <courseNumber>852</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>HORT</subject>
+        <courseNumber>852</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20081</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">MSYM 109 or general physics; AGRO/SOIL 153 recommended.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Irrigation management and the selection, evaluation, and improvement of irrigation systems. Includes soil-water measurement, crop water use, irrigation scheduling, irrigation efficiency, measurement of water flow, irrigation systems, groundwater and wells, pumping systems, applying chemicals with irrigation systems, and environmental and water resource considerations. Two laboratory sections are available; one which emphasizes agricultural applications and one which emphasizes horticultural applications.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lab</type>
+        <hours>2</hours>
+      </activity>
+      <activity>
+        <type>lec</type>
+        <hours>2</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Water Law</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>AECN</subject>
+        <courseNumber>457</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>NREE</subject>
+        <courseNumber>457</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>WATS</subject>
+        <courseNumber>457</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>AECN</subject>
+        <courseNumber>857</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20081</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">AECN/NREE 357.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Course offered even numbered years. Offered through Extended Education and Outreach.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Environmental impact review; public trust doctrine; endangered species; land use controls; wetlands regulation; surface and ground water rights; Indian and federal water rights; impact of water quality regulations on water allocation.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>psi</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+      <credit type="Per Career Limit">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Limnology</title>
+    <courseCodes>
+      <courseCode type="grad tie-in">
+        <subject>BIOS</subject>
+        <courseNumber>859</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>BIOS</subject>
+        <courseNumber>459</courseNumber>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>NRES</subject>
+        <courseNumber>459</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>NRES</subject>
+        <courseNumber>859</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>WATS</subject>
+        <courseNumber>459</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20081</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">12 hrs BIOS, including BIOS/NRES 220/BIOS220x; two semesters CHEM.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">May also be offered at Cedar Point Biological Station.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Physical, chemical, and biological processes that occur in fresh water. Organisms occurring in fresh water and their ecology; biological productivity of water and its causative factors; eutroplication and its effects.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lab</type>
+        <hours>4</hours>
+      </activity>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">4</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Soil Physics</title>
+    <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>AGRO</subject>
+        <courseNumber>461</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>AGRO</subject>
+        <courseNumber>861</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>GEOL</subject>
+        <courseNumber>461</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>GEOL</subject>
+        <courseNumber>861</courseNumber>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>NRES</subject>
+        <courseNumber>461</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>NRES</subject>
+        <courseNumber>861</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>SOIL</subject>
+        <courseNumber>461</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>WATS</subject>
+        <courseNumber>461</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20081</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">AGRO/SOIL 153; PHYS 141 or equivalent, one semester of calculus.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Recommended: Parallel AGRO/NRES/SOIL 458.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Principles of soil physics. Movement of water, air, heat, and solutes in soils. Water retention and movement, including infiltration and field water regime. Movement of chemicals in soils.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Resource and Environmental Economics II</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>AECN</subject>
+        <courseNumber>465</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>NREE</subject>
+        <courseNumber>465</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>WATS</subject>
+        <courseNumber>465</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>AECN</subject>
+        <courseNumber>865</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20081</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">MATH 104 and one course in statistics.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Credit in AECN 865 will not count toward any advanced degree programs in ECON or AECN.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Application of resource economics concepts and empirical tools to resource management problems. Public policy issues involving environmental quality, land and water management.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Wetlands</title>
+    <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>BIOS</subject>
+        <courseNumber>458</courseNumber>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>NRES</subject>
+        <courseNumber>468</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>NRES</subject>
+        <courseNumber>868</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>WATS</subject>
+        <courseNumber>468</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20081</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">12 hrs biological sciences; BIOS 220; CHEM 109 and 110.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Offered even-numbered calendar years.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Physical, chemical and biological processes that occur in wetlands; the hydrology and soils of wetland systems; organisms occurring in wetlands and their ecology wetland creation, delineation, management and ecotoxicology.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>4</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">4</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Water Quality Strategy</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>AGRO</subject>
+        <courseNumber>475</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>AGRO</subject>
+        <courseNumber>875</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>CIVE</subject>
+        <courseNumber>475</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>CIVE</subject>
+        <courseNumber>875</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>CRPL</subject>
+        <courseNumber>475</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>CRPL</subject>
+        <courseNumber>875</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>GEOL</subject>
+        <courseNumber>475</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>GEOL</subject>
+        <courseNumber>875</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>MSYM</subject>
+        <courseNumber>475</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>MSYM</subject>
+        <courseNumber>875</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>NRES</subject>
+        <courseNumber>475</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>NRES</subject>
+        <courseNumber>875</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>POLS</subject>
+        <courseNumber>475</courseNumber>
+        <courseGroup>Public Administration and Policy</courseGroup>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>POLS</subject>
+        <courseNumber>875</courseNumber>
+        <courseGroup>Public Administration and Policy</courseGroup>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>SOCI</subject>
+        <courseNumber>475</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>SOCI</subject>
+        <courseNumber>875</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>SOIL</subject>
+        <courseNumber>475</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>WATS</subject>
+        <courseNumber>475</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20091</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Senior standing or permission.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Capstone course.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Holistic approach to the selection and analysis of planning strategies for protecting water quality from nonpoint sources of contamination. Introduction to the use of methods of analyzing the impact of strategies on whole systems and subsystems; for selecting strategies; and for evaluating present strategies.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+    <aceOutcomes>
+      <slo>10</slo>
+    </aceOutcomes>
+  </course>
+  <course>
+    <title>Principles and Problems in Water Science</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>WATS</subject>
+        <courseNumber>496</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20081</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">15 hours in water science or closely related areas.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Individual or group projects in research, literature review, or extension of course work under the supervision and evaluation of a water science faculty member.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">5</credit>
+      <credit type="Per Career Limit">12</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Senior Project I</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>WATS</subject>
+        <courseNumber>498</courseNumber>
+        <courseLetter>A</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20081</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Senior standing.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">WATS 498A is the first course of a two-semester sequence of courses consisting of WATS 498A and WATS 498B.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Work as individual or as a team member to develop solutions to water resource problems. Problem involves multi-disciplinary features. Requires independent research, proposal preparation and presentation.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Single Value">2</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Senior Project II</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>WATS</subject>
+        <courseNumber>498</courseNumber>
+        <courseLetter>B</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20081</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">WATS 498A.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">WATS 498B is the second course of a two-semester sequence of courses consisting of WATS 498A and WATS 498B.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Continuation of WATS 498A. Carry out proposal and present findings orally and in writing.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Single Value">2</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Honors Thesis</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>WATS</subject>
+        <courseNumber>499</courseNumber>
+        <courseLetter>H</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20081</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Admission to the University Honors Program and permission, AGRI 299H recommended.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Conduct a scholarly research project and write a University Honors Program or undergraduate thesis.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">3</credit>
+      <credit type="Upper Range Limit">6</credit>
+      <credit type="Per Career Limit">6</credit>
+    </credits>
+  </course>
+</courses>
