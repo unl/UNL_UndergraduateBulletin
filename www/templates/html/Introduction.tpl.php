@@ -26,37 +26,9 @@
     </div>
 </div>
 <div class="two_col right">
-        <form class="cool compact">
-        <fieldset>
-        	<legend>Find a Course</legend>
-        <ol>
-        <li>
-        	<label for="courseSearch" class="element">Course</label>
-        	<div class="element">
-        		<input type="text" name="courseSearch" id="courseSearch" value="ACCT 201 - Introduction to Accounting" />
-        	</div>
-        </li>
-        </ol>
-        </fieldset>
-        <p class="submit">
-        	<input type="submit" value="Search" name="submit" />
-        </p>
-        </form>
-        <form class="cool compact">
-        <fieldset>
-        	<legend>Find a Major or Degree</legend>
-        <ol>
-        <li>
-        	<label for="courseSearch" class="element">Major or Degree</label>
-        	<div class="element">
-        		<input type="text" name="areaSearch" id="areaeSarch" value="ACCT - Accounting" />
-        	</div>
-        </li>
-        </ol>
-        </fieldset>
-        <p class="submit">
-        	<input type="submit" value="Search" name="submit" />
-        </p>
-        </form>
+        <?php
+        echo $savvy->render('', 'CourseSearchForm.tpl.php');
+        echo $savvy->render('', 'MajorSearchForm.tpl.php');
+        ?>
         <div class="clear"></div>
 </div>

@@ -3,7 +3,7 @@ UNL_Templates::$options['version']        = 3;
 UNL_Templates::$options['sharedcodepath'] = dirname(__FILE__).'/sharedcode';
 
 $url = UNL_UndergraduateBulletin_Controller::getURL();
-$page = UNL_Templates::factory('Debug');
+$page = UNL_Templates::factory('Fixed');
 $page->doctitle     = '<title>UNL | Undergraduate Bulletin</title>';
 $page->titlegraphic = '<h1>Undergraduate Bulletin 2010-2011</h1>';
 $page->breadcrumbs  = '
