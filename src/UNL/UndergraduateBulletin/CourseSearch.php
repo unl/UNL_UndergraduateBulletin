@@ -11,12 +11,15 @@ class UNL_UndergraduateBulletin_CourseSearch
         $parts = explode(' ', $options['q']);
         foreach ($parts as $part) {
             switch(true) {
-                case preg_match('/([0-9]{2,3}[A-Z]?)/', $part):
+                case preg_match('/^([0-9]{2,3}[A-Z]?)$/', $part):
                     $this->results = $search->byNumber($part);
                     break;
-                case preg_match('/([A-Z]{2,3})/i', $part):
+                case preg_match('/^([A-Z]{2,3})$/i', $part):
                     $this->results = $search->bySubject($part);
                     break;
+                default:
+                    // Do a title text search
+                    $this->results = $search->byTitle($part);
             }
         }
         
