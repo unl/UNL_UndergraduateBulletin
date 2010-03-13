@@ -15,14 +15,14 @@ class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_
     );
     
     protected $view_map = array(
-        'index'    => 'UNL_UndergraduateBulletin_Introduction',
-        'majors'   => 'UNL_UndergraduateBulletin_MajorList',
-        'major'    => 'UNL_UndergraduateBulletin_Major',
-        'courses'  => 'UNL_UndergraduateBulletin_Major',
-        'subject'  => 'UNL_UndergraduateBulletin_SubjectArea',
-        'subjects' => 'UNL_UndergraduateBulletin_SubjectAreas',
-        'course'   => 'UNL_UndergraduateBulletin_Listing',
-        'college'  => 'UNL_UndergraduateBulletin_College',
+        'index'         => 'UNL_UndergraduateBulletin_Introduction',
+        'majors'        => 'UNL_UndergraduateBulletin_MajorList',
+        'major'         => 'UNL_UndergraduateBulletin_Major',
+        'courses'       => 'UNL_UndergraduateBulletin_Major',
+        'subject'       => 'UNL_UndergraduateBulletin_SubjectArea',
+        'subjects'      => 'UNL_UndergraduateBulletin_SubjectAreas',
+        'course'        => 'UNL_UndergraduateBulletin_Listing',
+        'college'       => 'UNL_UndergraduateBulletin_College',
         'searchcourses' => 'UNL_UndergraduateBulletin_CourseSearch'
         );
     
