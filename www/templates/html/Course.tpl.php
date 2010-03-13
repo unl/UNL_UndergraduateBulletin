@@ -1,10 +1,17 @@
 <?php
     $url = UNL_UndergraduateBulletin_Controller::getURL();
     $class = 'course';
-    $subject = (isset($parent->context->subjectArea))? $parent->context->subjectArea:$parent->context->subject;
+    if (isset($parent->context->subjectArea)) {
+        $subject = $parent->context->subjectArea;
+    } elseif (isset($parent->context->subject)) {
+        $subject = $parent->context->subject;
+    } else {
+        $subject = $context->getHomeListing()->subjectArea;
+    }
     $listings = '';
     $crosslistings = array();
     $groups = array();
+
     foreach ($context->codes as $listing) {
         if ($listing->subjectArea == $subject) {
             $listings .= $listing->courseNumber.'/';
