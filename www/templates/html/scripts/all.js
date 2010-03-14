@@ -158,6 +158,7 @@ WDN.jQuery(document).ready(function($){
                     && search_string != this.value) {
                     search_string = this.value;
                     clearTimeout(searching);
+                    WDN.jQuery('#courseSearchResults').html('<img src="/wdn/templates_3.0/css/header/images/colorbox/loading.gif" alt="Loading search results" />');
                     searching = setTimeout(function(){fetchCourseSearchResults(search_string);}, 750);
                 }
             }
