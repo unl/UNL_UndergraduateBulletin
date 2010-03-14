@@ -35,6 +35,10 @@ class UNL_UndergraduateBulletin_Router
             case preg_match('/'.$base.'majors?\/?$/', $requestURI, $matches):
                 $options['view'] = 'majors';
                 break;
+            // Search majors
+            case preg_match('/'.$base.'majors?\/search\/?$/', $requestURI, $matches):
+                $options['view'] = 'searchmajors';
+                break;
             // Individual major major/Architecture
             case preg_match('/'.$base.'major\/([^\/]+)$/', $requestURI, $matches):
                 $options['view'] = 'major';

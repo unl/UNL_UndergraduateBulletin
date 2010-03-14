@@ -170,6 +170,24 @@ WDN.jQuery(document).ready(function($){
     {
         WDN.get('courses/search?q='+escape(q)+'&format=partial', null, function(content){WDN.jQuery('#courseSearchResults').html(content);});
     }
+    $('#majorSearch').keyup(
+            function(){
+                if (this.value.length > 2) {
+                    if (search_string != this.value) {
+                        search_string = this.value;
+                        clearTimeout(searching);
+                        WDN.jQuery('#majorSearchResults').html('<img src="/wdn/templates_3.0/css/header/images/colorbox/loading.gif" alt="Loading search results" />');
+                        searching = setTimeout(function(){fetchMajorSearchResults(search_string);}, 750);
+                    }
+                } else {
+                    WDN.jQuery('#majorSearchResults').html('');
+                }
+            }
+            );
+    function fetchMajorSearchResults(q)
+    {
+        WDN.get('majors/search?q='+escape(q)+'&format=partial', null, function(content){WDN.jQuery('#majorSearchResults').html(content);});
+    }
 });
 
 function fadeInTOCMenu() {
