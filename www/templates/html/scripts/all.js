@@ -154,12 +154,15 @@ WDN.jQuery(document).ready(function($){
     var search_string = '';
     $('#courseSearch').keyup(
             function(){
-                if (this.value.length > 2
-                    && search_string != this.value) {
-                    search_string = this.value;
-                    clearTimeout(searching);
-                    WDN.jQuery('#courseSearchResults').html('<img src="/wdn/templates_3.0/css/header/images/colorbox/loading.gif" alt="Loading search results" />');
-                    searching = setTimeout(function(){fetchCourseSearchResults(search_string);}, 750);
+                if (this.value.length > 2) {
+                    if (search_string != this.value) {
+                        search_string = this.value;
+                        clearTimeout(searching);
+                        WDN.jQuery('#courseSearchResults').html('<img src="/wdn/templates_3.0/css/header/images/colorbox/loading.gif" alt="Loading search results" />');
+                        searching = setTimeout(function(){fetchCourseSearchResults(search_string);}, 750);
+                    }
+                } else {
+                    WDN.jQuery('#courseSearchResults').html('');
                 }
             }
             );
