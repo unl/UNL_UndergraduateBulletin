@@ -5,7 +5,7 @@
     <li>
         <label for="courseSearch" class="element">Course</label>
         <div class="element">
-            <input type="text" name="q" id="courseSearch" value="ACCT 201 - Introduction to Accounting" />
+            <input type="text" name="q" id="courseSearch" value="<?php echo (isset($parent->context->options['q']))?htmlentities($parent->context->options['q'], ENT_QUOTES):''; ?>" />
         </div>
     </li>
     </ol>
