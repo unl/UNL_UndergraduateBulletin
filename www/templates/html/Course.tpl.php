@@ -86,7 +86,10 @@
                 throw new Exception('Unknown activity type! '.$type);
                 break;
         }
-        $format .= ' '.$activity->hours.', ';
+        if (isset($activity->hours)) {
+            $format .= ' '.$activity->hours;
+        }
+        $format .= ', ';
     }
     $format = trim($format, ', ');
     
