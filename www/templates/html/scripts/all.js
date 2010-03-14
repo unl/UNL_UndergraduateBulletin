@@ -174,7 +174,7 @@ WDN.jQuery(document).ready(function($){
             );
     function fetchCourseSearchResults(q)
     {
-        WDN.get('courses/search?q='+escape(q)+'&format=partial', null, function(content){WDN.jQuery('#courseSearchResults').html(content);});
+        WDN.get(UNL_UGB_URL+'courses/search?q='+escape(q)+'&format=partial', null, function(content){WDN.jQuery('#courseSearchResults').html(content);});
     }
     $('#majorSearch').keyup(
             function(){
@@ -192,7 +192,7 @@ WDN.jQuery(document).ready(function($){
             );
     function fetchMajorSearchResults(q)
     {
-        WDN.get('majors/search?q='+escape(q)+'&format=partial', null, function(content){WDN.jQuery('#majorSearchResults').html(content);});
+        WDN.get(UNL_UGB_URL+'majors/search?q='+escape(q)+'&format=partial', null, function(content){WDN.jQuery('#majorSearchResults').html(content);});
     }
 });
 
