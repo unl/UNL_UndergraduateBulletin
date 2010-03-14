@@ -13,4 +13,5 @@
     <p class="submit">
         <input type="submit" value="Search" name="submit" />
     </p>
+    <div id="courseSearchResults"></div>
 </form>

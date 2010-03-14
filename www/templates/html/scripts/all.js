@@ -148,7 +148,24 @@ WDN.jQuery(document).ready(function($){
 	    	    return true;
 	    	};
     	} catch(e) {}
-    }); 
+    });
+    
+    var searching = false;
+    var search_string = '';
+    $('#courseSearch').keyup(
+            function(){
+                if (this.value.length > 2
+                    && search_string != this.value) {
+                    search_string = this.value;
+                    clearTimeout(searching);
+                    searching = setTimeout(function(){fetchCourseSearchResults(search_string);}, 750);
+                }
+            }
+            );
+    function fetchCourseSearchResults(q)
+    {
+        WDN.get('courses/search?q='+escape(q)+'&format=partial', null, function(content){WDN.jQuery('#courseSearchResults').html(content);});
+    }
 });
 
 function fadeInTOCMenu() {

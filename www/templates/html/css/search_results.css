@@ -1,0 +1,12 @@
+
+#courseSearchResults
+{
+    background-color:#EEE;
+}
+
+#courseSearchResults .description,
+#courseSearchResults .prereqs,
+#courseSearchResults .notes,
+#courseSearchResults .details {
+    display:none;
+}
