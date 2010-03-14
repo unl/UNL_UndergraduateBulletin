@@ -101,6 +101,7 @@ WDN.jQuery(document).ready(function($){
     		// Check and see if we actually have any of these courses
     		if (WDN.jQuery('.'+WDN.jQuery(this).attr('value')).length == 0) {
     			WDN.jQuery(this).attr('disabled', 'disabled');
+    			WDN.jQuery(this).parent().parent().addClass('disabled');
     			return;
     		}
     	}
