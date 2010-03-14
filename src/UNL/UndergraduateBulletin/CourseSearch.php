@@ -14,7 +14,9 @@ class UNL_UndergraduateBulletin_CourseSearch
 
         $search = new UNL_Services_CourseApproval_Search();
 
-        $this->results = $search->byAny($this->options['q'], $this->options['offset'], $this->options['limit']);
+        $this->results = $search->byAny($this->options['q'],
+                                        $this->options['offset'],
+                                        $this->options['limit']);
 
     }
 }
