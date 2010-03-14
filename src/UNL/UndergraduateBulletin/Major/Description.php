@@ -73,6 +73,9 @@ class UNL_UndergraduateBulletin_Major_Description
                         $value = str_replace(
                                     array('Hixson-Lied ', 'College of ', ' and '), 
                                     array('',             '',            ' & '), $value);
+                        if ($value == 'CASNR') {
+                            $value = 'Agricultural Sciences & Natural Resources';
+                        }
                         $this->college = new UNL_UndergraduateBulletin_College(array('name'=>$value));
                         break;
                     case 'MAJOR':
