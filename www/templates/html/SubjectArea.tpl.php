@@ -45,7 +45,7 @@ echo '<a href="#" id="toggleAllCourseDescriptions">Hide all course descriptions<
 	        <fieldset class="ace_outcomes">
 	            <legend><span>ACE Outcomes</span></legend>
 	            <ol>
-	                <li><input type="checkbox" checked="checked" id="filterAllACE" name="allace" value="all" /><label for="filterAllACE">All ACE</label></li>
+	                <li><input type="checkbox" id="filterAllACE" name="allace" value="ace" /><label for="filterAllACE">All ACE</label></li>
 	                <?php for ($i=1;$i<=10;$i++) : ?>
 	                <li>
 	                    <div class="element">

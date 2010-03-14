@@ -112,14 +112,19 @@ WDN.jQuery(document).ready(function($){
 					WDN.jQuery('.course').show();
 				} 
 			} else {
-					WDN.jQuery('#filterAll').removeAttr('checked');
-					WDN.jQuery('#filters input').not('#filterAll').each(function(){
-						if(this.checked){
-							WDN.jQuery('.'+WDN.jQuery(this).attr('value')).show();
-						} else {
-							WDN.jQuery('.'+WDN.jQuery(this).attr('value')).hide();
-						}
-					});
+				WDN.jQuery('#filterAll').removeAttr('checked');
+				WDN.jQuery('.course').hide();
+				var one_checked = false;
+				WDN.jQuery('#filters input').not('#filterAll').each(function(){
+					if (this.checked) {
+					    one_checked = true;
+						WDN.jQuery('.'+WDN.jQuery(this).attr('value')).show();
+					}
+				});
+				if (one_checked == false) {
+				    WDN.jQuery('.course').show();
+				    WDN.jQuery('#filterAll').attr('checked', 'checked');
+				}
 			}
     	});
 	});

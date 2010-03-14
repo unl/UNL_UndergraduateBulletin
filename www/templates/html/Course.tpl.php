@@ -91,7 +91,7 @@
     $format = trim($format, ', ');
     
     if (!empty($context->aceOutcomes)) {
-        $class .= ' ace_'.implode(' ace_', $context->aceOutcomes);
+        $class .= ' ace ace_'.implode(' ace_', $context->aceOutcomes);
     }
     
     echo "
