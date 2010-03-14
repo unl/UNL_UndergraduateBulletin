@@ -1,6 +1,11 @@
 <?php
 echo $savvy->render('', 'CourseSearchForm.tpl.php');
-foreach ($context->results as $course) {
-    echo $savvy->render($course);
+if (!$context->results->count()) {
+    echo 'Sorry, no matching courses';
+} else {
+    echo '<h2>'.$context->results->count().' results</h2>';
+    foreach ($context->results as $course) {
+        echo $savvy->render($course);
+    }
 }
 ?>
