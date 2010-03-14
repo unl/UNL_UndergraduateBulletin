@@ -14,6 +14,10 @@ class UNL_UndergraduateBulletin_CourseDataDriver implements UNL_Services_CourseA
     
     function getSubjectArea($subjectarea)
     {
+        $file = UNL_UndergraduateBulletin_Controller::getDataDir().'/creq/subjects/'.$subjectarea.'.xml';
+        if (!preg_match('/^[A-Z]{3,4}$/', $subjectarea) || !file_exists($file)) {
+            throw new Exception('No subject area matching that code.');
+        }
         return file_get_contents(UNL_UndergraduateBulletin_Controller::getDataDir().'/creq/subjects/'.$subjectarea.'.xml');
     }
 }
