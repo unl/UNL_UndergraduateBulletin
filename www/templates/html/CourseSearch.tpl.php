@@ -1,5 +1,7 @@
 <?php
-echo $savvy->render('', 'CourseSearchForm.tpl.php');
+if ($context->options['format'] != 'partial') {
+    echo $savvy->render('', 'CourseSearchForm.tpl.php');
+}
 if (!$context->results->count()) {
     echo 'Sorry, no matching courses';
 } else {
