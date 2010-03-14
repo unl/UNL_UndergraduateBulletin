@@ -128,7 +128,11 @@
                </tr>';
         $ace = '';
         if (!empty($context->aceOutcomes)) {
-            $ace = implode(', ', $context->aceOutcomes);
+            $ace = '';
+            foreach($context->aceOutcomes as $outcome) {
+                $ace .= '<abbr title="'.UNL_UndergraduateBulletin_ACE::$descriptions[$outcome].'">'.$outcome.'</abbr>, ';
+            }
+            $ace = trim($ace, ', ');
             echo  '<tr class="aceOutcomes">
                     <td class="label">ACE Outcomes:</td>
                     <td class="value">'.$ace.'</td>
