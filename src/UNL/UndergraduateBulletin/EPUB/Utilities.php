@@ -57,6 +57,8 @@ class UNL_UndergraduateBulletin_EPUB_Utilities
             case 'ACT':
             case 'OEFL':
             case 'SAT':
+            case 'CBA':
+            case 'UNL':
                 return $text;
         }
         
