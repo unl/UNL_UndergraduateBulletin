@@ -2,7 +2,9 @@
 class UNL_UndergraduateBulletin_Major_Description
 {
     protected static $epub_files = array(
-        'CRIM and CRIM JUS'=>'Criminology and Criminal Justice',
+        'CRIM and CRIM JUS' => 'Criminology and Criminal Justice',
+        'Agribusiness'      => 'Agribusiness (College of Agricultural Sciences and Natural Resources)',
+        'Agribusiness CBA'  => 'Agribusiness (College of Business Administration)'
     );
     
     /**
@@ -127,7 +129,14 @@ class UNL_UndergraduateBulletin_Major_Description
             throw new Exception('Sorry, no description exists for '.$name. ' in '.$epub);
         }
         
-        return 'phar://'.$epub.'/OEBPS/'.str_replace(' ', '_', $name).'.xhtml';
+        if (file_exists('phar://'.$epub.'/OEBPS/'.str_replace(' ', '_', $name).'.xhtml')) {
+            return 'phar://'.$epub.'/OEBPS/'.str_replace(' ', '_', $name).'.xhtml';
+        }
+        
+        if ($new) {
+            $name = preg_replace('/\s+[A-Z]+$/', '', $name);
+            return 'phar://'.$epub.'/OEBPS/'.str_replace(' ', '_', $name).'.xhtml';
+        }
     }
 }
 ?>
