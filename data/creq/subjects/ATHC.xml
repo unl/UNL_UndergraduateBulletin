@@ -1,6 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <courses xmlns="http://courseapproval.unl.edu/courses" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://courseapproval.unl.edu/courses /schema/courses.xsd">
   <course>
+    <title>First Aid and Care of the Athlete</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ATHC</subject>
+        <courseNumber>235</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20103</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Instruction in first aid and CPR. Theory and practice of conditioning, taping, and rehabilitation of minor injuries.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Coaching Effectiveness and Psychological Components of Sports Performance</title>
     <courseCodes>
       <courseCode type="home listing">

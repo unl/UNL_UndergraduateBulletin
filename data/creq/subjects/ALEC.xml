@@ -4,17 +4,13 @@
     <title>Mechanical Drafting</title>
     <courseCodes>
       <courseCode type="home listing">
-        <subject>TEAC</subject>
-        <courseNumber>101</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
         <subject>ALEC</subject>
         <courseNumber>101</courseNumber>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20092</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20103</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Develop expertise in the use of drafting equipment, geometric construction, orthographic projections, dimensioning, and the application of ANSI standards.</div>
     </description>
@@ -84,19 +80,15 @@
     <title>Computer-Aided Drafting</title>
     <courseCodes>
       <courseCode type="home listing">
-        <subject>TEAC</subject>
-        <courseNumber>103</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
         <subject>ALEC</subject>
         <courseNumber>103</courseNumber>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20092</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20103</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">TEAC 102/ALEC 122.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">ALEC 122.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Applying computer commands to create two-dimensional engineering and architectural drawings.</div>
@@ -128,17 +120,13 @@
     <title>Wood Technology</title>
     <courseCodes>
       <courseCode type="home listing">
-        <subject>TEAC</subject>
-        <courseNumber>104</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
         <subject>ALEC</subject>
         <courseNumber>104</courseNumber>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20092</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20103</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Basic problem solving and inquiry techniques appropriate to the wood working industry. Tools, materials and processes using natural and synthetic industrial materials.</div>
     </description>
@@ -171,19 +159,15 @@
     <title>Industrial Metals and Plastics Materials Processing</title>
     <courseCodes>
       <courseCode type="home listing">
-        <subject>TEAC</subject>
-        <courseNumber>109</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
         <subject>ALEC</subject>
         <courseNumber>109</courseNumber>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20092</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20103</effectiveSemester>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Forming, molding, separating and fabricating of industrial materials.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Forming, molding, separating, and fabricating of industrial materials.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -212,19 +196,15 @@
     <title>Architectural Drafting</title>
     <courseCodes>
       <courseCode type="home listing">
-        <subject>TEAC</subject>
-        <courseNumber>102</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
         <subject>ALEC</subject>
         <courseNumber>122</courseNumber>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20092</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20103</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">TEAC/ALEC 101.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">ALEC 101.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Basic skills in the construction of architectural drawings, plot plans, elevation view, wall and floor sections, and roof construction. Architectural modeling.</div>
@@ -313,6 +293,42 @@
     <activities/>
     <credits>
       <credit type="Single Value">1</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Chancellor's Leadership Class</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ALEC</subject>
+        <courseNumber>153</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20102</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Admission to the Chancellor's Leadership Class program.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Leadership development.  Understanding of self, develop leadership knowledge, and how to make a difference in the community.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
     </credits>
   </course>
   <course>
@@ -412,19 +428,15 @@
     <title>Electricity/Electronics</title>
     <courseCodes>
       <courseCode type="home listing">
-        <subject>TEAC</subject>
-        <courseNumber>201</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
         <subject>ALEC</subject>
         <courseNumber>201</courseNumber>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20092</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20103</effectiveSemester>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to electricity/electronics and its application to industry. AC and DC circuit design, construction, and analysis.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to electricity and/or electronics and their applications to industry. AC and DC circuit design, construction, and analysis.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -487,17 +499,13 @@
     <title>Automotive Technology</title>
     <courseCodes>
       <courseCode type="home listing">
-        <subject>TEAC</subject>
-        <courseNumber>203</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
         <subject>ALEC</subject>
         <courseNumber>203</courseNumber>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20092</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20103</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Automotive technology and the equipment related to automotive repairs. The design, theory, and operation of automotive systems through laboratory activities.</div>
     </description>
@@ -528,19 +536,15 @@
     <title>Machine Tool Technology</title>
     <courseCodes>
       <courseCode type="home listing">
-        <subject>TEAC</subject>
-        <courseNumber>204</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
         <subject>ALEC</subject>
         <courseNumber>204</courseNumber>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20092</effectiveSemester>
+    <effectiveSemester>20103</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">TEAC/ALEC 109.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">ALEC 109.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Basic machine shop practices involving hand tools, precision measuring tools, bench work, layout, engine lathe, milling machine, surface grinders, and pedestal grinders.</div>
@@ -572,17 +576,13 @@
     <title>Welding Technology</title>
     <courseCodes>
       <courseCode type="home listing">
-        <subject>TEAC</subject>
-        <courseNumber>205</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
         <subject>ALEC</subject>
         <courseNumber>205</courseNumber>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20092</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20103</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Basic knowledge and skill in both oxygen-acetylene welding and cutting, and electrical arc welding.</div>
     </description>
@@ -693,22 +693,18 @@
     <title>Construction Technology</title>
     <courseCodes>
       <courseCode type="home listing">
-        <subject>TEAC</subject>
-        <courseNumber>242</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
         <subject>ALEC</subject>
         <courseNumber>242</courseNumber>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20092</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20103</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">TEAC/ALEC 104.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">ALEC 104.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Classifications, properties and uses of common construction materials and building practices. Construction of a residential dwelling from plot plan through trim and finish work.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Classifications, properties, and uses of common construction materials and building practices. Construction of a residential dwelling from plot plan through trim and finish work.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -737,19 +733,15 @@
     <title>Production Processes of the Wood Industry</title>
     <courseCodes>
       <courseCode type="home listing">
-        <subject>TEAC</subject>
-        <courseNumber>243</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
         <subject>ALEC</subject>
         <courseNumber>243</courseNumber>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20092</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20103</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">TEAC/ALEC 104.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">ALEC 104.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Theory and practice of industrial processing of wood and synthetic materials. Structure and management of manufacturing industries.</div>
@@ -781,17 +773,13 @@
     <title>Modern Industries</title>
     <courseCodes>
       <courseCode type="home listing">
-        <subject>TEAC</subject>
-        <courseNumber>246</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
         <subject>ALEC</subject>
         <courseNumber>246</courseNumber>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20092</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20103</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Survey of the industrial enterprise. Manufacturing and distribution of goods. Overview of the world of work.</div>
     </description>
@@ -820,17 +808,13 @@
     <title>Industrial Graphics</title>
     <courseCodes>
       <courseCode type="home listing">
-        <subject>TEAC</subject>
-        <courseNumber>301</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
         <subject>ALEC</subject>
         <courseNumber>301</courseNumber>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20092</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20103</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Printing, desktop publishing, silk screening, and photography.</div>
     </description>
@@ -893,25 +877,21 @@
     <title>Energy, Power and Transportation Technology</title>
     <courseCodes>
       <courseCode type="home listing">
-        <subject>TEAC</subject>
-        <courseNumber>303</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
         <subject>ALEC</subject>
         <courseNumber>303</courseNumber>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20092</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20103</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">TEAC/ALEC 101, 109, 203, 204, and 205.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">ALEC 101, 109, 203, 204, and 205.</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">TEAC/ALEC 303 is a synthesis of skill-based courses for Industrial Technology Education (ITE) majors.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">ALEC 303 is a synthesis of skill-based courses for Industrial Technology Education (ITE) majors.</div>
     </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Design, construct, and test a one-person electric vehicle. Enter the vehicle in a statewide competition.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Design, construct, and test a one-person electric vehicle.  Enter the vehicle in a statewide competition.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -1176,22 +1156,18 @@
     <title>Advanced Machine Woodworking</title>
     <courseCodes>
       <courseCode type="home listing">
-        <subject>TEAC</subject>
-        <courseNumber>340</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
         <subject>ALEC</subject>
         <courseNumber>340</courseNumber>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20092</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20103</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">TEAC/ALEC 243.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">ALEC 243.</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">TEAC/ALEC 340 is a continuation of TEAC/ALEC 243.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">ALEC 340 is a continuation of ALEC 243.</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Machine woodworking on a major individual project. Wood finishing and maintenance of hand and power tools.</div>
@@ -1290,18 +1266,14 @@
   <course>
     <title>Industrial Experience</title>
     <courseCodes>
-      <courseCode type="crosslisting">
-        <subject>ALEC</subject>
-        <courseNumber>390</courseNumber>
-      </courseCode>
       <courseCode type="home listing">
-        <subject>TEAC</subject>
+        <subject>ALEC</subject>
         <courseNumber>390</courseNumber>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20092</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20103</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Permission.</div>
     </prerequisite>

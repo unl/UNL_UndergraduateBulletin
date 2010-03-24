@@ -371,49 +371,6 @@
     </credits>
   </course>
   <course>
-    <title>Electronics Circuits Lab I</title>
-    <courseCodes>
-      <courseCode type="crosslisting">
-        <subject>CEEN</subject>
-        <courseNumber>2234</courseNumber>
-      </courseCode>
-      <courseCode type="home listing">
-        <subject>CEEN</subject>
-        <courseNumber>223</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>true</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CEEN 218 or (UNO) CEEN 2184; parallel CEEN 222 or (UNO) CEEN 2220.</div>
-    </prerequisite>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">CEEN 223 (UNO - CEEN 2234) is a lab to accompany CEEN 222 (UNO - CEEN 2220).</div>
-    </notes>
-    <campuses>
-      <campus>UNL</campus>
-      <campus>UNO</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>lab</type>
-        <hours>3</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">1</credit>
-    </credits>
-  </course>
-  <course>
     <title>Introduction to Signal Processing</title>
     <courseCodes>
       <courseCode type="crosslisting">
@@ -608,12 +565,20 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <effectiveSemester>20103</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CEEN 222 or (UNO) CEEN 2220; CEEN 223 or (UNO) CEEN 2234; CEEN 313 or (UNO)<br/> 3130, or parallel.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">CEEN 222 or (UNO) CEEN 2220; CEEN 313 or (UNO) CEEN 3130, or parallel.</div>
     </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <span style="font-size: 9pt; font-family: ">CEEN 310/3100 lab exercises provide practical experience with design tools and the design process.</span>
+      </div>
+    </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Digital design from both the circuit and system perspectives. The structure and analysis of digital integrated circuits, interface signal integrity, and software simulation. Lab exercises provide practical experience with design tools and the design process.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <span style="font-size: 9pt; font-family: ">Digital design is studied from both the circuit and system perspectives. The structure and analysis of digital integrated circuits, interface signal integrity, Field Programmable Gate Array (FPGA) design and synthesis, and software simulation.</span>
+        <span style="font-size: 9pt; font-family: "> </span>
+      </div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -634,11 +599,11 @@
       </activity>
       <activity>
         <type>lec</type>
-        <hours>2</hours>
+        <hours>3</hours>
       </activity>
     </activities>
     <credits>
-      <credit type="Single Value">3</credit>
+      <credit type="Single Value">4</credit>
     </credits>
   </course>
   <course>
