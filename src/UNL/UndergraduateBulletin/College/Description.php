@@ -77,6 +77,11 @@ class UNL_UndergraduateBulletin_College_Description
                 // first select the content box for the major page
                 $nodes = $this->_xml->xpath('//default:p[@class="content-box-m-p"]');
                 $content = '';
+                
+                if (!count($nodes)) {
+                    throw new Exception('No college admission requirements found!');
+                }
+                
                 // now loop through all following siblings until we find the next section
                 foreach ($nodes[0]->xpath('following::*') as $node) {
                     // Check to see if we've captured anything yet.
