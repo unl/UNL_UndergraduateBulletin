@@ -13,18 +13,19 @@ class UNL_UndergraduateBulletin_Major_Description
      */
     public $major;
     
-    public $degrees_offered = array();
-    
-    public $hours_required;
-    
-    public $minor_available;
-    
-    public $minor_only;
-    
-    public $chief_advisor;
+    /**
+     * An associative array of quickpoints about this major.
+     * 
+     * @var array
+     */
+    public $quickpoints = array();
     
     public $description;
     
+    /**
+     * The college
+     * @var UNL_UndergraduateBulletin_College
+     */
     public $college;
     
     function __construct(UNL_UndergraduateBulletin_Major $major)
@@ -84,20 +85,21 @@ class UNL_UndergraduateBulletin_Major_Description
                         break;
                     case 'DEGREE OFFERED':
                     case 'DEGREES OFFERED':
-                        $this->degrees_offered[] = $value;
-                        break;
                     case 'HOURS REQUIRED':
-                        $this->hours_required = $value;
-                        break;
                     case 'MINOR AVAILABLE':
-                        $this->minor_available = $value;
-                        break;
                     case 'CHIEF ADVISER':
                     case 'CHIEF ADVISERS':
-                        $this->chief_advisor = $value;
-                        break;
                     case 'MINOR ONLY':
-                        $this->minor_only = $value;
+                    case 'DEPARTMENT':
+                    case 'PROGRAM':
+                    case 'DEGREE':
+                        $attr = explode(' ', strtolower($matches[1]));
+                        $attr = array_map('ucfirst', $attr);
+                        $attr = implode(' ', $attr);
+                        $this->quickpoints[$attr] = $value;
+                        break;
+                    case 'GPA REQUIRED':
+                        $this->quickpoints['GPA Required'] = $value;
                         break;
                     default:
                         echo 'Unknown quickpoint '.$matches[0];
