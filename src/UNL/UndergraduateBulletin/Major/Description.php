@@ -8,7 +8,7 @@ class UNL_UndergraduateBulletin_Major_Description
         'Biology 7-12'                                  => 'Biology (7-12)',
         'Chemistry 7-12'                                => 'Chemistry (7-12)',
         'Child Development_Early Childhood Educ'        => 'Child Development & Early Childhood Education',
-        'Child_Youth & Family Studies_Jour & Mass Comm' => 'Child, Youth & Family Studies (CoJMC & CEHS)',
+        'Child_Youth & Family Studies_Jour & Mass Comm' => 'Child, Youth & Family Studies (CEHS)',
         'CRIM and CRIM JUS'                             => 'Criminology and Criminal Justice',
         'Early Care and Education_Birth-K'              => 'Early Care & Education (Birth-Kindergarten)',
         'Earth Sciences 7-12'                           => 'Earth Sciences (7-12)',
@@ -33,7 +33,7 @@ class UNL_UndergraduateBulletin_Major_Description
         'Social Science 7-12'                           => 'Social Science (7-12)',
         'Spanish Education 7-12'                        => 'Spanish Education (7-12)',
         'Speech & English 7-12'                         => 'Speech & English (7-12)',
-        'Textiles_Clothing & Design & Jour & Mass Comm' => 'Textiles, Clothing & Design (CoJMC)',
+        'Textiles_Clothing & Design & Jour & Mass Comm' => 'Textiles, Clothing & Design (CEHS)',
         'Theatre & English 7-12'                        => 'Theatre & English (7-12)',
     );
     
