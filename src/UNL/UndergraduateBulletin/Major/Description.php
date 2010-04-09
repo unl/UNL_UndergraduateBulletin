@@ -101,8 +101,11 @@ class UNL_UndergraduateBulletin_Major_Description
                     case 'GPA REQUIRED':
                         $this->quickpoints['GPA Required'] = $value;
                         break;
+                    case 'MINIMUM CUMULATIVE GPA':
+                        $this->quickpoints['Minimum Cumulative GPA'] = $value;
+                        break;
                     default:
-                        echo 'Unknown quickpoint '.$matches[0];
+                        throw new Exception('Unknown quickpoint '.$matches[0]);
                 }
             }
         }
