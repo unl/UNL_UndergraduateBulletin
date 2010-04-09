@@ -40,7 +40,7 @@ class UNL_UndergraduateBulletin_Router
                 $options['view'] = 'searchmajors';
                 break;
             // Individual major major/Architecture
-            case preg_match('/'.$base.'major\/([^\/]+)$/', $requestURI, $matches):
+            case preg_match('/'.$base.'major\/([^\/]+)\/?$/', $requestURI, $matches):
                 $options['view'] = 'major';
                 $options['name'] = urldecode($matches[1]);
                 break;
@@ -56,7 +56,7 @@ class UNL_UndergraduateBulletin_Router
             case preg_match('/'.$base.'$/', $requestURI, $matches):
                 break;
             default:
-                throw new Exception('Unknown route');
+                throw new Exception('Unknown route: '.$requestURI);
                 break;
         }
         return $options;
