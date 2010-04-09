@@ -2,14 +2,14 @@
 class UNL_UndergraduateBulletin_Major_Description
 {
     protected static $epub_files = array(
-        'CRIM and CRIM JUS' => 'Criminology and Criminal Justice',
-        'Agribusiness'      => 'Agribusiness (College of Agricultural Sciences and Natural Resources)',
-        'Agribusiness CBA'  => 'Agribusiness (College of Business Administration)',
+        'Agribusiness'                                  => 'Agribusiness (College of Agricultural Sciences and Natural Resources)',
+        'Agribusiness CBA'                              => 'Agribusiness (College of Business Administration)',
         'Art Education K-12'                            => 'Art Education (K-12)',
         'Biology 7-12'                                  => 'Biology (7-12)',
         'Chemistry 7-12'                                => 'Chemistry (7-12)',
         'Child Development_Early Childhood Educ'        => 'Child Development & Early Childhood Education',
         'Child_Youth & Family Studies_Jour & Mass Comm' => 'Child, Youth & Family Studies (CoJMC & CEHS)',
+        'CRIM and CRIM JUS'                             => 'Criminology and Criminal Justice',
         'Early Care and Education_Birth-K'              => 'Early Care & Education (Birth-Kindergarten)',
         'Earth Sciences 7-12'                           => 'Earth Sciences (7-12)',
         'Elem Ed K-6_Deaf or Hard of Hearing PreProf'   => 'Elementary Education (K-6) & Deaf or Hard of Hearing (Pre-Professional)',
