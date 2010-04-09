@@ -121,6 +121,7 @@ class UNL_UndergraduateBulletin_Major_Description
                     case 'CHIEF ADVISERS':
                     case 'MINOR ONLY':
                     case 'DEPARTMENT':
+                    case 'DEPARTMENTS':
                     case 'PROGRAM':
                     case 'DEGREE':
                         $attr = explode(' ', strtolower($matches[1]));
