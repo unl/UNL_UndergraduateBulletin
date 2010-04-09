@@ -19,7 +19,7 @@ UNL_UndergraduateBulletin_Controller::setReplacementData('doctitle', 'UNL | Unde
     <ul>
     <?php
     foreach($context->majors as $major) {
-        echo '<li><a href="'.$url.'major/'.urlencode($major).'">'.$major.'</a></li>';
+        echo '<li><a href="'.$url.'major/'.urlencode($major->getRaw('title')).'">'.$major->title.'</a></li>';
     }
     ?>
     </ul>

@@ -16,7 +16,7 @@ class UNL_UndergraduateBulletin_College
             case 'description':
                 return $this->getDescription();
             case 'majors':
-                return $this->getDescription()->majors;
+                return new UNL_UndergraduateBulletin_College_Majors(array('college'=>$this));
         }
         throw new Exception('Unknown member var! '.$var);
     }

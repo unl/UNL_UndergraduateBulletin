@@ -4,8 +4,6 @@ class UNL_UndergraduateBulletin_Major
     
     public $title;
     
-    public $college;
-    
     public $options;
     
     protected $_description;
@@ -28,6 +26,8 @@ class UNL_UndergraduateBulletin_Major
                 return $this->getDescription();
             case 'subjectareas':
                 return $this->getSubjectAreas();
+            case 'college':
+                return $this->getDescription()->college;
         }
         throw new Exception('Unknown member var! '.$var);
     }
@@ -46,6 +46,14 @@ class UNL_UndergraduateBulletin_Major
             $this->_subjectareas = new UNL_UndergraduateBulletin_Major_SubjectAreas($this);
         }
         return $this->_subjectareas;
+    }
+    
+    function __isset($var)
+    {
+        switch ($var) {
+            case 'college':
+                return isset($this->getDescription()->college);
+        }
     }
     
     function __set($var, $val)

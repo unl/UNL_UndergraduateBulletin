@@ -4,6 +4,6 @@ $url = UNL_UndergraduateBulletin_Controller::getURL();
 ?>
 <ul>
     <?php foreach ($context as $major): ?>
-    <li><a href="<?php echo $url; ?>major/<?php echo urlencode($context->getIterator()->current()); ?>"><?php echo $major; ?></a></li>
+    <li><a href="<?php echo $url; ?>major/<?php echo urlencode($major->getRaw('title')); ?>"><?php echo $major->title; ?></a></li>
     <?php endforeach; ?>
 </ul>
