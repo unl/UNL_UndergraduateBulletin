@@ -7,8 +7,8 @@ UNL_UndergraduateBulletin_Controller::setReplacementData('head', '<script type="
 <h1><?php echo $context->title; ?></h1>
 <h2 class="subhead"><?php echo $context->college; ?></h2>
 <ul class="wdn_tabs disableSwitching">
-    <li class="<?php echo ($parent->context->options['view']=='major')?'selected':''; ?>"><a href="<?php echo $url; ?>major/<?php echo urlencode($context->title); ?>"><span>Description</span></a></li>
-    <li class="<?php echo ($parent->context->options['view']=='courses')?'selected':''; ?>"><a href="<?php echo $url; ?>major/<?php echo urlencode($context->title); ?>/courses"><span>Courses</span></a></li>
+    <li class="<?php echo ($parent->context->options['view']=='major')?'selected':''; ?>"><a href="<?php echo $url; ?>major/<?php echo urlencode($context->getRaw('title')); ?>"><span>Description</span></a></li>
+    <li class="<?php echo ($parent->context->options['view']=='courses')?'selected':''; ?>"><a href="<?php echo $url; ?>major/<?php echo urlencode($context->getRaw('title')); ?>/courses"><span>Courses</span></a></li>
 </ul>
 <?php
 if ($context->options['view'] == 'major') {

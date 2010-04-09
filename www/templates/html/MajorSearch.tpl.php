@@ -9,7 +9,7 @@ if (!$context->count()) {
     echo '<h2>'.$context->count().' result</h2>'; ?>
     <ul>
     <?php foreach ($context as $major): ?>
-    <li><a href="<?php echo $url; ?>major/<?php echo urlencode($major); ?>"><?php echo $major; ?></a></li>
+    <li><a href="<?php echo $url; ?>major/<?php echo urlencode($context->getIterator()->current()); ?>"><?php echo $major; ?></a></li>
     <?php endforeach; ?>
     </ul>
 <?php
