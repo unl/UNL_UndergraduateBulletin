@@ -59,6 +59,7 @@ class UNL_UndergraduateBulletin_EPUB_Utilities
             case 'SAT':
             case 'CBA':
             case 'UNL':
+            case 'OURS':
                 return $text;
         }
         
