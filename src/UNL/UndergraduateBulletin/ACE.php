@@ -3,13 +3,13 @@ class UNL_UndergraduateBulletin_ACE
 {
     public static $descriptions = array(
             1  => 'Writing',
-            2  => 'Other Communicative Skills',
-            3  => 'Math/Computation Skills/Logic',
+            2  => 'Communication Competence',
+            3  => 'Math/Stat/Reasoning',
             4  => 'Science',
             5  => 'Humanities',
-            6  => 'Social Sciences',
+            6  => 'Social Science',
             7  => 'Arts',
             8  => 'Civics/Ethics/Stewardship',
             9  => 'Global/Diversity',
-            10 => 'Integration of Knowledge');
+            10 => 'Integrated Product');
 }
