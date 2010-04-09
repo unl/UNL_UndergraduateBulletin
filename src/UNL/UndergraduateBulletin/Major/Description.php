@@ -18,6 +18,8 @@ class UNL_UndergraduateBulletin_Major_Description
         'English 7-12'                                  => 'English (7-12)',
         'Family and Consumer Science 7-12'              => 'Family & Consumer Science Education (7-12)',
         'French Education 7-12'                         => 'French Education (7-12)',
+        'Hospitality Restaurant and Tourism Management' => 'Hospitality, Restaurant, & Tourism Management (College of Agricultural Sciences and Natural Resources)',
+        'Hospitality_Restaurant and Tourism Management' => 'Hospitality, Restaurant & Tourism Management (College of Education and Human Sciences)',
         'Journalism_Mass Comm _English 7-12'            => 'Journalism & Mass Communication & English (7-12)',
         'Language Arts 7-12'                            => 'Language Arts (7-12)',
         'Latin Education 7-12'                          => 'Latin Education (7-12)',
