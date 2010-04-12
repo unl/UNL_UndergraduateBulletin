@@ -17,8 +17,20 @@
 .course .number {background-color:#E7F0F9;border:1px solid #e7f0f9; border-radius:5px;-moz-border-radius:5px;font-size:2.5em;padding:25px 0px 10px 0px;margin:-15px 5px 0 0;display:block;clear:left;float:left;font-weight:bold;min-width:85px;text-align:center;}
 .course .wide {font-size:1.55em;padding:25px 0px 10px 2px;margin:-15px 5px 0 0;letter-spacing:-2px;}
 .course .really.wide {font-size:1.1em;}
-.course .title {font-size:1.5em; display:block; border-bottom:1px solid #C8C8C8;font-style:normal;font-weight:bold;margin-left:95px;}
-.course .title a {float:right;margin-top:-8px;font-size:.6em;}
+.course .title {font-size:1.4em; display:block; border-bottom:1px solid #C8C8C8;font-style:normal;font-weight:bold;margin-left:95px;padding-bottom:2px;}
+.course .title a {
+	float:right;
+	margin-top:-9px;
+	text-indent:-99999px;
+	background:url(images/showHideInverse.png) no-repeat top right;
+	background-position:0px 0px;
+	display:block;
+	width:23px;
+	height:17px;
+}
+.course .title a.showIt {
+	background-position:0px -19px;
+}
 .course .crosslistings {margin:4px 0 4px 95px;display:block;}
 .course .crosslistings .crosslisting {font-size:1em;font-style:italic;background:none;}
 
