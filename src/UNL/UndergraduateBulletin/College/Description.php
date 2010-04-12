@@ -70,6 +70,16 @@ class UNL_UndergraduateBulletin_College_Description
         }
     }
     
+    function __isset($var)
+    {
+        switch($var) {
+            case 'admissionRequirements':
+                $nodes = $this->_xml->xpath('//default:p[@class="content-box-m-p"]');
+                return (bool)count($nodes);
+        }
+        return false;
+    }
+    
     function __get($var)
     {
         switch ($var) {

@@ -18,16 +18,14 @@
     <div id="toc_bar">Major Name</div>
     <div id="long_content">
         <?php
-        try { 
+        if (isset($context->college->description->admissionRequirements)) { 
             $college_admission = $context->college->description->getRaw('admissionRequirements');
-        ?>
-        <div id="college_requirements">
-            <h2 class="sec_header">COLLEGE ADMISSION</h2>
-            <?php echo $college_admission; ?>
-        </div>
-        <?php 
-        } catch(Exception $e) {
-            // could not get college admission requirements
+            ?>
+            <div id="college_requirements">
+                <h2 class="sec_header">COLLEGE ADMISSION</h2>
+                <?php echo $college_admission; ?>
+            </div>
+            <?php
         }
         foreach ($regions as $id=>$title) {
             if (!empty($context->$id)) {
