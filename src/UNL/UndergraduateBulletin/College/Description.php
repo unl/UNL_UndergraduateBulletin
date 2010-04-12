@@ -79,7 +79,7 @@ class UNL_UndergraduateBulletin_College_Description
                 $content = '';
                 
                 if (!count($nodes)) {
-                    throw new Exception('No college admission requirements found!');
+                    throw new Exception('No college admission requirements found for '.$this->college->name);
                 }
                 
                 // now loop through all following siblings until we find the next section
