@@ -6,7 +6,7 @@ if ($context->options['format'] != 'partial') {
 if (!$context->count()) {
     echo 'Sorry, no matching areas of study';
 } else {
-    echo '<h2>'.$context->count().' result</h2>'; ?>
+    echo '<h2>'.$context->count().' result(s)</h2>'; ?>
     <ul>
     <?php foreach ($context as $major): ?>
     <li><a href="<?php echo $url; ?>major/<?php echo urlencode($context->getIterator()->current()); ?>"><?php echo $major; ?></a></li>
