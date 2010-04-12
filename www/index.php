@@ -21,6 +21,10 @@ switch($controller->options['format']) {
         header('Content-type:text/xml');
         $savvy->addTemplatePath(dirname(__FILE__).'/templates/xml');
         break;
+    case 'json':
+        //header('Content-type: text/javascript');
+        $savvy->addTemplatePath(dirname(__FILE__).'/templates/json');
+        break;
 }
 $savvy->setClassToTemplateMapper(new UNL_UndergraduateBulletin_ClassToTemplateMapper());
 
