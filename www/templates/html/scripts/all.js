@@ -1,9 +1,13 @@
+function setTOCLocations() {
+	try {
+		tocLocation = WDN.jQuery('#toc_nav').offset();
+		lcLocation = WDN.jQuery('#long_content').offset();
+		WDN.log(tocLocation.top);
+	} catch(e) {}
+}
 WDN.jQuery(document).ready(function($){
 	menuFaded = false;
-	try {
-		var tocLocation = WDN.jQuery('#toc_nav').offset();
-		var lcLocation = WDN.jQuery('#long_content').offset();
-	} catch(e) {}
+	setTOCLocations();
 	WDN.jQuery('#toc_bar').html(WDN.jQuery('#maincontent h1:first').html());
 	if (tocLocation) {
 		WDN.jQuery(window).scroll(function(){
@@ -51,13 +55,32 @@ WDN.jQuery(document).ready(function($){
     //End: Deal with the Table of Contents for the majors pages.
 
     //Deal with the interactivity behind the wdn_notice
-    $(".minimize").click(function() {
-    	$(this).parent(".wdn_notice").slideUp("slow", function() {
-    			$(this).wrap("<div class='col right' id='wdn_notice_wrapper'></div>"); //wrap in a col, floated right
+	var c = WDN.getCookie('notice');
+	if (c) {
+		$('#officialMessage').wrap("<div class='col right wdn_notice_wrapper'></div>");
+		$('#officialMessage').children("div.message").children("p").children("a").insertAfter("div.message p").siblings("p").hide();
+		$('#officialMessage').children(".minimize").removeClass("minimize").addClass("maximize");
+		setTOCLocations();
+	};
+	
+    $(".minimize, .maximize").click(function() {
+    	if ($(this).parent('.wdn_notice').parent('.wdn_notice_wrapper').length > 0) { //let's show the full notice
+    		$(this).parent(".wdn_notice").slideUp("slow", function() {
+    			$(this).unwrap(".wdn_notice_wrapper");
+    			$(this).children("div.message").children("a").appendTo("div.message p");
+    			$("div.message p").show();
+    			$(this).children(".maximize").removeClass("maximize").addClass("minimize");
+    			$(this).slideDown("slow", function() {setTOCLocations()});
+    		});
+    	} else {
+    		$(this).parent(".wdn_notice").slideUp("slow", function() { //let's hide the full notice
+    			$(this).wrap("<div class='col right wdn_notice_wrapper'></div>"); //wrap in a col, floated right
     			$(this).children("div.message").children("p").children("a").insertAfter("div.message p").siblings("p").hide();
     			$(this).children(".minimize").removeClass("minimize").addClass("maximize");
-    			$(this).slideDown("slow");
-    	});
+    			$(this).slideDown("slow", function() {setTOCLocations()});
+    			WDN.setCookie('notice', 'y', 3600);
+    		});
+    	}
     	return false;
     });
     //End: Deal with the interactivity behind the wdn_notice
@@ -79,10 +102,10 @@ WDN.jQuery(document).ready(function($){
     });
   //Deal with the course call numbers that are long
     $('.number').each(function(){
-    	if($(this).text().length > 3) {
+    	if($(this).text().length > 4) {
     		$(this).addClass('wide');
     	}
-    	if($(this).text().length > 7) {
+    	if($(this).text().length > 8) {
     		$(this).addClass('really');
     	}
     });
@@ -156,6 +179,7 @@ WDN.jQuery(document).ready(function($){
     	} catch(e) {}
     });
     
+    $('#courseSearch, #majorSearch').attr("autocomplete", "off");
     var searching = false;
     var search_string = '';
     $('#courseSearch').keyup(
@@ -176,23 +200,54 @@ WDN.jQuery(document).ready(function($){
     {
         WDN.get(UNL_UGB_URL+'courses/search?q='+escape(q)+'&format=partial', null, function(content){WDN.jQuery('#courseSearchResults').html(content);});
     }
-    $('#majorSearch').keyup(
-            function(){
-                if (this.value.length > 2) {
+    $('#majorSearch').autocomplete({ 
+    	source: function(request, response) {
+    		WDN.get(UNL_UGB_URL+'majors/search?q='+escape(request.term)+'&format=partial', null, function(content){
+    			WDN.jQuery('#majorSearchResults').html(content);
+    			WDN.jQuery('#majorSearchResults h2').remove();
+        });
+    	}
+    });
+    /*
+    $('#majorSearch').keydown(
+            function(event){
+            	$('#majorSearchResults').show();
+            	currentFocus = $(this).attr('id');
+            	if (this.value.length > 2) {
                     if (search_string != this.value) {
                         search_string = this.value;
                         clearTimeout(searching);
                         WDN.jQuery('#majorSearchResults').html('<img src="/wdn/templates_3.0/css/header/images/colorbox/loading.gif" alt="Loading search results" />');
-                        searching = setTimeout(function(){fetchMajorSearchResults(search_string);}, 750);
+                        searching = setTimeout(function(){fetchMajorSearchResults(search_string);}, 250);
                     }
                 } else {
                     WDN.jQuery('#majorSearchResults').html('');
                 }
+            	if (event.keyCode == '40') { //user has used the down arrow
+            		if (currentFocus == 'majorSearch') {
+            			$('#majorSearchResults ul li:first').focus();
+            			currentFocus = $(this).attr('id');
+            			WDN.log(currentFocus);
+            		}
+            	}
+            	if (event.keyCode == '38') { //user has used the up arrow
+            		
+            	}
+            	if (event.keyCode == '27') {//esc key
+            		$('#majorSearchResults').hide();
+            	}
             }
             );
+    $('#majorSearch').focusout(function(){
+    	$('#majorSearchResults').hide();
+    });
+    */
     function fetchMajorSearchResults(q)
     {
-        WDN.get(UNL_UGB_URL+'majors/search?q='+escape(q)+'&format=partial', null, function(content){WDN.jQuery('#majorSearchResults').html(content);});
+        WDN.get(UNL_UGB_URL+'majors/search?q='+escape(q)+'&format=partial', null, function(content){
+        	WDN.jQuery('#majorSearchResults').html(content);
+        	WDN.jQuery('#majorSearchResults h2').remove();
+        });
     }
 });
 
