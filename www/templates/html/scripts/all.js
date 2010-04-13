@@ -85,10 +85,10 @@ WDN.jQuery(document).ready(function($){
     });
     //End: Deal with the interactivity behind the wdn_notice
     
-    $('#maincontent a.course').click(function(eventObject){
-    	$(this).colorbox({width:"640px",href:this.href+'?format=partial',open:true});
-    	eventObject.preventDefault();
-    });
+    //$('#maincontent a.course').click(function(eventObject){
+    	//$(this).colorbox({width:"640px",href:this.href+'?format=partial',open:true});
+    	//eventObject.preventDefault();
+    //});
     //Show/Hide the course information
     $('#toggleAllCourseDescriptions').click(function() {
     	$('dd').slideToggle();
@@ -157,15 +157,36 @@ WDN.jQuery(document).ready(function($){
     	$(this).colorbox({width:"640px",href:this.href+'?format=partial',open:true});
     });
     */
-    
+    //WDN.loadJS('/wdn/templates_3.0/scripts/plugins/qtip/jquery.qtip.js');
     $("#maincontent a.course").each(function () {
     	try {
 	    	$(this).qtip({
 	    		content:{
 	    			url: this.href+'?format=partial'
 	    		},
-	            style:{
-	    			"width":"598px"
+	            position : {
+	            	corner : {
+	            		target : 'topRight',
+	            		tooltip : 'bottomLeft'
+	            	},
+	            	container: $('body'),
+	            	adjust : {
+	            		screen : true
+	            	}
+	            },
+	            show: {
+	            	delay : 150
+	            },
+	            style: { 
+	            	tip: { 
+	            		corner: 'bottomLeft' ,
+	            		size: { x: 25, y: 25 }
+	            	},
+	            	"width":"598px",
+	            	border: { 
+	            		width: 5,
+	            		radius: 3
+	            	}
 	            }
 	    	});
 	    	$(this).qtip("api").beforeShow = function(){
