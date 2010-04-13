@@ -185,3 +185,37 @@ a.top {
 #maincontent table p {
     margin:0;
 }
+
+/********************************************
+
+Course qTip Styles
+
+*********************************************/
+
+.qtip-active {
+	color:#494949;
+	font-size-adjust:none;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:140%;
+	text-align:left;
+	margin-bottom:20px;	
+}
+.qtip-defaults {
+	border:3px;
+	-moz-border-radius:5px;	
+}
+.qtip-wrapper {
+	-moz-box-shadow: 2px 2px 5px #888;
+    -webkit-box-shadow: 2px 2px 5px #888;
+    box-shadow: 2px 2px 5px #888;
+    border:5px solid #c8c8c8;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+}
+.qtip-contentWrapper {
+	overflow:scroll;
+	max-height:200px;
+}

@@ -21,6 +21,10 @@ WDN.jQuery(document).ready(function($){
 			}
 		})
 	}
+	if (WDN.jQuery(window).scrollTop() > (tocLocation.top - 10)) {//if the page loads and the top of the window is below the TOC, then show the TOC menu
+		fadeInTOCMenu();
+		menuFaded = true;
+	}
 //Deal with the Table of Contents for the majors pages.
 	WDN.jQuery("#toc_nav ol").click(
 		function() {
@@ -151,13 +155,6 @@ WDN.jQuery(document).ready(function($){
 			}
     	});
 	});
-    /*
-    $("#cboxContent").delegate("a.course","click",function (e) {
-    	e.preventDefault();
-    	$(this).colorbox({width:"640px",href:this.href+'?format=partial',open:true});
-    });
-    */
-    //WDN.loadJS('/wdn/templates_3.0/scripts/plugins/qtip/jquery.qtip.js');
     $("#maincontent a.course").each(function () {
     	try {
 	    	$(this).qtip({
@@ -171,10 +168,16 @@ WDN.jQuery(document).ready(function($){
 	            	},
 	            	container: $('body'),
 	            	adjust : {
-	            		screen : true
+	            		screen : true,
+	            		y : 3,
+	            		x : -10
 	            	}
 	            },
 	            show: {
+	            	delay : 150
+	            },
+	            hide: {
+	            	fixed : true,
 	            	delay : 150
 	            },
 	            style: { 
@@ -182,11 +185,7 @@ WDN.jQuery(document).ready(function($){
 	            		corner: 'bottomLeft' ,
 	            		size: { x: 25, y: 25 }
 	            	},
-	            	"width":"598px",
-	            	border: { 
-	            		width: 5,
-	            		radius: 3
-	            	}
+	            	"width":"598px"
 	            }
 	    	});
 	    	$(this).qtip("api").beforeShow = function(){
