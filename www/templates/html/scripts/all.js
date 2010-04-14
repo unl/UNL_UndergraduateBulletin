@@ -19,10 +19,11 @@ WDN.jQuery(document).ready(function($){
 				menuFaded = false;
 			}
 		})
-	}
-	if (WDN.jQuery(window).scrollTop() > (tocLocation.top - 10)) {//if the page loads and the top of the window is below the TOC, then show the TOC menu
-		fadeInTOCMenu();
-		menuFaded = true;
+		
+		if (WDN.jQuery(window).scrollTop() > (tocLocation.top - 10)) {//if the page loads and the top of the window is below the TOC, then show the TOC menu
+			fadeInTOCMenu();
+			menuFaded = true;
+		}
 	}
 //Deal with the Table of Contents for the majors pages.
 	WDN.jQuery("#toc_nav ol").click(
