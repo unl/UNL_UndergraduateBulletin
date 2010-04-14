@@ -163,14 +163,14 @@ WDN.jQuery(document).ready(function($){
 	    		},
 	            position : {
 	            	corner : {
-	            		target : 'topRight',
-	            		tooltip : 'bottomLeft'
+	            		target : 'topMiddle',
+	            		tooltip : 'bottomMiddle'
 	            	},
 	            	container: $('body'),
 	            	adjust : {
 	            		screen : true,
 	            		y : 3,
-	            		x : -10
+	            		x : 5
 	            	}
 	            },
 	            show: {
@@ -182,7 +182,7 @@ WDN.jQuery(document).ready(function($){
 	            },
 	            style: { 
 	            	tip: { 
-	            		corner: 'bottomLeft' ,
+	            		corner: 'bottomMiddle' ,
 	            		size: { x: 25, y: 15 },
 	            		color: '#c8c8c8'
 	            	},
