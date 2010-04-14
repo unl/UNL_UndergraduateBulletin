@@ -14,8 +14,9 @@
     <div id="toc_nav">
         <a href="#" id="tocContent">Contents</a>
         <ol id="toc"><li>Intro</li></ol>
+        <div id="toc_major_name"><?php echo $context->major->title; ?></div>
     </div>
-    <div id="toc_bar">Major Name</div>
+    <div id="toc_bar"></div>
     <div id="long_content">
         <?php
         if (isset($context->college->description->admissionRequirements)) { 
@@ -42,7 +43,7 @@
             <tr>
                 <th colspan="2">Quick Points</th>
             </tr>
-            <tr>
+            <tr class="table_heading">
                 <th scope="col">Attribute</th>
                 <th scope="col">Value</th>
             </tr>

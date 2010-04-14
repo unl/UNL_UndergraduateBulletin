@@ -8,7 +8,6 @@ function setTOCLocations() {
 WDN.jQuery(document).ready(function($){
 	menuFaded = false;
 	setTOCLocations();
-	WDN.jQuery('#toc_bar').html(WDN.jQuery('#maincontent h1:first').html());
 	if (tocLocation) {
 		WDN.jQuery(window).scroll(function(){
 			if (WDN.jQuery(window).scrollTop() > (tocLocation.top - 10)) {//when we scroll to the top of the TOC (+padding) then start scrolling the cotents boc
@@ -31,7 +30,7 @@ WDN.jQuery(document).ready(function($){
 			WDN.jQuery("#toc_nav ol").hide();
 		}
 	);
-	WDN.jQuery("#toc_nav").hover(
+	WDN.jQuery("#tocContent, #toc").hover(
 		function() {
 			WDN.jQuery("#toc_nav ol").show();
 			WDN.jQuery("#toc_nav ol a").click(function(event) {
@@ -276,7 +275,8 @@ WDN.jQuery(document).ready(function($){
 function fadeInTOCMenu() {
 	if (!menuFaded) { //menu is hidden
 		WDN.log('fading menu in');
-		WDN.jQuery('#toc_nav').css({'position': 'fixed'});
+		WDN.jQuery('#toc_nav').css({'position': 'fixed', 'width': '940px'});
+		WDN.jQuery('#toc_major_name').css({'display': 'block'});
 		WDN.jQuery('#long_content').css({'margin-top':'73px'});	
 		WDN.jQuery('#toc_bar').fadeIn(200);
 	}
@@ -285,6 +285,7 @@ function fadeOutTOCMenu() {
 	if (menuFaded) { //menu is displayed
 		WDN.log('fading menu out');
 		WDN.jQuery('#toc_nav').css({'position': 'relative'});
+		WDN.jQuery('#toc_major_name').css({'display': 'none'});
 		WDN.jQuery('#toc_bar').fadeOut(200);
 		WDN.jQuery('#long_content').css({'margin-top':'35px'});
 	}

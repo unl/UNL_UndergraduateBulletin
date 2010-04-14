@@ -39,12 +39,19 @@
 	padding-top:14px;
 	opacity:0.90;
 }
+#toc_major_name {
+	display:none;
+	float:left;
+	margin:-30px 0 0 215px;
+	text-align:center;
+}
 table.major_quick_points {
     margin-bottom:2em;
 }
 table.major_quick_points thead tr:nth-child(2),
-table.major_quick_points caption {
+table.major_quick_points caption, .table_heading {
     display:none;
+    visibility:hidden;
 }
 
 table.major_quick_points .attr {
