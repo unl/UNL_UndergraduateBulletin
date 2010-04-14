@@ -82,7 +82,7 @@ WDN.jQuery(document).ready(function($){
     			$(this).children("div.message").children("p").children("a").insertAfter("div.message p").siblings("p").hide();
     			$(this).children(".minimize").removeClass("minimize").addClass("maximize");
     			$(this).slideDown("slow", function() {setTOCLocations()});
-    			WDN.setCookie('notice', 'y', 3600);
+    			WDN.setCookie('notice', 'y', 86400);
     		});
     	}
     	return false;
