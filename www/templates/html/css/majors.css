@@ -222,8 +222,8 @@ Course qTip Styles
     border-radius:3px;
 }
 .qtip-contentWrapper {
-	overflow:scroll;
 	min-height:100px;
+	background:#fff;
 }
 .qtip-content {padding:9px;overflow:scroll;}
 .qtip-tip {
