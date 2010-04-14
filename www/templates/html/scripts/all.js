@@ -183,8 +183,10 @@ WDN.jQuery(document).ready(function($){
 	            style: { 
 	            	tip: { 
 	            		corner: 'bottomLeft' ,
-	            		size: { x: 25, y: 25 }
+	            		size: { x: 25, y: 25 },
+	            		color: '#c8c8c8'
 	            	},
+	            	"padding" : "9px",
 	            	"width":"598px"
 	            }
 	    	});

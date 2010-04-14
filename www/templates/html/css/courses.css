@@ -1,5 +1,5 @@
 .course .subjectCode {margin-bottom:-6px;color:#818489;display:block;float:left;min-width:85px;text-align:center;position:relative;z-index:12;}
-.course .number {background-color:#E7F0F9;border:1px solid #e7f0f9; border-radius:5px;-moz-border-radius:5px;font-size:2.5em;padding:25px 0px 10px 0px;margin:-15px 5px 0 0;display:block;clear:left;float:left;font-weight:bold;min-width:85px;text-align:center;}
+.course .number {background-color:#E7F0F9;border:2px solid #cedae7; border-radius:5px;-moz-border-radius:5px;font-size:2.5em;padding:25px 0px 10px 0px;margin:-15px 5px 0 0;display:block;clear:left;float:left;font-weight:bold;min-width:85px;text-align:center;}
 .course .wide {font-size:1.55em;padding:25px 0px 10px 2px;margin:-15px 5px 0 0;letter-spacing:-2px;}
 .course .really.wide {font-size:1.1em;}
 .course .title {font-size:1.4em; display:block; border-bottom:1px solid #C8C8C8;font-style:normal;font-weight:bold;margin-left:95px;padding-bottom:2px;}
@@ -24,6 +24,8 @@
 .course .description {margin:4px 0;float:left;clear:left;width:450px;}
 
 .course .prereqs {color:#0F900A;font-weight:bold;}
+#maincontent .course .prereqs a {color:#0F900A; text-decoration:underline;}
+#maincontent .course .prereqs a:hover, #maincontent .course .prereqs a:focus {color:#28aa23 !important; text-decoration:none;}
 .course .notes {font-style:italic;}
 .course .description {border-left:3px solid #C8C8C8;padding-left:5px;}
 
