@@ -202,16 +202,13 @@ Course qTip Styles
 	line-height:110%;
 	text-align:left;
 	margin-bottom:20px;	
-	width:600px;
+	max-width:600px;
 }
 .qtip-defaults {
 	border:3px;
 	-moz-border-radius:5px;	
 }
 .qtip-wrapper {
-	-moz-box-shadow: 1px 1px 2px #888;
-    -webkit-box-shadow: 1px 1px 2px #888;
-    box-shadow: 1px 1px 2px #888;
     border:3px solid #c8c8c8;
     -moz-border-radius:3px;
     -webkit-border-radius:3px;
@@ -232,6 +229,19 @@ Course qTip Styles
 .qtip-tip[rel=topleft] + .qtip-wrapper {
 	-moz-border-radius-topleft: 0;
 	-webkit-border-top-left-radius: 0;
+}
+.qtip-tip[rel=bottomright] + .qtip-wrapper {
+	-moz-border-radius-bottomright: 0;
+	-webkit-border-bottom-right-radius: 0;
+}
+.qtip-tip[rel=topright] + .qtip-wrapper {
+	-moz-border-radius-topright: 0;
+	-webkit-border-top-right-radius: 0;
+}
+.qtip-tip[rel=topright] {
+	-moz-box-shadow: 1px 1px 2px #888;
+    -webkit-box-shadow: 1px 1px 2px #888;
+    box-shadow: 1px 1px 2px #888;
 }
 .qtip .title a {display:none;}
 .qtip .subjectCode {margin-top:11px;min-width:60px;top:-3px;margin-left:2px;}
