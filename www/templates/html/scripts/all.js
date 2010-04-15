@@ -187,7 +187,10 @@ WDN.jQuery(document).ready(function($){
 	            		color: '#c8c8c8'
 	            	},
 	            	"padding" : "9px",
-	            	"width":"598px"
+	            	"width":"598px",
+	            	classes : {
+	            		tooltip : 'course-qtip'
+	            	}
 	            }
 	    	});
 	    	$(this).qtip("api").beforeShow = function(){
