@@ -59,11 +59,12 @@ $page->navlinks     = '
     
 </ul>';
 $page->loadSharedCodeFiles();
-$page->addStylesheet('/wdn/templates_3.0/css/content/forms.css');
+$page->addStylesheet('/wdn/templates_3.0/css/content/zenform.css');
 $page->addStylesheet('/wdn/templates_3.0/css/content/notice.css');
 $page->addStylesheet($url. 'templates/html/css/all.css');
 $page->head .= '
 <script type="text/javascript">var UNL_UGB_URL = "'.$url.'";</script>
+<script type="text/javascript" src="/wdn/templates_3.0/scripts/plugins/ui/jQuery.ui.js"></script>
 <script type="text/javascript" src="'.$url.'templates/html/scripts/jQuery.toc.js"></script>
 <script type="text/javascript" src="'.$url.'templates/html/scripts/all.js"></script>
 ';

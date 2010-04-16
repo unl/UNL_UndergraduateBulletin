@@ -1,3 +1,43 @@
+/*********************************
+
+Autocomplete CSS
+
+*********************************/
+.ui-autocomplete {max-width:434px;background:url('images/autocompleteBG.png') repeat-x top #fdfcf5;border:1px solid #B8AFA1;margin:-4px 0 0 1px;border-top:rgba(185, 185, 185, 0.26);}
+.ui-autocomplete li {min-height:29px;padding:7px 4px 4px;border-bottom:1px solid rgba(185, 185, 185, 0.26);}
+.ui-autocomplete .indicator {background:black;}
+.ui-autocomplete dt {
+	color:#494949;
+	font-size:60%;
+	font-style:normal;
+	font-family: "Lucida Grande",Verdana,Arial;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:110%;
+	text-align:left;
+}
+.ui-autocomplete dt .number, .ui-autocomplete dt .subjectCode {
+	min-width:40px;	
+	margin-left:4px;
+}
+.ui-autocomplete dt .subjectCode {
+	margin-bottom:2px;	
+	font-size:80%;
+}
+.ui-autocomplete dt .number {
+	border:1px solid #CEDAE7;
+	font-size:160%;	
+	padding:13px 0 5px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+}
+
+.ui-autocomplete dt.course .title {
+	margin-left:55px;
+	border:none;
+	line-height:100%;	
+}
 
 #courseSearchResults
 {
@@ -9,4 +49,27 @@
 #courseSearchResults .notes,
 #courseSearchResults .details {
     display:none;
+}
+
+#maincontent .autoComplete {
+	background:#fff;
+	border:#cccccc 1px solid;
+	left:10px;
+	top:41px;
+	position:absolute;
+	width:436px;
+	border-top:none;
+}
+#maincontent .autoComplete ul {
+	padding-left:3px;
+	font-size:1.6em;
+}	
+#maincontent form.cool fieldset .autoComplete ul li {
+	margin:5px 0;
+}
+#maincontent form.cool fieldset .autoComplete ul li:focus {
+	background:black;	
+}
+#maincontent .autoComplete a {
+	color:#9D9D9D;
 }

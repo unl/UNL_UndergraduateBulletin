@@ -88,11 +88,6 @@ WDN.jQuery(document).ready(function($){
     	return false;
     });
     //End: Deal with the interactivity behind the wdn_notice
-    
-    //$('#maincontent a.course').click(function(eventObject){
-    	//$(this).colorbox({width:"640px",href:this.href+'?format=partial',open:true});
-    	//eventObject.preventDefault();
-    //});
     //Show/Hide the course information
     $('#toggleAllCourseDescriptions').click(function() {
     	$('dd').slideToggle();
@@ -203,77 +198,38 @@ WDN.jQuery(document).ready(function($){
 	    	};
     	} catch(e) {}
     });
-    
     $('#courseSearch, #majorSearch').attr("autocomplete", "off");
-    var searching = false;
-    var search_string = '';
-    $('#courseSearch').keyup(
-            function(){
-                if (this.value.length > 2) {
-                    if (search_string != this.value) {
-                        search_string = this.value;
-                        clearTimeout(searching);
-                        WDN.jQuery('#courseSearchResults').html('<img src="/wdn/templates_3.0/css/header/images/colorbox/loading.gif" alt="Loading search results" />');
-                        searching = setTimeout(function(){fetchCourseSearchResults(search_string);}, 750);
-                    }
-                } else {
-                    WDN.jQuery('#courseSearchResults').html('');
-                }
-            }
-            );
-    function fetchCourseSearchResults(q)
-    {
-        WDN.get(UNL_UGB_URL+'courses/search?q='+escape(q)+'&format=partial', null, function(content){WDN.jQuery('#courseSearchResults').html(content);});
-    }
-    $('#majorSearch').autocomplete({ 
+    $('#courseSearch').autocomplete({
     	source: function(request, response) {
-    		WDN.get(UNL_UGB_URL+'majors/search?q='+escape(request.term)+'&format=partial', null, function(content){
-    			WDN.jQuery('#majorSearchResults').html(content);
-    			WDN.jQuery('#majorSearchResults h2').remove();
-        });
+    		$.ajax({
+    			url: UNL_UGB_URL+'courses/search?q='+request.term+'&format=json',
+    			dataType: "json",
+    			success: function(data) {
+    				WDN.log("we have data");
+    				var rows = new Array();
+    					for(var i=0; i<data.length; i++){
+    						WDN.log(data[i].title);
+    						//label is for the suggestion
+    						//value is for the input box
+    						for(var j=0; j<data[i].courseCodes.length; j++){
+	    						rows[i] = { 
+	    							label: '<dt class="course">' +
+		    									'<span class="subjectCode">' + data[i].courseCodes[j].subject + '</span>' +
+		    									'<span class="number">' + data[i].courseCodes[j].courseNumber + '</span>' +
+		    									'<span class="title">' + data[i].title + '</span>' +
+	    									'</dt>',
+	    							value:data[i].courseCodes[j].subject + " " + data[i].courseCodes[j].courseNumber + ": " + data[i].title
+	    						};
+    						}
+					    }
+				    response(rows);
+			    }
+    		})
+    	},
+    	select : function() {
+    		$(ui.item).addClass('indicator');
     	}
     });
-    /*
-    $('#majorSearch').keydown(
-            function(event){
-            	$('#majorSearchResults').show();
-            	currentFocus = $(this).attr('id');
-            	if (this.value.length > 2) {
-                    if (search_string != this.value) {
-                        search_string = this.value;
-                        clearTimeout(searching);
-                        WDN.jQuery('#majorSearchResults').html('<img src="/wdn/templates_3.0/css/header/images/colorbox/loading.gif" alt="Loading search results" />');
-                        searching = setTimeout(function(){fetchMajorSearchResults(search_string);}, 250);
-                    }
-                } else {
-                    WDN.jQuery('#majorSearchResults').html('');
-                }
-            	if (event.keyCode == '40') { //user has used the down arrow
-            		if (currentFocus == 'majorSearch') {
-            			$('#majorSearchResults ul li:first').focus();
-            			currentFocus = $(this).attr('id');
-            			WDN.log(currentFocus);
-            		}
-            	}
-            	if (event.keyCode == '38') { //user has used the up arrow
-            		
-            	}
-            	if (event.keyCode == '27') {//esc key
-            		$('#majorSearchResults').hide();
-            	}
-            }
-            );
-    $('#majorSearch').focusout(function(){
-    	$('#majorSearchResults').hide();
-    });
-    */
-    function fetchMajorSearchResults(q)
-    {
-        WDN.get(UNL_UGB_URL+'majors/search?q='+escape(q)+'&format=partial', null, function(content){
-        	WDN.jQuery('#majorSearchResults').html(content);
-        	WDN.jQuery('#majorSearchResults h2').remove();
-        });
-    }
 });
 
 function fadeInTOCMenu() {
