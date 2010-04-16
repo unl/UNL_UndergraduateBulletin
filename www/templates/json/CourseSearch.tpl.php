@@ -1,6 +1,9 @@
 <?php
+$courses = array();
+
 echo '[';
 foreach ($context->results as $course) {
-    echo $savvy->render($course).','.PHP_EOL;
+    $courses[] = $savvy->render($course);
 }
+echo implode(','.PHP_EOL, $courses);
 echo ']';
