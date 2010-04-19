@@ -3,9 +3,17 @@
 Autocomplete CSS
 
 *********************************/
-.ui-autocomplete {max-width:434px;background:url('images/autocompleteBG.png') repeat-x top #fdfcf5;border:1px solid #B8AFA1;margin:-4px 0 0 1px;border-top:rgba(185, 185, 185, 0.26);}
-.ui-autocomplete li {min-height:29px;padding:7px 4px 4px;border-bottom:1px solid rgba(185, 185, 185, 0.26);}
-.ui-autocomplete .indicator {background:black;}
+.ui-autocomplete {max-width:434px;background:url('images/autocompleteBG.png') repeat-x top #f5f5f5;border:1px solid #B8AFA1;margin:-5px 0 0 1px;border-top:rgba(185, 185, 185, 0.26);}
+.ui-autocomplete li {
+	padding:0px;
+}
+.ui-autocomplete>li>a {
+	display:block;
+	height:38px;
+	border-bottom: 1px solid #fff;
+	padding:0 0 0 5px;
+}
+.ui-autocomplete a.indicator {background:#dedede;padding-left:10px;}
 .ui-autocomplete dt {
 	color:#494949;
 	font-size:60%;
@@ -15,28 +23,32 @@ Autocomplete CSS
 	font-weight:normal;
 	line-height:110%;
 	text-align:left;
+	height:37px;
+	border-bottom:1px solid #d6d6d6;
 }
 .ui-autocomplete dt .number, .ui-autocomplete dt .subjectCode {
 	min-width:40px;	
-	margin-left:4px;
 }
 .ui-autocomplete dt .subjectCode {
 	margin-bottom:2px;	
 	font-size:80%;
+	top:3px;
 }
 .ui-autocomplete dt .number {
 	border:1px solid #CEDAE7;
 	font-size:160%;	
-	padding:13px 0 5px;
+	padding:14px 0 5px;
 	-moz-border-radius:3px;
 	-webkit-border-radius:3px;
 	border-radius:3px;
+	margin: -10px 5px 0 0;
 }
 
 .ui-autocomplete dt.course .title {
-	margin-left:55px;
+	margin-left:50px;
 	border:none;
-	line-height:100%;	
+	line-height:100%;
+	padding-top:6px;	
 }
 
 #courseSearchResults
