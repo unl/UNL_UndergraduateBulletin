@@ -2,13 +2,16 @@ function setTOCLocations() {
 	try {
 		tocLocation = WDN.jQuery('#toc_nav').offset();
 		lcLocation = WDN.jQuery('#long_content').offset();
-		WDN.log(tocLocation.top);
+		//WDN.log(tocLocation.top);
 	} catch(e) {}
 }
 WDN.jQuery(document).ready(function($){
 	menuFaded = false;
-	setTOCLocations();
-	if (tocLocation) {
+	if (WDN.jQuery('#toc_nav').length > 0) {
+		WDN.log('setting TOC');
+		setTOCLocations();
+	//}
+	//if (tocLocation) {
 		WDN.jQuery(window).scroll(function(){
 			if (WDN.jQuery(window).scrollTop() > (tocLocation.top - 10)) {//when we scroll to the top of the TOC (+padding) then start scrolling the cotents boc
 				fadeInTOCMenu();
@@ -230,6 +233,9 @@ WDN.jQuery(document).ready(function($){
     	focus: function(e, ui) {
     		$('a.indicator').removeClass('indicator');
 			$('a:contains("'+ui.item.key+'")').addClass('indicator');
+		},
+		select: function(e, ui) {
+			window.location.href = UNL_UGB_URL+'courses/search?q='+ui.item.value;
 		}
     });
     $('#majorSearch').autocomplete({
@@ -254,6 +260,9 @@ WDN.jQuery(document).ready(function($){
     	focus: function(e, ui) {
     		$('a.indicator').removeClass('indicator');
 			$('a:contains("'+ui.item.key+'")').addClass('indicator');
+		},
+		select: function(e, ui) {
+			window.location.href = UNL_UGB_URL+'major/search?q='+ui.item.value;
 		}
     });
 });
