@@ -105,6 +105,7 @@ a.top {
 #maincontent p + p.numbered-list {
     margin-bottom:0;
 }
+#maincontent p.college-name, #maincontent p.major-name {display:none;}
 
 #maincontent p.list {
     margin-bottom:0em;
