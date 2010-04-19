@@ -30,7 +30,7 @@
         }
         foreach ($regions as $id=>$title) {
             if (!empty($context->$id)) {
-                echo '<div id="'.$id.'"><a href="#header" class="top">Top</a>'.$context->getRaw($id).'</div>';
+                echo '<div id="'.$id.'">'.$context->getRaw($id).'</div>';
             }
         }
         ?>
