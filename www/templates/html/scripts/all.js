@@ -249,7 +249,7 @@ WDN.jQuery(document).ready(function($){
     						rows[i] = {
     								label : '<span class="format">'+data[i]+'</span>' +
     										'<span class="key" style="display:none;">'+data[i]+i+'</span>',
-    								value : data[i],
+    								value : data[i].replace(/\&amp;/g,'&'),
     								key : data[i]+i
     						}
 					    }
@@ -262,7 +262,7 @@ WDN.jQuery(document).ready(function($){
 			$('a:contains("'+ui.item.key+'")').addClass('indicator');
 		},
 		select: function(e, ui) {
-			window.location.href = UNL_UGB_URL+'major/search?q='+ui.item.value;
+			window.location.href = UNL_UGB_URL+'major/'+ui.item.value;
 		}
     });
 });
