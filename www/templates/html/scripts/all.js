@@ -202,10 +202,9 @@ WDN.jQuery(document).ready(function($){
     $('#courseSearch').autocomplete({
     	source: function(request, response) {
     		$.ajax({
-    			url: UNL_UGB_URL+'courses/search?q='+request.term+'&format=json',
+    			url: UNL_UGB_URL+'courses/search?q='+request.term+'&format=json&limit=10',
     			dataType: "json",
     			success: function(data) {
-    				WDN.log("we have data");
     				var rows = new Array();
     					for(var i=0; i<data.length; i++){
     						//label is for the suggestion
@@ -222,6 +221,30 @@ WDN.jQuery(document).ready(function($){
 	    							value: data[i].courseCodes[j].subject + " " + data[i].courseCodes[j].courseNumber + ": " + data[i].title,
 	    							key: data[i].courseCodes[j].subject + data[i].courseCodes[j].courseNumber + data[i].title
 	    						};
+    						}
+					    }
+				    response(rows);
+			    }
+    		})
+    	},
+    	focus: function(e, ui) {
+    		$('a.indicator').removeClass('indicator');
+			$('a:contains("'+ui.item.key+'")').addClass('indicator');
+		}
+    });
+    $('#majorSearch').autocomplete({
+    	source: function(request, response) {
+    		$.ajax({
+    			url: UNL_UGB_URL+'major/search?q='+request.term+'&format=json',
+    			dataType: "json",
+    			success: function(data) {
+    				var rows = new Array();
+    					for(var i=0; i<data.length; i++){
+    						rows[i] = {
+    								label : '<span class="format">'+data[i]+'</span>' +
+    										'<span class="key" style="display:none;">'+data[i]+i+'</span>',
+    								value : data[i],
+    								key : data[i]+i
     						}
 					    }
 				    response(rows);

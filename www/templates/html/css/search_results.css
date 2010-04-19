@@ -8,7 +8,21 @@ Autocomplete CSS
 	background:url('images/autocompleteBG.png') repeat-x top #f5f5f5;
 	border:1px solid #B8AFA1;
 	margin:-5px 0 0 1px;
-	border-top:rgba(185, 185, 185, 0.26);
+	border-top:rgba(185, 185, 185, 0.26);color:#494949;
+	font-size:60%;
+	font-style:normal;
+	font-family: "Lucida Grande",Verdana,Arial;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:110%;
+	text-align:left;
+}
+.ui-autocomplete a span.format {
+	font-size:140%;
+	line-height:140%;
+	font-weight:bold;	
+	padding-top:6px;
+	display:block;
 }
 .ui-autocomplete li {
 	padding:0px;
@@ -37,16 +51,7 @@ Autocomplete CSS
     	rgb(224,224,224) 80%
 	);
 	padding-left:10px;
-}
-.ui-autocomplete {
-	color:#494949;
-	font-size:60%;
-	font-style:normal;
-	font-family: "Lucida Grande",Verdana,Arial;
-	font-variant:normal;
-	font-weight:normal;
-	line-height:110%;
-	text-align:left;
+	outline:2px solid #aacae0;
 }
 .ui-autocomplete dt {
 	height:37px;	
