@@ -75,7 +75,7 @@ $page->head .= '
 <script type="text/javascript">var UNL_UGB_URL = "'.$url.'";</script>
 <script type="text/javascript" src="/wdn/templates_3.0/scripts/plugins/ui/jQuery.ui.js"></script>
 <script type="text/javascript" src="'.$url.'templates/html/scripts/jQuery.toc.js"></script>
-<script type="text/javascript" src="'.$url.'templates/html/scripts/all.js"></script>
+<script type="text/javascript" src="'.$url.'templates/html/scripts/bulletin.functions.js"></script>
 <link rel="home" href="'.$url.'" />
 ';
 
