@@ -16,7 +16,7 @@ if (!$context->count()) {
     echo 'Sorry, no matching areas of study';
 } else {
     echo '<h2>'.$context->count().' result(s)</h2>'; ?>
-    <ul>
+    <ul id="majorListing">
     <?php foreach ($context as $major): ?>
     <li><a href="<?php echo $url; ?>major/<?php echo urlencode($major->getRaw('title')); ?>"><?php echo $major->title; ?></a></li>
     <?php endforeach; ?>
