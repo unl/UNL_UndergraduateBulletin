@@ -8,6 +8,9 @@ class UNL_UndergraduateBulletin_Major_SubjectAreas extends ArrayIterator
         $subject_codes = array();
         $this->major = $major;
         switch ($this->major->title) {
+            case 'Accounting':
+                $subject_codes[] = 'ACCT';
+                break;
             case 'Advertising':
                 $subject_codes[] = 'ADVT';
                 break;
