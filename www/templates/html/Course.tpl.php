@@ -162,7 +162,7 @@
         echo  '</table>';
 
         if (!empty($context->prerequisite)) {
-            echo  "<p class='prereqs'>Prereqs: ".preg_replace('/([A-Z]{3,4})\s+([0-9]{2,3}[A-Z]?)/', '<a class="course" href="'.$url.'courses/$1/$2">$0</a>', $context->prerequisite)."</p>";
+            echo  "<p class='prereqs'>Prereqs: ".UNL_UndergraduateBulletin_EPUB_Utilities::addCourseLinks($context->prerequisite)."</p>";
         }
         if (!empty($context->notes)) {
             echo  "<p class='notes'>".$context->notes."</p>";

@@ -54,6 +54,7 @@ class UNL_UndergraduateBulletin_EPUB_Utilities
     {
         $text = $matches[0];
         switch($matches[1]) {
+            case 'ACE':
             case 'ACT':
             case 'OEFL':
             case 'SAT':
