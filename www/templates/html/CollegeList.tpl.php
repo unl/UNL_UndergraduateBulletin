@@ -10,7 +10,7 @@ UNL_UndergraduateBulletin_Controller::setReplacementData('doctitle', 'UNL | Unde
 ');
 ?>
 <h2>Colleges and Other Areas</h2>
-<ul>
+<ul id="collegeListing">
 <?php
 foreach ($context as $college) {
     echo '<li><a href="'.$url.'college/'.urlencode($college->getRaw('name')).'">'.$college->name.'</a></li>';
