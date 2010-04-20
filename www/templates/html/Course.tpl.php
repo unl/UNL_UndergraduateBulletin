@@ -96,6 +96,18 @@
     if (!empty($context->aceOutcomes)) {
         $class .= ' ace ace_'.implode(' ace_', $context->aceOutcomes);
     }
+
+    if ($parent->parent->context instanceof Savvy_ObjectProxy
+        && $parent->parent->context->__getClass() == 'UNL_UndergraduateBulletin_Controller') {
+        UNL_UndergraduateBulletin_Controller::setReplacementData('doctitle', 'UNL | Undergraduate Bulletin | '.$subject.' '.$listings.': '.$context->title);
+        UNL_UndergraduateBulletin_Controller::setReplacementData('breadcrumbs', '
+    <ul>
+        <li><a href="http://www.unl.edu/">UNL</a></li>
+        <li><a href="'.$url.'">Undergraduate Bulletin</a></li>
+        <li>'.$subject.' '.$listings.': '.$context->title.'</li>
+    </ul>
+    ');
+    }
     
     echo "
         <dt class='$class'>

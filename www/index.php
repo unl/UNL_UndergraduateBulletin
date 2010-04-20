@@ -29,6 +29,6 @@ switch($controller->options['format']) {
 $savvy->setClassToTemplateMapper(new UNL_UndergraduateBulletin_ClassToTemplateMapper());
 
 $savvy->setEscape('htmlentities');
-
+$savvy->addFilters(array($controller, 'postRun'));
 echo $savvy->render($controller);
 

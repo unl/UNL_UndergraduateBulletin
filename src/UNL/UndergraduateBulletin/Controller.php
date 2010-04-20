@@ -64,10 +64,9 @@ class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_
     
     function postRun($data)
     {
-        $scanned = new UNL_Templates_Scanner($data);
-        
+
         if (isset(self::$replacement_data['doctitle'])) {
-            $data = str_replace($scanned->doctitle,
+            $data = preg_replace('/<title>.*<\/title>/',
                                 '<title>'.self::$replacement_data['doctitle'].'</title>',
                                 $data);
         }
@@ -76,10 +75,13 @@ class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_
             $data = str_replace('</head>', self::$replacement_data['head'].'</head>', $data);
         }
 
-        if (isset(self::$replacement_data['breadcrumbs'])) {
-            $data = str_replace($scanned->breadcrumbs,
-                                self::$replacement_data['breadcrumbs'],
-                                $data);
+        if (isset(self::$replacement_data['breadcrumbs'])
+            && strstr($data, '<!-- InstanceBeginEditable name="breadcrumbs" -->')) {
+
+            $breadcrumb_start = strpos($data, '<!-- InstanceBeginEditable name="breadcrumbs" -->');
+            $breadcrumb_end = strpos($data, '<!-- InstanceEndEditable -->', $breadcrumb_start);
+
+            $data = substr($data, 0, $breadcrumb_start).self::$replacement_data['breadcrumbs'].substr($data, $breadcrumb_end);
         }
         
         return $data;
