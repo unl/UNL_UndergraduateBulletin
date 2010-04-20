@@ -62,9 +62,10 @@ class UNL_UndergraduateBulletin_EPUB_Utilities
             case 'OURS':
                 return $text;
         }
-        
+
         $text = preg_replace('/([0-9]{2,3}[A-Z]?)/', '<a class="course" href="'.UNL_UndergraduateBulletin_Controller::getURL().'courses/'.$matches[1].'/$1">$0</a>', $text);
-        $text = preg_replace('/([A-Z]{3,4})\s+/', '<a href="'.UNL_UndergraduateBulletin_Controller::getURL().'courses/'.$matches[1].'/">$0</a>', $text);
+        $text = preg_replace('/([A-Z]{3,4})\s+(\<a[^>]+\>)/', '$2$1 ', $text);
+
         return $text;
     }
 }
