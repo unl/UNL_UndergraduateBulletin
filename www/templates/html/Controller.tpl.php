@@ -9,7 +9,7 @@ $page->titlegraphic = '<h1>Undergraduate Bulletin 2010-2011</h1>';
 $page->breadcrumbs  = '
 <ul>
     <li><a href="http://www.unl.edu/">UNL</a></li>
-    <li><a href="'.$url.'">Undergraduate Bulletin</a></li>
+    <li>Undergraduate Bulletin</li>
 </ul>
 ';
 
@@ -67,6 +67,7 @@ $page->head .= '
 <script type="text/javascript" src="/wdn/templates_3.0/scripts/plugins/ui/jQuery.ui.js"></script>
 <script type="text/javascript" src="'.$url.'templates/html/scripts/jQuery.toc.js"></script>
 <script type="text/javascript" src="'.$url.'templates/html/scripts/all.js"></script>
+<link rel="home" href="'.$url.'" />
 ';
 
 $page->maincontentarea = '<div class="wdn_notice" id="officialMessage">
