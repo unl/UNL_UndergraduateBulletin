@@ -28,6 +28,8 @@ WDN.jQuery(document).ready(function($){
 			menuFaded = true;
 		}
 	}
+//Move the subhead above the notice
+	WDN.jQuery('h2.subhead').insertBefore('#officialMessage');
 //Deal with the Table of Contents for the majors pages.
 	WDN.jQuery("#toc_nav ol").click(
 		function() {
