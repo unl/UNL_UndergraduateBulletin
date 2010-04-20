@@ -10,7 +10,7 @@ class UNL_UndergraduateBulletin_SubjectAreas extends ArrayIterator
     
     function current()
     {
-        $data = explode(',', parent::current());
+        $data = str_getcsv(parent::current(), ',', '\'');
         if (isset($data[1])) {
             return $data[1];
         }
@@ -19,7 +19,7 @@ class UNL_UndergraduateBulletin_SubjectAreas extends ArrayIterator
     
     function key()
     {
-        $data = explode(',', parent::current());
+        $data = str_getcsv(parent::current(), ',', '\'');
         return $data[0];
     }
 }
