@@ -93,7 +93,7 @@ class UNL_UndergraduateBulletin_College_Description
                 }
                 
                 // now loop through all following siblings until we find the next section
-                foreach ($nodes[0]->xpath('following::*') as $node) {
+                foreach ($nodes[0]->xpath('following-sibling::*') as $node) {
                     // Check to see if we've captured anything yet.
                     if (!empty($content)) {
                         // Loop through this node's attributes for the class
