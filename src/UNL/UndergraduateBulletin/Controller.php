@@ -23,6 +23,7 @@ class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_
         'subjects'      => 'UNL_UndergraduateBulletin_SubjectAreas',
         'course'        => 'UNL_UndergraduateBulletin_Listing',
         'college'       => 'UNL_UndergraduateBulletin_College',
+        'colleges'      => 'UNL_UndergraduateBulletin_CollegeList',
         'searchcourses' => 'UNL_UndergraduateBulletin_CourseSearch',
         'searchmajors'  => 'UNL_UndergraduateBulletin_MajorSearch',
         'search'        => 'UNL_UndergraduateBulletin_Search',

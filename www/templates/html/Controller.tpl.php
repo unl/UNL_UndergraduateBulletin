@@ -36,7 +36,7 @@ $page->navlinks     = '
             <li><a href="#">Policy 6</a></li>
         </ul>
     </li>
-    <li><a href="#">Academic Colleges</a>
+    <li><a href="'.$url.'college/">Academic Colleges</a>
     	<ul>
             <li><a href="'.$url.'college/Agricultural+Sciences+%26+Natural+Resources">Agricultural Sciences &amp; Natural Resources</a></li>
             <li><a href="'.$url.'college/Architecture">Architecture</a></li>

@@ -9,7 +9,9 @@ class UNL_UndergraduateBulletin_CollegeList extends FilterIterator
         'CBA'   => 'Business Administration',
         'CEHS'  => 'Education & Human Sciences',
         'FPA'   => 'Fine & Performing Arts',
-        'PACS'  => 'Public Affairs & Community Service'
+        'LIB'   => 'Libraries',
+        'PACS'  => 'Public Affairs & Community Service',
+        'ROTC'  => 'Reserve Officers\' Training Corps (ROTC)',
     );
 
     function __construct($options = array())
