@@ -15,11 +15,15 @@ $page->breadcrumbs  = '
 
 $page->navlinks     = '
 <ul>
-    <li><a href="'.$url.'">Bulletin Home</a></li>
     <li><a href="'.$url.'major/">Majors</a>
         <ul>
-            <li><a href="'.$url.'major/Architecture">Architecture</a></li>
-            <li><a href="'.$url.'major/Agribusiness">Agribusiness</a></li>
+            <li><a href="'.$url.'major/search">Search for a Major</a></li>
+        </ul>
+    </li>
+    <li><a href="'.$url.'courses/">Courses</a>
+        <ul>
+            <li><a href="'.$url.'courses/search">Search for a Course</a></li>
+            <li><a href="#">Course Abbreviations</a></li>
         </ul>
     </li>
     <li><a href="#">Academic Policies</a>
@@ -51,10 +55,15 @@ $page->navlinks     = '
             <!--
             <li><a href="#">Journalism &amp; Mass Communications</a></li>
             -->
-            <li><a href="'.$url.'college/Libraries">Libraries</a></li>
+            
+        </ul>
+    </li>
+    <li><a href="#">Other Areas</a>
+    	<ul>
+    		<li><a href="'.$url.'college/Libraries">Libraries</a></li>
             <li><a href="'.$url.'college/Public+Affairs+%26+Community+Service">Public Affairs &amp; Community Service</a></li>
             <li><a href="'.$url.'college/Reserve+Officers%27+Training+Corps+%28ROTC%29">Reserve Officers\' Training Corps (ROTC)</a></li>
-        </ul>
+    	</ul>
     </li>
     
 </ul>';
