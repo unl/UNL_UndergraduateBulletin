@@ -13,6 +13,6 @@ UNL_UndergraduateBulletin_Controller::setReplacementData('doctitle', 'UNL | Unde
 <ul>
 <?php
 foreach ($context as $college) {
-    echo '<li><a href="'.$url.'college/'.urlencode($college->getRaw('name')).'">'.$college->name.'</li>';
+    echo '<li><a href="'.$url.'college/'.urlencode($college->getRaw('name')).'">'.$college->name.'</a></li>';
 } ?>
 </ul>
