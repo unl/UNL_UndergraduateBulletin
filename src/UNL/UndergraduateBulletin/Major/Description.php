@@ -84,7 +84,7 @@ class UNL_UndergraduateBulletin_Major_Description
 
         $body = $simplexml->xpath('//default:body');
 
-        $this->description = UNL_UndergraduateBulletin_EPUB_Utilities::format($body[0]->asXML());
+        $this->description = UNL_UndergraduateBulletin_EPUB_Utilities::format($body[0]->children()->asXML());
     }
     
     public function parseQuickPoints($simplexml)

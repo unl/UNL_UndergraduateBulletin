@@ -44,7 +44,7 @@ class UNL_UndergraduateBulletin_College_Description
         
         $this->parseQuickPoints();
 
-        $this->description = UNL_UndergraduateBulletin_EPUB_Utilities::format($body[0]->asXML());
+        $this->description = UNL_UndergraduateBulletin_EPUB_Utilities::format($body[0]->children()->asXML());
     }
     
     function parseQuickPoints()
