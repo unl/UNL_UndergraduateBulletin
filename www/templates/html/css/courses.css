@@ -53,12 +53,12 @@ dt:first-of-type {padding:0 !important;}
 
 .revealed {background-color:#fffea8;}
 
-#subjectListing li {
+#subjectListing li, #majorListing li {
 	list-style-image: url('images/course.png');
 	border-bottom:1px solid #ececec;
 	padding:5px;
 }
-#subjectListing li:hover {
+#subjectListing li:hover, #majorListing li:hover {
 	background:#d7f0f5;
 	background-image:-webkit-gradient(
     	linear,
