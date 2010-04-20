@@ -1,5 +1,5 @@
 <?php
-class UNL_UndergraduateBulletin_CourseSearch
+class UNL_UndergraduateBulletin_CourseSearch implements Countable
 {
 
     public $results;
@@ -18,6 +18,11 @@ class UNL_UndergraduateBulletin_CourseSearch
                                         $this->options['offset'],
                                         $this->options['limit']);
 
+    }
+
+    function count()
+    {
+        return count($this->results);
     }
 }
 ?>
