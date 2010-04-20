@@ -1,9 +1,10 @@
 #maincontent div.wdn_notice div.message {
-	background:url(/wdn/templates_3.0/css/content/images/notice/information.png) no-repeat top left;
+	background:url(images/information.png) no-repeat top left;
 }
 #maincontent div.wdn_notice {
     border: 1px solid #cad094;
     background:#f8f9d1;
+    display:block;
 }
 #maincontent div.wdn_notice div.minimize a, #maincontent div.wdn_notice div.maximize a, #maincontent div.wdn_notice div.minimize a:hover, #maincontent div.wdn_notice div.maximize a:hover {
 	border: 1px solid #cad094;
@@ -12,4 +13,25 @@
 #maincontent div.wdn_notice div.minimize a:hover, #maincontent div.wdn_notice div.maximize a:hover {
 	border: 1px solid #aaaf7d;
 
+}
+#maincontent div.wdn_notice.small {
+	height:22px;
+	padding:4px;
+}
+#maincontent div.wdn_notice.small div.maximize {
+	margin-right:6px;
+}
+#maincontent div.wdn_notice.small div.message {
+	min-height: 0px;
+	padding:4px 5px 0 68px;	
+	background:url(images/information.png) no-repeat 0 -467px;
+}
+#maincontent div.wdn_notice.small .message h4 {
+	font-size:1.2em;
+	padding-top:0;
+	display:inline-block;
+	font-weight:bold;
+}
+#maincontent div.wdn_notice.small .message p {
+	display:none;
 }

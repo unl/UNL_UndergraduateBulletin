@@ -64,27 +64,31 @@ WDN.jQuery(document).ready(function($){
     //Deal with the interactivity behind the wdn_notice
 	var c = WDN.getCookie('notice');
 	if (c) {
-		$('#officialMessage').wrap("<div class='col right wdn_notice_wrapper'></div>");
-		$('#officialMessage').children("div.message").children("p").children("a").insertAfter("div.message p").siblings("p").hide();
-		$('#officialMessage').children(".minimize").removeClass("minimize").addClass("maximize");
+		$('#officialMessage').addClass('small');
+		$('#officialMessage .minimize').removeClass('minimize').addClass('maximize');
+		$("#officialMessage div.message p").hide().children("a").insertAfter("div.message h4").css({'margin-left' : '10px', 'font-size' : '0.8em'});
 		setTOCLocations();
 	};
 	
     $(".minimize, .maximize").click(function() {
-    	if ($(this).parent('.wdn_notice').parent('.wdn_notice_wrapper').length > 0) { //let's show the full notice
-    		$(this).parent(".wdn_notice").slideUp("slow", function() {
-    			$(this).unwrap(".wdn_notice_wrapper");
+    	if ($(this).parent('.wdn_notice').hasClass('small')) { //let's show the full notice
+    		$(this).parent(".wdn_notice").fadeOut("fast", function() {
     			$(this).children("div.message").children("a").appendTo("div.message p");
-    			$("div.message p").show();
+    			$(this).children("div.message").children("p").show().children("a").appendTo("div.message p").css({'margin-left' : '0', 'font-size' : '1em'});
     			$(this).children(".maximize").removeClass("maximize").addClass("minimize");
-    			$(this).slideDown("slow", function() {setTOCLocations()});
+				$(this).removeClass("small");
+    			$(this).fadeIn("fast", function() {
+    				setTOCLocations()
+    			});
     		});
     	} else {
-    		$(this).parent(".wdn_notice").slideUp("slow", function() { //let's hide the full notice
-    			$(this).wrap("<div class='col right wdn_notice_wrapper'></div>"); //wrap in a col, floated right
-    			$(this).children("div.message").children("p").children("a").insertAfter("div.message p").siblings("p").hide();
+    		$(this).parent(".wdn_notice").fadeOut("fast", function() { //let's hide the full notice
+    			$(this).children("div.message").children("p").hide().children("a").insertAfter("div.message h4").css({'margin-left' : '10px', 'font-size' : '0.8em'});
     			$(this).children(".minimize").removeClass("minimize").addClass("maximize");
-    			$(this).slideDown("slow", function() {setTOCLocations()});
+				$(this).addClass("small");
+    			$(this).fadeIn("fast", function() {
+    				setTOCLocations()
+    			});
     			WDN.setCookie('notice', 'y', 86400);
     		});
     	}

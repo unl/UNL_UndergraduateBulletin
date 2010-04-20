@@ -23,7 +23,7 @@ $page->navlinks     = '
     <li><a href="'.$url.'courses/">Courses</a>
         <ul>
             <li><a href="'.$url.'courses/search">Search for a Course</a></li>
-            <li><a href="#">Course Abbreviations</a></li>
+            <li><a href="'.$url.'courses/">Course Abbreviations</a></li>
         </ul>
     </li>
     <li><a href="#">Academic Policies</a>
