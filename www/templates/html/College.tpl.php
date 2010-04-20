@@ -1,6 +1,7 @@
 <?php
 $url = UNL_UndergraduateBulletin_Controller::getURL();
 UNL_UndergraduateBulletin_Controller::setReplacementData('doctitle', 'UNL | Undergraduate Bulletin | '.$context->name);
+UNL_UndergraduateBulletin_Controller::setReplacementData('pagetitle', '<h2>'.$context->name.'</h2>');
 UNL_UndergraduateBulletin_Controller::setReplacementData('breadcrumbs', '
 <ul>
     <li><a href="http://www.unl.edu/">UNL</a></li>
@@ -9,7 +10,6 @@ UNL_UndergraduateBulletin_Controller::setReplacementData('breadcrumbs', '
 </ul>
 ');
 ?>
-<h1><?php echo $context->name; ?></h1>
 <div class="three_col left">
     <div id="toc_nav">
         <a href="#" id="tocContent">Contents</a>

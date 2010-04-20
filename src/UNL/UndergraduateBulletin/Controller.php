@@ -78,12 +78,21 @@ class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_
         if (isset(self::$replacement_data['breadcrumbs'])
             && strstr($data, '<!-- InstanceBeginEditable name="breadcrumbs" -->')) {
 
-            $breadcrumb_start = strpos($data, '<!-- InstanceBeginEditable name="breadcrumbs" -->');
-            $breadcrumb_end = strpos($data, '<!-- InstanceEndEditable -->', $breadcrumb_start);
+            $start = strpos($data, '<!-- InstanceBeginEditable name="breadcrumbs" -->');
+            $end = strpos($data, '<!-- InstanceEndEditable -->', $start);
 
-            $data = substr($data, 0, $breadcrumb_start).self::$replacement_data['breadcrumbs'].substr($data, $breadcrumb_end);
+            $data = substr($data, 0, $start).self::$replacement_data['breadcrumbs'].substr($data, $end);
         }
-        
+
+        if (isset(self::$replacement_data['pagetitle'])
+            && strstr($data, '<!-- InstanceBeginEditable name="pagetitle" -->')) {
+
+            $start = strpos($data, '<!-- InstanceBeginEditable name="pagetitle" -->');
+            $end = strpos($data, '<!-- InstanceEndEditable -->', $start);
+
+            $data = substr($data, 0, $start).self::$replacement_data['pagetitle'].substr($data, $end);
+            
+        }
         return $data;
     }
     
