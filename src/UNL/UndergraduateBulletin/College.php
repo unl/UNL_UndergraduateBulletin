@@ -17,6 +17,23 @@ class UNL_UndergraduateBulletin_College
                 return $this->getDescription();
             case 'majors':
                 return new UNL_UndergraduateBulletin_College_Majors(array('college'=>$this));
+            case 'abbreviation':
+                switch($this->name) {
+                    case 'Business Administration':
+                        return 'CBA';
+                    case 'Education & Human Sciences':
+                        return  'CEHS';
+                    case 'Agricultural Sciences & Natural Resources':
+                        return  'CASNR';
+                    case 'Fine & Performing Arts':
+                        return  'FPA';
+                    case 'Architecture':
+                        return 'ARCH';
+                    case 'Public Affairs & Community Service':
+                        return 'PACS';
+                    default:
+                        throw new Exception('I don\'t know the abbreviation for '.$this->name);
+                }
         }
         throw new Exception('Unknown member var! '.$var);
     }

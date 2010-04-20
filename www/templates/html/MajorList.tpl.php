@@ -11,7 +11,18 @@ UNL_UndergraduateBulletin_Controller::setReplacementData('doctitle', 'UNL | Unde
 ?>
 <h1>Select A Major or Area of Study</h1>
 <ul>
-    <?php foreach ($context as $major): ?>
-    <li><a href="<?php echo $url; ?>major/<?php echo urlencode($major->getRaw('title')); ?>"><?php echo $major->title; ?></a></li>
+    <?php foreach ($context as $major):
+    $class = '';
+    if (isset($major->description->quickpoints['Minor Available'])) {
+        if (preg_match('/^Yes/', $major->description->quickpoints['Minor Available'])) {
+            $class .= 'minorAvailable ';
+        }
+    }
+    
+    if (isset($major->college)) {
+        $class .= $major->college->abbreviation.' ';
+    }
+    ?>
+    <li class="<?php echo trim($class); ?>"><a href="<?php echo $url; ?>major/<?php echo urlencode($major->getRaw('title')); ?>"><?php echo $major->title; ?></a></li>
     <?php endforeach; ?>
 </ul>
