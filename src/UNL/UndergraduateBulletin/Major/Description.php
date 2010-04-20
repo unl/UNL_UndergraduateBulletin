@@ -2,8 +2,8 @@
 class UNL_UndergraduateBulletin_Major_Description
 {
     protected static $epub_files = array(
-        'Agribusiness'                                  => 'Agribusiness (College of Agricultural Sciences and Natural Resources)',
-        'Agribusiness CBA'                              => 'Agribusiness (College of Business Administration)',
+        'Agribusiness'                                  => 'Agribusiness (CASNR)',
+        'Agribusiness CBA'                              => 'Agribusiness (CBA)',
         'Art Education K-12'                            => 'Art Education (K-12)',
         'Biology 7-12'                                  => 'Biology (7-12)',
         'Chemistry 7-12'                                => 'Chemistry (7-12)',
@@ -18,8 +18,8 @@ class UNL_UndergraduateBulletin_Major_Description
         'English 7-12'                                  => 'English (7-12)',
         'Family and Consumer Science 7-12'              => 'Family & Consumer Science Education (7-12)',
         'French Education 7-12'                         => 'French Education (7-12)',
-        'Hospitality Restaurant and Tourism Management' => 'Hospitality, Restaurant, & Tourism Management (College of Agricultural Sciences and Natural Resources)',
-        'Hospitality_Restaurant and Tourism Management' => 'Hospitality, Restaurant & Tourism Management (College of Education and Human Sciences)',
+        'Hospitality Restaurant and Tourism Management' => 'Hospitality, Restaurant, & Tourism Management (CASNR)',
+        'Hospitality_Restaurant and Tourism Management' => 'Hospitality, Restaurant & Tourism Management (CEHS)',
         'Journalism_Mass Comm _English 7-12'            => 'Journalism & Mass Communication & English (7-12)',
         'Language Arts 7-12'                            => 'Language Arts (7-12)',
         'Latin Education 7-12'                          => 'Latin Education (7-12)',
