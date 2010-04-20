@@ -77,6 +77,7 @@ $page->head .= '
 <script type="text/javascript" src="'.$url.'templates/html/scripts/jQuery.toc.js"></script>
 <script type="text/javascript" src="'.$url.'templates/html/scripts/bulletin.functions.js"></script>
 <link rel="home" href="'.$url.'" />
+<link rel="search" href="'.$url.'search/" />
 ';
 
 $page->maincontentarea = '<div class="wdn_notice" id="officialMessage">

@@ -24,7 +24,8 @@ class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_
         'course'        => 'UNL_UndergraduateBulletin_Listing',
         'college'       => 'UNL_UndergraduateBulletin_College',
         'searchcourses' => 'UNL_UndergraduateBulletin_CourseSearch',
-        'searchmajors'  => 'UNL_UndergraduateBulletin_MajorSearch'
+        'searchmajors'  => 'UNL_UndergraduateBulletin_MajorSearch',
+        'search'        => 'UNL_UndergraduateBulletin_Search',
         );
     
     protected static $replacement_data = array();

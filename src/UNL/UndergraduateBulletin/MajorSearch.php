@@ -1,7 +1,7 @@
 <?php
 class UNL_UndergraduateBulletin_MajorSearch extends ArrayIterator
 {
-    public $options = array('q');
+    public $options = array('q'=>'');
     
     function __construct($options = array())
     {
