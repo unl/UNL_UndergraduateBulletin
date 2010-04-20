@@ -6,6 +6,7 @@
         <fieldset class="groups">
             <legend><span>Groups</span></legend>
             <ol>
+            	<li><input type="checkbox" checked="checked" class="filterAll" id="filterAllGroups" name="all" value="all" /><label for="filterAllGroups">All groups</label></li>
                 <?php foreach ($context->groups as $group) : ?>
                 <li>
                     <div class="element">
@@ -20,7 +21,7 @@
         <fieldset class="formats">
             <legend><span>Course Formats</span></legend>
             <ol>
-               <li><input type="checkbox" checked="checked" id="filterAll" name="all" value="all" /><label for="filterAll">All formats</label></li>
+               <li><input type="checkbox" checked="checked" class="filterAll" id="filterAllFormats" name="all" value="all" /><label for="filterAllFormats">All formats</label></li>
                 <?php foreach (array(
 'lec'=>'Lecture',
 'lab'=>'Lab',
@@ -41,7 +42,7 @@
         <fieldset class="ace_outcomes">
             <legend><span>ACE Outcomes</span></legend>
             <ol>
-                <li><input type="checkbox" id="filterAllACE" name="allace" value="ace" /><label for="filterAllACE">All ACE</label></li>
+                <li><input type="checkbox" id="filterAllACE" class="filterAll" checked="checked" name="allace" value="all" /><label for="filterAllACE">All ACE</label></li>
                 <?php for ($i=1;$i<=10;$i++) : ?>
                 <li>
                     <div class="element">

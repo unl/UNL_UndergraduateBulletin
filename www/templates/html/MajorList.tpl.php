@@ -16,16 +16,18 @@ UNL_UndergraduateBulletin_Controller::setReplacementData('doctitle', 'UNL | Unde
         <fieldset class="formats">
             <legend><span>College</span></legend>
             <ol>
-               <li><input type="checkbox" checked="checked" id="filterAll" name="all" value="all" /><label for="filterAll">All colleges</label></li>
+               <li><input type="checkbox" checked="checked" id="filterAllCollege" class="filterAll" name="all" value="all" /><label for="filterAllCollege">All colleges</label></li>
                 <?php foreach(new UNL_UndergraduateBulletin_CollegeList() as $abbreviation=>$college): ?>
-                <li><input type="checkbox" id="filter<?php echo $abbreviation; ?>" name="<?php echo $abbreviation; ?>" value="<?php echo $abbreviation; ?>" /><?php echo $college->name; ?></li>
+                <li><input type="checkbox" id="filter<?php echo $abbreviation; ?>" name="<?php echo $abbreviation; ?>" value="<?php echo $abbreviation; ?>" />
+                	<label for="filter<?php echo $abbreviation; ?>"><?php echo $college->name; ?></label>
+                </li>
                 <?php endforeach; ?>
             </ol>
         </fieldset>
         <fieldset class="formats">
             <legend><span>Minor Available</span></legend>
             <ol>
-               <li><input type="checkbox" checked="checked" id="filterAll" name="all" value="all" /><label for="filterAll">All</label></li>
+               <li><input type="checkbox" checked="checked" id="filterAllMinor" class="filterAll" name="all" value="all" /><label for="filterAllMinor">All</label></li>
                <li><input type="checkbox" id="filterMinorAvailable" name="minorAvailable" value="minorAvailable" /><label for="filterMinorAvailable">Yes</label></li>
             </ol>
         </fieldset>
@@ -34,7 +36,7 @@ UNL_UndergraduateBulletin_Controller::setReplacementData('doctitle', 'UNL | Unde
 </div>
 <div class="three_col right">
     <h1>Select A Major or Area of Study</h1>
-    <ul>
+    <ul id="majorListing">
         <?php foreach ($context as $major):
         $class = '';
         if ($major->minorAvailable()) {
