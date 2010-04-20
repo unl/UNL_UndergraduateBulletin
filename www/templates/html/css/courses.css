@@ -53,12 +53,15 @@ dt:first-of-type {padding:0 !important;}
 
 .revealed {background-color:#fffea8;}
 
-#subjectListing li, #majorListing li {
+#subjectListing li, #majorListing li, #collegeListing li {
 	list-style-image: url('images/course.png');
 	border-bottom:1px solid #ececec;
 	padding:5px;
 }
-#subjectListing li:hover, #majorListing li:hover {
+#collegeListing li {
+	list-style-image: url('images/buildings.png');	
+}
+#subjectListing li:hover, #majorListing li:hover, #collegeListing li:hover {
 	background:#d7f0f5;
 	background-image:-webkit-gradient(
     	linear,

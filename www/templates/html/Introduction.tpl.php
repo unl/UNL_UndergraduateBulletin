@@ -3,7 +3,7 @@
     <p>The Undergraduate Bulletin contains information about all programs of undergraduate study at the University of Nebraska&ndash;Lincoln.</p>
     <div class="col left">
         <h3 class="sec_header">College Information</h3>
-        <ul>
+        <ul id="collegeListing">
             <li><a href="college/Agricultural+Sciences+%26+Natural+Resources">Agricultural Sciences &amp; Natural Resources</a></li>
             <li><a href="college/Architecture">Architecture</a></li>
             <li>Arts &amp; Sciences</li>
