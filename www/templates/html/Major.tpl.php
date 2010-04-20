@@ -2,8 +2,7 @@
 $url = UNL_UndergraduateBulletin_Controller::getURL();
 UNL_UndergraduateBulletin_Controller::setReplacementData('doctitle', 'UNL | Undergraduate Bulletin | '.$context->title);
 UNL_UndergraduateBulletin_Controller::setReplacementData('pagetitle', '<h2>'.$context->title.'</h2>');
-UNL_UndergraduateBulletin_Controller::setReplacementData('head', '<script type="text/javascript" src="'.$url.'templates/html/scripts/jQuery.toc.js"></script>
-                                                                  <script type="text/javascript" src="'.$url.'templates/html/scripts/majors.js"></script>');
+UNL_UndergraduateBulletin_Controller::setReplacementData('head', '<script type="text/javascript" src="'.$url.'templates/html/scripts/jQuery.toc.js"></script>');
 UNL_UndergraduateBulletin_Controller::setReplacementData('breadcrumbs', '
 <ul>
     <li><a href="http://www.unl.edu/">UNL</a></li>
