@@ -14,7 +14,9 @@ UNL_UndergraduateBulletin_Controller::setReplacementData('breadcrumbs', '
 <h2 class="subhead"><?php echo $context->college->name; ?></h2>
 <ul class="wdn_tabs disableSwitching">
     <li class="<?php echo ($parent->context->options['view']=='major')?'selected':''; ?>"><a href="<?php echo $url; ?>major/<?php echo urlencode($context->getRaw('title')); ?>"><span>Description</span></a></li>
+    <?php if (count($context->getRaw('subjectareas'))): ?>
     <li class="<?php echo ($parent->context->options['view']=='courses')?'selected':''; ?>"><a href="<?php echo $url; ?>major/<?php echo urlencode($context->getRaw('title')); ?>/courses"><span>Courses</span></a></li>
+    <?php endif; ?>
 </ul>
 <?php
 if ($context->options['view'] == 'major') {
