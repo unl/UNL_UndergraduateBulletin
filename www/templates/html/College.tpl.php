@@ -31,7 +31,7 @@ UNL_UndergraduateBulletin_Controller::setReplacementData('breadcrumbs', '
     if (count($majors)):
     ?>
     <h3 id="relatedMajors">Majors</h3>
-    <ul>
+    <ul id="majorListing">
         <?php echo implode(PHP_EOL, $majors); ?>
     </ul>
     <?php
