@@ -155,6 +155,7 @@ WDN.jQuery(document).ready(function($){
 				});
 				if (one_checked == false) { //no checkboxes are checked, so show all
 				    WDN.jQuery('.course').show();
+				    WDN.jQuery('#majorListing li').show();
 				    WDN.jQuery('.filterAll').attr('checked', 'checked');
 				}
 			}
