@@ -67,5 +67,15 @@ class UNL_UndergraduateBulletin_Major
         $major->title = $name;
         return $major;
     }
+    
+    function minorAvailable()
+    {
+        if (isset($this->description->quickpoints['Minor Available'])) {
+            if (preg_match('/^Yes/', $this->description->quickpoints['Minor Available'])) {
+                return true;
+            }
+        }
+        return false;
+    }
 }
 ?>

@@ -37,10 +37,8 @@ UNL_UndergraduateBulletin_Controller::setReplacementData('doctitle', 'UNL | Unde
     <ul>
         <?php foreach ($context as $major):
         $class = '';
-        if (isset($major->description->quickpoints['Minor Available'])) {
-            if (preg_match('/^Yes/', $major->description->quickpoints['Minor Available'])) {
-                $class .= 'minorAvailable ';
-            }
+        if ($major->minorAvailable()) {
+            $class .= 'minorAvailable ';
         }
         
         if (isset($major->college)) {

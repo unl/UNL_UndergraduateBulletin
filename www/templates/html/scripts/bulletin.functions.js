@@ -247,10 +247,10 @@ WDN.jQuery(document).ready(function($){
     				var rows = new Array();
     					for(var i=0; i<data.length; i++){
     						rows[i] = {
-    								label : '<span class="format">'+data[i]+'</span>' +
-    										'<span class="key" style="display:none;">'+data[i]+i+'</span>',
-    								value : data[i].replace(/\&amp;/g,'&'),
-    								key : data[i]+i
+    								label : '<span class="format">'+data[i]['title']+'</span>' +
+    										'<span class="key" style="display:none;">'+data[i]['title']+i+'</span>',
+    								value : data[i]['title'],
+    								key : data[i]['title']+i
     						}
 					    }
 				    response(rows);
