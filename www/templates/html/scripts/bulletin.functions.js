@@ -289,7 +289,7 @@ function fadeInTOCMenu() {
 function fadeOutTOCMenu() {
 	if (menuFaded) { //menu is displayed
 		WDN.log('fading menu out');
-		WDN.jQuery('#toc_nav').css({'position': 'relative'});
+		WDN.jQuery('#toc_nav').css({'position': 'relative', 'width': 'auto'});
 		WDN.jQuery('#toc_major_name').css({'display': 'none'});
 		WDN.jQuery('#toc_bar').fadeOut(200);
 		WDN.jQuery('#long_content').css({'margin-top':'35px'});
