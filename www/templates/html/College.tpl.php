@@ -16,12 +16,18 @@ UNL_UndergraduateBulletin_Controller::setReplacementData('doctitle', 'UNL | Unde
     </div>
 </div>
 <div class="col right">
+    <?php
+    $majors = array();
+    foreach($context->majors as $major) {
+        $majors[] = '<li><a href="'.$url.'major/'.urlencode($major->getRaw('title')).'">'.$major->title.'</a></li>';
+    }
+    if (count($majors)):
+    ?>
     <h3 id="relatedMajors">Majors</h3>
     <ul>
-    <?php
-    foreach($context->majors as $major) {
-        echo '<li><a href="'.$url.'major/'.urlencode($major->getRaw('title')).'">'.$major->title.'</a></li>';
-    }
-    ?>
+        <?php echo implode(PHP_EOL, $majors); ?>
     </ul>
+    <?php
+    endif;
+    ?>
 </div>
