@@ -58,7 +58,7 @@ $page->navlinks     = '
             
         </ul>
     </li>
-    <li><a href="#">Other Areas</a>
+    <li><a href="'.$url.'college/">Other Areas</a>
     	<ul>
     		<li><a href="'.$url.'college/Libraries">Libraries</a></li>
             <li><a href="'.$url.'college/Public+Affairs+%26+Community+Service">Public Affairs &amp; Community Service</a></li>

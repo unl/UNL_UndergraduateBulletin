@@ -9,7 +9,7 @@ UNL_UndergraduateBulletin_Controller::setReplacementData('doctitle', 'UNL | Unde
 </ul>
 ');
 ?>
-<h2>Colleges</h2>
+<h2>Colleges and Other Areas</h2>
 <ul>
 <?php
 foreach ($context as $college) {
