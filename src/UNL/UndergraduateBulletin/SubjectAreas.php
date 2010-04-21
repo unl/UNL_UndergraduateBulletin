@@ -1,11 +1,26 @@
 <?php
-class UNL_UndergraduateBulletin_SubjectAreas extends ArrayIterator
+class UNL_UndergraduateBulletin_SubjectAreas extends ArrayIterator implements UNL_UndergraduateBulletin_CacheableInterface
 {
-    function __construct()
+    function __construct($options = array())
     {
         parent::__construct(
             file(UNL_UndergraduateBulletin_Controller::getDataDir().'/creq/subject_codes.csv')
         );
+    }
+    
+    function getCacheKey()
+    {
+        return 'subjectareas';
+    }
+    
+    function preRun()
+    {
+        
+    }
+    
+    function run()
+    {
+        
     }
     
     function current()

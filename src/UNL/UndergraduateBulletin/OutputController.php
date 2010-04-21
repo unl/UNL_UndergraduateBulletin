@@ -1,35 +1,13 @@
 <?php
 
-class UNL_UndergraduateBulletin_OutputController
+class UNL_UndergraduateBulletin_OutputController extends Savvy
 {
-    static $output_template       = array();
-    
-    static $template_path         = '';
-    
-    static $directory_separator   = '_';
-    
-    static $classname_replacement = array(
-        'UNL_UndergraduateBulletin_',
-        'UNL_Services_CourseApproval_');
     
     static protected $cache;
     
-    static function display($mixed, $return = false)
+    function __construct($options = array())
     {
-        if (is_array($mixed)) {
-            return self::displayArray($mixed, $return);
-        }
-        
-        if (is_object($mixed)) {
-            return self::displayObject($mixed, $return);
-        }
-        
-        if ($return) {
-            return $mixed;
-        }
-        
-        echo $mixed;
-        return true;
+        parent::__construct();
     }
     
     static public function setCacheInterface(UNL_UndergraduateBulletin_CacheInterface $cache)
@@ -45,25 +23,7 @@ class UNL_UndergraduateBulletin_OutputController
         return self::$cache;
     }
     
-    static function displayArray($mixed, $return = false)
-    {
-        $output = '';
-        foreach ($mixed as $m) {
-            if ($return) {
-                $output .= self::display($m, true);
-            } else {
-                self::display($m, true);
-            }
-        }
-        
-        if ($return) {
-            return $output;
-        }
-        
-        return true;
-    }
-    
-    static function displayObject($object, $return = false)
+    public function renderObject($object, $template = null)
     {
         if ($object instanceof UNL_UndergraduateBulletin_CacheableInterface) {
             $key = $object->getCacheKey();
@@ -79,110 +39,23 @@ class UNL_UndergraduateBulletin_OutputController
                 $object->preRun(false);
                 $object->run();
                 
-                if ($return) {
-                    $data = self::sendObjectOutput($object, $return);
-                } else {
-                    self::sendObjectOutput($object, $return);
-                    $data = ob_get_contents();
-                }
+                $data = parent::renderObject($object, $template);
                 
                 if ($key !== false) {
                     self::getCacheInterface()->save($data, $key);
                 }
                 ob_end_clean();
             }
-        } else {
-            ob_start();
-            if ($return) {
-                $data = self::sendObjectOutput($object, $return);
-            } else {
-                self::sendObjectOutput($object, $return);
-                $data = ob_get_contents();
+            
+            if ($object instanceof UNL_UndergraduateBulletin_PostRunReplacements) {
+                $data = $object->postRun($data);
             }
-            ob_end_clean();
-        }
-
-
-        if ($object instanceof UNL_UndergraduateBulletin_PostRunReplacements) {
-            $data = $object->postRun($data);
-        }
-
-        if ($return) {
+            
             return $data;
         }
+        
+        return parent::renderObject($object, $template);
 
-        echo $data;
-        return true;
-
-    }
-    
-    static protected function sendObjectOutput(&$object, $return = false)
-    {
-        include_once 'Savant3.php';
-        $savant = new Savant3();
-        $savant->setPath('template', self::$template_path);
-        foreach (get_object_vars($object) as $key=>$var) {
-            $savant->$key = $var;
-        }
-        if ($object instanceof ArrayAccess) {
-            foreach ($object as $key=>$var) {
-                $savant->$key = $var;
-            }
-        }
-        if ($object instanceof Exception) {
-            $savant->code    = $object->getCode();
-            $savant->line    = $object->getLine();
-            $savant->file    = $object->getFile();
-            $savant->message = $object->getMessage();
-            $savant->trace   = $object->getTrace();
-        }
-        $templatefile = self::getTemplateFilename(get_class($object));
-        
-        if ($return) {
-            ob_start();
-            $savant->display($templatefile);
-            $output = ob_get_clean();
-            return $output;
-        }
-        $savant->display($templatefile);
-        return true;
-    }
-    
-    static function getTemplateFilename($class)
-    {
-        if (isset(self::$output_template[$class])) {
-            $class = self::$output_template[$class];
-        }
-        
-        $class = str_replace(self::$classname_replacement,
-                             '',
-                             $class);
-        $class = str_replace(self::$directory_separator,
-                             DIRECTORY_SEPARATOR,
-                             $class);
-        
-        
-        $templatefile = $class . '.tpl.php';
-        
-        return $templatefile;
-    }
-    
-    static public function setOutputTemplate($class_name, $template_name)
-    {
-        if (isset($template_name)) {
-            self::$output_template[$class_name] = $template_name;
-        }
-        return self::getTemplateFilename($class_name);
-    }
-    
-    static public function setDirectorySeparator($separator)
-    {
-        self::$directory_separator = $separator;
-    }
-    
-    static public function setClassNameReplacement($replacement)
-    {
-        self::$classname_replacement = $replacement;
     }
 }
 

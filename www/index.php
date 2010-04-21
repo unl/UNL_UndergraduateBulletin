@@ -13,22 +13,22 @@ UNL_Services_CourseApproval::setXCRIService(new UNL_UndergraduateBulletin_Course
 
 $controller = new UNL_UndergraduateBulletin_Controller(UNL_UndergraduateBulletin_Router::getRoute() + $_GET);
 
-$savvy = new Savvy();
-$savvy->setTemplatePath(dirname(__FILE__).'/templates/html');
+$outputcontroller = new UNL_UndergraduateBulletin_OutputController();
+$outputcontroller->setTemplatePath(dirname(__FILE__).'/templates/html');
 
 switch($controller->options['format']) {
     case 'xml':
         header('Content-type:text/xml');
-        $savvy->addTemplatePath(dirname(__FILE__).'/templates/xml');
+        $outputcontroller->addTemplatePath(dirname(__FILE__).'/templates/xml');
         break;
     case 'json':
         //header('Content-type: text/javascript');
-        $savvy->addTemplatePath(dirname(__FILE__).'/templates/json');
+        $outputcontroller->addTemplatePath(dirname(__FILE__).'/templates/json');
         break;
 }
-$savvy->setClassToTemplateMapper(new UNL_UndergraduateBulletin_ClassToTemplateMapper());
+$outputcontroller->setClassToTemplateMapper(new UNL_UndergraduateBulletin_ClassToTemplateMapper());
 
-$savvy->setEscape('htmlentities');
-$savvy->addFilters(array($controller, 'postRun'));
-echo $savvy->render($controller);
+$outputcontroller->setEscape('htmlentities');
+$outputcontroller->addFilters(array($controller, 'postRun'));
+echo $outputcontroller->render($controller);
 

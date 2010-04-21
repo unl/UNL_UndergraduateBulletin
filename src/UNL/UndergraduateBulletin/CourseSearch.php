@@ -1,5 +1,5 @@
 <?php
-class UNL_UndergraduateBulletin_CourseSearch implements Countable
+class UNL_UndergraduateBulletin_CourseSearch implements Countable, UNL_UndergraduateBulletin_CacheableInterface
 {
 
     public $results;
@@ -12,12 +12,25 @@ class UNL_UndergraduateBulletin_CourseSearch implements Countable
     {
         $this->options = $options + $this->options;
 
+    }
+    
+    function getCacheKey()
+    {
+        return 'coursesearch'.serialize($this->options);
+    }
+    
+    function preRun()
+    {
+        
+    }
+    
+    function run()
+    {
         $search = new UNL_Services_CourseApproval_Search();
 
         $this->results = $search->byAny($this->options['q'],
                                         $this->options['offset'],
                                         $this->options['limit']);
-
     }
 
     function count()

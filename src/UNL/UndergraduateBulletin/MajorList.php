@@ -1,10 +1,28 @@
 <?php
-class UNL_UndergraduateBulletin_MajorList extends ArrayIterator
+class UNL_UndergraduateBulletin_MajorList extends ArrayIterator  implements UNL_UndergraduateBulletin_CacheableInterface
 {
-    function __construct()
+    public $options = array('format'=>'html');
+
+    function __construct($options = array())
     {
+        $this->options = $options + $this->options;
         $majors = glob(UNL_UndergraduateBulletin_Controller::getDataDir().'/majors/*.epub');
         return parent::__construct($majors);
+    }
+    
+    function getCacheKey()
+    {
+        return 'majorlist'.$this->options['format'];
+    }
+    
+    function run()
+    {
+        
+    }
+    
+    function preRun()
+    {
+        
     }
     
     function current()

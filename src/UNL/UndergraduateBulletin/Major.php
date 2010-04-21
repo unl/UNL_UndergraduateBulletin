@@ -1,5 +1,5 @@
 <?php
-class UNL_UndergraduateBulletin_Major
+class UNL_UndergraduateBulletin_Major implements UNL_UndergraduateBulletin_CacheableInterface
 {
     
     public $title;
@@ -18,6 +18,20 @@ class UNL_UndergraduateBulletin_Major
         $this->options = $options;
     }
     
+    function getCacheKey()
+    {
+        return 'major'.$this->title.$this->options['view'];
+    }
+    
+    function preRun()
+    {
+        
+    }
+    
+    function run()
+    {
+        
+    }
     
     function __get($var)
     {

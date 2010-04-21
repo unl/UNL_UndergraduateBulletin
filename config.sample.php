@@ -14,4 +14,5 @@ set_include_path(dirname(__FILE__).'/src'.PATH_SEPARATOR.dirname(__FILE__).'/inc
 require_once 'UNL/Autoload.php';
 ini_set('display_errors', true);
 UNL_UndergraduateBulletin_Controller::$url = '/workspace/UNL_UndergraduateBulletin/www/';
+UNL_UndergraduateBulletin_OutputController::setCacheInterface(new UNL_UnderGraduateBulletin_CacheInterface_Mock());
 ?>

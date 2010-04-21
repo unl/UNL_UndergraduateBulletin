@@ -1,5 +1,5 @@
 <?php
-class UNL_UndergraduateBulletin_College
+class UNL_UndergraduateBulletin_College implements UNL_UndergraduateBulletin_CacheableInterface
 {
     public $name;
 
@@ -8,6 +8,21 @@ class UNL_UndergraduateBulletin_College
     function __construct($options = array())
     {
         $this->name = $options['name'];
+    }
+
+    function getCacheKey()
+    {
+        return 'college'.$this->name;
+    }
+
+    function run()
+    {
+        
+    }
+
+    function preRun()
+    {
+        
     }
 
     function __get($var)

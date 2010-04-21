@@ -1,5 +1,5 @@
 <?php
-class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_PostRunReplacements
+class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_PostRunReplacements, UNL_UndergraduateBulletin_CacheableInterface
 {
     /**
      * URL to this controller.
@@ -34,28 +34,37 @@ class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_
     function __construct($options = array())
     {
         $this->options = array_merge($this->options, $options);
-        try {
-            $this->run();
-        } catch(Exception $e) {
-            $this->output[] = $e;
-        }
+    }
+    
+    function getCacheKey()
+    {
+        return serialize($this->options);
+    }
+    
+    function preRun()
+    {
+        
     }
     
     function run()
     {
-        switch($this->options['format']) {
-        case 'partial':
-            UNL_UndergraduateBulletin_ClassToTemplateMapper::$output_template[__CLASS__] = 'Controller-partial';
-        case 'html':
-        default:
-            // Standard template works for html.
-            
-            break;
-        }
-        if (isset($this->view_map[$this->options['view']])) {
-            $this->output[] = new $this->view_map[$this->options['view']]($this->options);
-        } else {
-            $this->output[] = new Exception('Sorry, that view does not exist.');
+        try {
+            switch($this->options['format']) {
+            case 'partial':
+                UNL_UndergraduateBulletin_ClassToTemplateMapper::$output_template[__CLASS__] = 'Controller-partial';
+            case 'html':
+            default:
+                // Standard template works for html.
+                
+                break;
+            }
+            if (isset($this->view_map[$this->options['view']])) {
+                $this->output[] = new $this->view_map[$this->options['view']]($this->options);
+            } else {
+                $this->output[] = new Exception('Sorry, that view does not exist.');
+            }
+        } catch(Exception $e) {
+            $this->output[] = $e;
         }
     }
     
