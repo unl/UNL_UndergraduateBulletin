@@ -1,1 +1,25 @@
-This is the source for the UNL Undergraduate Bulletin website.
+This is the source for the 2010-2011 UNL Undergraduate Bulletin website.
+
+*** SETUP ***
+Required:
+PHP 5.3 & Phar extension
+
+The www dir is where the web files are stored, and should be the served root.
+Copy the www/sample.htaccess to www/.htaccess and configure as necessary.
+Copy the config.sample.php to config.inc.php.
+
+
+*** THE DATA ***
+Course data is pulled from the creq.unl.edu web service and is cached within 
+the data/creq directory. Run the update.sh script to retrieve the latest course
+data.
+
+College and major information is stored in the data directory and contains epub
+exports from Adobe InDesign. Judy Anderson maintains the content for these 
+files, and is repsonsible for updating them and re-exporting the epub files.
+
+Once a new epub file is generated, simply drop it in the respective directory.
+
+*** CACHED OUTPUT ***
+All output is cached within /tmp/unlcache_5174748813ed8803e7651fae9d2d077f_*
+files.
