@@ -12,7 +12,7 @@ UNL_UndergraduateBulletin_Controller::setReplacementData('breadcrumbs', '
 ?>
 <div class="three_col left">
     <div id="toc_nav">
-        <a href="#" id="tocContent">Contents</a>
+        <a href="#toc_nav" id="tocContent">Contents</a>
         <ol id="toc"><li>Intro</li></ol>
         <div id="toc_major_name"><?php echo $context->name; ?></div>
     </div>
