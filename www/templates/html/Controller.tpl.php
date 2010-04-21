@@ -43,7 +43,7 @@ $page->navlinks     = '
             <!--
             <li><a href="#">Arts &amp; Sciences</a></li>
             -->
-            <li><a href="'.$url.'college/Business+Administration">Business Adminsitration</a></li>
+            <li><a href="'.$url.'college/Business+Administration">Business Adminstration</a></li>
             <!--
             <li><a href="#">Division of General Studies</a></li>
             -->
