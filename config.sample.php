@@ -11,7 +11,7 @@ spl_autoload_register("autoload");
 ini_set('display_errors', true);
 error_reporting(E_ALL);
 
-set_include_path(dirname(__FILE__).'/src'.PATH_SEPARATOR.dirname(__FILE__).'/includes/php'.PATH_SEPARATOR.get_include_path());
+set_include_path(dirname(__FILE__).'/src'.PATH_SEPARATOR.dirname(__FILE__).'/includes/php');
 require_once 'UNL/Autoload.php';
 
 // Set this to the web root for the site

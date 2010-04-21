@@ -23,3 +23,21 @@ Once a new epub file is generated, simply drop it in the respective directory.
 *** CACHED OUTPUT ***
 All output is cached within /tmp/unlcache_5174748813ed8803e7651fae9d2d077f_*
 files.
+
+*** LIBRARIES ***
+Libraries are bundled within the includes directory. This is a Pyrus controlled
+registry of PEAR installable packages.
+
+php pyrus.phar includes list-packages
+
+The current bundled dependencies are:
+[channel phpsavant.com]:
+ Savvy
+[channel pear.unl.edu]:
+ UNL_Autoload
+ UNL_Cache_Lite
+ UNL_DWT
+ UNL_Templates
+
+To upgrade an individual package, use:
+php pyrus.phar includes upgrade unl/UNL_Autoload
