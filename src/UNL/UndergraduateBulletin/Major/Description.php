@@ -2,6 +2,7 @@
 class UNL_UndergraduateBulletin_Major_Description
 {
     protected static $epub_files = array(
+        // data/majors/{FILENAME}.epub                  => title displayed
         'Agribusiness'                                  => 'Agribusiness (CASNR)',
         'Agribusiness CBA'                              => 'Agribusiness (CBA)',
         'Art Education K-12'                            => 'Art Education (K-12)',
@@ -12,10 +13,12 @@ class UNL_UndergraduateBulletin_Major_Description
         'CRIM and CRIM JUS'                             => 'Criminology and Criminal Justice',
         'Early Care and Education_Birth-K'              => 'Early Care & Education (Birth-Kindergarten)',
         'Earth Sciences 7-12'                           => 'Earth Sciences (7-12)',
+        'Economics'                                     => 'Economics (CBA)',
         'Elem Ed K-6_Deaf or Hard of Hearing PreProf'   => 'Elementary Education (K-6) & Deaf or Hard of Hearing (Pre-Professional)',
         'Elementary Education K-6'                      => 'Elementary Education (K-6)',
         'Elem Ed_Mild Mod Disabilties K-6'              => 'Elementary Education & Mild Moderate Disabilities (K-6)',
         'English 7-12'                                  => 'English (7-12)',
+        'Environmental Studies'                         => 'Environmental Studies (CASNR)',
         'Family and Consumer Science 7-12'              => 'Family & Consumer Science Education (7-12)',
         'French Education 7-12'                         => 'French Education (7-12)',
         'Hospitality Restaurant and Tourism Management' => 'Hospitality, Restaurant, & Tourism Management (CASNR)',
