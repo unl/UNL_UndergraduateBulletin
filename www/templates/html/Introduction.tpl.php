@@ -6,7 +6,7 @@
         <ul id="collegeListing">
             <li><a href="college/Agricultural+Sciences+%26+Natural+Resources">Agricultural Sciences &amp; Natural Resources</a></li>
             <li><a href="college/Architecture">Architecture</a></li>
-            <li>Arts &amp; Sciences</li>
+            <li><a href="college/Arts+%26+Sciences">Arts &amp; Sciences</a></li>
             <li><a href="college/Business+Administration">Business Adminsitration</a></li>
             <li>Division of General Studies</li>
             <li><a href="college/Education+%26+Human+Sciences">Education &amp; Human Sciences</a></li>
