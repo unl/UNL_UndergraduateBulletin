@@ -6,6 +6,7 @@ class UNL_UndergraduateBulletin_CollegeList extends FilterIterator
     static $colleges = array(
         'CASNR' => 'Agricultural Sciences & Natural Resources',
         'ARCH'  => 'Architecture',
+        'ASC'   => 'Arts & Sciences',
         'CBA'   => 'Business Administration',
         'CEHS'  => 'Education & Human Sciences',
         'FPA'   => 'Fine & Performing Arts',
@@ -27,7 +28,7 @@ class UNL_UndergraduateBulletin_CollegeList extends FilterIterator
     public static function getAbbreviation($name)
     {
         if (!in_array($name, self::$colleges)) {
-            throw new Exception('I don\'t know the abbreviation for '.$this->name);
+            throw new Exception('I don\'t know the abbreviation for '.$name);
         }
         $reversed = array_flip(self::$colleges);
         return $reversed[$name];

@@ -10,6 +10,7 @@ class UNL_UndergraduateBulletin_College_Description
     protected static $files = array(
         'Architecture'                              => 'ARCH College.epub/OEBPS/ARCH_College.xhtml',
         'Agricultural Sciences & Natural Resources' => 'CASNR College Page.epub/OEBPS/CASNR_College_Page.xhtml',
+        'Arts & Sciences'                           => 'ASC College page.epub/OEBPS/AandS.xhtml',
         'Business Administration'                   => 'CBA College page.epub/OEBPS/CBA_College_page.xhtml',
         'Education & Human Sciences'                => 'CEHS.epub/OEBPS/College_Page_test-CEHS.xhtml',
         'Fine & Performing Arts'                    => 'FPA College.epub/OEBPS/FPA_College.xhtml',

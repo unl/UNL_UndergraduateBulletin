@@ -44,7 +44,11 @@ UNL_UndergraduateBulletin_Controller::setReplacementData('doctitle', 'UNL | Unde
         }
         
         if (isset($major->college)) {
-            $class .= $major->college->abbreviation.' ';
+            try {
+                $class .= $major->college->abbreviation.' ';
+            } catch(Exception $e) {
+                echo '<!-- Unable to retieve college abbreviation '.$e->getMessage().' -->';
+            }
         }
         ?>
         <li class="<?php echo trim($class); ?>"><a href="<?php echo $url; ?>major/<?php echo urlencode($major->getRaw('title')); ?>"><?php echo $major->title; ?></a></li>

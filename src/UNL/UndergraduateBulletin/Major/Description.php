@@ -68,7 +68,14 @@ class UNL_UndergraduateBulletin_Major_Description
     function parseEPUB($title)
     {
         $file = self::getEpubFileByName($title);
-        $xhtml = file_get_contents($file);
+        
+        if (!file_exists($file)) {
+            throw new Exception('The file '.$file.' for '.$title.' does not exist.');
+        }
+        
+        if (!$xhtml = file_get_contents($file)) {
+            throw new Exception('Could not open ' . $file);
+        }
         $simplexml = simplexml_load_string($xhtml);
         
         // Fetch all namespaces
