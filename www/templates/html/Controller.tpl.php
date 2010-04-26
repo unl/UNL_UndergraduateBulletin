@@ -66,7 +66,6 @@ $page->navlinks     = '
     
 </ul>';
 $page->loadSharedCodeFiles();
-$page->addStylesheet('/wdn/templates_3.0/css/content/zenform.css');
 $page->addStylesheet('/wdn/templates_3.0/css/content/notice.css');
 $page->addStylesheet($url. 'templates/html/css/all.css');
 $page->head .= '
