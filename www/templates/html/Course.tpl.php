@@ -165,7 +165,7 @@
             echo  "<p class='prereqs'>Prereqs: ".UNL_UndergraduateBulletin_EPUB_Utilities::addCourseLinks($context->prerequisite)."</p>";
         }
         if (!empty($context->notes)) {
-            echo  "<p class='notes'>".$context->notes."</p>";
+            echo  "<p class='notes'>".UNL_UndergraduateBulletin_EPUB_Utilities::addCourseLinks($context->notes)."</p>";
         }
         echo  "<p class='description'>".iconv("UTF-8", "ISO-8859-1//TRANSLIT", $context->description)."</p>";
         
