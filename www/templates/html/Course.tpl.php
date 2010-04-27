@@ -97,7 +97,8 @@
         $class .= ' ace ace_'.implode(' ace_', $context->aceOutcomes);
     }
 
-    if ($parent->parent->context->options['view'] == 'course') {
+    if (isset($parent->parent->context->options)
+        && $parent->parent->context->options['view'] == 'course') {
         UNL_UndergraduateBulletin_Controller::setReplacementData('doctitle', 'UNL | Undergraduate Bulletin | '.$subject.' '.$listings.': '.$context->title);
         UNL_UndergraduateBulletin_Controller::setReplacementData('breadcrumbs', '
     <ul>
