@@ -1,5 +1,5 @@
 <?php
-class UNL_UndergraduateBulletin_Search
+class UNL_UndergraduateBulletin_Search implements UNL_UndergraduateBulletin_CacheableInterface
 {
     public $options = array('q'=>'');
 
@@ -19,9 +19,23 @@ class UNL_UndergraduateBulletin_Search
     {
         $this->options = $options + $this->options;
 
-        $this->courses = new UNL_UndergraduateBulletin_CourseSearch($this->options);
-        $this->majors  = new UNL_UndergraduateBulletin_MajorSearch($this->options);
+    }
+    
+    function getCacheKey()
+    {
+        return 'overallsearch'.$this->options['q'].$this->options['format'];
+    }
+    
+    function preRun()
+    {
 
+    }
+    
+    function run()
+    {
+        $this->courses = new UNL_UndergraduateBulletin_CourseSearch($this->options);
+        $this->courses->run();
+        $this->majors  = new UNL_UndergraduateBulletin_MajorSearch($this->options);
     }
 
 }

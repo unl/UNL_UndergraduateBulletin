@@ -25,7 +25,9 @@ class UNL_UndergraduateBulletin_OutputController extends Savvy
     
     public function renderObject($object, $template = null)
     {
-        if ($object instanceof UNL_UndergraduateBulletin_CacheableInterface) {
+        if ($object instanceof UNL_UndergraduateBulletin_CacheableInterface
+            || ($object                    instanceof Savvy_ObjectProxy
+                && $object->getRawObject() instanceof UNL_UndergraduateBulletin_CacheableInterface)) {
             $key = $object->getCacheKey();
             
             // We have a valid key to store the output of this object.
