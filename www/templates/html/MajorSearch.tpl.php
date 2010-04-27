@@ -1,14 +1,16 @@
 <?php
-$url = UNL_UndergraduateBulletin_Controller::getURL();
-UNL_UndergraduateBulletin_Controller::setReplacementData('doctitle', 'UNL | Undergraduate Bulletin | Majors | Search');
+if ($context->options['view'] == 'searchmajors') {
+    $url = UNL_UndergraduateBulletin_Controller::getURL();
+    UNL_UndergraduateBulletin_Controller::setReplacementData('doctitle', 'UNL | Undergraduate Bulletin | Majors | Search');
     UNL_UndergraduateBulletin_Controller::setReplacementData('breadcrumbs', '
-<ul>
-    <li><a href="http://www.unl.edu/">UNL</a></li>
-    <li><a href="'.$url.'">Undergraduate Bulletin</a></li>
-    <li><a href="'.$url.'majors/">Majors/Areas of Study</a></li>
-    <li>Search</li>
-</ul>
-');
+    <ul>
+        <li><a href="http://www.unl.edu/">UNL</a></li>
+        <li><a href="'.$url.'">Undergraduate Bulletin</a></li>
+        <li><a href="'.$url.'majors/">Majors/Areas of Study</a></li>
+        <li>Search</li>
+    </ul>
+    ');
+}
 if ($context->options['format'] != 'partial') {
     echo $savvy->render('', 'MajorSearchForm.tpl.php');
 }
