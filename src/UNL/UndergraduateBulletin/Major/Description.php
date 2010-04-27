@@ -32,6 +32,8 @@ class UNL_UndergraduateBulletin_Major_Description
         'Natural Science 7-12'                          => 'Natural Science (7-12)',
         'Nutrition_Exercise & Health Sciences'          => 'Nutrition, Exercise & Health Sciences',
         'Physics 7-12'                                  => 'Physics (7-12)',
+        'Plant Biology'                                 => 'Plant Biology (CASNR)',
+        'Plant Biology (ASC)'                           => 'Plant Biology (ASC)',
         'Russian Education 7-12'                        => 'Russian Education (7-12)',
         'Social Science 7-12'                           => 'Social Science (7-12)',
         'Spanish Education 7-12'                        => 'Spanish Education (7-12)',
@@ -180,7 +182,7 @@ class UNL_UndergraduateBulletin_Major_Description
         }
         
         if ($new) {
-            $name = preg_replace('/\s+[A-Z]+$/', '', $name);
+            $name = preg_replace('/\s+\(?[A-Z]+\)?$/', '', $name);
             return 'phar://'.$epub.'/OEBPS/'.str_replace(' ', '_', $name).'.xhtml';
         }
     }
