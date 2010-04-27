@@ -643,14 +643,14 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>20103</effectiveSemester>
+    <effectiveSemester>20111</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">
         <span style="font-size: 11pt; font-family: ">A grade of 'P' or 'C' or better in CSCE 101, 105, 150, 155, or 155H, or detailed knowledge of a high-level programming language; parallel CSCE 230L. </span>
       </div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">ACE SLO 8 is met only if CSCE 230 and, either CSCE 486 or CSCE 487 are completed.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">ACE SLO 8 is met only if CSCE 230 and, either CSCE 486 or CSCE 488 are completed.</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">
@@ -3311,12 +3311,12 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20102</effectiveSemester>
+    <effectiveSemester>20111</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">CSCE 361.</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 486 must be taken exactly one semester before CSCE 487.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 486 must be taken exactly one semester before CSCE 487. ACE SLO 8 is met only if CSCE 230 and, either CSCE 486 or CSCE 488 are completed.</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Preparation for the senior design project. Professional practice through familiarity with current tools, resources, and technologies. Professional standards, practices and ethics, and the oral and written report styles used specifically in the field of computer science.</div>
@@ -3396,12 +3396,12 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20102</effectiveSemester>
+    <effectiveSemester>20111</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">JGEN 200; ELEC 362 and 475, or parallel; CSCE 430/830 or parallel; formal admission to College of Engineering.</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 488 is a preparation course for the computer engineering Senior Design Project (CSCE 489). CSCE 488 and 489 are a sequence of courses that are to be taken in consecutive terms.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 488 is a preparation course for the computer engineering Senior Design Project (CSCE 489). CSCE 488 and 489 are a sequence of courses that are to be taken in consecutive terms. ACE SLO 8 is met only if CSCE 230 and, either CSCE 486 or CSCE 488 are completed.</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Professional practice through familiarity and practice with current tools, resources, and technologies; professional standards, practices, and ethics; and oral and written report styles used in the computer engineering field.</div>
@@ -3640,10 +3640,14 @@
         <subject>CSCE</subject>
         <courseNumber>498</courseNumber>
       </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>CSCE</subject>
+        <courseNumber>898</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <effectiveSemester>20111</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Senior or graduate standing.</div>
     </prerequisite>
@@ -3655,15 +3659,22 @@
     </campuses>
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
+      <deliveryMethod>Web</deliveryMethod>
     </deliveryMethods>
     <termsOffered>
       <term>Fall</term>
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>ind</type>
+      </activity>
+    </activities>
     <credits>
-      <credit type="Single Value">3</credit>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">6</credit>
+      <credit type="Per Career Limit">6</credit>
     </credits>
   </course>
 </courses>

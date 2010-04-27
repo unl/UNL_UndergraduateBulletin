@@ -557,90 +557,6 @@
     </credits>
   </course>
   <course>
-    <title>Mathematics for Elementary School Teachers</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>MATH</subject>
-        <courseNumber>200</courseNumber>
-        <courseGroup>Introductory Mathematics Courses</courseGroup>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>MATH</subject>
-        <courseNumber>800</courseNumber>
-        <courseGroup>Introductory Mathematics Courses</courseGroup>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Undergraduates must be admitted to the College of Education and Human Sciences or the child development program of CEHS; successful completion of the PPST; and removal of any mathematics entrance deficiencies.</div>
-    </prerequisite>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Graduate students are admitted by permission. Credit toward the degree may be earned in only one of: MATH 200, 300, or 300M</div>
-    </notes>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Fundamental mathematical concepts basic to the understanding of arithmetic.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities/>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Geometry for Elementary School Teachers</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>MATH</subject>
-        <courseNumber>201</courseNumber>
-        <courseGroup>Introductory Mathematics Courses</courseGroup>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>MATH</subject>
-        <courseNumber>801</courseNumber>
-        <courseGroup>Introductory Mathematics Courses</courseGroup>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Completion of MATH 200 with a grade of C,  P or better.</div>
-    </prerequisite>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Undergraduates must be admitted to the College of Education and Human Sciences or the child development program of CEHS. Graduate students are admitted by permission.</div>
-    </notes>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Fundamental mathematical concepts basic to the understanding of elementary geometry.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities/>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
     <title>Contemporary Mathematics</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -1794,23 +1710,18 @@
         <courseNumber>405</courseNumber>
         <courseGroup>Advanced Mathematics Courses</courseGroup>
       </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>MATH</subject>
-        <courseNumber>805</courseNumber>
-        <courseGroup>Advanced Mathematics Courses</courseGroup>
-      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20111</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">MATH 314 is desirable but not required.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">MATH 314 or 314H recommended. </div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Credit is not allowed for both MATH 105 and MATH 405, or for both CSCE 235 and MATH 405. Not open to math majors except for dual matriculants in the College of Education and Human Sciences. Not open to MA or MS students in mathematics or statistics.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Credit is not allowed for both MATH 105 and MATH 405, or for both CSCE 235 and MATH 405. MATH 405 is not open to math majors except for dual matriculants in the College of Education and Human Sciences.</div>
     </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Graphs and networks. Map coloring. Finite differences. Pascal's triangle. The Pigeonhold Principle. Markov chains. Linear programming. Game Theory.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Graphs and networks. Map coloring. Finite differences. Pascal's triangle. The Pigeonholed Principle. Markov chains. Linear programming. Game Theory.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -1823,7 +1734,12 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
@@ -2099,17 +2015,12 @@
         <courseNumber>430</courseNumber>
         <courseGroup>Advanced Mathematics Courses</courseGroup>
       </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>MATH</subject>
-        <courseNumber>830</courseNumber>
-        <courseGroup>Advanced Mathematics Courses</courseGroup>
-      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20111</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">MATH 221.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">MATH 221 or 221H.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Picard existence theorem, linear equations and linear systems, Sturm separation theorems, boundary value problems, phase plane analysis, stability theory, limit cycles, and periodic solutions.</div>
@@ -2128,6 +2039,7 @@
     <activities>
       <activity>
         <type>lec</type>
+        <hours>3</hours>
       </activity>
     </activities>
     <credits>
@@ -2142,21 +2054,16 @@
         <courseNumber>431</courseNumber>
         <courseGroup>Advanced Mathematics Courses</courseGroup>
       </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>MATH</subject>
-        <courseNumber>831</courseNumber>
-        <courseGroup>Advanced Mathematics Courses</courseGroup>
-      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20111</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">MATH 430.</div>
     </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Continuation of MATH 430.</div>
-    </description>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">MATH 431 is a continuation of MATH 430.</div>
+    </notes>
     <campuses>
       <campus>UNL</campus>
     </campuses>
@@ -2168,7 +2075,12 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
@@ -2380,7 +2292,7 @@
     </credits>
   </course>
   <course>
-    <title>Introduction to the Theory of Numbers I</title>
+    <title>Introduction to the Theory of Numbers</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>MATH</subject>
@@ -2394,13 +2306,13 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20111</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">MATH 310.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">MATH 310 or 310H.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Arithmetic functions, congruences, reciprocity theorem, primitive roots, diophantine equations, and continued fractions.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Arithmetic functions, congruences, reciprocity theorem, primitive roots, Diophantine equations, and continued fractions.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -2416,6 +2328,7 @@
     <activities>
       <activity>
         <type>lec</type>
+        <hours>3</hours>
       </activity>
     </activities>
     <credits>
@@ -2482,17 +2395,12 @@
         <courseNumber>450</courseNumber>
         <courseGroup>Advanced Mathematics Courses</courseGroup>
       </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>MATH</subject>
-        <courseNumber>850</courseNumber>
-        <courseGroup>Advanced Mathematics Courses</courseGroup>
-      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20111</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">MATH 310 or 325.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">MATH 310 or 310H or 325.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Theory of enumeration and/or existence of arrangements of objects: Pigeonhole principle, inclusion-exclusion, recurrence relations, generating functions, systems of distinct representatives, combinatorial designs and other applications.</div>
@@ -2511,6 +2419,7 @@
     <activities>
       <activity>
         <type>lec</type>
+        <hours>3</hours>
       </activity>
     </activities>
     <credits>
@@ -2525,17 +2434,12 @@
         <courseNumber>452</courseNumber>
         <courseGroup>Advanced Mathematics Courses</courseGroup>
       </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>MATH</subject>
-        <courseNumber>852</courseNumber>
-        <courseGroup>Advanced Mathematics Courses</courseGroup>
-      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20111</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">MATH 450, or permission and either MATH 310 or 325.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">MATH 450, or permission and either MATH 310 or 310H or 325.</div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">Selected applications.</div>
@@ -2557,6 +2461,7 @@
     <activities>
       <activity>
         <type>lec</type>
+        <hours>3</hours>
       </activity>
     </activities>
     <credits>
@@ -2571,17 +2476,12 @@
         <courseNumber>456</courseNumber>
         <courseGroup>Advanced Mathematics Courses</courseGroup>
       </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>MATH</subject>
-        <courseNumber>856</courseNumber>
-        <courseGroup>Advanced Mathematics Courses</courseGroup>
-      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20111</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">MATH 221, 314, and 322.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">MATH 221 or 221H; MATH 314 or 314H; and MATH 322.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Introduction to a selection of topics in modern differential manifolds, vector bundles, vector fields, tensors, differential forms, Stoke's theorem, Riemannian and semi-Riemannian metrics, Lie Groups, connections, singularities. Includes gauge field theory, catastrophe theory, general relativity, fluid flow.</div>
@@ -2597,13 +2497,18 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
   </course>
   <course>
-    <title>Introduction to Mathematical Logic I</title>
+    <title>Introduction to Mathematical Logic</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>MATH</subject>
@@ -2617,8 +2522,8 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20111</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Semantical and syntactical developments of propositional logic, discussion of several propositional calculi, applications to Boolean algebra and related topics, semantics and syntax of first-order predicate logic including Godel's completeness theorem, the compactness theorem.</div>
     </description>
@@ -2633,7 +2538,12 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
@@ -2693,17 +2603,12 @@
         <courseNumber>495</courseNumber>
         <courseGroup>Seminars, Independent Study, Topics and Reading Courses </courseGroup>
       </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>MATH</subject>
-        <courseNumber>895</courseNumber>
-        <courseGroup>Seminars, Independent Study, Topics and Reading Courses </courseGroup>
-      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20111</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">MATH 208 and permission.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">MATH 208 or 208H; and permission.</div>
     </prerequisite>
     <campuses>
       <campus>UNL</campus>
@@ -2716,7 +2621,11 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
     <credits>
       <credit type="Lower Range Limit">1</credit>
       <credit type="Upper Range Limit">3</credit>
@@ -2769,17 +2678,12 @@
         <courseNumber>497</courseNumber>
         <courseGroup>Seminars, Independent Study, Topics and Reading Courses </courseGroup>
       </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>MATH</subject>
-        <courseNumber>897</courseNumber>
-        <courseGroup>Seminars, Independent Study, Topics and Reading Courses </courseGroup>
-      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <effectiveSemester>20111</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Open to graduate students and, with permission, to seniors and especially qualified juniors.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Senior standing and especially qualified Juniors; and permission.</div>
     </prerequisite>
     <campuses>
       <campus>UNL</campus>
@@ -2796,6 +2700,7 @@
     <credits>
       <credit type="Lower Range Limit">1</credit>
       <credit type="Upper Range Limit">4</credit>
+      <credit type="Per Career Limit">4</credit>
     </credits>
   </course>
 </courses>

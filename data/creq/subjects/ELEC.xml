@@ -182,13 +182,13 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20111</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ELEC 215; MATH 221 or parallel.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">ELEC 215 with a grade of 'C' or better; ELEC 236 or parallel; MATH 221 or 221H or parallel.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Kirchhoff's laws and circuit analysis theorems applied to steady state bipolar junction transistor circuits, and diode circuits. Steady-state power calculations for balanced three-phase circuits. Introduction to the fundamentals of semiconductor theory and their application to P-N junction devices. Mutual inductance. Frequency response of transistor circuits. Modern computer methods.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Kirchhoff's laws and circuit analysis theorems applied to steady state bipolar junction transistor circuits and diode circuits. Steady-state power calculations for balanced three-phase circuits. Introduction to the fundamentals of semiconductor theory and their application to P-N junction devices. Mutual inductance. Frequency response of transistor circuits. Modern computer methods.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -204,6 +204,7 @@
     <activities>
       <activity>
         <type>lec</type>
+        <hours>3</hours>
       </activity>
     </activities>
     <credits>
@@ -391,10 +392,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20091</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20111</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ELEC 122 or CSCE 155; ELEC 216; and MATH 221.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">ELEC 122 or CSCE 155 or 155H; ELEC 216 with a grade of 'C' or better; MATH 221 or 221H.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Mathematical modeling of physical systems and signals. Representation of signals in terms of basis functions. Fourier series expansions, Fourier Transforms, Laplace and z-Transforms. Input-output relations, convolution. Transfer functions. Bode plots. Poles/zeros and s- and z-plane methods. Applications.</div>
@@ -410,7 +411,12 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
@@ -530,9 +536,9 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>20082</effectiveSemester>
+    <effectiveSemester>20111</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ELEC 216.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">ELEC 216 with a grade of 'C' or better.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Design of biasing circuits for field effect transistors. Frequency response of field effect transistor and bipolar junction transistor filters and amplifiers. Transfer function and frequency response of circuits.</div>
