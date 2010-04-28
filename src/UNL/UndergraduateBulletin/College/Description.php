@@ -73,46 +73,75 @@ class UNL_UndergraduateBulletin_College_Description
     
     function __isset($var)
     {
-        switch($var) {
+        switch ($var) {
             case 'admissionRequirements':
-                $nodes = $this->_xml->xpath('//default:p[@class="content-box-m-p"]');
-                return (bool)count($nodes);
+                $section_title = 'ADMISSION';
+                break;
+            case 'other':
+                $section_title = 'OTHER';
+                break;
+            case 'degreeRequirements':
+                $section_title = 'COLLEGE DEGREE REQUIREMENTS';
+                break;
+            case 'aceRequirements':
+                $section_title = 'ACE REQUIREMENTS';
+                break;
+            default:
+                return false;
         }
-        return false;
+        // first find the content box headings for the major page
+        $nodes = $this->_xml->xpath('//default:p[@class="content-box-m-p" and .="'.$section_title.'"]');
+        
+        return (bool)count($nodes);
     }
     
     function __get($var)
     {
         switch ($var) {
             case 'admissionRequirements':
-                // first select the content box for the major page
-                $nodes = $this->_xml->xpath('//default:p[@class="content-box-m-p"]');
-                $content = '';
-                
-                if (!count($nodes)) {
-                    throw new Exception('No college admission requirements found for '.$this->college->name);
-                }
-                
-                // now loop through all following siblings until we find the next section
-                foreach ($nodes[0]->xpath('following-sibling::*') as $node) {
-                    // Check to see if we've captured anything yet.
-                    if (!empty($content)) {
-                        // Loop through this node's attributes for the class
-                        foreach ($node->attributes() as $attr => $value) {
-                            if ($attr == 'class') {
-                                switch ($value) {
-                                    case 'content-box-h-1':
-                                        // We've found the next section, return the content
-                                        return UNL_UndergraduateBulletin_EPUB_Utilities::format($content);
-                                }
-                            }
+                $section_title = 'ADMISSION';
+                break;
+            case 'other':
+                $section_title = 'OTHER';
+                break;
+            case 'degreeRequirements':
+                $section_title = 'COLLEGE DEGREE REQUIREMENTS';
+                break;
+            case 'aceRequirements':
+                $section_title = 'ACE REQUIREMENTS';
+                break;
+            default:
+                throw new Exception('unknown variable!');
+        }
+
+        // first find the content box headings for the major page
+        $nodes = $this->_xml->xpath('//default:p[@class="content-box-m-p" and .="'.$section_title.'"]');
+
+        if (!count($nodes)) {
+            throw new Exception('No college section '.$var.' found for '.$this->college->name);
+        }
+
+        $content = '';
+        // now loop through all following siblings until we find the next section
+        foreach ($nodes[0]->xpath('following-sibling::*') as $sibling_node) {
+            // Check to see if we've captured anything yet.
+            if (!empty($content)) {
+                // Loop through this node's attributes for the class
+                foreach ($sibling_node->attributes() as $attr => $value) {
+                    if ($attr == 'class') {
+                        switch ($value) {
+                            case 'content-box-h-1':
+                                // We've found the next section, return the content
+                                return UNL_UndergraduateBulletin_EPUB_Utilities::format($content);
                         }
                     }
-                    // Add the raw xml of this sibling to the content we'll return.
-                    $content .= $node->asXML();
                 }
-                return UNL_UndergraduateBulletin_EPUB_Utilities::format($content);
+            }
+            // Add the raw xml of this sibling to the content we'll return.
+            $content .= $sibling_node->asXML();
         }
+        return UNL_UndergraduateBulletin_EPUB_Utilities::format($content);
+
     }
     
     function __toString()
