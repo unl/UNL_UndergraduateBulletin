@@ -30,6 +30,7 @@ class UNL_UndergraduateBulletin_Major_Description
         'Journalism_Mass Comm _English 7-12'            => 'Journalism & Mass Communication & English (7-12)',
         'Language Arts 7-12'                            => 'Language Arts (7-12)',
         'Latin Education 7-12'                          => 'Latin Education (7-12)',
+        'LGBTQ Sexuality Studies Minor'                 => 'Lesbian, Gay, Bisexual, Transgender, Queer/Sexuality Studies (Minor only)',
         'Marketing_Cooperative Education 7-12'          => 'Marketing, Cooperative Education (7-12)',
         'Mathematics 7-12'                              => 'Mathematics (7-12)',
         'Meteorology_Climatology'                       => 'Meteorology-Climatology',
