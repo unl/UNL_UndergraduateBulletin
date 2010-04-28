@@ -1,5 +1,5 @@
 --TEST--
-\pear2\Templates\Savant\Main::render() string with addEscape() test
+UNL_UndergraduateBulletin_EPUB_Utilities::addCourseLinks() basic test
 --FILE--
 <?php
 require dirname(__FILE__) . '/../test_framework.php.inc';
