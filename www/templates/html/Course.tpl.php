@@ -39,19 +39,23 @@
     }
     
     $credits = '';
-    if (isset($context->credits['Single Value'])) {
-        $credits = $context->credits['Single Value'];
+    if (!isset($context->credits)) {
+        $credits = 'N/A';
     } else {
-        if (isset($context->credits['Lower Range Limit'])) {
-            $credits = $context->credits['Lower Range Limit'].'-';
+        if (isset($context->credits['Single Value'])) {
+            $credits = $context->credits['Single Value'];
+        } elseif (isset($context->credits['Lower Range Limit'])) {
+            if (isset($context->credits['Lower Range Limit'])) {
+                $credits = $context->credits['Lower Range Limit'].'-';
+            }
+            if (isset($context->credits['Upper Range Limit'])) {
+                $credits .= $context->credits['Upper Range Limit'].',';
+            }
+            if (isset($context->credits['Per Career Limit'])) {
+                $credits .= ' max '.$context->credits['Per Career Limit'];
+            }
+            $credits = trim($credits, ', ');
         }
-        if (isset($context->credits['Upper Range Limit'])) {
-            $credits .= $context->credits['Upper Range Limit'].',';
-        }
-        if (isset($context->credits['Per Career Limit'])) {
-            $credits .= ' max '.$context->credits['Per Career Limit'];
-        }
-        $credits = trim($credits, ', ');
     }
     
     $format = '';
@@ -167,7 +171,9 @@
         if (!empty($context->notes)) {
             echo  "<p class='notes'>".UNL_UndergraduateBulletin_EPUB_Utilities::addCourseLinks($context->notes)."</p>";
         }
-        echo  "<p class='description'>".iconv("UTF-8", "ISO-8859-1//TRANSLIT", $context->description)."</p>";
+        if (!empty($context->description)) {
+            echo  "<p class='description'>".iconv("UTF-8", "ISO-8859-1//TRANSLIT", $context->description)."</p>";
+        }
         
     echo  "</dd>";
 ?>
