@@ -39,13 +39,13 @@ class UNL_UndergraduateBulletin_Router
             case preg_match('/'.$base.'majors?\/search\/?$/', $requestURI, $matches):
                 $options['view'] = 'searchmajors';
                 break;
+            case preg_match('/'.$base.'major\/(.+)\/courses$/', $requestURI, $matches):
+                $options['view'] = 'courses';
+                $options['name'] = urldecode($matches[1]);
+                break;
             // Individual major major/Architecture
             case preg_match('/'.$base.'major\/(.+)\/?$/', $requestURI, $matches):
                 $options['view'] = 'major';
-                $options['name'] = urldecode($matches[1]);
-                break;
-            case preg_match('/'.$base.'major\/(.+)\/courses$/', $requestURI, $matches):
-                $options['view'] = 'courses';
                 $options['name'] = urldecode($matches[1]);
                 break;
             case preg_match('/'.$base.'college\/?$/', $requestURI):
