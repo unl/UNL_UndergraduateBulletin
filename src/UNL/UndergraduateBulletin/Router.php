@@ -1,9 +1,8 @@
 <?php
 class UNL_UndergraduateBulletin_Router
 {
-    public static function getRoute()
+    public static function getRoute($requestURI)
     {
-        $requestURI = $_SERVER['REQUEST_URI'];
 
         if (!empty($_SERVER['QUERY_STRING'])) {
             $requestURI = substr($requestURI, 0, strlen($_SERVER['QUERY_STRING'])*-1-1);

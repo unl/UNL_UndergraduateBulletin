@@ -11,7 +11,7 @@ iconv_set_encoding("output_encoding", "UTF-8");
 UNL_Services_CourseApproval::setCachingService(new UNL_Services_CourseApproval_CachingService_Null());
 UNL_Services_CourseApproval::setXCRIService(new UNL_UndergraduateBulletin_CourseDataDriver());
 
-$controller = new UNL_UndergraduateBulletin_Controller(UNL_UndergraduateBulletin_Router::getRoute() + $_GET);
+$controller = new UNL_UndergraduateBulletin_Controller(UNL_UndergraduateBulletin_Router::getRoute($_SERVER['REQUEST_URI']) + $_GET);
 
 $outputcontroller = new UNL_UndergraduateBulletin_OutputController();
 $outputcontroller->setTemplatePath(dirname(__FILE__).'/templates/html');
