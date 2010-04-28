@@ -91,5 +91,12 @@ class UNL_UndergraduateBulletin_Major implements UNL_UndergraduateBulletin_Cache
         }
         return false;
     }
+    
+    function getURL()
+    {
+        $url = UNL_UndergraduateBulletin_Controller::getURL();
+        $url .= 'major/'.urlencode($this->title);
+        return str_replace('%2F', '/', $url);
+    }
 }
 ?>

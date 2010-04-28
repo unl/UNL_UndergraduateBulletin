@@ -51,7 +51,7 @@ UNL_UndergraduateBulletin_Controller::setReplacementData('doctitle', 'UNL | Unde
             }
         }
         ?>
-        <li class="<?php echo trim($class); ?>"><a href="<?php echo $url; ?>major/<?php echo urlencode($major->getRaw('title')); ?>"><?php echo $major->title; ?></a></li>
+        <li class="<?php echo trim($class); ?>"><a href="<?php echo $major->getRawObject()->getURL(); ?>"><?php echo $major->title; ?></a></li>
         <?php endforeach; ?>
     </ul>
 </div>
