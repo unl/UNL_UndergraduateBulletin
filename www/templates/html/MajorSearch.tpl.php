@@ -20,7 +20,7 @@ if (!$context->count()) {
     echo '<h2>'.$context->count().' result(s)</h2>'; ?>
     <ul id="majorListing">
     <?php foreach ($context as $major): ?>
-    <li><a href="<?php echo $url; ?>major/<?php echo urlencode($major->getRaw('title')); ?>"><?php echo $major->title; ?></a></li>
+    <li><a href="<?php echo $major->getRawObject()->getURL(); ?>"><?php echo $major->title; ?></a></li>
     <?php endforeach; ?>
     </ul>
 <?php
