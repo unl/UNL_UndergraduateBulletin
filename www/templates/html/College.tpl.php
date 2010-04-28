@@ -26,7 +26,7 @@ UNL_UndergraduateBulletin_Controller::setReplacementData('breadcrumbs', '
     <?php
     $majors = array();
     foreach($context->majors as $major) {
-        $majors[] = '<li><a href="'.$url.'major/'.urlencode($major->getRaw('title')).'">'.$major->title.'</a></li>';
+        $majors[] = '<li><a href="'.$major->getRawObject()->getURL().'">'.$major->title.'</a></li>';
     }
     if (count($majors)):
     ?>
