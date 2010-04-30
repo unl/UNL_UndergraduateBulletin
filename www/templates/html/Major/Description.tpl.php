@@ -9,6 +9,13 @@
     'ace_requirements'              => 'Ace Requirements',
     'other'                         => 'Other',
     );
+    $college_regions = array(
+    'admissionRequirements'         => 'COLLEGE ADMISSION',
+    'degreeRequirements'            => 'COLLEGE DEGREE REQUIREMENTS',
+    'aceRequirements'               => 'ACE REQUIREMENTS',
+    'bulletinRule'                  => 'BULLETIN RULE',
+    'other'                         => 'OTHER INFORMATION',
+    );
 ?>
 <div class="three_col left">
     <div id="toc_nav">
@@ -19,18 +26,24 @@
     <div id="toc_bar"></div>
     <div id="long_content">
         <?php
-        if (isset($context->college->description->admissionRequirements)) { 
-            $college_admission = $context->college->description->getRaw('admissionRequirements');
-            ?>
-            <div id="college_requirements">
-                <h2 class="sec_header">COLLEGE ADMISSION</h2>
-                <?php echo $college_admission; ?>
-            </div>
-            <?php
-        }
         foreach ($regions as $id=>$title) {
             if (!empty($context->$id)) {
                 echo '<div id="'.$id.'">'.$context->getRaw($id).'</div>';
+            }
+        }
+        ?>
+        <h2 id="college_requirements" class="sec_header">COLLEGE REQUIREMENTS</h2>
+        <?php
+        foreach ($college_regions as $id=>$title) {
+            if (isset($context->college->description->$id)) { 
+                $college_section = $context->college->description->getRaw($id);
+                ?>
+                <div id="college_<?php echo $id; ?>">
+                    <h3 class="sec_header"><?php echo $title; ?></h3>
+                    <?php echo str_replace(array('<h3', '</h3>'),
+                                           array('<h4', '</h4>'), $college_section); ?>
+                </div>
+                <?php
             }
         }
         ?>

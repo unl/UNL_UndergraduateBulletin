@@ -131,6 +131,7 @@ class UNL_UndergraduateBulletin_College_Description
                     if ($attr == 'class') {
                         switch ($value) {
                             case 'content-box-h-1':
+                            case 'content-box-m-p':
                                 // We've found the next section, return the content
                                 return UNL_UndergraduateBulletin_EPUB_Utilities::format($content);
                         }
