@@ -138,7 +138,7 @@ class UNL_UndergraduateBulletin_College_Description
                 }
             }
             // Add the raw xml of this sibling to the content we'll return.
-            $content .= $sibling_node->asXML();
+            $content .= $sibling_node->asXML().PHP_EOL;
         }
         return UNL_UndergraduateBulletin_EPUB_Utilities::format($content);
 
