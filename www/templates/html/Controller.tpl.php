@@ -27,7 +27,7 @@ $page->navlinks     = '
         </ul>
     </li>
     <li><a href="#">Academic Policies</a>
-    	<ul>
+        <ul>
             <li><a href="#">Policy 1</a></li>
             <li><a href="#">Policy 2</a></li>
             <li><a href="#">Policy 3</a></li>
@@ -37,7 +37,7 @@ $page->navlinks     = '
         </ul>
     </li>
     <li><a href="'.$url.'college/">Academic Colleges</a>
-    	<ul>
+        <ul>
             <li><a href="'.$url.'college/Agricultural+Sciences+%26+Natural+Resources">Agricultural Sciences &amp; Natural Resources</a></li>
             <li><a href="'.$url.'college/Architecture">Architecture</a></li>
             <li><a href="'.$url.'college/Arts+%26+Sciences">Arts &amp; Sciences</a></li>
@@ -57,11 +57,11 @@ $page->navlinks     = '
         </ul>
     </li>
     <li><a href="'.$url.'college/">Other Areas</a>
-    	<ul>
-    		<li><a href="'.$url.'college/Libraries">Libraries</a></li>
+        <ul>
+            <li><a href="'.$url.'college/Libraries">Libraries</a></li>
             <li><a href="'.$url.'college/Public+Affairs+%26+Community+Service">Public Affairs &amp; Community Service</a></li>
             <li><a href="'.$url.'college/Reserve+Officers%27+Training+Corps+%28ROTC%29">Reserve Officers\' Training Corps (ROTC)</a></li>
-    	</ul>
+        </ul>
     </li>
     
 </ul>';
@@ -79,14 +79,14 @@ $page->head .= '
 ';
 
 $page->maincontentarea = '<div class="wdn_notice" id="officialMessage">
-							<div class="minimize">
-								<a href="#">Close message</a>
-							</div>
-							<div class="message">
-								<h4>This is an official document</h4>
-								<p>Students who enter a college within the University in the 2010 academic year are expected to complete the graduation requirements set forth by that college in this bulletin. <a href="#">More information on this policy.</a></p>
-							</div>
-						</div>';
+                            <div class="minimize">
+                                <a href="#">Close message</a>
+                            </div>
+                            <div class="message">
+                                <h4>This is an official document</h4>
+                                <p>Students who enter a college within the University in the 2010 academic year are expected to complete the graduation requirements set forth by that college in this bulletin. <a href="#">More information on this policy.</a></p>
+                            </div>
+                        </div>';
 $page->maincontentarea .= $savvy->render($context->output);
 
 echo $page;
