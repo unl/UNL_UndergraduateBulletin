@@ -1,2 +1,2 @@
 <?php
-echo $context->asXML();
+echo $context->getRawObject()->asXML();
