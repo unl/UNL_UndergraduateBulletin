@@ -6,28 +6,6 @@ function setTOCLocations() {
 	} catch(e) {}
 }
 WDN.jQuery(document).ready(function($){
-	menuFaded = false;
-	if (WDN.jQuery('#toc_nav').length > 0) {
-		WDN.log('setting TOC');
-		setTOCLocations();
-	//}
-	//if (tocLocation) {
-		WDN.jQuery(window).scroll(function(){
-			if (WDN.jQuery(window).scrollTop() > (tocLocation.top - 10)) {//when we scroll to the top of the TOC (+padding) then start scrolling the cotents boc
-				fadeInTOCMenu();
-				menuFaded = true;
-			}
-			if(WDN.jQuery(window).scrollTop() < (lcLocation.top - 73)) {
-				fadeOutTOCMenu();
-				menuFaded = false;
-			}
-		})
-		
-		if (WDN.jQuery(window).scrollTop() > (tocLocation.top - 10)) {//if the page loads and the top of the window is below the TOC, then show the TOC menu
-			fadeInTOCMenu();
-			menuFaded = true;
-		}
-	}
 //Move the subhead above the notice
 	WDN.jQuery('h2.subhead').insertBefore('#officialMessage');
 //Deal with the Table of Contents for the majors pages.
@@ -61,6 +39,33 @@ WDN.jQuery(document).ready(function($){
         topLinks:   false // Add "Top" Links to Each Header
       }
     );
+	menuFaded = false;
+	if (WDN.jQuery('#toc_nav').length > 0) {
+		WDN.log('setting TOC');
+		setTOCLocations();
+	
+		WDN.jQuery(window).scroll(function(){
+			if (WDN.jQuery(window).scrollTop() > (tocLocation.top - 10)) {//when we scroll to the top of the TOC (+padding) then start scrolling the cotents boc
+				fadeInTOCMenu();
+				menuFaded = true;
+			}
+			if(WDN.jQuery(window).scrollTop() < (lcLocation.top - 73)) {
+				fadeOutTOCMenu();
+				menuFaded = false;
+			}
+		})
+		
+		if (WDN.jQuery(window).scrollTop() > (tocLocation.top - 10)) {//if the page loads and the top of the window is below the TOC, then show the TOC menu
+			fadeInTOCMenu();
+			menuFaded = true;
+		}
+		//deal with small window heights and large toc height
+		WDN.log (WDN.jQuery('#toc').height());
+		WDN.log ((WDN.jQuery(window).height() * 0.85));
+		if (WDN.jQuery('#toc').height() > (WDN.jQuery(window).height() * 0.85)) {
+			WDN.jQuery('#toc').css({'max-height' : WDN.jQuery(window).height() * 0.85, 'overflow-y' : 'scroll', '-ms-overflow-y' : 'scroll'})
+		}
+	}
     //End: Deal with the Table of Contents for the majors pages.
 
     //Deal with the interactivity behind the wdn_notice
