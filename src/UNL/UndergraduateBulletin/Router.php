@@ -54,6 +54,9 @@ class UNL_UndergraduateBulletin_Router
                 $options['view'] = 'college';
                 $options['name'] = urldecode($matches[1]);
                 break;
+            case preg_match('/'.$base.'bulletinrules\/?$/', $requestURI, $matches):
+                $options['view'] = 'bulletinrules';
+                break;
             case preg_match('/'.$base.'search\/?$/', $requestURI):
                 $options['view'] = 'search';
             // Index page

@@ -84,7 +84,7 @@ $page->maincontentarea = '<div class="wdn_notice" id="officialMessage">
                             </div>
                             <div class="message">
                                 <h4>This is an official document</h4>
-                                <p>Students who enter a college within the University in the 2010 academic year are expected to complete the graduation requirements set forth by that college in this bulletin. <a href="#">More information on this policy.</a></p>
+                                <p>Students who enter a college within the University in the 2010 academic year are expected to complete the graduation requirements set forth by that college in this bulletin. <a href="'.$url.'bulletinrules">More information on this policy.</a></p>
                             </div>
                         </div>';
 $page->maincontentarea .= $savvy->render($context->output);

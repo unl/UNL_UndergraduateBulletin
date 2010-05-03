@@ -77,6 +77,9 @@ class UNL_UndergraduateBulletin_College_Description
             case 'admissionRequirements':
                 $section_title = 'ADMISSION';
                 break;
+            case 'bulletinRule':
+                $section_title = 'BULLETIN TO USE';
+                break;
             case 'other':
                 $section_title = 'OTHER';
                 break;
@@ -100,6 +103,9 @@ class UNL_UndergraduateBulletin_College_Description
         switch ($var) {
             case 'admissionRequirements':
                 $section_title = 'ADMISSION';
+                break;
+            case 'bulletinRule':
+                $section_title = 'BULLETIN TO USE';
                 break;
             case 'other':
                 $section_title = 'OTHER';
