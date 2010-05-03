@@ -93,7 +93,7 @@ class UNL_UndergraduateBulletin_College_Description
                 return false;
         }
         // first find the content box headings for the major page
-        $nodes = $this->_xml->xpath('//default:p[@class="content-box-m-p" and .="'.$section_title.'"]');
+        $nodes = $this->_xml->xpath('//default:p[@class="content-box-m-p" and contains(.,"'.$section_title.'")]');
         
         return (bool)count($nodes);
     }
@@ -121,7 +121,7 @@ class UNL_UndergraduateBulletin_College_Description
         }
 
         // first find the content box headings for the major page
-        $nodes = $this->_xml->xpath('//default:p[@class="content-box-m-p" and .="'.$section_title.'"]');
+        $nodes = $this->_xml->xpath('//default:p[@class="content-box-m-p" and contains(.,"'.$section_title.'")]');
 
         if (!count($nodes)) {
             throw new Exception('No college section '.$var.' found for '.$this->college->name);
