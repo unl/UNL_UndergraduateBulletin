@@ -23,19 +23,20 @@ if (!$context->results->count()) {
         echo $savvy->render($context, 'CourseFilters.tpl.php');
         echo '</div>';
         echo '<div class="three_col right">';
-        // add the pagination links if necessary
-        
-        $pager = new stdClass();
-        $pager->total  = count($context);
-        $pager->limit  = $context->options['limit'];
-        $pager->offset = $context->options['offset'];
-        $pager->url    = $url.'courses/search?q='.$context->options['q'];
-        echo $savvy->render($pager, 'PaginationLinks.tpl.php');
     }
     foreach ($context->results as $course) {
         echo $savvy->render($course);
     }
     if ($context->options['format'] != 'partial') {
+        // add the pagination links if necessary
+        if (count($context) > $context->options['limit']) {
+            $pager = new stdClass();
+            $pager->total  = count($context);
+            $pager->limit  = $context->options['limit'];
+            $pager->offset = $context->options['offset'];
+            $pager->url    = $url.'courses/search?q='.$context->options['q'];
+            echo $savvy->render($pager, 'PaginationLinks.tpl.php');
+        }
         echo '</div>';
     }
 }
