@@ -2,7 +2,9 @@
 WDN.loadCSS('/wdn/templates_3.0/css/content/pagination.css');
 </script>
 <ul class="wdn_pagination">
-    <li class="arrow"><a href="#" title="Go to the previous page">&larr; prev</a></li>
+    <?php if ($context->offset != 0) :?>
+    <li class="arrow"><a href="<?php echo $context->url.'&amp;limit='.$context->limit.'&amp;offset='.($context->offset-$context->limit); ?>" title="Go to the previous page">&larr; prev</a></li>
+    <?php endif; ?>
     <?php for ($page = 1; $page*$context->limit < $context->total+$context->limit; $page++ ) {
         $link = $context->url.'&amp;limit='.$context->limit.'&amp;offset='.($page-1)*$context->limit;
         $class = '';
@@ -20,5 +22,7 @@ WDN.loadCSS('/wdn/templates_3.0/css/content/pagination.css');
         } ?>
     </li>
     <?php } ?>
-    <li class="arrow"><a href="#" title="Go to the next page">next &rarr;</a></li>
+    <?php if (($context->offset+$context->limit) < $context->total) :?>
+    <li class="arrow"><a href="<?php echo $context->url.'&amp;limit='.$context->limit.'&amp;offset='.($context->offset+$context->limit); ?>" title="Go to the next page">next &rarr;</a></li>
+    <?php endif; ?>
 </ul>
