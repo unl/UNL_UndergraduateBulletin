@@ -1,10 +1,3 @@
-<script type="text/javascript">
-//<![CDATA[
-	WDN.jQuery(document).ready(function(){
-	     WDN.initializePlugin('zenform');
-	});
-//]]>
-</script>
 <form class="zenform cool" action="<?php echo UNL_UndergraduateBulletin_Controller::getURL(); ?>courses/search" method="get">
     <fieldset>
         <legend>Find a Course</legend>

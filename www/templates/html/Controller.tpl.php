@@ -69,6 +69,7 @@ $page->loadSharedCodeFiles();
 $page->addStylesheet('/wdn/templates_3.0/css/content/notice.css');
 $page->addStylesheet($url. 'templates/html/css/all.css');
 $page->head .= '
+<link rel="stylesheet" type="text/css" href="/wdn/templates_3.0/css/content/zenform.css" />
 <script type="text/javascript">var UNL_UGB_URL = "'.$url.'";</script>
 <script type="text/javascript" src="/wdn/templates_3.0/scripts/plugins/ui/jQuery.ui.js"></script>
 <script type="text/javascript" src="'.$url.'templates/html/scripts/jQuery.toc.js"></script>

@@ -1,10 +1,3 @@
-<script type="text/javascript">
-//<![CDATA[
-	WDN.jQuery(document).ready(function(){
-	     WDN.initializePlugin('zenform');
-	});
-//]]>
-</script>
 <form class="zenform cool" action="<?php echo UNL_UndergraduateBulletin_Controller::getURL(); ?>major/search" method="get" style="margin-top:10px;">
     <fieldset>
         <legend>Find a Major or Degree</legend>
