@@ -7,23 +7,10 @@ class UNL_UndergraduateBulletin_Major_SubjectAreas extends ArrayIterator
     {
         $subject_codes = array();
         $this->major = $major;
-        switch ($this->major->title) {
-            case 'Accounting':
-                $subject_codes[] = 'ACCT';
-                break;
-            case 'Advertising':
-                $subject_codes[] = 'ADVT';
-                break;
-            case 'Geography':
-                $subject_codes[] = 'GEOG';
-                break;
-            case 'Agribusiness':
-                $subject_codes[] = 'AGRI';
-                //$subject_codes[] = 'AECN';
-                break;
-            case 'Architecture':
-                $subject_codes[] = 'ARCH';
-                break;
+        $mapping = file_get_contents(UNL_UndergraduateBulletin_Controller::getDataDir().'/major_to_subject_code.php.ser');
+        $mapping = unserialize($mapping);
+        if (isset($mapping[$this->major->title])) {
+            $subject_codes = $mapping[$this->major->title];
         }
         parent::__construct($subject_codes);
     }
