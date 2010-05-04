@@ -19,6 +19,7 @@ foreach ($file as $line) {
         && trim($array[2]) != 'NO COURSE TAB') {
         $codes = explode(',', str_replace(' ', '', $array[2]));
     }
+    sort($codes);
     $majors[$array[0]] = $codes;
 }
 
