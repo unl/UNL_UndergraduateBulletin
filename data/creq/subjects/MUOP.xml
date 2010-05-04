@@ -1,47 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <courses xmlns="http://courseapproval.unl.edu/courses" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://courseapproval.unl.edu/courses /schema/courses.xsd">
   <course>
-    <title>Music Theatre Performance</title>
-    <courseCodes>
-      <courseCode type="crosslisting">
-        <subject>MUOP</subject>
-        <courseNumber>57</courseNumber>
-        <courseGroup>Opera/Music Theatre Performance (MUOP)</courseGroup>
-      </courseCode>
-      <courseCode type="home listing">
-        <subject>MUOP</subject>
-        <courseNumber>357</courseNumber>
-        <courseGroup>Opera/Music Theatre Performance (MUOP)</courseGroup>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Audition and permission.</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Preparation for and performance of a chorus, minor, or major role in a fully staged UNL Opera Theatre production.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities/>
-    <credits>
-      <credit type="Lower Range Limit">1</credit>
-      <credit type="Upper Range Limit">3</credit>
-      <credit type="Per Career Limit">4</credit>
-    </credits>
-  </course>
-  <course>
     <title>Intermediate Opera Performance Techniques</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -163,6 +122,47 @@
     <credits>
       <credit type="Single Value">3</credit>
       <credit type="Per Career Limit">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Music Theatre Performance</title>
+    <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>MUOP</subject>
+        <courseNumber>57</courseNumber>
+        <courseGroup>Opera/Music Theatre Performance (MUOP)</courseGroup>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>MUOP</subject>
+        <courseNumber>357</courseNumber>
+        <courseGroup>Opera/Music Theatre Performance (MUOP)</courseGroup>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20081</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Audition and permission.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Preparation for and performance of a chorus, minor, or major role in a fully staged UNL Opera Theatre production.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">3</credit>
+      <credit type="Per Career Limit">4</credit>
     </credits>
   </course>
 </courses>

@@ -1,70 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <courses xmlns="http://courseapproval.unl.edu/courses" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://courseapproval.unl.edu/courses /schema/courses.xsd">
   <course>
-    <title>French and German Diction</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>MUAP</subject>
-        <courseNumber>6</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>MUAP</subject>
-        <courseNumber>126</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Must be taken during second year of applied voice.</div>
-    </notes>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities/>
-    <credits>
-      <credit type="Single Value">0</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Keyboard Skills IV</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>MUAP</subject>
-        <courseNumber>32</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">For course description, see MUAP 232.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities/>
-    <credits>
-      <credit type="Single Value">0</credit>
-    </credits>
-  </course>
-  <course>
     <title>Voice</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -564,6 +500,36 @@
     </credits>
   </course>
   <course>
+    <title>Keyboard Skills IV</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MUAP</subject>
+        <courseNumber>32</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20081</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">For course description, see MUAP 232.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Single Value">0</credit>
+    </credits>
+  </course>
+  <course>
     <title>Keyboard Skills I</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -699,6 +665,40 @@
     </activities>
     <credits>
       <credit type="Single Value">1</credit>
+    </credits>
+  </course>
+  <course>
+    <title>French and German Diction</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MUAP</subject>
+        <courseNumber>6</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>MUAP</subject>
+        <courseNumber>126</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20081</effectiveSemester>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Must be taken during second year of applied voice.</div>
+    </notes>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Single Value">0</credit>
     </credits>
   </course>
 </courses>

@@ -1,246 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <courses xmlns="http://courseapproval.unl.edu/courses" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://courseapproval.unl.edu/courses /schema/courses.xsd">
   <course>
-    <title>English and Italian Diction and Literature</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>MUSC</subject>
-        <courseNumber>125</courseNumber>
-        <courseGroup>Core Curriculum (MUSC)</courseGroup>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>MUSC</subject>
-        <courseNumber>25</courseNumber>
-        <courseGroup>Core Curriculum (MUSC)</courseGroup>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">The correct pronunciation and diction for singing in Italian and English.  Some of the art songs that comprise the standard Italian and English vocal literature.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>stu</type>
-        <hours>2</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">2</credit>
-    </credits>
-  </course>
-  <course>
-    <title>German Diction and Literature</title>
-    <courseCodes>
-      <courseCode type="crosslisting">
-        <subject>MUSC</subject>
-        <courseNumber>26</courseNumber>
-        <courseGroup>Core Curriculum (MUSC)</courseGroup>
-      </courseCode>
-      <courseCode type="home listing">
-        <subject>MUSC</subject>
-        <courseNumber>126</courseNumber>
-        <courseGroup>Core Curriculum (MUSC)</courseGroup>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">The correct pronunciation and diction for singing in German.  Some of the art songs that comprise the standard German vocal literature.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>stu</type>
-        <hours>2</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">2</credit>
-    </credits>
-  </course>
-  <course>
-    <title>French Diction and Literature</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>MUSC</subject>
-        <courseNumber>127</courseNumber>
-        <courseGroup>Core Curriculum (MUSC)</courseGroup>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>MUSC</subject>
-        <courseNumber>27</courseNumber>
-        <courseGroup>Core Curriculum (MUSC)</courseGroup>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">The correct pronunciation and diction for singing in French.  Some of the art songs that comprise the standard French vocal literature.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>stu</type>
-        <hours>2</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">2</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Senior Assessment in Music</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>MUSC</subject>
-        <courseNumber>64</courseNumber>
-        <courseGroup>Core Curriculum (MUSC)</courseGroup>
-      </courseCode>
-    </courseCodes>
-    <gradingType>pass/no pass only</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">MUSC 366 or equivalent.</div>
-    </prerequisite>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Pass/No Pass only.</div>
-    </notes>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Demonstration of knowledge in music theory and history through completion of the Major Field Test in Music.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>lec</type>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">0</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Music Internship</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>MUSC</subject>
-        <courseNumber>494</courseNumber>
-        <courseGroup>Independent Study, Seminars, or Thesis (MUSC)</courseGroup>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>MUSC</subject>
-        <courseNumber>894</courseNumber>
-        <courseGroup>Independent Study, Seminars, or Thesis (MUSC)</courseGroup>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>MUSC</subject>
-        <courseNumber>94</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Permission.</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Supervised practicum and/or field work in an area related to music under the direction of a university staff/faculty member and a cooperating professional in the particular area(s) of interest.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities/>
-    <credits>
-      <credit type="Lower Range Limit">1</credit>
-      <credit type="Upper Range Limit">3</credit>
-      <credit type="Per Semester Limit">6</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Doctoral Colloquium</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>MUSC</subject>
-        <courseNumber>99</courseNumber>
-        <courseGroup>Music History (MUSC)</courseGroup>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Required for doctoral students during each semester of residence, the colloquium is a regularly scheduled meeting of faculty and doctoral students for the purpose of sharing ideas and the results of scholarly research.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities/>
-    <credits>
-      <credit type="Single Value">0</credit>
-    </credits>
-  </course>
-  <course>
     <title>Introduction to  Music</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -652,6 +412,88 @@
     </credits>
   </course>
   <course>
+    <title>English and Italian Diction and Literature</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MUSC</subject>
+        <courseNumber>125</courseNumber>
+        <courseGroup>Core Curriculum (MUSC)</courseGroup>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>MUSC</subject>
+        <courseNumber>25</courseNumber>
+        <courseGroup>Core Curriculum (MUSC)</courseGroup>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20081</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">The correct pronunciation and diction for singing in Italian and English.  Some of the art songs that comprise the standard Italian and English vocal literature.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>stu</type>
+        <hours>2</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">2</credit>
+    </credits>
+  </course>
+  <course>
+    <title>German Diction and Literature</title>
+    <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>MUSC</subject>
+        <courseNumber>26</courseNumber>
+        <courseGroup>Core Curriculum (MUSC)</courseGroup>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>MUSC</subject>
+        <courseNumber>126</courseNumber>
+        <courseGroup>Core Curriculum (MUSC)</courseGroup>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20081</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">The correct pronunciation and diction for singing in German.  Some of the art songs that comprise the standard German vocal literature.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>stu</type>
+        <hours>2</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">2</credit>
+    </credits>
+  </course>
+  <course>
     <title>Musicianship III</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -838,6 +680,47 @@
     <credits>
       <credit type="Single Value">2</credit>
       <credit type="Per Career Limit">2</credit>
+    </credits>
+  </course>
+  <course>
+    <title>French Diction and Literature</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MUSC</subject>
+        <courseNumber>127</courseNumber>
+        <courseGroup>Core Curriculum (MUSC)</courseGroup>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>MUSC</subject>
+        <courseNumber>27</courseNumber>
+        <courseGroup>Core Curriculum (MUSC)</courseGroup>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20081</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">The correct pronunciation and diction for singing in French.  Some of the art songs that comprise the standard French vocal literature.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>stu</type>
+        <hours>2</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">2</credit>
     </credits>
   </course>
   <course>
@@ -3224,6 +3107,123 @@
       <credit type="Lower Range Limit">1</credit>
       <credit type="Upper Range Limit">4</credit>
       <credit type="Per Semester Limit">8</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Senior Assessment in Music</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MUSC</subject>
+        <courseNumber>64</courseNumber>
+        <courseGroup>Core Curriculum (MUSC)</courseGroup>
+      </courseCode>
+    </courseCodes>
+    <gradingType>pass/no pass only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20081</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">MUSC 366 or equivalent.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Pass/No Pass only.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Demonstration of knowledge in music theory and history through completion of the Major Field Test in Music.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">0</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Music Internship</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MUSC</subject>
+        <courseNumber>494</courseNumber>
+        <courseGroup>Independent Study, Seminars, or Thesis (MUSC)</courseGroup>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>MUSC</subject>
+        <courseNumber>894</courseNumber>
+        <courseGroup>Independent Study, Seminars, or Thesis (MUSC)</courseGroup>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>MUSC</subject>
+        <courseNumber>94</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20081</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Permission.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Supervised practicum and/or field work in an area related to music under the direction of a university staff/faculty member and a cooperating professional in the particular area(s) of interest.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">3</credit>
+      <credit type="Per Semester Limit">6</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Doctoral Colloquium</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MUSC</subject>
+        <courseNumber>99</courseNumber>
+        <courseGroup>Music History (MUSC)</courseGroup>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20081</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Required for doctoral students during each semester of residence, the colloquium is a regularly scheduled meeting of faculty and doctoral students for the purpose of sharing ideas and the results of scholarly research.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Single Value">0</credit>
     </credits>
   </course>
 </courses>

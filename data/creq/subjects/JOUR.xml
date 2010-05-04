@@ -1,49 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <courses xmlns="http://courseapproval.unl.edu/courses" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://courseapproval.unl.edu/courses /schema/courses.xsd">
   <course>
-    <title>Senior Assessment</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>JOUR</subject>
-        <courseNumber>98</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>pass/no pass only</gradingType>
-    <dfRemoval>true</dfRemoval>
-    <effectiveSemester>20101</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Senior standing; JOUR major; candidate for degree.<br/></div>
-    </prerequisite>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">
-        <em>All seniors must complete an exit interview to remain eligible for graduation. JOUR 098 uses Blackboard.  JOUR 098 is 'Pass/No Pass only'.</em>
-      </div>
-    </notes>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Appropriate career-related announcements, activities, and responsibilities.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-      <deliveryMethod>Web</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>ind</type>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">0</credit>
-    </credits>
-  </course>
-  <course>
     <title>Principles of Mass Media</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -1613,6 +1570,49 @@
       <credit type="Lower Range Limit">1</credit>
       <credit type="Upper Range Limit">4</credit>
       <credit type="Per Career Limit">4</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Senior Assessment</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>JOUR</subject>
+        <courseNumber>98</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>pass/no pass only</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20101</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Senior standing; JOUR major; candidate for degree.<br/></div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <em>All seniors must complete an exit interview to remain eligible for graduation. JOUR 098 uses Blackboard.  JOUR 098 is 'Pass/No Pass only'.</em>
+      </div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Appropriate career-related announcements, activities, and responsibilities.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+      <deliveryMethod>Web</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>ind</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">0</credit>
     </credits>
   </course>
 </courses>

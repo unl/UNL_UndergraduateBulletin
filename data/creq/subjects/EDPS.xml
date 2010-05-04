@@ -1,36 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <courses xmlns="http://courseapproval.unl.edu/courses" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://courseapproval.unl.edu/courses /schema/courses.xsd">
   <course>
-    <title>Mini-Seminar</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>EDPS</subject>
-        <courseNumber>97</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>pass/no pass only</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">EDPS 091 is graded Pass/No Pass Only</div>
-    </notes>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities/>
-    <credits>
-      <credit type="Single Value">0</credit>
-    </credits>
-  </course>
-  <course>
     <title>Learning How to Learn</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -1264,6 +1234,36 @@
     <activities/>
     <credits>
       <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Mini-Seminar</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>EDPS</subject>
+        <courseNumber>97</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>pass/no pass only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20081</effectiveSemester>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">EDPS 091 is graded Pass/No Pass Only</div>
+    </notes>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Single Value">0</credit>
     </credits>
   </course>
 </courses>

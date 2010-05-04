@@ -1,6 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <courses xmlns="http://courseapproval.unl.edu/courses" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://courseapproval.unl.edu/courses /schema/courses.xsd">
   <course>
+    <title>Recital in Applied Music</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MUSR</subject>
+        <courseNumber>490</courseNumber>
+        <courseGroup>Recitals (MUSR)</courseGroup>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20081</effectiveSemester>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">2 cr of 400-level applied music.</div>
+    </notes>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Single Value">2</credit>
+    </credits>
+  </course>
+  <course>
     <title>Recital Attendance</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -119,37 +150,6 @@
     <activities/>
     <credits>
       <credit type="Single Value">0</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Recital in Applied Music</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>MUSR</subject>
-        <courseNumber>490</courseNumber>
-        <courseGroup>Recitals (MUSR)</courseGroup>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">2 cr of 400-level applied music.</div>
-    </notes>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities/>
-    <credits>
-      <credit type="Single Value">2</credit>
     </credits>
   </course>
 </courses>

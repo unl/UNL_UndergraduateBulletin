@@ -1,48 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <courses xmlns="http://courseapproval.unl.edu/courses" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://courseapproval.unl.edu/courses /schema/courses.xsd">
   <course>
-    <title>Ethics Assessment</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>FINA</subject>
-        <courseNumber>97</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>pass/no pass only</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20102</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Senior standing and admission to the Finance Department's CFA<span style="font-size: 12pt; line-height: 115%; font-family: "><sup>®</sup></span> - Investments Option.</div>
-    </prerequisite>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">
-        <em>FINA 097 is a required course to complete the CFA</em>
-        <span style="font-size: 12pt; line-height: 115%; font-family: ">
-          <sup>®</sup>
-        </span>
-        <em> - Investments Option within the FINA major. FINA 097 is 'Pass/No Pass only'.</em>
-      </div>
-    </notes>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Ethical standards for investment professionals.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Web</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities/>
-    <credits>
-      <credit type="Single Value">0</credit>
-    </credits>
-  </course>
-  <course>
     <title>Personal Finance</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -1171,6 +1129,48 @@
       <credit type="Lower Range Limit">3</credit>
       <credit type="Upper Range Limit">6</credit>
       <credit type="Per Career Limit">6</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Ethics Assessment</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>FINA</subject>
+        <courseNumber>97</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>pass/no pass only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20102</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Senior standing and admission to the Finance Department's CFA<span style="font-size: 12pt; line-height: 115%; font-family: "><sup>®</sup></span> - Investments Option.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <em>FINA 097 is a required course to complete the CFA</em>
+        <span style="font-size: 12pt; line-height: 115%; font-family: ">
+          <sup>®</sup>
+        </span>
+        <em> - Investments Option within the FINA major. FINA 097 is 'Pass/No Pass only'.</em>
+      </div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Ethical standards for investment professionals.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Web</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Single Value">0</credit>
     </credits>
   </course>
 </courses>

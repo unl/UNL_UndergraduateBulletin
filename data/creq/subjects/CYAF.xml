@@ -1,53 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <courses xmlns="http://courseapproval.unl.edu/courses" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://courseapproval.unl.edu/courses /schema/courses.xsd">
   <course>
-    <title>UCARE, REU, Non-UCARE Research Experience in Child, Youth and Family Studies</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>CYAF</subject>
-        <courseNumber>498</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>CYAF</subject>
-        <courseNumber>98</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20092</effectiveSemester>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">
-        <em>CYAF 098/498 requires a completed contract form before registering. </em>
-        <em>CYAF 098 is zero credit hours and is 'Pass/No Pass only'.  <br/></em>
-      </div>
-    </notes>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Undergraduate Creative Research Experience (UCARE), Research Experience For Undergraduates (REU), and non-UCARE research and/or creative activity.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-      <campus>UNO</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>ind</type>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Lower Range Limit">1</credit>
-      <credit type="Upper Range Limit">6</credit>
-      <credit type="Per Career Limit">6</credit>
-    </credits>
-  </course>
-  <course>
     <title>Life Skills for Success</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -2160,5 +2113,52 @@
     <gradPrerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">ALEC 801</div>
     </gradPrerequisite>
+  </course>
+  <course>
+    <title>UCARE, REU, Non-UCARE Research Experience in Child, Youth and Family Studies</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CYAF</subject>
+        <courseNumber>498</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>CYAF</subject>
+        <courseNumber>98</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20092</effectiveSemester>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <em>CYAF 098/498 requires a completed contract form before registering. </em>
+        <em>CYAF 098 is zero credit hours and is 'Pass/No Pass only'.  <br/></em>
+      </div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Undergraduate Creative Research Experience (UCARE), Research Experience For Undergraduates (REU), and non-UCARE research and/or creative activity.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+      <campus>UNO</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>ind</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">6</credit>
+      <credit type="Per Career Limit">6</credit>
+    </credits>
   </course>
 </courses>

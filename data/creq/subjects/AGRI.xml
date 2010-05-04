@@ -1,43 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <courses xmlns="http://courseapproval.unl.edu/courses" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://courseapproval.unl.edu/courses /schema/courses.xsd">
   <course>
-    <title>International or Professional Development Experience</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>AGRI</subject>
-        <courseNumber>42</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>pass/no pass only</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">ARGI 042 requires premission from the College of Agricultural Sciences and Natural Resources (CASNR) Dean&amp;#39;s Office and the department chair of the student&amp;#39;s degree program. Pass/no pass only.&amp;nbsp;</div>
-    </notes>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Cooperative education in an established or organize international or professional development experience program in any College of Agricultural Sciences and Natural Resources curriculum.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>fld</type>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">0</credit>
-    </credits>
-  </course>
-  <course>
     <title>Introduction to Agricultural and Natural Resource Systems</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -521,6 +484,43 @@
     </activities>
     <credits>
       <credit type="Single Value">1</credit>
+    </credits>
+  </course>
+  <course>
+    <title>International or Professional Development Experience</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>AGRI</subject>
+        <courseNumber>42</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>pass/no pass only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20081</effectiveSemester>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">ARGI 042 requires premission from the College of Agricultural Sciences and Natural Resources (CASNR) Dean&amp;#39;s Office and the department chair of the student&amp;#39;s degree program. Pass/no pass only.&amp;nbsp;</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Cooperative education in an established or organize international or professional development experience program in any College of Agricultural Sciences and Natural Resources curriculum.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>fld</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">0</credit>
     </credits>
   </course>
   <course>
