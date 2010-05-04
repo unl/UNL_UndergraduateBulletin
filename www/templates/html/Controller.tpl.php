@@ -83,7 +83,7 @@ $page->maincontentarea = '<div class="wdn_notice" id="officialMessage">
                                 <a href="#">Close message</a>
                             </div>
                             <div class="message">
-                                <h4>Disclaimer: This is a preview of the upcoming 2010-2011 Undergraduate Bulletin; content is not official nor finalized.</h4>
+                                <h4>PLEASE NOTE: This is a preview of the upcoming 2010-2011 Undergraduate Bulletin; content is not official nor finalized. Your comments are welcome; please use the form at the bottom left corner of this page.</h4>
                                 <p>Students who enter a college within the University in the 2010 academic year are expected to complete the graduation requirements set forth by that college in this bulletin. <a href="'.$url.'bulletinrules">More information on this policy.</a></p>
                             </div>
                         </div>';
