@@ -6,7 +6,7 @@
         <fieldset class="groups">
             <legend><span>Groups</span></legend>
             <ol>
-            	<li><input type="checkbox" checked="checked" class="filterAll" id="filterAllGroups" name="all" value="all" /><label for="filterAllGroups">All groups</label></li>
+                <li><input type="checkbox" checked="checked" class="filterAll" id="filterAllGroups" name="all" value="all" /><label for="filterAllGroups">All groups</label></li>
                 <?php foreach ($context->groups as $group) : ?>
                 <li>
                     <div class="element">
