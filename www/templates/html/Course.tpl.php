@@ -134,8 +134,9 @@
                     <td class="value">'.$format.'</td>
                    </tr>';
         }
-        if (count($context->campuses) == 1
-            && $context->campuses[0] != 'UNL') {
+        if (count($context->campuses)
+            && (count($context->campuses) > 1
+            || $context->campuses[0] != 'UNL')) {
             echo  '<tr class="campus">
                     <td class="label">Campus:</td>
                     <td class="value">'.implode(', ', $context->campuses).'</td>
