@@ -14,8 +14,14 @@ UNL_UndergraduateBulletin_Controller::setReplacementData('breadcrumbs', '
 <h2 class="subhead"><?php echo $context->college->name; ?></h2>
 <ul class="wdn_tabs disableSwitching">
     <li class="<?php echo ($parent->context->options['view']=='major')?'selected':''; ?>"><a href="<?php echo $context->getRawObject()->getURL(); ?>"><span>Description</span></a></li>
-    <?php if (count($context->getRaw('subjectareas'))): ?>
-    <li class="<?php echo ($parent->context->options['view']=='courses')?'selected':''; ?>"><a href="<?php echo $context->getRawObject()->getURL(); ?>/courses"><span>Courses</span></a></li>
+    <?php if (count($context->subjectareas)): ?>
+    <li class="<?php echo ($parent->context->options['view']=='courses')?'selected':''; ?>"><a href="<?php echo $context->getRawObject()->getURL(); ?>/courses"><span>Courses</span></a>
+        <ul>
+        <?php foreach ($context->subjectareas as $area): ?>
+            <li><a href="#<?php echo $area; ?>"><?php echo $area; ?></a></li>
+        <?php endforeach; ?>
+        </ul>
+    </li>
     <?php endif; ?>
 </ul>
 <?php
