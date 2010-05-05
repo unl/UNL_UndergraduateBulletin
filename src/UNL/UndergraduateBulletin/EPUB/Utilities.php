@@ -12,7 +12,7 @@ class UNL_UndergraduateBulletin_EPUB_Utilities
     
     public static function linkURLs($html)
     {
-        return preg_replace('/(http:\/\/[^<^\s]+)/', '<a href="$0">$0</a>', $html);
+        return preg_replace_callback('/(http:\/\/[^<^\s]+)/', array('UNL_UndergraduateBulletin_EPUB_Utilities', 'linkHref'), $html);
     }
     
     public static function convertHeadings($html)
@@ -48,6 +48,17 @@ class UNL_UndergraduateBulletin_EPUB_Utilities
         $text = preg_replace_callback('/([A-Z]{3,4})(((,?\s+)|(,? or )|(\/)|(,? and ))([0-9]{3,4}[A-Z]?))+/', array('UNL_UndergraduateBulletin_EPUB_Utilities', 'linkCourse'), $text);
 
         return $text;
+    }
+    
+    public static function linkHref($matches)
+    {
+        $href = $matches[0];
+        $link_end = '';
+        if (substr($href, -1) == '.') {
+            $href = substr($href, 0, -1);
+            $link_end = '.';
+        }
+        return '<a href="'.$href.'">'.$href.'</a>'.$link_end;
     }
     
     public static function linkCourse($matches)
