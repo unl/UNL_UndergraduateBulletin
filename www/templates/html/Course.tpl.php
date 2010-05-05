@@ -14,6 +14,11 @@
 
     foreach ($context->codes as $listing) {
         if ($listing->subjectArea == $subject) {
+
+            if (!isset($permalink)) {
+                $permalink = $url.'courses/'.$subject.'/'.$listing->courseNumber;
+            }
+
             $listings .= $listing->courseNumber.'/';
             if ($listing->hasGroups()) {
                 $groups = array_merge($groups, $listing->groups);
@@ -117,7 +122,7 @@
         <dt class='$class'>
             <span class='subjectCode'>".$subject."</span>
             <span class='number'>$listings</span>
-            <span class='title'>".$context->title."<a href='#'>Hide desc.</a></span>";
+            <span class='title'>".$context->title."<a href='$permalink'>Hide desc.</a></span>";
         if (!empty($crosslistings)) {
             echo  '<span class="crosslistings">Crosslisted as '.$crosslistings.'</span>';
         }
