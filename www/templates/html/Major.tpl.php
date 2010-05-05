@@ -16,11 +16,13 @@ UNL_UndergraduateBulletin_Controller::setReplacementData('breadcrumbs', '
     <li class="<?php echo ($parent->context->options['view']=='major')?'selected':''; ?>"><a href="<?php echo $context->getRawObject()->getURL(); ?>"><span>Description</span></a></li>
     <?php if (count($context->subjectareas)): ?>
     <li class="<?php echo ($parent->context->options['view']=='courses')?'selected':''; ?>"><a href="<?php echo $context->getRawObject()->getURL(); ?>/courses"><span>Courses</span></a>
+        <?php if ($parent->context->options['view']=='courses'): ?>
         <ul>
         <?php foreach ($context->subjectareas as $area): ?>
             <li><a href="#<?php echo $area; ?>"><?php echo $area; ?></a></li>
         <?php endforeach; ?>
         </ul>
+        <?php endif; ?>
     </li>
     <?php endif; ?>
 </ul>
