@@ -10,9 +10,9 @@ UNL_UndergraduateBulletin_Controller::setReplacementData('doctitle', 'UNL | Unde
 ');
 ?>
 <div class="col left">
-    <div class="zenbox energetic" id="wdn_filterset">
+    <div class="zenbox energetic wdn_filterset">
         <h3>Filter these Areas of Study</h3>
-        <form method="post" action="#" id="filters">
+        <form method="post" action="#" class="filters">
         <fieldset class="formats">
             <legend><span>College</span></legend>
             <ol>

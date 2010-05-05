@@ -42,15 +42,15 @@ dt:first-of-type {padding:0 !important;}
 /*filter box*/
 #displayControl {
 	}
-#filters {color:#a15901;margin-top:15px;}
-#filters legend span {display:block; width:208px; border-bottom:1px solid #c39863;font-weight:bold;margin-bottom:10px;font-size:1.1em;}
-#filters div.element {display:inline;}
-#filters input[type="checkbox"] {width:20px;float:left;margin-left:-4px;}
-#filters label {display:inline;margin-left:0px;font-size:.9em;}
-#filters ol li {clear:both;}
-#filters ol {list-style:none;padding-left:0px;}
-#filters ol li.disabled {opacity: 0.5;}
-#filters ol li.disabled label {text-decoration: line-through;}
+form.filters {color:#a15901;margin-top:15px;}
+form.filters legend span {display:block; width:208px; border-bottom:1px solid #c39863;font-weight:bold;margin-bottom:10px;font-size:1.1em;}
+form.filters div.element {display:inline;}
+form.filters input[type="checkbox"] {width:20px;float:left;margin-left:-4px;}
+form.filters label {display:inline;margin-left:0px;font-size:.9em;}
+form.filters ol li {clear:both;}
+form.filters ol {list-style:none;padding-left:0px;}
+form.filters ol li.disabled {opacity: 0.5;}
+form.filters ol li.disabled label {text-decoration: line-through;}
 
 .revealed {background-color:#fffea8;}
 

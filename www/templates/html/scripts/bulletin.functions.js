@@ -124,7 +124,7 @@ WDN.jQuery(document).ready(function($){
     });
     
     // Configure course filters.
-//    $('#filters input').click(function(){
+//    $('form.filters input').click(function(){
 //    	if (this.checked) {
 //    		$('.'+this.value).show();
 //    		//$('dt.'+this.value).addClass("revealed");
@@ -132,7 +132,7 @@ WDN.jQuery(document).ready(function($){
 //    		$('.'+this.value).slideUp(600);
 //    	}
 //    });
-    WDN.jQuery('#filters input').each(function(){
+    WDN.jQuery('form.filters input').each(function(){
     	if (WDN.jQuery(this).attr('value') !== "all") {
     		// Check and see if we actually have any of these courses
     		if (WDN.jQuery('.'+WDN.jQuery(this).attr('value')).length == 0) {
@@ -144,7 +144,7 @@ WDN.jQuery(document).ready(function($){
     	WDN.jQuery(this).click(function() {
 			if (WDN.jQuery(this).hasClass('filterAll')) { //if all was checked, then put the checkmark next to all alls, and show everything.
 				if (this.checked){
-					WDN.jQuery('#filters input').not('.filterAll').removeAttr('checked');
+					WDN.jQuery('form.filters input').not('.filterAll').removeAttr('checked');
 					WDN.jQuery('.filterAll').attr('checked', 'checked');
 					WDN.jQuery('.course').show();
 					WDN.jQuery('#majorListing li').show();
@@ -154,7 +154,7 @@ WDN.jQuery(document).ready(function($){
 				WDN.jQuery('.course').hide(); //hide all the coures
 				WDN.jQuery('#majorListing li').hide(); //hide all the major listings
 				var one_checked = false;
-				WDN.jQuery('#filters input').not('.filterAll').each(function(){ //loop through all the checkboxes
+				WDN.jQuery('form.filters input').not('.filterAll').each(function(){ //loop through all the checkboxes
 					if (this.checked) {
 					    one_checked = true;
 						WDN.jQuery('.'+WDN.jQuery(this).attr('value')).show(); //if a checkbox is checked, make sure the corresponding content is shown.
