@@ -22,6 +22,8 @@
 .course .prereqs,
 .course .notes,
 .course .description {margin:4px 0;float:left;clear:left;width:450px;}
+#maincontent p.description {margin:1em 0;}
+#maincontent p.notes {margin-bottom:0}
 
 .course .prereqs {color:#0F900A;font-weight:bold;}
 #maincontent .course .prereqs a {color:#0F900A; text-decoration:underline;}

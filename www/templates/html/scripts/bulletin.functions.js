@@ -73,7 +73,7 @@ WDN.jQuery(document).ready(function($){
 	if (c) {
 		$('#officialMessage').addClass('small');
 		$('#officialMessage .minimize').removeClass('minimize').addClass('maximize');
-		$("#officialMessage div.message p").hide().children("a").insertAfter("div.message h4").css({'margin-left' : '10px', 'font-size' : '0.8em'});
+		$("#officialMessage div.message p, #officialMessage div.message h4").hide().children("a").insertAfter("div.message h4").css({'margin-left' : '10px', 'font-size' : '0.8em'});
 		setTOCLocations();
 	};
 	
@@ -81,7 +81,7 @@ WDN.jQuery(document).ready(function($){
     	if ($(this).parent('.wdn_notice').hasClass('small')) { //let's show the full notice
     		$(this).parent(".wdn_notice").fadeOut("fast", function() {
     			$(this).children("div.message").children("a").appendTo("div.message p");
-    			$(this).children("div.message").children("p").show().children("a").appendTo("div.message p").css({'margin-left' : '0', 'font-size' : '1em'});
+    			$(this).children("div.message").children("p, h4").show().children("a").appendTo("div.message p").css({'margin-left' : '0', 'font-size' : '1em'});
     			$(this).children(".maximize").removeClass("maximize").addClass("minimize");
 				$(this).removeClass("small");
     			$(this).fadeIn("fast", function() {
@@ -90,7 +90,7 @@ WDN.jQuery(document).ready(function($){
     		});
     	} else {
     		$(this).parent(".wdn_notice").fadeOut("fast", function() { //let's hide the full notice
-    			$(this).children("div.message").children("p").hide().children("a").insertAfter("div.message h4").css({'margin-left' : '10px', 'font-size' : '0.8em'});
+    			$(this).children("div.message").children("p, h4").hide().children("a").insertAfter("div.message h4").css({'margin-left' : '10px', 'font-size' : '0.8em'});
     			$(this).children(".minimize").removeClass("minimize").addClass("maximize");
 				$(this).addClass("small");
     			$(this).fadeIn("fast", function() {
