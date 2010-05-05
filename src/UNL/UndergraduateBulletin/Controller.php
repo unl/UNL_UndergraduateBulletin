@@ -77,10 +77,12 @@ class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_
     function postRun($data)
     {
 
-        if (isset(self::$replacement_data['doctitle'])) {
+        if (isset(self::$replacement_data['doctitle'])
+            && strstr($data, '<title>')) {
             $data = preg_replace('/<title>.*<\/title>/',
                                 '<title>'.self::$replacement_data['doctitle'].'</title>',
                                 $data);
+            unset(self::$replacement_data['doctitle']);
         }
 
         if (isset(self::$replacement_data['head'])
@@ -96,6 +98,7 @@ class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_
             $end = strpos($data, '<!-- InstanceEndEditable -->', $start);
 
             $data = substr($data, 0, $start).self::$replacement_data['breadcrumbs'].substr($data, $end);
+            unset(self::$replacement_data['breadcrumbs']);
         }
 
         if (isset(self::$replacement_data['pagetitle'])
@@ -105,7 +108,7 @@ class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_
             $end = strpos($data, '<!-- InstanceEndEditable -->', $start);
 
             $data = substr($data, 0, $start).self::$replacement_data['pagetitle'].substr($data, $end);
-            
+            unset(self::$replacement_data['pagetitle']);
         }
         return $data;
     }
