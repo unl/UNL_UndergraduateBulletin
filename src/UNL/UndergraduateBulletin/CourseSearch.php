@@ -32,7 +32,7 @@ class UNL_UndergraduateBulletin_CourseSearch implements Countable, UNL_Undergrad
 
         // Check to see if the query matches a subject code
         if ($area = UNL_UndergraduateBulletin_SubjectArea::getByTitle($query)) {
-            $this->options['q'] = $area->subject.' : '.$this->options['q'];
+            $this->options['q'] = $area->subject.' : '.ucwords($this->options['q']);
             $query = $area->subject;
         }
 
