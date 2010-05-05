@@ -10,11 +10,10 @@
     'other'                         => 'Other',
     );
     $college_regions = array(
-    'admissionRequirements'         => 'COLLEGE ADMISSION',
-    'degreeRequirements'            => 'COLLEGE DEGREE REQUIREMENTS',
-    'aceRequirements'               => 'ACE REQUIREMENTS',
-    'bulletinRule'                  => 'BULLETIN RULE',
-    'other'                         => 'OTHER INFORMATION',
+    'admissionRequirements'         => 'College Admission',
+    'degreeRequirements'            => 'College Degree Requirements',
+    'aceRequirements'               => 'ACE Requirements',
+    'bulletinRule'                  => 'Bulletin Rule',
     );
 ?>
 <div class="three_col left">
