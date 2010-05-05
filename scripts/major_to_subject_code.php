@@ -1,6 +1,6 @@
 <?php
 
-require '../config.sample.php';
+require dirname(__FILE__).'/../config.sample.php';
 
 $file = file(UNL_UndergraduateBulletin_Controller::getDataDir().'/major_to_subject_code.csv');
 
