@@ -6,6 +6,10 @@ class UNL_UndergraduateBulletin_Major implements UNL_UndergraduateBulletin_Cache
     
     public $options;
     
+    /**
+     * 
+     * @var UNL_UndergraduateBulletin_Major_Description
+     */
     protected $_description;
     
     protected $_subjectareas;
@@ -88,6 +92,21 @@ class UNL_UndergraduateBulletin_Major implements UNL_UndergraduateBulletin_Cache
             if (preg_match('/^Yes/', $this->description->quickpoints['Minor Available'])) {
                 return true;
             }
+        }
+        return false;
+    }
+    
+    function minorOnly()
+    {
+        if (strpos($this->title, 'Minor') !== false) {
+            return true;
+        }
+        if (isset($this->description->quickpoints['Degree Offered'])
+            && $this->description->quickpoints['Degree Offered'] == 'Minor only') {
+            return true;
+        }
+        if (isset($this->description->quickpoints['Minor Only'])) {
+            return true;
         }
         return false;
     }

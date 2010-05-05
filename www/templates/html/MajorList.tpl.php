@@ -29,6 +29,7 @@ UNL_UndergraduateBulletin_Controller::setReplacementData('doctitle', 'UNL | Unde
             <ol>
                <li><input type="checkbox" checked="checked" id="filterAllMinor" class="filterAll" name="all" value="all" /><label for="filterAllMinor">All</label></li>
                <li><input type="checkbox" id="filterMinorAvailable" name="minorAvailable" value="minorAvailable" /><label for="filterMinorAvailable">Yes</label></li>
+               <li><input type="checkbox" id="filterMinorOnly" name="minorOnly" value="minorOnly" /><label for="filterMinorOnly">Minor Only</label></li>
             </ol>
         </fieldset>
         </form>
@@ -41,6 +42,9 @@ UNL_UndergraduateBulletin_Controller::setReplacementData('doctitle', 'UNL | Unde
         $class = '';
         if ($major->minorAvailable()) {
             $class .= 'minorAvailable ';
+        }
+        if ($major->minorOnly()) {
+            $class .= 'minorOnly ';
         }
         
         if (isset($major->college)) {

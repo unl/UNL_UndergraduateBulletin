@@ -26,7 +26,14 @@ UNL_UndergraduateBulletin_Controller::setReplacementData('breadcrumbs', '
     <?php
     $majors = array();
     foreach($context->majors as $major) {
-        $majors[] = '<li><a href="'.$major->getRawObject()->getURL().'">'.$major->title.'</a></li>';
+        $class = '';
+        if ($major->minorAvailable()) {
+            $class .= 'minorAvailable ';
+        }
+        if ($major->minorOnly()) {
+            $class .= 'minorOnly ';
+        }
+        $majors[] = '<li class="'.$class.'"><a href="'.$major->getRawObject()->getURL().'">'.$major->title.'</a></li>';
     }
     if (count($majors)):
     ?>
