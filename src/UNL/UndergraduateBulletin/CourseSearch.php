@@ -28,7 +28,14 @@ class UNL_UndergraduateBulletin_CourseSearch implements Countable, UNL_Undergrad
     {
         $search = new UNL_Services_CourseApproval_Search();
 
-        $this->results = $search->byAny($this->options['q'],
+        $query = $this->options['q'];
+
+        // Check to see if the query matches a subject code
+        if ($area = UNL_UndergraduateBulletin_SubjectArea::getByTitle($query)) {
+            $query = $area->subject;
+        }
+
+        $this->results = $search->byAny($query,
                                         $this->options['offset'],
                                         $this->options['limit']);
     }
