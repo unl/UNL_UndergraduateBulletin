@@ -17,12 +17,17 @@ $outputcontroller = new UNL_UndergraduateBulletin_OutputController();
 $outputcontroller->setTemplatePath(dirname(__FILE__).'/templates/html');
 
 switch($controller->options['format']) {
+    case 'partial':
+        $outputcontroller->sendCORSHeaders(strtotime('tomorrow'));
+        break;
     case 'xml':
+        $outputcontroller->sendCORSHeaders(strtotime('tomorrow'));
         header('Content-type:text/xml');
         $outputcontroller->addTemplatePath(dirname(__FILE__).'/templates/xml');
         break;
     case 'json':
-        //header('Content-type: text/javascript');
+        $outputcontroller->sendCORSHeaders(strtotime('tomorrow'));
+        header('Content-type: text/javascript');
         $outputcontroller->addTemplatePath(dirname(__FILE__).'/templates/json');
         break;
 }

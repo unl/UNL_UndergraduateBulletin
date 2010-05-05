@@ -82,9 +82,11 @@ class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_
                                 '<title>'.self::$replacement_data['doctitle'].'</title>',
                                 $data);
         }
-        
-        if (isset(self::$replacement_data['head'])) {
+
+        if (isset(self::$replacement_data['head'])
+            && strstr($data, '</head>')) {
             $data = str_replace('</head>', self::$replacement_data['head'].'</head>', $data);
+            unset(self::$replacement_data['head']);
         }
 
         if (isset(self::$replacement_data['breadcrumbs'])

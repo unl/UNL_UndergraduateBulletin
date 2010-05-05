@@ -108,6 +108,10 @@
 
     if (isset($parent->parent->context->options)
         && $parent->parent->context->options['view'] == 'course') {
+        UNL_UndergraduateBulletin_Controller::setReplacementData('head', '
+        <link rel="alternate" type="text/xml" href="'.$permalink.'?format=xml" />
+        <link rel="alternate" type="text/javascript" href="'.$permalink.'?format=json" />
+        <link rel="alternate" type="text/html" href="'.$permalink.'?format=partial" />');
         UNL_UndergraduateBulletin_Controller::setReplacementData('doctitle', 'UNL | Undergraduate Bulletin | '.$subject.' '.$listings.': '.$context->title);
         UNL_UndergraduateBulletin_Controller::setReplacementData('breadcrumbs', '
     <ul>
