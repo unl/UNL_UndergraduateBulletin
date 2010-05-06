@@ -146,12 +146,12 @@ WDN.jQuery(document).ready(function($){
 				if (this.checked){
 					WDN.jQuery('form.filters input').not('.filterAll').removeAttr('checked');
 					WDN.jQuery('.filterAll').attr('checked', 'checked');
-					WDN.jQuery('.course').show();
+					WDN.jQuery('dd.course, dt.course').show();
 					WDN.jQuery('#majorListing li').show();
 				} 
 			} else {
 				WDN.jQuery('.filterAll').removeAttr('checked'); //uncheck the all checkboxes
-				WDN.jQuery('.course').hide(); //hide all the coures
+				WDN.jQuery('dd.course, dt.course').hide(); //hide all the coures
 				WDN.jQuery('#majorListing li').hide(); //hide all the major listings
 				var one_checked = false;
 				WDN.jQuery('form.filters input').not('.filterAll').each(function(){ //loop through all the checkboxes
@@ -161,7 +161,7 @@ WDN.jQuery(document).ready(function($){
 					}
 				});
 				if (one_checked == false) { //no checkboxes are checked, so show all
-				    WDN.jQuery('.course').show();
+				    WDN.jQuery('dd.course, dt.course').show();
 				    WDN.jQuery('#majorListing li').show();
 				    WDN.jQuery('.filterAll').attr('checked', 'checked');
 				}
