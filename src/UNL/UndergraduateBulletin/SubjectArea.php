@@ -1,8 +1,13 @@
 <?php
 class UNL_UndergraduateBulletin_SubjectArea extends UNL_Services_CourseApproval_SubjectArea
 {
+    public $title;
+    
     function __construct($options = array())
     {
+        if (isset($options['title'])) {
+            $this->title = $options['title'];
+        }
         parent::__construct($options['id']);
     }
     
@@ -23,5 +28,10 @@ class UNL_UndergraduateBulletin_SubjectArea extends UNL_Services_CourseApproval_
             }
         }
         return false;
+    }
+    
+    function __toString()
+    {
+        return $this->subject;
     }
 }

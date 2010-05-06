@@ -26,10 +26,11 @@ class UNL_UndergraduateBulletin_SubjectAreas extends ArrayIterator implements UN
     function current()
     {
         $data = str_getcsv(parent::current(), ',', '\'');
+        $options = array('id'=>$data[0]);
         if (isset($data[1])) {
-            return $data[1];
+            $options['title'] = $data[1];
         }
-        return $data[0];
+        return new UNL_UndergraduateBulletin_SubjectArea($options);
     }
     
     function key()
