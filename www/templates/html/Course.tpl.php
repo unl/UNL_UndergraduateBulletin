@@ -120,6 +120,7 @@
         <li>'.$subject.' '.$listings.': '.$context->title.'</li>
     </ul>
     ');
+        echo '<dl>';
     }
     
     echo "
@@ -176,14 +177,18 @@
         echo  '</table>';
 
         if (!empty($context->prerequisite)) {
-            echo  "<p class='prereqs'>Prereqs: ".UNL_UndergraduateBulletin_EPUB_Utilities::addCourseLinks($context->prerequisite)."</p>";
+            echo  "<div class='prereqs'>Prereqs: ".UNL_UndergraduateBulletin_EPUB_Utilities::addCourseLinks($context->getRaw('prerequisite'))."</div>";
         }
         if (!empty($context->notes)) {
-            echo  "<p class='notes'>".UNL_UndergraduateBulletin_EPUB_Utilities::addCourseLinks($context->notes)."</p>";
+            echo  "<div class='notes'>".UNL_UndergraduateBulletin_EPUB_Utilities::addCourseLinks($context->getRaw('notes'))."</div>";
         }
         if (!empty($context->description)) {
-            echo  "<p class='description'>".iconv("UTF-8", "ISO-8859-1//TRANSLIT", $context->description)."</p>";
+            echo  "<div class='description'>".$context->getRaw('description')."</div>";
         }
         
     echo  "</dd>";
+    if (isset($parent->parent->context->options)
+        && $parent->parent->context->options['view'] == 'course') {
+        echo '</dl>';
+    }
 ?>
