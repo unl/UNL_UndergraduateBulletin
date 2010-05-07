@@ -24,24 +24,10 @@ UNL_UndergraduateBulletin_Controller::setReplacementData('breadcrumbs', '
 </div>
 <div class="col right">
     <?php
-    $majors = array();
-    foreach($context->majors as $major) {
-        $class = '';
-        if ($major->minorAvailable()) {
-            $class .= 'minorAvailable ';
-        }
-        if ($major->minorOnly()) {
-            $class .= 'minorOnly ';
-        }
-        $majors[] = '<li class="'.$class.'"><a href="'.$major->getRawObject()->getURL().'">'.$major->title.'</a></li>';
-    }
-    if (count($majors)):
+    if (count($context->majors)):
     ?>
     <h3 id="relatedMajors">Majors</h3>
-    <ul id="majorListing">
-        <?php echo implode(PHP_EOL, $majors); ?>
-    </ul>
-    <?php
+    <?php echo $savvy->render($context->majors, 'MajorList/UnorderedList.tpl.php');
     endif;
     ?>
 </div>

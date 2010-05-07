@@ -12,17 +12,19 @@ if ($context->options['view'] == 'searchmajors') {
     ');
 }
 if ($context->options['format'] != 'partial') {
-    echo $savvy->render('', 'MajorSearchForm.tpl.php');
-}
-if (!$context->count()) {
-    echo 'Sorry, no matching areas of study';
-} else {
-    echo '<h2>'.$context->count().' result(s)</h2>'; ?>
-    <ul id="majorListing">
-    <?php foreach ($context as $major): ?>
-    <li><a href="<?php echo $major->getRawObject()->getURL(); ?>"><?php echo $major->title; ?></a></li>
-    <?php endforeach; ?>
-    </ul>
-<?php
+    echo $savvy->render('', 'MajorList/SearchForm.tpl.php');
 }
 ?>
+<div class="col left">
+    <?php echo $savvy->render(null, 'MajorList/Filters.tpl.php'); ?>
+</div>
+<div class="three_col right">
+    <?php 
+    if (!$context->count()) {
+        echo 'Sorry, no matching areas of study';
+    } else {
+        echo '<h2>'.$context->count().' result(s)</h2>';
+        echo $savvy->render($context, 'MajorList/UnorderedList.tpl.php');
+    }
+    ?>
+</div>
