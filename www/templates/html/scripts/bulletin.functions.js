@@ -141,6 +141,9 @@ WDN.jQuery(document).ready(function($){
     			WDN.jQuery(this).closest('li').addClass('disabled');
     			return true;
     		} else {
+    			if (WDN.jQuery(this).closest('form').hasClass('courseFilters')) {
+        			total = total/2;
+        		}
     			WDN.jQuery('label[for='+this.id+']').append(' <span class="count">('+total+')</span>');
     		}
     	}
