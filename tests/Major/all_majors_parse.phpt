@@ -8,6 +8,13 @@ $majors = new UNL_UndergraduateBulletin_MajorList();
 
 foreach ($majors as $major) {
     $test->assertTrue(isset($major->description->college), 'major '.$major->title.' has college '.$major->college->name);
+    try {
+        isset($major->college->description->college);
+        $success = true;
+    } catch(Exception $e) {
+        $success = false;
+    }
+    $test->assertTrue($success, 'major '.$major->title.' has college '.$major->college->name);
 }
 
 
