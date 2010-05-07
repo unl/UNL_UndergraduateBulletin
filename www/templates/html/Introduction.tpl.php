@@ -28,7 +28,7 @@
 <div class="two_col right">
         <?php
         echo $savvy->render('', 'CourseSearchForm.tpl.php');
-        echo $savvy->render('', 'MajorSearchForm.tpl.php');
+        echo $savvy->render('', 'MajorList/SearchForm.tpl.php');
         ?>
         <div class="clear"></div>
 </div>
