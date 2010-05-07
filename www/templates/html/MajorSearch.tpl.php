@@ -23,7 +23,7 @@ if ($context->options['format'] != 'partial') {
     if (!$context->count()) {
         echo 'Sorry, no matching areas of study';
     } else {
-        echo '<h2>'.$context->count().' result(s)</h2>';
+        echo '<h2 class="resultCount">'.$context->count().' result(s)</h2>';
         echo $savvy->render($context, 'MajorList/UnorderedList.tpl.php');
     }
     ?>
