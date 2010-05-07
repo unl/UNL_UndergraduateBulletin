@@ -135,10 +135,13 @@ WDN.jQuery(document).ready(function($){
     WDN.jQuery('form.filters input').each(function(){
     	if (WDN.jQuery(this).attr('value') !== "all") {
     		// Check and see if we actually have any of these courses
-    		if (WDN.jQuery('.'+WDN.jQuery(this).attr('value')).length == 0) {
+    		var total = WDN.jQuery('.'+WDN.jQuery(this).attr('value')).length;
+    		if (total == 0) {
     			WDN.jQuery(this).attr('disabled', 'disabled');
     			WDN.jQuery(this).closest('li').addClass('disabled');
     			return true;
+    		} else {
+    			WDN.jQuery('label[for='+this.id+']').append(' <span class="count">('+total+')</span>');
     		}
     	}
     	WDN.jQuery(this).click(function() {
@@ -146,13 +149,11 @@ WDN.jQuery(document).ready(function($){
 				if (this.checked){
 					WDN.jQuery('form.filters input').not('.filterAll').removeAttr('checked');
 					WDN.jQuery('.filterAll').attr('checked', 'checked');
-					WDN.jQuery('dd.course, dt.course').show();
-					WDN.jQuery('#majorListing li').show();
-				} 
+					WDN.jQuery('dd.course, dt.course, #majorListing li').show();
+				}
 			} else {
 				WDN.jQuery('.filterAll').removeAttr('checked'); //uncheck the all checkboxes
-				WDN.jQuery('dd.course, dt.course').hide(); //hide all the coures
-				WDN.jQuery('#majorListing li').hide(); //hide all the major listings
+				WDN.jQuery('dd.course, dt.course, #majorListing li').hide(); //hide all the coures and majors
 				var one_checked = false;
 				WDN.jQuery('form.filters input').not('.filterAll').each(function(){ //loop through all the checkboxes
 					if (this.checked) {
@@ -161,8 +162,7 @@ WDN.jQuery(document).ready(function($){
 					}
 				});
 				if (one_checked == false) { //no checkboxes are checked, so show all
-				    WDN.jQuery('dd.course, dt.course').show();
-				    WDN.jQuery('#majorListing li').show();
+				    WDN.jQuery('dd.course, dt.course, #majorListing li').show();
 				    WDN.jQuery('.filterAll').attr('checked', 'checked');
 				}
 			}

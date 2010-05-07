@@ -100,3 +100,9 @@ Form overrides
 #courseSearchResults .details {
     display:none;
 }
+
+#maincontent form.filters label span.count {
+	color:#555;
+	font-size:50%;
+	font-style:italic;
+}
