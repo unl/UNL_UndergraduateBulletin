@@ -24,9 +24,11 @@ if (!$context->results->count()) {
         echo '<div class="three_col right">';
     }
     echo '<h2 class="resultCount">'.$context->results->count().' results</h2>';
+    echo '<dl>';
     foreach ($context->results as $course) {
         echo $savvy->render($course);
     }
+    echo '</dl>';
     if ($context->options['format'] != 'partial') {
         // add the pagination links if necessary
         if (count($context) > $context->options['limit']) {
