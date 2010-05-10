@@ -21,6 +21,7 @@ Course qTip Styles
     -moz-border-radius:5px;
 }
 .course-qtip .qtip-wrapper {
+    background-color:#fff;
     border:3px solid #c8c8c8;
     -moz-border-radius:3px;
     -webkit-border-radius:3px;
@@ -30,6 +31,7 @@ Course qTip Styles
     min-height:100px;
     background:#fff;
     width:618px;
+    border:none !important;
 }
 .course-qtip .qtip-content {padding:9px;overflow:scroll;}
 .course-qtip .qtip-tip {
