@@ -3,6 +3,7 @@ class UNL_UndergraduateBulletin_Major_Description
 {
     protected static $epub_files = array(
         // data/majors/{FILENAME}.epub                  => title displayed
+        'Actuarial Science'                             => 'Actuarial Science (CBA)',
         'African_American_African Studies Minor'        => 'African-American Studies; African Studies (ASC)',
         'Agribusiness'                                  => 'Agribusiness (CASNR)',
         'Agribusiness CBA'                              => 'Agribusiness (CBA)',
