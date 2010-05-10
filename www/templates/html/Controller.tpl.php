@@ -75,7 +75,12 @@ $page->navlinks     = '
 $page->loadSharedCodeFiles();
 $page->addStylesheet('/wdn/templates_3.0/css/content/notice.css');
 $page->addStylesheet('/wdn/templates_3.0/css/content/zenform.css');
-$page->addStylesheet($url. 'templates/html/css/all.css');
+if (UNL_UndergraduateBulletin_OutputController::getCacheInterface() instanceof UNL_UnderGraduateBulletin_CacheInterface_Mock) {
+    $page->addStylesheet($url. 'templates/html/css/debug.css');
+} else {
+    $page->addStylesheet($url. 'templates/html/css/all.css');
+}
+
 $page->head .= '
 <script type="text/javascript">var UNL_UGB_URL = "'.$url.'";</script>
 <script type="text/javascript" src="/wdn/templates_3.0/scripts/plugins/ui/jQuery.ui.js"></script>
