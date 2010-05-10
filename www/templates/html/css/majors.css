@@ -48,8 +48,8 @@
 table.major_quick_points {
     margin-bottom:2em;
 }
-table.major_quick_points thead tr:nth-child(2),
-table.major_quick_points caption, .table_heading {
+table.major_quick_points caption,
+table.major_quick_points .table_heading {
     display:none;
     visibility:hidden;
 }
