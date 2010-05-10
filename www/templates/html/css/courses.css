@@ -3,6 +3,7 @@
  */ 
 dt {
 	padding:0;
+	position:relative;
 }
 
 dd {
@@ -48,8 +49,9 @@ dd {
 	margin-left:95px;
 	padding-bottom:2px;}
 .course .title a {
-	float:right;
-	margin-top:-9px;
+	position:absolute;
+	right:0px;
+	top:3px;
 	text-indent:-99999px;
 	background:url(images/showHideInverse.png) no-repeat top right;
 	background-position:0px 0px;
