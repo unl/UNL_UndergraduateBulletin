@@ -59,16 +59,21 @@ Course qTip Styles
 }
 
 .course-qtip .title a {display:none;}
-.course-qtip .subjectCode {margin-top:11px;min-width:60px;top:-3px;margin-left:2px;}
+.course-qtip .subjectCode {
+    margin-top:11px;
+    min-width:60px;
+    top:-3px;
+    margin-left:2px;
+}
 .course-qtip .number {
     margin:-14px 5px 0 0;
     min-width:60px;
     padding:19px 0 7px;
+    z-index:1000;
 }
 .course-qtip .course .title {
-    background:#f5f5f5;
-    margin:-8px -10px 0 -10px;
-    padding:7px 5px 4px 82px;
+    margin:0 0 0 72px;
+    padding:7px 5px 4px 0;
     border-bottom:1px solid #e7e7e7;
     font-size:150%;
 }
