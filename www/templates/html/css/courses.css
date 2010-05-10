@@ -39,8 +39,9 @@ dd {
 	min-width:85px;
 	text-align:center;
 }
-.course .wide {font-size:1.55em;padding:25px 0px 10px 2px;margin:-15px 5px 0 0;letter-spacing:-2px;}
-.course .really.wide {font-size:1.1em;}
+.course .number.l2,
+.course .number.l3 {font-size:1.55em;padding:25px 0px 10px 2px;margin:-15px 5px 0 0;letter-spacing:-2px;}
+.course .number.l3 {font-size:1.1em;}
 .course .title {
 	font-size:1.4em;
 	display:block;

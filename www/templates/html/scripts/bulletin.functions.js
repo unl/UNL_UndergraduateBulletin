@@ -77,7 +77,7 @@ WDN.jQuery(document).ready(function($){
 		setTOCLocations();
 	};
 	
-    $(".minimize, .maximize").click(function() {
+    $("#officialMessage .minimize, #officialMessage .maximize").click(function() {
     	if ($(this).parent('.wdn_notice').hasClass('small')) { //let's show the full notice
     		$(this).parent(".wdn_notice").fadeOut("fast", function() {
     			$(this).children("div.message").children("a").appendTo("div.message p");
@@ -112,15 +112,6 @@ WDN.jQuery(document).ready(function($){
     	$(this).parent('span').parent('dt').next('dd').slideToggle();
     	$(this).toggleClass('showIt');
     	return false;
-    });
-  //Deal with the course call numbers that are long
-    $('.number').each(function(){
-    	if($(this).text().length > 4) {
-    		$(this).addClass('wide');
-    	}
-    	if($(this).text().length > 8) {
-    		$(this).addClass('really');
-    	}
     });
     
     // Configure course filters.

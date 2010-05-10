@@ -8,9 +8,9 @@
     } else {
         $subject = $context->getHomeListing()->subjectArea;
     }
-    $listings = '';
+    $listings      = array();
     $crosslistings = array();
-    $groups = array();
+    $groups        = array();
 
     foreach ($context->codes as $listing) {
         if ($listing->subjectArea == $subject) {
@@ -19,7 +19,7 @@
                 $permalink = $url.'courses/'.$subject.'/'.$listing->courseNumber;
             }
 
-            $listings .= $listing->courseNumber.'/';
+            $listings[] = $listing->courseNumber;
             if ($listing->hasGroups()) {
                 $groups = array_merge($groups, $listing->groups);
                 foreach ($listing->groups as $group) {
@@ -38,7 +38,9 @@
     foreach ($crosslistings as $cl_subject=>$cl_numbers) {
         $cltext .= ', '.$cl_subject.' '.implode('/', $cl_numbers);
     }
-    $listings = trim($listings, '/');
+    $number_class = 'l'.count($listings);
+    sort($listings);
+    $listings = implode('/', $listings);
     if (!empty($cltext)) {
         $crosslistings = '<span class="crosslisting">'.trim($cltext, ', ').'</span>';
     }
@@ -126,7 +128,7 @@
     echo "
         <dt class='$class'>
             <span class='subjectCode'>".$subject."</span>
-            <span class='number'>$listings</span>
+            <span class='number $number_class'>$listings</span>
             <span class='title'>".$context->title."<a href='$permalink'>Hide desc.</a></span>";
         if (!empty($crosslistings)) {
             echo  '<span class="crosslistings">Crosslisted as '.$crosslistings.'</span>';
