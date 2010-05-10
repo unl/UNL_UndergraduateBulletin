@@ -1,3 +1,17 @@
+/**
+ * Course details are in definition lists. dl > dt, and dl > dd.
+ */ 
+dt {
+	padding:0;
+}
+
+dd {
+	margin:0 0 3em 0;
+	padding-left:0 !important;
+	position:relative;
+	overflow:hidden;
+}
+
 .course .subjectCode {
 	margin-bottom:-6px;
 	color:#818489;
@@ -71,9 +85,6 @@
 .course .details td {}
 .course .details .label {font-weight:bold;}
 .course .details .value {text-align:right;}
-dd {margin:0 0 3em 0;padding-left:0 !important;position:relative;overflow:hidden;}
-dt {padding:3em 0 0 0 !important;}
-dt:first-of-type {padding:0 !important;}
 .course {clear:both;}
 
 .revealed {background-color:#fffea8;}
