@@ -17,13 +17,17 @@ function compress($buffer) {
 }
 
 /* css files */
-$files = glob(dirname(__FILE__).'/../www/templates/html/css/*.css');
+$files = array(
+'general.css',
+'courses.css',
+'filters.css',
+'majors.css',
+'qtip_courses.css',
+'indesign_epub.css',
+'search_results.css',
+);
 foreach ($files as $file) {
-    if (strstr($file, 'debug.css')
-        || strstr($file, 'all.css')) {
-        continue;
-    }
-    if ($corrected = @file_get_contents($file)) {
+    if ($corrected = @file_get_contents(dirname(__FILE__).'/../www/templates/html/css/'.$file)) {
         echo preg_replace('/\@import[\s]+url\(.*\);/', '', $corrected);
     }
 }
