@@ -1,8 +1,38 @@
-.course .subjectCode {margin-bottom:-6px;color:#818489;display:block;float:left;min-width:85px;text-align:center;position:relative;z-index:12;}
-.course .number {background-color:#E7F0F9;border:2px solid #cedae7; border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;font-size:2.5em;padding:25px 0px 10px 0px;margin:-15px 5px 0 0;display:block;clear:left;float:left;font-weight:bold;min-width:85px;text-align:center;}
+.course .subjectCode {
+	margin-bottom:-6px;
+	color:#818489;
+	display:block;
+	float:left;
+	min-width:85px;
+	text-align:center;
+	position:relative;
+	z-index:12;
+}
+.course .number {
+	background-color:#E7F0F9;
+	border:2px solid #cedae7;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	font-size:2.5em;
+	padding:25px 0px 10px 0px;
+	margin:-15px 5px 0 0;
+	display:block;
+	clear:left;
+	float:left;
+	font-weight:bold;
+	min-width:85px;
+	text-align:center;
+}
 .course .wide {font-size:1.55em;padding:25px 0px 10px 2px;margin:-15px 5px 0 0;letter-spacing:-2px;}
 .course .really.wide {font-size:1.1em;}
-.course .title {font-size:1.4em; display:block; border-bottom:1px solid #C8C8C8;font-style:normal;font-weight:bold;margin-left:95px;padding-bottom:2px;}
+.course .title {
+	font-size:1.4em;
+	display:block;
+	border-bottom:1px solid #C8C8C8;
+	font-weight:bold;
+	margin-left:95px;
+	padding-bottom:2px;}
 .course .title a {
 	float:right;
 	margin-top:-9px;
@@ -45,19 +75,6 @@ dd {margin:0 0 3em 0;padding-left:0 !important;position:relative;overflow:hidden
 dt {padding:3em 0 0 0 !important;}
 dt:first-of-type {padding:0 !important;}
 .course {clear:both;}
-
-/*filter box*/
-#displayControl {
-	}
-form.filters {color:#a15901;margin-top:15px;}
-form.filters legend span {display:block; width:208px; border-bottom:1px solid #c39863;font-weight:bold;margin-bottom:10px;font-size:1.1em;}
-form.filters div.element {display:inline;}
-form.filters input[type="checkbox"] {width:20px;float:left;margin-left:-4px;}
-form.filters label {display:inline;margin-left:0px;font-size:.9em;}
-form.filters ol li {clear:both;}
-#maincontent form.filters ol {list-style:none;padding-left:0px;}
-form.filters ol li.disabled {opacity: 0.5;}
-form.filters ol li.disabled label {text-decoration: line-through;}
 
 .revealed {background-color:#fffea8;}
 
