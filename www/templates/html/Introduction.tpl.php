@@ -13,8 +13,14 @@
             <li><a href="college/Fine+%26+Performing+Arts">Hixson-Lied College of Fine &amp; Performing Arts</a></li>
             <li>Journalism &amp; Mass Communications</li>
         </ul>
-        <h3 class="sec_header">Other Academic Services</h3>
+        <h3>Honors Programs</h3>
         <ul id="collegeListing">
+            <li>NU Honors Program</li>
+            <li>Jeffrey S. Raikes School of Computer Science and Management</li>
+        </ul>
+        <h3 class="sec_header">Other Academic Units</h3>
+        <ul id="collegeListing">
+            <li>Office of Undergraduate Studies</li>
             <li>Division of General Studies</li>
             <li><a href="college/Libraries">Libraries</a></li>
             <li><a href="college/Public+Affairs+%26+Community+Service">Public Affairs &amp; Community Service</a></li>

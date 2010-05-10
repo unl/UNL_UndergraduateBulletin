@@ -42,9 +42,6 @@ $page->navlinks     = '
             <li><a href="'.$url.'college/Architecture">Architecture</a></li>
             <li><a href="'.$url.'college/Arts+%26+Sciences">Arts &amp; Sciences</a></li>
             <li><a href="'.$url.'college/Business+Administration">Business Adminstration</a></li>
-            <!--
-            <li><a href="#">Division of General Studies</a></li>
-            -->
             <li><a href="'.$url.'college/Education+%26+Human+Sciences">Education &amp; Human Sciences</a></li>
             <!--
             <li><a href="#">Engineering</a></li>
@@ -56,8 +53,18 @@ $page->navlinks     = '
             
         </ul>
     </li>
-    <li><a href="'.$url.'college/">Other Areas</a>
+    <li><a href="#">Honors Programs</a>
         <ul>
+            <li><a href="#">NU Honors Program</a></li>
+            <li><a href="#">Jeffrey S. Raikes School of Computer Science and Management</a></li>
+        </ul>
+    </li>
+    <li><a href="'.$url.'college/">Other Academic Units</a>
+        <ul>
+            <!--
+            <li><a href="#">Office of Undergraduate Studies</a></li>
+            <li><a href="#">Division of General Studies</a></li>
+            -->
             <li><a href="'.$url.'college/Libraries">Libraries</a></li>
             <li><a href="'.$url.'college/Public+Affairs+%26+Community+Service">Public Affairs &amp; Community Service</a></li>
             <li><a href="'.$url.'college/Reserve+Officers%27+Training+Corps+%28ROTC%29">Reserve Officers\' Training Corps (ROTC)</a></li>
