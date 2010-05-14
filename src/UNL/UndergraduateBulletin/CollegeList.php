@@ -9,6 +9,7 @@ class UNL_UndergraduateBulletin_CollegeList extends FilterIterator
         'ASC'   => 'Arts & Sciences',
         'CBA'   => 'Business Administration',
         'CEHS'  => 'Education & Human Sciences',
+        'ENG'   => 'Engineering',
         'FPA'   => 'Fine & Performing Arts',
         'LIB'   => 'Libraries',
         'PACS'  => 'Public Affairs & Community Service',

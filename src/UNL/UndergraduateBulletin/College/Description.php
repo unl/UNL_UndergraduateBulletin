@@ -13,6 +13,7 @@ class UNL_UndergraduateBulletin_College_Description
         'Arts & Sciences'                           => 'ASC College page.epub/OEBPS/AandS.xhtml',
         'Business Administration'                   => 'CBA College page.epub/OEBPS/CBA_College_page.xhtml',
         'Education & Human Sciences'                => 'CEHS.epub/OEBPS/College_Page_test-CEHS.xhtml',
+        'Engineering'                               => 'College of Engineering.epub/OEBPS/College_of_Engineering.xhtml',
         'Fine & Performing Arts'                    => 'FPA College.epub/OEBPS/FPA_College.xhtml',
         'Libraries'                                 => 'LIBR College Page.epub/OEBPS/LIBR_College_page.xhtml',
         'Public Affairs & Community Service'        => 'CPACS College Page.epub/OEBPS/CPACS_College_page.xhtml',
@@ -24,18 +25,18 @@ class UNL_UndergraduateBulletin_College_Description
     function __construct(UNL_UndergraduateBulletin_College $college)
     {
         $this->college = $college;
-        
+
         if (!isset(self::$files[$college->name])) {
-            throw new Exception('No description for the '.$college->name.' college.');
+            throw new Exception('No description for the "'.$college->name.'" college.');
         }
         $file = 'phar://'.UNL_UndergraduateBulletin_Controller::getDataDir().'/colleges/'.self::$files[$college->name];
-        
+
         $this->_xml = simplexml_load_string(file_get_contents($file));
-        
+
         // Fetch all namespaces
         $namespaces = $this->_xml->getNamespaces(true);
         $this->_xml->registerXPathNamespace('default', $namespaces['']);
-        
+
         // Register the rest with their prefixes
         foreach ($namespaces as $prefix => $ns) {
             $this->_xml->registerXPathNamespace($prefix, $ns);

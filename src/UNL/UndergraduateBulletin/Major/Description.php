@@ -29,6 +29,7 @@ class UNL_UndergraduateBulletin_Major_Description
         'Hospitality_Restaurant and Tourism Management' => 'Hospitality, Restaurant & Tourism Management (CEHS)',
         'Human Rights_Human Diversity Minor'            => 'Human Rights & Human Diversity (Minor only)',
         'Inclusive Early Childhood Ed B-3rd Gr'         => 'Inclusive Early Childhood Education (Birth-3rd grade)',
+        'Industrial_Management Systems Engr'            => 'Industrial & Management Systems Engineering',
         'Journalism_Mass Comm _English 7-12'            => 'Journalism & Mass Communication & English (7-12)',
         'Language Arts 7-12'                            => 'Language Arts (7-12)',
         'Latin Education 7-12'                          => 'Latin Education (7-12)',
@@ -122,6 +123,9 @@ class UNL_UndergraduateBulletin_Major_Description
             // Handle quickpoint
             if (isset($quickpoint->span)) {
                 $point_desc = (string)$quickpoint->span;
+                if (count($quickpoint->span) == 2) {
+                    $quickpoint = $quickpoint->span[1];
+                }
             } else {
                 $point_desc = (string)$quickpoint;
             }
