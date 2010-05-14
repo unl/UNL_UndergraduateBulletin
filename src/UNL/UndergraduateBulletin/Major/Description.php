@@ -125,9 +125,10 @@ class UNL_UndergraduateBulletin_Major_Description
             } else {
                 $point_desc = (string)$quickpoint;
             }
-            if (preg_match('/([A-Z\s]+)+:/', $point_desc, $matches)) {
+            if (preg_match('/\s*([A-Z\s]+)+:/', $point_desc, $matches)) {
                 $value = trim(str_replace($matches[0], '', (string)$quickpoint));
-                switch($matches[1]) {
+                $attr = $matches[1];
+                switch($attr) {
                     case 'COLLEGE':
                         $value = str_replace(
                                     array('Hixson-Lied ', 'College of ', ' and '), 
@@ -139,6 +140,7 @@ class UNL_UndergraduateBulletin_Major_Description
                         break;
                     case 'MAJOR':
                         break;
+                    case 'OFFERED';
                     case 'DEGREE OFFERED':
                     case 'DEGREES OFFERED':
                     case 'HOURS REQUIRED':
@@ -150,11 +152,14 @@ class UNL_UndergraduateBulletin_Major_Description
                     case 'DEPARTMENTS':
                     case 'PROGRAM':
                     case 'DEGREE':
-                        $attr = explode(' ', strtolower($matches[1]));
+                    case 'ADVISERS':
+                    case 'ADVISER':
+                        $attr = explode(' ', strtolower($attr));
                         $attr = array_map('ucfirst', $attr);
                         $attr = implode(' ', $attr);
                         $this->quickpoints[$attr] = $value;
                         break;
+                    case 'GPA':
                     case 'GPA REQUIRED':
                         $this->quickpoints['GPA Required'] = $value;
                         break;
@@ -162,7 +167,7 @@ class UNL_UndergraduateBulletin_Major_Description
                         $this->quickpoints['Minimum Cumulative GPA'] = $value;
                         break;
                     default:
-                        throw new Exception('Unknown quickpoint '.$matches[0]);
+                        throw new Exception('Unknown quickpoint "'.$matches[0].'"');
                 }
             }
         }
@@ -190,15 +195,13 @@ class UNL_UndergraduateBulletin_Major_Description
         if (!file_exists($epub)) {
             throw new Exception('Sorry, no description exists for '.$name. ' in '.$epub);
         }
-        
+
         if (file_exists('phar://'.$epub.'/OEBPS/'.str_replace(' ', '_', $name).'.xhtml')) {
             return 'phar://'.$epub.'/OEBPS/'.str_replace(' ', '_', $name).'.xhtml';
         }
-        
-        if ($new) {
-            $name = preg_replace('/\s+\(?[A-Z]+\)?$/', '', $name);
-            return 'phar://'.$epub.'/OEBPS/'.str_replace(' ', '_', $name).'.xhtml';
-        }
+
+        $name = preg_replace('/\s+\(?[A-Z]+\)?$/', '', $name);
+        return 'phar://'.$epub.'/OEBPS/'.str_replace(' ', '_', $name).'.xhtml';
     }
 }
 ?>
