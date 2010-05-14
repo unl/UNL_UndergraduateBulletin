@@ -1,6 +1,8 @@
 <div class="two_col left">
     <h1>What you can find here:</h1>
-    <p>The Undergraduate Bulletin contains information about all programs of undergraduate study at the University of Nebraska&ndash;Lincoln.</p>
+    <p>The Undergraduate Bulletin contains information about all programs of undergraduate study at the University of Nebraska&ndash;Lincoln.
+        <a href="about">More info&hellip;</a>
+    </p>
     <div class="col left">
         <h3 class="sec_header">College Information</h3>
         <ul id="collegeListing">
