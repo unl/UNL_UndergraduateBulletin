@@ -17,6 +17,8 @@ class UNL_UndergraduateBulletin_EPUB_Utilities
     
     public static function convertHeadings($html)
     {
+        // trim off pointless "generated-style" spans
+        $html = preg_replace('/<span class="generated-style">([^<]*)<\/span>/', '$1', $html);
         $html = preg_replace('/<p class="content-box-h-1">([^<]*)<\/p>/', '<h2 class="sec_header content-box-h-1">$1</h2>', $html);
         $html = preg_replace('/<p class="content-box-m-p">([^<]*)<\/p>/', '<h2 class="sec_header content-box-m-p">$1</h2>', $html);
         $html = preg_replace('/<p class="section-1">([^<]*)<\/p>/', '<h3 class="section-1">$1</h3>', $html);
