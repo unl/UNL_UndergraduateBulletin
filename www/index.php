@@ -19,7 +19,7 @@ switch($controller->options['format']) {
         break;
     case 'xml':
         $outputcontroller->sendCORSHeaders(strtotime('tomorrow'));
-        header('Content-type:text/xml');
+        header('Content-type: text/xml');
         $outputcontroller->addTemplatePath(dirname(__FILE__).'/templates/xml');
         break;
     case 'json':
