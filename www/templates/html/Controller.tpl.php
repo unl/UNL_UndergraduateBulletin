@@ -41,7 +41,7 @@ $page->navlinks     = '
             <li><a href="'.$url.'college/Agricultural+Sciences+%26+Natural+Resources">Agricultural Sciences &amp; Natural Resources</a></li>
             <li><a href="'.$url.'college/Architecture">Architecture</a></li>
             <li><a href="'.$url.'college/Arts+%26+Sciences">Arts &amp; Sciences</a></li>
-            <li><a href="'.$url.'college/Business+Administration">Business Adminstration</a></li>
+            <li><a href="'.$url.'college/Business+Administration">Business Administration</a></li>
             <li><a href="'.$url.'college/Education+%26+Human+Sciences">Education &amp; Human Sciences</a></li>
             <!--
             <li><a href="#">Engineering</a></li>
