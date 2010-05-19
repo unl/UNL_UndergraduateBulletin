@@ -20,7 +20,7 @@
     <h3 class="sec_header">FINDING A MAJOR OR DEGREE</h3>
     <p>The bulletin offers several ways for the user to search for a degree, major or program of study.&nbsp; The bulletin uses the term "MAJOR" interchangeably for these terms.&nbsp; There are several ways to search for a major:&nbsp; </p>
     <ul>
-        <li>&nbsp;Users who know any portion of the major name can use the &nbsp;FIND A MAJOR OR DEGREE SEARCH tool to find a specific major:
+        <li>&nbsp;Users who know any portion of the major name can use the &nbsp;FIND A MAJOR OR DEGREE search box to find a specific major:
             <ul>
                 <li>Type any part of the major name in the search box and click the blue SEARCH button.</li>
                 <ul>
@@ -34,7 +34,7 @@
             <ul>
                 <li>Click on the desired college under the <em>College Information</em> header provided on the first page of the bulletin.</li>
                 <li>Example:&nbsp; College of Business Administration</li>
-                <li>The user is taken to the College of Business Administration"s COLLEGE page. 
+                <li>The user is taken to the College of Business Administration's COLLEGE page. 
                     <p>A list of majors offered by the College of Business Administration are on the right side of this page. &nbsp;See note below about major searches in this section (*). &nbsp;</p>
                 </li>
                 <li>Click on the desired major. The user is taken directly to the MAJOR page of the major selected. </li>
@@ -47,7 +47,7 @@
                 <li>The user is taken to the College of Arts and Sciences" COLLEGE page.&nbsp; The user will find a list of all majors offered by the College of Arts and Sciences.&nbsp; See note below about major searches in this section (*).&nbsp; </li>
             </ul>
         </li>
-        <li>Users who want to find a listing of all UNL majors can use the FIND A MAJOR OR DEGREE SEARCH TOOL-NO CRITERIA OPTION:
+        <li>Users who want to find a listing of all UNL majors can use the FIND A MAJOR OR DEGREE SEARCH BOX-NO CRITERIA OPTION:
             <ul>
                 <li>Insert cursor in the FIND A MAJOR OR DEGREE SEARCH field on the front page of the bulletin.&nbsp; <strong>Do not put any criteria in this field</strong>. Click the blue SEARCH button. </li>
                 <li>All UNL majors are listed. </li>
@@ -80,7 +80,7 @@
     <h3 class="sec_header">COURSES</h3>
     <p>The user may locate course information via several options.</p>
     <ul>
-        <li>FIND A COURSE search tool:&nbsp; </li>
+        <li>FIND A COURSE search box:</li>
         <li>Users who know the <em>4-digit subject code</em> of a specific course may use this option to find a specific course.&nbsp;&nbsp; For example entering ECON will return all courses with the ECON subject code.&nbsp; Users unfamiliar with the <em>4-digit subject code system can</em> can select "Courses-Course Abbreviations" on the NAVIGATION BAR AT THE TOP OF ANY PAGE OF THE BULLETIN
             <ul>
                 <li>When the user selects a course (ECON 211), they are taken to the course description page.&nbsp; This page displays information associated with the course:
@@ -89,12 +89,12 @@
                         <li>Prerequisite:&nbsp; Prerequisites are the courses and requirements the department has identified that the student should demonstrate to find success in the course.&nbsp; Students should interpret prerequisites as requirements they must meet to stay enrolled in the course</li>
                         <li>ACE Outcomes:&nbsp; The ACE Outcome the course fulfills is noted here if the course is a certified course for ACE Outcome(s). <em>See the FILTER on this page to learn all options for the search selected. &nbsp;</em></li>
                         <li>Credit Hours:&nbsp; The number of credit hours of the course is listed.</li>
-                        <li>Course Format:&nbsp; This field lists the course"s component type (Lecture, Lab etc.). <em>See the FILTER on this page to learn all options for the search selected.</em>&nbsp; </li>
+                        <li>Course Format:&nbsp; This field lists the course's component type (Lecture, Lab etc.). <em>See the FILTER on this page to learn all options for the search selected.</em>&nbsp; </li>
                         <li>Course Delivery:&nbsp; The typical way the course is delivered is listed (Classroom, Internet etc.). </li>
                         <li>Groups:&nbsp; Some departments list their courses by sub-category.&nbsp; For instance, ECON 211 has been identified by the Economics department as being a "General Economics and Theory" course.&nbsp; This is important to note because some majors require students to meet specific group requirements.&nbsp; </li>
                     </ul>
                 </li>
-                <li>The user may also use the FIND A COURSE search tool to search for courses that meet specific requirements:
+                <li>The user may also use the FIND A COURSE search box to search for courses that meet specific requirements:
                     <ul>
                         <li>The user can search for ACE courses:<br />
                             <strong>ACE: 1</strong> retrieves all courses that meet the ACE 1 Outcome</li>
@@ -125,7 +125,7 @@
         </li>
     </ul>
     <h3 class="sec_header">COLLEGE PAGE</h3>
-    <p>Each of UNL"s undergraduate colleges and the College of Public Affairs and Community Service has their own COLLEGE page.&nbsp; This page includes all of the college"s academic policies and procedures such as college admission requirements, college rules about the pass/no pass grade option and residency etc.&nbsp; </p>
+    <p>Each of UNL's undergraduate colleges and the College of Public Affairs and Community Service has their own COLLEGE page.&nbsp; This page includes all of the college's academic policies and procedures such as college admission requirements, college rules about the pass/no pass grade option and residency etc.&nbsp; </p>
     <p>Colleges have their own educational philosophies.&nbsp; In developing the bulletin, colleges have the latitude to develop their college information within the framework of the bulletin template.&nbsp;&nbsp; For example, one college may choose to include curriculum within their COLLEGE page whereas another college may choose to include all curriculum requirements on theits MAJOR pages.&nbsp; The user may access COLLEGE pages one of two ways:</p>
     <ul>
         <li>&nbsp;<em>COLLEGE LIST</em> ON FIRST PAGE OF THE BULLETIN:&nbsp;
