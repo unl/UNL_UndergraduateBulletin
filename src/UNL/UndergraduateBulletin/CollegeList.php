@@ -11,6 +11,7 @@ class UNL_UndergraduateBulletin_CollegeList extends FilterIterator
         'CEHS'  => 'Education & Human Sciences',
         'ENG'   => 'Engineering',
         'FPA'   => 'Fine & Performing Arts',
+        'JMC'   => 'Journalism & Mass Communications',
         'LIB'   => 'Libraries',
         'PACS'  => 'Public Affairs & Community Service',
         'ROTC'  => 'Reserve Officers\' Training Corps (ROTC)',
