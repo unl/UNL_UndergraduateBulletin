@@ -17,6 +17,7 @@ class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_
     protected $view_map = array(
         'index'         => 'UNL_UndergraduateBulletin_Introduction',
         'about'         => 'UNL_UndergraduateBulletin_About',
+        'general'       => 'UNL_UndergraduateBulletin_GeneralInformation',
         'majors'        => 'UNL_UndergraduateBulletin_MajorList',
         'major'         => 'UNL_UndergraduateBulletin_Major',
         'courses'       => 'UNL_UndergraduateBulletin_Major',
