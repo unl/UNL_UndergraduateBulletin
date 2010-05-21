@@ -1,7 +1,7 @@
 <div id="toc_nav">
     <a href="#toc_nav" id="tocContent">Contents</a>
     <ol id="toc"><li>Intro</li></ol>
-    <div id="toc_major_name">Bulletin Navigation Tips</div>
+    <div id="toc_major_name">General Information</div>
 </div>
 <div id="toc_bar"></div>
 <div id="long_content">
