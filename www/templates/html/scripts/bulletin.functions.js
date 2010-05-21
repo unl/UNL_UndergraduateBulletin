@@ -23,7 +23,7 @@ WDN.jQuery(document).ready(function($){
 		    	WDN.jQuery(window).scrollTop(headingTarget.top - 60);
 		    	fadeInTOCMenu();
 				menuFaded = true;
-		    	event.preventDefault();
+		    	//event.preventDefault();
 		    });
 	    },
 	    function() {
