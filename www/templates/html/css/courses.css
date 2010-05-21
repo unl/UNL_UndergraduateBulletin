@@ -86,7 +86,7 @@ dd {
 .course .details {width:220px;border-collapse:collapse;right:0px;float:right;}
 .course .details tr.alt td {border:1px solid #C9E2F6;border-right:none;border-left:none;background-color:#E3F0FF;}
 .course .details td {}
-.course .details .label {font-weight:bold;}
+.course .details .label {font-weight:bold;white-space:nowrap;}
 .course .details .value {text-align:right;}
 .course {clear:both;}
 
