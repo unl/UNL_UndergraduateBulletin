@@ -23,7 +23,9 @@ WDN.jQuery(document).ready(function($){
 		    	WDN.jQuery(window).scrollTop(headingTarget.top - 60);
 		    	fadeInTOCMenu();
 				menuFaded = true;
-		    	//event.preventDefault();
+		    	event.preventDefault();
+				window.location.hash = WDN.jQuery(this).attr('href');
+				accomodateHash();
 		    });
 	    },
 	    function() {
@@ -38,7 +40,9 @@ WDN.jQuery(document).ready(function($){
         depth:      2,    // H1 through H4,
         topLinks:   false, // Add "Top" Links to Each Header
         callback : function() {
-				WDN.log("Callback function called!"); //we'll use to reposition if a hash is available.
+				if (window.location.hash) {
+					accomodateHash();
+				}
 			}
       }
     );
@@ -295,3 +299,8 @@ function fadeOutTOCMenu() {
 		WDN.jQuery('#long_content').css({'margin-top':'35px'});
 	}
 } 
+
+function accomodateHash() {
+	hashLocation = WDN.jQuery(window.location.hash).offset();
+	WDN.jQuery(window).scrollTop(hashLocation.top - 60);
+}
