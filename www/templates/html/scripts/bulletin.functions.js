@@ -222,18 +222,16 @@ WDN.jQuery(document).ready(function($){
     						//label is for the suggestion
     						//value is for the input box
     						//key is used to match highlighted course
-    						for(var j=0; j<data[i].courseCodes.length; j++){
-	    						rows[i] = { 
-	    							label: '<dt class="course">' +
-		    									'<span class="subjectCode">' + data[i].courseCodes[j].subject + '</span>' +
-		    									'<span class="number">' + data[i].courseCodes[j].courseNumber + '</span>' +
-		    									'<span class="title">' + data[i].title + '</span>' +
-		    									'<span class="key" style="display:none;">' + data[i].courseCodes[j].subject + data[i].courseCodes[j].courseNumber + data[i].title + '</span>' +
-	    									'</dt>',
-	    							value: data[i].courseCodes[j].subject + " " + data[i].courseCodes[j].courseNumber + ": " + data[i].title,
-	    							key: data[i].courseCodes[j].subject + data[i].courseCodes[j].courseNumber + data[i].title
-	    						};
-    						}
+	    					rows[i] = { 
+	    						label: '<dt class="course">' +
+		    								'<span class="subjectCode">' + data[i].courseCodes[0].subject + '</span>' +
+		    								'<span class="number">' + data[i].courseCodes[0].courseNumber + '</span>' +
+		   								'<span class="title">' + data[i].title + '</span>' +
+		    								'<span class="key" style="display:none;">' + data[i].courseCodes[0].subject + data[i].courseCodes[0].courseNumber + data[i].title + '</span>' +
+	    								'</dt>',
+	    						value: data[i].courseCodes[0].subject + " " + data[i].courseCodes[0].courseNumber + ": " + data[i].title,
+	    						key: data[i].courseCodes[0].subject + data[i].courseCodes[0].courseNumber + data[i].title
+	    					};
 					    }
 				    response(rows);
 			    }
