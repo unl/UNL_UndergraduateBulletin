@@ -8,11 +8,13 @@ class UNL_UndergraduateBulletin_CollegeList extends FilterIterator
         'ARCH'  => 'Architecture',
         'ASC'   => 'Arts & Sciences',
         'CBA'   => 'Business Administration',
+        'DGS'   => 'Division of General Studies',
         'CEHS'  => 'Education & Human Sciences',
         'ENG'   => 'Engineering',
         'FPA'   => 'Fine & Performing Arts',
         'JMC'   => 'Journalism & Mass Communications',
         'LIB'   => 'Libraries',
+        'OUS'   => 'Office of Undergraduate Studies',
         'PACS'  => 'Public Affairs & Community Service',
         'ROTC'  => 'Reserve Officers\' Training Corps (ROTC)',
     );
