@@ -26,14 +26,12 @@ $page->navlinks     = '
             <li><a href="'.$url.'courses/">Course Abbreviations</a></li>
         </ul>
     </li>
-    <li><a href="#">Academic Policies</a>
+    <li><a href="'.$url.'general">Academic Policies</a>
         <ul>
-            <li><a href="#">Policy 1</a></li>
-            <li><a href="#">Policy 2</a></li>
-            <li><a href="#">Policy 3</a></li>
-            <li><a href="#">Policy 4</a></li>
-            <li><a href="#">Policy 5</a></li>
-            <li><a href="#">Policy 6</a></li>
+            <li><a href="'.$url.'general#admission-categories">Admission Categories</a></li>
+            <li><a href="'.$url.'general#undergraduate-transfer-credit-policy">Transfer Credit Policy</a></li>
+            <li><a href="'.$url.'general#graduation-requirements">Graduation Requirements</a></li>
+            <li><a href="'.$url.'general#academic-policies-and-procedures">Academic Policies and Procedures</a></li>
         </ul>
     </li>
     <li><a href="'.$url.'college/">Academic Colleges</a>

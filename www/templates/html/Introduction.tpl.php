@@ -15,11 +15,6 @@
             <li><a href="college/Fine+%26+Performing+Arts">Hixson-Lied College of Fine &amp; Performing Arts</a></li>
             <li><a href="college/Journalism+%26+Mass+Communications">Journalism &amp; Mass Communications</a></li>
         </ul>
-        <h3>Honors Programs</h3>
-        <ul id="collegeListing">
-            <li>NU Honors Program</li>
-            <li>Jeffrey S. Raikes School of Computer Science and Management</li>
-        </ul>
         <h3 class="sec_header">Other Academic Units</h3>
         <ul id="collegeListing">
             <li><a href="college/Office+of+General+Studies">Office of Undergraduate Studies</a></li>
@@ -30,9 +25,17 @@
         </ul>
     </div>
     <div class="col left">
-        <h3 class="sec_header">Academic Policies</h3>
-        <ul>
-            <li>...</li>
+        <h3 class="sec_header"><a href="general">Academic Policies</a></h3>
+        <ul id="collegeListing">
+            <li><a href="general#admission-categories">Admission Categories</a></li>
+            <li><a href="general#undergraduate-transfer-credit-policy">Transfer Credit Policy</a></li>
+            <li><a href="general#graduation-requirements">Graduation Requirements</a></li>
+            <li><a href="general#academic-policies-and-procedures">Academic Policies and Procedures</a></li>
+        </ul>
+        <h3>Honors Programs</h3>
+        <ul id="collegeListing">
+            <li><a href="college/Office+of+Undergraduate+Studies#university-honors-program-">NU Honors Program</a></li>
+            <li>Jeffrey S. Raikes School of Computer Science and Management</li>
         </ul>
     </div>
 </div>
