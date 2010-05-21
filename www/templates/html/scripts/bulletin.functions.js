@@ -36,7 +36,10 @@ WDN.jQuery(document).ready(function($){
       {
         startLevel: 2,    // H1 and up
         depth:      2,    // H1 through H4,
-        topLinks:   false // Add "Top" Links to Each Header
+        topLinks:   false, // Add "Top" Links to Each Header
+        callback : function() {
+				WDN.log("Callback function called!"); //we'll use to reposition if a hash is available.
+			}
       }
     );
 	menuFaded = false;
