@@ -8,3 +8,26 @@ form.filters ol li {clear:both;}
 #maincontent form.filters ol {list-style:none;padding-left:0px;}
 form.filters ol li.disabled {opacity: 0.5;}
 form.filters ol li.disabled label {text-decoration: line-through;}
+
+#filterSummary {
+	font-size:0.8em;
+}
+#filterSummary a {
+	background:#efefef;
+	padding:3px 5px;
+	font-size:0.9em;
+	color:#6e6e6e;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+}
+#filterSummary a:after:nth-last-child(n+1) {
+	content: ' OR ';
+}
+#filterSummary .group {
+	font-weight:bold;
+	background-color:#efefef;
+	color:#4e4e4e;
+	font-size: 1.1em;
+	font-style:italic;
+}

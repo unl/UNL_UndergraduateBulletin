@@ -12,7 +12,7 @@
             <?php endforeach; ?>
         </ol>
     </fieldset>
-    <fieldset class="formats">
+    <fieldset class="minor">
         <legend><span>Minor Available</span></legend>
         <ol>
            <li><input type="checkbox" checked="checked" id="filterAllMinor" class="filterAll" name="all" value="all" /><label for="filterAllMinor">All</label></li>

@@ -17,9 +17,8 @@ if (isset($context->subject)) {
                     <label for="<?php echo $idPrefix; ?>_filterAllGroups">All groups</label></li>
                 <?php foreach ($context->groups as $group) : ?>
                 <li>
-                    <div class="element">
                         <input type="checkbox" id="<?php echo $idPrefix; ?>_filter_grp_<?php echo md5($group); ?>" value="grp_<?php echo md5($group); ?>" />
-                    </div>
+                    
                     <label for="<?php echo $idPrefix; ?>_filter_grp_<?php echo md5($group); ?>"><?php echo $group; ?></label>
                 </li>
                 <?php endforeach; ?>
@@ -41,9 +40,8 @@ if (isset($context->subject)) {
 'ind'=>'Independent Study',
 'psi'=>'Personalized System of Instruction') as $key=>$type) : ?>
                 <li>
-                    <div class="element">
                         <input type="checkbox" id="<?php echo $idPrefix; ?>_filter_format_<?php echo $key; ?>" value="<?php echo $key; ?>" />
-                    </div><label for="<?php echo $idPrefix; ?>_filter_format_<?php echo $key; ?>"><?php echo $type; ?></label>
+                    <label for="<?php echo $idPrefix; ?>_filter_format_<?php echo $key; ?>"><?php echo $type; ?></label>
                 </li>
                 <?php endforeach; ?>
             </ol>
@@ -56,9 +54,8 @@ if (isset($context->subject)) {
                     <label for="<?php echo $idPrefix; ?>_filterAllACE">All ACE</label></li>
                 <?php for ($i=1;$i<=10;$i++) : ?>
                 <li>
-                    <div class="element">
                         <input type="checkbox" id="<?php echo $idPrefix; ?>_filter_ace_<?php echo $i; ?>" value="ace_<?php echo $i; ?>" />
-                    </div>
+                    
                     <label for="<?php echo $idPrefix; ?>_filter_ace_<?php echo $i; ?>"><?php echo $i.' '.UNL_UndergraduateBulletin_ACE::$descriptions[$i]; ?></label>
                 </li>
                 <?php endfor; ?>
