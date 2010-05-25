@@ -11,18 +11,18 @@ form.filters ol li.disabled label {text-decoration: line-through;}
 
 #filterSummary {
 	font-size:0.8em;
+	line-height:2em;
 }
 #filterSummary a {
 	background:#efefef;
-	padding:3px 5px;
+	padding:0 3px;
 	font-size:0.9em;
 	color:#6e6e6e;
 	border-radius:3px;
 	-moz-border-radius:3px;
 	-webkit-border-radius:3px;
-}
-#filterSummary a:after:nth-last-child(n+1) {
-	content: ' OR ';
+	display:inline-block;
+	margin:1px;
 }
 #filterSummary .group {
 	font-weight:bold;
