@@ -46,4 +46,3 @@ class UNL_UndergraduateBulletin_CourseSearch implements Countable, UNL_Undergrad
         return count($this->results);
     }
 }
-?>

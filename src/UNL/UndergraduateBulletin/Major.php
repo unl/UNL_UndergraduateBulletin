@@ -118,4 +118,3 @@ class UNL_UndergraduateBulletin_Major implements UNL_UndergraduateBulletin_Cache
         return str_replace('%2F', '/', $url);
     }
 }
-?>

@@ -10,5 +10,3 @@ interface UNL_UndergraduateBulletin_CacheableInterface
     public function run();
     public function preRun();
 }
-
-?>

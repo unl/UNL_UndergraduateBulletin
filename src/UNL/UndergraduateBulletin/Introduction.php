@@ -8,4 +8,3 @@ class UNL_UndergraduateBulletin_Introduction
         $this->options = $options;
     }
 }
-?>

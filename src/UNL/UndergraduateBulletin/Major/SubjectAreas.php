@@ -20,4 +20,3 @@ class UNL_UndergraduateBulletin_Major_SubjectAreas extends ArrayIterator
         return new UNL_Services_CourseApproval_SubjectArea(parent::current());
     }
 }
-?>

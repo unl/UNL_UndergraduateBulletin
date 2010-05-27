@@ -20,4 +20,3 @@ class UNL_UndergraduateBulletin_MajorSearch extends ArrayIterator
         return new UNL_UndergraduateBulletin_Major(array('name'=>UNL_UndergraduateBulletin_Major_Description::getNameByFile(parent::current())));
     }
 }
-?>
