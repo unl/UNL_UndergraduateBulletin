@@ -7,24 +7,21 @@ class UNL_UndergraduateBulletin_Major_Description
         'African_American_African Studies Minor'        => 'African-American Studies; African Studies (ASC)',
         'Agribusiness'                                  => 'Agribusiness (CASNR)',
         'Agribusiness CBA'                              => 'Agribusiness (CBA)',
-        'Art Education K-12'                            => 'Art Education (K-12)',
-        'Biology 7-12'                                  => 'Biology (7-12)',
-        'Business_Cooperative Education'                => 'Business/Cooperative Education (Grades 7-12)',
-        'Chemistry 7-12'                                => 'Chemistry (7-12)',
+        'Art (K-12)'                                    => 'Art Education (K-12)',
+        'Business_Coop Educ (7-12)'                     => 'Business/Cooperative Education (Grades 7-12)',
         'Child Development_Early Childhood Educ'        => 'Child Development/Early Childhood Education',
         'Child_Youth & Family Studies_Jour & Mass Comm' => 'Child, Youth & Family Studies (CEHS)',
         'CRIM and CRIM JUS'                             => 'Criminology and Criminal Justice',
-        'Early Care and Education_Birth-K'              => 'Early Care & Education (Birth-Kindergarten)',
-        'Earth Sciences 7-12'                           => 'Earth Sciences (7-12)',
+        'Early Care and Education (Birth-K)'            => 'Early Care & Education (Birth-Kindergarten)',
+        'Earth Science (7-12)'                          => 'Earth Sciences (7-12)',
         'Economics'                                     => 'Economics (CBA)',
-        'Elem Ed_Early Childhood-B-6'                   => 'Elementary Education/Early Childhood (Birth to 6 grade)',
+        'Elem Ed_Early Childhood (Birth-6)'             => 'Elementary Education/Early Childhood (Birth to 6 grade)',
         'Elem Ed K-6_Deaf or Hard of Hearing PreProf'   => 'Elementary Education (K-6) & Deaf or Hard of Hearing (Pre-Professional)',
-        'Elementary Education K-6'                      => 'Elementary Education (K-6)',
-        'Elem Ed_Mild Mod Disabilties K-6'              => 'Elementary Education & Mild Moderate Disabilities (K-6)',
-        'English 7-12'                                  => 'English (7-12)',
+        'Elem Ed_Mild Mod Disabilties (K-6)'            => 'Elementary Education & Mild Moderate Disabilities (K-6)',
         'Environmental Studies'                         => 'Environmental Studies (CASNR)',
         'Family and Consumer Science 7-12'              => 'Family & Consumer Science Education (7-12)',
-        'French Education 7-12'                         => 'French Education (7-12)',
+        'French (7-12)'                                 => 'French Education (7-12)',
+        'German (7-12)'                                 => 'German Education (7-12)',
         'Hospitality Restaurant and Tourism Management' => 'Hospitality, Restaurant, & Tourism Management (CASNR)',
         'Hospitality_Restaurant and Tourism Management' => 'Hospitality, Restaurant & Tourism Management (CEHS)',
         'Human Rights_Human Diversity Minor'            => 'Human Rights & Human Diversity (Minor only)',
@@ -193,19 +190,16 @@ class UNL_UndergraduateBulletin_Major_Description
         if ($new = array_search($name, self::$epub_files)) {
             $name = $new;
         }
-        
+
+        $epub_map = json_decode(file_get_contents(UNL_UndergraduateBulletin_Controller::getDataDir().'/major_epubs.json'));
+
         $epub = UNL_UndergraduateBulletin_Controller::getDataDir().'/majors/'.$name.'.epub';
-        
-        if (!file_exists($epub)) {
+
+        if (!
+            (file_exists($epub) && isset($epub_map->{$name.'.epub'}))) {
             throw new Exception('Sorry, no description exists for '.$name. ' in '.$epub);
         }
 
-        if (file_exists('phar://'.$epub.'/OEBPS/'.str_replace(' ', '_', $name).'.xhtml')) {
-            return 'phar://'.$epub.'/OEBPS/'.str_replace(' ', '_', $name).'.xhtml';
-        }
-
-        $name = preg_replace('/\s+\(?[A-Z]+\)?$/', '', $name);
-        return 'phar://'.$epub.'/OEBPS/'.str_replace(' ', '_', $name).'.xhtml';
+        return 'phar://'.$epub.'/OEBPS/'.$epub_map->{$name.'.epub'};
     }
 }
-?>
