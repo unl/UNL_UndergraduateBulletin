@@ -2,7 +2,7 @@
 class UNL_UndergraduateBulletin_Major_Description
 {
     protected static $epub_files = array(
-        // data/majors/{FILENAME}.epub                  => title displayed
+        // data/majors/{FILENAME}.xhtml                 => title displayed
         'Actuarial Science'                             => 'Actuarial Science (CBA)',
         'African_American_African Studies Minor'        => 'African-American Studies; African Studies (ASC)',
         'Agribusiness'                                  => 'Agribusiness (CASNR)',
@@ -84,7 +84,7 @@ class UNL_UndergraduateBulletin_Major_Description
     
     function parseEPUB($title)
     {
-        $file = self::getEpubFileByName($title);
+        $file = self::getFileByName($title);
         
         if (!file_exists($file)) {
             throw new Exception('The file '.$file.' for '.$title.' does not exist.');
@@ -177,7 +177,7 @@ class UNL_UndergraduateBulletin_Major_Description
     static function getNameByFile($filename)
     {
         
-        $filename = str_replace(array(UNL_UndergraduateBulletin_Controller::getDataDir().'/majors/', '.epub'), '', $filename);
+        $filename = str_replace(array(UNL_UndergraduateBulletin_Controller::getDataDir().'/majors/', '.xhtml'), '', $filename);
         
         if (isset(self::$epub_files[$filename])) {
             return self::$epub_files[$filename];
@@ -185,21 +185,18 @@ class UNL_UndergraduateBulletin_Major_Description
         return $filename;
     }
     
-    static function getEpubFileByName($name)
+    static function getFileByName($name)
     {
         if ($new = array_search($name, self::$epub_files)) {
             $name = $new;
         }
 
-        $epub_map = json_decode(file_get_contents(UNL_UndergraduateBulletin_Controller::getDataDir().'/major_epubs.json'));
+        $xhtml = UNL_UndergraduateBulletin_Controller::getDataDir().'/majors/'.$name.'.xhtml';
 
-        $epub = UNL_UndergraduateBulletin_Controller::getDataDir().'/majors/'.$name.'.epub';
-
-        if (!
-            (file_exists($epub) && isset($epub_map->{$name.'.epub'}))) {
-            throw new Exception('Sorry, no description exists for '.$name. ' in '.$epub);
+        if (!file_exists($xhtml)) {
+            throw new Exception('Sorry, no description exists for '.$name. ' in '.$xhtml);
         }
 
-        return 'phar://'.$epub.'/OEBPS/'.$epub_map->{$name.'.epub'};
+        return $xhtml;
     }
 }

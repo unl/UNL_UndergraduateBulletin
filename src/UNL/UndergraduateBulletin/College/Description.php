@@ -8,19 +8,19 @@ class UNL_UndergraduateBulletin_College_Description
     public $majors = array();
     
     protected static $files = array(
-        'Architecture'                              => 'ARCH College.epub/OEBPS/ARCH_College.xhtml',
-        'Agricultural Sciences & Natural Resources' => 'CASNR College Page.epub/OEBPS/CASNR_College_Page.xhtml',
-        'Arts & Sciences'                           => 'ASC College page.epub/OEBPS/AandS.xhtml',
-        'Business Administration'                   => 'CBA College page.epub/OEBPS/CBA_College_page.xhtml',
-        'Division of General Studies'               => 'Division of General Studies.epub/OEBPS/Division_of_General_Studies.xhtml',
-        'Education & Human Sciences'                => 'CEHS.epub/OEBPS/College_Page_test-CEHS.xhtml',
-        'Engineering'                               => 'College of Engineering.epub/OEBPS/College_of_Engineering.xhtml',
-        'Fine & Performing Arts'                    => 'FPA College.epub/OEBPS/FPA_College.xhtml',
-        'Journalism & Mass Communications'          => 'College of Jour & Mass Comm.epub/OEBPS/College_of_Jour_&_Mass_Comm-2.xhtml',
-        'Libraries'                                 => 'LIBR College Page.epub/OEBPS/LIBR_College_page.xhtml',
-        'Office of Undergraduate Studies'           => 'Office of Undergrad Studies.epub/OEBPS/Office_of_Undergrad_Studies.xhtml',
-        'Public Affairs & Community Service'        => 'CPACS College Page.epub/OEBPS/CPACS_College_page.xhtml',
-        'Reserve Officers\' Training Corps (ROTC)'  => 'ROTC College Page.epub/OEBPS/ROTC_College_page.xhtml',
+        'Architecture'                              => 'ARCH College.xhtml',
+        'Agricultural Sciences & Natural Resources' => 'CASNR College Page.xhtml',
+        'Arts & Sciences'                           => 'ASC College page.xhtml',
+        'Business Administration'                   => 'CBA College page.xhtml',
+        'Division of General Studies'               => 'Division of General Studies.xhtml',
+        'Education & Human Sciences'                => 'CEHS.xhtml',
+        'Engineering'                               => 'College of Engineering.xhtml',
+        'Fine & Performing Arts'                    => 'FPA College.xhtml',
+        'Journalism & Mass Communications'          => 'College of Jour & Mass Comm.xhtml',
+        'Libraries'                                 => 'LIBR College Page.xhtml',
+        'Office of Undergraduate Studies'           => 'Office of Undergrad Studies.xhtml',
+        'Public Affairs & Community Service'        => 'CPACS College Page.xhtml',
+        'Reserve Officers\' Training Corps (ROTC)'  => 'ROTC College Page.xhtml',
     );
     
     protected $_xml;
@@ -32,7 +32,7 @@ class UNL_UndergraduateBulletin_College_Description
         if (!isset(self::$files[$college->name])) {
             throw new Exception('No description for the "'.$college->name.'" college.');
         }
-        $file = 'phar://'.UNL_UndergraduateBulletin_Controller::getDataDir().'/colleges/'.self::$files[$college->name];
+        $file = UNL_UndergraduateBulletin_Controller::getDataDir().'/colleges/'.self::$files[$college->name];
 
         $this->_xml = simplexml_load_string(file_get_contents($file));
 

@@ -106,7 +106,7 @@ a.top {
     margin-top:1em;
 }
 
-#maincontent p + p.numbered-list {
+#maincontent p + p {
     margin-bottom:0;
 }
 #maincontent p.college-name, #maincontent p.major-name {display:none;}
@@ -183,6 +183,11 @@ a.top {
     float:right;
     padding-left:3px;
     margin-top:-1.2em;
+}
+
+#maincontent p.basic-text {
+    margin:0;
+    text-indent: 1.5em;
 }
 
 #maincontent p.quick-points,
