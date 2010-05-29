@@ -69,11 +69,12 @@ class UNL_UndergraduateBulletin_EPUB_Utilities
         switch($matches[1]) {
             case 'ACE':
             case 'ACT':
-            case 'OEFL':
+            case 'OEFL': // TOEFL
             case 'SAT':
             case 'CBA':
             case 'UNL':
-            case 'OURS':
+            case 'OURS': // HOURS
+            case 'OTAL': // TOTAL
                 return $text;
         }
 
