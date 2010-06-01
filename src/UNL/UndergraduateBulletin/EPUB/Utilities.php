@@ -56,9 +56,12 @@ class UNL_UndergraduateBulletin_EPUB_Utilities
     {
         $href = $matches[0];
         $link_end = '';
-        if (substr($href, -1) == '.') {
-            $href = substr($href, 0, -1);
-            $link_end = '.';
+        $last_char = substr($href, -1);
+        switch ($last_char) {
+            case '.':
+            case ',':
+                $href     = substr($href, 0, -1);
+                $link_end = $last_char;
         }
         return '<a href="'.$href.'">'.$href.'</a>'.$link_end;
     }
