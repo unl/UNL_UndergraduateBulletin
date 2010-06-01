@@ -1,3 +1,13 @@
+<?php
+$url = UNL_UndergraduateBulletin_Controller::getURL();
+UNL_UndergraduateBulletin_Controller::setReplacementData('doctitle', 'UNL | Undergraduate Bulletin | Academic Policies &amp; General Information');
+UNL_UndergraduateBulletin_Controller::setReplacementData('breadcrumbs', '
+<ul>
+    <li><a href="http://www.unl.edu/">UNL</a></li>
+    <li><a href="'.$url.'">Undergraduate Bulletin</a></li>
+    <li>Academic Policies &amp; General Information</li>
+</ul>');
+?>
 <div id="toc_nav">
     <a href="#toc_nav" id="tocContent">Contents</a>
     <ol id="toc"><li>Intro</li></ol>
