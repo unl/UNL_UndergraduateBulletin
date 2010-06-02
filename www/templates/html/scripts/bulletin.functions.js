@@ -262,11 +262,11 @@ WDN.jQuery(document).ready(function($){
         },
         hide: {
             when: {
-                event: 'keyup'
+                event: 'blur'
             },
-            delay: 500,
+            delay: 400,
             effect: {
-            	length:300
+            	length:200
             }
         }
     });
@@ -296,6 +296,9 @@ WDN.jQuery(document).ready(function($){
 				    response(rows);
 			    }
     		})
+    	},
+    	open: function(){
+    		$('#courseSearch').qtip("hide");
     	},
     	focus: function(e, ui) {
     		$('a.indicator').removeClass('indicator');
