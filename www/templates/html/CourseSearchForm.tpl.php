@@ -13,7 +13,7 @@
         <h4>Searching for a Course</h4>
         <p>Search by Course Title (<span class="operator">Global Advertising</span>), Course Code (<span class="operator">ADVT</span>), Course Number (<span class="operator">438</span>) or advanced:</p>
         <ul>
-            <li>Ace Outcome: <span class="operator">ace:3</span></li>
+            <li>Ace Outcome: <span class="operator">ace 3</span></li>
             <li>Course Number Range: <span class="operator">2XX</span></li>
             <li>All Honors Courses: <span class="operator">honors</span></li>
         </ul>
