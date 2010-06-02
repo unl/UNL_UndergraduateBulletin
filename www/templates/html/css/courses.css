@@ -97,7 +97,7 @@ dd {
 	border-bottom:1px solid #ececec;
 	padding:5px;
 }
-#majorListing li.minorAvailable a {
+#majorListing li.minorAvailable a, #majorListing li.minorOnly a {
     background:url('images/minorIndicator.png') no-repeat right bottom;
     padding-right:77px;
 }
