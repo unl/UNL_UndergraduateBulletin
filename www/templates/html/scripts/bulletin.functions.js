@@ -20,7 +20,7 @@ WDN.jQuery(document).ready(function($){
 			WDN.jQuery("#toc_nav ol a").click(function(event) {
 		    	//we need to go to the #ID, but above it by 60 pixels
 				var headingTarget = WDN.jQuery(WDN.jQuery(this).attr('href')).offset();
-		    	WDN.jQuery(window).scrollTop(headingTarget.top - 60);
+				WDN.jQuery(window).scrollTop(headingTarget.top - 60);
 		    	fadeInTOCMenu();
 				menuFaded = true;
 		    	event.preventDefault();
@@ -171,6 +171,11 @@ WDN.jQuery(document).ready(function($){
 			}
     	});
 	});
+    /*
+     * 
+     * Qtip for course links in content text blocks.
+     * 
+     */
     $("#maincontent a.course").each(function () {
     	try {
 	    	$(this).qtip({
@@ -205,7 +210,7 @@ WDN.jQuery(document).ready(function($){
 	            	"padding" : "9px",
 	            	"width":"598px",
 	            	classes : {
-	            		tooltip : 'course-qtip'
+	            		tooltip : 'courseInfo'
 	            	}
 	            }
 	    	});
@@ -218,6 +223,52 @@ WDN.jQuery(document).ready(function($){
 	    	    return true;
 	    	};
     	} catch(e) {}
+    });
+    /*
+     * 
+     * Qtip for search box helpers
+     * 
+     */
+    $('#courseSearch').qtip({
+    	content: {
+    		text: $('#courseSearchHelp')
+    	},
+        position : {
+        	corner : {
+        		target : 'topLeft',
+        		tooltip : 'bottomMiddle'
+        	},
+        	container: $('body'),
+        	adjust: {
+        		x: 150
+        	}
+        },
+        style: { 
+        	tip: { 
+        		corner: 'bottomMiddle' ,
+        		size: { x: 25, y: 15 },
+        		color: '#557BB7'
+        	},
+        	"width":"300px",
+        	"background-color": '#d4e4f5',
+        	classes : {
+        		tooltip : 'searchHelp'
+        	}
+        },
+        show: {
+            when: {
+                event: 'focus'
+            }
+        },
+        hide: {
+            when: {
+                event: 'keyup'
+            },
+            delay: 500,
+            effect: {
+            	length:300
+            }
+        }
     });
     $('#courseSearch, #majorSearch').attr("autocomplete", "off");
     $('#courseSearch').autocomplete({
