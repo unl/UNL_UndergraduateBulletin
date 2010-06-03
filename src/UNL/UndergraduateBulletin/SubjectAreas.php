@@ -7,6 +7,7 @@ class UNL_UndergraduateBulletin_SubjectAreas extends SplFileObject implements UN
             UNL_UndergraduateBulletin_Controller::getDataDir().'/creq/subject_codes.csv'
         );
         $this->setFlags(SplFileObject::READ_CSV | SplFileObject::SKIP_EMPTY);
+        $this->setCsvControl(',', '\'');
     }
     
     function getCacheKey()
