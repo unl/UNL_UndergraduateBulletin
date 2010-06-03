@@ -13,14 +13,14 @@ class UNL_UndergraduateBulletin_CacheInterface_UNLCacheLite implements UNL_Under
      */
     protected $cache;
     
-    public $options = array('lifeTime'=>3600);
+    public $options = array('lifeTime'=>604800); // One week cache time
     
     /**
      * Constructor
      */
     function __construct($options = array())
     {
-        $this->options = array_merge($this->options, $options);
+        $this->options = $options + $this->options;
         $this->cache = new UNL_Cache_Lite($this->options);
     }
     
