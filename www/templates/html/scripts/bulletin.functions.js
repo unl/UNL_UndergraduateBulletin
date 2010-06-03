@@ -273,7 +273,7 @@ WDN.jQuery(document).ready(function($){
     $('#courseSearch, #majorSearch').attr("autocomplete", "off");
     $('#courseSearch').autocomplete({
 		delay: 555,
-		minLength: 3,
+		minLength: 2,
     	source: function(request, response) {
     		$.ajax({
     			url: UNL_UGB_URL+'courses/search?q='+request.term+'&format=json&limit=10',
