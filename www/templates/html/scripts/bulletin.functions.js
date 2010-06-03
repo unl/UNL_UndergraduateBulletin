@@ -272,6 +272,8 @@ WDN.jQuery(document).ready(function($){
     });
     $('#courseSearch, #majorSearch').attr("autocomplete", "off");
     $('#courseSearch').autocomplete({
+		delay: 555,
+		minLength: 3,
     	source: function(request, response) {
     		$.ajax({
     			url: UNL_UGB_URL+'courses/search?q='+request.term+'&format=json&limit=10',
@@ -309,6 +311,8 @@ WDN.jQuery(document).ready(function($){
 		}
     });
     $('#majorSearch').autocomplete({
+    	delay: 555,
+		minLength: 3,
     	source: function(request, response) {
     		$.ajax({
     			url: UNL_UGB_URL+'major/search?q='+request.term+'&format=json',
