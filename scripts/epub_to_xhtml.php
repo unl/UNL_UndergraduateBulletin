@@ -6,7 +6,14 @@ require dirname(__FILE__).'/../config.sample.php';
 
 
 foreach (new GlobIterator(UNL_UndergraduateBulletin_Controller::getDataDir().'/*/*.epub') as $file) {
+    writeXHTMLFile($file);
+}
 
+foreach (new GlobIterator(UNL_UndergraduateBulletin_Controller::getDataDir().'/*.epub') as $file) {
+    writeXHTMLFile($file);
+}
+
+function writeXHTMLFile($file) {
     foreach (new RecursiveIteratorIterator(new PharData($file)) as $epub_file) {
 
         if ('xhtml' == pathinfo($epub_file, PATHINFO_EXTENSION)) {
@@ -20,7 +27,6 @@ foreach (new GlobIterator(UNL_UndergraduateBulletin_Controller::getDataDir().'/*
         }
 
     }
-
 }
 
 
