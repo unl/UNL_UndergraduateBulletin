@@ -15,6 +15,10 @@ class UNL_UndergraduateBulletin_OutputController extends Savvy
         self::$cache = $cache;
     }
     
+    /**
+     * get the cache interface
+     * @return UNL_UndergraduateBulletin_CacheInterface
+     */
     static public function getCacheInterface()
     {
         if (!isset(self::$cache)) {
