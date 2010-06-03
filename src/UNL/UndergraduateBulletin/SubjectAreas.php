@@ -1,11 +1,12 @@
 <?php
-class UNL_UndergraduateBulletin_SubjectAreas extends ArrayIterator implements UNL_UndergraduateBulletin_CacheableInterface
+class UNL_UndergraduateBulletin_SubjectAreas extends SplFileObject implements UNL_UndergraduateBulletin_CacheableInterface
 {
     function __construct($options = array())
     {
         parent::__construct(
-            file(UNL_UndergraduateBulletin_Controller::getDataDir().'/creq/subject_codes.csv')
+            UNL_UndergraduateBulletin_Controller::getDataDir().'/creq/subject_codes.csv'
         );
+        $this->setFlags(SplFileObject::READ_CSV | SplFileObject::SKIP_EMPTY);
     }
     
     function getCacheKey()
@@ -25,7 +26,7 @@ class UNL_UndergraduateBulletin_SubjectAreas extends ArrayIterator implements UN
     
     function current()
     {
-        $data = str_getcsv(parent::current(), ',', '\'');
+        $data = parent::current();
         $options = array('id'=>$data[0]);
         if (isset($data[1])) {
             $options['title'] = $data[1];
@@ -35,7 +36,7 @@ class UNL_UndergraduateBulletin_SubjectAreas extends ArrayIterator implements UN
     
     function key()
     {
-        $data = str_getcsv(parent::current(), ',', '\'');
+        $data = parent::current();
         return $data[0];
     }
 }
