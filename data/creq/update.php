@@ -8,3 +8,5 @@ while (($subject = fgetcsv($handle, 1000, ",", "'")) !== false) {
         echo 'Could not retrieve data for '.$subject[0].PHP_EOL;
     }
 }
+
+include dirname(__FILE__).'/minimize.php';
