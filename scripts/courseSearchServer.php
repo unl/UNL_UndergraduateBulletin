@@ -1,6 +1,10 @@
 #!/usr/local/bin/php -q
 <?php
-require_once dirname(__FILE__).'/../config.sample.php';
+if (file_exists(dirname(__FILE__).'/../config.inc.php')) {
+    include_once dirname(__FILE__).'/../config.inc.php';
+} else {
+    include_once dirname(__FILE__).'/../config.sample.php';
+}
 
 error_reporting(E_ALL);
 
