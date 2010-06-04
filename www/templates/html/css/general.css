@@ -3,6 +3,8 @@
 }
 #maincontent div.wdn_notice div.message {
 	background:url(images/information.png) no-repeat top left;
+	padding: 0 5px 0 72px;
+	min-height:76px;
 }
 #maincontent div.wdn_notice {
     border: 1px solid #cad094;
@@ -14,6 +16,37 @@
 #maincontent div.wdn_notice div.minimize a, #maincontent div.wdn_notice div.maximize a, #maincontent div.wdn_notice div.minimize a:hover, #maincontent div.wdn_notice div.maximize a:hover {
 	border: 1px solid #cad094;
 
+}
+#maincontent #previousBulletins ul {
+	list-style:none;
+	margin:0;
+	position:absolute;
+	z-index:1;
+	margin-left:0px;
+	padding:0px;
+	width:230px;
+	height:49px;
+	overflow:hidden;
+}
+#maincontent #previousBulletins:hover ul {
+    height:auto; 
+    background:#F8F9D1;
+    border:1px solid #e7ecb9;
+    border-top:none;
+    -webkit-box-shadow: 0px 3px 4px  #b5b5b5;
+	-moz-box-shadow: 0px 3px 4px #b5b5b5;
+	box-shadow: 0px 3px 4px #b5b5b5; 
+}
+#maincontent #previousBulletins ul li {
+    padding:3px 5px;
+    border-bottom:1px solid #e7ecb9;
+    
+}
+#maincontent #previousBulletins:hover ul li {
+    padding:3px 4px;	
+}
+#maincontent #previousBulletins ul li:last-child {
+    border-bottom:none;	
 }
 #maincontent div.wdn_notice div.minimize a:hover, #maincontent div.wdn_notice div.maximize a:hover {
 	border: 1px solid #aaaf7d;
@@ -28,7 +61,6 @@
 	margin-right:6px;
 }
 #maincontent div.wdn_notice.small div.message {
-	min-height: 0px;
 	padding:4px 5px 0 68px;	
 	background:url(images/information.png) no-repeat 0 -467px;
 }
