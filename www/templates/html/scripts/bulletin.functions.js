@@ -279,7 +279,13 @@ WDN.jQuery(document).ready(function($){
     $('#courseSearch').autocomplete({
 		delay: 555,
 		minLength: 2,
-    	source: function(request, response) {
+		search: function(event, ui){
+			if (keyMatch) {
+				WDN.log('invalid key');
+				return false;
+			}
+		},
+		source: function(request, response) {
     		$.ajax({
     			url: UNL_UGB_URL+'courses/search?q='+request.term+'&format=json&limit=10',
     			dataType: "json",
@@ -314,6 +320,14 @@ WDN.jQuery(document).ready(function($){
 		select: function(e, ui) {
 			window.location.href = UNL_UGB_URL+'courses/search?q='+ui.item.value;
 		}
+    });
+    $('#courseSearch').keypress(function(event){
+    	var e = event.keyCode;
+    	keyMatch = false;
+    	if(e == 27 || e == 9 || e == 13){
+    		keyMatch = true;
+    		WDN.log(keyMatch);
+    	}
     });
     $('#majorSearch').autocomplete({
     	delay: 555,
