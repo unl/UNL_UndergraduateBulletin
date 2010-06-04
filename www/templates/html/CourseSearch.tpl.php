@@ -1,6 +1,7 @@
 <?php
-if ($context->options['view'] == 'searchcourses') {
-    $url = UNL_UndergraduateBulletin_Controller::getURL();
+$url = UNL_UndergraduateBulletin_Controller::getURL();
+if (isset($context->options['view'])
+    && $context->options['view'] == 'searchcourses') {
     UNL_UndergraduateBulletin_Controller::setReplacementData('doctitle', 'UNL | Undergraduate Bulletin | Courses | Search');
     UNL_UndergraduateBulletin_Controller::setReplacementData('breadcrumbs', '
     <ul>
