@@ -1,4 +1,10 @@
 <?php
+
+if (gettype($context->results) == 'string') {
+    echo $context->getRaw('results');
+    return;
+}
+
 $url = UNL_UndergraduateBulletin_Controller::getURL();
 if (isset($context->options['view'])
     && $context->options['view'] == 'searchcourses') {
