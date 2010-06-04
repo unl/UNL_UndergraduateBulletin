@@ -64,11 +64,10 @@ do {
 
     $search = new UNL_UndergraduateBulletin_CourseSearch($options);
 
-    $results = $search_service->byAny($search->options['q'],
-                                      $search->options['offset'],
-                                      $search->options['limit']
-                              );
-    $search->results = $results;
+    $search->results = $search_service->byAny($search->options['q'],
+                                              $search->options['offset'],
+                                              $search->options['limit']
+                                      );
 
     $outputcontroller->setTemplatePath(dirname(dirname(__FILE__)).'/www/templates/html');
     switch($options['format']) {
@@ -82,8 +81,10 @@ do {
     $output = $outputcontroller->render($search);
 
     socket_write($msgsock, $output, strlen($output));
-    echo "$buf\n";
     socket_close($msgsock);
+    unset($search, $output, $options);
+    echo "$buf\n";
+    echo memory_get_usage().PHP_EOL;
 } while (true);
 
 socket_close($sock);
