@@ -19,7 +19,7 @@ UNL_UndergraduateBulletin_Controller::$url = '/workspace/UNL_UndergraduateBullet
 
 // Remove this line on production machines so the default UNLCacheLite cache interface is used
 UNL_UndergraduateBulletin_OutputController::setCacheInterface(new UNL_UnderGraduateBulletin_CacheInterface_Mock());
+UNL_UndergraduateBulletin_OutputController::setDefaultExpireTimestamp(strtotime('+1 week'));
 
 UNL_Services_CourseApproval::setCachingService(new UNL_Services_CourseApproval_CachingService_Null());
 UNL_Services_CourseApproval::setXCRIService(new UNL_UndergraduateBulletin_CourseDataDriver());
-?>

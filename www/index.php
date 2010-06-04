@@ -15,17 +15,20 @@ $outputcontroller->setTemplatePath(dirname(__FILE__).'/templates/html');
 
 switch($controller->options['format']) {
     case 'partial':
-        $outputcontroller->sendCORSHeaders(strtotime('tomorrow'));
+        $outputcontroller->sendCORSHeaders(UNL_UndergraduateBulletin_OutputController::getDefaultExpireTimestamp());
         break;
     case 'xml':
-        $outputcontroller->sendCORSHeaders(strtotime('tomorrow'));
+        $outputcontroller->sendCORSHeaders(UNL_UndergraduateBulletin_OutputController::getDefaultExpireTimestamp());
         header('Content-type: text/xml');
         $outputcontroller->addTemplatePath(dirname(__FILE__).'/templates/xml');
         break;
     case 'json':
-        $outputcontroller->sendCORSHeaders(strtotime('tomorrow'));
+        $outputcontroller->sendCORSHeaders(UNL_UndergraduateBulletin_OutputController::getDefaultExpireTimestamp());
         header('Content-type: text/javascript');
         $outputcontroller->addTemplatePath(dirname(__FILE__).'/templates/json');
+        break;
+    default:
+        header('Expires: '.date('r', strtotime('tomorrow')));
         break;
 }
 $outputcontroller->setClassToTemplateMapper(new UNL_UndergraduateBulletin_ClassToTemplateMapper());

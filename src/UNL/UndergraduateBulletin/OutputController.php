@@ -5,6 +5,8 @@ class UNL_UndergraduateBulletin_OutputController extends Savvy
     
     static protected $cache;
     
+    static public $defaultExpireTimestamp = null;
+    
     function __construct($options = array())
     {
         parent::__construct();
@@ -25,6 +27,16 @@ class UNL_UndergraduateBulletin_OutputController extends Savvy
             self::setCacheInterface(new UNL_UndergraduateBulletin_CacheInterface_UNLCacheLite());
         }
         return self::$cache;
+    }
+    
+    static public function setDefaultExpireTimestamp($timestamp)
+    {
+        self::$defaultExpireTimestamp = $timestamp;
+    }
+    
+    static public function getDefaultExpireTimestamp()
+    {
+        return self::$defaultExpireTimestamp;
     }
     
     public function renderObject($object, $template = null)
