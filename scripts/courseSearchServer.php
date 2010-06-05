@@ -27,11 +27,18 @@ if (($sock = socket_create(AF_INET, SOCK_STREAM, SOL_TCP)) === false) {
 }
 
 foreach ($ports as $port) {
-    if (@socket_bind($sock, 0, $port) === false) {
+    $result = @socket_bind($sock, 0, $port);
+    if ($result === false) {
         continue;
     }
     break;
 }
+
+if ($result === false) {
+    echo 'No open ports'.PHP_EOL;
+    exit();
+}
+
 echo 'Listening on '.$port.PHP_EOL;
 
 if (socket_listen($sock, 5) === false) {
@@ -93,8 +100,8 @@ do {
     socket_write($msgsock, $output, strlen($output));
     socket_close($msgsock);
     unset($search, $output, $options);
-//    echo "$buf\n";
-//    echo memory_get_usage(true).PHP_EOL;
+    echo "$buf\n";
+    echo memory_get_usage(true).PHP_EOL;
 } while (true);
 
 socket_close($sock);
