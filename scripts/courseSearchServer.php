@@ -1,4 +1,4 @@
-#!/usr/local/bin/php -q
+#!/usr/bin/env php -q
 <?php
 if (file_exists(dirname(__FILE__).'/../config.inc.php')) {
     include_once dirname(__FILE__).'/../config.inc.php';
