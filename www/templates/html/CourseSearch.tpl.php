@@ -21,7 +21,7 @@ if (isset($context->options['view'])
 if ($context->options['format'] != 'partial') {
     echo $savvy->render('', 'CourseSearchForm.tpl.php');
 }
-if (!$context->results->count()) {
+if (!count($context->results)) {
     echo 'Sorry, no matching courses';
 } else {
     if ($context->options['format'] != 'partial') {
@@ -30,7 +30,7 @@ if (!$context->results->count()) {
         echo '</div>';
         echo '<div class="three_col right">';
     }
-    echo '<h2 class="resultCount">'.$context->results->count().' results</h2>';
+    echo '<h2 class="resultCount">'.count($context->results).' results</h2>';
     echo '<dl>';
     foreach ($context->results as $course) {
         echo $savvy->render($course);

@@ -49,24 +49,28 @@ class UNL_UndergraduateBulletin_CourseSearch implements Countable, UNL_Undergrad
     
     function getServiceResults()
     {
-        $socket = socket_create(AF_INET, SOCK_STREAM, SOL_TCP);
-        if ($socket === false) {
-            return false;
+
+        $ports = range(13200, 13210);
+        shuffle($ports);
+
+        foreach ($ports as $port) {
+            if ($fp = fsockopen('127.0.0.1', $port, $errno, $errstr, 5)) {
+                break;
+            }
         }
-        $result = socket_connect($socket, '127.0.0.1', 13212);
-        if ($result === false) {
+
+        if ($fp === false) {
             return false;
         }
 
-        socket_write($socket, json_encode($this->options)."\n", strlen(json_encode($this->options)."\n"));
-        stream_set_timeout($socket, 2);
+        fwrite($fp, json_encode($this->options)."\n");
 
         $results = '';
-        while ($line = socket_read($socket, 2048)) {
-            $results .= $line;
+        while (!feof($fp)) {
+            $results .= fgets($fp, 128);
         }
 
-        socket_close($socket);
+        fclose($fp);
 
         return $results;
     }

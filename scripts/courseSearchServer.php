@@ -10,6 +10,7 @@ error_reporting(E_ALL);
 
 /* Allow the script to hang around waiting for connections. */
 set_time_limit(0);
+ini_set('memory_limit', 1024*1024*64);
 
 /* Turn on implicit output flushing so we see what we're getting
  * as it comes in. */
@@ -18,19 +19,24 @@ ob_implicit_flush();
 iconv_set_encoding("internal_encoding", "UTF-8");
 iconv_set_encoding("output_encoding", "UTF-8");
 
-$address = '127.0.0.1';
-$port = 13212;
+$ports = range(13200, 13210);
 
 if (($sock = socket_create(AF_INET, SOCK_STREAM, SOL_TCP)) === false) {
     echo "socket_create() failed: reason: " . socket_strerror(socket_last_error()) . "\n";
+    exit();
 }
 
-if (socket_bind($sock, $address, $port) === false) {
-    echo "socket_bind() failed: reason: " . socket_strerror(socket_last_error($sock)) . "\n";
+foreach ($ports as $port) {
+    if (@socket_bind($sock, 0, $port) === false) {
+        continue;
+    }
+    break;
 }
+echo 'Listening on '.$port.PHP_EOL;
 
 if (socket_listen($sock, 5) === false) {
     echo "socket_listen() failed: reason: " . socket_strerror(socket_last_error($sock)) . "\n";
+    exit();
 }
 
 $outputcontroller = new Savvy();
@@ -87,8 +93,8 @@ do {
     socket_write($msgsock, $output, strlen($output));
     socket_close($msgsock);
     unset($search, $output, $options);
-    echo "$buf\n";
-    echo memory_get_usage().PHP_EOL;
+//    echo "$buf\n";
+//    echo memory_get_usage(true).PHP_EOL;
 } while (true);
 
 socket_close($sock);
