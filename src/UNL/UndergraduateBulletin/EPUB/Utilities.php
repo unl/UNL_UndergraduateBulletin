@@ -66,9 +66,13 @@ class UNL_UndergraduateBulletin_EPUB_Utilities
         return '<a href="'.$href.'">'.$href.'</a>'.$link_end;
     }
     
+    /**
+     * callback for the course preg match function
+     * 
+     * @param array $matches [0] is the full match, [1] is the subject code.
+     */
     public static function linkCourse($matches)
     {
-        $text = $matches[0];
         switch($matches[1]) {
             case 'ACE':
             case 'ACT':
@@ -78,12 +82,12 @@ class UNL_UndergraduateBulletin_EPUB_Utilities
             case 'UNL':
             case 'OURS': // HOURS
             case 'OTAL': // TOTAL
-                return $text;
+                return $matches[0];
         }
 
-        $text = preg_replace('/([0-9]{2,3}[A-Z]?)/', '<a class="course" href="'.UNL_UndergraduateBulletin_Controller::getURL().'courses/'.$matches[1].'/$1">$0</a>', $text);
-        $text = preg_replace('/([A-Z]{3,4})\s+(\<a[^>]+\>)/', '$2$1 ', $text);
+        $matches[0] = preg_replace('/([0-9]{2,3}[A-Z]?)/', '<a class="course" href="'.UNL_UndergraduateBulletin_Controller::getURL().'courses/'.$matches[1].'/$1">$0</a>', $matches[0]);
+        $matches[0] = preg_replace('/([A-Z]{3,4})\s+(\<a[^>]+\>)/', '$2$1 ', $matches[0]);
 
-        return $text;
+        return $matches[0];
     }
 }
