@@ -68,35 +68,7 @@
     $format = '';
     foreach ($context->activities as $type=>$activity) {
         $class .= ' '.$type;
-        switch ($type) {
-            case 'lec':
-                $format .= 'Lecture';
-                break;
-            case 'lab':
-                $format .= 'Lab';
-                break;
-            case 'quz':
-                $format .= 'Quiz';
-                break;
-            case 'rct':
-                $format .= 'Recitation';
-                break;
-            case 'stu':
-                $format .= 'Studio';
-                break;
-            case 'fld':
-                $format .= 'Field';
-                break;
-            case 'ind':
-                $format .= 'Independent Study';
-                break;
-            case 'psi':
-                $format .= 'Personalized System of Instruction';
-                break;
-            default:
-                throw new Exception('Unknown activity type! '.$type);
-                break;
-        }
+        $format .= UNL_Services_CourseApproval_Course_Activities::getFullDescription($type);
         if (isset($activity->hours)) {
             $format .= ' '.$activity->hours;
         }
@@ -193,4 +165,3 @@
         && $parent->parent->context->options['view'] == 'course') {
         echo '</dl>';
     }
-?>
