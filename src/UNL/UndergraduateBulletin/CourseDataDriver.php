@@ -2,6 +2,10 @@
 
 class UNL_UndergraduateBulletin_CourseDataDriver implements UNL_Services_CourseApproval_XCRIService
 {
+    protected $subjectAreas = array();
+
+    protected $allCourses;
+
     function __construct()
     {
         
@@ -9,19 +13,27 @@ class UNL_UndergraduateBulletin_CourseDataDriver implements UNL_Services_CourseA
     
     function getAllCourses()
     {
-        if (isset($_GET['format'])
-            && $_GET['format'] == 'json') {
-            return file_get_contents(UNL_UndergraduateBulletin_Controller::getDataDir().'/creq/all-courses-min.xml');
+        if (!isset($this->allCourses)) {
+            if (isset($_GET['format'])
+                && $_GET['format'] == 'json') {
+                $this->allCourses = file_get_contents(UNL_UndergraduateBulletin_Controller::getDataDir().'/creq/all-courses-min.xml');
+            }
+            $this->allCourses = file_get_contents(UNL_UndergraduateBulletin_Controller::getDataDir().'/creq/all-courses.xml');
         }
-        return file_get_contents(UNL_UndergraduateBulletin_Controller::getDataDir().'/creq/all-courses.xml');
+        return $this->allCourses;
     }
     
     function getSubjectArea($subjectarea)
     {
-        $file = UNL_UndergraduateBulletin_Controller::getDataDir().'/creq/subjects/'.$subjectarea.'.xml';
-        if (!preg_match('/^[A-Z]{3,4}$/', $subjectarea) || !file_exists($file)) {
-            throw new Exception('No subject area found matching '.$subjectarea.'.');
+        if (!isset($this->subjectAreas[(string)$subjectarea])) {
+
+            $file = UNL_UndergraduateBulletin_Controller::getDataDir().'/creq/subjects/'.$subjectarea.'.xml';
+            if (!preg_match('/^[A-Z]{3,4}$/', $subjectarea) || !file_exists($file)) {
+                throw new Exception('No subject area found matching '.$subjectarea.'.');
+            }
+          $this->subjectAreas[(string)$subjectarea] = file_get_contents(UNL_UndergraduateBulletin_Controller::getDataDir().'/creq/subjects/'.$subjectarea.'.xml');
         }
-        return file_get_contents(UNL_UndergraduateBulletin_Controller::getDataDir().'/creq/subjects/'.$subjectarea.'.xml');
+
+        return $this->subjectAreas[(string)$subjectarea];
     }
 }
