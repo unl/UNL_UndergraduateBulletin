@@ -10,7 +10,6 @@ error_reporting(E_ALL);
 
 /* Allow the script to hang around waiting for connections. */
 set_time_limit(0);
-ini_set('memory_limit', 1024*1024*64);
 
 /* Turn on implicit output flushing so we see what we're getting
  * as it comes in. */
@@ -81,10 +80,17 @@ do {
 
     $search = new UNL_UndergraduateBulletin_CourseSearch($options);
 
-    $search->results = $search_service->byAny($search->options['q'],
-                                              $search->options['offset'],
-                                              $search->options['limit']
-                                      );
+    if (preg_match('/^([A-Z]{3,4})(\s*:\s*.*)?$/i', $search->options['q'], $matches)
+        && file_exists(UNL_UndergraduateBulletin_Controller::getDataDir().'/creq/subjects/'.strtoupper($matches[1]).'.xml')) {
+        $search->options['q'] = strtoupper($matches[1]);
+        $search->results = $search_service->bySubject(strtoupper($matches[1]));
+    } else {
+
+        $search->results = $search_service->byAny($search->options['q'],
+                                                  $search->options['offset'],
+                                                  $search->options['limit']
+                                          );
+    }
 
     $outputcontroller->setTemplatePath(dirname(dirname(__FILE__)).'/www/templates/html');
     switch($options['format']) {
@@ -102,6 +108,9 @@ do {
     unset($search, $output, $options);
     echo "$buf\n";
     echo memory_get_usage(true).PHP_EOL;
+    if (memory_get_usage(true) > 1024*1024*32) {
+        break;
+    }
 } while (true);
 
 socket_close($sock);
