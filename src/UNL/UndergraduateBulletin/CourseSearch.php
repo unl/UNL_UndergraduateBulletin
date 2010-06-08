@@ -54,7 +54,7 @@ class UNL_UndergraduateBulletin_CourseSearch implements Countable, UNL_Undergrad
         shuffle($ports);
 
         foreach ($ports as $port) {
-            if ($fp = fsockopen('127.0.0.1', $port, $errno, $errstr, 5)) {
+            if ($fp = @fsockopen('127.0.0.1', $port, $errno, $errstr, 5)) {
                 break;
             }
         }
