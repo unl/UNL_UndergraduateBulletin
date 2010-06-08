@@ -130,6 +130,10 @@
     </termsOffered>
     <activities>
       <activity>
+        <type>lab</type>
+        <hours>1</hours>
+      </activity>
+      <activity>
         <type>lec</type>
         <hours>3</hours>
       </activity>
@@ -733,43 +737,6 @@
     </credits>
   </course>
   <course>
-    <title>Assembly Language and Systems Programming</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>CSCE</subject>
-        <courseNumber>231</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 230 and 251U.</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Computer programming at the assembly level. Interface between high- and low-level languages. Structure and design of basic systems software-assemblers, macro processors, device drivers, linker loaders, compilers and operating systems.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>lec</type>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
     <title>Introduction to Discrete Structures</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -892,44 +859,6 @@
       <activity>
         <type>lab</type>
         <hours>1</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">1</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Graphical User-Interface Programming</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>CSCE</subject>
-        <courseNumber>251</courseNumber>
-        <courseLetter>Y</courseLetter>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 156 or permission.</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to concepts and implementation of Graphical User-Interface (GUI) Programming. Object-oriented GUI architectures, windowing environments, layout managers, containers and components, graphics, events and event-based programming, browser-based applications, and GUI design. Programming provides extensive experience working with a large, sophisticated, object-oriented library.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>lec</type>
       </activity>
     </activities>
     <credits>
