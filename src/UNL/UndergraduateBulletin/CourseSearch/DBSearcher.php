@@ -28,7 +28,11 @@ class UNL_UndergraduateBulletin_CourseSearch_DBSearcher
         switch (true) {
             case preg_match('/^ace\s*:?\s*(10|[1-9])$/i', $query, $match):
                 // ACE outcome number
-                $sql = "SELECT courses.xml FROM courses WHERE slo LIKE '%{$match[1]}%';";
+                if ($match[1] == '1') {
+                    $sql = "SELECT courses.slo FROM courses WHERE slo = '1' OR slo LIKE '%1,%' OR slo LIKE '%,1'";
+                } else {
+                    $sql = "SELECT courses.xml FROM courses WHERE slo LIKE '%{$match[1]}%';";
+                }
                 break;
             case preg_match('/^([A-Z]{3,4})\s+([0-9])XX$/i', $query, $matches):
                 // Course subject and number range, eg: MRKT 3XX
