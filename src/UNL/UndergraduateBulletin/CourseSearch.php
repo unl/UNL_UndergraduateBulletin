@@ -26,33 +26,13 @@ class UNL_UndergraduateBulletin_CourseSearch implements Countable, UNL_Undergrad
     
     function run()
     {
+        $driver = null;
         if (file_exists(UNL_UndergraduateBulletin_Controller::getDataDir().'/creq/courses.sqlite')) {
-            $this->getDBResults();
-            return;
+            $driver = new UNL_UndergraduateBulletin_CourseSearch_DBSearcher();
         }
-        // Try the service
-        if ($results = $this->getServiceResults()) {
-            $this->results = $results;
-            return;
-        }
-        
-        $this->getLocalXMLResults();
-    }
-    
-    function getDBResults()
-    {
-        $search = new UNL_UndergraduateBulletin_CourseSearch_DBSearcher($this->options);
-        $this->results = $search->byAny($this->options['q'],
-                                        $this->options['offset'],
-                                        $this->options['limit']);
-    }
-    
-    function getLocalXMLResults()
-    {
-        $search = new UNL_Services_CourseApproval_Search();
 
-        $query = $this->options['q'];
-        
+        $search = new UNL_Services_CourseApproval_Search($driver);
+
         if (preg_match('/^([A-Z]{3,4})(\s*:\s*.*)?$/i', $query, $matches)
             && file_exists(UNL_UndergraduateBulletin_Controller::getDataDir().'/creq/subjects/'.strtoupper($matches[1]).'.xml')) {
             $this->options['q'] = strtoupper($matches[1]);
@@ -61,43 +41,15 @@ class UNL_UndergraduateBulletin_CourseSearch implements Countable, UNL_Undergrad
         }
 
         // Check to see if the query matches a subject code
-        if ($area = UNL_UndergraduateBulletin_SubjectArea::getByTitle($query)) {
+        if ($area = UNL_UndergraduateBulletin_SubjectArea::getByTitle($this->options['q'])) {
             $this->options['q'] = $area->subject.' : '.$area->title;
-            $query = $area->subject;
         }
 
         $this->results = $search->byAny($this->options['q'],
                                         $this->options['offset'],
                                         $this->options['limit']);
     }
-    
-    function getServiceResults()
-    {
 
-        $ports = range(13200, 13210);
-        shuffle($ports);
-
-        foreach ($ports as $port) {
-            if ($fp = @fsockopen('127.0.0.1', $port, $errno, $errstr, 5)) {
-                break;
-            }
-        }
-
-        if ($fp === false) {
-            return false;
-        }
-
-        fwrite($fp, json_encode($this->options)."\n");
-
-        $results = '';
-        while (!feof($fp)) {
-            $results .= fgets($fp, 128);
-        }
-
-        fclose($fp);
-
-        return $results;
-    }
 
     function count()
     {
