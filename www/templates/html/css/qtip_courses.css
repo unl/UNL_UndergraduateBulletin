@@ -4,7 +4,7 @@ Course qTip Styles
 
 *********************************************/
 
-.qtip {
+.qtip.courseInfo, .qtip.searchHelp {
     color:#494949;
     font-size:80%;
     font-style:normal;
@@ -16,74 +16,74 @@ Course qTip Styles
     margin-bottom:20px; 
     max-width:650px;
 }
-.qtip .qtip-defaults {
+.qtip.courseInfo .qtip-defaults, .qtip.searchHelp .qtip-defaults {
     border:3px;
     -moz-border-radius:5px;
 }
-.qtip .qtip-wrapper {
+.qtip.courseInfo .qtip-wrapper, .qtip.searchHelp .qtip-wrapper {
     background-color:#fff;
     border:3px solid #c8c8c8;
     -moz-border-radius:3px;
     -webkit-border-radius:3px;
     border-radius:3px;
 }
-.qtip .qtip-contentWrapper {
+.qtip.courseInfo .qtip-contentWrapper, .qtip.searchHelp .qtip-contentWrapper {
     min-height:100px;
     background:#fff;
     width:618px;
     border:none !important;
 }
-.qtip .qtip-content {padding:9px;overflow:scroll;}
-.qtip .qtip-tip {
+.qtip.courseInfo .qtip-content {padding:9px;overflow:scroll;}
+.qtip.courseInfo .qtip-tip {
     z-index:999999;
 }
-.qtip .qtip-tip[rel=bottomleft] + .qtip-wrapper {
+.qtip.courseInfo .qtip-tip[rel=bottomleft] + .qtip-wrapper {
     -moz-border-radius-bottomleft: 0;
     -webkit-border-bottom-left-radius: 0;
 }
-.qtip .qtip-tip[rel=topleft] + .qtip-wrapper {
+.qtip.courseInfo .qtip-tip[rel=topleft] + .qtip-wrapper {
     -moz-border-radius-topleft: 0;
     -webkit-border-top-left-radius: 0;
 }
-.qtip .qtip-tip[rel=bottomright] + .qtip-wrapper {
+.qtip.courseInfo .qtip-tip[rel=bottomright] + .qtip-wrapper {
     -moz-border-radius-bottomright: 0;
     -webkit-border-bottom-right-radius: 0;
 }
-.qtip .qtip-tip[rel=topright] + .qtip-wrapper {
+.qtip.courseInfo .qtip-tip[rel=topright] + .qtip-wrapper {
     -moz-border-radius-topright: 0;
     -webkit-border-top-right-radius: 0;
 }
 
-.qtip  dt, .qtip  dd {
+.qtip.courseInfo  dt, .qtip.courseInfo  dd {
     font-size:80%;
     margin:0;
     width:600px;
 }
 
-.qtip .title a {display:none;}
-.qtip .subjectCode {
+.qtip.courseInfo .title a {display:none;}
+.qtip.courseInfo .subjectCode {
     margin-top:11px;
     min-width:60px;
     top:-3px;
     margin-left:2px;
 }
-.qtip .number {
+.qtip.courseInfo .number {
     margin:-14px 5px 0 0;
     min-width:60px;
     padding:19px 0 7px;
     z-index:1000;
 }
-.qtip .course .title {
+.qtip.courseInfo .course .title {
     margin:0 0 0 72px;
     padding:7px 5px 4px 0;
     border-bottom:1px solid #e7e7e7;
     font-size:150%;
 }
-.qtip .course .prereqs, .qtip .course .notes, .qtip .course .description {
+.qtip.courseInfo .course .prereqs, .qtip.courseInfo .course .notes, .qtip.courseInfo .course .description {
     width:60%;
 }
-.qtip .course .prereqs a {color:#0F900A; text-decoration:underline;}
-.qtip .course .prereqs a:hover, .qtip .course .prereqs a:focus {color:#28aa23 !important; text-decoration:none;}
+.qtip.courseInfo .course .prereqs a {color:#0F900A; text-decoration:underline;}
+.qtip.courseInfo .course .prereqs a:hover, .qtip .course.courseInfo .prereqs a:focus {color:#28aa23 !important; text-decoration:none;}
 
 /********************************************
 
