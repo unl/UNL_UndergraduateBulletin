@@ -26,12 +26,29 @@ class UNL_UndergraduateBulletin_CourseSearch implements Countable, UNL_Undergrad
     
     function run()
     {
+        if (file_exists(UNL_UndergraduateBulletin_Controller::getDataDir().'/creq/courses.sqlite')) {
+            $this->getDBResults();
+            return;
+        }
         // Try the service
         if ($results = $this->getServiceResults()) {
             $this->results = $results;
             return;
         }
-
+        
+        $this->getLocalXMLResults();
+    }
+    
+    function getDBResults()
+    {
+        $search = new UNL_UndergraduateBulletin_CourseSearch_DBSearcher($this->options);
+        $this->results = $search->byAny($this->options['q'],
+                                        $this->options['offset'],
+                                        $this->options['limit']);
+    }
+    
+    function getLocalXMLResults()
+    {
         $search = new UNL_Services_CourseApproval_Search();
 
         $query = $this->options['q'];
