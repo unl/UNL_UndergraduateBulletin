@@ -29,7 +29,7 @@ class UNL_UndergraduateBulletin_CourseSearch_DBSearcher
             case preg_match('/^ace\s*:?\s*(10|[1-9])$/i', $query, $match):
                 // ACE outcome number
                 if ($match[1] == '1') {
-                    $sql = "SELECT courses.slo FROM courses WHERE slo = '1' OR slo LIKE '%1,%' OR slo LIKE '%,1'";
+                    $sql = "SELECT courses.xml FROM courses WHERE slo = '1' OR slo LIKE '%1,%' OR slo LIKE '%,1'";
                 } else {
                     $sql = "SELECT courses.xml FROM courses WHERE slo LIKE '%{$match[1]}%';";
                 }
