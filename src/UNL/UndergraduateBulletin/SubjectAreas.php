@@ -28,10 +28,12 @@ class UNL_UndergraduateBulletin_SubjectAreas extends SplFileObject implements UN
     function current()
     {
         $data = parent::current();
+
         $options = array('id'=>$data[0]);
         if (isset($data[1])) {
             $options['title'] = $data[1];
         }
+
         return new UNL_UndergraduateBulletin_SubjectArea($options);
     }
     

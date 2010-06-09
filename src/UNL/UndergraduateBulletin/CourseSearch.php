@@ -33,16 +33,20 @@ class UNL_UndergraduateBulletin_CourseSearch implements Countable, UNL_Undergrad
 
         $search = new UNL_Services_CourseApproval_Search($driver);
 
-        if (preg_match('/^([A-Z]{3,4})(\s*:\s*.*)?$/i', $query, $matches)
+        if (preg_match('/^([A-Z]{3,4})(\s*:\s*.*)?$/i', $this->options['q'], $matches)
             && file_exists(UNL_UndergraduateBulletin_Controller::getDataDir().'/creq/subjects/'.strtoupper($matches[1]).'.xml')) {
             $this->options['q'] = strtoupper($matches[1]);
-            $this->results = $search->bySubject(strtoupper($matches[1]));
+            $this->results = $search->bySubject(strtoupper($matches[1]),
+                                        $this->options['offset'],
+                                        $this->options['limit']);
             return;
         }
 
         // Check to see if the query matches a subject code
         if ($area = UNL_UndergraduateBulletin_SubjectArea::getByTitle($this->options['q'])) {
             $this->options['q'] = $area->subject.' : '.$area->title;
+            $this->results = $search->bySubject($area->subject, $this->options['offset'], $this->options['limit']);
+            return;
         }
 
         $this->results = $search->byAny($this->options['q'],
