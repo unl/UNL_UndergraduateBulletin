@@ -80,6 +80,7 @@ $page->head .= '
 <script type="text/javascript" src="'.$url.'templates/html/scripts/bulletin.functions.js"></script>
 <link rel="home" href="'.$url.'" />
 <link rel="search" href="'.$url.'search/" />
+<!-- '.md5($context->getRawObject()->getCacheKey()).' -->
 ';
 
 $page->maincontentarea = '<div class="wdn_notice" id="officialMessage">
