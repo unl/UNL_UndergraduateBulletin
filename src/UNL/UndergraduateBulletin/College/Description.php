@@ -19,7 +19,7 @@ class UNL_UndergraduateBulletin_College_Description
         'Journalism & Mass Communications'          => 'College of Jour & Mass Comm.xhtml',
         'Libraries'                                 => 'LIBR College page.xhtml',
         'Office of Undergraduate Studies'           => 'Office of Undergrad Studies.xhtml',
-        'Public Affairs & Community Service'        => 'CPACS College Page.xhtml',
+        'Public Affairs & Community Service'        => 'CPACS College page.xhtml',
         'Reserve Officers\' Training Corps (ROTC)'  => 'ROTC College page.xhtml',
     );
     
