@@ -9,7 +9,7 @@
             <li><a href="college/Agricultural+Sciences+%26+Natural+Resources">Agricultural Sciences &amp; Natural Resources</a></li>
             <li><a href="college/Architecture">Architecture</a></li>
             <li><a href="college/Arts+%26+Sciences">Arts &amp; Sciences</a></li>
-            <li><a href="college/Business+Administration">Business Adminsitration</a></li>
+            <li><a href="college/Business+Administration">Business Administration</a></li>
             <li><a href="college/Education+%26+Human+Sciences">Education &amp; Human Sciences</a></li>
             <li><a href="college/Engineering">Engineering</a></li>
             <li><a href="college/Fine+%26+Performing+Arts">Hixson-Lied College of Fine &amp; Performing Arts</a></li>
