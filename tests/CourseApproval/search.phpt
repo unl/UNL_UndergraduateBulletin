@@ -6,9 +6,9 @@ require_once 'test_framework.php';
 $search = new UNL_Services_CourseApproval_Search();
 
 $courses = $search->byNumber('201');
-$test->assertEquals(1, count($courses), 'One result returned');
+$test->assertEquals(2, count($courses), 'Two results returned');
 foreach ($courses as $course) {
-    $test->assertEquals('Introductory Accounting I', $course->title, 'Course title');
+    $test->assertTrue((strpos($course->title, 'Introductory Accounting I') !== false), 'Course title');
 }
 
 //$test->assertEquals(201, $listing->courseNumber, 'Course number');
