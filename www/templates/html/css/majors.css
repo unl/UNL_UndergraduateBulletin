@@ -106,9 +106,12 @@ a.top {
     margin-top:1em;
 }
 
-#maincontent p + p {
+#maincontent p + p,
+#maincontent h3 + p,
+#maincontent h4 + p {
     margin-bottom:0;
 }
+
 #maincontent p.college-name, #maincontent p.major-name {display:none;}
 
 #maincontent p.list {
