@@ -90,7 +90,7 @@ $page->maincontentarea = '<div class="wdn_notice" id="officialMessage">
                             <div class="message">
                                 <div class="left" style="width:550px;padding-right:10px;">
                                     <h4 style="color:#a5690c;">PLEASE NOTE:</h4>
-                                    <p>Students who enter a college within the University in the 2010 academic year are expected to complete the graduation requirements set forth by that college in this bulletin. <a href="'.$url.'bulletinrules" id="bulletinRules">Review information on the bulletin policies.</a></p>
+                                    <p>Students who enter a college within the University in the 2010-11 academic year are expected to complete the graduation requirements set forth by that college in this bulletin. <a href="'.$url.'bulletinrules" id="bulletinRules">Review information on the bulletin policies.</a></p>
                                 </div>
                                 <div class="right" id="previousBulletins" style="width:250px;padding-left:10px;">
                                     <h6 style="color:#a5690c;">Previous Bulletins:</h6>
