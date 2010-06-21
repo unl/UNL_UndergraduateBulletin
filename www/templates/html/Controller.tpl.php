@@ -49,7 +49,7 @@ $page->navlinks     = '
     </li>
     <li><a href="#">Honors Programs</a>
         <ul>
-            <li><a href="#">NU Honors Program</a></li>
+            <li><a href="'.$url.'college/Office+of+Undergraduate+Studies#university-honors-program-">NU Honors Program</a></li>
             <li><a href="#">Jeffrey S. Raikes School of Computer Science and Management</a></li>
         </ul>
     </li>
