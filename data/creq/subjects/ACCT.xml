@@ -7,10 +7,15 @@
         <subject>ACCT</subject>
         <courseNumber>201</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>ACCT</subject>
+        <courseNumber>201</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
     </courseCodes>
     <gradingType>letter grade only</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20103</effectiveSemester>
+    <effectiveSemester>20111</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Sophomore standing (or freshman standing with 14 credit hours of UNL credit and Math 104 with a grade of 'C' or 'Pass' or better); and 2.5 GPA.</div>
     </prerequisite>
@@ -25,6 +30,7 @@
     </campuses>
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
+      <deliveryMethod>Web</deliveryMethod>
     </deliveryMethods>
     <termsOffered>
       <term>Fall</term>
@@ -86,10 +92,15 @@
         <subject>ACCT</subject>
         <courseNumber>202</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>ACCT</subject>
+        <courseNumber>202</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <effectiveSemester>20111</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Sophomore standing; ACCT 201 with grade of C or above; and a 2.5 cumulative GPA.</div>
     </prerequisite>
@@ -101,6 +112,7 @@
     </campuses>
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
+      <deliveryMethod>Web</deliveryMethod>
     </deliveryMethods>
     <termsOffered>
       <term>Fall</term>
@@ -158,7 +170,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <effectiveSemester>20111</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">ACCT 201 and 202 with grades of C or better, or 306 with grade of C or better.</div>
     </prerequisite>
@@ -170,7 +182,6 @@
     </campuses>
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
-      <deliveryMethod>Correspondence</deliveryMethod>
     </deliveryMethods>
     <termsOffered>
       <term>Fall</term>
@@ -225,7 +236,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <effectiveSemester>20111</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">ACCT 201 and 202 with grades of C or better, or 306 with grade of C or better.</div>
     </prerequisite>
@@ -237,7 +248,6 @@
     </campuses>
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
-      <deliveryMethod>Correspondence</deliveryMethod>
     </deliveryMethods>
     <termsOffered>
       <term>Fall</term>

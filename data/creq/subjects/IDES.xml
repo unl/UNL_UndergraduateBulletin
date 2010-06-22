@@ -400,10 +400,40 @@
         <subject>LARC</subject>
         <courseNumber>143</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>ARTP</subject>
+        <courseNumber>143</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>ARCH</subject>
+        <courseNumber>143</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>IDES</subject>
+        <courseNumber>143</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>TXCD</subject>
+        <courseNumber>143</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>JGEN</subject>
+        <courseNumber>143</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>LARC</subject>
+        <courseNumber>143</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>20092</effectiveSemester>
+    <effectiveSemester>20111</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">ARTP: Art major or candidate for teaching endorsement in art. ARCH: Admission to the College of Architecture. IDES: Admission to the College of Architecture. JGEN: College of Journalism and Mass Communications major and 2.75 GPA. LARC: Admission to the College of Architecture. TXCD: Textiles, Clothing and Design major or minor.</div>
     </prerequisite>
@@ -415,6 +445,7 @@
     </campuses>
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
+      <deliveryMethod>Web</deliveryMethod>
     </deliveryMethods>
     <termsOffered>
       <term>Fall</term>

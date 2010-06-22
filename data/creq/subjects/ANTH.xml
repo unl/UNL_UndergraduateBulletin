@@ -96,10 +96,15 @@
         <courseNumber>110</courseNumber>
         <courseGroup>Additional Anthropology Courses</courseGroup>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>ANTH</subject>
+        <courseNumber>110</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20092</effectiveSemester>
+    <effectiveSemester>20111</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Introduction to the study of society and culture, integrating the four major subfields of anthropology: archaeology, cultural anthropology, linguistics, and physical anthropology.</div>
     </description>
@@ -108,6 +113,7 @@
     </campuses>
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
+      <deliveryMethod>Web</deliveryMethod>
     </deliveryMethods>
     <termsOffered>
       <term>Fall</term>
@@ -624,10 +630,30 @@
         <subject>SOCI</subject>
         <courseNumber>261</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>ANTH</subject>
+        <courseNumber>261</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>PSYC</subject>
+        <courseNumber>261</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>SOCI</subject>
+        <courseNumber>261</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>POLS</subject>
+        <courseNumber>261</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <effectiveSemester>20111</effectiveSemester>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">Core course for minors in conflict and conflict resolution</div>
     </notes>
@@ -639,6 +665,7 @@
     </campuses>
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
+      <deliveryMethod>Web</deliveryMethod>
     </deliveryMethods>
     <termsOffered>
       <term>Fall</term>

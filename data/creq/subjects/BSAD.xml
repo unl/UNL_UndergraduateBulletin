@@ -47,10 +47,15 @@
         <subject>BSAD</subject>
         <courseNumber>150</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>BSAD</subject>
+        <courseNumber>150</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
     </courseCodes>
     <gradingType>pass/no pass only</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <effectiveSemester>20111</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Pass/No Pass only.</div>
     </prerequisite>
@@ -65,6 +70,7 @@
     </campuses>
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
+      <deliveryMethod>Web</deliveryMethod>
     </deliveryMethods>
     <termsOffered>
       <term>Fall</term>

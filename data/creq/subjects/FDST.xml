@@ -85,10 +85,25 @@
         <subject>NUTR</subject>
         <courseNumber>131</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>FDST</subject>
+        <courseNumber>131</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>NUTR</subject>
+        <courseNumber>131</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>CHEM</subject>
+        <courseNumber>131</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20103</effectiveSemester>
+    <effectiveSemester>20111</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">General scientific concepts in biology, chemistry, and physics using food as a model. What food is from both chemical and nutritional perspectives, and the fate of food from when it leaves the farm to when it becomes a part of the individual. Assists students in making intelligent decisions about many food related controversial issues (e.g., food irradiation, food additives, health foods).</div>
     </description>
@@ -97,6 +112,7 @@
     </campuses>
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
+      <deliveryMethod>Web</deliveryMethod>
     </deliveryMethods>
     <termsOffered>
       <term>Fall</term>

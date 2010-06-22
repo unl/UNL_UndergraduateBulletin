@@ -543,7 +543,7 @@
       <courseCode type="crosslisting">
         <subject>HIST</subject>
         <courseNumber>201</courseNumber>
-        <courseLetter>x</courseLetter>
+        <courseLetter>X</courseLetter>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
@@ -620,7 +620,7 @@
       <courseCode type="crosslisting">
         <subject>HIST</subject>
         <courseNumber>202</courseNumber>
-        <courseLetter>x</courseLetter>
+        <courseLetter>X</courseLetter>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
@@ -946,7 +946,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <effectiveSemester>20111</effectiveSemester>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">Pre-1800 content.</div>
     </notes>
@@ -958,7 +958,6 @@
     </campuses>
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
-      <deliveryMethod>Correspondence</deliveryMethod>
     </deliveryMethods>
     <termsOffered>
       <term>Fall</term>
@@ -3712,10 +3711,15 @@
         <courseNumber>360</courseNumber>
         <courseGroup>United States or Canadian History</courseGroup>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>HIST</subject>
+        <courseNumber>360</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <effectiveSemester>20111</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Sophomore standing.</div>
     </prerequisite>
@@ -3727,6 +3731,7 @@
     </campuses>
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
+      <deliveryMethod>Web</deliveryMethod>
     </deliveryMethods>
     <termsOffered>
       <term>Fall</term>

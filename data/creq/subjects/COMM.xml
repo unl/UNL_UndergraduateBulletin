@@ -7,10 +7,15 @@
         <subject>COMM</subject>
         <courseNumber>109</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>COMM</subject>
+        <courseNumber>109</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20092</effectiveSemester>
+    <effectiveSemester>20111</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Freshman-sophomore level; juniors and seniors by permission only.</div>
     </prerequisite>
@@ -22,6 +27,7 @@
     </campuses>
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
+      <deliveryMethod>Web</deliveryMethod>
     </deliveryMethods>
     <termsOffered>
       <term>Fall</term>
@@ -587,10 +593,15 @@
         <subject>COMM</subject>
         <courseNumber>286</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>COMM</subject>
+        <courseNumber>286</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>20101</effectiveSemester>
+    <effectiveSemester>20111</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Sophomore standing.</div>
     </prerequisite>
@@ -602,6 +613,7 @@
     </campuses>
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
+      <deliveryMethod>Web</deliveryMethod>
     </deliveryMethods>
     <termsOffered>
       <term>Fall</term>

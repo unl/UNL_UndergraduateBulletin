@@ -80,10 +80,20 @@
         <subject>ENTO</subject>
         <courseNumber>115</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>ENTO</subject>
+        <courseNumber>115</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>BIOS</subject>
+        <courseNumber>115</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20091</effectiveSemester>
+    <effectiveSemester>20111</effectiveSemester>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">ENTO/BIOS 116 may be taken as an optional 1 cr hour lab.</div>
     </notes>
@@ -95,6 +105,7 @@
     </campuses>
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
+      <deliveryMethod>Web</deliveryMethod>
     </deliveryMethods>
     <termsOffered>
       <term>Fall</term>

@@ -960,10 +960,15 @@
         <subject>ASCI</subject>
         <courseNumber>321</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>ASCI</subject>
+        <courseNumber>321</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <effectiveSemester>20111</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">ASCI 320 or equivalent.</div>
     </prerequisite>
@@ -975,6 +980,7 @@
     </campuses>
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
+      <deliveryMethod>Web</deliveryMethod>
     </deliveryMethods>
     <termsOffered>
       <term>Spring</term>

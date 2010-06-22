@@ -178,10 +178,20 @@
         <subject>ENTR</subject>
         <courseNumber>821</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>ENTR</subject>
+        <courseNumber>421</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>MNGT</subject>
+        <courseNumber>421</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20091</effectiveSemester>
+    <effectiveSemester>20111</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Junior standing.</div>
     </prerequisite>
@@ -235,10 +245,20 @@
         <subject>ENTR</subject>
         <courseNumber>822</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>ENTR</subject>
+        <courseNumber>422</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>MNGT</subject>
+        <courseNumber>422</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20082</effectiveSemester>
+    <effectiveSemester>20111</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Senior standing; ACCT 201/201H and 202, or 306; FINA 361; MNGT 331 and 360/360H; MRKT 341/341H.</div>
     </prerequisite>
@@ -253,6 +273,7 @@
     </campuses>
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
+      <deliveryMethod>Web</deliveryMethod>
     </deliveryMethods>
     <termsOffered>
       <term>Fall</term>

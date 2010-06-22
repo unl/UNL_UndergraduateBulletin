@@ -7,6 +7,11 @@
         <subject>ACCT</subject>
         <courseNumber>201</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>ACCT</subject>
+        <courseNumber>201</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
     </courseCodes>
   </course>
   <course>
@@ -25,6 +30,11 @@
       <courseCode type="home listing">
         <subject>ACCT</subject>
         <courseNumber>202</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>ACCT</subject>
+        <courseNumber>202</courseNumber>
+        <courseLetter>X</courseLetter>
       </courseCode>
     </courseCodes>
   </course>
@@ -2237,6 +2247,11 @@
         <subject>AHIS</subject>
         <courseNumber>101</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>AHIS</subject>
+        <courseNumber>101</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
     </courseCodes>
     <aceOutcomes>
       <slo>7</slo>
@@ -2952,6 +2967,11 @@
         <subject>ALEC</subject>
         <courseNumber>202</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>ALEC</subject>
+        <courseNumber>202</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
     </courseCodes>
   </course>
   <course>
@@ -3447,6 +3467,11 @@
         <subject>ANTH</subject>
         <courseNumber>110</courseNumber>
         <courseGroup>Additional Anthropology Courses</courseGroup>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>ANTH</subject>
+        <courseNumber>110</courseNumber>
+        <courseLetter>X</courseLetter>
       </courseCode>
     </courseCodes>
     <aceOutcomes>
@@ -5526,24 +5551,54 @@
         <courseNumber>143</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
+        <subject>ARTP</subject>
+        <courseNumber>143</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
         <subject>ARCH</subject>
         <courseNumber>143</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>ARCH</subject>
+        <courseNumber>143</courseNumber>
+        <courseLetter>X</courseLetter>
       </courseCode>
       <courseCode type="crosslisting">
         <subject>IDES</subject>
         <courseNumber>143</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
+        <subject>IDES</subject>
+        <courseNumber>143</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
         <subject>LARC</subject>
         <courseNumber>143</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>LARC</subject>
+        <courseNumber>143</courseNumber>
+        <courseLetter>X</courseLetter>
       </courseCode>
       <courseCode type="crosslisting">
         <subject>JGEN</subject>
         <courseNumber>143</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
+        <subject>JGEN</subject>
+        <courseNumber>143</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
         <subject>TXCD</subject>
         <courseNumber>143</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>TXCD</subject>
+        <courseNumber>143</courseNumber>
+        <courseLetter>X</courseLetter>
       </courseCode>
     </courseCodes>
     <aceOutcomes>
@@ -5992,6 +6047,11 @@
         <subject>ASCI</subject>
         <courseNumber>321</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>ASCI</subject>
+        <courseNumber>321</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
     </courseCodes>
   </course>
   <course>
@@ -6367,6 +6427,11 @@
       <courseCode type="home listing">
         <subject>ASTR</subject>
         <courseNumber>103</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>ASTR</subject>
+        <courseNumber>103</courseNumber>
+        <courseLetter>X</courseLetter>
       </courseCode>
     </courseCodes>
     <aceOutcomes>
@@ -6999,6 +7064,11 @@
         <subject>BIOS</subject>
         <courseNumber>102</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>BIOS</subject>
+        <courseNumber>102</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
     </courseCodes>
     <aceOutcomes>
       <slo>4</slo>
@@ -7174,6 +7244,11 @@
       <courseCode type="home listing">
         <subject>BIOS</subject>
         <courseNumber>214</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>BIOS</subject>
+        <courseNumber>214</courseNumber>
+        <courseLetter>X</courseLetter>
       </courseCode>
     </courseCodes>
   </course>
@@ -7927,6 +8002,11 @@
         <subject>BLAW</subject>
         <courseNumber>372</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>BLAW</subject>
+        <courseNumber>372</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
     </courseCodes>
   </course>
   <course>
@@ -8207,6 +8287,11 @@
       <courseCode type="home listing">
         <subject>BSAD</subject>
         <courseNumber>150</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>BSAD</subject>
+        <courseNumber>150</courseNumber>
+        <courseLetter>X</courseLetter>
       </courseCode>
     </courseCodes>
   </course>
@@ -10772,7 +10857,7 @@
       <courseCode type="crosslisting">
         <subject>CLAS</subject>
         <courseNumber>116</courseNumber>
-        <courseLetter>x</courseLetter>
+        <courseLetter>X</courseLetter>
       </courseCode>
     </courseCodes>
   </course>
@@ -11535,6 +11620,11 @@
         <subject>COMM</subject>
         <courseNumber>109</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>COMM</subject>
+        <courseNumber>109</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
     </courseCodes>
     <aceOutcomes>
       <slo>2</slo>
@@ -11712,6 +11802,11 @@
       <courseCode type="home listing">
         <subject>COMM</subject>
         <courseNumber>286</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>COMM</subject>
+        <courseNumber>286</courseNumber>
+        <courseLetter>X</courseLetter>
       </courseCode>
     </courseCodes>
     <aceOutcomes>
@@ -12197,6 +12292,11 @@
         <subject>CRIM</subject>
         <courseNumber>101</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>CRIM</subject>
+        <courseNumber>101</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
     </courseCodes>
     <aceOutcomes>
       <slo>6</slo>
@@ -12209,6 +12309,11 @@
         <subject>CRIM</subject>
         <courseNumber>203</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>CRIM</subject>
+        <courseNumber>203</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
     </courseCodes>
   </course>
   <course>
@@ -12217,6 +12322,11 @@
       <courseCode type="home listing">
         <subject>CRIM</subject>
         <courseNumber>211</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>CRIM</subject>
+        <courseNumber>211</courseNumber>
+        <courseLetter>X</courseLetter>
       </courseCode>
     </courseCodes>
   </course>
@@ -12236,6 +12346,11 @@
         <subject>CRIM</subject>
         <courseNumber>251</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>CRIM</subject>
+        <courseNumber>251</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
     </courseCodes>
   </course>
   <course>
@@ -12244,6 +12359,15 @@
       <courseCode type="home listing">
         <subject>CRIM</subject>
         <courseNumber>300</courseNumber>
+      </courseCode>
+    </courseCodes>
+  </course>
+  <course>
+    <title>Philosophy of Criminal Justice</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CRIM</subject>
+        <courseNumber>301</courseNumber>
       </courseCode>
     </courseCodes>
   </course>
@@ -12271,6 +12395,11 @@
       <courseCode type="home listing">
         <subject>CRIM</subject>
         <courseNumber>337</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>CRIM</subject>
+        <courseNumber>337</courseNumber>
+        <courseLetter>X</courseLetter>
       </courseCode>
     </courseCodes>
   </course>
@@ -12320,6 +12449,15 @@
     </courseCodes>
   </course>
   <course>
+    <title>Criminal Justice Ethics</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CRIM</subject>
+        <courseNumber>406</courseNumber>
+      </courseCode>
+    </courseCodes>
+  </course>
+  <course>
     <title>Sociology of Deviant Behavior</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -12334,15 +12472,6 @@
       <courseCode type="home listing">
         <subject>CRIM</subject>
         <courseNumber>421</courseNumber>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
-    <title>Correctional Law</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>CRIM</subject>
-        <courseNumber>431</courseNumber>
       </courseCode>
     </courseCodes>
   </course>
@@ -12362,6 +12491,29 @@
         <subject>CRIM</subject>
         <courseNumber>450</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>CRIM</subject>
+        <courseNumber>450</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
+    </courseCodes>
+  </course>
+  <course>
+    <title>Gangs and Gang Control</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CRIM</subject>
+        <courseNumber>455</courseNumber>
+      </courseCode>
+    </courseCodes>
+  </course>
+  <course>
+    <title>Comparative Criminal Justice Systems: England</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CRIM</subject>
+        <courseNumber>471</courseNumber>
+      </courseCode>
     </courseCodes>
   </course>
   <course>
@@ -12370,6 +12522,11 @@
       <courseCode type="home listing">
         <subject>CRIM</subject>
         <courseNumber>475</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>CRIM</subject>
+        <courseNumber>475</courseNumber>
+        <courseLetter>X</courseLetter>
       </courseCode>
     </courseCodes>
   </course>
@@ -12608,6 +12765,11 @@
         <subject>CSCE</subject>
         <courseNumber>101</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>CSCE</subject>
+        <courseNumber>101</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
     </courseCodes>
     <aceOutcomes>
       <slo>3</slo>
@@ -12742,6 +12904,11 @@
       <courseCode type="home listing">
         <subject>CSCE</subject>
         <courseNumber>190</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>CSCE</subject>
+        <courseNumber>190</courseNumber>
+        <courseLetter>X</courseLetter>
       </courseCode>
     </courseCodes>
   </course>
@@ -13559,7 +13726,7 @@
       <courseCode type="crosslisting">
         <subject>CYAF</subject>
         <courseNumber>160</courseNumber>
-        <courseLetter>x</courseLetter>
+        <courseLetter>X</courseLetter>
       </courseCode>
     </courseCodes>
     <aceOutcomes>
@@ -14486,6 +14653,11 @@
         <courseNumber>211</courseNumber>
         <courseGroup>General Economics and Theory</courseGroup>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>ECON</subject>
+        <courseNumber>211</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
     </courseCodes>
     <aceOutcomes>
       <slo>6</slo>
@@ -14500,6 +14672,11 @@
         <courseNumber>212</courseNumber>
         <courseGroup>General Economics and Theory</courseGroup>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>ECON</subject>
+        <courseNumber>212</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
     </courseCodes>
     <aceOutcomes>
       <slo>6</slo>
@@ -14513,6 +14690,11 @@
         <subject>ECON</subject>
         <courseNumber>215</courseNumber>
         <courseGroup>Quantitative Economics</courseGroup>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>ECON</subject>
+        <courseNumber>215</courseNumber>
+        <courseLetter>X</courseLetter>
       </courseCode>
     </courseCodes>
     <aceOutcomes>
@@ -14556,6 +14738,11 @@
         <subject>ECON</subject>
         <courseNumber>321</courseNumber>
         <courseGroup>International Trade and Finance</courseGroup>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>ECON</subject>
+        <courseNumber>321</courseNumber>
+        <courseLetter>X</courseLetter>
       </courseCode>
     </courseCodes>
     <aceOutcomes>
@@ -15286,7 +15473,7 @@
       <courseCode type="crosslisting">
         <subject>EDPS</subject>
         <courseNumber>362</courseNumber>
-        <courseLetter>x</courseLetter>
+        <courseLetter>X</courseLetter>
       </courseCode>
     </courseCodes>
     <aceOutcomes>
@@ -16187,6 +16374,11 @@
         <subject>ENGL</subject>
         <courseNumber>151</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>ENGL</subject>
+        <courseNumber>151</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
     </courseCodes>
     <aceOutcomes>
       <slo>1</slo>
@@ -16336,7 +16528,7 @@
       <courseCode type="crosslisting">
         <subject>ENGL</subject>
         <courseNumber>205</courseNumber>
-        <courseLetter>x</courseLetter>
+        <courseLetter>X</courseLetter>
       </courseCode>
     </courseCodes>
     <aceOutcomes>
@@ -16889,7 +17081,7 @@
       <courseCode type="home listing">
         <subject>ENGL</subject>
         <courseNumber>258</courseNumber>
-        <courseLetter>x</courseLetter>
+        <courseLetter>X</courseLetter>
       </courseCode>
     </courseCodes>
   </course>
@@ -17107,9 +17299,19 @@
         <courseLetter>B</courseLetter>
       </courseCode>
       <courseCode type="crosslisting">
+        <subject>ENGL</subject>
+        <courseNumber>315</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
         <subject>WMNS</subject>
         <courseNumber>315</courseNumber>
         <courseLetter>B</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>WMNS</subject>
+        <courseNumber>315</courseNumber>
+        <courseLetter>X</courseLetter>
       </courseCode>
     </courseCodes>
     <aceOutcomes>
@@ -18706,9 +18908,19 @@
         <subject>BIOS</subject>
         <courseNumber>115</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>BIOS</subject>
+        <courseNumber>115</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
       <courseCode type="home listing">
         <subject>ENTO</subject>
         <courseNumber>115</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>ENTO</subject>
+        <courseNumber>115</courseNumber>
+        <courseLetter>X</courseLetter>
       </courseCode>
     </courseCodes>
     <aceOutcomes>
@@ -19169,11 +19381,21 @@
       </courseCode>
       <courseCode type="crosslisting">
         <subject>MNGT</subject>
+        <courseNumber>421</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>MNGT</subject>
         <courseNumber>821</courseNumber>
       </courseCode>
       <courseCode type="home listing">
         <subject>ENTR</subject>
         <courseNumber>421</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>ENTR</subject>
+        <courseNumber>421</courseNumber>
+        <courseLetter>X</courseLetter>
       </courseCode>
       <courseCode type="grad tie-in">
         <subject>ENTR</subject>
@@ -19193,11 +19415,21 @@
       </courseCode>
       <courseCode type="crosslisting">
         <subject>MNGT</subject>
+        <courseNumber>422</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>MNGT</subject>
         <courseNumber>822</courseNumber>
       </courseCode>
       <courseCode type="home listing">
         <subject>ENTR</subject>
         <courseNumber>422</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>ENTR</subject>
+        <courseNumber>422</courseNumber>
+        <courseLetter>X</courseLetter>
       </courseCode>
       <courseCode type="grad tie-in">
         <subject>ENTR</subject>
@@ -19568,13 +19800,28 @@
         <subject>CHEM</subject>
         <courseNumber>131</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>CHEM</subject>
+        <courseNumber>131</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
       <courseCode type="home listing">
         <subject>FDST</subject>
         <courseNumber>131</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
+        <subject>FDST</subject>
+        <courseNumber>131</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
         <subject>NUTR</subject>
         <courseNumber>131</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>NUTR</subject>
+        <courseNumber>131</courseNumber>
+        <courseLetter>X</courseLetter>
       </courseCode>
     </courseCodes>
     <aceOutcomes>
@@ -19960,6 +20207,11 @@
         <subject>FINA</subject>
         <courseNumber>260</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>FINA</subject>
+        <courseNumber>260</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
     </courseCodes>
     <aceOutcomes>
       <slo>6</slo>
@@ -19971,6 +20223,11 @@
       <courseCode type="home listing">
         <subject>FINA</subject>
         <courseNumber>307</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>FINA</subject>
+        <courseNumber>307</courseNumber>
+        <courseLetter>X</courseLetter>
       </courseCode>
     </courseCodes>
   </course>
@@ -19989,6 +20246,11 @@
       <courseCode type="home listing">
         <subject>FINA</subject>
         <courseNumber>361</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>FINA</subject>
+        <courseNumber>361</courseNumber>
+        <courseLetter>X</courseLetter>
       </courseCode>
     </courseCodes>
   </course>
@@ -20009,6 +20271,11 @@
         <subject>FINA</subject>
         <courseNumber>363</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>FINA</subject>
+        <courseNumber>363</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
     </courseCodes>
   </course>
   <course>
@@ -20026,6 +20293,11 @@
       <courseCode type="home listing">
         <subject>FINA</subject>
         <courseNumber>382</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>FINA</subject>
+        <courseNumber>382</courseNumber>
+        <courseLetter>X</courseLetter>
       </courseCode>
     </courseCodes>
   </course>
@@ -21222,7 +21494,7 @@
       <courseCode type="crosslisting">
         <subject>GEOG</subject>
         <courseNumber>120</courseNumber>
-        <courseLetter>x</courseLetter>
+        <courseLetter>X</courseLetter>
       </courseCode>
     </courseCodes>
   </course>
@@ -21237,7 +21509,7 @@
       <courseCode type="crosslisting">
         <subject>GEOG</subject>
         <courseNumber>140</courseNumber>
-        <courseLetter>x</courseLetter>
+        <courseLetter>X</courseLetter>
       </courseCode>
     </courseCodes>
     <aceOutcomes>
@@ -21251,6 +21523,11 @@
         <subject>GEOG</subject>
         <courseNumber>155</courseNumber>
         <courseGroup>Physical Geography</courseGroup>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>GEOG</subject>
+        <courseNumber>155</courseNumber>
+        <courseLetter>X</courseLetter>
       </courseCode>
     </courseCodes>
     <aceOutcomes>
@@ -21302,7 +21579,7 @@
       <courseCode type="crosslisting">
         <subject>GEOG</subject>
         <courseNumber>271</courseNumber>
-        <courseLetter>x</courseLetter>
+        <courseLetter>X</courseLetter>
       </courseCode>
     </courseCodes>
   </course>
@@ -21313,6 +21590,11 @@
         <subject>GEOG</subject>
         <courseNumber>272</courseNumber>
         <courseGroup>Regional Geography</courseGroup>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>GEOG</subject>
+        <courseNumber>272</courseNumber>
+        <courseLetter>X</courseLetter>
       </courseCode>
     </courseCodes>
     <aceOutcomes>
@@ -21414,7 +21696,7 @@
       <courseCode type="crosslisting">
         <subject>GEOG</subject>
         <courseNumber>375</courseNumber>
-        <courseLetter>x</courseLetter>
+        <courseLetter>X</courseLetter>
       </courseCode>
     </courseCodes>
   </course>
@@ -21425,6 +21707,11 @@
         <subject>GEOG</subject>
         <courseNumber>378</courseNumber>
         <courseGroup>Regional Geography</courseGroup>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>GEOG</subject>
+        <courseNumber>378</courseNumber>
+        <courseLetter>X</courseLetter>
       </courseCode>
     </courseCodes>
   </course>
@@ -21883,6 +22170,11 @@
         <subject>GEOL</subject>
         <courseNumber>109</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>GEOL</subject>
+        <courseNumber>109</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
     </courseCodes>
     <aceOutcomes>
       <slo>4</slo>
@@ -22079,7 +22371,7 @@
       <courseCode type="grad tie-in">
         <subject>GEOL</subject>
         <courseNumber>818</courseNumber>
-        <courseLetter>l</courseLetter>
+        <courseLetter>L</courseLetter>
       </courseCode>
       <courseCode type="crosslisting">
         <subject>NRES</subject>
@@ -22089,7 +22381,7 @@
       <courseCode type="grad tie-in">
         <subject>NRES</subject>
         <courseNumber>819</courseNumber>
-        <courseLetter>l</courseLetter>
+        <courseLetter>L</courseLetter>
       </courseCode>
       <courseCode type="crosslisting">
         <subject>WATS</subject>
@@ -23100,6 +23392,19 @@
     </courseCodes>
   </course>
   <course>
+    <title>Baby Boomers and 21st century</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>GERO</subject>
+        <courseNumber>472</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>GERO</subject>
+        <courseNumber>8726</courseNumber>
+      </courseCode>
+    </courseCodes>
+  </course>
+  <course>
     <title>Mid-life Career Change and Pre-Retirement</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -23779,7 +24084,7 @@
       <courseCode type="crosslisting">
         <subject>HIST</subject>
         <courseNumber>201</courseNumber>
-        <courseLetter>x</courseLetter>
+        <courseLetter>X</courseLetter>
       </courseCode>
     </courseCodes>
     <aceOutcomes>
@@ -23811,7 +24116,7 @@
       <courseCode type="crosslisting">
         <subject>HIST</subject>
         <courseNumber>202</courseNumber>
-        <courseLetter>x</courseLetter>
+        <courseLetter>X</courseLetter>
       </courseCode>
     </courseCodes>
     <aceOutcomes>
@@ -24807,6 +25112,11 @@
         <subject>HIST</subject>
         <courseNumber>360</courseNumber>
         <courseGroup>United States or Canadian History</courseGroup>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>HIST</subject>
+        <courseNumber>360</courseNumber>
+        <courseLetter>X</courseLetter>
       </courseCode>
     </courseCodes>
   </course>
@@ -26865,6 +27175,11 @@
         <subject>IMSE</subject>
         <courseNumber>206</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>IMSE</subject>
+        <courseNumber>206</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
     </courseCodes>
   </course>
   <course>
@@ -26918,6 +27233,11 @@
       <courseCode type="home listing">
         <subject>IMSE</subject>
         <courseNumber>321</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>IMSE</subject>
+        <courseNumber>321</courseNumber>
+        <courseLetter>X</courseLetter>
       </courseCode>
     </courseCodes>
   </course>
@@ -28302,7 +28622,7 @@
       <courseCode type="crosslisting">
         <subject>MATH</subject>
         <courseNumber>100</courseNumber>
-        <courseLetter>x</courseLetter>
+        <courseLetter>X</courseLetter>
       </courseCode>
     </courseCodes>
   </course>
@@ -28317,7 +28637,7 @@
       <courseCode type="crosslisting">
         <subject>MATH</subject>
         <courseNumber>101</courseNumber>
-        <courseLetter>x</courseLetter>
+        <courseLetter>X</courseLetter>
       </courseCode>
     </courseCodes>
   </course>
@@ -28332,7 +28652,7 @@
       <courseCode type="crosslisting">
         <subject>MATH</subject>
         <courseNumber>102</courseNumber>
-        <courseLetter>x</courseLetter>
+        <courseLetter>X</courseLetter>
       </courseCode>
     </courseCodes>
   </course>
@@ -28353,6 +28673,11 @@
         <subject>MATH</subject>
         <courseNumber>104</courseNumber>
         <courseGroup>Introductory Mathematics Courses</courseGroup>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>MATH</subject>
+        <courseNumber>104</courseNumber>
+        <courseLetter>X</courseLetter>
       </courseCode>
     </courseCodes>
     <aceOutcomes>
@@ -28397,7 +28722,7 @@
       <courseCode type="crosslisting">
         <subject>MATH</subject>
         <courseNumber>107</courseNumber>
-        <courseLetter>x</courseLetter>
+        <courseLetter>X</courseLetter>
       </courseCode>
     </courseCodes>
     <aceOutcomes>
@@ -28519,7 +28844,7 @@
       <courseCode type="crosslisting">
         <subject>MATH</subject>
         <courseNumber>208</courseNumber>
-        <courseLetter>x</courseLetter>
+        <courseLetter>X</courseLetter>
       </courseCode>
     </courseCodes>
     <aceOutcomes>
@@ -30017,9 +30342,19 @@
         <subject>MNGT</subject>
         <courseNumber>350</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>MNGT</subject>
+        <courseNumber>350</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
       <courseCode type="home listing">
         <subject>MIST</subject>
         <courseNumber>350</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>MIST</subject>
+        <courseNumber>350</courseNumber>
+        <courseLetter>X</courseLetter>
       </courseCode>
     </courseCodes>
   </course>
@@ -30379,6 +30714,11 @@
         <subject>MNGT</subject>
         <courseNumber>331</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>MNGT</subject>
+        <courseNumber>331</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
     </courseCodes>
   </course>
   <course>
@@ -30388,13 +30728,15 @@
         <subject>MNGT</subject>
         <courseNumber>360</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>MNGT</subject>
+        <courseNumber>360</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
     </courseCodes>
     <aceOutcomes>
       <slo>6</slo>
     </aceOutcomes>
-    <gradNotes>
-      <div xmlns="http://www.w3.org/1999/xhtml">MNGT 360 is 'Letter grade only'.</div>
-    </gradNotes>
   </course>
   <course>
     <title>Honors: Managing Behavior in Organizations</title>
@@ -30465,6 +30807,11 @@
       <courseCode type="home listing">
         <subject>MNGT</subject>
         <courseNumber>428</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>MNGT</subject>
+        <courseNumber>428</courseNumber>
+        <courseLetter>X</courseLetter>
       </courseCode>
       <courseCode type="grad tie-in">
         <subject>MNGT</subject>
@@ -30688,6 +31035,11 @@
       <courseCode type="home listing">
         <subject>MNGT</subject>
         <courseNumber>475</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>MNGT</subject>
+        <courseNumber>475</courseNumber>
+        <courseLetter>X</courseLetter>
       </courseCode>
       <courseCode type="grad tie-in">
         <subject>MNGT</subject>
@@ -33857,6 +34209,11 @@
         <subject>NRES</subject>
         <courseNumber>108</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>NRES</subject>
+        <courseNumber>108</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
     </courseCodes>
     <aceOutcomes>
       <slo>4</slo>
@@ -34741,187 +35098,6 @@
     </courseCodes>
   </course>
   <course>
-    <title/>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>NURS</subject>
-        <courseNumber>26</courseNumber>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
-    <title>Professional Nursing </title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>NURS</subject>
-        <courseNumber>262</courseNumber>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
-    <title>Health Assessment and Promotion </title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>NURS</subject>
-        <courseNumber>268</courseNumber>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
-    <title>Essentials of Nursing Care </title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>NURS</subject>
-        <courseNumber>280</courseNumber>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
-    <title>Family-Centered Nursing Care of Adults I     </title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>NURS</subject>
-        <courseNumber>320</courseNumber>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
-    <title>Pathophysiologic Basis of Alterations in Health </title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>NURS</subject>
-        <courseNumber>325</courseNumber>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
-    <title>Family-Centered Maternity Nursing</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>NURS</subject>
-        <courseNumber>340</courseNumber>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
-    <title>Family-Centered Nursing Care of Children    </title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>NURS</subject>
-        <courseNumber>350</courseNumber>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
-    <title>Evidence-based Nursing Practice and Research</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>NURS</subject>
-        <courseNumber>386</courseNumber>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
-    <title>Client-Centered Psychiatric Mental Health Nursing </title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>NURS</subject>
-        <courseNumber>410</courseNumber>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
-    <title>Community Health Nursing</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>NURS</subject>
-        <courseNumber>420</courseNumber>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
-    <title>Concepts, Issues, and Nursing Care Related to Chronic Health Conditions </title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>NURS</subject>
-        <courseNumber>425</courseNumber>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
-    <title>Health Policy and Issues</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>NURS</subject>
-        <courseNumber>435</courseNumber>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
-    <title>Independent Study </title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>NURS</subject>
-        <courseNumber>438</courseNumber>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
-    <title>Honors: Independent Study </title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>NURS</subject>
-        <courseNumber>438</courseNumber>
-        <courseLetter>H</courseLetter>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
-    <title>Senior Clinical Nursing Externship </title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>NURS</subject>
-        <courseNumber>444</courseNumber>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
-    <title>Family-Centered Nursing Care of Clients with Acute Complex Problems</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>NURS</subject>
-        <courseNumber>450</courseNumber>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
-    <title>Gerontological Nursing</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>NURS</subject>
-        <courseNumber>460</courseNumber>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
-    <title>Nursing Management Strategies</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>NURS</subject>
-        <courseNumber>470</courseNumber>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
-    <title>Transition to Professional Nursing</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>NURS</subject>
-        <courseNumber>480</courseNumber>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
     <title>Nutrition, Exercise and Health</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -34999,6 +35175,11 @@
       <courseCode type="home listing">
         <subject>NUTR</subject>
         <courseNumber>250</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>NUTR</subject>
+        <courseNumber>250</courseNumber>
+        <courseLetter>X</courseLetter>
       </courseCode>
     </courseCodes>
   </course>
@@ -36582,7 +36763,7 @@
       <courseCode type="crosslisting">
         <subject>PHYS</subject>
         <courseNumber>142</courseNumber>
-        <courseLetter>x</courseLetter>
+        <courseLetter>X</courseLetter>
       </courseCode>
     </courseCodes>
     <aceOutcomes>
@@ -36608,6 +36789,11 @@
       <courseCode type="home listing">
         <subject>PHYS</subject>
         <courseNumber>151</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>PHYS</subject>
+        <courseNumber>151</courseNumber>
+        <courseLetter>X</courseLetter>
       </courseCode>
     </courseCodes>
     <aceOutcomes>
@@ -36652,7 +36838,7 @@
       <courseCode type="crosslisting">
         <subject>PHYS</subject>
         <courseNumber>211</courseNumber>
-        <courseLetter>x</courseLetter>
+        <courseLetter>X</courseLetter>
       </courseCode>
     </courseCodes>
     <aceOutcomes>
@@ -36682,7 +36868,7 @@
       <courseCode type="crosslisting">
         <subject>PHYS</subject>
         <courseNumber>212</courseNumber>
-        <courseLetter>x</courseLetter>
+        <courseLetter>X</courseLetter>
       </courseCode>
     </courseCodes>
     <aceOutcomes>
@@ -37208,7 +37394,7 @@
       <courseCode type="crosslisting">
         <subject>POLS</subject>
         <courseNumber>100</courseNumber>
-        <courseLetter>x</courseLetter>
+        <courseLetter>X</courseLetter>
       </courseCode>
     </courseCodes>
     <aceOutcomes>
@@ -37224,6 +37410,11 @@
         <courseNumber>104</courseNumber>
         <courseGroup>Foreign and Comparative Government</courseGroup>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>POLS</subject>
+        <courseNumber>104</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
     </courseCodes>
   </course>
   <course>
@@ -37234,6 +37425,11 @@
         <courseNumber>108</courseNumber>
         <courseGroup>Political Theory</courseGroup>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>POLS</subject>
+        <courseNumber>108</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
     </courseCodes>
   </course>
   <course>
@@ -37243,6 +37439,11 @@
         <subject>POLS</subject>
         <courseNumber>160</courseNumber>
         <courseGroup>International Relations</courseGroup>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>POLS</subject>
+        <courseNumber>160</courseNumber>
+        <courseLetter>X</courseLetter>
       </courseCode>
     </courseCodes>
     <aceOutcomes>
@@ -37284,7 +37485,7 @@
       <courseCode type="crosslisting">
         <subject>POLS</subject>
         <courseNumber>210</courseNumber>
-        <courseLetter>x</courseLetter>
+        <courseLetter>X</courseLetter>
       </courseCode>
     </courseCodes>
   </course>
@@ -37327,7 +37528,7 @@
       <courseCode type="crosslisting">
         <subject>PHYS</subject>
         <courseNumber>230</courseNumber>
-        <courseLetter>x</courseLetter>
+        <courseLetter>X</courseLetter>
       </courseCode>
       <courseCode type="home listing">
         <subject>POLS</subject>
@@ -37367,6 +37568,11 @@
         <courseNumber>235</courseNumber>
         <courseGroup>Public Administration and Policy</courseGroup>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>POLS</subject>
+        <courseNumber>235</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
     </courseCodes>
   </course>
   <course>
@@ -37376,6 +37582,11 @@
         <subject>POLS</subject>
         <courseNumber>236</courseNumber>
         <courseGroup>Public Administration and Policy</courseGroup>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>POLS</subject>
+        <courseNumber>236</courseNumber>
+        <courseLetter>X</courseLetter>
       </courseCode>
     </courseCodes>
   </course>
@@ -37429,18 +37640,38 @@
         <courseNumber>261</courseNumber>
         <courseGroup>Integrative Courses, Research and Reading</courseGroup>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>ANTH</subject>
+        <courseNumber>261</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
       <courseCode type="home listing">
         <subject>POLS</subject>
         <courseNumber>261</courseNumber>
         <courseGroup>International Relations</courseGroup>
       </courseCode>
       <courseCode type="crosslisting">
+        <subject>POLS</subject>
+        <courseNumber>261</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
         <subject>PSYC</subject>
+        <courseNumber>261</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>PSYC</subject>
+        <courseNumber>261</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>SOCI</subject>
         <courseNumber>261</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
         <subject>SOCI</subject>
         <courseNumber>261</courseNumber>
+        <courseLetter>X</courseLetter>
       </courseCode>
     </courseCodes>
   </course>
@@ -37620,6 +37851,11 @@
         <courseNumber>361</courseNumber>
         <courseGroup>International Relations</courseGroup>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>POLS</subject>
+        <courseNumber>361</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
     </courseCodes>
   </course>
   <course>
@@ -37648,6 +37884,11 @@
       <courseCode type="home listing">
         <subject>POLS</subject>
         <courseNumber>365</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>POLS</subject>
+        <courseNumber>365</courseNumber>
+        <courseLetter>X</courseLetter>
       </courseCode>
     </courseCodes>
   </course>
@@ -37974,6 +38215,11 @@
         <courseNumber>463</courseNumber>
         <courseGroup>Foreign and Comparative Government</courseGroup>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>POLS</subject>
+        <courseNumber>463</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
       <courseCode type="grad tie-in">
         <subject>POLS</subject>
         <courseNumber>863</courseNumber>
@@ -38238,6 +38484,11 @@
         <subject>POLS</subject>
         <courseNumber>479</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>POLS</subject>
+        <courseNumber>479</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
     </courseCodes>
   </course>
   <course>
@@ -38392,6 +38643,11 @@
         <subject>PSYC</subject>
         <courseNumber>233</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>PSYC</subject>
+        <courseNumber>233</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
     </courseCodes>
     <aceOutcomes>
       <slo>6</slo>
@@ -38522,6 +38778,11 @@
         <subject>PSYC</subject>
         <courseNumber>350</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>PSYC</subject>
+        <courseNumber>350</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
     </courseCodes>
     <aceOutcomes>
       <slo>10</slo>
@@ -38543,9 +38804,19 @@
         <subject>BIOS</subject>
         <courseNumber>373</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>BIOS</subject>
+        <courseNumber>373</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
       <courseCode type="home listing">
         <subject>PSYC</subject>
         <courseNumber>373</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>PSYC</subject>
+        <courseNumber>373</courseNumber>
+        <courseLetter>X</courseLetter>
       </courseCode>
     </courseCodes>
     <aceOutcomes>
@@ -38558,6 +38829,11 @@
       <courseCode type="home listing">
         <subject>PSYC</subject>
         <courseNumber>380</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>PSYC</subject>
+        <courseNumber>380</courseNumber>
+        <courseLetter>X</courseLetter>
       </courseCode>
     </courseCodes>
   </course>
@@ -38949,6 +39225,11 @@
       <courseCode type="home listing">
         <subject>PSYC</subject>
         <courseNumber>498</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>PSYC</subject>
+        <courseNumber>498</courseNumber>
+        <courseLetter>X</courseLetter>
       </courseCode>
     </courseCodes>
   </course>
@@ -40099,6 +40380,11 @@
         <subject>SOCI</subject>
         <courseNumber>101</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>SOCI</subject>
+        <courseNumber>101</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
     </courseCodes>
     <aceOutcomes>
       <slo>6</slo>
@@ -40151,6 +40437,11 @@
         <subject>SOCI</subject>
         <courseNumber>200</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>SOCI</subject>
+        <courseNumber>200</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
     </courseCodes>
     <aceOutcomes>
       <slo>9</slo>
@@ -40196,6 +40487,11 @@
       <courseCode type="home listing">
         <subject>SOCI</subject>
         <courseNumber>209</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>SOCI</subject>
+        <courseNumber>209</courseNumber>
+        <courseLetter>X</courseLetter>
       </courseCode>
     </courseCodes>
     <aceOutcomes>
@@ -40248,6 +40544,11 @@
         <subject>SOCI</subject>
         <courseNumber>225</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>SOCI</subject>
+        <courseNumber>225</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
     </courseCodes>
     <aceOutcomes>
       <slo>6</slo>
@@ -40290,6 +40591,11 @@
         <subject>SOCI</subject>
         <courseNumber>311</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>SOCI</subject>
+        <courseNumber>311</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
     </courseCodes>
   </course>
   <course>
@@ -40298,6 +40604,11 @@
       <courseCode type="home listing">
         <subject>SOCI</subject>
         <courseNumber>320</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>SOCI</subject>
+        <courseNumber>320</courseNumber>
+        <courseLetter>X</courseLetter>
       </courseCode>
     </courseCodes>
   </course>
@@ -40789,7 +41100,7 @@
     </courseCodes>
   </course>
   <course>
-    <title>Human Behavior and the Social Environment II </title>
+    <title>Human Behavior and the Social Environment II</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>SOCW</subject>
@@ -40807,7 +41118,7 @@
     </courseCodes>
   </course>
   <course>
-    <title>Policy I: Analysis of Social Welfare Policy</title>
+    <title>Social Work Practice I</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>SOCW</subject>
@@ -40816,7 +41127,7 @@
     </courseCodes>
   </course>
   <course>
-    <title>Social Work Practice II </title>
+    <title>Social Work Practice II</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>SOCW</subject>
@@ -40829,12 +41140,12 @@
     <courseCodes>
       <courseCode type="home listing">
         <subject>SOCW</subject>
-        <courseNumber>398</courseNumber>
+        <courseNumber>389</courseNumber>
       </courseCode>
     </courseCodes>
   </course>
   <course>
-    <title>Social Work with American Indians </title>
+    <title>Social Work with American Indians</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>SOCW</subject>
@@ -40843,7 +41154,7 @@
     </courseCodes>
   </course>
   <course>
-    <title>Social Work with the African American Family </title>
+    <title>Social Work with African American Families</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>SOCW</subject>
@@ -40852,7 +41163,7 @@
     </courseCodes>
   </course>
   <course>
-    <title>Social Work with Hispanics </title>
+    <title>Social Work with Hispanics</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>SOCW</subject>
@@ -40865,7 +41176,7 @@
     </courseCodes>
   </course>
   <course>
-    <title>SInstitutional Oppression</title>
+    <title>Policy II: Racism and Discrimination</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>SOCW</subject>
@@ -40874,7 +41185,7 @@
     </courseCodes>
   </course>
   <course>
-    <title>Social Work Practice III </title>
+    <title>Social Work Practice III</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>SOCW</subject>
@@ -40883,7 +41194,7 @@
     </courseCodes>
   </course>
   <course>
-    <title>Research Methods in Social Work </title>
+    <title>Research Methods in Social Work Practice</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>SOCW</subject>
@@ -40892,7 +41203,7 @@
     </courseCodes>
   </course>
   <course>
-    <title>Generic Social Work Practicum I </title>
+    <title>Generalist Social Work Practicum I</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>SOCW</subject>
@@ -40901,7 +41212,7 @@
     </courseCodes>
   </course>
   <course>
-    <title>Generic Social Work Practicum II </title>
+    <title>Generic Social Work Practicum II</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>SOCW</subject>
@@ -40910,7 +41221,7 @@
     </courseCodes>
   </course>
   <course>
-    <title>Senior Social Work Seminar </title>
+    <title>Senior Social Work Seminar</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>SOCW</subject>
@@ -40919,7 +41230,7 @@
     </courseCodes>
   </course>
   <course>
-    <title>Social Work in Child Welfare </title>
+    <title>Social Work in Child Welfare</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>SOCW</subject>
@@ -40928,7 +41239,7 @@
     </courseCodes>
   </course>
   <course>
-    <title>Social Work in Mental Health and Mental Retardation</title>
+    <title>Social Work in Mental Health and Intellectual Disabilities</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>SOCW</subject>
@@ -40937,7 +41248,7 @@
     </courseCodes>
   </course>
   <course>
-    <title>Social Work and the Law </title>
+    <title>Social Work and the Law</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>SOCW</subject>
@@ -40946,7 +41257,7 @@
     </courseCodes>
   </course>
   <course>
-    <title>Spirituality and Social Work Practice </title>
+    <title>Spirituality and Social Work Practice</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>SOCW</subject>
@@ -40955,7 +41266,7 @@
     </courseCodes>
   </course>
   <course>
-    <title/>
+    <title>Women’s Issues and Sexism</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>SOCW</subject>
@@ -40973,7 +41284,7 @@
     </courseCodes>
   </course>
   <course>
-    <title>Special Studies in Social Work </title>
+    <title>Special Studies in Social Work</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>SOCW</subject>
@@ -41063,7 +41374,7 @@
       <courseCode type="crosslisting">
         <subject>SPAN</subject>
         <courseNumber>201</courseNumber>
-        <courseLetter>x</courseLetter>
+        <courseLetter>X</courseLetter>
       </courseCode>
     </courseCodes>
   </course>
@@ -41087,7 +41398,7 @@
       <courseCode type="crosslisting">
         <subject>SPAN</subject>
         <courseNumber>202</courseNumber>
-        <courseLetter>x</courseLetter>
+        <courseLetter>X</courseLetter>
       </courseCode>
     </courseCodes>
   </course>
@@ -44062,6 +44373,11 @@
         <subject>TXCD</subject>
         <courseNumber>123</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>TXCD</subject>
+        <courseNumber>123</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
     </courseCodes>
     <aceOutcomes>
       <slo>9</slo>
@@ -44797,6 +45113,11 @@
       <courseCode type="home listing">
         <subject>WMNS</subject>
         <courseNumber>101</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>WMNS</subject>
+        <courseNumber>101</courseNumber>
+        <courseLetter>X</courseLetter>
       </courseCode>
     </courseCodes>
     <aceOutcomes>
