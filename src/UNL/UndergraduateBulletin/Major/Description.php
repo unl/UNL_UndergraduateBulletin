@@ -14,6 +14,7 @@ class UNL_UndergraduateBulletin_Major_Description
         'LGBTQ Sexuality Studies Minor'                 => 'Lesbian, Gay, Bisexual, Transgender, Queer/Sexuality Studies (Minor only)',
         'Marketing_Cooperative Education (7-12)'        => 'Marketing/Cooperative Education (7-12)',
         'Mild_Moderate Disabilities (7-12)'             => 'Mild/Moderate Disabilities (7-12)',
+        'Modern Languages-French German & Russian Minor (ENGR)' => 'Modern Languages-French, German & Russian Minor (ENGR)',
         'PreHealth_PreLaw & Combined Degree Prog'       => 'Pre-Health, Pre-Law and Combined Degree Programs',
         'Public Policy Analysis_Program Eval Cert'      => 'Public Policy Analysis & Program Evaluation Certification',
         'Textiles_Clothing & Design & Jour & Mass Comm' => 'Textiles, Clothing & Design (CEHS)',
