@@ -79,6 +79,7 @@ class UNL_UndergraduateBulletin_EPUB_Utilities
             case 'OEFL': // TOEFL
             case 'SAT':
             case 'CBA':
+            case 'DMIN': // PUB ADMIN (UNO courses)
             case 'UNL':
             case 'OURS': // HOURS
             case 'OTAL': // TOTAL
