@@ -18,7 +18,8 @@ College and major information is stored in the data directory and contains epub
 exports from Adobe InDesign. Judy Anderson maintains the content for these 
 files, and is repsonsible for updating them and re-exporting the epub files.
 
-Once a new epub file is generated, simply drop it in the respective directory.
+Once a new epub file is generated, simply drop it in the respective directory,
+then run php scripts/epub_to_xhtml.php to convert the epub files to xhtml.
 
 *** CACHED OUTPUT ***
 All output is cached within /tmp/unlcache_5174748813ed8803e7651fae9d2d077f_*
