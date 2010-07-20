@@ -58,7 +58,7 @@ class UNL_UndergraduateBulletin_CourseSearch_DBSearcher extends UNL_Services_Cou
     
     function subjectAreaQuery($subject)
     {
-        return "SELECT courses.xml FROM courses, crosslistings WHERE crosslistings.course_id = courses.id AND crosslistings.subjectArea = '".$subject."'";
+        return "SELECT DISTINCT courses.id, courses.xml FROM courses, crosslistings WHERE crosslistings.course_id = courses.id AND crosslistings.subjectArea = '".$subject."'";
     }
     
     function subjectAndNumberQuery($subject, $number, $letter = null)
