@@ -43,12 +43,12 @@ class UNL_UndergraduateBulletin_CourseSearch_DBSearcher extends UNL_Services_Cou
     
     function numberPrefixQuery($number)
     {
-        return "SELECT courses.xml FROM courses, crosslistings WHERE crosslistings.course_id = courses.id AND crosslistings.courseNumber LIKE '$number%';";
+        return "SELECT DISTINCT courses.id, courses.xml FROM courses, crosslistings WHERE crosslistings.course_id = courses.id AND crosslistings.courseNumber LIKE '$number%';";
     }
     
     function honorsQuery()
     {
-        return 'SELECT courses.xml FROM courses, crosslistings WHERE crosslistings.course_id = courses.id AND crosslistings.courseNumber LIKE "%H";';
+        return 'SELECT DISTINCT courses.id, courses.xml FROM courses, crosslistings WHERE crosslistings.course_id = courses.id AND crosslistings.courseNumber LIKE "%H";';
     }
 
     function titleQuery($title)
@@ -74,7 +74,7 @@ class UNL_UndergraduateBulletin_CourseSearch_DBSearcher extends UNL_Services_Cou
         if (isset($letter)) {
             $number .= $letter;
         }
-        return "SELECT courses.xml FROM courses, crosslistings WHERE crosslistings.course_id = courses.id AND crosslistings.courseNumber LIKE '$number%';";
+        return "SELECT DISTINCT courses.id, courses.xml FROM courses, crosslistings WHERE crosslistings.course_id = courses.id AND crosslistings.courseNumber LIKE '$number%';";
     }
 
     function getQueryResult($query, $offset = 0, $limit = null)
