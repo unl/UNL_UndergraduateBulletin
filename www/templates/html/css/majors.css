@@ -101,7 +101,8 @@ table.major_quick_points .value {
 a.top {
     float:right;
 }
-
+#maincontent h4.title-1, #maincontent h4.title-2, #maincontent h3#college-degree-requirements, #maincontent h3#bulletin-rule, #maincontent h2#college_requirements {margin-top:1em;}
+#maincontent h5.title-3, #maincontent h5.title-4 {margin-top:.8em;}
 #maincontent p + p.header-paragraph {
     margin-top:1em;
 }
