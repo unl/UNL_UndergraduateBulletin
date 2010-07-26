@@ -21,7 +21,7 @@ foreach ($file as $line) {
     }
     $codes = array_unique($codes);
     sort($codes);
-    $majors[$array[0]] = $codes;
+    $majors[trim($array[0])] = $codes;
 }
 
 file_put_contents(UNL_UndergraduateBulletin_Controller::getDataDir().'/major_to_subject_code.php.ser', serialize($majors));
