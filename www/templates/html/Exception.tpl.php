@@ -1,11 +1,8 @@
 <?php
-switch($context->getCode()) {
-    case 404:
-        header('HTTP/1.0 404 Not Found');
-        break;
-    case 500:
-        header('HTTP/1.0 500 Internal Server Error');
-        break;
+if (false == headers_sent()
+    && $code = $context->getCode()) {
+    header('HTTP/1.1 '.$code.' '.$context->getMessage());
+    header('Status: '.$code.' '.$context->getMessage());
 }
 ?>
 
