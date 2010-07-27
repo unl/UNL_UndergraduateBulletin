@@ -70,7 +70,7 @@ class UNL_UndergraduateBulletin_Router
             case preg_match('/'.$base.'$/', $requestURI, $matches):
                 break;
             default:
-                throw new Exception('Unknown route: '.$requestURI);
+                throw new Exception('Unknown route: '.$requestURI, 404);
                 break;
         }
         return $options;

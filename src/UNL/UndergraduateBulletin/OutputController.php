@@ -53,14 +53,21 @@ class UNL_UndergraduateBulletin_OutputController extends Savvy
             } else {
                 // Content should be cached, but none could be found.
                 //flush();
+                
                 ob_start();
                 $object->preRun(false);
-                $object->run();
-                
-                $data = parent::renderObject($object, $template);
-                
-                if ($key !== false) {
-                    self::getCacheInterface()->save($data, $key);
+                try {
+                    $object->run();
+                    
+                    $data = parent::renderObject($object, $template);
+                    
+                    if ($key !== false) {
+                        self::getCacheInterface()->save($data, $key);
+                    }
+                    
+                } catch (Exception $e) {
+                    ob_end_clean();
+                    return parent::renderObject($e);
                 }
                 ob_end_clean();
             }

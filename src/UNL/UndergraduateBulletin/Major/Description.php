@@ -54,11 +54,11 @@ class UNL_UndergraduateBulletin_Major_Description
         $file = self::getFileByName($title);
         
         if (!file_exists($file)) {
-            throw new Exception('The file '.$file.' for '.$title.' does not exist.');
+            throw new Exception('The file '.$file.' for '.$title.' does not exist.', 404);
         }
         
         if (!$xhtml = file_get_contents($file)) {
-            throw new Exception('Could not open ' . $file);
+            throw new Exception('Could not open ' . $file, 404);
         }
         $simplexml = simplexml_load_string($xhtml);
         
@@ -161,7 +161,7 @@ class UNL_UndergraduateBulletin_Major_Description
         $xhtml = UNL_UndergraduateBulletin_Controller::getDataDir().'/majors/'.$name.'.xhtml';
 
         if (!file_exists($xhtml)) {
-            throw new Exception('Sorry, no description exists for '.$name. ' in '.$xhtml);
+            throw new Exception('Sorry, no description exists for '.$name, 404);
         }
 
         return $xhtml;

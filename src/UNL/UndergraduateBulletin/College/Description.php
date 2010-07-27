@@ -30,7 +30,7 @@ class UNL_UndergraduateBulletin_College_Description
         $this->college = $college;
 
         if (!isset(self::$files[$college->name])) {
-            throw new Exception('No description for the "'.$college->name.'" college.');
+            throw new Exception('No description for the "'.$college->name.'" college.', 404);
         }
         $file = UNL_UndergraduateBulletin_Controller::getDataDir().'/colleges/'.self::$files[$college->name];
 
