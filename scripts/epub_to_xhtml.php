@@ -2,9 +2,6 @@
 
 require dirname(__FILE__).'/../config.sample.php';
 
-//$epub_map = array();
-
-
 foreach (new GlobIterator(UNL_UndergraduateBulletin_Controller::getDataDir().'/*/*.epub') as $file) {
     writeXHTMLFile($file);
 }
@@ -19,8 +16,8 @@ function writeXHTMLFile($file) {
         if ('xhtml' == pathinfo($epub_file, PATHINFO_EXTENSION)) {
             // Write the .xhtml file alongside the epub with the same filename
             echo $file->getFilename().PHP_EOL;
-            file_put_contents(str_replace('.epub', '.xhtml', $file->getPathname()),
-                              file_get_contents($epub_file->getPathname()));
+            $new_filename = str_replace('.epub', '.xhtml', $file->getPathname());
+            file_put_contents($new_filename, str_replace("\r", "\n", file_get_contents($epub_file->getPathname())));
 
             // Remove the epub
             unlink($file->getPathname());
@@ -29,4 +26,9 @@ function writeXHTMLFile($file) {
     }
 }
 
+function convertLineEndings($file) {
+    $contents = file_get_contents($file);
+    $contents = str_replace("\r", "\n", $contents);
+    file_put_contents($file, $contents);
+}
 
