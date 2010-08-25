@@ -21,7 +21,7 @@
             <li><a href="college/Division+of+General+Studies">Division of General Studies</a></li>
             <li><a href="college/Libraries">Libraries</a></li>
             <li><a href="college/Public+Affairs+%26+Community+Service">Public Affairs &amp; Community Service</a></li>
-            <li><a href="college/Reserve+Officers%27+Training+Corps+%28ROTC%29">Reserve Officers' Training Corps (ROTC)</a></li>
+            <li><a href="college/Reserve+Officers+Training+Corps+%28ROTC%29">Reserve Officers Training Corps (ROTC)</a></li>
         </ul>
     </div>
     <div class="col left">

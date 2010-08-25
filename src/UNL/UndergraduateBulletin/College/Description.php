@@ -20,7 +20,7 @@ class UNL_UndergraduateBulletin_College_Description
         'Libraries'                                 => 'LIBR College page.xhtml',
         'Office of Undergraduate Studies'           => 'Office of Undergrad Studies.xhtml',
         'Public Affairs & Community Service'        => 'CPACS College page.xhtml',
-        'Reserve Officers\' Training Corps (ROTC)'  => 'ROTC College page.xhtml',
+        'Reserve Officers Training Corps (ROTC)'    => 'ROTC College page.xhtml',
     );
     
     protected $_xml;
