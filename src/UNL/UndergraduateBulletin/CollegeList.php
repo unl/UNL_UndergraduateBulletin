@@ -16,7 +16,7 @@ class UNL_UndergraduateBulletin_CollegeList extends FilterIterator
         'LIB'   => 'Libraries',
         'OUS'   => 'Office of Undergraduate Studies',
         'PACS'  => 'Public Affairs & Community Service',
-        'ROTC'  => 'Reserve Officers\' Training Corps (ROTC)',
+        'ROTC'  => 'Reserve Officers Training Corps (ROTC)',
     );
 
     function __construct($options = array())
