@@ -48,7 +48,7 @@ class UNL_UndergraduateBulletin_EPUB_Utilities
     public static function addCourseLinks($text)
     {
         
-        $text = preg_replace_callback('/([A-Z]{3,4})(((,?\s+)|(,? or )|(\/)|(,? and ))([0-9]{3,4}[A-Z]?))+/', array('UNL_UndergraduateBulletin_EPUB_Utilities', 'linkCourse'), $text);
+        $text = preg_replace_callback('/([A-Z]{3,4})(((,?\s+)|(,? or )|(\/)|(,? and ))([0-9]{2,4}[A-Z]?))+/', array('UNL_UndergraduateBulletin_EPUB_Utilities', 'linkCourse'), $text);
 
         return $text;
     }
@@ -87,7 +87,7 @@ class UNL_UndergraduateBulletin_EPUB_Utilities
                 return $matches[0];
         }
 
-        $matches[0] = preg_replace('/([0-9]{2,3}[A-Z]?)/', '<a class="course" href="'.UNL_UndergraduateBulletin_Controller::getURL().'courses/'.$matches[1].'/$1">$0</a>', $matches[0]);
+        $matches[0] = preg_replace('/0?([0-9]{2,4}[A-Z]?)/', '<a class="course" href="'.UNL_UndergraduateBulletin_Controller::getURL().'courses/'.$matches[1].'/$1">$0</a>', $matches[0]);
         $matches[0] = preg_replace('/([A-Z]{3,4})\s+(\<a[^>]+\>)/', '$2$1 ', $matches[0]);
 
         return $matches[0];
