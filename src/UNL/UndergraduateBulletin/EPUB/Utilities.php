@@ -12,6 +12,7 @@ class UNL_UndergraduateBulletin_EPUB_Utilities
     
     public static function linkURLs($html)
     {
+        $html = preg_replace('/\s(www\.unl\.edu.*)/', ' http://$1', $html);
         return preg_replace_callback('/(http:\/\/[^<^\s]+)/', array('UNL_UndergraduateBulletin_EPUB_Utilities', 'linkHref'), $html);
     }
     
