@@ -128,15 +128,7 @@ class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_
         $params = array();
          
         $url = self::$url;
-        
-        if (is_object($mixed)) {
-            switch (get_class($mixed)) {
-            
-            default:
-                    
-            }
-        }
-        
+
         $params = array_merge($params, $additional_params);
         
         $url .= '?';
