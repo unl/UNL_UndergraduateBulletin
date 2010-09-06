@@ -74,10 +74,19 @@ class UNL_UndergraduateBulletin_College_Description
             }
         }
     }
-    
+
     function __isset($var)
     {
-        switch ($var) {
+        $nodes = $this->getContentSection($var);
+        if (!$nodes) {
+            return $nodes;
+        }
+        return (bool)count($nodes);
+    }
+
+    protected function getContentSection($section)
+    {
+        switch ($section) {
             case 'admissionRequirements':
                 $section_title = 'ADMISSION';
                 break;
@@ -98,34 +107,15 @@ class UNL_UndergraduateBulletin_College_Description
         }
         // first find the content box headings for the major page
         $nodes = $this->_xml->xpath('//default:p[@class="content-box-m-p" and contains(.,"'.$section_title.'")]');
-        
-        return (bool)count($nodes);
+
+        return $nodes;
     }
-    
+
     function __get($var)
     {
-        switch ($var) {
-            case 'admissionRequirements':
-                $section_title = 'ADMISSION';
-                break;
-            case 'bulletinRule':
-                $section_title = 'BULLETIN TO USE';
-                break;
-            case 'other':
-                $section_title = 'OTHER';
-                break;
-            case 'degreeRequirements':
-                $section_title = 'COLLEGE DEGREE REQUIREMENTS';
-                break;
-            case 'aceRequirements':
-                $section_title = 'ACE REQUIREMENTS';
-                break;
-            default:
-                throw new Exception('unknown variable!');
-        }
 
         // first find the content box headings for the major page
-        $nodes = $this->_xml->xpath('//default:p[@class="content-box-m-p" and contains(.,"'.$section_title.'")]');
+        $nodes = $this->getContentSection($var);
 
         if (!count($nodes)) {
             throw new Exception('No college section '.$var.' found for '.$this->college->name);
