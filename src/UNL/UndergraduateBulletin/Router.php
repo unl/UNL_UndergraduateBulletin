@@ -71,7 +71,6 @@ class UNL_UndergraduateBulletin_Router
                 break;
             default:
                 throw new Exception('Unknown route: '.$requestURI, 404);
-                break;
         }
         return $options;
     }
