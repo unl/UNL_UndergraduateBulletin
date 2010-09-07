@@ -10,6 +10,7 @@ $test->assertTrue(isset($college->description->admissionRequirements), 'admissio
 $test->assertTrue(isset($college->description->other),                 'other info isset');
 $test->assertTrue(isset($college->description->degreeRequirements),    'degreeRequirements isset');
 $test->assertTrue(isset($college->description->aceRequirements),       'aceRequirements isset');
+$test->assertTrue(isset($college->description->bulletinRule),       'bulletinRule isset');
 
 $test->assertFalse(isset($college->description->fakeRequirements),     'fakeRequirements isset');
 
