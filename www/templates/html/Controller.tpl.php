@@ -72,6 +72,7 @@ if (UNL_UndergraduateBulletin_OutputController::getCacheInterface() instanceof U
 } else {
     $page->addStylesheet($url. 'templates/html/css/all.css');
 }
+$page->addStyleSheet($url . 'templates/html/css/print.css', 'print');
 
 $page->head .= '
 <script type="text/javascript">var UNL_UGB_URL = "'.$url.'";</script>
