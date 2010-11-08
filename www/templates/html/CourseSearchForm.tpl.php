@@ -16,6 +16,7 @@
             <li>Ace Outcome: <span class="operator">ace 3</span></li>
             <li>Course Number Range: <span class="operator">2XX</span></li>
             <li>All Honors Courses: <span class="operator">honors</span></li>
+            <li>Credit Hours: <span class="operator">2 credits</span></li>
         </ul>
     </div>
 </form>
