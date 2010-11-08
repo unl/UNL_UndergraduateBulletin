@@ -77,6 +77,11 @@ class UNL_UndergraduateBulletin_CourseSearch_DBSearcher extends UNL_Services_Cou
         return "SELECT DISTINCT courses.id, courses.xml FROM courses, crosslistings WHERE crosslistings.course_id = courses.id AND crosslistings.courseNumber LIKE '$number%';";
     }
 
+    function creditQuery($credits)
+    {
+        return "SELECT DISTINCT courses.id, courses.xml FROM courses WHERE courses.credits = {$credits};";
+    }
+
     function getQueryResult($query, $offset = 0, $limit = null)
     {
         return new UNL_UndergraduateBulletin_CourseSearch_DBSearchResults($query, $offset, $limit);

@@ -8,6 +8,11 @@ class UNL_UndergraduateBulletin_CourseSearch_DBSearchResults extends LimitIterat
         $this->sql = $sql;
 
         $stmnt = UNL_UndergraduateBulletin_CourseSearch_DBSearcher::getDB()->query($this->sql);
+
+        if ($stmnt === false) {
+            throw new Exception('Invalid query result from the database', 500);
+        }
+
         parent::__construct(new IteratorIterator($stmnt), $offset, $limit);
     }
     

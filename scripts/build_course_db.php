@@ -30,15 +30,18 @@ subjectArea VARCHAR( 4 ) NOT NULL ,
 courseNumber VARCHAR( 4 ) NOT NULL ,
 title VARCHAR( 255 ) NOT NULL ,
 slo VARCHAR( 20 ) NOT NULL ,
+credits INT UNSIGNED NULL ,
 xml MEDIUMTEXT NOT NULL ,
 PRIMARY KEY ( id )
 );');
 
 $db->exec('CREATE INDEX IF NOT EXISTS main.subjectArea ON courses ( subjectArea );');
 $db->exec('CREATE INDEX IF NOT EXISTS main.courseNumber ON courses ( courseNumber );');
+$db->exec('CREATE INDEX IF NOT EXISTS main.credits ON courses ( credits );');
 
 $db->exec('ALTER TABLE `courses` ADD INDEX ( `subjectArea` )  ');
 $db->exec('ALTER TABLE `courses` ADD INDEX ( `courseNumber` )  ');
+$db->exec('ALTER TABLE `courses` ADD INDEX ( `credits` )  ');
 
 $db->exec('CREATE TABLE IF NOT EXISTS crosslistings (
 course_id INT UNSIGNED NOT NULL ,
@@ -52,7 +55,7 @@ $db->exec('ALTER TABLE `crosslistings` ADD INDEX ( `subjectArea` )  ');
 $db->exec('ALTER TABLE `crosslistings` ADD INDEX ( `courseNumber` )  ');
 
 
-$course_stmt = $db->prepare('INSERT INTO courses (id,subjectArea,courseNumber,title,slo,xml) VALUES (?,?,?,?,?,?);');
+$course_stmt = $db->prepare('INSERT INTO courses (id,subjectArea,courseNumber,title,slo,credits,xml) VALUES (?,?,?,?,?,?,?);');
 $cross_stmt =  $db->prepare('INSERT INTO crosslistings (course_id, subjectArea, courseNumber) VALUES (?,?,?);');
 
 foreach ($courses as $course) {
@@ -74,6 +77,14 @@ foreach ($courses as $course) {
     } else {
         $values[] = '';
     }
+
+    $credits = $course->getCredits();
+    if (isset($credits['Single Value'])) {
+        $values[] = $credits['Single Value'];
+    } else {
+        $values[] = NULL;
+    }
+    
     $values[] = $course->asXML();
     
     $course_stmt->execute($values);
