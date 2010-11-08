@@ -548,12 +548,9 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20103</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ALEC 109.</div>
-    </prerequisite>
+    <effectiveSemester>20111</effectiveSemester>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Basic machine shop practices involving hand tools, precision measuring tools, bench work, layout, engine lathe, milling machine, surface grinders, and pedestal grinders.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Basic machine shop practices involving hand and precision measuring tools, bench work, layout, engine lathe, milling machine, surface and pedestal grinders.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -569,9 +566,11 @@
     <activities>
       <activity>
         <type>lab</type>
+        <hours>4</hours>
       </activity>
       <activity>
         <type>lec</type>
+        <hours>2</hours>
       </activity>
     </activities>
     <credits>
@@ -786,10 +785,13 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>true</dfRemoval>
-    <effectiveSemester>20103</effectiveSemester>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20111</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">ALEC 204.</div>
+    </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Survey of the industrial enterprise. Manufacturing and distribution of goods. Overview of the world of work.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">CNC (Computer Numerical Control) programming for tool making to include milling, computer aided manufacturing and/or drafting and/or design and electrical discharge machines.<br/></div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -804,8 +806,12 @@
     </termsOffered>
     <activities>
       <activity>
+        <type>lab</type>
+        <hours>4</hours>
+      </activity>
+      <activity>
         <type>lec</type>
-        <hours>3</hours>
+        <hours>2</hours>
       </activity>
     </activities>
     <credits>
@@ -1798,17 +1804,17 @@
     <title>Foundations of Career and Technical Education</title>
     <courseCodes>
       <courseCode type="home listing">
-        <subject>TEAC</subject>
-        <courseNumber>424</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
         <subject>ALEC</subject>
         <courseNumber>424</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>ALEC</subject>
+        <courseNumber>824</courseNumber>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20101</effectiveSemester>
+    <effectiveSemester>20111</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Scope and structure of career and technical education within the educational system. Teacher's role and responsibilities in dealing with legislative mandates in the planning, management, and evaluation of a local program.</div>
     </description>
@@ -1823,10 +1829,14 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
-      <credit type="Lower Range Limit">1</credit>
-      <credit type="Upper Range Limit">3</credit>
+      <credit type="Single Value">3</credit>
       <credit type="Per Career Limit">3</credit>
     </credits>
   </course>
@@ -2119,7 +2129,7 @@
       <div xmlns="http://www.w3.org/1999/xhtml">Junior standing; ALEC 302; Agricultural Education major; and permission.</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Capstone course. Agricultural Education majors must take ALEC 495A for Pass/No Pass.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Capstone course. Agricultural Education majors must take ALEC 495A for 'Pass/No Pass'.</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Internship in a selected agribusiness, industry, or agency. Collaboration development of a training program and leadership activities.</div>
@@ -2141,9 +2151,9 @@
       </activity>
     </activities>
     <credits>
-      <credit type="Lower Range Limit">2</credit>
-      <credit type="Upper Range Limit">5</credit>
-      <credit type="Per Career Limit">5</credit>
+      <credit type="Lower Range Limit">3</credit>
+      <credit type="Upper Range Limit">6</credit>
+      <credit type="Per Career Limit">6</credit>
     </credits>
     <aceOutcomes>
       <slo>10</slo>

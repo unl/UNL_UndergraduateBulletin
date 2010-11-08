@@ -190,7 +190,7 @@
     </credits>
   </course>
   <course>
-    <title>Introduction to Communication Studies</title>
+    <title>Communication, Collaboration, and Community: Introduction</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>COMM</subject>
@@ -198,10 +198,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20111</effectiveSemester>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to theories of human communication. Theories that apply to communication across all contexts as well as theories that apply more specifically to communication in interpersonal, small group, organizational, public or instructional settings.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to the field of communication studies. Processes and theories of human communication in interpersonal and/or family, organizational, and rhetorical contexts. Connects principles of communication studies to collaboration processes and community problems. Career opportunities.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -214,7 +214,12 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
@@ -1019,6 +1024,9 @@
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
+    <aceOutcomes>
+      <slo>9</slo>
+    </aceOutcomes>
   </course>
   <course>
     <title>Gender and Communication</title>
@@ -1695,6 +1703,53 @@
       <credit type="Lower Range Limit">1</credit>
       <credit type="Upper Range Limit">6</credit>
       <credit type="Per Semester Limit">6</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Communication, Collaboration, and Community: Capstone</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>COMM</subject>
+        <courseNumber>495</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <span style="font-size: 11pt; font-family: Arial;"> </span>
+        <span style="font-size: 10pt; font-family: ">COMM 200, COMM 201, and Senior Standing. </span>
+        <span style="font-size: 12pt; font-family: "> </span>
+      </div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Letter grade only.  <br/></div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <span style="font-size: 10pt; font-family: ">Examination of essays and completion of a semester project that integrates and applies theories, concepts and processes learned throughout the communication studies major.</span>
+      </div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
     </credits>
   </course>
   <course>

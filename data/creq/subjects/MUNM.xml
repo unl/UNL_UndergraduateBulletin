@@ -854,13 +854,13 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">Open by audition or permission of the Director of Jazz Activities.  Auditions are held the weekend before each term. Performances are held on- and off- campus as approved by the Director of Jazz Activities and the Director of the School of Music.</div>
     </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Jazz instrumental and/or vocal ensembles of standard instrumentation and/or voicing. A. Jazz Ensemble I (1 cr, max 12) B. Jazz Ensemble II (1 cr, max 12) E. Jazz Vocal Ensemble (1 cr, max 12)</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Jazz instrumental and/or vocal ensembles of standard instrumentation and/or voicing. A. UNL Jazz Orchestra (1 cr, max 12) B. UNL Big Band (1 cr, max 12) E. UNL Jazz Vocal Ensemble (1 cr, max 12)</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -871,7 +871,6 @@
     <termsOffered>
       <term>Fall</term>
       <term>Spring</term>
-      <term>Summer</term>
     </termsOffered>
     <activities>
       <activity>
@@ -1176,13 +1175,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20091</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Sophomore standing.</div>
-    </prerequisite>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Survey of the history of rock music including its antecedents in Rhythm &amp; Blues and Country. Two areas: a musical focus on musical characteristics and evolving musical styles, and a consideration of the sociopolitical impact rock music has had on late 20th Century life.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Survey of the history of rock music including its antecedents in Rhythm &amp;amp; Blues and Country. Two areas: a musical focus on musical characteristics and evolving musical styles, and a consideration of the sociopolitical impact rock music has had on late 20th Century life.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -1195,10 +1191,14 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
-      <credit type="Per Semester Limit">3</credit>
     </credits>
     <aceOutcomes>
       <slo>7</slo>
@@ -1433,6 +1433,45 @@
     </credits>
   </course>
   <course>
+    <title>History of Rock and Roll: Classic Artists</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MUNM</subject>
+        <courseNumber>386</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20111</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Sophomore standing.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">An encounter with life and music of the luminaries of rock and roll. The social, ethical, stewardship, civic, and religious themes embedded in the music, as well as an analysis of their landmark albums.   A. Bob Dylan (3 cr)   B. The Beatles (3 cr)   E. Paul Simon (3 cr)   J. Pink Floyd (3 cr)   K. Bruce Springsteen (3 cr)</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+      <credit type="Per Career Limit">15</credit>
+    </credits>
+  </course>
+  <course>
     <title>History of American Jazz</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -1442,11 +1481,8 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20091</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Sophomore standing.</div>
-    </prerequisite>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Survey of the development of American jazz music from the late nineteenth century to the present, with emphasis on Black ethnic origins and the stylistic idioms of individual performers.</div>
     </description>
@@ -1461,10 +1497,14 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
-      <credit type="Per Semester Limit">3</credit>
     </credits>
     <aceOutcomes>
       <slo>7</slo>

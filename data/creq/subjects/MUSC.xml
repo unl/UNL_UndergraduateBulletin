@@ -115,6 +115,50 @@
     </credits>
   </course>
   <course>
+    <title>Honors: Musicianship I Laboratory</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MUSC</subject>
+        <courseNumber>164</courseNumber>
+        <courseLetter>H</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Good standing in the University Honors Program or permission as informed by diagnostic testing.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">MUSC 164H is letter grade only.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <span style="font-size: 10pt; font-family: Arial;">Intensive drill in skills (ear training, sight singing, and keyboard) to accompany written concepts. </span>
+      </div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lab</type>
+        <hours>2</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">1</credit>
+    </credits>
+  </course>
+  <course>
     <title>Musicianship I</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -195,17 +239,17 @@
         <courseGroup>Core Curriculum (MUSC)</courseGroup>
       </courseCode>
     </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Good standing in the University Honors Program or by permission.</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Parallel: MUSC 131.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Parallel: MUSC 131. MUSC 165H is letter grade only.<br/></div>
     </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Fundamentals of music (notation, rhythm and meter, pitch, harmony) and intensive drill in skills (ear training, sight singing, and keyboard) to accompany written concepts. The application of fundamentals to listening, performing, and thinking about music, in seminars conducted by School of Music faculty.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Fundamentals of music (notation, rhythm and meter, pitch, harmony) and their application to listening, performing, and thinking about music.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -218,10 +262,14 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
-      <credit type="Single Value">3</credit>
-      <credit type="Per Semester Limit">3</credit>
+      <credit type="Single Value">2</credit>
     </credits>
   </course>
   <course>
@@ -919,11 +967,8 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20102</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">For BM and BME degrees: MUSC 266, 266A, and MUAP 232. For BA degree (with a music major): MUSC 132, 266 and 266A. For BA degree (with a business emphasis): MUSC 132, 265 and 265A.</div>
-    </prerequisite>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">Open to music majors only.</div>
     </notes>
@@ -941,10 +986,14 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
-      <credit type="Per Career Limit">3</credit>
     </credits>
     <aceOutcomes>
       <slo>7</slo>

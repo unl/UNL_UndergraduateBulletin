@@ -704,6 +704,60 @@
     </credits>
   </course>
   <course>
+    <title>Agribusiness Entrepreneurship</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>HORT</subject>
+        <courseNumber>288</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>AGRO</subject>
+        <courseNumber>288</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>EAEP</subject>
+        <courseNumber>288</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>ENTR</subject>
+        <courseNumber>288</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>HORT</subject>
+        <courseNumber>288</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Hort 288 requires completion of a marketing plan specific to agricultural enterprises based on a business idea.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Overview of types of agricultural enterprises.  Basic accounting principles as they relate to agricultural businesses.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+      <deliveryMethod>Web</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>2</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">2</credit>
+    </credits>
+  </course>
+  <course>
     <title>Internship in Agronomy</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -2366,6 +2420,54 @@
     </credits>
   </course>
   <course>
+    <title>Organic Farming and Food Systems</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>AGRO</subject>
+        <courseNumber>439</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>HORT</subject>
+        <courseNumber>439</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>AGRO</subject>
+        <courseNumber>839</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>HORT</subject>
+        <courseNumber>839</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">For 439, 12 credits of agricultural or biological science, economics, or natural resources.  For 839, enrolled in M.S. or Ph.D. program.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">History of organic farming and horticultural systems, organic certification, nutrient and pest management in organic systems, planning organic enterprises including production and marketing, resilience of organic systems in ecological, economic, and social terms; future issues and potentials of organic food systems.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Great Plains Ecosystem</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -3420,45 +3522,47 @@
     <title>Water Resources Seminar</title>
     <courseCodes>
       <courseCode type="home listing">
-        <subject>AGRO</subject>
-        <courseNumber>481</courseNumber>
+        <subject>NRES</subject>
+        <courseNumber>484</courseNumber>
       </courseCode>
       <courseCode type="grad tie-in">
         <subject>AGRO</subject>
-        <courseNumber>881</courseNumber>
+        <courseNumber>884</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
         <subject>GEOG</subject>
-        <courseNumber>481</courseNumber>
-        <courseGroup>Physical Geography</courseGroup>
+        <courseNumber>484</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
         <subject>GEOG</subject>
-        <courseNumber>881</courseNumber>
-        <courseGroup>Physical Geography</courseGroup>
+        <courseNumber>884</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
         <subject>GEOL</subject>
-        <courseNumber>415</courseNumber>
+        <courseNumber>484</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
         <subject>GEOL</subject>
-        <courseNumber>815</courseNumber>
+        <courseNumber>884</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>AGRO</subject>
+        <courseNumber>484</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
         <subject>NRES</subject>
-        <courseNumber>415</courseNumber>
+        <courseNumber>884</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
-        <subject>NRES</subject>
-        <courseNumber>815</courseNumber>
+        <subject>WATS</subject>
+        <courseNumber>484</courseNumber>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Junior standing or above or permission.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Junior or above standing, or permission.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Seminar on current water resources research and issues in Nebraska and the region.</div>
@@ -3472,7 +3576,12 @@
     <termsOffered>
       <term>Spring</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>1</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">1</credit>
     </credits>

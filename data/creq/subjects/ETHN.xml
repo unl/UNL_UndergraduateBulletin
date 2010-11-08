@@ -1789,7 +1789,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <effectiveSemester>20111</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">3 hrs ANTH.</div>
     </prerequisite>
@@ -1816,6 +1816,9 @@
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
+    <aceOutcomes>
+      <slo>6</slo>
+    </aceOutcomes>
   </course>
   <course>
     <title>Colonial Mexico</title>
@@ -2221,8 +2224,11 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20082</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20111</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Junior standing.</div>
+    </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Works of writers with connections to one or more American ethnic communities, seen in their historical, intellectual, and cultural context. Survey of ethnic literature.</div>
     </description>
@@ -2270,7 +2276,10 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>20082</effectiveSemester>
+    <effectiveSemester>20111</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Junior standing.</div>
+    </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">African American poetry, fiction, and/or non-fiction prose.</div>
     </description>
@@ -2318,7 +2327,10 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>20082</effectiveSemester>
+    <effectiveSemester>20111</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Junior standing.</div>
+    </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Native American poetry, fiction, and/or non-fiction prose. Critical theory and cultural criticism.</div>
     </description>
@@ -2366,7 +2378,10 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>20082</effectiveSemester>
+    <effectiveSemester>20111</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Junior standing.</div>
+    </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">African and African-American  poetry, fiction, and/or non-fiction prose.</div>
     </description>

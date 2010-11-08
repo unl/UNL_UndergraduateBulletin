@@ -468,10 +468,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20111</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Admission to the Elementary Teacher Education Program; FACS 270 and EDPS 362, or permission.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Admission to the Elementary Teacher Education Program; CYAF 270; EDPS 362.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Recent developments in education of children and their bearing on the selection and guidance of appropriate activities and materials for the kindergarten. Related functions of home, school, and other educational agencies.</div>
@@ -483,13 +483,16 @@
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
     <termsOffered>
-      <term>Fall</term>
       <term>Spring</term>
-      <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
-      <credit type="Single Value">2</credit>
+      <credit type="Single Value">3</credit>
     </credits>
   </course>
   <course>
@@ -1299,42 +1302,6 @@ D. Mathematics Methods for the Primary Student: K to 3rd (3 cr) Prereq: Parallel
     <activities/>
     <credits>
       <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Foundations of Career and Technical Education</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>TEAC</subject>
-        <courseNumber>424</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>ALEC</subject>
-        <courseNumber>424</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20101</effectiveSemester>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Scope and structure of career and technical education within the educational system. Teacher's role and responsibilities in dealing with legislative mandates in the planning, management, and evaluation of a local program.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities/>
-    <credits>
-      <credit type="Lower Range Limit">1</credit>
-      <credit type="Upper Range Limit">3</credit>
-      <credit type="Per Career Limit">3</credit>
     </credits>
   </course>
   <course>

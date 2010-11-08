@@ -1021,27 +1021,45 @@
     </credits>
   </course>
   <course>
-    <title>Horticulture Entrepreneurship</title>
+    <title>Agribusiness Entrepreneurship</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>HORT</subject>
         <courseNumber>288</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>AGRO</subject>
+        <courseNumber>288</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>EAEP</subject>
+        <courseNumber>288</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>ENTR</subject>
+        <courseNumber>288</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>HORT</subject>
+        <courseNumber>288</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20092</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Hort 288 requires completion of a marketing plan specific to the horticulture field based on a business idea.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Hort 288 requires completion of a marketing plan specific to agricultural enterprises based on a business idea.</div>
     </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Various types of horticultural enterprises.  Basic accounting principles as they relate to horticulture.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Overview of types of agricultural enterprises.  Basic accounting principles as they relate to agricultural businesses.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
     </campuses>
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
+      <deliveryMethod>Web</deliveryMethod>
     </deliveryMethods>
     <termsOffered>
       <term>Spring</term>
@@ -2545,6 +2563,54 @@
       <term>Summer</term>
     </termsOffered>
     <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Organic Farming and Food Systems</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>AGRO</subject>
+        <courseNumber>439</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>HORT</subject>
+        <courseNumber>439</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>AGRO</subject>
+        <courseNumber>839</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>HORT</subject>
+        <courseNumber>839</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">For 439, 12 credits of agricultural or biological science, economics, or natural resources.  For 839, enrolled in M.S. or Ph.D. program.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">History of organic farming and horticultural systems, organic certification, nutrient and pest management in organic systems, planning organic enterprises including production and marketing, resilience of organic systems in ecological, economic, and social terms; future issues and potentials of organic food systems.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>

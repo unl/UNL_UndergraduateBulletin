@@ -1054,67 +1054,6 @@
     </credits>
   </course>
   <course>
-    <title>Water Resources Seminar</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>AGRO</subject>
-        <courseNumber>481</courseNumber>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>AGRO</subject>
-        <courseNumber>881</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>GEOG</subject>
-        <courseNumber>481</courseNumber>
-        <courseGroup>Physical Geography</courseGroup>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>GEOG</subject>
-        <courseNumber>881</courseNumber>
-        <courseGroup>Physical Geography</courseGroup>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>GEOL</subject>
-        <courseNumber>415</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>GEOL</subject>
-        <courseNumber>815</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>NRES</subject>
-        <courseNumber>415</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>NRES</subject>
-        <courseNumber>815</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Junior standing or above or permission.</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Seminar on current water resources research and issues in Nebraska and the region.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Spring</term>
-    </termsOffered>
-    <activities/>
-    <credits>
-      <credit type="Single Value">1</credit>
-    </credits>
-  </course>
-  <course>
     <title>Organic Geochemistry</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -1957,6 +1896,60 @@
     </credits>
   </course>
   <course>
+    <title>Geomicrobiology</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>BIOS</subject>
+        <courseNumber>444</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>BIOS</subject>
+        <courseNumber>844</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>GEOL</subject>
+        <courseNumber>444</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>GEOL</subject>
+        <courseNumber>844</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <span style="font-size: 12.0pt; font-family: ">3 hours biological sciences and 3 hours chemistry. </span>
+      </div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <span style="font-family: ">Lectures and discussions of primary literature regarding microorganisms and their role transforming Earth through geologic time.</span>
+      </div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Surficial Processes and Landscape Evolution</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -2458,6 +2451,74 @@
     </activities>
     <credits>
       <credit type="Single Value">2</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Water Resources Seminar</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>NRES</subject>
+        <courseNumber>484</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>AGRO</subject>
+        <courseNumber>884</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>GEOG</subject>
+        <courseNumber>484</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>GEOG</subject>
+        <courseNumber>884</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>GEOL</subject>
+        <courseNumber>484</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>GEOL</subject>
+        <courseNumber>884</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>AGRO</subject>
+        <courseNumber>484</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>NRES</subject>
+        <courseNumber>884</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>WATS</subject>
+        <courseNumber>484</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Junior or above standing, or permission.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Seminar on current water resources research and issues in Nebraska and the region.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>1</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">1</credit>
     </credits>
   </course>
   <course>

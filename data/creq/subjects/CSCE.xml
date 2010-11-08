@@ -97,151 +97,6 @@
     </credits>
   </course>
   <course>
-    <title>Introduction to Problem Solving with Computers</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>CSCE</subject>
-        <courseNumber>150</courseNumber>
-        <courseLetter>A</courseLetter>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>true</dfRemoval>
-    <effectiveSemester>20111</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Four years high school mathematics.</div>
-    </prerequisite>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">
-        <em>CSCE 150A is designed to develop skills in programming and problem solving.</em>
-        <em>CSCE 150A will not count toward the requirements for the major in computer science and computer engineering. </em>
-        <em>
-          <em>Credit towards the degree may be earned in only one of: CSCE 150A or CSCE 150E or CSCE 150M or CSCE 252A.</em>
-        </em>
-      </div>
-    </notes>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Problem solving with a computer and programming fundamentals using a popular high-level language. Logic and functions that apply to computer science; elementary programming constructs, type, and algorithmic techniques.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>lab</type>
-        <hours>1</hours>
-      </activity>
-      <activity>
-        <type>lec</type>
-        <hours>3</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Introduction to Computer Programming for Scientists and Engineers</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>CSCE</subject>
-        <courseNumber>150</courseNumber>
-        <courseLetter>E</courseLetter>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>true</dfRemoval>
-    <effectiveSemester>20083</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">4 years high school mathematics.</div>
-    </prerequisite>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">
-        <em>CSCE 150E is designed for computer applacations in the sciences and engineering. CSCE 150E will not count toward the requirements for the major in computer science and computer engineering.  Credit towards the degree may be earned in only one of:  CSCE 150A or CSCE 150E or CSCE 150M or CSCE 252A.</em>
-      </div>
-    </notes>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to computers and problem-solving with computers for applications in the sciences and engineering.  Problem analysis and specification, algorithms, programming in a high-level language, and data representation and processing.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>lab</type>
-        <hours>1</hours>
-      </activity>
-      <activity>
-        <type>lec</type>
-        <hours>3</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Multimedia Approach to Computing</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>CSCE</subject>
-        <courseNumber>150</courseNumber>
-        <courseLetter>M</courseLetter>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20083</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">4 years high school mathematics.</div>
-    </prerequisite>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">
-        <em>CSCE 150M is designed to develop skills in programming, problem solving, and multimedia applications. </em>
-        <em>CSCE 150M will not count toward the requirements for the major in computer science or the major in computer engineering.  Credit towards the degree may be earned in only one of:  CSCE 150A or CSCE 150E or CSCE 150M or CSCE 252A.</em>
-      </div>
-    </notes>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Computer-based problem solving and programming fundamentals using a popular high-level programming language and the creation and manipulation of media including audio, video, and images.  Algorithms, data structures, control structures, information encoding, and object-oriented programming.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>lec</type>
-        <hours>3</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
     <title>Computer Science I</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -285,6 +140,68 @@
     <aceOutcomes>
       <slo>3</slo>
     </aceOutcomes>
+  </course>
+  <course>
+    <title>Computer Science I: Systems Engineering Focus</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CSCE</subject>
+        <courseNumber>155</courseNumber>
+        <courseLetter>E</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <span style="font-size:12.0pt;font-family:">Appropriate score on the CSE Placement Exam or CSCE 101; MATH 103 or equivalent.</span>
+      </div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <em>
+          <em>
+            <span style="font-style: normal; font-size: 16px; font-family: 'Times New Roman',serif;">
+              <span style="font-size: 10px; font-family: Verdana,Arial,Helvetica,sans-serif;">
+                <em>
+                  <span style="font-size: 11.0pt; font-family: ">Recommended for students interested in systems engineering, such as operating systems, mobile computing, and embedded devices.  Credit may be earned in only one CSCE 155 course.</span>
+                </em>
+              </span>
+            </span>
+          </em>
+        </em>
+      </div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <span style="mso-fareast-language:ZH-TW">Introduction to problem solving with computers. Topics include problem solving methods, software development principles, computer programming, and computing in society.</span>
+      </div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lab</type>
+        <hours>1</hours>
+      </activity>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
   </course>
   <course>
     <title>Honors: Computer Science I</title>
@@ -334,6 +251,114 @@
     <aceOutcomes>
       <slo>3</slo>
     </aceOutcomes>
+  </course>
+  <course>
+    <title>Computer Science I: Engineering and Science Focus</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CSCE</subject>
+        <courseNumber>155</courseNumber>
+        <courseLetter>N</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <span style="font-size: 12.0pt; font-family: ">Appropriate score on the CSE Placement Exam or CSCE101; MATH 103 or equivalent.</span>
+      </div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <em>
+          <span style="mso-fareast-language: ZH-TW;">Recommended for students interested in</span>
+          <span style="font-family: "> </span>
+          <span style="mso-fareast-language: ZH-TW;">numerical and graphical applications in engineering and science, such as applied physics, working with time-sequence data, and matrix applications.</span>
+        </em>
+      </div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to problem solving with computers.  Topics include problem solving methods, software development principles, computer programming, and computing in society.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lab</type>
+        <hours>1</hours>
+      </activity>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Computer Science I: Informatics Focus</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CSCE</subject>
+        <courseNumber>155</courseNumber>
+        <courseLetter>T</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <span style="font-size: 11.0pt; font-family: ">Appropriate score on the CSE Placement Exam or CSCE101; MATH 103 or equivalent.</span>
+      </div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <em>
+          <span style="font-size: 12.0pt; font-family: ">Recommended for students interested in data and information processing, such as library and database applications, online commerce, and bioinformatics.  Credit may be earned in only one CSCE 155 course.</span>
+        </em>
+      </div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <span style="font-size: 11.0pt; font-family: ">Introduction to computers and problem-solving with computers. <span style="mso-spacerun: yes;"> </span>Topics include problem solving methods, software development principles, computer programming, and computing in society.</span>
+      </div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lab</type>
+        <hours>1</hours>
+      </activity>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
   </course>
   <course>
     <title>Computer Science II</title>

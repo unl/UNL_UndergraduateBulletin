@@ -1136,7 +1136,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <effectiveSemester>20103</effectiveSemester>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">BIOS 232 is not open to students who have completed BIOS 22.  BIOS 232 wil not count toward a major in biological sciences.</div>
     </notes>
@@ -1163,6 +1163,9 @@
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
+    <aceOutcomes>
+      <slo>8</slo>
+    </aceOutcomes>
   </course>
   <course>
     <title>The Pre-Health Experience for Biological Sciences Majors</title>
@@ -3448,6 +3451,60 @@
     </deliveryMethods>
     <termsOffered>
       <term>Fall</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Geomicrobiology</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>BIOS</subject>
+        <courseNumber>444</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>BIOS</subject>
+        <courseNumber>844</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>GEOL</subject>
+        <courseNumber>444</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>GEOL</subject>
+        <courseNumber>844</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <span style="font-size: 12.0pt; font-family: ">3 hours biological sciences and 3 hours chemistry. </span>
+      </div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <span style="font-family: ">Lectures and discussions of primary literature regarding microorganisms and their role transforming Earth through geologic time.</span>
+      </div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
     </termsOffered>
     <activities>
       <activity>

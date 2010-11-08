@@ -378,6 +378,47 @@
     </credits>
   </course>
   <course>
+    <title>Seminar: Mildly Handicapped</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>SPED</subject>
+        <courseNumber>403</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>pass/no pass only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20111</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Parallel SPED 497M.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">SPED 403 is 'Pass/No Pass only'.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Concepts, instructional strategies, and attitudes related to the education of exceptional learners. Peer- and instructor-generated topics that are relevant to the student teaching experience.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Code-based Reading Instruction</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -1083,24 +1124,70 @@
     </credits>
   </course>
   <course>
-    <title>Student Teaching: Exceptional Learner</title>
+    <title>Practicum: Mild/Moderate</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>SPED</subject>
         <courseNumber>497</courseNumber>
+        <courseLetter>M</courseLetter>
       </courseCode>
     </courseCodes>
     <gradingType>pass/no pass only</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <effectiveSemester>20111</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Admission by application only.</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Pass/No Pass only.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">SPED 497M is 'Pass/No Pass only'.</div>
+    </notes>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>fld</type>
+        <hours>40</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Lower Range Limit">3</credit>
+      <credit type="Upper Range Limit">12</credit>
+      <credit type="Per Career Limit">12</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Student Teaching:  Inclusion</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>SPED</subject>
+        <courseNumber>497</courseNumber>
+        <courseLetter>Y</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>pass/no pass only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20111</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Admission by application only.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">SPED 497Y is 'Pass/No Pass only'.</div>
     </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">For course description, see TEAC 497. M.	Student Teaching: Mild/Moderate (3-12 cr, max 12) Y.	Student Teaching: Inclusion (1 cr) Z.	Student Teaching: Multicultural (TEAC/NUTR 497Z) (1 cr)</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <span style="line-height: 16px; font-family: 'Lucida Grande',Verdana,Arial; color: #494949; font-size: 12px;">
+          <strong/>
+        </span>
+      </div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -1116,33 +1203,37 @@
     <activities>
       <activity>
         <type>fld</type>
+        <hours>40</hours>
       </activity>
     </activities>
     <credits>
       <credit type="Lower Range Limit">1</credit>
       <credit type="Upper Range Limit">12</credit>
-      <credit type="Per Semester Limit">12</credit>
+      <credit type="Per Career Limit">12</credit>
     </credits>
   </course>
   <course>
-    <title>Seminar: Mildly Handicapped</title>
+    <title>Student Teaching:  Multicultural</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>SPED</subject>
-        <courseNumber>498</courseNumber>
+        <courseNumber>497</courseNumber>
+        <courseLetter>Z</courseLetter>
       </courseCode>
     </courseCodes>
     <gradingType>pass/no pass only</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <effectiveSemester>20111</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Concurrent registration with SPED 497M.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Admission by application only.</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">P/N only.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">SPED 497Z is 'Pass/No Pass only'.</div>
     </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Opportunities to refine knowledge of concepts, instructional strategies, and attitudes related to the education of exceptional learners. Peer- and instructor-generated topics that are relevant to the student teaching experience.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <span style="font-family: 'Lucida Grande', Verdana, Arial; color: #494949; font-size: small;"/>
+      </div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -1155,7 +1246,12 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>fld</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">1</credit>
     </credits>

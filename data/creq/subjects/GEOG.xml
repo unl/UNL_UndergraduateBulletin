@@ -699,7 +699,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <effectiveSemester>20111</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Traces the sequence of the human occupancy of the Great Plains from prehistoric times to the present. Focus on the changing perception and utilization of the Great Plains environment, leading to the emergence of a distinctive contemporary region.</div>
     </description>
@@ -718,6 +718,9 @@
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
+    <aceOutcomes>
+      <slo>5</slo>
+    </aceOutcomes>
   </course>
   <course>
     <title>Urban Geography</title>
@@ -1117,7 +1120,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20102</effectiveSemester>
+    <effectiveSemester>20111</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Junior standing.</div>
     </prerequisite>
@@ -1147,6 +1150,9 @@
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
+    <aceOutcomes>
+      <slo>10</slo>
+    </aceOutcomes>
   </course>
   <course>
     <title>Spatial and Environmental Influences in Social Systems</title>
@@ -1766,6 +1772,65 @@
     </activities>
     <credits>
       <credit type="Single Value">4</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Introduction to the Global Positioning System (GPS)</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>GEOG</subject>
+        <courseNumber>427</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>GEOG</subject>
+        <courseNumber>827</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>NRES</subject>
+        <courseNumber>427</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>NRES</subject>
+        <courseNumber>827</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Junior standing and a basic familiarity with mapping and GIS, or permission.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <span style="font-size: 12pt; font-family: ">Integrated lectures, lab exercises and field experience provide an understanding of GPS technology and applications. Students will learn to collect, correct and use GPS data in a geographic information system (GIS) environment.</span>
+        <span style="font-size: 12pt; font-family: ">
+          <br/>
+          <br/>
+        </span>
+      </div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lab</type>
+        <hours>1</hours>
+      </activity>
+      <activity>
+        <type>lec</type>
+        <hours>1.5</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">2</credit>
     </credits>
   </course>
   <course>
@@ -2467,67 +2532,6 @@
     </credits>
   </course>
   <course>
-    <title>Water Resources Seminar</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>AGRO</subject>
-        <courseNumber>481</courseNumber>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>AGRO</subject>
-        <courseNumber>881</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>GEOG</subject>
-        <courseNumber>481</courseNumber>
-        <courseGroup>Physical Geography</courseGroup>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>GEOG</subject>
-        <courseNumber>881</courseNumber>
-        <courseGroup>Physical Geography</courseGroup>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>GEOL</subject>
-        <courseNumber>415</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>GEOL</subject>
-        <courseNumber>815</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>NRES</subject>
-        <courseNumber>415</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>NRES</subject>
-        <courseNumber>815</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Junior standing or above or permission.</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Seminar on current water resources research and issues in Nebraska and the region.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Spring</term>
-    </termsOffered>
-    <activities/>
-    <credits>
-      <credit type="Single Value">1</credit>
-    </credits>
-  </course>
-  <course>
     <title>Cognitive Processes in Map Comprehension and Use</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -2569,6 +2573,74 @@
     </activities>
     <credits>
       <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Water Resources Seminar</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>NRES</subject>
+        <courseNumber>484</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>AGRO</subject>
+        <courseNumber>884</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>GEOG</subject>
+        <courseNumber>484</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>GEOG</subject>
+        <courseNumber>884</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>GEOL</subject>
+        <courseNumber>484</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>GEOL</subject>
+        <courseNumber>884</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>AGRO</subject>
+        <courseNumber>484</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>NRES</subject>
+        <courseNumber>884</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>WATS</subject>
+        <courseNumber>484</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Junior or above standing, or permission.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Seminar on current water resources research and issues in Nebraska and the region.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>1</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">1</credit>
     </credits>
   </course>
   <course>

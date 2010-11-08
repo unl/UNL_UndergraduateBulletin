@@ -1276,8 +1276,8 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Junior standing or permission.</div>
     </prerequisite>
@@ -1289,11 +1289,17 @@
     </campuses>
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
+      <deliveryMethod>Web</deliveryMethod>
     </deliveryMethods>
     <termsOffered>
       <term>Spring</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
@@ -1538,24 +1544,34 @@
         <subject>ASCI</subject>
         <courseNumber>410</courseNumber>
       </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>ASCI</subject>
+        <courseNumber>810</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ASCI 210 or permission.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">ASCI 210 or equivalent.  Junior standing or permission.<br/></div>
     </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">3 cr II classroom.  3 cr I, II, III web.</div>
+    </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Modern meat processing industry and its use of science and technology. The fabrication, processing, preservation, sanitation, and utilization of manufactured and processed meat. Actual laboratory preparation of processed meats and by-products of the meat packing industry.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Modern meat processing industry and its use of science and technology. The fabrication, processing, preservation, sanitation, food safety, ethnic evolvement, and utilization of manufactured and processed meat. Actual laboratory preparation of processed meats and by-products of the meat packing industry.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
     </campuses>
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
+      <deliveryMethod>Web</deliveryMethod>
     </deliveryMethods>
     <termsOffered>
+      <term>Fall</term>
       <term>Spring</term>
+      <term>Summer</term>
     </termsOffered>
     <activities>
       <activity>
@@ -2377,10 +2393,14 @@
         <subject>ASCI</subject>
         <courseNumber>482</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>AECN</subject>
+        <courseNumber>482</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>letter grade only</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20092</effectiveSemester>
+    <effectiveSemester>20112</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">ASCI 481.</div>
     </prerequisite>
