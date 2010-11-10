@@ -148,16 +148,16 @@
                     <td class="value">'.$groups.'</td>
                    </tr>';
         }
-        echo  '</table>';
+        echo  '</table>'.PHP_EOL;
 
         if (!empty($context->prerequisite)) {
-            echo  "<div class='prereqs'>Prereqs: ".UNL_UndergraduateBulletin_EPUB_Utilities::addCourseLinks($context->getRaw('prerequisite'))."</div>";
+            echo  "<div class='prereqs'>Prereqs: ".UNL_UndergraduateBulletin_EPUB_Utilities::addCourseLinks($context->getRaw('prerequisite'))."</div>\n";
         }
         if (!empty($context->notes)) {
-            echo  "<div class='notes'>".UNL_UndergraduateBulletin_EPUB_Utilities::addCourseLinks($context->getRaw('notes'))."</div>";
+            echo  "<div class='notes'>".UNL_UndergraduateBulletin_EPUB_Utilities::addCourseLinks($context->getRaw('notes'))."</div>\n";
         }
         if (!empty($context->description)) {
-            echo  "<div class='description'>".$context->getRaw('description')."</div>";
+            echo  "<div class='description'>".$context->getRaw('description')."</div>\n";
         }
         
     echo  "</dd>";
