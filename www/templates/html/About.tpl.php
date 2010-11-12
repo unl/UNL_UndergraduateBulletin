@@ -1,12 +1,12 @@
 <h2>Bulletin Navigation Tips (2010-2011 Bulletin)</h2>
 
 <div id="toc_nav">
-        <a href="#toc_nav" id="tocContent">Contents</a>
-        <ol id="toc"><li>Intro</li></ol>
-        <div id="toc_major_name">Bulletin Navigation Tips</div>
-    </div>
-    <div id="toc_bar"></div>
-    <div id="long_content">
+    <a href="#toc_nav" id="tocContent">Contents</a>
+    <ol id="toc"><li>Intro</li></ol>
+    <div id="toc_major_name">Bulletin Navigation Tips</div>
+</div>
+<div id="toc_bar"></div>
+<div id="long_content">
     <h3 class="sec_header">GENERAL NAVIGATION</h3>
     <p>The <em>Undergraduate Bulletin</em> tab on the main NAVIGATION BAR at the top of the page is the bulletin's main or first page.&nbsp; The user should click on this tab whenever they want to return to the bulletin's main page.&nbsp; </p>
     <p>The user can also choose to go to a COLLEGE page, a MAJOR page, the university's ACADEMIC POLICIES page or learn about COURSES from either the NAVIGATION BAR at the top of the page or by selecting the same items from options provided on the main page.&nbsp; </p>
