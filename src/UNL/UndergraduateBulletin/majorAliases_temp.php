@@ -38,7 +38,7 @@ class UNL_UndergraduateBulletin_MajorAliases
     {
         $official_major_names = UNL_UndergraduateBulletin_MajorAliases::getAliases();
         foreach ($official_major_names as $official_name=>$aliases) {
-            foreach ($aliases as $key=>$alias) {
+            foreach ($aliases as $alias) {
                 if ($alias == strtolower($query)) {
                     return $official_name;
                 }
