@@ -36,16 +36,13 @@ class UNL_UndergraduateBulletin_MajorAliases
     
     static function search($query)
     {
-        $aliases = UNL_UndergraduateBulletin_MajorAliases::getAliases();
-        $keys = array_keys($aliases);
-        $i = 0;
-        foreach ($aliases as $sub) {
-            foreach ($sub as $value) {
-                if ($value == strtolower($query)) {
-                    return $keys[$i];
+        $official_major_names = UNL_UndergraduateBulletin_MajorAliases::getAliases();
+        foreach ($official_major_names as $official_name=>$aliases) {
+            foreach ($aliases as $key=>$alias) {
+                if ($alias == strtolower($query)) {
+                    return $official_name;
                 }
             }
-            $i++;
         }
         return false;
     }
