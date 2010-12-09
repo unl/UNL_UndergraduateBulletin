@@ -11,7 +11,15 @@ class UNL_UndergraduateBulletin_MajorSearch extends ArrayIterator
 
         $query = preg_replace_callback('/([a-z])/i', array($this, 'replaceCallback'), $this->options['q']);
         $majors = glob(UNL_UndergraduateBulletin_Controller::getDataDir().'/majors/*'.$query.'*.xhtml');
-        $majors[] = UNL_UndergraduateBulletin_MajorAliases::search($this->options['q']) . ".xhtml";
+
+        $aliases = UNL_UndergraduateBulletin_MajorAliases::search($this->options['q']);
+
+        foreach ($aliases as $key=>$alias) {
+            $aliases[$key] = UNL_UndergraduateBulletin_Controller::getDataDir().'/majors/'.$alias.'.xhtml';
+        }
+
+        $majors = array_merge($majors, $aliases);
+        sort($majors);
         return parent::__construct($majors);
     }
     
