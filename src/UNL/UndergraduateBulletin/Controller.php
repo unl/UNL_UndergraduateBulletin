@@ -8,7 +8,7 @@ class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_
      */
     public static $url = '';
     
-    public static $newest_url = '/undergraduate/';
+    public static $newest_url = 'http://bulletin.unl.edu/undergraduate/';
     
     public $output;
     
@@ -157,7 +157,7 @@ class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_
      */
     static function isArchived()
     {
-        return !(self::$url == self::$newest_url);
+        return !(self::$url == parse_url(self::$newest_url, PHP_URL_PATH));
     }
     
     /**
