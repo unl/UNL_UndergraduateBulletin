@@ -8,7 +8,7 @@ class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_
      */
     public static $url = '';
     
-    public static $newest_url = 'http://bulletin.unl.edu/undergraduate/';
+    public static $newest_url = '/undergraduate/';
     
     public $output;
     
