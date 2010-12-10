@@ -155,12 +155,13 @@
                    </tr>';
         }
         echo  '</table>'.PHP_EOL;
-        //@todo - make this dynamic
-        if($edition = UNL_UndergraduateBulletin_Controller::getEdition()){
-            echo "<span class='archieveWarning'>This is the $edition version of this course. Other versions available: XXXX</span>";
-            foreach(UNL_UndergraduateBulletin_Controller::getAllEditions() as $year=>$url){
-                echo "$year $url";
+        if ($edition = UNL_UndergraduateBulletin_Controller::getEdition()) {
+            echo "<span class='archieveWarning'>This is the $edition version of this course. Other versions available: ";
+            foreach (UNL_UndergraduateBulletin_Controller::getAllEditions() as $year=>$url) {
+                echo '<a title="Go to the '.$year.' edition of this course description" href="'.$url.'">'.$year.'</a> ';
             }
+            echo "</span>";
+            
         }
         if (!empty($context->prerequisite)) {
             echo  "<div class='prereqs'>Prereqs: ".UNL_UndergraduateBulletin_EPUB_Utilities::addCourseLinks($context->getRaw('prerequisite'))."</div>\n";
