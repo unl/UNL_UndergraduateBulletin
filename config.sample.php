@@ -16,6 +16,7 @@ require_once 'UNL/Autoload.php';
 
 // Set this to the web root for the site
 UNL_UndergraduateBulletin_Controller::$url = '/workspace/UNL_UndergraduateBulletin/www/';
+UNL_UndergraduateBulletin_Controller::$newest_url = '/workspace/UNL_UndergraduateBulletin/www/year/';
 
 // Remove this line on production machines so the default UNLCacheLite cache interface is used
 UNL_UndergraduateBulletin_OutputController::setCacheInterface(new UNL_UndergraduateBulletin_CacheInterface_Mock());

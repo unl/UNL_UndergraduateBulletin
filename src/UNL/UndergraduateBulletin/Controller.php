@@ -8,6 +8,8 @@ class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_
      */
     public static $url = '';
     
+    public static $newest_url = '';
+    
     public $output;
     
     public $options = array('view'   => 'index', // The default from the view_map
@@ -145,5 +147,28 @@ class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_
     static function getDataDir()
     {
         return dirname(dirname(dirname(dirname(__FILE__)))).'/data';
+    }
+    
+    /**
+     * Determine if the current url is out of date.
+     * 
+     * @return bool True if out of date, False if newest.
+     */
+    static function isOutOfDate()
+    {
+        return self::$url == self::$newest_url;
+    }
+    
+    /**
+     * Get the request uri for the current selected page and compile a URL to the
+     * Newest URL with the same request uri.
+     * 
+     * @return string. The url to the newest version.
+     */
+    static function getNewestURL()
+    {
+        $request = explode(self::$url, $_SERVER['REQUEST_URI']);
+        $newestURL = self::$newest_url . $request[1];
+        return $newestURL;
     }
 }
