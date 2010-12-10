@@ -8,7 +8,7 @@ class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_
      */
     public static $url = '';
     
-    public static $newest_url = '';
+    public static $newest_url = 'http://bulletin.unl.edu/undergraduate/';
     
     public $output;
     
@@ -154,9 +154,9 @@ class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_
      * 
      * @return bool True if out of date, False if newest.
      */
-    static function isOutOfDate()
+    static function isArchived()
     {
-        return self::$url == self::$newest_url;
+        return !(self::$url == self::$newest_url);
     }
     
     /**
@@ -168,7 +168,11 @@ class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_
     static function getNewestURL()
     {
         $request = explode(self::$url, $_SERVER['REQUEST_URI']);
-        $newestURL = self::$newest_url . $request[1];
+        if (isset($request[1])) {
+            $newestURL = self::$newest_url . $request[1];
+        } else {
+            $newestURL = self::$newest_url;
+        }
         return $newestURL;
     }
 }
