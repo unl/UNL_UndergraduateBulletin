@@ -66,6 +66,9 @@ class UNL_UndergraduateBulletin_Router
             case preg_match('/'.$base.'general\/?$/', $requestURI):
                 $options['view'] = 'general';
                 break;
+            case preg_match('/'.$base.'editions\/?$/', $requestURI):
+                $options['view'] = 'editions';
+                break;
             // Index page
             case preg_match('/'.$base.'$/', $requestURI, $matches):
                 break;
