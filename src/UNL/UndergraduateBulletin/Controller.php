@@ -176,4 +176,22 @@ class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_
         }
         return $newestURL;
     }
+    
+    /**
+     * Gets the version of the bulletin.  Version = year in the url.
+     * 
+     * @return int.. The year of the bulletin.  False if no year.
+     */
+    static function getVersion(){
+        $url = self::$url;
+        $year = substr($url, -5, -1);
+        //check it to make sure its a year.
+        if (preg_match( '/([0-9999])/', $year )) {
+            //if its a year, return it as the version number.
+            return $year;
+        } else {
+            //if its not a year, return it as false.
+            return false;
+        }
+    }
 }
