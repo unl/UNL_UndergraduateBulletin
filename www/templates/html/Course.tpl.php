@@ -149,7 +149,8 @@
                    </tr>';
         }
         echo  '</table>'.PHP_EOL;
-
+        //@todo - make this dynamic
+        echo "<span class='archieveWarning'>You are viewing the XXXX version of this course. Other versions available: XXXX</span>";
         if (!empty($context->prerequisite)) {
             echo  "<div class='prereqs'>Prereqs: ".UNL_UndergraduateBulletin_EPUB_Utilities::addCourseLinks($context->getRaw('prerequisite'))."</div>\n";
         }
