@@ -1,5 +1,11 @@
 <?php
     $url = UNL_UndergraduateBulletin_Controller::getURL();
+    /* example code for isArchvied and getNewestURL();
+    if(UNL_UndergraduateBulletin_Controller::isArchived()){
+        echo "This version may be out of date.  ".UNL_UndergraduateBulletin_Controller::getNewestURL();
+    }
+    */
+    
     $class = 'course';
     if (isset($parent->context->subjectArea)) {
         $subject = $parent->context->subjectArea;
@@ -150,7 +156,12 @@
         }
         echo  '</table>'.PHP_EOL;
         //@todo - make this dynamic
-        echo "<span class='archieveWarning'>This is the XXXX version of this course. Other versions available: XXXX</span>";
+        if($edition = UNL_UndergraduateBulletin_Controller::getEdition()){
+            echo "<span class='archieveWarning'>This is the $edition version of this course. Other versions available: XXXX</span>";
+            foreach(UNL_UndergraduateBulletin_Controller::getAllEditions() as $year=>$url){
+                echo "$year $url";
+            }
+        }
         if (!empty($context->prerequisite)) {
             echo  "<div class='prereqs'>Prereqs: ".UNL_UndergraduateBulletin_EPUB_Utilities::addCourseLinks($context->getRaw('prerequisite'))."</div>\n";
         }

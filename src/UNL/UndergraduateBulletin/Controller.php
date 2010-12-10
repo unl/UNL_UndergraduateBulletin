@@ -182,7 +182,8 @@ class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_
      * 
      * @return int.. The year of the bulletin.  False if no year.
      */
-    static function getVersion(){
+    static function getEdition()
+    {
         $url = self::$url;
         $year = substr($url, -5, -1);
         //check it to make sure its a year.
@@ -192,6 +193,20 @@ class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_
         } else {
             //if its not a year, return it as false.
             return false;
+        }
+    }
+    
+    static function getAllEditions()
+    {
+        if($edition = self::getEdition()){
+            //edition is not newest, call the newest for the complete list of editions.
+            $url = self::$newest_url;
+            $json = file_get_contents($url.'editions/?format=json');
+            return json_decode($json, true);
+        }else{
+            //edition is the newest, use our own list of editions.
+            $editions = new UNL_UndergraduateBulletin_Editions;
+            return $editions->editions;
         }
     }
 }
