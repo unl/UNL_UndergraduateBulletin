@@ -8,7 +8,7 @@ dt {
 
 dd {
 	margin:0 0 3em 0;
-	padding-left:0 !important;
+	padding:8px 0 0 0 !important;
 	position:relative;
 	overflow:hidden;
 }
@@ -68,7 +68,7 @@ dd {
 
 .course .prereqs,
 .course .notes,
-.course .description {margin:4px 0;float:left;clear:left;width:450px;}
+.course .description {margin:7px 0 4px 0;float:left;clear:left;width:450px;}
 .course .prereqs div,
 .course .notes div,
 .course .description div {
@@ -76,7 +76,14 @@ dd {
 }
 #maincontent .description {margin:1em 0;}
 #maincontent .notes {margin-bottom:0}
-
+.course .archieveWarning {
+	border:1px solid #fa6520;
+	border-radius:3px;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    background:#fde8de;
+    padding:5px;
+}
 .course .prereqs {color:#0F900A;font-weight:bold;}
 #maincontent .course .prereqs a {color:#0F900A; text-decoration:underline;}
 #maincontent .course .prereqs a:hover, #maincontent .course .prereqs a:focus {color:#28aa23 !important; text-decoration:none;}
