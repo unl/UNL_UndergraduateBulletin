@@ -1,2 +1,6 @@
 <?php
-print_r(UNL_UndergraduateBulletin_Editions::$editions);
+echo "<ul>";
+foreach($context as $year=>$url){
+    echo "<li>$year</li>";
+}
+echo "</ul>";

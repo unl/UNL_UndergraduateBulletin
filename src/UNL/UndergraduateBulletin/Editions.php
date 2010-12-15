@@ -1,8 +1,15 @@
 <?php
-class UNL_UndergraduateBulletin_Editions
+class UNL_UndergraduateBulletin_Editions extends ArrayIterator
 {
     public static $editions = array(2010 => 'http://bulletin.unl.edu/undergraduate/2010/');
     
+    public $options = array('format'=>'html');
+    
+     function __construct($options = array())
+    {
+        $this->options = $options + $this->options;
+        return parent::__construct(self::getAll());
+    }
     /**
      * Gets an array of all the editions from the latest edition.
      * 
