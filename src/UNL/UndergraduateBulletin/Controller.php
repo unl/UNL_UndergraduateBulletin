@@ -12,6 +12,8 @@ class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_
     
     public $output;
     
+    public static $editions;
+    
     public $options = array('view'   => 'index', // The default from the view_map
                             'format' => 'html',  // The default output format
     );
@@ -196,17 +198,25 @@ class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_
         return false;
     }
     
+    /**
+     * Gets an array of all the editions from the latest edition.
+     * 
+     * @return array.. The list of editions.
+     */
     static function getAllEditions()
     {
-        if (self::isArchived()) {
-            //edition is not newest, call the newest for the complete list of editions.
-            if ($json = @file_get_contents(self::$newest_url.'editions/?format=json')) {
-                return json_decode($json, true);
+        //Only try to get the editions array once.
+        if(!isset(self::$editions)){
+            if (self::isArchived()) {
+                //edition is not newest, call the newest for the complete list of editions.
+                if ($json = @file_get_contents(self::$newest_url.'editions/?format=json')) {
+                    self::$editions = json_decode($json, true);
+                }
             }
+            //edition is the newest, use our own list of editions.
+            $editions = new UNL_UndergraduateBulletin_Editions;
+            self::$editions = $editions->editions;
         }
-
-        //edition is the newest, use our own list of editions.
-        $editions = new UNL_UndergraduateBulletin_Editions;
-        return $editions->editions;
+        return self::$editions;
     }
 }
