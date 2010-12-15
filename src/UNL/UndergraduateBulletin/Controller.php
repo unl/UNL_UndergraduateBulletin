@@ -184,7 +184,7 @@ class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_
      */
     static function getEdition()
     {
-        $editions = self::getAllEditions();
+        $editions = UNL_UndergraduateBulletin_Editions::getAll();
         //Format the current url so that it is the same format as the editions url.
         $url = "http://".$_SERVER['SERVER_NAME'].self::$url;
         
@@ -196,25 +196,4 @@ class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_
         return false;
     }
     
-    /**
-     * Gets an array of all the editions from the latest edition.
-     * 
-     * @return array.. The list of editions.
-     */
-    static function getAllEditions()
-    {
-        static $editions_checked = false;
-        //Only try to get the editions array once.
-        if (!$editions_checked) {
-            if (self::isArchived()) {
-                //edition is not newest, call the newest for the complete list of editions.
-                if ($json = @file_get_contents(self::$newest_url.'editions/?format=json')) {
-                    UNL_UndergraduateBulletin_Editions::$editions = json_decode($json, true);
-                }
-            }
-            //edition is the newest, use our own list of editions.
-        }
-        $editions_checked = true;
-        return UNL_UndergraduateBulletin_Editions::$editions;
-    }
 }

@@ -1,2 +1,2 @@
 <?php
-print_r($context->editions);
+print_r(UNL_UndergraduateBulletin_Editions::$editions);
