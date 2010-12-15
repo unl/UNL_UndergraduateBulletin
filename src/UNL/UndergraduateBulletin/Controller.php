@@ -12,7 +12,7 @@ class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_
     
     public $output;
     
-    public static $editions;
+    private static $editions_checked = false;
     
     public $options = array('view'   => 'index', // The default from the view_map
                             'format' => 'html',  // The default output format
@@ -206,17 +206,16 @@ class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_
     static function getAllEditions()
     {
         //Only try to get the editions array once.
-        if(!isset(self::$editions)){
+        if(!self::$editions_checked){
             if (self::isArchived()) {
                 //edition is not newest, call the newest for the complete list of editions.
                 if ($json = @file_get_contents(self::$newest_url.'editions/?format=json')) {
-                    self::$editions = json_decode($json, true);
+                    UNL_UndergraduateBulletin_Editions::$editions = json_decode($json, true);
                 }
             }
             //edition is the newest, use our own list of editions.
-            $editions = new UNL_UndergraduateBulletin_Editions;
-            self::$editions = $editions->editions;
         }
-        return self::$editions;
+        self::$editions_checked = true;
+        return UNL_UndergraduateBulletin_Editions::$editions;
     }
 }
