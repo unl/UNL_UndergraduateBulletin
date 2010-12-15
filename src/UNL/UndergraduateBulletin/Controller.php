@@ -185,8 +185,11 @@ class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_
     static function getEdition()
     {
         $editions = self::getAllEditions();
+        //Format the current url so that it is the same format as the editions url.
+        $url = "http://".$_SERVER['SERVER_NAME'].self::$url;
+        
         //check it to make sure its a year.
-        if ($year = array_search(self::$url, $editions)) {
+        if ($year = array_search($url, $editions)) {
             // Matching year was found, return it
             return $year;
         }
@@ -197,8 +200,7 @@ class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_
     {
         if (self::isArchived()) {
             //edition is not newest, call the newest for the complete list of editions.
-            $url = self::$newest_url;
-            if ($json = file_get_contents($url.'editions/?format=json')) {
+            if ($json = @file_get_contents(self::$newest_url.'editions/?format=json')) {
                 return json_decode($json, true);
             }
         }
