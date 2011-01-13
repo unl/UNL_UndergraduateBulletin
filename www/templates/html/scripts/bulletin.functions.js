@@ -120,11 +120,6 @@ WDN.jQuery(document).ready(function($){
     	$('#maincontent .title a').toggleClass('showIt');
     	return false;
     });
-    $('#maincontent .title a').click(function() {
-    	$(this).parent('span').parent('dt').next('dd').slideToggle();
-    	$(this).toggleClass('showIt');
-    	return false;
-    });
     WDN.jQuery('h2.resultCount').after('<p id="filterSummary">Displaying: <a href="#" class="all">All Options</a></p>');
     WDN.jQuery('form.filters input').each(function(){
     	if (WDN.jQuery(this).attr('value') !== "all") {

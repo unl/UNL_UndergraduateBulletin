@@ -106,26 +106,14 @@
     echo "
         <dt class='$class'>
             <span class='subjectCode'>".$subject."</span>
-            <span class='number $number_class'>$listings</span>";
-    ?>
-    <span class='title'>
-        <?php echo $context->title; ?>
-        <!-- ADDTHIS BUTTON BEGIN -->
-        <script type="text/javascript">
-        addthis_pub             = 'unlwdn';
-        addthis_brand           = 'UNL';
-        addthis_options         = 'favorites, email, digg, delicious, myspace, facebook, google, live, more';
-        </script>
-        <br /><a href="http://www.addthis.com/bookmark.php" onmouseover="return addthis_open(this, '', 'http://<?php echo $_SERVER['SERVER_NAME'].$permalink; ?>', '<?php echo 'UNL | Undergraduate Bulletin | '.$subject.' '.$listings.': '.$context->title; ?>')" onmouseout="addthis_close()" onclick="return addthis_sendto()"><img src="http://s9.addthis.com/button1-share.gif" width="125" height="16" border="0" alt="" /></a>
-        <script type="text/javascript" src="http://s7.addthis.com/js/152/addthis_widget.js"></script>
-        <!-- ADDTHIS BUTTON END -->
-        </span>
-    <?php
+            <span class='number $number_class'>$listings</span>
+            <span class='title'>" . $context->title . "<a href='http://" . $_SERVER['SERVER_NAME'].$permalink . "' title='A permalink to " . $context->title . "'>LINK</a></span>";
         if (!empty($crosslistings)) {
             echo  '<span class="crosslistings">Crosslisted as '.$crosslistings.'</span>';
         }
         echo  "</dt>
         <dd class='$class'>";
+        echo '<div class="zentable cool details">';
         echo  '<table class="zentable cool details">';
         echo  '<tr class="credits">
                 <td class="label">Credit Hours:</td>
@@ -168,6 +156,18 @@
                    </tr>';
         }
         echo  '</table>'.PHP_EOL;
+        ?>
+        <!-- ADDTHIS BUTTON BEGIN -->
+        <script type="text/javascript">
+        addthis_pub             = 'unlwdn';
+        addthis_brand           = 'UNL';
+        addthis_options         = 'favorites, email, digg, delicious, myspace, facebook, google, live, more';
+        </script>
+        <br /><a href="http://www.addthis.com/bookmark.php" class="share" onmouseover="return addthis_open(this, '', 'http://<?php echo $_SERVER['SERVER_NAME'].$permalink; ?>', '<?php echo 'UNL | Undergraduate Bulletin | '.$subject.' '.$listings.': '.$context->title; ?>')" onmouseout="addthis_close()" onclick="return addthis_sendto()"><img src="http://s9.addthis.com/button1-share.gif" width="125" height="16" border="0" alt="" /></a>
+        <script type="text/javascript" src="http://s7.addthis.com/js/152/addthis_widget.js"></script>
+        <!-- ADDTHIS BUTTON END -->
+        <?php
+        echo  '</div>';
         if ($edition = UNL_UndergraduateBulletin_Controller::getEdition()) {
             echo "<span class='archieveWarning'>This is the $edition version of this course. Other versions available: ";
             foreach (UNL_UndergraduateBulletin_Editions::getAll() as $year=>$url) {
@@ -185,7 +185,6 @@
         if (!empty($context->description)) {
             echo  "<div class='description'>".$context->getRaw('description')."</div>\n";
         }
-        
     echo  "</dd>";
     if (isset($parent->parent->context->options)
         && $parent->parent->context->options['view'] == 'course') {
