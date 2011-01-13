@@ -106,8 +106,21 @@
     echo "
         <dt class='$class'>
             <span class='subjectCode'>".$subject."</span>
-            <span class='number $number_class'>$listings</span>
-            <span class='title'>".$context->title."<a href='$permalink'>Hide desc.</a></span>";
+            <span class='number $number_class'>$listings</span>";
+    ?>
+    <span class='title'>
+        <?php echo $context->title; ?>
+        <!-- ADDTHIS BUTTON BEGIN -->
+        <script type="text/javascript">
+        addthis_pub             = 'unlwdn';
+        addthis_brand           = 'UNL';
+        addthis_options         = 'favorites, email, digg, delicious, myspace, facebook, google, live, more';
+        </script>
+        <br /><a href="http://www.addthis.com/bookmark.php" onmouseover="return addthis_open(this, '', '[URL]', '[TITLE]')" onmouseout="addthis_close()" onclick="return addthis_sendto()"><img src="http://s9.addthis.com/button1-share.gif" width="125" height="16" border="0" alt="" /></a>
+        <script type="text/javascript" src="http://s7.addthis.com/js/152/addthis_widget.js"></script>
+        <!-- ADDTHIS BUTTON END -->
+        </span>
+    <?php
         if (!empty($crosslistings)) {
             echo  '<span class="crosslistings">Crosslisted as '.$crosslistings.'</span>';
         }
