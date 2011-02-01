@@ -39,7 +39,7 @@ class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_
     
     function __construct($options = array())
     {
-        $this->options = array_merge($this->options, $options);
+        $this->options = $options + $this->options;
     }
     
     function getCacheKey()
