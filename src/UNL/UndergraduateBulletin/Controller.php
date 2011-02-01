@@ -187,7 +187,7 @@ class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_
     /**
      * Gets the version of the bulletin.  Version = year in the url.
      * 
-     * @return int.. The year of the bulletin.  False if no year.
+     * @return UNL_UndergraduateBulletin_Edition
      */
     static function getEdition()
     {
@@ -197,6 +197,11 @@ class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_
         return self::$edition;
     }
 
+    /**
+     * Set the current edition
+     * 
+     * @param UNL_UndergraduateBulletin_Edition $edition
+     */
     function setEdition(UNL_UndergraduateBulletin_Edition $edition)
     {
         self::$edition = $edition;
