@@ -15,6 +15,13 @@ class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_
     public $options = array('view'   => 'index', // The default from the view_map
                             'format' => 'html',  // The default output format
     );
+
+    /**
+     * The edition we're currently controlling
+     * 
+     * @var UNL_UndergraduateBulletin_Edition
+     */
+    public static $edition;
     
     protected $view_map = array(
         'index'         => 'UNL_UndergraduateBulletin_Introduction',
@@ -51,7 +58,7 @@ class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_
     {
         
     }
-    
+
     function run()
     {
         try {
@@ -147,7 +154,7 @@ class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_
     
     static function getDataDir()
     {
-        return dirname(dirname(dirname(dirname(__FILE__)))).'/data/latest';
+        return dirname(dirname(dirname(dirname(__FILE__)))).'/data';
     }
     
     /**
@@ -184,16 +191,15 @@ class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_
      */
     static function getEdition()
     {
-        $editions = UNL_UndergraduateBulletin_Editions::getAll();
-        //Format the current url so that it is the same format as the editions url.
-        $url = "http://".$_SERVER['SERVER_NAME'].self::$url;
-        
-        //check it to make sure its a year.
-        if ($year = array_search($url, $editions)) {
-            // Matching year was found, return it
-            return $year;
+        if (!isset(self::$edition)) {
+            self::setEdition(new UNL_UndergraduateBulletin_Edition(array('year'=>'latest')));
         }
-        return false;
+        return self::$edition;
+    }
+
+    function setEdition(UNL_UndergraduateBulletin_Edition $edition)
+    {
+        self::$edition = $edition;
     }
     
 }

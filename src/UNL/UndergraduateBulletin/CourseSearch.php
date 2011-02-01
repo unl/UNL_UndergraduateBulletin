@@ -27,14 +27,14 @@ class UNL_UndergraduateBulletin_CourseSearch implements Countable, UNL_Undergrad
     function run()
     {
         $driver = null;
-        if (file_exists(UNL_UndergraduateBulletin_Controller::getDataDir().'/creq/courses.sqlite')) {
+        if (file_exists(UNL_UndergraduateBulletin_Controller::getEdition()->getDataDir().'/creq/courses.sqlite')) {
             $driver = new UNL_UndergraduateBulletin_CourseSearch_DBSearcher();
         }
 
         $search = new UNL_Services_CourseApproval_Search($driver);
 
         if (preg_match('/^([A-Z]{3,4})(\s*:\s*.*)?$/i', $this->options['q'], $matches)
-            && file_exists(UNL_UndergraduateBulletin_Controller::getDataDir().'/creq/subjects/'.strtoupper($matches[1]).'.xml')) {
+            && file_exists(UNL_UndergraduateBulletin_Controller::getEdition()->getDataDir().'/creq/subjects/'.strtoupper($matches[1]).'.xml')) {
             // There is a subject code prefix, only search the subject code
             $this->options['q'] = strtoupper($matches[1]);
             $this->results = $search->bySubject(strtoupper($matches[1]),

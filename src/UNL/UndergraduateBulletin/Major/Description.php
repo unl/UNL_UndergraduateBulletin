@@ -144,7 +144,7 @@ class UNL_UndergraduateBulletin_Major_Description
     static function getNameByFile($filename)
     {
         
-        $filename = str_replace(array(UNL_UndergraduateBulletin_Controller::getDataDir().'/majors/', '.xhtml'), '', $filename);
+        $filename = str_replace(array(UNL_UndergraduateBulletin_Controller::getEdition()->getDataDir().'/majors/', '.xhtml'), '', $filename);
         
         if (isset(self::$epub_files[$filename])) {
             return self::$epub_files[$filename];
@@ -158,7 +158,7 @@ class UNL_UndergraduateBulletin_Major_Description
             $name = $new;
         }
 
-        $xhtml = UNL_UndergraduateBulletin_Controller::getDataDir().'/majors/'.$name.'.xhtml';
+        $xhtml = UNL_UndergraduateBulletin_Controller::getEdition()->getDataDir().'/majors/'.$name.'.xhtml';
 
         if (!file_exists($xhtml)) {
             throw new Exception('Sorry, no description exists for '.$name, 404);

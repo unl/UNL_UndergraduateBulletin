@@ -16,9 +16,9 @@ class UNL_UndergraduateBulletin_CourseDataDriver implements UNL_Services_CourseA
         if (!isset($this->allCourses)) {
             if (isset($_GET['format'])
                 && $_GET['format'] == 'json') {
-                $this->allCourses = file_get_contents(UNL_UndergraduateBulletin_Controller::getDataDir().'/creq/all-courses-min.xml');
+                $this->allCourses = file_get_contents(UNL_UndergraduateBulletin_Controller::getEdition()->getDataDir().'/creq/all-courses-min.xml');
             }
-            $this->allCourses = file_get_contents(UNL_UndergraduateBulletin_Controller::getDataDir().'/creq/all-courses.xml');
+            $this->allCourses = file_get_contents(UNL_UndergraduateBulletin_Controller::getEdition()->getDataDir().'/creq/all-courses.xml');
         }
         return $this->allCourses;
     }
@@ -27,11 +27,11 @@ class UNL_UndergraduateBulletin_CourseDataDriver implements UNL_Services_CourseA
     {
         if (!isset($this->subjectAreas[(string)$subjectarea])) {
 
-            $file = UNL_UndergraduateBulletin_Controller::getDataDir().'/creq/subjects/'.$subjectarea.'.xml';
+            $file = UNL_UndergraduateBulletin_Controller::getEdition()->getDataDir().'/creq/subjects/'.$subjectarea.'.xml';
             if (!preg_match('/^[A-Z]{3,4}$/', $subjectarea) || !file_exists($file)) {
                 throw new Exception('No subject area found matching '.$subjectarea.'.', 404);
             }
-          $this->subjectAreas[(string)$subjectarea] = file_get_contents(UNL_UndergraduateBulletin_Controller::getDataDir().'/creq/subjects/'.$subjectarea.'.xml');
+          $this->subjectAreas[(string)$subjectarea] = file_get_contents(UNL_UndergraduateBulletin_Controller::getEdition()->getDataDir().'/creq/subjects/'.$subjectarea.'.xml');
         }
 
         return $this->subjectAreas[(string)$subjectarea];

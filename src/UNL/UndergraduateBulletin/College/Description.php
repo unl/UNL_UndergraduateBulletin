@@ -32,7 +32,7 @@ class UNL_UndergraduateBulletin_College_Description
         if (!isset(self::$files[$college->name])) {
             throw new Exception('No description for the "'.$college->name.'" college.', 404);
         }
-        $file = UNL_UndergraduateBulletin_Controller::getDataDir().'/colleges/'.self::$files[$college->name];
+        $file = UNL_UndergraduateBulletin_Controller::getEdition()->getDataDir().'/colleges/'.self::$files[$college->name];
 
         $this->_xml = simplexml_load_string(file_get_contents($file));
 
