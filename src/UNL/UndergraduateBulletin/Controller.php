@@ -147,7 +147,7 @@ class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_
     
     static function getDataDir()
     {
-        return dirname(dirname(dirname(dirname(__FILE__)))).'/data';
+        return dirname(dirname(dirname(dirname(__FILE__)))).'/data/latest';
     }
     
     /**
