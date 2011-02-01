@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<courses xmlns="http://courseapproval.unl.edu/courses" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://courseapproval.unl.edu/courses /schema/courses.xsd">
+  <course>
+    <title>Introduction to Library Research</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>LIBR</subject>
+        <courseNumber>110</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20081</effectiveSemester>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">A seven-week independent learning course.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Practical understanding of libraries, their organization, tools, and services.  Effective strategies for accessing information and performing library-based research.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Single Value">1</credit>
+      <credit type="Per Career Limit">1</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Introduction to Agricultural and Natural Resource Systems</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>AGRI</subject>
+        <courseNumber>103</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>NRES</subject>
+        <courseNumber>103</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>LIBR</subject>
+        <courseNumber>110</courseNumber>
+        <courseLetter>A</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20081</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Agricultural and natural resource systems. The interrelationship and the impact of increased human involvement on these systems.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>2</hours>
+      </activity>
+      <activity>
+        <type>rct</type>
+        <hours>1</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+</courses>
