@@ -4,8 +4,14 @@ UNL_Templates::$options['sharedcodepath'] = dirname(__FILE__).'/sharedcode';
 
 $url = UNL_UndergraduateBulletin_Controller::getURL();
 $page = UNL_Templates::factory('Fixed');
+
+$edition_range = 'PREVIEW';
+if (UNL_UndergraduateBulletin_Controller::getEdition()->year !== 'latest') {
+    $edition_range = UNL_UndergraduateBulletin_Controller::getEdition()->year.'-'.(UNL_UndergraduateBulletin_Controller::getEdition()->year+1);
+}
+
 $page->doctitle     = '<title>UNL | Undergraduate Bulletin</title>';
-$page->titlegraphic = '<h1>Undergraduate Bulletin 2010-2011</h1>';
+$page->titlegraphic = '<h1>Undergraduate Bulletin '.$edition_range.'</h1>';
 $page->breadcrumbs  = '
 <ul>
     <li><a href="http://www.unl.edu/">UNL</a></li>
@@ -91,7 +97,7 @@ $page->maincontentarea = '<div class="wdn_notice" id="officialMessage">
                             <div class="message">
                                 <div class="left" style="width:550px;padding-right:10px;">
                                     <h4 style="color:#a5690c;">PLEASE NOTE:</h4>
-                                    <p>Students who enter a college within the University in the 2010-11 academic year are expected to complete the graduation requirements set forth by that college in this bulletin. <a href="'.$url.'bulletinrules" id="bulletinRules">Review information on the bulletin policies.</a></p>
+                                    <p>Students who enter a college within the University in the '.$edition_range.' academic year are expected to complete the graduation requirements set forth by that college in this bulletin. <a href="'.$url.'bulletinrules" id="bulletinRules">Review information on the bulletin policies.</a></p>
                                 </div>
                                 <div class="right" id="previousBulletins" style="width:250px;padding-left:10px;">
                                     <h6 style="color:#a5690c;">Previous Bulletins:</h6>
