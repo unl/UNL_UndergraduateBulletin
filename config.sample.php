@@ -28,3 +28,5 @@ UNL_UndergraduateBulletin_OutputController::setDefaultExpireTimestamp(strtotime(
 
 UNL_Services_CourseApproval::setCachingService(new UNL_Services_CourseApproval_CachingService_Null());
 UNL_Services_CourseApproval::setXCRIService(new UNL_UndergraduateBulletin_CourseDataDriver());
+
+UNL_UndergraduateBulletin_Controller::setEdition(new UNL_UndergraduateBulletin_Edition(array('year'=>'2010')));
