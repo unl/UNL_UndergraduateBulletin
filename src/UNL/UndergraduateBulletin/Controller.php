@@ -202,7 +202,7 @@ class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_
      * 
      * @param UNL_UndergraduateBulletin_Edition $edition
      */
-    function setEdition(UNL_UndergraduateBulletin_Edition $edition)
+    public static function setEdition(UNL_UndergraduateBulletin_Edition $edition)
     {
         self::$edition = $edition;
     }
