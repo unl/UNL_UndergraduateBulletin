@@ -2,11 +2,11 @@
 
 require dirname(__FILE__).'/../config.sample.php';
 
-foreach (new GlobIterator(UNL_UndergraduateBulletin_Controller::getDataDir().'/*/*.epub') as $file) {
+foreach (new GlobIterator(UNL_UndergraduateBulletin_Controller::getEdition()->getDataDir().'/*/*.epub') as $file) {
     writeXHTMLFile($file);
 }
 
-foreach (new GlobIterator(UNL_UndergraduateBulletin_Controller::getDataDir().'/*.epub') as $file) {
+foreach (new GlobIterator(UNL_UndergraduateBulletin_Controller::getEdition()->getDataDir().'/*.epub') as $file) {
     writeXHTMLFile($file);
 }
 
