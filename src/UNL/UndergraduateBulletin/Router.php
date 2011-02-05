@@ -13,6 +13,12 @@ class UNL_UndergraduateBulletin_Router
 
         $options = array();
 
+        if (preg_match('/^([\d]{4})$/', $requestURI, $matches)) {
+            // No trailing slash, add it in for this lazy visitor
+            header('Location: '.UNL_UndergraduateBulletin_Controller::getURL().$matches[0].'/');
+            exit();
+        }
+
         if (preg_match('/^([\d]{4})\//', $requestURI, $matches)) {
             // The URL contains an edition number
             $options['year'] = $matches[0];
