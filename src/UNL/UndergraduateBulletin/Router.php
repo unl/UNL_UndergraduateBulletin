@@ -8,69 +8,72 @@ class UNL_UndergraduateBulletin_Router
             $requestURI = substr($requestURI, 0, strlen($_SERVER['QUERY_STRING'])*-1-1);
         }
 
-        $base = preg_quote(UNL_UndergraduateBulletin_Controller::getURL(), '/');
+        // Trim the base part of the URL
+        $requestURI = substr($requestURI, strlen(UNL_UndergraduateBulletin_Controller::getURL()));
 
         $options = array();
 
+        if (empty($requestURI)) {
+            // Default view/homepage
+            return $options;
+        }
+
         switch(true) {
-            case preg_match('/'.$base.'courses\/$/', $requestURI, $matches):
+            case preg_match('/^courses\/$/', $requestURI, $matches):
                 $options['view'] = 'subjects';
                 break;
-            case preg_match('/'.$base.'courses\/search\/?$/', $requestURI, $matches):
+            case preg_match('/^courses\/search\/?$/', $requestURI, $matches):
                 $options['view'] = 'searchcourses';
                 break;
             // Subject Code: ex CSCE/
-            case preg_match('/'.$base.'courses\/([A-Z]{3,4})\/?$/', $requestURI, $matches):
+            case preg_match('/^courses\/([A-Z]{3,4})\/?$/', $requestURI, $matches):
                 $options['view'] = 'subject';
                 $options['id']   = $matches[1];
                 break;
             // Course rewrites, ex: CSCE/420
-            case preg_match('/'.$base.'courses\/([A-Z]{3,4})\/([\d]?[\d]{2,3}[A-Za-z]?)$/', $requestURI, $matches):
+            case preg_match('/^courses\/([A-Z]{3,4})\/([\d]?[\d]{2,3}[A-Za-z]?)$/', $requestURI, $matches):
                 $options['view']         = 'course';
                 $options['subjectArea']  = $matches[1];
                 $options['courseNumber'] = $matches[2];
                 break;
             // List of all majors
-            case preg_match('/'.$base.'majors?\/?$/', $requestURI, $matches):
+            case preg_match('/^majors?\/?$/', $requestURI, $matches):
                 $options['view'] = 'majors';
                 break;
             // Search majors
-            case preg_match('/'.$base.'majors?\/search\/?$/', $requestURI, $matches):
+            case preg_match('/^majors?\/search\/?$/', $requestURI, $matches):
                 $options['view'] = 'searchmajors';
                 break;
-            case preg_match('/'.$base.'major\/(.+)\/courses$/', $requestURI, $matches):
+            case preg_match('/^major\/(.+)\/courses$/', $requestURI, $matches):
                 $options['view'] = 'courses';
                 $options['name'] = urldecode($matches[1]);
                 break;
             // Individual major major/Architecture
-            case preg_match('/'.$base.'major\/(.+)\/?$/', $requestURI, $matches):
+            case preg_match('/^major\/(.+)\/?$/', $requestURI, $matches):
                 $options['view'] = 'major';
                 $options['name'] = urldecode($matches[1]);
                 break;
-            case preg_match('/'.$base.'college\/?$/', $requestURI):
+            case preg_match('/^college\/?$/', $requestURI):
                 $options['view'] = 'colleges';
                 break;
-            case preg_match('/'.$base.'college\/(.*)/', $requestURI, $matches):
+            case preg_match('/^college\/(.*)/', $requestURI, $matches):
                 $options['view'] = 'college';
                 $options['name'] = urldecode($matches[1]);
                 break;
-            case preg_match('/'.$base.'bulletinrules\/?$/', $requestURI, $matches):
+            case preg_match('/^bulletinrules\/?$/', $requestURI, $matches):
                 $options['view'] = 'bulletinrules';
                 break;
-            case preg_match('/'.$base.'search\/?$/', $requestURI):
+            case preg_match('/^search\/?$/', $requestURI):
                 $options['view'] = 'search';
                 break;
-            case preg_match('/'.$base.'about\/?$/', $requestURI):
+            case preg_match('/^about\/?$/', $requestURI):
                 $options['view'] = 'about';
                 break;
-            case preg_match('/'.$base.'general\/?$/', $requestURI):
+            case preg_match('/^general\/?$/', $requestURI):
                 $options['view'] = 'general';
                 break;
-            case preg_match('/'.$base.'editions\/?$/', $requestURI):
+            case preg_match('/^editions\/?$/', $requestURI):
                 $options['view'] = 'editions';
-                break;
-            // Index page
-            case preg_match('/'.$base.'$/', $requestURI, $matches):
                 break;
             default:
                 throw new Exception('Unknown route: '.$requestURI, 404);
