@@ -13,6 +13,14 @@ class UNL_UndergraduateBulletin_Router
 
         $options = array();
 
+        if (preg_match('/^([\d]{4})\//', $requestURI, $matches)) {
+            // The URL contains an edition number
+            $options['year'] = $matches[0];
+
+            // Trim the year off
+            $requestURI = substr($requestURI, strlen($matches[0]));
+        }
+
         if (empty($requestURI)) {
             // Default view/homepage
             return $options;
