@@ -62,6 +62,11 @@ class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_
     function run()
     {
         try {
+
+            if (!empty($this->options['year'])) {
+                self::setEdition(new UNL_UndergraduateBulletin_Edition($this->options));
+            }
+
             switch($this->options['format']) {
             case 'partial':
                 UNL_UndergraduateBulletin_ClassToTemplateMapper::$output_template[__CLASS__] = 'Controller-partial';
