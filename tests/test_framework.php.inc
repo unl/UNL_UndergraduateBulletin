@@ -1,7 +1,11 @@
 <?php
 $__e = error_reporting();
 error_reporting(E_ERROR|E_NOTICE|E_WARNING);
-require_once __DIR__ . '/../config.sample.php';
+if (file_exists(dirname(__FILE__).'/../config.inc.php')) {
+    include_once dirname(__FILE__).'/../config.inc.php';
+} else {
+    include_once dirname(__FILE__).'/../config.sample.php';
+}
 @include_once 'Text/Diff.php';
 @include_once 'Text/Diff/Renderer.php';
 @include_once 'Text/Diff/Renderer/unified.php';
