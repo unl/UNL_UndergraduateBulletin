@@ -9,7 +9,7 @@ class UNL_UndergraduateBulletin_Edition
             throw new Exception('Unknown edition');
         }
 
-        if (!is_dir(UNL_UndergraduateBulletin_Controller::getDataDir().DIRECTORY_SEPARATOR.$options['year'])) {
+        if (!is_dir(UNL_UndergraduateBulletin_Controller::getDataDir().DIRECTORY_SEPARATOR.(int)$options['year'])) {
             throw new Exception('I don\'t know anything about that edition');
         }
 
@@ -18,7 +18,7 @@ class UNL_UndergraduateBulletin_Edition
 
     function getDataDir()
     {
-        return UNL_UndergraduateBulletin_Controller::getDataDir().DIRECTORY_SEPARATOR.$this->year;
+        return UNL_UndergraduateBulletin_Controller::getDataDir().DIRECTORY_SEPARATOR.(int)$this->year;
     }
 
     function getYear()

@@ -1,8 +1,18 @@
 <?php
 class UNL_UndergraduateBulletin_Editions extends ArrayIterator
 {
-    public static $editions = array(2010 => 'http://bulletin.unl.edu/undergraduate/2010/');
-    
+    public static $editions = array(
+        2010,
+        2011
+    );
+
+    /**
+     * The last bulletin edition that was complete.
+     *
+     * @var string|int
+     */
+    public static $latest = 2010;
+
     public $options = array('format'=>'html');
     
      function __construct($options = array())
@@ -17,18 +27,11 @@ class UNL_UndergraduateBulletin_Editions extends ArrayIterator
      */
     static function getAll()
     {
-        static $editions_checked = false;
-        //Only try to get the editions array once.
-        if (!$editions_checked) {
-            if (UNL_UndergraduateBulletin_Controller::isArchived()) {
-                //edition is not newest, call the newest for the complete list of editions.
-                if ($json = @file_get_contents(UNL_UndergraduateBulletin_Controller::$newest_url.'editions/?format=json')) {
-                    self::$editions = json_decode($json, true);
-                }
-            }
-            //edition is the newest, use our own list of editions.
-        }
-        $editions_checked = true;
         return self::$editions;
+    }
+
+    public static function getLatest()
+    {
+        return new UNL_UndergraduateBulletin_Edition(array('year'=>self::$latest));
     }
 }

@@ -192,7 +192,7 @@ class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_
     static function getEdition()
     {
         if (!isset(self::$edition)) {
-            self::setEdition(new UNL_UndergraduateBulletin_Edition(array('year'=>'latest')));
+            self::setEdition(UNL_UndergraduateBulletin_Editions::getLatest());
         }
         return self::$edition;
     }
