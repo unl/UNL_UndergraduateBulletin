@@ -1,6 +1,10 @@
 <?php
 
-require dirname(__FILE__).'/../config.sample.php';
+if (file_exists(dirname(__FILE__).'/../config.inc.php')) {
+    include_once dirname(__FILE__).'/../config.inc.php';
+} else {
+    include_once dirname(__FILE__).'/../config.sample.php';
+}
 
 foreach (new GlobIterator(UNL_UndergraduateBulletin_Controller::getEdition()->getDataDir().'/*/*.epub') as $file) {
     writeXHTMLFile($file);
