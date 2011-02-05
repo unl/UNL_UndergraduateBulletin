@@ -21,7 +21,7 @@ class UNL_UndergraduateBulletin_Router
 
         if (preg_match('/^([\d]{4})\//', $requestURI, $matches)) {
             // The URL contains an edition number
-            $options['year'] = $matches[0];
+            $options['year'] = $matches[1];
 
             // Trim the year off
             $requestURI = substr($requestURI, strlen($matches[0]));
