@@ -5,10 +5,7 @@ UNL_Templates::$options['sharedcodepath'] = dirname(__FILE__).'/sharedcode';
 $url = UNL_UndergraduateBulletin_Controller::getURL();
 $page = UNL_Templates::factory('Fixed');
 
-$edition_range = 'PREVIEW';
-if (UNL_UndergraduateBulletin_Controller::getEdition()->year !== 'latest') {
-    $edition_range = UNL_UndergraduateBulletin_Controller::getEdition()->year.'-'.(UNL_UndergraduateBulletin_Controller::getEdition()->year+1);
-}
+$edition_range = UNL_UndergraduateBulletin_Controller::getEdition()->year.'-'.(UNL_UndergraduateBulletin_Controller::getEdition()->year+1);
 
 $page->doctitle     = '<title>UNL | Undergraduate Bulletin</title>';
 $page->titlegraphic = '<h1>Undergraduate Bulletin '.$edition_range.'</h1>';
