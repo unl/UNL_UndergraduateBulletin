@@ -26,6 +26,11 @@ class UNL_UndergraduateBulletin_Edition
         return $this->year;
     }
 
+    function getURL()
+    {
+    	return UNL_UndergraduateBulletin_Controller::getURL().$this->getYear().'/';
+    }
+
     function __toString()
     {
         return (string)$this->year;

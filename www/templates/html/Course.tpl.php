@@ -170,8 +170,8 @@
         echo  '</div>';
         if ($edition = UNL_UndergraduateBulletin_Controller::getEdition()) {
             echo "<span class='archieveWarning'>This is the $edition version of this course. Other versions available: ";
-            foreach (UNL_UndergraduateBulletin_Editions::getAll() as $year=>$url) {
-                echo '<a title="Go to the '.$year.' edition of this course description" href="'.$url.'">'.$year.'</a> ';
+            foreach (UNL_UndergraduateBulletin_Editions::getAll() as $edition) {
+                echo '<a title="Go to the '.$edition->year.' edition of this course description" href="'.$edition->getURL().'">'.$edition.'</a> ';
             }
             echo "</span>";
             
