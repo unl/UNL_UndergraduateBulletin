@@ -18,7 +18,7 @@ class UNL_UndergraduateBulletin_Editions extends ArrayIterator
      function __construct($options = array())
     {
         $this->options = $options + $this->options;
-        return parent::__construct(self::getAll());
+        return parent::__construct(self::$editions);
     }
     /**
      * Gets an array of all the editions from the latest edition.
@@ -27,11 +27,16 @@ class UNL_UndergraduateBulletin_Editions extends ArrayIterator
      */
     static function getAll()
     {
-        return self::$editions;
+        return new self();
     }
 
     public static function getLatest()
     {
         return new UNL_UndergraduateBulletin_Edition(array('year'=>self::$latest));
+    }
+
+    function current()
+    {
+    	return new UNL_UndergraduateBulletin_Edition(array('year'=>parent::current()));
     }
 }
