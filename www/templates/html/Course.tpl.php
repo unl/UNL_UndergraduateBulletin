@@ -159,14 +159,6 @@
         ?>
         <?php
         echo  '</div>';
-        if ($edition = UNL_UndergraduateBulletin_Controller::getEdition()) {
-            echo "<span class='archiveWarning'>This is the $edition version of this course. Other versions available: ";
-            foreach (UNL_UndergraduateBulletin_Editions::getAll() as $edition) {
-                echo '<a title="Go to the '.$edition->year.' edition of this course description" href="'.$edition->getURL().'">'.$edition.'</a> ';
-            }
-            echo "</span>";
-            
-        }
         if (!empty($context->prerequisite)) {
             echo  "<div class='prereqs'>Prereqs: ".UNL_UndergraduateBulletin_EPUB_Utilities::addCourseLinks($context->getRaw('prerequisite'))."</div>\n";
         }
