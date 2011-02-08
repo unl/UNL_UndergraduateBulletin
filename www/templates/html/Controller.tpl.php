@@ -5,10 +5,8 @@ UNL_Templates::$options['sharedcodepath'] = dirname(__FILE__).'/sharedcode';
 $url = UNL_UndergraduateBulletin_Controller::getURL();
 $page = UNL_Templates::factory('Fixed');
 
-$edition_range = UNL_UndergraduateBulletin_Controller::getEdition()->year.'-'.(UNL_UndergraduateBulletin_Controller::getEdition()->year+1);
-
 $page->doctitle     = '<title>UNL | Undergraduate Bulletin</title>';
-$page->titlegraphic = '<h1>Undergraduate Bulletin '.$edition_range.'</h1>';
+$page->titlegraphic = '<h1>Undergraduate Bulletin '.UNL_UndergraduateBulletin_Controller::getEdition()->getRange().'</h1>';
 $page->breadcrumbs  = '
 <ul>
     <li><a href="http://www.unl.edu/">UNL</a></li>
@@ -94,7 +92,7 @@ $page->maincontentarea = '<div class="wdn_notice" id="officialMessage">
                             <div class="message">
                                 <div class="left" style="width:550px;padding-right:10px;">
                                     <h4 style="color:#a5690c;">PLEASE NOTE:</h4>
-                                    <p>Students who enter a college within the University in the '.$edition_range.' academic year are expected to complete the graduation requirements set forth by that college in this bulletin. <a href="'.$url.'bulletinrules" id="bulletinRules">Review information on the bulletin policies.</a></p>
+                                    <p>Students who enter a college within the University in the '.UNL_UndergraduateBulletin_Controller::getEdition()->getRange().' academic year are expected to complete the graduation requirements set forth by that college in this bulletin. <a href="'.$url.'bulletinrules" id="bulletinRules">Review information on the bulletin policies.</a></p>
                                 </div>
                                 <div class="right" id="previousBulletins" style="width:250px;padding-left:10px;">
                                     <h6 style="color:#a5690c;">Previous Bulletins:</h6>
@@ -115,18 +113,6 @@ $page->maincontentarea = '<div class="wdn_notice" id="officialMessage">
                         </div>';
 $page->maincontentarea .= $savvy->render($context->output);
 
-$page->maincontentarea .= '<div id="versioning">
-							<div class="content">
-							<h5>This content from <span>'.$edition_range.'</span> Undergraduate Bulletin</h5>
-							<p>Other versions:</p>
-							<ul>
-								<li><a href="#">20XX-20XY Undergraduate Bulletin</a></li>
-								<li><a href="#">More</a></li>
-							</ul>
-							</div>
-							<div class="action opened">
-								<a href="#">Hide</a>
-							</div>
-							</div>';
+$page->maincontentarea .= $savvy->render($context, 'EditionNotice.tpl.php');
 
 echo $page;
