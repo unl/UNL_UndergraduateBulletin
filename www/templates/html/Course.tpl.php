@@ -157,15 +157,6 @@
         }
         echo  '</table>'.PHP_EOL;
         ?>
-        <!-- ADDTHIS BUTTON BEGIN -->
-        <script type="text/javascript">
-        addthis_pub             = 'unlwdn';
-        addthis_brand           = 'UNL';
-        addthis_options         = 'favorites, email, digg, reddit, twitter, facebook, google, live, more';
-        </script>
-        <br /><a href="http://www.addthis.com/bookmark.php" class="share" onmouseover="return addthis_open(this, '', 'http://<?php echo $_SERVER['SERVER_NAME'].$permalink; ?>', '<?php echo 'UNL | Undergraduate Bulletin | '.$subject.' '.$listings.': '.$context->title; ?>')" onmouseout="addthis_close()" onclick="return addthis_sendto()"><img src="http://s9.addthis.com/button1-share.gif" width="125" height="16" border="0" alt="" /></a>
-        <script type="text/javascript" src="http://s7.addthis.com/js/152/addthis_widget.js"></script>
-        <!-- ADDTHIS BUTTON END -->
         <?php
         echo  '</div>';
         if ($edition = UNL_UndergraduateBulletin_Controller::getEdition()) {
