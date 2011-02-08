@@ -8,6 +8,14 @@ function setTOCLocations() {
 WDN.jQuery(document).ready(function($){
 //Move the subhead above the notice
 	WDN.jQuery('h2.subhead').insertBefore('#officialMessage');
+	
+//Deal with the Versioning controls
+	WDN.jQuery('#versioning .action').click(function(){
+		WDN.jQuery('#versioning .content').toggle('slide', {percent : 0, direction : 'right'}, 500, function(){
+			WDN.jQuery('#versioning .action').toggleClass('opened');
+		});
+		return false;
+	});
 //Deal with the Table of Contents for the majors pages.
 	WDN.jQuery("#toc_nav ol").click(
 		function() {

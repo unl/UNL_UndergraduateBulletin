@@ -115,4 +115,18 @@ $page->maincontentarea = '<div class="wdn_notice" id="officialMessage">
                         </div>';
 $page->maincontentarea .= $savvy->render($context->output);
 
+$page->maincontentarea .= '<div id="versioning">
+							<div class="content">
+							<h5>This content from <span>'.$edition_range.'</span> Undergraduate Bulletin</h5>
+							<p>Other versions:</p>
+							<ul>
+								<li><a href="#">20XX-20XY Undergraduate Bulletin</a></li>
+								<li><a href="#">More</a></li>
+							</ul>
+							</div>
+							<div class="action opened">
+								<a href="#">Hide</a>
+							</div>
+							</div>';
+
 echo $page;

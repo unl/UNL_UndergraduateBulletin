@@ -73,3 +73,68 @@
 #maincontent div.wdn_notice.small .message p {
 	display:none;
 }
+/*
+
+Versioning Box
+
+*/
+#versioning {
+	position:fixed;
+	bottom:5px;
+	right:1px;
+	z-index:1;
+	font-size:90%;
+}
+#versioning .content {
+    float:left;	
+    background:#f8f9d1;
+    -webkit-box-shadow: -1px 1px 3px #999999;
+    -moz-box-shadow: -1px 1px 3px #999999;
+    box-shadow: -1px 1px 3px #999999; 
+    border: 1px solid #cad094;
+    border-right:none;
+    display:inline-block;
+    padding:10px;
+    height:100px;
+}
+
+#versioning .action {
+    float:right; 
+    width:9px;
+    height:100px;
+    background:#e6e7b6;
+    border: 1px solid #cad094;
+    padding:10px;
+    -webkit-box-shadow: -1px 1px 3px #999999;
+    -moz-box-shadow: -1px 1px 3px #999999;
+    box-shadow: -1px 1px 3px #999999;
+}
+#versioning .action.opened {
+    -webkit-box-shadow: 0px 1px 3px #999999;
+    -moz-box-shadow: 0px 1px 3px #999999;
+    box-shadow: 0px 1px 3px #999999;
+    border-left:none;	
+}
+#versioning .action a {
+    float:right;
+    text-indent:-9999px;
+    background:url('images/actionOpenClose.png') no-repeat 0 -15px;	
+    width:9px;
+    height:15px;
+    opacity:.7;
+}
+#versioning .action.opened a {
+    background-position:0 0; 
+}
+#versioning .action a:hover {
+    opacity:1;	
+}
+#versioning h5 {
+    font-weight:bold;
+    letter-spacing:-.05em;
+}
+#versioning h5 span {
+    background:	#f8f379;
+    padding:0.2em;
+    padding-bottom:0;
+}
