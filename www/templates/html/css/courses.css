@@ -76,14 +76,6 @@ dd {
 }
 #maincontent .description {margin:1em 0;}
 #maincontent .notes {margin-bottom:0}
-.course .archiveWarning {
-	border:1px solid #fa6520;
-	border-radius:3px;
-    -webkit-border-radius:3px;
-    -moz-border-radius:3px;
-    background:#fde8de;
-    padding:5px;
-}
 .course .prereqs {color:#0F900A;font-weight:bold;}
 #maincontent .course .prereqs a {color:#0F900A; text-decoration:underline;}
 #maincontent .course .prereqs a:hover, #maincontent .course .prereqs a:focus {color:#28aa23 !important; text-decoration:none;}
