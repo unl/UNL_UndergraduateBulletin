@@ -138,3 +138,16 @@ Versioning Box
     padding:0.2em;
     padding-bottom:0;
 }
+
+/*
+Testing Indicator
+*/
+#testIndicator {
+    background:#ac0302;
+    height:100%;
+    position:fixed;
+    left:0;
+    z-index:1;
+    width:12px;
+    background:url('images/testIndicator.gif') repeat-y;	
+}
