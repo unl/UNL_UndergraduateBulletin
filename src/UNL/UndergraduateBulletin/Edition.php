@@ -26,6 +26,16 @@ class UNL_UndergraduateBulletin_Edition
         return $this->year;
     }
 
+    /**
+     * Get the year range
+     *
+     * @return string
+     */
+    function getRange()
+    {
+        return $this->year.'-'.($this->year+1);
+    }
+
     function getURL()
     {
     	return UNL_UndergraduateBulletin_Controller::getURL().$this->getYear().'/';
