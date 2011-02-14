@@ -1,5 +1,5 @@
 <?php
-require dirname(__FILE__).'/../../config.sample.php';
+require dirname(__FILE__).'/../../../config.sample.php';
 $xml = UNL_Services_CourseApproval::getXCRIService()->getAllCourses();
 $courses = new SimpleXMLElement($xml);
 foreach ($courses as $course) {
