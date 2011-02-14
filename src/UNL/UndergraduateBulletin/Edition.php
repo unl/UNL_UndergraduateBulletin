@@ -21,6 +21,11 @@ class UNL_UndergraduateBulletin_Edition
         return UNL_UndergraduateBulletin_Controller::getDataDir().DIRECTORY_SEPARATOR.(int)$this->year;
     }
 
+    function getCourseDataDir()
+    {
+        return $this->getDataDir().DIRECTORY_SEPARATOR.'creq';
+    }
+
     function getYear()
     {
         return $this->year;
