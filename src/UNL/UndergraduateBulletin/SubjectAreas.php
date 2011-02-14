@@ -4,7 +4,7 @@ class UNL_UndergraduateBulletin_SubjectAreas extends SplFileObject implements UN
     function __construct($options = array())
     {
         parent::__construct(
-            UNL_UndergraduateBulletin_Controller::getEdition()->getDataDir().'/creq/subject_codes.csv'
+            UNL_UndergraduateBulletin_Controller::getEdition()->getCourseDataDir().'/subject_codes.csv'
         );
         $this->setFlags(SplFileObject::READ_CSV | SplFileObject::SKIP_EMPTY);
         $this->setCsvControl(',', '\'');

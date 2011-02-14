@@ -13,7 +13,7 @@ class UNL_UndergraduateBulletin_CourseSearch_DBSearcher extends UNL_Services_Cou
     public static function getDB()
     {
         if (!isset(self::$db)) {
-            self::$db = new PDO('sqlite:'.UNL_UndergraduateBulletin_Controller::getEdition()->getDataDir().'/creq/courses.sqlite');
+            self::$db = new PDO('sqlite:'.UNL_UndergraduateBulletin_Controller::getEdition()->getCourseDataDir().'/courses.sqlite');
         }
         return self::$db;
     }
