@@ -19,9 +19,9 @@ $courses = $search_service->byAny('',
                                   );
 $id = 0;
 
-@unlink(UNL_UndergraduateBulletin_Controller::getDataDir().'/creq/courses.sqlite');
+@unlink(UNL_UndergraduateBulletin_Editions::getLatest()->getCourseDataDir().'/courses.sqlite');
 
-$db = new PDO('sqlite:'.UNL_UndergraduateBulletin_Controller::getDataDir().'/creq/courses.sqlite');
+$db = new PDO('sqlite:'.UNL_UndergraduateBulletin_Editions::getLatest()->getCourseDataDir().'/courses.sqlite');
 //$db = new PDO('mysql:dbname=ug_bulletin;host=127.0.0.1', 'ug_bulletin', 'ug_bulletin');
 
 $db->exec('CREATE TABLE IF NOT EXISTS courses (
