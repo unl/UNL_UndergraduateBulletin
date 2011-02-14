@@ -140,21 +140,25 @@ class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_
      */
     static function getURL($mixed = null, $additional_params = array())
     {
-        $params = array();
-         
-        $url = self::$url;
 
-        $params = array_merge($params, $additional_params);
-        
+        $url = self::getEdition()->getURL();
         $url .= '?';
-        
-        foreach ($params as $option=>$value) {
+
+        foreach ($additional_params as $option=>$value) {
             if (!empty($value)) {
                 $url .= "&amp;$option=$value";
             }
         }
-        
+
         return trim($url, '?;=');
+    }
+
+    /**
+     * Get the bulletin URL without any edition details.
+     */
+    static function getBaseURL()
+    {
+        return self::$url;
     }
     
     static function getDataDir()

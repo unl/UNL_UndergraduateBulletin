@@ -3,6 +3,7 @@ UNL_Templates::$options['version']        = 3;
 UNL_Templates::$options['sharedcodepath'] = dirname(__FILE__).'/sharedcode';
 
 $url = UNL_UndergraduateBulletin_Controller::getURL();
+$baseURL = UNL_UndergraduateBulletin_Controller::getBaseURL();
 $page = UNL_Templates::factory('Fixed');
 
 $page->doctitle     = '<title>UNL | Undergraduate Bulletin</title>';
@@ -69,17 +70,17 @@ $page->loadSharedCodeFiles();
 $page->addStylesheet('/wdn/templates_3.0/css/content/notice.css');
 $page->addStylesheet('/wdn/templates_3.0/css/content/zenform.css');
 if (UNL_UndergraduateBulletin_OutputController::getCacheInterface() instanceof UNL_UnderGraduateBulletin_CacheInterface_Mock) {
-    $page->addStylesheet($url. 'templates/html/css/debug.css');
+    $page->addStylesheet($baseURL. 'templates/html/css/debug.css');
 } else {
-    $page->addStylesheet($url. 'templates/html/css/all.css');
+    $page->addStylesheet($baseURL. 'templates/html/css/all.css');
 }
-$page->addStyleSheet($url . 'templates/html/css/print.css', 'print');
+$page->addStyleSheet($baseURL . 'templates/html/css/print.css', 'print');
 
 $page->head .= '
 <script type="text/javascript">var UNL_UGB_URL = "'.$url.'";</script>
 <script type="text/javascript" src="/wdn/templates_3.0/scripts/plugins/ui/jQuery.ui.js"></script>
-<script type="text/javascript" src="'.$url.'templates/html/scripts/jQuery.toc.js"></script>
-<script type="text/javascript" src="'.$url.'templates/html/scripts/bulletin.functions.js"></script>
+<script type="text/javascript" src="'.$baseURL.'templates/html/scripts/jQuery.toc.js"></script>
+<script type="text/javascript" src="'.$baseURL.'templates/html/scripts/bulletin.functions.js"></script>
 <link rel="home" href="'.$url.'" />
 <link rel="search" href="'.$url.'search/" />
 <!-- '.md5($context->getRawObject()->getCacheKey()).' -->
@@ -108,16 +109,16 @@ $page->maincontentarea = '<div class="wdn_notice" id="officialMessage">
                                 <div class="right" id="previousBulletins" style="width:250px;padding-left:10px;">
                                     <h6 style="color:#a5690c;">Previous Bulletins:</h6>
                                     <ul>
-                                        <li><a href="'.$url.'downloads/ugb0910.pdf" title="Undergraduate Bulletin 2009-2010, in PDF format (8.6MB)">2009-2010</a></li>
-                                        <li><a href="'.$url.'downloads/ugb0809.pdf" title="Undergraduate Bulletin 2008-2009, in PDF format (8.7MB)">2008-2009</a></li>
-                                        <li><a href="'.$url.'downloads/ugb0708.pdf" title="Undergraduate Bulletin 2007-2008, in PDF format (3.2MB)">2007-2008</a></li>
-                                        <li><a href="'.$url.'downloads/ugb0607.pdf" title="Undergraduate Bulletin 2006-2007, in PDF format (3MB)">2006-2007</a></li>
-                                        <li><a href="'.$url.'downloads/ugb0506.pdf" title="Undergraduate Bulletin 2005-2006, in PDF format (3MB)">2005-2006</a></li>
-                                        <li><a href="'.$url.'downloads/ugb0405.pdf" title="Undergraduate Bulletin 2004-2005, in PDF format (3.3MB)">2004-2005</a></li>
-                                        <li><a href="'.$url.'downloads/ugb0304.pdf" title="Undergraduate Bulletin 2003-2004, in PDF format (2.8MB)">2003-2004</a></li>
-                                        <li><a href="'.$url.'downloads/ugb0203.pdf" title="Undergraduate Bulletin 2002-2003, in PDF format (3MB)">2002-2003</a></li>
-                                        <li><a href="'.$url.'downloads/ugb0102.pdf" title="Undergraduate Bulletin 2001-2002, in PDF format (7.8MB)">2001-2002</a></li>
-                                        <li><a href="'.$url.'downloads/ugb0001.pdf" title="Undergraduate Bulletin 2000-2001, in PDF format (10.6MB)">2000-2001</a></li>
+                                        <li><a href="'.$baseURL.'downloads/ugb0910.pdf" title="Undergraduate Bulletin 2009-2010, in PDF format (8.6MB)">2009-2010</a></li>
+                                        <li><a href="'.$baseURL.'downloads/ugb0809.pdf" title="Undergraduate Bulletin 2008-2009, in PDF format (8.7MB)">2008-2009</a></li>
+                                        <li><a href="'.$baseURL.'downloads/ugb0708.pdf" title="Undergraduate Bulletin 2007-2008, in PDF format (3.2MB)">2007-2008</a></li>
+                                        <li><a href="'.$baseURL.'downloads/ugb0607.pdf" title="Undergraduate Bulletin 2006-2007, in PDF format (3MB)">2006-2007</a></li>
+                                        <li><a href="'.$baseURL.'downloads/ugb0506.pdf" title="Undergraduate Bulletin 2005-2006, in PDF format (3MB)">2005-2006</a></li>
+                                        <li><a href="'.$baseURL.'downloads/ugb0405.pdf" title="Undergraduate Bulletin 2004-2005, in PDF format (3.3MB)">2004-2005</a></li>
+                                        <li><a href="'.$baseURL.'downloads/ugb0304.pdf" title="Undergraduate Bulletin 2003-2004, in PDF format (2.8MB)">2003-2004</a></li>
+                                        <li><a href="'.$baseURL.'downloads/ugb0203.pdf" title="Undergraduate Bulletin 2002-2003, in PDF format (3MB)">2002-2003</a></li>
+                                        <li><a href="'.$baseURL.'downloads/ugb0102.pdf" title="Undergraduate Bulletin 2001-2002, in PDF format (7.8MB)">2001-2002</a></li>
+                                        <li><a href="'.$baseURL.'downloads/ugb0001.pdf" title="Undergraduate Bulletin 2000-2001, in PDF format (10.6MB)">2000-2001</a></li>
                                     </ul>
                                 </div>
                             </div>

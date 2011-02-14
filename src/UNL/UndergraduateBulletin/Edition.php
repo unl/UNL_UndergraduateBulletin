@@ -43,7 +43,7 @@ class UNL_UndergraduateBulletin_Edition
 
     function getURL()
     {
-    	return UNL_UndergraduateBulletin_Controller::getURL().$this->getYear().'/';
+    	return UNL_UndergraduateBulletin_Controller::getBaseURL().$this->getYear().'/';
     }
 
     function __toString()

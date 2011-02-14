@@ -9,13 +9,13 @@ class UNL_UndergraduateBulletin_Router
         }
 
         // Trim the base part of the URL
-        $requestURI = substr($requestURI, strlen(UNL_UndergraduateBulletin_Controller::getURL()));
+        $requestURI = substr($requestURI, strlen(UNL_UndergraduateBulletin_Controller::getBaseURL()));
 
         $options = array();
 
         if (preg_match('/^([\d]{4})$/', $requestURI, $matches)) {
             // No trailing slash, add it in for this lazy visitor
-            header('Location: '.UNL_UndergraduateBulletin_Controller::getURL().$matches[0].'/');
+            header('Location: '.UNL_UndergraduateBulletin_Controller::getBaseURL().$matches[0].'/');
             exit();
         }
 
