@@ -5,7 +5,7 @@ $current = UNL_UndergraduateBulletin_Controller::getEdition();
 <div id="versioning">
     <div class="content">
         <h5>This content is the <span><?php echo $current->getRange(); ?></span> Undergraduate Bulletin</h5>
-        <p>Other versions:</p>
+        <p>Other editions:</p>
         <ul>
             <?php
             $class = '';
