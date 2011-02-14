@@ -85,6 +85,17 @@ $page->head .= '
 <!-- '.md5($context->getRawObject()->getCacheKey()).' -->
 ';
 
+if ($context->getEdition()->year > UNL_UndergraduateBulletin_Editions::getLatest()->year) {
+    $page->head .= <<<UNPUBLISHED
+    <meta name="robots" content="noindex" />
+    <script type="text/javascript">
+    WDN.jQuery(document).ready( function() {
+        WDN.jQuery('#wdn_wrapper').before('<div id="testIndicator"></div>');
+    });
+    </script>
+UNPUBLISHED;
+}
+
 $page->maincontentarea = '<div class="wdn_notice" id="officialMessage">
                             <div class="minimize">
                                 <a href="#">Close message</a>
