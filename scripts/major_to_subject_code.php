@@ -2,7 +2,7 @@
 
 require dirname(__FILE__).'/../config.sample.php';
 
-$file = file(UNL_UndergraduateBulletin_Controller::getDataDir().'/major_to_subject_code.csv');
+$file = file(UNL_UndergraduateBulletin_Controller::getEdition()->getDataDir().'/major_to_subject_code.csv');
 
 $majors = array();
 
@@ -24,4 +24,4 @@ foreach ($file as $line) {
     $majors[trim($array[0])] = $codes;
 }
 
-file_put_contents(UNL_UndergraduateBulletin_Controller::getDataDir().'/major_to_subject_code.php.ser', serialize($majors));
+file_put_contents(UNL_UndergraduateBulletin_Controller::getEdition()->getDataDir().'/major_to_subject_code.php.ser', serialize($majors));
