@@ -43,7 +43,7 @@ class UNL_UndergraduateBulletin_Editions extends ArrayIterator
      */
     public static function getLatest()
     {
-        return new UNL_UndergraduateBulletin_Edition(array('year'=>self::$latest));
+        return new UNL_UndergraduateBulletin_Editions_Latest(array('year'=>self::$latest));
     }
 
     /**
