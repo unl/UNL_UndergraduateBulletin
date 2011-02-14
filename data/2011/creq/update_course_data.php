@@ -11,7 +11,7 @@ while (($subject = fgetcsv($handle, 1000, ",", "'")) !== false) {
 echo 'Done'.PHP_EOL;
 
 echo 'Creating minimized course data file for JSON output.'.PHP_EOL;
-include dirname(__FILE__).'/minimize.php';
+include dirname(__FILE__).'/update_minimized_course_data.php';
 echo 'Done'.PHP_EOL;
 
 echo 'Updating course search database for speedy searches.'.PHP_EOL;
