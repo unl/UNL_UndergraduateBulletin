@@ -31,6 +31,11 @@ class UNL_UndergraduateBulletin_Editions extends ArrayIterator
         return new self();
     }
 
+    public static function getPublished()
+    {
+        return new UNL_UndergraduateBulletin_Editions_PublishedFilter(new self());
+    }
+
     /**
      * Get the latest edition
      *
