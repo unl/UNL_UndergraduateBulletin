@@ -390,6 +390,47 @@
     </aceOutcomes>
   </course>
   <course>
+    <title>Introduction to Africa</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ETHN</subject>
+        <courseNumber>203</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20121</effectiveSemester>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Course offered letter grade only.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to the geography, history, society, economy, politics, and arts of Africa.  Explores connections between the United States and Africa.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+    <aceOutcomes>
+      <slo>9</slo>
+    </aceOutcomes>
+  </course>
+  <course>
     <title>Native Language III</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -1208,6 +1249,50 @@
     </aceOutcomes>
   </course>
   <course>
+    <title>Latin American Politics</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>POLS</subject>
+        <courseNumber>277</courseNumber>
+        <courseGroup>Foreign and Comparative Government</courseGroup>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>ETHN</subject>
+        <courseNumber>277</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>LAMS</subject>
+        <courseNumber>277</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Constitutional and political development of selected Latin American countries; contemporary problems and institutions. Latin America in world affairs with special reference to the inter-American relations and the United States.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Experiential Learning in Ethnic Studies I</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -1466,8 +1551,11 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">May be repeated once for credit with a different topic.</div>
+    </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Construction of ethnic identies in film and TV and the impact of such images on American culture.</div>
     </description>

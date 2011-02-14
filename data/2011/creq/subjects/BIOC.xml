@@ -187,10 +187,6 @@
         <subject>BIOS</subject>
         <courseNumber>432</courseNumber>
       </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>BIOS</subject>
-        <courseNumber>832</courseNumber>
-      </courseCode>
       <courseCode type="crosslisting">
         <subject>CHEM</subject>
         <courseNumber>432</courseNumber>
@@ -201,14 +197,11 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">BIOC 431/831.</div>
     </prerequisite>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Capstone course.</div>
-    </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Continuation of BIOC 431/831. Structural and biochemical aspects of DNA replication and gene expression, and biotechnology.</div>
     </description>
@@ -261,8 +254,8 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">BIOC 431/831 or concurrent enrollment.</div>
     </prerequisite>
@@ -271,7 +264,6 @@
     </description>
     <campuses>
       <campus>UNL</campus>
-      <campus>UNO</campus>
     </campuses>
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
@@ -283,7 +275,7 @@
     <activities>
       <activity>
         <type>lab</type>
-        <hours>7</hours>
+        <hours>4</hours>
       </activity>
       <activity>
         <type>lec</type>

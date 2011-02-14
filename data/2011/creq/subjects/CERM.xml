@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <courses xmlns="http://courseapproval.unl.edu/courses" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://courseapproval.unl.edu/courses /schema/courses.xsd">
   <course>
-    <title>Introduction to Ceramics</title>
+    <title>Ceramics for Non-majors</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>CERM</subject>
@@ -9,13 +9,17 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20091</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Credit will not count toward the major in art.</div>
-    </prerequisite>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <em>Credit will not count toward the major in art.</em>
+      </div>
+    </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to the materials, techniques and processes involved in hand-building with clay. Insight into aesthetic issues of concern to the contemporary artist.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <span>Introduction to the materials, techniques, processes, and aesthetics involved in contemporary ceramic art. </span>
+      </div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -28,7 +32,12 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>stu</type>
+        <hours>6</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>

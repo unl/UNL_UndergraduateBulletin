@@ -514,6 +514,44 @@
     </credits>
   </course>
   <course>
+    <title>The Solar System</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>GEOL</subject>
+        <courseNumber>130</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">(none)</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Geological survey of the Earth's solar system and evolution of planetary systems.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Geoscience Fundamentals in the Field</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -666,6 +704,48 @@
     <credits>
       <credit type="Single Value">3</credit>
       <credit type="Per Career Limit">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Water &amp; Earth Connections</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>GEOL</subject>
+        <courseNumber>220</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <span style="font-size: 12pt; font-family: ">GEOL 101, or GEOL 106, or METR 200, and concurrent Math 106, or instructor permission.</span>
+      </div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <span style="font-family: ">Quantitative understanding of water-related processes in the earth sciences. </span>
+      </div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
     </credits>
   </course>
   <course>
@@ -2020,7 +2100,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <effectiveSemester>20111</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">BIOS 207 or 220; CHEM 110; and MATH 107.</div>
     </prerequisite>
@@ -2051,6 +2131,9 @@
     <credits>
       <credit type="Single Value">4</credit>
     </credits>
+    <aceOutcomes>
+      <slo>10</slo>
+    </aceOutcomes>
   </course>
   <course>
     <title>Summer Field Course</title>

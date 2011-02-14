@@ -290,16 +290,16 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20091</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CHEM 105 or 109.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">CHEM 109, FDST 101 or FDST 131.</div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">FDST 301 will not count toward a FDST major.</div>
     </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Chemical reactions that occur during food processing and cooking; chemical reactions that can be of importance to diet, health and the culinary aspects of food.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">A chemistry course for non-majors with emphasis on essential principles of chemistry and how they apply to food systems.  Course overviews the molecular properties of major food components (proteins, carbohydrates and lipids) and their chemical reactions and provides understanding of the relationship between chemistry and food quality.<br/></div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -313,15 +313,11 @@
     <activities>
       <activity>
         <type>lec</type>
-        <hours>2</hours>
-      </activity>
-      <activity>
-        <type>rct</type>
-        <hours>1</hours>
+        <hours>3</hours>
       </activity>
     </activities>
     <credits>
-      <credit type="Single Value">2</credit>
+      <credit type="Single Value">3</credit>
     </credits>
   </course>
   <course>
@@ -535,10 +531,15 @@
         <subject>FDST</subject>
         <courseNumber>805</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>FDST</subject>
+        <courseNumber>405</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <effectiveSemester>20112</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">BIOS 312; CHEM 251; BIOC 321.</div>
     </prerequisite>
@@ -550,6 +551,7 @@
     </campuses>
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
+      <deliveryMethod>Web</deliveryMethod>
     </deliveryMethods>
     <termsOffered>
       <term>Fall</term>
@@ -1256,13 +1258,13 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">FDST 205, 448/848, and 449/849.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Theory and application of molecular and atomic spectroscopy, immunochemistry and thermal methods to the analysis of foods. Chemical separation techniques to the isolation of food constituents.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Theory and application of molecular and atomic spectroscopy, immunochemistry and thermal methods to the analysis of foods. Chemical separation techniques for the isolation of food constituents.</div>
     </description>
     <campuses>
       <campus>UNL</campus>

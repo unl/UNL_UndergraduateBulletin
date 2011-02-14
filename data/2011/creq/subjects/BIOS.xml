@@ -147,8 +147,8 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20092</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Good standing in the University Honors Program or permission; high school chemistry, or CHEM 109 or parallel.</div>
     </prerequisite>
@@ -172,6 +172,10 @@
     <activities>
       <activity>
         <type>lab</type>
+        <hours>3</hours>
+      </activity>
+      <activity>
+        <type>lec</type>
         <hours>3</hours>
       </activity>
       <activity>
@@ -331,8 +335,8 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">BIOS 101 and 101L, or equivalent.</div>
     </prerequisite>
@@ -353,6 +357,10 @@
     </termsOffered>
     <activities>
       <activity>
+        <type>lab</type>
+        <hours>3</hours>
+      </activity>
+      <activity>
         <type>lec</type>
         <hours>3</hours>
       </activity>
@@ -370,8 +378,8 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">BIOS 101 and 101L, or equivalent.</div>
     </prerequisite>
@@ -394,7 +402,7 @@
     </termsOffered>
     <activities>
       <activity>
-        <type>lab</type>
+        <type>lec</type>
         <hours>3</hours>
       </activity>
     </activities>
@@ -1135,10 +1143,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20103</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">BIOS 232 is not open to students who have completed BIOS 22.  BIOS 232 wil not count toward a major in biological sciences.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">BIOS 232 is not open to students who have completed BIOS 220.  BIOS 232 wil not count toward a major in biological sciences.</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Basic concepts in ecology, including comparison of major world ecosystems, especially the Great Plains. Interplay of ecological principles and human activities.</div>
@@ -1166,6 +1174,59 @@
     <aceOutcomes>
       <slo>8</slo>
     </aceOutcomes>
+  </course>
+  <course>
+    <title>Basic Applications of Bioinformatics</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>BIOS</subject>
+        <courseNumber>237</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20121</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <strong>BIOS102 or parallel</strong>
+      </div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <strong>Provides a broad overview of bioinformatics. Shows how bioinformatics can help solving problems in biological research. Covered topics: biological databases, molecular biology tools, sequence comparison methods, phylogenetic inference, and molecular graphics.</strong>
+        <strong>
+          <br/>
+        </strong>
+      </div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lab</type>
+        <hours>3</hours>
+      </activity>
+      <activity>
+        <type>lec</type>
+        <hours>2</hours>
+      </activity>
+      <activity>
+        <type>rct</type>
+        <hours>1</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">4</credit>
+    </credits>
   </course>
   <course>
     <title>The Pre-Health Experience for Biological Sciences Majors</title>
@@ -1452,7 +1513,7 @@
     </credits>
   </course>
   <course>
-    <title>Fundamentals of Microbiology</title>
+    <title>Microbiology</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>BIOS</subject>
@@ -1461,7 +1522,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <effectiveSemester>20112</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">One year biological sciences, one year general chemistry, and one semester organic chemistry or one semester biochemistry.</div>
     </prerequisite>
@@ -1469,7 +1530,7 @@
       <div xmlns="http://www.w3.org/1999/xhtml">One semester organic chemistry and one semester biochemistry recommended. Parallel registration in BIOS 313 or 314 recommended. Credit towards the degree can be earned in only one: BIOS 312 or AGRO 360.</div>
     </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Structure of microbial cells, their nutrition and growth, genetics, metabolic and biosynthetic activity, and host-parasite relationships.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Microbial cell structure, genetics, metabolic and biosynthetic activity, diversity, ecology and evolution including host-microbe interactions.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -2111,9 +2172,9 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <effectiveSemester>20112</effectiveSemester>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Specifics of requirements to be arranged with surpervising faculty member.  BIOS 395 will not count toward a major in BIOS</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Specifics of requirements to be arranged with surpervising faculty member.  BIOS 395 will not count toward a major in BIOS.  Pass/No Pass only.<br/></div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Combination of work outside the University and academic work in biological sciences arranged through the Career Services Office.</div>
@@ -2133,7 +2194,7 @@
     <credits>
       <credit type="Lower Range Limit">1</credit>
       <credit type="Upper Range Limit">3</credit>
-      <credit type="Per Semester Limit">3</credit>
+      <credit type="Per Career Limit">3</credit>
     </credits>
   </course>
   <course>
@@ -2837,8 +2898,8 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">BIOS 102 or 206; BIOS 103; BIOS 207 or parallel; or equivalent.</div>
     </prerequisite>
@@ -2860,6 +2921,10 @@
       <activity>
         <type>lec</type>
         <hours>3</hours>
+      </activity>
+      <activity>
+        <type>rct</type>
+        <hours>1</hours>
       </activity>
       <activity>
         <type>stu</type>
@@ -2945,10 +3010,6 @@
         <subject>BIOS</subject>
         <courseNumber>432</courseNumber>
       </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>BIOS</subject>
-        <courseNumber>832</courseNumber>
-      </courseCode>
       <courseCode type="crosslisting">
         <subject>CHEM</subject>
         <courseNumber>432</courseNumber>
@@ -2959,14 +3020,11 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">BIOC 431/831.</div>
     </prerequisite>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Capstone course.</div>
-    </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Continuation of BIOC 431/831. Structural and biochemical aspects of DNA replication and gene expression, and biotechnology.</div>
     </description>
@@ -3019,8 +3077,8 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">BIOC 431/831 or concurrent enrollment.</div>
     </prerequisite>
@@ -3029,7 +3087,6 @@
     </description>
     <campuses>
       <campus>UNL</campus>
-      <campus>UNO</campus>
     </campuses>
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
@@ -3041,7 +3098,7 @@
     <activities>
       <activity>
         <type>lab</type>
-        <hours>7</hours>
+        <hours>4</hours>
       </activity>
       <activity>
         <type>lec</type>
@@ -3291,8 +3348,8 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">BIOS 312 and either 313 or 314, or permission.</div>
     </prerequisite>
@@ -3310,7 +3367,12 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
@@ -3535,10 +3597,15 @@
         <subject>FDST</subject>
         <courseNumber>805</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>FDST</subject>
+        <courseNumber>405</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <effectiveSemester>20112</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">BIOS 312; CHEM 251; BIOC 321.</div>
     </prerequisite>
@@ -3550,6 +3617,7 @@
     </campuses>
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
+      <deliveryMethod>Web</deliveryMethod>
     </deliveryMethods>
     <termsOffered>
       <term>Fall</term>
@@ -4038,7 +4106,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <effectiveSemester>20111</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">BIOS 207 or 220; CHEM 110; and MATH 107.</div>
     </prerequisite>
@@ -4069,6 +4137,9 @@
     <credits>
       <credit type="Single Value">4</credit>
     </credits>
+    <aceOutcomes>
+      <slo>10</slo>
+    </aceOutcomes>
   </course>
   <course>
     <title>Wetlands</title>
@@ -4539,8 +4610,8 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">BIOS 206 and 207.</div>
     </prerequisite>
@@ -4561,9 +4632,11 @@
     <activities>
       <activity>
         <type>lec</type>
+        <hours>3</hours>
       </activity>
       <activity>
         <type>rct</type>
+        <hours>1</hours>
       </activity>
     </activities>
     <credits>
@@ -5358,7 +5431,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <effectiveSemester>20112</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">12 hrs biological sciences and permission.</div>
     </prerequisite>
@@ -5380,7 +5453,7 @@
     <credits>
       <credit type="Lower Range Limit">1</credit>
       <credit type="Upper Range Limit">4</credit>
-      <credit type="Per Semester Limit">24</credit>
+      <credit type="Per Career Limit">24</credit>
     </credits>
   </course>
   <course>

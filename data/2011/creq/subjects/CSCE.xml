@@ -102,16 +102,29 @@
       <courseCode type="home listing">
         <subject>CSCE</subject>
         <courseNumber>155</courseNumber>
+        <courseLetter>A</courseLetter>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20111</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Appropriate score on the CSE Placement Exam or a grade of "P" or "C" or better in CSCE 150; MATH 103.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <span style="font-size: 11.0pt; font-family: ">Appropriate score on the CSE Placement Exam or CSCE101; MATH 103 or equivalent.</span>
+      </div>
     </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <em>
+          <span style="font-family: ">Recommended for students majoring in computer science or computer engineering. </span>
+        </em>
+        <p>Credit may be earned in only one CSCE 155 course.</p>
+      </div>
+    </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to problem-solving with computers. Object-oriented problem analysis and specification, algorithm development, program design, and implementation and testing and debugging. Event-driven programming, inheritance, polymorphism, data abstraction, encapsulation, documentation, recursion, exception handling, and graphical user interface design.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <span style="font-size: 11.0pt; font-family: ">Introduction to problem solving with computers. <span style="mso-spacerun: yes;"> </span>Topics include problem solving methods, software development principles, computer programming, and computing in society.</span>
+      </div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -127,7 +140,7 @@
     <activities>
       <activity>
         <type>lab</type>
-        <hours>2</hours>
+        <hours>1</hours>
       </activity>
       <activity>
         <type>lec</type>
@@ -135,7 +148,7 @@
       </activity>
     </activities>
     <credits>
-      <credit type="Single Value">4</credit>
+      <credit type="Single Value">3</credit>
     </credits>
     <aceOutcomes>
       <slo>3</slo>
@@ -202,6 +215,9 @@
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
+    <aceOutcomes>
+      <slo>3</slo>
+    </aceOutcomes>
   </course>
   <course>
     <title>Honors: Computer Science I</title>
@@ -213,16 +229,16 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20111</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Good standing in the University Honors Program or by invitation; appropriate score on the CSE Placement Exam or grade of "P" or "C" or better in CSCE 150; MATH 103 or equivalent.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Good standing in the University Honors Program or by invitation; appropriate score on the CSE Placement Exam or CSCE101; MATH 103 or equivalent.</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 115H covers the same topics as CSCE 155, but in greater depth.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 155H covers the same topics as CSCE 155A, but in greater depth.</div>
     </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">For course description, see CSCE 155.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">For course description, see CSCE 155A.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -238,7 +254,7 @@
     <activities>
       <activity>
         <type>lab</type>
-        <hours>2</hours>
+        <hours>1</hours>
       </activity>
       <activity>
         <type>lec</type>
@@ -246,7 +262,7 @@
       </activity>
     </activities>
     <credits>
-      <credit type="Single Value">4</credit>
+      <credit type="Single Value">3</credit>
     </credits>
     <aceOutcomes>
       <slo>3</slo>
@@ -305,6 +321,9 @@
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
+    <aceOutcomes>
+      <slo>3</slo>
+    </aceOutcomes>
   </course>
   <course>
     <title>Computer Science I: Informatics Focus</title>
@@ -359,6 +378,9 @@
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
+    <aceOutcomes>
+      <slo>3</slo>
+    </aceOutcomes>
   </course>
   <course>
     <title>Computer Science II</title>
@@ -369,16 +391,18 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20092</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Appropriate score on the CSE Placement Exam or a grade of "P" or "C" or better in CSCE 155 or 155H; Math 103 or equivalent.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Appropriate score on the CSE Placement Exam or a grade of "P" or "C" or better in CSCE 155A, CSCE155E, CSCE 155H, CSCE 155N, or CSCE 155T; Math 106 or equivalent.</div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">Laboratories supplement the lecture material and give an opportunity to practice concepts.</div>
     </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Different programming languages, the use of data structures, implementation of a three-tier application. Basic programming language paradigms, memory management, pointers and references, declarations and types, and abstract mechanisms; using, implementing, and introduction to analysis of basic data structures. Linked-lists, stacks, queues and trees; searching and sorting; databases, table design, SQL queries, and use in applications.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <span style="font-size: 12.0pt; font-family: ">Data structures, including linked lists, stacks, queues, and trees; algorithms, including searching, sorting, and recursion; programming language topics, including object-oriented programming; pointers, references, and memory management; design and implementation of a multilayer application with SQL database.</span>
+      </div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -641,14 +665,14 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>20111</effectiveSemester>
+    <effectiveSemester>20112</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">
-        <span style="font-size: 11pt; font-family: ">A grade of 'P' or 'C' or better in CSCE 101, 105, 150, 155, or 155H, or detailed knowledge of a high-level programming language; parallel CSCE 230L. </span>
+        <span style="font-size: 12pt; font-family: Cambria;">A grade of 'P' or 'C' or better in CSCE 155A, CSCE 155E, CSCE 155H, CSCE 155N, or CSCE 155T or equivalent knowledge of a high-level programming language; parallel CSCE 230L.</span>
       </div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">ACE SLO 8 is met only if CSCE 230 and, either CSCE 486 or CSCE 488 are completed.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">ACE SLO 8 is met if CSCE 230 and either CSCE 486 or CSCE 488 are completed.</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">
@@ -693,10 +717,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Good standing in the University Honors Program or by invitation; grade of "P" or "C" or better in CSCE 101 or 105 or 150 or 155 OR 155H, or detailed knowledge of a high-level programming language; parallel CSCE 230L.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Good standing in the University Honors Program or by invitation; a grade of 'P' or 'C' or better in CSCE 155A, CSCE 155E, CSCE 155H, CSCE 155N, or CSCE 155T or equivalent knowledge of a high-level programming language; parallel CSCE 230L.</div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">CSCE 230H covers the same topics as CSCE 230, but in greater depth.</div>
@@ -724,6 +748,9 @@
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
+    <aceOutcomes>
+      <slo>8</slo>
+    </aceOutcomes>
   </course>
   <course>
     <title>Computer Organization Laboratory</title>
@@ -735,16 +762,18 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Grade of "P" or "C" or better in CSCE 101 or 105 or 150 or 155 or 155H, or detailed knowledge of a high-level programming language; parallel CSCE 230 or 230H.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <span style="font-size: 12pt; font-family: Cambria;">A grade of 'P' or 'C' or better in CSCE 155A, CSCE 155E, CSCE 155H, CSCE 155N, or CSCE 155T or equivalent knowledge of a high-level programming language; parallel CSCE 230 or CSCE 230H.</span>
+      </div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">CSCE 230L includes a project designing and implementing a processor.</div>
     </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Computer-aided tools to provide practice and reinforcement of concepts and techniques learned in CSCE 230 or 230H. Assembler programming and arithmetic and logic function design.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Computer-aided tools to provide practice and reinforcement of concepts and techniques learned in CSCE 230 or CSCE 230H. Assembler programming and arithmetic and logic function design.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -776,10 +805,12 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Grade of "Pass" or "C" or better in CSCE 155/155H; MATH 106/108H or equivalent.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <span style="font-size: 12pt; font-family: Cambria;">CSCE 155A, CSCE 155E, CSCE 155H, CSCE 155N, or CSCE 155T; Math 106.</span>
+      </div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">Theoretical concepts with programming assignments.</div>
@@ -806,6 +837,48 @@
       <activity>
         <type>rct</type>
         <hours>1</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Embedded Systems</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CSCE</subject>
+        <courseNumber>236</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <span style="font-size: 12pt; font-family: Arial;">CSCE 230</span>
+      </div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <span style="font-family: Arial;">Introduction to designing, interfacing, configuring, and programming embedded systems.<span style="mso-spacerun: yes;"> </span>Configure simple embedded microprocessor systems, control peripherals, write device drivers in a high-level language, set up embedded and real-time operating systems, and develop applications for embedded systems.</span>
+      </div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
       </activity>
     </activities>
     <credits>
@@ -1267,6 +1340,59 @@
     </credits>
   </course>
   <course>
+    <title>Data Structures and Algorithms for Informatics</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CSCE</subject>
+        <courseNumber>311</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <span style="font-size: 12.0pt; font-family: ">Grade of “Pass” or “C” or better in CSCE155.</span>
+      </div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <em>
+          <span style="font-size: 12.0pt; font-family: ">Students may not receive credit for both CSCE310 and 311.  CSE majors must take CSCE 310.</span>
+        </em>
+      </div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <span style="font-size: 12.0pt; font-family: ">An introduction to algorithms and data structures for informatics.<span style="mso-spacerun: yes;"> </span>Foundational coverage of algorithms includes both problems (such as indexing, searching, sorting, and pattern matching) and methods (such as greedy, divide-and-conquer, and dynamic programming).<span style="mso-spacerun: yes;"> </span>Foundational coverage of data structures includes lists, tables, relational databases, regular expressions, trees, graphs, and multidimensional arrays.<span style="mso-spacerun: yes;"> </span>The topics will be studied in the context of informatics applications.</span>
+      </div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lab</type>
+        <hours>1</hours>
+      </activity>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Programming Language Concepts</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -1275,10 +1401,12 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Grades of "Pass" or "C" or better in CSCE 156/156H and 230.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <span style="font-size: 12pt; font-family: Cambria;">CSCE 156 or CSCE 311; CSCE 230.</span>
+      </div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">List-processing, string-processing, and other types of high-level programming languages. Fundamental concepts of data types, control structures, operations, and programming environments of various programming languages. Analysis, formal specification, and comparison of language features.</div>
@@ -1367,7 +1495,9 @@
     <dfRemoval>true</dfRemoval>
     <effectiveSemester>20112</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Grade of “Pass” or “C” or better in CSCE 150E or 155/155H; MATH 208/208H.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <span style="font-size: 12pt; font-family: Cambria;">CSCE 155A, CSCE 155E, CSCE 155H, CSCE 155N, or CSCE 155T; Math 107.</span>
+      </div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">Credit toward the degree may be earned in only one of the following: CSCE/MATH 340/840 and ENGM 480/880.</div>
@@ -1406,10 +1536,12 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Grades of "Pass" or "C" or better in CSCE 230/230H, 230L, and 310.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <span style="font-size: 12pt; font-family: Cambria;">CSCE 230; CSCE 230L; CSCE 310 or CSCE 311.</span>
+      </div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">Lab content reinforces concepts through practice.</div>
@@ -1451,10 +1583,12 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Grade of "Pass" or "C" or better in CSCE 310.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <span style="font-size: 12pt; font-family: Cambria;">CSCE 310 or CSCE 311.</span>
+      </div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">CSCE 361 requires participation in a group design and implementation of a software project.</div>
@@ -1492,16 +1626,64 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 156.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <span style="font-size: 12pt; font-family: Cambria;">CSCE 156 or CSCE 311. <br/></span>
+      </div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">STAT 380 recommended.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">MATH/STAT 380 or ELEC 305 recommended.</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Knowledge and techniques useful in the design of computing systems for human use. Includes models of HCI, human information processing characteristics important in HCI, computer system features, such as input and output devices, dialogue techniques, and information presentation, task analysis, prototyping and the iterative design cycle, user interface implementation, interface evaluation.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title></title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CSCE</subject>
+        <courseNumber>378</courseNumber>
+        <courseLetter>H</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 310 or CSCE 283H; Good standing in the University Honors Program or by instructor permission.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <span style="line-height: 16px; font-style: italic; font-family: 'Lucida Grande', Verdana, Arial; color: #494949; font-size: 12px;">CSCE 378H covers the same topics as CSCE 378, but in greater depth. </span>
+      </div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <span style="line-height: 16px; font-family: 'Lucida Grande', Verdana, Arial; color: #494949; font-size: 12px;">For course description, see CSCE 378.</span>
+      </div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -1848,10 +2030,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 235, 310, or permission.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 310 or CSCE 311.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Outline of the general information retrieval problem, functional overview of information retrieval. Deterministic models of information retrieval systems; conventional Boolean, fuzzy set theory, p-norm, and vector space models. Probabilistic models. Text analysis and automatic indexing. Automatic query formulation. System-user adaptation and learning mechanisms. Intelligent information retrieval. Retrieval evaluation. Review of new theories and future directions. Practical experience with a working experimental information retrieval system.</div>
@@ -1890,10 +2072,12 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 310.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <span style="font-size: 12pt; font-family: Cambria;">CSCE 310 or CSCE 311.</span>
+      </div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">CSCE 413/813 involves practical experience with a working database system.</div>
@@ -1935,10 +2119,12 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 310 and 476/876.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <span style="font-size: 12pt; font-family: Cambria;">CSCE 235; CSCE 310 or CSCE 311.</span>
+      </div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Constraint processing for articulating and solving industrial problems such as design, scheduling, and resource allocation. The foundations of constraint satisfaction, its basic mechanisms (e.g., search, backtracking, and consistency-checking algorithms), and constraint programming languages. New directions in the field, such as strategies for decomposition and for symmetry identification.</div>
@@ -1977,10 +2163,12 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 310.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <span style="font-size: 12pt; font-family: Cambria;">CSCE 235; CSCE 310 or CSCE 311.</span>
+      </div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Mathematical preliminaries. Strategies for algorithm design, including divide-and-conquer, greedy, dynamic programming and backtracking. Mathematical analysis of algorithms. Introduction to NP-Completeness theory, including the classes P and NP, polynomial transformations and NP-complete problems.</div>
@@ -2018,10 +2206,12 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 235 and 310.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <span style="font-size: 12pt; font-family: Cambria;">CSCE 235; CSCE 310 or CSCE 311.</span>
+      </div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Turing machine model of computation: deterministic, nondeterministic, alternating, probabilistic. Complexity classes: Time and space bounded, deterministic, nondeterministic, probabilistic. Reductions and completeness. Complexity of counting problems. Non-uniformity. Lower bounds. Interactive proofs.</div>
@@ -2063,7 +2253,7 @@
     <dfRemoval>true</dfRemoval>
     <effectiveSemester>20112</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 310.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 235; CSCE 310 or CSCE 311.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Review of program language structures, translation, loading, execution, and storage allocation. Compilation of simple expressions and statements. Organization of a compiler including compile-time and run-time symbol tables, lexical scan, syntax scan, object code generation, error diagnostics, object code optimization techniques, and overall design.</div>
@@ -2102,10 +2292,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 310.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 235; CSCE 310 or CSCE 311.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Introduction to the classical theory of computer science. Finite state automata and regular languages, minimization of automata. Context free languages and pushdown automata, Turing machines and other models of computation, undecidable problems, introduction to computational complexity.</div>
@@ -2144,10 +2334,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 230 and 310; parallel STAT/MATH 380 or ELEC 305.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 230; CSCE 230L; CSCE 310 or CSCE 311; Prereq or Coreq: MATH/STAT 380 or ELEC 305.</div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">Credit in CSCE 830 will not count towards a graduate degree in computer science.</div>
@@ -2189,10 +2379,12 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 430; MATH 314; MATH/STAT 380 or ELEC 410.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <span style="font-size: 12pt; font-family: Cambria;">CSCE 430; MATH 314; MATH/STAT 380 or ELEC 305.</span>
+      </div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">CSCE 432 assumes knowledge of computer architecture, pipelining, memory hierarchy, instruction level parallelism, and compiler principles.</div>
@@ -2276,10 +2468,12 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 310 or equivalent programming experience.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <span style="font-size: 12pt; font-family: Cambria;">CSCE 310 or CSCE 311 or equivalent programming experience.</span>
+      </div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">CSCE 435/835 is designed for CSCE and non-CSCE students who have an interest in building or programming clusters to enhance their computationally-intense research.</div>
@@ -2309,7 +2503,7 @@
     </credits>
   </course>
   <course>
-    <title>Embedded Systems</title>
+    <title>Advanced Embedded Systems</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>CSCE</subject>
@@ -2321,14 +2515,16 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20101</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Senior standing; CSCE 230 and 310.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 236; CSCE 310 or equivalent; senior/graduate standing.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">
-        <span style="font-size: 11pt; font-family: ">Techniques in embedded hardware and software design. Transceiver design and low-power communication, sensors, and distributed sampling techniques. Operating systems, driver development, and debugging. Architectures of embedded systems such as wireless sensors and design. Development and implementation of these applications.</span>
+        <span style="font-size: medium;">
+          <span style="font-size: 15px;"> <span style="font-size: 12.0pt; font-family: ">Embedded hardware design techniques; transceiver design and low-power communication techniques; sensors and distributed sampling techniques; embedded software design and embedded operating systems; driver development; embedded debugging techniques;hardware and software architectures of embedded systems; and design, development, and implementation of embedded applications.</span></span>
+        </span>
       </div>
     </description>
     <campuses>
@@ -2375,6 +2571,52 @@
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">System-level and device-level topics in the design, implementation, and use of file and storage systems. Components and organization of storage systems, disk drive hardware and firmware, multi-disk systems, RAID's, local distributed and P2P file systems, and low-power design.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Sensor Networks</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CSCE</subject>
+        <courseNumber>438</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>CSCE</subject>
+        <courseNumber>838</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <span style="font-size: 12.0pt; font-family: ">CSCE230 and CSCE310 or equivalent; senior or graduate standing or instructor permission.</span>
+      </div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <span style="font-size: 12.0pt; font-family: ">Basics of sensor networks; theoretical and practical insight into wireless sensor networks, including low-power hardware and wireless communication principles; networking in wireless sensor networks; and applications of sensor networks, such as multimedia, underwater, and underground. A group project that provides hands-on interaction with a wireless sensor network testbed.</span>
+      </div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -2514,10 +2756,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 230 and 310.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 230; CSCE 230L; CSCE 310 or CSCE 311.</div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">Credit will not count towards a graduate degree in computer science and computer engineering.</div>
@@ -2604,10 +2846,12 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 310 or equivalent programming experience.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <span style="font-size: 12pt; font-family: Cambria;">CSCE 310 or CSCE 311 or equivalent programming experience.</span>
+      </div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Introduction to the fundamentals of parallel computation and applied algorithm design. Methods and models of modern parallel computation; general techniques for designing efficient parallel algorithms for distributed and shared memory multiprocessor machines; principles and practice in programming an existing parallel machine.</div>
@@ -2646,10 +2890,12 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 310 or equivalent programming experience.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <span style="font-size: 12pt; font-family: Cambria;">CSCE 310 or CSCE 311 or equivalent programming experience.</span>
+      </div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Introduction to basic concepts of system administration. Operating systems and networking overview. User and resource management. Networking, systems and internet related security. System services and common applications, web services, database services, and mail servers. Basic scripting in shell, <em>Perl</em>, and <em>Expect</em>. Systems administration on UNIX<sup><sub>®</sub></sup> platform.</div>
@@ -2688,10 +2934,12 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 230 and 310; STAT/MATH 380 or STAT 880.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <span style="font-size: 12pt; font-family: Cambria;">CSCE 230; CSCE 230L; CSCE 310 or CSCE 311; MATH/STAT 380 or ELEC 305.</span>
+      </div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Introduction to the architecture of communication networks and the rudiments of performance modeling. Circuit switching, packet switching, hybrid switching, protocols, local and metro area networks, wide area networks and the Internet, elements of performance modeling, and network programming. Network security, asynchronous transfer mode (ATM), optical, wireless, cellular, and satellite networks, and their performance studies.</div>
@@ -2730,10 +2978,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 310</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 310 or CSCE 311 or equivalent programming experience.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Paradigms, systems, and languages for Internet applications. Client-side amd server-side programming, object-based and event-based distributed programmming, and multi-tier applications. Coverage of specific technologies varies.</div>
@@ -2772,10 +3020,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 310 or permission.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 310 or CSCE 311.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Initial and ongoing software analysis, including metrics, requirements, correctness, performance, testing and validation. Frameworks and methods for software quality. Benchmarks and testing, processes for quality assurance, performance and quality models, software quality tools, testable designs and automated testing.</div>
@@ -2814,10 +3062,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
+    <dfRemoval>true</dfRemoval>
     <effectiveSemester>20112</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 310, MATH 314/814.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 310 or CSCE 311; MATH 314.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Display and recording devices; incremental plotters; point, vector, and character generation; grey scale displays, digitizers and scanners, digital image storage; interactive and passive graphics; pattern recognition; data structures and graphics software; the mathematics of three dimensions; homogeneous coordinates; projections and the hidden-line problem.</div>
@@ -2856,10 +3104,12 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 310; STAT/MATH 380 or STAT 880.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <span style="font-size: 12pt; font-family: Cambria;">CSCE 310 or CSCE 311; MATH/STAT 380.</span>
+      </div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Fundamentals and trends in bioinformatics. Scoring matrices and pairwise sequence alignments via dynamic programming, BLAST, and other heuristics. Multiple sequence alignments. Applications of machine learning methods such as hidden Markov models and support vector machines to biological problems such as family modeling and phylogeny.</div>
@@ -2898,10 +3148,12 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 156 or permission.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <span style="font-size: 12pt; font-family: Cambria;">CSCE 156 or CSCE 311 or equivalent programming experience.</span>
+      </div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Digital imaging systems, digital image processing, and low-level computer vision. Data structures, algorithms, and system analysis and modeling. Digital image formation and presentation, image statistics and descriptions, operations and transforms, and system simulation. Applications include system design, restoration and enhancement, reconstruction and geometric manipulation, compression, and low-level analysis for computer vision.</div>
@@ -2940,10 +3192,12 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 156 or permission.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <span style="font-size: 12pt; font-family: Cambria;">CSCE 156 or CSCE 311 or equivalent programming experience.</span>
+      </div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">High-level processing for image understanding and high-level vision. Data structures, algorithms, and modeling. Low-level representation, basic pattern-recognition and image-analysis techniques, segmentation, color, texture and motion analysis, and representation of 2-D and 3-D shape. Applications for content-based image retrieval, digital libraries, and interpretation of satellite imagery.</div>
@@ -2982,10 +3236,12 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 310; STAT/MATH 380 or STAT 880.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <span style="font-size: 12pt; font-family: Cambria;">CSCE 310 or CSCE 311; MATH/STAT 380.</span>
+      </div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">CSCE 474/874 requires the completion of a project involving the application of data mining techniques to real-world problems.</div>
@@ -3027,10 +3283,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 310.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 156 or CSCE 311.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Distributed problem solving and planning, search algorithms for agents, distributed rational decision making, learning multiagent systems, computational organization theory, formal methods in Distributed Artificial Intelligence, multiagent negotiations, emergent behaviors (such as ants and swarms), and Robocup technologies and real-time coalition formation.</div>
@@ -3069,13 +3325,67 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 310.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <span style="font-size: 12pt; font-family: Cambria;">CSCE 310 or CSCE 311.</span>
+      </div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Introduction to basic principles, techniques, and tools now being used in the area of machine intelligence. Languages for AI programming introduced with emphasis on LISP. Lecture topics include problem solving, search, game playing, knowledge representation, expert systems, and applications.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title></title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CSCE</subject>
+        <courseNumber>476</courseNumber>
+        <courseLetter>H</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <span style="line-height: 16px; font-family: 'Lucida Grande', Verdana, Arial; color: #494949; font-size: 12px;">CSCE 310 or CSCE 283H; Good standing in the University Honors Program or by instructor permission.</span>
+      </div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <span style="line-height: 16px; font-family: 'Lucida Grande', Verdana, Arial; color: #494949; font-size: 12px;">
+          <em>
+            <span style="line-height: 16px; background-color: transparent; font-style: italic; margin: 0px; outline-width: 0px; font-family: 'Lucida Grande', Verdana, Arial; color: #494949; font-size: 12px; vertical-align: baseline; background-origin: initial; background-clip: initial; padding: 0px;">CSCE 476H covers the same topics as CSCE 476, but in greater depth.</span>
+          </em>
+        </span>
+      </div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <span style="line-height: 16px; font-family: 'Lucida Grande', Verdana, Arial; color: #494949; font-size: 12px;">For course description, see CSCE 476.</span>
+      </div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -3111,10 +3421,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 310, MATH 314/814 or equivalent.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 310 or CSCE 311; MATH 314.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Introductory course on cryptography and computer security. Topics: classical cryptography (substitution, Vigenere, Hill and permutation ciphers, and the one-time pad); Block ciphers and stream ciphers; The Data Encryption Standard; Public-key cryptography, including RSA and El-Gamal systems; Signature schemes, including the Digital Signature Standard; Key exchange, key management and identification protocols.</div>
@@ -3153,13 +3463,15 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 310.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <span style="font-size: 12pt; font-family: Cambria;">CSCE 310 or CSCE 311.</span>
+      </div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">STAT 380/880 recommended.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">MATH/STAT 380 or ELEC 305 recommended.</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Introduction to the fundamentals and current trends in machine learning. Possible applications for game playing, text categorization, speech recognition, automatic system control, date mining, computational biology, and robotics. Theoretical and empirical analyses of decision trees, artificial neural networks, Bayesian classifiers, genetic algorithms, instance-based classifiers and reinforcement learning.</div>
@@ -3198,8 +3510,13 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <span style="font-size: 12pt; font-family: Cambria;">CSCE 310 or CSCE 311.</span>
+      </div>
+    </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Introduction to the concepts, design and application of connection-based computing begins by simulating neural networks, focusing on competing alternative network architectures, including sparse distributed memories, Hopfield networks, and the multilayered feed-forward systems. Construction and improvement of algorithms used for training of neural networks addressed to reduce training time and improve generalization. Algorithms for training and synthesizing effective networks implemented in high level language programs running on conventional computers. Emphasis on methods for synthesizing and simplifying network architectures for improved generalization. Application areas include: pattern recognition, computer vision, robotics medical diagnosis, weather and economic forecasting.</div>
     </description>
@@ -3277,14 +3594,14 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20092</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Senior standing; CSCE 361 and 486.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 486 (taken exactly one semester previous).</div>
     </prerequisite>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 487 uses a team approach to undertake a substantial, broadly-defined project requiring aggregation of the technical and analytical skills learned in other CSCE courses.</div>
-    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">A substantial computer science project requiring design, planning and scheduling, teamwork, written and oral communications, and the integration and application of technical and analytical aspects of computer science and software engineering.</div>
+    </description>
     <campuses>
       <campus>UNL</campus>
     </campuses>
@@ -3321,7 +3638,9 @@
     <dfRemoval>true</dfRemoval>
     <effectiveSemester>20112</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">JGEN 200; ELEC 362 and 476, or parallel; CSCE430/830 or parallel; formal admission to College<br/>of Engineering.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <span style="color: red;">CSCE 236; CSCE 351; formal admission to the College of Engineering; prereq or coreq: JGEN 300.</span>
+      </div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">CSCE 488 is a preparation course for the computer engineering Senior Design Project (CSCE 489). CSCE 488 and 489 are a sequence of courses that are to be taken in consecutive terms.</div>
@@ -3365,11 +3684,11 @@
     <dfRemoval>true</dfRemoval>
     <effectiveSemester>20112</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ELEC 362 and 475/875; CSCE 430/830 and 488; admission to the College of Engineering.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 488 (taken exactly one semester previous).</div>
     </prerequisite>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 488 must be taken first and in the term prior to registering for CSCE 489. Permission must be<br/> obtained to take CSCE 488 and 489 out of sequence. CSCE 489 uses a team approach.</div>
-    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">A substantial computer engineering project requiring hardware-software co-design, planning and scheduling, teamwork, written and oral communications, and the integration and application of technical and analytical aspects of computer science and computer engineering.</div>
+    </description>
     <campuses>
       <campus>UNL</campus>
     </campuses>
@@ -3450,9 +3769,9 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <effectiveSemester>20112</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 310 and permission.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 310 or CSCE 311.</div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">CSCE 491 requires a detailed project proposal and final report.</div>

@@ -10,7 +10,7 @@
     </courseCodes>
     <gradingType>letter grade only</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20102</effectiveSemester>
+    <effectiveSemester>20111</effectiveSemester>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">CYAF 150 is 'Letter Grade only'.</div>
     </notes>
@@ -39,6 +39,9 @@
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
+    <aceOutcomes>
+      <slo>8</slo>
+    </aceOutcomes>
   </course>
   <course>
     <title>Human Development and the Family</title>
@@ -1226,6 +1229,53 @@
     </credits>
   </course>
   <course>
+    <title>Working with GLBT Youth in Professional Contexts</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CYAF</subject>
+        <courseNumber>447</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>CYAF</subject>
+        <courseNumber>847</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>WMNS</subject>
+        <courseNumber>447</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>WMNS</subject>
+        <courseNumber>847</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">To introduce contextual considerations and research-informed guidelines for working with Gay, Lesbian, Bisexual, and Transgender youth in professional settings such as educational, mental health, medical, and community outreach.  The systemic context of GLBT youth, including developmental transitions, unique stressors, peer relationships, and familial environments, will be explored.  Ways to help GLBT youth thrive will be emphasized.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Learning and Teaching Principles and Practices in Family and Consumer Sciences</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -1910,6 +1960,54 @@
     </aceOutcomes>
   </course>
   <course>
+    <title>Student Teaching in an Infant/Toddler Program</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CYAF</subject>
+        <courseNumber>497</courseNumber>
+        <courseLetter>I</courseLetter>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>CYAF</subject>
+        <courseNumber>897</courseNumber>
+        <courseLetter>I</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>pass/no pass only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">CYAF 497A.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Pass/No Pass Only.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Integrated developmental theories and research evidence into the planning, implementation, and evaluation of individual and group experiences for children in an infant and toddler program.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>fld</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Lower Range Limit">3</credit>
+      <credit type="Upper Range Limit">6</credit>
+      <credit type="Per Career Limit">6</credit>
+    </credits>
+  </course>
+  <course>
     <title>Student Teaching in Family and Consumer Sciences</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -1954,6 +2052,46 @@
     </activities>
     <credits>
       <credit type="Single Value">10</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Student Teaching in Kindergarten</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CYAF</subject>
+        <courseNumber>497</courseNumber>
+        <courseLetter>K</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>pass/no pass only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">CYAF 497A.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Pass/No Pass Only.<br/></div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Integrating developmental theories and research evidence into the planning, implementation, and evaluation of individual and group experiences for children in a classroom experience.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>fld</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">6</credit>
     </credits>
   </course>
   <course>

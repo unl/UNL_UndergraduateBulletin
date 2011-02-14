@@ -22,7 +22,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>20111</effectiveSemester>
+    <effectiveSemester>20112</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">AGRO 131 or HORT 130 or BIOS 109.</div>
     </prerequisite>
@@ -36,16 +36,12 @@
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
     <termsOffered>
-      <term>Spring</term>
+      <term>Fall</term>
     </termsOffered>
     <activities>
       <activity>
-        <type>lab</type>
-        <hours>3</hours>
-      </activity>
-      <activity>
         <type>lec</type>
-        <hours>2</hours>
+        <hours>3</hours>
       </activity>
     </activities>
     <credits>
@@ -528,7 +524,7 @@
     </credits>
   </course>
   <course>
-    <title>Critical Thinking in Turfgrass Management</title>
+    <title>Turfgrass Systems Management</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>TLMT</subject>
@@ -554,18 +550,19 @@
         <subject>PGAM</subject>
         <courseNumber>427</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>TLMT</subject>
+        <courseNumber>827</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>20111</effectiveSemester>
+    <effectiveSemester>20112</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">9 hrs agricultural plant science and 3 hrs soil sciences.</div>
     </prerequisite>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">TLMT/AGRO/HORT/PGAM 427 involves class discussion, case studies, field trips, and demonstrations. Capstone course.</div>
-    </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Principles of turfgrass management and related contemporary issues. Concepts and problem solving approaches to turfgrass management.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Critical evaluation of turfgrass settings to create economical and environmentally friendly management systems for professionally managed turf areas.<br/></div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -579,11 +576,11 @@
     <activities>
       <activity>
         <type>lab</type>
-        <hours>2</hours>
+        <hours>3</hours>
       </activity>
       <activity>
         <type>lec</type>
-        <hours>2</hours>
+        <hours>3</hours>
       </activity>
     </activities>
     <credits>
@@ -592,58 +589,6 @@
     <aceOutcomes>
       <slo>10</slo>
     </aceOutcomes>
-  </course>
-  <course>
-    <title>Turfgrass and Landscape Integrated Pest Management </title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>TLMT</subject>
-        <courseNumber>440</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>HORT</subject>
-        <courseNumber>440</courseNumber>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>TLMT</subject>
-        <courseNumber>840</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>HORT</subject>
-        <courseNumber>840</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20091</effectiveSemester>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">TLMT/HORT 440/840 is offered as a five week course.</div>
-    </notes>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Principles of turfgrass and landscape plant pest management and tools to implement Integrated Pest Management (IPM) approaches.&amp;nbsp; Creating healthy landscapes and effectiveness of IPM alternatives.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>lec</type>
-        <hours>1</hours>
-      </activity>
-      <activity>
-        <type>rct</type>
-        <hours>2</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">1</credit>
-    </credits>
   </course>
   <course>
     <title>Critical Thinking in Landscape Management</title>
@@ -704,18 +649,6 @@
     <courseCodes>
       <courseCode type="home listing">
         <subject>TLMT</subject>
-        <courseNumber>480</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>AGRO</subject>
-        <courseNumber>480</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>HORT</subject>
-        <courseNumber>480</courseNumber>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>TLMT</subject>
         <courseNumber>880</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
@@ -728,14 +661,8 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20082</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">AGRO/HORT/SOIL 153.</div>
-    </prerequisite>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">TLMT/AGRO/HORT 480/880 is offered as a five week course.</div>
-    </notes>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Modified rootzones and their applications in the turfgrass and landscape management industry. Correct applications and construction techniques.</div>
     </description>

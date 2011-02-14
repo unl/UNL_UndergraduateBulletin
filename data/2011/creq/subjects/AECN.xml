@@ -99,7 +99,7 @@
     </credits>
   </course>
   <course>
-    <title>Agribusiness and Food Products Marketing</title>
+    <title>Agribusiness Entrepreneurship in Food Products Marketing</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>AECN</subject>
@@ -109,18 +109,19 @@
         <subject>MRKT</subject>
         <courseNumber>225</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>EAEP</subject>
+        <courseNumber>225</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">AECN 141 or ECON 210 or 212.</div>
-    </prerequisite>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">Pass/No Pass option not allowed for College of Business Administration majors.</div>
     </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Agricultural marketing throughout the food channel from producers of agricultural commodities to processors of food products and the final consumer. Case problems dealing with processors, food wholesaling, retailing and food service firms.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Marketing strategies and entrepreneurship ventures throughout a food systems channel from producers of agricultural commodities to processors of food products and the final consumer.  Entrepreneurship studies dealing with food processors, wholesaling, retailing and food service firms.  Create strategic marketing plan to introduce a new food product into a retail consumer market.<br/></div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -129,7 +130,7 @@
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
     <termsOffered>
-      <term>Fall</term>
+      <term>Spring</term>
     </termsOffered>
     <activities>
       <activity>
@@ -204,6 +205,55 @@
     </deliveryMethods>
     <termsOffered>
       <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Agribusiness Entrepreneurial Finance</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>AECN</subject>
+        <courseNumber>275</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>AGRO</subject>
+        <courseNumber>275</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>EAEP</subject>
+        <courseNumber>275</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>ENTR</subject>
+        <courseNumber>275</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>HORT</subject>
+        <courseNumber>275</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Overview of financial issues for agribusiness start-ups.  Business funding specific to new enterprises.  Case studies on financial practices for start-up firms.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
       <term>Spring</term>
     </termsOffered>
     <activities>
@@ -566,6 +616,9 @@
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
+    <aceOutcomes>
+      <slo>8</slo>
+    </aceOutcomes>
   </course>
   <course>
     <title>Independent Study in Agricultural Economics</title>

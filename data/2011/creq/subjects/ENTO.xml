@@ -1,42 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <courses xmlns="http://courseapproval.unl.edu/courses" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://courseapproval.unl.edu/courses /schema/courses.xsd">
   <course>
-    <title>Insects, Science and Society</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ENTO</subject>
-        <courseNumber>108</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">ENTO/BIOS 116 may be taken as an optional one credit hour lab.</div>
-    </notes>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Non-technical, entertaining introduction to insect biology, the impact of insects on human culture and history, topical issues, pesticides and the environment, new pests and diseases, and threats to ecosystems. Using insects as a focus, broader themes of biological diversity, evolution, biology and history, the nature of scientific inquiry, and the conflicts of science, technology, and society.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>lec</type>
-        <hours>3</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
     <title>Beekeeping</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -299,49 +263,6 @@
     </activities>
     <credits>
       <credit type="Single Value">2</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Horticultural Insects</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ENTO</subject>
-        <courseNumber>303</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">BIOS 101 and 101L, or ENTO 115 or permission.</div>
-    </prerequisite>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">ENTO 116 recommended. Credit towards the degree cannot be earned in both ENTO 303 and ENTO 403/803.</div>
-    </notes>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Biology and management of insects and other arthropods injurious and beneficial to horticulture.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>lab</type>
-        <hours>2</hours>
-      </activity>
-      <activity>
-        <type>lec</type>
-        <hours>2</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">3</credit>
     </credits>
   </course>
   <course>
@@ -766,53 +687,6 @@
     </credits>
   </course>
   <course>
-    <title>Comparative Insect Anatomy and Histology</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ENTO</subject>
-        <courseNumber>404</courseNumber>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>ENTO</subject>
-        <courseNumber>804</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">12 hrs entomology and/or biological sciences (zoology) or permission.</div>
-    </prerequisite>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Offered spring semester of odd-numbered calendar years.</div>
-    </notes>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Analysis and comparison of macro- and microanatomical features of major insect groups presented as the basis for understanding insect development, variation, homologies of structure, and synthesis of theories of evolution.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Spring</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>lab</type>
-        <hours>4</hours>
-      </activity>
-      <activity>
-        <type>lec</type>
-        <hours>2</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">4</credit>
-    </credits>
-  </course>
-  <course>
     <title>Insect Ecology</title>
     <courseCodes>
       <courseCode type="crosslisting">
@@ -1175,114 +1049,6 @@
     </activities>
     <credits>
       <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Veterinary Entonology/Ectoparasitology</title>
-    <courseCodes>
-      <courseCode type="crosslisting">
-        <subject>ASCI</subject>
-        <courseNumber>416</courseNumber>
-      </courseCode>
-      <courseCode type="home listing">
-        <subject>ENTO</subject>
-        <courseNumber>416</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>NRES</subject>
-        <courseNumber>416</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>VBMS</subject>
-        <courseNumber>416</courseNumber>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>ENTO</subject>
-        <courseNumber>816</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>ASCI</subject>
-        <courseNumber>816</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>NRES</subject>
-        <courseNumber>816</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>VBMS</subject>
-        <courseNumber>816</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">10 hrs entonology or biological science or related fields or permission.</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Arthropods that cause or vector diseases in animals. Arthropod recognition and biology, and disease epidemiology.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Spring</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>lec</type>
-        <hours>2</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">2</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Veterinary Entomology/Ectoparasitology Lab</title>
-    <courseCodes>
-      <courseCode type="crosslisting">
-        <subject>ASCI</subject>
-        <courseNumber>416</courseNumber>
-        <courseLetter>L</courseLetter>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>NRES</subject>
-        <courseNumber>416</courseNumber>
-        <courseLetter>L</courseLetter>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>VBMS</subject>
-        <courseNumber>416</courseNumber>
-        <courseLetter>L</courseLetter>
-      </courseCode>
-      <courseCode type="home listing">
-        <subject>ENTO</subject>
-        <courseNumber>416</courseNumber>
-        <courseLetter>L</courseLetter>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ENTO/ASCI/NRES/VBMS 416; or parallel.</div>
-    </prerequisite>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Spring</term>
-    </termsOffered>
-    <activities/>
-    <credits>
-      <credit type="Single Value">1</credit>
     </credits>
   </course>
   <course>

@@ -980,8 +980,8 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Admission to the College of Education and Human Sciences.</div>
     </prerequisite>
@@ -989,7 +989,7 @@
       <div xmlns="http://www.w3.org/1999/xhtml">Open only to middle grades teaching endorsement majors with a mathematics emphasis and/or to elementary education majors who want a mathematics concentration.</div>
     </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Using mathematics to model solutions or relationships for realistic problems taken from the middle school curriculum. The mathematics for these models are a mix of algebra, geometry, sequences (dynamical systems, queuing theory), functions (linear, exponential, logarithmic), and logic. Mathematical therminolgy, concepts and principles. Calculator based lab devices, graphing calculators, and computers as tools to collect data, to focus on concepts and ideas, and to made the mathematics more accessible.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Using mathematics to model solutions or relationships for realistic problems taken from the middle school curriculum. The mathematics for these models are a mix of algebra, geometry, sequences (dynamical systems, queuing theory), functions (linear, exponential, logarithmic), and logic. Mathematical terminology, concepts and principles. Calculator based lab devices, graphing calculators, and computers as tools to collect data, to focus on concepts and ideas, and to made the mathematics more accessible.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -1062,8 +1062,8 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Admission to the College of Education and Human Sciences.</div>
     </prerequisite>
@@ -1071,7 +1071,7 @@
       <div xmlns="http://www.w3.org/1999/xhtml">MATH 306 is open only to a middle school or elementary grades teaching endorsement program student.</div>
     </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Basic number theory results which are needed to understand the number theoretic RSA cryptography algorithm. Primes, properties of congruences, divisability tests, linear Diophantine equations, linear congruences, Chinese Remainder Theorem, Wilson's Theorem, Fermat's Little Theorem, Euler's Theorem, and Euler's phi function. Integers with connections to the middle school curriculum and mathematical reasoning.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Basic number theory results which are needed to understand the number theoretic RSA cryptography algorithm. Primes, properties of congruences, divisibility tests, linear Diophantine equations, linear congruences, Chinese Remainder Theorem, Wilson's Theorem, Fermat's Little Theorem, Euler's Theorem, and Euler's phi function. Integers with connections to the middle school curriculum and mathematical reasoning.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -1087,6 +1087,7 @@
     <activities>
       <activity>
         <type>lec</type>
+        <hours>3</hours>
       </activity>
     </activities>
     <credits>
@@ -1443,7 +1444,9 @@
     <dfRemoval>true</dfRemoval>
     <effectiveSemester>20112</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Grade of “Pass” or “C” or better in CSCE 150E or 155/155H; MATH 208/208H.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <span style="font-size: 12pt; font-family: Cambria;">CSCE 155A, CSCE 155E, CSCE 155H, CSCE 155N, or CSCE 155T; Math 107.</span>
+      </div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">Credit toward the degree may be earned in only one of the following: CSCE/MATH 340/840 and ENGM 480/880.</div>
@@ -1804,6 +1807,52 @@
       <term>Summer</term>
     </termsOffered>
     <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Theory of Linear Transformations</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MATH</subject>
+        <courseNumber>415</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>MATH</subject>
+        <courseNumber>815</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <span style="font-size: 7.5pt; color: #000000;">Math 314/814 and either Math 325 or Math 310.</span>
+      </div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <span style="font-size: small; font-family: Times New Roman;">Topics fundamental to the study of linear transformations on finite and infinite dimensional vector spaces over the real and complex number fields including: subspaces, direct sums, quotient spaces, dual spaces, matrix of a transformation, adjoint map, invariant subspaces, triangularization and diagonalization. Additional topics may include: Riesz Representation theorem, projections, normal operators, spectral theorem, polar decomposition, singular value decomposition, determinant as an n-linear functional, Cayley-Hamilton theorem, nilpotent operators, and Jordan canonical form.</span>
+      </div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
@@ -2522,6 +2571,88 @@
     <effectiveSemester>20111</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Semantical and syntactical developments of propositional logic, discussion of several propositional calculi, applications to Boolean algebra and related topics, semantics and syntax of first-order predicate logic including Godel's completeness theorem, the compactness theorem.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Introduction to Topology</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MATH</subject>
+        <courseNumber>471</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Math 314 and either Math 325 or 310.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Elementary point-set and geometric topology.  Point-set topics include topological spaces, continuous functions, homeomorphisms, connectedness, compactness, quotient spaces.  Geometric topology topics include Euler characteristic, classification of surfaces, and other applications. <br/></div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Probability Theory</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MATH</subject>
+        <courseNumber>487</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>MATH</subject>
+        <courseNumber>887</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <span style="font-size: small; font-family: Times New Roman;">Math 314 and Math 325.</span>
+      </div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Probability, conditional probability, Bayes' theorem, independence, discrete and continuous random variables, density and distribution functions, multivariate distributions, probability and moment generating functions, the central limit theorem, convergence of sequences of random variables, random walks, Poisson processes. and applications.</div>
     </description>
     <campuses>
       <campus>UNL</campus>

@@ -228,7 +228,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>20111</effectiveSemester>
+    <effectiveSemester>20112</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">AGRO 131 or HORT 130 or BIOS 109.</div>
     </prerequisite>
@@ -242,16 +242,12 @@
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
     <termsOffered>
-      <term>Spring</term>
+      <term>Fall</term>
     </termsOffered>
     <activities>
       <activity>
-        <type>lab</type>
-        <hours>3</hours>
-      </activity>
-      <activity>
         <type>lec</type>
-        <hours>2</hours>
+        <hours>3</hours>
       </activity>
     </activities>
     <credits>
@@ -720,7 +716,7 @@
     </credits>
   </course>
   <course>
-    <title>Critical Thinking in Turfgrass Management</title>
+    <title>Turfgrass Systems Management</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>TLMT</subject>
@@ -746,18 +742,19 @@
         <subject>PGAM</subject>
         <courseNumber>427</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>TLMT</subject>
+        <courseNumber>827</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>20111</effectiveSemester>
+    <effectiveSemester>20112</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">9 hrs agricultural plant science and 3 hrs soil sciences.</div>
     </prerequisite>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">TLMT/AGRO/HORT/PGAM 427 involves class discussion, case studies, field trips, and demonstrations. Capstone course.</div>
-    </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Principles of turfgrass management and related contemporary issues. Concepts and problem solving approaches to turfgrass management.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Critical evaluation of turfgrass settings to create economical and environmentally friendly management systems for professionally managed turf areas.<br/></div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -771,11 +768,11 @@
     <activities>
       <activity>
         <type>lab</type>
-        <hours>2</hours>
+        <hours>3</hours>
       </activity>
       <activity>
         <type>lec</type>
-        <hours>2</hours>
+        <hours>3</hours>
       </activity>
     </activities>
     <credits>

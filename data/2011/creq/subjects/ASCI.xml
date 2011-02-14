@@ -1268,6 +1268,43 @@
     </credits>
   </course>
   <course>
+    <title>Equestrian Team Horsemanship/Equitation</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ASCI</subject>
+        <courseNumber>361</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>pass/no pass only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20121</effectiveSemester>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">By permission only.  Pass/No Pass only.  May be repeated for a total of 4 credit hours.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Application of equestrian horsemanship and equitation skills through practices and horsemansip competitions in the Intercollegiate Horse Show Association.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lab</type>
+        <hours>1</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">1</credit>
+      <credit type="Per Career Limit">4</credit>
+    </credits>
+  </course>
+  <course>
     <title>Animal Welfare</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -1627,114 +1664,6 @@
     </activities>
     <credits>
       <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Veterinary Entonology/Ectoparasitology</title>
-    <courseCodes>
-      <courseCode type="crosslisting">
-        <subject>ASCI</subject>
-        <courseNumber>416</courseNumber>
-      </courseCode>
-      <courseCode type="home listing">
-        <subject>ENTO</subject>
-        <courseNumber>416</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>NRES</subject>
-        <courseNumber>416</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>VBMS</subject>
-        <courseNumber>416</courseNumber>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>ENTO</subject>
-        <courseNumber>816</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>ASCI</subject>
-        <courseNumber>816</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>NRES</subject>
-        <courseNumber>816</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>VBMS</subject>
-        <courseNumber>816</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">10 hrs entonology or biological science or related fields or permission.</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Arthropods that cause or vector diseases in animals. Arthropod recognition and biology, and disease epidemiology.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Spring</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>lec</type>
-        <hours>2</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">2</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Veterinary Entomology/Ectoparasitology Lab</title>
-    <courseCodes>
-      <courseCode type="crosslisting">
-        <subject>ASCI</subject>
-        <courseNumber>416</courseNumber>
-        <courseLetter>L</courseLetter>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>NRES</subject>
-        <courseNumber>416</courseNumber>
-        <courseLetter>L</courseLetter>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>VBMS</subject>
-        <courseNumber>416</courseNumber>
-        <courseLetter>L</courseLetter>
-      </courseCode>
-      <courseCode type="home listing">
-        <subject>ENTO</subject>
-        <courseNumber>416</courseNumber>
-        <courseLetter>L</courseLetter>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ENTO/ASCI/NRES/VBMS 416; or parallel.</div>
-    </prerequisite>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Spring</term>
-    </termsOffered>
-    <activities/>
-    <credits>
-      <credit type="Single Value">1</credit>
     </credits>
   </course>
   <course>

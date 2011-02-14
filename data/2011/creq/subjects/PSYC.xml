@@ -9,10 +9,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Pass/No pass only.  Students should take this course as earlier in their studies as possible, even if they have not taken PSYC 181.  This course does not apply to psychology majors.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Pass/No pass only.  Students should take this course as earlier in their studies as possible, even if they have not taken PSYC 181.  This course does not apply to the psychology major.</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Survey of careers frequently sought by psychology majors, and recommendations for course work and experience for attaining students' career goals. Includes departmental, college, and university resources of value to students' educational and career objectives, and preparation for graduate study in psychology and related fields.</div>
@@ -324,6 +324,46 @@
     </aceOutcomes>
   </course>
   <course>
+    <title>Drugs and behavior</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>PSYC</subject>
+        <courseNumber>265</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <span style="font-size: 11.0pt; font-family: ">PSYC 181 or 6 hrs of sociology or anthropology, or permission.</span>
+      </div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to factors relevant to drug use and substance-use disorders including biological, social, cognitive and clinical.<span> </span>Issues in research, theory and practice are considered.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Learning and Motivation</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -454,6 +494,9 @@
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
+    <aceOutcomes>
+      <slo>6</slo>
+    </aceOutcomes>
   </course>
   <course>
     <title>Developmental Psychology</title>
@@ -1160,6 +1203,52 @@
     </credits>
   </course>
   <course>
+    <title>Psychology of Family Violence</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>PSYC</subject>
+        <courseNumber>430</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>PSYC</subject>
+        <courseNumber>430</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20121</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Junior Standing</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <span style="font-size: 12pt; font-family: ">Overview of the multiple forms of family violence through a psychological perspective, including child maltreatment (physical abuse, neglect, sexual abuse, psychological maltreatment), intimate partner violence, sexual assault, and elder abuse.<span> </span>Scope of the problem, etiology, consequences, intervention, prevention, and current controversies are addressed.<span> </span></span>
+      </div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+      <deliveryMethod>Web</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Perspectives in Psychology</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -1360,6 +1449,48 @@
       <term>Summer</term>
     </termsOffered>
     <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Behavior Genetics</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>PSYC</subject>
+        <courseNumber>458</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>PSYC</subject>
+        <courseNumber>858</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">12 hrs psychology or 12 hrs biological sciences, including PSYC 373 or BIOS 373</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to concepts and research in behavior genetics. The role of heredity in normal and disordered behaviors will be examined, with a special emphasis on the mechanisms by which genetic variation influences individual differences in behavior.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>

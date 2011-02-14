@@ -1,6 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <courses xmlns="http://courseapproval.unl.edu/courses" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://courseapproval.unl.edu/courses /schema/courses.xsd">
   <course>
+    <title>Sculpture for Non-majors</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>SCLP</subject>
+        <courseNumber>111</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <em>Credit will not count toward the major in art.</em>
+      </div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to 3-dimensional sculpture and design using studio production, problem solving, critical dialog, and an overview of 20th century design and sculpture history.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>stu</type>
+        <hours>6</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+    <aceOutcomes>
+      <slo>7</slo>
+    </aceOutcomes>
+  </course>
+  <course>
     <title>Beginning Sculpture I</title>
     <courseCodes>
       <courseCode type="home listing">

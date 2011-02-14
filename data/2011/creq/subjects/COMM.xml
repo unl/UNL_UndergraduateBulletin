@@ -356,7 +356,7 @@
     </aceOutcomes>
   </course>
   <course>
-    <title>Small Group Problem Solving</title>
+    <title>Communicating in Small Groups</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>COMM</subject>
@@ -365,12 +365,15 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20092</effectiveSemester>
+    <effectiveSemester>20112</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Sophomore standing.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Theory and practice of the origin, purpose, methods, and procedures in group problem solving (discussion), and the theory of small group processes.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <span style="font-family: Times New Roman;">Practice and theory of communication to participate in and lead small group discussion and problem solving.</span>
+        <span style="font-family: Tms Rmn;"> <br/></span>
+      </div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -383,7 +386,12 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
@@ -460,6 +468,44 @@
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
+  </course>
+  <course>
+    <title>Visual Communication</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>COMM</subject>
+        <courseNumber>215</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Surveys theories of visual communication to improve critical thinking about images.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+    <aceOutcomes>
+      <slo>2</slo>
+    </aceOutcomes>
   </course>
   <course>
     <title>Introduction to Public Discourse</title>
@@ -567,10 +613,15 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20092</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Process and effects of interpersonal communication from earliest theories and practices to contemporary interaction analysis. Understanding and appreciation-not performance-are goals.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <span style="font-size: 12pt; font-family: ">
+          <span style="font-family: Times New Roman;">Understanding the processes and challenges of interpersonal communication across a variety of relationship types. </span>
+        </span>
+        <span style="font-size: 13pt; font-family: Arial;">Issues of interpersonal communication in personal and professional relationships.</span>
+      </div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -583,7 +634,12 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
@@ -684,10 +740,16 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to the concepts of nonverbal communication, including physical movement, facial expression, time, and space, gaining understanding of nonverbal communication from three perspectives: theory, research, and practical application.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <span style="font-family: ">
+          <span style="font-size: small;">
+            <span style="font-family: Times New Roman;">Introduction to the behaviors, theories, functions, and skills relevant to the enactment and interpretation of nonverbal communication. </span>
+          </span>
+        </span>
+      </div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -700,7 +762,12 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
@@ -874,6 +941,47 @@
     </credits>
   </course>
   <course>
+    <title>Communication and Aging</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>COMM</subject>
+        <courseNumber>368</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20113</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <span style="font-size: x-large;">
+          <span style="font-size: 19px;">
+            <span style="font-size: 11.0pt; font-family: ">Introduction to theories and concepts of intergenerational communication, perceptions of aging, and attitudes about age groups. Focus on cultural variations, media and technology, personal relationships, health and health care.</span>
+          </span>
+        </span>
+      </div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Family Communication</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -925,10 +1033,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Introductory account of the role of conflict in relational development, focusing on the manifestation of conflict through conversation, the alternative perspectives on strategizing conflict, and the current theoretical orientations to understanding relational conflict.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introductory account of the role of conflict in relationships, organizations, and communities.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -941,7 +1049,12 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
@@ -1400,99 +1513,21 @@
     </credits>
   </course>
   <course>
-    <title>Communication and Culture</title>
+    <title>Media and Culture</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>COMM</subject>
         <courseNumber>452</courseNumber>
       </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>COMM</subject>
-        <courseNumber>852</courseNumber>
-      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Junior standing; COMM 200 and 201; or permission.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Theories of communication and culture as the basis for investigation of human communication in a variety of cultural contexts and activities.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities/>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Interpersonal Communication Theory</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>COMM</subject>
-        <courseNumber>470</courseNumber>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>COMM</subject>
-        <courseNumber>870</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Junior standing; COMM 200 and 201; or permission.</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Central concerns of interpersonal communication theory and research and to the various approaches to issues in the interpersonal communication context.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities/>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Experimental Research</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>COMM</subject>
-        <courseNumber>482</courseNumber>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>COMM</subject>
-        <courseNumber>882</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Junior standing; COMM 200 and 201; or permission.</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to experimental approaches to research in communication. Nature of experimental research, design of research studies, data collection and interpretation.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Theories of mass media, digital media and culture as the basis for investigation of human communication in a variety of contexts and activities.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -1508,11 +1543,97 @@
     <activities>
       <activity>
         <type>lec</type>
+        <hours>3</hours>
       </activity>
     </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
+  </course>
+  <course>
+    <title>Interpersonal Communication Theory</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>COMM</subject>
+        <courseNumber>470</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Junior standing; COMM 200 and 201; or permission.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <span style="font-size: 12pt; font-family: ">
+          <span style="font-family: Times New Roman;">In-depth exploration of interpersonal communication theory and research across contexts. How people interact to create, maintain, and dissolve relationships.</span>
+        </span>
+      </div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>The Dark Side of Interpersonal Communication</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>COMM</subject>
+        <courseNumber>471</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Prereqs: Junior standing; COMM 200 or 201; or permission.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <strong>
+          <span style="font-family: ">
+            <span style="font-size: small;">
+              <span style="font-family: Times New Roman;">In-depth exploration of theories and research associated with interpersonal communication phenomena presumed to be destructive and dysfunctional. </span>
+            </span>
+          </span>
+        </strong>
+      </div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
   </course>
   <course>
     <title>Small Group Communication Theory</title>
@@ -1527,13 +1648,19 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Junior standing; COMM 200, 201 and 210; or permission.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Conceptual territory of small group communication via review of the small group communication literature. Develop an integrative picture of small groups.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <span style="font-family: ">
+          <span style="font-size: small;">
+            <span style="font-family: Times New Roman;">Overview of small group communication theory and research centered on how groups and teams are formed and enacted in interaction. </span>
+          </span>
+        </span>
+      </div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -1546,7 +1673,12 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
@@ -1751,6 +1883,9 @@
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
+    <aceOutcomes>
+      <slo>10</slo>
+    </aceOutcomes>
   </course>
   <course>
     <title>Special Topics in Communication Studies</title>

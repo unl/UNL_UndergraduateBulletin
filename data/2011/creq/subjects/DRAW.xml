@@ -72,54 +72,23 @@
     </credits>
   </course>
   <course>
-    <title>Life Drawing</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>DRAW</subject>
-        <courseNumber>202</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">DRAW 201 or permission.</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Instruction in drawing the human figure.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities/>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Advanced Drawing I</title>
+    <title>Advanced Drawing I: Life Drawing</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>DRAW</subject>
         <courseNumber>301</courseNumber>
       </courseCode>
     </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">DRAW 202 or permission.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">DRAW 201.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Advanced work in drawing with emphasis on individual expression.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <span>Advanced work in drawing with emphasis on drawing the human figure.</span>
+      </div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -132,9 +101,15 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>stu</type>
+        <hours>6</hours>
+      </activity>
+    </activities>
     <credits>
-      <credit type="Single Value">3</credit>
+      <credit type="Per Semester Limit">3</credit>
+      <credit type="Per Career Limit">12</credit>
     </credits>
   </course>
   <course>

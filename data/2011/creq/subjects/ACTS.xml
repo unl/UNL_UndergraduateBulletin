@@ -10,7 +10,10 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <effectiveSemester>20112</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Permission.</div>
+    </prerequisite>
     <campuses>
       <campus>UNL</campus>
     </campuses>
@@ -37,11 +40,14 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">MATH 208/208H and STAT 462, or parallel, and both with a grade of "Pass" or "C" or better.</div>
     </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Calculus-based probability, both univariate and multivariate, applications to risk management-related problems. Problems as posed in the <em>Society of Actuaries (SOA) Exam "P" and/or Casualty Actuarial Society (CAS) Exam "1"</em>. Determination of loss frequency distributions and their characteristics, expected value, variance, and percentiles. Determination of loss severity distributions and their characteristics, expected value, variance, and percentiles. Determination of loss sharing parameters, deductibles, and maximum payments.</div>
+    </description>
     <campuses>
       <campus>UNL</campus>
     </campuses>

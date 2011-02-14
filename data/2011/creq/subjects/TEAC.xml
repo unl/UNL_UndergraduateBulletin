@@ -979,13 +979,16 @@ parallel TEAC 297B, TEAC 308, and MATH 300.</div>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20103</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Parallel TEAC 497 (Student teaching). <br/></div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Parallel TEAC 497 (student teaching). <br/></div>
     </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Art: K-12 (1-3 cr, max 3) N. Secondary: Language Arts (1-3 cr, max 3) P. Secondary: Math (1-3 cr, max 3) Q. Middle School (1-3 cr, max 3)  R. Secondary: Modern Language (1-3 cr, max 3)  V. Secondary: Science (1-3 cr, max 3)  W. Secondary: Social Science (1-3 cr, max 3).  <br/>Only portion removed/changed:A. Elementary: K-6 (1-3 cr, max 3).</div>
+    </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Analysis of the school programs. Education and curriculum, teacher certification, teacher and student rights and responsibilities, proper conduct of teachers, selected legal aspects of education, methods of communicating with parents and community members, and current issues which impact education. A. Elementary: K-6 (1-3 cr, max 3) I. Art: K-12 (1-3 cr, max 3) N.	Secondary: Language Arts (1-3 cr, max 3) P.	Secondary: Math (1-3 cr, max 3) Q.	Middle School (1-3 cr, max 3)  R.	Secondary: Modern Language (1-3 cr, max 3)  V.	Secondary: Science (1-3 cr, max 3)  W.	Secondary: Social Science (1-3 cr, max 3)<br/></div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Analysis of school programs. Education and curriculum, teacher certification, teacher and student rights and responsibilities, proper conduct of teachers, selected legal aspects of education, methods of communicating with parents and community members, and current issues which impact education.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -997,12 +1000,62 @@ parallel TEAC 297B, TEAC 308, and MATH 300.</div>
       <term>Fall</term>
       <term>Spring</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
     <credits>
       <credit type="Lower Range Limit">1</credit>
       <credit type="Upper Range Limit">3</credit>
       <credit type="Per Career Limit">3</credit>
     </credits>
+  </course>
+  <course>
+    <title>Student Teaching Capstone Seminar</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>403</courseNumber>
+        <courseLetter>A</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Parellel TEAC497A.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Three seminars required per semester.  <span style="font-family: ">Capstone seminar for the elementary education program. The capstone course will accompany the student teaching experience. </span><span style="font-family: "><span style="font-family: ">This reflective study will be presented to peers and faculty in a conference format at the last seminar meeting. This conference format is intended to serve as a step in the transition from student to professional.</span></span></div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <span style="font-family: ">Examine and reflect on a theme with evidence from pre-service development and examine this topic through the entire length of coursework and field experiences.  </span>
+      </div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+    <aceOutcomes>
+      <slo>10</slo>
+    </aceOutcomes>
   </course>
   <course>
     <title>Improvement of Instruction in Elementary School Art</title>

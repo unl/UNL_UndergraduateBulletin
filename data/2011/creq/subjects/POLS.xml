@@ -157,6 +157,82 @@
     </credits>
   </course>
   <course>
+    <title>News Literacy, The Public, and Politics</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>POLS</subject>
+        <courseNumber>130</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20121</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Broad introduction to how the media work to disseminate information, how people use the media to gather information, and how politicians use the media to get their messages out. Evaluate bias and media effects from the perspective of journalists, politicians, and the public.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+    <aceOutcomes>
+      <slo>6</slo>
+    </aceOutcomes>
+  </course>
+  <course>
+    <title>Introduction to Biology, Psychology, and Politics</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>POLS</subject>
+        <courseNumber>150</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20121</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">An introduction to the central theories, methods, and findings in the application of biological and psychological techniques to politics.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+    <aceOutcomes>
+      <slo>6</slo>
+    </aceOutcomes>
+  </course>
+  <course>
     <title>International Relations</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -664,7 +740,7 @@
     </aceOutcomes>
   </course>
   <course>
-    <title>Genetics, Behavior and Politics</title>
+    <title>Genetics, Brains, and Politics</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>POLS</subject>
@@ -673,10 +749,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20092</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Role of genes in shaping human behavior, especially political behavior.  Basic principles of evolutionary psychology, brain anatomy, social behavior, and genetics.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Role of genes, neural activity, and physiology in shaping human behavior, especially political behavior.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -999,10 +1075,18 @@
         <courseNumber>277</courseNumber>
         <courseGroup>Foreign and Comparative Government</courseGroup>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>ETHN</subject>
+        <courseNumber>277</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>LAMS</subject>
+        <courseNumber>277</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Constitutional and political development of selected Latin American countries; contemporary problems and institutions. Latin America in world affairs with special reference to the inter-American relations and the United States.</div>
     </description>
@@ -1017,7 +1101,12 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
@@ -1269,13 +1358,12 @@
     <courseCodes>
       <courseCode type="home listing">
         <subject>POLS</subject>
-        <courseNumber>350</courseNumber>
-        <courseGroup>American Government, Politics and Law</courseGroup>
+        <courseNumber>347</courseNumber>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">American criminal justice system from arrest through sentencing. How the system appears to operate. How the system actually operates.</div>
     </description>
@@ -1294,6 +1382,46 @@
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
+  </course>
+  <course>
+    <title>Issues in Biology, Psychology, and Politics</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>POLS</subject>
+        <courseNumber>351</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">A consideration of special issues in the study of biology, psychology, and politics, including emotions, behavioral genetics, neuroimaging, decision-making, and research on human subjects.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+      <credit type="Per Semester Limit">6</credit>
+      <credit type="Per Career Limit">9</credit>
+    </credits>
+    <aceOutcomes>
+      <slo>6</slo>
+    </aceOutcomes>
   </course>
   <course>
     <title>Understanding World Politics</title>
@@ -2246,6 +2374,47 @@
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
+  </course>
+  <course>
+    <title>Seminar in Biology, Psychology, and Politics</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>POLS</subject>
+        <courseNumber>450</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20121</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">POLS 286 or permission of instructor.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Advanced consideration of the theories, methods, and findings in the application of biological and psychological techniques to politics.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+    <aceOutcomes>
+      <slo>6</slo>
+    </aceOutcomes>
   </course>
   <course>
     <title>International Political Economy</title>

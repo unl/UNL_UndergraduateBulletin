@@ -1017,6 +1017,48 @@
     </credits>
   </course>
   <course>
+    <title>Site Systems I: Materiality in Landscape Architecture</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>LARC</subject>
+        <courseNumber>230</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Admission to the College of Architecture.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Relationship between design and implementation through construction processes, detailing as an extension of design, landscape architectural materials, basic structural theory, detailing and structures, and technical specifications as a means of ensuring design intent.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lab</type>
+        <hours>2</hours>
+      </activity>
+      <activity>
+        <type>lec</type>
+        <hours>2</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>History of Landscape Architecture</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -1050,24 +1092,21 @@
     </credits>
   </course>
   <course>
-    <title>Design Studio II</title>
+    <title>Design Studio I:  Site Design</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>LARC</subject>
-        <courseNumber>311</courseNumber>
+        <courseNumber>310</courseNumber>
       </courseCode>
     </courseCodes>
     <gradingType>letter grade only</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20093</effectiveSemester>
+    <effectiveSemester>20112</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">LARC/ARCH/HORT 467/ARCH 567/867.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Formal acceptance into the Landscape Architecture program by faculty.</div>
     </prerequisite>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">LARC 311 is 'Letter grade only'.</div>
-    </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Intermediate, interdisciplinary studio. The integrated relationship between architecture and landscape design. Site circulation, land use regulation, water resource management, and land development.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Design studio that applies theoretical, analytical, conceptual, design, and communication skills in landscape architecture. Applied problem types at various scales, emphasize procedures and skills needed for the translation of research, site analysis, programming and conceptual ideas, from two-dimensional media to physical design of three-dimensional form. Emphasis is on the development of critical thinking, spatial literacy, and design process skills.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -1083,6 +1122,7 @@
     <activities>
       <activity>
         <type>stu</type>
+        <hours>12</hours>
       </activity>
     </activities>
     <credits>
@@ -1090,7 +1130,48 @@
     </credits>
   </course>
   <course>
-    <title>Landscape Architecture Technology I</title>
+    <title>Design Studio II: Site and Building</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>LARC</subject>
+        <courseNumber>311</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">LARC 310.<br/></div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">LARC 311 is 'Letter Grade Only.'</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Interdisciplinary studio. The integrated relationship between architecture and landscape design. Site circulation, land use regulation, water resource management, and land development.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>stu</type>
+        <hours>12</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">5</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Site Systems II:  Grading and Stormwater Management</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>LARC</subject>
@@ -1099,15 +1180,15 @@
     </courseCodes>
     <gradingType>letter grade only</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20091</effectiveSemester>
+    <effectiveSemester>20112</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Admission into 3rd year LARC.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">LARC 230; Concurrent registration in LARC 310.<span style="text-decoration: underline;"><br/></span></div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">LARC 330 is 'Letter Grade Only.'</div>
     </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Investigation and application of landscape architectural design theory and technology to aesthetic/functional landform manipulation and stormwater management.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Investigation and application of landscape architectural design analysis, process and technology to aesthetic/functional landform manipulation, earthwork estimation, and stormwater management.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -1135,7 +1216,7 @@
     </credits>
   </course>
   <course>
-    <title>Landscape Architecture Technology II</title>
+    <title>Site Systems III:  Layout, Utilities and Construction Documentation</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>LARC</subject>
@@ -1144,7 +1225,7 @@
     </courseCodes>
     <gradingType>letter grade only</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20091</effectiveSemester>
+    <effectiveSemester>20112</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">LARC 330.</div>
     </prerequisite>
@@ -1152,7 +1233,7 @@
       <div xmlns="http://www.w3.org/1999/xhtml">LARC 331 is 'Letter Grade Only.'</div>
     </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Investigation and application of landscape architectural design theory and technology to landscape utiltity/circulation systems, structures, site layout, materials, detailing, construction observation and implementation.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Investigation and application of landscape architectural design analysis, process and technology to landscape utility/circulation systems, structures, site layout, construction observation and implementation.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -1180,25 +1261,21 @@
     </credits>
   </course>
   <course>
-    <title>Introduction to Landscape Ecology</title>
+    <title>History and Theory in Contemporary Landscape Architecture</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>LARC</subject>
-        <courseNumber>389</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>NRES</subject>
-        <courseNumber>389</courseNumber>
+        <courseNumber>340</courseNumber>
       </courseCode>
     </courseCodes>
     <gradingType>letter grade only</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20092</effectiveSemester>
+    <effectiveSemester>20112</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">AGRO/HORT/SOIL 153 and BIOS/NRES 220. HORT/LARC/GEOG 200, CIVE 353/853/NRES853, and CRPL 470 recommended.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">LARC 240.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">The history, principles, and concepts of landscape ecology. Use and application of landscape structure and function in the planning, the design, and management of human and natural landscapes.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Examines significant techniques and strategies of landscape design that have prevailed over the past century through an inquiry of exemplary landscape, architecture and urban propositions. Investigation of key theoretical, historical, and ideological underpinnings of movements in western landscape architecture thought that took place during the twentieth century and their repercussions for contemporary landscape architecture practice.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -1213,12 +1290,8 @@
     </termsOffered>
     <activities>
       <activity>
-        <type>lab</type>
-        <hours>2</hours>
-      </activity>
-      <activity>
         <type>lec</type>
-        <hours>2</hours>
+        <hours>3</hours>
       </activity>
     </activities>
     <credits>
@@ -1276,7 +1349,7 @@
     </credits>
   </course>
   <course>
-    <title>Design Studio III</title>
+    <title>Design Studio III - Community Planning and Design</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>LARC</subject>
@@ -1284,16 +1357,16 @@
       </courseCode>
     </courseCodes>
     <gradingType>letter grade only</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20093</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">LARC 311; parallel LARC/NRES 389.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">LARC 311.</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">LARC 410 is 'Letter grade only'.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">LARC 410 is 'Letter Grade Only.'</div>
     </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Intermediate studio. Landscape design in relation to ecological and cultural landscape systems.  Projects that emerge from research explore how natural resources and cultural circumstances are addressed in landscape design.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Critical issues of human settlement and community development.  Community development or redevelopment projects are used to examine traditional and contemporary theory and practice and provide communities with an informed basis for coordinated public- and private-sector action.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -1309,6 +1382,7 @@
     <activities>
       <activity>
         <type>stu</type>
+        <hours>12</hours>
       </activity>
     </activities>
     <credits>
@@ -1316,7 +1390,7 @@
     </credits>
   </course>
   <course>
-    <title>Design Studio IV</title>
+    <title>Design Studio IV - Urban Design</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>LARC</subject>
@@ -1324,13 +1398,13 @@
       </courseCode>
     </courseCodes>
     <gradingType>letter grade only</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20093</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">LARC 410; parallel ARCH/LARC 461.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Parallel LARC 461.</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">LARC 411 is 'Letter grade only'.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">LARC 411 is 'Letter Grade Only.'</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Intermediate, interdisciplinary studio. Landscape design in the urban and suburban context.  Projects that emerge from research explore how landscape influences and organizes the contemporary city.</div>
@@ -1349,6 +1423,7 @@
     <activities>
       <activity>
         <type>stu</type>
+        <hours>12</hours>
       </activity>
     </activities>
     <credits>
@@ -1501,6 +1576,52 @@
     </credits>
   </course>
   <course>
+    <title>Introduction to Landscape Ecology</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>LARC</subject>
+        <courseNumber>487</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>NRES</subject>
+        <courseNumber>487</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">AGRO/HORT/SOIL 153 and BIOS/NRES 220. HORT/LARC/GEOG 200, CIVE 353/853/NRES853, and CRPL 470 recommended.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">The history, principles, and concepts of landscape ecology. Use and application of landscape structure, function in the planning, the design, and management of human and natural landscapes.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lab</type>
+        <hours>2</hours>
+      </activity>
+      <activity>
+        <type>lec</type>
+        <hours>2</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Selected Topics in Landscape Architecture</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -1595,7 +1716,7 @@
     </credits>
   </course>
   <course>
-    <title>Community Planning and Design</title>
+    <title>Design Studio V - Ecological Planning and Design</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>LARC</subject>
@@ -1604,15 +1725,15 @@
     </courseCodes>
     <gradingType>letter grade only</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20111</effectiveSemester>
+    <effectiveSemester>20112</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Admission to Bachelor of Landscape Architecture degree (BLA) program.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Parallel LARC 489.<br/></div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">LARC 510 is 'Letter Grade only'.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">LARC 510 is 'Letter Grade Only.'</div>
     </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Critical issues of human settlement and community development.  Community development or redevelopment projects are used to examine traditional and contemporary theory and practice and provide communities with an informed basis for coordinated public- and private-sector action.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Landscape design in relation to ecological and cultural landscape systems. Projects that emerge from research explore ecological design and the design and management of infrastructure and natural resources at both the site and regional scales. <br/></div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -1632,6 +1753,78 @@
     </activities>
     <credits>
       <credit type="Single Value">5</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Capstone Studio</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>LARC</subject>
+        <courseNumber>511</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">LARC 510, LARC 585.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">As the culmination of studying Landscape Architecture, students conduct a semester-long design project, initiated by the student and under the supervision and guidance of a faculty mentor.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>stu</type>
+        <hours>12</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">5</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Internship</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>LARC</subject>
+        <courseNumber>695</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Exposure to the landscape architectural profession through professional office experience or project work that polishes old skills and generates new competencies that cannot be duplicated in a traditional university setting.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>fld</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
     </credits>
   </course>
 </courses>

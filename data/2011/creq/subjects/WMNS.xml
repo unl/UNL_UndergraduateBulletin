@@ -672,12 +672,12 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>20092</effectiveSemester>
+    <effectiveSemester>20112</effectiveSemester>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">ENGL/WMNS 315A may not be offered every year.</div>
     </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Historical survey of women&amp;#39;s writings in English.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Historical survey of womens writings in English.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -1035,12 +1035,12 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <effectiveSemester>20112</effectiveSemester>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Arranged</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Prior arrangement with and permission of Women's &amp;amp; Gender Studies faculty member.</div>
     </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Individual internship experience, independent scholarship or other appropriate projects with an individual Women's Studies faculty member.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Independent scholarship or other appropriate project with an individual Women's and Gender Studies faculty member.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -1053,7 +1053,11 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>ind</type>
+      </activity>
+    </activities>
     <credits>
       <credit type="Lower Range Limit">1</credit>
       <credit type="Upper Range Limit">6</credit>
@@ -1108,13 +1112,13 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20092</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">Aimed primarily at Women's and Gender Studies majors and minors.  Other students may take the course with permission.</div>
     </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Topic varies. Focus is to integrate a variety of perspectives on Women's Studies; to tie together diverse materials that the student will have been presented with in the discipline oriented women's courses.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Topic varies. Focus is to integrate a variety of perspectives on Women's and Gender Studies; to tie together diverse materials that the student will have been presented with in the discipline oriented courses.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -1675,14 +1679,12 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20103</effectiveSemester>
+    <effectiveSemester>20112</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Econ 211 or 212.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">ECON 211 or ECON 212.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">
-        <span style="font-size: 11pt;">Introduction to the field of feminist economics.  Critiques of economic theory and methodology along with gender and household decision-making, the care economy, international migration, development, globalization, the feminization of labor markets, and macroeconomics. </span>
-      </div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to the field of feminist economics.  Critiques of economic theory and methodology along with gender and household decision-making, the care economy, international migration, development, globalization, the feminization of labor markets, and macroeconomics.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -1692,6 +1694,53 @@
     </deliveryMethods>
     <termsOffered>
       <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Working with GLBT Youth in Professional Contexts</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CYAF</subject>
+        <courseNumber>447</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>CYAF</subject>
+        <courseNumber>847</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>WMNS</subject>
+        <courseNumber>447</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>WMNS</subject>
+        <courseNumber>847</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">To introduce contextual considerations and research-informed guidelines for working with Gay, Lesbian, Bisexual, and Transgender youth in professional settings such as educational, mental health, medical, and community outreach.  The systemic context of GLBT youth, including developmental transitions, unique stressors, peer relationships, and familial environments, will be explored.  Ways to help GLBT youth thrive will be emphasized.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
     </termsOffered>
     <activities>
       <activity>

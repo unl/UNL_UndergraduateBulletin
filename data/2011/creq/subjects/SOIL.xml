@@ -824,10 +824,18 @@
         <subject>SOIL</subject>
         <courseNumber>477</courseNumber>
       </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>NRES</subject>
+        <courseNumber>877</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>GEOG</subject>
+        <courseNumber>867</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20112</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">AGRO/SOIL 153.</div>
     </prerequisite>
