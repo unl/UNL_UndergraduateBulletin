@@ -2,9 +2,9 @@
 UNL_Templates::$options['version']        = 3;
 UNL_Templates::$options['sharedcodepath'] = dirname(__FILE__).'/sharedcode';
 
-$url = UNL_UndergraduateBulletin_Controller::getURL();
+$url     = UNL_UndergraduateBulletin_Controller::getURL();
 $baseURL = UNL_UndergraduateBulletin_Controller::getBaseURL();
-$page = UNL_Templates::factory('Fixed');
+$page    = UNL_Templates::factory('Fixed');
 
 $page->doctitle     = '<title>UNL | Undergraduate Bulletin</title>';
 $page->titlegraphic = '<h1>Undergraduate Bulletin '.UNL_UndergraduateBulletin_Controller::getEdition()->getRange().'</h1>';
@@ -97,32 +97,7 @@ if ($context->getEdition()->year > UNL_UndergraduateBulletin_Editions::getLatest
 UNPUBLISHED;
 }
 
-$page->maincontentarea = '<div class="wdn_notice" id="officialMessage">
-                            <div class="minimize">
-                                <a href="#">Close message</a>
-                            </div>
-                            <div class="message">
-                                <div class="left" style="width:550px;padding-right:10px;">
-                                    <h4 style="color:#a5690c;">PLEASE NOTE:</h4>
-                                    <p>Students who enter a college within the University in the '.UNL_UndergraduateBulletin_Controller::getEdition()->getRange().' academic year are expected to complete the graduation requirements set forth by that college in this bulletin. <a href="'.$url.'bulletinrules" id="bulletinRules">Review information on the bulletin policies.</a></p>
-                                </div>
-                                <div class="right" id="previousBulletins" style="width:250px;padding-left:10px;">
-                                    <h6 style="color:#a5690c;">Previous Bulletins:</h6>
-                                    <ul>
-                                        <li><a href="'.$baseURL.'downloads/ugb0910.pdf" title="Undergraduate Bulletin 2009-2010, in PDF format (8.6MB)">2009-2010</a></li>
-                                        <li><a href="'.$baseURL.'downloads/ugb0809.pdf" title="Undergraduate Bulletin 2008-2009, in PDF format (8.7MB)">2008-2009</a></li>
-                                        <li><a href="'.$baseURL.'downloads/ugb0708.pdf" title="Undergraduate Bulletin 2007-2008, in PDF format (3.2MB)">2007-2008</a></li>
-                                        <li><a href="'.$baseURL.'downloads/ugb0607.pdf" title="Undergraduate Bulletin 2006-2007, in PDF format (3MB)">2006-2007</a></li>
-                                        <li><a href="'.$baseURL.'downloads/ugb0506.pdf" title="Undergraduate Bulletin 2005-2006, in PDF format (3MB)">2005-2006</a></li>
-                                        <li><a href="'.$baseURL.'downloads/ugb0405.pdf" title="Undergraduate Bulletin 2004-2005, in PDF format (3.3MB)">2004-2005</a></li>
-                                        <li><a href="'.$baseURL.'downloads/ugb0304.pdf" title="Undergraduate Bulletin 2003-2004, in PDF format (2.8MB)">2003-2004</a></li>
-                                        <li><a href="'.$baseURL.'downloads/ugb0203.pdf" title="Undergraduate Bulletin 2002-2003, in PDF format (3MB)">2002-2003</a></li>
-                                        <li><a href="'.$baseURL.'downloads/ugb0102.pdf" title="Undergraduate Bulletin 2001-2002, in PDF format (7.8MB)">2001-2002</a></li>
-                                        <li><a href="'.$baseURL.'downloads/ugb0001.pdf" title="Undergraduate Bulletin 2000-2001, in PDF format (10.6MB)">2000-2001</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>';
+$page->maincontentarea = '';
 $page->maincontentarea .= $savvy->render($context->output);
 
 $page->maincontentarea .= $savvy->render($context, 'EditionNotice.tpl.php');
