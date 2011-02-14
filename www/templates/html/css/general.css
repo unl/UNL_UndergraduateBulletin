@@ -90,6 +90,10 @@ Versioning Box
 	margin-bottom:0;
 }
 
+#versioning ul li.selected {
+	background: #f8f379;
+}
+
 #versioning .content {
     float:left;	
     background:#f8f9d1;
