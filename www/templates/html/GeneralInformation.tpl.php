@@ -16,7 +16,7 @@ UNL_UndergraduateBulletin_Controller::setReplacementData('breadcrumbs', '
 <div id="toc_bar"></div>
 <div id="long_content">
 <?php
-$contents = file_get_contents(UNL_UndergraduateBulletin_Controller::getDataDir().'/General Information.xhtml');
+$contents = file_get_contents(UNL_UndergraduateBulletin_Controller::getEdition()->getDataDir().'/General Information.xhtml');
 
 $xml = simplexml_load_string($contents);
 
