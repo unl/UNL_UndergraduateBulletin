@@ -55,15 +55,22 @@ class UNL_UndergraduateBulletin_EPUB_Utilities
     
     public static function linkHref($matches)
     {
-        $href = $matches[0];
-        $link_end = '';
-        $last_char = substr($href, -1);
-        switch ($last_char) {
-            case '.':
-            case ',':
-            case ')':
-                $href     = substr($href, 0, -1);
-                $link_end = $last_char;
+        $href      = $matches[0];
+        $link_end  = '';
+        $done      = false;
+        while (!$done) {
+            $last_char = substr($href, -1);
+            switch ($last_char) {
+                case '.':
+                case ',':
+                case ')':
+                    $href = substr($href, 0, -1);
+                    $link_end = $last_char . $link_end;
+                    $done = false;
+                    break;
+                default:
+                    $done = true;
+            }
         }
         return '<a href="'.$href.'">'.$href.'</a>'.$link_end;
     }
