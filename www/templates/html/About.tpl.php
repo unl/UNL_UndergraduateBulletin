@@ -155,9 +155,9 @@
     </ul>
     <h3 class="sec_header">ACADEMIC POLICIES</h3>
     <p>The <em>University of Nebraska-Lincoln</em> has academic policies and procedures. The user may view these policies in one of two ways: <br />
-        1. <em>ACDEMIC POLICIES</em> ON FIRST PAGE OF THE BULLETIN:&nbsp; </p>
+        1. <em>ACADEMIC POLICIES</em> ON FIRST PAGE OF THE BULLETIN:&nbsp; </p>
     <ul>
-        <li>The user may the ACADEMIC POLICIES item on the main page of the bulletin.&nbsp; </li>
+        <li>The user may click the ACADEMIC POLICIES item on the main page of the bulletin.&nbsp; </li>
     </ul>
     <p>The user is taken to the ACADEMIC POLICIES page where the University has listed all of its academic policies and procedures.&nbsp;&nbsp; Users may view the topics included on the ACADEMIC POLICIES page by selecting the CONTENTS box.&nbsp; This box contains a pull-down menu that contains the primary headers for the information included on the page.&nbsp; The user may also scroll through the contents using the down arrow key.&nbsp;&nbsp; <br />
         2. "ACADEMIC POLICIES" ON THE NAVIGATION BAR:</p>
