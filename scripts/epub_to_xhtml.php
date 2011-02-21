@@ -6,12 +6,14 @@ if (file_exists(dirname(__FILE__).'/../config.inc.php')) {
     include_once dirname(__FILE__).'/../config.sample.php';
 }
 
-foreach (new GlobIterator(UNL_UndergraduateBulletin_Controller::getEdition()->getDataDir().'/*/*.epub') as $file) {
-    writeXHTMLFile($file);
-}
-
-foreach (new GlobIterator(UNL_UndergraduateBulletin_Controller::getEdition()->getDataDir().'/*.epub') as $file) {
-    writeXHTMLFile($file);
+foreach (new UNL_UndergraduateBulletin_Editions() as $edition) {
+    foreach (new GlobIterator($edition->getDataDir().'/*/*.epub') as $file) {
+        writeXHTMLFile($file);
+    }
+    
+    foreach (new GlobIterator($edition->getDataDir().'/*.epub') as $file) {
+        writeXHTMLFile($file);
+    }
 }
 
 function writeXHTMLFile($file) {
