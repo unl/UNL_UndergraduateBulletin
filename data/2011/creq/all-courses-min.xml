@@ -536,12 +536,6 @@
         <courseNumber>860</courseNumber>
       </courseCode>
     </courseCodes>
-    <gradNotes>
-      <div xmlns="http://www.w3.org/1999/xhtml">ADVT 860 assignments include evaluating, selecting, and planning the use of media.</div>
-    </gradNotes>
-    <gradPrerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ADVT 357.</div>
-    </gradPrerequisite>
   </course>
   <course>
     <title>Japanese Visual Culture in Context</title>
@@ -3681,7 +3675,7 @@
     <courseCodes>
       <courseCode type="home listing">
         <subject>ANTH</subject>
-        <courseNumber>280</courseNumber>
+        <courseNumber>290</courseNumber>
       </courseCode>
     </courseCodes>
   </course>
@@ -3690,7 +3684,7 @@
     <courseCodes>
       <courseCode type="home listing">
         <subject>ANTH</subject>
-        <courseNumber>281</courseNumber>
+        <courseNumber>291</courseNumber>
       </courseCode>
     </courseCodes>
   </course>
@@ -4421,21 +4415,6 @@
     </courseCodes>
   </course>
   <course>
-    <title>Landscape Archaeology</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ANTH</subject>
-        <courseNumber>481</courseNumber>
-        <courseGroup>Archaeology</courseGroup>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>ANTH</subject>
-        <courseNumber>881</courseNumber>
-        <courseGroup>Archaeology</courseGroup>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
     <title>Research Methods in Anthropology</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -4568,6 +4547,20 @@
         <courseGroup>Laboratory and Field Training</courseGroup>
       </courseCode>
       <courseCode type="grad tie-in">
+        <subject>ANTH</subject>
+        <courseNumber>891</courseNumber>
+      </courseCode>
+    </courseCodes>
+  </course>
+  <course>
+    <title>Landscape Archaeology</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ANTH</subject>
+        <courseNumber>491</courseNumber>
+        <courseGroup>Laboratory and Field Training</courseGroup>
+      </courseCode>
+      <courseCode type="crosslisting">
         <subject>ANTH</subject>
         <courseNumber>891</courseNumber>
       </courseCode>
@@ -13055,6 +13048,9 @@
         <courseNumber>156</courseNumber>
       </courseCode>
     </courseCodes>
+    <aceOutcomes>
+      <slo>3</slo>
+    </aceOutcomes>
   </course>
   <course>
     <title>Honors: Computer Science II</title>
@@ -13065,6 +13061,9 @@
         <courseLetter>H</courseLetter>
       </courseCode>
     </courseCodes>
+    <aceOutcomes>
+      <slo>3</slo>
+    </aceOutcomes>
   </course>
   <course>
     <title>Honors: Computer Problem Solving Essentials</title>
@@ -16760,33 +16759,6 @@
     </aceOutcomes>
   </course>
   <course>
-    <title>Twentieth-Century Drama*</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ENGL</subject>
-        <courseNumber>201</courseNumber>
-        <courseLetter>B</courseLetter>
-        <courseGroup>Literary and Cultural Studies</courseGroup>
-      </courseCode>
-    </courseCodes>
-    <aceOutcomes>
-      <slo>5</slo>
-    </aceOutcomes>
-  </course>
-  <course>
-    <title>Modern British &amp; American Poetry*</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ENGL</subject>
-        <courseNumber>202</courseNumber>
-        <courseGroup>Literary and Cultural Studies</courseGroup>
-      </courseCode>
-    </courseCodes>
-    <aceOutcomes>
-      <slo>5</slo>
-    </aceOutcomes>
-  </course>
-  <course>
     <title>Introduction to Poetry</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -17062,17 +17034,6 @@
     </aceOutcomes>
   </course>
   <course>
-    <title>Literature of India*</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ENGL</subject>
-        <courseNumber>243</courseNumber>
-        <courseLetter>B</courseLetter>
-        <courseGroup>Literary and Cultural Studies</courseGroup>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
     <title>African American Literature</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -17254,17 +17215,6 @@
       <slo>5</slo>
       <slo>9</slo>
     </aceOutcomes>
-  </course>
-  <course>
-    <title>Canadian Literature</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ENGL</subject>
-        <courseNumber>245</courseNumber>
-        <courseLetter>K</courseLetter>
-        <courseGroup>Literary and Cultural Studies</courseGroup>
-      </courseCode>
-    </courseCodes>
   </course>
   <course>
     <title>Native American Women Writers</title>
@@ -17520,6 +17470,31 @@
         <courseGroup>Independent Study, Special Topics, Internships</courseGroup>
       </courseCode>
     </courseCodes>
+  </course>
+  <course>
+    <title>Twentieth-Century Drama*</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ENGL</subject>
+        <courseNumber>301</courseNumber>
+        <courseLetter>B</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <aceOutcomes>
+      <slo>5</slo>
+    </aceOutcomes>
+  </course>
+  <course>
+    <title>Modern Poetry</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ENGL</subject>
+        <courseNumber>302</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <aceOutcomes>
+      <slo>5</slo>
+    </aceOutcomes>
   </course>
   <course>
     <title>Poetry since 1960*</title>
@@ -17784,17 +17759,6 @@
     <aceOutcomes>
       <slo>5</slo>
     </aceOutcomes>
-  </course>
-  <course>
-    <title>Irish Literature*</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ENGL</subject>
-        <courseNumber>342</courseNumber>
-        <courseLetter>A</courseLetter>
-        <courseGroup>Literary and Cultural Studies</courseGroup>
-      </courseCode>
-    </courseCodes>
   </course>
   <course>
     <title>Ethnicity and Film</title>
@@ -22454,6 +22418,19 @@
         <subject>GEOG</subject>
         <courseNumber>831</courseNumber>
         <courseGroup>Human-Economic Geography</courseGroup>
+      </courseCode>
+    </courseCodes>
+  </course>
+  <course>
+    <title>GIS Programming for Advanced Spatial Analysis and Modeling</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>GEOG</subject>
+        <courseNumber>432</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>GEOG</subject>
+        <courseNumber>832</courseNumber>
       </courseCode>
     </courseCodes>
   </course>
@@ -28457,28 +28434,8 @@
   <course>
     <title>Visual and Aural Literacy: Photography</title>
     <courseCodes>
-      <courseCode type="crosslisting">
-        <subject>ARTP</subject>
-        <courseNumber>162</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>ARCH</subject>
-        <courseNumber>162</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>IDES</subject>
-        <courseNumber>162</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>LARC</subject>
-        <courseNumber>162</courseNumber>
-      </courseCode>
       <courseCode type="home listing">
         <subject>JOUR</subject>
-        <courseNumber>162</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>TXCD</subject>
         <courseNumber>162</courseNumber>
       </courseCode>
     </courseCodes>
@@ -38169,7 +38126,7 @@
     </courseCodes>
   </course>
   <course>
-    <title>Beginning Photography I</title>
+    <title>Photography for Non-majors</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>PHOT</subject>
@@ -38181,7 +38138,7 @@
     </aceOutcomes>
   </course>
   <course>
-    <title>Beginning Photography II</title>
+    <title>Beginning Photography-Digital</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>PHOT</subject>
@@ -38190,7 +38147,7 @@
     </courseCodes>
   </course>
   <course>
-    <title>Intermediate Photography</title>
+    <title>Beginning Photography-Wet Darkroom</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>PHOT</subject>
@@ -38199,16 +38156,7 @@
     </courseCodes>
   </course>
   <course>
-    <title>Color Photography</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>PHOT</subject>
-        <courseNumber>263</courseNumber>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
-    <title>Advanced Photography I</title>
+    <title>Intermediate Photography I</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>PHOT</subject>
@@ -38217,7 +38165,7 @@
     </courseCodes>
   </course>
   <course>
-    <title>Advanced Photography II</title>
+    <title>Intermediate Photography II</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>PHOT</subject>
@@ -38226,25 +38174,7 @@
     </courseCodes>
   </course>
   <course>
-    <title>Advanced Color Photography I</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>PHOT</subject>
-        <courseNumber>363</courseNumber>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
-    <title>Advanced Color Photography II</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>PHOT</subject>
-        <courseNumber>364</courseNumber>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
-    <title>Advanced Photography III</title>
+    <title>Advanced Photography I</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>PHOT</subject>
@@ -38253,7 +38183,7 @@
     </courseCodes>
   </course>
   <course>
-    <title>Advanced Photography IV</title>
+    <title>Advanced Photography II</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>PHOT</subject>
@@ -38262,40 +38192,11 @@
     </courseCodes>
   </course>
   <course>
-    <title>Advanced Color Photography III</title>
+    <title>Problems in Photography</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>PHOT</subject>
-        <courseNumber>463</courseNumber>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
-    <title>Advanced Color Photography IV</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>PHOT</subject>
-        <courseNumber>464</courseNumber>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
-    <title>Problems in Studio: Color Photography</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>PHOT</subject>
-        <courseNumber>498</courseNumber>
-        <courseLetter>A</courseLetter>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
-    <title>Problems in Studio: Black and White Photography</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>PHOT</subject>
-        <courseNumber>498</courseNumber>
-        <courseLetter>B</courseLetter>
+        <courseNumber>496</courseNumber>
       </courseCode>
     </courseCodes>
   </course>
@@ -43884,12 +43785,10 @@
       <courseCode type="home listing">
         <subject>SPED</subject>
         <courseNumber>463</courseNumber>
-        <courseLetter>X</courseLetter>
       </courseCode>
       <courseCode type="grad tie-in">
         <subject>SPED</subject>
         <courseNumber>863</courseNumber>
-        <courseLetter>X</courseLetter>
       </courseCode>
     </courseCodes>
   </course>
@@ -44433,6 +44332,16 @@
     <aceOutcomes>
       <slo>10</slo>
     </aceOutcomes>
+  </course>
+  <course>
+    <title>Secondary Student Teaching Seminar</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>403</courseNumber>
+        <courseLetter>B</courseLetter>
+      </courseCode>
+    </courseCodes>
   </course>
   <course>
     <title>Improvement of Instruction in Elementary School Art</title>
@@ -46523,6 +46432,21 @@
         <subject>UHON</subject>
         <courseNumber>499</courseNumber>
         <courseLetter>H</courseLetter>
+      </courseCode>
+    </courseCodes>
+  </course>
+  <course>
+    <title>The Honors Experience</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>UHON</subject>
+        <courseNumber>98</courseNumber>
+        <courseLetter>H</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>UHON</subject>
+        <courseNumber>98</courseNumber>
+        <courseLetter>X</courseLetter>
       </courseCode>
     </courseCodes>
   </course>

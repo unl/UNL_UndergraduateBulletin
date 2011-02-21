@@ -154,4 +154,52 @@
       <credit type="Per Career Limit">6</credit>
     </credits>
   </course>
+  <course>
+    <title>The Honors Experience</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>UHON</subject>
+        <courseNumber>98</courseNumber>
+        <courseLetter>H</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>UHON</subject>
+        <courseNumber>98</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>pass/no pass only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20113</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Honors Program students only.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Pass/No Pass only.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Topics vary.<br/></div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+      <deliveryMethod>Web</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>1</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">0</credit>
+    </credits>
+  </course>
 </courses>

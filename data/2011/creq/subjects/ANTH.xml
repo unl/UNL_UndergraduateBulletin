@@ -718,12 +718,12 @@
     <courseCodes>
       <courseCode type="home listing">
         <subject>ANTH</subject>
-        <courseNumber>280</courseNumber>
+        <courseNumber>290</courseNumber>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <effectiveSemester>20113</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Permission.</div>
     </prerequisite>
@@ -752,12 +752,12 @@
     <courseCodes>
       <courseCode type="home listing">
         <subject>ANTH</subject>
-        <courseNumber>281</courseNumber>
+        <courseNumber>291</courseNumber>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <effectiveSemester>20113</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Permission.</div>
     </prerequisite>
@@ -2771,49 +2771,6 @@
     </credits>
   </course>
   <course>
-    <title>Landscape Archaeology</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ANTH</subject>
-        <courseNumber>481</courseNumber>
-        <courseGroup>Archaeology</courseGroup>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>ANTH</subject>
-        <courseNumber>881</courseNumber>
-        <courseGroup>Archaeology</courseGroup>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20092</effectiveSemester>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Survey of theory, method, and practice in describing and interpreting archaeological landscapes.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>lab</type>
-      </activity>
-      <activity>
-        <type>lec</type>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">4</credit>
-    </credits>
-  </course>
-  <course>
     <title>Research Methods in Anthropology</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -3200,6 +3157,48 @@
       <credit type="Lower Range Limit">1</credit>
       <credit type="Upper Range Limit">6</credit>
       <credit type="Per Career Limit">24</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Landscape Archaeology</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ANTH</subject>
+        <courseNumber>491</courseNumber>
+        <courseGroup>Laboratory and Field Training</courseGroup>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>ANTH</subject>
+        <courseNumber>891</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20113</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Survey of theory, method, and practice in describing and interpreting archaeological landscapes.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lab</type>
+      </activity>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">4</credit>
     </credits>
   </course>
   <course>
