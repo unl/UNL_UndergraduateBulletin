@@ -24,7 +24,9 @@ class UNL_UndergraduateBulletin_MajorAliases
     static function search($query)
     {
         $aliases = self::getAliases();
-        
+
+        $query = strtolower($query);
+
         if (array_key_exists($query, $aliases)) {
             return $aliases[$query];
         }
