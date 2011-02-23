@@ -15,11 +15,7 @@
             <li>
           This information will be used to create a recruitment paragraph to enhance prospective and current students' knowledge of UNL's academic offerings by creating a majors overview that's inviting, accurate, and informative. This information will be used for recruitment and retention purposes for Undergraduate Office of Admissions materials and the Undergraduate Bulletin.
           </li>
-            <li>
-            <label class="ss-q-title" for="entry_10">User ID</label>
-            <label class="ss-q-help" for="entry_10"></label>
-            <input type="text" name="entry.10.single" value="" class="ss-q-short" id="entry_10">
-            </li>
+            <input type="hidden" name="entry.10.single" value="<?php echo UNL_UndergraduateBulletin_Editor::get(); ?>" class="ss-q-short" id="entry_10">
 
                     <li>
           <label class="ss-q-title" for="entry_9"> <span class="required">*</span>What is the title of the area of study you&#39;re describing?</label>
