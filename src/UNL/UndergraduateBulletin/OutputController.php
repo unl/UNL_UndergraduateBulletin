@@ -45,7 +45,11 @@ class UNL_UndergraduateBulletin_OutputController extends Savvy
             || ($object                    instanceof Savvy_ObjectProxy
                 && $object->getRawObject() instanceof UNL_UndergraduateBulletin_CacheableInterface)) {
             $key = $object->getCacheKey();
-            
+
+            if (!$key) {
+                $key .= UNL_UndergraduateBulletin_Controller::getEdition()->year;
+            }
+
             // We have a valid key to store the output of this object.
             if ($key !== false && $data = self::getCacheInterface()->get($key)) {
                 // Tell the object we have cached data and will output that.
