@@ -1,5 +1,5 @@
 <?php
-class UNL_UndergraduateBulletin_Editor
+class UNL_UndergraduateBulletin_Editor extends UNL_UndergraduateBulletin_LoginRequired
 {
     protected static $auth;
 
@@ -9,6 +9,10 @@ class UNL_UndergraduateBulletin_Editor
      * @var false|string
      */
     protected static $user = false;
+
+    function __postConstruct()
+    {
+    }
 
     /**
      * Log in the current user
