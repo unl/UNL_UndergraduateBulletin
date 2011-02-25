@@ -5,7 +5,7 @@ class UNL_UndergraduateBulletin_Router
     {
 
         if (!empty($_SERVER['QUERY_STRING'])) {
-            $requestURI = substr($requestURI, 0, strlen($_SERVER['QUERY_STRING'])*-1-1);
+            $requestURI = substr($requestURI, 0, -strlen(urldecode($_SERVER['QUERY_STRING'])) - 1);
         }
 
         // Trim the base part of the URL
