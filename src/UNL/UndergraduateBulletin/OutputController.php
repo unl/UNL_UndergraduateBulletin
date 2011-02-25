@@ -46,7 +46,7 @@ class UNL_UndergraduateBulletin_OutputController extends Savvy
                 && $object->getRawObject() instanceof UNL_UndergraduateBulletin_CacheableInterface)) {
             $key = $object->getCacheKey();
 
-            if (!$key) {
+            if (false !== $key) {
                 $key .= UNL_UndergraduateBulletin_Controller::getEdition()->year;
             }
 
