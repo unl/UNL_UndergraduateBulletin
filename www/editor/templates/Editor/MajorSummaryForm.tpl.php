@@ -13,7 +13,7 @@
         <legend>Program of study recruitment / retention descriptions</legend>
         <ol>
             <li>
-          This information will be used to create a recruitment paragraph to enhance prospective and current students' knowledge of UNL's academic offerings by creating a majors overview that's inviting, accurate, and informative. This information will be used for recruitment and retention purposes for Undergraduate Office of Admissions materials and the Undergraduate Bulletin.
+          This information will be used to create a recruitment paragraph to enhance prospective and current students' knowledge of UNL's academic offerings by creating a majors overview that's inviting, accurate, and informative.
           </li>
             <input type="hidden" name="entry.10.single" value="<?php echo UNL_UndergraduateBulletin_Editor::get(); ?>" class="ss-q-short" id="entry_10">
 
@@ -22,7 +22,12 @@
           <label style="font-size:10px;" for="entry_9">Major, minor, or program name</label>
           <input type="text" name="entry.9.single" value="" class="ss-q-short" id="entry_9">
                     </li>
-
+			<li>
+			<label class="ss-q-title" for="entry_11">Please provide a web address (URL) for this major. </label>
+			<label style="font-size:10px;" for="entry_9">Use the URL of a prospective student-focused web page you have on your site.</span>
+		</label>
+		<input name="entry.11.single" value="" class="ss-q-short" id="entry_11" type="text" />
+</li>
                     <li>
           <label class="ss-q-title" for="entry_0"><span class="required">*</span>What knowledge / experience / preparation do students get from this major?</label>
           <label class="ss-q-help" for="entry_0"></label>
