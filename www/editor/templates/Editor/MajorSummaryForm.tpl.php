@@ -20,7 +20,14 @@
                     <li>
           <label class="ss-q-title" for="entry_9"> <span class="required">*</span>What is the title of the area of study you&#39;re describing?</label>
           <label style="font-size:10px;" for="entry_9">Major, minor, or program name</label>
-          <input type="text" name="entry.9.single" value="" class="ss-q-short" id="entry_9">
+          <select name='entry.9.single'>
+            <?php 
+            $majors = new UNL_UnderGraduateBulletin_MajorList;
+            foreach($majors as $major) {
+                echo "<option value='" . htmlspecialchars($major->title, ENT_QUOTES) . "'/>" . htmlspecialchars($major->title, ENT_QUOTES) . "<br/>";
+            }
+            ?>
+            </select>
                     </li>
 			<li>
 			<label class="ss-q-title" for="entry_11">Please provide a web address (URL) for this major. </label>
