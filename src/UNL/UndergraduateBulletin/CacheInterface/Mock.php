@@ -1,5 +1,5 @@
 <?php
-class UNL_UnderGraduateBulletin_CacheInterface_Mock implements UNL_UndergraduateBulletin_CacheInterface
+class UNL_UndergraduateBulletin_CacheInterface_Mock implements UNL_UndergraduateBulletin_CacheInterface
 {
     /**
      * Callback function keys will be sent to
