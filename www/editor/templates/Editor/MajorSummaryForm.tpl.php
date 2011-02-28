@@ -10,7 +10,7 @@
 <form class="zenform" action="https://spreadsheets.google.com/formResponse?formkey=dFNEZlRfTjlsS0lrMk94YThOV0lsNUE6MQ&amp;ifq" method="POST" id="ss-form">
 
 <fieldset>
-        <legend>Program of study recruitment / retention descriptions</legend>
+        <legend>Program of study recruitment descriptions</legend>
         <ol>
             <li>
           This information will be used to create a recruitment paragraph to enhance prospective and current students' knowledge of UNL's academic offerings by creating a majors overview that's inviting, accurate, and informative.
