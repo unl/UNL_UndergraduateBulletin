@@ -43,7 +43,7 @@ if (!count($context->results)) {
             $pager->total  = count($context);
             $pager->limit  = $context->options['limit'];
             $pager->offset = $context->options['offset'];
-            $pager->url    = $url.'courses/search?q='.$context->options['q'];
+            $pager->url    = $url.'courses/search?q='.urlencode($context->options['q']);
             echo $savvy->render($pager, 'PaginationLinks.tpl.php');
         }
         echo '</div>';
