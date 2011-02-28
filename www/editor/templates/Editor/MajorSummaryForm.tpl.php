@@ -15,7 +15,8 @@
             <li>
           This information will be used to create a recruitment paragraph to enhance prospective and current students' knowledge of UNL's academic offerings by creating a majors overview that's inviting, accurate, and informative.
           </li>
-            <input type="hidden" name="entry.10.single" value="<?php echo UNL_UndergraduateBulletin_Editor::get(); ?>" class="ss-q-short" id="entry_10">
+          <li>
+            <input type="hidden" name="entry.10.single" value="<?php echo UNL_UndergraduateBulletin_Editor::get(); ?>" class="ss-q-short" id="entry_10" />
 
                     <li>
           <label class="ss-q-title" for="entry_9"> <span class="required">*</span>What is the title of the area of study you&#39;re describing?</label>
@@ -31,8 +32,7 @@
                     </li>
 			<li>
 			<label class="ss-q-title" for="entry_11">Please provide a web address (URL) for this major. </label>
-			<label style="font-size:10px;" for="entry_9">Use the URL of a prospective student-focused web page you have on your site.</span>
-		</label>
+			<label style="font-size:10px;" for="entry_9">Use the URL of a prospective student-focused web page you have on your site.</label>
 		<input name="entry.11.single" value="" class="ss-q-short" id="entry_11" type="text" />
 </li>
                     <li>
@@ -87,9 +87,9 @@
             <label class="ss-q-help" for="entry_7"></label>
             <textarea name="entry.7.single" rows="8" cols="75" class="ss-q-long" id="entry_7"></textarea>
             </li>
-
-          <input type="hidden" name="pageNumber" value="0">
-          <input type="hidden" name="backupCache" value="">
+	</ol>
+          <input type="hidden" name="pageNumber" value="0" />
+          <input type="hidden" name="backupCache" value="" />
           
-          <input type="submit" name="submit" value="Submit"></fieldset></form>
+          <input type="submit" name="submit" value="Submit" /></fieldset></form>
 </div>
