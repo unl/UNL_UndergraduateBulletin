@@ -22,7 +22,7 @@
           <label style="font-size:10px;" for="entry_9">Major, minor, or program name</label>
           <select name='entry.9.single'>
             <?php 
-            $majors = new UNL_UnderGraduateBulletin_MajorList;
+            $majors = new UNL_UndergraduateBulletin_MajorList;
             foreach($majors as $major) {
                 echo "<option value='" . htmlspecialchars($major->title, ENT_QUOTES) . "'/>" . htmlspecialchars($major->title, ENT_QUOTES) . "<br/>";
             }
