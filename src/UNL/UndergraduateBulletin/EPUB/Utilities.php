@@ -85,8 +85,21 @@ class UNL_UndergraduateBulletin_EPUB_Utilities
      */
     public static function addCourseLinks($text)
     {
-        
-        $text = preg_replace_callback('/([A-Z]{3,4})(((,?\s+)|(,? or )|(\/)|(,? and ))([0-9]{2,4}[A-Z]?))+/', array('UNL_UndergraduateBulletin_EPUB_Utilities', 'linkCourse'), $text);
+
+        $text = preg_replace_callback('/'
+            . "([A-Z]{3,4})             # subject code, eg: CSCE \n"
+            . "("
+                . "("
+                    . "(,?\s+)          # eg: 340, 440 \n"
+                    . "|(\/)            # eg: 340\/440 \n"
+                    . "|(,?\ or\ )      # eg: , 340 or 440 \n"
+                    . "|(,?\ and\ )     # eg: , 340 and 440 \n"
+                . ")"
+                . "([0-9]{2,4}[A-Z]?)   # course number, with optional letter \n"
+            . ")+"
+            . "[\.\s\<\,\;\/\)]         # optional trailing characters we'd like to exclude \n"
+            . "/x",
+            array('UNL_UndergraduateBulletin_EPUB_Utilities', 'linkCourse'), $text);
 
         return $text;
     }
