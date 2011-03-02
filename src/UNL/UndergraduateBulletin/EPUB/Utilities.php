@@ -1,6 +1,21 @@
 <?php
+/**
+ * The EPUB files exported from InDesign contain simple markup with a few class names.
+ * 
+ * This class contains simple methods for linking URLs within the text, courses,
+ * and other minor markup cleanup.
+ * 
+ * @author bbieber
+ */
 class UNL_UndergraduateBulletin_EPUB_Utilities
 {
+	/**
+	 * Overall method which applies all formatting
+	 * 
+	 * @param string $html The markup
+	 * 
+	 * @return string html
+	 */
     public static function format($html)
     {
         $html = self::convertHeadings($html);
@@ -9,7 +24,15 @@ class UNL_UndergraduateBulletin_EPUB_Utilities
         $html = self::addCourseLinks($html);
         return $html;
     }
-    
+
+    /**
+     * Finds www.unl.edu and http://../ within the text and wraps it in an
+     * anchor tag.
+     * 
+     * @param string $html The markup
+     * 
+     * @return string html
+     */
     public static function linkURLs($html)
     {
         $html = preg_replace('/\s(www\.unl\.edu.*)/', ' http://$1', $html);
@@ -32,7 +55,17 @@ class UNL_UndergraduateBulletin_EPUB_Utilities
         $html = str_replace('<table>', '<table class="zentable cool">', $html);
         return $html;
     }
-    
+
+    /**
+     * Most majors contain simple tables in text with credits that add up to a total.
+     * 
+     * These "leaders" are used as a series of dots (broder-bottom: dotted..), 
+     * which leads the user to the credits at the end of the line.
+     * 
+     * @param string $html Basic markup
+     * 
+     * @return string html
+     */
     public static function addLeaders($html)
     {
         $html = preg_replace('/<br \/>/', ' ', $html);
@@ -44,7 +77,12 @@ class UNL_UndergraduateBulletin_EPUB_Utilities
         $html = preg_replace('/<p class="(requirement-sec-1)">(.*)\s([\d]{2,3})[\s]*<\/p>/', '<p class="$1"><span class="req_desc">$2</span><span class="leader"></span><span class="req_value">$3</span></p>', $html);
         return $html;
     }
-    
+
+    /**
+     * Link courses found within the text
+     * 
+     * @param string $text
+     */
     public static function addCourseLinks($text)
     {
         
@@ -52,7 +90,12 @@ class UNL_UndergraduateBulletin_EPUB_Utilities
 
         return $text;
     }
-    
+
+    /**
+     * callback for the linkURLs preg match function
+     *
+     * @param array $matches
+     */
     public static function linkHref($matches)
     {
         $href      = $matches[0];
