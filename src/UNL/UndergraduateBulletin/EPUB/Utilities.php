@@ -97,7 +97,7 @@ class UNL_UndergraduateBulletin_EPUB_Utilities
                 . ")"
                 . "([0-9]{2,4}[A-Z]?)   # course number, with optional letter \n"
             . ")+"
-            . "[\.\s\<\,\;\/\)]         # optional trailing characters we'd like to exclude \n"
+            . "([\.\s\<\,\;\/\)]|$)     # characters which signal the end of a course sequence \n"
             . "/x",
             array('UNL_UndergraduateBulletin_EPUB_Utilities', 'linkCourse'), $text);
 
@@ -138,6 +138,7 @@ class UNL_UndergraduateBulletin_EPUB_Utilities
      */
     public static function linkCourse($matches)
     {
+    	
         switch($matches[1]) {
             case 'ACE':
             case 'ACT':
