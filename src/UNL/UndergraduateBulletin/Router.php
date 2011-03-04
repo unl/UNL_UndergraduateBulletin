@@ -7,10 +7,8 @@ class UNL_UndergraduateBulletin_Router
         if (!empty($_SERVER['QUERY_STRING'])) {
             $requestURI = substr($requestURI, 0, -strlen(urldecode($_SERVER['QUERY_STRING'])) - 1);
         }
-
         // Trim the base part of the URL
         $requestURI = substr($requestURI, strlen(UNL_UndergraduateBulletin_Controller::getBaseURL()));
-
         $options = array();
 
         if (preg_match('/^([\d]{4})$/', $requestURI, $matches)) {
@@ -33,6 +31,9 @@ class UNL_UndergraduateBulletin_Router
         }
 
         switch(true) {
+            case preg_match('/^developers\/?$/', $requestURI):
+                $options['view'] = 'developers';
+                break;
             case preg_match('/^courses\/$/', $requestURI, $matches):
                 $options['view'] = 'subjects';
                 break;

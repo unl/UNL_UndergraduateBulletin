@@ -40,6 +40,7 @@ class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_
         'search'        => 'UNL_UndergraduateBulletin_Search',
         'bulletinrules' => 'UNL_UndergraduateBulletin_BulletinRules',
         'editions'      => 'UNL_UndergraduateBulletin_Editions',
+        'developers'    => 'UNL_UndergraduateBulletin_Developers'
         );
     
     protected static $replacement_data = array();
