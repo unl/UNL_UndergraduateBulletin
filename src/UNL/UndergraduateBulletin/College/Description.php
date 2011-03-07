@@ -7,32 +7,17 @@ class UNL_UndergraduateBulletin_College_Description
     
     public $majors = array();
     
-    protected static $files = array(
-        'Architecture'                              => 'ARCH College.xhtml',
-        'Agricultural Sciences & Natural Resources' => 'CASNR College Page.xhtml',
-        'Arts & Sciences'                           => 'ASC College page.xhtml',
-        'Business Administration'                   => 'CBA College page.xhtml',
-        'Division of General Studies'               => 'Division of General Studies.xhtml',
-        'Education & Human Sciences'                => 'CEHS.xhtml',
-        'Engineering'                               => 'College of Engineering.xhtml',
-        'Fine & Performing Arts'                    => 'FPA College.xhtml',
-        'Journalism & Mass Communications'          => 'College of Jour & Mass Comm.xhtml',
-        'Libraries'                                 => 'LIBR College page.xhtml',
-        'Office of Undergraduate Studies'           => 'Office of Undergrad Studies.xhtml',
-        'Public Affairs & Community Service'        => 'CPACS College page.xhtml',
-        'Reserve Officers Training Corps (ROTC)'    => 'ROTC College page.xhtml',
-    );
-    
     protected $_xml;
     
     function __construct(UNL_UndergraduateBulletin_College $college)
     {
         $this->college = $college;
 
-        if (!isset(self::$files[$college->name])) {
+        $file = UNL_UndergraduateBulletin_Controller::getEdition()->getDataDir().'/colleges/'.$college->name.'.xhtml';
+
+        if (!file_exists($file)) {
             throw new Exception('No description for the "'.$college->name.'" college.', 404);
         }
-        $file = UNL_UndergraduateBulletin_Controller::getEdition()->getDataDir().'/colleges/'.self::$files[$college->name];
 
         $this->_xml = simplexml_load_string(file_get_contents($file));
 
