@@ -143,7 +143,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <effectiveSemester>20121</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">FDST 131 or parallel.</div>
     </prerequisite>
@@ -167,8 +167,8 @@
       </activity>
     </activities>
     <credits>
-      <credit type="Single Value">3</credit>
-      <credit type="Per Career Limit">3</credit>
+      <credit type="Single Value">1</credit>
+      <credit type="Per Career Limit">1</credit>
     </credits>
   </course>
   <course>
@@ -1098,10 +1098,14 @@
         <subject>FDST</subject>
         <courseNumber>449</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>FDST</subject>
+        <courseNumber>849</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <effectiveSemester>20121</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">FDST 205; FDST 448/848 or parallel; BIOC 321.</div>
     </prerequisite>
@@ -1405,12 +1409,12 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20091</effectiveSemester>
+    <effectiveSemester>20121</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">BIOC 321 or BIOC/BIOS/CHEM 431/831.</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">FDST 470/870 is offered in odd <span style="\">calendar</span> years.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">FDST 470/870 is offered in even <span style="\">calendar</span> years.</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Evaluation of natural compounds impact on human health. Inflammation, cancer, heart disease, and the impact of gut <span style="\">micro-flora</span> on health.</div>
