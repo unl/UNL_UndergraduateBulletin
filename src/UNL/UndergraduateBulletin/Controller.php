@@ -7,22 +7,22 @@ class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_
      * @var string
      */
     public static $url = '';
-    
+
     public static $newest_url = 'http://bulletin.unl.edu/undergraduate/';
-    
+
     public $output;
-    
+
     public $options = array('view'   => 'index', // The default from the view_map
                             'format' => 'html',  // The default output format
     );
 
     /**
      * The edition we're currently controlling
-     * 
+     *
      * @var UNL_UndergraduateBulletin_Edition
      */
     public static $edition;
-    
+
     protected $view_map = array(
         'index'         => 'UNL_UndergraduateBulletin_Introduction',
         'about'         => 'UNL_UndergraduateBulletin_About',
@@ -42,22 +42,22 @@ class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_
         'editions'      => 'UNL_UndergraduateBulletin_Editions',
         'developers'    => 'UNL_UndergraduateBulletin_Developers'
         );
-    
+
     protected static $replacement_data = array();
-    
+
     function __construct($options = array())
     {
         $this->options = $options + $this->options;
     }
-    
+
     function getCacheKey()
     {
         return serialize($this->options);
     }
-    
+
     function preRun()
     {
-        
+
     }
 
     function run()
@@ -74,24 +74,24 @@ class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_
             case 'html':
             default:
                 // Standard template works for html.
-                
+
                 break;
             }
             if (isset($this->view_map[$this->options['view']])) {
                 $this->output[] = new $this->view_map[$this->options['view']]($this->options);
             } else {
-                $this->output[] = new Exception('Sorry, that view does not exist.');
+                $this->output[] = new Exception('Sorry, that view does not exist.', 404);
             }
         } catch(Exception $e) {
             $this->output[] = $e;
         }
     }
-    
+
     public static function setReplacementData($field, $data)
     {
         self::$replacement_data[$field] = $data;
     }
-    
+
     function postRun($data)
     {
 
@@ -130,13 +130,13 @@ class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_
         }
         return $data;
     }
-    
+
     /**
      * Get the URL for the system or a specific object this controller can display.
      *
      * @param mixed $mixed             Optional object to get a URL for.
      * @param array $additional_params Extra parameters to adjust the URL.
-     * 
+     *
      * @return string
      */
     static function getURL($mixed = null, $additional_params = array())
@@ -161,26 +161,26 @@ class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_
     {
         return self::$url;
     }
-    
+
     static function getDataDir()
     {
         return dirname(dirname(dirname(dirname(__FILE__)))).'/data';
     }
-    
+
     /**
      * Determine if the current url is out of date.
-     * 
+     *
      * @return bool True if out of date, False if newest.
      */
     static function isArchived()
     {
         return !(self::$url == parse_url(self::$newest_url, PHP_URL_PATH));
     }
-    
+
     /**
      * Get the request uri for the current selected page and compile a URL to the
      * Newest URL with the same request uri.
-     * 
+     *
      * @return string. The url to the newest version.
      */
     static function getNewestURL()
@@ -193,10 +193,10 @@ class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_
         }
         return $newestURL;
     }
-    
+
     /**
      * Gets the version of the bulletin.  Version = year in the url.
-     * 
+     *
      * @return UNL_UndergraduateBulletin_Edition
      */
     static function getEdition()
@@ -209,12 +209,12 @@ class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_
 
     /**
      * Set the current edition
-     * 
+     *
      * @param UNL_UndergraduateBulletin_Edition $edition
      */
     public static function setEdition(UNL_UndergraduateBulletin_Edition $edition)
     {
         self::$edition = $edition;
     }
-    
+
 }
