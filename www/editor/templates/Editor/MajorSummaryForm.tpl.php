@@ -35,6 +35,26 @@
 			<label style="font-size:10px;" for="entry_9">Use the URL of a prospective student-focused web page you have on your site.</label>
 		<input name="entry.11.single" value="" class="ss-q-short" id="entry_11" type="text" />
 </li>
+			<li>
+			<label class="ss-q-title" for="entry_12">Name<span class="required">*</span></label>
+			<input name="entry.12.single" value="" class="ss-q-short" id="entry_12" type="text" />
+			</li>
+
+			<li>
+			<label class="ss-q-title" for="entry_13">Title<span class="required">*</span></label>
+			<input name="entry.13.single" value="" class="ss-q-short" id="entry_13" type="text" />
+			</li>
+			
+			<li>
+			<label class="ss-q-title" for="entry_14">Email address<span class="required">*</span></label>
+			<input name="entry.14.single" value="" class="ss-q-short" id="entry_14" type="text" />
+			</li>
+
+			<li>
+			<label class="ss-q-title" for="entry_15">Phone number<span class="required">*</span></label>
+			<input name="entry.15.single" value="" class="ss-q-short" id="entry_15" type="text" />
+			</li>
+			
                     <li>
           <label class="ss-q-title" for="entry_0"><span class="required">*</span>What knowledge / experience / preparation do students get from this major?</label>
           <label class="ss-q-help" for="entry_0"></label>
