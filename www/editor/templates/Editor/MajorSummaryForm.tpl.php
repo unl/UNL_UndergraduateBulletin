@@ -36,6 +36,10 @@
 		<input name="entry.11.single" value="" class="ss-q-short" id="entry_11" type="text" />
 </li>
 			<li>
+			The name and contact information submitted below will be visible to prospective students on the Office of Admissions website.
+			</li>
+			
+			<li>
 			<label class="ss-q-title" for="entry_12">Name<span class="required">*</span></label>
 			<input name="entry.12.single" value="" class="ss-q-short" id="entry_12" type="text" />
 			</li>
