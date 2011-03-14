@@ -50,6 +50,12 @@ $requestURI = $base . 'courses/search';
 $route = UNL_UndergraduateBulletin_Router::getRoute($requestURI);
 $test->assertEquals(array('view'=>'searchcourses'), $route, 'course search');
 
+$_SERVER['QUERY_STRING'] = 'q=math%202';
+$requestURI = $base . 'courses/search/?q=math%202';
+$route = UNL_UndergraduateBulletin_Router::getRoute($requestURI);
+$test->assertEquals(array('view'=>'searchcourses'), $route, 'course search with query string');
+$_SERVER['QUERY_STRING'] = '';
+
 $requestURI = $base . 'search';
 $route = UNL_UndergraduateBulletin_Router::getRoute($requestURI);
 $test->assertEquals(array('view'=>'search'), $route, 'combined search results page');
@@ -70,13 +76,9 @@ $requestURI = $base . 'courses/CSCE/420';
 $route = UNL_UndergraduateBulletin_Router::getRoute($requestURI);
 $test->assertEquals(array('view'=>'course', 'subjectArea'=>'CSCE', 'courseNumber'=>'420'), $route, 'direct course');
 
-try {
-    $requestURI = $base . 'unknownview';
-    $route = UNL_UndergraduateBulletin_Router::getRoute($requestURI);
-    throw new Exception('Should have failed');
-} catch (\Exception $e) {
-    $test->assertEquals(404, $e->getCode(), '404 for unknown view');
-}
+$requestURI = $base . 'unknownview';
+$route = UNL_UndergraduateBulletin_Router::getRoute($requestURI);
+$test->assertEquals(array('view'=>'no-route'), $route, '404 for unknown view');
 
 ?>
 ===DONE===
