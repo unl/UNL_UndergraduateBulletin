@@ -13,7 +13,7 @@ class UNL_UndergraduateBulletin_College_Description
     {
         $this->college = $college;
 
-        $file = UNL_UndergraduateBulletin_Controller::getEdition()->getDataDir().'/colleges/'.$college->name.'.xhtml';
+        $file = UNL_UndergraduateBulletin_Controller::getEdition()->getDataDir().'/colleges/'.$college->name.' Main Page.xhtml';
 
         if (!file_exists($file)) {
             throw new Exception('No description for the "'.$college->name.'" college.', 404);
