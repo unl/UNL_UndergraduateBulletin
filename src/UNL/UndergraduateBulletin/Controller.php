@@ -215,6 +215,7 @@ class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_
     public static function setEdition(UNL_UndergraduateBulletin_Edition $edition)
     {
         self::$edition = $edition;
+        $edition->loadConfig();
     }
 
 }

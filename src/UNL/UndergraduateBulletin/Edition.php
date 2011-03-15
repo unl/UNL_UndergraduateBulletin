@@ -41,6 +41,14 @@ class UNL_UndergraduateBulletin_Edition
         return $this->year.'-'.($this->year+1);
     }
 
+    function loadConfig()
+    {
+        if (file_exists($this->getDataDir().'/edition.config.inc.php')) {
+            require $this->getDataDir().'/edition.config.inc.php';
+        }
+        return true;
+    }
+
     function getURL()
     {
     	return UNL_UndergraduateBulletin_Controller::getBaseURL().$this->getYear().'/';
