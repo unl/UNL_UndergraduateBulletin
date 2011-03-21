@@ -46,6 +46,49 @@
     </credits>
   </course>
   <course>
+    <title>Survey of Turfgrass and Landscape Management</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TLMT</subject>
+        <courseNumber>127</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>AGRO</subject>
+        <courseNumber>127</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>HORT</subject>
+        <courseNumber>127</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20113</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Survey of turfgrass and landscape management, occupations, and introductory lawn and landscape management.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lab</type>
+        <hours>2</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">1</credit>
+    </credits>
+  </course>
+  <course>
     <title>Introduction to Horticulture Science</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -2158,64 +2201,6 @@
     </credits>
   </course>
   <course>
-    <title>Turfgrass and Landscape Weed Management</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>TLMT</subject>
-        <courseNumber>413</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>AGRO</subject>
-        <courseNumber>413</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>AGRO</subject>
-        <courseNumber>813</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>HORT</subject>
-        <courseNumber>413</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>HORT</subject>
-        <courseNumber>813</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>TLMT</subject>
-        <courseNumber>813</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20082</effectiveSemester>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Fundamental terminology associated with turfgrass and landscape weed management.  Weed identification and the cultural practices and herbicide strategies to limit weed invasion and persistence.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-      <deliveryMethod>Web</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Spring</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>lab</type>
-        <hours>2</hours>
-      </activity>
-      <activity>
-        <type>lec</type>
-        <hours>1</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">1</credit>
-    </credits>
-  </course>
-  <course>
     <title>Turfgrass Disease Management</title>
     <courseCodes>
       <courseCode type="crosslisting">
@@ -3065,6 +3050,66 @@
     </activities>
     <credits>
       <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Modified Rootzones</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TLMT</subject>
+        <courseNumber>480</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>AGRO</subject>
+        <courseNumber>480</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>HORT</subject>
+        <courseNumber>480</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>TLMT</subject>
+        <courseNumber>880</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>AGRO</subject>
+        <courseNumber>880</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>HORT</subject>
+        <courseNumber>880</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20113</effectiveSemester>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <em>Offered as a five-week course. </em>
+      </div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Modified rootzones and their applications in the turfgrass and landscape management industry.  Correct applications and construction techniques.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Web</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>1</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">1</credit>
     </credits>
   </course>
   <course>

@@ -2322,39 +2322,6 @@
     </credits>
   </course>
   <course>
-    <title>Seminar in Film Production and/or New Media</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>THEA</subject>
-        <courseNumber>438</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Senior standing.</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Analysis of advanced projects in screenwriting, film production, digital animation, and new media.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities/>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
     <title>Continental Drama</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -2791,6 +2758,39 @@
     </credits>
   </course>
   <course>
+    <title>Seminar in Film Production and/or New Media</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>THEA</subject>
+        <courseNumber>483</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20121</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Senior standing.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Analysis of advanced projects in screenwriting, film production, digital animation, and new media.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Advanced Projects in Film Production and/or New Media</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -2802,9 +2802,9 @@
         <courseNumber>884</courseNumber>
       </courseCode>
     </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>20113</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">THEA 489/889.</div>
     </prerequisite>
@@ -2820,11 +2820,11 @@
     <termsOffered>
       <term>Fall</term>
       <term>Spring</term>
-      <term>Summer</term>
     </termsOffered>
     <activities>
       <activity>
-        <type>ind</type>
+        <type>lec</type>
+        <hours>3</hours>
       </activity>
     </activities>
     <credits>

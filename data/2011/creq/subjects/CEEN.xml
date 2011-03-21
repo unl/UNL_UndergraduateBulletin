@@ -61,12 +61,12 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>20102</effectiveSemester>
+    <effectiveSemester>20122</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">CEEN 103 or (UNO) CEEN 1030; CSCE 155 or (UNO) CIST 1400.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to assembly language programming of 80 x 86 microprocessors, assemblers, and debugging tool utilization. Microprocessor system hardware components, control signals, and 'C' language micro-controller programming.<br/></div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to assembly language programming of microprocessors/microcontrollers, assemblers, and debugging tool utilization. Microprocessor system hardware components, control signals, and 'C' language micro-controller programming.<br/></div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -87,11 +87,11 @@
       </activity>
       <activity>
         <type>lec</type>
-        <hours>3</hours>
+        <hours>2</hours>
       </activity>
     </activities>
     <credits>
-      <credit type="Single Value">4</credit>
+      <credit type="Single Value">3</credit>
     </credits>
   </course>
   <course>
@@ -784,6 +784,45 @@
     </activities>
     <credits>
       <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Assembly Language Programming</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CEEN</subject>
+        <courseNumber>332</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>20121</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">CEEN 106 or (UNO) CEEN 1060.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to the architecture and assembly language programming of 80 x 86 microprocessors.  Assemblers and debugging tool utilization.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+      <campus>UNO</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lab</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">1</credit>
     </credits>
   </course>
   <course>
