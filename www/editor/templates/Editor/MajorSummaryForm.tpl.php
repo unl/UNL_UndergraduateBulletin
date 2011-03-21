@@ -2,6 +2,18 @@
 //<![CDATA[
     WDN.jQuery(document).ready(function(){
          WDN.initializePlugin('zenform');
+         WDN.jQuery('#majorbox').change(function(){
+             if (WDN.jQuery(this).attr('value') == 'Unknown') {
+                 // Show the other box, on update, set the value of the Unknown field
+            	 WDN.jQuery('#othermajor').show();
+            	 WDN.jQuery('#othermajor').focus();
+             } else {
+            	 WDN.jQuery('#othermajor').hide();
+             }
+         });
+         WDN.jQuery('#othermajor').change(function(){
+        	 WDN.jQuery('#otherselected').val(WDN.jQuery(this).val());
+         });
     });
 //]]>
 </script>
@@ -18,23 +30,25 @@
           <li>
             <input type="hidden" name="entry.10.single" value="<?php echo UNL_UndergraduateBulletin_Editor::get(); ?>" class="ss-q-short" id="entry_10" />
 
-                    <li>
+         <li>
           <label class="ss-q-title" for="entry_9"> <span class="required">*</span>What is the title of the area of study you&#39;re describing?</label>
           <label style="font-size:10px;" for="entry_9">Major, minor, or program name</label>
-          <select name='entry.9.single'>
-            <?php 
+          <select name='entry.9.single' id="majorbox">
+            <?php
             $majors = new UNL_UndergraduateBulletin_MajorList;
             foreach($majors as $major) {
                 echo "<option value='" . htmlspecialchars($major->title, ENT_QUOTES) . "'/>" . htmlspecialchars($major->title, ENT_QUOTES) . "<br/>";
             }
             ?>
+            <option value="Unknown" id="otherselected">Other Area of Study (enter name below)</option>
             </select>
-                    </li>
+            <input type="text" id="othermajor" style="display:none;" />
+            </li>
 			<li>
 			<label class="ss-q-title" for="entry_11">Please provide a web address (URL) for this major. </label>
 			<label style="font-size:10px;" for="entry_9">Use the URL of a prospective student-focused web page you have on your site.</label>
-		<input name="entry.11.single" value="" class="ss-q-short" id="entry_11" type="text" />
-</li>
+            <input name="entry.11.single" value="" class="ss-q-short" id="entry_11" type="text" />
+            </li>
 			<li>
 			The name and contact information submitted below will be visible to prospective students on the Office of Admissions website.
 			</li>
