@@ -1,50 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <courses xmlns="http://courseapproval.unl.edu/courses" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://courseapproval.unl.edu/courses /schema/courses.xsd">
   <course>
-    <title>Introduction to  Music</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>MUSC</subject>
-        <courseNumber>101</courseNumber>
-        <courseGroup>Core Curriculum (MUSC)</courseGroup>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20091</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Music major or minor; parallel MUSC 131, 165 or 165H, 165A, and LIBR 110.</div>
-    </prerequisite>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Open to music majors and minors only.</div>
-    </notes>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to the degree programs in music and resources for the study of music at the university level. Historical, social, and stylistic views of music in western and non-western cultures. Significance of music in cultural history, and the understanding of music as aesthetic expression. How to listen to and appreciate the human and cultural values of music.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>lec</type>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-    <aceOutcomes>
-      <slo>7</slo>
-    </aceOutcomes>
-  </course>
-  <course>
     <title>Keyboard Skills I</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -55,7 +11,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <effectiveSemester>1078</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Parallel MUSC 165, 165A, and 278.</div>
     </prerequisite>
@@ -90,7 +46,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <effectiveSemester>1078</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">MUSC 131; Parallel MUSC 166 and 166A.</div>
     </prerequisite>
@@ -115,6 +71,48 @@
     </credits>
   </course>
   <course>
+    <title>Music as Art, Discipline and Profession</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MUSC</subject>
+        <courseNumber>160</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Music major or minor; parallel MUSC 131, 165 or 165H, 165A, and LIBR 110.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Open to music majors and minors only.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to the degree programs in music and resources for the study of music at the university level. Historical, social, and stylistic views of music in western and non-western cultures. Significance of music in cultural history, and the understanding of music as aesthetic expression. How to listen to and appreciate the human and cultural values of music.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+    <aceOutcomes>
+      <slo>7</slo>
+    </aceOutcomes>
+  </course>
+  <course>
     <title>Honors: Musicianship I Laboratory</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -125,7 +123,7 @@
     </courseCodes>
     <gradingType>letter grade only</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20112</effectiveSemester>
+    <effectiveSemester>1111</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Good standing in the University Honors Program or permission as informed by diagnostic testing.</div>
     </prerequisite>
@@ -169,7 +167,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <effectiveSemester>1078</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Permission.</div>
     </prerequisite>
@@ -208,7 +206,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <effectiveSemester>1078</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Intensive drill in skills (ear training, sight singing, and keyboard) to accompany MUSC 165.</div>
     </description>
@@ -241,7 +239,7 @@
     </courseCodes>
     <gradingType>letter grade only</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>20112</effectiveSemester>
+    <effectiveSemester>1111</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Good standing in the University Honors Program or by permission.</div>
     </prerequisite>
@@ -283,7 +281,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <effectiveSemester>1078</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">MUSC 165.</div>
     </prerequisite>
@@ -321,7 +319,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <effectiveSemester>1078</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Intensive drill in skills (ear training, sight singing, and keyboard) to accompany MUSC 166.</div>
     </description>
@@ -358,7 +356,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <effectiveSemester>1078</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Ability to read standard musical notation.</div>
     </prerequisite>
@@ -399,7 +397,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20091</effectiveSemester>
+    <effectiveSemester>1088</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Good standing in the University Honors Program or by invitation.</div>
     </prerequisite>
@@ -440,7 +438,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <effectiveSemester>1078</effectiveSemester>
     <campuses>
       <campus>UNL</campus>
     </campuses>
@@ -475,7 +473,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <effectiveSemester>1078</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">The correct pronunciation and diction for singing in Italian and English.  Some of the art songs that comprise the standard Italian and English vocal literature.</div>
     </description>
@@ -516,7 +514,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <effectiveSemester>1078</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">The correct pronunciation and diction for singing in German.  Some of the art songs that comprise the standard German vocal literature.</div>
     </description>
@@ -552,7 +550,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <effectiveSemester>1078</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">MUSC 166 or permission.</div>
     </prerequisite>
@@ -591,7 +589,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <effectiveSemester>1078</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Intensive drill in skills (ear training, sight singing, and keyboard) to accompany MUSC 265.</div>
     </description>
@@ -623,7 +621,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <effectiveSemester>1078</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">MUSC 265 or permission.</div>
     </prerequisite>
@@ -662,7 +660,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <effectiveSemester>1078</effectiveSemester>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">Parallel MUSC 266.</div>
     </notes>
@@ -702,7 +700,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <effectiveSemester>1078</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">MUSC/MUNM 168.</div>
     </prerequisite>
@@ -746,7 +744,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <effectiveSemester>1078</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">The correct pronunciation and diction for singing in French.  Some of the art songs that comprise the standard French vocal literature.</div>
     </description>
@@ -782,7 +780,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <effectiveSemester>1078</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Sophomore standing; MUSC 166 or 166A.</div>
     </prerequisite>
@@ -821,7 +819,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <effectiveSemester>1078</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Classical music in the Western European high art tradition from Gregorian chant to the present.</div>
     </description>
@@ -863,7 +861,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20091</effectiveSemester>
+    <effectiveSemester>1088</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Introduction to basic ethnomusicological terms and techniques, including the distinction between folk, pop, and art music. The first half of class on traditional folk music of Europe, Africa, and America. The second portion on the art musics of the Near East, India, Indonesia, and China-Japan.</div>
     </description>
@@ -894,6 +892,48 @@
     </aceOutcomes>
   </course>
   <course>
+    <title>The History of Rock Music</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MUNM</subject>
+        <courseNumber>287</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>MUSC</subject>
+        <courseNumber>287</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Survey of the history of rock music including its antecedents in Rhythm &amp;amp; Blues and Country. Two areas: a musical focus on musical characteristics and evolving musical styles, and a consideration of the sociopolitical impact rock music has had on late 20th Century life.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+    <aceOutcomes>
+      <slo>7</slo>
+    </aceOutcomes>
+  </course>
+  <course>
     <title>Fundamentals of Piano Design and Mechanics</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -904,7 +944,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <effectiveSemester>1078</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Fundamental principles of the development, construction, and maintenance of the piano. The theory and practice of tuning in equal temperament.</div>
     </description>
@@ -936,7 +976,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <effectiveSemester>1078</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Fundamentals of construction and maintenance of brass and woodwind instruments.</div>
     </description>
@@ -963,12 +1003,14 @@
       <courseCode type="home listing">
         <subject>MUSC</subject>
         <courseNumber>365</courseNumber>
-        <courseGroup>Core Curriculum (MUSC)</courseGroup>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>20112</effectiveSemester>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">MUSC 266</div>
+    </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">Open to music majors only.</div>
     </notes>
@@ -983,8 +1025,6 @@
     </deliveryMethods>
     <termsOffered>
       <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
     </termsOffered>
     <activities>
       <activity>
@@ -1010,7 +1050,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <effectiveSemester>1078</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">MUSC 365 or permission.</div>
     </prerequisite>
@@ -1052,7 +1092,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <effectiveSemester>1078</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Good standing in the University Honors Program or by permission.</div>
     </prerequisite>
@@ -1091,7 +1131,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>20102</effectiveSemester>
+    <effectiveSemester>1101</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">MUNM 282.</div>
     </prerequisite>
@@ -1130,7 +1170,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20111</effectiveSemester>
+    <effectiveSemester>1108</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Investigation of topics in music, and the selection of one topic, for the purpose of preparing a proposal for a research document or undergraduate thesis.<br/> A. BA in Music on the Research Track (1 cr) Lec 1.<br/> B. BM in Music History (1 cr) Lec 1.<br/>E. BM in Music Theory (1 cr) Lec 1.</div>
     </description>
@@ -1160,6 +1200,53 @@
     </aceOutcomes>
   </course>
   <course>
+    <title>History of Rock and Roll: Classic Artists</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MUNM</subject>
+        <courseNumber>386</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>MUSC</subject>
+        <courseNumber>386</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Sophomore standing.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">An encounter with life and music of the luminaries of rock and roll. The social, ethical, stewardship, civic, and religious themes embedded in the music, as well as an analysis of their landmark albums.   A. Bob Dylan (3 cr)   B. The Beatles (3 cr)   E. Paul Simon (3 cr)   J. Pink Floyd (3 cr)   K. Bruce Springsteen (3 cr).</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+      <credit type="Per Career Limit">15</credit>
+    </credits>
+    <aceOutcomes>
+      <slo>7</slo>
+      <slo>8</slo>
+    </aceOutcomes>
+  </course>
+  <course>
     <title>Special Topics in Music</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -1170,7 +1257,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>20082</effectiveSemester>
+    <effectiveSemester>1081</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Permission.</div>
     </prerequisite>
@@ -1221,7 +1308,7 @@
     </courseCodes>
     <gradingType>letter grade only</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <effectiveSemester>1078</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Practicum in sight-reading, improvisation, harmonization, and playing by ear.</div>
     </description>
@@ -1262,7 +1349,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <effectiveSemester>1078</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">10 hrs applied piano.</div>
     </prerequisite>
@@ -1302,7 +1389,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <effectiveSemester>1078</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">MUSC 424/824.</div>
     </prerequisite>
@@ -1352,7 +1439,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <effectiveSemester>1078</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Permission.</div>
     </prerequisite>
@@ -1395,7 +1482,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20082</effectiveSemester>
+    <effectiveSemester>1081</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">MUSC 366 or THEA 489/889.</div>
     </prerequisite>
@@ -1437,7 +1524,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20082</effectiveSemester>
+    <effectiveSemester>1081</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">MUSC 366.</div>
     </prerequisite>
@@ -1479,7 +1566,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20082</effectiveSemester>
+    <effectiveSemester>1081</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">MUSC 366.</div>
     </prerequisite>
@@ -1522,7 +1609,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20082</effectiveSemester>
+    <effectiveSemester>1081</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">MUSC 274 and MUAP 232. Keyboard facility recommended.</div>
     </prerequisite>
@@ -1564,7 +1651,7 @@
     </courseCodes>
     <gradingType>letter grade only</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20083</effectiveSemester>
+    <effectiveSemester>1085</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">MUSC 366 or equivalent.</div>
     </prerequisite>
@@ -1597,7 +1684,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20091</effectiveSemester>
+    <effectiveSemester>1088</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Senior standing and MUSC 366.</div>
     </prerequisite>
@@ -1643,7 +1730,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <effectiveSemester>1078</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">MUSC 366.</div>
     </prerequisite>
@@ -1683,7 +1770,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <effectiveSemester>1078</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">MUSC 366 or equivalent.</div>
     </prerequisite>
@@ -1724,7 +1811,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <effectiveSemester>1078</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">MUSC 365 or RELG 150 or JUDS/RELG 205 or CLAS/HIST/RELG 307, or permission.</div>
     </prerequisite>
@@ -1763,7 +1850,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <effectiveSemester>1078</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Junior standing.</div>
     </prerequisite>
@@ -1802,7 +1889,7 @@
     </courseCodes>
     <gradingType>letter grade only</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>20091</effectiveSemester>
+    <effectiveSemester>1088</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">MUSC 266.</div>
     </prerequisite>
@@ -1844,7 +1931,7 @@
     </courseCodes>
     <gradingType>letter grade only</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>20091</effectiveSemester>
+    <effectiveSemester>1088</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">MUSC 266.</div>
     </prerequisite>
@@ -1914,7 +2001,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <effectiveSemester>1078</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Senior standing or MUSC 366.</div>
     </prerequisite>
@@ -1953,7 +2040,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <effectiveSemester>1078</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Senior or graduate standing or MUSC 366.</div>
     </prerequisite>
@@ -1992,7 +2079,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>20091</effectiveSemester>
+    <effectiveSemester>1088</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">MUSC 266.</div>
     </prerequisite>
@@ -2034,7 +2121,7 @@
     </courseCodes>
     <gradingType>letter grade only</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20093</effectiveSemester>
+    <effectiveSemester>1095</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">MUSC 266.</div>
     </prerequisite>
@@ -2085,7 +2172,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <effectiveSemester>1078</effectiveSemester>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">Max 3 is per each subgroup.</div>
     </notes>
@@ -2130,7 +2217,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>20091</effectiveSemester>
+    <effectiveSemester>1088</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">MUSC 266.</div>
     </prerequisite>
@@ -2172,7 +2259,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <effectiveSemester>1078</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">MUSC 366 and 387 or equivalent or permission.</div>
     </prerequisite>
@@ -2212,7 +2299,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <effectiveSemester>1078</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">MUSC 466/866 or equivalent.</div>
     </prerequisite>
@@ -2252,7 +2339,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <effectiveSemester>1078</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Acquaints student with musical repertoire and rehearsal technique of the school jazz ensemble, the various methods of jazz improvisation instruction, the musical roles of the rhythm section, and the materials (books, audio, and video recordings, etc.) that are available to the jazz teacher.</div>
     </description>
@@ -2289,7 +2376,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <effectiveSemester>1078</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">10 hours of applied organ.</div>
     </prerequisite>
@@ -2330,7 +2417,7 @@
     </courseCodes>
     <gradingType>letter grade only</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20082</effectiveSemester>
+    <effectiveSemester>1081</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Junior standing.</div>
     </prerequisite>
@@ -2374,7 +2461,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <effectiveSemester>1078</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Junior standing or above or permission.</div>
     </prerequisite>
@@ -2414,7 +2501,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <effectiveSemester>1078</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Junior standing.</div>
     </prerequisite>
@@ -2454,7 +2541,7 @@
     </courseCodes>
     <gradingType>letter grade only</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20082</effectiveSemester>
+    <effectiveSemester>1081</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">10 hrs organ or equivalent.</div>
     </prerequisite>
@@ -2493,7 +2580,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>20092</effectiveSemester>
+    <effectiveSemester>1091</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">10 hrs organ or equivalent.</div>
     </prerequisite>
@@ -2544,7 +2631,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <effectiveSemester>1078</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">12 hrs undergraduate piano.</div>
     </prerequisite>
@@ -2584,7 +2671,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <effectiveSemester>1078</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">12 hrs undergraduate piano.</div>
     </prerequisite>
@@ -2628,7 +2715,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <effectiveSemester>1078</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">MUSC 366 or equivalent.</div>
     </prerequisite>
@@ -2668,7 +2755,7 @@
     </courseCodes>
     <gradingType>letter grade only</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>20091</effectiveSemester>
+    <effectiveSemester>1088</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">MUSC 266.</div>
     </prerequisite>
@@ -2741,7 +2828,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <effectiveSemester>1078</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">MUSC 366 or equivalent.</div>
     </prerequisite>
@@ -2779,7 +2866,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>20102</effectiveSemester>
+    <effectiveSemester>1101</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">MUSC 383.</div>
     </prerequisite>
@@ -2821,7 +2908,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20102</effectiveSemester>
+    <effectiveSemester>1101</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">MUSC 483/883.</div>
     </prerequisite>
@@ -2869,7 +2956,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <effectiveSemester>1078</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">MUSC 366 or permission.</div>
     </prerequisite>
@@ -2904,7 +2991,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <effectiveSemester>1078</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">MUSC 366 or permission.</div>
     </prerequisite>
@@ -2944,7 +3031,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <effectiveSemester>1078</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">MUSC 366.</div>
     </prerequisite>
@@ -2984,7 +3071,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <effectiveSemester>1078</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">MUSC 366.</div>
     </prerequisite>
@@ -3024,7 +3111,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <effectiveSemester>1078</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">MUSC 366 or equivalent.</div>
     </prerequisite>
@@ -3064,7 +3151,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20082</effectiveSemester>
+    <effectiveSemester>1081</effectiveSemester>
     <campuses>
       <campus>UNL</campus>
     </campuses>
@@ -3099,7 +3186,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20111</effectiveSemester>
+    <effectiveSemester>1108</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Permission.</div>
     </prerequisite>
@@ -3136,7 +3223,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <effectiveSemester>1078</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Open to candidates for degrees with distinction, with high distinction, and with highest distinction in the Hixson-Lied College of Fine and Performing Arts.</div>
     </prerequisite>
@@ -3169,7 +3256,7 @@
     </courseCodes>
     <gradingType>pass/no pass only</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <effectiveSemester>1078</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">MUSC 366 or equivalent.</div>
     </prerequisite>
@@ -3219,7 +3306,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <effectiveSemester>1078</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Permission.</div>
     </prerequisite>
@@ -3255,7 +3342,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>20081</effectiveSemester>
+    <effectiveSemester>1078</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Required for doctoral students during each semester of residence, the colloquium is a regularly scheduled meeting of faculty and doctoral students for the purpose of sharing ideas and the results of scholarly research.</div>
     </description>
