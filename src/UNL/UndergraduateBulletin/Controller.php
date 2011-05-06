@@ -77,11 +77,12 @@ class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_
 
                 break;
             }
-            if (isset($this->view_map[$this->options['view']])) {
-                $this->output[] = new $this->view_map[$this->options['view']]($this->options);
-            } else {
-                $this->output[] = new Exception('Sorry, that view does not exist.', 404);
+
+            if (!isset($this->view_map[$this->options['view']])) {
+                throw new Exception('Sorry, that view does not exist.', 404);
             }
+
+            $this->output[] = new $this->view_map[$this->options['view']]($this->options);
         } catch(Exception $e) {
             $this->output[] = $e;
         }
