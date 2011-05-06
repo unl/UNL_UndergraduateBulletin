@@ -16,6 +16,21 @@ class UNL_UndergraduateBulletin_Edition
         $this->year = $options['year'];
     }
 
+    /**
+     * Return a unique ID for this specific edition.
+     *
+     * @return string
+     */
+    function getCacheKey()
+    {
+        return $this->getYear().get_class($this);
+    }
+
+    /**
+     * Get the data directory where this edition stores its data
+     *
+     * @return string
+     */
     function getDataDir()
     {
         return UNL_UndergraduateBulletin_Controller::getDataDir().DIRECTORY_SEPARATOR.(int)$this->year;
