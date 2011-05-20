@@ -10,7 +10,6 @@ class UNL_UndergraduateBulletin_Major_Colleges extends FilterIterator
 
     function __construct($options = array())
     {
-        echo "CONSTRUCTED";
         if (!isset($options['colleges'])) {
             throw new Exception('You must pass a list of colleges');
         }
@@ -29,10 +28,16 @@ class UNL_UndergraduateBulletin_Major_Colleges extends FilterIterator
 
     function accept()
     {
-        if (in_array($this->current()->name, $this->_colleges)) {
-            return true;
-        }
+        return $this->relationshipExists($this->current()->name);
+    }
 
-        return false;
+    /**
+     * Checks if a relationship exists between this major and the given college
+     *
+     * @param string $college_name
+     */
+    public function relationshipExists($college_name)
+    {
+        return in_array($college_name, $this->_colleges);
     }
 }
