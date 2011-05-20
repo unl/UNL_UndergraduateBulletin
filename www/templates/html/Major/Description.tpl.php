@@ -9,12 +9,6 @@
     'ace_requirements'              => 'Ace Requirements',
     'other'                         => 'Other',
     );
-    $college_regions = array(
-    'admissionRequirements'         => 'College Admission',
-    'degreeRequirements'            => 'College Degree Requirements',
-    'aceRequirements'               => 'ACE Requirements',
-    'bulletinRule'                  => 'Bulletin Rule',
-    );
 ?>
 <div class="three_col left">
     <div id="toc_nav">
@@ -32,22 +26,7 @@
         }
         ?>
         <h2 id="college_requirements" class="sec_header">COLLEGE REQUIREMENTS</h2>
-        <?php
-        foreach ($context->colleges as $college) {
-            foreach ($college_regions as $id=>$title) {
-                if (isset($college->description->$id)) { 
-                    $college_section = $college->description->getRaw($id);
-                    ?>
-                    <div id="college_<?php echo $id; ?>">
-                        <h3 class="sec_header"><?php echo $title; ?></h3>
-                        <?php echo str_replace(array('<h3', '</h3>'),
-                                               array('<h4', '</h4>'), $college_section); ?>
-                    </div>
-                    <?php
-                }
-            }
-        }
-        ?>
+        <?php echo $savvy->render($context->colleges); ?>
     </div>
 </div>
 <div class="col right">
