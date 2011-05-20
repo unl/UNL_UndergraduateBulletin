@@ -11,7 +11,10 @@ UNL_UndergraduateBulletin_Controller::setReplacementData('breadcrumbs', '
 </ul>
 ');
 ?>
-<h2 class="subhead"><?php echo $context->college->name; ?></h2>
+<h2 class="subhead"><?php
+    foreach ($context->colleges as $college) {
+        echo $college->name; 
+    } ?></h2>
 <ul class="wdn_tabs disableSwitching">
     <li class="<?php echo ($parent->context->options['view']=='major')?'selected':''; ?>"><a href="<?php echo $context->getRawObject()->getURL(); ?>"><span>Description</span></a></li>
     <?php if (count($context->subjectareas)): ?>

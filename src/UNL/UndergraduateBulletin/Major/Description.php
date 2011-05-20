@@ -88,7 +88,7 @@ class UNL_UndergraduateBulletin_Major_Description
                         if ($value == 'CASNR') {
                             $value = 'Agricultural Sciences & Natural Resources';
                         }
-                        $this->college = new UNL_UndergraduateBulletin_College(array('name'=>$value));
+                        $this->colleges = new UNL_UndergraduateBulletin_Major_Colleges(array('colleges'=>$value));
                         break;
                     case 'MAJOR':
                         break;

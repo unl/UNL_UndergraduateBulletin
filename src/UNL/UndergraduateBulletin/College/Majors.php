@@ -11,12 +11,6 @@ class UNL_UndergraduateBulletin_College_Majors extends FilterIterator
 
     function accept()
     {
-        
-        if (isset(parent::current()->college)
-            && parent::current()->college->name == $this->college->name) {
-            return true;
-        }
-
-        return false;
+        return $this->current()->colleges->relationshipExists($this->college->name);
     }
 }

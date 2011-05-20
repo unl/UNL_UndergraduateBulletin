@@ -7,14 +7,16 @@ require dirname(__FILE__) . '/../test_framework.php.inc';
 $majors = new UNL_UndergraduateBulletin_MajorList();
 
 foreach ($majors as $major) {
-    $test->assertTrue(isset($major->description->college), 'major '.$major->title.' has college '.$major->college->name);
+    $test->assertTrue(isset($major->description->colleges), 'major '.$major->title.' has colleges');
     try {
-        isset($major->college->description->college);
-        $success = true;
+        foreach ($major->colleges as $college) {
+            isset($college->description->college);
+            $success = true;
+        }
     } catch(Exception $e) {
         $success = false;
     }
-    $test->assertTrue($success, 'major '.$major->title.' has college '.$major->college->name);
+    $test->assertTrue($success, 'major '.$major->title.' has colleges');
 }
 
 

@@ -44,8 +44,8 @@ class UNL_UndergraduateBulletin_Major implements UNL_UndergraduateBulletin_Cache
                 return $this->getDescription();
             case 'subjectareas':
                 return $this->getSubjectAreas();
-            case 'college':
-                return $this->getDescription()->college;
+            case 'colleges':
+                return $this->getColleges();
         }
         throw new Exception('Unknown member var! '.$var);
     }
@@ -65,12 +65,17 @@ class UNL_UndergraduateBulletin_Major implements UNL_UndergraduateBulletin_Cache
         }
         return $this->_subjectareas;
     }
+
+    function getColleges()
+    {
+        return $this->getDescription()->colleges;
+    }
     
     function __isset($var)
     {
         switch ($var) {
-            case 'college':
-                return isset($this->getDescription()->college);
+            case 'colleges':
+                return isset($this->getDescription()->colleges);
         }
     }
     

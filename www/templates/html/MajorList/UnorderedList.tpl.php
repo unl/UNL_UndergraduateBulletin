@@ -8,12 +8,8 @@
         $class .= 'minorOnly ';
     }
     
-    if (isset($major->college)) {
-        try {
-            $class .= $major->college->abbreviation.' ';
-        } catch(Exception $e) {
-            echo '<!-- Unable to retieve college abbreviation '.$e->getMessage().' -->';
-        }
+    foreach ($major->colleges as $college) {
+        $class .= $college->abbreviation.' ';
     }
     ?>
     <li class="<?php echo trim($class); ?>"><a href="<?php echo $major->getRawObject()->getURL(); ?>"><?php echo $major->title; ?></a></li>

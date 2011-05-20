@@ -26,6 +26,11 @@ class UNL_UndergraduateBulletin_Major_Colleges extends FilterIterator
         $this->_colleges = $colleges;
     }
 
+    public function getArray()
+    {
+        return $this->_colleges;
+    }
+
     function accept()
     {
         return $this->relationshipExists($this->current()->name);

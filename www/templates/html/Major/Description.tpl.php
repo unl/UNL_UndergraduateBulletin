@@ -33,16 +33,18 @@
         ?>
         <h2 id="college_requirements" class="sec_header">COLLEGE REQUIREMENTS</h2>
         <?php
-        foreach ($college_regions as $id=>$title) {
-            if (isset($context->college->description->$id)) { 
-                $college_section = $context->college->description->getRaw($id);
-                ?>
-                <div id="college_<?php echo $id; ?>">
-                    <h3 class="sec_header"><?php echo $title; ?></h3>
-                    <?php echo str_replace(array('<h3', '</h3>'),
-                                           array('<h4', '</h4>'), $college_section); ?>
-                </div>
-                <?php
+        foreach ($context->colleges as $college) {
+            foreach ($college_regions as $id=>$title) {
+                if (isset($college->description->$id)) { 
+                    $college_section = $college->description->getRaw($id);
+                    ?>
+                    <div id="college_<?php echo $id; ?>">
+                        <h3 class="sec_header"><?php echo $title; ?></h3>
+                        <?php echo str_replace(array('<h3', '</h3>'),
+                                               array('<h4', '</h4>'), $college_section); ?>
+                    </div>
+                    <?php
+                }
             }
         }
         ?>
@@ -63,7 +65,11 @@
         <tbody>
             <tr>
                 <td class="attr">College:</td>
-                <td class="value"><a href="<?php echo $context->college->getURL(); ?>"><?php echo $context->college->name; ?></a></td>
+                <td class="value">
+                    <?php foreach ($context->colleges as $college) : ?>
+                        <a href="<?php echo $college->getURL(); ?>"><?php echo $college->name; ?></a>
+                    <?php endforeach; ?>
+                </td>
             </tr>
             <?php foreach ($context->quickpoints as $attr=>$value): ?>
             <tr>

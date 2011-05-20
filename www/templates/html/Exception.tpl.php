@@ -17,5 +17,6 @@ WDN.initializePlugin('notice');
     <div class="message">
         <h4>Whoops! Sorry, there was an error:</h4>
         <p><?php echo $context->getMessage(); ?></p>
+        <!-- <?php echo $context; ?> -->
     </div>
 </div>
