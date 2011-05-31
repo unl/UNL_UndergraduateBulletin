@@ -2,8 +2,8 @@
 class UNL_UndergraduateBulletin_Editions extends ArrayIterator
 {
     public static $editions = array(
+        2011,
         2010,
-        2011
     );
 
     /**
@@ -11,7 +11,7 @@ class UNL_UndergraduateBulletin_Editions extends ArrayIterator
      *
      * @var string|int
      */
-    public static $latest = 2010;
+    public static $latest = 2011;
 
     public $options = array('format'=>'html');
     
