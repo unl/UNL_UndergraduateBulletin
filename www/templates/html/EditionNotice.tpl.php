@@ -20,7 +20,7 @@ $current = UNL_UndergraduateBulletin_Controller::getEdition();
                 $class = 'selected';
             }
             ?>
-            <li class="<?php echo $class; ?>"><a href="<?php echo $edition->getURL(); ?>"><?php echo $edition->getRange(); ?> Archive Edition</a></li>
+            <li class="<?php echo $class; ?>"><a href="<?php echo $edition->getURL(); ?>"><?php echo $edition->getRange(); ?></a></li>
             <?php endforeach; ?>
             <li><a href="<?php echo $current->getURL(); ?>bulletinrules">More info, and other archived bulletins</a></li>
         </ul>
