@@ -14,7 +14,8 @@ class UNL_UndergraduateBulletin_Editions_Latest extends UNL_UndergraduateBulleti
 {
     function getCourseDataDir()
     {
-        return UNL_UndergraduateBulletin_Controller::getDataDir().DIRECTORY_SEPARATOR.((int)$this->year+1).DIRECTORY_SEPARATOR.'creq'; 
+        return parent::getCourseDataDir();
+        //return UNL_UndergraduateBulletin_Controller::getDataDir().DIRECTORY_SEPARATOR.((int)$this->year+1).DIRECTORY_SEPARATOR.'creq'; 
     }
 
     function getURL()
