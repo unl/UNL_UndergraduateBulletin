@@ -11,7 +11,7 @@ class UNL_UndergraduateBulletin_Editor_Controller extends UNL_UndergraduateBulle
 
     public function __postConstruct()
     {
-        UNL_UndergraduateBulletin_Controller::setEdition(new UNL_UndergraduateBulletin_Edition(array('year'=>UNL_UndergraduateBulletin_Editions::$latest+1)));
+        UNL_UndergraduateBulletin_Controller::setEdition(new UNL_UndergraduateBulletin_Edition(array('year'=>UNL_UndergraduateBulletin_Editions::$latest)));
     }
 
     function preRun()
