@@ -35,6 +35,13 @@ class UNL_UndergraduateBulletin_CourseSearch_DBSearcher extends UNL_Services_Cou
 
         return "SELECT courses.xml FROM courses WHERE slo LIKE '%$ace%';";
     }
+
+    function aceAndNumberPrefixQuery($number)
+    {
+        $query = $this->numberPrefixQuery($number);
+        $query .= ' AND courses.slo != ""';
+        return $query;
+    }
     
     function subjectAndNumberPrefixQuery($subject, $number)
     {
@@ -43,7 +50,7 @@ class UNL_UndergraduateBulletin_CourseSearch_DBSearcher extends UNL_Services_Cou
     
     function numberPrefixQuery($number)
     {
-        return "SELECT DISTINCT courses.id, courses.xml FROM courses, crosslistings WHERE crosslistings.course_id = courses.id AND crosslistings.courseNumber LIKE '$number%';";
+        return "SELECT DISTINCT courses.id, courses.xml FROM courses, crosslistings WHERE crosslistings.course_id = courses.id AND crosslistings.courseNumber LIKE '$number%'";
     }
     
     function honorsQuery()
