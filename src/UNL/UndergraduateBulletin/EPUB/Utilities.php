@@ -94,6 +94,7 @@ class UNL_UndergraduateBulletin_EPUB_Utilities
                     . "|(\/)            # eg: 340\/440 \n"
                     . "|(,?\ or\ )      # eg: , 340 or 440 \n"
                     . "|(,?\ and\ )     # eg: , 340 and 440 \n"
+                    . "|(,?\ and\/or\ ) # eg: , 340 and\/or 440 \n"
                 . ")"
                 . "([0-9]{2,4}[A-Z]?)   # course number, with optional letter \n"
             . ")+"
