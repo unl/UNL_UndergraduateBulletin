@@ -1,7 +1,13 @@
 <?php
 $url = UNL_UndergraduateBulletin_Controller::getURL();
 UNL_UndergraduateBulletin_Controller::setReplacementData('doctitle', 'UNL | Undergraduate Bulletin | '.$context->title);
-UNL_UndergraduateBulletin_Controller::setReplacementData('pagetitle', '<h2>'.$context->title.'</h2>');
+
+$subhead = '';
+foreach ($context->colleges as $college) {
+    $subhead .= $college->name.' '; 
+}
+
+UNL_UndergraduateBulletin_Controller::setReplacementData('pagetitle', '<h2>'.$context->title.' <span class="subhead">'.$subhead.'</span></h2>');
 UNL_UndergraduateBulletin_Controller::setReplacementData('head', '<script type="text/javascript" src="'.$url.'templates/html/scripts/jQuery.toc.js"></script>');
 UNL_UndergraduateBulletin_Controller::setReplacementData('breadcrumbs', '
 <ul>
@@ -11,10 +17,6 @@ UNL_UndergraduateBulletin_Controller::setReplacementData('breadcrumbs', '
 </ul>
 ');
 ?>
-<h2 class="subhead"><?php
-    foreach ($context->colleges as $college) {
-        echo $college->name; 
-    } ?></h2>
 <ul class="wdn_tabs disableSwitching">
     <li class="<?php echo ($parent->context->options['view']=='major')?'selected':''; ?>"><a href="<?php echo $context->getRawObject()->getURL(); ?>"><span>Description</span></a></li>
     <?php if (count($context->subjectareas)): ?>
