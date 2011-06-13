@@ -132,7 +132,9 @@ a.top {
 }
 #maincontent p.requirement-hours {
     float:right;
-    margin-bottom:0em;
+    margin-bottom:1em;
+    margin-top:-1em;
+    font-weight: bold;
 }
 #maincontent .requirement-underline {
     text-decoration:underline;
