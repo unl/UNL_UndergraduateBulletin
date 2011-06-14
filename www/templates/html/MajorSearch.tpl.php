@@ -12,7 +12,9 @@ if ($context->options['view'] == 'searchmajors') {
     ');
 }
 if ($context->options['format'] != 'partial') {
+    echo '<div class="four_col">';
     echo $savvy->render('', 'MajorList/SearchForm.tpl.php');
+    echo '</div>';
 }
 ?>
 <div class="col left">
