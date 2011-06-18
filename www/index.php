@@ -24,7 +24,7 @@ switch($controller->options['format']) {
         break;
     case 'json':
         $outputcontroller->sendCORSHeaders(UNL_UndergraduateBulletin_OutputController::getDefaultExpireTimestamp());
-        header('Content-type: text/javascript');
+        header('Content-type: application/json');
         $outputcontroller->addTemplatePath(dirname(__FILE__).'/templates/json');
         break;
     default:
