@@ -6,19 +6,27 @@ class UNL_UndergraduateBulletin_College_Majors extends FilterIterator
 	 *
 	 * @var UNL_UndergraduateBulletin_College
 	 */
-    protected $college;
+    protected $_college;
 
     function __construct($options = array())
     {
     	if (!isset($options['college'])) {
     		$options['college'] = new UNL_UndergraduateBulletin_College($options);
     	}
-        $this->college = $options['college'];
+        $this->_college = $options['college'];
         parent::__construct(new UNL_UndergraduateBulletin_MajorList);
     }
 
     function accept()
     {
-        return $this->current()->colleges->relationshipExists($this->college->name);
+        return $this->current()->colleges->relationshipExists($this->_college->name);
+    }
+
+    function __get($var)
+    {
+        if ($var == 'college') {
+            return $this->_college;
+        }
+        throw new Exception('There\'s no var with that name');
     }
 }
