@@ -8,7 +8,7 @@ class UNL_UndergraduateBulletin_Router
             $requestURI = substr($requestURI, 0, -strlen($_SERVER['QUERY_STRING']) - 1);
         }
         // Trim the base part of the URL
-        $requestURI = substr($requestURI, strlen(UNL_UndergraduateBulletin_Controller::getBaseURL()));
+        $requestURI = substr($requestURI, strlen(parse_url(UNL_UndergraduateBulletin_Controller::getURL(), PHP_URL_PATH)));
         $options = array();
 
         if (preg_match('/^([\d]{4})$/', $requestURI, $matches)) {
