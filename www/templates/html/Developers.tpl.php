@@ -144,8 +144,8 @@
 </div>
 <div class="col right">
     <div id='resources' class="zenbox primary" style="width:200px">
-        <h3>Directory API</h3>
-        <p>The following is a list of resources for Directory.</p>
+        <h3>UNL Undergraduate Bulletin API</h3>
+        <p>The following is a list of resources for the Undergraduate Bulletin.</p>
         <ul>
             <?php 
             foreach ($context->resources as $resource) {
@@ -156,7 +156,7 @@
     </div>
     <div class="zenbox neutral" style="width:200px">
         <h3>Format Information</h3>
-        <p>The following is a list of formats used in Directory.</p>
+        <p>The following is a list of formats used in the Undergraduate Bulletin.</p>
         <ul>
             <li><a href='http://www.json.org/'>JSON (JavaScript Object Notation)</a></li>
             <li><a href='http://en.wikipedia.org/wiki/XML'>XML (Extensible Markup Language)</a></li>
