@@ -64,6 +64,7 @@
                     <p><?php echo $resource->uri; ?></p>
                 </blockquote>
             </li>
+            <?php if (count($resource->properties)): ?>
             <li>
                 <h4 id="instance-properties"><a href="#instance-properties">Resource Properties</a></h4> 
                 <table class="zentable neutral">
@@ -82,6 +83,7 @@
                   </tbody>
                 </table>
             </li>
+            <?php endif; ?>
             <li>
                 <h4 id="instance-get"><a href="#instance-get">HTTP GET</a></h4>
                 <p>Returns a representation of the resource, including the properties above.</p>
@@ -98,20 +100,26 @@
                 <div class="wdn_tabs_content" >
                      <?php 
                      foreach ($resource->formats as $format) {
+                         $resourceURI = $resource->exampleURI;
+                         if (false === strpos($resourceURI, '?')) {
+                             $resourceURI .= '?format='.$format;
+                         } else {
+                             $resourceURI .= '&format='.$format;
+                         }
                          ?>
                          <div id="<?php echo $format; ?>">
                             <ul>
                                 <li>
                                     Calling this:
                                     <blockquote>
-                                        <p>GET <?php echo $resource->exampleURI; ?>?format=<?php echo $format; ?></p>
+                                        <p>GET <?php echo $resourceURI; ?></p>
                                     </blockquote>
                                 </li>
                                 <li>
                                     Provides this:
                                     <?php 
                                     //Get the output.
-                                    if (!$result = file_get_contents($resource->exampleURI."?format=$format")) {
+                                    if (!$result = file_get_contents($resourceURI)) {
                                         $result = "Error getting file contents.";
                                     }
                                     switch($format) {
