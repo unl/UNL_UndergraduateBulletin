@@ -7,7 +7,8 @@ class UNL_UndergraduateBulletin_Developers
     
     public $options = array();
     
-    function __construct($options = array()) {
+    function __construct($options = array())
+    {
         $this->options  = $options;
         $this->resource = $this->resources[0];
         
@@ -18,7 +19,8 @@ class UNL_UndergraduateBulletin_Developers
         }
     }
     
-    static function formatJSON($json){
+    static function formatJSON($json)
+    {
         $json = str_replace("\",", "\",".PHP_EOL, $json);
         $json = str_replace("{","{".PHP_EOL, $json);
         $json = str_replace("}","}".PHP_EOL, $json);
