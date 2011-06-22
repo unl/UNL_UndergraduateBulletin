@@ -21,12 +21,15 @@ class UNL_UndergraduateBulletin_Developers
     
     static function formatJSON($json)
     {
-        $json = str_replace("\",", "\",".PHP_EOL, $json);
-        $json = str_replace("{","{".PHP_EOL, $json);
-        $json = str_replace("}","}".PHP_EOL, $json);
-        $json = str_replace("[","[".PHP_EOL, $json);
-        $json = str_replace("]","]".PHP_EOL, $json);
-        $json = str_replace("}".PHP_EOL.",",PHP_EOL."},".PHP_EOL, $json);
+        $replacements = array(
+        '",'   => "\",\n",
+        '{'    => "{\n",
+        '}'    => "}\n",
+        '['    => "[\n",
+        ']'    => "]\n",
+        "}\n," => "\n},",
+        );
+        $json = str_replace(array_keys($replacements), array_values($replacements), $json);
         return $json;
     }
 }
