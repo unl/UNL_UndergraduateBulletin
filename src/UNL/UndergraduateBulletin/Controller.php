@@ -29,6 +29,7 @@ class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_
         'general'       => 'UNL_UndergraduateBulletin_GeneralInformation',
         'majors'        => 'UNL_UndergraduateBulletin_MajorList',
         'major'         => 'UNL_UndergraduateBulletin_Major',
+        'majorlookup'   => 'UNL_UndergraduateBulletin_MajorLookup',
         'courses'       => 'UNL_UndergraduateBulletin_Major',
         'subject'       => 'UNL_UndergraduateBulletin_SubjectArea',
         'subjects'      => 'UNL_UndergraduateBulletin_SubjectAreas',

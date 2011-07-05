@@ -55,6 +55,9 @@ class UNL_UndergraduateBulletin_Router
             case preg_match('/^majors?\/?$/', $requestURI, $matches):
                 $options['view'] = 'majors';
                 break;
+            case preg_match('/^majors?\/lookup\/?$/', $requestURI, $matches):
+                $options['view'] = 'majorlookup';
+                break;
             // Search majors
             case preg_match('/^majors?\/search\/?$/', $requestURI, $matches):
                 $options['view'] = 'searchmajors';
