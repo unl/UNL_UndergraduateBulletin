@@ -22,8 +22,14 @@ Once a new epub file is generated, simply drop it in the respective directory,
 then run php scripts/epub_to_xhtml.php to convert the epub files to xhtml.
 
 *** CACHED OUTPUT ***
-All output is cached within /tmp/unlcache_5174748813ed8803e7651fae9d2d077f_*
-files.
+All output is cached within  a temp directory, such as 
+tmp/unlcache_5174748813ed8803e7651fae9d2d077f_* files.
+
+tmpwatch is a tool that can be used to clean out the cache on a regular basis.
+
+Sample:
+sudo /usr/sbin/tmpwatch --nodirs 1 /var/www/html/bulletin.unl.edu/undergraduate/tmp  /var/www/html/bulletin.unl.edu/undergraduate/tmp/json
+
 
 *** LIBRARIES ***
 Libraries are bundled within the includes directory. This is a Pyrus controlled
