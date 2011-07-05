@@ -25,7 +25,7 @@ foreach (new UNL_UndergraduateBulletin_Editions() as $edition) {
         */
 
         $plan = explode('-', $array[0]);
-        if (!isset($plan[1]) || in_array($plan[1], array('MIN', 'MAJ', 'GMIN', 'GMAJ', 'NDEG'))) {
+        if (!array_key_exists($plan[0], $majors) || !isset($plan[1]) || in_array($plan[1], array('MIN', 'MAJ', 'GMIN', 'GMAJ', 'NDEG'))) {
             $majors[$plan[0]] = $array[1];
         }
     }
