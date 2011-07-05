@@ -10,12 +10,15 @@ WDN.jQuery(document).ready(function($){
 	WDN.jQuery('h2.subhead').insertBefore('#officialMessage');
 	
 //Deal with the Versioning controls
-	
+	var setSessionCookie = function(name, value) {
+		var path = '/';
+		document.cookie = name + "=" + value + ";path=" + path;
+	};
 	WDN.jQuery('#versioning .action').click(function(){
 		if (WDN.jQuery(this).hasClass('opened')) {
-			document.cookie="va=closed";
+			setSessionCookie("va", "closed");
 		} else {
-			document.cookie="va=opened";
+			setSessionCookie("va", "opened");
 		}
 		WDN.jQuery('#versioning .content').toggle('slide', {percent : 0, direction : 'right'}, 500, function(){
 			WDN.jQuery('#versioning .action').toggleClass('opened');
