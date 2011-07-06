@@ -50,6 +50,10 @@ class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_
     function __construct($options = array())
     {
         $this->options = $options + $this->options;
+
+        if (!empty($this->options['year'])) {
+            self::setEdition(new UNL_UndergraduateBulletin_Edition($this->options));
+        }
     }
 
     function getCacheKey()
@@ -65,10 +69,6 @@ class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_
     function run()
     {
         try {
-
-            if (!empty($this->options['year'])) {
-                self::setEdition(new UNL_UndergraduateBulletin_Edition($this->options));
-            }
 
             switch($this->options['format']) {
             case 'partial':
