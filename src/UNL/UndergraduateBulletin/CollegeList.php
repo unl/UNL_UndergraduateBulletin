@@ -3,21 +3,7 @@ class UNL_UndergraduateBulletin_CollegeList extends FilterIterator
 {
     public $options = array('name'=>false);
 
-    static $colleges = array(
-        'CASNR' => 'Agricultural Sciences & Natural Resources',
-        'ARCH'  => 'Architecture',
-        'ASC'   => 'Arts & Sciences',
-        'CBA'   => 'Business Administration',
-        'DGS'   => 'Division of General Studies',
-        'CEHS'  => 'Education & Human Sciences',
-        'ENG'   => 'Engineering',
-        'FPA'   => 'Fine & Performing Arts',
-        'JMC'   => 'Journalism & Mass Communications',
-        'LIB'   => 'Libraries',
-        'OUS'   => 'Office of Undergraduate Studies',
-        'PACS'  => 'Public Affairs & Community Service',
-        'ROTC'  => 'Reserve Officers Training Corps (ROTC)',
-    );
+    static $colleges = array();
 
     function __construct($options = array())
     {

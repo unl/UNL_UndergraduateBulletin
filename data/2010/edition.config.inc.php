@@ -21,3 +21,19 @@ UNL_UndergraduateBulletin_Major_Description::setEpubToTitleMap(array(
         'Textiles_Clothing_Design Minor (ASC)'                  => 'Textiles, Clothing, & Design Minor (ASC)',
         'Womens_Gender Studies'                                 => 'Women\'s & Gender Studies',
 ));
+
+UNL_UndergraduateBulletin_CollegeList::$colleges = array(
+        'CASNR' => 'Agricultural Sciences & Natural Resources',
+        'ARCH'  => 'Architecture',
+        'ASC'   => 'Arts & Sciences',
+        'CBA'   => 'Business Administration',
+        'DGS'   => 'Division of General Studies',
+        'CEHS'  => 'Education & Human Sciences',
+        'ENG'   => 'Engineering',
+        'FPA'   => 'Fine & Performing Arts',
+        'JMC'   => 'Journalism & Mass Communications',
+        'LIB'   => 'Libraries',
+        'OUS'   => 'Office of Undergraduate Studies',
+        'PACS'  => 'Public Affairs & Community Service',
+        'ROTC'  => 'Reserve Officers Training Corps (ROTC)',
+);
