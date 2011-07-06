@@ -31,6 +31,16 @@ switch($controller->options['format']) {
         header('Expires: '.date('r', strtotime('tomorrow')));
         break;
 }
+
+
+$edition_template_dir = $controller->getEdition()->getDataDir().'/templates/'.$controller->options['format'];
+
+if (is_dir($edition_template_dir)
+    && dirname($edition_template_dir) == $controller->getEdition()->getDataDir().'/templates') {
+    // Add the local template dir
+    $outputcontroller->addTemplatePath($edition_template_dir);
+}
+
 $outputcontroller->setClassToTemplateMapper(new UNL_UndergraduateBulletin_ClassToTemplateMapper());
 
 $outputcontroller->setEscape('htmlentities');
