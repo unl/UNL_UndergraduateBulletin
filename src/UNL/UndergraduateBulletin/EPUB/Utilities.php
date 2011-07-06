@@ -150,6 +150,7 @@ class UNL_UndergraduateBulletin_EPUB_Utilities
             case 'UNL':
             case 'OURS': // HOURS
             case 'OTAL': // TOTAL
+            case 'IMUM': // MINIMUM 15 HOURS
                 return $matches[0];
         }
 
