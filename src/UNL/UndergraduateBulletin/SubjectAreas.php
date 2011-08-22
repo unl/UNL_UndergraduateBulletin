@@ -3,6 +3,7 @@ class UNL_UndergraduateBulletin_SubjectAreas extends SplFileObject implements UN
 {
     function __construct($options = array())
     {
+    	$this->options = $options;
         parent::__construct(
             UNL_UndergraduateBulletin_Controller::getEdition()->getCourseDataDir().'/subject_codes.csv'
         );
@@ -12,7 +13,7 @@ class UNL_UndergraduateBulletin_SubjectAreas extends SplFileObject implements UN
     
     function getCacheKey()
     {
-        return 'subjectareas';
+        return 'subjectareas'.$this->options['format'];
     }
     
     function preRun()
