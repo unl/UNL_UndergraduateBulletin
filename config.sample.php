@@ -22,7 +22,7 @@ UNL_UndergraduateBulletin_OutputController::setCacheInterface(new UNL_Undergradu
 UNL_UndergraduateBulletin_OutputController::setDefaultExpireTimestamp(strtotime('+1 week'));
 
 //UNL_UndergraduateBulletin_CacheInterface_Mock::$logger = function($key) {
-//    $log = ' unlcache_5174748813ed8803e7651fae9d2d077f_'.md5($key);
+//    $log = 'unlcache_5174748813ed8803e7651fae9d2d077f_'.md5($key).PHP_EOL;
 //    file_put_contents('/tmp/cachedfiles.txt', $log, FILE_APPEND);
 //};
 
