@@ -11,10 +11,16 @@ class UNL_UndergraduateBulletin_MajorSearch extends ArrayIterator
             array('..', DIRECTORY_SEPARATOR),
             '', trim($this->options['q']));
 
-        $query = preg_replace_callback('/([a-z])/i', array($this, 'replaceCallback'), $this->options['q']);
-        $query = str_replace('\'', '*', $query);
+        // Replace a few special characters with wildcards
+        $query = str_replace(array('\'', ' & ', ' and '), '*', $this->options['q']);
+
+        // Now make sure we're case insensitive
+        $query = preg_replace_callback('/([a-z])/i', array($this, 'replaceCallback'), $query);
+
+        // Find matches on the filesystem
         $majors = glob(UNL_UndergraduateBulletin_Controller::getEdition()->getDataDir().'/majors/*'.$query.'*.xhtml');
 
+        // Find matching major aliases
         $aliases = UNL_UndergraduateBulletin_MajorAliases::search($this->options['q']);
 
         foreach ($aliases as $key=>$alias) {
