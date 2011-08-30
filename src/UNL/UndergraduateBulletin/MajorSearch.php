@@ -8,10 +8,11 @@ class UNL_UndergraduateBulletin_MajorSearch extends ArrayIterator
         $this->options = $options + $this->options;
 
         $this->options['q'] = str_replace(
-            array('..', DIRECTORY_SEPARATOR, '\''),
-            array('', '', '*'), trim($this->options['q']));
+            array('..', DIRECTORY_SEPARATOR),
+            '', trim($this->options['q']));
 
         $query = preg_replace_callback('/([a-z])/i', array($this, 'replaceCallback'), $this->options['q']);
+        $query = str_replace('\'', '*', $query);
         $majors = glob(UNL_UndergraduateBulletin_Controller::getEdition()->getDataDir().'/majors/*'.$query.'*.xhtml');
 
         $aliases = UNL_UndergraduateBulletin_MajorAliases::search($this->options['q']);
@@ -22,7 +23,7 @@ class UNL_UndergraduateBulletin_MajorSearch extends ArrayIterator
 
         $majors = array_merge($majors, $aliases);
         sort($majors);
-        return parent::__construct($majors);
+        return parent::__construct(array_unique($majors));
     }
     
     function current()
