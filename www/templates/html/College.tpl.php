@@ -24,10 +24,13 @@ UNL_UndergraduateBulletin_Controller::setReplacementData('breadcrumbs', '
 </div>
 <div class="col right">
     <?php
-    if (count($context->majors)):
+    $related_majors = $savvy->render($context->majors, 'MajorList/UnorderedList.tpl.php');
+    // Check if there are any actual majors in the list
+    if (false !== strpos($related_majors, '</li>')):
     ?>
     <h3 id="relatedMajors">Majors</h3>
-    <?php echo $savvy->render($context->majors, 'MajorList/UnorderedList.tpl.php');
+    <?php 
+    echo $related_majors;
     endif;
     ?>
 </div>
