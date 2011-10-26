@@ -157,7 +157,8 @@
         <ul>
             <?php 
             foreach ($context->resources as $resource) {
-                echo "<li><a href='?resource=$resource'>$resource</a></li>";
+                $resource_url = UNL_UndergraduateBulletin_Controller::getURL().'developers?resource='.$resource;
+                echo "<li><a href='$resource_url'>$resource</a></li>";
             }
             ?>
         </ul>
