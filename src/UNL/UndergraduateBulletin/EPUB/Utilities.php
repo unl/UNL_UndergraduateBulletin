@@ -9,13 +9,13 @@
  */
 class UNL_UndergraduateBulletin_EPUB_Utilities
 {
-	/**
-	 * Overall method which applies all formatting
-	 * 
-	 * @param string $html The markup
-	 * 
-	 * @return string html
-	 */
+    /**
+     * Overall method which applies all formatting
+     * 
+     * @param string $html The markup
+     * 
+     * @return string html
+     */
     public static function format($html)
     {
         $html = self::convertHeadings($html);
@@ -78,19 +78,17 @@ class UNL_UndergraduateBulletin_EPUB_Utilities
         return $html;
     }
 
+
     /**
-     * Link courses found within the text
+     * Find courses found within the text
      * 
      * @param string   $text     Text to scan for links
      * @param callback $callback Method to call with matches
+     * 
+     * @return string
      */
-    public static function addCourseLinks($text, $callback = null)
+    protected static function courseScanCallback($text, $callback)
     {
-
-    	if ($callback == null) {
-    		$callback = array('UNL_UndergraduateBulletin_EPUB_Utilities', 'linkCourse');
-    	}
-
         $text = preg_replace_callback('/'
             . "([A-Z]{3,4})             # subject code, eg: CSCE \n"
             . "("
@@ -108,6 +106,46 @@ class UNL_UndergraduateBulletin_EPUB_Utilities
             $callback, $text);
 
         return $text;
+    }
+
+    /**
+     * Find courses within a block of raw text
+     * 
+     * @param string $text Generic text with inline course data
+     * 
+     * @return array Subject codes and course numbers, e.g. array('AGRO'=>array('153'))
+     */
+    public static function findCourses($text)
+    {
+        $courses = array();
+        $callback = function($matches) use (&$courses) {
+            if (!UNL_UndergraduateBulletin_EPUB_Utilities::isValidSubjectCode($matches[1])) {
+                return;
+            }
+
+            preg_match_all('/0?([0-9]{2,4}[A-Z]?)/', $matches[0], $course_numbers);
+
+            foreach ($course_numbers as $course_number) {
+                if (!isset($courses[$matches[1]])
+                    || !in_array($course_number[0], $courses[$matches[1]])) {
+                    $courses[$matches[1]][] = $course_number[0];
+                }
+            }
+        };
+
+        self::courseScanCallback($text, $callback);
+        return $courses;
+    }
+
+    /**
+     * Link courses found within the text
+     * 
+     * @param string   $text     Text to scan for links
+     */
+    public static function addCourseLinks($text)
+    {
+        $callback = array('UNL_UndergraduateBulletin_EPUB_Utilities', 'linkCourse');
+        return self::courseScanCallback($text, $callback);
     }
 
     /**
@@ -144,8 +182,26 @@ class UNL_UndergraduateBulletin_EPUB_Utilities
      */
     public static function linkCourse($matches)
     {
-    	
-        switch($matches[1]) {
+        
+        if (!self::isValidSubjectCode($matches[1])) {
+            return $matches[0];
+        }
+
+        $matches[0] = preg_replace('/0?([0-9]{2,4}[A-Z]?)/', '<a class="course" href="'.UNL_UndergraduateBulletin_Controller::getURL().'courses/'.$matches[1].'/$1">$0</a>', $matches[0]);
+        $matches[0] = preg_replace('/([A-Z]{3,4})\s+(\<a[^>]+\>)/', '$2$1 ', $matches[0]);
+
+        return $matches[0];
+    }
+
+    /**
+     * Check if a subject code is valid
+     * @todo Check against official subject codes
+     * 
+     * @param string $code Subject code, e.g. CSCE
+     */
+    public static function isValidSubjectCode($code)
+    {
+        switch ($code) {
             case 'ACE':
             case 'ACT':
             case 'OEFL': // TOEFL
@@ -156,12 +212,9 @@ class UNL_UndergraduateBulletin_EPUB_Utilities
             case 'OURS': // HOURS
             case 'OTAL': // TOTAL
             case 'IMUM': // MINIMUM 15 HOURS
-                return $matches[0];
+                return false;
         }
 
-        $matches[0] = preg_replace('/0?([0-9]{2,4}[A-Z]?)/', '<a class="course" href="'.UNL_UndergraduateBulletin_Controller::getURL().'courses/'.$matches[1].'/$1">$0</a>', $matches[0]);
-        $matches[0] = preg_replace('/([A-Z]{3,4})\s+(\<a[^>]+\>)/', '$2$1 ', $matches[0]);
-
-        return $matches[0];
+        return true;
     }
 }
