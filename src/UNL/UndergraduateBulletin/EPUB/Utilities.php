@@ -81,10 +81,15 @@ class UNL_UndergraduateBulletin_EPUB_Utilities
     /**
      * Link courses found within the text
      * 
-     * @param string $text
+     * @param string   $text     Text to scan for links
+     * @param callback $callback Method to call with matches
      */
-    public static function addCourseLinks($text)
+    public static function addCourseLinks($text, $callback = null)
     {
+
+    	if ($callback == null) {
+    		$callback = array('UNL_UndergraduateBulletin_EPUB_Utilities', 'linkCourse');
+    	}
 
         $text = preg_replace_callback('/'
             . "([A-Z]{3,4})             # subject code, eg: CSCE \n"
@@ -100,7 +105,7 @@ class UNL_UndergraduateBulletin_EPUB_Utilities
             . ")+"
             . "([\.\s\<\,\;\/\)]|$)     # characters which signal the end of a course sequence \n"
             . "/x",
-            array('UNL_UndergraduateBulletin_EPUB_Utilities', 'linkCourse'), $text);
+            $callback, $text);
 
         return $text;
     }
