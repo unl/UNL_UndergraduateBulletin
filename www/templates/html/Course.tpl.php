@@ -164,6 +164,16 @@
         if (!empty($context->prerequisite)) {
             echo  "<div class='prereqs'>Prereqs: ".UNL_UndergraduateBulletin_EPUB_Utilities::addCourseLinks($context->getRaw('prerequisite'))."</div>\n";
         }
+        $subsequent_courses = $context->getSubsequentCourses();
+        if (count($subsequent_courses)) {
+            echo  "<div class='subsequent'>Subsequent courses: ";
+            $sub_course_array = array();
+            foreach ($subsequent_courses as $subsequent_courses) {
+                $sub_course_array[] = $subsequent_courses->getHomeListing()->subjectArea.' '.$subsequent_courses->getHomeListing()->courseNumber;
+            }
+            echo UNL_UndergraduateBulletin_EPUB_Utilities::addCourseLinks(implode(', ', $sub_course_array));
+            echo "</div>\n";
+        }
         if (!empty($context->notes)) {
             echo  "<div class='notes'>".UNL_UndergraduateBulletin_EPUB_Utilities::addCourseLinks($context->getRaw('notes'))."</div>\n";
         }
