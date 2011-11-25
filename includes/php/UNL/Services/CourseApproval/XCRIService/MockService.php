@@ -10,6 +10,56 @@ class UNL_Services_CourseApproval_XCRIService_MockService implements UNL_Service
     
     function __construct()
     {
+
+		$this->mock_data['MATH'] = <<<MATH
+  <course>
+    <title>Calculus for Managerial and Social Sciences</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MATH</subject>
+        <courseNumber>104</courseNumber>
+        <courseGroup>Introductory Mathematics Courses</courseGroup>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>MATH</subject>
+        <courseNumber>104</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1108</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Appropriate placement exam score or a grade of P (pass), or C or better in MATH 101.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Credit for both MATH 104 and 106 is not allowed.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Rudiments of differential and integral calculus with applications to problems from business, economics, and social sciences.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+      <deliveryMethod>Web</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+    <aceOutcomes>
+      <slo>3</slo>
+    </aceOutcomes>
+  </course>
+MATH;
+    	
         $this->mock_data['ENSC'] = <<<ENSC
   <course>
     <title>Energy in Perspective</title>

@@ -1,7 +1,20 @@
 <?php
 $__e = error_reporting();
 error_reporting(E_ERROR|E_NOTICE|E_WARNING);
-require_once 'UNL/Autoload.php';
+
+ini_set('display_errors', true);
+error_reporting(E_ALL|E_STRICT);
+
+function autoload($class)
+{
+    $class = str_replace('_', '/', $class);
+    include $class . '.php';
+}
+    
+spl_autoload_register("autoload");
+
+set_include_path(dirname(__DIR__).'/src/');
+
 @include_once 'Text/Diff.php';
 @include_once 'Text/Diff/Renderer.php';
 @include_once 'Text/Diff/Renderer/unified.php';

@@ -60,4 +60,8 @@ class UNL_Services_CourseApproval_Search extends UNL_Services_CourseApproval_Sea
     {
         return $this->driver->creditQuery($credits);
     }
+    function prerequisiteQuery($prereq)
+    {
+    	return $this->driver->prerequisiteQuery($prereq);
+    }
 }
