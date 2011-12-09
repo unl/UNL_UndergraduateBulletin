@@ -11,7 +11,7 @@ error_reporting(E_ALL);
 $missing_courses = array();
 
 // Set edition
-UNL_UndergraduateBulletin_Controller::setEdition(new UNL_UndergraduateBulletin_Edition(array('year'=>2011)));
+UNL_UndergraduateBulletin_Controller::setEdition(UNL_UndergraduateBulletin_Editions::getLatest());
 
 foreach (new UNL_UndergraduateBulletin_CollegeList() as $college) {
 
