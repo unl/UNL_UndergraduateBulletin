@@ -20,8 +20,7 @@ foreach (new UNL_UndergraduateBulletin_SubjectAreas() as $subject_area) {
                 $prereq_subject = new UNL_Services_CourseApproval_SubjectArea($prereq_subject_code);
                 foreach ($prereq_courses as $prereq_course) {
                     // try and get the listing
-                    $check_course = $prereq_subject->courses[$prereq_course];
-                    unset($check_course);
+                    $prereq_subject->courses[$prereq_course];
                 }
             } catch (Exception $e) {
                 $missing_courses["$prereq_subject_code $prereq_course"][] = "Found in $subject_area {$course->getHomeListing()->courseNumber} prereqs";
