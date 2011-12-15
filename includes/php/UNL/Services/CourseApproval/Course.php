@@ -184,6 +184,21 @@ class UNL_Services_CourseApproval_Course
                                                      $number,
                                                      UNL_Services_CourseApproval_Course::getListingGroups($home_listing[0]));
     }
+
+    /**
+     * Search for subsequent courses
+     * 
+     * (reverse prereqs)
+     * 
+     * @return UNL_Services_CourseApproval_Courses
+     */
+    function getSubsequentCourses()
+    {
+    	$searcher = new UNL_Services_CourseApproval_Search();
+
+    	$query = $this->getHomeListing()->subjectArea.' '.$this->getHomeListing()->courseNumber;
+    	return $searcher->byPrerequisite($query);
+    }
     
     function asXML()
     {

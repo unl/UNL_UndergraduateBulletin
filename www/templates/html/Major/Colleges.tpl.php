@@ -6,7 +6,7 @@ $college_regions = array(
     'bulletinRule'                  => 'Bulletin Rule',
     );
 foreach ($context as $college) {
-    foreach ($college_regions as $id=>$title) {
+    foreach ($college_regions as $id => $title) {
         if (isset($college->description->$id)) { 
             $college_section = $college->description->getRaw($id);
             ?>

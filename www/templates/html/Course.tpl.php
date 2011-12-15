@@ -41,7 +41,7 @@
     }
     $groups = implode(', ', array_unique($groups));
     $cltext = '';
-    foreach ($crosslistings as $cl_subject=>$cl_numbers) {
+    foreach ($crosslistings as $cl_subject => $cl_numbers) {
         $cltext .= ', '.$cl_subject.' '.implode('/', $cl_numbers);
     }
     $number_class = 'l'.count($listings);
@@ -72,7 +72,7 @@
     }
     
     $format = '';
-    foreach ($context->activities as $type=>$activity) {
+    foreach ($context->activities as $type => $activity) {
         $class .= ' '.$type;
         $format .= UNL_Services_CourseApproval_Course_Activities::getFullDescription($type);
         if (isset($activity->hours)) {
@@ -163,6 +163,16 @@
         echo  '</div>';
         if (!empty($context->prerequisite)) {
             echo  "<div class='prereqs'>Prereqs: ".UNL_UndergraduateBulletin_EPUB_Utilities::addCourseLinks($context->getRaw('prerequisite'))."</div>\n";
+        }
+        $subsequent_courses = $context->getSubsequentCourses();
+        if (count($subsequent_courses)) {
+            echo  "<div class='subsequent'>Subsequent courses: ";
+            $sub_course_array = array();
+            foreach ($subsequent_courses as $subsequent_courses) {
+                $sub_course_array[] = $subsequent_courses->getHomeListing()->subjectArea.' '.$subsequent_courses->getHomeListing()->courseNumber;
+            }
+            echo UNL_UndergraduateBulletin_EPUB_Utilities::addCourseLinks(implode(', ', $sub_course_array));
+            echo "</div>\n";
         }
         if (!empty($context->notes)) {
             echo  "<div class='notes'>".UNL_UndergraduateBulletin_EPUB_Utilities::addCourseLinks($context->getRaw('notes'))."</div>\n";
