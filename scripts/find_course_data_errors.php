@@ -15,7 +15,7 @@ foreach (new UNL_UndergraduateBulletin_SubjectAreas() as $subject_area) {
     foreach ($subject_area->courses as $course) {
         /* @var $course UNL_Services_CourseApproval_Course */
         // Find courses within prereqs
-        foreach (UNL_UndergraduateBulletin_EPUB_Utilities::findCourses($course->prerequisite) as $prereq_subject_code=>$prereq_courses) {
+        foreach (UNL_UndergraduateBulletin_EPUB_Utilities::findCourses($course->prerequisite) as $prereq_subject_code => $prereq_courses) {
             try {
                 $prereq_subject = new UNL_Services_CourseApproval_SubjectArea($prereq_subject_code);
                 foreach ($prereq_courses as $prereq_course) {
@@ -29,7 +29,7 @@ foreach (new UNL_UndergraduateBulletin_SubjectAreas() as $subject_area) {
             unset($prereq_subject);
         }
         // Find courses within notes
-        foreach (UNL_UndergraduateBulletin_EPUB_Utilities::findCourses($course->notes) as $notes_subject_code=>$notes_courses) {
+        foreach (UNL_UndergraduateBulletin_EPUB_Utilities::findCourses($course->notes) as $notes_subject_code => $notes_courses) {
             try {
                 $notes_subject = new UNL_Services_CourseApproval_SubjectArea($notes_subject_code);
                 foreach ($notes_courses as $notes_course) {
@@ -43,7 +43,7 @@ foreach (new UNL_UndergraduateBulletin_SubjectAreas() as $subject_area) {
             unset($notes_subject);
         }
         // Find courses within description
-        foreach (UNL_UndergraduateBulletin_EPUB_Utilities::findCourses($course->description) as $desc_subject_code=>$desc_courses) {
+        foreach (UNL_UndergraduateBulletin_EPUB_Utilities::findCourses($course->description) as $desc_subject_code => $desc_courses) {
             try {
                 $desc_subject = new UNL_Services_CourseApproval_SubjectArea($desc_subject_code);
                 foreach ($desc_courses as $desc_course) {
@@ -59,7 +59,7 @@ foreach (new UNL_UndergraduateBulletin_SubjectAreas() as $subject_area) {
     }
 }
 
-foreach ($missing_courses as $missing_course=>$found_in) {
+foreach ($missing_courses as $missing_course => $found_in) {
     echo $missing_course.PHP_EOL;
     foreach ($found_in as $found) {
         echo '  - '.$found.PHP_EOL;

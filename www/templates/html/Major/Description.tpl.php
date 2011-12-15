@@ -19,7 +19,7 @@
     <div id="toc_bar"></div>
     <div id="long_content">
         <?php
-        foreach ($regions as $id=>$title) {
+        foreach ($regions as $id => $title) {
             if (!empty($context->$id)) {
                 echo '<div id="'.$id.'">'.$context->getRaw($id).'</div>';
             }
@@ -50,7 +50,7 @@
                     <?php endforeach; ?>
                 </td>
             </tr>
-            <?php foreach ($context->quickpoints as $attr=>$value): ?>
+            <?php foreach ($context->quickpoints as $attr => $value): ?>
             <tr>
                 <td class="attr"><?php echo $attr; ?>:</td>
                 <td class="value"><?php echo $value; ?></td>

@@ -41,7 +41,7 @@
     }
     $groups = implode(', ', array_unique($groups));
     $cltext = '';
-    foreach ($crosslistings as $cl_subject=>$cl_numbers) {
+    foreach ($crosslistings as $cl_subject => $cl_numbers) {
         $cltext .= ', '.$cl_subject.' '.implode('/', $cl_numbers);
     }
     $number_class = 'l'.count($listings);
@@ -72,7 +72,7 @@
     }
     
     $format = '';
-    foreach ($context->activities as $type=>$activity) {
+    foreach ($context->activities as $type => $activity) {
         $class .= ' '.$type;
         $format .= UNL_Services_CourseApproval_Course_Activities::getFullDescription($type);
         if (isset($activity->hours)) {

@@ -21,7 +21,7 @@ foreach (new UNL_UndergraduateBulletin_CollegeList() as $college) {
 
 
         /* @var $major UNL_UndergraduateBulletin_Major */
-        foreach (UNL_UndergraduateBulletin_EPUB_Utilities::findCourses($major->getDescription()->description)  as $description_subject_code=>$description_courses) {
+        foreach (UNL_UndergraduateBulletin_EPUB_Utilities::findCourses($major->getDescription()->description)  as $description_subject_code => $description_courses) {
             try {
                 $description_subject = new UNL_Services_CourseApproval_SubjectArea($description_subject_code);
                 foreach ($description_courses as $description_course) {

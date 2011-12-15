@@ -148,7 +148,7 @@ class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_
         $url = self::getEdition()->getURL();
         $url .= '?';
 
-        foreach ($additional_params as $option=>$value) {
+        foreach ($additional_params as $option => $value) {
             if (!empty($value)) {
                 $url .= "&amp;$option=$value";
             }

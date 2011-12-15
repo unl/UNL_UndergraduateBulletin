@@ -15,7 +15,7 @@ foreach (new UNL_UndergraduateBulletin_SubjectAreas() as $subject_area) {
     foreach ($subject_area->courses as $course) {
         /* @var $course UNL_Services_CourseApproval_Course */
         // Find courses within prereqs
-        foreach (UNL_UndergraduateBulletin_EPUB_Utilities::findCourses($course->prerequisite) as $prereq_subject_code=>$prereq_courses) {
+        foreach (UNL_UndergraduateBulletin_EPUB_Utilities::findCourses($course->prerequisite) as $prereq_subject_code => $prereq_courses) {
             try {
                 $prereq_subject = new UNL_Services_CourseApproval_SubjectArea($prereq_subject_code);
                 foreach ($prereq_courses as $prereq_course) {
