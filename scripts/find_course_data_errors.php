@@ -20,8 +20,7 @@ foreach (new UNL_UndergraduateBulletin_SubjectAreas() as $subject_area) {
                 $prereq_subject = new UNL_Services_CourseApproval_SubjectArea($prereq_subject_code);
                 foreach ($prereq_courses as $prereq_course) {
                     // try and get the listing
-                    $check_course = $prereq_subject->courses[$prereq_course];
-                    unset($check_course);
+                    $prereq_subject->courses[$prereq_course];
                 }
             } catch (Exception $e) {
                 $missing_courses["$prereq_subject_code $prereq_course"][] = "Found in $subject_area {$course->getHomeListing()->courseNumber} prereqs";
@@ -34,8 +33,7 @@ foreach (new UNL_UndergraduateBulletin_SubjectAreas() as $subject_area) {
                 $notes_subject = new UNL_Services_CourseApproval_SubjectArea($notes_subject_code);
                 foreach ($notes_courses as $notes_course) {
                     // try and get the listing
-                    $check_course = $notes_subject->courses[$notes_course];
-                    unset($check_course);
+                    $notes_subject->courses[$notes_course];
                 }
             } catch (Exception $e) {
                 $missing_courses["$notes_subject_code $notes_course"][] = "Found in $subject_area {$course->getHomeListing()->courseNumber} notes";
@@ -48,8 +46,7 @@ foreach (new UNL_UndergraduateBulletin_SubjectAreas() as $subject_area) {
                 $desc_subject = new UNL_Services_CourseApproval_SubjectArea($desc_subject_code);
                 foreach ($desc_courses as $desc_course) {
                     // try and get the listing
-                    $check_course = $desc_subject->courses[$desc_course];
-                    unset($check_course);
+                    $desc_subject->courses[$desc_course];
                 }
             } catch (Exception $e) {
                 $missing_courses["$desc_subject_code $desc_course"][] = "Found in $subject_area {$course->getHomeListing()->courseNumber} description";
