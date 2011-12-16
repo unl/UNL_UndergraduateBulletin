@@ -94,6 +94,7 @@ Autocomplete CSS
     -moz-border-radius: 3px;
     padding: 10px;
     width: 940px;
+    margin-bottom: 2.6em;
 }
 #maincontent #search_forms h3 {
     line-height: 1em;
@@ -105,18 +106,19 @@ Autocomplete CSS
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     cursor: pointer;
-    background: #e0e0e0; /* Old browsers */
-    background: -moz-linear-gradient(top,  #e0e0e0 0%, #c2c2c2 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e0e0e0), color-stop(100%,#c2c2c2)); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top,  #e0e0e0 0%,#c2c2c2 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top,  #e0e0e0 0%,#c2c2c2 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(top,  #e0e0e0 0%,#c2c2c2 100%); /* IE10+ */
-    background: linear-gradient(top,  #e0e0e0 0%,#c2c2c2 100%); /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0e0e0', endColorstr='#c2c2c2',GradientType=0 ); /* IE6-9 */
+    background: #ffffff; /* Old browsers */
+    background: -moz-linear-gradient(top,  #ffffff 0%, #eaeaea 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#eaeaea)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #ffffff 0%,#eaeaea 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #ffffff 0%,#eaeaea 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #ffffff 0%,#eaeaea 100%); /* IE10+ */
+    background: linear-gradient(top,  #ffffff 0%,#eaeaea 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#eaeaea',GradientType=0 ); /* IE6-9 */
+    
     color: #3A484F;
     border: 1px solid #bbbbbb;
 }
-#search_forms .option.selected, #search_forms input[type="submit"] {
+#search_forms .option.active, #search_forms input[type="submit"] {
     background: #80c662; /* Old browsers */
     background: -moz-linear-gradient(top,  #80c662 0%, #63a945 100%); /* FF3.6+ */
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#80c662), color-stop(100%,#63a945)); /* Chrome,Safari4+ */
@@ -128,10 +130,10 @@ Autocomplete CSS
     color: #fff;
     border: 1px solid #59993e;
 }
-#search_forms .option.selected {
-    -webkit-box-shadow: inset -1px 1px 1px 0px #699b53;
-    -moz-box-shadow: inset -1px 1px 1px 0px #699b53;
-    box-shadow: inset -1px 1px 1px 0px #699b53;
+#search_forms .option.active {
+    -webkit-box-shadow: inset 1px 1px 1px 0px #699b53;
+    -moz-box-shadow: inset 1px 1px 1px 0px #699b53;
+    box-shadow: inset 1px 1px 1px 0px #699b53;
     cursor: default;
 }
 #search_forms legend {

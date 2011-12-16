@@ -331,10 +331,10 @@ WDN.jQuery(document).ready(function($){
     //When we have the search combo, run these functions
     if ($('#search_forms').length > 0) {
         $('#search_forms form').hide();
-        selected = $('#search_forms .option.selected').attr('id');
+        selected = $('#search_forms .option.active').attr('id');
         $('#'+selected+'form').show();
         $('#search_forms .option').click(function(){
-            $('#search_forms .option').toggleClass('selected');
+            $('#search_forms .option').toggleClass('active');
             $('#search_forms form').toggle();
         });
     }
