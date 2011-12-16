@@ -166,7 +166,7 @@
         }
         $subsequent_courses = $context->getSubsequentCourses();
         if (count($subsequent_courses)) {
-            echo  "<div class='subsequent'>Subsequent courses: ";
+            echo  "<div class='subsequent'>This course is a prerequisite for: ";
             $sub_course_array = array();
             foreach ($subsequent_courses as $subsequent_courses) {
                 $sub_course_array[] = $subsequent_courses->getHomeListing()->subjectArea.' '.$subsequent_courses->getHomeListing()->courseNumber;
