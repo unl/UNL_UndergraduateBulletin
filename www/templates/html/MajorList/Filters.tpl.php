@@ -5,7 +5,7 @@
         <legend><span>College</span></legend>
         <ol>
            <li><input type="checkbox" checked="checked" id="filterAllCollege" class="filterAll" name="all" value="all" /><label for="filterAllCollege">All colleges</label></li>
-            <?php foreach(new UNL_UndergraduateBulletin_CollegeList() as $abbreviation=>$college): ?>
+            <?php foreach(new UNL_UndergraduateBulletin_CollegeList() as $abbreviation => $college): ?>
             <li><input type="checkbox" id="filter<?php echo $abbreviation; ?>" name="<?php echo $abbreviation; ?>" value="<?php echo $abbreviation; ?>" />
                 <label for="filter<?php echo $abbreviation; ?>"><?php echo htmlentities($college->name); ?></label>
             </li>

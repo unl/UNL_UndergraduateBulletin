@@ -23,7 +23,7 @@ class UNL_UndergraduateBulletin_MajorSearch extends ArrayIterator
         // Find matching major aliases
         $aliases = UNL_UndergraduateBulletin_MajorAliases::search($this->options['q']);
 
-        foreach ($aliases as $key=>$alias) {
+        foreach ($aliases as $key => $alias) {
             $aliases[$key] = UNL_UndergraduateBulletin_Controller::getEdition()->getDataDir().'/majors/'.$alias.'.xhtml';
         }
 

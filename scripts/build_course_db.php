@@ -30,6 +30,7 @@ subjectArea VARCHAR( 4 ) NOT NULL ,
 courseNumber VARCHAR( 4 ) NOT NULL ,
 title VARCHAR( 255 ) NOT NULL ,
 slo VARCHAR( 20 ) NOT NULL ,
+prerequisite TEXT NULL,
 credits INT UNSIGNED NULL ,
 xml MEDIUMTEXT NOT NULL ,
 PRIMARY KEY ( id )
@@ -55,7 +56,7 @@ $db->exec('ALTER TABLE `crosslistings` ADD INDEX ( `subjectArea` )  ');
 $db->exec('ALTER TABLE `crosslistings` ADD INDEX ( `courseNumber` )  ');
 
 
-$course_stmt = $db->prepare('INSERT INTO courses (id,subjectArea,courseNumber,title,slo,credits,xml) VALUES (?,?,?,?,?,?,?);');
+$course_stmt = $db->prepare('INSERT INTO courses (id,subjectArea,courseNumber,title,slo,prerequisite,credits,xml) VALUES (?,?,?,?,?,?,?,?);');
 $cross_stmt =  $db->prepare('INSERT INTO crosslistings (course_id, subjectArea, courseNumber) VALUES (?,?,?);');
 
 foreach ($courses as $course) {
@@ -77,6 +78,8 @@ foreach ($courses as $course) {
     } else {
         $values[] = '';
     }
+
+    $values[] = $course->prerequisite;
 
     $credits = $course->getCredits();
     if (isset($credits['Single Value'])) {

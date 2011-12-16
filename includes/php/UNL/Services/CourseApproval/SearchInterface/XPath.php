@@ -120,6 +120,12 @@ class UNL_Services_CourseApproval_SearchInterface_XPath extends UNL_Services_Cou
     {
         return "/default:courses/default:course/default:courseCredits[default:credit='$credits']/parent::*/parent::*";
     }
+
+	function prerequisiteQuery($prereq)
+    {
+        $prereq = strtolower($prereq);
+        return '/default:courses/default:course/default:prerequisite[contains(translate(.,"ABCDEFGHIJKLMNOPQRSTUVWXYZ", "abcdefghijklmnopqrstuvwxyz"),"'.$prereq.'")]/parent::*';
+    }
     
     function getQueryResult($query, $offset = 0, $limit = null)
     {

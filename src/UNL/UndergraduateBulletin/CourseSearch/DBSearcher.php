@@ -89,6 +89,11 @@ class UNL_UndergraduateBulletin_CourseSearch_DBSearcher extends UNL_Services_Cou
         return "SELECT DISTINCT courses.id, courses.xml FROM courses WHERE courses.credits = {$credits};";
     }
 
+    function prerequisiteQuery($prereq)
+    {
+    	return 'SELECT courses.xml FROM courses WHERE prerequisite LIKE '.self::getDB()->quote('%'.$prereq.'%').';';
+    }
+
     function getQueryResult($query, $offset = 0, $limit = null)
     {
         return new UNL_UndergraduateBulletin_CourseSearch_DBSearchResults($query, $offset, $limit);
