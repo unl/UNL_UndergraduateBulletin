@@ -1,3 +1,6 @@
+<?php
+    echo $savvy->render('', 'SearchForm.tpl.php');
+?>
 <div class="two_col left">
     <h1>What you can find here:</h1>
     <p>The Undergraduate Bulletin contains information about all programs of undergraduate study at the University of Nebraska&ndash;Lincoln.
@@ -38,11 +41,4 @@
             <li>Jeffrey S. Raikes School of Computer Science and Management</li>
         </ul>
     </div>
-</div>
-<div class="two_col right">
-        <?php
-        echo $savvy->render('', 'CourseSearchForm.tpl.php');
-        echo $savvy->render('', 'MajorList/SearchForm.tpl.php');
-        ?>
-        <div class="clear"></div>
 </div>

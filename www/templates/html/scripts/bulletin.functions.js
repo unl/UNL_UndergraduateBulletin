@@ -245,52 +245,6 @@ WDN.jQuery(document).ready(function($){
 	    	};
     	} catch(e) {}
     });
-    /*
-     * 
-     * Qtip for search box helpers
-     * 
-     */
-    $('#courseSearch').qtip({
-    	content: {
-    		text: $('#courseSearchHelp')
-    	},
-        position : {
-        	corner : {
-        		target : 'topLeft',
-        		tooltip : 'bottomMiddle'
-        	},
-        	container: $('body'),
-        	adjust: {
-        		x: 150
-        	}
-        },
-        style: { 
-        	tip: { 
-        		corner: 'bottomMiddle' ,
-        		size: { x: 25, y: 15 },
-        		color: '#557BB7'
-        	},
-        	"width":"300px",
-        	"background-color": '#d4e4f5',
-        	classes : {
-        		tooltip : 'searchHelp'
-        	}
-        },
-        show: {
-            when: {
-                event: 'focus'
-            }
-        },
-        hide: {
-            when: {
-                event: 'blur'
-            },
-            delay: 400,
-            effect: {
-            	length:200
-            }
-        }
-    });
     $('#courseSearch, #majorSearch').attr("autocomplete", "off");
     $('#courseSearch').autocomplete({
 		delay: 555,
@@ -373,6 +327,28 @@ WDN.jQuery(document).ready(function($){
 		select: function(e, ui) {
 			window.location.href = UNL_UGB_URL+'major/'+ui.item.value;
 		}
+    });
+    //When we have the search combo, run these functions
+    if ($('#search_forms').length > 0) {
+        $('#search_forms form').hide();
+        selected = $('#search_forms .option.selected').attr('id');
+        $('#'+selected+'form').show();
+        $('#search_forms .option').click(function(){
+            $('#search_forms .option').toggleClass('selected');
+            $('#search_forms form').toggle();
+        });
+    }
+    $('.search input[type="text"]').click(function(){
+        $(this).prev('label').hide();
+    }).blur(function(){
+        if ($(this).val().length == 0){
+            $(this).prev('label').show();
+        }
+    });
+    $('.search label').click(function(){
+        $(this).hide(function(){
+            $(this).next('input[type="text"]').focus();
+        });
     });
 });
 
