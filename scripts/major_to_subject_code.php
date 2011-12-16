@@ -26,7 +26,7 @@ foreach (new UNL_UndergraduateBulletin_Editions() as $edition) {
         
         */
     
-        $major = new UNL_UndergraduateBulletin_Major(array('title'=>$array[0]));
+        $major = new UNL_UndergraduateBulletin_Major(array('title' => $array[0]));
 
         $codes = array();
         if (isset($array[2])

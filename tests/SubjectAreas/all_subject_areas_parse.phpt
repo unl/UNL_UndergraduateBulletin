@@ -6,7 +6,7 @@ require dirname(__FILE__) . '/../test_framework.php.inc';
 
 $areas = new UNL_UndergraduateBulletin_SubjectAreas();
 
-foreach ($areas as $code=>$area) {
+foreach ($areas as $code => $area) {
     $test->assertTrue(isset($area->courses), 'subjectarea '.$code.' has no courses ');
 }
 

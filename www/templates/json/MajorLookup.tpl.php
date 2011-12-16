@@ -1,6 +1,6 @@
 <?php
 $plans = array();
-foreach ($context as $code=>$title) {
+foreach ($context as $code => $title) {
     $plans[$code] = $title;
 }
 

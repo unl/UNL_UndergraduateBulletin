@@ -31,7 +31,7 @@ class UNL_UndergraduateBulletin_College implements UNL_UndergraduateBulletin_Cac
             case 'description':
                 return $this->getDescription();
             case 'majors':
-                return new UNL_UndergraduateBulletin_College_Majors(array('college'=>$this));
+                return new UNL_UndergraduateBulletin_College_Majors(array('college' => $this));
             case 'abbreviation':
                 return UNL_UndergraduateBulletin_CollegeList::getAbbreviation($this->name);
         }
