@@ -379,7 +379,7 @@ WDN.jQuery(document).ready(function($){
 function fadeInTOCMenu() {
 	if (!menuFaded) { //menu is hidden
 		WDN.log('fading menu in');
-		WDN.jQuery('#toc_nav').css({'position': 'fixed', 'width': '940px'});
+		WDN.jQuery('#toc_nav').css({'position': 'fixed', 'width': '960px'});
 		WDN.jQuery('#toc_major_name').css({'display': 'block'});
 		WDN.jQuery('#long_content').css({'margin-top':'73px'});	
 		WDN.jQuery('#toc_bar').fadeIn(200);
