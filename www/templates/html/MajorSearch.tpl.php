@@ -17,10 +17,10 @@ if ($context->options['format'] != 'partial') {
     echo '</div>';
 }
 ?>
-<div class="col left">
+<div class="grid3 first">
     <?php echo $savvy->render(null, 'MajorList/Filters.tpl.php'); ?>
 </div>
-<div class="three_col right">
+<div class="grid9">
     <?php 
     if (!$context->count()) {
         echo 'Sorry, no matching areas of study';
