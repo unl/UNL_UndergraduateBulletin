@@ -19,7 +19,7 @@ if (isset($context->options['view'])
     ');
 }
 if ($context->options['format'] != 'partial') {
-    echo $savvy->render('', 'CourseSearchForm.tpl.php');
+    echo $savvy->render('', 'SearchForm.tpl.php');
 }
 if (!count($context->results)) {
     echo 'Sorry, no matching courses';
