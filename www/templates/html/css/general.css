@@ -244,7 +244,9 @@ Homepage layouts
     -moz-box-shadow: inset 1px 1px 1px 0px #699b53;
     box-shadow: inset 1px 1px 1px 0px #699b53;
 }
-
+#maincontent .em {
+    font-size: 250%;
+}
 .pull {
     border-radius: 3px;
     -webkit-border-radius: 3px;

@@ -2,7 +2,7 @@
     echo $savvy->render('', 'SearchForm.tpl.php');
 ?>
 <div class="grid9 first">
-    <h3>Academic Colleges</h3>
+    <h3 class="em">Academic Colleges</h3>
     <ul class="thumbs">
         <li class="grid3 first">
             <div>
