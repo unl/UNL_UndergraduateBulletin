@@ -336,9 +336,14 @@ WDN.jQuery(document).ready(function($){
         $('#search_forms .option').click(function(){
             $('#search_forms .option').toggleClass('active');
             $('#search_forms form').toggle();
+        }).keyup(function(event){
+            if (event.keyCode == 13){
+               $('#search_forms .option').toggleClass('active');
+               $('#search_forms form').toggle(); 
+            }
         });
     }
-    $('.search input[type="text"]').click(function(){
+    $('.search input[type="text"]').focus(function(){
         $(this).prev('label').hide();
     }).blur(function(){
         if ($(this).val().length == 0){
