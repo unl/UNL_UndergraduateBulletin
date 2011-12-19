@@ -185,19 +185,20 @@ Autocomplete CSS
     position: absolute;
     top: 0.4em;
     color: #999;
+    line-height: 1;
 }
 #search_forms input:focus{
     outline: none;
 }
 #search_forms input[type="submit"] {
     position: absolute;
-    margin-top: 0.5%;
+    font-size-adjust: 0.45; /* a -moz only (at this time) property to control font rendering */
     right: 0.5%;
     cursor: pointer;
     -webkit-border-radius: 0 4px 4px 0;
     -moz-border-radius: 0 4px 4px 0;
     border-radius: 0 4px 4px 0;
-    padding: 0.3em 1% 0.3em 1%;
+    padding: 0.3em 1%;
     -webkit-box-shadow: inset -1px 1px 2px 0px #a4e489;
     -moz-box-shadow: inset -1px 1px 2px 0px #a4e489;
     box-shadow: inset -1px 1px 2px 0px #a4e489;
