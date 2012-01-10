@@ -12,7 +12,7 @@ $baseURL = UNL_UndergraduateBulletin_Controller::getBaseURL();
         Students are responsible for knowing which bulletin they should follow.</p>
     </div>
 </div>
-<div class="three_col left">
+<div class="grid9 first">
 <h3>COLLEGE BULLETIN USAGE RULES</h3>
 <?php foreach (new UNL_UndergraduateBulletin_CollegeList() as $college) {
     if (isset($college->description->bulletinRule)) {
@@ -22,7 +22,7 @@ $baseURL = UNL_UndergraduateBulletin_Controller::getBaseURL();
 }
 ?>
 </div>
-<div class="col right">
+<div class="grid3">
     <div class="zenbox cool">
         <h3>Previous Bulletins</h3>
         <ul>

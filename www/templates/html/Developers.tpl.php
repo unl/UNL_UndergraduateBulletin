@@ -48,7 +48,7 @@
     });
 </script>
 
-<div class="three_col left">
+<div class="grid9 first">
     
     <?php
         $resource = "UNL_UndergraduateBulletin_Developers_" . $context->resource;
@@ -150,7 +150,7 @@
     </div>
     
 </div>
-<div class="col right">
+<div class="grid3">
     <div id='resources' class="zenbox primary" style="width:200px">
         <h3>UNL Undergraduate Bulletin API</h3>
         <p>The following is a list of resources for the Undergraduate Bulletin.</p>

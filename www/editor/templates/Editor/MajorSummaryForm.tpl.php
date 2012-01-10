@@ -1,7 +1,6 @@
 <script type="text/javascript">
 //<![CDATA[
     WDN.jQuery(document).ready(function(){
-         WDN.initializePlugin('zenform');
          WDN.jQuery('#majorbox').change(function(){
              if (WDN.jQuery(this).attr('value') == 'Unknown') {
                  // Show the other box, on update, set the value of the Unknown field

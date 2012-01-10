@@ -10,7 +10,7 @@
     'other'                         => 'Other',
     );
 ?>
-<div class="three_col left">
+<div class="grid9 first">
     <div id="toc_nav">
         <a href="#toc_nav" id="tocContent">Contents</a>
         <ol id="toc"><li>Intro</li></ol>
@@ -29,7 +29,7 @@
         <?php echo $savvy->render($context->colleges); ?>
     </div>
 </div>
-<div class="col right">
+<div class="grid3">
     <table class="major_quick_points zentable cool" summary="Quick points about the <?php echo $context->major->title; ?> major/program.">
         <caption>Quick points about the <?php echo $context->major->title; ?> major/program.</caption>
         <thead>
