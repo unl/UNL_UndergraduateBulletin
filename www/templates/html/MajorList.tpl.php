@@ -9,10 +9,10 @@ UNL_UndergraduateBulletin_Controller::setReplacementData('doctitle', 'UNL | Unde
 </ul>
 ');
 ?>
-<div class="col left">
+<div class="grid3 first">
     <?php echo $savvy->render(null, 'MajorList/Filters.tpl.php'); ?>
 </div>
-<div class="three_col right">
+<div class="grid9">
     <h1>Select A Major or Area of Study</h1>
     <?php echo $savvy->render($context, 'MajorList/UnorderedList.tpl.php'); ?>
 </div>
