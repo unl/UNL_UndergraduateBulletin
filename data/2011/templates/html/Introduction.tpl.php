@@ -6,7 +6,7 @@
     <ul class="thumbs">
         <li class="grid3 first">
             <div>
-                <img src="<?php echo UNL_UndergraduateBulletin_Controller::getURL(); ?>templates/html/images/thumb_casnr.jpg" alt="College of Agricultural Sciences &amp; Natural Resources" />
+                <img src="<?php echo UNL_UndergraduateBulletin_Controller::getBaseURL(); ?>templates/html/images/thumb_casnr.jpg" alt="College of Agricultural Sciences &amp; Natural Resources" />
                 <h4>Agricultural Sciences &amp; Natural Resources</h4>
                 <ul>
                     <li>
@@ -20,7 +20,7 @@
         </li>
         <li class="grid3">
             <div>
-                <img src="<?php echo UNL_UndergraduateBulletin_Controller::getURL(); ?>templates/html/images/thumb_arc.jpg" alt="College of Architecture" />
+                <img src="<?php echo UNL_UndergraduateBulletin_Controller::getBaseURL(); ?>templates/html/images/thumb_arc.jpg" alt="College of Architecture" />
                 <h4>Architecture</h4>
                 <ul>
                     <li>
@@ -34,7 +34,7 @@
         </li>
         <li class="grid3 ">
             <div>
-                <img src="<?php echo UNL_UndergraduateBulletin_Controller::getURL(); ?>templates/html/images/thumb_cas.jpg" alt="College of Arts &amp; Sciences" />
+                <img src="<?php echo UNL_UndergraduateBulletin_Controller::getBaseURL(); ?>templates/html/images/thumb_cas.jpg" alt="College of Arts &amp; Sciences" />
                 <h4>Arts &amp; Sciences</h4>
                 <ul>
                     <li>
@@ -48,7 +48,7 @@
         </li>
         <li class="grid3 first">
             <div>
-                <img src="<?php echo UNL_UndergraduateBulletin_Controller::getURL(); ?>templates/html/images/thumb_cba.jpg" alt="College of Business Administration" />
+                <img src="<?php echo UNL_UndergraduateBulletin_Controller::getBaseURL(); ?>templates/html/images/thumb_cba.jpg" alt="College of Business Administration" />
                 <h4>Business Administration</h4>
                 <ul>
                     <li>
@@ -62,7 +62,7 @@
         </li>
         <li class="grid3 ">
             <div>
-                <img src="<?php echo UNL_UndergraduateBulletin_Controller::getURL(); ?>templates/html/images/thumb_ehs.jpg" alt="College of Education &amp; Human Sciences" />
+                <img src="<?php echo UNL_UndergraduateBulletin_Controller::getBaseURL(); ?>templates/html/images/thumb_ehs.jpg" alt="College of Education &amp; Human Sciences" />
                 <h4>Education &amp; Human Sciences</h4>
                 <ul>
                     <li>
@@ -76,7 +76,7 @@
         </li>
         <li class="grid3 ">
             <div>
-                <img src="<?php echo UNL_UndergraduateBulletin_Controller::getURL(); ?>templates/html/images/thumb_eng.jpg" alt="College of Engineering" />
+                <img src="<?php echo UNL_UndergraduateBulletin_Controller::getBaseURL(); ?>templates/html/images/thumb_eng.jpg" alt="College of Engineering" />
                 <h4>Engineering</h4>
                 <ul>
                     <li>
@@ -90,7 +90,7 @@
         </li>
         <li class="grid3 first">
             <div>
-                <img src="<?php echo UNL_UndergraduateBulletin_Controller::getURL(); ?>templates/html/images/thumb_fpa.jpg" alt="Hixson-Lied College of Fine &amp; Performing Arts" />
+                <img src="<?php echo UNL_UndergraduateBulletin_Controller::getBaseURL(); ?>templates/html/images/thumb_fpa.jpg" alt="Hixson-Lied College of Fine &amp; Performing Arts" />
                 <h4><span class="">Hixson-Lied College of Fine &amp; Performing Arts</h4>
                 <ul>
                     <li>
@@ -104,7 +104,7 @@
         </li>
         <li class="grid3 ">
             <div>
-                <img src="<?php echo UNL_UndergraduateBulletin_Controller::getURL(); ?>templates/html/images/thumb_jmc.jpg" alt="College of Journalism &amp; Mass Communications" />
+                <img src="<?php echo UNL_UndergraduateBulletin_Controller::getBaseURL(); ?>templates/html/images/thumb_jmc.jpg" alt="College of Journalism &amp; Mass Communications" />
                 <h4>Journalism &amp; Mass Communications</h4>
                 <ul>
                     <li>
