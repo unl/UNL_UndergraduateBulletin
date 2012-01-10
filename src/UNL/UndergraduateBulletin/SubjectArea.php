@@ -22,7 +22,7 @@ class UNL_UndergraduateBulletin_SubjectArea extends UNL_Services_CourseApproval_
     {
         $title = trim(strtolower($title));
         $subject_areas = new UNL_UndergraduateBulletin_SubjectAreas();
-        foreach ($subject_areas as $code=>$area) {
+        foreach ($subject_areas as $code => $area) {
             if (strtolower($area->title) == $title) {
                 return $area;
             }

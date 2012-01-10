@@ -38,7 +38,7 @@ if (isset($context->subject)) {
 'stu'=>'Studio',
 'fld'=>'Field',
 'ind'=>'Independent Study',
-'psi'=>'Personalized System of Instruction') as $key=>$type) : ?>
+'psi'=>'Personalized System of Instruction') as $key => $type) : ?>
                 <li>
                         <input type="checkbox" id="<?php echo $idPrefix; ?>_filter_format_<?php echo $key; ?>" value="<?php echo $key; ?>" />
                     <label for="<?php echo $idPrefix; ?>_filter_format_<?php echo $key; ?>"><?php echo $type; ?></label>
