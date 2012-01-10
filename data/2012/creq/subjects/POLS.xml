@@ -238,17 +238,21 @@
       <courseCode type="home listing">
         <subject>POLS</subject>
         <courseNumber>160</courseNumber>
-        <courseGroup>International Relations</courseGroup>
       </courseCode>
       <courseCode type="crosslisting">
         <subject>POLS</subject>
         <courseNumber>160</courseNumber>
         <courseLetter>X</courseLetter>
+        <courseGroup>International Relations</courseGroup>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>INTS</subject>
+        <courseNumber>160</courseNumber>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1108</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1121</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">How and why states act as they do in their contemporary international relations. Continuing factors, such as power, war, ideology, and governmental organizations, and recently emerging influences, including supranational organizations, multinational corporations, and natural resource allocation analyzed. Diverse approaches and theories examined.</div>
     </description>
@@ -371,7 +375,13 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1121</effectiveSemester>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Five week mini course.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Hot political topics of the day. Topics will vary.</div>
+    </description>
     <campuses>
       <campus>UNL</campus>
     </campuses>
@@ -390,7 +400,8 @@
       </activity>
     </activities>
     <credits>
-      <credit type="Single Value">3</credit>
+      <credit type="Single Value">1</credit>
+      <credit type="Per Career Limit">4</credit>
     </credits>
   </course>
   <course>
@@ -752,7 +763,7 @@
     <dfRemoval>true</dfRemoval>
     <effectiveSemester>1111</effectiveSemester>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Role of genes, neural activity, and physiology in shaping human behavior, especially political behavior.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Role of genes, neural activity, and physiology in shaping human behavior, especially political behavior.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -1124,7 +1135,7 @@
     <dfRemoval>false</dfRemoval>
     <effectiveSemester>1078</effectiveSemester>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Challenges to the state related to human rights and gender issues.  How growth of non-state actors affects individuals and groups and their rights.  Gendered notions of the state, national security, women's rights, and humanitarian intervention.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Challenges to the state related to human rights and gender issues. How growth of non-state actors affects individuals and groups and their rights. Gendered notions of the state, national security, women's rights, and humanitarian intervention.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -1683,6 +1694,49 @@
     </credits>
   </course>
   <course>
+    <title>Conflict and Development in Africa</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>POLS</subject>
+        <courseNumber>375</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>ETHN</subject>
+        <courseNumber>375</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1128</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Uses knowledge, theories, methods, and historical perspectives appropriate to the social sciences to understand the causes of conflict and development in Africa. Pays attention to the diversity of conflict and development-related experiences on the continent.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+    <aceOutcomes>
+      <slo>6</slo>
+      <slo>9</slo>
+    </aceOutcomes>
+  </course>
+  <course>
     <title>Chinese Politics</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -1868,7 +1922,7 @@
       <div xmlns="http://www.w3.org/1999/xhtml">Junior standing and 12 hrs POLS.</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Pass/No Pass only. POLS 395 requires the assignment of and the supervision by a faculty member.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Pass/No Pass only. POLS 395 requires the assignment of and the supervision by a faculty member.</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Internship in government agencies, public-interest groups, political parties, or other organizations.</div>
@@ -2199,7 +2253,7 @@
     <dfRemoval>false</dfRemoval>
     <effectiveSemester>1078</effectiveSemester>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">This course may be repeated up to 6 credit hours.  Students should check the semester schedule for current offerings.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">This course may be repeated up to 6 credit hours. Students should check the semester schedule for current offerings.</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">A significant public policy in American politics. Topics: science, technology, and public policy; or health politics.</div>
@@ -2511,7 +2565,7 @@
     <dfRemoval>false</dfRemoval>
     <effectiveSemester>1108</effectiveSemester>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Military action as an instrument of American foreign policy.  Constitutional basis of the president's and Congress's war powers; assessments of the role of the White House, Congress, CIA, senior pentagon officials, the American public, and military alliances - NATO and coalitions of the willing - in supporting and directing the use of military action abroad; and the political and strategic consequences of various American applications of military force.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Military action as an instrument of American foreign policy. Constitutional basis of the president's and Congress's war powers; assessments of the role of the White House, Congress, CIA, senior pentagon officials, the American public, and military alliances - NATO and coalitions of the willing - in supporting and directing the use of military action abroad; and the political and strategic consequences of various American applications of military force.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -2893,7 +2947,7 @@
       <div xmlns="http://www.w3.org/1999/xhtml">Permission.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Use of terror as an instrument of state policy.  A series of case studies of large scale politically based killings.  Why and which states use terror and politicide against their own citizens.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Use of terror as an instrument of state policy. A series of case studies of large scale politically based killings. Why and which states use terror and politicide against their own citizens.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -3120,7 +3174,7 @@
     <dfRemoval>false</dfRemoval>
     <effectiveSemester>1078</effectiveSemester>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Theories of natinalism and ethnic conflict.  Case studies of Europe, the Middle East, and Africa.  The post-Cold War era as multi-polar and multi-cilizational.  The states and different cultures that compete for influence and authority to dominate the "New World order."  The division of the world along ethnic, religious, and class lines rather than by ideology.  The future of international politics and the reassessment of the causes of "conflicts of culture" and their containment.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Theories of natinalism and ethnic conflict. Case studies of Europe, the Middle East, and Africa. The post-Cold War era as multi-polar and multi-cilizational. The states and different cultures that compete for influence and authority to dominate the "New World order." The division of the world along ethnic, religious, and class lines rather than by ideology. The future of international politics and the reassessment of the causes of "conflicts of culture" and their containment.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -3296,9 +3350,7 @@
     <dfRemoval>false</dfRemoval>
     <effectiveSemester>1108</effectiveSemester>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">
-        <span style="font-size: 11pt; font-family: ">Nature, strategies, and mechanics of insurgency, guerrilla warfare and terrorism, where they fit in the spectrum of conflict, and various techniques and methods for analyzing them.</span>
-      </div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Nature, strategies, and mechanics of insurgency, guerrilla warfare and terrorism, where they fit in the spectrum of conflict, and various techniques and methods for analyzing them.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -3390,6 +3442,662 @@
     <credits>
       <credit type="Single Value">3</credit>
       <credit type="Per Semester Limit">24</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Research Methods</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>POLS</subject>
+        <courseNumber>800</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>SRAM</subject>
+        <courseNumber>800</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Basic techniques used in quantitative political science research. The general linear model. Basic probability theory, ordinary least squares regression, and how to solve problems often encountered when conducting quantitative analyses in political science.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Scope and Methods of Political Science</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>POLS</subject>
+        <courseNumber>801</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">The character of political science as a form of inquiry-what it seeks to know it and how it seeks to know it. The discipline of political science as a science; the meaning of concepts, generalizations, laws, theories and explanations; and concept formation and theory building as embodied in major studies of politics. Alternative understandings of the character and possibility of a science of politics.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Professional Development in Political Science</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>POLS</subject>
+        <courseNumber>802</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Permission</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Professional development topics, teaching methods, grant writing and article writing.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Taxation-Farm and Ranch</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>AECN</subject>
+        <courseNumber>818</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>ACCT</subject>
+        <courseNumber>818</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>LAW</subject>
+        <courseNumber>618</courseNumber>
+        <courseLetter>G</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>POLS</subject>
+        <courseNumber>818</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">ACCT 812 or LAW 637/G</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Selection of substantial income tax problems affecting farms and ranches.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">4</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Core Seminar in American Government</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>POLS</subject>
+        <courseNumber>820</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Literature in American governmental institutions, processes, policies, and law. Students required to do extensive reading in these areas. Introduces the beginning graduate student to the field of American government.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Core Seminar in Public Policy and Process</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>POLS</subject>
+        <courseNumber>831</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Intended for graduate students interested in a review of the field.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Public Policy Analysis: Methods and Models</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>POLS</subject>
+        <courseNumber>836</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Qualitative and quantitative approaches to public policy analysis. Nature of politics and policy, formation of public policy, analysis of policy content, methodological triangulation, participatory policy making designs, and the role of the analyst. Construct and implement a multi-method policy analysis for a local community agency.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Core Seminar in Biology and Politics</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>POLS</subject>
+        <courseNumber>850</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to the relationship between the fields of biology and politics. The political implication of genetics, physiology, neuro-imaging, and evolutionary psychology.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Core Seminar in International Politics</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>POLS</subject>
+        <courseNumber>860</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Extensive reading required. Rigorous survey of the literature in international relations, including international law and international organization. Intended to introduce the beginning graduate student to the field of international relations.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Core Seminar in Comparative Politics</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>POLS</subject>
+        <courseNumber>879</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">POLS 879 is intended to introduce the beginning graduate student to the field of comparative politics. Survey of the field of comparative politics. General theory and methodology; issues and crises in a number of functional areas; participation and socialization; and the special problems confronting the area specialist.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Core Seminar in Political Theory</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>POLS</subject>
+        <courseNumber>880</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Students required to read extensively and to take a final examination. Rigorous survey of some of the major areas of concern in empirical and normative political theory.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Individual Readings</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>POLS</subject>
+        <courseNumber>891</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Permission</div>
+    </prerequisite>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">6</credit>
+      <credit type="Per Career Limit">24</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Internship</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>POLS</subject>
+        <courseNumber>895</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Stuent is assigned and suprevised by designated faculty member. Pass/No Pass only.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Internship in government agencies, quasi public agencies, private firms (profit and nonprofit), and other organizations.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities>
+      <activity>
+        <type>fld</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Masters Thesis</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>POLS</subject>
+        <courseNumber>899</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Permission</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Prereq: Admission to masters degree program and permission of major adviser.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">6</credit>
+      <credit type="Upper Range Limit">10</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Dissertation Prospectus</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>POLS</subject>
+        <courseNumber>901</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Permission</div>
+    </prerequisite>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Seminar in American Government</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>POLS</subject>
+        <courseNumber>920</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Permission</div>
+    </prerequisite>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+      <credit type="Per Career Limit">12</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Seminar in Public Policy</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>POLS</subject>
+        <courseNumber>931</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Permission</div>
+    </prerequisite>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+      <credit type="Per Career Limit">12</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Seminar in Methods</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>POLS</subject>
+        <courseNumber>941</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Permission</div>
+    </prerequisite>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+      <credit type="Per Career Limit">9</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Research Seminar in Biology and Politics</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>POLS</subject>
+        <courseNumber>950</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Advanced research in the relationship between biology and politics.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Seminar in International Relations</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>POLS</subject>
+        <courseNumber>960</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Permission</div>
+    </prerequisite>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+      <credit type="Per Career Limit">12</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Seminar in International Human Rights</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>POLS</subject>
+        <courseNumber>965</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Permission</div>
+    </prerequisite>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Research Seminar in Comparative Politics</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>POLS</subject>
+        <courseNumber>979</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+      <credit type="Per Career Limit">9</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Minor Research Problems</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>POLS</subject>
+        <courseNumber>991</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Permission</div>
+    </prerequisite>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">6</credit>
+      <credit type="Per Career Limit">24</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Doctoral Dissertation</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>POLS</subject>
+        <courseNumber>999</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Permission</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Prereq: Admission to doctoral degree program and permission of supervisory committee chair.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">24</credit>
+      <credit type="Per Career Limit">55</credit>
     </credits>
   </course>
 </courses>

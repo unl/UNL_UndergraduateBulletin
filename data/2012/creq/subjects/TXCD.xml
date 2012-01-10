@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <courses xmlns="http://courseapproval.unl.edu/courses" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://courseapproval.unl.edu/courses /schema/courses.xsd">
   <course>
-    <title>Design Essentials</title>
+    <title>Visual Communication and Presentation</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>TXCD</subject>
@@ -10,12 +10,12 @@
     </courseCodes>
     <gradingType>letter grade only</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1111</effectiveSemester>
+    <effectiveSemester>1121</effectiveSemester>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">Non-majors only.</div>
     </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">An introduction to design fundamentals and their application in visual communications.  Design problems and solutions will be explored and considered relative to the needs of various professions that use images to convey information.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">An introduction to design fundamentals and their application in visual communications. Design problems and solutions will be explored and considered relative to the needs of various professions that use images to convey information.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -31,7 +31,7 @@
     <activities>
       <activity>
         <type>lab</type>
-        <hours>2</hours>
+        <hours>3</hours>
       </activity>
       <activity>
         <type>lec</type>
@@ -297,7 +297,7 @@
     <dfRemoval>true</dfRemoval>
     <effectiveSemester>1091</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ARTP: Art major or candidate for teaching endorsement in art.&amp;nbsp; ARCH: Admission to the College of Architecture. IDES: Admission to the College of Architecture. JGEN: College of Journalism and Mass Communications major and 2.75 GPA. LARC: Admission to the College of Architecture. TXCD: Textiles, Clothing and Design major or minor.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">ARTP: Art major or candidate for teaching endorsement in art. ARCH: Admission to the College of Architecture. IDES: Admission to the College of Architecture. JGEN: College of Journalism and Mass Communications major and 2.75 GPA. LARC: Admission to the College of Architecture. TXCD: Textiles, Clothing and Design major or minor.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Development of creative and perceptual analytic skills through problem solving in drawing and design. Composition and color theory application.</div>
@@ -486,206 +486,6 @@
     </aceOutcomes>
   </course>
   <course>
-    <title>Visual and Aural Literacy: Videography</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>JOUR</subject>
-        <courseNumber>163</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>ARCH</subject>
-        <courseNumber>163</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>ARTP</subject>
-        <courseNumber>163</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>IDES</subject>
-        <courseNumber>163</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>LARC</subject>
-        <courseNumber>163</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>TXCD</subject>
-        <courseNumber>163</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>letter grade only</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1111</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Visual and Aural Literacy: Videography (ARCH, ARTP, IDES, LARC, TXCD 142) (2 cr) Lec 2, lab 2. Prereq: ARTP: Art major or candidate for teaching endorsement in art. ARCH: Admission to the College of Architecture. IDES: Admission to the College of Architecture. JOUR: College of Journalism and Mass Communications major. LARC: Admission to the College of Architecture. TXCD: Textiles, Clothing and Design major or minor.</div>
-    </prerequisite>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">JOUR 163 is an eight-week mini course. This is a letter grade only course.<br/></div>
-    </notes>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Students will use video cameras, microphones, and editing equipment to produce effective visual images, work on assignments to learn the basics of the technology, understand aesthetic composition and effective audio/miking, and produce sequenced video images using single-camera EFP/ENG shooting style.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>lab</type>
-        <hours>2</hours>
-      </activity>
-      <activity>
-        <type>lec</type>
-        <hours>2</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">2</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Visual and Aural Literacy: Graphic Design</title>
-    <courseCodes>
-      <courseCode type="crosslisting">
-        <subject>ARCH</subject>
-        <courseNumber>164</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>ARTP</subject>
-        <courseNumber>164</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>IDES</subject>
-        <courseNumber>164</courseNumber>
-      </courseCode>
-      <courseCode type="home listing">
-        <subject>JOUR</subject>
-        <courseNumber>164</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>TXCD</subject>
-        <courseNumber>164</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>LARC</subject>
-        <courseNumber>164</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>letter grade only</gradingType>
-    <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1111</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">(ACE 2) 164. Visual and Aural Literacy:  Graphic Design (ARCH, ARTP, IDES, LARC, TXCD) (2 cr) Lec 2, lab 2. Prereq: ARTP: Art major or candidate for teaching endorsement in art. ARCH: Admission to the College of Architecture. IDES: Admission to the College of Architecture. JOUR: College of Journalism and Mass Communications major. LARC: Admission to the College of Architecture. TXCD: Textiles, Clothing and Design major or minor.<br/></div>
-    </prerequisite>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">This a letter grade only course.</div>
-    </notes>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Students will be introduced to the world of graphic design, including typography, informational graphics and newspaper page design, using industry standard software to design their work and  incorporate photographs and graphics.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>lab</type>
-        <hours>2</hours>
-      </activity>
-      <activity>
-        <type>lec</type>
-        <hours>2</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">2</credit>
-    </credits>
-    <aceOutcomes>
-      <slo>2</slo>
-    </aceOutcomes>
-  </course>
-  <course>
-    <title>Visual and Aural Literacy: Multimedia</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>JOUR</subject>
-        <courseNumber>165</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>ARCH</subject>
-        <courseNumber>165</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>ARTP</subject>
-        <courseNumber>165</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>IDES</subject>
-        <courseNumber>165</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>LARC</subject>
-        <courseNumber>165</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>TXCD</subject>
-        <courseNumber>165</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>letter grade only</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1111</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Visual and Aural Literacy:  Multimedia  (ARCH, ARTP, IDES, LARC, TXCD 142) (2 cr) Lec 2, lab 2. Prereq: ARTP: Art major or candidate for teaching endorsement in art. ARCH: Admission to the College of Architecture. IDES: Admission to the College of Architecture. JOUR: College of Journalism and Mass Communications major. LARC: Admission to the College of Architecture. TXCD: Textiles, Clothing and Design major or minor.</div>
-    </prerequisite>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">
-        <em>JOUR 165 is an eight-week mini-course.  This course is a letter grade only course.<br/></em>
-      </div>
-    </notes>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Students will build their own websites utilizing fundamental principles of multimedia design and functionality, purchase their own domain name, brand themselves and publish their own websites.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>lab</type>
-        <hours>2</hours>
-      </activity>
-      <activity>
-        <type>lec</type>
-        <hours>2</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">2</credit>
-    </credits>
-  </course>
-  <course>
     <title>Textiles</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -731,7 +531,7 @@
     </aceOutcomes>
   </course>
   <course>
-    <title>Product Development I:  Apparel Analysis and Development</title>
+    <title>Product Development I: Apparel Analysis and Development</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>TXCD</subject>
@@ -776,11 +576,6 @@
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
     <effectiveSemester>1095</effectiveSemester>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">
-        <br/>
-      </div>
-    </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Textile and apparel industry processes. Social, cultural, and economic influences on the industry including entrepreneurship.</div>
     </description>
@@ -853,7 +648,7 @@
     <dfRemoval>true</dfRemoval>
     <effectiveSemester>1108</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">For Merchandising or Textile Science option: ARTP/ARCH/IDES/JGEN/LARC/TXCD 141A and 141B. For Textile, Clothing and Design's Communication option: ARTP/ARCH/IDES/JGEN/LARC/TXCD 140A and 140B. For Textiles and Apparel Design option: ARPT/ARCH/IDES/JGEN/LARC/TXCD 140A, 140B, 141A, 141B, and 143.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">For Merchandising or Textile Science option: ARTP/ARCH/IDES/JGEN/LARC/TXCD 141A and 141B. For Textile, Clothing and Design's Communication option: ARTP/ARCH/IDES/JGEN/LARC/TXCD 140A and 140B. For Textiles and Apparel Design option: ARPT/ARCH/IDES/JGEN/LARC/TXCD 140A, 140B, 141A, 141B, and 143.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Introduction to surface design with creative applications of printing and dyeing techniques on fabric.</div>
@@ -878,7 +673,7 @@
     </credits>
   </course>
   <course>
-    <title>Product Development II: Fashion  Analysis and Presentation</title>
+    <title>Product Development II: Fashion Analysis and Presentation</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>TXCD</subject>
@@ -889,7 +684,7 @@
     <dfRemoval>true</dfRemoval>
     <effectiveSemester>1118</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">TXCD major. For Merchandising or Textile Science option: ARTP/ARCH/IDES/JGEN/LARC/TXCD 141A and 141B. For Textiles Clothing and Design's Communications option: ARTP/ARCH/IDES/JGEN/LARC/TXCD 140A AND 140B. For Textiles and Apparel Design option: ARTP/ARCH/IDES/JGEN/LARC/TXCD 140A, 140B, 141A, 141B, and 143; TXCD 212.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">TXCD major. For Merchandising or Textile Science option: ARTP/ARCH/IDES/JGEN/LARC/TXCD 141A and 141B. For Textiles Clothing and Design's Communications option: ARTP/ARCH/IDES/JGEN/LARC/TXCD 140A AND 140B. For Textiles and Apparel Design option: ARTP/ARCH/IDES/JGEN/LARC/TXCD 140A, 140B, 141A, 141B, and 143; TXCD 212.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Drawing garments and the fashion figure. Aesthetic styling and presentation, refining product specifications, and interpretations of current trends. Intermediate application of computer-aided design in flat drawings and visual presentations.</div>
@@ -1330,7 +1125,7 @@
     </credits>
   </course>
   <course>
-    <title>Product Development III:  Trend Analysis and Product Conceptualization</title>
+    <title>Product Development III: Trend Analysis and Product Conceptualization</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>TXCD</subject>
@@ -1345,7 +1140,7 @@
     <dfRemoval>true</dfRemoval>
     <effectiveSemester>1118</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Senior Standing; For Merchandising option and for the Textile and Apparel Design option: TXCD 312 and MRKT 341. For Textile Science option and for the Textile, Clothing and Design's Communications option: TXCD 312.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Senior Standing; For Merchandising option and for the Textile and Apparel Design option: TXCD 312 and MRKT 341. For Textile Science option and for the Textile, Clothing and Design's Communications option: TXCD 312.</div>
     </prerequisite>
     <campuses>
       <campus>UNL</campus>
@@ -1592,13 +1387,13 @@
     <dfRemoval>false</dfRemoval>
     <effectiveSemester>1078</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">TXCD 216 and 225; parallel TXCD 471.  TXCD 325 and 403 recommended.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">TXCD 216 and 225; parallel TXCD 471. TXCD 325 and 403 recommended.</div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">TXCD 472 requires a public presentation of work.</div>
     </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Advanced work in creation of textiles.  Design conceptualization, development and experimentation in media, structure, application, and product development.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Advanced work in creation of textiles. Design conceptualization, development and experimentation in media, structure, application, and product development.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -1675,7 +1470,7 @@
       <div xmlns="http://www.w3.org/1999/xhtml">12 hrs textiles, clothing and design or permission.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">The textile and apparel industry. Visits to museums, showrooms, manufacturers, retail establishments in major domestic and/or foreign markets such as: New York City, Paris, London, Milan, Prague, Shanghai, Seoul.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">The textile and apparel industry. Visits to museums, showrooms, manufacturers, retail establishments in major domestic and/or foreign markets such as: New York City, Paris, London, Milan, Prague, Shanghai, Seoul.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -1747,10 +1542,10 @@
     <dfRemoval>false</dfRemoval>
     <effectiveSemester>1108</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">For all options: 2.5 GPA, 79 hrs completed toward the degree; 3.0 GPA in TXCD courses; plus any additional prerequisites that are required for the specific option as follows. For Merchandising option: TXCD 313 and 314. For Textiles Science option: TXCD 405/805 or 406/806. For Textiles, Clothing and Design's Communications option: TXCD 314 and 407/807 or 408/808 or 410/810. For Textile and Apparel Design option: TXCD 403/803 or 416/816 or 425.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">For all options: 2.5 GPA, 79 hrs completed toward the degree; 3.0 GPA in TXCD courses; plus any additional prerequisites that are required for the specific option as follows. For Merchandising option: TXCD 313 and 314. For Textiles Science option: TXCD 405/805 or 406/806. For Textiles, Clothing and Design's Communications option: TXCD 314 and 407/807 or 408/808 or 410/810. For Textile and Apparel Design option: TXCD 403/803 or 416/816 or 425.</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">TXCD 498 requires an application for the internship with the TXCD department and with the employer. TXCD 498 is 'Letter Grade only'. <br/></div>
+      <div xmlns="http://www.w3.org/1999/xhtml">TXCD 498 requires an application for the internship with the TXCD department and with the employer. TXCD 498 is 'Letter Grade only'.</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Supervised individual professional experience with a qualified cooperative practicing professional.</div>
@@ -1804,6 +1599,1066 @@
     <credits>
       <credit type="Lower Range Limit">1</credit>
       <credit type="Upper Range Limit">6</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Care and Conservation of Textile Collections</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TXCD</subject>
+        <courseNumber>809</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">TXCD 206 or permission</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Recommended practices for accessioning, handling, storage, exhibition, and preventative conservation of textiles and dress in museum collections. Philosophical and ethical issues confronting curators and collection managers.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+      <credit type="Per Career Limit">6</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Textiles, Clothing, and Design Problems</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TXCD</subject>
+        <courseNumber>811</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">12 hrs textiles, clothing, and design and permission</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Selected problems related to textiles, clothing, and design.<br/>A.	Textiles<br/>B.	Clothing<br/>D.	Design</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">6</credit>
+      <credit type="Per Career Limit">12</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Textiles and Dress: A Cultural Perspective</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TXCD</subject>
+        <courseNumber>817</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">6 hours of history or art history; TXCD 206</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">TXCD 807, 808, and ANTH 100 recommended. Textiles and dress as an expression of the life, arts and material culture of Europe, Asia, the Middle East, Africa and the Americas. Literature and theoretical approaches.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>History of Quilts</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TXCD</subject>
+        <courseNumber>818</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Permission</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Influence of social, political, artistic and technological developments on quiltmaking traditions worldwide.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Advanced Design in Mixed Media</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TXCD</subject>
+        <courseNumber>823</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">TXCD 209, 216, 312, and 803 or 816L; or permission of instructor</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Creative experience in designing textiles and apparel as three-dimensional art forms with emphasis on conceptualization, expression, media, techniques, lighting, space, and movement as influential factors combined with exhibition experience. Topics vary.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities>
+      <activity>
+        <type>stu</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+      <credit type="Per Career Limit">6</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Rendering and Production of Textiles and/or Apparel</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TXCD</subject>
+        <courseNumber>824</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Permission of instructor</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Studio experience in working with a variety of media, including digital, to render and produce textiles and/or apparel; and Portfolio development.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities>
+      <activity>
+        <type>stu</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+      <credit type="Per Career Limit">6</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Advanced Work in Digital and Other Media for Textile Design</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TXCD</subject>
+        <courseNumber>825</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">TXCD 225 and 325</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Digital and other media for textiles. Design development, professional practice, and expressive communicative concepts.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities>
+      <activity>
+        <type>stu</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+      <credit type="Per Career Limit">6</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Current Issues in Textiles, Clothing, and Design</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TXCD</subject>
+        <courseNumber>870</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">9 hrs textiles, clothing and design and permission</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Significant issues in textiles, clothing, and design.<br/>A.	Textiles<br/>B.	Clothing<br/>D.	Design</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+      <credit type="Per Career Limit">9</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Textiles</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TXCD</subject>
+        <courseNumber>870</courseNumber>
+        <courseLetter>A</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+  </course>
+  <course>
+    <title>Clothing</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TXCD</subject>
+        <courseNumber>870</courseNumber>
+        <courseLetter>B</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+  </course>
+  <course>
+    <title>Design</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TXCD</subject>
+        <courseNumber>870</courseNumber>
+        <courseLetter>D</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+  </course>
+  <course>
+    <title>Design Perspectives and Issues</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TXCD</subject>
+        <courseNumber>873</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Lec 2, stu 2. TXCD 873 culminates in an exhibition in the Robert Hillestad Textiles Gallery. Contemporary issues in design with creative and/or curatorial work.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Theory Development</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TXCD</subject>
+        <courseNumber>874</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Emergence and synthesis of theory, an assessment of current theoretical development, conceptual structures, with emphasis on theory construction as a framework for research.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>1</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">1</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Research Methods</title>
+    <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>TXCD</subject>
+        <courseNumber>875</courseNumber>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>HUMS</subject>
+        <courseNumber>875</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Research methods that addresses practical and theoretical issues involved in designing, conducting, and evaluating research.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Artifact Analysis</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TXCD</subject>
+        <courseNumber>876</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">TXCD 206; TXCD 807 or 808</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Research methods for material culture study applied to textiles and dress. Methodologies for artifact study and skills. Fiber microscopy as a tool for artifact analysis. Conceptual development, application and evaluation of a model for artifact study.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Workshop/Seminar</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TXCD</subject>
+        <courseNumber>890</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Workshops on a variety of topics by department faculty and visiting artists, scholars and scientists. Opportunity to analyze and evaluate techniques, develop skills, or study topics of special interest.<br/>A.	Textiles<br/>B.	Clothing<br/>D.	Design</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">3</credit>
+      <credit type="Per Career Limit">9</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Textiles</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TXCD</subject>
+        <courseNumber>890</courseNumber>
+        <courseLetter>A</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+  </course>
+  <course>
+    <title>Clothing</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TXCD</subject>
+        <courseNumber>890</courseNumber>
+        <courseLetter>B</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+  </course>
+  <course>
+    <title>Design</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TXCD</subject>
+        <courseNumber>890</courseNumber>
+        <courseLetter>D</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+  </course>
+  <course>
+    <title>Special Topics in Human Sciences</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CYAF</subject>
+        <courseNumber>891</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>HUMS</subject>
+        <courseNumber>891</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>NUTR</subject>
+        <courseNumber>891</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>SLPA</subject>
+        <courseNumber>891</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>TEAC</subject>
+        <courseNumber>891</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>TXCD</subject>
+        <courseNumber>891</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Aspects of human sciences not covered elsewhere in the curriculum.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">3</credit>
+      <credit type="Per Career Limit">12</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Textiles</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TXCD</subject>
+        <courseNumber>896</courseNumber>
+        <courseLetter>A</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+  </course>
+  <course>
+    <title>Clothing</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TXCD</subject>
+        <courseNumber>896</courseNumber>
+        <courseLetter>B</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+  </course>
+  <course>
+    <title>Design</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TXCD</subject>
+        <courseNumber>896</courseNumber>
+        <courseLetter>D</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+  </course>
+  <course>
+    <title>Masters Thesis</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TXCD</subject>
+        <courseNumber>899</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Admission to masters degree program and permission of major adviser</div>
+    </prerequisite>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">6</credit>
+      <credit type="Upper Range Limit">10</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Advanced Problems</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TXCD</subject>
+        <courseNumber>905</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Permission of chair</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Reading, discussions, and reports dealing with the economic, sociological, historical, technical, and aesthetic phases of textiles and clothing.<br/>A.	Textiles<br/>B.	Clothing<br/>D.	Design</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">6</credit>
+      <credit type="Per Career Limit">12</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Textiles</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TXCD</subject>
+        <courseNumber>905</courseNumber>
+        <courseLetter>A</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+  </course>
+  <course>
+    <title>Clothing</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TXCD</subject>
+        <courseNumber>905</courseNumber>
+        <courseLetter>B</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+  </course>
+  <course>
+    <title>Design</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TXCD</subject>
+        <courseNumber>905</courseNumber>
+        <courseLetter>D</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+  </course>
+  <course>
+    <title>Textiles and Apparel Economics</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TXCD</subject>
+        <courseNumber>907</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">TXCD 813 plus 9 hrs textiles, clothing and design, 6 hrs economics (undergraduate hrs) or permission</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Current status of the domestic textile and apparel complex; current theories of textile consumption and demand within the international market; factors influencing textile and apparel production, distribution, and expenditures; the role of international trade and its influence on the domestic textile and apparel industry and foreign policy.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Appearance and Space as Nonverbal Communication</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TXCD</subject>
+        <courseNumber>910</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">TXCD 810, or permission</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Appearance and space as systems of nonverbal communication with emphasis on their relationship to the development of the self and the micro and macro processes of life.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Theory and Issues in Merchandising</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TXCD</subject>
+        <courseNumber>913</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">TXCD 813 or permission</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Common theoretical frameworks found in the textile/apparel/interior merchandising and marketing literature, plus issues which impact the textiles and apparel industry.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Teaching Practicum</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CYAF</subject>
+        <courseNumber>920</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>NUTR</subject>
+        <courseNumber>920</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>TXCD</subject>
+        <courseNumber>920</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">CYAF 918 or permission of department chair</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Supervised classroom experiences designed to develop competencies in teaching at the college level.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">3</credit>
+      <credit type="Per Career Limit">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Seminar in Textile History</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TXCD</subject>
+        <courseNumber>978</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">(1-3 cr per sem, max 9</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+  </course>
+  <course>
+    <title>Seminar in Textiles, Clothing, and Design</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TXCD</subject>
+        <courseNumber>986</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Permission</div>
+    </prerequisite>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Single Value">1</credit>
+      <credit type="Per Career Limit">2</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Doctoral Seminar</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TXCD</subject>
+        <courseNumber>995</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Permission</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Intended primarily for doctoral students, although non-doctoral graduate students may be admitted with permission. Immersion in outcome-based scholarly activities with a faculty mentor. Develop, execute and report on one or more projects addressing the interaction between research and practice, individually or in small groups.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">3</credit>
+      <credit type="Per Career Limit">18</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Research Other Than Thesis</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TXCD</subject>
+        <courseNumber>996</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Permission</div>
+    </prerequisite>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">6</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Internship</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TXCD</subject>
+        <courseNumber>997</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">9 hrs textiles, clothing and design graduate credit</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Supervised independent professional experience under direction of a practicing professional within the textile and apparel industry, government agencies, museums and/or businesses.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities>
+      <activity>
+        <type>fld</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">9</credit>
+      <credit type="Per Career Limit">9</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Special Topics in Human Sciences</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CYAF</subject>
+        <courseNumber>998</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>NUTR</subject>
+        <courseNumber>998</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>TXCD</subject>
+        <courseNumber>998</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Permission</div>
+    </prerequisite>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">3</credit>
+      <credit type="Per Career Limit">6</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Doctoral Dissertation</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TXCD</subject>
+        <courseNumber>999</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Admission to doctoral degree program and permission of supervisory committee chair</div>
+    </prerequisite>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">24</credit>
+      <credit type="Per Career Limit">55</credit>
     </credits>
   </course>
 </courses>

@@ -1,6 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <courses xmlns="http://courseapproval.unl.edu/courses" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://courseapproval.unl.edu/courses /schema/courses.xsd">
   <course>
+    <title>International Relations</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>POLS</subject>
+        <courseNumber>160</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>POLS</subject>
+        <courseNumber>160</courseNumber>
+        <courseLetter>X</courseLetter>
+        <courseGroup>International Relations</courseGroup>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>INTS</subject>
+        <courseNumber>160</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1121</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">How and why states act as they do in their contemporary international relations. Continuing factors, such as power, war, ideology, and governmental organizations, and recently emerging influences, including supranational organizations, multinational corporations, and natural resource allocation analyzed. Diverse approaches and theories examined.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+      <deliveryMethod>Web</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+    <aceOutcomes>
+      <slo>9</slo>
+    </aceOutcomes>
+  </course>
+  <course>
     <title>Internship in International Studies</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -15,7 +59,7 @@
       <div xmlns="http://www.w3.org/1999/xhtml">Permission.</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Students must apply to the Chief Adviser of International Studies the semester preceding the one in which they wish to register. INTS 395 is 'Pass/No Pass only'.<br/></div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Students must apply to the Chief Adviser of International Studies the semester preceding the one in which they wish to register. INTS 395 is 'Pass/No Pass only'.</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Internship program in a foreign country or in the United States with a governmental or private agency involved in international issues.</div>

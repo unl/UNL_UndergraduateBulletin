@@ -243,22 +243,25 @@
     </aceOutcomes>
   </course>
   <course>
-    <title>Second Temple Judaism</title>
+    <title>Dead Sea Scrolls</title>
     <courseCodes>
-      <courseCode type="crosslisting">
-        <subject>JUDS</subject>
-        <courseNumber>306</courseNumber>
-      </courseCode>
       <courseCode type="home listing">
         <subject>RELG</subject>
-        <courseNumber>306</courseNumber>
+        <courseNumber>308</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>JUDS</subject>
+        <courseNumber>308</courseNumber>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1121</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">JUDS/RELG 205 or 306 or permission.</div>
+    </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">An in-depth study of the literature, history and culture of Judea and the Jews in the Second Temple period, from 550 BCE to 70 CE. Readings include apocalyptic texts, Wisdom literature, and selections from the Dead Sea Schrolls.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Dead Sea Scrolls, including the history and thought of the Qumran inhabitants, the archaeology of Qumran, and the corpus of the Scrolls. Concentration on the reading of selected primary texts from the Dead Sea Scrolls.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -274,6 +277,7 @@
     <activities>
       <activity>
         <type>lec</type>
+        <hours>3</hours>
       </activity>
     </activities>
     <credits>
@@ -596,33 +600,26 @@
     </credits>
   </course>
   <course>
-    <title>Dead Sea Scrolls</title>
+    <title>Second Temple Judaism</title>
     <courseCodes>
-      <courseCode type="home listing">
-        <subject>CLAS</subject>
-        <courseNumber>408</courseNumber>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>CLAS</subject>
-        <courseNumber>808</courseNumber>
-      </courseCode>
       <courseCode type="crosslisting">
         <subject>JUDS</subject>
-        <courseNumber>408</courseNumber>
+        <courseNumber>406</courseNumber>
       </courseCode>
-      <courseCode type="crosslisting">
+      <courseCode type="home listing">
         <subject>RELG</subject>
-        <courseNumber>408</courseNumber>
+        <courseNumber>406</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>RELG</subject>
+        <courseNumber>806</courseNumber>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">JUDS/RELG 205 or 306 or permission.</div>
-    </prerequisite>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1121</effectiveSemester>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Dead Sea Scrolls, including the history and thought of the Qumran inhabitants, the archaeology of Qumran, and the corpus of the Scrolls. Concentration on the reading of selected primary texts from the Dead Sea Scrolls.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">An in-depth study of the literature, history and culture of Judea and the Jews in the Second Temple period, from 550 BCE to 70 CE. Readings include apocalyptic texts, Wisdom literature, and selections from the Dead Sea Scrolls.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -635,7 +632,12 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
@@ -705,7 +707,7 @@
     <dfRemoval>false</dfRemoval>
     <effectiveSemester>1078</effectiveSemester>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Theories of natinalism and ethnic conflict.  Case studies of Europe, the Middle East, and Africa.  The post-Cold War era as multi-polar and multi-cilizational.  The states and different cultures that compete for influence and authority to dominate the "New World order."  The division of the world along ethnic, religious, and class lines rather than by ideology.  The future of international politics and the reassessment of the causes of "conflicts of culture" and their containment.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Theories of natinalism and ethnic conflict. Case studies of Europe, the Middle East, and Africa. The post-Cold War era as multi-polar and multi-cilizational. The states and different cultures that compete for influence and authority to dominate the "New World order." The division of the world along ethnic, religious, and class lines rather than by ideology. The future of international politics and the reassessment of the causes of "conflicts of culture" and their containment.</div>
     </description>
     <campuses>
       <campus>UNL</campus>

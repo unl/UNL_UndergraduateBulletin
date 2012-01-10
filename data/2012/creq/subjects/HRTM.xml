@@ -1,21 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <courses xmlns="http://courseapproval.unl.edu/courses" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://courseapproval.unl.edu/courses /schema/courses.xsd">
   <course>
-    <title>Introduction to Hospitality, Restaurant, and Tourism Management</title>
+    <title>Career Exploration in Hospitality Management</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>HRTM</subject>
         <courseNumber>171</courseNumber>
       </courseCode>
     </courseCodes>
-    <gradingType>letter grade only</gradingType>
-    <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1091</effectiveSemester>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">HRTM 171 is 'Letter Grade Only'.</div>
-    </notes>
+    <gradingType>pass/no pass only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1121</effectiveSemester>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Historical, behavioral, societal, business aspects of and career opportunities in restaurant, lodging, tourism and recreation management.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Overview of industry segments and career opportunities in Hospitality Management. Emphasizes internship experiences and career placement.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -31,11 +28,11 @@
     <activities>
       <activity>
         <type>lec</type>
-        <hours>3</hours>
+        <hours>1</hours>
       </activity>
     </activities>
     <credits>
-      <credit type="Single Value">3</credit>
+      <credit type="Single Value">1</credit>
     </credits>
   </course>
   <course>
@@ -56,9 +53,7 @@
       <div xmlns="http://www.w3.org/1999/xhtml">HRTM 172 is 'Pass/No Pass only'.</div>
     </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">
-        <span style="font-size: 11pt;">Supervised individual professional experience with a qualified cooperating practicing professional in hospitality management.</span>
-      </div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Supervised individual professional experience with a qualified cooperating practicing professional in hospitality management.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -99,9 +94,7 @@
       <div xmlns="http://www.w3.org/1999/xhtml">HRTM 173 is 'Pass/No Pass only'.</div>
     </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">
-        <span style="font-size: 11pt; font-family: ">Supervised work experience under the direction of an Executive or sous Chef in a restaurant. </span>
-      </div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Supervised work experience under the direction of an Executive or sous Chef in a restaurant.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -125,81 +118,6 @@
     </credits>
   </course>
   <course>
-    <title>Leisure in American Life</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>HRTM</subject>
-        <courseNumber>270</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1091</effectiveSemester>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Social and psychological influences on free time use in America.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>lec</type>
-        <hours>3</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Outdoor Recreation in American Life</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>HRTM</subject>
-        <courseNumber>271</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>letter grade only</gradingType>
-    <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1101</effectiveSemester>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">HRTM 271 requires field trips.  HRTM 271 is 'Letter grade only'.<br/></div>
-    </notes>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">
-        <span style="font-size: 10pt; font-family: ">Survey of the history, terminology, and current issues of outdoor recreation and parks. Overview of urban, private, non-profit, local, state, and federal roles in the provision of outdoor recreation opportunities.<span> </span>The tension between recreational use and conservation values.<span> </span></span>
-      </div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>lec</type>
-        <hours>3</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
     <title>Introduction to Tourism</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -214,12 +132,10 @@
       <div xmlns="http://www.w3.org/1999/xhtml">HRTM 171.</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">HRTM 280 requires field trips. HRTM 280 is 'Letter Grade Only'.<br/></div>
+      <div xmlns="http://www.w3.org/1999/xhtml">HRTM 280 requires field trips. HRTM 280 is 'Letter Grade Only'.</div>
     </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">
-        <span style="font-size: 10pt; font-family: ">Historical, behavioral, societal, and business aspects of travel and tourism industry with emphasis on nature-based tourism and agri-tourism.<span style="border: 0pt none; margin: 0pt; padding: 0pt; background: transparent none repeat scroll 0% 0%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial; font-style: normal; font-variant: normal; font-weight: bold; font-size: 100%; line-height: normal; font-size-adjust: none; font-stretch: normal; position: static; text-align: left; text-indent: 0pt; text-transform: none; text-decoration: underline; cursor: pointer; display: none; font-family: serif; color: red;"><span style="border: 0pt none; margin: 0pt; padding: 0pt; background: transparent none repeat scroll 0% 0%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial; font-style: normal; font-variant: normal; font-weight: bold; font-size: 100%; line-height: normal; font-size-adjust: none; font-stretch: normal; position: static; text-align: left; text-indent: 0pt; text-transform: none; text-decoration: underline; cursor: pointer; font-family: serif; color: red;"><span style="border: 0pt none; margin: 0pt; padding: 0pt; background: transparent none repeat scroll 0% 0%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial; font-style: normal; font-variant: normal; font-weight: bold; font-size: 100%; line-height: normal; font-size-adjust: none; font-stretch: normal; position: static; text-align: left; text-indent: 0pt; text-transform: none; text-decoration: underline; cursor: pointer; font-family: serif; color: red;">agrit-ourism</span><span style="border: 0pt none; margin: 0pt; padding: 0pt; background: transparent none repeat scroll 0% 0%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial; font-style: normal; font-variant: normal; font-weight: bold; font-size: 100%; line-height: normal; font-size-adjust: none; font-stretch: normal; position: static; text-align: left; text-indent: 0pt; text-transform: none; text-decoration: underline; cursor: pointer; font-family: serif; color: red;">agrit-ourismagrit</span><span style="border: 0pt none; margin: 0pt; padding: 0pt; background: transparent none repeat scroll 0% 0%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial; font-style: normal; font-variant: normal; font-weight: bold; font-size: 100%; line-height: normal; font-size-adjust: none; font-stretch: normal; position: static; text-align: left; text-indent: 0pt; text-transform: none; text-decoration: underline; cursor: pointer; font-family: serif; color: red;">ourism</span><span style="border: 0pt none; margin: 0pt; padding: 0pt; background: transparent none repeat scroll 0% 0%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial; font-style: normal; font-variant: normal; font-weight: bold; font-size: 100%; line-height: normal; font-size-adjust: none; font-stretch: normal; position: static; text-align: left; text-indent: 0pt; text-transform: none; text-decoration: underline; cursor: pointer; font-family: serif; color: red;">agrit-ourism</span><span style="border: 0pt none; margin: 0pt; padding: 0pt; background: transparent none repeat scroll 0% 0%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial; font-style: normal; font-variant: normal; font-weight: bold; font-size: 100%; line-height: normal; font-size-adjust: none; font-stretch: normal; position: static; text-align: left; text-indent: 0pt; text-transform: none; text-decoration: underline; cursor: pointer; font-family: serif; color: red;">agrit-ourismagrit</span></span></span></span>
-      </div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Historical, behavioral, societal, and business aspects of travel and tourism industry with emphasis on nature-based tourism and agri-tourism.agrit-ourismagrit-ourismagritourismagrit-ourismagrit-ourismagrit</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -325,6 +241,45 @@
     </credits>
   </course>
   <course>
+    <title>Special Topics in Hospitality, Restaurant and Tourism Management</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>HRTM</subject>
+        <courseNumber>291</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1121</effectiveSemester>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">HRTM 291 is 'Letter grade only'. Prerequisite requirements as announced by the HRTM Department.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Topics vary.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">6</credit>
+      <credit type="Per Career Limit">6</credit>
+    </credits>
+  </course>
+  <course>
     <title>Independent Study</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -339,10 +294,10 @@
       <div xmlns="http://www.w3.org/1999/xhtml">6 hrs HRTM.</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">HRTM  296 requires a contract with an individual HRTM faculty member.  HRTM 296 is 'Letter grade only'.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">HRTM 296 requires a contract with an individual HRTM faculty member. HRTM 296 is 'Letter grade only'.</div>
     </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Individual projects in research, literature review, and/or creative activity. <br/></div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Individual projects in research, literature review, and/or creative activity.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -382,51 +337,6 @@
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Analysis techniques for managerial and operational decision-making based on fundamental concepts of managerial accounting.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>lec</type>
-        <hours>3</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Park Management</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>HRTM</subject>
-        <courseNumber>340</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>letter grade only</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1108</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">
-        <span style="font-size: 11pt; font-family: ">Junior standing and HRTM 271.</span>
-      </div>
-    </prerequisite>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">HRTM 340 requires field trips.  HRTM 340 is 'Letter Grade only'.<br/></div>
-    </notes>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">
-        <span style="font-size: 10pt; font-family: ">Orientation to park operations and management.<span> </span>Planning, maintenance, law enforcement, resource management, user conflicts, and visitor contact.  Review case studies of existing park operations and research.<span> </span></span>
-      </div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -499,7 +409,7 @@
     <dfRemoval>true</dfRemoval>
     <effectiveSemester>1108</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Sophmore standing; CULS or FACS or HRTM or PGM major.<br/></div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Sophmore standing; CULS or FACS or HRTM or PGM major.</div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">HRTM 373 requires field trips. HRTM 373 is 'Letter Grade only'.</div>
@@ -544,7 +454,7 @@
     <dfRemoval>false</dfRemoval>
     <effectiveSemester>1108</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Junior standing; HRTM 280 or 285 or 289 or PGM major.<br/></div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Junior standing; HRTM 280 or 285 or 289 or PGM major.</div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">HRTM 374 is 'Letter Grade only'.</div>
@@ -585,15 +495,13 @@
     <dfRemoval>false</dfRemoval>
     <effectiveSemester>1108</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">HRTM 280 and 220.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">HRTM 280 and 220.</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">HRTM 380 requires field trips.  HRTM 380 is 'Letter Grade only'.<br/></div>
+      <div xmlns="http://www.w3.org/1999/xhtml">HRTM 380 requires field trips. HRTM 380 is 'Letter Grade only'.</div>
     </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">
-        <span style="font-size: 10pt; font-family: ">Current issues in ecotourism. Theory, planning, management, social and resource responsibility, and establishing policies and principles for sustainability. </span>
-      </div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Current issues in ecotourism. Theory, planning, management, social and resource responsibility, and establishing policies and principles for sustainability.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -617,6 +525,45 @@
     </credits>
   </course>
   <course>
+    <title>Special Topics in Hospitality, Restaurant, and Tourism Management</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>HRTM</subject>
+        <courseNumber>391</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1121</effectiveSemester>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">HRTM 391 is 'Letter grade only'. <em>Prerequisite requirements as announced by the HRTM Department.</em></div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Topics vary.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">6</credit>
+      <credit type="Per Career Limit">6</credit>
+    </credits>
+  </course>
+  <course>
     <title>Independent Study</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -631,7 +578,7 @@
       <div xmlns="http://www.w3.org/1999/xhtml">6 hrs HRTM.</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">HRTM 396 requires a contract with an individual HRTM faculty member.  HRTM 396 is 'Letter grade only'.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">HRTM 396 requires a contract with an individual HRTM faculty member. HRTM 396 is 'Letter grade only'.</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Individual projects in research, literature review, and/or creative activity.</div>
@@ -676,9 +623,7 @@
       <div xmlns="http://www.w3.org/1999/xhtml">HRTM 397 is 'Pass/No Pass only'.</div>
     </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">
-        <span style="font-size: 11pt;">Entry level supervisory experience with a practicing professional in catering, restaurants, tourism, event planning, and lodging.</span>
-      </div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Entry level supervisory experience with a practicing professional in catering, restaurants, tourism, event planning, and lodging.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -713,7 +658,7 @@
     <dfRemoval>true</dfRemoval>
     <effectiveSemester>1101</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">21+ years of age; HRTM major; HRTM 373; NUTR 372.<br/></div>
+      <div xmlns="http://www.w3.org/1999/xhtml">21+ years of age; HRTM major; HRTM 373; NUTR 372.</div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">Proof of age is required. HRTM 472 is not open to auditors.</div>
@@ -895,15 +840,13 @@
     <dfRemoval>true</dfRemoval>
     <effectiveSemester>1105</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Junior standing; HRTM 280; and permission.<br/></div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Junior standing; HRTM 280; and permission.</div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">HRTM 478/878 is 'Letter grade only'.</div>
     </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">
-        <span style="font-size: 10pt; font-family: ">Planning theories, procedures and guidelines needed to meet the needs of travelers, destination communities, tourism and hospitality organizations.<span> </span>Sustainable tourism principles, host-guest relationships, impacts of tourism, marketing and visitor satisfaction.</span>
-      </div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Planning theories, procedures and guidelines needed to meet the needs of travelers, destination communities, tourism and hospitality organizations. Sustainable tourism principles, host-guest relationships, impacts of tourism, marketing and visitor satisfaction.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -938,7 +881,7 @@
     <dfRemoval>true</dfRemoval>
     <effectiveSemester>1101</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Senior standing; HRTM major; 6 credits hours from the following: HRTM 474/874, HRTM 485/885, or HRTM 489/889.<br/></div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Senior standing; HRTM major; 6 credits hours from the following: HRTM 474/874, HRTM 485/885, or HRTM 489/889.</div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">HRTM 479 is 'Letter grade only'.</div>
@@ -983,17 +926,13 @@
     <dfRemoval>false</dfRemoval>
     <effectiveSemester>1098</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">
-        <span style="font-size: 12pt;">Senior standing; HRTM major or minor; HRTM 171 and 374.  </span>
-      </div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Senior standing; HRTM major or minor; HRTM 171 and 374.</div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">HRTM 481/881 is 'Letter grade only'.</div>
     </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">
-        <span style="font-size: 12pt;">Laws and regulations affecting the hospitality industry.<span> </span>Recognition of potential legal hazards, correcting hazardous situations, and reacting in unforeseen circumstances. </span>
-      </div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Laws and regulations affecting the hospitality industry. Recognition of potential legal hazards, correcting hazardous situations, and reacting in unforeseen circumstances.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -1038,17 +977,13 @@
     <dfRemoval>false</dfRemoval>
     <effectiveSemester>1105</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">
-        <span style="font-size: 12pt;">Senior standing; Major or minor in HRTM; ACCT 201 and 202, or 306; HRTM 171 and 374. </span>
-      </div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Senior standing; Major or minor in HRTM; ACCT 201 and 202, or 306; HRTM 171 and 374.</div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">HRTM 483/883 is 'Letter grade only'.</div>
     </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">
-        <span style="font-size: 12pt; font-family: ">Introduction to basic skills of financial management in a hospitality industry setting. </span>
-      </div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to basic skills of financial management in a hospitality industry setting.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -1135,7 +1070,7 @@
       <div xmlns="http://www.w3.org/1999/xhtml">HRTM 289 and 374.</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">HRTM 489/889 requires field trips to local conference and meeting centers. HRTM 489/889 is 'Letter Grade only'.<br/></div>
+      <div xmlns="http://www.w3.org/1999/xhtml">HRTM 489/889 requires field trips to local conference and meeting centers. HRTM 489/889 is 'Letter Grade only'.</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">The management and operation of events. Design, marketing, and promotion efforts. Identifying sponsors. Marketing to attendees, exhibitors, and other participants.</div>
@@ -1221,10 +1156,10 @@
     <dfRemoval>false</dfRemoval>
     <effectiveSemester>1105</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">12 hrs HRTM.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">12 hrs HRTM.</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">HRTM 496/896 requires a contract with an individual HRTM faculty member in HRTM.  HRTM 496/896 is 'Letter grade only'.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">HRTM 496/896 requires a contract with an individual HRTM faculty member in HRTM. HRTM 496/896 is 'Letter grade only'.</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Individual projects in research, literature review, and/or creative activity.</div>

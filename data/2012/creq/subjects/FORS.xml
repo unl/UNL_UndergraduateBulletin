@@ -52,7 +52,7 @@
       <div xmlns="http://www.w3.org/1999/xhtml">Parallel FORS 120.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Practical aspects of forensic sciences.  Forensic entomology, soil science, blood spatter, fingerprints, trace evidence, odontology, footmark analysis, palynology, and osteology.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Practical aspects of forensic sciences. Forensic entomology, soil science, blood spatter, fingerprints, trace evidence, odontology, footmark analysis, palynology, and osteology.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -160,7 +160,7 @@
       <div xmlns="http://www.w3.org/1999/xhtml">FORS 120, FORS 120L, FORS 200 and senior standing; parallel FORS 400L.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Identification, collection, preservation, presentation of physical evidence.  Ethics and chain of custody.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Identification, collection, preservation, presentation of physical evidence. Ethics and chain of custody.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -255,7 +255,7 @@
     </credits>
   </course>
   <course>
-    <title>Forensic Biology Laboratory</title>
+    <title>Forensic Biochemistry Laboratory</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>FORS</subject>
@@ -264,14 +264,17 @@
       </courseCode>
     </courseCodes>
     <gradingType>letter grade only</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1081</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Parallel FORS 401.</div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">FORS 401L is a lab for credit to go with FORS 401.</div>
     </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml"/>
+    </description>
     <campuses>
       <campus>UNL</campus>
     </campuses>
@@ -307,7 +310,7 @@
     <dfRemoval>true</dfRemoval>
     <effectiveSemester>1111</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">FORS 120 and 200.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">FORS 120 and 200.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Concepts, techniques, analysis, and interpretation of photographic evidence.</div>
@@ -570,7 +573,7 @@
       <div xmlns="http://www.w3.org/1999/xhtml">FORS 120.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Forensic anthropology within the broader context of forensic sciences and physical anthropology.  Decomposition and bone modification through artificial means.  Determination of individual identity, diet, chronic pathology and cause of death from human remains.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Forensic anthropology within the broader context of forensic sciences and physical anthropology. Decomposition and bone modification through artificial means. Determination of individual identity, diet, chronic pathology and cause of death from human remains.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -622,7 +625,7 @@
       <div xmlns="http://www.w3.org/1999/xhtml">BIOS 109 and FORS 120.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Collection, processing, identification of common North American pollen types.  Pollination ecology relating to scene reconstruction.  Fundamental statistics and presentation requirements for a legal and scientific audience.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Collection, processing, identification of common North American pollen types. Pollination ecology relating to scene reconstruction. Fundamental statistics and presentation requirements for a legal and scientific audience.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -847,6 +850,39 @@
       <credit type="Lower Range Limit">1</credit>
       <credit type="Upper Range Limit">6</credit>
       <credit type="Per Career Limit">6</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Forensic Science and Criminal Investigation</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>FORS</subject>
+        <courseNumber>820</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Theory and practice in forensic science. The legal system, crime scene investigation, taphonomy, and criminalistics.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
     </credits>
   </course>
 </courses>

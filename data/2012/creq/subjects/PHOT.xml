@@ -53,9 +53,7 @@
     <dfRemoval>true</dfRemoval>
     <effectiveSemester>1115</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">
-        <span style="font-size: 11pt; font-family: Arial;">ARCH/ARTP/IDES/JGEN/LARC 141A and 141B; can be taken concurrently with or after 140A and 140B</span>
-      </div>
+      <div xmlns="http://www.w3.org/1999/xhtml">ARCH/ARTP/IDES/JGEN/LARC 141A and 141B; can be taken concurrently with or after 140A and 140B</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Introduction to digital photographic processes for artists including camera operations, image editing and printing as well as seeing and expressing ideas photographically.</div>
@@ -96,9 +94,7 @@
       <div xmlns="http://www.w3.org/1999/xhtml">PHOT 261.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">
-        <span style="font-size: 11pt; font-family: Arial;">Introduction to traditional photographic processes using black and white film and the wet darkroom with an emphasis on technical and conceptual development.</span>
-      </div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to traditional photographic processes using black and white film and the wet darkroom with an emphasis on technical and conceptual development.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -136,9 +132,7 @@
       <div xmlns="http://www.w3.org/1999/xhtml">PHOT 262.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">
-        <span style="font-size: 11pt; font-family: Arial;">Intermediate work in photography with emphasis on the history and theory of the medium, increased technical control and development of personal work. </span>
-      </div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Intermediate work in photography with emphasis on the history and theory of the medium, increased technical control and development of personal work.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -252,9 +246,7 @@
       <div xmlns="http://www.w3.org/1999/xhtml">PHOT 461.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">
-        <span style="font-size: 11pt; font-family: Arial;">Continued advanced work in photography with emphasis on individual problems and related readings in photographic history and theory.</span>
-      </div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Continued advanced work in photography with emphasis on individual problems and related readings in photographic history and theory.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -322,6 +314,235 @@
       <credit type="Lower Range Limit">1</credit>
       <credit type="Upper Range Limit">24</credit>
       <credit type="Per Semester Limit">3</credit>
+      <credit type="Per Career Limit">24</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Photography I</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>PHOT</subject>
+        <courseNumber>861</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1121</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Permission.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Graduate-level work in various photographic media and concepts.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">6</credit>
+      <credit type="Per Career Limit">6</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Photography II</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>PHOT</subject>
+        <courseNumber>862</courseNumber>
+        <courseGroup>Additional Anthropology Courses</courseGroup>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1121</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">PHOT861 or Permission.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Graduate-level work in various photographic media and concepts.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">6</credit>
+      <credit type="Per Career Limit">6</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Problems in Photography</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>PHOT</subject>
+        <courseNumber>896</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1121</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Permission.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Problems in technique and expression. Independent study.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">24</credit>
+      <credit type="Per Semester Limit">10</credit>
+      <credit type="Per Career Limit">24</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Studio Thesis in Photography</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>PHOT</subject>
+        <courseNumber>899</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1121</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">PHOT861, 862, 961, 962 or permission</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Thesis work in various photographic media and concepts.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">10</credit>
+      <credit type="Per Semester Limit">10</credit>
+      <credit type="Per Career Limit">10</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Photography III</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>PHOT</subject>
+        <courseNumber>961</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1121</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">PHOT861, 862 or permission</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Graduate-level work in various photographic media and concepts.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">6</credit>
+      <credit type="Per Career Limit">6</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Photography IV</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>PHOT</subject>
+        <courseNumber>962</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1121</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">PHOT961 or permission</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Graduate-level work in various photographic media and concepts.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">6</credit>
+      <credit type="Per Career Limit">6</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Advanced Problems in Photography</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>PHOT</subject>
+        <courseNumber>996</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1121</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Permission.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Problems in technique and expression. Advanced laboratory experience. Independent study.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">24</credit>
+      <credit type="Per Semester Limit">10</credit>
       <credit type="Per Career Limit">24</credit>
     </credits>
   </course>

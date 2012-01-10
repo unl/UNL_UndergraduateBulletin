@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <courses xmlns="http://courseapproval.unl.edu/courses" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://courseapproval.unl.edu/courses /schema/courses.xsd">
   <course>
-    <title>Physical Principles in Agriculture</title>
+    <title>Physical Principles in Agriculture and Life Sciences</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>MSYM</subject>
@@ -9,16 +9,16 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1091</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1121</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">MATH 101 or 103 with a grade of C or better completed within the last 11 months; or, placement in MATH 102 or 104 (or higher) within the last 11 months.</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Students cannot receive credit for both MSYM 109 and a first course in physics.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Students cannot receive credit for both MSYM 109 and any one of the following: PHYS 141, 151 or 211.</div>
     </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Fundamental principles of mechanics, heat, electricity, magnetism and electromagnetism and their relationship to energy utilization and conservation. Principles then applied to problem situations in agriculture.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Fundamental principles of mechanics, heat, electricity, magnetism and electromagnetism and their relationship to energy utilization and conservation. Principles then applied to problem situations in agriculture and life sciences.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -48,7 +48,7 @@
     </aceOutcomes>
   </course>
   <course>
-    <title>Physical Principles in Agriculture</title>
+    <title>Physical Principles in Agriculture and Life Sciences Laboratory</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>MSYM</subject>
@@ -57,13 +57,13 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1121</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">MSYM 109 or parallel, or PHYS 151.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Laboratory experiments on mechanics, heat, electricity, magnetism and electromagnetism and their relationship to energy utilization and conservation in the agricultural industry.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Laboratory experiments on mechanics, heat, electricity, magnetism and electromagnetism and their relationship to energy utilization and conservation in agriculture and life sciences.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -86,7 +86,7 @@
     </credits>
   </course>
   <course>
-    <title>Equipment Systems Management</title>
+    <title>Introduction to Mechanized Systems Management</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>MSYM</subject>
@@ -94,13 +94,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">MATH 101 or 103 and parallel MSYM 109.</div>
-    </prerequisite>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1121</effectiveSemester>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Fundamentals for managing systems of equipment related to agricultural production, handling and processing systems. Productivity, cost estimation and equipment matching. An equipment system management case study made.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Basic principles of describing and evaluating mechanized systems relevant to agriculture, food, energy, and water. Problem solving and using systems-thinking. Exploration of major and career opportunities.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -425,13 +422,13 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1121</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">MSYM 109 or general physics.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Handling, processing and storage and disposal, requirements for grains, feeds, fuels, fertilizers, and pesticides. Emphasis on quality control, standards, safety regulations, and facilities planning for drying, conveying, and storage systems.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Analysis of processing and handling operations. Chemical and physical characteristics of agricultural products. Application of pyschrometrics. Power requirements, capacities, and efficiencies of drying and conveying systems. Discussion of safety issues, logistics, and survey of industry technologies.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -744,16 +741,16 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1091</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1121</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">MSYM 162, 312 and 364.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Senior standing in MYSM or permission.</div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">Capstone course.</div>
     </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Principles and procedures for planning, scheduling, operating, and controlling the operational aspects of agricultural equipment systems. Advanced cost estimation, optimization and computer analysis techniques are applied to the operations management of equipment systems.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Team-based activities to evaluate equipment systems, make technical and economic recommendations, develop professional written and oral reports. Topics include equipment system performance and management, project scheduling and planning, cost estimation, reliability analysis, and risk assessment.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -1107,6 +1104,217 @@
       <credit type="Lower Range Limit">3</credit>
       <credit type="Upper Range Limit">6</credit>
       <credit type="Per Career Limit">6</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Hydraulic Power Systems</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MSYM</subject>
+        <courseNumber>812</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">MSYM 245 and 312</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Theory and application of fluids under controlled pressure to perform work in mobile and industrial applications. Operation of components and functional planning of circuits with emphasis on troubleshooting and analysis.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lab</type>
+        <hours>2</hours>
+      </activity>
+      <activity>
+        <type>lec</type>
+        <hours>2</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Sensors and Control Systems for Agri-Industries</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MSYM</subject>
+        <courseNumber>816</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">MSYM 245 or permission</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Application of sensors for measurement of process control variables and implementation of microcomputer-based measurement and control systems. Basic electrical and electronic instrumentation plus control of electrically, penumatically and/or hydraulically powered systems.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lab</type>
+        <hours>2</hours>
+      </activity>
+      <activity>
+        <type>lec</type>
+        <hours>2</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Mechanized Agricultural Systems</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MSYM</subject>
+        <courseNumber>832</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Permission</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Offered odd-numbered calendar years. Advanced concepts of equipment used in agriculture. Site specific management (precision agriculture). Hardware development and information technologies applied to generic agricultural production.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Advanced Irrigation Management</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MSYM</subject>
+        <courseNumber>855</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">MSYM 852 or equivalent; AGRO 861 recommended</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Theory and practice in on-farm irrigation management including irrigation response functions and irrigation uniformity concepts; field evaluation of surface and sprinkler irrigation systems; estimation of evapotranspiration and irrigation scheduling; water quality problems and salinity control.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lab</type>
+        <hours>2</hours>
+      </activity>
+      <activity>
+        <type>lec</type>
+        <hours>2</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Special Projects in Management of Mechanized Systems</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MSYM</subject>
+        <courseNumber>898</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">15 hours in mechanized systems management or closely related area</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Individual project specifically designed for a student to pursue or explore a special topic under the guidance and evaluation of a faculty member.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">5</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Masters Thesis</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MSYM</subject>
+        <courseNumber>899</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Admission to masters degree program and permission of major adviser</div>
+    </prerequisite>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">6</credit>
+      <credit type="Upper Range Limit">10</credit>
     </credits>
   </course>
 </courses>

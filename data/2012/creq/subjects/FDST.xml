@@ -299,7 +299,7 @@
       <div xmlns="http://www.w3.org/1999/xhtml">FDST 301 will not count toward a FDST major.</div>
     </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">A chemistry course for non-majors with emphasis on essential principles of chemistry and how they apply to food systems.  Course overviews the molecular properties of major food components (proteins, carbohydrates and lipids) and their chemical reactions and provides understanding of the relationship between chemistry and food quality.<br/></div>
+      <div xmlns="http://www.w3.org/1999/xhtml">A chemistry course for non-majors with emphasis on essential principles of chemistry and how they apply to food systems. Course overviews the molecular properties of major food components (proteins, carbohydrates and lipids) and their chemical reactions and provides understanding of the relationship between chemistry and food quality.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -683,7 +683,7 @@
       <div xmlns="http://www.w3.org/1999/xhtml">Offered fall semester of odd-numbered calendar years.</div>
     </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Occurrence, growth, and mycotoxin production of molds in human foods, animal feeds, and the human environment.  Spoilage, mycotoxin production conditions, toxicity, and pathological effects.  Culture media, methods and techniques for enumerating and identifying molds, analytical methods for mycotoxins, and effects of food and feed processing on mycotoxin stability.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Occurrence, growth, and mycotoxin production of molds in human foods, animal feeds, and the human environment. Spoilage, mycotoxin production conditions, toxicity, and pathological effects. Culture media, methods and techniques for enumerating and identifying molds, analytical methods for mycotoxins, and effects of food and feed processing on mycotoxin stability.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -1414,10 +1414,10 @@
       <div xmlns="http://www.w3.org/1999/xhtml">BIOC 321 or BIOC/BIOS/CHEM 431/831.</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">FDST 470/870 is offered in even <span style="\">calendar</span> years.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">FDST 470/870 is offered in even calendar years.</div>
     </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Evaluation of natural compounds impact on human health. Inflammation, cancer, heart disease, and the impact of gut <span style="\">micro-flora</span> on health.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Evaluation of natural compounds impact on human health. Inflammation, cancer, heart disease, and the impact of gut micro-flora on health.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -1508,6 +1508,486 @@
       <credit type="Lower Range Limit">3</credit>
       <credit type="Upper Range Limit">6</credit>
       <credit type="Per Career Limit">6</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Dairy Products Technology</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>FDST</subject>
+        <courseNumber>829</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">FDST 205</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Offered spring semester of odd-numbered calendar years. Physical, chemical and microbiological properties of milk. Principles of milk processing and manufacture of cultured dairy products, cheeses, ice cream and concentrated dairy products.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lab</type>
+        <hours>3</hours>
+      </activity>
+      <activity>
+        <type>lec</type>
+        <hours>2</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>A Multidisciplinary Overview of Food Safety and Security</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>FDST</subject>
+        <courseNumber>871</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">3 hrs BIOS or CHEM</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Instruction in FDST *871 is provided by numerous subject matter experts. Multidisciplinary food safety and security perspectives. Food safety policy, ag bioterrorism, border security, animal ID, food defense, and site security, risk analysis, crisis communication, epidemiology, Hazard Analysis and Critical Control Point System, and more.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>2</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">2</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Principles of Hazard Analysis and Critical Control Point System</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>FDST</subject>
+        <courseNumber>872</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">3 hrs BIOS or CHEM</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">The Hazard Analysis and Critical Control Point (HACCP) System and its application in the food industry.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>2</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">2</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Food-borne Toxicants</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>FDST</subject>
+        <courseNumber>873</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">3 hrs BIOS or CHEM</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Mechanisms of action, metabolism, sources, remediation and/or detoxification, and risk assessment of major food-borne toxicants of current interest. Design of Hazard Analysis and Critical Control Point plans for use in food industries to target food-borne toxicants.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>2</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">2</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Food Laws, Regulations, and the Regulatory Process</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>FDST</subject>
+        <courseNumber>874</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">3 hrs FDST at 200 level or above</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">FDST 874 has presentations by state and federal food regulators. History of the development of the current federal state food regulations. Guidelines that govern the practice of regulating the wholesomeness of red meats, poultry, and eggs.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>2</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">2</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Rapid Methods in Food Microbiology</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>FDST</subject>
+        <courseNumber>875</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">FDST 405/805/BIOS 445/845</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">The different types of rapid microbial detection approaches available for use in foods. Commercial reagents and detection platforms, and the “next generation” approaches currently under development in academia or industry. Challenges to detection posed by the complexity of most food matrices and the sample preparation methods for separating microorganisms from such matrices.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>2</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">2</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Risk Assessment for Food, Agriculture, and Veterinary Medicine</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>FDST</subject>
+        <courseNumber>876</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">3 hrs STAT</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Risk assessment principles as applied to biological systems. Exposure and effects characterization in human and animal health and ecological risk assessment. Risk analysis frameworks and regulatory decision-making. Introduction to quantitative methods for risk assessment using epidemiological and distributional analyses. Uncertainty analysis.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Advanced Food Microbiology and Biotechnology</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>FDST</subject>
+        <courseNumber>877</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">FDST 405/805/BIOS 445/845</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Basic principles in biotechnology and applied food microbiology. Current topics of interest in food biotechnology. Introduction to recombinant DNA techniques and how they are applied to genetically modify microorganisms. The use of nucleic acids as tools of rapid detection of microorganisms in foods, basic enzyme immobilization and down-stream processing techniques, and regulatory aspects of food biotechnology.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Advanced Food Science: Selected Topics</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>FDST</subject>
+        <courseNumber>880</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Offered on a rotating basis in alternate years.<br/>A.	Food Carbohydrates (2 cr I) Lec 2. Prereq: FDST 484/848; BIOC/BIOS/CHEM 431/831. Offered fall semester of even-numbered calendar years.<br/>E.	Food Flavors (2 cr I) Prereq: FDST 848 or equivalent. Offered fall semester of even-numbered calendar years. Food flavors and their sources and the instrumental, chemical, and sensory methods used to identify and evaluate them.<br/>L.	Food Lipids (2 cr I) Prereq: FDST 848 or equivalent. Offered fall semester of odd-numbered calendar years. In-depth discussion of: composition, quality, and chemical and physical properties and reactions of fats and oils in food systems; processing and refining of food fats and oils; manufacture of various fat and oil products; current research related to fats and oils.<br/>P.	Food Proteins (2 cr II) Prereq: FDST 848, or CHEM 831 or permission. Offered spring semester of even-numbered calendar years.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>2</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Lower Range Limit">2</credit>
+      <credit type="Upper Range Limit">6</credit>
+      <credit type="Per Career Limit">6</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Independent Study in Food Science and Technology</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>FDST</subject>
+        <courseNumber>896</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">12 hrs FDST or closely related areas or permission</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Individual or group projects in research, literature review, or extension of course work under supervision and evaluation of a departmental faculty member.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">5</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Masters Thesis</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>FDST</subject>
+        <courseNumber>899</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Admission to masters degree program and permission of major adviser</div>
+    </prerequisite>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">10</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Topics in Advanced Food Microbiology</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>FDST</subject>
+        <courseNumber>908</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Offered on a rotating basis in alternate years. Current topics in food microbiology.<br/>A.	Food Biotechnology (2 cr I) Prereq: FDST 805 (BIOS 845), BIOC 832, or permission. Offered fall semester of even-numbered calendar years.<br/>Microbial genetics and recombinant DNA technology as applied to food science. Includes modification and improvement of microorganisms important in food fermentations; effects of bacteriophages in food fermentations; enzyme engineering; principles of plant and animal tissue culture; bioprocess engineering and down stream processing; DNA probe and monoclonal antibody technology; and regulatory and ethical aspects of biotechnology.<br/>B.	Food Borne Pathogens (2 cr II) Prereq: FDST 805 (BIOS 845). BIOS 820, or permission. BIOC 831 and 832 recommended. Offered spring semester of odd-numbered calendar years.<br/>Survey of current research topics in the molecular biology of agents of food borne disease. Includes structure-function analyses of toxin molecules and other virulence determinants; genetic mechanisms of phenotypic variation, coordinate regulation of virulence gene expression; mobile genetic elements that contribute to pathogenesis; invasion of host tissues; and stress-response systems and survival.<br/>E.	Readings in Food Microbiology (2 cr II) Prereq: FDST 805 (BIOS 845) or permission. Offered spring semester of even-numbered calendar years.<br/>Primarily a literature course that focuses on current topics in food microbiology. Articles from food microbiology, as well as other applied and basic microbiology journals reviewed and discussed. Recent advances in methodology and microbiological techniques emphasized.<br/>J.	Gastrointestinal Microbiology (2 cr I) Lec 2. Prereq: BIOS 312. Offered fall semester of even-numbered calendar years.<br/>Introduction to the complex microbial populations that inhabit the gastrointestinal tracts of human and non-ruminant animals, and how they impact their hosts. Aspects of gut microbiota having medical or agricultural applications.<br/>K.	Food Mycology (2 cr I) Lec 1, lab 1. Prereq: FDST 405/805/BIOS 445/845; FDST 406/806/BIOS 446/846. Offered fall semester of odd-numbered calendar years.<br/>Food borne filamentous micro-fungi or molds. Culture media and methods. Techniques for enumerating and identifying molds belonging to the genera Aspergillus, Penicillium, Fusarium, Alternaria, Cladosporium, Rhizopus, Mucor and others. Food spoilage by molds, mycotoxin production and pathological effects.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>2</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Lower Range Limit">2</credit>
+      <credit type="Upper Range Limit">8</credit>
+      <credit type="Per Career Limit">8</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Advanced Food Science Seminar</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>FDST</subject>
+        <courseNumber>951</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Permission</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Advanced study and discussion of the scientific literature and research pertaining to food science.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Single Value">1</credit>
+      <credit type="Per Career Limit">2</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Research in Food Science and Technology</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>FDST</subject>
+        <courseNumber>996</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">6 hrs microbiology, 12 hrs chemistry, or permission</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Studies and investigational work relating to chemistry, microbiology, and processing of food products.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">8</credit>
+      <credit type="Per Career Limit">8</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Doctoral Dissertation</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>FDST</subject>
+        <courseNumber>999</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Admission to doctoral degree program and permission of supervisory committee chair</div>
+    </prerequisite>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">24</credit>
+      <credit type="Per Career Limit">55</credit>
     </credits>
   </course>
 </courses>

@@ -145,7 +145,7 @@
     <dfRemoval>false</dfRemoval>
     <effectiveSemester>1095</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">PHYS 211/211H; MATH 107/107H; parallel ASTR 224.<br/></div>
+      <div xmlns="http://www.w3.org/1999/xhtml">PHYS 211/211H; MATH 107/107H; parallel ASTR 224.</div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">ASTR 204 is an introductory course designed for science majors.</div>
@@ -424,6 +424,35 @@
     <credits>
       <credit type="Single Value">3</credit>
       <credit type="Per Career Limit">9</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Special Topics in Astronomy</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ASTR</subject>
+        <courseNumber>997</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Permission</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Offered as the need arises to treat special topics in astronomy not covered in other 900-level courses.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">3</credit>
     </credits>
   </course>
 </courses>

@@ -142,7 +142,7 @@
       <div xmlns="http://www.w3.org/1999/xhtml">AGEN/BSEN 112/112H.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to tools needed to develop computation-intense solutions for problems relevant to agricultrual and biological systems engineering.  Advanced problems solving techniques using examples of scripts, simulation methods, graphical programming, and their combination.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to tools needed to develop computation-intense solutions for problems relevant to agricultrual and biological systems engineering. Advanced problems solving techniques using examples of scripts, simulation methods, graphical programming, and their combination.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -697,7 +697,7 @@
       <div xmlns="http://www.w3.org/1999/xhtml">BSEN 416/816 requires the evaluation of current primary literature in the field.</div>
     </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to all types of bio-materials, metals, ceramics, polymers, and natural materials.  Characterization of biomaterials, mechanical and physical properties, cell-biomaterials interactions, degradation, and host reaction to biomaterials.  FDA testing and applications of biomaterials, implants, tissue engineering scaffolds, artificial organs, drug delivery, and adhesives.  <br/></div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to all types of bio-materials, metals, ceramics, polymers, and natural materials. Characterization of biomaterials, mechanical and physical properties, cell-biomaterials interactions, degradation, and host reaction to biomaterials. FDA testing and applications of biomaterials, implants, tissue engineering scaffolds, artificial organs, drug delivery, and adhesives.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -746,7 +746,7 @@
       <div xmlns="http://www.w3.org/1999/xhtml">BSEN 418/818 uses case studies to demonstrate clinical implementation of engineered tissues.</div>
     </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to engineering biological substitutes that can restore, maintain or improve organ function in therapy of diseases.  Engineering methods and principles to design tissues and organs, cell and tissue biology, tissue growth and development, biomaterial scaffolds, growth factor and drug delivery, scaffold-cell interactions, and bioreactors.  <br/></div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to engineering biological substitutes that can restore, maintain or improve organ function in therapy of diseases. Engineering methods and principles to design tissues and organs, cell and tissue biology, tissue growth and development, biomaterial scaffolds, growth factor and drug delivery, scaffold-cell interactions, and bioreactors.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -1323,6 +1323,621 @@
     <credits>
       <credit type="Lower Range Limit">1</credit>
       <credit type="Upper Range Limit">6</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Unit Operations of Biological Processing</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>BSEN</subject>
+        <courseNumber>846</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">BSEN 225 and CHEM 332 or equivalent</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Application of heat, mass, and moment transport in analysis and design of unit operations for biological and agricultural materials. Evaporation, drying, distillation, extraction, teaching, thermal processing, membrane separation, centrifugation, and filtration.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>2</hours>
+      </activity>
+      <activity>
+        <type>rct</type>
+        <hours>1</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Irrigation and Drainage Systems Engineering</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>AGEN</subject>
+        <courseNumber>853</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>BSEN</subject>
+        <courseNumber>853</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">MECH or CIVE 310, and BSEN 344 or permission</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Analytical and design consideration of evapotranspiration, soil moisture and water movement related to irrigation and drainage systems; analysis and design of components of irrigation and drainage systems including water supplies, pumping plants, sprinkler systems, including center-pivots.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lab</type>
+      </activity>
+      <activity>
+        <type>lec</type>
+        <hours>2</hours>
+      </activity>
+      <activity>
+        <type>rct</type>
+        <hours>2</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Nonpoint Source Pollution Control Engineering</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>BSEN</subject>
+        <courseNumber>855</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>CIVE</subject>
+        <courseNumber>855</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">BSEN/CIVE 326; BSEN/AGEN 350 or CIVE 352</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Identification, characterization, and assessment of nonpoint source pollutants; transport mechanisms and remediation technologies; design methodologies and case studies.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Groundwater Engineering</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>BSEN</subject>
+        <courseNumber>858</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>CIVE</subject>
+        <courseNumber>858</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">CIVE 352 or AGEN/BSEN 350 or equivalent</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Application of engineering principles to the movement of groundwater. Analysis and design of wells, well fields, and artificial recharge. Analysis of pollutant movement.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Instrumentation and Controls</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>AGEN</subject>
+        <courseNumber>860</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>BSEN</subject>
+        <courseNumber>860</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Permission</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Analysis and design of instrumentation and controls for agricultural and biological production, management and processing. Theory of basic sensors and transducers, analog and digital electrical control circuits, and the interfacing of computers with instruments and controls. Signal analysis and interpretation for improving system performance.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lab</type>
+        <hours>2</hours>
+      </activity>
+      <activity>
+        <type>lec</type>
+        <hours>2</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Seminar I</title>
+    <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>AGEN</subject>
+        <courseNumber>889</courseNumber>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>BSEN</subject>
+        <courseNumber>889</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">All entering biological systems engineering students and all agricultural engineering students are required to register for *889.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction into departmental and campus resources, professionalism, preparation and delivery of presentations, technical writing, and additional topics as arranged by enrolled students.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Single Value">1</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Special Problems</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>AGEN</subject>
+        <courseNumber>896</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>BSEN</subject>
+        <courseNumber>896</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Permission</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Investigation and written report on engineering problems not covered in sufficient depth through existing courses. Topic varies by semester.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">6</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Internship</title>
+    <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>AGEN</subject>
+        <courseNumber>898</courseNumber>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>BSEN</subject>
+        <courseNumber>898</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Permission</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Students required to write an internship report of their creative accomplishments after completion of the internship. Students may spend up to nine months at the cooperating partner’s workplace.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Solution of engineering or management problems through a non-academic experience within the private sector or a government agency. The experience entails all or some of the following: research, design, analysis, and testing on an engineering problem. A plan, which documents how the individual will demonstrate creativity during the internship must be approved prior to the internship.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">6</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Masters Thesis</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>BSEN</subject>
+        <courseNumber>899</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Admission to masters degree program and permission of major adviser</div>
+    </prerequisite>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">6</credit>
+      <credit type="Upper Range Limit">10</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Advanced Ultrasound Imaging</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>BSEN</subject>
+        <courseNumber>912</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">BSEN 311 or ELEC 304 Engineering design and analysis of medical ultrasound applications</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Beamforming, diffraction, wave space, scattering, imaging. Interactions of mechanical energy and tissue. Linear and phased arrays. Doppler estimation of blood flow velocity. Tumor and cyst characterization. Other modern research topics in medical ultrasound.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Analysis of Engineering Properties of Biological Materials</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>BSEN</subject>
+        <courseNumber>935</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">BSEN 846 or equivalent</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Current and relevant mechanical, rheological, thermal, electrical, and optical properties as related to the engineering of processing, storage, handling, and utilization systems for biological materials are selected for analysis.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities>
+      <activity>
+        <type>lab</type>
+        <hours>2</hours>
+      </activity>
+      <activity>
+        <type>lec</type>
+        <hours>2</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Agricultural Waste Management</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>AGEN</subject>
+        <courseNumber>941</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>BSEN</subject>
+        <courseNumber>941</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Permission</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Aerobic, anaerobic, and physical-chemical treatment, energy recovery and protein synthesis processes for high-strength organic materials; agricultural applications including composting, ammonia stripping, nitrification, denitrification, and land disposal of organic and chemically treated materials.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Bioenvironmental Engineering</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>BSEN</subject>
+        <courseNumber>943</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">MATH 821</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">An engineer analysis of livestock, their environment and the interaction between the two; mathematical models, heat transfer, energy balances, environmental measurements, physiological measurements, calorimetry.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Advanced Mathematical Modeling in Biological Engineering</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>BSEN</subject>
+        <courseNumber>951</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Advanced mathematical modeling techniques and applications. Specific topics from current literature and vary depending on research interests.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Turbulent Transfer in the Atmospheric Surface Layer</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>BSEN</subject>
+        <courseNumber>954</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>NRES</subject>
+        <courseNumber>954</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">MATH 821; MECH 310 or NRES 808 or BIOS 857; or equivalent or permission</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Offered spring semester of odd-numbered calendar years.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Seminar II</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>BSEN</subject>
+        <courseNumber>989</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>AGEN</subject>
+        <courseNumber>989</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">All PhD students in biological systems engineering or agricultural engineering must register for 989.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Developing a graduate program, orientation to research, grant and research proposal preparation, experimental design and analysis, manuscript preparation and review, preparations and delivery of technical presentations, and research management.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Spring</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Single Value">1</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Advanced Topics</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>AGEN</subject>
+        <courseNumber>998</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>BSEN</subject>
+        <courseNumber>998</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Permission</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Individual study in advanced engineering topics that are not covered in regular course work or thesis. Topic varies by term.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">6</credit>
+      <credit type="Per Career Limit">6</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Doctoral Dissertation</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>BSEN</subject>
+        <courseNumber>999</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Admission to doctoral degree program and permission of supervisory committee chair</div>
+    </prerequisite>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">24</credit>
+      <credit type="Per Career Limit">55</credit>
     </credits>
   </course>
 </courses>

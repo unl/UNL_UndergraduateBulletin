@@ -15,10 +15,10 @@
       <div xmlns="http://www.w3.org/1999/xhtml">Math 101, or placement into Math 102 or above.</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Credit toward the degree may be earned in only one of: CHEM 105, 109, 111, 113, or 195.  Students planning to take CHEM 251 and 252, or CHEM 261 and 262, should register for CHEM 109 and 110, or CHEM 113 and 114 (the general chemistry sequence).  CHEM 105 is the first part of a two-semester sequence, along with CHEM 106, to constitute the &amp;quot;Chemistry in Context&amp;quot; series.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Credit toward the degree may be earned in only one of: CHEM 105, 109, 111, 113, or 195. Students planning to take CHEM 251 and 252, or CHEM 261 and 262, should register for CHEM 109 and 110, or CHEM 113 and 114 (the general chemistry sequence). CHEM 105 is the first part of a two-semester sequence, along with CHEM 106, to constitute the &amp;quot;Chemistry in Context&amp;quot; series.</div>
     </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">The extraordinary chemistry of ordinary things.  The chemical model of solids, liquids, gases, molecules, and salts.  How these models are used to explore chemical aspects of biological, social, or economic situation.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">The extraordinary chemistry of ordinary things. The chemical model of solids, liquids, gases, molecules, and salts. How these models are used to explore chemical aspects of biological, social, or economic situation.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -67,10 +67,10 @@
       <div xmlns="http://www.w3.org/1999/xhtml">CHEM 105</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Continuation of CHEM 105. CHEM 106 will not serve as a prerequisite for any chemistry course. Students planning to take CHEM 251-252 or 263-264, should take CHEM 109-110 or 113-114 (general chemistry sequence).  CHEM 106 is the second part of a two-semester sequence, along with CHEM 105, to constitute the "Chemistry in Context" series.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Continuation of CHEM 105. CHEM 106 will not serve as a prerequisite for any chemistry course. Students planning to take CHEM 251-252 or 263-264, should take CHEM 109-110 or 113-114 (general chemistry sequence). CHEM 106 is the second part of a two-semester sequence, along with CHEM 105, to constitute the "Chemistry in Context" series.</div>
     </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">How organic chemistry and biochemistry complement one another.  Chemical aspects of biological, social, or economic situations.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">How organic chemistry and biochemistry complement one another. Chemical aspects of biological, social, or economic situations.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -1865,6 +1865,1743 @@
     <credits>
       <credit type="Lower Range Limit">1</credit>
       <credit type="Upper Range Limit">6</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Applied Problems in Analytical Chemistry</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CHEM</subject>
+        <courseNumber>824</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">CHEM 821</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Selection and execution of analytical methods in the solution of typical academic and industrial chemical problems.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Ionic Equilibria</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CHEM</subject>
+        <courseNumber>825</courseNumber>
+        <courseLetter>A</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">or parallel: CHEM 821 or *824</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Survey of theory of ionic equilibrium systems of importance in chemical analysis.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>1</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">1</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Electrochemical Methods</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CHEM</subject>
+        <courseNumber>825</courseNumber>
+        <courseLetter>B</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">CHEM 821 or *824</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Survey of principles and applications of electroanalytical chemistry.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>2</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">2</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Mass Spectrometry</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CHEM</subject>
+        <courseNumber>825</courseNumber>
+        <courseLetter>D</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">CHEM 821 or *824</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Survey of the fundamentals (1 cr) and applications (1 cr) of mass spectrometry.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>1</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">2</credit>
+      <credit type="Per Career Limit">2</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Data Handling</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CHEM</subject>
+        <courseNumber>825</courseNumber>
+        <courseLetter>E</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">or parallel: CHEM 821 or *824</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Application of statistical, graphical and numerical methods for the treatment of analytical chemical data.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>1</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">1</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Chromatographic Separations</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CHEM</subject>
+        <courseNumber>825</courseNumber>
+        <courseLetter>G</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">CHEM 821 or *824</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Survey of principles and applications of modern chromatographic analysis.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>2</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">2</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Optical Methods of Analysis</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CHEM</subject>
+        <courseNumber>825</courseNumber>
+        <courseLetter>J</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">CHEM 821 or *824</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Survey of principles and analytical application of modern optical spectrometric methods.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>2</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">2</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Chemical Biology</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CHEM</subject>
+        <courseNumber>835</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">CHEM 252 or 262, and 871 or 881</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Credit toward the degree cannot be earned in both CHEM 835, and 831 and/or 832 or their equivalents. Use of recent advances in genomics to organize the field of biochemistry as well as an understanding of how biologists, biochemists and chemists use this information to cure diseases.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Biophysical Chemistry</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>BIOC</subject>
+        <courseNumber>836</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>CHEM</subject>
+        <courseNumber>836</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">One semester of physical chemistry</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introductory course covering x-ray diffraction and protein structure, absorption, spectroscopy of biomolecules, linear and circular dichroic spectroscopy of proteins and nucleic acids, fluorescence probes, membrane dynamics, NMR, EPR, and Resonance Raman spectroscopy applied to biological systems. Energetics, enzyme kinetics, relaxation kinetics, allosteric systems, and hydrodynamics.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Survey of Biochemistry</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>BIOC</subject>
+        <courseNumber>839</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>BIOS</subject>
+        <courseNumber>839</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>CHEM</subject>
+        <courseNumber>839</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Permission</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Comprehensive survey of biochemistry for incoming graduate students. Topics include those in BIOC 831 and 832, but not all topics discussed in lecture periods. Depth enhanced by assigned readings.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Inorganic Chemistry</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CHEM</subject>
+        <courseNumber>841</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">CHEM 252 or 262, and 264; parallel CHEM 843</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">CHEM 841 and the accompanying laboratory course, CHEM 843, constitute a basic course in inorganic chemistry. The structure, bonding, properties, and reactions of inorganic compounds with emphasis on the relationships and trends that are embodied in the periodic table of the elements.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Inorganic Chemistry Laboratory</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CHEM</subject>
+        <courseNumber>843</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">CHEM 252 or 262, and 264; parallel: CHEM 841</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to typical inorganic chemistry laboratory techniques through the preparation and characterization of inorganic compounds.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Single Value">2</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Modern Inorganic Chemistry</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CHEM</subject>
+        <courseNumber>845</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">CHEM 841, 843, and 882 or permission</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Topics in inorganic chemistry such as bioinorganics, catalysis, organometallic, materials and solid state chemistry. Theoretical principles and practical applications, and on correlating the physical and chemical properties of the chemical elements and inorganic chemical compounds.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Redox Biochemistry</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>BIOC</subject>
+        <courseNumber>848</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>CHEM</subject>
+        <courseNumber>848</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">3 hrs BIOC and 3 hrs inorganic chemistry</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Redox (oxidation and reduction)-based biochemical processes (energy generation, oxygen transfer, enzyme catalysis, signaling, gene regulation, and diseases). Recent progress in these areas. Roles of metals in biochemical reactions, metal homeostasis, and biosynthesis of metal cofactors and metal sites. Biochemistry and pathophysiology of redoxactive species and radicals. Antioxidant molecules and enzymes.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Advanced Organic Chemistry</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CHEM</subject>
+        <courseNumber>855</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">CHEM 252 or 262 or equivalent</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Survey of modern concepts of structure/bonding, acidity/basicity, stereochemistry, and reaction mechanisms. Introduction to the fundamental tools used to investigate reaction mechanism (transition state theory, elementary Huckel theory, linear free energy relationships, rate laws and kinetic isotope effects). Mechanistic examples emphasize the major classes of organic reactions, particularly concerted, carbanionic and carbocationic. Development of reasoning skills.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Organic Reactions</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CHEM</subject>
+        <courseNumber>865</courseNumber>
+        <courseLetter>A</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">CHEM *855 and permission</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Modern reactions and methodology for organic synthesis. Carbon-carbon bond-forming reactions; alkene synthesis; oxidation; reductions; function group interconversion; use of protecting groups; and organometallic reagents.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>2</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">2</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Chemistry for Secondary School Classrooms</title>
+    <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>CHEM</subject>
+        <courseNumber>869</courseNumber>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>BIOC</subject>
+        <courseNumber>869</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>BIOS</subject>
+        <courseNumber>883</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>TEAC</subject>
+        <courseNumber>869</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Credit in this course will not count towards a graduate degree in chemistry or biochemistry or biological sciences. Course taught via World Wide Web. Chemistry content for high school teachers organized according to the National Science Education Standards. Individual course coverage includes: content, integration with other sciences and mathematics, graphing calculators, probe-experiments, simulations, at-home experiments, teaching materials, and industrial applications related to the title description.<br/>A.	Structure and Properties of Matter: Water and Solutions (1 cr)<br/>B.	Structure and Properties of Matter: Periodicity (1 cr)<br/>D.	Structure and Properties of Matter: Bonding and Structure (1 cr)<br/>E.	Structure and Properties of Matter: Carbon Chemistry and Polymers (1 cr)<br/>J.	Structure and Properties of Matter: Gases and the Atmosphere (1 cr)<br/>K.	Chemistry of Life Processes: Biomolecules (1 cr)<br/>L.	Structure and Properties of Matter: Condensed States and Materials Science (1 cr)<br/>M.	Interactions of Matter and Energy (1 cr)<br/>N.	Chemistry of Life Processes: DNA (1 cr)<br/>P.	Chemistry of Life Processes: Energy and Metabolism (1 cr)<br/>Q.	Chemical Reactions: Equations and their Consequences (1 cr)<br/>R.	Chemical Reactions: Acids and Bases (1 cr)<br/>T.	Chemical Reactions: Kinetics (1 cr)<br/>U.	Chemical Reactions: Oxidation, Reduction and Electrochemistry (1 cr)<br/>V.	Equilibrium: Unifying Theme (1 cr)<br/>W.	Conservation of Energy and the Increase in Disorder: Thermodynamics (1 cr)<br/>Y.	Inquiry and the Nature of Science: Analysis and Instrumentation (1 cr)<br/>Z.	Structure of Atoms: Nuclear Chemistry (1 cr)</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Single Value">1</credit>
+      <credit type="Per Career Limit">12</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Topics in Chemical Pedagogy</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CHEM</subject>
+        <courseNumber>874</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>TEAC</subject>
+        <courseNumber>874</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">A maximum combined total of 12 hours from TEAC *869 and/or *874 may be counted toward a masters degree. Credit in this course will not count towards a graduate degree in chemistry. Courses are Web-based. Topical chemistry content for high school teachers organized according to the National Science Education Standards.<br/>A.	Green Chemistry (2-3 cr)<br/>D.	Demonstrations for High School Chemistry (1-3 cr)<br/>E.	Experiments for High School Chemistry (1-3 cr)<br/>J.	Developing a Safety Culture (1 cr)<br/>K.	Chemistry of Life Processes: Biomolecules (1-3 cr)<br/>L.	Addressing Misconceptions (1-3 cr)<br/>M.	Mathematics Integration (MATH 874M) (2-3 cr) May be counted towards the MAT and MScT degrees in mathematics and statistics, not the MA, MS, or PhD.<br/>N.	Inquiry Strategies (1-3 cr)<br/>P.	Chemistry in the Workplace (1-3 cr)<br/>Y.	Graphing Calculator Activities (2-3 cr)</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">3</credit>
+      <credit type="Per Career Limit">12</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Chemical Pedagogy in the High School Laboratory</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CHEM</subject>
+        <courseNumber>875</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>TEAC</subject>
+        <courseNumber>875</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Credit in this course will not count towards a graduate degree in chemistry. Laboratory-based courses addressing specific issues connected with teaching laboratory work in high school chemistry programs.<br/>A.	Small-scale Experiments (1-3 cr)<br/>B.	Technology Integration (3-6 cr)<br/>E.	Inquiry Experiments (1-3 cr)<br/>K.	At-home Experiments (1-3 cr)<br/>P.	Probe Experiments (1-3 cr)<br/>T.	Traditional Experiments (1-3 cr)</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">3</credit>
+      <credit type="Per Career Limit">6</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Survey of Modern Physical Chemistry</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CHEM</subject>
+        <courseNumber>885</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">A one-semester survey course in modern physical chemistry, covering chemical thermodynamics, chemical kinetics, quantum chemistry, molecular structure and spectroscopy.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Special Problems</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CHEM</subject>
+        <courseNumber>898</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Permission</div>
+    </prerequisite>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">24</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Introduction to Graduate Research</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CHEM</subject>
+        <courseNumber>898</courseNumber>
+        <courseLetter>A</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Admission to chemistry graduate program.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Series of lectures and activities designed to prepare for graduate research and graduate studies in chemistry.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">3</credit>
+      <credit type="Per Career Limit">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Masters Thesis</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CHEM</subject>
+        <courseNumber>899</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Admission to masters degree program and permission of major adviser</div>
+    </prerequisite>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">6</credit>
+      <credit type="Upper Range Limit">10</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Proteins</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CHEM</subject>
+        <courseNumber>932</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>BIOS</subject>
+        <courseNumber>932</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>BIOC</subject>
+        <courseNumber>932</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">BIOC/BIOS/CHEM 832 or BIOC/BIOS/CHEM *839</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Protein structure and function.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>2</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">2</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Enzymes</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CHEM</subject>
+        <courseNumber>933</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>BIOS</subject>
+        <courseNumber>933</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>BIOC</subject>
+        <courseNumber>933</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">BIOC/BIOS/CHEM 432/832, or BIOC/BIOS/CHEM *839</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Kinetics regulation and reaction mechanisms of enzymes.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>2</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">2</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Genome Dynamics and Gene Expression</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CHEM</subject>
+        <courseNumber>934</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>BIOS</subject>
+        <courseNumber>934</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>BIOC</subject>
+        <courseNumber>934</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1121</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">BIOC/BIOS/CHEM 832 or permission</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Detailed examination of dynamic control mechanisms of genome maintenance and gene regulation. Mechanisms of transcription, translation, and replication based on analysis of current and seminal literature.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Metabolic Function and Dysfunction</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CHEM</subject>
+        <courseNumber>935</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>BIOS</subject>
+        <courseNumber>935</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>BIOC</subject>
+        <courseNumber>935</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">BIOC/CHEM/BIOS 432/832 and permission</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">BIOC/CHEM/BIOS 935 is offered even-numbered calendar years.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Current metabolic research at the bioenergetic, metabolomic, and molecular level. The normal metabolic processes that go awry in cancer, obesity, and oxidative stress.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Advanced Topics in Plant Biochemistry: Photosynthesis and Related Processes</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CHEM</subject>
+        <courseNumber>937</courseNumber>
+        <courseLetter>A</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Permission</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Offered every fourth semester. For course description, see BIOC 937A.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Photobiochemistry</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CHEM</subject>
+        <courseNumber>939</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">One year BIOC and PHYS</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">For course description, see BIOC 939.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>2</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">2</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Seminar in Inorganic Chemistry</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CHEM</subject>
+        <courseNumber>940</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Single Value">1</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Solid-State Chemistry</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CHEM</subject>
+        <courseNumber>943</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">CHEM *845 and *885</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Advanced course dealing with the structure, bonding, properties, and reactions of inorganic solid materials.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Single Value">2</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Advanced Inorganic Chemistry</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CHEM</subject>
+        <courseNumber>945</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">CHEM *845</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Chemistry of the metallic compounds.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Single Value">2</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Organometallic Chemistry</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CHEM</subject>
+        <courseNumber>946</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">The chemistry of compounds that occupy the boundary between inorganic and organic chemistry.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">6</credit>
+      <credit type="Per Career Limit">6</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Stereochemistry of Organic Compounds</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CHEM</subject>
+        <courseNumber>952</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">CHEM *855</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Types of stereoisomerism in organic compounds. Steric strain and certain other steric effects in reactions of organic substances.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">2</credit>
+      <credit type="Upper Range Limit">4</credit>
+      <credit type="Per Career Limit">4</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Organic Reaction Mechanisms</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CHEM</subject>
+        <courseNumber>953</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">CHEM *855</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Classes of reaction mechanisms and the methods whereby mechanisms may be studied. Kinetic and equilibrium studies; isotopic labeling; activation parameters; linear free energy relationships; stereochemistry; NMR and other spectroscopic methods as applied to reaction mechanisms, including direct observation of reactive intermediates; interpreting the results of semi-empirical calculations of reaction pathways; and studies of acid- and base-catalysis mechanisms.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">2</credit>
+      <credit type="Upper Range Limit">4</credit>
+      <credit type="Per Career Limit">4</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Physical Organic Chemistry</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CHEM</subject>
+        <courseNumber>954</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">CHEM *855</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Elementary aspects of molecular orbital (MO) theory. Selected concepts in molecular symmetry and topology. Applications of MO calculations to reaction mechanisms and elucidation of electronic structure for organic molecules: calculations vs. experiment. Introduction to selected interdisciplinary topics.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">2</credit>
+      <credit type="Upper Range Limit">4</credit>
+      <credit type="Per Career Limit">4</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Metals in Organic Synthesis</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CHEM</subject>
+        <courseNumber>963</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">CHEM 865</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Use of organometallic reagents and catalysts in organic synthesis.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">2</credit>
+      <credit type="Upper Range Limit">4</credit>
+      <credit type="Per Career Limit">4</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Bioorganic Chemistry</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CHEM</subject>
+        <courseNumber>964</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">CHEM *855</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Organic chemistry of biological systems with particular emphasis on the molecular mechanisms of action of enzymes and their associated cofactors.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">2</credit>
+      <credit type="Upper Range Limit">4</credit>
+      <credit type="Per Career Limit">4</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Advanced Synthetic Strategy</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CHEM</subject>
+        <courseNumber>965</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">CHEM 865</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Strategy and execution of organic synthesis. Retrosynthetic analysis; total synthesis of natural and unnatural products; methods for asymmetric synthesis; and applications of pericyclic reactions.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">2</credit>
+      <credit type="Upper Range Limit">4</credit>
+      <credit type="Per Career Limit">4</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Quantum Chemistry I</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CHEM</subject>
+        <courseNumber>972</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">CHEM *885</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Basic principles of quantum mechanics applied to problems in molecular structure and chemical bonding.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Chemical Thermodynamics</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CHEM</subject>
+        <courseNumber>982</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">CHEM *885</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Principles of thermodynamics, with applications to chemical systems and processes, and illustrations from current literature.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Statistical Thermodynamics</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CHEM</subject>
+        <courseNumber>983</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">CHEM *885 or 982</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Application of equilibrium statistical mechanics to problems of chemical interest. Calculation of thermodynamic functions from molecular structure data. Molecular theories of gases, liquids, and solutions.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Single Value">2</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Chemical Kinetics</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CHEM</subject>
+        <courseNumber>984</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">CHEM *885 or 982</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Concepts and equations; successive, competing, and reversible reactions; equilibrium, collision, and activated-complex theories; reaction mechanism; heterogeneous reactions; current literature.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Single Value">2</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Molecular Spectroscopy</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CHEM</subject>
+        <courseNumber>987</courseNumber>
+        <courseLetter>A</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">CHEM 482/882 or *885 or 972; and permission.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">A quantitative treatment of the principal methods of electronic, optical, and magnetic resonance spectroscopy.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>2</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">2</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Scattering</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CHEM</subject>
+        <courseNumber>987</courseNumber>
+        <courseLetter>B</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">CHEM 482/882 or *885 or 972; and permission.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">A quantitative treatment of the principal methods of light, electron and neutron scattering.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>2</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">2</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Seminar in Chemistry</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CHEM</subject>
+        <courseNumber>990</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">CHEM 990 consists of monthly lectures presented by guest speakers from other colleges and universities, the government, and industry. Registration in CHEM 990 is required of all full-time CHEM graduate students. Current topics of chemical interest.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">5</credit>
+      <credit type="Per Career Limit">5</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Selected Topics in Analytical Chemistry</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CHEM</subject>
+        <courseNumber>991</courseNumber>
+        <courseLetter>A</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">CHEM 821 or *824, or parallel</div>
+    </prerequisite>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">6</credit>
+      <credit type="Per Career Limit">6</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Special Topics in Inorganic Chemistry</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CHEM</subject>
+        <courseNumber>991</courseNumber>
+        <courseLetter>B</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">CHEM *845 and permission</div>
+    </prerequisite>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">6</credit>
+      <credit type="Per Career Limit">6</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Special Topics in Organic Chemistry</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CHEM</subject>
+        <courseNumber>991</courseNumber>
+        <courseLetter>E</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">CHEM *855</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Topics of special interest in modern organic chemistry.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">2</credit>
+      <credit type="Upper Range Limit">4</credit>
+      <credit type="Per Career Limit">4</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Special Topics in Physical Chemistry</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CHEM</subject>
+        <courseNumber>991</courseNumber>
+        <courseLetter>J</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">CHEM 881 and 882, or *885</div>
+    </prerequisite>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">6</credit>
+      <credit type="Per Career Limit">6</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Seminar in Analytical Chemistry</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CHEM</subject>
+        <courseNumber>992</courseNumber>
+        <courseLetter>A</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">5</credit>
+      <credit type="Per Career Limit">5</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Seminar on Current Literature of Organic Chemistry</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CHEM</subject>
+        <courseNumber>992</courseNumber>
+        <courseLetter>E</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Weekly seminar summarizing recently published developments in organic chemistry.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">5</credit>
+      <credit type="Per Career Limit">5</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Seminar in Physical Chemistry</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CHEM</subject>
+        <courseNumber>992</courseNumber>
+        <courseLetter>J</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">CHEM *885</div>
+    </prerequisite>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">5</credit>
+      <credit type="Per Career Limit">5</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Seminar in Biological Chemistry</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>BIOC</subject>
+        <courseNumber>992</courseNumber>
+        <courseLetter>K</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>CHEM</subject>
+        <courseNumber>992</courseNumber>
+        <courseLetter>K</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">BIOC 832 or *839; and permission</div>
+    </prerequisite>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">2</credit>
+      <credit type="Per Career Limit">2</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Doctoral Dissertation</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CHEM</subject>
+        <courseNumber>999</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Admission to doctoral degree program and permission of supervisory committee chair</div>
+    </prerequisite>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">24</credit>
+      <credit type="Per Career Limit">55</credit>
     </credits>
   </course>
 </courses>

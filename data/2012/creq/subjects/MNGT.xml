@@ -116,10 +116,14 @@
         <subject>MNGT</subject>
         <courseNumber>245</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>SCMS</subject>
+        <courseNumber>245</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1108</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1121</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Sophomore standing; ECON 215 or parallel; BSAD 150.</div>
     </prerequisite>
@@ -137,7 +141,12 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
@@ -156,10 +165,14 @@
         <subject>MNGT</subject>
         <courseNumber>250</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>SCMS</subject>
+        <courseNumber>250</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1088</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1121</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">BSAD 150.</div>
     </prerequisite>
@@ -177,13 +190,59 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
     <aceOutcomes>
       <slo>3</slo>
     </aceOutcomes>
+  </course>
+  <course>
+    <title>MANAGEMENT ESSENTIALS FOR CONTEMPORARY ORGANIZATIONS</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MNGT</subject>
+        <courseNumber>300</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1121</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">2.5 GPA; Sophomore Standing; ECON 200; ACCT 200.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">This course is only open to non-CBA majors that are selecting a business minor within their respective major.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">This course is designed to introduce students from non-business fields to the role of managers in various organizational structures and types. Students will explore how the practice of management is relevant to their chosen field of study or academic discipline. This course will provide an analysis of organizations and the management processes of planning, organizing, directing and controlling. Individual, group, intergroup and organizational responses to various environments and technologies are studied as well as pertinent techniques of human capital management.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
   </course>
   <course>
     <title>Principles of Management</title>
@@ -240,7 +299,7 @@
       <div xmlns="http://www.w3.org/1999/xhtml">MNGT/ENTR 321 is 'Letter grade only'.</div>
     </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">This course addresses the concepts, skills, know-how, information, attitudes, and alternatives that are relevant for identifying and evaluating ideas that can serve as an exploitable business opportunity.<br/></div>
+      <div xmlns="http://www.w3.org/1999/xhtml">This course addresses the concepts, skills, know-how, information, attitudes, and alternatives that are relevant for identifying and evaluating ideas that can serve as an exploitable business opportunity.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -281,7 +340,7 @@
       <div xmlns="http://www.w3.org/1999/xhtml">ENTR/MNGT 322 is 'Letter grade only'.</div>
     </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">The opportunities and challenges that are distinctive to businesses owned and operated by members of a family. Shared governance, leadership development, succession, and family-business tensions.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">The opportunities and challenges that are distinctive to businesses owned and operated by members of a family. Shared governance, leadership development, succession, and family-business tensions.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -316,10 +375,14 @@
         <courseNumber>331</courseNumber>
         <courseLetter>X</courseLetter>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>SCMS</subject>
+        <courseNumber>331</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>letter grade only</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1108</effectiveSemester>
+    <effectiveSemester>1121</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Junior standing; ECON 215 or STAT 218; 2.5 GPA. In addition to specific prerequisites listed, College of Business Administration (CBA) students must also have completed the following courses or their equivalents: BSAD 150; ENGL 101/101H or 150/150H or 151/151H; MATH 104 or 106/106B/108H; JGEN 220; COMM 286; ACCT 201/201H and 202, or 306; ECON 211 and 212, or 210; ECON 215 or STAT 218. Prereq for actuarial science, Raikes School, and agribusiness majors: Refer to exceptions for the requirements.</div>
     </prerequisite>
@@ -461,7 +524,7 @@
     <dfRemoval>false</dfRemoval>
     <effectiveSemester>1095</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Good standing in the University Honors Program or by invitation; junior standing and a 2.5 GPA. In addition to specific prerequisites listed, CBA students must also have completed the following courses or their equivalents: BSAD 150; ENGL 101 or 102 or 150 or 151; MATH 104/104H or 106/108H; JGEN 120; COMM 311; ACCT 201 and 202, or 306; ECON 211 and 212, or 210; ECON 215 or STAT 218. Prereq for actuarial science,   J. D. Edwards Program and agribusiness majors: Refer to exceptions for the requirements.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Good standing in the University Honors Program or by invitation; junior standing and a 2.5 GPA. In addition to specific prerequisites listed, CBA students must also have completed the following courses or their equivalents: BSAD 150; ENGL 101 or 102 or 150 or 151; MATH 104/104H or 106/108H; JGEN 120; COMM 311; ACCT 201 and 202, or 306; ECON 211 and 212, or 210; ECON 215 or STAT 218. Prereq for actuarial science, J. D. Edwards Program and agribusiness majors: Refer to exceptions for the requirements.</div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">Honors section students have the opportunity to have in-depth discussions based on readings from additional articles and chapters from a supplementary text.</div>
@@ -782,7 +845,7 @@
       <div xmlns="http://www.w3.org/1999/xhtml">Credit toward the degree cannot be earned in both ENTR/MNGT 422/822 and ENTR/MNGT 422A/822A. ENTR/MNGT 422/822 has guest speakers.</div>
     </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Small businesses and owner management. The obligations and operating practices required by ownership of one's own business, whether new or acquired. A consulting project for local small businesses.  Case studies relevant to small business.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Small businesses and owner management. The obligations and operating practices required by ownership of one's own business, whether new or acquired. A consulting project for local small businesses. Case studies relevant to small business.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -840,7 +903,7 @@
       <div xmlns="http://www.w3.org/1999/xhtml">Credit toward the degree cannot be earned in both ENTR/MNGT422/822 and ENTR/MNGT422A/822A.</div>
     </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">The obligations and operating practices required by ownership of one's own business, whether new or acquired.  Interactions with owners of small businesses (e.g., on-site visits and discussions). Cases and projects relevant to small businesses.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">The obligations and operating practices required by ownership of one's own business, whether new or acquired. Interactions with owners of small businesses (e.g., on-site visits and discussions). Cases and projects relevant to small businesses.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -993,15 +1056,20 @@
       <courseCode type="home listing">
         <subject>MNGT</subject>
         <courseNumber>431</courseNumber>
+        <courseGroup>Additional Anthropology Courses</courseGroup>
       </courseCode>
       <courseCode type="grad tie-in">
         <subject>MNGT</subject>
         <courseNumber>831</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>SCMS</subject>
+        <courseNumber>431</courseNumber>
+      </courseCode>
     </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1121</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Senior standing; MNGT 331 or equivalent.</div>
     </prerequisite>
@@ -1019,13 +1087,18 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
   </course>
   <course>
-    <title>Computer-aided Analysis in Decision Making</title>
+    <title>Supply Chain Risk Management</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>MNGT</subject>
@@ -1035,12 +1108,16 @@
         <subject>MNGT</subject>
         <courseNumber>837</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>SCMS</subject>
+        <courseNumber>437</courseNumber>
+      </courseCode>
     </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1121</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Senior standing; BSAD 150; and MNGT/MIST 350.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Senior standing; BSAD 150; MNGT 331; MNGT/MIST 350.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Analytical and simulation models for decision making in functional areas such as finance, accounting, marketing, personnel, operations, and inventory. Construction of decision models for practical applications. Emphasis on analyzing alternatives and implementing solutions that result in increased productivity.</div>
@@ -1056,7 +1133,12 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
@@ -1154,10 +1236,14 @@
         <subject>MNGT</subject>
         <courseNumber>852</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>SCMS</subject>
+        <courseNumber>452</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1121</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">MNGT/MIST 350.</div>
     </prerequisite>
@@ -1204,10 +1290,14 @@
         <subject>MNGT</subject>
         <courseNumber>854</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>SCMS</subject>
+        <courseNumber>454</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1121</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">MIST/MNGT 350.</div>
     </prerequisite>
@@ -1254,10 +1344,14 @@
         <subject>MIST</subject>
         <courseNumber>855</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>SCMS</subject>
+        <courseNumber>455</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1121</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">MIST/MNGT 350.</div>
     </prerequisite>
@@ -1304,10 +1398,14 @@
         <subject>MNGT</subject>
         <courseNumber>856</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>SCMS</subject>
+        <courseNumber>456</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1121</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">MIST/MNGT 350.</div>
     </prerequisite>
@@ -1328,6 +1426,7 @@
     <activities>
       <activity>
         <type>lec</type>
+        <hours>3</hours>
       </activity>
     </activities>
     <credits>
@@ -1353,10 +1452,14 @@
         <subject>MNGT</subject>
         <courseNumber>857</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>SCMS</subject>
+        <courseNumber>457</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1121</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">MIST/MNGT 350.</div>
     </prerequisite>
@@ -1377,6 +1480,7 @@
     <activities>
       <activity>
         <type>lec</type>
+        <hours>3</hours>
       </activity>
     </activities>
     <credits>
@@ -1402,10 +1506,14 @@
         <subject>MNGT</subject>
         <courseNumber>858</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>SCMS</subject>
+        <courseNumber>458</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1121</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">MIST/MNGT 350.</div>
     </prerequisite>
@@ -1452,10 +1560,14 @@
         <subject>MIST</subject>
         <courseNumber>859</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>SCMS</subject>
+        <courseNumber>459</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1081</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1121</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">The worldwide political and economic changes in the last decade that have propelled city, state, country governments, and corporations to expand business globally and enter into new markets. Information technology (IT) as a key role in the globalization of businesses. The necessary concepts and ideas to understand the issues in the global or international use of information technology. IT environments around the world, national infrastructures and regulatory regimes, global IT applications, global IS development strategies, global management support systems, and global IT management strategies.</div>
     </description>
@@ -1874,6 +1986,705 @@
     <credits>
       <credit type="Lower Range Limit">3</credit>
       <credit type="Upper Range Limit">6</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Management Information Systems</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MNGT</subject>
+        <courseNumber>850</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Education or experience with computers and/or experience in administration. Consideration of kinds of information needed to support the full spectrum of decision making in private and public organizations. Techniques of measuring and reporting on outcomes of managerial decisions. The design of management information systems (MIS) with regard to the proper role of the computer, systems analysts, programmers, managers and users, data management technology, and kinds of computer hardware and software.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Data Mining and Warehousing</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MIST</subject>
+        <courseNumber>853</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>MNGT</subject>
+        <courseNumber>853</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">MNGT 950 or equivalent course in statistics</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Large scale data storage systems used in business. Statistical and data mining tools used for analyzing large sets of data. Sources of data that are internal and external to the organization. Primary data mining applications in business and demonstrated on representative data sets. Data warehouses, data marts, online analytic mining techniques used to support business operations. Application of actual software where possible.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Strategic Management</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MNGT</subject>
+        <courseNumber>876</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Management Department permission</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Theories, concepts, techniques, and practices of strategic management. Includes strategic decision making, assessing the strategic situation, strategic planning systems and techniques, and implementation and control.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Masters Thesis</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MNGT</subject>
+        <courseNumber>899</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Admission to masters degree program and permission of major adviser</div>
+    </prerequisite>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">6</credit>
+      <credit type="Upper Range Limit">10</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Research Design and Methodology</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MNGT</subject>
+        <courseNumber>905</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Permission</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Research designs appropriate for basic and field research, including methodology for implementing such designs. An analysis of various statistical methods for evaluating research data. Includes prospectus and manuscript writing and submission; critical review of various research currently published.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Operations Planning and Control Systems</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MNGT</subject>
+        <courseNumber>931</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Taught predominately by the case method with a few classes for review and summary lectures. Concentrates on higher management decisions involving the manufacturing, service, and public sectors. Facilities planning, labor, aggregate planning, strategic planning, capacity management, and trade-off analysis.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Business History</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MNGT</subject>
+        <courseNumber>932</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">History of business of the leading nations with emphasis on the United States, including the effect of environment upon business, the development of entrepreneurship and management, and the impact of business upon the community and nation. Case histories and entrepreneurial-managerial appraisals.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">2</credit>
+      <credit type="Upper Range Limit">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Advanced Topics in Supply Chain Management</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MNGT</subject>
+        <courseNumber>933</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Advanced conceptual and methodological practices in designing and planning supply chain systems. Advances and strategies in supply chain procurement, transportation, distribution and warehousing, globalization, outsourcing, and technology.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Management Science</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MNGT</subject>
+        <courseNumber>941</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Graduate students who have completed all quantitative core requirements equivalent to MATH 104 or 105; ECON 215; and MNGT 331</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Main concepts and techniques of modern management science for management decision analysis. Application of the tools to real-world decision-making situations.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Advanced Topics in Information Systems</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MNGT</subject>
+        <courseNumber>954</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Permission</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Identifies and addresses the current issues in Information Systems. Includes technical and managerial aspects, e.g., Internet, software project management, etc.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Organizational Behavior</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MNGT</subject>
+        <courseNumber>960</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Permission</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Human behavior within organizations. Research findings and the contributions of behavioral science.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Organization and Management Theory</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MNGT</subject>
+        <courseNumber>969</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Permission</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Major historical perspectives and some of the current competing paradigms in the field of organization theory. Classical management theory, human relations theory, the technology-structure and structure-environment contingency perspectives for organizational design, strategic human resource management, organizational culture, institutional theory, and such current topics as organizational demography and groups in organizations. Critiquing the theoretical perspectives on both conceptual and methodological dimensions as well as developing comparisons and contrasts between the perspectives. Critical elements of theory building in the organizational sciences and the frameworks for examining organizational theory.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Strategic Leadership</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MNGT</subject>
+        <courseNumber>971</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Permission</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">The effect of leadership throughout organizations on successful development and execution of organizational strategies. Strategic leadership in organizations and its relationship to domains such as top management teams, board leadership development, organizational visions and cultures, and organizational effectiveness. Relevance of strategic leadership theory and practice to organizational change and/or transformation, strategic alignment, organizational, adaptability, global organizational systems, and authentic organizational decision-making and cultures.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Seminar in Interpersonal Processes in Organizations</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MNGT</subject>
+        <courseNumber>980</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Permission</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Field of organizational behavior at the individual level. Two specific features of human behavior: understanding how individuals interact with their environment to explain behavior and performance; and how individuals interact with other actors in their work environment to both facilitate and evaluate attitudes and behavior. Students read existing research literature-to learn the “classic” studies that serve as the foundations for significant organizational behavior theories, and to understand the current conceptual trends, hypotheses, and methodologies involved in advancing these theories.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Seminar in Labor Relations</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MNGT</subject>
+        <courseNumber>981</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Seminar in Human Resource Management</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MNGT</subject>
+        <courseNumber>982</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Seminar in Organizational Behavior</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MNGT</subject>
+        <courseNumber>983</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Permission</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Capstone seminar in the organizational behavior track. Reflection, perspective and the future of topics in the field of organizational behavior including research methodology, social learning theory/organizational behavior models, managerial activities/behaviors, cross-cultural/international research, and leadership.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Seminar in Operations Management</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MNGT</subject>
+        <courseNumber>984</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Seminar in Strategic Management and Business Policy</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MNGT</subject>
+        <courseNumber>985</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">MNGT *876 and GRBA *853, or equivalent</div>
+    </prerequisite>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Seminar in Management Information Systems</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MNGT</subject>
+        <courseNumber>988</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">MNGT 950 or equivalent</div>
+    </prerequisite>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Seminar in Organization and Management Theory</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MNGT</subject>
+        <courseNumber>989</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Permission</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Current paradigms in the field of organizational theory. Transaction cost economics, agency theory, strategic choice and decision-making, resource dependency, power, population and community ecologies, and interorganizational networks. Current topics in organizational theory. Critiquing the theoretical perspectives on both conceptual and methodological dimensions as well as developing comparisons and contrasts between the perspectives. Ethical code of conduct and other issues involved in publishing in the organizational sciences.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Seminar in History of Management Thought</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MNGT</subject>
+        <courseNumber>990</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Development of management thought from the ancient civilizations of Sumer and Egypt, through the Middle Ages, to more recent developments. Scientific Management School, the contributions of Henri Fayol, and the Hawthorne research. The evolution of management as a body of knowledge.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Seminar in Selected Topics I</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MNGT</subject>
+        <courseNumber>994</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Management department permission</div>
+    </prerequisite>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">3</credit>
+      <credit type="Upper Range Limit">6</credit>
+      <credit type="Per Career Limit">6</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Seminar in Selected Topics II</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MNGT</subject>
+        <courseNumber>995</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Management department permission</div>
+    </prerequisite>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">6</credit>
+      <credit type="Per Career Limit">6</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Directed Reading or Research</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MNGT</subject>
+        <courseNumber>996</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">6</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Doctoral Dissertation</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MNGT</subject>
+        <courseNumber>999</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Admission to doctoral degree program and permission of supervisory committee chair</div>
+    </prerequisite>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">24</credit>
+      <credit type="Per Career Limit">55</credit>
     </credits>
   </course>
 </courses>

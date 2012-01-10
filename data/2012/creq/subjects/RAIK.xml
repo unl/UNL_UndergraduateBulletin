@@ -129,7 +129,7 @@
       <div xmlns="http://www.w3.org/1999/xhtml">CSCE/RAIK 183 is the first course in the Jeffrey S. Raikes School of Computer Science and Management core. CSCE/RAIK 183 has programming laboratory activities.</div>
     </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to problem solving with computers. Problem analysis and specification, algorithm development,  program design, and implementation. JAVA in a Windows platform.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to problem solving with computers. Problem analysis and specification, algorithm development, program design, and implementation. JAVA in a Windows platform.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -277,7 +277,7 @@
       <div xmlns="http://www.w3.org/1999/xhtml">Second course in the Raikes School leadership core. BSAD/RAIK is 'Letter grade only'.</div>
     </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Continued pursuit and analysis of personal development and its application to leadership.  Introduction to teams.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Continued pursuit and analysis of personal development and its application to leadership. Introduction to teams.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -662,7 +662,7 @@
       <div xmlns="http://www.w3.org/1999/xhtml">Final course in the Raikes School leadership core. BSAD/RAIK 286 is 'Letter grade only'.</div>
     </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Continued making sense of yourself and others. Further applications to team and shared leadership communication and development.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Continued making sense of yourself and others. Further applications to team and shared leadership communication and development.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -892,6 +892,53 @@
     </credits>
   </course>
   <course>
+    <title>Honors: Marketing</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MRKT</subject>
+        <courseNumber>341</courseNumber>
+        <courseLetter>H</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>RAIK</subject>
+        <courseNumber>341</courseNumber>
+        <courseLetter>H</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Good standing in the University Honors Program; Sophomore standing; ECON 211 and 212, or 210; 2.5 GPA. Prereq for actuarial science, Raikes School of Computer Science and Management and agribusiness majors: refer to exceptions for the requirements. Students enrolling in RAIK 341H must be admitted to the Jeffrey S. Raikes School of Computer Science and Management.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Letter Grade Only.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">The marketing system, its relations with the socioeconomic system, and the influences of each upon the other. Evolution and present structure of marketing institutions and processes. Customer attributes and behavioral characteristics, and how a marketing manager responds to these in the design of marketing strategies, using research, product development, pricing, distribution structure, and promotion.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Honors: Advanced Topics in Business I</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -1050,7 +1097,7 @@
     <dfRemoval>true</dfRemoval>
     <effectiveSemester>1111</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Good standing in the University Honors Program; admission to the Jeffrey S. Raikes School of<br/>Computer Science and Management; and CSCE/RAIK 284H; parallel BSAD/RAIK 382H. <br/></div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Good standing in the University Honors Program; admission to the Jeffrey S. Raikes School of<br/>Computer Science and Management; and CSCE/RAIK 284H; parallel BSAD/RAIK 382H.</div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">Sixth course in the Jeffrey S. Raikes School of Computer Science and Management core.</div>
@@ -1191,5 +1238,87 @@
     <aceOutcomes>
       <slo>10</slo>
     </aceOutcomes>
+  </course>
+  <course>
+    <title>Raikes School: Design Studio I</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>RAIK</subject>
+        <courseNumber>802</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>GRBA</subject>
+        <courseNumber>802</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Admission to the MBA program; BSAD/CSCE/RAIK 402H</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">The first semester of a two semester sequence of the Raikes School of Computer Science and Management Graduate Design Studio. Application of software design principles in a team oriented project management setting. Complete projects in consultation with private and public sector clients.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities>
+      <activity>
+        <type>lab</type>
+        <hours>10</hours>
+      </activity>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Raikes School: Design Studio II</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>RAIK</subject>
+        <courseNumber>803</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>GRBA</subject>
+        <courseNumber>803</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Admission to the MBA program; GRBA/RAIK *802</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">The second semester of a two semester sequence of the Raikes School of Computer Science and Management Graduate Design Studio. Application of software design principles in a team oriented project management setting. Complete projects in consultation with private and public sector clients.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities>
+      <activity>
+        <type>lab</type>
+        <hours>10</hours>
+      </activity>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
   </course>
 </courses>

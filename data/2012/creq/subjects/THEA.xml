@@ -597,7 +597,7 @@
     <dfRemoval>true</dfRemoval>
     <effectiveSemester>1118</effectiveSemester>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">A practical introduction to the aesthetics, equipment, and production workflow for digital video production.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">A practical introduction to the aesthetics, equipment, and production workflow for digital video production.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -1011,7 +1011,7 @@
     <dfRemoval>true</dfRemoval>
     <effectiveSemester>1118</effectiveSemester>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Web design, usability and interactive media.<br/><br/></div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Web design, usability and interactive media.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -1034,6 +1034,52 @@
     </credits>
   </course>
   <course>
+    <title>Shakespeare's Dramatic Arts</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ENGL</subject>
+        <courseNumber>386</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>THEA</subject>
+        <courseNumber>386</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1121</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Students must be enrolled in the Nebraska at Oxford study abroad program.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Lecturers and tutors for the two courses are from Oxford University faculty and staff. Field trips and cultural excursions will supplement the course lectures and tutorials.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Shakespeare and the well-known literature of England since the Middle Ages.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>fld</type>
+        <hours>5</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+    <aceOutcomes>
+      <slo>5</slo>
+    </aceOutcomes>
+  </course>
+  <course>
     <title>Digital Animation Basics</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -1045,7 +1091,7 @@
     <dfRemoval>true</dfRemoval>
     <effectiveSemester>1118</effectiveSemester>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Creation, animation, lighting and rendering moving images.<br/></div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Creation, animation, lighting and rendering moving images.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -1371,6 +1417,43 @@
       <credit type="Single Value">2</credit>
       <credit type="Per Semester Limit">2</credit>
       <credit type="Per Career Limit">8</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Costume Crafts</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>THEA</subject>
+        <courseNumber>406</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>THEA</subject>
+        <courseNumber>806</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">The creation of various costume accessories, ornaments and hand properties categorized by the profession as costume crafts.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>stu</type>
+        <hours>6</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
     </credits>
   </course>
   <course>
@@ -1758,7 +1841,7 @@
     </credits>
   </course>
   <course>
-    <title>Computer Aided Design</title>
+    <title>Computer Aided Design (CAD) for Theatre</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>THEA</subject>
@@ -1771,7 +1854,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1121</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">12 hrs theatre arts, including THEA 201, and permission.</div>
     </prerequisite>
@@ -2340,19 +2423,8 @@
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">THEA 489.</div>
     </prerequisite>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">
-        <span style="font-family: 'Lucida Grande',Verdana,Arial; color: #494949;">
-          <span style="line-height: 14px;">
-            <br/>
-          </span>
-        </span>
-      </div>
-    </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">
-        <span style="font-size: 10pt; font-family: ">Develop the skills required to successfully direct a film.  Critically analyze a script; shape an actor's performance and balance the technical demands of each scene.</span>
-      </div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Develop the skills required to successfully direct a film. Critically analyze a script; shape an actor's performance and balance the technical demands of each scene.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -3005,7 +3077,7 @@
     </credits>
   </course>
   <course>
-    <title>Film: Producing and Directing</title>
+    <title>Film: Producing</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>THEA</subject>
@@ -3016,14 +3088,14 @@
         <courseNumber>886</courseNumber>
       </courseCode>
     </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1121</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">THEA 481/881.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">THEA 481/881 and THEA 489/889.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">The skills required to successfully produce and direct a film. Analyze and direct scenes from films, produce and direct a final project, and create a production notebook.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">The budgeting, organizational, managerial and supervisory skills required by a creative film producer - from financing to distribution.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -3034,14 +3106,15 @@
     <termsOffered>
       <term>Fall</term>
       <term>Spring</term>
-      <term>Summer</term>
     </termsOffered>
     <activities>
       <activity>
         <type>lab</type>
+        <hours>3</hours>
       </activity>
       <activity>
         <type>lec</type>
+        <hours>3</hours>
       </activity>
     </activities>
     <credits>
@@ -3067,7 +3140,7 @@
       <div xmlns="http://www.w3.org/1999/xhtml">THEA 489 or by permission.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Creating moving text and images using compositing and animation software.  Also an introduction to basic 3D animation.<br/></div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Creating moving text and images using compositing and animation software. Also an introduction to basic 3D animation.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -3306,7 +3379,7 @@
     <dfRemoval>false</dfRemoval>
     <effectiveSemester>1091</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Open to seniors who are candidates for degrees with distinction, with high distinction, and with highest distinction in the Hixson-Lied College of Fine and Performing Arts; good standing in the University Honors Program or by invitation.<br/></div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Open to seniors who are candidates for degrees with distinction, with high distinction, and with highest distinction in the Hixson-Lied College of Fine and Performing Arts; good standing in the University Honors Program or by invitation.</div>
     </prerequisite>
     <campuses>
       <campus>UNL</campus>
@@ -3323,6 +3396,647 @@
       <credit type="Lower Range Limit">1</credit>
       <credit type="Upper Range Limit">3</credit>
       <credit type="Per Career Limit">6</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Advanced Acting</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>THEA</subject>
+        <courseNumber>801</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">THEA 254, 256, 224 or equivalent and permission</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Specific content for each semester may be obtained from the teaching faculty. The actor’s methods of character development in the major styles of acting including Realistic Drama, Elizabethan, Comedy, Theatre of the Absurd, Musical Theatre, and others, and the acting profession itself.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+      <credit type="Per Career Limit">12</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Evolution of Dramatic Theory I</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>THEA</subject>
+        <courseNumber>804</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">12 hrs theatre arts and dramatic literature</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Dramatic theory from Aristotle to Lessing with emphasis on the relationship of theory and practice on the stage.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Evolution of Dramatic Theory II</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>THEA</subject>
+        <courseNumber>805</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">12 hrs theatre arts and dramatic literature</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Dramatic theory continued from Lessing to the present.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Scene Design I</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>THEA</subject>
+        <courseNumber>812</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">12 hrs theatre arts including THEA 201 and 202</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Theory and practice of scene design. Application of the principles of design to stage settings. Development of the scene design for a play through sketches, color plates, models, and drawings.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Rendering for the Theatre</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>THEA</subject>
+        <courseNumber>823</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Advanced practices in scenic rendering for theatre and film.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Lighting for Film</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>THEA</subject>
+        <courseNumber>826</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">THEA 811 or 889, or permission</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Advanced application of film lighting concepts and techniques.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Advanced Costume Construction</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>THEA</subject>
+        <courseNumber>833</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>stu</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Period Patterning</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>THEA</subject>
+        <courseNumber>835</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1121</effectiveSemester>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>stu</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+      <credit type="Per Career Limit">6</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Costume Rendering</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>THEA</subject>
+        <courseNumber>836</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Practice in using various media and plate design; rendering techniques and costume plate experimentation to achieve variety in the portfolio, reflecting the mood and texture of each theatrical work.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>stu</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Costume Design III</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>THEA</subject>
+        <courseNumber>837</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1128</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml"/>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml"/>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Advanced costume design techniques in specific types of performance arts.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>stu</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Script Analysis</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>THEA</subject>
+        <courseNumber>860</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Permission</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Systematic approach for analyzing a play based on the four works of Stanislavski.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Director/Designer Communication</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>THEA</subject>
+        <courseNumber>863</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Undergraduate major in theatre</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Projects, planning, and execution of various forms and styles involving the communication process between director and designer.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Detailed Scene Work I</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>THEA</subject>
+        <courseNumber>864</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">12 hrs theatre arts</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Practical work on scenes with actors and directors from selected realistic plays.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Detailed Scene Work II</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>THEA</subject>
+        <courseNumber>865</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">12 hrs theatre arts</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Further practical work on scenes with actors and directors, involving classical plays, verse drama, expressionistic pieces, or musical comedy.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Introduction to Pedagogy</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>THEA</subject>
+        <courseNumber>870</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduces the graduate student to contemporary university level teaching theories and their classroom applications.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Single Value">1</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Masters Thesis</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>THEA</subject>
+        <courseNumber>899</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Admission to masters degree program and permission of major adviser</div>
+    </prerequisite>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">6</credit>
+      <credit type="Upper Range Limit">10</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Seminar in Theatre Design</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>THEA</subject>
+        <courseNumber>940</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Undergraduate major in theatre arts</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Prereq or parallel: THEA 810, 812, 818 and 932. Problems and theories of scenery, costume, and lighting design for ballet, opera, musicals, and legitimate plays. Discussion of student projects and designed full-scale productions.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">3</credit>
+      <credit type="Per Career Limit">12</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Seminar in Theatre History</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>THEA</subject>
+        <courseNumber>956</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Undergraduate major in theatre arts including 9 hrs theatre history and evolution of dramatic theory</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Specialized topics in theatre history.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">3</credit>
+      <credit type="Per Career Limit">12</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Playwrights</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>THEA</subject>
+        <courseNumber>957</courseNumber>
+        <courseLetter>B</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+  </course>
+  <course>
+    <title>Acting</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>THEA</subject>
+        <courseNumber>957</courseNumber>
+        <courseLetter>D</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+  </course>
+  <course>
+    <title>Internship</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>THEA</subject>
+        <courseNumber>960</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Permission only</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Practical projects related to a professional theatre organization.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">3</credit>
+      <credit type="Upper Range Limit">12</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Research Problems Other Than Thesis</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>THEA</subject>
+        <courseNumber>996</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">6</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Doctoral Dissertation</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>THEA</subject>
+        <courseNumber>999</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Admission to doctoral degree program and permission of supervisory committee chair</div>
+    </prerequisite>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">24</credit>
+      <credit type="Per Career Limit">55</credit>
     </credits>
   </course>
 </courses>

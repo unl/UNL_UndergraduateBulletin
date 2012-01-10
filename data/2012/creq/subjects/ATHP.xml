@@ -10,7 +10,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1121</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Member of a varsity sports team and permission.</div>
     </prerequisite>
@@ -31,9 +31,15 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lab</type>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">1</credit>
+      <credit type="Per Semester Limit">1</credit>
+      <credit type="Per Career Limit">10</credit>
     </credits>
   </course>
 </courses>

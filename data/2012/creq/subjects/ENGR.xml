@@ -80,7 +80,7 @@
     <dfRemoval>false</dfRemoval>
     <effectiveSemester>1108</effectiveSemester>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">ENGR 030 is open only to students transferring to the College of Engineering from another institution.  ENGR 030 is 'Pass/No Pass only'.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">ENGR 030 is open only to students transferring to the College of Engineering from another institution. ENGR 030 is 'Pass/No Pass only'.</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Overview of transfer credit analysis, degree audits, career opportunities in engineering and construction management. Emphasizes internships, cooperative education, and career placement.</div>
@@ -106,7 +106,7 @@
     </credits>
   </course>
   <course>
-    <title>Principles of Nuclear  Engineering</title>
+    <title>Principles of Nuclear Engineering</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>ENGR</subject>
@@ -342,7 +342,7 @@
       <div xmlns="http://www.w3.org/1999/xhtml">ENGR 301.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Energy as a critical component of civilization. The critical role of energy from the economic and political point of view world wide. Energy resources  available, the technology to use the resources, the economics of energy production, the environmental consequences of energy use, and energy policy.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Energy as a critical component of civilization. The critical role of energy from the economic and political point of view world wide. Energy resources available, the technology to use the resources, the economics of energy production, the environmental consequences of energy use, and energy policy.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -518,16 +518,25 @@
     </credits>
   </course>
   <course>
-    <title>Work Periods for Seniors.</title>
+    <title>Engineering Cooperative Education</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>ENGR</subject>
         <courseNumber>450</courseNumber>
       </courseCode>
     </courseCodes>
-    <gradingType>unrestricted</gradingType>
+    <gradingType>pass/no pass only</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1121</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Senior standing; permission of College of Engineering Dean's Office and department chair of student's engineering major.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">All students in enginering participating in cooperative education must register each term prior to commencing work. Special approval is required to take course for credit. Pass/No Pass only.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Cooperative education work in a regularly established cooperative work-study program in any engineering curriculum.</div>
+    </description>
     <campuses>
       <campus>UNL</campus>
     </campuses>
@@ -539,7 +548,16 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>fld</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Lower Range Limit">0</credit>
+      <credit type="Upper Range Limit">12</credit>
+      <credit type="Per Career Limit">12</credit>
+    </credits>
   </course>
   <course>
     <title>Global Experiences in Engineering</title>
@@ -585,5 +603,68 @@
     <aceOutcomes>
       <slo>9</slo>
     </aceOutcomes>
+  </course>
+  <course>
+    <title>History of Modern Technology</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ENGR</subject>
+        <courseNumber>856</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">This course is not to be used for graduate credit in engineering and technology. Survey of the developments in the various types of technology with emphasis on the time period after 1750. Social and economic impacts of technological developments are considered. In-depth studies of three important developments in different fields of technology are undertaken.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Technology, Science and Civilization</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ENGR</subject>
+        <courseNumber>8690</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Permission</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Offered on Omaha Campus. Development of technology as a trigger of change upon humankind, from the earliest tools of Homo Habilis to the advent of the radio telescope in exploring the creation of the universe. Traces the paths from early science to development of the sciences and technologies that will dominate the new millennium.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>2</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
   </course>
 </courses>
