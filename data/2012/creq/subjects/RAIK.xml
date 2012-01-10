@@ -1,0 +1,1195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<courses xmlns="http://courseapproval.unl.edu/courses" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://courseapproval.unl.edu/courses /schema/courses.xsd">
+  <course>
+    <title>Honors: Foundations of Business I</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>BSAD</subject>
+        <courseNumber>181</courseNumber>
+        <courseLetter>H</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>RAIK</subject>
+        <courseNumber>181</courseNumber>
+        <courseLetter>H</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1111</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Good standing in the University Honors Program; admission to the Raikes School of Computer Science and Management.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">First course in the Raikes School core.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to financial accounting, accounting systems, basic finance, management and information systems. Content integration and application, problem-solving and situational analysis.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+      <activity>
+        <type>rct</type>
+        <hours>2</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Honors: Foundations of Business II</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>BSAD</subject>
+        <courseNumber>182</courseNumber>
+        <courseLetter>H</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>RAIK</subject>
+        <courseNumber>182</courseNumber>
+        <courseLetter>H</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1111</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Good standing in the University Honors Program; admission to the Raikes School of Computer Science and Management and BSAD/RAIK 181H.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Second course in the Raikes School core.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to managerial accounting and microeconomics. Continuation of management, information systems and accounting systems topics. Content integration and application, problem-solving and situational analysis.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+      <activity>
+        <type>rct</type>
+        <hours>2</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+    <aceOutcomes>
+      <slo>6</slo>
+    </aceOutcomes>
+  </course>
+  <course>
+    <title>Honors: Computer Problem Solving Essentials</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CSCE</subject>
+        <courseNumber>183</courseNumber>
+        <courseLetter>H</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>RAIK</subject>
+        <courseNumber>183</courseNumber>
+        <courseLetter>H</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1111</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Good standing in the University Honors Program; admission to the Jeffrey S. Raikes School of<br/>Computer Science and Management.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">CSCE/RAIK 183 is the first course in the Jeffrey S. Raikes School of Computer Science and Management core. CSCE/RAIK 183 has programming laboratory activities.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to problem solving with computers. Problem analysis and specification, algorithm development,  program design, and implementation. JAVA in a Windows platform.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+      <activity>
+        <type>rct</type>
+        <hours>1</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">4</credit>
+    </credits>
+    <aceOutcomes>
+      <slo>3</slo>
+    </aceOutcomes>
+  </course>
+  <course>
+    <title>Honors: Software Development Essentials</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CSCE</subject>
+        <courseNumber>184</courseNumber>
+        <courseLetter>H</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>RAIK</subject>
+        <courseNumber>184</courseNumber>
+        <courseLetter>H</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1111</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Good standing in the University Honors Program; admission to the Jeffrey S. Raikes School of<br/>Computer Science and Management; and CSCE/RAIK 183H.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">CSCE/RAIK 184H is the second course in the Jeffrey S. Raikes School of Computer Science and Management core.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Problem solving with computers. Problem analysis and specification, data structures, relational databases, algorithm development, and program design and implementation. Discrete mathematics topics, propositional and predicate logic, sets, relations, functions, and proof techniques. C++, SQL, Windows, Standard Template Library, and Software Development Principles.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>4</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">4</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Honors: Foundations of Leadership I</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>BSAD</subject>
+        <courseNumber>185</courseNumber>
+        <courseLetter>H</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>RAIK</subject>
+        <courseNumber>185</courseNumber>
+        <courseLetter>H</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1098</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Good standing in the University Honors Program; Admission to the Raikes School of Computer Science and Management.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">First course in the Raikes School leadership core. BSAD/RAIK 185H is 'Letter grade only'.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to personal development and its application to leadership.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>1</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">1</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Honors: Foundations of Leadership II</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>BSAD</subject>
+        <courseNumber>186</courseNumber>
+        <courseLetter>H</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>RAIK</subject>
+        <courseNumber>186</courseNumber>
+        <courseLetter>H</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1098</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Admission to the Raikes School of Computer Science and Management and BSAD/RAIK 185H.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Second course in the Raikes School leadership core. BSAD/RAIK is 'Letter grade only'.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Continued pursuit and analysis of personal development and its application to leadership.  Introduction to teams.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>1</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">1</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Honors: Introductory Communication Seminar I</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>JGEN</subject>
+        <courseNumber>187</courseNumber>
+        <courseLetter>H</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>RAIK</subject>
+        <courseNumber>187</courseNumber>
+        <courseLetter>H</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1111</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Good standing in the University Honors Program and admission to the Raikes School of Computer Science and Management.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to oral and written communication within the context of the Raikes School. Basics of writing, editing and presentation.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>1</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">1</credit>
+    </credits>
+    <aceOutcomes>
+      <slo>2</slo>
+    </aceOutcomes>
+  </course>
+  <course>
+    <title>Honors: Introductory Communication Seminar II</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>JGEN</subject>
+        <courseNumber>188</courseNumber>
+        <courseLetter>H</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>RAIK</subject>
+        <courseNumber>188</courseNumber>
+        <courseLetter>H</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1111</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Good standing in the University Honors Program; admission to the Raikes School of Computer Science and Management; JGEN/RAIK 187H.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Continuation of JGEN/RAIK 187H.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Basics of writing, editing, and presentation.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>1</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">2</credit>
+    </credits>
+    <aceOutcomes>
+      <slo>2</slo>
+    </aceOutcomes>
+  </course>
+  <course>
+    <title>Honors: Business Systems and Operations I</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>BSAD</subject>
+        <courseNumber>281</courseNumber>
+        <courseLetter>H</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>RAIK</subject>
+        <courseNumber>281</courseNumber>
+        <courseLetter>H</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1111</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Good standing in the University Honors Program; admission to the Raikes School of Computer Science and Management and BSAD/RAIK 182H.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Third course in the Raikes School core.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Focus on operations management. Introduction to advanced management principles and accounting system development. Content integration and application, problem-solving and situational analysis.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Honors: Business Systems and Operations II</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>BSAD</subject>
+        <courseNumber>282</courseNumber>
+        <courseLetter>H</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>RAIK</subject>
+        <courseNumber>282</courseNumber>
+        <courseLetter>H</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1111</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Good standing in the University Honors Program; admission to the Raikes School of Computer Science and Management and BSAD/RAIK 281H.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Fourth course in the Raikes School core.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Continuation of operations management topics including advanced management principles and accounting system development. Content integration and application, problem-solving and situational analysis.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+      <activity>
+        <type>rct</type>
+        <hours>2</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+    <aceOutcomes>
+      <slo>8</slo>
+    </aceOutcomes>
+  </course>
+  <course>
+    <title>Honors: Foundations of Computer Science</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CSCE</subject>
+        <courseNumber>283</courseNumber>
+        <courseLetter>H</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>RAIK</subject>
+        <courseNumber>283</courseNumber>
+        <courseLetter>H</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1111</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Good standing in the University Honors Program; admission to the Jeffrey S. Raikes School of<br/>Computer Science and Management; and CSCE/RAIK 184H.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">CSCE/RAIK 283H is the third course in the Jeffrey S. Raikes School of Computer Science and Management core.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Advanced data structures and algorithms that solve common problems and standard approaches to solving new problems. Analysis and comparison of algorithms, asymptotic notation and proofs of correctness. Discrete mathematics. Induction and principles of counting and combinatorics as foundation for analysis.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Honors: Foundations of Computer Systems</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CSCE</subject>
+        <courseNumber>284</courseNumber>
+        <courseLetter>H</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>RAIK</subject>
+        <courseNumber>284</courseNumber>
+        <courseLetter>H</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1111</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Good standing in the University Honors Program; admission to the Jeffrey S. Raikes School of<br/>Computer Science and Management; and CSCE/RAIK 283H.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">CSCE/RAIK 284H is the fourth course in the Jeffrey S. Raikes School of Computer Science and Management core.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to fundamental organization and structure of computer systems. Boolean logic, data representation, processor organization, input/output, memory organization, system support software and communication.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>4</hours>
+      </activity>
+      <activity>
+        <type>rct</type>
+        <hours>1</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">4</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Honors: Applications of Leadership I</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>BSAD</subject>
+        <courseNumber>285</courseNumber>
+        <courseLetter>H</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>RAIK</subject>
+        <courseNumber>285</courseNumber>
+        <courseLetter>H</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1098</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Admission to the Raikes School of Computer Science and Management and BSAD/RAIK 186H.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Third course in the Raikes School leadership core. BSAD/RAIK 285H is 'Letter grade only'.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Making sense of yourself and others. Applications to team communication and shared leadership development.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>1</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">1</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Honors: Applications of Leadership II</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>BSAD</subject>
+        <courseNumber>286</courseNumber>
+        <courseLetter>H</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>RAIK</subject>
+        <courseNumber>286</courseNumber>
+        <courseLetter>H</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1098</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Admission to the Raikes School of Computer Science and Management and BSAD/RAIK 285H.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Final course in the Raikes School leadership core. BSAD/RAIK 286 is 'Letter grade only'.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Continued making sense of yourself and others. Further applications to team and shared leadership communication and development.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>1</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">0</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Honors: Applied Communication Seminar I</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>JGEN</subject>
+        <courseNumber>287</courseNumber>
+        <courseLetter>H</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>RAIK</subject>
+        <courseNumber>287</courseNumber>
+        <courseLetter>H</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1111</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Good standing in the University Honors Program; admission to the Raikes School of Computer Science and Management; JGEN/RAIK 188H.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Application of oral and written communication within the context of the Raikes School of Computer Science and Management. Professional writing and oral presentations.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>1</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">1</credit>
+    </credits>
+    <aceOutcomes>
+      <slo>1</slo>
+    </aceOutcomes>
+  </course>
+  <course>
+    <title>Honors: Applied Communication Seminar II</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>JGEN</subject>
+        <courseNumber>288</courseNumber>
+        <courseLetter>H</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>RAIK</subject>
+        <courseNumber>288</courseNumber>
+        <courseLetter>H</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1111</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Good standing in the University Honors Program; admission to the Raikes School of Computer Science and Management; JGEN/RAIK 287H.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Continuation of JGEN/RAIK 287H.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Professional writing and oral presentations.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">2</credit>
+    </credits>
+    <aceOutcomes>
+      <slo>1</slo>
+    </aceOutcomes>
+  </course>
+  <course>
+    <title>Honors: RAIK Design Studio I</title>
+    <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>CSCE</subject>
+        <courseNumber>301</courseNumber>
+        <courseLetter>H</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>BSAD</subject>
+        <courseNumber>301</courseNumber>
+        <courseLetter>H</courseLetter>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>RAIK</subject>
+        <courseNumber>301</courseNumber>
+        <courseLetter>H</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1111</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Good standing in the University Honors Program or by invitation; admission to the Jeffrey S. Raikes<br/>School of Computer Science and Management; BSAD/RAIK 282H; and CSCE/RAIK 284H.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">First semester of Jeffrey S. Raikes School of Computer Science and Management design studio sequence.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Application of Jeffrey S. Raikes School of Computer Science and Management core content in a team oriented, project management setting. Complete projects in consultation with private and public sector clients.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lab</type>
+      </activity>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Honors: RAIK Design Studio II</title>
+    <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>CSCE</subject>
+        <courseNumber>302</courseNumber>
+        <courseLetter>H</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>BSAD</subject>
+        <courseNumber>302</courseNumber>
+        <courseLetter>H</courseLetter>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>RAIK</subject>
+        <courseNumber>302</courseNumber>
+        <courseLetter>H</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1111</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Good standing in the University Honors Program or by invitation; admission to the Jeffrey S. Raikes<br/>School of Computer Science and Management; and BSAD/CSCE/RAIK 301H.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Second semester in the Jeffrey S. Raikes School of Computer Science and Management design studio sequence.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Application of Raikes School core content in a team oriented, project management setting. Complete projects in consultation with private and public sector clients.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lab</type>
+      </activity>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Honors: Advanced Topics in Business I</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>BSAD</subject>
+        <courseNumber>381</courseNumber>
+        <courseLetter>H</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>RAIK</subject>
+        <courseNumber>381</courseNumber>
+        <courseLetter>H</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1111</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Good standing in the University Honors Program and admission to the Raikes School of Computer Science and Management; BSAD/RAIK 282H.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Fifth course in the Raikes School core.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Macroeconomics and introduction to advanced topics in accounting systems, finance, management and information systems. Content integration and application to problem-solving and situational analysis.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Honors: Advanced Topics in Business II</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>BSAD</subject>
+        <courseNumber>382</courseNumber>
+        <courseLetter>H</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>RAIK</subject>
+        <courseNumber>382</courseNumber>
+        <courseLetter>H</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1111</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Good standing in the University Honors Program; admission to the Raikes School of Computer Science and Management and BSAD/RAIK 381H.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Sixth course in the Raikes School core.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Microeconomics. Continuation of advanced topics in accounting systems, finance, management and information systems. Content integration and application, problem-solving and situational analysis.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Honors: Fundamentals of Software Engineering</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CSCE</subject>
+        <courseNumber>383</courseNumber>
+        <courseLetter>H</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>RAIK</subject>
+        <courseNumber>383</courseNumber>
+        <courseLetter>H</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1111</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Good standing in the University Honors Program; admission to the Jeffrey S. Raikes School of<br/>Computer Science and Management; CSCE/RAIK 284H.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Fifth course in the Jeffrey S. Raikes School of Computer Science and Management core.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Proper principles and methods of engineering software. Requirements, design, implementation, management and software evolution.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Honors: Applied Numerical Analysis</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CSCE</subject>
+        <courseNumber>384</courseNumber>
+        <courseLetter>H</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>RAIK</subject>
+        <courseNumber>384</courseNumber>
+        <courseLetter>H</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1111</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Good standing in the University Honors Program; admission to the Jeffrey S. Raikes School of<br/>Computer Science and Management; and CSCE/RAIK 284H; parallel BSAD/RAIK 382H. <br/></div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Sixth course in the Jeffrey S. Raikes School of Computer Science and Management core.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Application of established numerical analysis techniques to selected business and finance problems, finite difference applied to standard options or stochastic processes in modeling financial markets.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Honors: RAIK Design Studio III</title>
+    <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>CSCE</subject>
+        <courseNumber>401</courseNumber>
+        <courseLetter>H</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>BSAD</subject>
+        <courseNumber>401</courseNumber>
+        <courseLetter>H</courseLetter>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>RAIK</subject>
+        <courseNumber>401</courseNumber>
+        <courseLetter>H</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1111</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Good standing in the University Honors Program or by invitation; admission to the Jeffrey S.<br/>Raikes School of Computer Science and Management; and BSAD/CSCE/RAIK 302H.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Third semester in the Jeffrey S. Raikes School of Computer Science and Management design studio<br/> sequence.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Application of Raikes School core content in a team oriented, project management setting. Complete projects in consultation with private and public sector clients.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lab</type>
+      </activity>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Honors: RAIK Design Studio IV</title>
+    <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>CSCE</subject>
+        <courseNumber>402</courseNumber>
+        <courseLetter>H</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>BSAD</subject>
+        <courseNumber>402</courseNumber>
+        <courseLetter>H</courseLetter>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>RAIK</subject>
+        <courseNumber>402</courseNumber>
+        <courseLetter>H</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1111</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Good standing in the University Honors Program or by invitation; admission to the Jeffrey S.<br/>Raikes School of Computer Science and Management; and BSAD/CSCE/RAIK 401H.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Fourth semester in the Jeffrey S. Raikes School of Computer Science and Management design studio<br/> sequence.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Application of Raikes School core content in a team oriented, project management setting. Complete projects in consultation with private and public sector clients.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lab</type>
+      </activity>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+    <aceOutcomes>
+      <slo>10</slo>
+    </aceOutcomes>
+  </course>
+</courses>

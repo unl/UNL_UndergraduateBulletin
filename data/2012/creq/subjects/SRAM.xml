@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<courses xmlns="http://courseapproval.unl.edu/courses" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://courseapproval.unl.edu/courses /schema/courses.xsd">
+  <course>
+    <title>Quantitative Methods of Social Research I</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>SOCI</subject>
+        <courseNumber>463</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>SOCI</subject>
+        <courseNumber>863</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>SRAM</subject>
+        <courseNumber>863</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1091</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">SOCI 101, 205, and 206; and permission.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">The logic and techniques of sociological analysis: techniques of scaling and index construction; contingency table analysis; measures of association; parametric and nonparametric statistical inference; and generalizations from systematic findings.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+</courses>
