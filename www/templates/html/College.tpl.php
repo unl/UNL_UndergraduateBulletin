@@ -10,7 +10,7 @@ UNL_UndergraduateBulletin_Controller::setReplacementData('breadcrumbs', '
 </ul>
 ');
 ?>
-<div class="three_col left">
+<div class="grid9 first">
     <div id="toc_nav">
         <a href="#toc_nav" id="tocContent">Contents</a>
         <ol id="toc"><li>Intro</li></ol>
@@ -22,7 +22,7 @@ UNL_UndergraduateBulletin_Controller::setReplacementData('breadcrumbs', '
     echo UNL_UndergraduateBulletin_EPUB_Utilities::convertHeadings($context->getRaw('description')); ?>
     </div>
 </div>
-<div class="col right">
+<div class="grid3">
     <?php
     $related_majors = $savvy->render($context->majors, 'MajorList/UnorderedList.tpl.php');
     // Check if there are any actual majors in the list

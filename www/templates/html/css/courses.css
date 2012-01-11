@@ -97,7 +97,7 @@ dt .courseID{
 
 .revealed {background-color:#fffea8;}
 
-#subjectListing li, #majorListing li, #collegeListing li {
+#subjectListing li, #majorListing li, #collegeListing li, .collegeListing li  {
 	list-style-image: url('images/course.png');
 	border-bottom:1px solid #ececec;
 	padding:5px;
@@ -106,7 +106,7 @@ dt .courseID{
     background:url('images/minorIndicator.png') no-repeat right bottom;
     padding-right:77px;
 }
-#collegeListing li {
+#collegeListing li, .collegeListing li {
 	list-style-image: url('images/buildings.png');	
 }
 #subjectListing li:hover, #majorListing li:hover, #collegeListing li:hover {
