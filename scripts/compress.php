@@ -1,3 +1,4 @@
+#!/usr/bin/env php
 <?php
 ob_start();
 header('Content-type: text/css');
