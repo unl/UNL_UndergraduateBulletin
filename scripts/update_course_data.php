@@ -1,7 +1,11 @@
 #!/usr/bin/env php
 <?php
 
-require_once __DIR__ . '/../config.sample.php';
+if (file_exists(dirname(__FILE__).'/../config.inc.php')) {
+    include_once dirname(__FILE__).'/../config.inc.php';
+} else {
+    include_once dirname(__FILE__).'/../config.sample.php';
+}
 
 $latest = UNL_UndergraduateBulletin_Editions::getLatest();
 
