@@ -127,7 +127,7 @@
     </div>
     <h4>Other Academic Units</h4>
     <ul class="collegeListing">
-        <li><a href="college/Undergraduate+Studies">Undergraduate Studies</a></li>
+        <li><a href="college/Undergraduate+Education">Undergraduate Education</a></li>
         <li><a href="college/Division+of+General+Studies">Division of General Studies</a></li>
         <li><a href="college/Libraries">Libraries</a></li>
         <li><a href="college/Public+Affairs+%26+Community+Service">Public Affairs &amp; Community Service</a></li>

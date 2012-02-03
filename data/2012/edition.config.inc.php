@@ -34,7 +34,7 @@ UNL_UndergraduateBulletin_CollegeList::$colleges = array(
         'FPA'   => 'Fine & Performing Arts',
         'JMC'   => 'Journalism & Mass Communications',
         'LIB'   => 'Libraries',
-        'OUS'   => 'Undergraduate Studies',
+        'OUE'   => 'Undergraduate Education',
         'PACS'  => 'Public Affairs & Community Service',
         'ROTC'  => 'Reserve Officers Training Corps (ROTC)',
 );
