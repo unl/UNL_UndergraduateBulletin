@@ -142,7 +142,7 @@
     </ul>
     <h4>Honors Programs</h4>
     <ul class="collegeListing">
-        <li><a href="college/Undergraduate+Studies#university-honors-program-">NU Honors Program</a></li>
+        <li><a href="college/Undergraduate+Education#university-honors-program-">NU Honors Program</a></li>
         <li>Jeffrey S. Raikes School of Computer Science and Management</li>
     </ul>
 </div>

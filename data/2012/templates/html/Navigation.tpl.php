@@ -35,7 +35,7 @@ $url = UNL_UndergraduateBulletin_Controller::getURL();
     </li>
     <li><a href="#">Honors Programs</a>
         <ul>
-            <li><a href="<?php echo $url; ?>college/Undergraduate+Studies#university-honors-program-">NU Honors Program</a></li>
+            <li><a href="<?php echo $url; ?>college/Undergraduate+Education#university-honors-program-">NU Honors Program</a></li>
             <li><a href="#">Jeffrey S. Raikes School of Computer Science and Management</a></li>
         </ul>
     </li>
