@@ -78,25 +78,27 @@
     </credits>
   </course>
   <course>
-    <title>Computational Tools and Modeling for Agricultural and Biological Systems Engineering</title>
+    <title>Computational Tools and Modeling for Agricultural and Biological Systems Engineering:  MATLAB</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>BSEN</subject>
         <courseNumber>212</courseNumber>
+        <courseLetter>A</courseLetter>
       </courseCode>
       <courseCode type="crosslisting">
         <subject>AGEN</subject>
         <courseNumber>212</courseNumber>
+        <courseLetter>A</courseLetter>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1105</effectiveSemester>
+    <effectiveSemester>1121</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">AGEN/BSEN 112/112H.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">AGEN or BSEN 112/112H; or permission.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to tools needed to develop computation-intense solutions for problems relevant to agricultrual and biological systems engineering. Advanced problems solving techniques using examples of scripts, simulation methods, graphical programming, and their combination.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to tools needed to develop computation-intense solutions for a wide variety of problems relevant to agricultural and biological systems engineering. Advanced problem solving techniques are illustrated using examples of scripts.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -107,16 +109,101 @@
     <termsOffered>
       <term>Fall</term>
       <term>Spring</term>
-      <term>Summer</term>
     </termsOffered>
     <activities>
       <activity>
         <type>lec</type>
-        <hours>3</hours>
+        <hours>1</hours>
       </activity>
     </activities>
     <credits>
-      <credit type="Single Value">3</credit>
+      <credit type="Single Value">1</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Computational Tools and Modeling for Agricultural and Biological Systems Engineering:  Simulink</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>BSEN</subject>
+        <courseNumber>212</courseNumber>
+        <courseLetter>B</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>AGEN</subject>
+        <courseNumber>212</courseNumber>
+        <courseLetter>B</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1121</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">AGEN or BSEN 212A; or permission.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to tools needed to develop computation-intense solutions for a wide variety of problems relevant to agricultural and biological systems engineering. Advanced problem solving techniques are illustrated using examples of scripts and simulation methods.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>1</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">1</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Computational Tools and Modeling for Agricultural and Biological Systems Engineering: LabVIEW</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>BSEN</subject>
+        <courseNumber>212</courseNumber>
+        <courseLetter>E</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>AGEN</subject>
+        <courseNumber>212</courseNumber>
+        <courseLetter>E</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1121</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">AGEN or BSEN 112/112H; or permission.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to tools needed to develop computation-intense solutions for a wide variety of problems relevant to agricultural and biological systems engineering. Advanced problem solving techniques are illustrated using examples of scripts, simulation methods, graphical programming, and their combination.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>1</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">1</credit>
     </credits>
   </course>
   <course>
@@ -627,10 +714,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1121</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Senior standing and permission.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">BSEN or MECH 130 and AGEN or BSEN 344; Prereq or Parallel: AGEN or BSEN 460 and at least two courses from primary emphasis area; or permission.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Definition, scope, analysis, and synthesis of a comprehensive design problem within the areas of emphasis in the Department of Biological Systems Engineering. Identification of a client's engineering problem to solve, and development of objectives and anticipated results.</div>
@@ -644,9 +731,13 @@
     <termsOffered>
       <term>Fall</term>
       <term>Spring</term>
-      <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>1</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">1</credit>
     </credits>

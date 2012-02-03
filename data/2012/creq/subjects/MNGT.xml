@@ -435,10 +435,14 @@
         <courseNumber>350</courseNumber>
         <courseLetter>X</courseLetter>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>SCMS</subject>
+        <courseNumber>350</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1108</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1121</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Sophomore standing; BSAD 150; 2.5 GPA.</div>
     </prerequisite>
@@ -460,6 +464,7 @@
     <activities>
       <activity>
         <type>lec</type>
+        <hours>3</hours>
       </activity>
     </activities>
     <credits>

@@ -730,22 +730,22 @@
     </credits>
   </course>
   <course>
-    <title>Intent &amp; Application of the International Building Code</title>
+    <title>Intent and Application of International Building Code</title>
     <courseCodes>
-      <courseCode type="crosslisting">
+      <courseCode type="home listing">
         <subject>CNST</subject>
         <courseNumber>436</courseNumber>
       </courseCode>
-      <courseCode type="home listing">
+      <courseCode type="crosslisting">
         <subject>CNST</subject>
         <courseNumber>836</courseNumber>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
+    <dfRemoval>true</dfRemoval>
     <effectiveSemester>1128</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CNST 112, CNST 131 and CNST 251; or with permission.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">CNST 112, 131, and 251.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">This course is designed to provide a fundamental understanding of how to research, interpret and apply building code requirements to the design and construction of both new and renovated structures.</div>
@@ -1058,43 +1058,6 @@
     <gradPrerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Grade of 'C' or better in STAT 218 or (UNO) MATH 1530, or equivalent.</div>
     </gradPrerequisite>
-  </course>
-  <course>
-    <title>Intent and Application of International Building Code</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>CNST</subject>
-        <courseNumber>487</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CNST 112, 131, and 251.</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Research, interpret and apply building code requirements to the design and construction of new and renovated structures.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>lec</type>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
   </course>
   <course>
     <title>Advanced Construction Management Techniques</title>
@@ -1667,6 +1630,43 @@
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">In-depth analysis of research methodology, interpretation and application of building code requirements associated with design and construction of both new and renovated structures.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Thesis and Dissertation Methods for Construction Research</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CNST</subject>
+        <courseNumber>991</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1128</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Graduate standing in AREN, CET, CIVE, CNST, or CONE.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">A structured approach to thesis and dissertation methods, conducting a literature review, choosing appropriate analytical methods, and writing and presenting a construction research project.  Seminar course.</div>
     </description>
     <campuses>
       <campus>UNL</campus>

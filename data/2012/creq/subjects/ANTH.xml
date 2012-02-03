@@ -2844,27 +2844,23 @@
     </credits>
   </course>
   <course>
-    <title>Advanced Laboratory Work</title>
+    <title>Landscape Archaeology</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>ANTH</subject>
         <courseNumber>481</courseNumber>
-        <courseGroup>Laboratory and Field Training</courseGroup>
       </courseCode>
-      <courseCode type="grad tie-in">
+      <courseCode type="crosslisting">
         <subject>ANTH</subject>
         <courseNumber>881</courseNumber>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1121</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Permission.</div>
-    </prerequisite>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Only 3 credit hours of ANTH 491 will count toward the major in ANTH. Open only to advanced students wishing to complete a research project they have developed with ANTH faculty guidance.</div>
-    </notes>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1125</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Survey of theory, method, and practice in describing and interpreting archaeological landscapes.</div>
+    </description>
     <campuses>
       <campus>UNL</campus>
     </campuses>
@@ -2878,16 +2874,14 @@
     </termsOffered>
     <activities>
       <activity>
-        <type>fld</type>
+        <type>lab</type>
       </activity>
       <activity>
-        <type>lab</type>
+        <type>lec</type>
       </activity>
     </activities>
     <credits>
-      <credit type="Lower Range Limit">1</credit>
-      <credit type="Upper Range Limit">6</credit>
-      <credit type="Per Career Limit">24</credit>
+      <credit type="Single Value">4</credit>
     </credits>
   </course>
   <course>
@@ -3233,23 +3227,27 @@
     </credits>
   </course>
   <course>
-    <title>Landscape Archaeology</title>
+    <title>Advanced Laboratory Work</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>ANTH</subject>
         <courseNumber>491</courseNumber>
+        <courseGroup>Laboratory and Field Training</courseGroup>
       </courseCode>
-      <courseCode type="crosslisting">
+      <courseCode type="grad tie-in">
         <subject>ANTH</subject>
         <courseNumber>891</courseNumber>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1115</effectiveSemester>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Survey of theory, method, and practice in describing and interpreting archaeological landscapes.</div>
-    </description>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1125</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Permission.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Only 3 credit hours of ANTH 491 will count toward the major in ANTH. Open only to advanced students wishing to complete a research project they have developed with ANTH faculty guidance.</div>
+    </notes>
     <campuses>
       <campus>UNL</campus>
     </campuses>
@@ -3263,14 +3261,16 @@
     </termsOffered>
     <activities>
       <activity>
-        <type>lab</type>
+        <type>fld</type>
       </activity>
       <activity>
-        <type>lec</type>
+        <type>lab</type>
       </activity>
     </activities>
     <credits>
-      <credit type="Single Value">4</credit>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">6</credit>
+      <credit type="Per Career Limit">24</credit>
     </credits>
   </course>
   <course>

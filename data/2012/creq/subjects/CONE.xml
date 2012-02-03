@@ -129,20 +129,21 @@
     <courseCodes>
       <courseCode type="home listing">
         <subject>CONE</subject>
-        <courseNumber>241</courseNumber>
+        <courseNumber>319</courseNumber>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1101</effectiveSemester>
+    <effectiveSemester>1121</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CIVE 334; (UNO) ISMG 2060.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">(UNO) ISMG 2060.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Characteristics, capabilities, and selection of equipment and methods used in the building construction industry. Estimating job production, equipment production rates, machine operating costs, earth-moving equipment, hoisting equipment, operations analysis, and use of various other construction and methods and equipment.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
+      <campus>UNO</campus>
     </campuses>
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
@@ -150,7 +151,6 @@
     <termsOffered>
       <term>Fall</term>
       <term>Spring</term>
-      <term>Summer</term>
     </termsOffered>
     <activities>
       <activity>
@@ -254,18 +254,23 @@
         <subject>CONE</subject>
         <courseNumber>416</courseNumber>
       </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>CONE</subject>
+        <courseNumber>816</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1128</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CIVE 341; parallel CIVE 440 and 441.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">CIVE 341</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Design of structural timber, beams, columns, and connections. Introduction to applicable design philosophies and codes. Overview of materials design. Masonry, aluminum, and contemporary materials such as plastics and fiber reinforced systems and composite material groups. Design considerations, cost and constructability analysis.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Design of structural timber, beams, columns, and connections. Introduction to applicable design philosophies and codes. Overview of materials design. Masonry, aluminum, and contemporary materials such as plastics and fiber reinforced systems and composite material groups. Design considerations, cost and contractibility analysis.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
+      <campus>UNO</campus>
     </campuses>
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
@@ -273,7 +278,6 @@
     <termsOffered>
       <term>Fall</term>
       <term>Spring</term>
-      <term>Summer</term>
     </termsOffered>
     <activities>
       <activity>
@@ -354,6 +358,48 @@
       <term>Fall</term>
       <term>Spring</term>
       <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>BIM I:  Introduction to Building Information Modeling (BIM)</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CONE</subject>
+        <courseNumber>459</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>CONE</subject>
+        <courseNumber>859</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1128</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">CNST 112 Construction, or Graduate standing in AREN, CIVE, CNST, or CONE.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">This course instructs CAD users on the effective use of Building Information Model (BIM) for Integration of design, document and Construction Estimate. Topics include: model-based 3D design, file formats, interoperability, and MEP modeling.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+      <campus>UNO</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
     </termsOffered>
     <activities>
       <activity>

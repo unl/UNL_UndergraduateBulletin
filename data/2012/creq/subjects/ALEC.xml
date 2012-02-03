@@ -1848,14 +1848,14 @@
         <courseNumber>431</courseNumber>
       </courseCode>
     </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1108</effectiveSemester>
+    <gradingType>pass/no pass only</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1121</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">3 hrs EDPS; passing score on the Preprofessional Skills Tests (PPST); and permission.</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Capstone course. Placement arranged by the department. Student teaching placement arranged by the department. Seven to sixteen weeks of off-campus student teaching.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Capstone course. Placement arranged by the department. Student teaching placement arranged by the department. Seven to sixteen weeks of off-campus student teaching.  Pass/no pass only.</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Guided participation in various phases of a public school agricultural education program.</div>
@@ -1874,6 +1874,7 @@
     <activities>
       <activity>
         <type>fld</type>
+        <hours>3</hours>
       </activity>
     </activities>
     <credits>

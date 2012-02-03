@@ -54,10 +54,14 @@
         <subject>AGRI</subject>
         <courseNumber>115</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>LIFE</subject>
+        <courseNumber>115</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1088</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1121</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Application of biotechnology to genetically engineer, identify, select or propagate microbes, plants or animals. Scientists who use biotechnology to solve problems with the environment, with our food system, or with human health.</div>
     </description>
@@ -213,10 +217,15 @@
         <courseNumber>299</courseNumber>
         <courseLetter>H</courseLetter>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>LIFE</subject>
+        <courseNumber>299</courseNumber>
+        <courseLetter>H</courseLetter>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1121</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Admission to the University Honors Program or permission.</div>
     </prerequisite>

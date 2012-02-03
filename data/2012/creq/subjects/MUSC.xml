@@ -890,6 +890,78 @@
     </aceOutcomes>
   </course>
   <course>
+    <title>Music Technology: Foundations of Audio Recording and Production</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MUSC</subject>
+        <courseNumber>283</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1121</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to the basic theory, practice, and procedures involved in recording and producing music in the modern digital audio production suite. Principles of sound, acoustics, and the fundamentals of DAW (Digital Audio Workstation) software and hardware (microphones and mixing consoles).</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lab</type>
+        <hours>2</hours>
+      </activity>
+      <activity>
+        <type>lec</type>
+        <hours>1</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Music Technology: Foundations of MIDI Sequencing and Notation</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MUSC</subject>
+        <courseNumber>284</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1121</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Fundamental skills in personal and professional use of technology for music production with a focus on MIDI sequencing and music notation software. Foundation of MIDI technology including keyboard and instrument programming, internet applications with sound and MIDI in multimedia.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>The History of Rock Music</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -1120,7 +1192,7 @@
     </credits>
   </course>
   <course>
-    <title>Music Technology: Foundations and Principles</title>
+    <title>Music Technology: Advanced Audio Recording and Production</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>MUSC</subject>
@@ -1129,12 +1201,12 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1101</effectiveSemester>
+    <effectiveSemester>1121</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">MUNM 282.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">MUSC 283 or permission</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Fundamental skills in personal use of technology for information processing (integrative software), music production (MIDI/audio sequencing and music notation software), and Internet applications. Personal skills then applied to the effective integration of technology for professional settings.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Advanced work in audio recording and production with an emphasis on creating dynamic audio mixes for different musical contexts. Extensive work with DAW (Digital Audio Workstation) software and audio hardware such as microphones and mixing consoles, as well as foundational experience in using editing/mastering software.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -1145,7 +1217,6 @@
     <termsOffered>
       <term>Fall</term>
       <term>Spring</term>
-      <term>Summer</term>
     </termsOffered>
     <activities>
       <activity>
@@ -2869,11 +2940,8 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1101</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">MUSC 483/883.</div>
-    </prerequisite>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1121</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Culminating experience in music technology. Proposal and production of project blending music and technology.</div>
     </description>
@@ -2886,7 +2954,6 @@
     <termsOffered>
       <term>Fall</term>
       <term>Spring</term>
-      <term>Summer</term>
     </termsOffered>
     <activities>
       <activity>

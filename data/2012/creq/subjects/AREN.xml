@@ -36,6 +36,84 @@
     </credits>
   </course>
   <course>
+    <title>Thermodynamics for Architectural Engineering</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>AREN</subject>
+        <courseNumber>211</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1121</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Prereq: MATH 1960 (Calculus II) or equivalent; PHYS 2110 (General Physics) or equivalent.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">First and Second Laws of Thermodynamics, properties of gases and vapors. Sources of energy and its conversion to work. Applications on Architectural Engineering and Construction.</div>
+    </description>
+    <campuses>
+      <campus>UNO</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>HVAC Fundamentals</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>AREN</subject>
+        <courseNumber>310</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>AE</subject>
+        <courseNumber>3100</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1121</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">MENG 2000 (Thermodynamics) or equivalent; this course is co-requisite with MENG 420 (Heat Transfer).</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Topics will include an introduction to the types of air conditioning systems; the properties of moist air, psychometric processes in HVAC equipment; indoor air quality; thermal comfort; heat transmission in buildings; solar radiation; and the calculation of building infiltration rates, space heating loads and space cooling loads.</div>
+    </description>
+    <campuses>
+      <campus>UNO</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Indoor Air Quality Engineering</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -932,6 +1010,43 @@
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
     <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Masonry and Timber Design</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>AREN</subject>
+        <courseNumber>851</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1125</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">CIVE 440 (Reinforced Concrete Design) or equivalent; CIVE 441 (Steel Design) or equivalent.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Masonry as a structural material, Unreinforced Masonry Design, Reinforced Masonry Design, State-of-the-art Assessment methods for Existing Masonry Structures, Timber as a structural material, Timber Design.</div>
+    </description>
+    <campuses>
+      <campus>UNO</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>

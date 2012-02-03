@@ -96,10 +96,12 @@
       <div xmlns="http://www.w3.org/1999/xhtml">College of Journalism and Mass Communications major.</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">JOUR 162 is taught in one eight-week module. This is a letter grade only course.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">JOUR 162 is taught in one eight-week module.  This is a letter grade only course.</div>
     </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Discussion of the formal elements of photography and a variety of assignments leading to the production of journalism and commercial photographs, using industry standard software to edit and publish their photographs.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <span>Discussion of the formal elements of photography and a variety of assignments leading to the production of journalism and commercial photographs, using industry standard software to edit and publish their photographs.</span>
+      </div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -178,7 +180,7 @@
     <dfRemoval>false</dfRemoval>
     <effectiveSemester>1118</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">College of Journalism and Mass Communications major.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">College of Journalism and Mass Communications major. <br/></div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">This a letter grade only course.</div>
@@ -994,51 +996,6 @@
     <aceOutcomes>
       <slo>6</slo>
     </aceOutcomes>
-  </course>
-  <course>
-    <title>Page Design</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>JOUR</subject>
-        <courseNumber>410</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>JOUR</subject>
-        <courseNumber>810</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>letter grade only</gradingType>
-    <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1101</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">JOUR 162; NEWS 201.</div>
-    </prerequisite>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">JOUR 410/810 is 'Letter grade only'.</div>
-    </notes>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Designing elements of news presentation, including newspapers, magazines, and web sites.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>lec</type>
-        <hours>3</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
   </course>
   <course>
     <title>Literature of Journalism</title>
