@@ -2,4 +2,5 @@ language: php
 php:
   - 5.3
   - 5.4
+before_script: pyrus install -p pear2.php.net/PEAR2_Pyrus_Developer-alpha
 script: pyrus run-phpt -r tests
