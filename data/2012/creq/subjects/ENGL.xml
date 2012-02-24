@@ -1124,18 +1124,14 @@
       <courseCode type="home listing">
         <subject>ENGL</subject>
         <courseNumber>216</courseNumber>
-        <courseLetter>A</courseLetter>
         <courseGroup>Literary and Cultural Studies</courseGroup>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">May not be offered every year.</div>
-    </notes>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1125</effectiveSemester>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Selected works of literature originally addressed primarily to children which have attracted adult attention to their artistry and themes.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">A study of the historical and cultural development of the genre of children's literature,</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -1151,11 +1147,15 @@
     <activities>
       <activity>
         <type>lec</type>
+        <hours>3</hours>
       </activity>
     </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
+    <aceOutcomes>
+      <slo>5</slo>
+    </aceOutcomes>
   </course>
   <course>
     <title>Film Genre</title>
@@ -1604,7 +1604,7 @@
     </aceOutcomes>
   </course>
   <course>
-    <title>African American Literature</title>
+    <title>African American Literature since 1865</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>ENGL</subject>
@@ -1617,10 +1617,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1091</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1125</effectiveSemester>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Representative African American works, primarily twentieth century, of various genres, studied in their social and historical contexts.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Representative African American works written since 1865, of various genres, studied in their social and historical contexts.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -1633,7 +1633,12 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
@@ -1684,33 +1689,25 @@
     </aceOutcomes>
   </course>
   <course>
-    <title>Black Women Authors</title>
+    <title>African American Literature before 1865</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>ENGL</subject>
         <courseNumber>244</courseNumber>
-        <courseLetter>B</courseLetter>
+        <courseLetter>E</courseLetter>
         <courseGroup>Literary and Cultural Studies</courseGroup>
       </courseCode>
       <courseCode type="crosslisting">
         <subject>ETHN</subject>
         <courseNumber>244</courseNumber>
-        <courseLetter>B</courseLetter>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>WMNS</subject>
-        <courseNumber>244</courseNumber>
-        <courseLetter>B</courseLetter>
+        <courseLetter>E</courseLetter>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1091</effectiveSemester>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">May not be offered every year.</div>
-    </notes>
+    <effectiveSemester>1125</effectiveSemester>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Representative works of various types, primarily twentieth century, studied in their social and historical contexts.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Representative early African American works of various genres, studied in their social and historical contexts, from the oral tradition to the Civil War.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -1738,95 +1735,7 @@
     </aceOutcomes>
   </course>
   <course>
-    <title>African-Caribbean Literature*</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ENGL</subject>
-        <courseNumber>244</courseNumber>
-        <courseLetter>D</courseLetter>
-        <courseGroup>Literary and Cultural Studies</courseGroup>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>ETHN</subject>
-        <courseNumber>244</courseNumber>
-        <courseLetter>D</courseLetter>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1091</effectiveSemester>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Course not taught every year.</div>
-    </notes>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">History and multi-generic variety of African-Caribbean literature written in English.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities/>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-    <aceOutcomes>
-      <slo>5</slo>
-      <slo>9</slo>
-    </aceOutcomes>
-  </course>
-  <course>
-    <title>Early African American Literature*</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ENGL</subject>
-        <courseNumber>244</courseNumber>
-        <courseLetter>E</courseLetter>
-        <courseGroup>Literary and Cultural Studies</courseGroup>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>ETHN</subject>
-        <courseNumber>244</courseNumber>
-        <courseLetter>E</courseLetter>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1091</effectiveSemester>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Course not taught every year.</div>
-    </notes>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Representative early African American works of various genres, studied in their social and historical contexts, from the oral tradition to the Harlem Renaissance.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities/>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-    <aceOutcomes>
-      <slo>5</slo>
-      <slo>9</slo>
-    </aceOutcomes>
-  </course>
-  <course>
-    <title>Introduction to Asian American Literature and Culture</title>
+    <title>Introduction to Asian American Literature</title>
     <courseCodes>
       <courseCode type="crosslisting">
         <subject>ETHN</subject>
@@ -1841,10 +1750,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1091</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1125</effectiveSemester>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to twentieth-century Asian American literature and relevant historical and cultural background.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to Asian American literature and relevant historical and cultural background.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -1872,94 +1781,7 @@
     </aceOutcomes>
   </course>
   <course>
-    <title>Native American Literature</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ENGL</subject>
-        <courseNumber>245</courseNumber>
-        <courseLetter>B</courseLetter>
-        <courseGroup>Literary and Cultural Studies</courseGroup>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>ETHN</subject>
-        <courseNumber>245</courseNumber>
-        <courseLetter>B</courseLetter>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1091</effectiveSemester>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to literature by and about the American Indian covering early and recent periods.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities/>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-    <aceOutcomes>
-      <slo>5</slo>
-      <slo>9</slo>
-    </aceOutcomes>
-  </course>
-  <course>
-    <title>Chicana and/or Chicano Literature</title>
-    <courseCodes>
-      <courseCode type="crosslisting">
-        <subject>ETHN</subject>
-        <courseNumber>245</courseNumber>
-        <courseLetter>D</courseLetter>
-      </courseCode>
-      <courseCode type="home listing">
-        <subject>ENGL</subject>
-        <courseNumber>245</courseNumber>
-        <courseLetter>D</courseLetter>
-        <courseGroup>Literary and Cultural Studies</courseGroup>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1091</effectiveSemester>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to literature by and about Mexican-Americans in its cultural and historical context.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>lec</type>
-        <hours>3</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-    <aceOutcomes>
-      <slo>5</slo>
-      <slo>9</slo>
-    </aceOutcomes>
-  </course>
-  <course>
-    <title>Jewish-American Fiction</title>
+    <title>Jewish-American Literature</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>ENGL</subject>
@@ -1974,10 +1796,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1101</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1125</effectiveSemester>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Twentieth century novels and short stories by major Jewish-American authors.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Twentieth and twenty-first century literature by major Jewish-American authors.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -1990,7 +1812,12 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
@@ -2000,18 +1827,13 @@
     </aceOutcomes>
   </course>
   <course>
-    <title>Native American Women Writers</title>
+    <title>Introduction to Native American Literature</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>ENGL</subject>
         <courseNumber>245</courseNumber>
         <courseLetter>N</courseLetter>
         <courseGroup>Literary and Cultural Studies</courseGroup>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>WMNS</subject>
-        <courseNumber>245</courseNumber>
-        <courseLetter>N</courseLetter>
       </courseCode>
       <courseCode type="crosslisting">
         <subject>ETHN</subject>
@@ -2021,9 +1843,9 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1101</effectiveSemester>
+    <effectiveSemester>1125</effectiveSemester>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Representative writings by American Indian women in their social and historical contexts.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to literature by Native Americans covering early and recent periods.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -2539,6 +2361,45 @@
       <slo>5</slo>
       <slo>8</slo>
     </aceOutcomes>
+  </course>
+  <course>
+    <title>Being Human in a Digital Age</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ENGL</subject>
+        <courseNumber>277</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>HIST</subject>
+        <courseNumber>277</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1131</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to some of the major implications of computer technologies to the humanities; examination of the historical influence of new technologies on how we think of ourselves, both individually and collectively; how we interact socially and politically; how we determine public and private spaces in an increasingly connected world; and how we can use computer technologies to produce, preserve, and study cultural materials.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
   </course>
   <course>
     <title>Introduction to Humanities Computing</title>
@@ -3597,6 +3458,206 @@
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
+  </course>
+  <course>
+    <title>Black Women Authors</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ENGL</subject>
+        <courseNumber>344</courseNumber>
+        <courseLetter>B</courseLetter>
+        <courseGroup>Literary and Cultural Studies</courseGroup>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>ETHN</subject>
+        <courseNumber>344</courseNumber>
+        <courseLetter>B</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>WMNS</subject>
+        <courseNumber>344</courseNumber>
+        <courseLetter>B</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1125</effectiveSemester>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">May not be offered every year.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Representative works by Black women, composed in various genres, studied in their social and historical contexts.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+    <aceOutcomes>
+      <slo>5</slo>
+      <slo>9</slo>
+    </aceOutcomes>
+  </course>
+  <course>
+    <title>African-Caribbean Literature</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ENGL</subject>
+        <courseNumber>344</courseNumber>
+        <courseLetter>D</courseLetter>
+        <courseGroup>Literary and Cultural Studies</courseGroup>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>ETHN</subject>
+        <courseNumber>344</courseNumber>
+        <courseLetter>D</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1125</effectiveSemester>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Course not taught every year.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">History and multi-generic variety of African-Caribbean literature written in English.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+    <aceOutcomes>
+      <slo>5</slo>
+      <slo>9</slo>
+    </aceOutcomes>
+  </course>
+  <course>
+    <title>Chicana and/or Chicano Literature</title>
+    <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>ETHN</subject>
+        <courseNumber>345</courseNumber>
+        <courseLetter>D</courseLetter>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>ENGL</subject>
+        <courseNumber>345</courseNumber>
+        <courseLetter>D</courseLetter>
+        <courseGroup>Literary and Cultural Studies</courseGroup>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1125</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to literature by and about Mexican-Americans in its cultural and historical context.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+    <aceOutcomes>
+      <slo>5</slo>
+      <slo>9</slo>
+    </aceOutcomes>
+  </course>
+  <course>
+    <title>Native American Women Writers</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ENGL</subject>
+        <courseNumber>345</courseNumber>
+        <courseLetter>N</courseLetter>
+        <courseGroup>Literary and Cultural Studies</courseGroup>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>WMNS</subject>
+        <courseNumber>345</courseNumber>
+        <courseLetter>N</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>ETHN</subject>
+        <courseNumber>345</courseNumber>
+        <courseLetter>N</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1125</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Representative writings by Native American women in their social and historical contexts.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+    <aceOutcomes>
+      <slo>5</slo>
+      <slo>9</slo>
+    </aceOutcomes>
   </course>
   <course>
     <title>Humanities on the Plains*</title>
@@ -5549,7 +5610,7 @@
     </credits>
   </course>
   <course>
-    <title>African-American Literature</title>
+    <title>Topics in African American Literature</title>
     <courseCodes>
       <courseCode type="crosslisting">
         <subject>ETHN</subject>
@@ -5571,12 +5632,12 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1108</effectiveSemester>
+    <effectiveSemester>1125</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Junior standing.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">African American poetry, fiction, and/or non-fiction prose.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">The study of a particular topic in African American poetry, fiction, and/or non-fiction prose.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -5600,34 +5661,34 @@
     </credits>
   </course>
   <course>
-    <title>Native American Literature</title>
+    <title>Topics in African Literature</title>
     <courseCodes>
       <courseCode type="crosslisting">
         <subject>ETHN</subject>
         <courseNumber>445</courseNumber>
-        <courseLetter>E</courseLetter>
+        <courseLetter>K</courseLetter>
       </courseCode>
       <courseCode type="home listing">
         <subject>ENGL</subject>
         <courseNumber>445</courseNumber>
-        <courseLetter>E</courseLetter>
+        <courseLetter>K</courseLetter>
         <courseGroup>Literary and Cultural Studies</courseGroup>
       </courseCode>
       <courseCode type="crosslisting">
         <subject>ENGL</subject>
         <courseNumber>845</courseNumber>
-        <courseLetter>E</courseLetter>
+        <courseLetter>K</courseLetter>
         <courseGroup>Literary and Cultural Studies</courseGroup>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1108</effectiveSemester>
+    <effectiveSemester>1125</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Junior standing.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Native American poetry, fiction, and/or non-fiction prose. Critical theory and cultural criticism.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Topics in African poetry, fiction, and/or non-fiction prose.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -5651,34 +5712,34 @@
     </credits>
   </course>
   <course>
-    <title>African and/or African-American Literature</title>
+    <title>Topics in Native American Literature</title>
     <courseCodes>
       <courseCode type="crosslisting">
         <subject>ETHN</subject>
         <courseNumber>445</courseNumber>
-        <courseLetter>K</courseLetter>
+        <courseLetter>N</courseLetter>
       </courseCode>
       <courseCode type="home listing">
         <subject>ENGL</subject>
         <courseNumber>445</courseNumber>
-        <courseLetter>K</courseLetter>
+        <courseLetter>N</courseLetter>
         <courseGroup>Literary and Cultural Studies</courseGroup>
       </courseCode>
       <courseCode type="crosslisting">
         <subject>ENGL</subject>
         <courseNumber>845</courseNumber>
-        <courseLetter>K</courseLetter>
+        <courseLetter>N</courseLetter>
         <courseGroup>Literary and Cultural Studies</courseGroup>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1108</effectiveSemester>
+    <effectiveSemester>1125</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Junior standing.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">African and African-American poetry, fiction, and/or non-fiction prose.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Topics in Native American poetry, fiction, and/or non-fiction prose. Critical theory and cultural criticism.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -5997,7 +6058,7 @@
     </credits>
   </course>
   <course>
-    <title>Ideas of Ethnicity in Medieval Literature</title>
+    <title>Ideas of Ethnicity in Medieval and Renaissance Literature</title>
     <courseCodes>
       <courseCode type="grad tie-in">
         <subject>ENGL</subject>
@@ -6011,17 +6072,12 @@
         <courseLetter>A</courseLetter>
         <courseGroup>Literary and Cultural Studies</courseGroup>
       </courseCode>
-      <courseCode type="crosslisting">
-        <subject>JUDS</subject>
-        <courseNumber>462</courseNumber>
-        <courseLetter>A</courseLetter>
-      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1125</effectiveSemester>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Medieval literary texts that involve encounters between different religions and cultures. Readings from chronicles, romances, debates and epics.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Medieval and Renaissance literary texts that involve encounters between different religions and cultures. Readings from chronicles, romances, travel writings, debates, and epics.</div>
     </description>
     <campuses>
       <campus>UNL</campus>

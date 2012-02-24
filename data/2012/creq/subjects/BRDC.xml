@@ -45,12 +45,15 @@
         <courseNumber>227</courseNumber>
       </courseCode>
     </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1091</effectiveSemester>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1128</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Sophomore standing; completion of all 100-level College of Journalism and Mass Communications core courses.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">JOMC 101.</div>
     </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">BRDC 227 is a production track course, and it is a prereq for BRDC 228 and BRDC 359.</div>
+    </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Theory and use of sound, audio production and vocal performance for electronic media applications. Write correctly and clearly for electronic media. Tools and technologies appropriate for electronic media applications using the college’s FM radio station and audio production studios. Basic numerical and statistical concepts to understand audience measurement.</div>
     </description>
@@ -85,11 +88,11 @@
         <courseNumber>228</courseNumber>
       </courseCode>
     </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1091</effectiveSemester>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1128</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">BRDC 227.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">JOMC 163; BRDC 227.</div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">BRDC 228 is a production track course.</div>
@@ -236,14 +239,14 @@
         <courseNumber>359</courseNumber>
       </courseCode>
     </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1091</effectiveSemester>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1125</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Junior standing; BRDC 227; JOUR 203.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Junior standing; JOMC 163; BRDC 227.</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">BRDC 359 is a production track course.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">BRDC 359 is a production track course, and is a prereq for BRDC 362.</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Concepts, theories, technologies and techniques needed for planning, scripting, shooting, and editing different genres and styles of professional, single?camera video productions, features, music videos, instructional videos, commercials, and drama. Composition, continuity, sequencing, aesthetics, and audiences. Operation of professional video cameras and non?linear editing and graphics software.</div>
@@ -277,14 +280,14 @@
         <courseNumber>360</courseNumber>
       </courseCode>
     </courseCodes>
-    <gradingType>unrestricted</gradingType>
+    <gradingType>letter grade only</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1091</effectiveSemester>
+    <effectiveSemester>1128</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Junior standing; BRDC 228.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Junior standing; JOMC 163; BRDC 228.</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">BRDC 360 is a production track course.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">BRDC 360 is a production track course, and it is a prereq for BRDC 362.</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Writing scripts and preparing materials for broadcast, cable, and video streaming production processes. Audience composition thorough research of topics, and adaptation to concurrent delivery through multiple mass media technologies. Awareness of diverse audiences and use of statistics.</div>
@@ -309,9 +312,6 @@
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
-    <gradPrerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">BRDC 228.</div>
-    </gradPrerequisite>
   </course>
   <course>
     <title>Advanced Production</title>
@@ -321,9 +321,9 @@
         <courseNumber>362</courseNumber>
       </courseCode>
     </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1091</effectiveSemester>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1128</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">BRDC 359 and 360.</div>
     </prerequisite>
@@ -331,7 +331,7 @@
       <div xmlns="http://www.w3.org/1999/xhtml">BRDC 362 is the capstone course in the production track.</div>
     </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Produce a weekly, long?form, edited television program to be distributed to a mass audience. Directing a weekly, live, thirty?minute television studio newscast. Advanced operation of studio equipment, graphics software and non?linear editing equipment. Prepare demo materials for a professional portfolio.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Produce a weekly, long-form, edited television program to be distributed to a mass audience. Directing a weekly, live, thirty-minute television studio newscast. Advanced operation of studio equipment, graphics software and non-linear editing equipment. Prepare demo materials for a professional portfolio.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -361,14 +361,14 @@
         <courseNumber>369</courseNumber>
       </courseCode>
     </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1091</effectiveSemester>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1128</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Junior standing; NEWS 202; JOUR 203.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Junior standing; JOMC 162, 163, 164, 165; JOUR 202;</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">BRDC 369 is a news track course.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">BRDC 369 is a news track course, and it is a prereq for both JOUR 302 and BRDC 372.</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Produce a news story worthy of airing live during Star City News. Produced live newscast aired in Lincoln. What is news. How to make contact with news makers. How to perform interviews. How to write a news story with a beginning, a middle, and an end. How to shoot and edit the video that supports the story.</div>
@@ -402,14 +402,14 @@
         <courseNumber>370</courseNumber>
       </courseCode>
     </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1091</effectiveSemester>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1128</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Junior standing; NEWS 202; JOUR 203.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Junior standing; JOMC 162, 163, 164, 165; JOUR 202.</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">BRDC 370 is a news track course.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">BRDC 370 is a news track course, and it is a prereq for BRDC 372.</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Clear and correct writing principles. Journalistic research techniques. Use of new tools and technologies to create broadcast news content for KRNU radio and other broadcast outlets.</div>
@@ -446,9 +446,9 @@
         <courseNumber>372</courseNumber>
       </courseCode>
     </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1108</effectiveSemester>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1128</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">BRDC 369 and 370.</div>
     </prerequisite>
@@ -912,11 +912,11 @@
         <courseNumber>874</courseNumber>
       </courseCode>
     </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1108</effectiveSemester>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1128</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Senior standing in College of Journalism and Mass Communications.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Senior standing.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Techniques of planning, preparing and writing radio, television and motion picture scripts including announcements, interviews, talk programs, features, editorials, investigative reports and dramatic adaptations.</div>

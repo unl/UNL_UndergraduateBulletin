@@ -2326,74 +2326,6 @@
     </credits>
   </course>
   <course>
-    <title>Externship in School Psychology</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>EDPS</subject>
-        <courseNumber>956</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Doctoral standing in professional psychology program and permission</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Supervised clinical experience working with children, adolescents and families in a variety of school and community settings.</div>
-    </description>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <activities/>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Clinical Practice in School Psychology: Consultation, Assessment, and Intervention</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>EDPS</subject>
-        <courseNumber>957</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">EDPS 952, 954 and permission</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Supervised clinical practice related to academic, social, behavioral and emotional disorders of children and adolescents. Parent and family treatment and behavior interventions emphasized.<br/>A.	Clinic-based Practicum (2-8 cr, max 12) Practicum experience provided in the Department of Educational Psychology Clinic.<br/>B.	School-based Practicum (2-8 cr, max 12) Practicum experience provided in local school districts.</div>
-    </description>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <activities>
-      <activity>
-        <type>fld</type>
-      </activity>
-      <activity>
-        <type>lab</type>
-      </activity>
-      <activity>
-        <type>lec</type>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Lower Range Limit">2</credit>
-      <credit type="Upper Range Limit">8</credit>
-      <credit type="Per Career Limit">24</credit>
-    </credits>
-  </course>
-  <course>
     <title>Practicum in School Psychology Consultation Techniques</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -3036,6 +2968,142 @@
     </credits>
   </course>
   <course>
+    <title>School Practice in School Psychology</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>EDPS</subject>
+        <courseNumber>981</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1121</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">by permission of course instructor</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Supervised practice in local school districts related to academic, social, behavioral and emotional disorders of children and adolescents.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>fld</type>
+      </activity>
+      <activity>
+        <type>lab</type>
+      </activity>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Lower Range Limit">2</credit>
+      <credit type="Upper Range Limit">4</credit>
+      <credit type="Per Semester Limit">4</credit>
+      <credit type="Per Career Limit">8</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Clinical Practice in School Psychology</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>EDPS</subject>
+        <courseNumber>982</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1121</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">by permission of course instructor</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Supervised clinical practice related to academic, social, behavioral and emotional disorders of children and adolescents. Parent and family treatment and behavior interventions emphasized.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>fld</type>
+      </activity>
+      <activity>
+        <type>lab</type>
+      </activity>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Lower Range Limit">2</credit>
+      <credit type="Upper Range Limit">4</credit>
+      <credit type="Per Semester Limit">4</credit>
+      <credit type="Per Career Limit">16</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Community and Consultative Practice in School Psychology</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>EDPS</subject>
+        <courseNumber>983</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1121</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Doctoral standing in professional psychology program and permission</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Supervised clinical experience working with children, adolescents and families in a variety of school and community settings.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>fld</type>
+      </activity>
+      <activity>
+        <type>lab</type>
+      </activity>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Lower Range Limit">2</credit>
+      <credit type="Upper Range Limit">4</credit>
+      <credit type="Per Semester Limit">4</credit>
+      <credit type="Per Career Limit">16</credit>
+    </credits>
+  </course>
+  <course>
     <title>Ethics and Ethical Decision Making in Counseling and Education</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -3506,7 +3574,7 @@
     </credits>
   </course>
   <course>
-    <title>Advanced Practicum in School Psychology</title>
+    <title>Supervision in School Psychology</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>EDPS</subject>
@@ -3515,24 +3583,40 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1121</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Admission to the doctoral program in School of Psychology and permission</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Doctoral standing in professional psychology program and permission.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Supervised experience in supervising graduate students in practicum settings. Refinement of consultation, assessment, diagnosis, and treatment skills.</div>
     </description>
     <campuses>
-      <campus></campus>
+      <campus>UNL</campus>
     </campuses>
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
-    <activities/>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>fld</type>
+      </activity>
+      <activity>
+        <type>lab</type>
+      </activity>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
     <credits>
-      <credit type="Single Value">3</credit>
-      <credit type="Per Career Limit">12</credit>
+      <credit type="Lower Range Limit">3</credit>
+      <credit type="Upper Range Limit">4</credit>
+      <credit type="Per Semester Limit">8</credit>
+      <credit type="Per Career Limit">8</credit>
     </credits>
   </course>
   <course>

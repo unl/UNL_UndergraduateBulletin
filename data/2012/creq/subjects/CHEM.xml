@@ -1,6 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <courses xmlns="http://courseapproval.unl.edu/courses" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://courseapproval.unl.edu/courses /schema/courses.xsd">
   <course>
+    <title>Career Opportunities in Chemistry</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CHEM</subject>
+        <courseNumber>101</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>pass/no pass only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1128</effectiveSemester>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">This course is required for all chemistry majors (B.S. and B.A.) but is open to all students interested in learning about the chemistry program and its relationship to careers.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to chemistry careers and faculty research interests in the Department of Chemistry.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>1</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">1</credit>
+    </credits>
+  </course>
+  <course>
     <title>Chemistry in Context I</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -705,6 +743,89 @@
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Synthesis of representative organic compounds. Qualitative analysis of organic compounds. Naturally occurring compounds.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lab</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">1</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Biological Organic Chemistry</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CHEM</subject>
+        <courseNumber>255</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1128</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">CHEM 110 or 114.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">This course should not be taken by majors in Chemistry or Chemical and Biological Engineering.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">One-semester organic chemistry course in which biological molecules and biochemical reactions will be used to explain and illustrate the central concepts of organic chemistry.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+      <activity>
+        <type>rct</type>
+        <hours>1</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Biological Organic Chemistry Laboratory</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CHEM</subject>
+        <courseNumber>257</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1125</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">CHEM 255 or concurrent.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Basic techniques in organic chemistry with a focus on biomolecules. Structure, identification, and physical properties of compounds, accompanied with molecular modeling and introduction to spectroscopy.</div>
     </description>
     <campuses>
       <campus>UNL</campus>

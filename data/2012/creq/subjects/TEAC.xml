@@ -169,6 +169,80 @@
     </credits>
   </course>
   <course>
+    <title>Instructional Technology in Elementary Schools</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>259</courseNumber>
+        <courseLetter>A</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1125</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Development of strategies for using technology to support K-12 classroom instruction. Internet resources, applications software, and authoring programs.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>2</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">2</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Practicum in Instructional Technology</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>259</courseNumber>
+        <courseLetter>B</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1125</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Acceptance into the Teacher Elementary Education Program.<br/>Must be taken in conjuntion with TEAC397a.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Practicum in Instructional Technology is a course aimed at supporting pre-service teachers in their efforts to integrate computers, mobile devices, multimedia, and other technological tools to enhance the teaching and learning process. <br/><br/></div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>fld</type>
+        <hours>1</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">1</credit>
+    </credits>
+  </course>
+  <course>
     <title>Coaching Effectiveness and Psychological Components of Sports Performance</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -367,7 +441,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1125</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Admission to the Elementary Teacher Education Program or the Inclusive Education Program.</div>
     </prerequisite>
@@ -392,7 +466,7 @@
       </activity>
     </activities>
     <credits>
-      <credit type="Single Value">4</credit>
+      <credit type="Single Value">3</credit>
     </credits>
   </course>
   <course>
@@ -1727,6 +1801,55 @@ D. Mathematics Methods for the Primary Student: K to 3rd (3 cr) Prereq: Parallel
     </activities>
     <credits>
       <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Comparative Education: Special Topics/Travel Study</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>433</courseNumber>
+        <courseLetter>B</courseLetter>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>TEAC</subject>
+        <courseNumber>833</courseNumber>
+        <courseLetter>B</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1125</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">None</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">This course could be taken more than once for additional credits assuming the student uses it for travel-study to different places.  For example, a student could not visit South Korea twice with the same professor teaching the same syllabus, but could visit South Korea once (as one 3-hour course) and South Africa (as another 3-hour course).</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Course investigates origins, goals, organization, challenges, and accomplishments of various countries' school systems with intentional comparisons to American practices.  The 'B' format focuses on a single country (plus the U.S. for comparative purposes) and includes overseas travel-study (e.g., to South Korea, South Africa, or Chile) and visits to schools in the visited countries.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>fld</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+      <credit type="Per Semester Limit">3</credit>
+      <credit type="Per Career Limit">9</credit>
     </credits>
   </course>
   <course>
