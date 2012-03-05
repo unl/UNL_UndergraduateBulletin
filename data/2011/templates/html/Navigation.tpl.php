@@ -41,7 +41,6 @@ $url = UNL_UndergraduateBulletin_Controller::getURL();
     </li>
     <li><a href="<?php echo $url; ?>college/">Other Academic Units</a>
         <ul>
-            <li><a href="<?php echo $url; ?>college/Undergraduate+Studies">Undergraduate Studies</a></li>
             <li><a href="<?php echo $url; ?>college/Division+of+General+Studies">Division of General Studies</a></li>
             <li><a href="<?php echo $url; ?>college/Libraries">Libraries</a></li>
             <li><a href="<?php echo $url; ?>college/Public+Affairs+%26+Community+Service">Public Affairs &amp; Community Service</a></li>
