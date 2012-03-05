@@ -1,3 +1,4 @@
+#!/usr/bin/env php
 <?php
 
 require dirname(__FILE__).'/../config.sample.php';

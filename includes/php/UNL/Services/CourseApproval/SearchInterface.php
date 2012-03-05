@@ -74,7 +74,7 @@ abstract class UNL_Services_CourseApproval_SearchInterface
                 // Course number range
                 $query = $this->numberPrefixQuery($match[1]);
                 break;
-            case preg_match('/^([\d]?[\d]{2,3})([A-Z])?$/i', $query, $matches):
+            case preg_match('/^([\d]?[\d]{2,3})([A-Z])?(\*+)?$/i', $query, $matches):
 
                 $letter = null;
                 if (isset($matches[2])) {

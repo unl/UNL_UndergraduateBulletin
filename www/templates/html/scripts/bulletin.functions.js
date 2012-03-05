@@ -245,52 +245,6 @@ WDN.jQuery(document).ready(function($){
 	    	};
     	} catch(e) {}
     });
-    /*
-     * 
-     * Qtip for search box helpers
-     * 
-     */
-    $('#courseSearch').qtip({
-    	content: {
-    		text: $('#courseSearchHelp')
-    	},
-        position : {
-        	corner : {
-        		target : 'topLeft',
-        		tooltip : 'bottomMiddle'
-        	},
-        	container: $('body'),
-        	adjust: {
-        		x: 150
-        	}
-        },
-        style: { 
-        	tip: { 
-        		corner: 'bottomMiddle' ,
-        		size: { x: 25, y: 15 },
-        		color: '#557BB7'
-        	},
-        	"width":"300px",
-        	"background-color": '#d4e4f5',
-        	classes : {
-        		tooltip : 'searchHelp'
-        	}
-        },
-        show: {
-            when: {
-                event: 'focus'
-            }
-        },
-        hide: {
-            when: {
-                event: 'blur'
-            },
-            delay: 400,
-            effect: {
-            	length:200
-            }
-        }
-    });
     $('#courseSearch, #majorSearch').attr("autocomplete", "off");
     $('#courseSearch').autocomplete({
 		delay: 555,
@@ -374,12 +328,44 @@ WDN.jQuery(document).ready(function($){
 			window.location.href = UNL_UGB_URL+'major/'+ui.item.value;
 		}
     });
+    //When we have the search combo, run these functions
+    if ($('#search_forms').length > 0) {
+        if ($('#search_forms').parent('.activate_major').length > 0) { // we have a major search instead, so reset defaults
+            $('#search_forms .option').toggleClass('active');
+        }
+        $('#search_forms form').hide();
+        selected = $('#search_forms .option.active').attr('id');
+        $('#'+selected+'form').show();
+        $('#search_forms .option').click(function(){
+            if (!($(this).hasClass('active'))) {
+                $('#search_forms .option').toggleClass('active');
+                $('#search_forms form').toggle();
+            }
+        }).keyup(function(event){
+            if (event.keyCode == 13){
+               $('#search_forms .option').toggleClass('active');
+               $('#search_forms form').toggle(); 
+            }
+        });
+    }
+    $('.search input[type="text"]').focus(function(){
+        $(this).prev('label').hide();
+    }).blur(function(){
+        if ($(this).val().length == 0){
+            $(this).prev('label').show();
+        }
+    });
+    $('.search label').click(function(){
+        $(this).hide(function(){
+            $(this).next('input[type="text"]').focus();
+        });
+    });
 });
 
 function fadeInTOCMenu() {
 	if (!menuFaded) { //menu is hidden
 		WDN.log('fading menu in');
-		WDN.jQuery('#toc_nav').css({'position': 'fixed', 'width': '940px'});
+		WDN.jQuery('#toc_nav').css({'position': 'fixed', 'width': '960px'});
 		WDN.jQuery('#toc_major_name').css({'display': 'block'});
 		WDN.jQuery('#long_content').css({'margin-top':'73px'});	
 		WDN.jQuery('#toc_bar').fadeIn(200);

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<courses xmlns="http://courseapproval.unl.edu/courses" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://courseapproval.unl.edu/courses /schema/courses.xsd">
+  <course>
+    <title>Marketing</title>
+    <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>ABUS</subject>
+        <courseNumber>341</courseNumber>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>MRKT</subject>
+        <courseNumber>341</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1081</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Sophomore standing; ECON 211 and 212, or 210; 2.5 GPA. Prereq for actuarial science, J. D. Edwards Program, and agribusiness majors: Refer to exceptions for the requirements.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">The marketing system, its relations with the socioeconomic system, and the influences of each upon the other. Evolution and present structure of marketing institutions and processes. Customer attributes and behavioral characteristics, and how a marketing manager responds to these in the design of marketing strategies, using research, product development, pricing, distribution structure, and promotion.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Marketing and Globalization</title>
+    <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>MRKT</subject>
+        <courseNumber>855</courseNumber>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>ABUS</subject>
+        <courseNumber>855</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">GRBA *813 or equivalent</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Globalization and resulting changes in the business environment. Access to new consumers, new supplies. The effect on consumer choices. Readings from scholarly and popular press, videos, and a “real world” application. Marketing strategies developed for Nebraska firms and organizations such as value-added food marketers.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">3</credit>
+      <credit type="Upper Range Limit">6</credit>
+      <credit type="Per Career Limit">6</credit>
+    </credits>
+  </course>
+</courses>

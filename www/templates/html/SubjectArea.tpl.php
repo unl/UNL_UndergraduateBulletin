@@ -13,10 +13,10 @@ if (isset($parent->context->options)
 }
 ?>
 <h2 class="sec_main" id="<?php echo $context->subject; ?>"> Courses of Instruction (<?php echo $context->subject; ?>)</h2>
-<div class="col left">
+<div class="grid3 first">
     <?php echo $savvy->render($context, 'CourseFilters.tpl.php'); ?>
 </div>
-<div class="three_col right">
+<div class="grid9">
     <dl>
     <?php
     foreach ($context->courses as $course) {

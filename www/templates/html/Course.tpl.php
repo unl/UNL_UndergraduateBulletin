@@ -50,27 +50,7 @@
     if (!empty($cltext)) {
         $crosslistings = '<span class="crosslisting">'.trim($cltext, ', ').'</span>';
     }
-    
-    $credits = '';
-    if (!isset($context->credits)) {
-        $credits = 'N/A';
-    } else {
-        if (isset($context->credits['Single Value'])) {
-            $credits = $context->credits['Single Value'];
-        } elseif (isset($context->credits['Lower Range Limit'])) {
-            if (isset($context->credits['Lower Range Limit'])) {
-                $credits = $context->credits['Lower Range Limit'].'-';
-            }
-            if (isset($context->credits['Upper Range Limit'])) {
-                $credits .= $context->credits['Upper Range Limit'].',';
-            }
-            if (isset($context->credits['Per Career Limit'])) {
-                $credits .= ' max '.$context->credits['Per Career Limit'];
-            }
-            $credits = trim($credits, ', ');
-        }
-    }
-    
+
     $format = '';
     foreach ($context->activities as $type => $activity) {
         $class .= ' '.$type;
@@ -117,10 +97,7 @@
         <dd class='$class'>";
         echo '<div class="zentable cool details">';
         echo  '<table class="zentable cool details">';
-        echo  '<tr class="credits">
-                <td class="label">Credit Hours:</td>
-                <td class="value">'.$credits.'</td>
-                </tr>';
+        echo $savvy->render($context, 'Course/Credits.tpl.php');
         if (!empty($format)) {
             echo  '<tr class="format">
                     <td class="label">Course Format:</td>
@@ -166,7 +143,7 @@
         }
         $subsequent_courses = $context->getSubsequentCourses();
         if (count($subsequent_courses)) {
-            echo  "<div class='subsequent'>Subsequent courses: ";
+            echo  "<div class='subsequent'>This course is a prerequisite for: ";
             $sub_course_array = array();
             foreach ($subsequent_courses as $subsequent_courses) {
                 $sub_course_array[] = $subsequent_courses->getHomeListing()->subjectArea.' '.$subsequent_courses->getHomeListing()->courseNumber;

@@ -1,6 +1,11 @@
+#!/usr/bin/env php
 <?php
 
-require dirname(__FILE__).'/../config.sample.php';
+if (file_exists(dirname(__FILE__).'/../config.inc.php')) {
+    include_once dirname(__FILE__).'/../config.inc.php';
+} else {
+    include_once dirname(__FILE__).'/../config.sample.php';
+}
 
 foreach (new UNL_UndergraduateBulletin_Editions() as $edition) {
 

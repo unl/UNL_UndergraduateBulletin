@@ -2,4 +2,12 @@ config.inc.php
 www/.htaccess
 run-tests.log
 tests/run-tests.log
-*.esproj
+config.php
+*.espressostorage
+.DS_Store
+
+.settings/org.eclipse.core.resources.prefs
+
+.settings/org.eclipse.php.core.prefs
+
+.settings/org.eclipse.core.resources.prefs

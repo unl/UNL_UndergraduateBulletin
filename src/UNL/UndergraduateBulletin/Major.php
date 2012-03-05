@@ -57,7 +57,12 @@ class UNL_UndergraduateBulletin_Major implements UNL_UndergraduateBulletin_Cache
         }
         return $this->_description;
     }
-    
+
+    /**
+     * Get all course subject areas associated with this major.
+     * 
+     * @return UNL_UndergraduateBulletin_Major_SubjectAreas
+     */
     function getSubjectAreas()
     {
         if (!$this->_subjectareas) {
