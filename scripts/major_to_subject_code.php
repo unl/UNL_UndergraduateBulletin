@@ -16,7 +16,7 @@ foreach (new UNL_UndergraduateBulletin_Editions() as $edition) {
     $majors = array();
 
     foreach ($file as $line) {
-        $array = str_getcsv($line);
+        $array = str_getcsv(trim($line, ' ,'));
         /*
         For example:
         
@@ -40,6 +40,11 @@ foreach (new UNL_UndergraduateBulletin_Editions() as $edition) {
         }
         $codes = array_unique($codes);
         sort($codes);
+        foreach ($codes as $key=>$code) {
+            if (empty($code)) {
+                unset($codes[$key]);
+            }
+        }
         $majors[trim($array[0])] = $codes;
     }
 
