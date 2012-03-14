@@ -247,12 +247,16 @@
         <courseNumber>513</courseNumber>
         <courseLetter>G</courseLetter>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>LAW</subject>
+        <courseNumber>513</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <effectiveSemester>1125</effectiveSemester>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to the sources and the literature of the law. Emphasizes the function and content of basic legal materials, their use in the analysis and solution of legal problems, and the preparation of legal memoranda and appellate briefs.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">The emphasis of this course is on the development of legal research and writing skills; writing is the lawyer’s most commonly used skill, and effective writing rests on effective research. Communicating like a lawyer, however, means not only communicating professionally but also conducting oneself ethically. In addition to providing sustained and intensive instruction on legal research and writing, this course introduces students to many facets of professionalism and to the skills necessary to make ethical and professional choices.</div>
     </description>
     <campuses>
       <campus></campus>
@@ -260,25 +264,34 @@
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>2</hours>
+      </activity>
+    </activities>
     <credits>
-      <credit type="Single Value">3</credit>
+      <credit type="Single Value">2</credit>
     </credits>
   </course>
   <course>
-    <title>Legal Research and Writing II</title>
+    <title>Foundational Legal Skills: Research, Writing, and Professionalism II</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>LAW</subject>
         <courseNumber>514</courseNumber>
         <courseLetter>G</courseLetter>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>LAW</subject>
+        <courseNumber>514</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1125</effectiveSemester>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">For course description, see LAW 513G.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">The emphasis of this course is on the development of legal research and writing skills; writing is the lawyer’s most commonly used skill, and effective writing rests on effective research. Communicating like a lawyer, however, means not only communicating professionally but also conducting oneself ethically. In addition to providing sustained and intensive instruction on legal research and writing, this course introduces students to many facets of professionalism and to the skills necessary to make ethical and professional choices.</div>
     </description>
     <campuses>
       <campus></campus>
@@ -286,9 +299,17 @@
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
-    <activities/>
+    <termsOffered>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>4</hours>
+      </activity>
+    </activities>
     <credits>
-      <credit type="Single Value">3</credit>
+      <credit type="Single Value">4</credit>
     </credits>
   </course>
   <course>

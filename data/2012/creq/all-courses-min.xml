@@ -856,6 +856,9 @@
         <courseNumber>439</courseNumber>
       </courseCode>
     </courseCodes>
+    <aceOutcomes>
+      <slo>10</slo>
+    </aceOutcomes>
   </course>
   <course>
     <title>Strategic and Creative Concepting</title>
@@ -8385,37 +8388,11 @@
     </aceOutcomes>
   </course>
   <course>
-    <title>Special Topics in Studio Art</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ARTP</subject>
-        <courseNumber>199</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>ARTS</subject>
-        <courseNumber>199</courseNumber>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
     <title>Internship in Art</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>ARTP</subject>
         <courseNumber>395</courseNumber>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
-    <title>Special Topics in Studio Art</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ARTP</subject>
-        <courseNumber>399</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>ARTS</subject>
-        <courseNumber>399</courseNumber>
       </courseCode>
     </courseCodes>
   </course>
@@ -26735,6 +26712,7 @@
       <courseCode type="crosslisting">
         <subject>HIST</subject>
         <courseNumber>277</courseNumber>
+        <courseGroup>Variable group based on topic</courseGroup>
       </courseCode>
     </courseCodes>
   </course>
@@ -36522,6 +36500,8 @@
       <courseCode type="home listing">
         <subject>HIST</subject>
         <courseNumber>208</courseNumber>
+        <courseGroup>European History</courseGroup>
+        <courseGroup>United States or Canadian History</courseGroup>
       </courseCode>
     </courseCodes>
   </course>
@@ -36531,6 +36511,8 @@
       <courseCode type="home listing">
         <subject>HIST</subject>
         <courseNumber>209</courseNumber>
+        <courseGroup>Pre-1800</courseGroup>
+        <courseGroup>European History</courseGroup>
       </courseCode>
       <courseCode type="crosslisting">
         <subject>CLAS</subject>
@@ -36547,6 +36529,8 @@
       <courseCode type="home listing">
         <subject>HIST</subject>
         <courseNumber>210</courseNumber>
+        <courseGroup>Pre-1800</courseGroup>
+        <courseGroup>European History</courseGroup>
       </courseCode>
       <courseCode type="crosslisting">
         <subject>CLAS</subject>
@@ -36775,6 +36759,7 @@
       <courseCode type="home listing">
         <subject>HIST</subject>
         <courseNumber>244</courseNumber>
+        <courseGroup>United States or Canadian History</courseGroup>
       </courseCode>
     </courseCodes>
   </course>
@@ -36832,6 +36817,7 @@
       <courseCode type="home listing">
         <subject>HIST</subject>
         <courseNumber>250</courseNumber>
+        <courseGroup>Additional History Courses</courseGroup>
       </courseCode>
     </courseCodes>
   </course>
@@ -36982,6 +36968,8 @@
       <courseCode type="home listing">
         <subject>HIST</subject>
         <courseNumber>311</courseNumber>
+        <courseGroup>Pre-1800</courseGroup>
+        <courseGroup>European History</courseGroup>
       </courseCode>
       <courseCode type="crosslisting">
         <subject>CLAS</subject>
@@ -36995,6 +36983,8 @@
       <courseCode type="home listing">
         <subject>HIST</subject>
         <courseNumber>317</courseNumber>
+        <courseGroup>Pre-1800</courseGroup>
+        <courseGroup>European History</courseGroup>
       </courseCode>
       <courseCode type="crosslisting">
         <subject>CLAS</subject>
@@ -37008,6 +36998,8 @@
       <courseCode type="home listing">
         <subject>HIST</subject>
         <courseNumber>319</courseNumber>
+        <courseGroup>European History</courseGroup>
+        <courseGroup>Pre-1800</courseGroup>
       </courseCode>
       <courseCode type="crosslisting">
         <subject>RELG</subject>
@@ -37794,6 +37786,8 @@
       <courseCode type="home listing">
         <subject>HIST</subject>
         <courseNumber>412</courseNumber>
+        <courseGroup>Pre-1800</courseGroup>
+        <courseGroup>European History</courseGroup>
       </courseCode>
       <courseCode type="grad tie-in">
         <subject>HIST</subject>
@@ -37827,6 +37821,8 @@
       <courseCode type="home listing">
         <subject>HIST</subject>
         <courseNumber>417</courseNumber>
+        <courseGroup>Pre-1800</courseGroup>
+        <courseGroup>European History</courseGroup>
       </courseCode>
       <courseCode type="grad tie-in">
         <subject>HIST</subject>
@@ -37844,6 +37840,8 @@
       <courseCode type="home listing">
         <subject>HIST</subject>
         <courseNumber>418</courseNumber>
+        <courseGroup>European History</courseGroup>
+        <courseGroup>Pre-1800</courseGroup>
       </courseCode>
       <courseCode type="grad tie-in">
         <subject>HIST</subject>
@@ -38108,6 +38106,7 @@
       <courseCode type="home listing">
         <subject>HIST</subject>
         <courseNumber>450</courseNumber>
+        <courseGroup>Additional History Courses</courseGroup>
       </courseCode>
     </courseCodes>
     <aceOutcomes>
@@ -38494,6 +38493,7 @@
       <courseCode type="home listing">
         <subject>HIST</subject>
         <courseNumber>489</courseNumber>
+        <courseGroup>Additional History Courses</courseGroup>
       </courseCode>
     </courseCodes>
   </course>
@@ -42043,6 +42043,10 @@
   <course>
     <title>Legal Research and Writing I</title>
     <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>LAW</subject>
+        <courseNumber>513</courseNumber>
+      </courseCode>
       <courseCode type="home listing">
         <subject>LAW</subject>
         <courseNumber>513</courseNumber>
@@ -42051,8 +42055,12 @@
     </courseCodes>
   </course>
   <course>
-    <title>Legal Research and Writing II</title>
+    <title>Foundational Legal Skills: Research, Writing, and Professionalism II</title>
     <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>LAW</subject>
+        <courseNumber>514</courseNumber>
+      </courseCode>
       <courseCode type="home listing">
         <subject>LAW</subject>
         <courseNumber>514</courseNumber>
