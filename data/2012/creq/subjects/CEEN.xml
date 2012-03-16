@@ -812,6 +812,49 @@
     </credits>
   </course>
   <course>
+    <title>Mobile Robotics I</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CEEN</subject>
+        <courseNumber>345</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1128</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">CEEN 106 or (UNO) 1060, 213 or (UNO) 2130.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to the primary issues spanning the field of mobile robotics, including robotics history, robot components (sensors, actuators), robot system design considerations, low-level control (feedback control) and robotics control architectures.  The lab focuses on the practical implementation of autonomous robot control on a real mobile robot using behavior-based methods in the C language.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+      <campus>UNO</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lab</type>
+        <hours>3</hours>
+      </activity>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">4</credit>
+    </credits>
+  </course>
+  <course>
     <title>Electronics Circuits II</title>
     <courseCodes>
       <courseCode type="crosslisting">
@@ -915,9 +958,9 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1095</effectiveSemester>
+    <effectiveSemester>1125</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CEEN 325 or (UNO) CEEN 3250; CEEN 352/(UNO) CEEN 3520, or parallel; and CEEN 328/(UNO) CEEN 3280, or parallel.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">CEEN 352 or (UNO) CEEN 3520; CEEN 325 or (UNO) CEEN 3250, or parallel; and CEEN 328 or (UNO) CEEN 3280, or parallel.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Noise and signal distortions in communication systems, impedance matching techniques, high frequency measurement techniques, design of high frequency amplifiers and oscillators, PLL and frequency synthesizers, data synchronization and multiplexing techniques, Antennas and their arrays.</div>

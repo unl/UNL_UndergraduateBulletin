@@ -1,6 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <courses xmlns="http://courseapproval.unl.edu/courses" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://courseapproval.unl.edu/courses /schema/courses.xsd">
   <course>
+    <title>Invasive Plant Species: Impacts on Ecosystems</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>AGRO</subject>
+        <courseNumber>107</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>NRES</subject>
+        <courseNumber>107</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>AGRO</subject>
+        <courseNumber>107</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1131</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">None</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Online only</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">The flora of the earth is constantly being re-distributed by natural and human forces. As plant species change locations, they affect ecosystems, but how? In this course, students will learn how invasive plants establish and spread in ecosystems and develop an understanding of the importance of invasive plants and their impacts on ecosystems from local to global scales.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Web</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+      <activity>
+        <type>quz</type>
+        <hours>1</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Exploring Plant Biology</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -1148,12 +1200,12 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1108</effectiveSemester>
+    <effectiveSemester>1125</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">AGRO/HORT/SOIL 153; BIOS 109; CHEM 109 or parallel, or HORT 221.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">AGRO/HORT/SOIL 153; BIOS 109; CHEM 109; and TLMT 227.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Scientific principles of turf species adaptation, turf and/or soil relationships, establishment, fertility, mowing, irrigation, pest control, and vegetative identification of turf species.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Scientific principles of turf species adaptation, turf and/or soil relationships, establishment, fertility, mowing, irrigation, and pest control of turf species.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -2149,19 +2201,15 @@
         <courseNumber>827</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
-        <subject>PGAM</subject>
-        <courseNumber>427</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
         <subject>TLMT</subject>
         <courseNumber>827</courseNumber>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1111</effectiveSemester>
+    <effectiveSemester>1125</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">9 hrs agricultural plant science and 3 hrs soil sciences.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">TLMT 227 and TLMT 327.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Critical evaluation of turfgrass settings to create economical and environmentally friendly management systems for professionally managed turf areas.</div>
