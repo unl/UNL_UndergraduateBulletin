@@ -35,7 +35,15 @@ class UNL_UndergraduateBulletin_SubjectAreas extends SplFileObject implements UN
             $options['title'] = $data[1];
         }
 
-        return new UNL_UndergraduateBulletin_SubjectArea($options);
+        try {
+            $area = new UNL_UndergraduateBulletin_SubjectArea($options);
+        } catch(Exception $e) {
+            throw new Exception(
+                'Error in ' . $this->getFilename().':'
+                . ' subject area id "'.$data[0].'" with title "'.$data[1].'" is invalid.'
+            , 500, $e);
+        }
+        return $area;
     }
     
     function key()
