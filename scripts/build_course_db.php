@@ -15,7 +15,7 @@ $search_service = new UNL_Services_CourseApproval_Search();
 
 $courses = $search_service->byAny('',
                                   0,
-                                  4000
+                                  -1
                                   );
 $id = 0;
 
