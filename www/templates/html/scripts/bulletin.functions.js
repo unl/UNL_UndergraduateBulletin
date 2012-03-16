@@ -354,6 +354,10 @@ WDN.jQuery(document).ready(function($){
         if ($(this).val().length == 0){
             $(this).prev('label').show();
         }
+    }).each(function() {
+        if ($(this).val().length != 0){
+            $(this).prev('label').hide();
+        }
     });
     $('.search label').click(function(){
         $(this).hide(function(){

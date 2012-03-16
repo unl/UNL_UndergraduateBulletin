@@ -2,7 +2,7 @@
     <fieldset>
         <legend>Find a Course</legend>
         <label for="courseSearch">Course</label>
-        <input type="text" name="q" id="courseSearch" value="<?php echo (isset($parent->context->options['q']))?htmlentities($parent->context->options['q'], ENT_QUOTES):''; ?>" />
+        <input type="text" name="q" id="courseSearch" value="<?php echo (isset($parent->parent->context->options['q']))?htmlentities($parent->parent->context->options['q'], ENT_QUOTES):''; ?>" />
         <input type="submit" value="Find" name="submit" />
     </fieldset>
     <div class="search_help">
