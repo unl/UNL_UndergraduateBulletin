@@ -155,4 +155,14 @@ class UNL_UndergraduateBulletin_Major_Description
     {
         self::$epub_files = $array;
     }
+
+    /**
+     * Get the epub filename to title map
+     * 
+     * @return array Associative array of [filename]=>[title]
+     */
+    static function getEpubToTitleMap()
+    {
+        return self::$epub_files;
+    }
 }
