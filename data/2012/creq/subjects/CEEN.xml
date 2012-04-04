@@ -947,10 +947,6 @@
   <course>
     <title>Data and Telecommunications Transceivers</title>
     <courseCodes>
-      <courseCode type="crosslisting">
-        <subject>CEEN</subject>
-        <courseNumber>3610</courseNumber>
-      </courseCode>
       <courseCode type="home listing">
         <subject>CEEN</subject>
         <courseNumber>361</courseNumber>
@@ -958,7 +954,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1125</effectiveSemester>
+    <effectiveSemester>1128</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">CEEN 352 or (UNO) CEEN 3520; CEEN 325 or (UNO) CEEN 3250, or parallel; and CEEN 328 or (UNO) CEEN 3280, or parallel.</div>
     </prerequisite>
@@ -1681,6 +1677,95 @@
     </activities>
     <credits>
       <credit type="Single Value">4</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Antennas and Radio Propagation for Wireless Communications</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CEEN</subject>
+        <courseNumber>482</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>CEEN</subject>
+        <courseNumber>882</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1128</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">CEEN 328 or (UNO) 3280.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Fundamental theory of antennas and radio propagation for wireless communications. Basic antenna characteristics and various antennas and antenna arrays. Basic propagation mechanisms and various channel models, such as Friis free space model, Hata model, lognormal distribution, and multipath model. Includes practical antenna design for high radio frequency (RF) with modeling software tools such as Numerical Electromagnetic Code (NEC) and Advanced Design System (ADS). Design projects will be assigned as the main part of course.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+      <campus>UNO</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lab</type>
+        <hours>3</hours>
+      </activity>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">4</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Network Security</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CEEN</subject>
+        <courseNumber>484</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>CEEN</subject>
+        <courseNumber>884</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1125</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">CEEN 325 or (UNO) 3250.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Network security and cryptographic protocols.  Classical encryption techniques, block ciphers and stream cyphers, public-key cryptography, authentications digital signatures, key management and distributions, network vulnerabilities, transport-level security, IP security.</div>
+    </description>
+    <campuses>
+      <campus>UNO</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
     </credits>
   </course>
   <course>

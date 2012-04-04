@@ -240,21 +240,17 @@
     </credits>
   </course>
   <course>
-    <title>Legal Research and Writing I</title>
+    <title>Foundational Legal Skills: Research, Writing and Professionalism</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>LAW</subject>
         <courseNumber>513</courseNumber>
         <courseLetter>G</courseLetter>
       </courseCode>
-      <courseCode type="crosslisting">
-        <subject>LAW</subject>
-        <courseNumber>513</courseNumber>
-      </courseCode>
     </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1125</effectiveSemester>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1128</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">The emphasis of this course is on the development of legal research and writing skills; writing is the lawyer’s most commonly used skill, and effective writing rests on effective research. Communicating like a lawyer, however, means not only communicating professionally but also conducting oneself ethically. In addition to providing sustained and intensive instruction on legal research and writing, this course introduces students to many facets of professionalism and to the skills necessary to make ethical and professional choices.</div>
     </description>
@@ -264,6 +260,9 @@
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+    </termsOffered>
     <activities>
       <activity>
         <type>lec</type>
@@ -282,14 +281,10 @@
         <courseNumber>514</courseNumber>
         <courseLetter>G</courseLetter>
       </courseCode>
-      <courseCode type="crosslisting">
-        <subject>LAW</subject>
-        <courseNumber>514</courseNumber>
-      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1125</effectiveSemester>
+    <effectiveSemester>1128</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">The emphasis of this course is on the development of legal research and writing skills; writing is the lawyer’s most commonly used skill, and effective writing rests on effective research. Communicating like a lawyer, however, means not only communicating professionally but also conducting oneself ethically. In addition to providing sustained and intensive instruction on legal research and writing, this course introduces students to many facets of professionalism and to the skills necessary to make ethical and professional choices.</div>
     </description>
@@ -372,10 +367,6 @@
         <courseNumber>518</courseNumber>
         <courseLetter>G</courseLetter>
       </courseCode>
-      <courseCode type="crosslisting">
-        <subject>LAW</subject>
-        <courseNumber>518</courseNumber>
-      </courseCode>
     </courseCodes>
     <gradingType>letter grade only</gradingType>
     <dfRemoval>false</dfRemoval>
@@ -438,14 +429,10 @@
         <courseNumber>602</courseNumber>
         <courseLetter>G</courseLetter>
       </courseCode>
-      <courseCode type="crosslisting">
-        <subject>LAW</subject>
-        <courseNumber>602</courseNumber>
-      </courseCode>
     </courseCodes>
     <gradingType>letter grade only</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1121</effectiveSemester>
+    <effectiveSemester>1128</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">This course will address the legal concerns and issues facing the rapidly growing subpopulation of older adults. Topics covered in the course will include the legal and social science aspects of: ethical issues related to client legal capacity, health care decision making, Medicare, Medicaid, Social Security, long-term informal and formal care (including guardianship), financial aspects of aging, ageism, and elder maltreatment.</div>
     </description>
@@ -1432,16 +1419,12 @@
       <courseCode type="home listing">
         <subject>LAW</subject>
         <courseNumber>644</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>LAW</subject>
-        <courseNumber>644</courseNumber>
         <courseLetter>G</courseLetter>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1128</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Creditors’ remedies outside of bankruptcy, secured financing of personal property, and the impact of federal bankruptcy law on secured creditors.</div>
     </description>
@@ -1872,14 +1855,10 @@
         <courseNumber>660</courseNumber>
         <courseLetter>G</courseLetter>
       </courseCode>
-      <courseCode type="crosslisting">
-        <subject>LAW</subject>
-        <courseNumber>660</courseNumber>
-      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1121</effectiveSemester>
+    <effectiveSemester>1128</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Analysis of the role of science in the law. This class will explore issues such as biotechnology, computers, scientific evidence, regulatory approval, antitrust, and environmental law to explore the intersection of science, technology, and the effect on the law and legal decision making.</div>
     </description>
@@ -1931,14 +1910,10 @@
         <courseNumber>662</courseNumber>
         <courseLetter>G</courseLetter>
       </courseCode>
-      <courseCode type="crosslisting">
-        <subject>LAW</subject>
-        <courseNumber>662</courseNumber>
-      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1121</effectiveSemester>
+    <effectiveSemester>1128</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Overview of the United States laws of copyright, patent, trade secret and trademark for students of all backgrounds and discussions of the laws and mechanisms to protect intellectual property rights abroad including analysis of all major international treaties and conventions. This course will cover not only the legal and regulatory schemes but also the policy implications. No prior course in intellectual property or science background is requisite.</div>
     </description>
@@ -2358,6 +2333,41 @@
     <credits>
       <credit type="Lower Range Limit">1</credit>
       <credit type="Upper Range Limit">4</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Federal Regulation of Food Safety</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>LAW</subject>
+        <courseNumber>679</courseNumber>
+        <courseLetter>G</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1128</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">This course examines the federal laws and regulations that govern food safety and food labeling shared by federal agencies, including the Food and Drug Administration, U.S. Department of Agriculture, U.S. Department of Commerce, and U.S. Environmental Protection Agency. Students will have the opportunity to learn the history of federal food safety laws and enforcement and will discuss case studies highlighting current issues in the news, e.g., salmonella contamination of eggs, tort liability for “defective” foods, regulation of biotechnology use in foods, and the science underlying food safety regulation and food production. The course will conclude with analysis of the policy goals and implementation of the FDA Food Safety Modernization Act signed into law by President Obama on January 4, 2011, which provides for a new system of federal oversight of domestically produced and imported foods.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
     </credits>
   </course>
   <course>
@@ -3043,6 +3053,41 @@
     </credits>
   </course>
   <course>
+    <title>Rural Development and Energy Law</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>LAW</subject>
+        <courseNumber>706</courseNumber>
+        <courseLetter>G</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1131</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Rural Development and Energy Law Seminar (Law 706)(3 credit hours) This course will cover specific laws and regulations, as well as business and policy considerations, that inform efforts to develop rural infrastructure, stimulate jobs, establish community-based financial and non-profit institutions, and encourage rural entrepreneurship. Particular emphasis will be placed on how energy law and policy may be shaping the rural future. This course will also include a comparative element, with literature from the Law and Development movement, international development, and the affordable housing and urban renewal contexts considered in conjunction with current rural development concerns.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>2</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>International Human Rights Law Seminar</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -3258,6 +3303,37 @@
     </credits>
   </course>
   <course>
+    <title>Transnational and International Criminal Law</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>LAW</subject>
+        <courseNumber>715</courseNumber>
+        <courseLetter>G</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1131</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">This course will provide an introduction to several international law topics of current interest and special importance to the international community, particularly related to transnational criminal activities, terrorism, and international criminal law offenses.  Specific topics will include: the conclusion, interpretation and termination of international agreements; state sovereignty over land, sea and air; extraterritorial state criminal jurisdiction; nationality; extradition; international criminal law; war crimes; the International Criminal Court, and; the United Nations Charter regime and related structures, including the ad hoc international criminal tribunals</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Comparative Law: International Gender Issues Seminar</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -3332,6 +3408,41 @@
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
     <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Law &amp; Liberty in Time of Crisis</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>LAW</subject>
+        <courseNumber>721</courseNumber>
+        <courseLetter>G</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1131</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Law &amp;amp; Liberty in Time of Crisis Seminar (Law 721)(3 credit hours) An examination of constitutional rights and limits on liberty during times of crisis. The foundation will be a review of selected events such as the Alien and Sedition Acts, habeas corpus in the Civil War, the World War I Espionage Act, World War II internment of aliens, the Steel Seizure, the 1950's Red Scare, and the Pentagon Papers. Students will use this foundation to prepare a seminar paper addressing a selected issue about law and liberty under post-9/11 legislation and executive action</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>2</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
@@ -3507,7 +3618,7 @@
     </credits>
   </course>
   <course>
-    <title>Investment Treaty Arbitration</title>
+    <title>Tribal Gaming Law</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>LAW</subject>
@@ -3516,10 +3627,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1128</effectiveSemester>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">The substantive rights provided in international investment agreements, the North American Free Trade Agreement (NAFTA) and the procedural rights granted to resolve disputes. Investor-state arbitration and other dispute resolution options.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">This seminar will examine the history of tribal gaming, the landmark case of California v. Cabazon Band of Mission Indians, 480 U.S. 202 (1987) and the resulting Indian Gaming Regulatory Act (IGRA). Tribal gaming is regulated by tribal, federal, and state law and is a complex mix of issues: what constitutes a tribe and tribal lands; how do newly acquired lands become Indian Country; what is the role, structure, and authority of the National Indian Gaming Commission; what defines and distinguishes Class I, Class II and Class III gaming; how are tribal - state compacts formed; who may claim a portion of gaming revenues through fees or taxes; and what institutions and political players are crucial to the public debates on tribal and state revenue sharing, tribal economic development, and off-reservation casinos.</div>
     </description>
     <campuses>
       <campus></campus>
@@ -3527,6 +3638,9 @@
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+    </termsOffered>
     <activities>
       <activity>
         <type>lec</type>
@@ -3902,6 +4016,40 @@
       <activity>
         <type>lec</type>
         <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Corporate Finance</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>LAW</subject>
+        <courseNumber>746</courseNumber>
+        <courseLetter>G</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1128</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to the theories and applications of modern corporate finance. The course will explore a range of topics, including: valuation theories; the efficient capital market hypothesis; risk, return, the capital asset pricing model, and arbitrage pricing theory; investment and financing decisions; optimal capital structure; the role of classical finance theory in legal decisions; and option theory.  Prerequisite: Business Associations or permission of instructor.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
       </activity>
     </activities>
     <credits>
