@@ -89,7 +89,7 @@
             	<span class='subjectCode'>".$subject."</span>
             	<span class='number $number_class'>$listings</span>
             </div>
-            <span class='title'>" . $context->title . " <a href='http://" . $_SERVER['SERVER_NAME'].$permalink . "' title='A permalink to " . $context->title . "'>LINK</a></span>";
+            <span class='title'>" . $context->title . " <a href='" . $permalink . "' title='A permalink to " . $context->title . "'>LINK</a></span>";
         if (!empty($crosslistings)) {
             echo  '<span class="crosslistings">Crosslisted as '.$crosslistings.'</span>';
         }
