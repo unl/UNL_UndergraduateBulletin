@@ -4,7 +4,7 @@ class UNL_UndergraduateBulletin_CourseSearch_DBSearcher extends UNL_Services_Cou
     public $options = array();
 
     public static $db;
-    
+
     function __construct($options = array())
     {
         $this->options = $options + $this->options;
@@ -30,10 +30,10 @@ class UNL_UndergraduateBulletin_CourseSearch_DBSearcher extends UNL_Services_Cou
     function aceQuery($ace)
     {
         if ($ace == 1) {
-            return "SELECT courses.xml FROM courses WHERE slo = '1' OR slo LIKE '%1,%' OR slo LIKE '%,1'";
+            return "courses.slo = '1' OR courses.slo LIKE '%1,%' OR courses.slo LIKE '%,1'";
         }
 
-        return "SELECT courses.xml FROM courses WHERE slo LIKE '%$ace%';";
+        return "courses.slo LIKE '%$ace%'";
     }
 
     function aceAndNumberPrefixQuery($number)
@@ -45,27 +45,27 @@ class UNL_UndergraduateBulletin_CourseSearch_DBSearcher extends UNL_Services_Cou
     
     function subjectAndNumberPrefixQuery($subject, $number)
     {
-        return "SELECT DISTINCT courses.id, courses.xml FROM courses, crosslistings WHERE crosslistings.course_id = courses.id AND crosslistings.courseNumber LIKE '$number%' AND crosslistings.subjectArea='$subject';";
+        return "crosslistings.course_id = courses.id AND crosslistings.courseNumber LIKE '$number%' AND crosslistings.subjectArea='$subject'";
     }
     
     function numberPrefixQuery($number)
     {
-        return "SELECT DISTINCT courses.id, courses.xml FROM courses, crosslistings WHERE crosslistings.course_id = courses.id AND crosslistings.courseNumber LIKE '$number%'";
+        return "crosslistings.course_id = courses.id AND crosslistings.courseNumber LIKE '$number%'";
     }
     
     function honorsQuery()
     {
-        return 'SELECT DISTINCT courses.id, courses.xml FROM courses, crosslistings WHERE crosslistings.course_id = courses.id AND crosslistings.courseNumber LIKE "%H";';
+        return 'crosslistings.course_id = courses.id AND crosslistings.courseNumber LIKE "%H"';
     }
 
     function titleQuery($title)
     {
-        return 'SELECT courses.xml FROM courses WHERE title LIKE '.self::getDB()->quote('%'.$title.'%').';';
+        return 'courses.title LIKE '.self::getDB()->quote('%'.$title.'%');
     }
     
     function subjectAreaQuery($subject)
     {
-        return "SELECT DISTINCT courses.id, courses.xml FROM courses, crosslistings WHERE crosslistings.course_id = courses.id AND crosslistings.subjectArea = '".$subject."'";
+        return "crosslistings.course_id = courses.id AND crosslistings.subjectArea = '".$subject."'";
     }
     
     function subjectAndNumberQuery($subject, $number, $letter = null)
@@ -81,21 +81,28 @@ class UNL_UndergraduateBulletin_CourseSearch_DBSearcher extends UNL_Services_Cou
         if (isset($letter)) {
             $number .= $letter;
         }
-        return "SELECT DISTINCT courses.id, courses.xml FROM courses, crosslistings WHERE crosslistings.course_id = courses.id AND crosslistings.courseNumber LIKE '$number%';";
+        return "crosslistings.course_id = courses.id AND crosslistings.courseNumber LIKE '$number%'";
     }
 
     function creditQuery($credits)
     {
-        return "SELECT DISTINCT courses.id, courses.xml FROM courses WHERE courses.credits = {$credits};";
+        return "courses.credits = {$credits}";
     }
 
     function prerequisiteQuery($prereq)
     {
-    	return 'SELECT courses.xml FROM courses WHERE prerequisite LIKE '.self::getDB()->quote('%'.$prereq.'%').';';
+        return 'courses.prerequisite LIKE '.self::getDB()->quote('%'.$prereq.'%');
+    }
+
+    function intersectQuery($query1, $query2)
+    {
+        return $query1 . ' AND ' . $query2;
     }
 
     function getQueryResult($query, $offset = 0, $limit = null)
     {
+        $query =  'SELECT courses.xml FROM courses INNER JOIN crosslistings ON courses.id=crosslistings.course_id WHERE ' . $query . ';';
+
         return new UNL_UndergraduateBulletin_CourseSearch_DBSearchResults($query, $offset, $limit);
     }
 }
