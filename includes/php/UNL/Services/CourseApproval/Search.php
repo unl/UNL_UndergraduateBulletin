@@ -16,6 +16,16 @@ class UNL_Services_CourseApproval_Search extends UNL_Services_CourseApproval_Sea
         }
     }
 
+    /**
+     * Combine two queries into one which will return the intersect
+     *
+     * @return string
+     */
+    function intersectQuery($query1, $query2)
+    {
+        return $this->driver->intersectQuery($query1, $query2);
+    }
+
     function aceQuery($ace)
     {
         return $this->driver->aceQuery($ace);
@@ -62,6 +72,14 @@ class UNL_Services_CourseApproval_Search extends UNL_Services_CourseApproval_Sea
     }
     function prerequisiteQuery($prereq)
     {
-    	return $this->driver->prerequisiteQuery($prereq);
+        return $this->driver->prerequisiteQuery($prereq);
+    }
+    function undergraduateQuery()
+    {
+        return $this->driver->undergraduateQuery();
+    }
+    function graduateQuery()
+    {
+        return $this->driver->graduateQuery();
     }
 }

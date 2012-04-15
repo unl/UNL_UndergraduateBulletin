@@ -1,5 +1,5 @@
 <?php 
-chdir(dirname(dirname(dirname(__FILE__))));
+chdir(dirname(dirname(dirname(__FILE__))).'/src');
 
 require_once 'UNL/Autoload.php';
 UNL_Templates::$options['version'] = 3;

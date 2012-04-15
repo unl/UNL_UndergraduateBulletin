@@ -24,10 +24,10 @@ http://courseapproval.unl.edu/schema/courses.xsd</description>
   <email>brett.bieber@gmail.com</email>
   <active>yes</active>
  </lead>
- <date>2011-11-25</date>
- <time>08:18:29</time>
+ <date>2012-04-15</date>
+ <time>09:31:40</time>
  <version>
-  <release>0.2.0</release>
+  <release>0.3.0</release>
   <api>0.1.0</api>
  </version>
  <stability>
@@ -35,17 +35,31 @@ http://courseapproval.unl.edu/schema/courses.xsd</description>
   <api>alpha</api>
  </stability>
  <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
- <notes>Feature Release:
+ <notes>Feature Release!
 
- * Courses now support getSubsequentCourses() (reverse-prereqs)
- * Searching by prerequisite is required for all search drivers
- * Add XPATH prerequisite search support</notes>
+Now that graduate courses are in CREQ, some new tools for filtering out courses
+and various bug fixes.
+
+Features:
+
+* Add filters for graduate and undergraduate courses
+* Add support for searching for graduate and undergraduate courses
+* Add support for retrieving the intersection of two queries
+* Support strings of '*' or 'x' when searching for courses by number
+
+Bug fixes:
+
+* Search::byTitle() method missing
+* Searching for 497* returns no results [#1]
+* Add in missing + sign, supporting 3XX number prefix queries
+
+</notes>
  <contents>
   <dir name="/">
    <file role="test" name="test/pear.unl.edu/UNL_Services_CourseApproval/test_framework.php" md5sum="e4f9bc1757951877325604c19e3ab217"/>
    <file role="test" name="test/pear.unl.edu/UNL_Services_CourseApproval/subsequent_courses.phpt" md5sum="f64a2e44fbeb29244d1f513dc9345614"/>
    <file role="test" name="test/pear.unl.edu/UNL_Services_CourseApproval/subjects.phpt" md5sum="2cad4c38c985bf9ad5447cd125f722e4"/>
-   <file role="test" name="test/pear.unl.edu/UNL_Services_CourseApproval/search.phpt" md5sum="91c5c13d83c1e67476b1deb8a5604652"/>
+   <file role="test" name="test/pear.unl.edu/UNL_Services_CourseApproval/search.phpt" md5sum="7fff6d09eee8ed35fed4f556a3f2b783"/>
    <file role="test" name="test/pear.unl.edu/UNL_Services_CourseApproval/sample.phpt" md5sum="3aa1605f14db215adbecb5aea6fb9e7e"/>
    <file role="test" name="test/pear.unl.edu/UNL_Services_CourseApproval/listing.phpt" md5sum="09c4d745744c0d1868940c784c818ec1"/>
    <file role="test" name="test/pear.unl.edu/UNL_Services_CourseApproval/isset.phpt" md5sum="894be932fa8e4a53fe5ab6a6a09cf108"/>
@@ -54,16 +68,18 @@ http://courseapproval.unl.edu/schema/courses.xsd</description>
    <file role="test" name="test/pear.unl.edu/UNL_Services_CourseApproval/array_details.phpt" md5sum="a594d847a39c1e4f252ab6f224a4f7f1"/>
    <file role="test" name="test/pear.unl.edu/UNL_Services_CourseApproval/activities.phpt" md5sum="8fc02ef556eebeb64845686c5329a915"/>
    <file role="php" name="php/UNL/Services/CourseApproval/XCRIService/MockService.php" md5sum="6ce3e7960cc96859324b01d3689e483c"/>
-   <file role="php" name="php/UNL/Services/CourseApproval/XCRIService/creq.php" md5sum="1b0af0a06a3de5511d908c68c5f52765"/>
+   <file role="php" name="php/UNL/Services/CourseApproval/XCRIService/creq.php" md5sum="fa8f0b57588220b7b1d27d9c310ea438"/>
    <file role="php" name="php/UNL/Services/CourseApproval/XCRIService.php" md5sum="43510f6da18f84d84906db84e85c12ec"/>
    <file role="php" name="php/UNL/Services/CourseApproval/SubjectArea/Groups.php" md5sum="1366c9b03a537a89738761649f6f9192"/>
    <file role="php" name="php/UNL/Services/CourseApproval/SubjectArea/Courses.php" md5sum="5d8f10bdb2abd05623f2d17c4e03ead0"/>
    <file role="php" name="php/UNL/Services/CourseApproval/SubjectArea.php" md5sum="37a06f138ab00f42acca4ba2fa4cedbc"/>
-   <file role="php" name="php/UNL/Services/CourseApproval/SearchInterface/XPath.php" md5sum="5f19eaae53b43d391d93de89e778366a"/>
-   <file role="php" name="php/UNL/Services/CourseApproval/SearchInterface.php" md5sum="1820a781c2bc3454777a4aa5d4cadc59"/>
+   <file role="php" name="php/UNL/Services/CourseApproval/SearchInterface/XPath.php" md5sum="7efa52bdd6a4b9c16635d2c2c06c72f4"/>
+   <file role="php" name="php/UNL/Services/CourseApproval/SearchInterface.php" md5sum="408bd60de9d81d0455b527cd9692b9ef"/>
    <file role="php" name="php/UNL/Services/CourseApproval/Search/Results.php" md5sum="60177867c02af458d4c800edc984c17a"/>
-   <file role="php" name="php/UNL/Services/CourseApproval/Search.php" md5sum="d75e7085c5e0facd020845853518f3a6"/>
+   <file role="php" name="php/UNL/Services/CourseApproval/Search.php" md5sum="77cdc82343b88b91055b0c4581e1b7a3"/>
    <file role="php" name="php/UNL/Services/CourseApproval/Listing.php" md5sum="0d2b6c93325511b5d4a06db12d709200"/>
+   <file role="php" name="php/UNL/Services/CourseApproval/Filter/ExcludeUndergraduateCourses.php" md5sum="17a5e0f582d8f8d086108df6e24a6959"/>
+   <file role="php" name="php/UNL/Services/CourseApproval/Filter/ExcludeGraduateCourses.php" md5sum="099d7af04e732e1851840901c5be3a41"/>
    <file role="php" name="php/UNL/Services/CourseApproval/Courses.php" md5sum="867d1cf75bf8af88b4eb273c9384e417"/>
    <file role="php" name="php/UNL/Services/CourseApproval/Course/Credits.php" md5sum="32be56ea6645167ce0a5a7cc62c4ba96"/>
    <file role="php" name="php/UNL/Services/CourseApproval/Course/Codes.php" md5sum="fae6d972149685f84d70dd7273552661"/>
@@ -74,7 +90,7 @@ http://courseapproval.unl.edu/schema/courses.xsd</description>
    <file role="php" name="php/UNL/Services/CourseApproval/CachingService/CacheLite.php" md5sum="45e0a57bdcdb743c006c9a9b754260d4"/>
    <file role="php" name="php/UNL/Services/CourseApproval/CachingService.php" md5sum="9ff7d4e53553663a7b12f8f89da48fd5"/>
    <file role="php" name="php/UNL/Services/CourseApproval.php" md5sum="9aa460c3b7225ab2987762fd526a36c7"/>
-   <file role="doc" name="doc/pear.unl.edu/UNL_Services_CourseApproval/examples/Courses_by_Subject_Code.php" md5sum="6d6e7f688a8793cbb72b0eed46500d04"/>
+   <file role="doc" name="doc/pear.unl.edu/UNL_Services_CourseApproval/examples/Courses_by_Subject_Code.php" md5sum="7c2172b207b574d0fa0ed31013993fd3"/>
   </dir>
  </contents>
  <dependencies>
