@@ -111,7 +111,7 @@ class UNL_UndergraduateBulletin_CourseSearch_DBSearcher extends UNL_Services_Cou
 
     function getQueryResult($query, $offset = 0, $limit = null)
     {
-        $query =  'SELECT courses.xml FROM courses INNER JOIN crosslistings ON courses.id=crosslistings.course_id WHERE crosslistings.courseNumber < "500" AND (' . $query . ');';
+        $query =  'SELECT DISTINCT courses.id, courses.xml FROM courses INNER JOIN crosslistings ON courses.id=crosslistings.course_id WHERE crosslistings.courseNumber < "500" AND (' . $query . ');';
 
         return new UNL_UndergraduateBulletin_CourseSearch_DBSearchResults($query, $offset, $limit);
     }
