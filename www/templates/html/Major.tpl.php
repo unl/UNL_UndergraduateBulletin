@@ -1,6 +1,6 @@
 <?php
 $url = UNL_UndergraduateBulletin_Controller::getURL();
-UNL_UndergraduateBulletin_Controller::setReplacementData('doctitle', 'UNL | Undergraduate Bulletin | '.$context->title);
+UNL_UndergraduateBulletin_Controller::setReplacementData('doctitle', $context->title.' | Undergraduate Bulletin | University of Nebraska-Lincoln');
 
 $subhead = '';
 foreach ($context->colleges as $college) {

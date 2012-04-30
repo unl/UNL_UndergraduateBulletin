@@ -72,7 +72,7 @@
         <link rel="alternate" type="text/xml" href="'.$permalink.'?format=xml" />
         <link rel="alternate" type="text/javascript" href="'.$permalink.'?format=json" />
         <link rel="alternate" type="text/html" href="'.$permalink.'?format=partial" />');
-        UNL_UndergraduateBulletin_Controller::setReplacementData('doctitle', 'UNL | Undergraduate Bulletin | '.$subject.' '.$listings.': '.$context->title);
+        UNL_UndergraduateBulletin_Controller::setReplacementData('doctitle', $subject.' '.$listings.': '.$context->title.' | Undergraduate Bulletin | University of Nebraska-Lincoln');
         UNL_UndergraduateBulletin_Controller::setReplacementData('breadcrumbs', '
     <ul>
         <li><a href="http://www.unl.edu/">UNL</a></li>
