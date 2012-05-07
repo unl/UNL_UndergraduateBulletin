@@ -18,26 +18,20 @@ foreach (new UNL_UndergraduateBulletin_CollegeList() as $college) {
 
     /* @var $college UNL_UndergraduateBulletin_College */
     foreach ($college->majors as $major) {
+
         /* @var $major UNL_UndergraduateBulletin_Major */
+        $missing_courses = UNL_UndergraduateBulletin_EPUB_Utilities::findUnknownCourses($major->getDescription()->description);
+        if (empty($missing_courses)) {
+            continue;
+        }
 
         echo $major->title.' unknown courses:'.PHP_EOL;
-
-        /* @var $major UNL_UndergraduateBulletin_Major */
-        foreach (UNL_UndergraduateBulletin_EPUB_Utilities::findCourses($major->getDescription()->description)  as $description_subject_code => $description_courses) {
-            try {
-                $description_subject = new UNL_Services_CourseApproval_SubjectArea($description_subject_code);
-                foreach ($description_courses as $description_course) {
-                    // try and get the listing
-                    $check_course = $description_subject->courses[$description_course];
-                    unset($check_course);
-                }
-            } catch (Exception $e) {
-                echo "  - $description_subject_code $description_course\n";
-                $missing_courses["$description_subject_code $description_course"][] = "Found in $major->title description";
+        foreach ($missing_courses as $missing_subject_code=>$missing_course_numbers) {
+            foreach ($missing_course_numbers as $missing_course_number) {
+                echo "  - $missing_subject_code $missing_course_number\n";
             }
-            unset($description_subject);
         }
+
     }
 }
 
-var_dump($missing_courses);
