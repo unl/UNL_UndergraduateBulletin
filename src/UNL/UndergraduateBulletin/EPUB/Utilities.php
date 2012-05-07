@@ -138,6 +138,38 @@ class UNL_UndergraduateBulletin_EPUB_Utilities
     }
 
     /**
+     * Find MISSING courses within a block of raw text
+     * 
+     * @param string $text Generic text with inline course references
+     * 
+     * @return array Subject codes and course numbers, e.g. array('AGRO'=>array('153'))
+     */
+    public static function findUnknownCourses($text)
+    {
+        $missing_courses = array();
+
+        foreach (self::findCourses($text)  as $subject_code => $courses) {
+            try {
+                $subject = new UNL_Services_CourseApproval_SubjectArea($subject_code);
+                foreach ($courses as $course) {
+                    try {
+                        // try and get the listing
+                        $check_course = $subject->courses[$course];
+                        unset($check_course);
+                    } catch (Exception $e) {
+                        $missing_courses[$subject_code][] =  $course;
+                    }
+                }
+            } catch (Exception $e) {
+                // Missing subject code, all the courses are unknown
+                $missing_courses[$subject_code] = $courses;
+            }
+            unset($subject);
+        }
+        return $missing_courses;
+    }
+
+    /**
      * Link courses found within the text
      * 
      * @param string   $text     Text to scan for links
