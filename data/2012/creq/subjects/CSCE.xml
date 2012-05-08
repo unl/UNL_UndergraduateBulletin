@@ -799,6 +799,48 @@
     </credits>
   </course>
   <course>
+    <title>Honors: Introduction to Discrete Structures</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CSCE</subject>
+        <courseNumber>235</courseNumber>
+        <courseLetter>H</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1128</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Good Standing in UNL Honors Program or by invitation; grades of 'P' or 'C' or better in CSCE 155A, CSCE 155E, CSCE 155H, CSCE 155N, or CSCE 155T: MATH 106/106H or equivalent.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">CSCE235H covers the same topics as CSCE235, but in greater depth. For course description, see CSCE235.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+      <activity>
+        <type>rct</type>
+        <hours>1</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Embedded Systems</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -1254,16 +1296,59 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1128</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Grades of "Pass" or "C" or better in CSCE 156/156H and 235.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Grades of "Pass" or "C" or better in CSCE 156/156H and 235/235H.</div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">Theoretical concepts with programming assignments.</div>
     </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Algorithm analysis, asymptotic notation, and solving recurrence relations. Basic data structures (linked-lists, stacks, queues). Advanced data structures and their associated algorithms, heaps, priority queues, hash tables, trees, binary search trees, and graphs. Advanced sorting algorithms, and algorithmic techniques, randomization, divide and conquer, greedy algorithms, dynamic programming, and distributed algorithms. Introduction to computability and NP-completeness.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">A review of algorithm analysis, asymptotic notation, and solving recurrence relations.  Advanced data structures and their associated algorithms, heaps, priority queues, hash tables, trees, binary search trees, and graphs.  Algorithmic techniques, divide and conquer, transform and conquer, space-time trade-offs, greedy algorithms, dynamic programming, randomization, and distributed algorithms.  Introduction to computability and NP-completeness.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+      <activity>
+        <type>rct</type>
+        <hours>1</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Honors: Data Structures and Algorithms</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CSCE</subject>
+        <courseNumber>310</courseNumber>
+        <courseLetter>H</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1128</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Good Standing in UNL Honors Program or by invitation; grades of 'P' or 'C' or better in CSCE 156/156H and 235/235H.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">CSCE310H covers the same topics as CSCE310, but in greater depth. For course description, see CSCE310.</div>
     </description>
     <campuses>
       <campus>UNL</campus>

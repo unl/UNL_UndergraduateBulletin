@@ -9,16 +9,16 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1091</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1128</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">High school chemistry or equivalent strongly recommended.</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Parallel BIOS 101L.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Parallel BIOS 101L. BIOS 101 provides the foundation for tomorrow’s citizens to critically think about and evaluate issues in biology. Not intended for most Life Sciences majors; such students should take BIOS 102 and BIOS 103 instead. This course does not count towards the biology major.</div>
     </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Analysis of the structure, functions, and interactions of organisms at the molecular, cellular, and individual levels of organization.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Analysis of the structure, functions, and interactions of organisms from the molecular to the ecosystem levels.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -1397,6 +1397,44 @@
     </credits>
   </course>
   <course>
+    <title>Molecular Biology</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>BIOS</subject>
+        <courseNumber>303</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1128</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">12 hours Biological Sciences including BIOS102 and BIOS206.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Molecular biology of prokaryotes and eukaryotes. Review of the experimental basis for the principles of the discipline.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>School of Biological Sciences Seminar</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -2568,8 +2606,8 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1128</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">12 hrs psychology or 12 hrs biological sciences, including PSYC 373 or BIOS 373.</div>
     </prerequisite>
@@ -2587,10 +2625,14 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
-      <credit type="Lower Range Limit">2</credit>
-      <credit type="Upper Range Limit">3</credit>
+      <credit type="Single Value">3</credit>
     </credits>
   </course>
   <course>

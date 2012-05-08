@@ -187,12 +187,12 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <effectiveSemester>1128</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">ELEC 215 with a grade of "C" or better. Prerequisite or parallel: MATH 221 or 221H.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Kirchhoff's laws and circuit analysis theorems applied to steady state diode circuits. Steady state power calculations for sinusoidal single-phase and balanced three-phase circuits. Mutual inductance. Frequency response. Introduction to fundamentals of semiconductor theory and their application to p-n junction devices. Kirchhoff's laws and circuit analysis theorems applied to steady state diode circuits. Modern computer methods employed.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Steady state power calculations for sinusoidal single-phase and balanced three-phase circuits. Mutual inductance. Frequency response. Introduction to fundamentals of semiconductor theory and their application to p-n junction devices. Kirchhoff's laws and circuit analysis theorems applied to steady state diode circuits. Modern computer methods employed.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -224,10 +224,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1128</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ELEC 122 or CSCE 230.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">ELEC 122 or CSCE 230, and CSCE 155E, or equivalent.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Basic hardware and software concepts of embedded microprocessor systems and interfacing with other hardware components. Simple circuits are designed and drivers to run these circuits are written. Design and build hardware and write drivers in assembly language.</div>
@@ -243,7 +243,12 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
@@ -656,69 +661,6 @@
     </credits>
   </course>
   <course>
-    <title>Digital Electronics</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ELEC</subject>
-        <courseNumber>362</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ELEC 316.</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Basic MOS and BJT saturating and nonsaturating logic circuits; memories; GaAs integrated circuits; bus consideration and interconnections.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities/>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Digital Electronics Laboratory</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ELEC</subject>
-        <courseNumber>363</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Measurement of static and dynamic electrical properties and performance limitations of CMOS, TTL, ECL, and GaAs digital integrated circuits, including static and dynamic random access memories; constraints on electrical interconnections between integrated circuits.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities/>
-    <credits>
-      <credit type="Single Value">1</credit>
-    </credits>
-  </course>
-  <course>
     <title>Digital Logic Design</title>
     <courseCodes>
       <courseCode type="crosslisting">
@@ -753,39 +695,6 @@
     <activities/>
     <credits>
       <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Digital Systems Laboratory</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ELEC</subject>
-        <courseNumber>382</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ELEC 370.</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Design of combinational and sequential circuits using MSI/LSI/PLD components; synthesis of fundamental-, clock-, and pulse-mode circuits; design of digital systems based on RTL and state machine descriptions; designs using CAD tools. Assembly language programs, basic datapath structure and a simple controller.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities/>
-    <credits>
-      <credit type="Single Value">1</credit>
     </credits>
   </course>
   <course>
@@ -859,6 +768,47 @@
     <credits>
       <credit type="Lower Range Limit">1</credit>
       <credit type="Upper Range Limit">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Undergraduate Research</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ELEC</subject>
+        <courseNumber>399</courseNumber>
+        <courseLetter>R</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1128</effectiveSemester>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">For electrical engineering majors selecting the research option.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Independent research project executed under the guidance of a member of the faculty of the Department of Electrical Engineering which contributes to the advancement of knowledge in the field.  Culminates in a written thesis or report and an oral presentation.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>ind</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">3</credit>
+      <credit type="Per Semester Limit">3</credit>
+      <credit type="Per Career Limit">3</credit>
     </credits>
   </course>
   <course>
@@ -1241,8 +1191,8 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1085</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1128</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">ELEC 304 and 316.</div>
     </prerequisite>
@@ -1260,7 +1210,15 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
   </course>
   <course>
     <title>Wind Energy</title>
@@ -1833,12 +1791,16 @@
         <subject>ELEC</subject>
         <courseNumber>479</courseNumber>
       </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>ELEC</subject>
+        <courseNumber>879</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1128</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ELEC 476/876.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">ELEC 475/875.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Hardware development languages, hardware organization and realization, microprogramming, interrupt, intersystem communication, and peripheral interfacing.</div>
@@ -1854,7 +1816,12 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>

@@ -8,11 +8,11 @@
         <courseNumber>100</courseNumber>
       </courseCode>
     </courseCodes>
-    <gradingType>unrestricted</gradingType>
+    <gradingType>pass/no pass only</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1111</effectiveSemester>
+    <effectiveSemester>1128</effectiveSemester>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Pass/No pass only. Students should take this course as earlier in their studies as possible, even if they have not taken PSYC 181. This course does not apply to the psychology major.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Pass/No pass only. Students should take this course as early in their studies as possible, even if they have not taken PSYC 181.</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Survey of careers frequently sought by psychology majors, and recommendations for course work and experience for attaining students' career goals. Includes departmental, college, and university resources of value to students' educational and career objectives, and preparation for graduate study in psychology and related fields.</div>
@@ -28,7 +28,11 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">1</credit>
     </credits>
@@ -902,10 +906,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1108</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1128</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">6 hrs psychology including one of the following: PSYC 287, 288, 289, 350, or 351.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">6 hrs psychology including one of the following: PSYC 287, 288, 289, or 350.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Etiology and development of abnormal behavior, including the constitutional, cultural, and experimental factors; the psychological aspects of the psychoses and neuroses.</div>
@@ -1694,8 +1698,8 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1128</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">12 hrs psychology or 12 hrs biological sciences, including PSYC 373 or BIOS 373.</div>
     </prerequisite>
@@ -1713,10 +1717,14 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
-      <credit type="Lower Range Limit">2</credit>
-      <credit type="Upper Range Limit">3</credit>
+      <credit type="Single Value">3</credit>
     </credits>
   </course>
   <course>
@@ -2432,7 +2440,7 @@
     </credits>
   </course>
   <course>
-    <title>Psychometric Methods I</title>
+    <title>Fundamentals of Research Design and Data Analysis 1</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>PSYC</subject>
@@ -2440,13 +2448,16 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1128</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Permission</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Instructor permission</div>
     </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">PSYC 941 is usually offered every fall.</div>
+    </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Applications of statistical methods and probability theory to psychological problems. Scaling methods, correlation, chi-square, and graphic methods of studying relationships.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Presentation of basic methods, designs, and data analysis techniques employed in psychological and behavioral research. Univariate and bivariate statistical analyses and research hypothesis testing, multiple groups ANOVA, multiple regression, and the general linear model (GLM).</div>
     </description>
     <campuses>
       <campus></campus>
@@ -2454,13 +2465,23 @@
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
-    <activities/>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
   </course>
   <course>
-    <title>Psychometric Methods II</title>
+    <title>Fundamentals of Research Design and Data Analysis 2</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>PSYC</subject>
@@ -2468,27 +2489,35 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1128</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">PSYC 941 or permission</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">PSYC 941 and instructor permission</div>
     </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">PSYC 942 is usually offered every spring.</div>
+    </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Psychophysical methods, analysis of variance, design of experiments, advanced correlation analysis.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Presentation of additional basic methods, designs, and data analysis techniques employed in psychological and behavioral research. Factorial designs and ANOVA, integrating these designs into the general linear model (GLM), testing and comparing models, uses of statistical control, path analysis, linear discriminant function analysis, and cluster analysis.</div>
     </description>
     <campuses>
-      <campus></campus>
+      <campus>UNL</campus>
     </campuses>
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
   </course>
   <course>
-    <title>Factor Analysis</title>
+    <title>Fundamentals of Multivariate Modeling</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>PSYC</subject>
@@ -2496,27 +2525,35 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1128</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">PSYC 942 or EDPS 971 or permission</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">PSYC 942 and instructor permission</div>
     </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">PSYC 943 is a pre-requisite for PSYC 944 and PSYC 948.</div>
+    </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Analysis of mental ability and personality into sets of variables.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Presentation of the core topics in modern multivariate analysis, including extensions of linear models involving link functions, maximum likelihood and Bayesian estimation, missing data, path models for multivariate regression and mediation, repeated measures analysis of variance, and exploratory factor analysis.</div>
     </description>
     <campuses>
-      <campus></campus>
+      <campus>UNL</campus>
     </campuses>
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
   </course>
   <course>
-    <title>Multilevel Models for Longitudinal Data</title>
+    <title>Multilevel Models for Longitudinal and Repeated Measures Data</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>PSYC</subject>
@@ -2524,13 +2561,13 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1128</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">PSYC 941, 942, and permission</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">PSYC 943 and instructor permission</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Applications of the multilevel model (hierarchical linear model, general linear mixed model) for examining longitudinal data, random effects (growth curve) models, within-person variation models, and prediction of between-person and within-person variation using covariates.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Applications of the multilevel model (hierarchical linear model, general linear mixed model) for analyzing longitudinal and repeated measures data, including analysis of growth curves, within-person fluctuation, repeated measures research designs with crossed random effects, and simultaneous prediction of multiple sources of variation.</div>
     </description>
     <campuses>
       <campus></campus>
@@ -2649,7 +2686,7 @@
     </credits>
   </course>
   <course>
-    <title>Latent Trait Measurement Models</title>
+    <title>Latent Trait Measurement and Structural Equation Models</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>PSYC</subject>
@@ -2657,13 +2694,16 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1128</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">PSYC 941, 942, and permission</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">PSYC 943 and instructor permission</div>
     </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">PSYC 944 and PSYC 948 may be taken in any order.</div>
+    </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Contemporary measurement theory and models for scale construction and evaluation, confirmatory factor analysis, and item response modeling.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Contemporary measurement theory and latent variable models for scale construction and evaluation, including confirmatory factor analysis, item response modeling, diagnostic classification models, and structural equation modeling.</div>
     </description>
     <campuses>
       <campus></campus>

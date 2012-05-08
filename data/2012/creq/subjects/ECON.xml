@@ -87,13 +87,13 @@
       </courseCode>
     </courseCodes>
     <gradingType>letter grade only</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1121</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1128</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">12 credit hours</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Letter grade only.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Letter grade only. Credit towards the degree cannot be earned in both ECON 200 and ECON 211 and/or ECON 212.</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml"><em>This course fulfills the economics requirement for the Minor in Business Administration for non-CBA students and cannot be applied to any other degree program.</em> Introduction to economic reasoning and methods.Consumer choice, resources, decision making under constraints, supply, demand, markets, economic welfare analysis, measurement, prices, employment, money and interest rates.Economic policy and limitations are evaluated.</div>
@@ -2013,7 +2013,7 @@
     </credits>
   </course>
   <course>
-    <title>Government and Labor</title>
+    <title>The Regulatory Environment for Employment and Labor</title>
     <courseCodes>
       <courseCode type="crosslisting">
         <subject>ECON</subject>
@@ -2034,11 +2034,11 @@
         <courseNumber>866</courseNumber>
       </courseCode>
     </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1128</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">MNGT 361 or ECON 381.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Junior Standing; MNGT 360 and 361 (departmental permission is required if MNGT 360 and/or MNGT 361 have not been completed). ECON 381 FOR ECON students.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Government regulation of employment and labor relations. Includes laws and agencies relating to employment practices, pay, hours, equal employment opportunity, labor relations, safety, health, pensions, and benefits. Social and economic implications of governmental regulation considered.</div>
@@ -2054,7 +2054,12 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>

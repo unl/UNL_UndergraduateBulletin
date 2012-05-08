@@ -232,6 +232,9 @@
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
+    <aceOutcomes>
+      <slo>3</slo>
+    </aceOutcomes>
   </course>
   <course>
     <title>Philosophy of Criminal Justice</title>
@@ -1165,6 +1168,44 @@
     <activities/>
     <credits>
       <credit type="Single Value">0</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Criminal Justice Internship</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CRIM</subject>
+        <courseNumber>818</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1128</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Admission to graduate program in Criminology and Criminal Justice, successful completion of 15 hours of graduate work, and permission of instructor. CRIM 818 is not open to nondegree students.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">This course is designed to provide supervised individualized learning experiences in a selected criminal justice agency. The principal objective of the internship is to provide students with the opportunity to apply theoretical and methodological principles acquired in graduate courses to the analysis of problems in local criminal justice agencies.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>ind</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
     </credits>
   </course>
 </courses>

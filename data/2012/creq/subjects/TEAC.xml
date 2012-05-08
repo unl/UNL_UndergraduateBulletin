@@ -4845,10 +4845,10 @@ D. Mathematics Methods for the Primary Student: K to 3rd (3 cr) Prereq: Parallel
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1128</effectiveSemester>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Critical analysis of literature and research on teaching, learning, and schooling.<br/>A.	Special Topics in Education (1-3cr)</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Critical analysis of literature and research on teaching, learning, and schooling.<br/>A. Special Topics in Education (1-3 cr)</div>
     </description>
     <campuses>
       <campus></campus>
@@ -4860,7 +4860,7 @@ D. Mathematics Methods for the Primary Student: K to 3rd (3 cr) Prereq: Parallel
     <credits>
       <credit type="Lower Range Limit">1</credit>
       <credit type="Upper Range Limit">3</credit>
-      <credit type="Per Career Limit">6</credit>
+      <credit type="Per Career Limit">9</credit>
     </credits>
   </course>
   <course>
@@ -4936,6 +4936,41 @@ D. Mathematics Methods for the Primary Student: K to 3rd (3 cr) Prereq: Parallel
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
     <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Seminar on Writing in the Curriculum</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>953</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1128</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Writing development, writing instruction, and the use of writing in the content areas. Consideration of application of scholarship in writing for general learning and instruction.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>

@@ -208,6 +208,9 @@
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
+    <aceOutcomes>
+      <slo>9</slo>
+    </aceOutcomes>
   </course>
   <course>
     <title>Earth's Natural Resource Systems Laboratory</title>
@@ -1142,10 +1145,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1111</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1128</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CHEM 109, SOIL 153, STAT 218, WATS 281</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">SOIL 153, WATS 281, CHEM 105 or 109.  Recommend taking STAT 218.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Development of sampling plans and quality assurance project plans (QAPP). Stepwise procedures for correct sampling of soil-air-water environments. Data quality assessment.</div>
@@ -2572,6 +2575,81 @@
     </deliveryMethods>
     <termsOffered>
       <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Food Security: A Global Perspective</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ANTH</subject>
+        <courseNumber>429</courseNumber>
+        <courseLetter>A</courseLetter>
+        <courseGroup>Additional Anthropology Courses</courseGroup>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>ANTH</subject>
+        <courseNumber>829</courseNumber>
+        <courseLetter>A</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>HORT</subject>
+        <courseNumber>429</courseNumber>
+        <courseLetter>A</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>HORT</subject>
+        <courseNumber>829</courseNumber>
+        <courseLetter>A</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>AGRO</subject>
+        <courseNumber>429</courseNumber>
+        <courseLetter>A</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>AGRO</subject>
+        <courseNumber>829</courseNumber>
+        <courseLetter>A</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>NRES</subject>
+        <courseNumber>429</courseNumber>
+        <courseLetter>A</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>NRES</subject>
+        <courseNumber>829</courseNumber>
+        <courseLetter>A</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1125</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Junior standing</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Overview of the technical and sociocultural dimensions of global food insecurity. <br/><br/></div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
     </termsOffered>
     <activities>
       <activity>

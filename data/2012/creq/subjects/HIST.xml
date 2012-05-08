@@ -1094,11 +1094,11 @@
         <courseGroup>Latin American, Asian, Middle Eastern or African History</courseGroup>
       </courseCode>
       <courseCode type="crosslisting">
-        <subject>JUDS</subject>
+        <subject>RELG</subject>
         <courseNumber>217</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
-        <subject>RELG</subject>
+        <subject>JUDS</subject>
         <courseNumber>217</courseNumber>
       </courseCode>
     </courseCodes>
@@ -1136,11 +1136,11 @@
         <courseGroup>Latin American, Asian, Middle Eastern or African History</courseGroup>
       </courseCode>
       <courseCode type="crosslisting">
-        <subject>JUDS</subject>
+        <subject>RELG</subject>
         <courseNumber>219</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
-        <subject>RELG</subject>
+        <subject>JUDS</subject>
         <courseNumber>219</courseNumber>
       </courseCode>
     </courseCodes>
@@ -1794,15 +1794,15 @@
   <course>
     <title>Colonial Latin America</title>
     <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>ETHN</subject>
+        <courseNumber>271</courseNumber>
+      </courseCode>
       <courseCode type="home listing">
         <subject>HIST</subject>
         <courseNumber>271</courseNumber>
         <courseGroup>Latin American, Asian, Middle Eastern or African History</courseGroup>
         <courseGroup>Pre-1800</courseGroup>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>ETHN</subject>
-        <courseNumber>271</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
         <subject>LAMS</subject>
@@ -1842,14 +1842,14 @@
   <course>
     <title>Modern Latin America</title>
     <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>ETHN</subject>
+        <courseNumber>272</courseNumber>
+      </courseCode>
       <courseCode type="home listing">
         <subject>HIST</subject>
         <courseNumber>272</courseNumber>
         <courseGroup>Latin American, Asian, Middle Eastern or African History</courseGroup>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>ETHN</subject>
-        <courseNumber>272</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
         <subject>LAMS</subject>
@@ -2155,14 +2155,6 @@
   <course>
     <title>Early Christianity</title>
     <courseCodes>
-      <courseCode type="home listing">
-        <subject>CLAS</subject>
-        <courseNumber>307</courseNumber>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>CLAS</subject>
-        <courseNumber>807</courseNumber>
-      </courseCode>
       <courseCode type="crosslisting">
         <subject>HIST</subject>
         <courseNumber>307</courseNumber>
@@ -2173,6 +2165,14 @@
         <subject>HIST</subject>
         <courseNumber>807</courseNumber>
         <courseGroup>European History</courseGroup>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>CLAS</subject>
+        <courseNumber>307</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>CLAS</subject>
+        <courseNumber>807</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
         <subject>RELG</subject>
@@ -2258,15 +2258,15 @@
   <course>
     <title>Medieval World: Byzantium</title>
     <courseCodes>
-      <courseCode type="home listing">
-        <subject>CLAS</subject>
-        <courseNumber>315</courseNumber>
-      </courseCode>
       <courseCode type="crosslisting">
         <subject>HIST</subject>
         <courseNumber>315</courseNumber>
         <courseGroup>European History</courseGroup>
         <courseGroup>Pre-1800</courseGroup>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>CLAS</subject>
+        <courseNumber>315</courseNumber>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
@@ -2782,10 +2782,6 @@
   <course>
     <title>Ancient Israel</title>
     <courseCodes>
-      <courseCode type="crosslisting">
-        <subject>CLAS</subject>
-        <courseNumber>331</courseNumber>
-      </courseCode>
       <courseCode type="home listing">
         <subject>HIST</subject>
         <courseNumber>331</courseNumber>
@@ -2793,11 +2789,15 @@
         <courseGroup>Pre-1800</courseGroup>
       </courseCode>
       <courseCode type="crosslisting">
-        <subject>JUDS</subject>
+        <subject>CLAS</subject>
         <courseNumber>331</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
         <subject>RELG</subject>
+        <courseNumber>331</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>JUDS</subject>
         <courseNumber>331</courseNumber>
       </courseCode>
     </courseCodes>
@@ -2843,11 +2843,11 @@
         <courseGroup>Pre-1800</courseGroup>
       </courseCode>
       <courseCode type="crosslisting">
-        <subject>JUDS</subject>
+        <subject>RELG</subject>
         <courseNumber>332</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
-        <subject>RELG</subject>
+        <subject>JUDS</subject>
         <courseNumber>332</courseNumber>
       </courseCode>
     </courseCodes>
@@ -3668,14 +3668,14 @@
   <course>
     <title>Native American Women</title>
     <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>ETHN</subject>
+        <courseNumber>358</courseNumber>
+      </courseCode>
       <courseCode type="home listing">
         <subject>HIST</subject>
         <courseNumber>358</courseNumber>
         <courseGroup>United States or Canadian History</courseGroup>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>ETHN</subject>
-        <courseNumber>358</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
         <subject>WMNS</subject>
@@ -4204,6 +4204,10 @@
   <course>
     <title>Latin America and Global Relations</title>
     <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>ETHN</subject>
+        <courseNumber>373</courseNumber>
+      </courseCode>
       <courseCode type="home listing">
         <subject>HIST</subject>
         <courseNumber>373</courseNumber>
@@ -4211,10 +4215,6 @@
       </courseCode>
       <courseCode type="crosslisting">
         <subject>LAMS</subject>
-        <courseNumber>373</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>ETHN</subject>
         <courseNumber>373</courseNumber>
       </courseCode>
     </courseCodes>
@@ -4251,13 +4251,13 @@
   <course>
     <title>History of Brazil</title>
     <courseCodes>
-      <courseCode type="home listing">
-        <subject>HIST</subject>
+      <courseCode type="crosslisting">
+        <subject>ETHN</subject>
         <courseNumber>374</courseNumber>
         <courseGroup>Latin American, Asian, Middle Eastern or African History</courseGroup>
       </courseCode>
-      <courseCode type="crosslisting">
-        <subject>ETHN</subject>
+      <courseCode type="home listing">
+        <subject>HIST</subject>
         <courseNumber>374</courseNumber>
         <courseGroup>Latin American, Asian, Middle Eastern or African History</courseGroup>
       </courseCode>
@@ -4300,11 +4300,6 @@
   <course>
     <title>Women and Work in USA History</title>
     <courseCodes>
-      <courseCode type="home listing">
-        <subject>ECON</subject>
-        <courseNumber>375</courseNumber>
-        <courseGroup>Economic History</courseGroup>
-      </courseCode>
       <courseCode type="crosslisting">
         <subject>HIST</subject>
         <courseNumber>375</courseNumber>
@@ -4313,6 +4308,11 @@
       <courseCode type="crosslisting">
         <subject>WMNS</subject>
         <courseNumber>375</courseNumber>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>ECON</subject>
+        <courseNumber>375</courseNumber>
+        <courseGroup>Economic History</courseGroup>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
@@ -4478,12 +4478,12 @@
   <course>
     <title>African Liberation in the African Diaspora</title>
     <courseCodes>
-      <courseCode type="home listing">
-        <subject>HIST</subject>
-        <courseNumber>385</courseNumber>
-      </courseCode>
       <courseCode type="crosslisting">
         <subject>ETHN</subject>
+        <courseNumber>385</courseNumber>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>HIST</subject>
         <courseNumber>385</courseNumber>
       </courseCode>
     </courseCodes>
@@ -4675,6 +4675,10 @@
         <subject>GPSP</subject>
         <courseNumber>400</courseNumber>
       </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>GPSP</subject>
+        <courseNumber>800</courseNumber>
+      </courseCode>
       <courseCode type="crosslisting">
         <subject>HIST</subject>
         <courseNumber>400</courseNumber>
@@ -4684,10 +4688,6 @@
         <subject>HIST</subject>
         <courseNumber>800</courseNumber>
         <courseGroup>United States or Canadian History</courseGroup>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>GPSP</subject>
-        <courseNumber>800</courseNumber>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
@@ -4726,6 +4726,11 @@
         <courseNumber>402</courseNumber>
         <courseGroup>United States or Canadian History</courseGroup>
       </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>HIST</subject>
+        <courseNumber>802</courseNumber>
+        <courseGroup>United States or Canadian History</courseGroup>
+      </courseCode>
       <courseCode type="crosslisting">
         <subject>WMNS</subject>
         <courseNumber>402</courseNumber>
@@ -4733,11 +4738,6 @@
       <courseCode type="grad tie-in">
         <subject>WMNS</subject>
         <courseNumber>802</courseNumber>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>HIST</subject>
-        <courseNumber>802</courseNumber>
-        <courseGroup>United States or Canadian History</courseGroup>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
@@ -4770,14 +4770,6 @@
   <course>
     <title>Religion of Late Western Antiquity</title>
     <courseCodes>
-      <courseCode type="home listing">
-        <subject>CLAS</subject>
-        <courseNumber>409</courseNumber>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>CLAS</subject>
-        <courseNumber>809</courseNumber>
-      </courseCode>
       <courseCode type="crosslisting">
         <subject>HIST</subject>
         <courseNumber>409</courseNumber>
@@ -4788,6 +4780,14 @@
         <subject>HIST</subject>
         <courseNumber>809</courseNumber>
         <courseGroup>European History</courseGroup>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>CLAS</subject>
+        <courseNumber>409</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>CLAS</subject>
+        <courseNumber>809</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
         <subject>RELG</subject>
@@ -5915,16 +5915,6 @@
   <course>
     <title>19th Century United States Economic History</title>
     <courseCodes>
-      <courseCode type="home listing">
-        <subject>ECON</subject>
-        <courseNumber>457</courseNumber>
-        <courseGroup>Economic History</courseGroup>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>ECON</subject>
-        <courseNumber>857</courseNumber>
-        <courseGroup>Economic History</courseGroup>
-      </courseCode>
       <courseCode type="crosslisting">
         <subject>HIST</subject>
         <courseNumber>457</courseNumber>
@@ -5934,6 +5924,16 @@
         <subject>HIST</subject>
         <courseNumber>857</courseNumber>
         <courseGroup>United States or Canadian History</courseGroup>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>ECON</subject>
+        <courseNumber>457</courseNumber>
+        <courseGroup>Economic History</courseGroup>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>ECON</subject>
+        <courseNumber>857</courseNumber>
+        <courseGroup>Economic History</courseGroup>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
@@ -5964,16 +5964,6 @@
   <course>
     <title>20th Century United States Economic History</title>
     <courseCodes>
-      <courseCode type="home listing">
-        <subject>ECON</subject>
-        <courseNumber>458</courseNumber>
-        <courseGroup>Economic History</courseGroup>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>ECON</subject>
-        <courseNumber>858</courseNumber>
-        <courseGroup>Economic History</courseGroup>
-      </courseCode>
       <courseCode type="crosslisting">
         <subject>HIST</subject>
         <courseNumber>458</courseNumber>
@@ -5983,6 +5973,16 @@
         <subject>HIST</subject>
         <courseNumber>858</courseNumber>
         <courseGroup>United States or Canadian History</courseGroup>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>ECON</subject>
+        <courseNumber>458</courseNumber>
+        <courseGroup>Economic History</courseGroup>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>ECON</subject>
+        <courseNumber>858</courseNumber>
+        <courseGroup>Economic History</courseGroup>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
@@ -6160,6 +6160,10 @@
   <course>
     <title>Indigenous Peoples of Latin America</title>
     <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>ETHN</subject>
+        <courseNumber>463</courseNumber>
+      </courseCode>
       <courseCode type="home listing">
         <subject>HIST</subject>
         <courseNumber>463</courseNumber>
@@ -6170,10 +6174,6 @@
       </courseCode>
       <courseCode type="crosslisting">
         <subject>LAMS</subject>
-        <courseNumber>463</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>ETHN</subject>
         <courseNumber>463</courseNumber>
       </courseCode>
     </courseCodes>
@@ -6467,14 +6467,14 @@
   <course>
     <title>Digital History</title>
     <courseCodes>
-      <courseCode type="grad tie-in">
-        <subject>HIST</subject>
-        <courseNumber>870</courseNumber>
-        <courseGroup>Additional History Courses</courseGroup>
-      </courseCode>
       <courseCode type="home listing">
         <subject>HIST</subject>
         <courseNumber>470</courseNumber>
+        <courseGroup>Additional History Courses</courseGroup>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>HIST</subject>
+        <courseNumber>870</courseNumber>
         <courseGroup>Additional History Courses</courseGroup>
       </courseCode>
     </courseCodes>
@@ -6512,6 +6512,10 @@
   <course>
     <title>African Americans in the Jazz Age</title>
     <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>ETHN</subject>
+        <courseNumber>474</courseNumber>
+      </courseCode>
       <courseCode type="home listing">
         <subject>HIST</subject>
         <courseNumber>474</courseNumber>
@@ -6521,10 +6525,6 @@
         <subject>HIST</subject>
         <courseNumber>874</courseNumber>
         <courseGroup>United States or Canadian History</courseGroup>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>ETHN</subject>
-        <courseNumber>474</courseNumber>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
@@ -6567,6 +6567,11 @@
   <course>
     <title>Gender and Sexuality in Latin America</title>
     <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>ETHN</subject>
+        <courseNumber>476</courseNumber>
+        <courseLetter>A</courseLetter>
+      </courseCode>
       <courseCode type="home listing">
         <subject>HIST</subject>
         <courseNumber>476</courseNumber>
@@ -6575,11 +6580,6 @@
       <courseCode type="grad tie-in">
         <subject>HIST</subject>
         <courseNumber>876</courseNumber>
-        <courseLetter>A</courseLetter>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>ETHN</subject>
-        <courseNumber>476</courseNumber>
         <courseLetter>A</courseLetter>
       </courseCode>
       <courseCode type="crosslisting">
@@ -6626,6 +6626,11 @@
   <course>
     <title>Race in Modern Latin America</title>
     <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>ETHN</subject>
+        <courseNumber>476</courseNumber>
+        <courseLetter>B</courseLetter>
+      </courseCode>
       <courseCode type="home listing">
         <subject>HIST</subject>
         <courseNumber>476</courseNumber>
@@ -6634,11 +6639,6 @@
       <courseCode type="grad tie-in">
         <subject>HIST</subject>
         <courseNumber>876</courseNumber>
-        <courseLetter>B</courseLetter>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>ETHN</subject>
-        <courseNumber>476</courseNumber>
         <courseLetter>B</courseLetter>
       </courseCode>
     </courseCodes>
@@ -6675,6 +6675,10 @@
   <course>
     <title>Indigenous Peoples of the World</title>
     <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>ETHN</subject>
+        <courseNumber>477</courseNumber>
+      </courseCode>
       <courseCode type="home listing">
         <subject>HIST</subject>
         <courseNumber>477</courseNumber>
@@ -6684,10 +6688,6 @@
         <subject>HIST</subject>
         <courseNumber>877</courseNumber>
         <courseGroup>Latin American, Asian, Middle Eastern or African History</courseGroup>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>ETHN</subject>
-        <courseNumber>477</courseNumber>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
@@ -6723,6 +6723,16 @@
   <course>
     <title>Pro-seminar in Latin American Studies</title>
     <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>GEOG</subject>
+        <courseNumber>478</courseNumber>
+        <courseGroup>Regional Geography</courseGroup>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>GEOG</subject>
+        <courseNumber>878</courseNumber>
+        <courseGroup>Regional Geography</courseGroup>
+      </courseCode>
       <courseCode type="home listing">
         <subject>ANTH</subject>
         <courseNumber>478</courseNumber>
@@ -6734,24 +6744,6 @@
         <courseGroup>Integrative Courses, Research and Reading</courseGroup>
       </courseCode>
       <courseCode type="crosslisting">
-        <subject>EDPS</subject>
-        <courseNumber>478</courseNumber>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>EDPS</subject>
-        <courseNumber>878</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>GEOG</subject>
-        <courseNumber>478</courseNumber>
-        <courseGroup>Regional Geography</courseGroup>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>GEOG</subject>
-        <courseNumber>878</courseNumber>
-        <courseGroup>Regional Geography</courseGroup>
-      </courseCode>
-      <courseCode type="crosslisting">
         <subject>HIST</subject>
         <courseNumber>478</courseNumber>
         <courseGroup>Latin American, Asian, Middle Eastern or African History</courseGroup>
@@ -6760,35 +6752,43 @@
         <subject>HIST</subject>
         <courseNumber>878</courseNumber>
         <courseGroup>Latin American, Asian, Middle Eastern or African History</courseGroup>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>POLS</subject>
+        <courseNumber>478</courseNumber>
+        <courseGroup>Foreign and Comparative Government</courseGroup>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>POLS</subject>
+        <courseNumber>878</courseNumber>
+        <courseGroup>Foreign and Comparative Government</courseGroup>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>SOCI</subject>
+        <courseNumber>478</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>SOCI</subject>
+        <courseNumber>878</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>MODL</subject>
+        <courseNumber>478</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>MODL</subject>
+        <courseNumber>878</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
         <subject>LAMS</subject>
         <courseNumber>478</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
-        <subject>MODL</subject>
+        <subject>EDPS</subject>
         <courseNumber>478</courseNumber>
       </courseCode>
       <courseCode type="grad tie-in">
-        <subject>MODL</subject>
-        <courseNumber>878</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>POLS</subject>
-        <courseNumber>478</courseNumber>
-        <courseGroup>Foreign and Comparative Government</courseGroup>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>POLS</subject>
-        <courseNumber>878</courseNumber>
-        <courseGroup>Foreign and Comparative Government</courseGroup>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>SOCI</subject>
-        <courseNumber>478</courseNumber>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>SOCI</subject>
+        <subject>EDPS</subject>
         <courseNumber>878</courseNumber>
       </courseCode>
     </courseCodes>
@@ -6825,8 +6825,14 @@
     <title>Pro-seminar in International Relations I</title>
     <courseCodes>
       <courseCode type="crosslisting">
-        <subject>AECN</subject>
-        <courseNumber>467</courseNumber>
+        <subject>GEOG</subject>
+        <courseNumber>448</courseNumber>
+        <courseGroup>Human-Economic Geography</courseGroup>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>GEOG</subject>
+        <courseNumber>848</courseNumber>
+        <courseGroup>Human-Economic Geography</courseGroup>
       </courseCode>
       <courseCode type="crosslisting">
         <subject>ANTH</subject>
@@ -6837,26 +6843,6 @@
         <subject>ANTH</subject>
         <courseNumber>879</courseNumber>
         <courseGroup>Integrative Courses, Research and Reading</courseGroup>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>ECON</subject>
-        <courseNumber>466</courseNumber>
-        <courseGroup>Comparative International and Regional Development</courseGroup>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>ECON</subject>
-        <courseNumber>866</courseNumber>
-        <courseGroup>Comparative International and Regional Development</courseGroup>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>GEOG</subject>
-        <courseNumber>448</courseNumber>
-        <courseGroup>Human-Economic Geography</courseGroup>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>GEOG</subject>
-        <courseNumber>848</courseNumber>
-        <courseGroup>Human-Economic Geography</courseGroup>
       </courseCode>
       <courseCode type="crosslisting">
         <subject>HIST</subject>
@@ -6885,6 +6871,20 @@
       <courseCode type="grad tie-in">
         <subject>SOCI</subject>
         <courseNumber>866</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>ECON</subject>
+        <courseNumber>466</courseNumber>
+        <courseGroup>Comparative International and Regional Development</courseGroup>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>ECON</subject>
+        <courseNumber>866</courseNumber>
+        <courseGroup>Comparative International and Regional Development</courseGroup>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>AECN</subject>
+        <courseNumber>467</courseNumber>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
@@ -7176,14 +7176,14 @@
   <course>
     <title>Internship in Digital Humanities</title>
     <courseCodes>
-      <courseCode type="home listing">
-        <subject>HIST</subject>
-        <courseNumber>895</courseNumber>
-      </courseCode>
       <courseCode type="crosslisting">
         <subject>ENGL</subject>
         <courseNumber>895</courseNumber>
         <courseLetter>E</courseLetter>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>HIST</subject>
+        <courseNumber>895</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
         <subject>MODL</subject>
@@ -7787,10 +7787,6 @@
   <course>
     <title>Introduction to the Interdisciplinary Study of the Middle Ages</title>
     <courseCodes>
-      <courseCode type="home listing">
-        <subject>AHIS</subject>
-        <courseNumber>988</courseNumber>
-      </courseCode>
       <courseCode type="crosslisting">
         <subject>ENGL</subject>
         <courseNumber>988</courseNumber>
@@ -7805,6 +7801,10 @@
       </courseCode>
       <courseCode type="crosslisting">
         <subject>MUSC</subject>
+        <courseNumber>988</courseNumber>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>AHIS</subject>
         <courseNumber>988</courseNumber>
       </courseCode>
     </courseCodes>
@@ -7828,10 +7828,6 @@
   <course>
     <title>Introduction to the Interdisciplinary Study of the Renaissance</title>
     <courseCodes>
-      <courseCode type="home listing">
-        <subject>AHIS</subject>
-        <courseNumber>989</courseNumber>
-      </courseCode>
       <courseCode type="crosslisting">
         <subject>ENGL</subject>
         <courseNumber>989</courseNumber>
@@ -7846,6 +7842,10 @@
       </courseCode>
       <courseCode type="crosslisting">
         <subject>MUSC</subject>
+        <courseNumber>989</courseNumber>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>AHIS</subject>
         <courseNumber>989</courseNumber>
       </courseCode>
     </courseCodes>
