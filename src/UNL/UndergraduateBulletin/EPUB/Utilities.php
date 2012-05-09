@@ -220,8 +220,11 @@ class UNL_UndergraduateBulletin_EPUB_Utilities
             return $matches[0];
         }
 
-        $matches[0] = preg_replace('/0?([0-9]{2,4}[A-Z]?)/', '<a class="course" href="'.UNL_UndergraduateBulletin_Controller::getURL().'courses/'.$matches[1].'/$1">$0</a>', $matches[0]);
-        $matches[0] = preg_replace('/([A-Z]{3,4})\s+(\<a[^>]+\>)/', '$2$1 ', $matches[0]);
+        $matches[0] = preg_replace(
+            array('/0?([0-9]{2,4}[A-Z]?)/', '/([A-Z]{3,4})\s+(\<a[^>]+\>)/'),
+            array('<a class="course" href="'.UNL_UndergraduateBulletin_Controller::getURL().'courses/'.$matches[1].'/$1">$0</a>', '$2$1 '),
+            $matches[0]
+        );
 
         return $matches[0];
     }
