@@ -41,17 +41,21 @@ class UNL_UndergraduateBulletin_EPUB_Utilities
     
     public static function convertHeadings($html)
     {
-        // trim off pointless "generated-style" spans
-        $html = preg_replace('/<span class="generated-style">([^<]*)<\/span>/', '$1', $html);
-        $html = preg_replace('/<p class="content-box-h-1">([^<]*)<\/p>/', '<h2 class="sec_header content-box-h-1">$1</h2>', $html);
-        $html = preg_replace('/<p class="content-box-m-p">([^<]*)<\/p>/', '<h2 class="sec_header content-box-m-p">$1</h2>', $html);
-        $html = preg_replace('/<p class="section-1">([^<]*)<\/p>/', '<h3 class="section-1">$1</h3>', $html);
-        $html = preg_replace('/<p class="title-1">([^<]*)<\/p>/', '<h3 class="title-1">$1</h3>', $html);
-        $html = preg_replace('/<p class="title-2">([^<]*)<\/p>/', '<h4 class="title-2">$1</h4>', $html);
-        $html = preg_replace('/<p class="title-3">([^<]*)<\/p>/', '<h5 class="title-3">$1</h5>', $html);
-        $html = preg_replace('/<p class="section-2">([^<]*)<\/p>/', '<h4 class="section-2">$1</h4>', $html);
-        $html = preg_replace('/<p class="section-3">([^<]*)<\/p>/', '<h5 class="section-3">$1</h5>', $html);
-        $html = preg_replace('/([\s]+)?\(([\s]+)?CONTENT BOX HEADING([\s]+)?\)/i', '', $html);
+        $replacements = array(
+            // trim off pointless "generated-style" spans
+            '/<span class="generated-style">([^<]*)<\/span>/'    => '$1',
+            '/<p class="content-box-h-1">([^<]*)<\/p>/'          => '<h2 class="sec_header content-box-h-1">$1</h2>',
+            '/<p class="content-box-m-p">([^<]*)<\/p>/'          => '<h2 class="sec_header content-box-m-p">$1</h2>',
+            '/<p class="section-1">([^<]*)<\/p>/'                => '<h3 class="section-1">$1</h3>',
+            '/<p class="title-1">([^<]*)<\/p>/'                  => '<h3 class="title-1">$1</h3>',
+            '/<p class="title-2">([^<]*)<\/p>/'                  => '<h4 class="title-2">$1</h4>',
+            '/<p class="title-3">([^<]*)<\/p>/'                  => '<h5 class="title-3">$1</h5>',
+            '/<p class="section-2">([^<]*)<\/p>/'                => '<h4 class="section-2">$1</h4>',
+            '/<p class="section-3">([^<]*)<\/p>/'                => '<h5 class="section-3">$1</h5>',
+            '/([\s]+)?\(([\s]+)?CONTENT BOX HEADING([\s]+)?\)/i' => '',
+        );
+
+        $html = preg_replace(array_keys($replacements), array_values($replacements), $html);
         $html = str_replace('<table>', '<table class="zentable cool">', $html);
         return $html;
     }
