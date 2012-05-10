@@ -4,7 +4,6 @@
  */
 UNL_UndergraduateBulletin_Major_Description::setEpubToTitleMap(array(
     // data/majors/{FILENAME}.xhtml                                          => title displayed
-    'African-American_African Studies Minor (ASC)'                           => 'African-American Studies; African Studies Minor (ASC)',
     'Child Development_Early Childhood Education'                            => 'Child Development/Early Childhood Education',
     'Child_Youth & Family Studies Minor'                                     => 'Child, Youth & Family Studies Minor',
     'Child_Youth & Family Studies_Jour & Mass Communications'                => 'Child, Youth & Family Studies/Journalism & Mass Communications',
