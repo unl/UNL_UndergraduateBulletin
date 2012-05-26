@@ -36,3 +36,5 @@ UNL_UndergraduateBulletin_CollegeList::$colleges = array(
     'PACS'  => 'Public Affairs & Community Service',
     'ROTC'  => 'Reserve Officers Training Corps (ROTC)',
 );
+
+UNL_UndergraduateBulletin_SubjectAreas_Filter::$filtered_codes = array('IMBS', 'NURS', 'VMED');
