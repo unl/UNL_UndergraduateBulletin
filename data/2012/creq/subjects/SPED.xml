@@ -103,39 +103,6 @@
     </credits>
   </course>
   <course>
-    <title>Advanced Special Education Methods</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>SPED</subject>
-        <courseNumber>314</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">SPED 201 and 304.</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Instructional methods addressing students with disabilities who are at risk of academic failure. Includes instructional design principles, direct instruction, self-regulation and strategy instruction.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities/>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
     <title>Early Childhood Special Education</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -483,9 +450,9 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1121</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Parallel SPED 406A/806A.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">SPED 400/800, SPED 412/812, and (TEAC 441 required for undergraduate students only). Parallel SPED 406A/806A.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Theory and techniques for assessing and teaching word identification, vocabulary, comprehension and writing skills in grades 7 to 12.</div>
@@ -504,12 +471,11 @@
     <activities>
       <activity>
         <type>lec</type>
+        <hours>2</hours>
       </activity>
     </activities>
     <credits>
-      <credit type="Lower Range Limit">1</credit>
-      <credit type="Upper Range Limit">3</credit>
-      <credit type="Per Career Limit">6</credit>
+      <credit type="Single Value">2</credit>
     </credits>
   </course>
   <course>
@@ -533,9 +499,9 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1121</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Permission.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">SPED 400/800, 412/812, and (TEAC 441 required for undergraduate students only). Taken parallel with SPED 406/806.</div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">SPED 406A/806A requires two hours per week in a Reading Center.</div>
@@ -554,11 +520,14 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lab</type>
+        <hours>2</hours>
+      </activity>
+    </activities>
     <credits>
-      <credit type="Lower Range Limit">1</credit>
-      <credit type="Upper Range Limit">3</credit>
-      <credit type="Per Semester Limit">3</credit>
+      <credit type="Single Value">2</credit>
     </credits>
   </course>
   <course>
@@ -1086,15 +1055,15 @@
     </courseCodes>
     <gradingType>pass/no pass only</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1128</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Permission.</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Pass/No Pass only.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Pass/No Pass only for SPED 496 section.  SPED 896 is graded.</div>
     </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">E.	Field Experience: General Special Education (1-6 cr, max 12) M.	Field Experience: Mild/Moderate (1-6 cr, max 12) Y.	Field Experience: Inclusion (1-6 cr, max 12)</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">E. Field Experience: General Special Education (1-6 cr, max 12) M. Field Experience: Mild/Moderate (1-6 cr, max 12) Y. Field Experience: Inclusion (1-6 cr, max 12)</div>
     </description>
     <campuses>
       <campus>UNL</campus>

@@ -1454,25 +1454,26 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1128</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Introductory course in entomology</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introductory course in entomology.</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">ENTO *819 is offered in summer session of odd-numbered calendar years on the Internet via the World Wide Web (WWW).</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">*ENTO 819 is offered fall semesters of odd-numbered calendar years on the Internet via the World Wide Web (WWW).</div>
     </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Principles of animal behavior as applied to insects and terrestrial arthropods. Techniques in studying insect behavior.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">The process of behavioral study involves investigating the relationship between animals and their surroundings, and their response to their kin and to other organisms.  Topics include charaterizing how insects find and defend their resources, how they avoid predators, how they find mates, how they mate, and how some exist in highly ordered social settings.</div>
     </description>
     <campuses>
       <campus></campus>
     </campuses>
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
+      <deliveryMethod>Web</deliveryMethod>
     </deliveryMethods>
     <termsOffered>
-      <term>Summer</term>
+      <term>Fall</term>
     </termsOffered>
     <activities>
       <activity>
@@ -1728,6 +1729,45 @@
     <credits>
       <credit type="Single Value">1</credit>
       <credit type="Per Career Limit">8</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Presentation Methods</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ENTO</subject>
+        <courseNumber>915</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1128</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Permission.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">This course prepares entomology graduate students to give scientific and public presentations.  It includes instruction in preparing posters and on-screen shows, image editing, finding entomological resources in libraries and on the internet, insect photography, and public speaking.  Students develop a portfolio of their work, and they make two 12- and one 30-minute presentations to their classmates.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+      <deliveryMethod>Web</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lab</type>
+      </activity>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
     </credits>
   </course>
   <course>

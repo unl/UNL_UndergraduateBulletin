@@ -1776,14 +1776,11 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1125</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">12 hrs biological sciences, including BIOS 213 or equivalent; NUTR 207 or BIOS 214.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">12 hrs biological sciences, including BIOS 213 or equivalent; BIOS 214 or equivalent.</div>
     </prerequisite>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Exercise science and athletic training majors must take NUTR 207.</div>
-    </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Effects of physical activity on the circulatory, respiratory, and other physiological processes.</div>
     </description>
@@ -1798,7 +1795,16 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lab</type>
+        <hours>1</hours>
+      </activity>
+      <activity>
+        <type>lec</type>
+        <hours>2</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
@@ -2732,13 +2738,13 @@
         <courseNumber>891</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
-        <subject>TXCD</subject>
+        <subject>TMFD</subject>
         <courseNumber>891</courseNumber>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <effectiveSemester>1125</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Aspects of human sciences not covered elsewhere in the curriculum.</div>
     </description>
@@ -2862,13 +2868,13 @@
         <courseNumber>920</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
-        <subject>TXCD</subject>
+        <subject>TMFD</subject>
         <courseNumber>920</courseNumber>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <effectiveSemester>1125</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">CYAF 918 or permission of department chair</div>
     </prerequisite>
@@ -3674,13 +3680,13 @@
         <courseNumber>998</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
-        <subject>TXCD</subject>
+        <subject>TMFD</subject>
         <courseNumber>998</courseNumber>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <effectiveSemester>1125</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Permission</div>
     </prerequisite>

@@ -451,17 +451,17 @@
         <subject>BIOS</subject>
         <courseNumber>115</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>BIOS</subject>
+        <courseNumber>115</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
       <courseCode type="home listing">
         <subject>ENTO</subject>
         <courseNumber>115</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
         <subject>ENTO</subject>
-        <courseNumber>115</courseNumber>
-        <courseLetter>X</courseLetter>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>BIOS</subject>
         <courseNumber>115</courseNumber>
         <courseLetter>X</courseLetter>
       </courseCode>
@@ -956,11 +956,11 @@
     <title>Plant Breeding Principles and Practice</title>
     <courseCodes>
       <courseCode type="crosslisting">
-        <subject>HORT</subject>
+        <subject>BIOS</subject>
         <courseNumber>216</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
-        <subject>BIOS</subject>
+        <subject>HORT</subject>
         <courseNumber>216</courseNumber>
       </courseCode>
       <courseCode type="home listing">
@@ -1779,17 +1779,17 @@
         <subject>BIOS</subject>
         <courseNumber>373</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>BIOS</subject>
+        <courseNumber>373</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
       <courseCode type="home listing">
         <subject>PSYC</subject>
         <courseNumber>373</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
         <subject>PSYC</subject>
-        <courseNumber>373</courseNumber>
-        <courseLetter>X</courseLetter>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>BIOS</subject>
         <courseNumber>373</courseNumber>
         <courseLetter>X</courseLetter>
       </courseCode>
@@ -2943,28 +2943,28 @@
   <course>
     <title>Biomolecules and Metabolism</title>
     <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>BIOS</subject>
+        <courseNumber>431</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>BIOS</subject>
+        <courseNumber>831</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>CHEM</subject>
+        <courseNumber>431</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>CHEM</subject>
+        <courseNumber>831</courseNumber>
+      </courseCode>
       <courseCode type="home listing">
         <subject>BIOC</subject>
         <courseNumber>431</courseNumber>
       </courseCode>
       <courseCode type="grad tie-in">
         <subject>BIOC</subject>
-        <courseNumber>831</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>BIOS</subject>
-        <courseNumber>431</courseNumber>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>BIOS</subject>
-        <courseNumber>831</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>CHEM</subject>
-        <courseNumber>431</courseNumber>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>CHEM</subject>
         <courseNumber>831</courseNumber>
       </courseCode>
     </courseCodes>
@@ -3003,14 +3003,6 @@
   <course>
     <title>Gene Expression and Replication</title>
     <courseCodes>
-      <courseCode type="home listing">
-        <subject>BIOC</subject>
-        <courseNumber>432</courseNumber>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>BIOC</subject>
-        <courseNumber>832</courseNumber>
-      </courseCode>
       <courseCode type="crosslisting">
         <subject>BIOS</subject>
         <courseNumber>432</courseNumber>
@@ -3021,6 +3013,14 @@
       </courseCode>
       <courseCode type="grad tie-in">
         <subject>CHEM</subject>
+        <courseNumber>832</courseNumber>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>BIOC</subject>
+        <courseNumber>432</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>BIOC</subject>
         <courseNumber>832</courseNumber>
       </courseCode>
     </courseCodes>
@@ -3056,28 +3056,28 @@
   <course>
     <title>Biochemistry Laboratory</title>
     <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>BIOS</subject>
+        <courseNumber>433</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>BIOS</subject>
+        <courseNumber>833</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>CHEM</subject>
+        <courseNumber>433</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>CHEM</subject>
+        <courseNumber>833</courseNumber>
+      </courseCode>
       <courseCode type="home listing">
         <subject>BIOC</subject>
         <courseNumber>433</courseNumber>
       </courseCode>
       <courseCode type="grad tie-in">
         <subject>BIOC</subject>
-        <courseNumber>833</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>BIOS</subject>
-        <courseNumber>433</courseNumber>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>BIOS</subject>
-        <courseNumber>833</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>CHEM</subject>
-        <courseNumber>433</courseNumber>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>CHEM</subject>
         <courseNumber>833</courseNumber>
       </courseCode>
     </courseCodes>
@@ -3118,11 +3118,19 @@
     <title>Plant Biochemistry</title>
     <courseCodes>
       <courseCode type="crosslisting">
-        <subject>AGRO</subject>
+        <subject>BIOS</subject>
         <courseNumber>434</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
-        <subject>AGRO</subject>
+        <subject>BIOS</subject>
+        <courseNumber>834</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>CHEM</subject>
+        <courseNumber>434</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>CHEM</subject>
         <courseNumber>834</courseNumber>
       </courseCode>
       <courseCode type="home listing">
@@ -3134,19 +3142,11 @@
         <courseNumber>834</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
-        <subject>BIOS</subject>
+        <subject>AGRO</subject>
         <courseNumber>434</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
-        <subject>BIOS</subject>
-        <courseNumber>834</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>CHEM</subject>
-        <courseNumber>434</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>CHEM</subject>
+        <subject>AGRO</subject>
         <courseNumber>834</courseNumber>
       </courseCode>
     </courseCodes>
@@ -3234,20 +3234,20 @@
   <course>
     <title>Research Techniques in Biochemistry</title>
     <courseCodes>
-      <courseCode type="home listing">
-        <subject>BIOC</subject>
-        <courseNumber>437</courseNumber>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>BIOC</subject>
-        <courseNumber>837</courseNumber>
-      </courseCode>
       <courseCode type="crosslisting">
         <subject>BIOS</subject>
         <courseNumber>437</courseNumber>
       </courseCode>
       <courseCode type="grad tie-in">
         <subject>BIOS</subject>
+        <courseNumber>837</courseNumber>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>BIOC</subject>
+        <courseNumber>437</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>BIOC</subject>
         <courseNumber>837</courseNumber>
       </courseCode>
     </courseCodes>
@@ -3430,20 +3430,20 @@
   <course>
     <title>Endocrinology</title>
     <courseCodes>
-      <courseCode type="home listing">
-        <subject>ASCI</subject>
-        <courseNumber>442</courseNumber>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>ASCI</subject>
-        <courseNumber>842</courseNumber>
-      </courseCode>
       <courseCode type="crosslisting">
         <subject>BIOS</subject>
         <courseNumber>442</courseNumber>
       </courseCode>
       <courseCode type="grad tie-in">
         <subject>BIOS</subject>
+        <courseNumber>842</courseNumber>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>ASCI</subject>
+        <courseNumber>442</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>ASCI</subject>
         <courseNumber>842</courseNumber>
       </courseCode>
       <courseCode type="grad tie-in">
@@ -3591,14 +3591,14 @@
         <subject>FDST</subject>
         <courseNumber>405</courseNumber>
       </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>FDST</subject>
-        <courseNumber>805</courseNumber>
-      </courseCode>
       <courseCode type="crosslisting">
         <subject>FDST</subject>
         <courseNumber>405</courseNumber>
         <courseLetter>X</courseLetter>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>FDST</subject>
+        <courseNumber>805</courseNumber>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
@@ -3681,6 +3681,14 @@
   <course>
     <title>Soil Microbiology</title>
     <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>BIOS</subject>
+        <courseNumber>447</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>BIOS</subject>
+        <courseNumber>847</courseNumber>
+      </courseCode>
       <courseCode type="home listing">
         <subject>AGRO</subject>
         <courseNumber>460</courseNumber>
@@ -3690,12 +3698,8 @@
         <courseNumber>860</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
-        <subject>BIOS</subject>
-        <courseNumber>447</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>BIOS</subject>
-        <courseNumber>847</courseNumber>
+        <subject>SOIL</subject>
+        <courseNumber>460</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
         <subject>NRES</subject>
@@ -3704,10 +3708,6 @@
       <courseCode type="crosslisting">
         <subject>NRES</subject>
         <courseNumber>860</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>SOIL</subject>
-        <courseNumber>460</courseNumber>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
@@ -3743,6 +3743,10 @@
     <courseCodes>
       <courseCode type="crosslisting">
         <subject>BIOS</subject>
+        <courseNumber>448</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>BIOS</subject>
         <courseNumber>848</courseNumber>
       </courseCode>
       <courseCode type="home listing">
@@ -3754,10 +3758,6 @@
         <subject>ANTH</subject>
         <courseNumber>848</courseNumber>
         <courseGroup>Biological Anthropology</courseGroup>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>BIOS</subject>
-        <courseNumber>448</courseNumber>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
@@ -4105,13 +4105,13 @@
   <course>
     <title>Limnology</title>
     <courseCodes>
-      <courseCode type="grad tie-in">
-        <subject>BIOS</subject>
-        <courseNumber>859</courseNumber>
-      </courseCode>
       <courseCode type="crosslisting">
         <subject>BIOS</subject>
         <courseNumber>459</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>BIOS</subject>
+        <courseNumber>859</courseNumber>
       </courseCode>
       <courseCode type="home listing">
         <subject>NRES</subject>
@@ -4951,14 +4951,11 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1125</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">12 hrs biological sciences, including BIOS 213 or equivalent; NUTR 207 or BIOS 214.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">12 hrs biological sciences, including BIOS 213 or equivalent; BIOS 214 or equivalent.</div>
     </prerequisite>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Exercise science and athletic training majors must take NUTR 207.</div>
-    </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Effects of physical activity on the circulatory, respiratory, and other physiological processes.</div>
     </description>
@@ -4973,7 +4970,16 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lab</type>
+        <hours>1</hours>
+      </activity>
+      <activity>
+        <type>lec</type>
+        <hours>2</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
@@ -5042,11 +5048,6 @@
   <course>
     <title>Identification of Aquatic Insects</title>
     <courseCodes>
-      <courseCode type="home listing">
-        <subject>ENTO</subject>
-        <courseNumber>402</courseNumber>
-        <courseLetter>L</courseLetter>
-      </courseCode>
       <courseCode type="crosslisting">
         <subject>BIOS</subject>
         <courseNumber>485</courseNumber>
@@ -5057,6 +5058,16 @@
         <courseNumber>885</courseNumber>
         <courseLetter>L</courseLetter>
       </courseCode>
+      <courseCode type="home listing">
+        <subject>ENTO</subject>
+        <courseNumber>402</courseNumber>
+        <courseLetter>L</courseLetter>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>ENTO</subject>
+        <courseNumber>802</courseNumber>
+        <courseLetter>L</courseLetter>
+      </courseCode>
       <courseCode type="crosslisting">
         <subject>NRES</subject>
         <courseNumber>402</courseNumber>
@@ -5064,11 +5075,6 @@
       </courseCode>
       <courseCode type="crosslisting">
         <subject>NRES</subject>
-        <courseNumber>802</courseNumber>
-        <courseLetter>L</courseLetter>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>ENTO</subject>
         <courseNumber>802</courseNumber>
         <courseLetter>L</courseLetter>
       </courseCode>
@@ -5106,28 +5112,28 @@
   <course>
     <title>Advanced Topics in Biophysical Chemistry</title>
     <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>BIOS</subject>
+        <courseNumber>486</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>BIOS</subject>
+        <courseNumber>886</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>CHEM</subject>
+        <courseNumber>486</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>CHEM</subject>
+        <courseNumber>886</courseNumber>
+      </courseCode>
       <courseCode type="home listing">
         <subject>BIOC</subject>
         <courseNumber>486</courseNumber>
       </courseCode>
       <courseCode type="grad tie-in">
         <subject>BIOC</subject>
-        <courseNumber>886</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>BIOS</subject>
-        <courseNumber>486</courseNumber>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>BIOS</subject>
-        <courseNumber>886</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>CHEM</subject>
-        <courseNumber>486</courseNumber>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>CHEM</subject>
         <courseNumber>886</courseNumber>
       </courseCode>
     </courseCodes>
@@ -5502,11 +5508,11 @@
     <title>Plant Molecular Biology</title>
     <courseCodes>
       <courseCode type="crosslisting">
-        <subject>BIOC</subject>
+        <subject>BIOS</subject>
         <courseNumber>810</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
-        <subject>BIOS</subject>
+        <subject>BIOC</subject>
         <courseNumber>810</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
@@ -5598,12 +5604,12 @@
     <title>Animal Physiology I</title>
     <courseCodes>
       <courseCode type="crosslisting">
-        <subject>ASCI</subject>
-        <courseNumber>845</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
         <subject>BIOS</subject>
         <courseNumber>813</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>ASCI</subject>
+        <courseNumber>845</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
         <subject>VBMS</subject>
@@ -5653,12 +5659,12 @@
     <title>Animal Physiology II</title>
     <courseCodes>
       <courseCode type="crosslisting">
-        <subject>ASCI</subject>
-        <courseNumber>846</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
         <subject>BIOS</subject>
         <courseNumber>814</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>ASCI</subject>
+        <courseNumber>846</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
         <subject>VBMS</subject>
@@ -5742,13 +5748,13 @@
   <course>
     <title>Plant-Water Relations</title>
     <courseCodes>
-      <courseCode type="home listing">
-        <subject>AGRO</subject>
-        <courseNumber>807</courseNumber>
-      </courseCode>
       <courseCode type="crosslisting">
         <subject>BIOS</subject>
         <courseNumber>817</courseNumber>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>AGRO</subject>
+        <courseNumber>807</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
         <subject>NRES</subject>
@@ -5858,16 +5864,16 @@
   <course>
     <title>Survey of Biochemistry</title>
     <courseCodes>
-      <courseCode type="home listing">
-        <subject>BIOC</subject>
-        <courseNumber>839</courseNumber>
-      </courseCode>
       <courseCode type="crosslisting">
         <subject>BIOS</subject>
         <courseNumber>839</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
         <subject>CHEM</subject>
+        <courseNumber>839</courseNumber>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>BIOC</subject>
         <courseNumber>839</courseNumber>
       </courseCode>
     </courseCodes>
@@ -6316,16 +6322,16 @@
     <title>Chemistry for Secondary School Classrooms</title>
     <courseCodes>
       <courseCode type="crosslisting">
+        <subject>BIOS</subject>
+        <courseNumber>883</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
         <subject>CHEM</subject>
         <courseNumber>869</courseNumber>
       </courseCode>
       <courseCode type="home listing">
         <subject>BIOC</subject>
         <courseNumber>869</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>BIOS</subject>
-        <courseNumber>883</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
         <subject>TEAC</subject>
@@ -6498,12 +6504,12 @@
   <course>
     <title>Proteins</title>
     <courseCodes>
-      <courseCode type="home listing">
-        <subject>CHEM</subject>
-        <courseNumber>932</courseNumber>
-      </courseCode>
       <courseCode type="crosslisting">
         <subject>BIOS</subject>
+        <courseNumber>932</courseNumber>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>CHEM</subject>
         <courseNumber>932</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
@@ -6539,12 +6545,12 @@
   <course>
     <title>Enzymes</title>
     <courseCodes>
-      <courseCode type="home listing">
-        <subject>CHEM</subject>
-        <courseNumber>933</courseNumber>
-      </courseCode>
       <courseCode type="crosslisting">
         <subject>BIOS</subject>
+        <courseNumber>933</courseNumber>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>CHEM</subject>
         <courseNumber>933</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
@@ -6580,12 +6586,12 @@
   <course>
     <title>Genome Dynamics and Gene Expression</title>
     <courseCodes>
-      <courseCode type="home listing">
-        <subject>CHEM</subject>
-        <courseNumber>934</courseNumber>
-      </courseCode>
       <courseCode type="crosslisting">
         <subject>BIOS</subject>
+        <courseNumber>934</courseNumber>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>CHEM</subject>
         <courseNumber>934</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
@@ -6624,12 +6630,12 @@
   <course>
     <title>Metabolic Function and Dysfunction</title>
     <courseCodes>
-      <courseCode type="home listing">
-        <subject>CHEM</subject>
-        <courseNumber>935</courseNumber>
-      </courseCode>
       <courseCode type="crosslisting">
         <subject>BIOS</subject>
+        <courseNumber>935</courseNumber>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>CHEM</subject>
         <courseNumber>935</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
@@ -6817,16 +6823,16 @@
   <course>
     <title>Biochemistry of Nutrition</title>
     <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>BIOS</subject>
+        <courseNumber>949</courseNumber>
+      </courseCode>
       <courseCode type="home listing">
         <subject>ASCI</subject>
         <courseNumber>949</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
         <subject>BIOC</subject>
-        <courseNumber>949</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>BIOS</subject>
         <courseNumber>949</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
@@ -7140,16 +7146,16 @@
   <course>
     <title>Genetics of Host-Parasite Interaction</title>
     <courseCodes>
-      <courseCode type="home listing">
-        <subject>AGRO</subject>
-        <courseNumber>963</courseNumber>
-      </courseCode>
       <courseCode type="crosslisting">
         <subject>BIOS</subject>
         <courseNumber>963</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
         <subject>HORT</subject>
+        <courseNumber>963</courseNumber>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>AGRO</subject>
         <courseNumber>963</courseNumber>
       </courseCode>
     </courseCodes>

@@ -2904,9 +2904,9 @@ D. Mathematics Methods for the Primary Student: K to 3rd (3 cr) Prereq: Parallel
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1121</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Parallel SPED 406A/806A.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">SPED 400/800, SPED 412/812, and (TEAC 441 required for undergraduate students only). Parallel SPED 406A/806A.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Theory and techniques for assessing and teaching word identification, vocabulary, comprehension and writing skills in grades 7 to 12.</div>
@@ -2925,12 +2925,11 @@ D. Mathematics Methods for the Primary Student: K to 3rd (3 cr) Prereq: Parallel
     <activities>
       <activity>
         <type>lec</type>
+        <hours>2</hours>
       </activity>
     </activities>
     <credits>
-      <credit type="Lower Range Limit">1</credit>
-      <credit type="Upper Range Limit">3</credit>
-      <credit type="Per Career Limit">6</credit>
+      <credit type="Single Value">2</credit>
     </credits>
   </course>
   <course>
@@ -2954,9 +2953,9 @@ D. Mathematics Methods for the Primary Student: K to 3rd (3 cr) Prereq: Parallel
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1121</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Permission.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">SPED 400/800, 412/812, and (TEAC 441 required for undergraduate students only). Taken parallel with SPED 406/806.</div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">SPED 406A/806A requires two hours per week in a Reading Center.</div>
@@ -2975,11 +2974,14 @@ D. Mathematics Methods for the Primary Student: K to 3rd (3 cr) Prereq: Parallel
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lab</type>
+        <hours>2</hours>
+      </activity>
+    </activities>
     <credits>
-      <credit type="Lower Range Limit">1</credit>
-      <credit type="Upper Range Limit">3</credit>
-      <credit type="Per Semester Limit">3</credit>
+      <credit type="Single Value">2</credit>
     </credits>
   </course>
   <course>
@@ -3037,40 +3039,6 @@ D. Mathematics Methods for the Primary Student: K to 3rd (3 cr) Prereq: Parallel
     <activities/>
     <credits>
       <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Development and Organization of Vocational Education</title>
-    <courseCodes>
-      <courseCode type="crosslisting">
-        <subject>ALEC</subject>
-        <courseNumber>815</courseNumber>
-      </courseCode>
-      <courseCode type="home listing">
-        <subject>TEAC</subject>
-        <courseNumber>815</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">For teachers, administrators, and guidance personnel. Vocational and practical education, their place in the community school; planning comprehensive programs in agriculture, business, homemaking, and industrial education.</div>
-    </description>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <activities>
-      <activity>
-        <type>lec</type>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Lower Range Limit">1</credit>
-      <credit type="Upper Range Limit">3</credit>
     </credits>
   </course>
   <course>
@@ -3956,13 +3924,13 @@ D. Mathematics Methods for the Primary Student: K to 3rd (3 cr) Prereq: Parallel
         <courseNumber>891</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
-        <subject>TXCD</subject>
+        <subject>TMFD</subject>
         <courseNumber>891</courseNumber>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <effectiveSemester>1125</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Aspects of human sciences not covered elsewhere in the curriculum.</div>
     </description>
