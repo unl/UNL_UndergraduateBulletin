@@ -13,7 +13,7 @@ $current = UNL_UndergraduateBulletin_Controller::getEdition();
                 $class = 'selected';
             }
             ?>
-            <li class="<?php echo $class; ?>"><a href="<?php echo $latest->getURL(); ?>"><?php echo $latest->getRange(); ?> <em>(includes latest course descriptions)</em></a></li>
+            <li class="<?php echo $class; ?>"><a href="<?php echo $latest->getURL(); ?>">Latest Edition <em>(<?php echo $latest->getRange(); ?>)</em></a></li>
             <?php foreach (UNL_UndergraduateBulletin_Editions::getPublished() as $edition):
                 $class = '';
                 if ($edition->getURL() == $current->getURL()) {
