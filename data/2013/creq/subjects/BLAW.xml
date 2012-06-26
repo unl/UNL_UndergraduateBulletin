@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<courses xmlns="http://courseapproval.unl.edu/courses" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://courseapproval.unl.edu/courses /schema/courses.xsd">
+  <course>
+    <title>Busines, Government &amp; Society</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>BLAW</subject>
+        <courseNumber>300</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1128</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">For non-CBA students only; 2.5 cum gpa; Sophomore Standing.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Letter grade only. BLAW 300 fulfills the Business Law requirement for the minor in business administration for non-business students and is part of a six course sequence for the minor. Credit towards the degree cannot be earned in both BLAW 300 and BLAW 371 and/or BLAW 372.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">This course examines the business organization in relationship to government, employee groups and the community. A major theme in the course is the social responsibility of business. Topics of study include ethics, environmental issues, employee rights, government regulation, global management and the U.S. political system as it affects business decision making.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Legal Environment</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>BLAW</subject>
+        <courseNumber>371</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1078</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Sophomore standing; 2.5 GPA; MATH 104 or 106/106B/108H.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Law as it relates to the business transaction. Torts, contracts, sales, and related topics in the political and economics environment in which business functions and consideration of social and ethical issues creating pressure for change.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Business Law I</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>BLAW</subject>
+        <courseNumber>372</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>BLAW</subject>
+        <courseNumber>372</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1108</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Junior standing and 2.5 GPA. In addition to specific prerequisites listed, College of Business Administration (CBA) students must also have completed the following courses or their equivalents: BSAD 150; ENGL 101/101H or 150/150H or 151/151H; MATH 104 or 106/106B/108H; JGEN 220; COMM 286; ACCT 201/201H and 202, or 306; ECON 211 and 212, or 210; ECON 215 or STAT 218. Prereq for actuarial science, Raikes School, and agribusiness majors: Refer to exceptions for the requirements.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">BLAW 371 is 'Letter grade only'.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Basic legal principles needed to recognize the relevant issues and the legal implications of business situations. Application of the principles of law to accounting and auditing. Political, social, and ethical implications. Property and contracts.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+      <deliveryMethod>Web</deliveryMethod>
+    </deliveryMethods>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+</courses>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<courses xmlns="http://courseapproval.unl.edu/courses" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://courseapproval.unl.edu/courses /schema/courses.xsd">
+  <course>
+    <title>Biotechnology: Food, Health and Environment</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>AGRI</subject>
+        <courseNumber>115</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>LIFE</subject>
+        <courseNumber>115</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1121</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Application of biotechnology to genetically engineer, identify, select or propagate microbes, plants or animals. Scientists who use biotechnology to solve problems with the environment, with our food system, or with human health.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+      <deliveryMethod>Web</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>2</hours>
+      </activity>
+      <activity>
+        <type>rct</type>
+        <hours>1</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+    <aceOutcomes>
+      <slo>4</slo>
+    </aceOutcomes>
+  </course>
+</courses>
