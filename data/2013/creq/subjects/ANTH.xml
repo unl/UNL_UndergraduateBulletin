@@ -3698,8 +3698,8 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1128</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Admission to masters degree program and permission of major adviser</div>
     </prerequisite>
@@ -3712,7 +3712,8 @@
     <activities/>
     <credits>
       <credit type="Lower Range Limit">6</credit>
-      <credit type="Upper Range Limit">10</credit>
+      <credit type="Upper Range Limit">9</credit>
+      <credit type="Per Career Limit">9</credit>
     </credits>
   </course>
   <course>
@@ -3827,8 +3828,8 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1128</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Research or reading in selected problems in anthropology, including the preparation of research for publication.</div>
     </description>
@@ -3842,6 +3843,7 @@
     <credits>
       <credit type="Lower Range Limit">1</credit>
       <credit type="Upper Range Limit">6</credit>
+      <credit type="Per Career Limit">6</credit>
     </credits>
   </course>
 </courses>

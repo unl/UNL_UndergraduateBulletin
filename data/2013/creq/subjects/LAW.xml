@@ -914,7 +914,7 @@
     </credits>
   </course>
   <course>
-    <title>Antitrust Enforcement Seminar</title>
+    <title>Advanced Family Law Topics</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>LAW</subject>
@@ -922,14 +922,14 @@
         <courseLetter>G</courseLetter>
       </courseCode>
     </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ECON *828</div>
-    </prerequisite>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1131</effectiveSemester>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Each student will make a class presentation on a related topic and complete a substantial research paper.</div>
+    </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Private antitrust practice and procedure, with emphasis on standing, proof of damages, attorney’s fees, class actions, injunctive relief, and price discrimination.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Family law-related topics not covered in-depth in the basic family law course. One or more recent developments in family law such as international family law, adoption and assisted reproductive technology, the legal regulation of cohabitation, and family medical and decision-making.</div>
     </description>
     <campuses>
       <campus></campus>
@@ -937,7 +937,14 @@
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
-    <activities/>
+    <termsOffered>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
     <credits>
       <credit type="Lower Range Limit">1</credit>
       <credit type="Upper Range Limit">4</credit>
@@ -2822,7 +2829,7 @@
     </credits>
   </course>
   <course>
-    <title>Environmental Planning and Pollution Control</title>
+    <title>Patent Law</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>LAW</subject>
@@ -2834,11 +2841,11 @@
         <courseNumber>697</courseNumber>
       </courseCode>
     </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1128</effectiveSemester>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Students who have taken LAW 641G may not enroll in this class. Legal problems associated with the regulation of the quality of the environment with emphasis on the Clean Water Act, the Clean Air Act, and the National Environmental Protection Act.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to the basic principles of the law of patents in the United States including the history, utility and function of the patent system; statutory and procedural requirements for patentability; recent case law; and patent enforcement mechanisms, remedies and defenses. Foundation in patent law for general legal practice that crosscuts all potential business client interests from individual inventors to small and large companies.</div>
     </description>
     <campuses>
       <campus></campus>
@@ -2846,10 +2853,17 @@
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
-    <activities/>
+    <termsOffered>
+      <term>Fall</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
-      <credit type="Lower Range Limit">1</credit>
-      <credit type="Upper Range Limit">4</credit>
+      <credit type="Single Value">3</credit>
     </credits>
   </course>
   <course>
