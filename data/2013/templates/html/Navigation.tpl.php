@@ -16,7 +16,7 @@ $url = UNL_UndergraduateBulletin_Controller::getURL();
     <li><a href="<?php echo $url; ?>general">Academic Policies</a>
         <ul>
             <li><a href="<?php echo $url; ?>general#admission-categories">Admission Categories</a></li>
-            <li><a href="<?php echo $url; ?>general#undergraduate-transfer-credit-policy">Transfer Credit Policy</a></li>
+            <li><a href="<?php echo $url; ?>general#undergraduate-transfer-credit-policy">Undergraduate Transfer Credit Policy</a></li>
             <li><a href="<?php echo $url; ?>general#graduation-requirements">Graduation Requirements</a></li>
             <li><a href="<?php echo $url; ?>general#academic-policies-and-procedures">Academic Policies and Procedures</a></li>
         </ul>
@@ -33,19 +33,16 @@ $url = UNL_UndergraduateBulletin_Controller::getURL();
             <li><a href="<?php echo $url; ?>college/Journalism+%26+Mass+Communications">Journalism &amp; Mass Communications</a></li>
         </ul>
     </li>
-    <li><a href="#">Honors Programs</a>
+    <li><a href="<?php echo $url; ?>college/">Special Undergraduate Programs</a>
         <ul>
-            <li><a href="<?php echo $url; ?>college/Undergraduate+Education#university-honors-program-">NU Honors Program</a></li>
-            <li><a href="#">Jeffrey S. Raikes School of Computer Science and Management</a></li>
-        </ul>
-    </li>
-    <li><a href="<?php echo $url; ?>college/">Other Academic Units</a>
-        <ul>
-            <li><a href="<?php echo $url; ?>college/Undergraduate+Education">Undergraduate Education</a></li>
+            <li><a href="<?php echo $url; ?>college/Undergraduate+Education#general-education-requirements-ace">General Education (ACE)</a></li>
             <li><a href="<?php echo $url; ?>college/Division+of+General+Studies">Division of General Studies</a></li>
+            <li><a href="<?php echo $url; ?>college/Undergraduate+Education#jeffrey-s-raikes-school-of-computer-science-and-ma">Jeffrey S. Raikes School of Computer Science and Management</a></li>
             <li><a href="<?php echo $url; ?>college/Libraries">Libraries</a></li>
+            <li><a href="<?php echo $url; ?>college/Undergraduate+Education#preprofessional-studies">Preprofessional Studies</a></li>
             <li><a href="<?php echo $url; ?>college/Public+Affairs+%26+Community+Service">Public Affairs &amp; Community Service</a></li>
             <li><a href="<?php echo $url; ?>college/Reserve+Officers+Training+Corps+%28ROTC%29">Reserve Officers Training Corps (ROTC)</a></li>
+            <li><a href="<?php echo $url; ?>college/Undergraduate+Education#university-honors-program-">University Honors</a></li>
         </ul>
     </li>
 </ul>
