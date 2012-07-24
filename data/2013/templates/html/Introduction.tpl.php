@@ -125,24 +125,25 @@
             <a href="about">More info&hellip;</a>
         </p>
     </div>
-    <h4>Other Academic Units</h4>
+    <h4>Special Undergraduate Programs</h4>
     <ul class="collegeListing">
-        <li><a href="college/Undergraduate+Education">Undergraduate Education</a></li>
+        <li><a href="college/Undergraduate+Education#general-education-requirements-ace">General Education (ACE)</a></li>
         <li><a href="college/Division+of+General+Studies">Division of General Studies</a></li>
         <li><a href="college/Libraries">Libraries</a></li>
+        <li><a href="college/Undergraduate+Education#preprofessional-studies">Preprofessional Studies</a></li>
         <li><a href="college/Public+Affairs+%26+Community+Service">Public Affairs &amp; Community Service</a></li>
         <li><a href="college/Reserve+Officers+Training+Corps+%28ROTC%29">Reserve Officers Training Corps (ROTC)</a></li>
     </ul>
     <h4>Academic Policies</h4>
     <ul class="collegeListing">
         <li><a href="general#admission-categories">Admission Categories</a></li>
-        <li><a href="general#undergraduate-transfer-credit-policy">Transfer Credit Policy</a></li>
+        <li><a href="general#undergraduate-transfer-credit-policy">Undergraduate Transfer Credit Policy</a></li>
         <li><a href="general#graduation-requirements">Graduation Requirements</a></li>
         <li><a href="general#academic-policies-and-procedures">Academic Policies and Procedures</a></li>
     </ul>
     <h4>Honors Programs</h4>
     <ul class="collegeListing">
-        <li><a href="college/Undergraduate+Education#university-honors-program-">NU Honors Program</a></li>
-        <li>Jeffrey S. Raikes School of Computer Science and Management</li>
+        <li><a href="college/Undergraduate+Education#university-honors-program-">University Honors</a></li>
+        <li><a href="college/Undergraduate+Education#jeffrey-s-raikes-school-of-computer-science-and-ma">Jeffrey S. Raikes School of Computer Science and Management</a></li>
     </ul>
 </div>
