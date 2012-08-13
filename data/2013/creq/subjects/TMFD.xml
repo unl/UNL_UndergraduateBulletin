@@ -164,9 +164,9 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1125</effectiveSemester>
+    <effectiveSemester>1128</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ARTP: Art major or candidate for teaching endorsement in art. ARCH: Admission to the College of Architecture. IDES: Admission to the College of Architecture. JGEN: College of Journalism and Mass Communications major and 2.75 GPA. LARC: Admission to the College of Architecture. TMFD: Textiles, Clothing and Design major or minor.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">ARTP: Art major or candidate for teaching endorsement in art. ARCH: Admission to the College of Architecture. IDES: Admission to the College of Architecture. JGEN: College of Journalism and Mass Communications major and 2.75 GPA. LARC: Admission to the College of Architecture. TMFD: Textiles, Merchandising and Design major or minor.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Development of creative and perceptual analytic skills through problem solving in design. Composition and analysis.</div>
@@ -231,9 +231,9 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1125</effectiveSemester>
+    <effectiveSemester>1128</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ARTP: Art major or candidate for teaching endorsement in art. ARCH: Admission to the College of Architecture. IDES: Admission to the College of Architecture. JGEN: College of Journalism and Mass Communications major and 2.75 GPA. LARC: Admission to the College of Architecture. TMFD: Textiles, Clothing and Design major or minor.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">ARTP: Art major or candidate for teaching endorsement in art. ARCH: Admission to the College of Architecture. IDES: Admission to the College of Architecture. JGEN: College of Journalism and Mass Communications major and 2.75 GPA. LARC: Admission to the College of Architecture. TMFD: Textiles, Merchandising and Design major or minor.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Development of creative and perceptual analytic skills through problem solving in drawing and design. Composition and perceptual drawing.</div>
@@ -298,9 +298,9 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1125</effectiveSemester>
+    <effectiveSemester>1128</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ARTP: Art major or candidate for teaching endorsement in art.&amp;nbsp; ARCH: Admission to the College of Architecture. IDES: Admission to the College of Architecture. JGEN: College of Journalism and Mass Communications major and 2.75 GPA. LARC: Admission to the College of Architecture. TMFD: Textiles, Clothing and Design major or minor.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">ARTP: Art major or candidate for teaching endorsement in art.  ARCH: Admission to the College of Architecture. IDES: Admission to the College of Architecture. JGEN: College of Journalism and Mass Communications major and 2.75 GPA. LARC: Admission to the College of Architecture. TMFD: Textiles, Merchandising and Design major or minor.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Development of creative and perceptual analytic skills through problem solving in drawing and design. Composition and color theory application.</div>
@@ -365,9 +365,9 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1125</effectiveSemester>
+    <effectiveSemester>1128</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ARTP: Art major or candidate for teaching endorsement in art. ARCH: Admission to the College of Architecture. IDES: Admission to the College of Architecture. JGEN: College of Journalism and Mass Communications major and 2.75 GPA. LARC: Admission to the College of Architecture. TMFD: Textiles, Clothing and Design major or minor.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">ARTP: Art major or candidate for teaching endorsement in art. ARCH: Admission to the College of Architecture. IDES: Admission to the College of Architecture. JGEN: College of Journalism and Mass Communications major and 2.75 GPA. LARC: Admission to the College of Architecture. TMFD: Textiles, Merchandising and Design major or minor.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Development of creative and perceptual analytic skills through problem solving in drawing and design. Composition and perceptual drawing.</div>
@@ -1743,10 +1743,15 @@
         <subject>TMFD</subject>
         <courseNumber>818</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>TMFD</subject>
+        <courseNumber>818</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1125</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1131</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Permission</div>
     </prerequisite>
@@ -1757,9 +1762,14 @@
       <campus></campus>
     </campuses>
     <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
+      <deliveryMethod>Web</deliveryMethod>
     </deliveryMethods>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
