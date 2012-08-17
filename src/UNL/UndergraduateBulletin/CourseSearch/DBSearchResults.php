@@ -7,7 +7,7 @@ class UNL_UndergraduateBulletin_CourseSearch_DBSearchResults extends LimitIterat
     {
         $this->sql = $sql;
 
-        $stmnt = UNL_UndergraduateBulletin_CourseSearch_DBSearcher::getDB()->query($this->sql);
+        $stmnt = $this->getDB()->query($this->sql);
 
         if ($stmnt === false) {
             throw new Exception('Invalid query result from the database', 500);
@@ -25,8 +25,18 @@ class UNL_UndergraduateBulletin_CourseSearch_DBSearchResults extends LimitIterat
     function count()
     {
         $sql = str_replace(array('SELECT * ', 'SELECT courses.xml ', 'SELECT DISTINCT courses.id, courses.xml '), 'SELECT COUNT(DISTINCT courses.id) ', $this->sql);
-        $result = UNL_UndergraduateBulletin_CourseSearch_DBSearcher::getDB()->query($sql);
+        $result = $this->getDB()->query($sql);
         $count = $result->fetch(PDO::FETCH_NUM);
         return $count[0];
+    }
+
+    /**
+     * Get the database
+     *
+     * @return PDO
+     */
+    protected function getDB()
+    {
+        return UNL_UndergraduateBulletin_CourseSearch_DBSearcher::getDB();
     }
 }
