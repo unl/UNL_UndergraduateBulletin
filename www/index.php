@@ -45,5 +45,6 @@ $outputcontroller->setClassToTemplateMapper(new UNL_UndergraduateBulletin_ClassT
 
 $outputcontroller->setEscape('htmlentities');
 $outputcontroller->addFilters(array($controller, 'postRun'));
+$outputcontroller->addGlobal('controller', $controller);
 echo $outputcontroller->render($controller);
 
