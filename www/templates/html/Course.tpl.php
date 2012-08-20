@@ -27,8 +27,8 @@
 
             $listings[] = $listing->courseNumber;
             if ($listing->hasGroups()) {
-                $groups = array_merge($groups, $listing->groups);
                 foreach ($listing->groups as $group) {
+                    $groups[] = (string)$group;
                     $class .= ' grp_'.md5($group);
                 }
             }
@@ -63,7 +63,10 @@
     $format = trim($format, ', ');
     
     if (!empty($context->aceOutcomes)) {
-        $class .= ' ace ace_'.implode(' ace_', $context->aceOutcomes);
+        $class .= ' ace';
+        foreach ($context->aceOutcomes as $outcome) {
+            $class .= ' ace_'.$outcome;
+        }
     }
 
     if (isset($parent->parent->context->options)
@@ -107,14 +110,24 @@
         if (count($context->campuses)
             && (count($context->campuses) > 1
             || $context->campuses[0] != 'UNL')) {
+            $campuses = '';
+            foreach ($context->campuses as $campus) {
+                $campuses .= $campus . ',';
+            }
+            $campuses = trim($campuses, ',');
             echo  '<tr class="campus">
                     <td class="label">Campus:</td>
-                    <td class="value">'.implode(', ', $context->campuses).'</td>
+                    <td class="value">'.$campus.'</td>
                    </tr>';
         }
+        $methods = '';
+        foreach ($context->deliveryMethods as $method) {
+            $methods .= $method . ', ';
+        }
+        $methods = trim($methods, ', ');
         echo  '<tr class="deliveryMethods">
                 <td class="label">Course Delivery:</td>
-                <td class="value">'.implode(', ', $context->deliveryMethods).'</td>
+                <td class="value">'.$methods.'</td>
                </tr>';
         $ace = '';
         if (!empty($context->aceOutcomes)) {
