@@ -24,10 +24,10 @@ http://courseapproval.unl.edu/schema/courses.xsd</description>
   <email>brett.bieber@gmail.com</email>
   <active>yes</active>
  </lead>
- <date>2012-04-15</date>
- <time>09:31:40</time>
+ <date>2012-08-20</date>
+ <time>08:48:36</time>
  <version>
-  <release>0.3.0</release>
+  <release>0.3.1</release>
   <api>0.1.0</api>
  </version>
  <stability>
@@ -35,25 +35,12 @@ http://courseapproval.unl.edu/schema/courses.xsd</description>
   <api>alpha</api>
  </stability>
  <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
- <notes>Feature Release!
+ <notes>Performance improvement and new method signature.
 
-Now that graduate courses are in CREQ, some new tools for filtering out courses
-and various bug fixes.
-
-Features:
-
-* Add filters for graduate and undergraduate courses
-* Add support for searching for graduate and undergraduate courses
-* Add support for retrieving the intersection of two queries
-* Support strings of '*' or 'x' when searching for courses by number
-
-Bug fixes:
-
-* Search::byTitle() method missing
-* Searching for 497* returns no results [#1]
-* Add in missing + sign, supporting 3XX number prefix queries
-
-</notes>
+Finding subsequent courses now supports passing a search driver.
+```
+getSubsequentCourses(UNL_Services_CourseApproval_SearchInterface $driver = null)
+```</notes>
  <contents>
   <dir name="/">
    <file role="test" name="test/pear.unl.edu/UNL_Services_CourseApproval/test_framework.php" md5sum="e4f9bc1757951877325604c19e3ab217"/>
@@ -84,7 +71,7 @@ Bug fixes:
    <file role="php" name="php/UNL/Services/CourseApproval/Course/Credits.php" md5sum="32be56ea6645167ce0a5a7cc62c4ba96"/>
    <file role="php" name="php/UNL/Services/CourseApproval/Course/Codes.php" md5sum="fae6d972149685f84d70dd7273552661"/>
    <file role="php" name="php/UNL/Services/CourseApproval/Course/Activities.php" md5sum="b1db368f10d31a33ef799c5b7d059274"/>
-   <file role="php" name="php/UNL/Services/CourseApproval/Course.php" md5sum="cb367493a1e3749bf7c8c2e6626e1391"/>
+   <file role="php" name="php/UNL/Services/CourseApproval/Course.php" md5sum="7f1f17f75da4306b2afe1b6f3e254dc1"/>
    <file role="php" name="php/UNL/Services/CourseApproval/College.php" md5sum="90b76d7bbac0738920d6439b37f49d97"/>
    <file role="php" name="php/UNL/Services/CourseApproval/CachingService/Null.php" md5sum="c830c9993bfa2e7367f52dacb2857ef5"/>
    <file role="php" name="php/UNL/Services/CourseApproval/CachingService/CacheLite.php" md5sum="45e0a57bdcdb743c006c9a9b754260d4"/>

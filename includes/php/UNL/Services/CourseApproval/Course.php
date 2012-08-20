@@ -189,15 +189,17 @@ class UNL_Services_CourseApproval_Course
      * Search for subsequent courses
      * 
      * (reverse prereqs)
-     * 
+     *
+     * @param UNL_Services_CourseApproval_Search $search_driver
+     *
      * @return UNL_Services_CourseApproval_Courses
      */
-    function getSubsequentCourses()
+    function getSubsequentCourses($search_driver = null)
     {
-    	$searcher = new UNL_Services_CourseApproval_Search();
+        $searcher = new UNL_Services_CourseApproval_Search($search_driver);
 
-    	$query = $this->getHomeListing()->subjectArea.' '.$this->getHomeListing()->courseNumber;
-    	return $searcher->byPrerequisite($query);
+        $query = $this->getHomeListing()->subjectArea.' '.$this->getHomeListing()->courseNumber;
+        return $searcher->byPrerequisite($query);
     }
     
     function asXML()
