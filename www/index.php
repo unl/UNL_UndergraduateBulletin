@@ -46,5 +46,6 @@ $outputcontroller->setClassToTemplateMapper(new UNL_UndergraduateBulletin_ClassT
 $outputcontroller->setEscape('htmlentities');
 $outputcontroller->addFilters(array($controller, 'postRun'));
 $outputcontroller->addGlobal('controller', $controller);
+$outputcontroller->addGlobal('course_search_driver', new UNL_UndergraduateBulletin_CourseSearch_DBSearcher());
 echo $outputcontroller->render($controller);
 

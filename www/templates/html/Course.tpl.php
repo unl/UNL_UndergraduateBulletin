@@ -154,7 +154,7 @@
         if (!empty($context->prerequisite)) {
             echo  "<div class='prereqs'>Prereqs: ".UNL_UndergraduateBulletin_EPUB_Utilities::addCourseLinks($context->getRaw('prerequisite'))."</div>\n";
         }
-        $subsequent_courses = $context->getSubsequentCourses();
+        $subsequent_courses = $context->getSubsequentCourses($course_search_driver->getRawObject());
         if (count($subsequent_courses)) {
             echo  "<div class='subsequent'>This course is a prerequisite for: ";
             $sub_course_array = array();
