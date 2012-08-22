@@ -39,10 +39,12 @@ PRIMARY KEY ( id )
 $db->exec('CREATE INDEX IF NOT EXISTS main.subjectArea ON courses ( subjectArea );');
 $db->exec('CREATE INDEX IF NOT EXISTS main.courseNumber ON courses ( courseNumber );');
 $db->exec('CREATE INDEX IF NOT EXISTS main.credits ON courses ( credits );');
+$db->exec('CREATE INDEX IF NOT EXISTS main.prerequisite ON courses ( prerequisite );');
 
 $db->exec('ALTER TABLE `courses` ADD INDEX ( `subjectArea` )  ');
 $db->exec('ALTER TABLE `courses` ADD INDEX ( `courseNumber` )  ');
 $db->exec('ALTER TABLE `courses` ADD INDEX ( `credits` )  ');
+$db->exec('ALTER TABLE `courses` ADD INDEX ( `prerequisite` )  ');
 
 $db->exec('CREATE TABLE IF NOT EXISTS crosslistings (
 course_id INT UNSIGNED NOT NULL ,
