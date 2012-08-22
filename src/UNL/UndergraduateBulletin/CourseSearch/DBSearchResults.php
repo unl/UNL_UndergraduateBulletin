@@ -3,7 +3,7 @@ class UNL_UndergraduateBulletin_CourseSearch_DBSearchResults extends LimitIterat
 {
     protected $sql;
     
-    function __construct($sql, $offset, $limit)
+    function __construct($sql, $offset = 0, $limit = -1)
     {
         $this->sql = $sql;
 
