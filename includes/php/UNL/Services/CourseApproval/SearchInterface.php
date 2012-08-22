@@ -20,49 +20,49 @@ abstract class UNL_Services_CourseApproval_SearchInterface
         return trim($query);
     }
 
-    public function byTitle($query, $offset = 0, $limit = null)
+    public function byTitle($query, $offset = 0, $limit = -1)
     {
         $query = $this->titleQuery($this->filterQuery($query));
 
         return $this->getQueryResult($query, $offset, $limit);
     }
 
-    public function byNumber($query, $offset = 0, $limit = null)
+    public function byNumber($query, $offset = 0, $limit = -1)
     {
         $query = $this->numberQuery($this->filterQuery($query));
 
         return $this->getQueryResult($query, $offset, $limit);
     }
 
-    public function bySubject($query, $offset = 0, $limit = null)
+    public function bySubject($query, $offset = 0, $limit = -1)
     {
         $query = $this->subjectAreaQuery($this->filterQuery($query));
 
         return $this->getQueryResult($query, $offset, $limit);
     }
 
-    public function byPrerequisite($query, $offset = 0, $limit = null)
+    public function byPrerequisite($query, $offset = 0, $limit = -1)
     {
         $query = $this->prerequisiteQuery($query);
 
         return $this->getQueryResult($query, $offset, $limit);
     }
 
-    public function graduateCourses($offset = 0, $limit = null)
+    public function graduateCourses($offset = 0, $limit = -1)
     {
         $query = $this->graduateQuery();
 
         return $this->getQueryResult($query, $offset, $limit);
     }
 
-    public function undergraduateCourses($offset = 0, $limit = null)
+    public function undergraduateCourses($offset = 0, $limit = -1)
     {
         $query = $this->undergraduateQuery();
 
         return $this->getQueryResult($query, $offset, $limit);
     }
 
-    public function byAny($query, $offset = 0, $limit = null)
+    public function byAny($query, $offset = 0, $limit = -1)
     {
         $query = $this->filterQuery($query);
 
@@ -121,5 +121,5 @@ abstract class UNL_Services_CourseApproval_SearchInterface
         return $this->getQueryResult($query, $offset, $limit);
     }
 
-    abstract function getQueryResult($query, $offset = 0, $limit = null);
+    abstract function getQueryResult($query, $offset = 0, $limit = -1);
 }

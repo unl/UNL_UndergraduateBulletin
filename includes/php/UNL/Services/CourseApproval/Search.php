@@ -58,7 +58,7 @@ class UNL_Services_CourseApproval_Search extends UNL_Services_CourseApproval_Sea
     {
         return $this->driver->subjectAreaQuery($subject);
     }
-    function getQueryResult($query, $offset = 0, $limit = null)
+    function getQueryResult($query, $offset = 0, $limit = -1)
     {
         return $this->driver->getQueryResult($query, $offset, $limit);
     }

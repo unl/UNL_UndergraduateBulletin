@@ -297,7 +297,7 @@ class UNL_Services_CourseApproval_SearchInterface_XPath extends UNL_Services_Cou
      * 
      * @return UNL_Services_CourseApproval_Search_Results
      */
-    function getQueryResult($query, $offset = 0, $limit = null)
+    function getQueryResult($query, $offset = 0, $limit = -1)
     {
         // prepend XPath XML Base
         $query = self::XML_BASE . $query;

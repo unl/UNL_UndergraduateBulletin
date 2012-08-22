@@ -3,11 +3,15 @@ class UNL_Services_CourseApproval_Search_Results extends UNL_Services_CourseAppr
 {
     protected $total;
     
-    function __construct($results, $offset = 0, $limit = null)
+    function __construct($results, $offset = 0, $limit = -1)
     {
         $this->total = count($results);
 
-        if (isset($limit)) {
+        if (
+                $limit > 0
+            &&
+                $this->total < $offset + $limit
+            ) {
             $results = array_slice($results, $offset, $limit);
         }
 
