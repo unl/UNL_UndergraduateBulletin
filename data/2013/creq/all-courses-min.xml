@@ -3299,6 +3299,19 @@
     </courseCodes>
   </course>
   <course>
+    <title>Learning Biotechnology</title>
+    <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>HORT</subject>
+        <courseNumber>821</courseNumber>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>AGRO</subject>
+        <courseNumber>821</courseNumber>
+      </courseCode>
+    </courseCodes>
+  </course>
+  <course>
     <title>Integrated Weed Management</title>
     <courseCodes>
       <courseCode type="crosslisting">
@@ -3348,6 +3361,19 @@
       <courseCode type="home listing">
         <subject>AGRO</subject>
         <courseNumber>831</courseNumber>
+      </courseCode>
+    </courseCodes>
+  </course>
+  <course>
+    <title>Learning Plant Science</title>
+    <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>HORT</subject>
+        <courseNumber>832</courseNumber>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>AGRO</subject>
+        <courseNumber>832</courseNumber>
       </courseCode>
     </courseCodes>
   </course>
@@ -22807,6 +22833,7 @@
       <courseCode type="home listing">
         <subject>ECON</subject>
         <courseNumber>445</courseNumber>
+        <courseGroup>General Economics and Theory</courseGroup>
       </courseCode>
       <courseCode type="grad tie-in">
         <subject>ECON</subject>
@@ -22915,12 +22942,12 @@
       <courseCode type="home listing">
         <subject>ECON</subject>
         <courseNumber>472</courseNumber>
-        <courseGroup>Industrial Organization and Regulation</courseGroup>
+        <courseGroup>Public Finance</courseGroup>
       </courseCode>
       <courseCode type="grad tie-in">
         <subject>ECON</subject>
         <courseNumber>872</courseNumber>
-        <courseGroup>Industrial Organization and Regulation</courseGroup>
+        <courseGroup>Public Finance</courseGroup>
       </courseCode>
     </courseCodes>
   </course>
@@ -23593,11 +23620,6 @@
   <course>
     <title>Introduction to Law, Legal Process, and Legislation</title>
     <courseCodes>
-      <courseCode type="crosslisting">
-        <subject>LAW</subject>
-        <courseNumber>511</courseNumber>
-        <courseLetter>G</courseLetter>
-      </courseCode>
       <courseCode type="home listing">
         <subject>EDAD</subject>
         <courseNumber>872</courseNumber>
@@ -23621,11 +23643,6 @@
   <course>
     <title>Torts II</title>
     <courseCodes>
-      <courseCode type="crosslisting">
-        <subject>LAW</subject>
-        <courseNumber>504</courseNumber>
-        <courseLetter>G</courseLetter>
-      </courseCode>
       <courseCode type="home listing">
         <subject>EDAD</subject>
         <courseNumber>875</courseNumber>
@@ -23939,11 +23956,6 @@
   <course>
     <title>Public Employment Law</title>
     <courseCodes>
-      <courseCode type="crosslisting">
-        <subject>LAW</subject>
-        <courseNumber>760</courseNumber>
-        <courseLetter>G</courseLetter>
-      </courseCode>
       <courseCode type="home listing">
         <subject>EDAD</subject>
         <courseNumber>960</courseNumber>
@@ -43646,7 +43658,7 @@
     </courseCodes>
   </course>
   <course>
-    <title>Introduction to European Community Law</title>
+    <title>Introduction to European Union Law</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>LAW</subject>
@@ -65163,6 +65175,26 @@
     </courseCodes>
   </course>
   <course>
+    <title>Professional Practicum Experiences II Elementary</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>297</courseNumber>
+        <courseLetter>A</courseLetter>
+      </courseCode>
+    </courseCodes>
+  </course>
+  <course>
+    <title>Professional Practicum Experiences II Elementary</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>297</courseNumber>
+        <courseLetter>B</courseLetter>
+      </courseCode>
+    </courseCodes>
+  </course>
+  <course>
     <title>Practicum in Teaching English Language Learners in Elementary Schools</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -65349,6 +65381,86 @@
       <courseCode type="home listing">
         <subject>TEAC</subject>
         <courseNumber>397</courseNumber>
+      </courseCode>
+    </courseCodes>
+  </course>
+  <course>
+    <title>Professional Practicum Experience III Elementary</title>
+    <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>EDPS</subject>
+        <courseNumber>397</courseNumber>
+        <courseLetter>A</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>SPED</subject>
+        <courseNumber>397</courseNumber>
+        <courseLetter>A</courseLetter>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>397</courseNumber>
+        <courseLetter>A</courseLetter>
+      </courseCode>
+    </courseCodes>
+  </course>
+  <course>
+    <title>Professional Practicum Experience III Unified Primary K-3</title>
+    <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>EDPS</subject>
+        <courseNumber>397</courseNumber>
+        <courseLetter>D</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>SPED</subject>
+        <courseNumber>397</courseNumber>
+        <courseLetter>D</courseLetter>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>397</courseNumber>
+        <courseLetter>D</courseLetter>
+      </courseCode>
+    </courseCodes>
+  </course>
+  <course>
+    <title>Professional Practicum Experience III Information Technology</title>
+    <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>EDPS</subject>
+        <courseNumber>397</courseNumber>
+        <courseLetter>L</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>SPED</subject>
+        <courseNumber>397</courseNumber>
+        <courseLetter>L</courseLetter>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>397</courseNumber>
+        <courseLetter>L</courseLetter>
+      </courseCode>
+    </courseCodes>
+  </course>
+  <course>
+    <title>Professional Practicum Experience III Secondary Industrial Education</title>
+    <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>EDPS</subject>
+        <courseNumber>397</courseNumber>
+        <courseLetter>M</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>SPED</subject>
+        <courseNumber>397</courseNumber>
+        <courseLetter>M</courseLetter>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>397</courseNumber>
+        <courseLetter>M</courseLetter>
       </courseCode>
     </courseCodes>
   </course>
