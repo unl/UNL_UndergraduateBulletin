@@ -244,6 +244,8 @@ class UNL_UndergraduateBulletin_EPUB_Utilities
         switch ($code) {
             case 'ACE':
             case 'ACT':
+            case 'GPA':
+            case 'III':
             case 'OEFL': // TOEFL
             case 'SAT':
             case 'CBA':
