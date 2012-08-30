@@ -19,7 +19,7 @@
     $groups        = array();
 
     foreach ($context->codes as $listing) {
-        if ($listing->subjectArea == $subject) {
+        if ((string)$listing->subjectArea == (string)$subject) {
 
             if (!isset($permalink)) {
                 $permalink = $url.'courses/'.$subject.'/'.$listing->courseNumber;
@@ -168,7 +168,7 @@
             echo  "<div class='notes'>".UNL_UndergraduateBulletin_EPUB_Utilities::addCourseLinks($context->getRaw('notes'))."</div>\n";
         }
         if (!empty($context->description)) {
-            echo  "<div class='description'>".$context->getRaw('description')."</div>\n";
+            echo  "<div class='description'>".UNL_UndergraduateBulletin_EPUB_Utilities::addCourseLinks($context->getRaw('description'))."</div>\n";
         }
     echo  "</dd>";
     if (isset($parent->parent->context->options)
