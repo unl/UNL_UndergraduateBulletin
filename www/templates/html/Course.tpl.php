@@ -1,5 +1,5 @@
 <?php
-    $url = UNL_UndergraduateBulletin_Controller::getURL();
+    $url = $controller->getURL();
     /* example code for isArchvied and getNewestURL();
     if(UNL_UndergraduateBulletin_Controller::isArchived()){
         echo "This version may be out of date.  ".UNL_UndergraduateBulletin_Controller::getNewestURL();
