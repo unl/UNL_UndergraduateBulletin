@@ -152,7 +152,7 @@
         <?php
         echo  '</div>';
         if (!empty($context->prerequisite)) {
-            echo  "<div class='prereqs'>Prereqs: ".UNL_UndergraduateBulletin_EPUB_Utilities::addCourseLinks($context->getRaw('prerequisite'))."</div>\n";
+            echo  "<div class='prereqs'>Prereqs: ".UNL_UndergraduateBulletin_EPUB_Utilities::addCourseLinks($context->getRaw('prerequisite'), $controller->getURL())."</div>\n";
         }
         $subsequent_courses = $context->getSubsequentCourses($course_search_driver->getRawObject());
         if (count($subsequent_courses)) {
@@ -161,14 +161,14 @@
             foreach ($subsequent_courses as $subsequent_courses) {
                 $sub_course_array[] = $subsequent_courses->getHomeListing()->subjectArea.' '.$subsequent_courses->getHomeListing()->courseNumber;
             }
-            echo UNL_UndergraduateBulletin_EPUB_Utilities::addCourseLinks(implode(', ', $sub_course_array));
+            echo UNL_UndergraduateBulletin_EPUB_Utilities::addCourseLinks(implode(', ', $sub_course_array), $controller->getURL());
             echo "</div>\n";
         }
         if (!empty($context->notes)) {
-            echo  "<div class='notes'>".UNL_UndergraduateBulletin_EPUB_Utilities::addCourseLinks($context->getRaw('notes'))."</div>\n";
+            echo  "<div class='notes'>".UNL_UndergraduateBulletin_EPUB_Utilities::addCourseLinks($context->getRaw('notes'), $controller->getURL())."</div>\n";
         }
         if (!empty($context->description)) {
-            echo  "<div class='description'>".UNL_UndergraduateBulletin_EPUB_Utilities::addCourseLinks($context->getRaw('description'))."</div>\n";
+            echo  "<div class='description'>".UNL_UndergraduateBulletin_EPUB_Utilities::addCourseLinks($context->getRaw('description'), $controller->getURL())."</div>\n";
         }
     echo  "</dd>";
     if (isset($parent->parent->context->options)
