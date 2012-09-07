@@ -36,10 +36,11 @@ xml MEDIUMTEXT NOT NULL ,
 PRIMARY KEY ( id )
 );');
 
-$db->exec('CREATE INDEX IF NOT EXISTS main.subjectArea ON courses ( subjectArea );');
-$db->exec('CREATE INDEX IF NOT EXISTS main.courseNumber ON courses ( courseNumber );');
-$db->exec('CREATE INDEX IF NOT EXISTS main.credits ON courses ( credits );');
-$db->exec('CREATE INDEX IF NOT EXISTS main.prerequisite ON courses ( prerequisite );');
+$db->exec('CREATE INDEX IF NOT EXISTS PK_courses_id ON courses ( id );');
+$db->exec('CREATE INDEX IF NOT EXISTS IX_courses_subjectArea ON courses ( subjectArea );');
+$db->exec('CREATE INDEX IF NOT EXISTS IX_courses_courseNumber ON courses ( courseNumber );');
+$db->exec('CREATE INDEX IF NOT EXISTS IX_courses_credits ON courses ( credits );');
+$db->exec('CREATE INDEX IF NOT EXISTS IX_courses_prerequisite ON courses ( prerequisite );');
 
 $db->exec('ALTER TABLE `courses` ADD INDEX ( `subjectArea` )  ');
 $db->exec('ALTER TABLE `courses` ADD INDEX ( `courseNumber` )  ');
@@ -52,8 +53,10 @@ subjectArea VARCHAR( 4 ) NOT NULL ,
 courseNumber VARCHAR( 4 ) NOT NULL
 );');
 
-$db->exec('CREATE INDEX IF NOT EXISTS main.subjectArea ON crosslistings ( subjectArea );');
-$db->exec('CREATE INDEX IF NOT EXISTS main.courseNumber ON crosslistings ( courseNumber );');
+$db->exec('CREATE INDEX IF NOT EXISTS IX_crosslistings_course_id ON crosslistings ( course_id );');
+$db->exec('CREATE INDEX IF NOT EXISTS IX_crosslistings_subjectArea ON crosslistings ( subjectArea );');
+$db->exec('CREATE INDEX IF NOT EXISTS IX_crosslistings_courseNumber ON crosslistings ( courseNumber );');
+$db->exec('ALTER TABLE `crosslistings` ADD INDEX ( `course_id` )  ');
 $db->exec('ALTER TABLE `crosslistings` ADD INDEX ( `subjectArea` )  ');
 $db->exec('ALTER TABLE `crosslistings` ADD INDEX ( `courseNumber` )  ');
 
