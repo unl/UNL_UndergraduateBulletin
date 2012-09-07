@@ -178,11 +178,13 @@ class UNL_UndergraduateBulletin_EPUB_Utilities
      * Link courses found within the text
      * 
      * @param string   $text     Text to scan for links
+     * @param string   $url      Base URL for call links
      */
-    public static function addCourseLinks($text)
+    public static function addCourseLinks($text, $url = '')
     {
-        $callback = array('UNL_UndergraduateBulletin_EPUB_Utilities', 'linkCourse');
-        return self::courseScanCallback($text, $callback);
+        return self::courseScanCallback($text, function ($matches) use ($url) {
+            return UNL_UndergraduateBulletin_EPUB_Utilities::linkCourse($matches, $url);
+        });
     }
 
     /**
@@ -217,16 +219,20 @@ class UNL_UndergraduateBulletin_EPUB_Utilities
      * 
      * @param array $matches [0] is the full match, [1] is the subject code.
      */
-    public static function linkCourse($matches)
+    public static function linkCourse($matches, $url = false)
     {
         
         if (!self::isValidSubjectCode($matches[1])) {
             return $matches[0];
         }
 
+        if (!$url) {
+            $url = UNL_UndergraduateBulletin_Controller::getURL();
+        }
+
         $matches[0] = preg_replace(
             array('/0?([0-9]{2,4}[A-Z]?)/', '/([A-Z]{3,4})\s+(\<a[^>]+\>)/'),
-            array('<a class="course" href="'.UNL_UndergraduateBulletin_Controller::getURL().'courses/'.$matches[1].'/$1">$0</a>', '$2$1 '),
+            array('<a class="course" href="'.$url.'courses/'.$matches[1].'/$1">$0</a>', '$2$1 '),
             $matches[0]
         );
 
