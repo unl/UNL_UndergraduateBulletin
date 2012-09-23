@@ -36,7 +36,7 @@ $url = UNL_UndergraduateBulletin_Controller::getURL();
     <li><a href="<?php echo $url; ?>college/">Special Undergraduate Programs</a>
         <ul>
             <li><a href="<?php echo $url; ?>college/Undergraduate+Education#general-education-requirements-ace">General Education (ACE)</a></li>
-            <li><a href="<?php echo $url; ?>college/Division+of+General+Studies">Division of General Studies</a></li>
+            <li><a href="<?php echo $url; ?>college/Exploratory+%26+Pre-Professional+Advising+Center">Exploratory &amp; Pre-Professional Advising Center</a></li>
             <li><a href="<?php echo $url; ?>college/Undergraduate+Education#jeffrey-s-raikes-school-of-computer-science-and-ma">Jeffrey S. Raikes School of Computer Science and Management</a></li>
             <li><a href="<?php echo $url; ?>college/Libraries">Libraries</a></li>
             <li><a href="<?php echo $url; ?>college/Undergraduate+Education#preprofessional-studies">Preprofessional Studies</a></li>
