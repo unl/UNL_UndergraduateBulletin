@@ -128,7 +128,7 @@
     <h4>Special Undergraduate Programs</h4>
     <ul class="collegeListing">
         <li><a href="college/Undergraduate+Education#general-education-requirements-ace">General Education (ACE)</a></li>
-        <li><a href="college/Division+of+General+Studies">Division of General Studies</a></li>
+        <li><a href="college/Exploratory+%26+Pre-Professional+Advising+Center">Exploratory &amp; Pre-Professional Advising Center</a></li>
         <li><a href="college/Libraries">Libraries</a></li>
         <li><a href="college/Undergraduate+Education#preprofessional-studies">Preprofessional Studies</a></li>
         <li><a href="college/Public+Affairs+%26+Community+Service">Public Affairs &amp; Community Service</a></li>
