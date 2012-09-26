@@ -27,6 +27,19 @@ switch($controller->options['format']) {
         header('Content-type: application/json');
         $outputcontroller->addTemplatePath(dirname(__FILE__).'/templates/json');
         break;
+    case 'delimited':
+        $outputcontroller->sendCORSHeaders(UNL_UndergraduateBulletin_OutputController::getDefaultExpireTimestamp());
+        header('Content-type: text/plain');
+        $outputcontroller->addTemplatePath(dirname(__FILE__).'/templates/delimited');
+        if (!isset($controller->options['delimiter'])) {
+            $controller->options['delimiter'] = ",";
+        }
+        $outputcontroller->addGlobal('delimiter', $controller->options['delimiter']);
+
+        $outputcontroller->addGlobal('delimiteArray', function($delimiter, $array){
+            return "\"" . implode("\"" .$delimiter . "\"", $array) . "\"\n";
+        });
+        break;
     default:
         header('Expires: '.date('r', strtotime('tomorrow')));
         break;
