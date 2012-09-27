@@ -24,10 +24,10 @@ http://courseapproval.unl.edu/schema/courses.xsd</description>
   <email>brett.bieber@gmail.com</email>
   <active>yes</active>
  </lead>
- <date>2012-08-22</date>
- <time>08:38:18</time>
+ <date>2012-09-27</date>
+ <time>15:48:53</time>
  <version>
-  <release>0.3.2</release>
+  <release>0.3.3</release>
   <api>0.1.0</api>
  </version>
  <stability>
@@ -35,7 +35,13 @@ http://courseapproval.unl.edu/schema/courses.xsd</description>
   <api>alpha</api>
  </stability>
  <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
- <notes>Convert method signatures for compatibility with LimitIterator
+ <notes>Add methods to retrieve possible values and descriptions for course data:
+
+* UNL_Services_CourseApproval_Course::getPossibleActivities()
+* UNL_Services_CourseApproval_Course::getPossibleAceOutcomes()
+* UNL_Services_CourseApproval_Course::getPossibleCampuses()
+* UNL_Services_CourseApproval_Course::getPossibleDeliveryMethods()
+* UNL_Services_CourseApproval_Course::getPossibleTermsOffered()
 </notes>
  <contents>
   <dir name="/">
@@ -66,8 +72,8 @@ http://courseapproval.unl.edu/schema/courses.xsd</description>
    <file role="php" name="php/UNL/Services/CourseApproval/Courses.php" md5sum="867d1cf75bf8af88b4eb273c9384e417"/>
    <file role="php" name="php/UNL/Services/CourseApproval/Course/Credits.php" md5sum="32be56ea6645167ce0a5a7cc62c4ba96"/>
    <file role="php" name="php/UNL/Services/CourseApproval/Course/Codes.php" md5sum="fae6d972149685f84d70dd7273552661"/>
-   <file role="php" name="php/UNL/Services/CourseApproval/Course/Activities.php" md5sum="b1db368f10d31a33ef799c5b7d059274"/>
-   <file role="php" name="php/UNL/Services/CourseApproval/Course.php" md5sum="7f1f17f75da4306b2afe1b6f3e254dc1"/>
+   <file role="php" name="php/UNL/Services/CourseApproval/Course/Activities.php" md5sum="68f24f46706c551d694df87fb54c29b5"/>
+   <file role="php" name="php/UNL/Services/CourseApproval/Course.php" md5sum="d3da6078336cae6b2b794ed2c40e8e47"/>
    <file role="php" name="php/UNL/Services/CourseApproval/College.php" md5sum="90b76d7bbac0738920d6439b37f49d97"/>
    <file role="php" name="php/UNL/Services/CourseApproval/CachingService/Null.php" md5sum="c830c9993bfa2e7367f52dacb2857ef5"/>
    <file role="php" name="php/UNL/Services/CourseApproval/CachingService/CacheLite.php" md5sum="45e0a57bdcdb743c006c9a9b754260d4"/>

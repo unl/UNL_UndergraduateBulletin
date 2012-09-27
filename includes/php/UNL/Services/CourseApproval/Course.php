@@ -206,4 +206,57 @@ class UNL_Services_CourseApproval_Course
     {
         return $this->_internal->asXML();
     }
+
+    public static function getPossibleActivities()
+    {
+        //Value=>Description
+        return array('lec' => 'Lecture',
+                     'lab' => 'Lab',
+                     'stu' => 'Studio',
+                     'fld' => 'Field',
+                     'quz' => 'Quiz',
+                     'rct' => 'Recitation',
+                     'ind' => 'Independent Study',
+                     'psi' => 'Personalized System of Instruction');
+    }
+
+    public static function getPossibleAceOutcomes()
+    {
+        //Value=>Description
+        return array(1  => 'ACE 1',
+                     2  => 'ACE 2',
+                     3  => 'ACE 3',
+                     4  => 'ACE 4',
+                     5  => 'ACE 5',
+                     6  => 'ACE 6',
+                     7  => 'ACE 7',
+                     8  => 'ACE 8',
+                     9  => 'ACE 9',
+                     10 => 'ACE 10');
+    }
+
+    public static function getPossibleCampuses()
+    {
+        //Value=>Description
+        return array('UNL'  => 'University of Nebraska Lincoln',
+                     'UNO'  => 'University of Nebraska Omaha',
+                     'UNMC' => 'University of Nebraska Medical University',
+                     'UNK'  => 'University of Nebraska Kearney');
+    }
+
+    public static function getPossibleDeliveryMethods()
+    {
+        //Value=>Description
+        return array('Classroom'      => 'Classroom',
+                     'Web'            => 'Online',
+                     'Correspondence' => 'Correspondence');
+    }
+
+    public static function getPossibleTermsOffered()
+    {
+        //Value=>Description
+        return array('Fall'   => 'Fall',
+                     'Spring' => 'Spring',
+                     'Summer' => 'Summer');
+    }
 }
