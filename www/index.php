@@ -37,7 +37,8 @@ switch($controller->options['format']) {
         $outputcontroller->addGlobal('delimiter', $controller->options['delimiter']);
 
         $outputcontroller->addGlobal('delimiteArray', function($delimiter, $array){
-            return "\"" . implode("\"" .$delimiter . "\"", $array) . "\"\n";
+            $out = fopen('php://output', 'w');
+            fputcsv($out, $array, $delimiter);
         });
         break;
     default:
