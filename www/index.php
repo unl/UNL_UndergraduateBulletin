@@ -27,10 +27,10 @@ switch($controller->options['format']) {
         header('Content-type: application/json');
         $outputcontroller->addTemplatePath(dirname(__FILE__).'/templates/json');
         break;
-    case 'delimited':
+    case 'csv':
         $outputcontroller->sendCORSHeaders(UNL_UndergraduateBulletin_OutputController::getDefaultExpireTimestamp());
         header('Content-type: text/plain');
-        $outputcontroller->addTemplatePath(dirname(__FILE__).'/templates/delimited');
+        $outputcontroller->addTemplatePath(dirname(__FILE__).'/templates/csv');
         if (!isset($controller->options['delimiter'])) {
             $controller->options['delimiter'] = ",";
         }
