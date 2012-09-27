@@ -36,7 +36,7 @@ switch($controller->options['format']) {
         }
         $outputcontroller->addGlobal('delimiter', $controller->options['delimiter']);
 
-        $outputcontroller->addGlobal('delimiteArray', function($delimiter, $array){
+        $outputcontroller->addGlobal('delimitArray', function($delimiter, $array){
             $out = fopen('php://output', 'w');
             fputcsv($out, $array, $delimiter);
         });
