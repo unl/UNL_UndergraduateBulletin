@@ -11,13 +11,10 @@ foreach ($context as $abbreviation => $college) {
 
 $i = 0;
 foreach ($colleges as $college) {
-    foreach ($college as $key=>$value) {
-        if ($i == 0) {
-            echo $delimiteArray($delimiter, array_keys($college));
-        }
-
-        echo $delimiteArray($delimiter, $college);
+    if ($i == 0) {
+        $delimitArray($delimiter, array_keys($college));
     }
-    
     $i++;
+
+    echo $delimitArray($delimiter, $college);
 }
