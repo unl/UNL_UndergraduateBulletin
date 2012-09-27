@@ -27,6 +27,20 @@ switch($controller->options['format']) {
         header('Content-type: application/json');
         $outputcontroller->addTemplatePath(dirname(__FILE__).'/templates/json');
         break;
+    case 'csv':
+        $outputcontroller->sendCORSHeaders(UNL_UndergraduateBulletin_OutputController::getDefaultExpireTimestamp());
+        header('Content-type: text/plain');
+        $outputcontroller->addTemplatePath(dirname(__FILE__).'/templates/csv');
+        if (!isset($controller->options['delimiter'])) {
+            $controller->options['delimiter'] = ",";
+        }
+        $outputcontroller->addGlobal('delimiter', $controller->options['delimiter']);
+
+        $outputcontroller->addGlobal('delimitArray', function($delimiter, $array){
+            $out = fopen('php://output', 'w');
+            fputcsv($out, $array, $delimiter);
+        });
+        break;
     default:
         header('Expires: '.date('r', strtotime('tomorrow')));
         break;
