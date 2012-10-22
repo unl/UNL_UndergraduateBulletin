@@ -28,7 +28,7 @@ tmp/unlcache_5174748813ed8803e7651fae9d2d077f_* files.
 tmpwatch is a tool that can be used to clean out the cache on a regular basis.
 
 Sample:
-sudo /usr/sbin/tmpwatch --nodirs 1 /var/www/html/bulletin.unl.edu/undergraduate/tmp  /var/www/html/bulletin.unl.edu/undergraduate/tmp/json
+sudo /usr/sbin/tmpwatch --force --mtime --nodirs 1 /var/www/html/bulletin.unl.edu/undergraduate/tmp  /var/www/html/bulletin.unl.edu/undergraduate/tmp/json
 
 
 *** LIBRARIES ***
