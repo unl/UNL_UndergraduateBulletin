@@ -28,6 +28,6 @@ class UNL_UndergraduateBulletin_Major_SubjectAreas extends ArrayIterator
     
     function current()
     {
-        return new UNL_Services_CourseApproval_SubjectArea(parent::current());
+        return new UNL_UndergraduateBulletin_SubjectArea(array('id'=>parent::current()));
     }
 }
