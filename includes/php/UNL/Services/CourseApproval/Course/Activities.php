@@ -46,10 +46,10 @@ class UNL_Services_CourseApproval_Course_Activities implements Countable, Iterat
     public static function getFullDescription($activity)
     {
         $activities = UNL_Services_CourseApproval_Course::getPossibleActivities();
-        if (!isset($activity[$activity])) {
+        if (!isset($activities[$activity])) {
             throw new Exception('Unknown activity type! '.$activity);
         }
 
-        return $activity[$activity];
+        return $activities[$activity];
     }
 }
