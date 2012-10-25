@@ -27,15 +27,27 @@ switch($controller->options['format']) {
         header('Content-type: application/json');
         $outputcontroller->addTemplatePath(dirname(__FILE__).'/templates/json');
         break;
+    case 'collegesource':
+        //Collegesource is also csv, but they require specific data... so they have a special template.
+        $outputcontroller->addTemplatePath(dirname(__FILE__).'/templates/collegesource');
+        
+        //Do not break (continue with csv case)
     case 'csv':
+        //Make sure we are viewing in csv (as we may be viewing in collegesource)
+        if ($controller->options['format'] == 'csv') {
+            $outputcontroller->addTemplatePath(dirname(__FILE__).'/templates/csv');
+        }
+        
         $outputcontroller->sendCORSHeaders(UNL_UndergraduateBulletin_OutputController::getDefaultExpireTimestamp());
+        
         header('Content-type: text/plain');
-        $outputcontroller->addTemplatePath(dirname(__FILE__).'/templates/csv');
+        
         if (!isset($controller->options['delimiter'])) {
             $controller->options['delimiter'] = ",";
         }
+        
         $outputcontroller->addGlobal('delimiter', $controller->options['delimiter']);
-
+        
         $outputcontroller->addGlobal('delimitArray', function($delimiter, $array){
             $out = fopen('php://output', 'w');
             fputcsv($out, $array, $delimiter);
