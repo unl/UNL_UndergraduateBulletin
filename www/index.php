@@ -33,10 +33,8 @@ switch($controller->options['format']) {
         
         //Do not break (continue with csv case)
     case 'csv':
-        //Make sure we are viewing in csv (as we may be viewing in collegesource)
-        if ($controller->options['format'] == 'csv') {
-            $outputcontroller->addTemplatePath(dirname(__FILE__).'/templates/csv');
-        }
+        //load the correct template
+        $outputcontroller->addTemplatePath(dirname(__FILE__).'/templates/' . $controller->options['format']);
         
         $outputcontroller->sendCORSHeaders(UNL_UndergraduateBulletin_OutputController::getDefaultExpireTimestamp());
         
