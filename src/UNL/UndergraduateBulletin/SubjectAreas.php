@@ -1,14 +1,17 @@
 <?php
-class UNL_UndergraduateBulletin_SubjectAreas extends SplFileObject implements UNL_UndergraduateBulletin_CacheableInterface
+class UNL_UndergraduateBulletin_SubjectAreas extends ArrayIterator implements UNL_UndergraduateBulletin_CacheableInterface
 {
     function __construct($options = array())
     {
-    	$this->options = $options;
-        parent::__construct(
-            UNL_UndergraduateBulletin_Controller::getEdition()->getCourseDataDir().'/subject_codes.csv'
-        );
-        $this->setFlags(SplFileObject::READ_CSV | SplFileObject::SKIP_EMPTY | SplFileObject::DROP_NEW_LINE);
-        $this->setCsvControl(',', '\'');
+        $this->options = $options;
+
+        $mapping = file_get_contents(UNL_UndergraduateBulletin_Controller::getEdition()->getDataDir().'/creq/subject_codes.php.ser');
+
+        if (false === ($mapping = unserialize($mapping))) {
+            throw new Exception('Invalid major to subject code matching file.', 500);
+        }
+        
+        parent::__construct($mapping);
     }
     
     function getCacheKey()
@@ -28,12 +31,9 @@ class UNL_UndergraduateBulletin_SubjectAreas extends SplFileObject implements UN
     
     function current()
     {
-        $data = parent::current();
-
-        $options = array('id' => $data[0]);
-        if (isset($data[1])) {
-            $options['title'] = $data[1];
-        }
+        $options = array('id' => $this->key(),
+                         'title' => parent::current(),
+        );
 
         try {
             $area = new UNL_UndergraduateBulletin_SubjectArea($options);
@@ -44,11 +44,5 @@ class UNL_UndergraduateBulletin_SubjectAreas extends SplFileObject implements UN
             , 500, $e);
         }
         return $area;
-    }
-    
-    function key()
-    {
-        $data = parent::current();
-        return $data[0];
     }
 }
