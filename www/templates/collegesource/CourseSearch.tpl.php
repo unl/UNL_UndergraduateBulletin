@@ -26,6 +26,7 @@ foreach ($context->results as $course) {
         $subject = (string)$listing->subjectArea;
         
         if (!isset($subjectAreas[$subject])) {
+            //Skip because we do not have a title for the subject code.
             continue;
         }
 
