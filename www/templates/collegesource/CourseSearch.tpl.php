@@ -4,7 +4,7 @@ if (gettype($context->results) == 'string') {
     return;
 }
 
-$majors = new UNL_UndergraduateBulletin_MajorLookup();
+$subjectAreas = new UNL_UndergraduateBulletin_SubjectAreas();
 
 //$group by course code
 $courses = array();
@@ -26,12 +26,11 @@ foreach ($context->results as $course) {
     foreach ($course->codes as $listing) {
         $subject = (string)$listing->subjectArea;
         
-        $department = $subject;
-        if (isset($majors[$subject])) {
-            $department = $majors[$subject];
+        if (!isset($subjectAreas[$subject])) {
+            continue;
         }
-        
-        $csvCourse['Department'] = $department;
+
+        $csvCourse['Department'] = $subjectAreas[$subject];
         $csvCourse['DepartmentAbbr'] = $subject;
         $csvCourse['CourseCode'] = $subject . " " . (string)$listing->courseNumber;
 
