@@ -30,11 +30,28 @@ switch($controller->options['format']) {
     case 'collegesource':
         //Collegesource is also csv, but they require specific data... so they have a special template.
         $outputcontroller->addTemplatePath(dirname(__FILE__).'/templates/collegesource');
+
+        header('Content-type: text/plain');
+
+        //Needs its own delimiter Due to the fact that SQL 2005 requires that all field values be quoted.
+        $outputcontroller->addGlobal('delimitArray', function($array){
+            //sanitize the array values
+            foreach ($array as $key=>$value) {
+                //remove newlines
+                $value = preg_replace("/[\n\r]/", "", $value);
+                
+                //Can not contain double quotes.
+                $value = str_replace('"', "'", $value);
+                
+                $array[$key] = $value;
+            }
+            
+            echo "\"" . implode("\",\"", $array) . "\"\n";
+        });
         
-        //Do not break (continue with csv case)
+        break;
     case 'csv':
-        //load the correct template
-        $outputcontroller->addTemplatePath(dirname(__FILE__).'/templates/' . $controller->options['format']);
+        $outputcontroller->addTemplatePath(dirname(__FILE__).'/templates/csv');
         
         $outputcontroller->sendCORSHeaders(UNL_UndergraduateBulletin_OutputController::getDefaultExpireTimestamp());
         
