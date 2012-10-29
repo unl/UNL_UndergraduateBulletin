@@ -12,9 +12,9 @@ foreach ($context as $abbreviation => $college) {
 $i = 0;
 foreach ($colleges as $college) {
     if ($i == 0) {
-        $delimitArray($delimiter, array_keys($college));
+        $delimitArray(array_keys($college));
     }
     $i++;
 
-    echo $delimitArray($delimiter, $college);
+    echo $delimitArray($college);
 }
