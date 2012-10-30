@@ -31,7 +31,7 @@ switch($controller->options['format']) {
         //Collegesource is also csv, but they require specific data... so they have a special template.
         $outputcontroller->addTemplatePath(dirname(__FILE__).'/templates/collegesource');
 
-        header('Content-type: text/plain');
+        header('Content-type: text/plain; charset=UTF-8');
 
         if (!isset($controller->options['delimiter'])) {
             $controller->options['delimiter'] = ",";
@@ -61,7 +61,7 @@ switch($controller->options['format']) {
         
         $outputcontroller->sendCORSHeaders(UNL_UndergraduateBulletin_OutputController::getDefaultExpireTimestamp());
         
-        header('Content-type: text/plain');
+        header('Content-type: text/plain; charset=UTF-8');
         
         if (!isset($controller->options['delimiter'])) {
             $controller->options['delimiter'] = ",";
