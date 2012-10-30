@@ -33,8 +33,14 @@ switch($controller->options['format']) {
 
         header('Content-type: text/plain');
 
+        if (!isset($controller->options['delimiter'])) {
+            $controller->options['delimiter'] = ",";
+        }
+
+        $outputcontroller->addGlobal('delimiter', $controller->options['delimiter']);
+
         //Needs its own delimiter Due to the fact that SQL 2005 requires that all field values be quoted.
-        $outputcontroller->addGlobal('delimitArray', function($array){
+        $outputcontroller->addGlobal('delimitArray', function($delimiter, $array){
             //sanitize the array values
             foreach ($array as $key=>$value) {
                 //remove newlines
@@ -46,7 +52,7 @@ switch($controller->options['format']) {
                 $array[$key] = $value;
             }
             
-            echo "\"" . implode("\",\"", $array) . "\"\n";
+            echo "\"" . implode("\"" . $delimiter . "\"", $array) . "\"\n";
         });
         
         break;

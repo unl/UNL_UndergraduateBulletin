@@ -35,10 +35,10 @@ foreach ($context->results as $course) {
         $csvCourse['CourseCode']     = $subject . " " . (string)$listing->courseNumber;
 
         if ($i == 0) {
-            $delimitArray(array_keys($csvCourse));
+            $delimitArray($delimiter, array_keys($csvCourse));
         }
 
-        $delimitArray($csvCourse);
+        $delimitArray($delimiter, $csvCourse);
         
         $i++;
     }
