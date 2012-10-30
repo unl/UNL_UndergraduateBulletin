@@ -31,10 +31,16 @@ switch($controller->options['format']) {
         //Collegesource is also csv, but they require specific data... so they have a special template.
         $outputcontroller->addTemplatePath(dirname(__FILE__).'/templates/collegesource');
 
-        header('Content-type: text/plain');
+        header('Content-type: text/plain; charset=UTF-8');
+
+        if (!isset($controller->options['delimiter'])) {
+            $controller->options['delimiter'] = ",";
+        }
+
+        $outputcontroller->addGlobal('delimiter', $controller->options['delimiter']);
 
         //Needs its own delimiter Due to the fact that SQL 2005 requires that all field values be quoted.
-        $outputcontroller->addGlobal('delimitArray', function($array){
+        $outputcontroller->addGlobal('delimitArray', function($delimiter, $array){
             //sanitize the array values
             foreach ($array as $key=>$value) {
                 //remove newlines
@@ -46,7 +52,7 @@ switch($controller->options['format']) {
                 $array[$key] = $value;
             }
             
-            echo "\"" . implode("\",\"", $array) . "\"\n";
+            echo "\"" . implode("\"" . $delimiter . "\"", $array) . "\"\n";
         });
         
         break;
@@ -55,7 +61,7 @@ switch($controller->options['format']) {
         
         $outputcontroller->sendCORSHeaders(UNL_UndergraduateBulletin_OutputController::getDefaultExpireTimestamp());
         
-        header('Content-type: text/plain');
+        header('Content-type: text/plain; charset=UTF-8');
         
         if (!isset($controller->options['delimiter'])) {
             $controller->options['delimiter'] = ",";
