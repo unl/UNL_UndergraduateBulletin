@@ -16,7 +16,7 @@ foreach (new UNL_UndergraduateBulletin_Editions() as $edition) {
     $codes = array();
 
     foreach ($file as $line) {
-        $array = str_getcsv(trim($line, ' ,'));
+        $array = str_getcsv(trim($line, ' ,'), ',', '\'');
         //print_r($array);
         /*
         For example:
