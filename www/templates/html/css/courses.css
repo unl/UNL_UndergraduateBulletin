@@ -20,6 +20,14 @@ dt .courseID{
     -webkit-border-radius:5px;
     float:left;
 }
+.glossary dt {
+    font-weight: bold;
+}
+.glossary dd {
+    margin-bottom: 0.25em;
+    border-bottom: 1px solid #f1f1f1;
+    padding: 0 0 0 1em !important;
+}
 .course .subjectCode {
 	color:#818489;
 	display:block;
