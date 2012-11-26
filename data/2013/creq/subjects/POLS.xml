@@ -1260,6 +1260,45 @@
     </credits>
   </course>
   <course>
+    <title>Immigration and Politics</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>POLS</subject>
+        <courseNumber>333</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>ETHN</subject>
+        <courseNumber>333</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1128</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Immigration as a multifaceted sociopolitical phenomenon. The history of different waves of immigration to the United States. Emphasis on the diversity within every immigrant group, as well as differences and similarities regarding their acculturation process. Public attitudes towards immigration in historical perspective. The American political system's capacity to incorporate newcomers into civic life.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>2.5</hours>
+      </activity>
+    </activities>
+    <aceOutcomes>
+      <slo>9</slo>
+    </aceOutcomes>
+  </course>
+  <course>
     <title>Polls, Politics and Public Opinion</title>
     <courseCodes>
       <courseCode type="crosslisting">
@@ -1564,6 +1603,44 @@
     <activities/>
     <credits>
       <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Model United Nations</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>POLS</subject>
+        <courseNumber>364</courseNumber>
+        <courseGroup>International Relations</courseGroup>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1131</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">An introduction to the United Nations system and the Model United Nations program, including research, debate and resolution writing.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>1</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">1</credit>
+      <credit type="Per Semester Limit">1</credit>
+      <credit type="Per Career Limit">3</credit>
     </credits>
   </course>
   <course>
@@ -3537,24 +3614,15 @@
         <courseNumber>818</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
-        <subject>ACCT</subject>
-        <courseNumber>818</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>LAW</subject>
-        <courseNumber>618</courseNumber>
-        <courseLetter>G</courseLetter>
-      </courseCode>
-      <courseCode type="crosslisting">
         <subject>POLS</subject>
         <courseNumber>818</courseNumber>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1131</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ACCT 812 or LAW 637/G</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">ACCT 812 or LAW 637G.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Selection of substantial income tax problems affecting farms and ranches.</div>

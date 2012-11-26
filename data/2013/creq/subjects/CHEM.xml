@@ -146,8 +146,8 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1091</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1131</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">MATH 103 or a Math Placement Test score for MATH 104 or 106.</div>
     </prerequisite>
@@ -155,7 +155,7 @@
       <div xmlns="http://www.w3.org/1999/xhtml">Credit toward the degree may be earned in only one of: CHEM 105, 109, 111, 113, or 195.</div>
     </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to principles of chemistry for students in technical and vocational areas which require chemical training for their major field. Includes states of matter and kinetic molecular theory, atomic theory and structure, chemical bonding and molecular structure, kinetics and equilibria, acid-base and oxidation-reduction reactions.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Lecture and laboratory serving as an introduction to chemical reactions, the mole concept, properties of the states of matter, atomic structure, periodic properties, chemical bonding, and molecular structure.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -171,7 +171,7 @@
     <activities>
       <activity>
         <type>lab</type>
-        <hours>4</hours>
+        <hours>3</hours>
       </activity>
       <activity>
         <type>lec</type>
@@ -179,7 +179,7 @@
       </activity>
       <activity>
         <type>quz</type>
-        <hours>4</hours>
+        <hours>1</hours>
       </activity>
     </activities>
     <credits>
@@ -198,13 +198,13 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1091</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1131</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">CHEM 109.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Application of chemical principles to real systems including treatment of the chemistry of metals and nonmetals, nuclear chemistry, consideration of the organic chemistry of carbon, and biochemical reactions and metabolism.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Lecture and laboratory serving as an introduction to intermolecular forces, kinetics, chemical equilibrium, thermodynamics, and electrochemistry.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -220,7 +220,7 @@
     <activities>
       <activity>
         <type>lab</type>
-        <hours>4</hours>
+        <hours>3</hours>
       </activity>
       <activity>
         <type>lec</type>
@@ -228,7 +228,7 @@
       </activity>
       <activity>
         <type>quz</type>
-        <hours>4</hours>
+        <hours>1</hours>
       </activity>
     </activities>
     <credits>
@@ -345,13 +345,13 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1131</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">CHEM 113.</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Parallel: CHEM 116.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Parallel: CHEM 221 is the associated laboratory course.</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Chemical kinetics, oxidation-reduction reactions and electrochemistry, ionic solution equilibria, thermodynamic concepts, and chemistry of selected elements.</div>
@@ -561,13 +561,13 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1131</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CHEM 110.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">CHEM 110 or 114.</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Credit may not be earned in both CHEM 221 and 116.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">This is the laboratory course for CHEM 114 as well as a stand-alone course in quantitative analysis. Credit may not be earned in both CHEM 221 and 116.</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Introduction to principles of quantitative analytical chemistry, including ionic equilibria and solution stoichiometry. Lab instruction includes titrimetry, gravimetry, separations, and use of pH meter and spectrophotometer.</div>
@@ -2251,7 +2251,7 @@
     </credits>
   </course>
   <course>
-    <title>Biophysical Chemistry</title>
+    <title>Physical Basis of Macromolecular Function</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>BIOC</subject>
@@ -2263,13 +2263,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">One semester of physical chemistry</div>
-    </prerequisite>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Introductory course covering x-ray diffraction and protein structure, absorption, spectroscopy of biomolecules, linear and circular dichroic spectroscopy of proteins and nucleic acids, fluorescence probes, membrane dynamics, NMR, EPR, and Resonance Raman spectroscopy applied to biological systems. Energetics, enzyme kinetics, relaxation kinetics, allosteric systems, and hydrodynamics.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to the theory and practice of biophysical characterization of macromolecules.  The course will be based on primary research literature, although a supporting text will be used for in depth discussion of the methods.</div>
     </description>
     <campuses>
       <campus></campus>

@@ -891,15 +891,12 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1131</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">SPED 201, TEAC 311, 313 for elementary education majors; SPED 201, 302, 303, 304 (or equivalent) for SPED majors.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">SPED 201, TEAC 311, TEAC 313 for elementary education majors; SPED 201, SPED 412, and SPED 414 (or equivalent) for SPED majors.  Must be taken with: SPED 415A/815A.</div>
     </prerequisite>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Parallel: SPED 415A/815A.</div>
-    </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Theory and techniques for assessing and teaching early literacy skills in small groups and one-on-one for children who struggle with literacy. A.	Reading Center Practicum: Elementary Students (1-3 cr, max 3) Fld.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Theory and techniques for assessing and teaching early literacy skills in small groups and one-on-one for children who struggle with literacy.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -912,33 +909,33 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>2</hours>
+      </activity>
+    </activities>
     <credits>
-      <credit type="Lower Range Limit">1</credit>
-      <credit type="Upper Range Limit">3</credit>
-      <credit type="Per Semester Limit">6</credit>
+      <credit type="Single Value">2</credit>
     </credits>
   </course>
   <course>
-    <title>Practicum: Reading Center III</title>
+    <title>Practicum in Reading and Writing Disabilities-Elementary</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>SPED</subject>
         <courseNumber>415</courseNumber>
-        <courseLetter>E</courseLetter>
+        <courseLetter>A</courseLetter>
       </courseCode>
     </courseCodes>
-    <gradingType>unrestricted</gradingType>
+    <gradingType>letter grade only</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1128</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Permission.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Prereq: SPED 201, TEAC 311, 313 for elementary education majors; SPED 201, 412, and 414 (or equivalent) for SPED majors. <em>Must be taken with: SPED 415/815.</em></div>
     </prerequisite>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">SPED 415E/815E requires two hours per week in a Reading Center.</div>
-    </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Teaching/tutoring experience evaluating and instructing students with reading problems in a Reading Center. Assessment, instructional planning, delivery of instruction, writing diagnostic reports and parent communication.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">This reading and writing practiucm is taken at the same time as SpEd 415 or SpEd 815</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -951,10 +948,14 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lab</type>
+        <hours>3.5</hours>
+      </activity>
+    </activities>
     <credits>
-      <credit type="Single Value">1</credit>
-      <credit type="Per Semester Limit">3</credit>
+      <credit type="Single Value">2</credit>
     </credits>
   </course>
   <course>
@@ -1098,7 +1099,7 @@
     </credits>
   </course>
   <course>
-    <title>Educating Students with Intellectual Impairments &amp; Developmental Disabilites</title>
+    <title>Educating Students with Intellectual Impairments &amp; Developmental Disabilities</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>SPED</subject>
@@ -1110,27 +1111,26 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1088</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1131</effectiveSemester>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Concepts related to history, definitions, identification, etiology, and assessment of students with intellectual impairments and developmental disabilities. Examine attitudes, assumptions, and stereotypes concerning persons with intellectual impairments and other developmental disabilites. Instructional methods, adaptations and teaming to provide individualized interventions and include students in least restrictive environments/general education settings. Observation in schools and applied assignments required.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Concepts related to history, definitions, identification, etiology, and assessment of students with intellectual impairments and developmental disabilities. Examine attitudes, assumptions, and stereotypes concerning persons with intellectual impairments and other developmental disabilities. Instructional methods, adaptations and teaming to provide individualized interventions and include students in least restrictive environments/general education settings. Applied assignments will be conducted in field experience and student teaching.<strong><br/></strong></div>
     </description>
     <campuses>
       <campus>UNL</campus>
     </campuses>
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
+      <deliveryMethod>Web</deliveryMethod>
     </deliveryMethods>
     <termsOffered>
       <term>Fall</term>
       <term>Spring</term>
-      <term>Summer</term>
     </termsOffered>
     <activities/>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
-    <gradCredits>3</gradCredits>
   </course>
   <course>
     <title>Workshop Seminar</title>
@@ -1252,6 +1252,51 @@
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">E. Field Experience: General Special Education (1-6 cr, max 12) M. Field Experience: Mild/Moderate (1-6 cr, max 12) Y. Field Experience: Inclusion (1-6 cr, max 12)</div>
     </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>fld</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">6</credit>
+      <credit type="Per Semester Limit">12</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Directed Field Experience: Inclusion</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>SPED</subject>
+        <courseNumber>496</courseNumber>
+        <courseLetter>Y</courseLetter>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>SPED</subject>
+        <courseNumber>896</courseNumber>
+        <courseLetter>Y</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>pass/no pass only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1131</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Permission.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Pass/No Pass only for SPED 496 section.  SPED 896 is graded.</div>
+    </notes>
     <campuses>
       <campus>UNL</campus>
     </campuses>

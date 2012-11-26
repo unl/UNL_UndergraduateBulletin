@@ -146,6 +146,51 @@
     </aceOutcomes>
   </course>
   <course>
+    <title>University Honors Seminar</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>PSYC</subject>
+        <courseNumber>189</courseNumber>
+        <courseLetter>H</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1128</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Good standing in the University Honors Program or by invitation</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">University Honors Seminar 189H is required of all students in the University Honors Program. Letter grade only.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Topic varies.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+    <aceOutcomes>
+      <slo>6</slo>
+    </aceOutcomes>
+  </course>
+  <course>
     <title>Psychological Aspects of Alcohol</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -767,17 +812,17 @@
         <courseLetter>X</courseLetter>
       </courseCode>
     </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1108</effectiveSemester>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1128</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">10 credit hrs in psychology, including PSYC 181; and high school algebra or equivalent.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">10 credit hours in Psychology, including PSYC 181.</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Grade only</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">PSYC 350 is offered each semester and is a pre-requisite for PSYC 425, 449, 450, 451, 460, 462, and 470.</div>
     </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to the basic methods employed in behavioral and psychological research and the statistical techniques required for describing and interpreting research results. Includes: philosophy of science, communication of research results, overviews of common research strategies (e.g., naturalistic research, surveys, experimental/quasi-experimental designs) measurement scales, and some elementary statistics. Practical experience with data collection and descriptive statistics.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Presentation of basic designs, methods, and data analysis techniques employed in psychological and behavioral research. Critical review of existing research, development of empirical hypotheses, design of research to test those hypotheses, statistical analysis and interpretation, and presentation of results. Create, perform, and present an individual research project.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -1373,7 +1418,7 @@
     </credits>
   </course>
   <course>
-    <title>Psychological Measurement and Prediction</title>
+    <title>Multivariate Research Design and Data Analysis</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>PSYC</subject>
@@ -1384,17 +1429,17 @@
         <courseNumber>851</courseNumber>
       </courseCode>
     </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1128</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">12 hrs psychology or permission.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">PSYC 350 with a grade of B or better</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">A course in elementary statistics is highly recommended.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">PSYC 450/850 (usually offered in the fall) and PSYC 451/851 (usually offered in the spring) can be taken in any order.</div>
     </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Theoretical issues and practical problems related to measurement and prediction in psychology. Interpretation of mental-test statistics.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Presentation of multivariate research designs and statistical models employed in psychological and behavioral research. Analysis using multiple regression and linear discriminant function models; interpretation and presentation of the results in oral, written, and web-based formats. Create, perform, and present an individual research project.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -2298,7 +2343,7 @@
     </credits>
   </course>
   <course>
-    <title>Pro-seminars in Psychology</title>
+    <title>Pro-seminars in Cognition and Learning</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>PSYC</subject>
@@ -2306,8 +2351,8 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1131</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Permission</div>
     </prerequisite>
@@ -2323,7 +2368,309 @@
     </credits>
   </course>
   <course>
-    <title>Seminars in Psychology</title>
+    <title>Developmental: Biological and Cognitive Development</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>PSYC</subject>
+        <courseNumber>902</courseNumber>
+        <courseLetter>A</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1131</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Permission</div>
+    </prerequisite>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Developmental: Social and Personality Development</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>PSYC</subject>
+        <courseNumber>902</courseNumber>
+        <courseLetter>B</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1131</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Permission</div>
+    </prerequisite>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Proseminar in Personality</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>PSYC</subject>
+        <courseNumber>903</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1131</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Permission</div>
+    </prerequisite>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Proseminar in Physiological</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>PSYC</subject>
+        <courseNumber>904</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1131</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Permission</div>
+    </prerequisite>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Proseminar in Sensation and Perception</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>PSYC</subject>
+        <courseNumber>905</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1131</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Permission</div>
+    </prerequisite>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Proseminar in Social Psychology</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>PSYC</subject>
+        <courseNumber>906</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1131</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Permission</div>
+    </prerequisite>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Proseminar in Cognitive Psychology</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>PSYC</subject>
+        <courseNumber>907</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1131</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Permission</div>
+    </prerequisite>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Proseminar in Clinical–Community</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>PSYC</subject>
+        <courseNumber>908</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1131</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Permission</div>
+    </prerequisite>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Proseminar in Psychopathology</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>PSYC</subject>
+        <courseNumber>909</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1131</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Permission</div>
+    </prerequisite>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Proseminar in History and Philosophy of Psychology</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>PSYC</subject>
+        <courseNumber>910</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1131</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Permission</div>
+    </prerequisite>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Seminar in Psychology: Abnormal</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>PSYC</subject>
@@ -2331,8 +2678,8 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1131</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Advanced graduate standing and permission</div>
     </prerequisite>
@@ -2346,6 +2693,102 @@
     <credits>
       <credit type="Lower Range Limit">1</credit>
       <credit type="Upper Range Limit">9</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Seminar in Psychology: Developmental</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>PSYC</subject>
+        <courseNumber>921</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1131</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Advanced graduate standing and permission.</div>
+    </prerequisite>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">9</credit>
+      <credit type="Per Career Limit">9</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Seminar in Psychology: Clinical</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>PSYC</subject>
+        <courseNumber>922</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1131</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Advanced graduate standing and permission.</div>
+    </prerequisite>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">9</credit>
+      <credit type="Per Career Limit">9</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Seminar in Psychology: Learning</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>PSYC</subject>
+        <courseNumber>924</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1131</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Advanced graduate standing and permission.</div>
+    </prerequisite>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">9</credit>
+      <credit type="Per Career Limit">9</credit>
     </credits>
   </course>
   <course>
@@ -2437,6 +2880,102 @@
     </activities>
     <credits>
       <credit type="Single Value">1</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Seminar in Psychology: Personality</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>PSYC</subject>
+        <courseNumber>926</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1131</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Advanced graduate standing and permission.</div>
+    </prerequisite>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">9</credit>
+      <credit type="Per Career Limit">9</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Seminar in Psychology: Social Behavior</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>PSYC</subject>
+        <courseNumber>929</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1131</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Advanced graduate standing and permission.</div>
+    </prerequisite>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">9</credit>
+      <credit type="Per Career Limit">9</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Seminar in Psychology: Pychometric Methods</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>PSYC</subject>
+        <courseNumber>930</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1131</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Advanced graduate standing and permission.</div>
+    </prerequisite>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">9</credit>
+      <credit type="Per Career Limit">9</credit>
     </credits>
   </course>
   <course>
@@ -3273,8 +3812,11 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1131</effectiveSemester>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Credit may only be earned in either LAW 763G or LAW 772G.</div>
+    </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Critical review of the mental health laws throughout the nation and their psychological foundations. Emphasis on the research that illuminates the problems facing mental health law, system, and processes and the available solutions. Includes the insanity defense, competency to stand trial, guardianship, conservatorship, and civil commitment.</div>
     </description>

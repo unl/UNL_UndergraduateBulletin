@@ -1,6 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <courses xmlns="http://courseapproval.unl.edu/courses" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://courseapproval.unl.edu/courses /schema/courses.xsd">
   <course>
+    <title>Teaching &amp; Learning in Post-Secondary Science Education</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>GEOS</subject>
+        <courseNumber>810</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1131</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">One semester of teaching a college level science, technology, engineering, or mathematics course.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">This course is designed for graduate students, postdoctoral researchers, and others who teach at the college level. Students may seek permission from instructor to enroll in the course concurrent with their first semester of teaching.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Integrate learning theories, pedagogy, and evidence-based practices to promote student learning in science, technology, engineering, and mathematics (STEM) courses in post-secondary education.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Special Problems in Geosciences</title>
     <courseCodes>
       <courseCode type="home listing">

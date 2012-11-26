@@ -2340,13 +2340,13 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">MUSC 466/866 or equivalent.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">MUSC 465/865.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Formal and harmonic analysis of standard tunes and jazz classics. Application of modal and scalar approach to performance of jazz chord progressions. Analysis of recorded jazz solos.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Exploration of the uses the elements of music (melody, harmony, rhythm, articulation, dynamics, form, etc.) in consonant and dissonant ways to create expressive, emotional and substantive improvisations. Topics include the role of the ear; free playing; intervalic and melodic construction; tone and chord character; and transcription.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -2359,7 +2359,12 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
       <credit type="Per Semester Limit">3</credit>

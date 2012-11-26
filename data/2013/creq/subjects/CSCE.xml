@@ -1461,6 +1461,44 @@
     </credits>
   </course>
   <course>
+    <title>Honors: Programming Language Concepts</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CSCE</subject>
+        <courseNumber>322</courseNumber>
+        <courseLetter>H</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1128</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Good Standing in UNL Honors Program or by invitation; CSCE156/CSCE156H or CSCE311, CSCE230/CSCE230H</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">List-processing, string-processing, and other types of high-level programming languages. Fundamental concepts of data types, control structures, operations, and programming environments of various programming languages. Analysis, formal specification, and comparison of language features.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Digital Logic Design</title>
     <courseCodes>
       <courseCode type="crosslisting">
@@ -1615,6 +1653,45 @@
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">CSCE 361 requires participation in a group design and implementation of a software project.</div>
     </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Techniques used in the disciplined development of large software projects. Software requirements analysis and specifications, program design, coding and integration testing, and software maintenance. Software estimation techniques, design tools, and complexity metrics.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Honors: Software Engineering</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CSCE</subject>
+        <courseNumber>361</courseNumber>
+        <courseLetter>H</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1128</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Good Standing in UNL Honors Program or by invitation; CSCE310/CSCE310H or CSCE311</div>
+    </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Techniques used in the disciplined development of large software projects. Software requirements analysis and specifications, program design, coding and integration testing, and software maintenance. Software estimation techniques, design tools, and complexity metrics.</div>
     </description>
@@ -2629,6 +2706,51 @@
       <activity>
         <type>lec</type>
         <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Robotics</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CSCE</subject>
+        <courseNumber>439</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>CSCE</subject>
+        <courseNumber>839</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1128</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">CSCE236 or ELEC222 and CSCE 310/311 or equivalent programming experience, MATH 314, senior/graduate standing, or instructor permission.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Fundamental theory and algorithms for real world robot systems.  Design and build a robot platform and implement algorithms in C++ or other high level languages.  Topics include: open and closed loop control, reactive control, localization, navigation, path planning, obstacle avoidance, dynamics, kinematics, manipulation and grasping, sensing, robot vision processing, and data fusion.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lab</type>
+        <hours>2</hours>
+      </activity>
+      <activity>
+        <type>lec</type>
+        <hours>2</hours>
       </activity>
     </activities>
     <credits>

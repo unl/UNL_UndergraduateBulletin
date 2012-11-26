@@ -4680,21 +4680,93 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1131</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Preparatory courses in botany, microbiology, genetics, and biochemistry</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Preparatory courses in botany, microbiology, genetics, and biochemistry.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">A series of eight different mini-courses. Access to the World Wide Web and E-mail are required. Principles and concepts of plant pathology, including relation of plant disease to crop production, environment, man, current, historical and emerging diseases of corn, soybeans, small grain, turf and sorghum, dry bean and alfalfa. Specific disease cycles, edipemiology and plant health management strategies.<br/>A.	Corn Diseases (1 cr) Prereq: AGRO 830 or an introductory plant pathology course.<br/>B.	Soybean Diseases (1 cr) Prereq: AGRO 830 or an introductory plant pathology course.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">A series of mini-courses. Access to the World Wide Web and E-mail are required. Principles and concepts of plant pathology, including relation of plant disease to crop production, environment, man, current, historical and emerging diseases of corn, soybeans, small grain, turf and sorghum, dry bean and alfalfa. Specific disease cycles, edipemiology and plant health management strategies.</div>
     </description>
     <campuses>
-      <campus></campus>
+      <campus>UNL</campus>
     </campuses>
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">1</credit>
+      <credit type="Per Career Limit">8</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Corn Diseases</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>AGRO</subject>
+        <courseNumber>830</courseNumber>
+        <courseLetter>A</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1131</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">AGRO 830 or an introductory plant pathology course.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">A series of mini-courses. Access to the World Wide Web and E-mail are required. Principles and concepts of plant pathology, including relation of plant disease to crop production, environment, man, current, historical and emerging diseases of corn, soybeans, small grain, turf and sorghum, dry bean and alfalfa. Specific disease cycles, edipemiology and plant health management strategies.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">1</credit>
+      <credit type="Per Career Limit">8</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Soybean Diseases</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>AGRO</subject>
+        <courseNumber>830</courseNumber>
+        <courseLetter>B</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1131</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">AGRO 830 or an introductory plany pathology course.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">A series of mini-courses. Access to the World Wide Web and E-mail are required. Principles and concepts of plant pathology, including relation of plant disease to crop production, environment, man, current, historical and emerging diseases of corn, soybeans, small grain, turf and sorghum, dry bean and alfalfa. Specific disease cycles, edipemiology and plant health management strategies.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">1</credit>
       <credit type="Per Career Limit">8</credit>
