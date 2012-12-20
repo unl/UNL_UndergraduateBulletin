@@ -1,6 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <courses xmlns="http://courseapproval.unl.edu/courses" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://courseapproval.unl.edu/courses /schema/courses.xsd">
   <course>
+    <title>Special topics</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ADPR</subject>
+        <courseNumber>191</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>ADPR</subject>
+        <courseNumber>191</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">12 hours max special topics hours at all levels (100, 200, 300, 400) per degree. ADPR 191 may be repeated up to three times so long as the topics are different.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Topics vary each term.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+      <deliveryMethod>Web</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>1</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">4</credit>
+      <credit type="Per Career Limit">12</credit>
+    </credits>
+  </course>
+  <course>
     <title>Communicating to Public Audiences</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -121,6 +167,55 @@
     <aceOutcomes>
       <slo>1</slo>
     </aceOutcomes>
+  </course>
+  <course>
+    <title></title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ADPR</subject>
+        <courseNumber>291</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>ADPR</subject>
+        <courseNumber>291</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">None</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">12 hours max special topics hours at all levels (100, 200, 300, 400) per degree. May be repeated up to three times so long as the topics are different.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Topics vary each term.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+      <deliveryMethod>Web</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>1</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">4</credit>
+      <credit type="Per Career Limit">12</credit>
+    </credits>
   </course>
   <course>
     <title>Copy and Concept</title>
@@ -282,6 +377,52 @@
     </activities>
     <credits>
       <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Special topics</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ADPR</subject>
+        <courseNumber>391</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>ADPR</subject>
+        <courseNumber>391</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">12 hours max special topics hours at all levels (100, 200, 300, 400) per degree. ADPR 391 may be repeated up to three times so long as the topics are different.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Topics vary each term.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+      <deliveryMethod>Web</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>1</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">4</credit>
+      <credit type="Per Career Limit">12</credit>
     </credits>
   </course>
   <course>
@@ -1043,12 +1184,17 @@
         <subject>ADPR</subject>
         <courseNumber>891</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>ADPR</subject>
+        <courseNumber>491</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
     </courseCodes>
-    <gradingType>letter grade only</gradingType>
+    <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <effectiveSemester>1138</effectiveSemester>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">ADPR 491/891 may be repeated up to three times so long as the topics are different.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">ADPR 491/491X/891 may be repeated up to three times so long as the topics are different.  12 hours max special topics hours at all levels (100, 200, 300, 400) per degree.</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Topics vary each term.</div>
@@ -1058,6 +1204,7 @@
     </campuses>
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
+      <deliveryMethod>Web</deliveryMethod>
     </deliveryMethods>
     <termsOffered>
       <term>Fall</term>
