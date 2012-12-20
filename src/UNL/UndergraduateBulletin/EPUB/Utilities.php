@@ -265,4 +265,23 @@ class UNL_UndergraduateBulletin_EPUB_Utilities
 
         return true;
     }
+    
+    /**
+     * Updates a subject's course number in the supplied string.
+     * 
+     * @param string $subject
+     * @param string $originalCourseNumeber
+     * @param string $newCourseNumber
+     * @return string
+     */
+    public static function updateCourseNumber($text, $subject, $originalCourseNumeber, $newCourseNumber)
+    {
+        return self::courseScanCallback($text, function($matches) use ($subject, $originalCourseNumeber, $newCourseNumber) {
+            if (!self::isValidSubjectCode($matches[1]) || $matches[1] != $subject) {
+                return $matches[0];
+            }
+            
+            return preg_replace('/(' . $originalCourseNumeber . ')([^0-9A-Z]|$)/', $newCourseNumber . '$2', $matches[0]);
+        });
+    }
 }
