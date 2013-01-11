@@ -536,13 +536,13 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1091</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Parallel ANTH 242L</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">The scope and objectives of physical anthropology, the primate life cycle, human biology, fossil man, contemporary races, techniques of anthropometry.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Physical/biological anthropology is the study of human and non human primate biological evolution and biocultural variation. This includes genetics, mechanisms of change, growth and development, primate ecology, and the fossil record.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -760,14 +760,18 @@
       <courseCode type="home listing">
         <subject>ANTH</subject>
         <courseNumber>290</courseNumber>
+        <courseGroup>Laboratory and Field Training</courseGroup>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1115</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1131</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Permission.</div>
     </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Only 3 credit hours of ANTH 290 will count towards the Anthropology major.</div>
+    </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">By participation in research projects students learn basic field techniques and the relationship between research design and execution.</div>
     </description>
@@ -782,10 +786,19 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>fld</type>
+      </activity>
+      <activity>
+        <type>lab</type>
+      </activity>
+    </activities>
     <credits>
       <credit type="Lower Range Limit">1</credit>
       <credit type="Upper Range Limit">6</credit>
+      <credit type="Per Semester Limit">6</credit>
+      <credit type="Per Career Limit">6</credit>
     </credits>
   </course>
   <course>
@@ -794,16 +807,17 @@
       <courseCode type="home listing">
         <subject>ANTH</subject>
         <courseNumber>291</courseNumber>
+        <courseGroup>Laboratory and Field Training</courseGroup>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1115</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1131</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Permission.</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Only 3 hours of ANTH 281 is allowed towards the ANTH major.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Only 3 hours of ANTH 291 is allowed towards the ANTH major.</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Practical experience in the preparation and manipulation of archaeological materials. Experience gained through participation in faculty-guided laboratory projects.</div>
@@ -819,11 +833,16 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lab</type>
+      </activity>
+    </activities>
     <credits>
       <credit type="Lower Range Limit">1</credit>
       <credit type="Upper Range Limit">6</credit>
-      <credit type="Per Semester Limit">24</credit>
+      <credit type="Per Semester Limit">6</credit>
+      <credit type="Per Career Limit">3</credit>
     </credits>
   </course>
   <course>
@@ -1275,13 +1294,13 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1131</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Open to candidates for degrees with distinction, with high distinction, and with highest distinction in the College of Arts and Sciences.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Good standing in the University Honors Program and permission.</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Good standing in the University Honors Program and permission.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Open to candidates for degrees with distinction, with high distinction, and with highest distinction in the College of Arts and Sciences.</div>
     </notes>
     <campuses>
       <campus>UNL</campus>
@@ -1294,10 +1313,15 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
     <credits>
       <credit type="Lower Range Limit">1</credit>
-      <credit type="Upper Range Limit">4</credit>
+      <credit type="Upper Range Limit">6</credit>
+      <credit type="Per Career Limit">6</credit>
     </credits>
   </course>
   <course>
@@ -2413,6 +2437,9 @@
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
+    <aceOutcomes>
+      <slo>10</slo>
+    </aceOutcomes>
   </course>
   <course>
     <title>Ethnographic Field School</title>
@@ -2430,7 +2457,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1121</effectiveSemester>
+    <effectiveSemester>1131</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Permission of instructor.</div>
     </prerequisite>
@@ -2454,8 +2481,9 @@
       </activity>
     </activities>
     <credits>
-      <credit type="Lower Range Limit">3</credit>
+      <credit type="Lower Range Limit">1</credit>
       <credit type="Upper Range Limit">6</credit>
+      <credit type="Per Career Limit">6</credit>
     </credits>
   </course>
   <course>
@@ -3181,7 +3209,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1131</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">ANTH 232.</div>
     </prerequisite>
@@ -3189,7 +3217,7 @@
       <div xmlns="http://www.w3.org/1999/xhtml">ANTH 487/887 may be repeated. Topics vary by semester.</div>
     </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Survey of vocabulary, techniques, and ideas needed to research major materials found in archaeological sites. A.	Ceramics (4 cr) B.	Lithics (4 cr) D.	Archaeofauna (4 cr) E.	Historic Material Culture (4 cr)</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Survey of vocabulary, techniques, and ideas needed to research major materials found in archaeological sites. A. Ceramics (3 cr) B. Lithics (3 cr) D. Archaeofauna (3 cr) E. Historic Material Culture (3 cr)</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -3211,8 +3239,9 @@
       </activity>
     </activities>
     <credits>
-      <credit type="Single Value">4</credit>
-      <credit type="Per Semester Limit">16</credit>
+      <credit type="Single Value">3</credit>
+      <credit type="Per Semester Limit">6</credit>
+      <credit type="Per Career Limit">9</credit>
     </credits>
   </course>
   <course>
@@ -3317,7 +3346,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1125</effectiveSemester>
+    <effectiveSemester>1131</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Permission.</div>
     </prerequisite>
@@ -3337,16 +3366,14 @@
     </termsOffered>
     <activities>
       <activity>
-        <type>fld</type>
-      </activity>
-      <activity>
         <type>lab</type>
       </activity>
     </activities>
     <credits>
       <credit type="Lower Range Limit">1</credit>
       <credit type="Upper Range Limit">6</credit>
-      <credit type="Per Career Limit">24</credit>
+      <credit type="Per Semester Limit">6</credit>
+      <credit type="Per Career Limit">6</credit>
     </credits>
   </course>
   <course>
@@ -3443,7 +3470,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1131</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Permission.</div>
     </prerequisite>
@@ -3461,9 +3488,15 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
     <credits>
-      <credit type="Single Value">3</credit>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">6</credit>
+      <credit type="Per Career Limit">6</credit>
     </credits>
   </course>
   <course>

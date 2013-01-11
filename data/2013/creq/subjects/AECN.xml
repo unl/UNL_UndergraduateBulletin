@@ -1584,24 +1584,15 @@
         <courseNumber>818</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
-        <subject>ACCT</subject>
-        <courseNumber>818</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>LAW</subject>
-        <courseNumber>618</courseNumber>
-        <courseLetter>G</courseLetter>
-      </courseCode>
-      <courseCode type="crosslisting">
         <subject>POLS</subject>
         <courseNumber>818</courseNumber>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1131</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ACCT 812 or LAW 637/G</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">ACCT 812 or LAW 637G.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Selection of substantial income tax problems affecting farms and ranches.</div>
@@ -2117,28 +2108,32 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1131</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Appropriate section of AECN 901</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Investigation of a research issue in a field of agricultural economics. Identification of an issue, discovery and interpretation of relevant research, rigorous development of an additional contribution to the resolution of the issue.<br/>A.	Production Economics Prereq: AECN 901A.<br/>B.	Agricultural Industrial Organization Prereq: AECN 901B.<br/>D.	International Agricultural Trade Prereq: AECN 901C.<br/>E.	Agricultural Development Prereq: AECN 901D.<br/>J.	Natural Resource Economics Prereq: AECN 901E.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Investigation of a research issue in a field of agricultural economics. Identification of an issue, discovery and interpretation of relevant research, rigorous development of an additional contribution to the resolution of the issue.</div>
     </description>
     <campuses>
-      <campus></campus>
+      <campus>UNL</campus>
     </campuses>
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
       <credit type="Per Career Limit">15</credit>
     </credits>
   </course>
   <course>
-    <title>Production Economics Prereq: AECN 901A.</title>
+    <title>Production Economics</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>AECN</subject>
@@ -2147,18 +2142,32 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1131</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">AECN 901A.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Investigation of a research issue in a field of agricultural economics. Identification of an issue, discovery and interpretation of relevant research, rigorous development of an additional contribution to the resolution of the issue.</div>
+    </description>
     <campuses>
-      <campus></campus>
+      <campus>UNL</campus>
     </campuses>
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+      <credit type="Per Career Limit">15</credit>
+    </credits>
   </course>
   <course>
-    <title>Agricultural Industrial Organization Prereq: AECN 901B.</title>
+    <title>Agricultural Industrial Organization</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>AECN</subject>
@@ -2167,18 +2176,32 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1131</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">AECN 901B.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Investigation of a research issue in a field of agricultural economics. Identification of an issue, discovery and interpretation of relevant research, rigorous development of an additional contribution to the resolution of the issue.</div>
+    </description>
     <campuses>
-      <campus></campus>
+      <campus>UNL</campus>
     </campuses>
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+      <credit type="Per Career Limit">15</credit>
+    </credits>
   </course>
   <course>
-    <title>International Agricultural Trade Prereq: AECN 901C.</title>
+    <title>International Agricultural Trade</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>AECN</subject>
@@ -2187,18 +2210,32 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1131</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">AECN 901C.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Investigation of a research issue in a field of agricultural economics. Identification of an issue, discovery and interpretation of relevant research, rigorous development of an additional contribution to the resolution of the issue.</div>
+    </description>
     <campuses>
-      <campus></campus>
+      <campus>UNL</campus>
     </campuses>
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+      <credit type="Per Career Limit">15</credit>
+    </credits>
   </course>
   <course>
-    <title>Agricultural Development Prereq: AECN 901D.</title>
+    <title>Agricultural Development</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>AECN</subject>
@@ -2207,18 +2244,32 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1131</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">AECN 901D.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Investigation of a research issue in a field of agricultural economics. Identification of an issue, discovery and interpretation of relevant research, rigorous development of an additional contribution to the resolution of the issue.</div>
+    </description>
     <campuses>
-      <campus></campus>
+      <campus>UNL</campus>
     </campuses>
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+      <credit type="Per Career Limit">15</credit>
+    </credits>
   </course>
   <course>
-    <title>Natural Resource Economics Prereq: AECN 901E.</title>
+    <title>Natural Resource Economics</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>AECN</subject>
@@ -2227,15 +2278,29 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1131</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">AECN 901E.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Investigation of a research issue in a field of agricultural economics. Identification of an issue, discovery and interpretation of relevant research, rigorous development of an additional contribution to the resolution of the issue.</div>
+    </description>
     <campuses>
-      <campus></campus>
+      <campus>UNL</campus>
     </campuses>
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+      <credit type="Per Career Limit">15</credit>
+    </credits>
   </course>
   <course>
     <title>Seminar in International Trade and Finance</title>

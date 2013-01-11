@@ -1,6 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <courses xmlns="http://courseapproval.unl.edu/courses" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://courseapproval.unl.edu/courses /schema/courses.xsd">
   <course>
+    <title>Career Planning for English Majors</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ENGL</subject>
+        <courseNumber>100</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>pass/no pass only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1131</effectiveSemester>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">ENGL 100 is an elective orientation course that serves students early on in the English major.  Pass/no pass only. ENGL 100 does not apply to the English major or minor.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to career opportunities for English majors. Emphasis will be placed on the value of a liberal arts degree, employable skills, and gaining relevant experiences during the undergraduate years.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>1</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">1</credit>
+    </credits>
+  </course>
+  <course>
     <title>Writing : Rhetoric and Reading</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -374,6 +412,45 @@
     </aceOutcomes>
   </course>
   <course>
+    <title>Beginning Creative Writing</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ENGL</subject>
+        <courseNumber>170</courseNumber>
+        <courseGroup>Creative Writing</courseGroup>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to the writing of poetry, fiction, and creative nonfiction. Writing, the development of the craft and technique, and analytical reading skills.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+    <aceOutcomes>
+      <slo>7</slo>
+    </aceOutcomes>
+  </course>
+  <course>
     <title>Introduction to Literature</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -522,7 +599,7 @@
     </credits>
   </course>
   <course>
-    <title>University Honors Seminar*</title>
+    <title>University Honors Seminar</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>ENGL</subject>
@@ -629,7 +706,7 @@
     </credits>
   </course>
   <course>
-    <title>Introduction to Drama*</title>
+    <title>Introduction to Drama</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>ENGL</subject>
@@ -733,7 +810,83 @@
     </aceOutcomes>
   </course>
   <course>
-    <title>Film: The Documentary*</title>
+    <title>Science Fiction</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ENGL</subject>
+        <courseNumber>206</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1131</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Examines the science fiction genre from its origins in the 18th century to its contemporary expression.  Issues of technological modernity and consider how these are mediated through literary texts will be introduced.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+    <aceOutcomes>
+      <slo>5</slo>
+    </aceOutcomes>
+  </course>
+  <course>
+    <title>The Mystery and Gothic Tradition</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ENGL</subject>
+        <courseNumber>208</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1131</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Exploration of the darker side of literature in English from the nineteenth century to the present, surveying the Gothic and mystery tradition through the novel and other narrative forms.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+    <aceOutcomes>
+      <slo>5</slo>
+    </aceOutcomes>
+  </course>
+  <course>
+    <title>Film: The Documentary</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>ENGL</subject>
@@ -1916,19 +2069,19 @@
     </aceOutcomes>
   </course>
   <course>
-    <title>Introduction to Creative Writing</title>
+    <title>Introduction to Creative Nonfiction Writing</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>ENGL</subject>
-        <courseNumber>250</courseNumber>
+        <courseNumber>251</courseNumber>
         <courseGroup>Creative Writing</courseGroup>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1091</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to the writing of poetry, fiction, and creative nonfiction. Writing, the development of the craft and technique, and analytical reading skills.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Reading and analysis of published creative nonfiction writing and practice researching and writing creative nonfiction.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -1955,7 +2108,7 @@
     </aceOutcomes>
   </course>
   <course>
-    <title>Introduction to Writing of Fiction</title>
+    <title>Introduction to Fiction Writing</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>ENGL</subject>
@@ -1965,7 +2118,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1091</effectiveSemester>
+    <effectiveSemester>1131</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Introduction to the writing of fiction. Writing, analysis of craft, technique, and reading skills.</div>
     </description>
@@ -1994,7 +2147,7 @@
     </aceOutcomes>
   </course>
   <course>
-    <title>Writing of Poetry</title>
+    <title>Introduction to Poetry Writing</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>ENGL</subject>
@@ -2003,8 +2156,8 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1091</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Introduction to the writing of poetry. Emphasis on student writing within a context of theory and criticism.</div>
     </description>
@@ -2019,7 +2172,12 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
@@ -2028,7 +2186,7 @@
     </aceOutcomes>
   </course>
   <course>
-    <title>Writing of Poetry: Women's Poetry</title>
+    <title>Introduction to Poetry Writing: Women's Poetry</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>ENGL</subject>
@@ -2044,7 +2202,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1091</effectiveSemester>
+    <effectiveSemester>1131</effectiveSemester>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">ENGL/WMNS 253A may not be offered every year.</div>
     </notes>
@@ -2112,41 +2270,6 @@
     </credits>
     <aceOutcomes>
       <slo>1</slo>
-    </aceOutcomes>
-  </course>
-  <course>
-    <title>Autobiographical Writing*</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ENGL</subject>
-        <courseNumber>258</courseNumber>
-        <courseLetter>B</courseLetter>
-        <courseGroup>Creative Writing</courseGroup>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1091</effectiveSemester>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Reading and analysis of published autobiographical writing and practice in recalling, researching, and writing autobiographical material. [258x]. Special Topics in Writing (2 cr) Prereq: 6 hrs freshman English. Independent study course for intermediate students in the study and practice of composition.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities/>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-    <aceOutcomes>
-      <slo>7</slo>
     </aceOutcomes>
   </course>
   <course>
@@ -2300,7 +2423,7 @@
     </aceOutcomes>
   </course>
   <course>
-    <title>Film Period*</title>
+    <title>Film Period</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>ENGL</subject>
@@ -2486,7 +2609,7 @@
     </credits>
   </course>
   <course>
-    <title>Literature and the Other Arts*</title>
+    <title>Literature and the Other Arts</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>ENGL</subject>
@@ -2623,7 +2746,7 @@
     </credits>
   </course>
   <course>
-    <title>Twentieth-Century Drama*</title>
+    <title>Twentieth-Century Drama</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>ENGL</subject>
@@ -3030,7 +3153,7 @@
     </aceOutcomes>
   </course>
   <course>
-    <title>Modern English Grammar*</title>
+    <title>Modern English Grammar</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>ENGL</subject>
@@ -3065,7 +3188,7 @@
     </credits>
   </course>
   <course>
-    <title>Linguistics and Society*</title>
+    <title>Linguistics and Society</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>ENGL</subject>
@@ -3250,7 +3373,7 @@
     </aceOutcomes>
   </course>
   <course>
-    <title>American Authors to 1900*</title>
+    <title>American Authors to 1900</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>ENGL</subject>
@@ -3393,7 +3516,7 @@
     </credits>
   </course>
   <course>
-    <title>Classical Roots of English Literature*</title>
+    <title>Classical Roots of English Literature</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>ENGL</subject>
@@ -3427,7 +3550,7 @@
     </aceOutcomes>
   </course>
   <course>
-    <title>The Bible as Literature*</title>
+    <title>The Bible as Literature</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>ENGL</subject>
@@ -3704,7 +3827,7 @@
     </aceOutcomes>
   </course>
   <course>
-    <title>Humanities on the Plains*</title>
+    <title>Humanities on the Plains</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>ENGL</subject>
@@ -3734,7 +3857,7 @@
     </credits>
   </course>
   <course>
-    <title>National Cinemas*</title>
+    <title>National Cinemas</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>ENGL</subject>
@@ -3771,7 +3894,7 @@
     </aceOutcomes>
   </course>
   <course>
-    <title>Advanced Writing of Fiction</title>
+    <title>Intermediate Fiction Writing</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>ENGL</subject>
@@ -3780,8 +3903,11 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1091</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">ENGL 252.</div>
+    </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Study and practice of the writing of fiction for intermediate students with previous fiction writing experience.</div>
     </description>
@@ -3796,7 +3922,12 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
@@ -3805,7 +3936,7 @@
     </aceOutcomes>
   </course>
   <course>
-    <title>Advanced Writing of Poetry</title>
+    <title>Intermediate Poetry Writing</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>ENGL</subject>
@@ -3814,8 +3945,11 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1091</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">ENGL 253.</div>
+    </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Study and practice of the writing of poetry for intermediate students with previous poetry writing experience.</div>
     </description>
@@ -3830,7 +3964,12 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
@@ -3873,6 +4012,41 @@
     <aceOutcomes>
       <slo>1</slo>
     </aceOutcomes>
+  </course>
+  <course>
+    <title>Editing and the Publishing Industry</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ENGL</subject>
+        <courseNumber>355</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1131</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Instruction on the theory and practice of creative and scholarly editing and publishing in both print and digital formats.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
   </course>
   <course>
     <title>Composition Theory and Practice</title>
@@ -4076,7 +4250,7 @@
     </aceOutcomes>
   </course>
   <course>
-    <title>Rhetoric: Argument and Society*</title>
+    <title>Rhetoric: Argument and Society</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>ENGL</subject>
@@ -4332,7 +4506,7 @@
     </credits>
   </course>
   <course>
-    <title>Drama*</title>
+    <title>Drama</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>ENGL</subject>
@@ -4376,7 +4550,7 @@
     </credits>
   </course>
   <course>
-    <title>Gay and Lesbian Drama*</title>
+    <title>Gay and Lesbian Drama</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>ENGL</subject>
@@ -4875,7 +5049,7 @@
     </credits>
   </course>
   <course>
-    <title>Genre*</title>
+    <title>Genre</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>ENGL</subject>
@@ -4958,7 +5132,7 @@
     </credits>
   </course>
   <course>
-    <title>Plains Literature*</title>
+    <title>Plains Literature</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>ENGL</subject>
@@ -5179,7 +5353,7 @@
     </credits>
   </course>
   <course>
-    <title>Introduction to Linguistics*</title>
+    <title>Introduction to Linguistics</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>ENGL</subject>
@@ -5215,7 +5389,7 @@
     </credits>
   </course>
   <course>
-    <title>History of the English Language*</title>
+    <title>History of the English Language</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>ENGL</subject>
@@ -5251,7 +5425,7 @@
     </credits>
   </course>
   <course>
-    <title>Applications of Linguistics*</title>
+    <title>Applications of Linguistics</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>ENGL</subject>
@@ -5295,7 +5469,7 @@
     </credits>
   </course>
   <course>
-    <title>Old English*</title>
+    <title>Old English</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>ENGL</subject>
@@ -5429,7 +5603,7 @@
     </credits>
   </course>
   <course>
-    <title>American Authors to 1900*</title>
+    <title>American Authors to 1900</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>ENGL</subject>
@@ -5473,7 +5647,7 @@
     </credits>
   </course>
   <course>
-    <title>American Authors Since 1900*</title>
+    <title>American Authors Since 1900</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>ENGL</subject>
@@ -5807,7 +5981,46 @@
     </credits>
   </course>
   <course>
-    <title>Fiction Writing*</title>
+    <title>Advanced Writing of Creative Nonfiction</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ENGL</subject>
+        <courseNumber>451</courseNumber>
+        <courseGroup>Creative Writing</courseGroup>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">ENGL 251.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Advanced (workshop) course for creative writers; emphasis on memoirs, personal essays, other forms of creative nonfiction.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Advanced Fiction Writing</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>ENGL</subject>
@@ -5817,9 +6030,9 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1111</effectiveSemester>
+    <effectiveSemester>1131</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ENGL 252 or permission.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">ENGL 352.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">For advanced students with previous experience in fiction writing. Longer projects in fiction writing.</div>
@@ -5846,47 +6059,7 @@
     </credits>
   </course>
   <course>
-    <title>Writing of Literary Non-Fiction</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ENGL</subject>
-        <courseNumber>452</courseNumber>
-        <courseLetter>A</courseLetter>
-        <courseGroup>Creative Writing</courseGroup>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1111</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ENGL 252 or 253.</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Advanced (workshop) course for creative writers; emphasis on memoirs, personal essays, other forms of literary non-fiction.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>lec</type>
-        <hours>3</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Writing of Poetry</title>
+    <title>Advanced Poetry Writing</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>ENGL</subject>
@@ -5896,9 +6069,9 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1111</effectiveSemester>
+    <effectiveSemester>1131</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ENGL 253 or permission.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">ENGL 353.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">For advanced students with previous experience in poetry writing.</div>
@@ -5925,7 +6098,7 @@
     </credits>
   </course>
   <course>
-    <title>Advanced Writing Projects*</title>
+    <title>Advanced Writing Projects</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>ENGL</subject>
@@ -6058,7 +6231,7 @@
     </aceOutcomes>
   </course>
   <course>
-    <title>Survey of Medieval Literature*</title>
+    <title>Survey of Medieval Literature</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>ENGL</subject>
@@ -6140,7 +6313,7 @@
     </credits>
   </course>
   <course>
-    <title>Survey of Renaissance Literature*</title>
+    <title>Survey of Renaissance Literature</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>ENGL</subject>
@@ -6176,7 +6349,7 @@
     </credits>
   </course>
   <course>
-    <title>British Literature, 1660-1800*</title>
+    <title>British Literature, 1660-1800</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>ENGL</subject>
@@ -6220,7 +6393,7 @@
     </credits>
   </course>
   <course>
-    <title>Nineteenth-Century British Literature*</title>
+    <title>Nineteenth-Century British Literature</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>ENGL</subject>
@@ -6264,7 +6437,7 @@
     </credits>
   </course>
   <course>
-    <title>Literary History*</title>
+    <title>Literary History</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>ENGL</subject>
@@ -6308,27 +6481,22 @@
     </credits>
   </course>
   <course>
-    <title>Literary Criticism and Theory*</title>
+    <title>Advanced Theory</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>ENGL</subject>
         <courseNumber>471</courseNumber>
         <courseGroup>Literary and Cultural Studies</courseGroup>
       </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>ENGL</subject>
-        <courseNumber>871</courseNumber>
-        <courseGroup>Literary and Cultural Studies</courseGroup>
-      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1108</effectiveSemester>
+    <effectiveSemester>1131</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Junior standing; two courses in ENGL above 199.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Junior standing;ENGL 270, 373, or equivalent.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">History, analysis and application of a variety of trends in literary criticism and critical theory.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">History, analysis and application of a variety of trends in literary and/or film theory.</div>
     </description>
     <campuses>
       <campus>UNL</campus>

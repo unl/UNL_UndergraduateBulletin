@@ -306,12 +306,12 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1108</effectiveSemester>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">A grade of P, C or better in MATH 106.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Integration theory; techniques of integration; applications of definite integrals; basics of ordinary differential equations; series, Taylor series.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Integration theory; techniques of integration; applications of definite integrals; series, Taylor series, vectors, cross and dot products, lines and planes, space curves.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -324,9 +324,14 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>5</hours>
+      </activity>
+    </activities>
     <credits>
-      <credit type="Single Value">5</credit>
+      <credit type="Single Value">4</credit>
     </credits>
     <aceOutcomes>
       <slo>3</slo>
@@ -344,7 +349,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1091</effectiveSemester>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Good standing in the University Honors Program or by invitation; and a grade of "B" or better in MATH 106 or equivalent.</div>
     </prerequisite>
@@ -362,7 +367,57 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>4</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">4</credit>
+    </credits>
+    <aceOutcomes>
+      <slo>3</slo>
+    </aceOutcomes>
+  </course>
+  <course>
+    <title>Analytic Geometry and Calculus II</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MATH</subject>
+        <courseNumber>107</courseNumber>
+        <courseLetter>R</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">A grade of P, C or better in Math 106.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Open only to students who previously completed the 5 credit hour Math 107 at UNL and wish to improve their grade.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Integration theory, techniques of integration, applications of definite integrals, series, Taylor series, vectors, cross and dot products, lines and planes, space curves.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>5</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">5</credit>
     </credits>
@@ -849,9 +904,6 @@
     <credits>
       <credit type="Single Value">5</credit>
     </credits>
-    <aceOutcomes>
-      <slo>3</slo>
-    </aceOutcomes>
   </course>
   <course>
     <title>Mathematics Matters</title>
@@ -1104,10 +1156,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1091</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1131</effectiveSemester>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to groups, rings, and fields as a natural extension of elementary number theory and the theory of equations. Particular emphasis on the study of polynomials with coefficients in the rationals, reals, or complex numbers.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Elementary number theory, including induction, the Fundamental Theorem of Arithmetic, and modular arithmetic. Introduction to rings and fields as natural extension of the integers.  Particular emphasis on the study of polynomials with coefficients in the rational, real, or complex numbers.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -1120,7 +1172,12 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
@@ -1798,6 +1855,51 @@
       <term>Summer</term>
     </termsOffered>
     <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Math for High School Teachers II, Using Math to Understand Our World</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MATH</subject>
+        <courseNumber>409</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>MATH</subject>
+        <courseNumber>809</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1128</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Math 310, Math 314, Math 380/Stat 380</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Not open to MA or MS students in Mathematics. This course is for students seeking a mathematics major under the Education Option and for students in CEHS who are seeking their secondary mathematics teaching certificate.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">This course is designed around a series of projects in which students create mathematical models to examine the mathematics underlying several socially-relevant questions.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>

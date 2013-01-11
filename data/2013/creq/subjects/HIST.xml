@@ -1548,6 +1548,9 @@
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
+    <aceOutcomes>
+      <slo>8</slo>
+    </aceOutcomes>
   </course>
   <course>
     <title>African American History: African Origins to 1877</title>
@@ -1634,6 +1637,9 @@
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
+    <aceOutcomes>
+      <slo>9</slo>
+    </aceOutcomes>
   </course>
   <course>
     <title>History of the American Family</title>
@@ -2999,6 +3005,45 @@
     </credits>
   </course>
   <course>
+    <title>History of Modern Espionage and Intelligence</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>HIST</subject>
+        <courseNumber>337</courseNumber>
+        <courseGroup>Additional History Courses</courseGroup>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Sophomore standing or permission.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">A history of espionage and intelligence in the twentieth and twenty-first centuries.  The development of intelligence organizations in war and peacetime including the Office of Strategic Services and the Central Intelligence Agency. The impact of 9/11 and recent military conflicts on the intelligence community.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>War and Peace in Europe: 1914 to the Present</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -3624,6 +3669,52 @@
     </credits>
   </course>
   <course>
+    <title>African-American Women's History</title>
+    <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>ETHN</subject>
+        <courseNumber>356</courseNumber>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>HIST</subject>
+        <courseNumber>356</courseNumber>
+        <courseGroup>United States or Canadian History</courseGroup>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>WMNS</subject>
+        <courseNumber>356</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1131</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Junior standing.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Surveys Black and/or African-American women's history from the 15th to the late 20th century. The transatlantic slave trade, "New World" experiences, slavery and resistance, sexuality, cultural persistence and evolution, racial strife, the struggle for civil rights, and black womanist and feminist theories.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Mexican-American History</title>
     <courseCodes>
       <courseCode type="crosslisting">
@@ -4011,6 +4102,45 @@
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Survey and analysis of the struggle of African Americans and their allies to topple white supremacy and gain access to the political process. The role race played in American politics from the New Deal through the Emergence of the New Right.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>History of the Modern Middle East</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>HIST</subject>
+        <courseNumber>367</courseNumber>
+        <courseGroup>Latin American, Asian, Middle Eastern or African History</courseGroup>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1128</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Sophomore standing.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Surveys major political, socio-economic, and cultural changes in the Middle East after 1900. Investigates the demise of the Ottoman and Qajar dynasties, the rise of new nations and nationalist identities, and the development of modern states and societies. Examines contemporary issues in historical perspective: the Arab-Israeli conflict, the Gulf War, oil and regional security, the impact of the Iranian revolution, and Islamic movements. Heavy emphasis on primary sources, such as novels and historical documents.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -5523,6 +5653,53 @@
     </credits>
   </course>
   <course>
+    <title>Palestine and the Arab-Israeli Conflict</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>HIST</subject>
+        <courseNumber>434</courseNumber>
+        <courseGroup>Latin American, Asian, Middle Eastern or African History</courseGroup>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>HIST</subject>
+        <courseNumber>834</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>JUDS</subject>
+        <courseNumber>434</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1128</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Junior standing.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Traces the history of the Arab-Israeli conflict from the 19th century up to the present. Explores the role of ideology, political actors, social history, economic and infrastructural problems, and regional and international interaction, as well as prospects for peace in the 21st century.  Examines the related historiographical debates, especially those focusing on the Arab-Israeli Wars of 1948 and 1967.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Saints, Witches, and Madwomen</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -5856,56 +6033,6 @@
       <activity>
         <type>lec</type>
         <hours>3</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Blck and/or African-American Women's History</title>
-    <courseCodes>
-      <courseCode type="crosslisting">
-        <subject>ETHN</subject>
-        <courseNumber>456</courseNumber>
-      </courseCode>
-      <courseCode type="home listing">
-        <subject>HIST</subject>
-        <courseNumber>456</courseNumber>
-        <courseGroup>United States or Canadian History</courseGroup>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>WMNS</subject>
-        <courseNumber>456</courseNumber>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>WMNS</subject>
-        <courseNumber>856</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Junior standing.</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Surveys Black and/or African-American women's history from the 15th to the late 20th century. The transatlantic slave trade, "New World" experiences, slavery and resistance, sexuality, cultural persistence and evolution, racial strife, the struggle for civil rights, and black womanist and feminist theories.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>lec</type>
       </activity>
     </activities>
     <credits>

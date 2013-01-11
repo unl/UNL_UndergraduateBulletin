@@ -89,6 +89,47 @@
     </aceOutcomes>
   </course>
   <course>
+    <title>Special topics</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>JOUR</subject>
+        <courseNumber>191</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Maximum of 12 credit hours of special topics at all levels (191, 291, 391, 491). JOUR 191 may be repeated up to three times so long as the topics are different.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Topics vary each term.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+      <deliveryMethod>Web</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>1</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">4</credit>
+      <credit type="Per Career Limit">12</credit>
+    </credits>
+  </course>
+  <course>
     <title>Editing I</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -142,10 +183,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>letter grade only</gradingType>
-    <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1125</effectiveSemester>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1131</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">JOUR 101 and 162; ARCH/ARTP/IDES/JOMC/LARC/TMFD 412.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">JOUR 101 and 162; ARCH/ARTP/IDES/JOMC/LARC/TXCD 412.</div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">Work in JOUR 202 will appear on the student news World Wide Web (WWW) site. JOUR 202 is 'Letter grade only'.</div>
@@ -175,7 +216,7 @@
       </activity>
     </activities>
     <credits>
-      <credit type="Single Value">4</credit>
+      <credit type="Single Value">3</credit>
     </credits>
     <aceOutcomes>
       <slo>1</slo>
@@ -219,6 +260,52 @@
     </activities>
     <credits>
       <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Special topics</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>JOUR</subject>
+        <courseNumber>291</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>JOUR</subject>
+        <courseNumber>291</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">12 hours max special topics hours at all levels (100, 200, 300, 400) per degree. JOUR 291 may be repeated up to three times so long as the topics are different.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Topics vary each term.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+      <deliveryMethod>Web</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>1</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">4</credit>
+      <credit type="Per Career Limit">12</credit>
     </credits>
   </course>
   <course>
@@ -507,6 +594,52 @@
     </activities>
     <credits>
       <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Special topics</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>JOUR</subject>
+        <courseNumber>391</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>JOUR</subject>
+        <courseNumber>391</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">12 hours max special topics hours at all levels (100, 200, 300, 400) per degree. May be repeated up to three times so long as the topics are different.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Topics vary each term.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+      <deliveryMethod>Web</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>1</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">4</credit>
+      <credit type="Per Career Limit">12</credit>
     </credits>
   </course>
   <course>
@@ -909,12 +1042,17 @@
         <subject>JOUR</subject>
         <courseNumber>891</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>JOUR</subject>
+        <courseNumber>491</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
     </courseCodes>
-    <gradingType>letter grade only</gradingType>
+    <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1128</effectiveSemester>
+    <effectiveSemester>1138</effectiveSemester>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">JOUR 491/891 may be repeated up to three times so long as the topics are different.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">12 hours max special topics hours at all levels (100, 200, 300, 400) per degree</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Topics vary each term.</div>
@@ -924,6 +1062,7 @@
     </campuses>
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
+      <deliveryMethod>Web</deliveryMethod>
     </deliveryMethods>
     <termsOffered>
       <term>Fall</term>
@@ -1050,13 +1189,13 @@
     </courseCodes>
     <gradingType>pass/no pass only</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1098</effectiveSemester>
+    <effectiveSemester>1131</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Senior standing; JOUR major; candidate for degree.</div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">
-        <em>All seniors must complete an exit interview to remain eligible for graduation. JOUR 098 uses Blackboard. JOUR 098 is 'Pass/No Pass only'.</em>
+        <em>All seniors must complete an exit interview to remain eligible for graduation. JOUR 98 uses Blackboard. JOUR 98 is 'Pass/No Pass only'.</em>
       </div>
     </notes>
     <description>

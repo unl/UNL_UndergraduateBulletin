@@ -2414,57 +2414,6 @@
     </credits>
   </course>
   <course>
-    <title>Plant Nutrition and Nutrient Management</title>
-    <courseCodes>
-      <courseCode type="crosslisting">
-        <subject>AGRO</subject>
-        <courseNumber>424</courseNumber>
-      </courseCode>
-      <courseCode type="home listing">
-        <subject>HORT</subject>
-        <courseNumber>424</courseNumber>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>HORT</subject>
-        <courseNumber>824</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>AGRO</subject>
-        <courseNumber>824</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">AGRO 325 or basic course in plant physiology. A course in organic chemistry or biochemistry recommended.</div>
-    </prerequisite>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Offered spring semesters.</div>
-    </notes>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Macro and micro nutrient elements and their function in the growth and development of plants. Role of single elements. Interaction and/or balances between elements and nutrient deficiency and/or toxicity symptoms as they affect the physiology of the whole plant. Relationship between crop nutrition and production and/or environmental considerations (e.g. yield, drought, temperature, pests).</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Spring</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>lab</type>
-        <hours>3</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
     <title>Invasive Plants</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -2692,7 +2641,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1108</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">For AGRO/HORT/NRES 435: Senior standing or permission. For AGRO/NRES 835: 12 hrs biological or agricultural sciences or permission.</div>
     </prerequisite>
@@ -2720,6 +2669,9 @@
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
+    <aceOutcomes>
+      <slo>10</slo>
+    </aceOutcomes>
   </course>
   <course>
     <title>Agroecosystems Analysis</title>
@@ -3798,6 +3750,53 @@
     </activities>
     <credits>
       <credit type="Single Value">1</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Plant Nutrition and Nutrient Management</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>HORT</subject>
+        <courseNumber>824</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>AGRO</subject>
+        <courseNumber>824</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">AGRO 325 or basic course in plant physiology. A course in organic chemistry or biochemistry recommended.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Offered spring semesters.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Macro and micro nutrient elements and their function in the growth and development of plants. Role of single elements. Interaction and/or balances between elements and nutrient deficiency and/or toxicity symptoms as they affect the physiology of the whole plant. Relationship between crop nutrition and production and/or environmental considerations (e.g. yield, drought, temperature, pests).</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lab</type>
+        <hours>3</hours>
+      </activity>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
     </credits>
   </course>
   <course>

@@ -1,24 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <courses xmlns="http://courseapproval.unl.edu/courses" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://courseapproval.unl.edu/courses /schema/courses.xsd">
   <course>
-    <title>Introduction to Animal Health Careers</title>
+    <title>Introduction to Animal Sciences</title>
     <courseCodes>
       <courseCode type="home listing">
+        <subject>ASCI</subject>
+        <courseNumber>101</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
         <subject>VBMS</subject>
         <courseNumber>101</courseNumber>
       </courseCode>
     </courseCodes>
-    <gradingType>pass/no pass only</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Major in veterinary science or veterinary technologist or preveterinary medicine program.</div>
-    </prerequisite>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Required for a major in veterinary science or veterinary technologist or preveterinary medicine program. Meet and select faculty mentor. P/N only.</div>
-    </notes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Explore potential majors and career track in animal health. Information to make realistic and informed decisions about preparation for veterinary school, animal nursing and various alternative animal health career. Survey of informational resources, published material, and campus-based student services.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Survey of careers, internships, skills and information resources for students interested in animal sciences, animal health and veterinary medicine.  General skills and information for success in college.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -30,6 +28,10 @@
       <term>Fall</term>
     </termsOffered>
     <activities>
+      <activity>
+        <type>lab</type>
+        <hours>2</hours>
+      </activity>
       <activity>
         <type>lec</type>
         <hours>1</hours>
@@ -106,6 +108,46 @@
     <aceOutcomes>
       <slo>10</slo>
     </aceOutcomes>
+  </course>
+  <course>
+    <title>Introduction to Veterinary Anatomy</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>VBMS</subject>
+        <courseNumber>407</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1131</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">One course in biology and junior standing.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Gross anatomy of the mammalian body, using domestic dog as the model.  Macroscopic anatomy of organs and organ systems emphasizing structural and functional relationships, and their contribution to homeostatis of domestic animals.  Incorporates detailed study of prosected cadavers and skeletal preparations.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lab</type>
+        <hours>2</hours>
+      </activity>
+      <activity>
+        <type>lec</type>
+        <hours>2</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">4</credit>
+    </credits>
   </course>
   <course>
     <title>Functional Histology</title>

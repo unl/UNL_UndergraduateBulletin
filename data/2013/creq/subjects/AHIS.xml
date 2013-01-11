@@ -330,13 +330,13 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1128</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Sophomore standing.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Survey of Western painting and sculpture from 1750 to present.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Intro to Art from Modern to Contemporary</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -349,7 +349,12 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
@@ -1123,10 +1128,13 @@
     </courseCodes>
     <gradingType>letter grade only</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1091</effectiveSemester>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Senior standing and permission.</div>
     </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Course is offered in spring semester only.</div>
+    </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Culminating experience in art history. A comprehensive analysis of the discipline of art history. Builds on material from previous course work. Historiographic and methodological issues.</div>
     </description>
@@ -1137,7 +1145,6 @@
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
     <termsOffered>
-      <term>Fall</term>
       <term>Spring</term>
     </termsOffered>
     <activities>

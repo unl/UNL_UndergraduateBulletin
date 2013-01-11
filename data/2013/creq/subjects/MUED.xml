@@ -1461,30 +1461,36 @@
   <course>
     <title>Historical and Philosophical Foundations of American Music Education</title>
     <courseCodes>
-      <courseCode type="home listing">
+      <courseCode type="crosslisting">
         <subject>TEAC</subject>
         <courseNumber>845</courseNumber>
       </courseCode>
-      <courseCode type="crosslisting">
+      <courseCode type="home listing">
         <subject>MUED</subject>
         <courseNumber>845</courseNumber>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1141</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Undergraduate degree in MUED</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Undergraduate degree in MUED.</div>
     </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">MUED 845 is required for a graduate degree in music education.</div>
+    </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">MUED *845 is required for a graduate degree in music education. Historical overview of American music education practices from the Singing School tradition to today. Major philosophical influences in American music education, writings regarding aesthetic education, equity, ethical practice, meaning, and profundity. The writings of Murcell, Dewey, Langer, Reimer, Elliott, Bowman, and others.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Historical overview of American music education practices from the Singing School tradition to today. Major philosophical influences in American music education, writings regarding aesthetic education, equity, ethical practice, gender, meaning, and profundity. The writings of Stubley, Reimer, Mark, Gary, Hylton, Richmond and others are conisdered.</div>
     </description>
     <campuses>
-      <campus></campus>
+      <campus>UNL</campus>
     </campuses>
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
+    <termsOffered>
+      <term>Summer</term>
+    </termsOffered>
     <activities>
       <activity>
         <type>lec</type>

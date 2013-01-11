@@ -1659,12 +1659,20 @@
         <subject>CIVE</subject>
         <courseNumber>455</courseNumber>
       </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>BSEN</subject>
+        <courseNumber>855</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>CIVE</subject>
+        <courseNumber>855</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1131</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">BSEN/CIVE 326; BSEN/AGEN 350 or CIVE 352.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">BSEN 326 or CIVE 326; BSEN 350 or AGEN 350 or CIVE 352.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Identification, characterization, and assessment of nonpoint source pollutants; transport mechanisms and remediation technologies; design methodologies and case studies.</div>
@@ -1729,12 +1737,20 @@
         <subject>CIVE</subject>
         <courseNumber>458</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>BSEN</subject>
+        <courseNumber>858</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>CIVE</subject>
+        <courseNumber>858</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1131</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CIVE 352 or AGEN/BSEN 350 or equivalent.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">CIVE 352 or AGEN 350 or BSEN 350 or equivalent.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Application of engineering principles to the movement of groundwater. Analysis and design of wells, well fields, and artificial recharge. Analysis of pollutant movement.</div>
@@ -1750,7 +1766,11 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
@@ -3106,38 +3126,6 @@
     </credits>
   </course>
   <course>
-    <title>Nonpoint Source Pollution Control Engineering</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>BSEN</subject>
-        <courseNumber>855</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>CIVE</subject>
-        <courseNumber>855</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">BSEN/CIVE 326; BSEN/AGEN 350 or CIVE 352</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Identification, characterization, and assessment of nonpoint source pollutants; transport mechanisms and remediation technologies; design methodologies and case studies.</div>
-    </description>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <activities/>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
     <title>Surface Water Hydrology</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -3181,38 +3169,6 @@
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Review of basic concepts. Mesh generation using a preprocessor. 2D and 3D Model generation. Boundary conditions. Implicit and explicit solution algorithms. Interpretation of analysis results using a post-processor. Solution of problems using existing FE software.</div>
-    </description>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <activities/>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Groundwater Engineering</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>BSEN</subject>
-        <courseNumber>858</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>CIVE</subject>
-        <courseNumber>858</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CIVE 352 or AGEN/BSEN 350 or equivalent</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Application of engineering principles to the movement of groundwater. Analysis and design of wells, well fields, and artificial recharge. Analysis of pollutant movement.</div>
     </description>
     <campuses>
       <campus></campus>

@@ -130,10 +130,10 @@ class UNL_UndergraduateBulletin_EPUB_Utilities
 
             preg_match_all('/0?([0-9]{2,4}[A-Z]?)/', $matches[0], $course_numbers);
 
-            foreach ($course_numbers as $course_number) {
+            foreach ($course_numbers[0] as $course_number) {
                 if (!isset($courses[$matches[1]])
-                    || !in_array($course_number[0], $courses[$matches[1]])) {
-                    $courses[$matches[1]][] = $course_number[0];
+                    || !in_array($course_number, $courses[$matches[1]])) {
+                    $courses[$matches[1]][] = $course_number;
                 }
             }
         };
@@ -264,5 +264,24 @@ class UNL_UndergraduateBulletin_EPUB_Utilities
         }
 
         return true;
+    }
+    
+    /**
+     * Updates a subject's course number in the supplied string.
+     * 
+     * @param string $subject
+     * @param string $originalCourseNumeber
+     * @param string $newCourseNumber
+     * @return string
+     */
+    public static function updateCourseNumber($text, $subject, $originalCourseNumeber, $newCourseNumber)
+    {
+        return self::courseScanCallback($text, function($matches) use ($subject, $originalCourseNumeber, $newCourseNumber) {
+            if (!self::isValidSubjectCode($matches[1]) || $matches[1] != $subject) {
+                return $matches[0];
+            }
+            
+            return preg_replace('/(' . $originalCourseNumeber . ')([^0-9A-Z]|$)/', $newCourseNumber . '$2', $matches[0]);
+        });
     }
 }

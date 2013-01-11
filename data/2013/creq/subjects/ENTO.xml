@@ -336,6 +336,42 @@
     </credits>
   </course>
   <course>
+    <title>Undergraduate Research Seminar</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ENTO</subject>
+        <courseNumber>315</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1141</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">None</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">A comprehensive introduction to research is covered in this course designed for, but not limited to, insect science majors preparing for their capstone experience.  Students learn about the scientific method, methodologies used to conduct research (including utilizing the library for literature searches), and the process of scientific writing and presentation.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>1</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">1</credit>
+    </credits>
+  </course>
+  <course>
     <title>Current Topics in Plant Protection III</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -439,14 +475,11 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1131</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">ENTO 115 or graduate standing.</div>
     </prerequisite>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Offered fall semester of even-numbered calendar years.</div>
-    </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Biology and ecology of common families of insects. Sight recognition of 22 Orders and 105 Families, identification of other families with keys. Student project at species level.</div>
     </description>
@@ -456,9 +489,6 @@
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-    </termsOffered>
     <activities>
       <activity>
         <type>lab</type>
@@ -727,49 +757,6 @@
     </deliveryMethods>
     <termsOffered>
       <term>Spring</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>lec</type>
-        <hours>3</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Urban and Industrial Entomology</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ENTO</subject>
-        <courseNumber>407</courseNumber>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>ENTO</subject>
-        <courseNumber>807</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1108</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">BIOS 101 and 101L. ENTO 115 recommended.</div>
-    </prerequisite>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Offered fall semester of odd-numbered calendar years on the Internet via the World Wide Web (WWW).</div>
-    </notes>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Insects and selected vertebrate pests that infest homes, hospitals and health facilities, museums, restaurants, grain mills, food processing plants, and warehouses. Management of these insects and pests.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Web</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
     </termsOffered>
     <activities>
       <activity>
@@ -1240,22 +1227,23 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1131</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">12 hrs biological sciences and/or agricultural sciences</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">ENTO/PLPT *813 is offered spring semester of even-numbered calendar years on the Internet via the World Wide Web (WWW).</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">ENTO/PLPT 813 is offered spring semester of even-numbered calendar years. ENTO/PLPT 813 is also offered on the Internet via the World Wide Web (WWW0 in the spring semester of even-numbered calendar years.</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Principles and practices of using natural enemies and antagonists to manage the abundance of pests and reduce economic losses.</div>
     </description>
     <campuses>
-      <campus></campus>
+      <campus>UNL</campus>
     </campuses>
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
+      <deliveryMethod>Web</deliveryMethod>
     </deliveryMethods>
     <termsOffered>
       <term>Spring</term>
@@ -1415,8 +1403,8 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1131</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Introductory course in entomology</div>
     </prerequisite>
@@ -1427,10 +1415,10 @@
       <div xmlns="http://www.w3.org/1999/xhtml">Application of entomology to legal issues. Criminal investigations, insects of forensic importance, insect succession on carrion, and case studies.</div>
     </description>
     <campuses>
-      <campus></campus>
+      <campus>UNL</campus>
     </campuses>
     <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
+      <deliveryMethod>Web</deliveryMethod>
     </deliveryMethods>
     <termsOffered>
       <term>Summer</term>
@@ -1455,7 +1443,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1128</effectiveSemester>
+    <effectiveSemester>1131</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Introductory course in entomology.</div>
     </prerequisite>
@@ -1466,10 +1454,9 @@
       <div xmlns="http://www.w3.org/1999/xhtml">The process of behavioral study involves investigating the relationship between animals and their surroundings, and their response to their kin and to other organisms.  Topics include charaterizing how insects find and defend their resources, how they avoid predators, how they find mates, how they mate, and how some exist in highly ordered social settings.</div>
     </description>
     <campuses>
-      <campus></campus>
+      <campus>UNL</campus>
     </campuses>
     <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
       <deliveryMethod>Web</deliveryMethod>
     </deliveryMethods>
     <termsOffered>
@@ -1494,8 +1481,8 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1131</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">12 hrs biological sciences; 4 hrs organic chemistry</div>
     </prerequisite>
@@ -1506,10 +1493,11 @@
       <div xmlns="http://www.w3.org/1999/xhtml">Principles of toxicology, insecticide classification, mode of action, metabolism and consequences of insecticide use.</div>
     </description>
     <campuses>
-      <campus></campus>
+      <campus>UNL</campus>
     </campuses>
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
+      <deliveryMethod>Web</deliveryMethod>
     </deliveryMethods>
     <termsOffered>
       <term>Fall</term>
@@ -1533,8 +1521,8 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1131</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">An introductory entomology course.</div>
     </prerequisite>
@@ -1545,10 +1533,10 @@
       <div xmlns="http://www.w3.org/1999/xhtml">Identification, biology, ecology and management of insect pests of agronomic crops such as corn, soybeans, sorghum, wheat, and alfalfa. Integrated Pest Management (IPM) strategies employed to maintain pests below damaging levels while minimizing the use of traditional insecticides</div>
     </description>
     <campuses>
-      <campus></campus>
+      <campus>UNL</campus>
     </campuses>
     <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
+      <deliveryMethod>Web</deliveryMethod>
     </deliveryMethods>
     <activities>
       <activity>
@@ -1573,8 +1561,8 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1131</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">12 hrs agricultural and/or biological sciences.</div>
     </prerequisite>
@@ -1585,10 +1573,10 @@
       <div xmlns="http://www.w3.org/1999/xhtml">Prepare scientifically accurate, high quality illustrations and graphics for the teaching, presentation, and publication of scientific information. Drawing techniques, drafting, copyright, and publication and presentation of scientific art work.</div>
     </description>
     <campuses>
-      <campus></campus>
+      <campus>UNL</campus>
     </campuses>
     <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
+      <deliveryMethod>Web</deliveryMethod>
     </deliveryMethods>
     <termsOffered>
       <term>Spring</term>
@@ -1596,6 +1584,47 @@
     <activities>
       <activity>
         <type>ind</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>POPULATION AND ECOLOGICAL GENETICS</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ENTO</subject>
+        <courseNumber>827</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introductory Genetics, Introductory Algebra</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to key theoretical concepts in population genetics and their application. Mutation, genetic drift, structured populations, natural selection, molecular evolution.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Web</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>2</hours>
+      </activity>
+      <activity>
+        <type>rct</type>
+        <hours>1</hours>
       </activity>
     </activities>
     <credits>
@@ -1654,8 +1683,8 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1131</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Completion of 24 hrs toward the MS degree</div>
     </prerequisite>
@@ -1663,10 +1692,10 @@
       <div xmlns="http://www.w3.org/1999/xhtml">Application of graduate course work for the non-thesis MS degree program.</div>
     </description>
     <campuses>
-      <campus></campus>
+      <campus>UNL</campus>
     </campuses>
     <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
+      <deliveryMethod>Web</deliveryMethod>
     </deliveryMethods>
     <termsOffered>
       <term>Fall</term>

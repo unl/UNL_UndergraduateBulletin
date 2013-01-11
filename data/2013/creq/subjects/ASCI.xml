@@ -45,12 +45,16 @@
         <subject>ASCI</subject>
         <courseNumber>101</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>VBMS</subject>
+        <courseNumber>101</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Survey of careers, internships, skills and information resources for students interested in the animal sciences.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Survey of careers, internships, skills and information resources for students interested in animal sciences, animal health and veterinary medicine.  General skills and information for success in college.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -65,6 +69,10 @@
       <activity>
         <type>lab</type>
         <hours>2</hours>
+      </activity>
+      <activity>
+        <type>lec</type>
+        <hours>1</hours>
       </activity>
     </activities>
     <credits>
@@ -384,10 +392,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">4 hrs biological sciences.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">BIOS 101 or equivalent and CHEM 105 or equivalent.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Fundamentals of the anatomy and physiology of domestic animals.</div>
@@ -493,7 +501,7 @@
     </credits>
   </course>
   <course>
-    <title>Fundamentals of the Horse Industry</title>
+    <title>Introduction to the Horse Industry and Management</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>ASCI</subject>
@@ -501,10 +509,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Scope and role of the horse industry. Development and use of breeds, industry involvement and practices dealing with nutrition, breeding, marketing and management; selection of horses for use in breeding and/or performance based on current industry standards. Career options dealing with the horse industry.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Provides an introduction to the equine industry including history and basic biology of the horse, proper care and acceptable management procedures, and current issues.  An overview of basic equine anatomy and physiology will be discussed as it relates to managerial principles associated with proper hoof care, disease prevention, breeding and genetics, nutritional management, reproduction, and animal welfare.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -518,11 +526,11 @@
     <activities>
       <activity>
         <type>lec</type>
-        <hours>2</hours>
+        <hours>3</hours>
       </activity>
     </activities>
     <credits>
-      <credit type="Single Value">2</credit>
+      <credit type="Single Value">3</credit>
     </credits>
   </course>
   <course>
@@ -1190,37 +1198,6 @@
         <hours>3</hours>
       </activity>
     </activities>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Biology and Management of Companion Animals</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ASCI</subject>
-        <courseNumber>351</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Sophomore standing, BIOS 101 and 101L, ASCI 240, or permission.</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Principles of management of dogs and cats. Basic knowledge of dog and cat behavior, breeding, nutrition and health.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-    </termsOffered>
-    <activities/>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>

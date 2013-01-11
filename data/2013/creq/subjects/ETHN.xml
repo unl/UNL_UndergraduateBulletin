@@ -1101,6 +1101,9 @@
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
+    <aceOutcomes>
+      <slo>9</slo>
+    </aceOutcomes>
   </course>
   <course>
     <title>Colonial Latin America</title>
@@ -1444,6 +1447,45 @@
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
+    <aceOutcomes>
+      <slo>9</slo>
+    </aceOutcomes>
+  </course>
+  <course>
+    <title>Immigration and Politics</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>POLS</subject>
+        <courseNumber>333</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>ETHN</subject>
+        <courseNumber>333</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1128</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Immigration as a multifaceted sociopolitical phenomenon. The history of different waves of immigration to the United States. Emphasis on the diversity within every immigrant group, as well as differences and similarities regarding their acculturation process. Public attitudes towards immigration in historical perspective. The American political system's capacity to incorporate newcomers into civic life.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>2.5</hours>
+      </activity>
+    </activities>
     <aceOutcomes>
       <slo>9</slo>
     </aceOutcomes>
@@ -1863,6 +1905,52 @@
       <activity>
         <type>lec</type>
         <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>African-American Women's History</title>
+    <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>ETHN</subject>
+        <courseNumber>356</courseNumber>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>HIST</subject>
+        <courseNumber>356</courseNumber>
+        <courseGroup>United States or Canadian History</courseGroup>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>WMNS</subject>
+        <courseNumber>356</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1131</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Junior standing.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Surveys Black and/or African-American women's history from the 15th to the late 20th century. The transatlantic slave trade, "New World" experiences, slavery and resistance, sexuality, cultural persistence and evolution, racial strife, the struggle for civil rights, and black womanist and feminist theories.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
       </activity>
     </activities>
     <credits>
@@ -2894,56 +2982,9 @@
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
-  </course>
-  <course>
-    <title>Blck and/or African-American Women's History</title>
-    <courseCodes>
-      <courseCode type="crosslisting">
-        <subject>ETHN</subject>
-        <courseNumber>456</courseNumber>
-      </courseCode>
-      <courseCode type="home listing">
-        <subject>HIST</subject>
-        <courseNumber>456</courseNumber>
-        <courseGroup>United States or Canadian History</courseGroup>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>WMNS</subject>
-        <courseNumber>456</courseNumber>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>WMNS</subject>
-        <courseNumber>856</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Junior standing.</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Surveys Black and/or African-American women's history from the 15th to the late 20th century. The transatlantic slave trade, "New World" experiences, slavery and resistance, sexuality, cultural persistence and evolution, racial strife, the struggle for civil rights, and black womanist and feminist theories.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>lec</type>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
+    <aceOutcomes>
+      <slo>10</slo>
+    </aceOutcomes>
   </course>
   <course>
     <title>Women and Gender in African Societies</title>

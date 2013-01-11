@@ -1297,9 +1297,9 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1121</effectiveSemester>
+    <effectiveSemester>1131</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Admission to the Family and Consumer Sciences Secondary Teacher Education Program; completion of 80% of subject area coursework with a 2.5 GPA or better; parallel CYAF 297J (1 cr) or CYAF 897 (1cr).</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Admission to the Family and Consumer Sciences Secondary Teacher Education Program; completion of 80% of subject area coursework with a 2.5 GPA or better; parallel CYAF 297J (1 cr) or CYAF 894J (1cr).</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Theoretical issues in the area of teaching and learning as applied in Family and Consumer Sciences. Development of middle and secondary education curriculum in Family and Consumer Sciences using student-centered, interactive methods of instruction.</div>
@@ -1339,9 +1339,9 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1121</effectiveSemester>
+    <effectiveSemester>1131</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Admission to the Family and Consumer Sciences Secondary Teacher Education Program; completion of 80% of subject area course work with a 2.5 GPA or better; CYAF 451/851; parallel CYAF 397J (1 cr) or CYAF 897J (1 cr).</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Admission to the Family and Consumer Sciences Secondary Teacher Education Program; completion of 80% of subject area course work with a 2.5 GPA or better; CYAF 451/851; parallel CYAF 397J (1 cr) or CYAF 894J (1 cr).</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Practical issues in the area of teaching and learning as applied to Family and Consumer Sciences. Develop teaching and/or learning plans for teaching Family and Consumer Sciences. Analyze classroom management practices and develop plans for assessment.</div>
@@ -1412,28 +1412,22 @@
     </credits>
   </course>
   <course>
-    <title>Program Design, Implementation and Evaluation in Family and Human Sciences</title>
+    <title>Human Dimensions of Sustainability</title>
     <courseCodes>
-      <courseCode type="home listing">
-        <subject>CYAF</subject>
-        <courseNumber>470</courseNumber>
-      </courseCode>
       <courseCode type="grad tie-in">
         <subject>CYAF</subject>
-        <courseNumber>870</courseNumber>
+        <courseNumber>860</courseNumber>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>CYAF</subject>
+        <courseNumber>460</courseNumber>
       </courseCode>
     </courseCodes>
-    <gradingType>unrestricted</gradingType>
+    <gradingType>letter grade only</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">9 hrs family and consumer sciences or related social sciences.</div>
-    </prerequisite>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Participation in a community-based project involving the practical application of program design and evaluation methods is required.</div>
-    </notes>
+    <effectiveSemester>1138</effectiveSemester>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Principles and methods of program design, implementation, and outcome evaluation of children and family programs.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Examination of the interdependence of human, ecological, economic sustainability and ways to lead a more sustainable life.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -1446,10 +1440,18 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
+    <aceOutcomes>
+      <slo>8</slo>
+    </aceOutcomes>
   </course>
   <course>
     <title>Human Sexuality and Society</title>
@@ -3033,7 +3035,7 @@
     </credits>
   </course>
   <course>
-    <title>Families Across the Life Span</title>
+    <title>Families Across the Life Course</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>CYAF</subject>
@@ -3041,8 +3043,8 @@
       </courseCode>
     </courseCodes>
     <gradingType>letter grade only</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1121</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1131</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Exploration of family interactions and individual development across the life span and the cultural, political, and social factors that impact development globally.</div>
     </description>
@@ -3284,7 +3286,7 @@
     </credits>
   </course>
   <course>
-    <title>Family Centered Practice</title>
+    <title>Family Centered Practice Approaches</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>CYAF</subject>
@@ -3292,8 +3294,8 @@
       </courseCode>
     </courseCodes>
     <gradingType>letter grade only</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1121</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1131</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Material and course experiences prepare students for family centered practice regardless of discipline. The family as the unit of observation, programming, and intervention.</div>
     </description>
@@ -3703,6 +3705,41 @@
     </activities>
     <credits>
       <credit type="Single Value">1</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Case Studies:  Strengths and Challenges of Families Across the World</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CYAF</subject>
+        <courseNumber>862</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1131</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Exploration of family strengths and challenges from multiple nations and cultures using case study methodology.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Web</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
     </credits>
   </course>
   <course>
@@ -4206,7 +4243,7 @@
     </credits>
   </course>
   <course>
-    <title>Cultural Diversity and the Family</title>
+    <title>Families and Cultural Diversity</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>CYAF</subject>
@@ -4214,8 +4251,8 @@
       </courseCode>
     </courseCodes>
     <gradingType>letter grade only</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1121</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1131</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Critical understanding of the diversity of family forms in their cultural contexts. The impact of history, tradition and contemporary trends on families will be explored. Emphasis will be on recognizing, accepting, and working within a context of diversity of culture and family form.</div>
     </description>
@@ -4241,58 +4278,18 @@
     </credits>
   </course>
   <course>
-    <title>Strengths and Challenges of Families Across the Globe (Part 1)</title>
+    <title>Strengths and Challenges of Families Across the World</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>CYAF</subject>
         <courseNumber>886</courseNumber>
-        <courseLetter>A</courseLetter>
       </courseCode>
     </courseCodes>
     <gradingType>letter grade only</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1121</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1131</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Theoretical, practical and experiential learning to enhance understanding of family strengths and challenges across the world. Principles for developing culturally sensitive strengths-enhancing programming for children and families throughout the world will be addressed.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Web</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>lec</type>
-        <hours>3</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Strengths and Challenges of Families Across the Globe (Part 2)</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>CYAF</subject>
-        <courseNumber>886</courseNumber>
-        <courseLetter>B</courseLetter>
-      </courseCode>
-    </courseCodes>
-    <gradingType>letter grade only</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1121</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CYAF 886A.</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Exploration of family strengths and challenges from multiple nations and cultures using case study methodology.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -5258,11 +5255,11 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1091</effectiveSemester>
+    <effectiveSemester>1131</effectiveSemester>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">
-        <em>CYAF 098/498 requires a completed contract form before registering. </em>
-        <em>CYAF 098 is zero credit hours and is 'Pass/No Pass only'. <br/></em>
+        <em>CYAF 98/498 requires a completed contract form before registering. </em>
+        <em>CYAF 98 is zero credit hours and is 'Pass/No Pass only'. <br/></em>
       </div>
     </notes>
     <description>

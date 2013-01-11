@@ -273,6 +273,38 @@
     </aceOutcomes>
   </course>
   <course>
+    <title>Professional Practicum Experiences II</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>EDPS</subject>
+        <courseNumber>297</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1131</effectiveSemester>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Recommended concurrent enrollment with EDPS 251. EDPS 297 assignments assume knowledge of content from EDPS 251 or equivalent course.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Guided participation in schools/agencies offering programs for youth. Participating students are provided with introductory experiences working with youth in educational contexts, opportunities for one-on-one instruction and support, and prepared for subsequent advanced practicum experiences. Placements range from after-school academic programs to middleschool and highschool classrooms.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Single Value">1</credit>
+    </credits>
+  </course>
+  <course>
     <title>Measurement and Evaluation in Nutrition, Fitness and Health Promotion</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -2465,6 +2497,41 @@
     </credits>
   </course>
   <course>
+    <title>Projective Psychological Assessment</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>EDPS</subject>
+        <courseNumber>956</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1131</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">EDPS 853, and EDPS 953. Permission may be granted by Instructor to take Psychological Assessment II after Projective Psychological Assessment.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">The primary goal of this course is to assist doctoral students in developing their ability to utilize projective assessment techniques to integrate information from a variety of sources about a person (an adult or older adolescent) into an integrated, useful psychological report. The broad array of data will include not only the results of formal tests (e.g., the Rorschach), but also personal and family history, and behavioral observations.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">4</credit>
+    </credits>
+  </course>
+  <course>
     <title>Practicum in School Psychology Consultation Techniques</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -2693,6 +2760,75 @@
     </credits>
   </course>
   <course>
+    <title>Psychology of Motivation in Education</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>EDPS</subject>
+        <courseNumber>967</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1141</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Graduate standing<br/>EDPS 854</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Psychiology of Motivation focuses on understanding and impacting students’ motivation to learn. Theories discussed in this class are applicable to a wide array of achievement settings (e.g., math, science, writing, health education) as well as more general motivational concerns (e.g., studying, addiction, video games). Content covered includes drive theory, behaviorism as motivation, achievement motivation, goal theory, self-determination theory, social cognitive theory, and ecological theories of motivation.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Spring</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Gender and Counseling Psychology</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>EDPS</subject>
+        <courseNumber>968</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1131</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Admitted as a graduate student in the Counseling Psychology program.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">The major purpose of this course is for students to learn about gender issues within the field of counseling psychology from a multicultural and feminist perspective and to gain the essential knowledge and techniques in working with gender issues in diverse settings.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Nonparametric Statistical Methods</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -2721,7 +2857,7 @@
     </credits>
   </course>
   <course>
-    <title>Mini-Seminar</title>
+    <title>College Major Forum</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>EDPS</subject>
@@ -2729,11 +2865,14 @@
       </courseCode>
     </courseCodes>
     <gradingType>pass/no pass only</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1125</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1131</effectiveSemester>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">EDPS 97 is Pass/No Pass only.</div>
     </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">This is an eight week seminar course for first semester students in the General Studies Learning Community. Students will complete activities to identify interests, research majors that match their interests and complete a "Guided Professional Shadowing" experience to gain first-hand knowledge about a career of their choice.</div>
+    </description>
     <campuses>
       <campus>UNL</campus>
     </campuses>
@@ -2745,7 +2884,11 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">0</credit>
     </credits>
@@ -3197,7 +3340,7 @@
     </credits>
   </course>
   <course>
-    <title>Community and Consultative Practice in School Psychology</title>
+    <title>Community Practice in School Psychology</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>EDPS</subject>
@@ -3206,7 +3349,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1121</effectiveSemester>
+    <effectiveSemester>1131</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Doctoral standing in professional psychology program and permission</div>
     </prerequisite>
@@ -3620,7 +3763,7 @@
     </credits>
   </course>
   <course>
-    <title>Practicum in Counselor Supervision</title>
+    <title>Practicum in Counselor Supervision and Consultation</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>EDPS</subject>
@@ -3629,13 +3772,13 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1131</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">EDPS 997G or equivalent</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Supervised counseling supervision experience emphasizing process methods and evaluation.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Supervised counseling supervision and consultation experience emphasizing process methods and evaluation.</div>
     </description>
     <campuses>
       <campus></campus>

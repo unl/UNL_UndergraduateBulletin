@@ -441,9 +441,6 @@
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
-    <aceOutcomes>
-      <slo>2</slo>
-    </aceOutcomes>
   </course>
   <course>
     <title>French for Business and Commerce I</title>
@@ -676,6 +673,42 @@
     <aceOutcomes>
       <slo>5</slo>
     </aceOutcomes>
+  </course>
+  <course>
+    <title>Special Topics</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>FREN</subject>
+        <courseNumber>398</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1131</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Special topics vary.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">24</credit>
+      <credit type="Per Career Limit">24</credit>
+    </credits>
   </course>
   <course>
     <title>Independent Study in French</title>

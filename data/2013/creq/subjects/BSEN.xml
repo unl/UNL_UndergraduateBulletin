@@ -1004,12 +1004,24 @@
         <subject>BSEN</subject>
         <courseNumber>446</courseNumber>
       </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>BSEN</subject>
+        <courseNumber>846</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>AGEN</subject>
+        <courseNumber>446</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>AGEN</subject>
+        <courseNumber>846</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1131</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">AGEN or BSEN 225 and CHEM 332 or equivalent.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">AGEN 225 or BSEN 225 and CHEM 332 or equivalent.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Application of heat, mass, and moment transport in analysis and design of unit operations for biological and agricultural materials. Evaporation, drying, distillation, extraction, leaching, thermal processing, membrane separation, centrifugation, and filteration.</div>
@@ -1025,7 +1037,11 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
@@ -1041,12 +1057,20 @@
         <subject>BSEN</subject>
         <courseNumber>453</courseNumber>
       </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>AGEN</subject>
+        <courseNumber>853</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>BSEN</subject>
+        <courseNumber>853</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1131</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CIVE/MECH 310; AGEN/BSEN 344; or permission.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">CIVE 310 or MECH 310; AGEN 344 or BSEN 344; or permission.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Analytical and design consideration of evapotranspiration, soil moisture, and water movement as related to irrigation and drainage systems; analysis and design of components of irrigation and drainage systems including water supplies, pumping plants, sprinkler systems, and center pivots.</div>
@@ -1062,7 +1086,11 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
@@ -1078,12 +1106,20 @@
         <subject>CIVE</subject>
         <courseNumber>455</courseNumber>
       </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>BSEN</subject>
+        <courseNumber>855</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>CIVE</subject>
+        <courseNumber>855</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1131</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">BSEN/CIVE 326; BSEN/AGEN 350 or CIVE 352.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">BSEN 326 or CIVE 326; BSEN 350 or AGEN 350 or CIVE 352.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Identification, characterization, and assessment of nonpoint source pollutants; transport mechanisms and remediation technologies; design methodologies and case studies.</div>
@@ -1115,12 +1151,20 @@
         <subject>CIVE</subject>
         <courseNumber>458</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>BSEN</subject>
+        <courseNumber>858</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>CIVE</subject>
+        <courseNumber>858</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1131</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CIVE 352 or AGEN/BSEN 350 or equivalent.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">CIVE 352 or AGEN 350 or BSEN 350 or equivalent.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Application of engineering principles to the movement of groundwater. Analysis and design of wells, well fields, and artificial recharge. Analysis of pollutant movement.</div>
@@ -1136,7 +1180,11 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
@@ -1152,10 +1200,18 @@
         <subject>BSEN</subject>
         <courseNumber>460</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>AGEN</subject>
+        <courseNumber>860</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>BSEN</subject>
+        <courseNumber>860</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1131</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Senior standing or permission.</div>
     </prerequisite>
@@ -1173,7 +1229,11 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
@@ -1414,201 +1474,6 @@
     <credits>
       <credit type="Lower Range Limit">1</credit>
       <credit type="Upper Range Limit">6</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Unit Operations of Biological Processing</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>BSEN</subject>
-        <courseNumber>846</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">BSEN 225 and CHEM 332 or equivalent</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Application of heat, mass, and moment transport in analysis and design of unit operations for biological and agricultural materials. Evaporation, drying, distillation, extraction, teaching, thermal processing, membrane separation, centrifugation, and filtration.</div>
-    </description>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Spring</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>lec</type>
-        <hours>2</hours>
-      </activity>
-      <activity>
-        <type>rct</type>
-        <hours>1</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Irrigation and Drainage Systems Engineering</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>AGEN</subject>
-        <courseNumber>853</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>BSEN</subject>
-        <courseNumber>853</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">MECH or CIVE 310, and BSEN 344 or permission</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Analytical and design consideration of evapotranspiration, soil moisture and water movement related to irrigation and drainage systems; analysis and design of components of irrigation and drainage systems including water supplies, pumping plants, sprinkler systems, including center-pivots.</div>
-    </description>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Spring</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>lab</type>
-      </activity>
-      <activity>
-        <type>lec</type>
-        <hours>2</hours>
-      </activity>
-      <activity>
-        <type>rct</type>
-        <hours>2</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Nonpoint Source Pollution Control Engineering</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>BSEN</subject>
-        <courseNumber>855</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>CIVE</subject>
-        <courseNumber>855</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">BSEN/CIVE 326; BSEN/AGEN 350 or CIVE 352</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Identification, characterization, and assessment of nonpoint source pollutants; transport mechanisms and remediation technologies; design methodologies and case studies.</div>
-    </description>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <activities/>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Groundwater Engineering</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>BSEN</subject>
-        <courseNumber>858</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>CIVE</subject>
-        <courseNumber>858</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CIVE 352 or AGEN/BSEN 350 or equivalent</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Application of engineering principles to the movement of groundwater. Analysis and design of wells, well fields, and artificial recharge. Analysis of pollutant movement.</div>
-    </description>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <activities/>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Instrumentation and Controls</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>AGEN</subject>
-        <courseNumber>860</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>BSEN</subject>
-        <courseNumber>860</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Permission</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Analysis and design of instrumentation and controls for agricultural and biological production, management and processing. Theory of basic sensors and transducers, analog and digital electrical control circuits, and the interfacing of computers with instruments and controls. Signal analysis and interpretation for improving system performance.</div>
-    </description>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>lab</type>
-        <hours>2</hours>
-      </activity>
-      <activity>
-        <type>lec</type>
-        <hours>2</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">3</credit>
     </credits>
   </course>
   <course>
