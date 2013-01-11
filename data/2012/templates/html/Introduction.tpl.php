@@ -121,7 +121,9 @@
 <div class="grid3">
     <h3 class="em">Explore Center</h3>
     <div class="separator-box">
-        <img src="<?php echo UNL_UndergraduateBulletin_Controller::getBaseURL(); ?>templates/html/images/thumb_ec.jpg" alt="The Explore Center" />
+        <a href="college/Exploratory+%26+Pre-Professional+Advising+Center">
+            <img src="<?php echo UNL_UndergraduateBulletin_Controller::getBaseURL(); ?>templates/html/images/thumb_ec.jpg" alt="The Explore Center" />
+        </a>
         <p>The Explore Center provides an academic home for students who have not decided upon a major. The Center also provides advising for students interested in Pre-Professional (pre-health and pre-law) programs.</p>
         <ul class="button-list">
             <li><a class="pill-button" href="college/Exploratory+%26+Pre-Professional+Advising+Center#undecided-students">Undecided Students</a></li>
