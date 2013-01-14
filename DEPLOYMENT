@@ -11,10 +11,12 @@ Local setup
 -----------
 ::
 
+$ git remote add test ssh://bulletin-test.unl.edu/var/www/html/bulletin-test.unl.edu/undergraduate
 $ git remote add live ssh://bulletin.unl.edu/var/www/html/bulletin.unl.edu/undergraduate
 
 Deployment
 ----------
 ::
 
+$ git push test master
 $ git push live master
