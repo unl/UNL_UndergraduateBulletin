@@ -20,6 +20,14 @@ dt .courseID{
     -webkit-border-radius:5px;
     float:left;
 }
+.glossary dt {
+    font-weight: bold;
+}
+.glossary dd {
+    margin-bottom: 0.25em;
+    border-bottom: 1px solid #f1f1f1;
+    padding: 0 0 0 1em !important;
+}
 .course .subjectCode {
 	color:#818489;
 	display:block;
@@ -83,7 +91,12 @@ dt .courseID{
 .course .prereqs {color:#0F900A;font-weight:bold;}
 #maincontent .course .prereqs a {color:#0F900A; text-decoration:underline;}
 #maincontent .course .prereqs a:hover, #maincontent .course .prereqs a:focus {color:#28aa23 !important; text-decoration:none;}
-.course .subsequent {color:#777; font-size:smaller;}
+.course .subsequent {
+    border-top: 1px solid #C8C8C8;
+    padding: 5px;
+    background: #F1F1F1;
+    color:#777; font-size:smaller;
+}
 #maincontent .course .subsequent a {color:#777; text-decoration:underline;}
 .course .notes {font-style:italic;}
 .course .description {border-left:3px solid #C8C8C8;padding-left:5px;}
