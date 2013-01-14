@@ -171,7 +171,7 @@ Homepage layouts
     padding: 0;
     list-style: none;
 }
-#maincontent .thumbs li div{
+#maincontent .thumbs li div, #maincontent .separator-box {
     border: solid 3px #fff;
 	background-color: #f6f6f6;
 	margin-bottom: 24px;
@@ -182,16 +182,21 @@ Homepage layouts
 	padding: 5px;
 	position: relative;
 }
-#maincontent .thumbs li div img {
+#maincontent .thumbs li div img, #maincontent .separator-box img {
     width: 100%;
+}
+#maincontent .separator-box img {
+    margin-bottom: 1em;
 }
 #maincontent .thumbs li div h4 {
     margin: 1em 0;
 }
-#maincontent .thumbs ul {
+#maincontent .thumbs ul, #maincontent .button-list {
     margin: 0;
     padding: 0;
     list-style: none;
+}
+#maincontent .thumbs ul {
     position: absolute;
     bottom:10px;
     width:96%;
@@ -201,10 +206,13 @@ Homepage layouts
     float: left;
     width: 50%;
 }
+#maincontent .button-list li {
+    margin: 0.5em 0;
+}
 #maincontent .thumbs ul li:first-child {
     
 }
-#maincontent .thumbs ul li a {
+#maincontent .thumbs ul li a, #maincontent .pill-button {
     background: #ffffff; /* Old browsers */
     background: -moz-linear-gradient(top,  #ffffff 0%, #eaeaea 100%); /* FF3.6+ */
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#eaeaea)); /* Chrome,Safari4+ */
@@ -223,7 +231,7 @@ Homepage layouts
     color: #6a6d70;
     margin: 0 0.5em;
 }
-#maincontent .thumbs ul li a:hover, #maincontent .thumbs ul li a:focus {
+#maincontent .thumbs ul li a:hover, #maincontent .thumbs ul li a:focus, #maincontent .pill-button:hover, #maincontent .pill-button:focus {
     background: #80c662; /* Old browsers */
     background: -moz-linear-gradient(top,  #80c662 0%, #63a945 100%); /* FF3.6+ */
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#80c662), color-stop(100%,#63a945)); /* Chrome,Safari4+ */
@@ -239,7 +247,7 @@ Homepage layouts
     box-shadow: inset -1px 1px 2px 0px #a4e489;
 }
 
-#maincontent .thumbs ul li a:active {
+#maincontent .thumbs ul li a:active, #maincontent .pill-button:active {
     -webkit-box-shadow: inset 1px 1px 1px 0px #699b53;
     -moz-box-shadow: inset 1px 1px 1px 0px #699b53;
     box-shadow: inset 1px 1px 1px 0px #699b53;
