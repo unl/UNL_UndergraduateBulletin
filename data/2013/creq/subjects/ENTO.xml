@@ -44,16 +44,6 @@
         <subject>ENTO</subject>
         <courseNumber>115</courseNumber>
       </courseCode>
-      <courseCode type="crosslisting">
-        <subject>ENTO</subject>
-        <courseNumber>115</courseNumber>
-        <courseLetter>X</courseLetter>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>BIOS</subject>
-        <courseNumber>115</courseNumber>
-        <courseLetter>X</courseLetter>
-      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
@@ -469,19 +459,18 @@
         <subject>ENTO</subject>
         <courseNumber>400</courseNumber>
       </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>ENTO</subject>
-        <courseNumber>800</courseNumber>
-      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1131</effectiveSemester>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">ENTO 115 or graduate standing.</div>
     </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Offered fall semester of even-numbered calendar years.</div>
+    </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Biology and ecology of common families of insects. Sight recognition of 22 Orders and 105 Families, identification of other families with keys. Student project at species level.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Survey of orders and common families of insects with emphasis on biology, ecology, and phylogeny.  Sight recognition of major orders and families, identification of other families with keys. Insect collection required.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -489,6 +478,9 @@
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+    </termsOffered>
     <activities>
       <activity>
         <type>lab</type>

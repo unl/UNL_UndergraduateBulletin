@@ -773,12 +773,12 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Junior standing recommended.</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">A student enrolled in ASCI 300 will have an opportunity to become a member of the University of Nebraska Horse Judging Team.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">A student enrolled in ASCI 300E will have an opportunity to become a member of the University of Nebraska Horse Judging Team.</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Conformation associated with equine structural form and performance standards. Evaluation of performance classes as governed by breed association standards and industry regulations. Presentation of oral reasons to defend selection decisions.</div>
@@ -967,11 +967,6 @@
       <courseCode type="home listing">
         <subject>ASCI</subject>
         <courseNumber>321</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>ASCI</subject>
-        <courseNumber>321</courseNumber>
-        <courseLetter>X</courseLetter>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
@@ -2444,6 +2439,45 @@
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Management internship in a beef feedlot. Organizational and financial structure of the beef feedlot and experience in making decisions related to: animal production, marketing, business management, and personnel management. A.	Beef Feedlot Management (3 cr, max 6)</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>fld</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+      <credit type="Per Career Limit">6</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Animal Science Internship: Beef Feedlot Management</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ASCI</subject>
+        <courseNumber>490</courseNumber>
+        <courseLetter>A</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">ACCT 201; AECN 325 and 452; ASCI 422 and 457; and permission.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Management internship in a beef feedlot. Organizational and financial structure of the beef feedlot and experience in making decisions related to: animal production, marketing, business management, and personnel management.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
