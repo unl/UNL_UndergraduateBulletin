@@ -8,7 +8,7 @@ UNL_UndergraduateBulletin_Major_Description::setEpubToTitleMap(array(
     'Child_Youth & Family Studies Minor'                                     => 'Child, Youth & Family Studies Minor',
     'Child_Youth & Family Studies_Jour & Mass Communications'                => 'Child, Youth & Family Studies/Journalism & Mass Communications',
     'Elementary Education (K-6) & Deaf or Hard of Hearing Education PreProf' => 'Elementary Education (K-6) & Deaf or Hard of Hearing Education (Pre-Professional)',
-    'English_Journalism & Mass Communication Education (7-12)'               => 'English/Journalism & Mass Communication Education (7-12)',
+    'English_Journalism & Mass Communications Education (7-12)'              => 'English/Journalism & Mass Communications Education (7-12)',
     'Hospitality_Restaurant & Tourism Management (CASNR)'                    => 'Hospitality, Restaurant & Tourism Management (CASNR)',
     'Hospitality_Restaurant & Tourism Management (CEHS)'                     => 'Hospitality, Restaurant & Tourism Management (CEHS)',
     'LGBTQ Sexuality Studies Minor'                                          => 'Lesbian, Gay, Bisexual, Transgender, Queer/Sexuality Studies (Minor)',
