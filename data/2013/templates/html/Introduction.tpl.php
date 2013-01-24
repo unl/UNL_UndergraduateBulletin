@@ -119,31 +119,15 @@
     </ul>
 </div>
 <div class="grid3">
-    <div class="pull">
-        <h4>What you can find here:</h4>
-        <p>The Undergraduate Bulletin contains information about all programs of undergraduate study at the University of Nebraska&ndash;Lincoln.
-            <a href="about">More info&hellip;</a>
-        </p>
+    <h3 class="em">Explore Center</h3>
+    <div class="separator-box">
+        <a href="college/Exploratory+%26+Pre-Professional+Advising+Center">
+            <img src="<?php echo UNL_UndergraduateBulletin_Controller::getBaseURL(); ?>templates/html/images/thumb_ec.jpg" alt="The Explore Center" />
+        </a>
+        <p>The Explore Center provides an academic home for students who have not decided upon a major. The Center also provides advising for students interested in Pre-Professional (pre-health and pre-law) programs.</p>
+        <ul class="button-list">
+            <li><a class="pill-button" href="college/Exploratory+%26+Pre-Professional+Advising+Center#undecided-students">Undecided Students</a></li>
+            <li><a class="pill-button" href="college/Exploratory+%26+Pre-Professional+Advising+Center#pre-professional-students">Pre-Professional Students</a></li>
+        </ul>
     </div>
-    <h4>Special Undergraduate Programs</h4>
-    <ul class="collegeListing">
-        <li><a href="college/Undergraduate+Education#general-education-requirements-ace">General Education (ACE)</a></li>
-        <li><a href="college/Exploratory+%26+Pre-Professional+Advising+Center">Exploratory &amp; Pre-Professional Advising Center</a></li>
-        <li><a href="college/Libraries">Libraries</a></li>
-        <li><a href="college/Undergraduate+Education#preprofessional-studies">Preprofessional Studies</a></li>
-        <li><a href="college/Public+Affairs+%26+Community+Service">Public Affairs &amp; Community Service</a></li>
-        <li><a href="college/Reserve+Officers+Training+Corps+%28ROTC%29">Reserve Officers Training Corps (ROTC)</a></li>
-    </ul>
-    <h4>Academic Policies</h4>
-    <ul class="collegeListing">
-        <li><a href="general#admission-categories">Admission Categories</a></li>
-        <li><a href="general#undergraduate-transfer-credit-policy">Undergraduate Transfer Credit Policy</a></li>
-        <li><a href="general#graduation-requirements">Graduation Requirements</a></li>
-        <li><a href="general#academic-policies-and-procedures">Academic Policies and Procedures</a></li>
-    </ul>
-    <h4>Honors Programs</h4>
-    <ul class="collegeListing">
-        <li><a href="college/Undergraduate+Education#university-honors-program-">University Honors</a></li>
-        <li><a href="college/Undergraduate+Education#jeffrey-s-raikes-school-of-computer-science-and-ma">Jeffrey S. Raikes School of Computer Science and Management</a></li>
-    </ul>
 </div>
