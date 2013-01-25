@@ -37,7 +37,8 @@ $page->head .= '
 <!-- '.md5($context->getRawObject()->getCacheKey()).' -->
 ';
 
-if ($context->getEdition()->year > UNL_UndergraduateBulletin_Editions::getLatest()->year) {
+// Check if the year of this edition indicates it has not been published
+if (mktime(0, 0, 0, 8, 1, $context->getEdition()->year) > time() ) {
     $page->head .= <<<UNPUBLISHED
     <meta name="robots" content="noindex" />
     <script type="text/javascript">
