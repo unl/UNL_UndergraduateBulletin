@@ -2423,13 +2423,13 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">ECON 211, 212, and 215</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">This course is intended for MA Option II students and others who do not plan to proceed to PhD studies. Analysis of the performance of a market economy developing applications of macroeconomic models with emphasis on imperfect information, expectations, business cycles, growth and stabilization, and policymaking in a stochastic environment.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Course prepares student for applied macroeconomic analysis in a business, governmental or academic setting. Empirical modeling strategies are developed from theoretical underpinnings to implementation, including data collection, estimation, forecasting, simulation, presentation and interpretation.</div>
     </description>
     <campuses>
       <campus></campus>
@@ -2437,7 +2437,11 @@
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
