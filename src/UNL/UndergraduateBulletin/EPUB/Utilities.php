@@ -104,7 +104,7 @@ class UNL_UndergraduateBulletin_EPUB_Utilities
                     . "|(,?\ and\ )     # eg: , 340 and 440 \n"
                     . "|(,?\ and\/or\ ) # eg: , 340 and\/or 440 \n"
                 . ")"
-                . "([0-9]{2,4}[A-Z]?)   # course number, with optional letter \n"
+                . "([0-9]{2,3}[A-Z]?)   # course number, with optional letter \n"
             . ")+"
             . "([\.\s\<\,\;\/\)]|$)     # characters which signal the end of a course sequence \n"
             . "/x",
