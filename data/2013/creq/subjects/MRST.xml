@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<courses xmlns="http://courseapproval.unl.edu/courses" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://courseapproval.unl.edu/courses /schema/courses.xsd">
+  <course>
+    <title>Special Topics</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MRST</subject>
+        <courseNumber>398</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Special Topics to be determined by the Program</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">9</credit>
+      <credit type="Per Semester Limit">9</credit>
+      <credit type="Per Career Limit">9</credit>
+    </credits>
+  </course>
+</courses>
