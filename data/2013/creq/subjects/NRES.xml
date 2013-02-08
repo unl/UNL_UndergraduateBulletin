@@ -248,12 +248,12 @@
   <course>
     <title>Exploring Plant Biology</title>
     <courseCodes>
-      <courseCode type="home listing">
-        <subject>AGRO</subject>
-        <courseNumber>110</courseNumber>
-      </courseCode>
       <courseCode type="crosslisting">
         <subject>HORT</subject>
+        <courseNumber>110</courseNumber>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>AGRO</subject>
         <courseNumber>110</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
@@ -293,6 +293,14 @@
   <course>
     <title>Introduction to Great Plains Studies</title>
     <courseCodes>
+      <courseCode type="home listing">
+        <subject>GPSP</subject>
+        <courseNumber>170</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>SOCI</subject>
+        <courseNumber>170</courseNumber>
+      </courseCode>
       <courseCode type="crosslisting">
         <subject>ANTH</subject>
         <courseNumber>170</courseNumber>
@@ -303,16 +311,8 @@
         <courseNumber>170</courseNumber>
         <courseGroup>Regional Geography</courseGroup>
       </courseCode>
-      <courseCode type="home listing">
-        <subject>GPSP</subject>
-        <courseNumber>170</courseNumber>
-      </courseCode>
       <courseCode type="crosslisting">
         <subject>NRES</subject>
-        <courseNumber>170</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>SOCI</subject>
         <courseNumber>170</courseNumber>
       </courseCode>
     </courseCodes>
@@ -691,19 +691,19 @@
     <title>Biological Invaders</title>
     <courseCodes>
       <courseCode type="crosslisting">
-        <subject>AGRO</subject>
-        <courseNumber>270</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
         <subject>HORT</subject>
-        <courseNumber>270</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>NRES</subject>
         <courseNumber>270</courseNumber>
       </courseCode>
       <courseCode type="home listing">
         <subject>PLPT</subject>
+        <courseNumber>270</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>AGRO</subject>
+        <courseNumber>270</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>NRES</subject>
         <courseNumber>270</courseNumber>
       </courseCode>
     </courseCodes>
@@ -737,12 +737,12 @@
         <subject>AGRO</subject>
         <courseNumber>279</courseNumber>
       </courseCode>
-      <courseCode type="crosslisting">
-        <subject>NRES</subject>
-        <courseNumber>279</courseNumber>
-      </courseCode>
       <courseCode type="home listing">
         <subject>SOIL</subject>
+        <courseNumber>279</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>NRES</subject>
         <courseNumber>279</courseNumber>
       </courseCode>
     </courseCodes>
@@ -905,11 +905,11 @@
         <courseGroup>Physical Geography</courseGroup>
       </courseCode>
       <courseCode type="crosslisting">
-        <subject>NRES</subject>
+        <subject>GEOL</subject>
         <courseNumber>308</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
-        <subject>GEOL</subject>
+        <subject>NRES</subject>
         <courseNumber>308</courseNumber>
       </courseCode>
     </courseCodes>
@@ -1274,23 +1274,23 @@
     <title>Soils, Environment and Water Quality</title>
     <courseCodes>
       <courseCode type="crosslisting">
-        <subject>AGRO</subject>
+        <subject>GEOL</subject>
         <courseNumber>361</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
-        <subject>GEOL</subject>
+        <subject>AGRO</subject>
         <courseNumber>361</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
         <subject>SOIL</subject>
         <courseNumber>361</courseNumber>
       </courseCode>
-      <courseCode type="crosslisting">
-        <subject>WATS</subject>
-        <courseNumber>361</courseNumber>
-      </courseCode>
       <courseCode type="home listing">
         <subject>NRES</subject>
+        <courseNumber>361</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>WATS</subject>
         <courseNumber>361</courseNumber>
       </courseCode>
     </courseCodes>
@@ -1610,11 +1610,6 @@
   <course>
     <title>Identification of Aquatic Insects</title>
     <courseCodes>
-      <courseCode type="home listing">
-        <subject>ENTO</subject>
-        <courseNumber>402</courseNumber>
-        <courseLetter>L</courseLetter>
-      </courseCode>
       <courseCode type="crosslisting">
         <subject>BIOS</subject>
         <courseNumber>485</courseNumber>
@@ -1625,6 +1620,16 @@
         <courseNumber>885</courseNumber>
         <courseLetter>L</courseLetter>
       </courseCode>
+      <courseCode type="home listing">
+        <subject>ENTO</subject>
+        <courseNumber>402</courseNumber>
+        <courseLetter>L</courseLetter>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>ENTO</subject>
+        <courseNumber>802</courseNumber>
+        <courseLetter>L</courseLetter>
+      </courseCode>
       <courseCode type="crosslisting">
         <subject>NRES</subject>
         <courseNumber>402</courseNumber>
@@ -1632,11 +1637,6 @@
       </courseCode>
       <courseCode type="crosslisting">
         <subject>NRES</subject>
-        <courseNumber>802</courseNumber>
-        <courseLetter>L</courseLetter>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>ENTO</subject>
         <courseNumber>802</courseNumber>
         <courseLetter>L</courseLetter>
       </courseCode>
@@ -1707,12 +1707,20 @@
     <title>Plant Ecophysiology: Theory and Practice</title>
     <courseCodes>
       <courseCode type="crosslisting">
-        <subject>AGRO</subject>
+        <subject>HORT</subject>
         <courseNumber>406</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
         <subject>HORT</subject>
+        <courseNumber>806</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>AGRO</subject>
         <courseNumber>406</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>AGRO</subject>
+        <courseNumber>806</courseNumber>
       </courseCode>
       <courseCode type="home listing">
         <subject>NRES</subject>
@@ -1720,14 +1728,6 @@
       </courseCode>
       <courseCode type="grad tie-in">
         <subject>NRES</subject>
-        <courseNumber>806</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>AGRO</subject>
-        <courseNumber>806</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>HORT</subject>
         <courseNumber>806</courseNumber>
       </courseCode>
     </courseCodes>
@@ -1770,14 +1770,6 @@
     <title>Microclimate: The Biological Environment</title>
     <courseCodes>
       <courseCode type="crosslisting">
-        <subject>AGRO</subject>
-        <courseNumber>408</courseNumber>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>AGRO</subject>
-        <courseNumber>808</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
         <subject>GEOG</subject>
         <courseNumber>408</courseNumber>
         <courseGroup>Physical Geography</courseGroup>
@@ -1788,6 +1780,14 @@
         <courseGroup>Physical Geography</courseGroup>
       </courseCode>
       <courseCode type="crosslisting">
+        <subject>METR</subject>
+        <courseNumber>408</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>METR</subject>
+        <courseNumber>808</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
         <subject>HORT</subject>
         <courseNumber>408</courseNumber>
       </courseCode>
@@ -1796,11 +1796,11 @@
         <courseNumber>808</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
-        <subject>METR</subject>
+        <subject>AGRO</subject>
         <courseNumber>408</courseNumber>
       </courseCode>
       <courseCode type="grad tie-in">
-        <subject>METR</subject>
+        <subject>AGRO</subject>
         <courseNumber>808</courseNumber>
       </courseCode>
       <courseCode type="home listing">
@@ -1842,12 +1842,12 @@
   <course>
     <title>Human Dimensions of Natural Resources</title>
     <courseCodes>
-      <courseCode type="home listing">
-        <subject>NRES</subject>
-        <courseNumber>409</courseNumber>
-      </courseCode>
       <courseCode type="crosslisting">
         <subject>GEOG</subject>
+        <courseNumber>409</courseNumber>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>NRES</subject>
         <courseNumber>409</courseNumber>
       </courseCode>
     </courseCodes>
@@ -1996,13 +1996,13 @@
         <subject>HORT</subject>
         <courseNumber>418</courseNumber>
       </courseCode>
-      <courseCode type="home listing">
-        <subject>NRES</subject>
-        <courseNumber>417</courseNumber>
-      </courseCode>
       <courseCode type="crosslisting">
         <subject>HORT</subject>
         <courseNumber>818</courseNumber>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>NRES</subject>
+        <courseNumber>417</courseNumber>
       </courseCode>
       <courseCode type="grad tie-in">
         <subject>NRES</subject>
@@ -2153,11 +2153,6 @@
   <course>
     <title>Chemistry of Natural Waters Laboratory</title>
     <courseCodes>
-      <courseCode type="crosslisting">
-        <subject>WATS</subject>
-        <courseNumber>418</courseNumber>
-        <courseLetter>L</courseLetter>
-      </courseCode>
       <courseCode type="home listing">
         <subject>GEOL</subject>
         <courseNumber>418</courseNumber>
@@ -2176,6 +2171,11 @@
       <courseCode type="grad tie-in">
         <subject>NRES</subject>
         <courseNumber>819</courseNumber>
+        <courseLetter>L</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>WATS</subject>
+        <courseNumber>418</courseNumber>
         <courseLetter>L</courseLetter>
       </courseCode>
     </courseCodes>
@@ -2213,14 +2213,6 @@
   <course>
     <title>Applications of Remote Sensing in Agriculture and Natural Resources</title>
     <courseCodes>
-      <courseCode type="crosslisting">
-        <subject>AGRO</subject>
-        <courseNumber>419</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>AGRO</subject>
-        <courseNumber>819</courseNumber>
-      </courseCode>
       <courseCode type="home listing">
         <subject>GEOG</subject>
         <courseNumber>419</courseNumber>
@@ -2237,6 +2229,14 @@
       </courseCode>
       <courseCode type="crosslisting">
         <subject>GEOL</subject>
+        <courseNumber>819</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>AGRO</subject>
+        <courseNumber>419</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>AGRO</subject>
         <courseNumber>819</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
@@ -2464,25 +2464,25 @@
   <course>
     <title>Invasive Plants</title>
     <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>HORT</subject>
+        <courseNumber>426</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>HORT</subject>
+        <courseNumber>826</courseNumber>
+      </courseCode>
       <courseCode type="home listing">
         <subject>AGRO</subject>
         <courseNumber>426</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
-        <subject>HORT</subject>
-        <courseNumber>426</courseNumber>
+        <subject>AGRO</subject>
+        <courseNumber>826</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
         <subject>NRES</subject>
         <courseNumber>426</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>HORT</subject>
-        <courseNumber>826</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>AGRO</subject>
-        <courseNumber>826</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
         <subject>NRES</subject>
@@ -2577,12 +2577,12 @@
   <course>
     <title>Leadership in Public Organizations</title>
     <courseCodes>
-      <courseCode type="home listing">
-        <subject>NRES</subject>
-        <courseNumber>428</courseNumber>
-      </courseCode>
       <courseCode type="crosslisting">
         <subject>ALEC</subject>
+        <courseNumber>428</courseNumber>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>NRES</subject>
         <courseNumber>428</courseNumber>
       </courseCode>
       <courseCode type="grad tie-in">
@@ -2633,22 +2633,22 @@
         <courseLetter>A</courseLetter>
       </courseCode>
       <courseCode type="crosslisting">
-        <subject>AGRO</subject>
+        <subject>HORT</subject>
         <courseNumber>429</courseNumber>
         <courseLetter>A</courseLetter>
       </courseCode>
       <courseCode type="crosslisting">
-        <subject>AGRO</subject>
+        <subject>HORT</subject>
         <courseNumber>829</courseNumber>
         <courseLetter>A</courseLetter>
       </courseCode>
       <courseCode type="crosslisting">
-        <subject>HORT</subject>
+        <subject>AGRO</subject>
         <courseNumber>429</courseNumber>
         <courseLetter>A</courseLetter>
       </courseCode>
       <courseCode type="crosslisting">
-        <subject>HORT</subject>
+        <subject>AGRO</subject>
         <courseNumber>829</courseNumber>
         <courseLetter>A</courseLetter>
       </courseCode>
@@ -2747,12 +2747,12 @@
   <course>
     <title>Envronmental Education and Interpretation</title>
     <courseCodes>
-      <courseCode type="home listing">
-        <subject>NRES</subject>
-        <courseNumber>434</courseNumber>
-      </courseCode>
       <courseCode type="crosslisting">
         <subject>ENVR</subject>
+        <courseNumber>434</courseNumber>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>NRES</subject>
         <courseNumber>434</courseNumber>
       </courseCode>
       <courseCode type="grad tie-in">
@@ -2787,16 +2787,16 @@
   <course>
     <title>Agroecology</title>
     <courseCodes>
-      <courseCode type="home listing">
-        <subject>AGRO</subject>
-        <courseNumber>435</courseNumber>
-      </courseCode>
       <courseCode type="crosslisting">
         <subject>HORT</subject>
         <courseNumber>435</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
-        <subject>NRES</subject>
+        <subject>HORT</subject>
+        <courseNumber>835</courseNumber>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>AGRO</subject>
         <courseNumber>435</courseNumber>
       </courseCode>
       <courseCode type="grad tie-in">
@@ -2805,10 +2805,10 @@
       </courseCode>
       <courseCode type="crosslisting">
         <subject>NRES</subject>
-        <courseNumber>835</courseNumber>
+        <courseNumber>435</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
-        <subject>HORT</subject>
+        <subject>NRES</subject>
         <courseNumber>835</courseNumber>
       </courseCode>
     </courseCodes>
@@ -2903,6 +2903,10 @@
         <subject>AGRO</subject>
         <courseNumber>440</courseNumber>
       </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>AGRO</subject>
+        <courseNumber>840</courseNumber>
+      </courseCode>
       <courseCode type="crosslisting">
         <subject>RNGE</subject>
         <courseNumber>440</courseNumber>
@@ -2910,10 +2914,6 @@
       <courseCode type="crosslisting">
         <subject>NRES</subject>
         <courseNumber>440</courseNumber>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>AGRO</subject>
-        <courseNumber>840</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
         <subject>NRES</subject>
@@ -2955,6 +2955,10 @@
         <subject>AGRO</subject>
         <courseNumber>442</courseNumber>
       </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>AGRO</subject>
+        <courseNumber>842</courseNumber>
+      </courseCode>
       <courseCode type="crosslisting">
         <subject>RNGE</subject>
         <courseNumber>442</courseNumber>
@@ -2965,10 +2969,6 @@
       </courseCode>
       <courseCode type="crosslisting">
         <subject>NRES</subject>
-        <courseNumber>842</courseNumber>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>AGRO</subject>
         <courseNumber>842</courseNumber>
       </courseCode>
     </courseCodes>
@@ -3011,13 +3011,13 @@
         <subject>AGRO</subject>
         <courseNumber>444</courseNumber>
       </courseCode>
-      <courseCode type="crosslisting">
-        <subject>RNGE</subject>
-        <courseNumber>444</courseNumber>
-      </courseCode>
       <courseCode type="grad tie-in">
         <subject>AGRO</subject>
         <courseNumber>844</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>RNGE</subject>
+        <courseNumber>444</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
         <subject>NRES</subject>
@@ -3063,20 +3063,20 @@
   <course>
     <title>Human Remains in Forensic Science</title>
     <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>FORS</subject>
+        <courseNumber>445</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>FORS</subject>
+        <courseNumber>845</courseNumber>
+      </courseCode>
       <courseCode type="home listing">
         <subject>NRES</subject>
         <courseNumber>445</courseNumber>
       </courseCode>
       <courseCode type="grad tie-in">
         <subject>NRES</subject>
-        <courseNumber>845</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>FORS</subject>
-        <courseNumber>445</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>FORS</subject>
         <courseNumber>845</courseNumber>
       </courseCode>
     </courseCodes>
@@ -3115,20 +3115,20 @@
   <course>
     <title>Pollen Analysis for Behavioral, Biological, and Forensic Science</title>
     <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>FORS</subject>
+        <courseNumber>446</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>FORS</subject>
+        <courseNumber>846</courseNumber>
+      </courseCode>
       <courseCode type="home listing">
         <subject>NRES</subject>
         <courseNumber>446</courseNumber>
       </courseCode>
       <courseCode type="grad tie-in">
         <subject>NRES</subject>
-        <courseNumber>846</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>FORS</subject>
-        <courseNumber>446</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>FORS</subject>
         <courseNumber>846</courseNumber>
       </courseCode>
     </courseCodes>
@@ -3253,13 +3253,13 @@
   <course>
     <title>Soil Environmental Chemistry</title>
     <courseCodes>
-      <courseCode type="home listing">
-        <subject>NRES</subject>
-        <courseNumber>451</courseNumber>
-      </courseCode>
       <courseCode type="crosslisting">
         <subject>ENVE</subject>
         <courseNumber>851</courseNumber>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>NRES</subject>
+        <courseNumber>451</courseNumber>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
@@ -3297,14 +3297,6 @@
     <title>Climate and Society</title>
     <courseCodes>
       <courseCode type="crosslisting">
-        <subject>AGRO</subject>
-        <courseNumber>450</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>AGRO</subject>
-        <courseNumber>850</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
         <subject>GEOG</subject>
         <courseNumber>450</courseNumber>
         <courseGroup>Physical Geography</courseGroup>
@@ -3320,6 +3312,14 @@
       </courseCode>
       <courseCode type="crosslisting">
         <subject>METR</subject>
+        <courseNumber>850</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>AGRO</subject>
+        <courseNumber>450</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>AGRO</subject>
         <courseNumber>850</courseNumber>
       </courseCode>
       <courseCode type="home listing">
@@ -3421,17 +3421,17 @@
         <subject>AGRO</subject>
         <courseNumber>455</courseNumber>
       </courseCode>
-      <courseCode type="crosslisting">
-        <subject>NRES</subject>
-        <courseNumber>455</courseNumber>
+      <courseCode type="grad tie-in">
+        <subject>AGRO</subject>
+        <courseNumber>855</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
         <subject>SOIL</subject>
         <courseNumber>455</courseNumber>
       </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>AGRO</subject>
-        <courseNumber>855</courseNumber>
+      <courseCode type="crosslisting">
+        <subject>NRES</subject>
+        <courseNumber>455</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
         <subject>NRES</subject>
@@ -3518,17 +3518,17 @@
         <subject>AGRO</subject>
         <courseNumber>457</courseNumber>
       </courseCode>
-      <courseCode type="crosslisting">
-        <subject>NRES</subject>
-        <courseNumber>457</courseNumber>
+      <courseCode type="grad tie-in">
+        <subject>AGRO</subject>
+        <courseNumber>857</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
         <subject>SOIL</subject>
         <courseNumber>457</courseNumber>
       </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>AGRO</subject>
-        <courseNumber>857</courseNumber>
+      <courseCode type="crosslisting">
+        <subject>NRES</subject>
+        <courseNumber>457</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
         <subject>NRES</subject>
@@ -3579,17 +3579,17 @@
         <subject>AGRO</subject>
         <courseNumber>458</courseNumber>
       </courseCode>
-      <courseCode type="home listing">
-        <subject>NRES</subject>
-        <courseNumber>458</courseNumber>
+      <courseCode type="crosslisting">
+        <subject>AGRO</subject>
+        <courseNumber>858</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
         <subject>SOIL</subject>
         <courseNumber>458</courseNumber>
       </courseCode>
-      <courseCode type="crosslisting">
-        <subject>AGRO</subject>
-        <courseNumber>858</courseNumber>
+      <courseCode type="home listing">
+        <subject>NRES</subject>
+        <courseNumber>458</courseNumber>
       </courseCode>
       <courseCode type="grad tie-in">
         <subject>NRES</subject>
@@ -3630,13 +3630,13 @@
   <course>
     <title>Limnology</title>
     <courseCodes>
-      <courseCode type="grad tie-in">
-        <subject>BIOS</subject>
-        <courseNumber>859</courseNumber>
-      </courseCode>
       <courseCode type="crosslisting">
         <subject>BIOS</subject>
         <courseNumber>459</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>BIOS</subject>
+        <courseNumber>859</courseNumber>
       </courseCode>
       <courseCode type="home listing">
         <subject>NRES</subject>
@@ -3689,6 +3689,14 @@
   <course>
     <title>Soil Microbiology</title>
     <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>BIOS</subject>
+        <courseNumber>447</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>BIOS</subject>
+        <courseNumber>847</courseNumber>
+      </courseCode>
       <courseCode type="home listing">
         <subject>AGRO</subject>
         <courseNumber>460</courseNumber>
@@ -3698,12 +3706,8 @@
         <courseNumber>860</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
-        <subject>BIOS</subject>
-        <courseNumber>447</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>BIOS</subject>
-        <courseNumber>847</courseNumber>
+        <subject>SOIL</subject>
+        <courseNumber>460</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
         <subject>NRES</subject>
@@ -3712,10 +3716,6 @@
       <courseCode type="crosslisting">
         <subject>NRES</subject>
         <courseNumber>860</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>SOIL</subject>
-        <courseNumber>460</courseNumber>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
@@ -3750,6 +3750,14 @@
     <title>Soil Physics</title>
     <courseCodes>
       <courseCode type="crosslisting">
+        <subject>GEOL</subject>
+        <courseNumber>461</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>GEOL</subject>
+        <courseNumber>861</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
         <subject>AGRO</subject>
         <courseNumber>461</courseNumber>
       </courseCode>
@@ -3758,12 +3766,8 @@
         <courseNumber>861</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
-        <subject>GEOL</subject>
+        <subject>SOIL</subject>
         <courseNumber>461</courseNumber>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>GEOL</subject>
-        <courseNumber>861</courseNumber>
       </courseCode>
       <courseCode type="home listing">
         <subject>NRES</subject>
@@ -3772,10 +3776,6 @@
       <courseCode type="grad tie-in">
         <subject>NRES</subject>
         <courseNumber>861</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>SOIL</subject>
-        <courseNumber>461</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
         <subject>WATS</subject>
@@ -3970,6 +3970,14 @@
   <course>
     <title>Global Climate Change</title>
     <courseCodes>
+      <courseCode type="home listing">
+        <subject>METR</subject>
+        <courseNumber>483</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>METR</subject>
+        <courseNumber>883</courseNumber>
+      </courseCode>
       <courseCode type="crosslisting">
         <subject>NRES</subject>
         <courseNumber>467</courseNumber>
@@ -3977,14 +3985,6 @@
       <courseCode type="crosslisting">
         <subject>NRES</subject>
         <courseNumber>867</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>METR</subject>
-        <courseNumber>883</courseNumber>
-      </courseCode>
-      <courseCode type="home listing">
-        <subject>METR</subject>
-        <courseNumber>483</courseNumber>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
@@ -4073,14 +4073,6 @@
     <title>Bio-Atmospheric Instrumentation</title>
     <courseCodes>
       <courseCode type="crosslisting">
-        <subject>AGRO</subject>
-        <courseNumber>469</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>AGRO</subject>
-        <courseNumber>869</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
         <subject>GEOG</subject>
         <courseNumber>469</courseNumber>
         <courseGroup>Physical Geography</courseGroup>
@@ -4089,6 +4081,14 @@
         <subject>GEOG</subject>
         <courseNumber>869</courseNumber>
         <courseGroup>Physical Geography</courseGroup>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>METR</subject>
+        <courseNumber>469</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>METR</subject>
+        <courseNumber>869</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
         <subject>HORT</subject>
@@ -4099,19 +4099,11 @@
         <courseNumber>807</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
-        <subject>METR</subject>
+        <subject>AGRO</subject>
         <courseNumber>469</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
-        <subject>METR</subject>
-        <courseNumber>869</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>MSYM</subject>
-        <courseNumber>469</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>MSYM</subject>
+        <subject>AGRO</subject>
         <courseNumber>869</courseNumber>
       </courseCode>
       <courseCode type="home listing">
@@ -4120,6 +4112,14 @@
       </courseCode>
       <courseCode type="grad tie-in">
         <subject>NRES</subject>
+        <courseNumber>869</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>MSYM</subject>
+        <courseNumber>469</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>MSYM</subject>
         <courseNumber>869</courseNumber>
       </courseCode>
     </courseCodes>
@@ -4253,6 +4253,40 @@
   <course>
     <title>Water Quality Strategy</title>
     <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>POLS</subject>
+        <courseNumber>475</courseNumber>
+        <courseGroup>Public Administration and Policy</courseGroup>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>POLS</subject>
+        <courseNumber>875</courseNumber>
+        <courseGroup>Public Administration and Policy</courseGroup>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>SOCI</subject>
+        <courseNumber>475</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>SOCI</subject>
+        <courseNumber>875</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>GEOL</subject>
+        <courseNumber>475</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>GEOL</subject>
+        <courseNumber>875</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>CIVE</subject>
+        <courseNumber>475</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>CIVE</subject>
+        <courseNumber>875</courseNumber>
+      </courseCode>
       <courseCode type="home listing">
         <subject>AGRO</subject>
         <courseNumber>475</courseNumber>
@@ -4262,70 +4296,36 @@
         <courseNumber>875</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
-        <subject>CIVE</subject>
-        <courseNumber>475</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>CIVE</subject>
-        <courseNumber>875</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>CRPL</subject>
-        <courseNumber>475</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>CRPL</subject>
-        <courseNumber>875</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>GEOL</subject>
-        <courseNumber>475</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>GEOL</subject>
-        <courseNumber>875</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>MSYM</subject>
-        <courseNumber>475</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>MSYM</subject>
-        <courseNumber>875</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>NRES</subject>
-        <courseNumber>475</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>NRES</subject>
-        <courseNumber>875</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>POLS</subject>
-        <courseNumber>475</courseNumber>
-        <courseGroup>Public Administration and Policy</courseGroup>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>POLS</subject>
-        <courseNumber>875</courseNumber>
-        <courseGroup>Public Administration and Policy</courseGroup>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>SOCI</subject>
-        <courseNumber>475</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>SOCI</subject>
-        <courseNumber>875</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
         <subject>SOIL</subject>
         <courseNumber>475</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
+        <subject>NRES</subject>
+        <courseNumber>475</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>NRES</subject>
+        <courseNumber>875</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
         <subject>WATS</subject>
         <courseNumber>475</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>MSYM</subject>
+        <courseNumber>475</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>MSYM</subject>
+        <courseNumber>875</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>CRPL</subject>
+        <courseNumber>475</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>CRPL</subject>
+        <courseNumber>875</courseNumber>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
@@ -4419,29 +4419,29 @@
     <title>Great Plains Field Pedology</title>
     <courseCodes>
       <courseCode type="crosslisting">
-        <subject>AGRO</subject>
-        <courseNumber>477</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
         <subject>GEOG</subject>
         <courseNumber>467</courseNumber>
         <courseGroup>Physical Geography</courseGroup>
       </courseCode>
-      <courseCode type="home listing">
-        <subject>NRES</subject>
+      <courseCode type="crosslisting">
+        <subject>GEOG</subject>
+        <courseNumber>867</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>AGRO</subject>
         <courseNumber>477</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
         <subject>SOIL</subject>
         <courseNumber>477</courseNumber>
       </courseCode>
+      <courseCode type="home listing">
+        <subject>NRES</subject>
+        <courseNumber>477</courseNumber>
+      </courseCode>
       <courseCode type="grad tie-in">
         <subject>NRES</subject>
         <courseNumber>877</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>GEOG</subject>
-        <courseNumber>867</courseNumber>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
@@ -4486,13 +4486,13 @@
         <subject>METR</subject>
         <courseNumber>878</courseNumber>
       </courseCode>
-      <courseCode type="crosslisting">
-        <subject>NRES</subject>
-        <courseNumber>878</courseNumber>
-      </courseCode>
       <courseCode type="home listing">
         <subject>NRES</subject>
         <courseNumber>478</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>NRES</subject>
+        <courseNumber>878</courseNumber>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
@@ -4528,6 +4528,14 @@
   <course>
     <title>Hydroclimatology</title>
     <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>METR</subject>
+        <courseNumber>479</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>METR</subject>
+        <courseNumber>879</courseNumber>
+      </courseCode>
       <courseCode type="home listing">
         <subject>NRES</subject>
         <courseNumber>479</courseNumber>
@@ -4539,14 +4547,6 @@
       <courseCode type="crosslisting">
         <subject>WATS</subject>
         <courseNumber>479</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>METR</subject>
-        <courseNumber>479</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>METR</subject>
-        <courseNumber>879</courseNumber>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
@@ -4583,32 +4583,32 @@
   <course>
     <title>Water Resources Seminar</title>
     <courseCodes>
-      <courseCode type="home listing">
-        <subject>NRES</subject>
+      <courseCode type="crosslisting">
+        <subject>GEOG</subject>
+        <courseNumber>484</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>GEOG</subject>
+        <courseNumber>884</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>GEOL</subject>
+        <courseNumber>484</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>GEOL</subject>
+        <courseNumber>884</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>AGRO</subject>
         <courseNumber>484</courseNumber>
       </courseCode>
       <courseCode type="grad tie-in">
         <subject>AGRO</subject>
         <courseNumber>884</courseNumber>
       </courseCode>
-      <courseCode type="crosslisting">
-        <subject>GEOG</subject>
-        <courseNumber>484</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>GEOG</subject>
-        <courseNumber>884</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>GEOL</subject>
-        <courseNumber>484</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>GEOL</subject>
-        <courseNumber>884</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>AGRO</subject>
+      <courseCode type="home listing">
+        <subject>NRES</subject>
         <courseNumber>484</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
@@ -4651,12 +4651,12 @@
   <course>
     <title>Introduction to Landscape Ecology</title>
     <courseCodes>
-      <courseCode type="home listing">
-        <subject>LARC</subject>
-        <courseNumber>487</courseNumber>
-      </courseCode>
       <courseCode type="crosslisting">
         <subject>NRES</subject>
+        <courseNumber>487</courseNumber>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>LARC</subject>
         <courseNumber>487</courseNumber>
       </courseCode>
     </courseCodes>
@@ -4802,10 +4802,6 @@
   <course>
     <title>Geography Field Tour</title>
     <courseCodes>
-      <courseCode type="crosslisting">
-        <subject>NRES</subject>
-        <courseNumber>491</courseNumber>
-      </courseCode>
       <courseCode type="home listing">
         <subject>GEOG</subject>
         <courseNumber>491</courseNumber>
@@ -4814,6 +4810,10 @@
       <courseCode type="crosslisting">
         <subject>GEOG</subject>
         <courseNumber>891</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>NRES</subject>
+        <courseNumber>491</courseNumber>
       </courseCode>
     </courseCodes>
     <gradingType>letter grade only</gradingType>
@@ -4850,13 +4850,13 @@
   <course>
     <title>Study Tours in Natural Resource Management</title>
     <courseCodes>
-      <courseCode type="crosslisting">
-        <subject>NRES</subject>
-        <courseNumber>892</courseNumber>
-      </courseCode>
       <courseCode type="home listing">
         <subject>NRES</subject>
         <courseNumber>492</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>NRES</subject>
+        <courseNumber>892</courseNumber>
       </courseCode>
     </courseCodes>
     <gradingType>pass/no pass only</gradingType>
@@ -4897,11 +4897,11 @@
     <title>Grasslands Seminar</title>
     <courseCodes>
       <courseCode type="crosslisting">
-        <subject>AGRO</subject>
+        <subject>ENTO</subject>
         <courseNumber>495</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
-        <subject>ENTO</subject>
+        <subject>HORT</subject>
         <courseNumber>495</courseNumber>
       </courseCode>
       <courseCode type="home listing">
@@ -4909,11 +4909,7 @@
         <courseNumber>495</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
-        <subject>HORT</subject>
-        <courseNumber>495</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>NRES</subject>
+        <subject>AGRO</subject>
         <courseNumber>495</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
@@ -4922,6 +4918,10 @@
       </courseCode>
       <courseCode type="crosslisting">
         <subject>SOIL</subject>
+        <courseNumber>495</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>NRES</subject>
         <courseNumber>495</courseNumber>
       </courseCode>
     </courseCodes>
@@ -5149,12 +5149,12 @@
   <course>
     <title>Ecological Statistics</title>
     <courseCodes>
-      <courseCode type="home listing">
-        <subject>NRES</subject>
-        <courseNumber>803</courseNumber>
-      </courseCode>
       <courseCode type="crosslisting">
         <subject>STAT</subject>
+        <courseNumber>803</courseNumber>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>NRES</subject>
         <courseNumber>803</courseNumber>
       </courseCode>
     </courseCodes>
@@ -5193,13 +5193,13 @@
   <course>
     <title>Plant-Water Relations</title>
     <courseCodes>
-      <courseCode type="home listing">
-        <subject>AGRO</subject>
-        <courseNumber>807</courseNumber>
-      </courseCode>
       <courseCode type="crosslisting">
         <subject>BIOS</subject>
         <courseNumber>817</courseNumber>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>AGRO</subject>
+        <courseNumber>807</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
         <subject>NRES</subject>
@@ -5615,12 +5615,12 @@
         <subject>CIVE</subject>
         <courseNumber>353</courseNumber>
       </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>NRES</subject>
-        <courseNumber>853</courseNumber>
-      </courseCode>
       <courseCode type="crosslisting">
         <subject>CIVE</subject>
+        <courseNumber>853</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>NRES</subject>
         <courseNumber>853</courseNumber>
       </courseCode>
     </courseCodes>
@@ -5876,12 +5876,12 @@
   <course>
     <title>Ecological Economics</title>
     <courseCodes>
-      <courseCode type="crosslisting">
-        <subject>NRES</subject>
-        <courseNumber>883</courseNumber>
-      </courseCode>
       <courseCode type="home listing">
         <subject>AECN</subject>
+        <courseNumber>883</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>NRES</subject>
         <courseNumber>883</courseNumber>
       </courseCode>
     </courseCodes>
@@ -6013,12 +6013,12 @@
   <course>
     <title>Master of Applied Science Project</title>
     <courseCodes>
-      <courseCode type="crosslisting">
-        <subject>AGRI</subject>
-        <courseNumber>897</courseNumber>
-      </courseCode>
       <courseCode type="home listing">
         <subject>HORT</subject>
+        <courseNumber>897</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>AGRI</subject>
         <courseNumber>897</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
@@ -6124,16 +6124,16 @@
   <course>
     <title>Agricultural Climatology</title>
     <courseCodes>
-      <courseCode type="home listing">
-        <subject>AGRO</subject>
-        <courseNumber>907</courseNumber>
-      </courseCode>
       <courseCode type="crosslisting">
         <subject>METR</subject>
         <courseNumber>907</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
         <subject>HORT</subject>
+        <courseNumber>907</courseNumber>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>AGRO</subject>
         <courseNumber>907</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
@@ -6176,16 +6176,16 @@
   <course>
     <title>Solar Radiation Interactions at the Earth’s Surface</title>
     <courseCodes>
-      <courseCode type="home listing">
-        <subject>AGRO</subject>
-        <courseNumber>908</courseNumber>
-      </courseCode>
       <courseCode type="crosslisting">
         <subject>METR</subject>
         <courseNumber>908</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
         <subject>HORT</subject>
+        <courseNumber>908</courseNumber>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>AGRO</subject>
         <courseNumber>908</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
@@ -6219,12 +6219,12 @@
   <course>
     <title>Crop Responses to Environment</title>
     <courseCodes>
-      <courseCode type="home listing">
-        <subject>AGRO</subject>
-        <courseNumber>909</courseNumber>
-      </courseCode>
       <courseCode type="crosslisting">
         <subject>HORT</subject>
+        <courseNumber>909</courseNumber>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>AGRO</subject>
         <courseNumber>909</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
@@ -6263,13 +6263,13 @@
         <courseNumber>916</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
+        <subject>NRES</subject>
+        <courseNumber>916</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
         <subject>LAW</subject>
         <courseNumber>774</courseNumber>
         <courseLetter>G</courseLetter>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>NRES</subject>
-        <courseNumber>916</courseNumber>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
@@ -6365,8 +6365,8 @@
   <course>
     <title>Xenobiotics in the Environment</title>
     <courseCodes>
-      <courseCode type="home listing">
-        <subject>NRES</subject>
+      <courseCode type="crosslisting">
+        <subject>ENTO</subject>
         <courseNumber>920</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
@@ -6377,8 +6377,8 @@
         <subject>AGRO</subject>
         <courseNumber>920</courseNumber>
       </courseCode>
-      <courseCode type="crosslisting">
-        <subject>ENTO</subject>
+      <courseCode type="home listing">
+        <subject>NRES</subject>
         <courseNumber>920</courseNumber>
       </courseCode>
     </courseCodes>
@@ -6416,12 +6416,12 @@
   <course>
     <title>Seminar in Geographic Information Systems (GIS)</title>
     <courseCodes>
-      <courseCode type="home listing">
-        <subject>NRES</subject>
-        <courseNumber>922</courseNumber>
-      </courseCode>
       <courseCode type="crosslisting">
         <subject>GEOG</subject>
+        <courseNumber>922</courseNumber>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>NRES</subject>
         <courseNumber>922</courseNumber>
       </courseCode>
     </courseCodes>
@@ -6453,13 +6453,13 @@
   <course>
     <title>General Seminar</title>
     <courseCodes>
-      <courseCode type="home listing">
-        <subject>AGRO</subject>
-        <courseNumber>992</courseNumber>
-      </courseCode>
       <courseCode type="crosslisting">
         <subject>HORT</subject>
         <courseNumber>950</courseNumber>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>AGRO</subject>
+        <courseNumber>992</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
         <subject>NRES</subject>
@@ -6490,12 +6490,12 @@
   <course>
     <title>Turbulent Transfer in the Atmospheric Surface Layer</title>
     <courseCodes>
-      <courseCode type="home listing">
-        <subject>BSEN</subject>
-        <courseNumber>954</courseNumber>
-      </courseCode>
       <courseCode type="crosslisting">
         <subject>NRES</subject>
+        <courseNumber>954</courseNumber>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>BSEN</subject>
         <courseNumber>954</courseNumber>
       </courseCode>
     </courseCodes>
@@ -6641,13 +6641,13 @@
   <course>
     <title>Soil Genesis and Classification</title>
     <courseCodes>
-      <courseCode type="home listing">
-        <subject>AGRO</subject>
-        <courseNumber>977</courseNumber>
-      </courseCode>
       <courseCode type="crosslisting">
         <subject>GEOG</subject>
         <courseNumber>967</courseNumber>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>AGRO</subject>
+        <courseNumber>977</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
         <subject>NRES</subject>
