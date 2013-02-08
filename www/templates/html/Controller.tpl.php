@@ -42,9 +42,11 @@ if (mktime(0, 0, 0, 8, 1, $context->getEdition()->year) > time() ) {
     $page->head .= <<<UNPUBLISHED
     <meta name="robots" content="noindex" />
     <script type="text/javascript">
+    //<![CDATA[
     WDN.jQuery(document).ready( function() {
         WDN.jQuery('#wdn_wrapper').before('<div id="testIndicator"></div>');
     });
+    //]]>
     </script>
 UNPUBLISHED;
 }
