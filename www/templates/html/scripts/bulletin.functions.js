@@ -381,34 +381,28 @@ WDN.loadJQuery(function($) {
             });
         });
     });
+    
+    function fadeInTOCMenu() {
+    	if (!menuFaded) { //menu is hidden
+    		WDN.log('fading menu in');
+    		WDN.jQuery('#toc_nav').css({'position': 'fixed', 'width': '960px'});
+    		WDN.jQuery('#toc_major_name').css({'display': 'block'});
+    		WDN.jQuery('#long_content').css({'margin-top':'73px'});	
+    		WDN.jQuery('#toc_bar').fadeIn(200);
+    	}
+    } 
+    function fadeOutTOCMenu() {
+    	if (menuFaded) { //menu is displayed
+    		WDN.log('fading menu out');
+    		WDN.jQuery('#toc_nav').css({'position': 'relative', 'width': 'auto'});
+    		WDN.jQuery('#toc_major_name').css({'display': 'none'});
+    		WDN.jQuery('#toc_bar').fadeOut(200);
+    		WDN.jQuery('#long_content').css({'margin-top':'35px'});
+    	}
+    } 
+    
+    function accomodateHash() {
+    	hashLocation = WDN.jQuery(window.location.hash).offset();
+    	WDN.jQuery(window).scrollTop(hashLocation.top - 60);
+    }
 });
-
-function fadeInTOCMenu() {
-	if (!menuFaded) { //menu is hidden
-		WDN.log('fading menu in');
-		WDN.jQuery('#toc_nav').css({'position': 'fixed', 'width': '960px'});
-		WDN.jQuery('#toc_major_name').css({'display': 'block'});
-		WDN.jQuery('#long_content').css({'margin-top':'73px'});	
-		WDN.jQuery('#toc_bar').fadeIn(200);
-	}
-} 
-function fadeOutTOCMenu() {
-	if (menuFaded) { //menu is displayed
-		WDN.log('fading menu out');
-		WDN.jQuery('#toc_nav').css({'position': 'relative', 'width': 'auto'});
-		WDN.jQuery('#toc_major_name').css({'display': 'none'});
-		WDN.jQuery('#toc_bar').fadeOut(200);
-		WDN.jQuery('#long_content').css({'margin-top':'35px'});
-	}
-} 
-
-function accomodateHash() {
-	hashLocation = WDN.jQuery(window.location.hash).offset();
-	WDN.jQuery(window).scrollTop(hashLocation.top - 60);
-}
-
-/*
- * 
- * For the filter box interactivities.
- * 
- */
