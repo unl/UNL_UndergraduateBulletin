@@ -24,8 +24,18 @@ $baseURL = UNL_UndergraduateBulletin_Controller::getBaseURL();
 </div>
 <div class="grid3">
     <div class="zenbox cool">
-        <h3>Previous Bulletins</h3>
+        <h3>All Bulletins</h3>
         <ul>
+            <?php 
+            $current = UNL_UndergraduateBulletin_Controller::getEdition();
+            foreach (UNL_UndergraduateBulletin_Editions::getPublished() as $edition):
+                $class = '';
+                if ($edition->getURL() == $current->getURL()) {
+                    $class = 'selected';
+                }
+                ?>
+                <li class="<?php echo $class; ?>"><a href="<?php echo $edition->getURL(); ?>"><?php echo $edition->getRange(); ?></a></li>
+            <?php endforeach; ?>
             <li><a href="<?php echo $baseURL; ?>downloads/ugb0910.pdf" title="Undergraduate Bulletin 2009-2010, in PDF format (8.6MB)">2009-2010</a></li>
             <li><a href="<?php echo $baseURL; ?>downloads/ugb0809.pdf" title="Undergraduate Bulletin 2008-2009, in PDF format (8.7MB)">2008-2009</a></li>
             <li><a href="<?php echo $baseURL; ?>downloads/ugb0708.pdf" title="Undergraduate Bulletin 2007-2008, in PDF format (3.2MB)">2007-2008</a></li>
