@@ -8,7 +8,7 @@ $baseURL = UNL_UndergraduateBulletin_Controller::getBaseURL();
 $page    = UNL_Templates::factory('Fixed');
 
 $page->doctitle     = '<title>Undergraduate Bulletin | University of Nebraska-Lincoln</title>';
-$page->titlegraphic = '<h1>Undergraduate Bulletin '.UNL_UndergraduateBulletin_Controller::getEdition()->getRange().'</h1>';
+$page->titlegraphic = 'Undergraduate Bulletin '.UNL_UndergraduateBulletin_Controller::getEdition()->getRange();
 $page->breadcrumbs  = '
 <ul>
     <li><a href="http://www.unl.edu/">UNL</a></li>
