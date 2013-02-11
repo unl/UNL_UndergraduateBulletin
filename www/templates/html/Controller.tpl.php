@@ -1,6 +1,6 @@
 <?php
 UNL_Templates::setCachingService(new UNL_Templates_CachingService_Null());
-UNL_Templates::$options['version']        = 3;
+UNL_Templates::$options['version']        = 3.1;
 UNL_Templates::$options['sharedcodepath'] = dirname(__FILE__).'/sharedcode';
 
 $url     = UNL_UndergraduateBulletin_Controller::getURL();
@@ -19,7 +19,7 @@ $page->breadcrumbs  = '
 $page->navlinks = $savvy->render(null, 'Navigation.tpl.php');
 
 $page->loadSharedCodeFiles();
-$page->addStylesheet('/wdn/templates_3.0/css/content/notice.css');
+$page->addStylesheet('/wdn/templates_3.1/css/content/notice.css');
 if (UNL_UndergraduateBulletin_OutputController::getCacheInterface() instanceof UNL_UndergraduateBulletin_CacheInterface_Mock) {
     $page->addStylesheet($baseURL. 'templates/html/css/debug.css');
 } else {
@@ -29,7 +29,7 @@ $page->addStyleSheet($baseURL . 'templates/html/css/print.css', 'print');
 
 $page->head .= '
 <script type="text/javascript">var UNL_UGB_URL = "'.$url.'";</script>
-<script type="text/javascript" src="/wdn/templates_3.0/scripts/plugins/ui/jQuery.ui.js"></script>
+<script type="text/javascript" src="/wdn/templates_3.1/scripts/plugins/ui/jQuery.ui.js"></script>
 <script type="text/javascript" src="'.$baseURL.'templates/html/scripts/jQuery.toc.js"></script>
 <script type="text/javascript" src="'.$baseURL.'templates/html/scripts/bulletin.functions.js"></script>
 <link rel="home" href="'.$url.'" />
