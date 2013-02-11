@@ -3,6 +3,7 @@ if (isset($parent->context->options)
     && $parent->context->options['view'] == 'subject') {
     $url = UNL_UndergraduateBulletin_Controller::getURL();
     UNL_UndergraduateBulletin_Controller::setReplacementData('doctitle', $context->subject.' | Undergraduate Bulletin | University of Nebraska-Lincoln');
+    UNL_UndergraduateBulletin_Controller::setReplacementData('pagetitle', '<h1>'.$context->subject.'</h1>');
     UNL_UndergraduateBulletin_Controller::setReplacementData('breadcrumbs', '
     <ul>
         <li><a href="http://www.unl.edu/">UNL</a></li>
