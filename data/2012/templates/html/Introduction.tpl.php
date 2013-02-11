@@ -135,8 +135,7 @@
     </ul>
 </div>
 <div class="grid3">
-    <h3 class="em"></h3>
-    <div class="separator-box">
+    <div class="separator-box" style="margin-top: 59px;">
         <a href="college/Exploratory+%26+Pre-Professional+Advising+Center">
             <img src="<?php echo UNL_UndergraduateBulletin_Controller::getBaseURL(); ?>templates/html/images/thumb_ec.jpg" alt="The Explore Center" />
         </a>
