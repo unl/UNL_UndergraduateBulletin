@@ -25,6 +25,7 @@ if ($context->options['format'] != 'partial') {
 if (!count($context->results)) {
     echo 'Sorry, no matching courses';
 } else {
+    echo '<div class="grid12">';
     if ($context->options['format'] != 'partial') {
         echo '<div class="grid3 first">';
         echo $savvy->render($context, 'CourseFilters.tpl.php');
@@ -49,5 +50,6 @@ if (!count($context->results)) {
         }
         echo '</div>';
     }
+    echo '</div>';
 }
 ?>
