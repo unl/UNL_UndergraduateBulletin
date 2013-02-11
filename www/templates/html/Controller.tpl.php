@@ -30,8 +30,6 @@ $page->addStyleSheet($baseURL . 'templates/html/css/print.css', 'print');
 
 $page->head .= '
 <script type="text/javascript">var UNL_UGB_URL = "'.$url.'";</script>
-<script type="text/javascript" src="/wdn/templates_3.1/scripts/plugins/ui/jQuery.ui.js"></script>
-<script type="text/javascript" src="'.$baseURL.'templates/html/scripts/jQuery.toc.js"></script>
 <script type="text/javascript" src="'.$baseURL.'templates/html/scripts/bulletin.functions.js"></script>
 <!-- '.md5($context->getRawObject()->getCacheKey()).' -->
 ';
@@ -42,8 +40,10 @@ if (mktime(0, 0, 0, 8, 1, $context->getEdition()->year) > time() ) {
     <meta name="robots" content="noindex" />
     <script type="text/javascript">
     //<![CDATA[
-    WDN.jQuery(document).ready( function() {
-        WDN.jQuery('#wdn_wrapper').before('<div id="testIndicator"></div>');
+    WDN.loadJQuery(function() {
+        WDN.jQuery(document).ready( function() {
+            WDN.jQuery('#wdn_wrapper').before('<div id="testIndicator"></div>');
+        });
     });
     //]]>
     </script>
