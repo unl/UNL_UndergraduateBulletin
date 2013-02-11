@@ -24,9 +24,12 @@
                 echo '<div id="'.$id.'">'.$context->getRaw($id).'</div>';
             }
         }
-        ?>
-        <h2 id="college_requirements" class="sec_header">COLLEGE REQUIREMENTS</h2>
-        <?php echo $savvy->render($context->colleges); ?>
+        
+        $college_requirements = $savvy->render($context->colleges);
+        if (!empty($college_requirements)): ?>
+            <h2 id="college_requirements" class="sec_header">COLLEGE REQUIREMENTS</h2>
+            <?php echo $college_requirements;
+        endif; ?>
     </div>
 </div>
 <div class="grid3">
