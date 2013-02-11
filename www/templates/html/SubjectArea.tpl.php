@@ -14,15 +14,17 @@ if (isset($parent->context->options)
 }
 ?>
 <h2 class="sec_main" id="<?php echo $context->subject; ?>"> Courses of Instruction (<?php echo $context->subject; ?>)</h2>
-<div class="grid3 first">
-    <?php echo $savvy->render($context, 'CourseFilters.tpl.php'); ?>
-</div>
-<div class="grid9">
-    <dl>
-    <?php
-    foreach ($context->courses as $course) {
-        echo $savvy->render($course);
-    }
-    ?>
-    </dl>
+<div class="grid12">
+    <div class="grid3 first">
+        <?php echo $savvy->render($context, 'CourseFilters.tpl.php'); ?>
+    </div>
+    <div class="grid9">
+        <dl>
+        <?php
+        foreach ($context->courses as $course) {
+            echo $savvy->render($course);
+        }
+        ?>
+        </dl>
+    </div>
 </div>
