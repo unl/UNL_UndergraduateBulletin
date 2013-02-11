@@ -1,6 +1,8 @@
 <?php
 $url = UNL_UndergraduateBulletin_Controller::getURL();
 UNL_UndergraduateBulletin_Controller::setReplacementData('doctitle', $context->title.' | Undergraduate Bulletin | University of Nebraska-Lincoln');
+UNL_UndergraduateBulletin_Controller::setReplacementData('pagetitle', '<h1>'.$context->title.'</h1>');
+
 
 $subhead = '';
 foreach ($context->colleges as $college) {
