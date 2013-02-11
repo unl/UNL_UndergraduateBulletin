@@ -32,8 +32,6 @@ $page->head .= '
 <script type="text/javascript" src="/wdn/templates_3.1/scripts/plugins/ui/jQuery.ui.js"></script>
 <script type="text/javascript" src="'.$baseURL.'templates/html/scripts/jQuery.toc.js"></script>
 <script type="text/javascript" src="'.$baseURL.'templates/html/scripts/bulletin.functions.js"></script>
-<link rel="home" href="'.$url.'" />
-<link rel="search" href="'.$url.'search/" />
 <!-- '.md5($context->getRawObject()->getCacheKey()).' -->
 ';
 
