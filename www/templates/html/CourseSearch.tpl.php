@@ -9,6 +9,7 @@ $url = UNL_UndergraduateBulletin_Controller::getURL();
 if (isset($context->options['view'])
     && $context->options['view'] == 'searchcourses') {
     UNL_UndergraduateBulletin_Controller::setReplacementData('doctitle', 'Course Search | Undergraduate Bulletin | University of Nebraska-Lincoln');
+    UNL_UndergraduateBulletin_Controller::setReplacementData('pagetitle', '<h1>Course Search</h1>');
     UNL_UndergraduateBulletin_Controller::setReplacementData('breadcrumbs', '
     <ul>
         <li><a href="http://www.unl.edu/">UNL</a></li>
@@ -24,6 +25,7 @@ if ($context->options['format'] != 'partial') {
 if (!count($context->results)) {
     echo 'Sorry, no matching courses';
 } else {
+    echo '<div class="grid12">';
     if ($context->options['format'] != 'partial') {
         echo '<div class="grid3 first">';
         echo $savvy->render($context, 'CourseFilters.tpl.php');
@@ -48,5 +50,6 @@ if (!count($context->results)) {
         }
         echo '</div>';
     }
+    echo '</div>';
 }
 ?>

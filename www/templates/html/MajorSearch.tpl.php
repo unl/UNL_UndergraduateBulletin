@@ -2,6 +2,7 @@
 if ($context->options['view'] == 'searchmajors') {
     $url = UNL_UndergraduateBulletin_Controller::getURL();
     UNL_UndergraduateBulletin_Controller::setReplacementData('doctitle', 'Majors Search | Undergraduate Bulletin | University of Nebraska-Lincoln');
+    UNL_UndergraduateBulletin_Controller::setReplacementData('pagetitle', '<h1>Majors Search</h1>');
     UNL_UndergraduateBulletin_Controller::setReplacementData('breadcrumbs', '
     <ul>
         <li><a href="http://www.unl.edu/">UNL</a></li>
