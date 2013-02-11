@@ -1,6 +1,12 @@
 <?php
 $baseURL = UNL_UndergraduateBulletin_Controller::getBaseURL();
 UNL_UndergraduateBulletin_Controller::setReplacementData('pagetitle', '<h1>Undergraduate Bulletin Rules</h1>');
+UNL_UndergraduateBulletin_Controller::setReplacementData('breadcrumbs', '
+<ul>
+    <li><a href="http://www.unl.edu/">UNL</a></li>
+    <li><a href="'.$baseURL.'">Undergraduate Bulletin</a></li>
+    <li>Bulletin Rules</li>
+</ul>');
 ?>
 <h2>Bulletin Rules</h2>
 <div class="wdn_notice" id="officialMessage">
