@@ -1,7 +1,7 @@
 function setTOCLocations() {
 	try {
-		tocLocation = WDN.jQuery('#toc_nav').offset();
-		lcLocation = WDN.jQuery('#long_content').offset();
+		//tocLocation = $('#toc_nav').offset();
+		//lcLocation = $('#long_content').offset();
 		//WDN.log(tocLocation.top);
 	} catch(e) {}
 }
@@ -100,57 +100,57 @@ WDN.loadJQuery(function($) {
     });
     // load the necessary Table of Contents
     WDN.loadJS(UNL_UGB_URL + 'templates/html/scripts/jQuery.toc.min.js', function() {
-    WDN.jQuery(document).ready(function($){
+    
     //Move the subhead above the notice
-    	WDN.jQuery('h2.subhead').insertBefore('#officialMessage');
+    	$('h2.subhead').insertBefore('#officialMessage');
     	
     //Deal with the Versioning controls
     	var setSessionCookie = function(name, value) {
     		var path = '/';
     		document.cookie = name + "=" + value + ";path=" + path;
     	};
-    	WDN.jQuery('#versioning .action').click(function(){
-    		if (WDN.jQuery(this).hasClass('opened')) {
+    	$('#versioning .action').click(function(){
+    		if ($(this).hasClass('opened')) {
     			setSessionCookie("va", "closed");
     		} else {
     			setSessionCookie("va", "opened");
     		}
-    		WDN.jQuery('#versioning .content').toggle('slide', {percent : 0, direction : 'right'}, 500, function(){
-    			WDN.jQuery('#versioning .action').toggleClass('opened');
+    		$('#versioning .content').toggle('slide', {percent : 0, direction : 'right'}, 500, function(){
+    			$('#versioning .action').toggleClass('opened');
     		});
     		return false;
     	});
     	var va = WDN.getCookie('va');
     	if(va=='closed'){
-    		WDN.jQuery('#versioning .action').click();
+    		$('#versioning .action').click();
     	}
     //Deal with the Table of Contents for the majors pages.
-    	WDN.jQuery("#toc_nav ol").click(
+    	$("#toc_nav ol").click(
     		function() {
-    			WDN.jQuery("#toc_nav ol").hide();
+    			$("#toc_nav ol").hide();
     		}
     	);
-    	WDN.jQuery("#tocContent, #toc").hover(
+    	$("#tocContent, #toc").hover(
     		function() {
-    			WDN.jQuery("#toc_nav ol").show();
-    			WDN.jQuery("#toc_nav ol a").click(function(event) {
+    			$("#toc_nav ol").show();
+    			$("#toc_nav ol a").click(function(event) {
     		    	//we need to go to the #ID, but above it by 60 pixels
-    				var headingTarget = WDN.jQuery(WDN.jQuery(this).attr('href')).offset();
-    				WDN.jQuery(window).scrollTop(headingTarget.top - 60);
+    				var headingTarget = $($(this).attr('href')).offset();
+    				$(window).scrollTop(headingTarget.top - 60);
     		    	fadeInTOCMenu();
     				menuFaded = true;
     		    	event.preventDefault();
-    				window.location.hash = WDN.jQuery(this).attr('href');
+    				window.location.hash = $(this).attr('href');
     				accomodateHash();
     		    });
     	    },
     	    function() {
-    	    	WDN.jQuery("#toc_nav ol").hide();
+    	    	$("#toc_nav ol").hide();
     	    }
         );
-    	WDN.jQuery("#toc_nav ol").hide();
-    	WDN.jQuery("#toc").tableOfContents(
-    			WDN.jQuery("#long_content"),      // Scoped to div#long_content
+    	$("#toc_nav ol").hide();
+    	$("#toc").tableOfContents(
+    			$("#long_content"),      // Scoped to div#long_content
           {
             startLevel: 2,    // H1 and up
             depth:      2,    // H1 through H4,
@@ -163,34 +163,34 @@ WDN.loadJQuery(function($) {
           }
         );
     	menuFaded = false;
-    	if (WDN.jQuery('#toc_nav').length > 0) {
+    	if ($('#toc_nav').length > 0) {
     		WDN.log('setting TOC');
     		setTOCLocations();
     	
-    		WDN.jQuery(window).scroll(function(){
-    			if (WDN.jQuery(window).scrollTop() > (tocLocation.top - 10)) {//when we scroll to the top of the TOC (+padding) then start scrolling the cotents boc
+    		$(window).scroll(function(){
+    			if ($(window).scrollTop() > (tocLocation.top - 10)) {//when we scroll to the top of the TOC (+padding) then start scrolling the cotents boc
     				fadeInTOCMenu();
     				menuFaded = true;
     			}
-    			if(WDN.jQuery(window).scrollTop() < (lcLocation.top - 73)) {
+    			if($(window).scrollTop() < (lcLocation.top - 73)) {
     				fadeOutTOCMenu();
     				menuFaded = false;
     			}
     		})
     		
-    		if (WDN.jQuery(window).scrollTop() > (tocLocation.top - 10)) {//if the page loads and the top of the window is below the TOC, then show the TOC menu
+    		if ($(window).scrollTop() > (tocLocation.top - 10)) {//if the page loads and the top of the window is below the TOC, then show the TOC menu
     			fadeInTOCMenu();
     			menuFaded = true;
     		}
     		//deal with small window heights and large toc height
-    		WDN.log (WDN.jQuery('#toc').height());
-    		WDN.log ((WDN.jQuery(window).height() * 0.85));
-    		if (WDN.jQuery('#toc').height() > (WDN.jQuery(window).height() * 0.85)) {
-    			WDN.jQuery('#toc').css({'max-height' : WDN.jQuery(window).height() * 0.85, 'overflow-y' : 'scroll', '-ms-overflow-y' : 'scroll'})
+    		WDN.log ($('#toc').height());
+    		WDN.log (($(window).height() * 0.85));
+    		if ($('#toc').height() > ($(window).height() * 0.85)) {
+    			$('#toc').css({'max-height' : $(window).height() * 0.85, 'overflow-y' : 'scroll', '-ms-overflow-y' : 'scroll'})
     		}
     	}
         //End: Deal with the Table of Contents for the majors pages.
-    });
+    
            
         //Deal with the interactivity behind the wdn_notice
     	var c = WDN.getCookie('notice');
@@ -237,53 +237,53 @@ WDN.loadJQuery(function($) {
         	$('#maincontent .title a').toggleClass('showIt');
         	return false;
         });
-        WDN.jQuery('h2.resultCount').after('<p id="filterSummary">Displaying: <a href="#" class="all">All Options</a></p>');
-        WDN.jQuery('form.filters input').each(function(){
-        	if (WDN.jQuery(this).attr('value') !== "all") {
+        $('h2.resultCount').after('<p id="filterSummary">Displaying: <a href="#" class="all">All Options</a></p>');
+        $('form.filters input').each(function(){
+        	if ($(this).attr('value') !== "all") {
         		// Check and see if we actually have any of these courses
-        		var total = WDN.jQuery('.'+WDN.jQuery(this).attr('value')).length; //count all based on class
+        		var total = $('.'+$(this).attr('value')).length; //count all based on class
         		if (total == 0) {
-        			WDN.jQuery(this).attr('disabled', 'disabled'); //disable the input/label
-        			WDN.jQuery(this).closest('li').addClass('disabled');
+        			$(this).attr('disabled', 'disabled'); //disable the input/label
+        			$(this).closest('li').addClass('disabled');
         			return true;
         		} else {
-        			if (WDN.jQuery(this).closest('form').hasClass('courseFilters')) { //otherwise calculate the count
+        			if ($(this).closest('form').hasClass('courseFilters')) { //otherwise calculate the count
             			total = total/2;
             		}
-        			WDN.jQuery('label[for='+this.id+']').append(' <span class="count">('+total+')</span>'); // add the count
+        			$('label[for='+this.id+']').append(' <span class="count">('+total+')</span>'); // add the count
         		}
         	}
-        	WDN.jQuery(this).click(function() {
-        		if (WDN.jQuery(this).hasClass('filterAll')) { //if all was checked, then put the checkmark next to all alls, and show everything.
+        	$(this).click(function() {
+        		if ($(this).hasClass('filterAll')) { //if all was checked, then put the checkmark next to all alls, and show everything.
     				if (this.checked){
-    					WDN.jQuery('form.filters input').not('.filterAll').removeAttr('checked');
-    					WDN.jQuery('.filterAll').attr('checked', 'checked');
-    					WDN.jQuery('dd.course, dt.course, #majorListing li').show();
-    					WDN.jQuery('#filterSummary a').remove();
-    					WDN.jQuery('#filterSummary').append('<a href="#" class="all">All Options</a>');
-    					WDN.jQuery('h2.resultCount span').remove();
+    					$('form.filters input').not('.filterAll').removeAttr('checked');
+    					$('.filterAll').attr('checked', 'checked');
+    					$('dd.course, dt.course, #majorListing li').show();
+    					$('#filterSummary a').remove();
+    					$('#filterSummary').append('<a href="#" class="all">All Options</a>');
+    					$('h2.resultCount span').remove();
     				}
     			} else {
-    				WDN.jQuery('.filterAll').removeAttr('checked'); //uncheck the all checkboxes
-    				WDN.jQuery('dd.course, dt.course, #majorListing li').hide(); //hide all the coures and majors
+    				$('.filterAll').removeAttr('checked'); //uncheck the all checkboxes
+    				$('dd.course, dt.course, #majorListing li').hide(); //hide all the coures and majors
     				var one_checked = false;
-    				WDN.jQuery('#filterSummary a').remove();
-    				WDN.jQuery('form.filters input').not('.filterAll').each(function(){ //loop through all the checkboxes
+    				$('#filterSummary a').remove();
+    				$('form.filters input').not('.filterAll').each(function(){ //loop through all the checkboxes
     					if (this.checked) {
     					    one_checked = true;
-    						WDN.jQuery('li.'+WDN.jQuery(this).attr('value')+', dd.'+WDN.jQuery(this).attr('value')+', dt.'+WDN.jQuery(this).attr('value')).show(); //if a checkbox is checked, make sure the corresponding content is shown.
-    						WDN.jQuery('#filterSummary a.all').remove();
-    						//WDN.jQuery('#filterSummary').append(' <a href="#" class="'+WDN.jQuery(this).attr('value')+'"><span class="group">'+WDN.jQuery(this).closest('fieldset').children('legend').text()+':</span> '+WDN.jQuery(this).siblings('label')[0].childNodes[0].nodeValue+'</a>')
-    						WDN.jQuery('#filterSummary').append(' <a href="#" class="'+WDN.jQuery(this).attr('value')+'"><span class="group">'+WDN.jQuery(this).closest('fieldset').children('legend').text()+':</span> '+WDN.jQuery(this).siblings('label').text()+'</a>')
+    						$('li.'+$(this).attr('value')+', dd.'+$(this).attr('value')+', dt.'+$(this).attr('value')).show(); //if a checkbox is checked, make sure the corresponding content is shown.
+    						$('#filterSummary a.all').remove();
+    						//$('#filterSummary').append(' <a href="#" class="'+$(this).attr('value')+'"><span class="group">'+$(this).closest('fieldset').children('legend').text()+':</span> '+$(this).siblings('label')[0].childNodes[0].nodeValue+'</a>')
+    						$('#filterSummary').append(' <a href="#" class="'+$(this).attr('value')+'"><span class="group">'+$(this).closest('fieldset').children('legend').text()+':</span> '+$(this).siblings('label').text()+'</a>')
     					}
     				});
-    				totalDisplayed = WDN.jQuery('dt.course:visible, #majorListing li:visible').length;
-    				WDN.jQuery('h2.resultCount span').remove();
-    				WDN.jQuery('h2.resultCount').prepend('<span>'+totalDisplayed+' of </span> ')
+    				totalDisplayed = $('dt.course:visible, #majorListing li:visible').length;
+    				$('h2.resultCount span').remove();
+    				$('h2.resultCount').prepend('<span>'+totalDisplayed+' of </span> ')
     				if (one_checked == false) { //no checkboxes are checked, so show all
-    				    WDN.jQuery('dd.course, dt.course, #majorListing li').show();
-    				    WDN.jQuery('.filterAll').attr('checked', 'checked');
-    				    WDN.jQuery('h2.resultCount span').remove();
+    				    $('dd.course, dt.course, #majorListing li').show();
+    				    $('.filterAll').attr('checked', 'checked');
+    				    $('h2.resultCount span').remove();
     				}
     			}
         	});
@@ -385,24 +385,24 @@ WDN.loadJQuery(function($) {
     function fadeInTOCMenu() {
     	if (!menuFaded) { //menu is hidden
     		WDN.log('fading menu in');
-    		WDN.jQuery('#toc_nav').css({'position': 'fixed', 'width': '960px'});
-    		WDN.jQuery('#toc_major_name').css({'display': 'block'});
-    		WDN.jQuery('#long_content').css({'margin-top':'73px'});	
-    		WDN.jQuery('#toc_bar').fadeIn(200);
+    		$('#toc_nav').css({'position': 'fixed', 'width': '960px'});
+    		$('#toc_major_name').css({'display': 'block'});
+    		$('#long_content').css({'margin-top':'73px'});	
+    		$('#toc_bar').fadeIn(200);
     	}
     } 
     function fadeOutTOCMenu() {
     	if (menuFaded) { //menu is displayed
     		WDN.log('fading menu out');
-    		WDN.jQuery('#toc_nav').css({'position': 'relative', 'width': 'auto'});
-    		WDN.jQuery('#toc_major_name').css({'display': 'none'});
-    		WDN.jQuery('#toc_bar').fadeOut(200);
-    		WDN.jQuery('#long_content').css({'margin-top':'35px'});
+    		$('#toc_nav').css({'position': 'relative', 'width': 'auto'});
+    		$('#toc_major_name').css({'display': 'none'});
+    		$('#toc_bar').fadeOut(200);
+    		$('#long_content').css({'margin-top':'35px'});
     	}
     } 
     
     function accomodateHash() {
-    	hashLocation = WDN.jQuery(window.location.hash).offset();
-    	WDN.jQuery(window).scrollTop(hashLocation.top - 60);
+    	hashLocation = $(window.location.hash).offset();
+    	$(window).scrollTop(hashLocation.top - 60);
     }
 });
