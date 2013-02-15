@@ -24,7 +24,7 @@ class UNL_UndergraduateBulletin_CourseSearch_DBSearchResults extends LimitIterat
     
     function count()
     {
-        $sql = str_replace(array('SELECT * ', 'SELECT courses.xml ', 'SELECT DISTINCT courses.id, courses.xml '), 'SELECT COUNT(DISTINCT courses.id) ', $this->sql);
+        $sql = str_replace(array('SELECT *', 'SELECT courses.xml', 'SELECT DISTINCT courses.id, courses.xml'), 'SELECT COUNT(DISTINCT courses.id) ', $this->sql);
         $result = $this->getDB()->query($sql);
         $count = $result->fetch(PDO::FETCH_NUM);
         return $count[0];
