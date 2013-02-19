@@ -93,13 +93,13 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Good standing in the University Honors Program or by invitation; freshman standing; 3.5 GPA over at least 14 credit hours earned at UNL.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Open only to CBA Honors Academy students in good standing or by permission; freshman standing; 3.5 GPA over at least 14 credit hours earned at UNL.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">For course description, see ACCT 201.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Fundamentals of accounting, reporting, and analysis to understand financial, managerial, and business concepts and practices.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -115,6 +115,7 @@
     <activities>
       <activity>
         <type>lec</type>
+        <hours>3</hours>
       </activity>
     </activities>
     <credits>
@@ -151,6 +152,45 @@
       <term>Summer</term>
     </termsOffered>
     <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Introductory Accounting II</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ACCT</subject>
+        <courseNumber>202</courseNumber>
+        <courseLetter>H</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Open only to CBA Honors Academy students in good standing or by permission. Sophomore standing; ACCT201 or ACCT201H with a grade of C or above; and a 2.5 cumulative GPA.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Continuation of ACCT 201H.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>

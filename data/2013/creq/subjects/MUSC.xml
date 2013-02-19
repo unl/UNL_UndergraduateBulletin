@@ -278,14 +278,11 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">MUSC 165.</div>
     </prerequisite>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Parallel: MUSC 166A.</div>
-    </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Diatonic harmony, introduction to modulation, species counterpoint, introduction to form and analysis (compositional processes and small forms).</div>
     </description>
@@ -300,7 +297,12 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
@@ -316,8 +318,11 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">MUSC 165A. Corequisite MUSC 166.</div>
+    </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Intensive drill in skills (ear training, sight singing, and keyboard) to accompany MUSC 166.</div>
     </description>
@@ -332,7 +337,11 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lab</type>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">1</credit>
       <credit type="Per Semester Limit">1</credit>
@@ -548,14 +557,11 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">MUSC 166 or permission.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">MUSC 166.</div>
     </prerequisite>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Parallel with MUSC 265A.</div>
-    </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Chromatic harmony; continued study of modulation; invention and fugue; continued study of form and analysis (sonata, rondo, and concerto).</div>
     </description>
@@ -570,7 +576,11 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
       <credit type="Per Semester Limit">3</credit>
@@ -587,8 +597,11 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">MUSC 166A. Corequisite MUSC 265.</div>
+    </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Intensive drill in skills (ear training, sight singing, and keyboard) to accompany MUSC 265.</div>
     </description>
@@ -603,7 +616,11 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lab</type>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">1</credit>
       <credit type="Per Semester Limit">1</credit>
@@ -619,14 +636,11 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">MUSC 265 or permission.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">MUSC 265</div>
     </prerequisite>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Parallel with MUSC 266A.</div>
-    </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Continued study of chromatic harmony (later nineteenth-century practice) and of form and analysis (Lied, theme and variation). Twentieth-century materials and techniques (new tonal resources, atonality).</div>
     </description>
@@ -641,7 +655,12 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
       <credit type="Per Semester Limit">3</credit>
@@ -658,11 +677,11 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Parallel MUSC 266.</div>
-    </notes>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">MUSC 265A. Corequisite MUSC 266.</div>
+    </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Intensive drill in skills (ear training, sight singing, and keyboard) to accompany MUSC 266.</div>
     </description>
@@ -677,7 +696,12 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lab</type>
+        <hours>2</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">1</credit>
       <credit type="Per Career Limit">1</credit>

@@ -648,13 +648,16 @@
       </courseCode>
     </courseCodes>
     <gradingType>letter grade only</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1091</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CYAF 271 and 271L, with a grades of 'Pass' or 'C' or better.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">CYAF 271 and CYAF 271L with grades of 'C' or better.</div>
     </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">CYAF 371 and CYAF 371L must be taken together.</div>
+    </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Program models used in programs serving infants and toddlers. Center-based and home-based models. Curricula, training programs, and methods of assessment used in infant-toddler programs. Current state efforts to define standards and outcomes for infants and toddlers.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Course combination of lecture (CYAF 371, 3 cr.) and lab practicum (CYAF 371L, 1 cr.) will introduce students to methods used in infant-toddler programs, including center-based, home-based, and family-support models.   The CYAF 371 course will be delivered in hybrid format with most course material online supplemented by brief in-person class meetings.   Course material features an examination of program models and frameworks, curricula, training programs and methods of assessment used in infant-toddler programs.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -673,6 +676,47 @@
     </activities>
     <credits>
       <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Working with Infants in Programs &amp; Communities Practicum</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CYAF</subject>
+        <courseNumber>371</courseNumber>
+        <courseLetter>L</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">CYAF 271 and CYAF 271L with a grade of C or above.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">CYAF 371 and CYAF 371L must be taken together.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Course will feature 9 hours of practicum shadowing experiences in 3 different types of infant-toddler programs in the first half of the semester and 21 hours of weekly practicum in one of the settings for a more in-depth experience during the second half of the semester. Emphasis will be on skills needed for Nebraska Early Childhood Endowment programs and on Nebraska Early Learning Guidelines but examination of programs from other states and international efforts will also be included in course materials.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lab</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">1</credit>
     </credits>
   </course>
   <course>
