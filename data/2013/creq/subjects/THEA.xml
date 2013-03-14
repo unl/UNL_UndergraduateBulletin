@@ -1355,8 +1355,8 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">THEA 224, 256, or equivalent and permission.</div>
     </prerequisite>
@@ -1372,17 +1372,16 @@
     <termsOffered>
       <term>Fall</term>
       <term>Spring</term>
-      <term>Summer</term>
     </termsOffered>
     <activities/>
     <credits>
-      <credit type="Single Value">2</credit>
-      <credit type="Per Semester Limit">2</credit>
-      <credit type="Per Career Limit">8</credit>
+      <credit type="Single Value">3</credit>
+      <credit type="Per Semester Limit">3</credit>
+      <credit type="Per Career Limit">9</credit>
     </credits>
   </course>
   <course>
-    <title>Advanced Stage Voice</title>
+    <title>Advanced Voice Techniques</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>THEA</subject>
@@ -1393,14 +1392,14 @@
         <courseNumber>803</courseNumber>
       </courseCode>
     </courseCodes>
-    <gradingType>unrestricted</gradingType>
+    <gradingType>letter grade only</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">THEA 224, 254, or equivalent and permission.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">THEA 253, THEA 254, or equivalent and permission.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Actor voice training intended for the graduate and advanced undergraduate. Linklater-based training supplemented by Lessac principles, phonetics, verse scansion, and dialects.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduces actors to techniques ranging from commercial voice-over techniques, dialect mastery, and singing, to specialized voice/speech techniques for stage, screen, and new media.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -1411,13 +1410,17 @@
     <termsOffered>
       <term>Fall</term>
       <term>Spring</term>
-      <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
-      <credit type="Single Value">2</credit>
-      <credit type="Per Semester Limit">2</credit>
-      <credit type="Per Career Limit">8</credit>
+      <credit type="Single Value">3</credit>
+      <credit type="Per Semester Limit">3</credit>
+      <credit type="Per Career Limit">9</credit>
     </credits>
   </course>
   <course>
@@ -3693,6 +3696,43 @@
     <activities>
       <activity>
         <type>stu</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Dramatic Theory and Practice</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>THEA</subject>
+        <courseNumber>845</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Permission of Instructor.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Significant questions in dramatic theory and practice of theatre and film production, beginning with Aristotle and continuing to film theory.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
       </activity>
     </activities>
     <credits>

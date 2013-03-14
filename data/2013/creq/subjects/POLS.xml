@@ -8,6 +8,11 @@
         <courseNumber>100</courseNumber>
         <courseGroup>American Government, Politics and Law</courseGroup>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>POLS</subject>
+        <courseNumber>100</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
@@ -1209,7 +1214,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1128</effectiveSemester>
+    <effectiveSemester>1138</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Immigration as a multifaceted sociopolitical phenomenon. The history of different waves of immigration to the United States. Emphasis on the diversity within every immigrant group, as well as differences and similarities regarding their acculturation process. Public attitudes towards immigration in historical perspective. The American political system's capacity to incorporate newcomers into civic life.</div>
     </description>
@@ -1227,9 +1232,12 @@
     <activities>
       <activity>
         <type>lec</type>
-        <hours>2.5</hours>
+        <hours>3</hours>
       </activity>
     </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
     <aceOutcomes>
       <slo>9</slo>
     </aceOutcomes>

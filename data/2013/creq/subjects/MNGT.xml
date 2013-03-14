@@ -166,10 +166,10 @@
     <dfRemoval>true</dfRemoval>
     <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">For non-CBA students only; 2.5 GPA; Sophomore Standing</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">For non-CBA students only; 2.5 cum GPA; Sophomore standing.</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Letter grade only. MNGT 300 fulfills the Management requirement for the minor in Business Administration for non-business students and is part of a six course sequence for the minor. Credit towards the degree cannot be earned in both MNGT 300 and MNGT 320.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Letter grade only. Credit towards the degree cannot be earned in both MNGT 300 and MNGT 320.</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">This course is designed to introduce students from non-business fields to the role of managers in various organizational structures and types. Students will explore how the practice of management is relevant to their chosen field of study or academic discipline. This course will provide an analysis of organizations and the management processes of planning, organizing, directing and controlling. Individual, group, intergroup and organizational responses to various environments and technologies are studied as well as pertinent techniques of human capital management.</div>
@@ -1083,9 +1083,8 @@
       <courseCode type="home listing">
         <subject>MNGT</subject>
         <courseNumber>431</courseNumber>
-        <courseGroup>Additional Anthropology Courses</courseGroup>
       </courseCode>
-      <courseCode type="grad tie-in">
+      <courseCode type="crosslisting">
         <subject>MNGT</subject>
         <courseNumber>831</courseNumber>
       </courseCode>
@@ -1096,9 +1095,9 @@
     </courseCodes>
     <gradingType>letter grade only</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1121</effectiveSemester>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Senior standing; MNGT 331 or equivalent.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">SCMS 331 or MNGT 331; 2.5 GPA.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Analytical approach to the design, planning, and control of operations management systems, including domestic and international, manufacturing and service operations.</div>
@@ -1131,7 +1130,7 @@
         <subject>MNGT</subject>
         <courseNumber>437</courseNumber>
       </courseCode>
-      <courseCode type="grad tie-in">
+      <courseCode type="crosslisting">
         <subject>MNGT</subject>
         <courseNumber>837</courseNumber>
       </courseCode>
@@ -1142,9 +1141,9 @@
     </courseCodes>
     <gradingType>letter grade only</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1121</effectiveSemester>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Senior standing; BSAD 150; MNGT 331; MNGT/MIST 350.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">SCMS 331 or MNGT 331; SCMS 350 or MNGT 350; 2.5 GPA.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Analytical and simulation models for decision making in functional areas such as finance, accounting, marketing, personnel, operations, and inventory. Construction of decision models for practical applications. Emphasis on analyzing alternatives and implementing solutions that result in increased productivity.</div>
@@ -1173,17 +1172,9 @@
   <course>
     <title>Database Organization and Management</title>
     <courseCodes>
-      <courseCode type="crosslisting">
+      <courseCode type="home listing">
         <subject>MNGT</subject>
         <courseNumber>452</courseNumber>
-      </courseCode>
-      <courseCode type="home listing">
-        <subject>MIST</subject>
-        <courseNumber>452</courseNumber>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>MIST</subject>
-        <courseNumber>852</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
         <subject>MNGT</subject>
@@ -1194,11 +1185,11 @@
         <courseNumber>452</courseNumber>
       </courseCode>
     </courseCodes>
-    <gradingType>unrestricted</gradingType>
+    <gradingType>letter grade only</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1121</effectiveSemester>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">MNGT/MIST 350.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">SCMS 350 or MNGT 350; 2.5 GPA.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Database technology and related human and managerial considerations. Databases from two perspectives: the logical view, as the manager and applications programmer see and use the organization's data; and the physical view, as the systems software programmers and database manager view the data. Theory on database organization and the practical applications of databases.</div>
@@ -1227,17 +1218,9 @@
   <course>
     <title>Information Systems Analysis and Design</title>
     <courseCodes>
-      <courseCode type="crosslisting">
+      <courseCode type="home listing">
         <subject>MNGT</subject>
         <courseNumber>454</courseNumber>
-      </courseCode>
-      <courseCode type="home listing">
-        <subject>MIST</subject>
-        <courseNumber>454</courseNumber>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>MIST</subject>
-        <courseNumber>854</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
         <subject>MNGT</subject>
@@ -1248,11 +1231,11 @@
         <courseNumber>454</courseNumber>
       </courseCode>
     </courseCodes>
-    <gradingType>unrestricted</gradingType>
+    <gradingType>letter grade only</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1121</effectiveSemester>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">MIST/MNGT 350.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">SCMS 350 or MNGT 350; 2.5 GPA.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Methods and methodologies used in systems analysis, design, and implementation. Decision-making process: systems development life cycles, requirement analysis, logical and/or conceptual design, and basic database concepts.</div>
@@ -1279,181 +1262,11 @@
     </credits>
   </course>
   <course>
-    <title>Mobile and Ubiquitous Commerce</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>MNGT</subject>
-        <courseNumber>455</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>MIST</subject>
-        <courseNumber>455</courseNumber>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>MNGT</subject>
-        <courseNumber>855</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>MIST</subject>
-        <courseNumber>855</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>SCMS</subject>
-        <courseNumber>455</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1121</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">MIST/MNGT 350.</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">The impact of wireless and mobile technology on the ways in which business is conducted and the strategic implications of wireless applications in organizations.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>lec</type>
-        <hours>3</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Object-Oriented Systems Development</title>
-    <courseCodes>
-      <courseCode type="crosslisting">
-        <subject>MNGT</subject>
-        <courseNumber>456</courseNumber>
-      </courseCode>
-      <courseCode type="home listing">
-        <subject>MIST</subject>
-        <courseNumber>456</courseNumber>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>MIST</subject>
-        <courseNumber>856</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>MNGT</subject>
-        <courseNumber>856</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>SCMS</subject>
-        <courseNumber>456</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1121</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">MIST/MNGT 350.</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Object-orientation as an approach to developing information systems. Analysis, design and implementation of systems development from the object-oriented perspective. Concepts in object-orientation, and object-oriented methods and methodologies.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>lec</type>
-        <hours>3</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Business Data Communications</title>
-    <courseCodes>
-      <courseCode type="crosslisting">
-        <subject>MNGT</subject>
-        <courseNumber>457</courseNumber>
-      </courseCode>
-      <courseCode type="home listing">
-        <subject>MIST</subject>
-        <courseNumber>457</courseNumber>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>MIST</subject>
-        <courseNumber>857</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>MNGT</subject>
-        <courseNumber>857</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>SCMS</subject>
-        <courseNumber>457</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1121</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">MIST/MNGT 350.</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Fundamentals of business data communications, networking hardware and software. Communication protocols such as TCP/IP, Internet and electronic commerce.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>lec</type>
-        <hours>3</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
     <title>Electronic Business</title>
     <courseCodes>
       <courseCode type="home listing">
-        <subject>MIST</subject>
-        <courseNumber>458</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
         <subject>MNGT</subject>
         <courseNumber>458</courseNumber>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>MIST</subject>
-        <courseNumber>858</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
         <subject>MNGT</subject>
@@ -1464,11 +1277,11 @@
         <courseNumber>458</courseNumber>
       </courseCode>
     </courseCodes>
-    <gradingType>unrestricted</gradingType>
+    <gradingType>letter grade only</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1121</effectiveSemester>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">MIST/MNGT 350.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">SCMS 350 or MNGT 350; 2.5 GPA.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Management-related topics in electronic business. Conceptualizing and maintaining an e-business strategy. Economic impact of e-business strategies and management practices, models of e-business, electronic payment systems, Internet security, ethics and privacy, and advanced e-business trends and issues.</div>
@@ -1502,15 +1315,7 @@
         <courseNumber>459</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
-        <subject>MIST</subject>
-        <courseNumber>459</courseNumber>
-      </courseCode>
-      <courseCode type="grad tie-in">
         <subject>MNGT</subject>
-        <courseNumber>859</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>MIST</subject>
         <courseNumber>859</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
@@ -1518,9 +1323,12 @@
         <courseNumber>459</courseNumber>
       </courseCode>
     </courseCodes>
-    <gradingType>unrestricted</gradingType>
+    <gradingType>letter grade only</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1121</effectiveSemester>
+    <effectiveSemester>1138</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">SCMS 350 or MNGT 350; 2.5 GPA.</div>
+    </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">The worldwide political and economic changes in the last decade that have propelled city, state, country governments, and corporations to expand business globally and enter into new markets. Information technology (IT) as a key role in the globalization of businesses. The necessary concepts and ideas to understand the issues in the global or international use of information technology. IT environments around the world, national infrastructures and regulatory regimes, global IT applications, global IS development strategies, global management support systems, and global IT management strategies.</div>
     </description>

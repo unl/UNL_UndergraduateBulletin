@@ -50,7 +50,7 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
+    <dfRemoval>true</dfRemoval>
     <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">BSEN 100/AGEN 100 and high school physics, or permission.</div>
@@ -1038,6 +1038,46 @@
     </credits>
   </course>
   <course>
+    <title>Biomass and Bioenergy Engineering</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>BSEN</subject>
+        <courseNumber>444</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>BSEN</subject>
+        <courseNumber>844</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Senior/graduate standing in engineering; BIOC 321 or 431; or permission.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Engineering processes for biomass conversion and bioenergy production. Topics include biomass chemistry, conversion reactions, current and emerging bioenergy technologies, feedstock logistics, life cycle assessment. Analysis of primary research literature required for graduate credit.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Unit Operations of Biological Processing</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -1250,10 +1290,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1131</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Senior standing or permission.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">ELEC 211 or ELEC 215; or permission.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Analysis and design of instrumentation and controls for agricultural and biological production, management and processing. Theory of basic sensors and transducers, analog and digital electrical control circuits, and the interfacing of computers with instruments and controls. Emphasis on signal analysis and interpretation for improving system performance.</div>
@@ -1266,12 +1306,15 @@
     </deliveryMethods>
     <termsOffered>
       <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
     </termsOffered>
     <activities>
       <activity>
+        <type>lab</type>
+        <hours>2</hours>
+      </activity>
+      <activity>
         <type>lec</type>
+        <hours>2</hours>
       </activity>
     </activities>
     <credits>
@@ -1514,6 +1557,42 @@
     <credits>
       <credit type="Lower Range Limit">1</credit>
       <credit type="Upper Range Limit">6</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Introduction to Magnetic Resonance Imaging</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>BSEN</subject>
+        <courseNumber>815</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Familiarity with linear systems theory (e.g. BSEN 311 or ELEC 304) and MATLAB programming preferred; however, these topics are reviewed for clinicians and bioscience students wishing to take the class.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to the physics, techniques, and biomedical applications of magnetic resonance imaging (MRI) in basic sciences and the clinic. Fundamentals of nuclear magnetic resonance physics, Fourier transforms, MRI hardware, and MRI principles including signal generation, detection and spatial localization techniques. Applications of MRI including tissue relaxometry and diffusion weighted imaging applications to diseases, traumatic brain injury, and cancer.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
     </credits>
   </course>
   <course>

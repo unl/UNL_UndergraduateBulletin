@@ -50,7 +50,7 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
+    <dfRemoval>true</dfRemoval>
     <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">BSEN 100/AGEN 100 and high school physics, or permission.</div>
@@ -754,10 +754,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1131</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Senior standing or permission.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">ELEC 211 or ELEC 215; or permission.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Analysis and design of instrumentation and controls for agricultural and biological production, management and processing. Theory of basic sensors and transducers, analog and digital electrical control circuits, and the interfacing of computers with instruments and controls. Emphasis on signal analysis and interpretation for improving system performance.</div>
@@ -770,12 +770,15 @@
     </deliveryMethods>
     <termsOffered>
       <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
     </termsOffered>
     <activities>
       <activity>
+        <type>lab</type>
+        <hours>2</hours>
+      </activity>
+      <activity>
         <type>lec</type>
+        <hours>2</hours>
       </activity>
     </activities>
     <credits>
