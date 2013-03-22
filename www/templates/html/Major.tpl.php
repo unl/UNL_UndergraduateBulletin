@@ -10,7 +10,6 @@ foreach ($context->colleges as $college) {
 }
 
 UNL_UndergraduateBulletin_Controller::setReplacementData('pagetitle', '<h1>'.$context->title.' <span class="subhead">'.$subhead.'</span></h1>');
-UNL_UndergraduateBulletin_Controller::setReplacementData('head', '<script type="text/javascript" src="'.$url.'templates/html/scripts/jQuery.toc.js"></script>');
 UNL_UndergraduateBulletin_Controller::setReplacementData('breadcrumbs', '
 <ul>
     <li><a href="http://www.unl.edu/">UNL</a></li>

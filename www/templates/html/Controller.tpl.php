@@ -29,7 +29,10 @@ if (UNL_UndergraduateBulletin_OutputController::getCacheInterface() instanceof U
 $page->addStyleSheet($baseURL . 'templates/html/css/print.css', 'print');
 
 $page->head .= '
-<script type="text/javascript">var UNL_UGB_URL = "'.$url.'";</script>
+<script type="text/javascript">
+    var UNL_UGB_URL = "'.$url.'";
+    var UNL_UGB_BASEURL = "'.$baseURL.'";
+</script>
 <script type="text/javascript" src="'.$baseURL.'templates/html/scripts/bulletin.functions.js"></script>
 <!-- '.md5($context->getRawObject()->getCacheKey()).' -->
 ';

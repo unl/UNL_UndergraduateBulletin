@@ -232,7 +232,7 @@ WDN.loadJQuery(function() {
             }
         });
         // load the necessary Table of Contents
-        WDN.loadJS(UNL_UGB_URL + 'templates/html/scripts/jQuery.toc.min.js', function() {
+        WDN.loadJS(UNL_UGB_BASEURL + 'templates/html/scripts/jQuery.toc.min.js', function() {
             //Deal with the Table of Contents for the majors pages.
         	$("#toc_nav ol").click(
         		function() {
