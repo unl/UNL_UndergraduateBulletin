@@ -11,7 +11,7 @@ UNL_UndergraduateBulletin_Major_Description::setEpubToTitleMap(array(
     'English_Journalism & Mass Communication Education (7-12)'               => 'English/Journalism & Mass Communication Education (7-12)',
     'Hospitality_Restaurant & Tourism Management (CASNR)'                    => 'Hospitality, Restaurant & Tourism Management (CASNR)',
     'Hospitality_Restaurant & Tourism Management (CEHS)'                     => 'Hospitality, Restaurant & Tourism Management (CEHS)',
-    'LGBTQ Sexuality Studies Minor'                                          => 'Lesbian, Gay, Bisexual, Transgender, Queer/Sexuality Studies (Minor)',
+    'LGBTQ Sexuality Studies Minor'                                          => 'Lesbian, Gay, Bisexual, Transgender, Queer/Sexuality Studies Minor',
     'Mild_Moderate Disabilities Education (7-12)'                            => 'Mild/Moderate Disabilities Education (7-12)',
     'Modern Languages-French German & Russian Minor (ENGR)'                  => 'Modern Languages-French, German & Russian Minor (ENGR)',
     'PreHealth_PreLaw & Combined Degree Prog'                                => 'Pre-Health, Pre-Law and Combined Degree Programs',
