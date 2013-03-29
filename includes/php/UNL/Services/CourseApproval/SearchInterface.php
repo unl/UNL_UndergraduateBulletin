@@ -4,7 +4,9 @@ abstract class UNL_Services_CourseApproval_SearchInterface
     abstract function aceQuery($ace);
     abstract function subjectAndNumberQuery($subject, $number, $letter = null);
     abstract function subjectAndNumberPrefixQuery($subject, $number);
+    abstract function subjectAndNumberSuffixQuery($subject, $number);
     abstract function numberPrefixQuery($number);
+    abstract function numberSuffixQuery($number);
     abstract function honorsQuery();
     abstract function titleQuery($title);
     abstract function subjectAreaQuery($subject);
@@ -85,6 +87,12 @@ abstract class UNL_Services_CourseApproval_SearchInterface
 
                 $query = $this->subjectAndNumberPrefixQuery($subject, $matches[2]);
                 break;
+            case preg_match('/^([A-Z]{3,4})\s+(X+|\*+)([0-9]+)$/i', $query, $matches):
+                // Course subject and number suffix, eg: MUDC *41
+                $subject = strtoupper($matches[1]);
+
+                $query = $this->subjectAndNumberSuffixQuery($subject, $matches[3]);
+                break;
             case preg_match('/^([A-Z]{3,4})\s+([\d]?[\d]{2,3})([A-Z])?:?.*$/i', $query, $matches):
                 // Course subject code and number
                 $subject = strtoupper($matches[1]);
@@ -97,6 +105,10 @@ abstract class UNL_Services_CourseApproval_SearchInterface
             case preg_match('/^([0-9])(X+|\*+)?$/i', $query, $match):
                 // Course number range
                 $query = $this->numberPrefixQuery($match[1]);
+                break;
+            case preg_match('/^(X+|\*+)([0-9]+)?$/i', $query, $match):
+                // Course number suffix
+                $query = $this->numberSuffixQuery($match[1]);
                 break;
             case preg_match('/^([\d]?[\d]{2,3})([A-Z])?(\*+)?$/i', $query, $matches):
 

@@ -18,6 +18,9 @@ foreach ($courses as $course) {
     );
 }
 
+$courses = $search->numberSuffixQuery('04');
+$test->assertEquals(1, count($courses), 'One *04 result returned');
+
 $query1 = $search->subjectAreaQuery('NREE');
 $courses = $search->driver->getQueryResult($query1);
 $test->assertEquals(2, count($courses), 'Two results returned for NREE');

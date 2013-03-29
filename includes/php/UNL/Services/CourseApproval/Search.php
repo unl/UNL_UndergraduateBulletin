@@ -42,9 +42,17 @@ class UNL_Services_CourseApproval_Search extends UNL_Services_CourseApproval_Sea
     {
         return $this->driver->subjectAndNumberPrefixQuery($subject, $number);
     }
+    function subjectAndNumberSuffixQuery($subject, $number)
+    {
+        return $this->driver->subjectAndNumberSuffixQuery($subject, $number);
+    }
     function numberPrefixQuery($number)
     {
         return $this->driver->numberPrefixQuery($number);
+    }
+    function numberSuffixQuery($number)
+    {
+        return $this->driver->numberSuffixQuery($number);
     }
     function honorsQuery()
     {
