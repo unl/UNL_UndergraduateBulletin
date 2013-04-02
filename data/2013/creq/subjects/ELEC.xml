@@ -119,7 +119,13 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1138</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Prerequisite or parallel: MATH 107 and ASTR 131 or PHYS 211.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Not for electrical engineering majors.</div>
+    </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Basic circuit analysis including direct and alternating currents and operational amplifiers. Digital signals and circuits.</div>
     </description>
@@ -520,9 +526,9 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ELEC 222 and 236; prereq or parallel ELEC 370.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">ELEC 222 and ELEC 236; prereq or parallel ELEC 370; admission to the College of Engineering.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Laboratory work on circuits and systems, digital and analog electronic circuits, and electromagnetics.</div>
@@ -536,7 +542,6 @@
     <termsOffered>
       <term>Fall</term>
       <term>Spring</term>
-      <term>Summer</term>
     </termsOffered>
     <activities>
       <activity>
@@ -596,9 +601,9 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ELEC 304 and 307. Prereq or parallel ELEC 306 and 316.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">ELEC 304 and ELEC 307; prereq or parallel ELEC 306 and ELEC 316; admission to the College of Engineering.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Lab work on electromagnetic fields and waves, solid state devices, discrete systems, control systems, and communications.</div>
@@ -612,7 +617,6 @@
     <termsOffered>
       <term>Fall</term>
       <term>Spring</term>
-      <term>Summer</term>
     </termsOffered>
     <activities>
       <activity>
@@ -1907,10 +1911,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ELEC 317 or permission.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">ELEC 317 or permission; admission to the College of Engineering</div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">The first in a two semester capstone senior design course sequence.</div>
@@ -1927,7 +1931,6 @@
     <termsOffered>
       <term>Fall</term>
       <term>Spring</term>
-      <term>Summer</term>
     </termsOffered>
     <activities/>
     <credits>
@@ -1943,11 +1946,14 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1088</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ELEC 494 or permission.The first in a two semester capstone senior design course sequence.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">ELEC 494 or permission; admission to the College of Engineering.</div>
     </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">The second in a two semester capstone senior design course sequence.</div>
+    </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Continuation of a substantial design project that allows application of electrical engineering skills to a multidisciplinary project. A project that meets specifications and that is completed according to a pre-determined schedule and within budget. Requires effective written and oral communication of technical ideas, incorporation of realistic constraints and engineering standards, functioning effectively on a multidisciplinary team, and applying new ideas as needed to meet project goals.</div>
     </description>

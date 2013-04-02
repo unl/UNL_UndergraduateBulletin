@@ -62,10 +62,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1115</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Survey of turfgrass and landscape management, occupations, and introductory lawn and landscape management.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to careers, internships and co-curricular activities in turfgrass and landscape management.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -75,13 +75,11 @@
     </deliveryMethods>
     <termsOffered>
       <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
     </termsOffered>
     <activities>
       <activity>
-        <type>lab</type>
-        <hours>2</hours>
+        <type>lec</type>
+        <hours>1</hours>
       </activity>
     </activities>
     <credits>
@@ -1162,55 +1160,6 @@
     </credits>
   </course>
   <course>
-    <title>Agribusiness Entrepreneurship</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>HORT</subject>
-        <courseNumber>288</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>AGRO</subject>
-        <courseNumber>288</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>EAEP</subject>
-        <courseNumber>288</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>ENTR</subject>
-        <courseNumber>288</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1111</effectiveSemester>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Hort 288 requires completion of a marketing plan specific to agricultural enterprises based on a business idea.</div>
-    </notes>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Overview of types of agricultural enterprises. Basic accounting principles as they relate to agricultural businesses.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-      <deliveryMethod>Web</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Spring</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>lec</type>
-        <hours>2</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">2</credit>
-    </credits>
-  </course>
-  <course>
     <title>Introduction to Landscape Construction</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -1878,6 +1827,52 @@
       <term>Fall</term>
     </termsOffered>
     <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Agribusiness Entrepreneurship</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>HORT</subject>
+        <courseNumber>388</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>AGRO</subject>
+        <courseNumber>388</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>EAEP</subject>
+        <courseNumber>388</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>ENTR</subject>
+        <courseNumber>388</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Overview of types of agricultural enterprises. Basic accounting principles as they relate to agricultural businesses.  Requires completion of a marketing plan specific to agricultural enterprises based on a business idea.  Student team projects with emphasis on marketing.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+      <deliveryMethod>Web</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>

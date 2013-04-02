@@ -3624,10 +3624,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1108</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 361.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 361 or CSCE361H.</div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">CSCE 486 must be taken exactly one semester before CSCE 487. ACE SLO 8 is met only if CSCE 230 and, either CSCE 486 or CSCE 488 are completed.</div>
@@ -3660,7 +3660,7 @@
     </aceOutcomes>
   </course>
   <course>
-    <title>Computer Science Design Project</title>
+    <title>Computer Science Senior Design Project</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>CSCE</subject>
@@ -3669,7 +3669,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1111</effectiveSemester>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">CSCE 486 (taken exactly one semester previous).</div>
     </prerequisite>
@@ -3710,9 +3710,9 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1111</effectiveSemester>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 236; CSCE 351; formal admission to the College of Engineering; prereq or coreq: JGEN 300.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 236; CSCE 351; CSCE361 or CSCE361H; formal admission to the College of Engineering; prereq or coreq: JGEN 300.</div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">CSCE 488 is a preparation course for the computer engineering Senior Design Project (CSCE 489). CSCE 488 and 489 are a sequence of courses that are to be taken in consecutive terms.</div>
@@ -3871,6 +3871,46 @@
       <credit type="Lower Range Limit">1</credit>
       <credit type="Upper Range Limit">3</credit>
       <credit type="Per Semester Limit">6</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Innovation Lab Project</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CSCE</subject>
+        <courseNumber>493</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">CSCE230 or CSCE230H and CSCE310, CSCE310H, or CSCE311</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Innovative team projects executed under the guidance of members of the faculty of the Department of Computer Science and Managing Director of the CSCE Innovation Lab. Students will work in teams and collaborate with CSE research faculty, supervising MS students, and sponsors that include private sectors and UNL faculty to design and develop real-world systems.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">3</credit>
+      <credit type="Per Career Limit">6</credit>
     </credits>
   </course>
   <course>

@@ -423,32 +423,21 @@
     </aceOutcomes>
   </course>
   <course>
-    <title>Fundamentals of Design</title>
+    <title>Studio II: Site Design</title>
     <courseCodes>
       <courseCode type="home listing">
-        <subject>ARCH</subject>
-        <courseNumber>210</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>IDES</subject>
-        <courseNumber>210</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
         <subject>LARC</subject>
-        <courseNumber>210</courseNumber>
+        <courseNumber>211</courseNumber>
       </courseCode>
     </courseCodes>
     <gradingType>letter grade only</gradingType>
-    <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1125</effectiveSemester>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ARCH/ARTP/JGEN/IDES/LARC/TMFD 140A, 140B, 141A, 141B, and 143.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">LARC 210.</div>
     </prerequisite>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">ARCH/IDES/LARC 210 is 'Letter grade only'.</div>
-    </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Formal analysis and abstract design applied to the making of spatial and formal constructs with specific attention towards strategies of order and proportion. Focus on the process of design through organizational and graphic techniques derived from explicit relationships, physical and digital modeling, orthographic projection, free hand drawing, and other forms of graphic representation.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Design studio that applies theoretical, analytical, conceptual, design, and communication skills in landscape architecture. Applied problem types at various scales, emphasize procedures and skills needed for the translation of research, site analysis, programming and conceptual ideas, from two dimensional media to physical design of three-dimensional form. Emphasis is on the development of critical thinking, spatial literacy, and design process skills.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -463,16 +452,12 @@
     </termsOffered>
     <activities>
       <activity>
-        <type>lab</type>
-        <hours>8</hours>
-      </activity>
-      <activity>
-        <type>lec</type>
-        <hours>1</hours>
+        <type>stu</type>
+        <hours>12</hours>
       </activity>
     </activities>
     <credits>
-      <credit type="Single Value">5</credit>
+      <credit type="Single Value">4</credit>
     </credits>
   </course>
   <course>
@@ -618,54 +603,6 @@
     </activities>
     <credits>
       <credit type="Single Value">2</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Computer Applications in Design</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ARCH</subject>
-        <courseNumber>223</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>IDES</subject>
-        <courseNumber>223</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>LARC</subject>
-        <courseNumber>223</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>letter grade only</gradingType>
-    <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1081</effectiveSemester>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Application of computer technology to architectural and interior design. Effective use of computer technology to aid investigation in design studios.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-      <campus>UNO</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>lab</type>
-        <hours>4</hours>
-      </activity>
-      <activity>
-        <type>lec</type>
-        <hours>1</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">3</credit>
     </credits>
   </course>
   <course>
@@ -992,6 +929,48 @@
     </activities>
     <credits>
       <credit type="Single Value">3</credit>
+    </credits>
+    <aceOutcomes>
+      <slo>5</slo>
+      <slo>7</slo>
+    </aceOutcomes>
+  </course>
+  <course>
+    <title>Internship Preparation</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>LARC</subject>
+        <courseNumber>380</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Permission.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">To provide students with information about career choices in landscape architecture and an appropriate knowledge base and support in the development of materials with which to secure an internship position.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>1</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">1</credit>
     </credits>
   </course>
   <course>

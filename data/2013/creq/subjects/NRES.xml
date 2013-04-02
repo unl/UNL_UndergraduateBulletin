@@ -1463,10 +1463,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">BIOS 101, 101L, and 112; or BIOS 103.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">LIFE 121 &amp;amp; LIFE 121L.</div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">BIOS/NRES 386 requires field trips and includes trips outside of normal classtime.</div>
@@ -3866,7 +3866,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1091</effectiveSemester>
+    <effectiveSemester>1138</effectiveSemester>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">May also be offered at Cedar Point Biological Station.</div>
     </notes>
@@ -3879,21 +3879,14 @@
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-    </termsOffered>
     <activities>
-      <activity>
-        <type>lab</type>
-        <hours>3</hours>
-      </activity>
       <activity>
         <type>lec</type>
         <hours>3</hours>
       </activity>
     </activities>
     <credits>
-      <credit type="Single Value">4</credit>
+      <credit type="Single Value">3</credit>
     </credits>
     <aceOutcomes>
       <slo>10</slo>
@@ -5923,10 +5916,14 @@
         <subject>AECN</subject>
         <courseNumber>883</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>CDEV</subject>
+        <courseNumber>883</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">AECN 141 or ECON 212 or equivalent</div>
     </prerequisite>
