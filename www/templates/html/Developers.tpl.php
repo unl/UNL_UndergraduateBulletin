@@ -4,6 +4,7 @@
          margin: 15px 0pt;
          padding: 10px;
          width: auto;
+         word-wrap: break-word;
     }
     
     blockquote > p {
