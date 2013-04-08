@@ -1,22 +1,7 @@
 @media screen{
 
 }
-#maincontent div.wdn_notice div.message {
-	background:url('images/information.png') no-repeat top left;
-	padding: 0 5px 0 72px;
-	min-height:76px;
-}
-#maincontent div.wdn_notice {
-    border: 1px solid #cad094;
-    background:#f8f9d1;
-    display:block;
-    width:920px;
-    margin-bottom:25px;
-}
-#maincontent div.wdn_notice div.minimize a, #maincontent div.wdn_notice div.maximize a, #maincontent div.wdn_notice div.minimize a:hover, #maincontent div.wdn_notice div.maximize a:hover {
-	border: 1px solid #cad094;
 
-}
 #maincontent #previousBulletins ul {
 	list-style:none;
 	margin:0;
