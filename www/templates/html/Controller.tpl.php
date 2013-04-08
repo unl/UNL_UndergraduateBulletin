@@ -21,6 +21,7 @@ $page->navlinks = $savvy->render(null, 'Navigation.tpl.php');
 
 $page->loadSharedCodeFiles();
 $page->addStylesheet('/wdn/templates_3.1/css/content/notice.css');
+$page->addStylesheet('/wdn/templates_3.1/css/content/grid-v3.css');
 if (UNL_UndergraduateBulletin_OutputController::getCacheInterface() instanceof UNL_UndergraduateBulletin_CacheInterface_Mock) {
     $page->addStylesheet($baseURL. 'templates/html/css/debug.css');
 } else {
