@@ -16,8 +16,6 @@ dt .courseID{
 	background-color:#E7F0F9;
     border:2px solid #cedae7;
     border-radius:5px;
-    -moz-border-radius:5px;
-    -webkit-border-radius:5px;
     float:left;
 }
 .glossary dt {
@@ -61,10 +59,10 @@ dt .courseID{
 	padding-bottom:2px;}
 .course .title a {
 	position:absolute;
-	right:0px;
-	top:3px;
-	display:block;
-	font-size:0.7em;
+	right: 0px;
+	top: 3px;
+	display: block;
+	font-size: 0.7em;
 }
 
 .course .share {
@@ -72,7 +70,7 @@ dt .courseID{
 }
 
 .course .title a.showIt {
-	background-position:0px -19px;
+	background-position: 0px -19px;
 }
 .course .crosslistings {margin:4px 0 4px 95px;display:block;}
 .course .crosslistings .crosslisting {font-size:1em;font-style:italic;background:none;}
@@ -80,13 +78,13 @@ dt .courseID{
 .course .prereqs,
 .course .notes,
 .course .subsequent, 
-.course .description {margin:7px 0 4px 0;float:left;clear:left;width:450px;}
+.course .description {margin:7px 0 4px 0;}
 .course .prereqs div,
 .course .notes div,
 .course .description div {
     display:inline;
 }
-#maincontent .description {margin:1em 0;}
+#maincontent .description {margin: 1em 0;}
 #maincontent .notes {margin-bottom:0}
 .course .prereqs {color:#0F900A;font-weight:bold;}
 #maincontent .course .prereqs a {color:#0F900A; text-decoration:underline;}
@@ -101,10 +99,10 @@ dt .courseID{
 .course .notes {font-style:italic;}
 .course .description {border-left:3px solid #C8C8C8;padding-left:5px;}
 
-.course .details {width:220px;border-collapse:collapse;right:0px;float:right;}
+.course .details {border-collapse:collapse; right:0;}
 .course .details tr.alt td {border:1px solid #C9E2F6;border-right:none;border-left:none;background-color:#E3F0FF;}
-.course .details td {}
-.course .details .label {font-weight:bold;white-space:nowrap;}
+.course .details td {word-wrap: break-word;}
+.course .details .label {font-weight:bold;}
 .course .details .value {text-align:right;}
 .course {clear:both;}
 
