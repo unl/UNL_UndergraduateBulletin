@@ -97,80 +97,81 @@
             echo  '<span class="crosslistings">Crosslisted as '.$crosslistings.'</span>';
         }
         echo  "</dt>
-        <dd class='$class'>";
-        echo '<div class="zentable cool details">';
-        echo  '<table class="zentable cool details">';
-        echo $savvy->render($context, 'Course/Credits.tpl.php');
-        if (!empty($format)) {
-            echo  '<tr class="format">
-                    <td class="label">Course Format:</td>
-                    <td class="value">'.$format.'</td>
-                   </tr>';
-        }
-        if (count($context->campuses)
-            && (count($context->campuses) > 1
-            || $context->campuses[0] != 'UNL')) {
-            $campuses = '';
-            foreach ($context->campuses as $campus) {
-                $campuses .= $campus . ',';
-            }
-            $campuses = trim($campuses, ',');
-            echo  '<tr class="campus">
-                    <td class="label">Campus:</td>
-                    <td class="value">'.$campus.'</td>
-                   </tr>';
-        }
-        $methods = '';
-        foreach ($context->deliveryMethods as $method) {
-            $methods .= $method . ', ';
-        }
-        $methods = trim($methods, ', ');
-        echo  '<tr class="deliveryMethods">
-                <td class="label">Course Delivery:</td>
-                <td class="value">'.$methods.'</td>
-               </tr>';
-        $ace = '';
-        if (!empty($context->aceOutcomes)) {
-            $ace = '';
-            foreach($context->aceOutcomes as $outcome) {
-                $ace .= '<abbr title="'.UNL_UndergraduateBulletin_ACE::$descriptions[$outcome].'">'.$outcome.'</abbr>, ';
-            }
-            $ace = trim($ace, ', ');
-            echo  '<tr class="aceOutcomes">
-                    <td class="label">ACE Outcomes:</td>
-                    <td class="value">'.$ace.'</td>
-                   </tr>';
-        }
-        if (!empty($groups)) {
-            echo  '<tr class="groups">
-                    <td class="label">Groups:</td>
-                    <td class="value">'.$groups.'</td>
-                   </tr>';
-        }
-        echo  '</table>'.PHP_EOL;
-        ?>
-        <?php
-        echo  '</div>';
-        if (!empty($context->prerequisite)) {
-            echo  "<div class='prereqs'>Prereqs: ".UNL_UndergraduateBulletin_EPUB_Utilities::addCourseLinks($context->getRaw('prerequisite'), $controller->getURL())."</div>\n";
-        }
-        if (!empty($context->notes)) {
-            echo  "<div class='notes'>".UNL_UndergraduateBulletin_EPUB_Utilities::addCourseLinks($context->getRaw('notes'), $controller->getURL())."</div>\n";
-        }
-        if (!empty($context->description)) {
-            echo  "<div class='description'>".UNL_UndergraduateBulletin_EPUB_Utilities::addCourseLinks($context->getRaw('description'), $controller->getURL())."</div>\n";
-        }
-        $subsequent_courses = $context->getSubsequentCourses($course_search_driver->getRawObject());
-        if (count($subsequent_courses)) {
-            echo  "<div class='subsequent'>This course is a prerequisite for: ";
-            $sub_course_array = array();
-            foreach ($subsequent_courses as $subsequent_courses) {
-                $sub_course_array[] = $subsequent_courses->getHomeListing()->subjectArea.' '.$subsequent_courses->getHomeListing()->courseNumber;
-            }
-            echo UNL_UndergraduateBulletin_EPUB_Utilities::addCourseLinks(implode(', ', $sub_course_array), $controller->getURL());
-            echo "</div>\n";
-        }
-    echo  "</dd>";
+        <dd class='$class'>
+            <div class='wdn-grid-set'>
+                <div class='bp2-wdn-col-two-thirds bp3-wdn-col-three-fourths'>";
+
+                    if (!empty($context->prerequisite)) {
+                        echo  "<div class='prereqs'>Prereqs: ".UNL_UndergraduateBulletin_EPUB_Utilities::addCourseLinks($context->getRaw('prerequisite'), $controller->getURL())."</div>\n";
+                    }
+                    if (!empty($context->notes)) {
+                        echo  "<div class='notes'>".UNL_UndergraduateBulletin_EPUB_Utilities::addCourseLinks($context->getRaw('notes'), $controller->getURL())."</div>\n";
+                    }
+                    if (!empty($context->description)) {
+                        echo  "<div class='description'>".UNL_UndergraduateBulletin_EPUB_Utilities::addCourseLinks($context->getRaw('description'), $controller->getURL())."</div>\n";
+                    }
+                    $subsequent_courses = $context->getSubsequentCourses($course_search_driver->getRawObject());
+                    if (count($subsequent_courses)) {
+                        echo  "<div class='subsequent'>This course is a prerequisite for: ";
+                        $sub_course_array = array();
+                        foreach ($subsequent_courses as $subsequent_courses) {
+                            $sub_course_array[] = $subsequent_courses->getHomeListing()->subjectArea.' '.$subsequent_courses->getHomeListing()->courseNumber;
+                        }
+                        echo UNL_UndergraduateBulletin_EPUB_Utilities::addCourseLinks(implode(', ', $sub_course_array), $controller->getURL());
+                        echo "</div>\n";
+                    }
+                echo "</div>"; // Close the text content
+                echo '<div class="bp2-wdn-col-one-third bp3-wdn-col-one-fourth details">';
+                echo  '<table class="zentable cool details">';
+                echo $savvy->render($context, 'Course/Credits.tpl.php');
+                if (!empty($format)) {
+                    echo  '<tr class="format">
+                            <td class="label">Course Format:</td>
+                            <td class="value">'.$format.'</td>
+                           </tr>';
+                }
+                if (count($context->campuses)
+                    && (count($context->campuses) > 1
+                    || $context->campuses[0] != 'UNL')) {
+                    $campuses = '';
+                    foreach ($context->campuses as $campus) {
+                        $campuses .= $campus . ',';
+                    }
+                    $campuses = trim($campuses, ',');
+                    echo  '<tr class="campus">
+                            <td class="label">Campus:</td>
+                            <td class="value">'.$campus.'</td>
+                           </tr>';
+                }
+                $methods = '';
+                foreach ($context->deliveryMethods as $method) {
+                    $methods .= $method . ', ';
+                }
+                $methods = trim($methods, ', ');
+                echo  '<tr class="deliveryMethods">
+                        <td class="label">Course Delivery:</td>
+                        <td class="value">'.$methods.'</td>
+                       </tr>';
+                $ace = '';
+                if (!empty($context->aceOutcomes)) {
+                    $ace = '';
+                    foreach($context->aceOutcomes as $outcome) {
+                        $ace .= '<abbr title="'.UNL_UndergraduateBulletin_ACE::$descriptions[$outcome].'">'.$outcome.'</abbr>, ';
+                    }
+                    $ace = trim($ace, ', ');
+                    echo  '<tr class="aceOutcomes">
+                            <td class="label">ACE Outcomes:</td>
+                            <td class="value">'.$ace.'</td>
+                           </tr>';
+                }
+                if (!empty($groups)) {
+                    echo  '<tr class="groups">
+                            <td class="label">Groups:</td>
+                            <td class="value">'.$groups.'</td>
+                           </tr>';
+                }
+                echo  '</table></div>'.PHP_EOL;
+    echo  "</div></dd>";
     if (isset($parent->parent->context->options)
         && $parent->parent->context->options['view'] == 'course') {
         echo '</dl>';
