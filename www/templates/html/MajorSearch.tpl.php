@@ -18,16 +18,18 @@ if ($context->options['format'] != 'partial') {
     echo '</div>';
 }
 ?>
-<div class="grid3 first">
-    <?php echo $savvy->render(null, 'MajorList/Filters.tpl.php'); ?>
-</div>
-<div class="grid9">
-    <?php 
-    if (!$context->count()) {
-        echo 'Sorry, no matching areas of study';
-    } else {
-        echo '<h2 class="resultCount">'.$context->count().' result(s)</h2>';
-        echo $savvy->render($context, 'MajorList/UnorderedList.tpl.php');
-    }
-    ?>
+<div class="wdn-grid-set">
+    <div class="bp1-wdn-col-one-fourth">
+        <?php echo $savvy->render(null, 'MajorList/Filters.tpl.php'); ?>
+    </div>
+    <div class="bp1-wdn-col-three-fourths">
+        <?php 
+        if (!$context->count()) {
+            echo 'Sorry, no matching areas of study';
+        } else {
+            echo '<h2 class="resultCount">'.$context->count().' result(s)</h2>';
+            echo $savvy->render($context, 'MajorList/UnorderedList.tpl.php');
+        }
+        ?>
+    </div>
 </div>
