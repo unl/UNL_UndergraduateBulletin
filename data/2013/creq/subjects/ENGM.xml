@@ -285,12 +285,16 @@
         <subject>ENGM</subject>
         <courseNumber>448</courseNumber>
       </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>ENGM</subject>
+        <courseNumber>848</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1141</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ENGM 373, 325.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">ENGM 373, ENGM 325.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Stresses and strains at a point. Theories of failure. Thick-walled pressure vessels and spinning discs. Torsion of noncircular sections. Torsion of thin-walled sections, open, closed, and multicelled. Bending of unsymmetrical sections. Cross shear and shear center. Curved beams. Introduction to elastic energy methods.</div>
@@ -348,10 +352,14 @@
         <subject>ENGM</subject>
         <courseNumber>452</courseNumber>
       </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>ENGM</subject>
+        <courseNumber>852</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1141</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">ENGM 325.</div>
     </prerequisite>
@@ -457,10 +465,14 @@
         <subject>ENGM</subject>
         <courseNumber>491</courseNumber>
       </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>ENGM</subject>
+        <courseNumber>891</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1141</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Permission.</div>
     </prerequisite>
@@ -490,41 +502,6 @@
       <credit type="Lower Range Limit">1</credit>
       <credit type="Upper Range Limit">6</credit>
       <credit type="Per Career Limit">6</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Honors Thesis</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ENGM</subject>
-        <courseNumber>499</courseNumber>
-        <courseLetter>H</courseLetter>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Senior standing; good standing in the University Honors Program or by invitation; major in engineering.</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Honors thesis research project meeting the requirements of the University Honors Program. Independent research project executed under the guidance of a member of the faculty of the Department of Engineering Mechanics that contributes to the advancement of knowledge in the field and culminates in the presentation of an honors thesis to the department and college.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities/>
-    <credits>
-      <credit type="Lower Range Limit">1</credit>
-      <credit type="Upper Range Limit">6</credit>
     </credits>
   </course>
   <course>
@@ -669,43 +646,6 @@
     </credits>
   </course>
   <course>
-    <title>Experimental Stress Analysis I</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ENGM</subject>
-        <courseNumber>852</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ENGM 325</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Investigations of the basic theories and techniques associated with the analysis of stress using mechanical strain gages, electric strain gages, brittle lacquer, photoelasticity and membrane analogy.</div>
-    </description>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <activities>
-      <activity>
-        <type>lab</type>
-        <hours>2</hours>
-      </activity>
-      <activity>
-        <type>lec</type>
-        <hours>2</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
     <title>Vibration Theory and Applications</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -768,40 +708,6 @@
     </activities>
     <credits>
       <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Special Topics in Engineering Mechanics</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ENGM</subject>
-        <courseNumber>891</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Permission</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">See current Schedule of Classes for offerings Treatment of special topics in engineering mechanics by experimental computational and/or theoretical methods. Topic varies from term to term.</div>
-    </description>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <activities>
-      <activity>
-        <type>lec</type>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Lower Range Limit">1</credit>
-      <credit type="Upper Range Limit">6</credit>
-      <credit type="Per Career Limit">6</credit>
     </credits>
   </course>
   <course>

@@ -5701,16 +5701,16 @@
       </courseCode>
       <courseCode type="crosslisting">
         <subject>HORT</subject>
-        <courseNumber>950</courseNumber>
+        <courseNumber>992</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
         <subject>NRES</subject>
-        <courseNumber>950</courseNumber>
+        <courseNumber>992</courseNumber>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Permission</div>
     </prerequisite>
@@ -5723,7 +5723,11 @@
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">1</credit>
       <credit type="Per Career Limit">5</credit>

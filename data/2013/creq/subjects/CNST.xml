@@ -635,10 +635,14 @@
         <subject>CNST</subject>
         <courseNumber>415</courseNumber>
       </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>CNST</subject>
+        <courseNumber>815</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1138</effectiveSemester>
+    <effectiveSemester>1141</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">CNST 305, CNST 306, CNST 379.</div>
     </prerequisite>
@@ -721,10 +725,14 @@
         <subject>CNST</subject>
         <courseNumber>434</courseNumber>
       </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>CNST</subject>
+        <courseNumber>834</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1138</effectiveSemester>
+    <effectiveSemester>1141</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">CNST 379 or instructor permission.</div>
     </prerequisite>
@@ -986,12 +994,16 @@
         <subject>CONE</subject>
         <courseNumber>485</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>CONE</subject>
+        <courseNumber>885</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1141</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CONE/CNST 378; AE 2250 (UNO).</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">CONE 378/CNST 378; AE 2250 (UNO).</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Planning and scheduling a construction project using the critical path methods (CPM) with computer applications. Project pre-planning, logic networks, network construction, time estimates, critical path, float time, crash programs, scheduling, and monitoring project activities.</div>
@@ -1156,10 +1168,14 @@
         <subject>CNST</subject>
         <courseNumber>498</courseNumber>
       </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>CNST</subject>
+        <courseNumber>898</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1141</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">For CNST 498: Permission. For CNST 898: Masters of engineering in construction or related discipline.</div>
     </prerequisite>
@@ -1192,31 +1208,6 @@
     </credits>
   </course>
   <course>
-    <title>Mechanical/Electrical Project Management</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>CNST</subject>
-        <courseNumber>815</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Fundamentals of project management within the mechanical and electrical contracting industry. Codes, contract documents, productivity, coordination, project control and administration, scheduling safety, and project closeout, all from a speciality contracting perspective.</div>
-    </description>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <activities/>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
     <title>Occupational Health and Safety for Construction</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -1235,34 +1226,6 @@
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Investigation of occupational health and safety hazards in the construction environment. Accident causation and illness exposure models, construction safety and health programs and contract requirements, project safety and health management, special problems in construction safety, OSHA/EPD/ADA regulation and compliance issues, health assessment and monitoring, safe building methods design, toxic substance exposures, abatement methods, and worker training and protection.</div>
-    </description>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <activities/>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Professional Trends in Design/Build</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>CNST</subject>
-        <courseNumber>834</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Permission; master in engineering in construction or a related discipline</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Organizational, managerial, ethical, and legal principles in the delivery of Design/Build as a construction project delivery system.</div>
     </description>
     <campuses>
       <campus></campus>
@@ -1547,43 +1510,6 @@
     <activities/>
     <credits>
       <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Special Topics in Construction Management</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>CNST</subject>
-        <courseNumber>898</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Master of engineering in construction or related discipline and permission</div>
-    </prerequisite>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">A signed student-instructor learning contract is required.</div>
-    </notes>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Individual or small group investigation of special topics in construction management. Topic varies.</div>
-    </description>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <activities>
-      <activity>
-        <type>lec</type>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Lower Range Limit">1</credit>
-      <credit type="Upper Range Limit">6</credit>
-      <credit type="Per Career Limit">6</credit>
     </credits>
   </course>
   <course>

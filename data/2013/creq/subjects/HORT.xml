@@ -4449,43 +4449,6 @@
     </credits>
   </course>
   <course>
-    <title>General Seminar</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>AGRO</subject>
-        <courseNumber>992</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>HORT</subject>
-        <courseNumber>950</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>NRES</subject>
-        <courseNumber>950</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Permission</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Expected of all horticulture graduate students and all agronomy PhD students; optional for agronomy MS students. Presentation of thesis or non-thesis topics in agronomy, horticulture or related subjects. For course description, see AGRO 992.</div>
-    </description>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <activities/>
-    <credits>
-      <credit type="Single Value">1</credit>
-      <credit type="Per Career Limit">5</credit>
-    </credits>
-  </course>
-  <course>
     <title>Genetics of Host-Parasite Interaction</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -4557,6 +4520,47 @@
     <credits>
       <credit type="Single Value">1</credit>
       <credit type="Per Career Limit">2</credit>
+    </credits>
+  </course>
+  <course>
+    <title>General Seminar</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>AGRO</subject>
+        <courseNumber>992</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>HORT</subject>
+        <courseNumber>992</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>NRES</subject>
+        <courseNumber>992</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Permission</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Expected of all horticulture graduate students and all agronomy PhD students; optional for agronomy MS students. Presentation of thesis or non-thesis topics in agronomy, horticulture or related subjects. For course description, see AGRO 992.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">1</credit>
+      <credit type="Per Career Limit">5</credit>
     </credits>
   </course>
   <course>

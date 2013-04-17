@@ -602,13 +602,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1091</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Sophomore standing and removal of all entrance deficiencies in mathematics.</div>
-    </prerequisite>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1141</effectiveSemester>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Not open to students with credit or concurrent enrollment in MATH 104, 105, 106, or STAT 218.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Not open to students with credit or concurrent enrollment in MATH 106 or STAT 218.</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Applications of quantitative reasoning and methods to problems and decision making in the areas of management, statistics, and social choice. Includes networks, critical paths, linear programming, sampling, central tendency, inference, voting methods, power index, game theory, and fair division problems.</div>
@@ -624,7 +621,12 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
@@ -633,7 +635,7 @@
     </aceOutcomes>
   </course>
   <course>
-    <title>Contemporary Math "J"</title>
+    <title>Contemporary Math</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>MATH</subject>
@@ -643,13 +645,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1095</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Sophomore standing and removal of all entrance deficiencies in mathematics.</div>
-    </prerequisite>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">MATH 203J is not open to students with credit in or with parallel enrollment in MATH 104, 106/108H, 203, or STAT 218.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">MATH 203J is not open to students with credit in or with parallel enrollment MATH 106, MATH 203, or STAT 218.</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Applications of quantitative reasoning and methods to problems and decisions making in areas of particular relevance to College of Journalism and Mass Communication, such as governance, finance, statistics, social choice, and graphical presentation of data. Financial mathematics, statistics and probability (sampling, central tendency, and inference), voting methods, power index, and fair division problems.</div>
@@ -671,6 +670,9 @@
         <hours>3</hours>
       </activity>
     </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
     <aceOutcomes>
       <slo>3</slo>
     </aceOutcomes>

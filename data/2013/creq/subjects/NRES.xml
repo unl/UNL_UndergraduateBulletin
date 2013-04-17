@@ -2746,15 +2746,12 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1091</effectiveSemester>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">NRES 311.</div>
     </prerequisite>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Offered in fall of even-numbered years. Offered in summer of odd-numbered years at Cedar Point Biological Station.</div>
-    </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Survey of quantitative techniques used in wildlife management. Scientific method of wildlife science; surveys; habitat use and classification; forensic methods; and population inventories. Introduction to the use of computer-based geographic information systems (GIS) in a natural resource context.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Survey of methods used to obtain data and make decisions for wildlife management. Scientific methods for wildlife science; monitoring and surveys; construction of management plans; habitat use, classification, and management; harvest management.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -2764,6 +2761,55 @@
     </deliveryMethods>
     <termsOffered>
       <term>Fall</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+    <aceOutcomes>
+      <slo>10</slo>
+    </aceOutcomes>
+  </course>
+  <course>
+    <title>Wildlife Management Techniques Lab</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>NRES</subject>
+        <courseNumber>433</courseNumber>
+        <courseLetter>L</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>NRES</subject>
+        <courseNumber>833</courseNumber>
+        <courseLetter>L</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">NRES 222.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Offered off-campus during academic breaks at Cedar Point Biological Station.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Field and laboratory skills needed for wildlife management emphasizing wildlife and vegetation surveys, mark-recapture of wildlife, radio-telemetry, aging and forensic methods, and habitat assessment.  Course fee $180.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
     <activities>
@@ -2771,17 +2817,10 @@
         <type>lab</type>
         <hours>3</hours>
       </activity>
-      <activity>
-        <type>lec</type>
-        <hours>3</hours>
-      </activity>
     </activities>
     <credits>
-      <credit type="Single Value">4</credit>
+      <credit type="Single Value">1</credit>
     </credits>
-    <aceOutcomes>
-      <slo>10</slo>
-    </aceOutcomes>
   </course>
   <course>
     <title>Envronmental Education and Interpretation</title>
@@ -3891,6 +3930,50 @@
     <aceOutcomes>
       <slo>10</slo>
     </aceOutcomes>
+  </course>
+  <course>
+    <title>Fisheries Science Lab</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>NRES</subject>
+        <courseNumber>463</courseNumber>
+        <courseLetter>L</courseLetter>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>NRES</subject>
+        <courseNumber>863</courseNumber>
+        <courseLetter>L</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">May also be offered at Cedar Point Biological Station.  Course fee is $200.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Field and laboratory skills needed for fisheries biology emphasizing the determination and evaluation of vital statistics for the management of fish populations.  Applied data collection and fish sampling techniques will be used.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lab</type>
+        <hours>1</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">1</credit>
+    </credits>
   </course>
   <course>
     <title>Fisheries Biology</title>
@@ -6525,43 +6608,6 @@
     </credits>
   </course>
   <course>
-    <title>General Seminar</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>AGRO</subject>
-        <courseNumber>992</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>HORT</subject>
-        <courseNumber>950</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>NRES</subject>
-        <courseNumber>950</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Permission</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Expected of all horticulture graduate students and all agronomy PhD students; optional for agronomy MS students. Presentation of thesis or non-thesis topics in agronomy, horticulture or related subjects. For course description, see AGRO 992.</div>
-    </description>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <activities/>
-    <credits>
-      <credit type="Single Value">1</credit>
-      <credit type="Per Career Limit">5</credit>
-    </credits>
-  </course>
-  <course>
     <title>Turbulent Transfer in the Atmospheric Surface Layer</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -6758,6 +6804,47 @@
     </activities>
     <credits>
       <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>General Seminar</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>AGRO</subject>
+        <courseNumber>992</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>HORT</subject>
+        <courseNumber>992</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>NRES</subject>
+        <courseNumber>992</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Permission</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Expected of all horticulture graduate students and all agronomy PhD students; optional for agronomy MS students. Presentation of thesis or non-thesis topics in agronomy, horticulture or related subjects. For course description, see AGRO 992.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">1</credit>
+      <credit type="Per Career Limit">5</credit>
     </credits>
   </course>
   <course>
