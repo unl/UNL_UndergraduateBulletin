@@ -200,9 +200,9 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1125</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ENGM 373; MATH 221.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">MECH 373; MATH 221.</div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">Parallel: MECH 200.</div>
@@ -237,9 +237,9 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1125</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Good standing in the University Honors Program or by invitation; ENGM 373, MATH 221</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Good standing in the University Honors Program or by invitation; MECH 373, MATH 221</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Honor students required to study beyond levels expected of students in normal sections and prepare a special report.</div>
@@ -437,9 +437,9 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1125</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CHEM 111 and ENGM 223.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">CHEM 111 and MECH 223.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Physical properties of cement and concrete. Sampling, testing, inspecting. Design of mixtures. Factors affecting strength. Specifications. Building forms and placing concrete.</div>
@@ -470,9 +470,9 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1125</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ENGM 325.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">MECH 325.</div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">Parallel: CIVE 310.</div>
@@ -506,9 +506,9 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1125</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ENGM 325.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">MECH 325.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Introduction to the analysis and design of structural systems. Analyses of determinate and indeterminate trusses, beams, and frames, and design philosophies for structural engineering. Laboratory experiments deal with the analysis of determinate and indeterminate structures.</div>
@@ -618,9 +618,9 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1081</effectiveSemester>
+    <effectiveSemester>1125</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CIVE/CONE 221 (CONE 2210 (UNO)) ENGM 223.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">CIVE/CONE 221 (CONE 2210 (UNO)) MECH 223.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Introduction to the principles of highway engineering and traffic operations and control.</div>
@@ -656,9 +656,9 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1125</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ENGM 325.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">MECH 325.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Introduction to the behavior, testing, and design of soil, portland cement concrete, steel, wood and composites. Experiments covering the concepts of stress and strain under axial, torsional, shear and flexural loading conditions. Common ASTM laboratory test procedures and specifications, field quality control tests and statistical applications.</div>
@@ -1604,12 +1604,12 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1125</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ENGM 325 and 480 or permission.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">MECH 325 and 480 or permission.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">For course description, see ENGM 451/851.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">For course description, see MECH 451/851.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -2739,20 +2739,20 @@
   <course>
     <title>Introduction to Finite Element Analysis</title>
     <courseCodes>
-      <courseCode type="home listing">
-        <subject>ENGM</subject>
-        <courseNumber>851</courseNumber>
-      </courseCode>
       <courseCode type="crosslisting">
         <subject>CIVE</subject>
+        <courseNumber>851</courseNumber>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>MECH</subject>
         <courseNumber>851</courseNumber>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <effectiveSemester>1125</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ENGM 325 and ENGM 880 or permission</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">MECH 325 and MECH 880 or permission</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Matrix methods of analysis. The finite element stiffness method. Computer programs. Applications to structures and soils. Introduction to finite element analysis of fluid flow.</div>
@@ -3413,9 +3413,9 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <effectiveSemester>1125</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ENGM 880, CIVE 845</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">MECH 880, CIVE 845</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Behavior of structural materials and systems under dynamic loads. Analysis and design for dynamic loads. Computational techniques. Selected laboratory demonstrations of the dynamic behavior of structural systems.</div>

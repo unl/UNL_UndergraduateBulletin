@@ -2226,6 +2226,9 @@
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
+    <aceOutcomes>
+      <slo>10</slo>
+    </aceOutcomes>
   </course>
   <course>
     <title>Honors: Human Genetics</title>
@@ -2445,6 +2448,9 @@
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
+    <aceOutcomes>
+      <slo>10</slo>
+    </aceOutcomes>
   </course>
   <course>
     <title>Comparative Physiology</title>
@@ -4369,55 +4375,6 @@
     </aceOutcomes>
   </course>
   <course>
-    <title>Freshwater Algae</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>BIOS</subject>
-        <courseNumber>473</courseNumber>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>BIOS</subject>
-        <courseNumber>873</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">12 hrs biological sciences.</div>
-    </prerequisite>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">May also be offered at Cedar Point Biological Station.</div>
-    </notes>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Classification, identification, and life histories of algae from freshwater, soil, and air.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>lab</type>
-        <hours>4</hours>
-      </activity>
-      <activity>
-        <type>lec</type>
-        <hours>3</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">4</credit>
-    </credits>
-  </course>
-  <course>
     <title>Herpetology</title>
     <courseCodes>
       <courseCode type="crosslisting">
@@ -4618,10 +4575,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
+    <dfRemoval>true</dfRemoval>
     <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">BIOS 101 and 101L, or 102; BIOS 206 or parallel or CHEM 251, or equivalent.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">BIOS 206 or parallel and CHEM 251 or equivalent.</div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">Basic statistics recommended.</div>

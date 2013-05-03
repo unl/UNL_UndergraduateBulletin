@@ -500,7 +500,7 @@
     </aceOutcomes>
   </course>
   <course>
-    <title>Introduction to Public Discourse</title>
+    <title>Public Advocacy and Civic Engagement</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>COMM</subject>
@@ -508,10 +508,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to the historical and critical examination of significant persuasive efforts in American history. Emphasis on speakers and writers who engaged in advocacy of sociopolitical importance, including representatives of important social movements, demagogues, elected officials, and others who defined our rhetorical legacy.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to fundamentals of public deliberation, advocacy, and civic engagement in a democratic society. Develop civic engagement campaigns using the resources of the rhetorical tradition.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -524,10 +524,17 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
+    <aceOutcomes>
+      <slo>8</slo>
+    </aceOutcomes>
   </course>
   <course>
     <title>Introduction to Broadcasting</title>

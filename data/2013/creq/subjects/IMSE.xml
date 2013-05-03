@@ -939,9 +939,9 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1141</effectiveSemester>
+    <effectiveSemester>1125</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">IMSE 206, IMSE 321, ENGM 373.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">IMSE 206, IMSE 321, MECH 373.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Investigation of packaging processes, materials, equipment and design. Container design, material handling, storage, packaging and environmental regulations, and material selection.</div>
@@ -1565,20 +1565,20 @@
   <course>
     <title>Nonlinear Optimization in Engineering</title>
     <courseCodes>
-      <courseCode type="crosslisting">
-        <subject>ENGM</subject>
-        <courseNumber>888</courseNumber>
-      </courseCode>
       <courseCode type="home listing">
         <subject>IMSE</subject>
+        <courseNumber>888</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>MECH</subject>
         <courseNumber>888</courseNumber>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <effectiveSemester>1125</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">MATH 208/208H and 314/814; ENGM 480/880; and permission</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">MATH 208/208H and 314/814; MECH 480/880; and permission</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Nonlinear optimization using gradient-based and evolutionary methods. Constrained and unconstrained nonlinear optimization, Karush-Kuhn-Tucker conditions, penalty and barrier methods. Applications to optimal design in sciences and engineering.</div>
