@@ -4253,10 +4253,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1141</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 820 and 827</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 423/823 or permission</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Analysis of performance of algorithms on random access machines and Turing machines, data structures for design of efficient algorithms, sorting algorithms, divide and conquer strategies, algorithms on graphs and their performance bounds, pattern matching algorithms, achievable lower bounds on complexity, NP complete problems.</div>
@@ -4267,7 +4267,12 @@
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
@@ -4281,10 +4286,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1141</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 827, MATH 852, or permission</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 423/823 or permission</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Review concepts related to analysis of algorithms and graph theory. Classical graph theoretic algorithms including Eulerian paths, Hamiltonian circuits, shortest paths, network flows and traveling salesman. Planar graph algorithms. Theory of alternating chains and algorithms for graph matching problems. Approximate and parallel algorithms. Applications of graph algorithms to engineering and physical sciences.</div>
@@ -4295,7 +4300,12 @@
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
@@ -4542,13 +4552,13 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1141</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 361</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 361 or CSCE 361H</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Recent advances in the field of software engineering. Software reuse, artificial intelligence approaches to software design, usability and requirements engineering, and design environments. Computer tools for the design of software products. Readings from current software engineering literature discussed and evaluated. Students will participate in a group project which investigates specific software engineering research topics.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Recent advances in the field of software engineering. Software reuse, artificial intelligence approaches to software design, usability and requirements engineering, and design environments. Computer tools for the design of software products. Analysis of software artifacts. Coordination in distributed software development. Readings from current software engineering literature discussed and evaluated. Students will participate in a group project which investigates specific software engineering research topics.</div>
     </description>
     <campuses>
       <campus></campus>
@@ -4557,72 +4567,6 @@
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
     <activities/>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Software Process Engineering</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>CSCE</subject>
-        <courseNumber>963</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 361 or permission</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Engineering of the software development process including software life-cycle, maturity models, process programming, and process management. Both theory and practice of engineering large, long-lived software systems. Process analysis, modeling, workflows, standards, process environments and tools, automation, and organizational context. Case studies illuminate the application of software process theory to engineering practice. Teams analyze and develop software management plans and tools.</div>
-    </description>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <activities>
-      <activity>
-        <type>lec</type>
-        <hours>3</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Software Architecture and Frameworks</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>CSCE</subject>
-        <courseNumber>966</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 866 or permission</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Architectural aspects of software development including design patterns, frameworks, standardization of architectures and components, and development environments. Methodologies for creating reusable solutions for common problems in a variety of application areas. Experience in the development and use pattern catalogs and design standards.</div>
-    </description>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <activities>
-      <activity>
-        <type>lec</type>
-        <hours>3</hours>
-      </activity>
-    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>

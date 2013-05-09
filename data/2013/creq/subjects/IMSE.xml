@@ -1151,10 +1151,14 @@
         <subject>IMSE</subject>
         <courseNumber>477</courseNumber>
       </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>IMSE</subject>
+        <courseNumber>877</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1141</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">IMSE 375.</div>
     </prerequisite>
@@ -1224,10 +1228,14 @@
         <subject>IMSE</subject>
         <courseNumber>483</courseNumber>
       </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>IMSE</subject>
+        <courseNumber>883</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1141</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">IMSE 334.</div>
     </prerequisite>
@@ -1257,10 +1265,14 @@
         <subject>IMSE</subject>
         <courseNumber>498</courseNumber>
       </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>IMSE</subject>
+        <courseNumber>898</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1141</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Senior standing and permission.</div>
     </prerequisite>
@@ -1535,34 +1547,6 @@
     </credits>
   </course>
   <course>
-    <title>Logistics in the Supply Chain</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>IMSE</subject>
-        <courseNumber>883</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">IMSE 334</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Process of planning, implementing and controlling the efficient, effective flow and storage of goods, services and related information from the point of origin to the point of consumption. Domestic transportation systems, distribution centers and warehousing, international logistics, logistics system controls and re-engineering logistics systems.</div>
-    </description>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <activities/>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
     <title>Nonlinear Optimization in Engineering</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -1597,37 +1581,6 @@
     </activities>
     <credits>
       <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Laboratory Investigation</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>IMSE</subject>
-        <courseNumber>898</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Investigation and written report of research into a specific problem in any area of industrial or management systems engineering.</div>
-    </description>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <activities>
-      <activity>
-        <type>lab</type>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Lower Range Limit">1</credit>
-      <credit type="Upper Range Limit">6</credit>
-      <credit type="Per Career Limit">6</credit>
     </credits>
   </course>
   <course>
