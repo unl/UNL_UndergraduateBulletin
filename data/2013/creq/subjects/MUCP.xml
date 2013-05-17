@@ -77,10 +77,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">MUSC 171 or permission.</div>
-    </prerequisite>
+    <effectiveSemester>1131</effectiveSemester>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">Student must have some musical background which should include rudimentary knowledge of musical notation, and the ability to perform on an instrument (piano or guitar).</div>
     </notes>
@@ -114,7 +111,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1131</effectiveSemester>
+    <effectiveSemester>1138</effectiveSemester>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">Student must have some musical background which should include rudimentary knowledge of musical notation, and the ability to perform on an instrument (piano or guitar).</div>
     </notes>
@@ -148,9 +145,9 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1128</effectiveSemester>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">MUSC 184.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">MUCP 184.</div>
     </prerequisite>
     <campuses>
       <campus>UNL</campus>
@@ -304,6 +301,94 @@
       <credit type="Lower Range Limit">2</credit>
       <credit type="Upper Range Limit">3</credit>
       <credit type="Per Semester Limit">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Film-scoring for Music Majors</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MUCP</subject>
+        <courseNumber>410</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>MUCP</subject>
+        <courseNumber>810</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Major in Music</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Fundamentals of music composition for visual media will be addressed, including technical and creative aspects for the preparation of distribution-ready music for use in motion pictures. Students will collaborate with producers of original films with no pre-existing music.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lab</type>
+        <hours>3</hours>
+      </activity>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+      <credit type="Per Career Limit">6</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Computer Programming in Electronic Music</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MUCP</subject>
+        <courseNumber>460</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>MUCP</subject>
+        <courseNumber>860</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Exploration of powerful synthesis, interface, and control capabilities of various software programs with a focus on generating and manipulating audio.  This is a hands-on, practical and technical overview of practices relating to the creative use of working with digital audio useful for software-based step-sequencers, synth bass/pads, musical interfaces, and many other tools for digital media.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lab</type>
+        <hours>3</hours>
+      </activity>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
     </credits>
   </course>
   <course>

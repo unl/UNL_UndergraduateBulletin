@@ -585,10 +585,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">12 hrs BIOS including BIOS 206 or equivalent.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">BIOS 206.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Molecular basis of genetics. Gene structure and regulation, transposable elements, chromosome structure, DNA replication, and repair mechanisms and recombination.</div>
@@ -611,6 +611,9 @@
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
+    <aceOutcomes>
+      <slo>10</slo>
+    </aceOutcomes>
   </course>
   <course>
     <title>Veterinary Anatomy I</title>
@@ -810,14 +813,11 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">BIOS 206 and one semester organic chemistry.</div>
     </prerequisite>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">BIOS 102 recommended.</div>
-    </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Fundamental consideration of cellular and humoral mechanisms of immunity, the structure and function of immunoglobulins, antigen-antibody interactions; hypersensitivity; transplantation and tumor immunity; immune and autoimmune disorders.</div>
     </description>

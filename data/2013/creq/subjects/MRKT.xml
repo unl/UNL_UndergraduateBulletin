@@ -138,9 +138,9 @@
     </courseCodes>
     <gradingType>letter grade only</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1081</effectiveSemester>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Sophomore standing; ECON 211 and 212, or 210; 2.5 GPA. Prereq for actuarial science, J. D. Edwards Program, and agribusiness majors: Refer to exceptions for the requirements.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Sophomore standing; 2.5 GPA; Business Qualified (MATH 104 or MATH 106 or MATH 107/107H or MATH 208/208H; ACCT 201 or ACCT 201H or RAIK 181H; ACCT 202 or ACCT 202H or RAIK 282H; ECON 211 or ECON 211H or RAIK 282H; ECON 212 or ECON 212H or RAIK 182H; ECON 215 or ECON 215H or STAT 218). Prereq for actuarial science, Raikes School and agribusiness majors: refer to exceptions for the requirements.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">The marketing system, its relations with the socioeconomic system, and the influences of each upon the other. Evolution and present structure of marketing institutions and processes. Customer attributes and behavioral characteristics, and how a marketing manager responds to these in the design of marketing strategies, using research, product development, pricing, distribution structure, and promotion.</div>
@@ -182,9 +182,9 @@
     </courseCodes>
     <gradingType>letter grade only</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Good standing in the University Honors Program; Sophomore standing; ECON 211 and 212, or 210; 2.5 GPA. Prereq for actuarial science, Raikes School of Computer Science and Management and agribusiness majors: refer to exceptions for the requirements. Students enrolling in RAIK 341H must be admitted to the Jeffrey S. Raikes School of Computer Science and Management.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Open only to CBA Honors Academy students in good standing or by permission. Sophomore standing; 2.5 GPA; Business Qualified (MATH104 or MATH106 or MATH107/107H or MATH208/208H; ACCT201 or ACCT201H or RAIK181H; ACCT202 or ACCT202H or RAIK282H; ECON211 or ECON211H or RAIK282H; ECON212 or ECON212H or RAIK182H; ECON215 or ECON215H or STAT218).  Prereq for actuarial science, Raikes School of Computer Science and Management and agribusiness majors: refer to exceptions for the requirements. Students enrolling in RAIK341H must be admitted to the Jeffrey S. Raikes School of Computer Science and Management.</div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">Letter Grade Only.</div>
@@ -378,6 +378,44 @@
     <gradPrerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">BSAD 150 or equivalent; <span style="text-decoration: underline;">ECON 215;</span> MRKT 341; and 2.5 GPA.</div>
     </gradPrerequisite>
+  </course>
+  <course>
+    <title>Marketing Metrics</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MRKT</subject>
+        <courseNumber>355</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">MRKT 341</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Quantifying the success of marketing strategies and programs in terms of measurements. The advantages and disadvantages of competing metrics are discussed. Systematizing marketing metrics as an organizational process is discussed.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
   </course>
   <course>
     <title>Professional Selling</title>
@@ -662,7 +700,7 @@
     </credits>
   </course>
   <course>
-    <title>Marketing and Electronic Commerce</title>
+    <title>Digital Marketing and Electronic Commerce</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>MRKT</subject>
@@ -675,12 +713,12 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1111</effectiveSemester>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">MRKT 341; MRKT 350 or MNGT/MIST 350.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Strategies to deal with opportunities and challenges of evolving technology and marketing in digital networks of customers, suppliers, and employees; different interactive marketing platforms for e-commerce; the future and strategic, societal, and ethical implications of technology and interactive marketing in e-commerce.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Strategies to deal with opportunities and challenges of evolving technology and marketing in digital networks of customers, suppliers, and employees; social and mobile marketing; different interactive marketing platforms for e-commerce; the future and strategic, societal, and ethical implications of technology and interactive marketing in e-commerce.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -712,10 +750,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Senior standing; MRKT major; MRKT 341; MRKT 345 or 350; MRKT 346 or 347.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Senior standing; Marketing major; MRKT 341; MRKT 345 or MRKT 350 or MRKT 355; AND 6 hours of marketing electives.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Application of marketing principles to the solution of a wide variety of problems involving influence of the consumer, choice of channels, marketing legislation, and the management of merchandising, advertising, personal selling, sales promotion, pricing, and marketing research.</div>
@@ -793,9 +831,9 @@
     </courseCodes>
     <gradingType>letter grade only</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1121</effectiveSemester>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Senior Standing in CBA; MRKT 341; MNGT 331; and MNGT 335.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">MRKT 341 and MNGT 331.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Examination of physical distribution activities in the marketing mix from the viewpoints of both providers and users of components of logistics systems. Logistics problems of concern to the marketing manager include time and place utility concepts, spatial relationships of markets, channel design, transportation modes, and inventory management.</div>

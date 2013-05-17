@@ -172,7 +172,7 @@
     </aceOutcomes>
   </course>
   <course>
-    <title>Power and Culture in Latin America</title>
+    <title>History of Latin America</title>
     <courseCodes>
       <courseCode type="crosslisting">
         <subject>ETHN</subject>
@@ -186,7 +186,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1101</effectiveSemester>
+    <effectiveSemester>1138</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">A panoramic analysis, from the pre-Columbian civilizations to the 21<sup>st</sup> century, focusing on the history of power and culture in order to understand Latin America today.</div>
     </description>
@@ -526,6 +526,52 @@
     </activities>
     <credits>
       <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Accelerated 2nd Year Native Language</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ANTH</subject>
+        <courseNumber>210</courseNumber>
+        <courseGroup>Cultural Anthropology</courseGroup>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>ETHN</subject>
+        <courseNumber>210</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">ANTH/ETHN 105A.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">ANTH 210 is a continuation of ANTH 105A.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Language competence and performance. Production of oral and written language materials. Linguistic methods of translation. Collaborative language curriculum work with the Indigenous community. Interface with the Indigenous community’s contemporary society and culture.<br/>A minimum of four outside of class activities (on weekends) and an approximate one-half hour meeting each week with the instructor (in a "one-on-one" situation) is required.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>6</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">6</credit>
     </credits>
   </course>
   <course>
@@ -1290,6 +1336,9 @@
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
+    <aceOutcomes>
+      <slo>9</slo>
+    </aceOutcomes>
   </course>
   <course>
     <title>Experiential Learning in Ethnic Studies I</title>
@@ -1475,7 +1524,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1128</effectiveSemester>
+    <effectiveSemester>1138</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Immigration as a multifaceted sociopolitical phenomenon. The history of different waves of immigration to the United States. Emphasis on the diversity within every immigrant group, as well as differences and similarities regarding their acculturation process. Public attitudes towards immigration in historical perspective. The American political system's capacity to incorporate newcomers into civic life.</div>
     </description>
@@ -1493,9 +1542,12 @@
     <activities>
       <activity>
         <type>lec</type>
-        <hours>2.5</hours>
+        <hours>3</hours>
       </activity>
     </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
     <aceOutcomes>
       <slo>9</slo>
     </aceOutcomes>
@@ -3101,6 +3153,7 @@
       <courseCode type="home listing">
         <subject>HIST</subject>
         <courseNumber>463</courseNumber>
+        <courseGroup>Latin American, Asian, Middle Eastern or African History</courseGroup>
       </courseCode>
       <courseCode type="grad tie-in">
         <subject>HIST</subject>
@@ -3117,7 +3170,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1121</effectiveSemester>
+    <effectiveSemester>1138</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Includes Indian politics, ideologies about Latin American indigenous peoples, global issues, and inter-ethnic relationships in Latin America.</div>
     </description>
@@ -3343,6 +3396,7 @@
         <subject>HIST</subject>
         <courseNumber>476</courseNumber>
         <courseLetter>A</courseLetter>
+        <courseGroup>Latin American, Asian, Middle Eastern or African History</courseGroup>
       </courseCode>
       <courseCode type="grad tie-in">
         <subject>HIST</subject>
@@ -3367,7 +3421,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1105</effectiveSemester>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Junior standing.</div>
     </prerequisite>
@@ -3402,6 +3456,7 @@
         <subject>HIST</subject>
         <courseNumber>476</courseNumber>
         <courseLetter>B</courseLetter>
+        <courseGroup>Latin American, Asian, Middle Eastern or African History</courseGroup>
       </courseCode>
       <courseCode type="grad tie-in">
         <subject>HIST</subject>
@@ -3416,7 +3471,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1101</effectiveSemester>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Junior standing.</div>
     </prerequisite>

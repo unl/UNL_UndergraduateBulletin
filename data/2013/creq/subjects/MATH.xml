@@ -493,9 +493,9 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1105</effectiveSemester>
+    <effectiveSemester>1141</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Good standing in the University Honors Program or by invitation; placement score on the Math Placement Examination (MPE) or at the MATH 104-level or above.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Good standing in the University Honors Program or by invitation; placement score on the Math Placement Examination (MPE) at the MATH 104-level or above.</div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">A University Honors Seminar 189H is required of all students in the University Honors Program.</div>
@@ -602,13 +602,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1091</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Sophomore standing and removal of all entrance deficiencies in mathematics.</div>
-    </prerequisite>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1141</effectiveSemester>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Not open to students with credit or concurrent enrollment in MATH 104, 105, 106, or STAT 218.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Not open to students with credit or concurrent enrollment in MATH 106 or STAT 218.</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Applications of quantitative reasoning and methods to problems and decision making in the areas of management, statistics, and social choice. Includes networks, critical paths, linear programming, sampling, central tendency, inference, voting methods, power index, game theory, and fair division problems.</div>
@@ -624,7 +621,12 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
@@ -633,7 +635,7 @@
     </aceOutcomes>
   </course>
   <course>
-    <title>Contemporary Math "J"</title>
+    <title>Contemporary Math</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>MATH</subject>
@@ -643,13 +645,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1095</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Sophomore standing and removal of all entrance deficiencies in mathematics.</div>
-    </prerequisite>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">MATH 203J is not open to students with credit in or with parallel enrollment in MATH 104, 106/108H, 203, or STAT 218.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">MATH 203J is not open to students with credit in or with parallel enrollment MATH 106, MATH 203, or STAT 218.</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Applications of quantitative reasoning and methods to problems and decisions making in areas of particular relevance to College of Journalism and Mass Communication, such as governance, finance, statistics, social choice, and graphical presentation of data. Financial mathematics, statistics and probability (sampling, central tendency, and inference), voting methods, power index, and fair division problems.</div>
@@ -671,6 +670,9 @@
         <hours>3</hours>
       </activity>
     </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
     <aceOutcomes>
       <slo>3</slo>
     </aceOutcomes>
@@ -1472,12 +1474,12 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1111</effectiveSemester>
+    <effectiveSemester>1125</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">CSCE 155A, CSCE 155E, CSCE 155H, CSCE 155N, or CSCE 155T; Math 107.</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Credit toward the degree may be earned in only one of the following: CSCE/MATH 340/840 and ENGM 480/880.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Credit toward the degree may be earned in only one of the following: CSCE/MATH 340/840 and MECH 480/880.</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Algorithm formulation for the practical solution of problems, interpolation, roots of equations, differentiation, and integration. Effects of finite precision.</div>
@@ -1740,12 +1742,12 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1108</effectiveSemester>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">MATH 314 or 314H recommended.</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Credit is not allowed for both MATH 105 and MATH 405, or for both CSCE 235 and MATH 405. MATH 405 is not open to math majors except for dual matriculants in the College of Education and Human Sciences.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Credit is not allowed for both CSCE 235 and MATH 405. MATH 405 is not open to math majors except for dual matriculants in the College of Education and Human Sciences.</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Graphs and networks. Map coloring. Finite differences. Pascal's triangle. The Pigeonholed Principle. Markov chains. Linear programming. Game Theory.</div>
@@ -3108,6 +3110,88 @@
     </credits>
   </course>
   <course>
+    <title>Algebraic Thinking in the Elementary Classroom</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MATH</subject>
+        <courseNumber>803</courseNumber>
+        <courseLetter>P</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">A valid elementary or early childhood teaching certificate, or permission.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Not open to MA or MS students in mathematics or statistics.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Course explores the mathematics supporting algebraic thinking in elementary mathematics.  Develops a deeper understanding of algebraic properties and greater flexibility in mathematical reasoning.  Case studies, video segments, and student work samples will be examined.  Complex mathematical problems will be worked with connections made between participants' thinking and that of their students.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Problem Solving and Critical Thinking in the Elementary Classroom</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MATH</subject>
+        <courseNumber>804</courseNumber>
+        <courseLetter>P</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">A valid elementary or early childhood teaching certificate, or permission.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Not open to MA or MS students in mathematics or statistics.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Course uses problem-solving experiences to develop teachers' critical-thinking skills in order to build a strong foundation for teaching and communicating mathematical concepts. Provides a guided opportunity for the implementation of problem-solving instruction is aligned with the Mathematics Standards in both the primary (K-2) and intermediate (3-5) elementary classroom.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Experimentation, Conjecture and Reasoning</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -3546,6 +3630,47 @@
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
     <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Elementary Analysis for the Sciences</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MATH</subject>
+        <courseNumber>820</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1141</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Math 208 and evidence of adequate preparation.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">A term paper and/or project is required for graduate credit.  Not open to graduate students in Mathematics.  Students in the sciences and Statistics cannot count MATH 820 toward a minor in Mathematics.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">A mathematical introduction to elementary analysis (the calculus). Specifically, it is a demanding course that introduces concepts in abstraction: the axiomatic method, proofs, and mathematical thinking and writing in the context of elementary real analysis, or the theory underlying calculus. Specific topics include: logic, sets, functions; the real number system (field and order axioms, completeness axiom); mathematical induction; limits of sequences and functions, convergence, and continuity; the derivative and Riemann integral.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
@@ -4805,8 +4930,8 @@
       </activity>
     </activities>
     <credits>
-      <credit type="Single Value">3</credit>
       <credit type="Single Value">6</credit>
+      <credit type="Single Value">3</credit>
       <credit type="Per Career Limit">18</credit>
     </credits>
   </course>

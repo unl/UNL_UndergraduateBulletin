@@ -48,6 +48,11 @@
         <subject>CYAF</subject>
         <courseNumber>160</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>CYAF</subject>
+        <courseNumber>160</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
@@ -86,12 +91,12 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Good standing in the University Honors Program or by invitation.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">For course description, see FACS 160.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">For course description, see CYAF 160.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -146,6 +151,86 @@
     </activities>
     <credits>
       <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Applied Methods of Social Emotional Development and Guidance</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CYAF</subject>
+        <courseNumber>210</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Parallel CYAF 210L</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">CYAF 210 is for people interested in working with children in schools, child care programs, and in social service agencies.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">An overview of the components of social competence and what influences its development. Common social difficulties experienced by children and enhancing children's social competence.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Applied Methods of Social Emotional Development and Guidance</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CYAF</subject>
+        <courseNumber>210</courseNumber>
+        <courseLetter>L</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>pass/no pass only</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Parallel CYAF 210.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">CYAF 210L is for students to improve their ability to interact effectively with young children. CYAF 210L provides a bridge between theory and practice.   CYAF 210L is 'Pass/No Pass only'.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Practice and demonstrate behaviors and skills related to sound child development theory and/or research and best practices under the guidance of early childhood professionals.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lab</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">1</credit>
     </credits>
   </course>
   <course>
@@ -568,13 +653,16 @@
       </courseCode>
     </courseCodes>
     <gradingType>letter grade only</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1091</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CYAF 271 and 271L, with a grades of 'Pass' or 'C' or better.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">CYAF 271 and CYAF 271L with grades of 'C' or better.</div>
     </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">CYAF 371 and CYAF 371L must be taken together.</div>
+    </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Program models used in programs serving infants and toddlers. Center-based and home-based models. Curricula, training programs, and methods of assessment used in infant-toddler programs. Current state efforts to define standards and outcomes for infants and toddlers.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Course combination of lecture (CYAF 371, 3 cr.) and lab practicum (CYAF 371L, 1 cr.) will introduce students to methods used in infant-toddler programs, including center-based, home-based, and family-support models.   The CYAF 371 course will be delivered in hybrid format with most course material online supplemented by brief in-person class meetings.   Course material features an examination of program models and frameworks, curricula, training programs and methods of assessment used in infant-toddler programs.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -593,6 +681,47 @@
     </activities>
     <credits>
       <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Working with Infants in Programs &amp; Communities Practicum</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CYAF</subject>
+        <courseNumber>371</courseNumber>
+        <courseLetter>L</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">CYAF 271 and CYAF 271L with a grade of C or above.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">CYAF 371 and CYAF 371L must be taken together.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Course will feature 9 hours of practicum shadowing experiences in 3 different types of infant-toddler programs in the first half of the semester and 21 hours of weekly practicum in one of the settings for a more in-depth experience during the second half of the semester. Emphasis will be on skills needed for Nebraska Early Childhood Endowment programs and on Nebraska Early Learning Guidelines but examination of programs from other states and international efforts will also be included in course materials.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lab</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">1</credit>
     </credits>
   </course>
   <course>
@@ -759,9 +888,9 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">FACS 160 or 160H, 222, 280, and with an overall minimum grade average of 2.5 for these three courses.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">CYAF 160 or 160H, 222, 280, and with an overall minimum grade average of 2.5 for these three courses.</div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">Includes a pre-practicum fieldwork experience.</div>
@@ -899,84 +1028,6 @@
     </activities>
     <credits>
       <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Applied Methods of Social Emotional Development and Guidance</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>CYAF</subject>
-        <courseNumber>385</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>letter grade only</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1091</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CYAF 170, 270, and 270L; parallel CYAF 385L.</div>
-    </prerequisite>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">CYAF 385 is for people interested in working with children in schools, child care programs, and in social service agencies.</div>
-    </notes>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">An overview of the components of social competence and what influences its development. Common social difficulties experienced by children and enhancing children's social competence.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Spring</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>lec</type>
-        <hours>3</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Applied Methods of Social Emotional Development and Guidance</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>CYAF</subject>
-        <courseNumber>385</courseNumber>
-        <courseLetter>L</courseLetter>
-      </courseCode>
-    </courseCodes>
-    <gradingType>pass/no pass only</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1091</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CYAF 170, 270, and 270L; parallel CYAF 385.</div>
-    </prerequisite>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">CYAF 385L is for students to improve their ability to interact effectively with young children. CYAF 385L provides a bridge between theory and practice, complementing CYAF 385. CYAF 385L is 'Pass/No Pass only'.</div>
-    </notes>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Practice and demonstrate behaviors and skills related to sound child development theory and/or research and best practices under the guidance of early childhood professionals.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Spring</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>lab</type>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">1</credit>
     </credits>
   </course>
   <course>
@@ -2216,6 +2267,80 @@
       <activity>
         <type>lec</type>
         <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Administration in Family and Consumer Sciences Education</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CYAF</subject>
+        <courseNumber>805</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Admission to CYAF graduate program or permission.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Administration of family and consumer sciences programs. Emphasis on educational leadership and related issues in a variety of educational settings.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Web</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Evaluation and Assessment</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CYAF</subject>
+        <courseNumber>806</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Admission to CYAF Graduate program or permission.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Procedures for appraisal of individual growth and achievement in all subject areas in family and consumer sciences. Development of evaluative instruments for cognitive, affective, and psychomotor learning and interpretation of data in the evaluation of various types of family and consumer sciences programs.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Web</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
       </activity>
     </activities>
     <credits>

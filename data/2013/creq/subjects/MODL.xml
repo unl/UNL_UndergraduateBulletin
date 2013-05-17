@@ -121,9 +121,9 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1138</effectiveSemester>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">This course is designed for students who have had 3 years of high school language or 2 semesters in college. Students must have had a foreign language at the 102 level or above or the equivalent to register for MODL 200. Credit is allowed for only one of the courses: MODL 200 or CLAS 100</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">This course is designed for students who have had 3 years of high school language or 2 semesters in college. Students must have had a foreign language at the 102 level or above or the equivalent to register for MODL 200.</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Assumes a certain familiarity with the mechanics of language analysis. Phonology, morphology, and syntax reviewed, then treats language-related issues such as the relationship of language to thought and culture, animal communication vs. human language, language families, dialects and social use of language, how children acquire language, and language change.</div>
@@ -332,6 +332,74 @@
     <credits>
       <credit type="Lower Range Limit">1</credit>
       <credit type="Upper Range Limit">24</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Reformation Thought</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>HIST</subject>
+        <courseNumber>426</courseNumber>
+        <courseGroup>European History</courseGroup>
+        <courseGroup>Pre-1800</courseGroup>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>MRST</subject>
+        <courseNumber>426</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>RELG</subject>
+        <courseNumber>426</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>MODL</subject>
+        <courseNumber>426</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>HIST</subject>
+        <courseNumber>826</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>MODL</subject>
+        <courseNumber>826</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>RELG</subject>
+        <courseNumber>826</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>MRST</subject>
+        <courseNumber>826</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Junior standing or permission.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Life and thought of significant figures and schools of thought in the Reformation period</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
     </credits>
   </course>
   <course>

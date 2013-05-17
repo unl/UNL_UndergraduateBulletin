@@ -78,9 +78,9 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1125</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">PHYS 212 and ENGM 223.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">PHYS 212 and MECH 223.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">First and Second Laws of Thermodynamics, properties of gases and vapors. Sources of energy and its conversion to work.</div>
@@ -112,9 +112,9 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1125</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Good standing in the University Honors Program or by invitation; PHYS 212; ENGM 223.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Good standing in the University Honors Program or by invitation; PHYS 212; MECH 223.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">First and Second Laws of Thermodynamics, properties of gases and vapors. Sources of energy and its conversion to work. Honors students will be expected to study beyond the students in the normal sections and do a special project.</div>
@@ -133,6 +133,148 @@
     <activities/>
     <credits>
       <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Statics</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MECH</subject>
+        <courseNumber>220</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1125</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">MATH 106.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">For students in architecture and construction management.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Fundamental concepts, equilibrium of force systems, analysis of simple frames and trusses. Centroid and moments of inertia and friction.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Engineering Statics</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MECH</subject>
+        <courseNumber>223</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1125</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">MATH 107, PHYS 211.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Action of forces on engineering structures and machines. Force systems, static equilibrium of frames and machines. Friction, center of gravity, moment of inertia, vector algebra.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Honors: Engineering Statics</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MECH</subject>
+        <courseNumber>223</courseNumber>
+        <courseLetter>H</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1125</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Good standing in the University Honors Program or by invitation; MATH 107 and PHYS 211.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Bodies in equilibrium. Vector algebra, equivalent force systems, distributed loads, and center of gravity. Analysis of trusses, frames, and machines. Friction, wedges, crews, and belts. Area moments of inertia.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Mechanics</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MECH</subject>
+        <courseNumber>250</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">PHYS 211.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Parallel: MATH 208. For electrical engineering majors.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Force actions in static coplanar systems with applications to engineering structures and machines. Resultants, moments, couples, equivalent force systems, vector algebra. Static equilibrium conditions and equations.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">2</credit>
     </credits>
   </course>
   <course>
@@ -178,9 +320,9 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1125</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ENGM 373; MATH 221.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">MECH 373; MATH 221.</div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">Parallel: MECH 200.</div>
@@ -238,6 +380,109 @@
     </credits>
   </course>
   <course>
+    <title>Strength of Materials</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MECH</subject>
+        <courseNumber>324</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1125</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">MECH 220 or 223.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">For students in architecture and construction management.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Stress and strain analysis in elastic materials. Use of properties of materials in the analysis and design of welded and riveted connections, statically determinate and indeterminate flexure members, columns. Combined stresses, axial, eccentric and torsional loading. Observations of laboratory tests for axially loaded specimens. Introduction to shear and moment diagrams.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Mechanics of Elastic Bodies</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MECH</subject>
+        <courseNumber>325</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1125</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">MECH 223, MATH 208.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Concept of stress and strain considering axial, torsional, and bending forces. Shear and moments. Introduction to combined stresses and column theory.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Honors: Mechanics of Elastic Bodies</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MECH</subject>
+        <courseNumber>325</courseNumber>
+        <courseLetter>H</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1125</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Good standing in the University Honors Program or by invitation; MECH 223 or 223H; MATH 208.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to the mechanics of elastic bodies. Concepts of stress and strain. Extension, bending, and torsion. Shear and moment diagrams. Principal stresses. Deflection of statically determinate and indeterminate beams. Buckling of columns. Special advanced topics.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Mechanical Engineering Analysis</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -247,9 +492,9 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1131</effectiveSemester>
+    <effectiveSemester>1125</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">MATH 221; CSCE 155N, ENGM 325 and 373; MECH 200.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">MATH 221; CSCE 155N, MECH 325 and 373; MECH 200.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Conceptual modeling of mechanical engineering systems. Analytical exploration of engineering behavior of conceptual models. Case studies drawn from mechanical engineering problems.</div>
@@ -280,9 +525,9 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1125</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">MECH 130 and ENGM 373.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">MECH 130 and MECH 373.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Analysis of the motions of linkage and cam mechanisms. Methods of design of linkage and cam mechanisms. Gear theory. Analysis and design of ordinary and planetary gear trains. Determination of static and dynamic forces in machines. Balancing of machines. Flywheel design. Dynamics of cam mechanisms. Vibration of machines.</div>
@@ -315,7 +560,7 @@
     <dfRemoval>false</dfRemoval>
     <effectiveSemester>1125</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ENGM 325; IMSE 206; JGEN 200 or 300; MECH 342; MATL 360; IMSE 321 or STAT 380 or parallel.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">MECH 325; IMSE 206; JGEN 200 or 300; MECH 342; MATL 360; IMSE 321 or STAT 380 or parallel.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Design of machine elements under different conditions of loading. Design work includes a project of broader scope (done primarily out of class) requiring a breadth of knowledge. Failure theories for static and dynamic loading of bolts, springs, bearings, and shafts.</div>
@@ -346,9 +591,9 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1125</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ENGM 373; ELEC 211; MATH 314 or parallel.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">MECH 373; ELEC 211; MATH 314 or parallel.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Unified treatment of the dynamics and control of engineering systems. Emphasis on physical aspects, formulation of mathematical models, application of various mathematical methods, and interpretation of results in terms of the synthesis and analysis of real systems.</div>
@@ -370,6 +615,45 @@
     </credits>
   </course>
   <course>
+    <title>Mechanics II</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MECH</subject>
+        <courseNumber>351</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1125</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">MECH 250.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">For electrical engineering majors.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Application of Newton's laws to engineering problems involving coplanar kinematics and kinetics of particles. Work, energy, impulse, and momentum. Conservative systems. Periodic motion.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">2</credit>
+    </credits>
+  </course>
+  <course>
     <title>Manufacturing Methods and Processes</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -381,7 +665,7 @@
     <dfRemoval>false</dfRemoval>
     <effectiveSemester>1125</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">MATL 360; and ENGM 325.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">MATL 360; and MECH 325.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Introduction to traditional and modern manufacturing processes and methods to include: foundry; forming processes; welding; metal removal theory and practices; modern manufacturing systems and automation; and economics of process selection.</div>
@@ -396,6 +680,71 @@
       <term>Fall</term>
       <term>Spring</term>
       <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Engineering Dynamics</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MECH</subject>
+        <courseNumber>373</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1125</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">MECH 223, MATH 208.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Force action related to displacement, velocity, and acceleration of rigid bodies. Kinematics of plane motion, kinetics of translation and rotation. Mass moment of inertia, vibration, work, energy and power, impulse and momentum.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Honors: Engineering Dynamics</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MECH</subject>
+        <courseNumber>373</courseNumber>
+        <courseLetter>H</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1125</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Good standing in the University Honors Program or by invitation; MECH 223 or 223H; MATH 208.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Motion of particles and rigid bodies under the action of forces and moments. Kinematics of plane motion: displacement, velocity, and acceleration. Kinetics of translation and rotation; work, energy and power; impulse, momentum and impact. Introduction to vibration analysis.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
     </termsOffered>
     <activities/>
     <credits>
@@ -433,6 +782,81 @@
     <activities/>
     <credits>
       <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Elements of Computer-Aided Design</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MECH</subject>
+        <courseNumber>381</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">MATH 221; MECH 130 or CSCE 155N or permission.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Principles and techniques currently used for the computer-aided design (CAD). Applications of interactive graphics devices for drafting, design, and analysis. Modelling and analogy of engineering systems. Elementary finite element, Bode, and numerical analyses. CAD case studies and term project.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Undergraduate Research and Thesis</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MECH</subject>
+        <courseNumber>399</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1125</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Permission.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Engineering design or laboratory investigation that an undergraduate is qualified to undertake.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>ind</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">5</credit>
+      <credit type="Per Career Limit">6</credit>
     </credits>
   </course>
   <course>
@@ -482,49 +906,20 @@
     </credits>
   </course>
   <course>
-    <title>Turbomachinery</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>MECH</subject>
-        <courseNumber>402</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">MECH 300 and MECH/CIVE 310.</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Thermodynamic analysis and design of axial and radial flow turbines, compressors, and pumps. Fundamentals of the operating characteristics and performance parameters of turbomachines will be evaluated. Cavitation and blade element theory.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities/>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
     <title>Internal Combustion Engines</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>MECH</subject>
         <courseNumber>403</courseNumber>
       </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>MECH</subject>
+        <courseNumber>803</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1141</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">MECH 300 or equivalent.</div>
     </prerequisite>
@@ -554,12 +949,16 @@
         <subject>MECH</subject>
         <courseNumber>404</courseNumber>
       </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>MECH</subject>
+        <courseNumber>804</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1141</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">MECH 300 and 420/820.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">MECH 300 and MECH 420/MECH 820.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Stoichiometric analysis of combustion processes. Energy transfer, flame propagation, and transformation velocities during combustion. Combustor applications and design considerations. Emission formation and methods of control.</div>
@@ -581,16 +980,60 @@
     </credits>
   </course>
   <course>
+    <title>Turbomachinery</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MECH</subject>
+        <courseNumber>405</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>MECH</subject>
+        <courseNumber>805</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">MECH 300 and MECH 310/CIVE 310.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Thermodynamic analysis and design of axial and radial flow turbines, compressors, and pumps. Fundamentals of the operating characteristics and performance parameters of turbomachines will be evaluated. Cavitation and blade element theory.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Air Conditioning Systems Design</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>MECH</subject>
         <courseNumber>406</courseNumber>
       </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>MECH</subject>
+        <courseNumber>806</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1141</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">MECH 300 or equivalent.</div>
     </prerequisite>
@@ -620,10 +1063,14 @@
         <subject>MECH</subject>
         <courseNumber>407</courseNumber>
       </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>MECH</subject>
+        <courseNumber>807</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1141</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">MECH 300 or equivalent.</div>
     </prerequisite>
@@ -653,10 +1100,14 @@
         <subject>MECH</subject>
         <courseNumber>408</courseNumber>
       </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>MECH</subject>
+        <courseNumber>808</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1141</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">MECH 300 or equivalent.</div>
     </prerequisite>
@@ -686,12 +1137,16 @@
         <subject>MECH</subject>
         <courseNumber>413</courseNumber>
       </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>MECH</subject>
+        <courseNumber>813</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1141</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">MECH 200 and MECH/CIVE 310.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">MECH 200 and MECH 310/CIVE 310.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Subsonic and supersonic air flow theory, dynamics of flight, performance parameters, rotoranalysis, and special topics.</div>
@@ -719,12 +1174,16 @@
         <subject>MECH</subject>
         <courseNumber>414</courseNumber>
       </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>MECH</subject>
+        <courseNumber>814</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1141</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">MECH 300 and MECH/CIVE 310.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">MECH 300 and MECH 310/CIVE 310.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Analysis of the flow of compressible fluids by means of the momentum equation, continuity equation, and the laws of thermodynamics and some application of thermodynamic laws to incompressible fluids.</div>
@@ -752,12 +1211,16 @@
         <subject>MECH</subject>
         <courseNumber>415</courseNumber>
       </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>MECH</subject>
+        <courseNumber>815</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1141</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">MECH/CIVE 310 and MECH 380, or parallel.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">MECH310/CIVE 310 and MECH 380, or parallel.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Transport phenomena of homogeneous and heterogeneous types of mixtures such as solid-liquid, liquid-liquid, and liquid-gas. Properties of components and mixtures. Flow induced vibrations and parameter distributions. Optimization and design problems in multiphase systems.</div>
@@ -785,12 +1248,16 @@
         <subject>MECH</subject>
         <courseNumber>416</courseNumber>
       </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>MECH</subject>
+        <courseNumber>816</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1141</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">MECH 310 and MATH 221/821.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">MECH 310 and MATH 221/MATH 821.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Transverse and longitudinal traveling waves. Acoustic wave equation of fluids. The reflection, transmission, radiation, reception, absorption, and attenuation of sound. Acoustic cavities and waveguides. Sound propagation in pipes, resonators and filters.</div>
@@ -818,10 +1285,14 @@
         <subject>MECH</subject>
         <courseNumber>420</courseNumber>
       </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>MECH</subject>
+        <courseNumber>820</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1141</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">MECH 310.</div>
     </prerequisite>
@@ -876,6 +1347,43 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Solar Energy Engineering</title>
+    <courseCodes>
+      <courseCode type="grad tie-in">
+        <subject>MECH</subject>
+        <courseNumber>825</courseNumber>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>MECH</subject>
+        <courseNumber>425</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1141</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">MECH 420 or permission.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Conversion of solar energy into more useful forms with emphasis on environmental heating and cooling applications. Includes solar energy availability, solar collectors and design, solar systems and their simulation and solar economics.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
     <activities>
       <activity>
         <type>lec</type>
@@ -977,9 +1485,9 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1125</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ENGM 373; MECH 310 and 420.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">MECH 373; MECH 310 and 420.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Introduction to biomechanics. Basic anatomy, biomaterials, kinematics, dynamics, visco-elasticity, bio-fluid mechanics, and bio-heat transfer.</div>
@@ -1018,9 +1526,9 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1105</effectiveSemester>
+    <effectiveSemester>1125</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ENGM 223, 325, and 373; or equivalent.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">MECH 223, 325, and 373; or equivalent.</div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">
@@ -1030,7 +1538,7 @@
       </div>
     </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Biomedical Device Design (3cr) Lec 3. Prereq: ENGM 223, 325, &amp;amp; 373 or equivalent. Design of devices intended for use in biomedical environments. Introduction to modeling of the bio-environment, biomaterials and material selection. Overview of design methodologies and strategies used in biomedical device design from a material properties perspective. Introduction to federal regulation and other pertinent issues.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Biomedical Device Design (3cr) Lec 3. Prereq: MECH 223, 325, &amp;amp; 373 or equivalent. Design of devices intended for use in biomedical environments. Introduction to modeling of the bio-environment, biomaterials and material selection. Overview of design methodologies and strategies used in biomedical device design from a material properties perspective. Introduction to federal regulation and other pertinent issues.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -1060,10 +1568,14 @@
         <subject>MECH</subject>
         <courseNumber>442</courseNumber>
       </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>MECH</subject>
+        <courseNumber>842</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1141</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">MECH 342.</div>
     </prerequisite>
@@ -1093,12 +1605,16 @@
         <subject>MECH</subject>
         <courseNumber>444</courseNumber>
       </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>MECH</subject>
+        <courseNumber>844</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1141</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">MECH 342 and 350.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">MECH 342 and MECH 350.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Fundamentals of vibration, vibration and impact in machines, balance of rotors, flexible rotor dynamics and instabilities, parametric vibration, advanced dynamics and design of cam mechanisms, and dynamics of flywheel.</div>
@@ -1126,12 +1642,16 @@
         <subject>MECH</subject>
         <courseNumber>445</courseNumber>
       </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>MECH</subject>
+        <courseNumber>845</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1141</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">MECH 200, 342, 350, and MECH/CIVE 310.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">MECH 200, MECH 342, MECH 350, and MECH 310/CIVE 310.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Development of design concepts. Introduction to synthesis techniques and mathematical analysis methods. Applications of these techniques to mechanical engineering design projects.</div>
@@ -1162,12 +1682,86 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1091</effectiveSemester>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">MECH 300, 310, 343, 350.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">MECH 300, MECH 310, MECH 343, MECH 350, professional admission to Mechanical Engineering BS program.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Synthesis, design, and a written report on two projects, plus a proposal for the students final design project in MECH 447. The two projects should span the general areas of mechanical engineering developing breadth, resourcefulness, creativity and most importantly, the use of the design process. Guest lectures by practicing designers will be a part of the class when appropriate.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Single Value">2</credit>
+    </credits>
+    <aceOutcomes>
+      <slo>10</slo>
+    </aceOutcomes>
+  </course>
+  <course>
+    <title>Mechanical Engineering Design II</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MECH</subject>
+        <courseNumber>447</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">MECH 446, professional admission to Mechanical Engineering BS program.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Definition, scope, analysis, synthesis, and the design for the solution of a comprehensive engineering problem in any major area of mechanical engineering.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Single Value">2</credit>
+    </credits>
+    <aceOutcomes>
+      <slo>10</slo>
+    </aceOutcomes>
+  </course>
+  <course>
+    <title>Advanced Mechanics of Materials</title>
+    <courseCodes>
+      <courseCode type="grad tie-in">
+        <subject>MECH</subject>
+        <courseNumber>848</courseNumber>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>MECH</subject>
+        <courseNumber>448</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1125</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">MECH 373, MECH 325.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Stresses and strains at a point. Theories of failure. Thick-walled pressure vessels and spinning discs. Torsion of noncircular sections. Torsion of thin-walled sections, open, closed, and multicelled. Bending of unsymmetrical sections. Cross shear and shear center. Curved beams. Introduction to elastic energy methods.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -1184,26 +1778,27 @@
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
-    <aceOutcomes>
-      <slo>10</slo>
-    </aceOutcomes>
   </course>
   <course>
-    <title>Mechanical Engineering Design II</title>
+    <title>Advanced Dynamics</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>MECH</subject>
-        <courseNumber>447</courseNumber>
+        <courseNumber>449</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>MECH</subject>
+        <courseNumber>849</courseNumber>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1088</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1125</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">MECH 446.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">MECH 373 and MATH 221/821.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Definition, scope, analysis, synthesis, and the design for the solution of a comprehensive engineering problem in any major area of mechanical engineering.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Particle dynamics using Newton's laws, energy principles, momentum principles. Rigid body dynamics using Euler's equations and Lagrange's equations. Variable mass systems. Gyroscopic motion.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -1214,15 +1809,16 @@
     <termsOffered>
       <term>Fall</term>
       <term>Spring</term>
-      <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
-      <credit type="Single Value">2</credit>
+      <credit type="Single Value">3</credit>
     </credits>
-    <aceOutcomes>
-      <slo>10</slo>
-    </aceOutcomes>
   </course>
   <course>
     <title>Mechanical Engineering Control Systems Design</title>
@@ -1231,10 +1827,14 @@
         <subject>MECH</subject>
         <courseNumber>450</courseNumber>
       </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>MECH</subject>
+        <courseNumber>850</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1141</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">MECH 350.</div>
     </prerequisite>
@@ -1258,21 +1858,55 @@
     </credits>
   </course>
   <course>
-    <title>Digital Control of Mechanical Systems</title>
+    <title>Introduction to Finite Element Analysis</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MECH</subject>
+        <courseNumber>451</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1125</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Matrix methods of analysis. Finite element stiffness method. Computer programs. Applications to structures and soils. Introduction to finite element analysis of fluid flow.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Experimental Stress Analysis I</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>MECH</subject>
         <courseNumber>452</courseNumber>
       </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>MECH</subject>
+        <courseNumber>852</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1125</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">MECH 450.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">MECH 325.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to digital measurement and control of mechanical systems. Applications of analysis and synthesis of discrete time systems.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Investigation of the basic theories and techniques associated with the analysis of stress using mechanical strain gages, electric strain gages, brittle lacquer, photoelasticity, and membrane analogy.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -1297,10 +1931,14 @@
         <subject>MECH</subject>
         <courseNumber>453</courseNumber>
       </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>MECH</subject>
+        <courseNumber>853</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1141</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">MECH 350.</div>
     </prerequisite>
@@ -1319,6 +1957,46 @@
       <term>Summer</term>
     </termsOffered>
     <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Introduction to Continuum Modeling</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MECH</subject>
+        <courseNumber>454</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>MECH</subject>
+        <courseNumber>854</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1125</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">MATH 221/821, MECH 325 and MECH 373.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Basic concepts of continuum modeling. Development of models and solutions to various mechanical, thermal and electrical systems. Thermo-mechanical and electro-mechanical coupling effects. Differential equations, dimensional methods and similarity.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
@@ -1408,6 +2086,163 @@
     </credits>
   </course>
   <course>
+    <title>Mechatronic Systems Design</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MECH</subject>
+        <courseNumber>457</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>MECH</subject>
+        <courseNumber>857</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1141</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">ELEC 231; MECH 350 or parallel.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Lab sessions allow for constructing mechatronic systems. Lab time arranged. A comprehensive design project included. Theory, application, simulation, and design of systems that integrate mechanical, computer, and electronic components.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities>
+      <activity>
+        <type>lab</type>
+        <hours>2</hours>
+      </activity>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Digital Control of Mechanical Systems</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MECH</subject>
+        <courseNumber>458</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>MECH</subject>
+        <courseNumber>858</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">MECH 450.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to digital measurement and control of mechanical systems. Applications of analysis and synthesis of discrete time systems.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Introduction to Vibrations and Acoustics</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MECH</subject>
+        <courseNumber>475</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1125</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">MECH 373 and MATH 221.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Linear response of one and two degree of freedom systems. Rotating imbalance, vibration isolation. Fundamentals of wave motion, vibrating strings and bars. Acoustic wave equation, acoustic impedances, sound propagation, traveling wave solutions, separation of variables. The Helmholtz resonator. Acoustic waves in pipes. Experiments in mechanical vibrations and acoustics.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Numerical Methods in Engineering</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MECH</subject>
+        <courseNumber>480</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>MECH</subject>
+        <courseNumber>880</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1125</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">MATH 221/821; and Computer Programming. Linear Algebra recommended.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Credit towards the degree cannot be earned in both CSCE/MATH 340/840 and MECH 480/880.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Numerical algorithms and their convergence properties in: solving nonlinear equations; direct and iterative schemes for linear systems of equations; eigenvalue problems; polynomial and spline interpolation; curve fitting; numerical integration and differentiation; initial and boundary values problems for Ordinary Differential Equations (ODEs) and systems of ODEs with applications to engineering; finite difference methods for partial differential equations (potential problems, heat-equation, wave-equation).</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Thermal Fluids Laboratory</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -1482,16 +2317,66 @@
     </credits>
   </course>
   <course>
+    <title>Special Topics in Engineering Mechanics</title>
+    <courseCodes>
+      <courseCode type="grad tie-in">
+        <subject>MECH</subject>
+        <courseNumber>891</courseNumber>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>MECH</subject>
+        <courseNumber>491</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1125</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Permission.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">See current Schedule of Classes for offerings.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Treatment of special topics in engineering mechanics by experimental, computational and/or theoretical methods. Topics vary from term to term.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">6</credit>
+      <credit type="Per Career Limit">6</credit>
+    </credits>
+  </course>
+  <course>
     <title>Laboratory and Analytical Investigations</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>MECH</subject>
         <courseNumber>498</courseNumber>
       </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>MECH</subject>
+        <courseNumber>898</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1141</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Investigation and written report of research into specific problem in any major area of mechanical engineering.</div>
     </description>
@@ -1553,7 +2438,32 @@
     </credits>
   </course>
   <course>
-    <title>Turbomachinery</title>
+    <title>Analytical Methods in Engineering I</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MECH</subject>
+        <courseNumber>801</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1125</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Basic topics in real analysis and linear algebra with examples of applications from diverse branches of engineering and applied physics.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Analytical Methods in Engineering II</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>MECH</subject>
@@ -1562,12 +2472,12 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <effectiveSemester>1125</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">MECH 300 and MECH/CIVE 310</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">MECH *801 or permission</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Thermodynamic analysis and design of axial and radial flow turbines, compressors and pumps. Fundamentals of the operating characteristics and performance parameters of turbomachines. Cavitation and blade element theory.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Continuation of MECH *801 topics in complex analysis, linear algebra, ordinary and partial differential equations, and other areas of applied mathematics. Examples of applications from diverse branches of engineering and applied physics.</div>
     </description>
     <campuses>
       <campus></campus>
@@ -1575,188 +2485,7 @@
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
-    <activities>
-      <activity>
-        <type>lec</type>
-        <hours>3</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Internal Combustion Engines</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>MECH</subject>
-        <courseNumber>803</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">MECH 300 or equivalent</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Basic cycle analysis and engine types, fundamental thermodynamics and operating characteristics of various engines analyzed, combustion processes for spark and compression-ignition engines, fuels, testing procedures and lubrication systems evaluated. Thermodynamic evaluation of the performance and the basic operation of various engine types.</div>
-    </description>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>lab</type>
-        <hours>2</hours>
-      </activity>
-      <activity>
-        <type>lec</type>
-        <hours>3</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Theory of Combustion</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>MECH</subject>
-        <courseNumber>804</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">MECH 300, 820 or permission</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Stoichiometric analysis of combustion processes. Energy transfer, flame propagation and transformation velocities during combustion. Combustor applications and design considerations. Emission formation and methods of control.</div>
-    </description>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>lec</type>
-        <hours>3</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Air Conditioning Systems Design</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>MECH</subject>
-        <courseNumber>806</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">MECH 300 or equivalent</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">A comprehensive design project is an integral part of course. Application of thermodynamic and fluid dynamic principles to the design of air conditioning systems.</div>
-    </description>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <activities>
-      <activity>
-        <type>lec</type>
-        <hours>3</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Power Plant Systems Design</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>MECH</subject>
-        <courseNumber>807</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">MECH 300 or equivalent</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">A comprehensive design project is an integral part of course. Application of thermodynamic and fluid dynamic principles to the design of power plants.</div>
-    </description>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <activities>
-      <activity>
-        <type>lec</type>
-        <hours>3</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Heat Exchanger Design</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>MECH</subject>
-        <courseNumber>808</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">MECH 300 or equivalent</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Practical exercises in actual design tasks. Design methodology for various heat exchangers employed in mechanical engineering. Introduction to computer-aided design as applied to heat exchangers.</div>
-    </description>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <activities>
-      <activity>
-        <type>lec</type>
-        <hours>3</hours>
-      </activity>
-    </activities>
+    <activities/>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
@@ -1835,21 +2564,21 @@
     </credits>
   </course>
   <course>
-    <title>Aerodynamics</title>
+    <title>Introduction to Piezoelectricity with Applications</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>MECH</subject>
-        <courseNumber>813</courseNumber>
+        <courseNumber>843</courseNumber>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <effectiveSemester>1125</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">MECH 200 and 310</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">MECH 325, 373, or equivalent, or permission</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Subsonic and supersonic airflow theory, dynamics of flight performance parameters, rotor analysis and special topics.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Electrostatics, equations of piezoelectricity, static solutions, propagation of plane waves, waves in plates, surface waves, equations for piezoelectric rods and plates in extension and flexure, finite element formulation, finite element analysis of static, time-harmonic, and transient problems with applications in smart structures and piezoelectric devices.</div>
     </description>
     <campuses>
       <campus></campus>
@@ -1857,32 +2586,27 @@
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
-    <activities>
-      <activity>
-        <type>lec</type>
-        <hours>3</hours>
-      </activity>
-    </activities>
+    <activities/>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
   </course>
   <course>
-    <title>Compressible Flow</title>
+    <title>Advanced Dynamics</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>MECH</subject>
-        <courseNumber>814</courseNumber>
+        <courseNumber>847</courseNumber>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <effectiveSemester>1125</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">MECH 300 and 310</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">MECH 373 and MATH 821</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Analysis of the flow of compressible fluids by means of the momentum equation, continuity equation, and the laws of the thermodynamics and some application of thermodynamics laws to incompressible fluids.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Particle dynamics using Newton’s laws, energy principles, momentum principles. Rigid body dynamics using Euler’s equations and Lagrange’s equations. Variable mass systems. Gyroscopic motion.</div>
     </description>
     <campuses>
       <campus></campus>
@@ -1890,32 +2614,31 @@
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
-    <activities>
-      <activity>
-        <type>lec</type>
-        <hours>3</hours>
-      </activity>
-    </activities>
+    <activities/>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
   </course>
   <course>
-    <title>Two-Phase Flow</title>
+    <title>Introduction to Finite Element Analysis</title>
     <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>CIVE</subject>
+        <courseNumber>851</courseNumber>
+      </courseCode>
       <courseCode type="home listing">
         <subject>MECH</subject>
-        <courseNumber>815</courseNumber>
+        <courseNumber>851</courseNumber>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <effectiveSemester>1125</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">or parallel: MECH 310 and 380</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">MECH 325 and MECH 880 or permission</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Transport phenomena of homogeneous and heterogeneous types of mixtures such as solid-liquid, solid-gas, liquid-liquid and liquid-gas. Properties of components and mixtures. Flow induced vibrations and parameter distributions. Optimization and design problems in multiphase systems.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Matrix methods of analysis. The finite element stiffness method. Computer programs. Applications to structures and soils. Introduction to finite element analysis of fluid flow.</div>
     </description>
     <campuses>
       <campus></campus>
@@ -1923,36 +2646,27 @@
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
-    <activities>
-      <activity>
-        <type>lab</type>
-        <hours>3</hours>
-      </activity>
-      <activity>
-        <type>lec</type>
-        <hours>2</hours>
-      </activity>
-    </activities>
+    <activities/>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
   </course>
   <course>
-    <title>Engineering Acoustics</title>
+    <title>Vibration Theory and Applications</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>MECH</subject>
-        <courseNumber>816</courseNumber>
+        <courseNumber>875</courseNumber>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <effectiveSemester>1125</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">MECH 310 and MATH 821</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">MECH 373 and MATH 821</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Transverse and longitudinal traveling waves; acoustic wave equation of fluids; reflection, transmission, radiation, reception, absorption and attenuation of sound; acoustic cavities and waveguides; and sound propagation in pipes, resonators and filters.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Variational principles, Lagranges’ equation. Equations of motion for multi-degree of freedom systems. Free vibration eigenvalue problem: modal analysis. Forced vibrations: general solutions, resonance, effect of damping, and superposition. Vibrations of continuous systems: vibrations frequencies and mode shapes for bars, membranes, beams, and plates. Experimental methods and techniques.</div>
     </description>
     <campuses>
       <campus></campus>
@@ -1960,329 +2674,7 @@
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
-    <activities>
-      <activity>
-        <type>lec</type>
-        <hours>3</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Heat Transfer</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>MECH</subject>
-        <courseNumber>820</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">MECH 310</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Heat transfer by conduction, convection and radiation. Correlation of theory with experimental data and engineering design.</div>
-    </description>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>lec</type>
-        <hours>3</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Solar Energy Engineering</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>MECH</subject>
-        <courseNumber>825</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">MECH 820 or permission</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Conversion of solar energy into more useful forms with emphasis on environmental heating and cooling applications. Includes solar energy availability, solar collectors and design, solar systems and their simulation and solar economics.</div>
-    </description>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <activities>
-      <activity>
-        <type>lec</type>
-        <hours>3</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Intermediate Kinematics</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>MECH</subject>
-        <courseNumber>842</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">MECH 342</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Analytic cam design. The geometry of constrained plane motion and application to the design of mechanisms. Analysis and synthesis of pin-jointed linkage mechanisms.</div>
-    </description>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <activities>
-      <activity>
-        <type>lec</type>
-        <hours>3</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Intermediate Dynamics of Machinery</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>MECH</subject>
-        <courseNumber>844</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">MECH 342 and 350</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Fundamentals of vibration, vibration and impact in machines, balance of rotors, flexible rotor dynamics and instabilities, parametric vibration, advanced dynamics and design of cam mechanisms, dynamics of flywheel.</div>
-    </description>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <activities>
-      <activity>
-        <type>lec</type>
-        <hours>3</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Mechanical Engineering Design Concepts</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>MECH</subject>
-        <courseNumber>845</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">MECH 200, 310, 342, and 350</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Development of design concepts. Introduction to synthesis techniques and mathematical analysis methods. Applications of these techniques to mechanical engineering design projects.</div>
-    </description>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <activities>
-      <activity>
-        <type>lab</type>
-        <hours>3</hours>
-      </activity>
-      <activity>
-        <type>lec</type>
-        <hours>2</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Mechanical Engineering Control Systems Design</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>MECH</subject>
-        <courseNumber>850</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">MECH 350</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Applications of control systems analysis and synthesis for mechanical engineering equipment. Control systems for pneumatic, hydraulic, kinematic, electromechanical and thermal systems.</div>
-    </description>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <activities>
-      <activity>
-        <type>lab</type>
-        <hours>2</hours>
-      </activity>
-      <activity>
-        <type>lec</type>
-        <hours>2</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Digital Control of Mechanical Systems</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>MECH</subject>
-        <courseNumber>852</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">MECH 450</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to digital measurement and control of mechanical systems. Applications of analysis and synthesis of discrete time systems.</div>
-    </description>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <activities>
-      <activity>
-        <type>lab</type>
-        <hours>3</hours>
-      </activity>
-      <activity>
-        <type>lec</type>
-        <hours>2</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Robotics: Kinematics and Design</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>MECH</subject>
-        <courseNumber>853</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">MECH 350</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Robotics synthesize some aspects of human function by the use of mechanisms, sensors, actuators and computers.</div>
-    </description>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <activities>
-      <activity>
-        <type>lec</type>
-        <hours>3</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Mechatronic Systems Design</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>MECH</subject>
-        <courseNumber>857</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ELEC 231; MECH 350 or parallel</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Lab sessions allow for constructing mechatronic systems. Lab time arranged. A comprehensive design project included. Theory, application, simulation, and design of systems that integrate mechanical, computer, and electronic components.</div>
-    </description>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <activities>
-      <activity>
-        <type>lab</type>
-        <hours>2</hours>
-      </activity>
-      <activity>
-        <type>lec</type>
-        <hours>3</hours>
-      </activity>
-    </activities>
+    <activities/>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
@@ -2303,6 +2695,43 @@
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Introduction to nuclear physics, radiation interaction with matter, reactor fundamentals, and the application of equipment and principles associated with reactor safety and operations.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Nonlinear Optimization in Engineering</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>IMSE</subject>
+        <courseNumber>888</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>MECH</subject>
+        <courseNumber>888</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1125</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">MATH 208/208H and 314/814; MECH 480/880; and permission</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Nonlinear optimization using gradient-based and evolutionary methods. Constrained and unconstrained nonlinear optimization, Karush-Kuhn-Tucker conditions, penalty and barrier methods. Applications to optimal design in sciences and engineering.</div>
     </description>
     <campuses>
       <campus></campus>
@@ -2351,42 +2780,6 @@
     </activities>
     <credits>
       <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Laboratory and Analytical Investigations</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>MECH</subject>
-        <courseNumber>898</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Investigation and written report of research into a specific problem in any major area of mechanical engineering.</div>
-    </description>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>lab</type>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Lower Range Limit">1</credit>
-      <credit type="Upper Range Limit">6</credit>
-      <credit type="Per Career Limit">6</credit>
     </credits>
   </course>
   <course>
@@ -2482,6 +2875,34 @@
     </credits>
   </course>
   <course>
+    <title>Continuum Mechanics</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MECH</subject>
+        <courseNumber>910</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1125</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">MECH 848 and permission</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">The continuum. Geometrical foundations of continuum mechanics. Rectilinear and curvilinear frames. Elements of tensor analysis. Analysis of stress. Analysis of strain. Equations of motion. Constitutive equations. Fundamental laws. Applications to deformable systems.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Advanced Topics in Fluid Dynamics</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -2504,6 +2925,43 @@
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Stress Waves in Solids</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MECH</subject>
+        <courseNumber>915</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1125</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">MECH 848; MECH 849; or permission.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Waves in rods, beams, strings, and membranes. Sound waves in air. Dilational and distortional waves. Reflection and refraction of waves. Rayleigh surface waves. Love waves. Applications of transform theory and the method of stationary phase to wave analysis. Waves in anisotropic and viscoelastic media.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
     <activities>
       <activity>
         <type>lec</type>
@@ -2541,6 +2999,36 @@
       <term>Fall</term>
       <term>Spring</term>
     </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Fundamentals of Finite Elements</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MECH</subject>
+        <courseNumber>918</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1125</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Derivation and implementation of the finite element method. Introduction to the theory of finite element methods for elliptic boundary-value problems. Applications to time-independent physical phenomena (e.g., deformation of elastic bodies, heat conduction, steady-state fluid flow, electrostatics, flow through porous media). Basic coding techniques. A basic understanding of ordinary differential equations and matrix algebra as well as some programming skills are assumed.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
     <activities>
       <activity>
         <type>lec</type>
@@ -2651,6 +3139,39 @@
     </credits>
   </course>
   <course>
+    <title>Mechanics of Composite Materials</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MECH</subject>
+        <courseNumber>930</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1125</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">MECH 848 or permission</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to composite materials. Properties of an anisotropic lamina. Laminated composites. Failure theories. Analysis of composite structures.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Advanced Finite Element Methods</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -2679,6 +3200,329 @@
         <hours>3</hours>
       </activity>
     </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Theory of Elasticity I</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MECH</subject>
+        <courseNumber>933</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1125</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">MECH 848 and MATH 821</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Plane stress and strain. Solution of two-dimensional problems by polynomials. Two-dimensional problems in polar coordinates. Triaxial stress and strain. Torsion of noncircular cross section. Bending of prismatical bars. Hydrodynamical analogies.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Theory of Elasticity II</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MECH</subject>
+        <courseNumber>934</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1125</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">MECH 933.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Foundation of the theory of large deformation. Equations of linear elasticity. Complex representation of the general solution of the equations of plane theory of elasticity. Conformal mapping. Solutions of problems in three-dimensional elasticity in terms of potential functions. Axially symmetric problems. Variational methods.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Nonlinear Mechanics</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MECH</subject>
+        <courseNumber>935</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1125</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">MECH 848, MECH 849.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Physical systems in solid mechanics which lead to nonlinear differential equations. Graphical, numerical, and exact solutions of the governing differential equations. Physical interpretation of the solution.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Theory of Elastic Stability</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MECH</subject>
+        <courseNumber>936</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1125</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">MECH 325 or 373 and MATH 821</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Lateral buckling of beams; failure of columns; bending and buckling of thin plates and shells. Consideration of classical and modern theories.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Theory of Plates and Shells I</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MECH</subject>
+        <courseNumber>937</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1125</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">MECH 848 and MATH 821</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Basic equations for the bending and stretching of thin plates with small deformations. General theory of deformation of thin shells with small deflections. Large deformations theories of plates and shells. Effect of edge conditions.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Theory of Plates and Shells II</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MECH</subject>
+        <courseNumber>938</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1125</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">MECH 848, MATH 821.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Large deflection shell theory. Critical examination of effects of boundary conditions. Additional topics from folded plates, orthotropic plates and shells, sandwich plates and shells, use of complex transformations.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Viscoelasticity</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MECH</subject>
+        <courseNumber>939</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1125</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">MECH 848 or MECH 913, MATH 821 or MATH 822, or premission.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to linear and nonlinear viscoelastic material behavior. One dimensional response. Linearity of material response. Quasi-static and dynamic problems. Time-temperature superposition. Viscoelastic beams. Multidimensional response. Nonlinear response.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Fracture Mechanics</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MECH</subject>
+        <courseNumber>940</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1125</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">MECH 848 or permission</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Modes of failure. Elastic stress field near cracks. Theories of brittle fracture. Elastic fracture mechanics. Elastic-plastic analysis of crack extension. Fracture toughness testing.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Mechanics of Dislocations and Cracks</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MECH</subject>
+        <courseNumber>941</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1125</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">MECH 848 or permission</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Mathematical theory of straight dislocations in isotropic and anisotropic elastic media. Dislocations on and near an interface. Dislocation interactions. Discrete and continuously distributed dislocations. Applications to mechanics of materials: grain boundaries and dislocation pile-ups. Applications to fracture mechanics: Griffith-Inglish crack, Zener-Stroh-Koehler crack, Bilby-Cottrell-Swinden-Dugdale crack.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Theory of Plasticity</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MECH</subject>
+        <courseNumber>942</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1125</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">MECH 933</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Basic concepts of plasticity. Yield conditions and yield surfaces. Torsion of cylindrical bars and Saint Venant-Mises and Prandtl-Reuss theories. General theory of plane strain and shear lines. Steady and pseudo-steady plastic flow. Extremum principles. Engineering applications.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities/>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
@@ -2758,9 +3602,9 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <effectiveSemester>1125</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ENGM/CIVE 851</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">MECH/CIVE 851</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Design and analysis of structures that undergo impact. Nonlinear, large-deformation finite element analysis of structures. Vehicle crashworthiness, roadside safety design, sheet metal forming, and projectile impacts.</div>
@@ -2782,6 +3626,71 @@
     </credits>
   </course>
   <course>
+    <title>Advanced Topics in Finite Element Methods</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MECH</subject>
+        <courseNumber>951</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1125</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">MECH 851 or 918, or permission</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Theory and application of finite element methods. Topic varies with interest of instructor and may include: finite elements for the analysis of fracture; mixed variational formulations; hybrid stress elements; plasticity; non-linear elasticity; large deformations of structures; plate and shell elements; transverse shear effects in beams, plates and shells; “locking” phenomena; treatment of singularities; dynamics of large systems; “enhanced” strain methods; methods for solving non-linear algebraic systems; architecture of computer codes for non-linear finite element analysis; and treatment of constraints arising in nearly incompressible material models.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Experimental Stress Analysis II</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MECH</subject>
+        <courseNumber>952</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1125</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">MECH 848 and 852</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Surface strains and their measurement, principally by bonded wire resistance strain gages. Static and dynamic measurements using both oscilloscope and direct writing oscillograph, associated electrical circuits. Use of brittle coating in conjunction with strain gages. Evaluation of stresses from strain data.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities>
+      <activity>
+        <type>lab</type>
+        <hours>3</hours>
+      </activity>
+      <activity>
+        <type>lec</type>
+        <hours>2</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Advanced Mechatronics</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -2793,7 +3702,7 @@
     <dfRemoval>false</dfRemoval>
     <effectiveSemester>1118</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">MECH 457/857 or permission</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">MECH 457/457 or permission</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Theory, application, simulation, and design of systems that integrate mechanical, computer, and electronics components. Analyze, design, simulate, and build mechatronic systems.</div>
@@ -2814,6 +3723,34 @@
         <hours>3</hours>
       </activity>
     </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Advanced Vibrations</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MECH</subject>
+        <courseNumber>975</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1125</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">MECH *875</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Variational mechanics, Hamilton’s principle, and energy formulations for linearly elastic bodies. Eigenvalue and boundary value problems. Non-self adjoint systems. Approximate methods: Ritz and Galerkin. Gyroscopic systems. Nonconservative systems. Perturbation theory for the eigenvalue problem. Dynamics of constrained systems.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>

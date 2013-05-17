@@ -12,7 +12,7 @@
     <dfRemoval>false</dfRemoval>
     <effectiveSemester>1138</effectiveSemester>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml"><br/>12 hours max special topics hours at all levels (100, 200, 300, 400) per degree. BRDC 191/191X may be repeated up to three times so long as the topics are different.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml"><br/>12 hours max special topics hours at all levels (100, 200, 300, 400) per degree. BRDC 191 may be repeated up to three times so long as the topics are different.</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Topics vary each term.</div>
@@ -284,7 +284,7 @@
     <dfRemoval>false</dfRemoval>
     <effectiveSemester>1138</effectiveSemester>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">12 hours max special topics hours at all levels (100, 200, 300, 400) per degree. BRDC 291/291X may be repeated up to three times so long as the topics are different.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">12 hours max special topics hours at all levels (100, 200, 300, 400) per degree. BRDC 291 may be repeated up to three times so long as the topics are different.</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Topics vary each term.</div>
@@ -328,7 +328,7 @@
       <div xmlns="http://www.w3.org/1999/xhtml">Junior standing; JOMC 163; BRDC 227.</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">BRDC 359 is a production track course, and is a prereq for BRDC 362.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">BRDC 359 is a production track course, and is a prereq for BRDC 462.</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Concepts, theories, technologies and techniques needed for planning, scripting, shooting, and editing different genres and styles of professional, single?camera video productions, features, music videos, instructional videos, commercials, and drama. Composition, continuity, sequencing, aesthetics, and audiences. Operation of professional video cameras and non?linear editing and graphics software.</div>
@@ -369,7 +369,7 @@
       <div xmlns="http://www.w3.org/1999/xhtml">Junior standing; JOMC 163; BRDC 228.</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">BRDC 360 is a production track course, and it is a prereq for BRDC 362.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">BRDC 360 is a production track course, and it is a prereq for BRDC 462.</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Writing scripts and preparing materials for broadcast, cable, and video streaming production processes. Audience composition thorough research of topics, and adaptation to concurrent delivery through multiple mass media technologies. Awareness of diverse audiences and use of statistics.</div>
@@ -389,46 +389,6 @@
       <activity>
         <type>lec</type>
         <hours>3</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Advanced Production</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>BRDC</subject>
-        <courseNumber>362</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>letter grade only</gradingType>
-    <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1128</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">BRDC 359 and 360.</div>
-    </prerequisite>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">BRDC 362 is the capstone course in the production track.</div>
-    </notes>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Produce a weekly, long-form, edited television program to be distributed to a mass audience. Directing a weekly, live, thirty-minute television studio newscast. Advanced operation of studio equipment, graphics software and non-linear editing equipment. Prepare demo materials for a professional portfolio.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>lab</type>
       </activity>
     </activities>
     <credits>
@@ -563,6 +523,9 @@
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
+    <aceOutcomes>
+      <slo>10</slo>
+    </aceOutcomes>
   </course>
   <course>
     <title>Sports Broadcasting</title>
@@ -650,7 +613,7 @@
     <dfRemoval>false</dfRemoval>
     <effectiveSemester>1138</effectiveSemester>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">12 hours max special topics hours at all levels (100, 200, 300, 400) per degree. BRDC 391/391X may be repeated up to three times so long as the topics are different.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">12 hours max special topics hours at all levels (100, 200, 300, 400) per degree. BRDC 391 may be repeated up to three times so long as the topics are different.</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Topics vary each term.</div>
@@ -865,6 +828,56 @@
     </credits>
   </course>
   <course>
+    <title>Advanced Production</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>BRDC</subject>
+        <courseNumber>462</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>BRDC</subject>
+        <courseNumber>862</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">BRDC 228, BRDC 359 and BRDC 360.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">BRDC 462 is the capstone course in the production track.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Produce multiple long-form, edited television programs to be distributed to a mass audience. Directing a weekly, live, thirty-minute television studio newscast. Advanced operation of studio equipment, graphics software and non-linear editing equipment. Prepare demo materials for a professional portfolio.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lab</type>
+      </activity>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">6</credit>
+    </credits>
+    <aceOutcomes>
+      <slo>10</slo>
+    </aceOutcomes>
+  </course>
+  <course>
     <title>International Broadcasting</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -1072,7 +1085,7 @@
     <dfRemoval>false</dfRemoval>
     <effectiveSemester>1138</effectiveSemester>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">12 hours max special topics hours at all levels (100, 200, 300, 400) per degree. BRDC 491/491X may be repeated up to three times so long as the topics are different.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">12 hours max special topics hours at all levels (100, 200, 300, 400) per degree. BRDC 491 may be repeated up to three times so long as the topics are different.</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Topics vary each term.</div>

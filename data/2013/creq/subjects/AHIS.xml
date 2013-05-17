@@ -10,7 +10,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1108</effectiveSemester>
+    <effectiveSemester>1138</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Survey of the history of art from the earliest times to the end of the Medieval period.</div>
     </description>
@@ -44,7 +44,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <effectiveSemester>1138</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Survey of the history of art from the Renaissance period to the present.</div>
     </description>
@@ -67,6 +67,45 @@
     <aceOutcomes>
       <slo>7</slo>
     </aceOutcomes>
+  </course>
+  <course>
+    <title>Classical Antiquity in Popular Culture</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CLAS</subject>
+        <courseNumber>121</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>AHIS</subject>
+        <courseNumber>121</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">On the representation of ancient Greek and Roman literature, mythology, and history in contemporary American popular culture, including film, television, and graphic novels.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
   </course>
   <course>
     <title>University Honors Seminar</title>

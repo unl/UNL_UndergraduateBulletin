@@ -633,6 +633,43 @@
     </credits>
   </course>
   <course>
+    <title>Boundary-layer Meteorology</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>METR</subject>
+        <courseNumber>433</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>METR</subject>
+        <courseNumber>833</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">METR 205, METR 223; MATH 208/MATH 208H or MATH 109H; PHYS 211/PHYS 211H.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Basic concepts of atmospheric turbulence and fundamental dynamics, thermodynamics, and structure of the atmospheric boundary layer are discussed.  Atmospheric boundary layer parameterizations used in modern weather and climate models are presented.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Advanced Synoptic Meteorology-Climatology</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -1088,6 +1125,48 @@
     <aceOutcomes>
       <slo>10</slo>
     </aceOutcomes>
+  </course>
+  <course>
+    <title>Tropical Meteorology</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>METR</subject>
+        <courseNumber>471</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>METR</subject>
+        <courseNumber>871</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">METR 223 and METR 311.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Atmospheric phenomena unique to the tropics, and their connection to the global circulation.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
   </course>
   <course>
     <title>Physical Climatology</title>
@@ -1811,6 +1890,39 @@
     </description>
     <campuses>
       <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Land-atmosphere Interactions</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>METR</subject>
+        <courseNumber>933</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">METR 433/833, or equivalent</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Investigate the physical processes involved in land-atmosphere interactions, focusing on the coupling between land surfaces (especially the soil and vegetation cover) and the atmospheric boundary layer.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
     </campuses>
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>

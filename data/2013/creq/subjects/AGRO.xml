@@ -112,10 +112,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1115</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Survey of turfgrass and landscape management, occupations, and introductory lawn and landscape management.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to careers, internships and co-curricular activities in turfgrass and landscape management.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -125,13 +125,11 @@
     </deliveryMethods>
     <termsOffered>
       <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
     </termsOffered>
     <activities>
       <activity>
-        <type>lab</type>
-        <hours>2</hours>
+        <type>lec</type>
+        <hours>1</hours>
       </activity>
     </activities>
     <credits>
@@ -882,55 +880,6 @@
     </credits>
   </course>
   <course>
-    <title>Agribusiness Entrepreneurship</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>HORT</subject>
-        <courseNumber>288</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>AGRO</subject>
-        <courseNumber>288</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>EAEP</subject>
-        <courseNumber>288</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>ENTR</subject>
-        <courseNumber>288</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1111</effectiveSemester>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Hort 288 requires completion of a marketing plan specific to agricultural enterprises based on a business idea.</div>
-    </notes>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Overview of types of agricultural enterprises. Basic accounting principles as they relate to agricultural businesses.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-      <deliveryMethod>Web</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Spring</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>lec</type>
-        <hours>2</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">2</credit>
-    </credits>
-  </course>
-  <course>
     <title>Internship in Agronomy</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -1537,6 +1486,52 @@
       <term>Fall</term>
     </termsOffered>
     <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Agribusiness Entrepreneurship</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>HORT</subject>
+        <courseNumber>388</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>AGRO</subject>
+        <courseNumber>388</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>EAEP</subject>
+        <courseNumber>388</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>ENTR</subject>
+        <courseNumber>388</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Overview of types of agricultural enterprises. Basic accounting principles as they relate to agricultural businesses.  Requires completion of a marketing plan specific to agricultural enterprises based on a business idea.  Student team projects with emphasis on marketing.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+      <deliveryMethod>Web</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
@@ -4956,6 +4951,49 @@
     </credits>
   </course>
   <course>
+    <title>Graduate Degree Project Credits</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>AGRO</subject>
+        <courseNumber>894</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>HORT</subject>
+        <courseNumber>894</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>pass/no pass only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1141</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Admission to Master of Agronmy or Horticulture degree program.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Project activity for the nonthesis option II MS degree.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Design, develop and complete a project that requires synthesis of the course topics covered in the primary area of emphasis.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>ind</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">6</credit>
+      <credit type="Per Career Limit">6</credit>
+    </credits>
+  </course>
+  <course>
     <title>Master of Applied Science Project</title>
     <courseCodes>
       <courseCode type="crosslisting">
@@ -5706,16 +5744,16 @@
       </courseCode>
       <courseCode type="crosslisting">
         <subject>HORT</subject>
-        <courseNumber>950</courseNumber>
+        <courseNumber>992</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
         <subject>NRES</subject>
-        <courseNumber>950</courseNumber>
+        <courseNumber>992</courseNumber>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Permission</div>
     </prerequisite>
@@ -5728,7 +5766,11 @@
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">1</credit>
       <credit type="Per Career Limit">5</credit>

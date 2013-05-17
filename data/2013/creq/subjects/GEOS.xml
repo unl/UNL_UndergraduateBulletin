@@ -102,9 +102,9 @@
         <courseNumber>900</courseNumber>
       </courseCode>
     </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <gradingType>pass/no pass only</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Professional skills. Time management, laboratory and field safety, abstract writing, proposal writing, grantsmanship, and presentations. The philosophy and ethical conduct of science.</div>
     </description>
@@ -114,14 +114,19 @@
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
     <activities>
       <activity>
         <type>lec</type>
-        <hours>1</hours>
+        <hours>2</hours>
       </activity>
     </activities>
     <credits>
-      <credit type="Single Value">1</credit>
+      <credit type="Single Value">2</credit>
     </credits>
   </course>
   <course>

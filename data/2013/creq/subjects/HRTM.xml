@@ -43,15 +43,12 @@
         <courseNumber>172</courseNumber>
       </courseCode>
     </courseCodes>
-    <gradingType>pass/no pass only</gradingType>
+    <gradingType>letter grade only</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1101</effectiveSemester>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">HRTM major.</div>
     </prerequisite>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">HRTM 172 is 'Pass/No Pass only'.</div>
-    </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Supervised individual professional experience with a qualified cooperating practicing professional in hospitality management.</div>
     </description>
@@ -84,15 +81,12 @@
         <courseNumber>173</courseNumber>
       </courseCode>
     </courseCodes>
-    <gradingType>pass/no pass only</gradingType>
+    <gradingType>letter grade only</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1101</effectiveSemester>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Culinology major.</div>
     </prerequisite>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">HRTM 173 is 'Pass/No Pass only'.</div>
-    </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Supervised work experience under the direction of an Executive or sous Chef in a restaurant.</div>
     </description>
@@ -115,6 +109,44 @@
     </activities>
     <credits>
       <credit type="Single Value">1</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Introduction to Food and Beverage in the Hospitality Industry</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>HRTM</subject>
+        <courseNumber>274</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">HRTM major/minor or PGM major</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Principles of food and beverage management focused on menu planning; procurement; quality; regulation; performance and food service operations.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
     </credits>
   </course>
   <course>
@@ -330,10 +362,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>letter grade only</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1111</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ACCT 201.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">ACCT 200 or 201.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Analysis techniques for managerial and operational decision-making based on fundamental concepts of managerial accounting.</div>
@@ -369,9 +401,9 @@
     </courseCodes>
     <gradingType>letter grade only</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1125</effectiveSemester>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ECON 211</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">HRTM Major or Minor; Junior standing.</div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">HRTM 360 is for letter grade only.</div>
@@ -410,9 +442,9 @@
     </courseCodes>
     <gradingType>letter grade only</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1125</effectiveSemester>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Sophmore standing; CULS or FACS or HRTM or PGAM major.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Sophmore standing; CULS or CYAF or HRTM or PGAM major.</div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">HRTM 373 requires field trips. HRTM 373 is 'Letter Grade only'.</div>
@@ -575,15 +607,12 @@
         <courseNumber>397</courseNumber>
       </courseCode>
     </courseCodes>
-    <gradingType>pass/no pass only</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1101</effectiveSemester>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Sophomore standing; HRTM major; HRTM 172.</div>
     </prerequisite>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">HRTM 397 is 'Pass/No Pass only'.</div>
-    </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Entry level supervisory experience with a practicing professional in catering, restaurants, tourism, event planning, and lodging.</div>
     </description>
@@ -707,7 +736,7 @@
     </courseCodes>
     <gradingType>letter grade only</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1108</effectiveSemester>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">HRTM 397 and permission of the Hospitality Management Committee.</div>
     </prerequisite>
@@ -715,7 +744,7 @@
       <div xmlns="http://www.w3.org/1999/xhtml">HRTM 476/876 requires a total of 400 hours of full-time experience. HRTM 476/876 is 'Letter Grade only'.</div>
     </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Approved professional experience as an entry-level manager in the declared emphasis area of the hospitality industry.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Approved professional experience as an entry-level manager in the hospitality industry.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -940,6 +969,48 @@
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Introduction to basic skills of financial management in a hospitality industry setting.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Human Resources Management in the Hospitality Industry</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>HRTM</subject>
+        <courseNumber>484</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>HRTM</subject>
+        <courseNumber>884</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">HRTM Major or Minor and Junior Standing.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Study of management and human resource systems common in the hospitality industry. Case studies, role plays, and simulations are used to examine management and human resource problems unique to the hospitality industry.</div>
     </description>
     <campuses>
       <campus>UNL</campus>

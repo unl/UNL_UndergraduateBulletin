@@ -118,6 +118,10 @@
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
+    <aceOutcomes>
+      <slo>6</slo>
+      <slo>8</slo>
+    </aceOutcomes>
   </course>
   <course>
     <title>Introduction to Economics</title>
@@ -199,6 +203,50 @@
     </aceOutcomes>
   </course>
   <course>
+    <title>Honors: Principles of Macroeconomics</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ECON</subject>
+        <courseNumber>211</courseNumber>
+        <courseLetter>H</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Open only to CBA Honors Academy students in good standing or by permission.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <em>Required for College of Business Administration major and for Arts and Sciences economics major. Credit towards degree cannot be earned in both ECON 210 and in ECON 211 or ECON211H and/or ECON212 or ECON212H.</em>
+      </div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to the nature and methods of economics. Economic systems. Measurement and analysis of aggregate variables, such as national income, consumption, saving, investment, international payments, employment, price indices, money supply, and interest rates. Fiscal, monetary, and other policies for macroeconomic stabilization and growth are evaluated.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Principles of Microeconomics</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -241,6 +289,48 @@
     </aceOutcomes>
   </course>
   <course>
+    <title>Honors: Principles of Microeconomics</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ECON</subject>
+        <courseNumber>212</courseNumber>
+        <courseLetter>H</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Open only to CBA Honors Academy students in good standing or by permission.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Credit toward the degree cannot be earned in both ECON210, and in ECON211 or ECON211H and/or ECON 212 or ECON212H.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Continuation of an introduction to economic methods. With emphasis on analysis and evaluation of markets. Includes demand, supply, elasticity, production costs, consumption utility, monopoly, competition, monopolistic competition, oligopoly, allocative and technical efficiency, and income distribution. Analysis applied to resource markets, unions, antitrust laws, agriculture, international trade, and other economic problems and policies.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Statistics</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -267,6 +357,53 @@
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
       <deliveryMethod>Web</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+    <aceOutcomes>
+      <slo>3</slo>
+    </aceOutcomes>
+  </course>
+  <course>
+    <title>Honors: Statistics</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ECON</subject>
+        <courseNumber>215</courseNumber>
+        <courseLetter>H</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Open only to CBA Honors Academy students in good standing or by permission.  Sophomore standing; MATH 104 or MATH 106 or MATH 108H; BSAD 150; 2.5 GPA.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <em>Credit toward the degree in the College of Business Administration cannot be earned in both ECON 215H, and STAT 218 or EDPS 459 or CRIM 300; or in both ECON 215H and SOCI 206. </em>
+      </div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to the collection, analysis, and interpretation of statistical data used in economics and business. Probability analysis, sampling, hypothesis testings, analysis of trends and seasonality, correlation, and simple regressions.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
     <termsOffered>
       <term>Fall</term>
@@ -2423,13 +2560,13 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">ECON 211, 212, and 215</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">This course is intended for MA Option II students and others who do not plan to proceed to PhD studies. Analysis of the performance of a market economy developing applications of macroeconomic models with emphasis on imperfect information, expectations, business cycles, growth and stabilization, and policymaking in a stochastic environment.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Course prepares student for applied macroeconomic analysis in a business, governmental or academic setting. Empirical modeling strategies are developed from theoretical underpinnings to implementation, including data collection, estimation, forecasting, simulation, presentation and interpretation.</div>
     </description>
     <campuses>
       <campus></campus>
@@ -2437,7 +2574,11 @@
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>

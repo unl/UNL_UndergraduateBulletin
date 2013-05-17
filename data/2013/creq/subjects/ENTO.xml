@@ -679,12 +679,12 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1108</effectiveSemester>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Introductory biology course.</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Offered spring semester of even-numbered calendar years on the Internet via the World Wide Web. Credit toward the degree cannot be earned in both ENTO 303 and ENTO 403/803.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Offered spring semester of even-numbered calendar years on the Internet via the World Wide Web.</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">The biology, ecology and management of insect pests of horticultural crops such as vegetables, fruit trees, trees and shrubs, greenhouse crops, turf and ornamentals. Employing Integrated Pest Management (IPM) strategies to maintain pests below damaging levels while minimizing the use of traditional insecticides.</div>
@@ -774,9 +774,9 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1108</effectiveSemester>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">12 hrs agricultural sciences and/or biological sciences including one course in entomology and one course in genetics. AGRO/HORT 481/881/RNGE 441 recommended.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">12 hrs agricultural sciences and/or biological sciences including one course in entomology and one course in genetics. AGRO/HORT 441/841/RNGE 441 recommended.</div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">Offered spring semester of odd-numbered calendar years.</div>
@@ -1207,6 +1207,49 @@
     </credits>
   </course>
   <course>
+    <title>Insect Biodiversity</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ENTO</subject>
+        <courseNumber>800</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">12 hrs. of biological sciences, graduate standing and ENTO 116 or equivalent for entomology majors.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Offered fall semester of odd-numbered years.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Classification, taxonomy, and biology of adult insects.  Identification of orders and families of insects using keys.  Collection required using techniques for collecting, preparing, and curating.  One oral/written term paper required.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lab</type>
+        <hours>3</hours>
+      </activity>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">4</credit>
+    </credits>
+  </course>
+  <course>
     <title>Biological Control of Pests</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -1396,7 +1439,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1131</effectiveSemester>
+    <effectiveSemester>1141</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Introductory course in entomology</div>
     </prerequisite>
@@ -1404,7 +1447,7 @@
       <div xmlns="http://www.w3.org/1999/xhtml">ENTO *818 is offered in summer session on the Internet via the World Wide Web (WWW). Credit toward the degree may not be earned in both ENTO 800 and ENTO *818.</div>
     </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Application of entomology to legal issues. Criminal investigations, insects of forensic importance, insect succession on carrion, and case studies.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Biology and identification of major insect orders, families, classification, and ecology.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -1617,6 +1660,43 @@
       <activity>
         <type>rct</type>
         <hours>1</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Introduction to the Development of Distance Education Courses</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ALEC</subject>
+        <courseNumber>806</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>ENTO</subject>
+        <courseNumber>830</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1141</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to practical aspects of developing and facilitating distance education courses. Create and facilitate interaction, assessments, course delivery, assignments, course etiquette and ADA compliance. Develop a distance course module grounded in distance education theory and instructional design principles.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Web</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
       </activity>
     </activities>
     <credits>
