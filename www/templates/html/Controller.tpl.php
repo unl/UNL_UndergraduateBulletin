@@ -39,7 +39,7 @@ $page->head .= '
 ';
 
 // Check if the year of this edition indicates it has not been published
-if (mktime(0, 0, 0, 8, 1, $context->getEdition()->year) > time() ) {
+if (mktime(0, 0, 0, 6, 1, $context->getEdition()->year) > time() ) {
     $page->head .= <<<UNPUBLISHED
     <meta name="robots" content="noindex" />
     <script type="text/javascript">
