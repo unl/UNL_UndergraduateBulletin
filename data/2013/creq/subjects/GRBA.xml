@@ -223,6 +223,43 @@
     </credits>
   </course>
   <course>
+    <title>Financial Accounting</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>GRBA</subject>
+        <courseNumber>809</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Admission to the MBA program and/or permission of the MBA director</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">GRBA809 is not open to Masters of Professional Accountancy (MPA) students.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Basics of financial accounting and reporting. The construction of financial statements and their interpretation for internal and external users of financial information.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+      <deliveryMethod>Web</deliveryMethod>
+    </deliveryMethods>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Contemporary Managerial Accounting</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -363,29 +400,34 @@
     </credits>
   </course>
   <course>
-    <title>Operations and Information Systems Strategy</title>
+    <title>Supply Chain Management Strategies</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>GRBA</subject>
         <courseNumber>815</courseNumber>
       </courseCode>
     </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Admission to the MBA program and/or permission of the MBA director</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Admission to the MBA or MPA program and/or permission of the MBA director</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Understanding of how operations and information systems can be used to capture competitive advantage in the marketplace. Relationships between operations and information systems and other functional areas of organizations, e.g., marketing, finance, and engineering/research and development.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Strategic implications for the management and coorindation of supply chains, including both internal and external operations and the information systems necessary for support.  Relationships between operations and information systems and other functional areas of organizations, e.g., accounting, marketing, finance, and engineering/R&amp;amp;D are evaluated, along with relationships with other organizations in the supply chain, are emphasized.</div>
     </description>
     <campuses>
       <campus></campus>
     </campuses>
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
+      <deliveryMethod>Web</deliveryMethod>
     </deliveryMethods>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>

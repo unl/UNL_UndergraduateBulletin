@@ -47,6 +47,11 @@ class UNL_UndergraduateBulletin_CourseSearch_DBSearcher extends UNL_Services_Cou
     {
         return "crosslistings.courseNumber LIKE '$number%' AND crosslistings.subjectArea='$subject'";
     }
+
+    function subjectAndNumberSuffixQuery($subject, $number)
+    {
+        return "crosslistings.courseNumber LIKE '%$number' AND crosslistings.subjectArea='$subject'";
+    }
     
     function numberPrefixQuery($number)
     {
@@ -75,13 +80,21 @@ class UNL_UndergraduateBulletin_CourseSearch_DBSearcher extends UNL_Services_Cou
         }
         return $this->subjectAndNumberPrefixQuery($subject, $number);
     }
-    
+
     function numberQuery($number, $letter = null)
     {
         if (isset($letter)) {
             $number .= $letter;
         }
         return "crosslistings.courseNumber LIKE '$number%'";
+    }
+
+    function numberSuffixQuery($number, $letter = null)
+    {
+        if (isset($letter)) {
+            $number .= $letter;
+        }
+        return "crosslistings.courseNumber LIKE '%$number'";
     }
 
     function creditQuery($credits)
