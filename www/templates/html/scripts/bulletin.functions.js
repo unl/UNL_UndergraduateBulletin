@@ -157,10 +157,10 @@ $(document).ready(function() {
         $('#versioning .action').click();
     }
 
-    $('#courseSearch, #majorSearch').attr("autocomplete", "off");
+    WDN.jQuery('#courseSearch, #majorSearch').attr("autocomplete", "off");
 
     if ($('#courseSearch').length > 0){
-        $('#courseSearch').autocomplete({
+        WDN.jQuery('#courseSearch').autocomplete({
             delay: 555,
             minLength: 2,
             search: function(event, ui){
@@ -170,7 +170,7 @@ $(document).ready(function() {
                 }
             },
             source: function(request, response) {
-                $.ajax({
+                WDN.jQuery.ajax({
                     url: UNL_UGB_URL+'courses/search?q='+request.term+'&format=json&limit=10',
                     dataType: "json",
                     success: function(data) {
@@ -205,12 +205,12 @@ $(document).ready(function() {
                 window.location.href = UNL_UGB_URL+'courses/search?q='+ui.item.value;
             }
         }).data( "autocomplete" )._renderItem = function( ul, item ) {
-            return $( "<li></li>" )
+            return WDN.jQuery( "<li></li>" )
                 .data( "item.autocomplete", item )
                 .append( "<a>"+ item.label + "</a>" )
                 .appendTo( ul );
         };
-        $('#courseSearch').keypress(function(event){
+        WDN.jQuery('#courseSearch').keypress(function(event){
             var e = event.keyCode;
             keyMatch = false;
             if(e == 27 || e == 9 || e == 13){
@@ -220,11 +220,11 @@ $(document).ready(function() {
         });
     }
     if ($('#majorSearch').length > 0) {
-        $('#majorSearch').autocomplete({
+        WDN.jQuery('#majorSearch').autocomplete({
             delay: 555,
             minLength: 3,
             source: function(request, response) {
-                $.ajax({
+                WDN.jQuery.ajax({
                     url: UNL_UGB_URL+'major/search?q='+request.term+'&format=json',
                     dataType: "json",
                     success: function(data) {
@@ -249,7 +249,7 @@ $(document).ready(function() {
                 window.location.href = UNL_UGB_URL+'major/'+ui.item.value;
             }
         }).data( "autocomplete" )._renderItem = function( ul, item ) {
-            return $( "<li></li>" )
+            return WDN.jQuery( "<li></li>" )
                 .data( "item.autocomplete", item )
                 .append( "<a>"+ item.label + "</a>" )
                 .appendTo( ul );
