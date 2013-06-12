@@ -112,6 +112,10 @@ a.top {
     margin-bottom:0;
 }
 
+#maincontent p + .sec_header, #maincontent p + .title-1 {
+    margin-top: 1em;
+}
+
 #maincontent p.faculty-list + p.basic-text {
     margin-top:1em;
 }
