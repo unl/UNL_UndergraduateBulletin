@@ -14,9 +14,11 @@ UNL_UndergraduateBulletin_Major_Description::setEpubToTitleMap(array(
     'LGBTQ Sexuality Studies Minor'                                          => 'Lesbian, Gay, Bisexual, Transgender, Queer/Sexuality Studies Minor',
     'Mild_Moderate Disabilities Education (7-12)'                            => 'Mild/Moderate Disabilities Education (7-12)',
     'Modern Languages-French German & Russian Minor (ENGR)'                  => 'Modern Languages-French, German & Russian Minor (ENGR)',
+    'Nutrition_Exercise & Health Sciences'                                   => 'Nutrition, Exercise & Health Sciences',
     'PreHealth_PreLaw & Combined Degree Prog'                                => 'Pre-Health, Pre-Law and Combined Degree Programs',
     'Public Policy Analysis_Program Eval Cert'                               => 'Public Policy Analysis & Program Evaluation Certification',
     'Textiles_Merchandising & Fashion Design_Communications'                 => 'Textiles, Merchandising & Fashion Design/Communications',
+    'Textiles_Merchandizing & Fashion Design Minor (CEHS)'                   => 'Textiles, Merchandizing & Fashion Design Minor (CEHS)',
     'Womens & Gender Studies'                                                => 'Women\'s & Gender Studies',
 ));
 
