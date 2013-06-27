@@ -103,13 +103,13 @@ class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_
             $data = preg_replace('/<title>.*<\/title>/',
                                 '<title>'.self::$replacement_data['doctitle'].'</title>',
                                 $data);
-            unset(self::$replacement_data['doctitle']);
+            //unset(self::$replacement_data['doctitle']);
         }
 
         if (isset(self::$replacement_data['head'])
             && strstr($data, '</head>')) {
             $data = str_replace('</head>', self::$replacement_data['head'].'</head>', $data);
-            unset(self::$replacement_data['head']);
+            //unset(self::$replacement_data['head']);
         }
 
         if (isset(self::$replacement_data['breadcrumbs'])
@@ -119,7 +119,7 @@ class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_
             $end = strpos($data, '<!-- InstanceEndEditable -->', $start);
 
             $data = substr($data, 0, $start).self::$replacement_data['breadcrumbs'].substr($data, $end);
-            unset(self::$replacement_data['breadcrumbs']);
+            //unset(self::$replacement_data['breadcrumbs']);
         }
 
         if (isset(self::$replacement_data['pagetitle'])
@@ -129,7 +129,7 @@ class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_
             $end = strpos($data, '<!-- InstanceEndEditable -->', $start);
 
             $data = substr($data, 0, $start).self::$replacement_data['pagetitle'].substr($data, $end);
-            unset(self::$replacement_data['pagetitle']);
+            //unset(self::$replacement_data['pagetitle']);
         }
         return $data;
     }
