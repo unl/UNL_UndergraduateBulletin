@@ -8,6 +8,11 @@
         <courseNumber>100</courseNumber>
         <courseGroup>American Government, Politics and Law</courseGroup>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>POLS</subject>
+        <courseNumber>100</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
@@ -88,7 +93,7 @@
       <div xmlns="http://www.w3.org/1999/xhtml">Open to freshmen only.</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Not open to students with credit in HIST 110/HIST 110X or HIST 111/111X or POLS 100.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Not open to students with credit in HIST 110 or HIST 111 or POLS 100.</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Develops an historical perspective on current American political problems. The peculiar American relationship to questions of scarcity and how our political institutions have been shaped by those questions.</div>
@@ -175,9 +180,6 @@
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
-    <aceOutcomes>
-      <slo>6</slo>
-    </aceOutcomes>
   </course>
   <course>
     <title>Introduction to Biology, Psychology, and Politics</title>
@@ -1212,7 +1214,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1128</effectiveSemester>
+    <effectiveSemester>1138</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Immigration as a multifaceted sociopolitical phenomenon. The history of different waves of immigration to the United States. Emphasis on the diversity within every immigrant group, as well as differences and similarities regarding their acculturation process. Public attitudes towards immigration in historical perspective. The American political system's capacity to incorporate newcomers into civic life.</div>
     </description>
@@ -1230,9 +1232,12 @@
     <activities>
       <activity>
         <type>lec</type>
-        <hours>2.5</hours>
+        <hours>3</hours>
       </activity>
     </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
     <aceOutcomes>
       <slo>9</slo>
     </aceOutcomes>
@@ -1776,6 +1781,40 @@
     </credits>
   </course>
   <course>
+    <title>Transnational Criminal Networks</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>POLS</subject>
+        <courseNumber>377</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Causes, consequences and aftermath of drugs and thugs (war criminals, drugs/arms traffickers and modern-day caudillos, among others) and their role in contemporary international and human security.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>American Political Thought</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -2306,9 +2345,9 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">12 hrs communication studies, including COMM 130 or permission.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">12 hrs communication studies, or permission.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Role of communication in the political process, with emphasis on communication strategies in political campaigns. Includes communication variables important in the political process, an application of communication theory and principles to political rhetoric, and analysis and criticism of selected political communication events.</div>

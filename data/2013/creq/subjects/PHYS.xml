@@ -257,7 +257,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1108</effectiveSemester>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">MATH 102 or equivalent high school preparation.</div>
     </prerequisite>
@@ -366,17 +366,16 @@
     </credits>
   </course>
   <course>
-    <title>Honors: Modern Topics in Physics and Astronomy</title>
+    <title>Modern Topics in Physics and Astronomy</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>PHYS</subject>
         <courseNumber>201</courseNumber>
-        <courseLetter>H</courseLetter>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Seminar/workshop that introduces students to topics in modern physics research in basic and applied areas. Students given an understanding of how their studies relate to current progress in physics and astronomy and to prepare for careers in physics-related disciplines.</div>
     </description>
@@ -388,8 +387,6 @@
     </deliveryMethods>
     <termsOffered>
       <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
     </termsOffered>
     <activities/>
     <credits>
@@ -1231,9 +1228,9 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">PHYS 213 or CHEM 481/881, MATH 220/820 or 221/821, or permission.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">PHYS 213 or CHEM 481/881, MATH 221/821, or permission.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Introduction to structural, thermal, electrical, and magnetic properties of solids, based on concepts of atomic structure, chemical bonding in molecules, and electron states in solids. Principles underlying molecular design of materials and solid-state devices.</div>
@@ -1455,9 +1452,9 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">PHYS 213; MATH 220/820 or 221/821.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">PHYS 213; MATH 221/821.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Theory of electric and magnetic fields and their interaction with charges and currents, Maxwell's equations, electric and magnetic properties of matter.</div>

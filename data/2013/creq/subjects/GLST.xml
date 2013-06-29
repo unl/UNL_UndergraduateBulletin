@@ -39,24 +39,65 @@
     </aceOutcomes>
   </course>
   <course>
-    <title>Internship in International Studies</title>
+    <title>Contemporary Issues in Global Studies</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>GLST</subject>
+        <courseNumber>201</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>pass/no pass only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Global Studies major</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Pass/No Pass only.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">This course is designed to acquaint students with key contemporary international topics/issues.  Students will also acquire knowledge regarding the structure of the Global Studies major, and program their course of study for the major.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>1</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">1</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Internship in Global Studies</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>GLST</subject>
         <courseNumber>395</courseNumber>
       </courseCode>
     </courseCodes>
-    <gradingType>unrestricted</gradingType>
+    <gradingType>pass/no pass only</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1128</effectiveSemester>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Permission.</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Students must apply to the Chief Adviser of International Studies the semester preceding the one in which they wish to register. GLST 395 is 'Pass/No Pass only'.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Students must apply to the Chief Adviser of Global Studies the semester preceding the one in which they wish to register. GLST 395 is 'Pass/No Pass only'.</div>
     </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Internship program in a foreign country or in the United States with a governmental or private agency involved in international issues.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Internship program in a foreign country or in the United States with a governmental or private agency involved in global issues.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -75,8 +116,7 @@
       </activity>
     </activities>
     <credits>
-      <credit type="Lower Range Limit">1</credit>
-      <credit type="Upper Range Limit">6</credit>
+      <credit type="Single Value">3</credit>
       <credit type="Per Career Limit">6</credit>
     </credits>
   </course>

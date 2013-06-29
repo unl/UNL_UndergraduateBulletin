@@ -71,6 +71,16 @@ class UNL_UndergraduateBulletin_Major implements UNL_UndergraduateBulletin_Cache
         return $this->_subjectareas;
     }
 
+    /**
+     * Get the Four-Year-Plans associated with this major
+     *
+     * @return UNL_UndergraduateBulletin_Major_FourYearPlans
+     */
+    public function getFourYearPlans()
+    {
+        return new UNL_UndergraduateBulletin_Major_FourYearPlans($this);
+    }
+
     function getColleges()
     {
         return $this->getDescription()->colleges;

@@ -38,7 +38,7 @@
     </credits>
   </course>
   <course>
-    <title>Engineering in Agricultural and Biological Systems</title>
+    <title>Computer-Aided Problem-Solving</title>
     <courseCodes>
       <courseCode type="crosslisting">
         <subject>AGEN</subject>
@@ -50,13 +50,13 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">BSEN/AGEN 100.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">BSEN 100/AGEN 100 and high school physics, or permission.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to the fields of biological systems and agricultural engineering. Problem solving techniques and procedures through the use of spreadsheets, symbolic processors, and graphical methods. Emphasis on problem/solution communications with topics and problems from agricultural and biological systems.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Problem solving techniques and procedures through the use of Excel, MATLAB, and graphical methods. Emphasis on problem/solution communications with topics and problems from agricultural engineering and biological systems engineering.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -304,12 +304,12 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1125</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">AGEN or BSEN 225.</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Parallel: ENGM 373.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Parallel: MECH 373.</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Analysis and evaluation of machines and associated components for biological and agricultural systems; analysis of unit operations and physical properties of biological materials associated with the production and processing of agricultural crops and products.</div>
@@ -477,9 +477,9 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1131</effectiveSemester>
+    <effectiveSemester>1125</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Senior standing and ENGM 325.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Senior standing and MECH 325.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Design of machine elements. Definition, analysis, and solution of a design problem in agricultural engineering.</div>
@@ -612,9 +612,9 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1125</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ENGM 325.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">MECH 325.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Engineering design for strength, economy, function and safety of light-frame structures; emphasis on wood, concrete, and steel elements; design project required.</div>
@@ -754,10 +754,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1131</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Senior standing or permission.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">ELEC 211 or ELEC 215; or permission.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Analysis and design of instrumentation and controls for agricultural and biological production, management and processing. Theory of basic sensors and transducers, analog and digital electrical control circuits, and the interfacing of computers with instruments and controls. Emphasis on signal analysis and interpretation for improving system performance.</div>
@@ -770,12 +770,15 @@
     </deliveryMethods>
     <termsOffered>
       <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
     </termsOffered>
     <activities>
       <activity>
+        <type>lab</type>
+        <hours>2</hours>
+      </activity>
+      <activity>
         <type>lec</type>
+        <hours>2</hours>
       </activity>
     </activities>
     <credits>

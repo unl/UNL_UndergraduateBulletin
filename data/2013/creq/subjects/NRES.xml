@@ -214,6 +214,11 @@
         <subject>NRES</subject>
         <courseNumber>108</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>NRES</subject>
+        <courseNumber>108</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
@@ -288,6 +293,40 @@
     </activities>
     <credits>
       <credit type="Single Value">1</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Natural Resource Conservation in Society</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>NRES</subject>
+        <courseNumber>111</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Explore and distinguish the values, civics, and stewardship of natural resource conservation in agricultural and natural ecosystems.  Examine the philosophies of ecosystem services and stewardship within a dynamic human dominated world.  Students will discuss and critically analyze current issues related to conservation of natural resources.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
     </credits>
   </course>
   <course>
@@ -1424,10 +1463,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">BIOS 101, 101L, and 112; or BIOS 103.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">LIFE 121 &amp;amp; LIFE 121L.</div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">BIOS/NRES 386 requires field trips and includes trips outside of normal classtime.</div>
@@ -2066,9 +2105,9 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">9 hrs earth science or natural resource sciences including GEOG 150 and 152, or 155.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">9 hrs earth science or natural resource sciences including GEOG 155.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Introduction to remote sensing of the earth from aerial and satellite platforms. Aerial photography, multispectral scanning, thermal imaging and microwave remote sensing techniques. Physical foundations of remote sensing using electromagnetic energy, energy-matter interactions, techniques employed in data acquisition and methods of image analysis. Weekly laboratory provides practical experience in visual and digital interpretation of aerial photography, satellite imagery, thermal and radar imagery. Applications in geographic, agricultural, environmental and natural resources analyses.</div>
@@ -2707,15 +2746,12 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1091</effectiveSemester>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">NRES 311.</div>
     </prerequisite>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Offered in fall of even-numbered years. Offered in summer of odd-numbered years at Cedar Point Biological Station.</div>
-    </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Survey of quantitative techniques used in wildlife management. Scientific method of wildlife science; surveys; habitat use and classification; forensic methods; and population inventories. Introduction to the use of computer-based geographic information systems (GIS) in a natural resource context.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Survey of methods used to obtain data and make decisions for wildlife management. Scientific methods for wildlife science; monitoring and surveys; construction of management plans; habitat use, classification, and management; harvest management.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -2725,6 +2761,55 @@
     </deliveryMethods>
     <termsOffered>
       <term>Fall</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+    <aceOutcomes>
+      <slo>10</slo>
+    </aceOutcomes>
+  </course>
+  <course>
+    <title>Wildlife Management Techniques Lab</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>NRES</subject>
+        <courseNumber>433</courseNumber>
+        <courseLetter>L</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>NRES</subject>
+        <courseNumber>833</courseNumber>
+        <courseLetter>L</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">NRES 222.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Offered off-campus during academic breaks at Cedar Point Biological Station.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Field and laboratory skills needed for wildlife management emphasizing wildlife and vegetation surveys, mark-recapture of wildlife, radio-telemetry, aging and forensic methods, and habitat assessment.  Course fee $180.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
     <activities>
@@ -2732,17 +2817,10 @@
         <type>lab</type>
         <hours>3</hours>
       </activity>
-      <activity>
-        <type>lec</type>
-        <hours>3</hours>
-      </activity>
     </activities>
     <credits>
-      <credit type="Single Value">4</credit>
+      <credit type="Single Value">1</credit>
     </credits>
-    <aceOutcomes>
-      <slo>10</slo>
-    </aceOutcomes>
   </course>
   <course>
     <title>Envronmental Education and Interpretation</title>
@@ -3827,7 +3905,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1091</effectiveSemester>
+    <effectiveSemester>1138</effectiveSemester>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">May also be offered at Cedar Point Biological Station.</div>
     </notes>
@@ -3840,25 +3918,62 @@
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-    </termsOffered>
     <activities>
-      <activity>
-        <type>lab</type>
-        <hours>3</hours>
-      </activity>
       <activity>
         <type>lec</type>
         <hours>3</hours>
       </activity>
     </activities>
     <credits>
-      <credit type="Single Value">4</credit>
+      <credit type="Single Value">3</credit>
     </credits>
     <aceOutcomes>
       <slo>10</slo>
     </aceOutcomes>
+  </course>
+  <course>
+    <title>Fisheries Science Lab</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>NRES</subject>
+        <courseNumber>463</courseNumber>
+        <courseLetter>L</courseLetter>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>NRES</subject>
+        <courseNumber>863</courseNumber>
+        <courseLetter>L</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">May also be offered at Cedar Point Biological Station.  Course fee is $200.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Field and laboratory skills needed for fisheries biology emphasizing the determination and evaluation of vital statistics for the management of fish populations.  Applied data collection and fish sampling techniques will be used.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lab</type>
+        <hours>1</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">1</credit>
+    </credits>
   </course>
   <course>
     <title>Fisheries Biology</title>
@@ -5529,6 +5644,39 @@
     </credits>
   </course>
   <course>
+    <title>Adaptive Natural Resource Management</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>NRES</subject>
+        <courseNumber>837</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1141</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">From cultural taboos to the current socio-ecological framework, the art and science of natural resource management has and continues to evolve.  The primary focus of this course is to introduce students to the concepts of structured decision making and adaptive management, but in doing so the course will explore the history of natural resource management and the various management paradigms that have and continue to dominate resource management.  At the completion of this course students will have an understanding of the theory and practice of adaptive management as well as an understanding of why we continue to move toward a more transparent and scientific methodology of natural resource management.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Advanced Topics in Wildlife Damage Management</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -5884,10 +6032,14 @@
         <subject>AECN</subject>
         <courseNumber>883</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>CDEV</subject>
+        <courseNumber>883</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">AECN 141 or ECON 212 or equivalent</div>
     </prerequisite>
@@ -5973,6 +6125,45 @@
     <credits>
       <credit type="Single Value">1</credit>
       <credit type="Per Career Limit">2</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Readings in Aquatic Ecology</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>NRES</subject>
+        <courseNumber>891</courseNumber>
+        <courseLetter>BI</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>pass/no pass only</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1141</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Admission to the Graduate Program in the School of Natural Resources or Permission from Instructor.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">We will read classic (highly cited, generally 25-75 years old) papers and more recent follow-up (&amp;lt;10 years) papers on topics relevant to many areas of aquatic ecology.  The goal is to read the basis of the concepts taught in modern Limnology courses and to see how these concepts are currently evolving in the literature.  Students will be responsible for choosing a topic and classic paper from a list (see below) and finding (with help) a modern follow up to the issue, and then will lead the group discussion on that topic.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>ind</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">3</credit>
+      <credit type="Per Career Limit">3</credit>
     </credits>
   </course>
   <course>
@@ -6451,43 +6642,6 @@
     </credits>
   </course>
   <course>
-    <title>General Seminar</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>AGRO</subject>
-        <courseNumber>992</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>HORT</subject>
-        <courseNumber>950</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>NRES</subject>
-        <courseNumber>950</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Permission</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Expected of all horticulture graduate students and all agronomy PhD students; optional for agronomy MS students. Presentation of thesis or non-thesis topics in agronomy, horticulture or related subjects. For course description, see AGRO 992.</div>
-    </description>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <activities/>
-    <credits>
-      <credit type="Single Value">1</credit>
-      <credit type="Per Career Limit">5</credit>
-    </credits>
-  </course>
-  <course>
     <title>Turbulent Transfer in the Atmospheric Surface Layer</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -6684,6 +6838,47 @@
     </activities>
     <credits>
       <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>General Seminar</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>AGRO</subject>
+        <courseNumber>992</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>HORT</subject>
+        <courseNumber>992</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>NRES</subject>
+        <courseNumber>992</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Permission</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Expected of all horticulture graduate students and all agronomy PhD students; optional for agronomy MS students. Presentation of thesis or non-thesis topics in agronomy, horticulture or related subjects. For course description, see AGRO 992.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">1</credit>
+      <credit type="Per Career Limit">5</credit>
     </credits>
   </course>
   <course>

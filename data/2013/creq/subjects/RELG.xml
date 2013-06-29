@@ -950,9 +950,9 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1121</effectiveSemester>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">JUDS/RELG 205 or 306 or permission.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">JUDS/RELG 205 or permission.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Dead Sea Scrolls, including the history and thought of the Qumran inhabitants, the archaeology of Qumran, and the corpus of the Scrolls. Concentration on the reading of selected primary texts from the Dead Sea Scrolls.</div>
@@ -1095,10 +1095,14 @@
         <subject>RELG</subject>
         <courseNumber>319</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>MRST</subject>
+        <courseNumber>319</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1128</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1141</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Sophomore level standing or higher.</div>
     </prerequisite>
@@ -1820,10 +1824,18 @@
         <subject>RELG</subject>
         <courseNumber>421</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>MRST</subject>
+        <courseNumber>421</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>MRST</subject>
+        <courseNumber>821</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1121</effectiveSemester>
+    <effectiveSemester>1141</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Junior standing.</div>
     </prerequisite>
@@ -1832,6 +1844,74 @@
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">The cultural and intellectual developments of the German Reformation against its social background. The religious and political events of the first half of the sixteenth century. Transition from medieval to modern Christianity. The transmission and revolutionary nature of evangelical doctrines. The gradual institutionalization of the new churches.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Reformation Thought</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>HIST</subject>
+        <courseNumber>426</courseNumber>
+        <courseGroup>European History</courseGroup>
+        <courseGroup>Pre-1800</courseGroup>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>MRST</subject>
+        <courseNumber>426</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>RELG</subject>
+        <courseNumber>426</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>MODL</subject>
+        <courseNumber>426</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>HIST</subject>
+        <courseNumber>826</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>MODL</subject>
+        <courseNumber>826</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>RELG</subject>
+        <courseNumber>826</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>MRST</subject>
+        <courseNumber>826</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Junior standing or permission.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Life and thought of significant figures and schools of thought in the Reformation period</div>
     </description>
     <campuses>
       <campus>UNL</campus>

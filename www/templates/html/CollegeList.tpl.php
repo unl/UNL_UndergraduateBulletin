@@ -1,6 +1,7 @@
 <?php
 $url = UNL_UndergraduateBulletin_Controller::getURL();
-UNL_UndergraduateBulletin_Controller::setReplacementData('doctitle', 'Colleges | Undergraduate Bulletin | University of Nebraska-Lincoln');
+UNL_UndergraduateBulletin_Controller::setReplacementData('doctitle', 'College List | Undergraduate Bulletin | University of Nebraska-Lincoln');
+UNL_UndergraduateBulletin_Controller::setReplacementData('pagetitle', '<h1>College List</h1>');
     UNL_UndergraduateBulletin_Controller::setReplacementData('breadcrumbs', '
 <ul>
     <li><a href="http://www.unl.edu/">UNL</a></li>

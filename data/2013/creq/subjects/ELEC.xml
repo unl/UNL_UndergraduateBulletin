@@ -119,7 +119,13 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1138</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Prerequisite or parallel: MATH 107 and ASTR 131 or PHYS 211.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Not for electrical engineering majors.</div>
+    </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Basic circuit analysis including direct and alternating currents and operational amplifiers. Digital signals and circuits.</div>
     </description>
@@ -520,9 +526,9 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ELEC 222 and 236; prereq or parallel ELEC 370.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">ELEC 222 and ELEC 236; prereq or parallel ELEC 370; admission to the College of Engineering.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Laboratory work on circuits and systems, digital and analog electronic circuits, and electromagnetics.</div>
@@ -536,7 +542,6 @@
     <termsOffered>
       <term>Fall</term>
       <term>Spring</term>
-      <term>Summer</term>
     </termsOffered>
     <activities>
       <activity>
@@ -596,9 +601,9 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ELEC 304 and 307. Prereq or parallel ELEC 306 and 316.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">ELEC 304 and ELEC 307; prereq or parallel ELEC 306 and ELEC 316; admission to the College of Engineering.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Lab work on electromagnetic fields and waves, solid state devices, discrete systems, control systems, and communications.</div>
@@ -612,7 +617,6 @@
     <termsOffered>
       <term>Fall</term>
       <term>Spring</term>
-      <term>Summer</term>
     </termsOffered>
     <activities>
       <activity>
@@ -812,10 +816,14 @@
         <subject>ELEC</subject>
         <courseNumber>400</courseNumber>
       </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>ELEC</subject>
+        <courseNumber>800</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1141</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Senior standing in engineering or permission.</div>
     </prerequisite>
@@ -845,12 +853,16 @@
         <subject>ELEC</subject>
         <courseNumber>406</courseNumber>
       </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>ELEC</subject>
+        <courseNumber>806</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1141</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ELEC 438/838.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">ELEC 438/ELEC 838.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Symmetrical components and fault calculations, power system stability, generator modeling (circuit view point), voltage control system, high voltage DC transmission, and system protection.</div>
@@ -878,10 +890,14 @@
         <subject>ELEC</subject>
         <courseNumber>407</courseNumber>
       </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>ELEC</subject>
+        <courseNumber>807</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1141</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">ELEC 305.</div>
     </prerequisite>
@@ -911,10 +927,14 @@
         <subject>ELEC</subject>
         <courseNumber>408</courseNumber>
       </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>ELEC</subject>
+        <courseNumber>808</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1141</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">ELEC 306.</div>
     </prerequisite>
@@ -947,10 +967,14 @@
         <subject>ELEC</subject>
         <courseNumber>410</courseNumber>
       </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>ELEC</subject>
+        <courseNumber>810</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1141</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">ELEC 305.</div>
     </prerequisite>
@@ -980,10 +1004,14 @@
         <subject>ELEC</subject>
         <courseNumber>416</courseNumber>
       </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>ELEC</subject>
+        <courseNumber>816</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1141</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">PHYS 212.</div>
     </prerequisite>
@@ -1059,10 +1087,14 @@
         <subject>ELEC</subject>
         <courseNumber>420</courseNumber>
       </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>ELEC</subject>
+        <courseNumber>820</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1141</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Senior or graduate standing.</div>
     </prerequisite>
@@ -1149,9 +1181,9 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">PHYS 213 or CHEM 481/881, MATH 220/820 or 221/821, or permission.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">PHYS 213 or CHEM 481/881, MATH 221/821, or permission.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Introduction to structural, thermal, electrical, and magnetic properties of solids, based on concepts of atomic structure, chemical bonding in molecules, and electron states in solids. Principles underlying molecular design of materials and solid-state devices.</div>
@@ -1263,10 +1295,14 @@
         <subject>ELEC</subject>
         <courseNumber>438</courseNumber>
       </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>ELEC</subject>
+        <courseNumber>838</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1141</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">ELEC 216.</div>
     </prerequisite>
@@ -1296,10 +1332,14 @@
         <subject>ELEC</subject>
         <courseNumber>442</courseNumber>
       </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>ELEC</subject>
+        <courseNumber>842</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1141</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">MATH 221.</div>
     </prerequisite>
@@ -1329,10 +1369,14 @@
         <subject>ELEC</subject>
         <courseNumber>444</courseNumber>
       </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>ELEC</subject>
+        <courseNumber>844</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1141</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">ELEC 304.</div>
     </prerequisite>
@@ -1404,12 +1448,16 @@
         <subject>ELEC</subject>
         <courseNumber>454</courseNumber>
       </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>ELEC</subject>
+        <courseNumber>854</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1141</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ELEC 438/838.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">ELEC 438/ELEC 838.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Characteristics and generating units. Control of generation, economic dispatch, transmission losses, unit commitment, generation with limited supply, hydrothermal coordination, and interchange evaluation and power pool.</div>
@@ -1479,12 +1527,16 @@
         <subject>ELEC</subject>
         <courseNumber>462</courseNumber>
       </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>ELEC</subject>
+        <courseNumber>862</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1141</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ELEC 304 and 305.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">ELEC 304 and ELEC 305.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Mathematical descriptions of signals in communication systems. Principles of analog modulation and demodulation. Performance analysis of analog communication systems in the presence of noise.</div>
@@ -1512,10 +1564,14 @@
         <subject>ELEC</subject>
         <courseNumber>463</courseNumber>
       </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>ELEC</subject>
+        <courseNumber>863</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1141</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">ELEC 304.</div>
     </prerequisite>
@@ -1545,10 +1601,14 @@
         <subject>ELEC</subject>
         <courseNumber>464</courseNumber>
       </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>ELEC</subject>
+        <courseNumber>864</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1141</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">ELEC 462.</div>
     </prerequisite>
@@ -1578,10 +1638,14 @@
         <subject>ELEC</subject>
         <courseNumber>465</courseNumber>
       </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>ELEC</subject>
+        <courseNumber>865</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1141</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">ELEC 305.</div>
     </prerequisite>
@@ -1611,10 +1675,14 @@
         <subject>ELEC</subject>
         <courseNumber>467</courseNumber>
       </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>ELEC</subject>
+        <courseNumber>867</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1141</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">ELEC 306.</div>
     </prerequisite>
@@ -1644,10 +1712,14 @@
         <subject>ELEC</subject>
         <courseNumber>468</courseNumber>
       </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>ELEC</subject>
+        <courseNumber>868</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1141</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">ELEC 306.</div>
     </prerequisite>
@@ -1677,10 +1749,14 @@
         <subject>ELEC</subject>
         <courseNumber>469</courseNumber>
       </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>ELEC</subject>
+        <courseNumber>869</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1141</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">ELEC 361.</div>
     </prerequisite>
@@ -1710,10 +1786,14 @@
         <subject>ELEC</subject>
         <courseNumber>470</courseNumber>
       </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>ELEC</subject>
+        <courseNumber>870</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1141</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">ELEC 316.</div>
     </prerequisite>
@@ -1872,10 +1952,14 @@
         <subject>ELEC</subject>
         <courseNumber>486</courseNumber>
       </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>ELEC</subject>
+        <courseNumber>886</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1141</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">ELEC 306 or permission.</div>
     </prerequisite>
@@ -1907,10 +1991,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ELEC 317 or permission.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">ELEC 317 or permission; admission to the College of Engineering</div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">The first in a two semester capstone senior design course sequence.</div>
@@ -1927,7 +2011,6 @@
     <termsOffered>
       <term>Fall</term>
       <term>Spring</term>
-      <term>Summer</term>
     </termsOffered>
     <activities/>
     <credits>
@@ -1943,11 +2026,14 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1088</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ELEC 494 or permission.The first in a two semester capstone senior design course sequence.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">ELEC 494 or permission; admission to the College of Engineering.</div>
     </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">The second in a two semester capstone senior design course sequence.</div>
+    </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Continuation of a substantial design project that allows application of electrical engineering skills to a multidisciplinary project. A project that meets specifications and that is completed according to a pre-determined schedule and within budget. Requires effective written and oral communication of technical ideas, incorporation of realistic constraints and engineering standards, functioning effectively on a multidisciplinary team, and applying new ideas as needed to meet project goals.</div>
     </description>
@@ -2054,541 +2140,6 @@
     </credits>
   </course>
   <course>
-    <title>Electronic Instrumentation</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ELEC</subject>
-        <courseNumber>800</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Applications of analog and digital devices to electronic instrumentation are studied. Transducer, instrumentation amplifiers, mechanical and solid-state switches, data acquisition systems, phase-lock loops and modulation techniques. Demonstrations with working circuits and systems.</div>
-    </description>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <activities/>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Power Systems Analysis</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ELEC</subject>
-        <courseNumber>806</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ELEC 838</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Symmetrical components and fault calculations, power system stability, generator modeling (circuit view point), voltage control system, high-voltage DC transmission, and system protection.</div>
-    </description>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <activities/>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Power Systems Planning</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ELEC</subject>
-        <courseNumber>807</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ELEC 305</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Economic evaluation, load forecasting, generation planning, transmission planning, production simulation, power plant reliability characteristics and generation system reliability.</div>
-    </description>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <activities/>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Engineering Electromagnetics</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ELEC</subject>
-        <courseNumber>808</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ELEC 306</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Laboratory experiments. Applied electromagnetics in digital electronics and communication. Quasistatic electric and magnetic fields (magnetic circuits and electromechanical conversion); guided waves (metallic waveguides and optical fibers); radiation and antennas (line and aperture antennas and arrays).</div>
-    </description>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <activities/>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Multivariate Random Processes</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ELEC</subject>
-        <courseNumber>810</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ELEC 305</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Probability space, random vectors, multivariate distributions, moment generating functions, conditional expectations, discrete and continuous-time random processes, random process characterization and representation, linear systems with random inputs.</div>
-    </description>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <activities/>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Materials and Devices for Computer Memory, Logic, and Display</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ELEC</subject>
-        <courseNumber>816</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">PHYS 212</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Survey of fundamentals and applications of devices used for logic, memory, and display. Magnetic, superconductive, semiconductive, and dielectric materials.</div>
-    </description>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-    </termsOffered>
-    <activities/>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Plasma Processing of Semiconductors</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ELEC</subject>
-        <courseNumber>820</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Physics of plasmas and gas discharges developed. Basic collisional theory, the Boltzman equation and the concept of electron energy distributions. Results related to specific gas discharge systems used in semiconductor processing, such as sputtering, etching, and deposition systems.</div>
-    </description>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <activities/>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Introduction to Electric Power Engineering</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ELEC</subject>
-        <courseNumber>838</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ELEC 216</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Power systems principles, three phase circuits, transmission line parameters, transmission line modeling, transformers, per unit analysis, generator modeling, and power flow analysis.</div>
-    </description>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <activities/>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Basic Analytical Techniques in Electrical Engineering</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ELEC</subject>
-        <courseNumber>842</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">MATH 821</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Applications of partial differential equations, matrices, vector analysis, complex variables, and infinite series to problems in electrical engineering.</div>
-    </description>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <activities/>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Linear Control Systems</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ELEC</subject>
-        <courseNumber>844</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ELEC 304</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Classical (transfer function) and modern (state variable) control techniques. Both time domain and frequency domain techniques. Traditional proportional, lead, lag, and PID compensators examined, as well as state variable feedback.</div>
-    </description>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <activities/>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Power Systems Operation and Control</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ELEC</subject>
-        <courseNumber>854</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ELEC 838</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Characteristics and generating units. Control of generation, economic dispatch, transmission losses, unit commitment, generation with limited supply, hydrothermal coordination, and interchange evaluation and power pool.</div>
-    </description>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <activities/>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Communication Systems</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ELEC</subject>
-        <courseNumber>862</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">or parallel: ELEC 305</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Principles of modulation and demodulation, communication in the presence of noise. Introduction to signal sets and computer communication networks.</div>
-    </description>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <activities/>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Digital Signal Processing</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ELEC</subject>
-        <courseNumber>863</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ELEC 304</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Discrete system analysis using Z-transforms. Analysis and design of digital filters. Discrete Fourier transforms.</div>
-    </description>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Spring</term>
-    </termsOffered>
-    <activities/>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Digital Communication Systems</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ELEC</subject>
-        <courseNumber>864</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ELEC 862</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Principles of digital transmission of information in the presence of noise. Design and analysis of baseband PAM transmission systems and various carrier systems including ASK, FSK, PSK.</div>
-    </description>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <activities/>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Introduction to Data Compression</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ELEC</subject>
-        <courseNumber>865</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ELEC 305</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to the concepts of Information Theory and Redundancy removal. Simulation of various data compression schemes such as Delta Modulation, Differential Pulse Code Modulation, Transform Coding and Runlength Coding.</div>
-    </description>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <activities/>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Electromagnetic Theory and Applications</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ELEC</subject>
-        <courseNumber>867</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ELEC 306</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Engineering application of Maxwell’s equations. Fundamental Parameters of Antennas. Radiation, analysis and synthesis of antenna arrays. Aperture Antennas.</div>
-    </description>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <activities/>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Microwave Engineering</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ELEC</subject>
-        <courseNumber>868</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ELEC 306</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Applications of active and passive devices to microwave systems. Impedance matching, resonators, and microwave antennas.</div>
-    </description>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <activities/>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Analog Integrated Circuits</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ELEC</subject>
-        <courseNumber>869</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ELEC 361</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Analysis and design of analog integrated circuits both bipolar and MOS. Basic circuit elements such as differential pairs, current sources, active loads, output drivers studied and used in the design of more complex analog integrated circuits.</div>
-    </description>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-    </termsOffered>
-    <activities/>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Digital and Analog VLSI Design</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ELEC</subject>
-        <courseNumber>870</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ELEC 316</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to VLSI design techniques for analog and digital circuits. Fabrication technology and device modeling. Design rules for integrated circuit layout. LSI design options with emphasis on the standard cell approach of digital and analog circuits. Lab experiments, computer simulation and layout exercises.</div>
-    </description>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <activities/>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
     <title>Digital Systems Organization and Design</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -2612,43 +2163,6 @@
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
     <activities/>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Applied Photonics</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ELEC</subject>
-        <courseNumber>886</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ELEC 306 or permission</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to the use of electromagnetic radiation for performing optical measurements in engineering applications. Basic electromagnetic theory and light interaction with matter are covered with corresponding laboratory experiments conducted.</div>
-    </description>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <activities>
-      <activity>
-        <type>lab</type>
-        <hours>1</hours>
-      </activity>
-      <activity>
-        <type>lec</type>
-        <hours>2</hours>
-      </activity>
-    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>

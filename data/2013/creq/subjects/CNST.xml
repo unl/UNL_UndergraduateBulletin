@@ -9,8 +9,8 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Development of construction industry communication skills including the ability to read contract documents. Complete comprehension of working drawings, technical terminology including graphic symbols and abbreviations. Fundamentals of drafting principles, sketching, and dimensioning techniques.</div>
     </description>
@@ -23,9 +23,17 @@
     <termsOffered>
       <term>Fall</term>
       <term>Spring</term>
-      <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lab</type>
+        <hours>2</hours>
+      </activity>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
@@ -39,26 +47,27 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Parallel registration in CNST 112 recommended.</div>
-    </prerequisite>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Introduction to basic management principles and practices used in the control of manpower, materials, machinery and money in the construction of the built environment.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
+      <campus>UNO</campus>
     </campuses>
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
     <termsOffered>
       <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>1</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">1</credit>
     </credits>
@@ -72,28 +81,25 @@
       </courseCode>
     </courseCodes>
     <gradingType>letter grade only</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1105</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Sophomore standing; CNST major; CNST 112 or (UNO) CNST 1120. CNST 131; GEOL 101 or (UNO) GEOL 1170, with a grade of 'C' or better; MATH 106 or (UNO) MATH 1950, with a grade of 'C' or better; CNST 251 or (UNO) CNST 2510, or parallel.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">CNST 112, GEOL 101 and MATH 106.</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">CNST 241 is 'Letter Grade only'.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Parallel registration in CNST 252 is recommended.</div>
     </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to earthmoving equipment and methods used in the U.S. construction industry. Labor, productivity, and economic aspects of site, excavation, and foundation work utilizing various mixes of manpower and machinery. Introduction to financial principles of equipment operation and ownership. Excavation and trenching safety plus safe operation of earthmoving equipment.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to earthmoving equipment and methods used in the U.S. construction industry. Labor, productivity, and economic aspects of site, excavation, and foundation work utilizing various mixes of manpower and machinery.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
-      <campus>UNO</campus>
     </campuses>
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
     <termsOffered>
       <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
     </termsOffered>
     <activities>
       <activity>
@@ -114,13 +120,13 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CNST 241 and 251.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">CNST 241.</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">CNST 242 is a continuation of CNST 241.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Parallel registration in CNST 251 is recommended. CNST 242 is a continuation of CNST 241.</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">The structure from grade to topping out. Functions and applications of material handling equipment from simple pulleys to large cranes. Methods of constructing concrete formwork in a variety of applications. Assembly and erection of steel, wood, precast concrete, and masonry structural elements. Material finishing methods and equipment.</div>
@@ -132,13 +138,12 @@
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
     <termsOffered>
-      <term>Fall</term>
       <term>Spring</term>
-      <term>Summer</term>
     </termsOffered>
     <activities>
       <activity>
         <type>lec</type>
+        <hours>3</hours>
       </activity>
     </activities>
     <credits>
@@ -152,40 +157,32 @@
         <subject>CNST</subject>
         <courseNumber>251</courseNumber>
       </courseCode>
-      <courseCode type="crosslisting">
-        <subject>CNST</subject>
-        <courseNumber>2510</courseNumber>
-      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1091</effectiveSemester>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CNST 112/(UNO) CNST 1120; CNST 131/(UNO) CNST 1310; CIVE 252 or parallel; grade of 'C' or better in the science elective.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">CNST 112 and CNST 131.</div>
     </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Parallel registration in CNST 242 is recommended.</div>
+    </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to construction materials. Physical, mechanical, and aesthetic properties of soils, concrete, masonry, metals, plastics, and other materials as they relate to in-service conditions and acceptability either individually or in combination with other materials. Proper methods of specifying to achieve design and construction goals, construction safety and inspection, and to meet zoning codes and environmental requirements.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to construction materials. Physical, mechanical, and aesthetic properties of soils, concrete, masonry, metals, plastics, and other materials as they relate to in-service conditions and acceptability either individually or in combination with other materials. Proper methods of specifying to achieve design and construction goals, construction safety and inspection, and to meet zoning codes and environmental requirements.<br/><br/></div>
     </description>
     <campuses>
       <campus>UNL</campus>
-      <campus>UNO</campus>
     </campuses>
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
     <termsOffered>
-      <term>Fall</term>
       <term>Spring</term>
-      <term>Summer</term>
     </termsOffered>
     <activities>
       <activity>
         <type>lec</type>
         <hours>3</hours>
-      </activity>
-      <activity>
-        <type>rct</type>
-        <hours>1</hours>
       </activity>
     </activities>
     <credits>
@@ -201,28 +198,25 @@
       </courseCode>
     </courseCodes>
     <gradingType>letter grade only</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1105</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Admission to Construction Management degree program; CNST 112 or (UNO) CNST 1120; MATH 106 or (UNO) MATH 1950, with a grade of 'C' or better.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">CNST 112 and MATH 106.</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">CNST 252 laboratory emphasizes testing of aggregates, soil, and concrete. CNST 252 is 'Letter Grade only'.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Parallel registration in CNST 241 is recommended. Laboratory testing procedures emphasizing testing of aggregates, soil, and concrete.</div>
     </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to basic materials used in construction. Laboratory testing and evaluation of material properties. Inspection and quality control of construction materials. Material variation, testing procedures and characteristics of material types, including aggregates.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to basic materials used in construction. Laboratory testing and evaluation of material properties. Inspection and quality control of construction materials. Material variation, testing procedures and characteristics of material types including aggregates.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
-      <campus>UNO</campus>
     </campuses>
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
     <termsOffered>
       <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
     </termsOffered>
     <activities>
       <activity>
@@ -281,29 +275,24 @@
     </credits>
   </course>
   <course>
-    <title>Physical Environmental Systems II</title>
+    <title>Building Environmental Technical Systems II</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>CNST</subject>
         <courseNumber>306</courseNumber>
       </courseCode>
-      <courseCode type="crosslisting">
-        <subject>CNST</subject>
-        <courseNumber>3060</courseNumber>
-      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1091</effectiveSemester>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Grade of 'C' or better in MATH 106/108H/(UNO) MATH 1950 and in the science elective.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">MATH 106 or MATH 108H and PHYS 151 and PHYS 153.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Fundamentals of electric power generation and distribution. Service and circuits in buildings, electrical equipment and systems in buildings, lighting principles and applications, and fire protection systems. Review of National Electric Code.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
-      <campus>UNO</campus>
     </campuses>
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
@@ -317,10 +306,6 @@
       <activity>
         <type>lec</type>
         <hours>3</hours>
-      </activity>
-      <activity>
-        <type>rct</type>
-        <hours>1</hours>
       </activity>
     </activities>
     <credits>
@@ -345,9 +330,9 @@
     </courseCodes>
     <gradingType>letter grade only</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1085</effectiveSemester>
+    <effectiveSemester>1125</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ENGM 220/(UNO) 2200 and 324/(UNO) EMEC 3240.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">MECH 220/(UNO) 2200 and 324/(UNO) EMEC 3240.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Analysis and design of structural members in wood, steel, and concrete. Slabs, joists, beams, girders, and connections. Comparative building designs.</div>
@@ -411,6 +396,42 @@
     <activities>
       <activity>
         <type>stu</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Construction Safety Management</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CNST</subject>
+        <courseNumber>344</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">CNST 242.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introductory construction site safety management including OSHA organization and inspection/enforcement procedures, injury and mortality rates and trends, accident causation theories, human costs of accidents and injuries, safety locus of control, construction site safety inspections and audits, competent person, worker’s compensation, job safety analysis, emergency planning and response, accident investigation and reporting, safety training programs, and 29CFR1926 OSHA Construction Safety and Health Regulations including OSHA record-keeping and reporting requirements.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
       </activity>
     </activities>
     <credits>
@@ -539,10 +560,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CNST 306 and 379.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">CNST 305, CNST 306 and CNST 379.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Application of estimating principles, quantity take-off, bidding strategies, and computerization to the specialty field of electrical construction.</div>
@@ -555,10 +576,13 @@
     </deliveryMethods>
     <termsOffered>
       <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
@@ -576,20 +600,16 @@
       </courseCode>
     </courseCodes>
     <gradingType>letter grade only</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1105</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Junior standing; CIVE 361.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">CIVE 378 or CNST 379</div>
     </prerequisite>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">CNST 411/811 is 'Letter Grade only'.</div>
-    </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">An introduction to construction project administration. Ownership and organization of construction companies, drawings and specifications, type of contracts, take-offs, estimating, bidding, bonds, insurance, project management and administration, scheduling, time and cost management, labor law and labor relations, and project safety.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">An introduction to construction project administration. Ownership and organization of construction companies, construction documentation and specifications, type of contracts, take-offs, estimating, bidding, bonds, insurance, project management and administration, scheduling, time and cost management, labor law and labor relations, and project safety.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
-      <campus>UNO</campus>
     </campuses>
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
@@ -597,7 +617,6 @@
     <termsOffered>
       <term>Fall</term>
       <term>Spring</term>
-      <term>Summer</term>
     </termsOffered>
     <activities>
       <activity>
@@ -616,15 +635,19 @@
         <subject>CNST</subject>
         <courseNumber>415</courseNumber>
       </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>CNST</subject>
+        <courseNumber>815</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1141</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Senior standing; CNST 305 and 306.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">CNST 305, CNST 306, CNST 379.</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">CNST *405 recommended.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">CNST 405 and CNST 406 are recommended.</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Fundamentals of project management within the mechanical and electrical contracting industry. Codes, contract documents, productivity, coordination, project control and administration, scheduling, safety, and project closeout, from a specialty contracting perspective.</div>
@@ -636,11 +659,14 @@
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
     <termsOffered>
-      <term>Fall</term>
       <term>Spring</term>
-      <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
@@ -656,27 +682,21 @@
         <subject>CNST</subject>
         <courseNumber>820</courseNumber>
       </courseCode>
-      <courseCode type="crosslisting">
-        <subject>CNST</subject>
-        <courseNumber>4200</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>CNST</subject>
-        <courseNumber>8206</courseNumber>
-      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1105</effectiveSemester>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Senior standing; (UNL) CNST 379 or (UNO) CNST 3790; and (UNL) BLAW 371 or 372 or (UNO) LAWS 2920, with a grade of 'C' or better.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">CNST 379 and BLAW 300 or BLAW 372.</div>
     </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">This course is a prerequisite for or must be taken parallel with CNST 489.</div>
+    </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Orientation to professional practice through the designers' and the contractors' relationships to society, specific clients, their professions, and other collaborators in environmental design and construction fields. Ethics, professional communication and responsibility, professional organization, office management, construction management, professional registration, and owner-designer-contractor relationships.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
-      <campus>UNO</campus>
     </campuses>
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
@@ -684,7 +704,6 @@
     <termsOffered>
       <term>Fall</term>
       <term>Spring</term>
-      <term>Summer</term>
     </termsOffered>
     <activities>
       <activity>
@@ -700,18 +719,25 @@
     </aceOutcomes>
   </course>
   <course>
-    <title>Professional Trends in Design/Build</title>
+    <title>The Design/Build Project Delivery System</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>CNST</subject>
         <courseNumber>434</courseNumber>
       </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>CNST</subject>
+        <courseNumber>834</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1141</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">CNST 379 or instructor permission.</div>
+    </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">The organizational, managerial, ethical and legal principles in the delivery of design/build as a construction project delivery system.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">The organizational, managerial, ethical and legal principles involved in design/build as a construction project delivery system. Advantages and disadvantages, growth, merits, and criticism of the design-build system.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -721,10 +747,13 @@
     </deliveryMethods>
     <termsOffered>
       <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
@@ -743,9 +772,9 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1128</effectiveSemester>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CNST 112, 131, and 251.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">CNST 112 and CNST 251.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">This course is designed to provide a fundamental understanding of how to research, interpret and apply building code requirements to the design and construction of both new and renovated structures.</div>
@@ -757,10 +786,53 @@
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
     <termsOffered>
-      <term>Fall</term>
       <term>Spring</term>
     </termsOffered>
     <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Introduction to Building Information Modeling (BIM)</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CNST</subject>
+        <courseNumber>440</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>CNST</subject>
+        <courseNumber>840</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">CNST 378 for undergraduate students. Graduate students may enroll only if they have not completed a previous BIM course.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to object-oriented building development tools that use 5-D modeling concepts,information technology and software interoperability to design, construct and operate a building. Construction visualization used as a communication and collaboration tool to manage project details.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lab</type>
+        <hours>1</hours>
+      </activity>
       <activity>
         <type>lec</type>
         <hours>3</hours>
@@ -823,54 +895,39 @@
       </courseCode>
       <courseCode type="crosslisting">
         <subject>CNST</subject>
-        <courseNumber>4800</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>CNST</subject>
         <courseNumber>880</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>CNST</subject>
-        <courseNumber>8806</courseNumber>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1091</effectiveSemester>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Senior standing; CNST 242/(UNO) CNST 2420; grade of 'C' or better in MNGT 360/360H or (UNO) MGMT 3940.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Senior standing, CNST 378, and MNGT 300.</div>
     </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">This course is a prerequisite for or must be taken parallel with CNST 489.</div>
+    </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Motivation and productivity improvement methods in the management of construction workers in their typical job environments. Methods to improve working environments in the field and in the office. Procedures and mechanisms to implement human behavior concepts for enhanced productivity and safety.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Motivation and productivity improvement methods in the management of construction workers in their typical job environments. Methods to improve working environments in the field and in the office. Procedures and mechanisms to implement human behavior and ergonomics concepts for enhanced productivity and safety.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
-      <campus>UNO</campus>
     </campuses>
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
     <termsOffered>
       <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
     </termsOffered>
     <activities>
       <activity>
         <type>lec</type>
         <hours>3</hours>
       </activity>
-      <activity>
-        <type>rct</type>
-        <hours>1</hours>
-      </activity>
     </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
-    <gradPrerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CNST 242/(UNO) CNST 2420; grade of 'C' or better in MNGT 360/360H or (UNO) MGMT 3940.</div>
-    </gradPrerequisite>
   </course>
   <course>
     <title>Heavy and/or Civil Construction</title>
@@ -937,12 +994,16 @@
         <subject>CONE</subject>
         <courseNumber>485</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>CONE</subject>
+        <courseNumber>885</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1141</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CONE/CNST 378; AE 2250 (UNO).</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">CONE 378/CNST 378; AE 2250 (UNO).</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Planning and scheduling a construction project using the critical path methods (CPM) with computer applications. Project pre-planning, logic networks, network construction, time estimates, critical path, float time, crash programs, scheduling, and monitoring project activities.</div>
@@ -978,35 +1039,24 @@
         <subject>CNST</subject>
         <courseNumber>886</courseNumber>
       </courseCode>
-      <courseCode type="crosslisting">
-        <subject>CNST</subject>
-        <courseNumber>4860</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>CNST</subject>
-        <courseNumber>8866</courseNumber>
-      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1091</effectiveSemester>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Grade of 'C' or better in STAT 218 or (UNO) MATH 1530, or equivalent.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">CNST 379</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Application of selected topics in systems analysis (operations research) to construction management: competition strategy; linear programming; queueing; transportation; time-cost trade-off; learning curves; and other models. Computer applications.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Application of selected topics in systems analysis (operations research) to construction management.  Simulation, mathematical optimization, queuing theory, Markov decision processes, econometric modeling, neural networks, data envelopment analysis, decision analysis and analytic hierarchy processes as used in the construction industry.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
-      <campus>UNO</campus>
     </campuses>
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
     <termsOffered>
       <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
     </termsOffered>
     <activities>
       <activity>
@@ -1021,30 +1071,31 @@
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
-    <gradCredits>3</gradCredits>
-    <gradPrerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Grade of 'C' or better in STAT 218 or (UNO) MATH 1530, or equivalent.</div>
-    </gradPrerequisite>
   </course>
   <course>
-    <title>Advanced Construction Management Techniques</title>
+    <title>Residential Construction and Real Estate Development</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>CNST</subject>
         <courseNumber>488</courseNumber>
       </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>CNST</subject>
+        <courseNumber>888</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Junior standing and permission of instructor.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">CNST 379</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Application of project management strategies in estimating, scheduling, project cash flow analysis, planning, marketing, land development, and project presentation in the residential setting. How construction companies analyze, bid, and market their construction plans to owners as part of the preconstruction and bid process.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Application of various strategies to real estate development including community and residential design, planning, site selection, land development, marketing and customer service.   Methods used by construction companies to analyze, bid, and market their developments to customers through the preconstruction and bidding process.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
+      <campus>UNO</campus>
     </campuses>
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
@@ -1052,14 +1103,11 @@
     <termsOffered>
       <term>Fall</term>
       <term>Spring</term>
-      <term>Summer</term>
     </termsOffered>
     <activities>
       <activity>
-        <type>lab</type>
-      </activity>
-      <activity>
         <type>lec</type>
+        <hours>3</hours>
       </activity>
     </activities>
     <credits>
@@ -1073,26 +1121,21 @@
         <subject>CNST</subject>
         <courseNumber>489</courseNumber>
       </courseCode>
-      <courseCode type="crosslisting">
-        <subject>CNST</subject>
-        <courseNumber>4890</courseNumber>
-      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1105</effectiveSemester>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Senior standing; CNST 379 or (UNO) CNST 3790; CNST 420/820 or (UNO) CNST 4200/8206; CNST/CONE 476 or (UNO) CNST/CONE 4760; CNST 480 or (UNO) CNST 4800; and CNST/CONE 485/885 or (UNO) CNST/CONE 4850/8856, or parallel.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">CNST 379; CNST 420, CNST 476/CONE 476, CNST 480 and CNST 485/CONE 485 must be completed as prerequisites or taken parallel.</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">CNST 489/(UNO) CNST 4890 is a capstone course.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">CNST 489 is a capstone course.</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Execution of a construction project involving conceptual design and location, estimating, bidding, site layout, construction organization, planning and scheduling, cost control, records management, and project completion and documentation.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
-      <campus>UNO</campus>
     </campuses>
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
@@ -1100,7 +1143,6 @@
     <termsOffered>
       <term>Fall</term>
       <term>Spring</term>
-      <term>Summer</term>
     </termsOffered>
     <activities>
       <activity>
@@ -1109,7 +1151,7 @@
       </activity>
       <activity>
         <type>lec</type>
-        <hours>1</hours>
+        <hours>2</hours>
       </activity>
     </activities>
     <credits>
@@ -1126,10 +1168,14 @@
         <subject>CNST</subject>
         <courseNumber>498</courseNumber>
       </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>CNST</subject>
+        <courseNumber>898</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1141</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">For CNST 498: Permission. For CNST 898: Masters of engineering in construction or related discipline.</div>
     </prerequisite>
@@ -1162,31 +1208,6 @@
     </credits>
   </course>
   <course>
-    <title>Mechanical/Electrical Project Management</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>CNST</subject>
-        <courseNumber>815</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Fundamentals of project management within the mechanical and electrical contracting industry. Codes, contract documents, productivity, coordination, project control and administration, scheduling safety, and project closeout, all from a speciality contracting perspective.</div>
-    </description>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <activities/>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
     <title>Occupational Health and Safety for Construction</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -1205,34 +1226,6 @@
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Investigation of occupational health and safety hazards in the construction environment. Accident causation and illness exposure models, construction safety and health programs and contract requirements, project safety and health management, special problems in construction safety, OSHA/EPD/ADA regulation and compliance issues, health assessment and monitoring, safe building methods design, toxic substance exposures, abatement methods, and worker training and protection.</div>
-    </description>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <activities/>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Professional Trends in Design/Build</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>CNST</subject>
-        <courseNumber>834</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Permission; master in engineering in construction or a related discipline</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Organizational, managerial, ethical, and legal principles in the delivery of Design/Build as a construction project delivery system.</div>
     </description>
     <campuses>
       <campus></campus>
@@ -1517,43 +1510,6 @@
     <activities/>
     <credits>
       <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Special Topics in Construction Management</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>CNST</subject>
-        <courseNumber>898</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Master of engineering in construction or related discipline and permission</div>
-    </prerequisite>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">A signed student-instructor learning contract is required.</div>
-    </notes>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Individual or small group investigation of special topics in construction management. Topic varies.</div>
-    </description>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <activities>
-      <activity>
-        <type>lec</type>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Lower Range Limit">1</credit>
-      <credit type="Upper Range Limit">6</credit>
-      <credit type="Per Career Limit">6</credit>
     </credits>
   </course>
   <course>

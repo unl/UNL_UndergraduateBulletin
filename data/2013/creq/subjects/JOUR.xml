@@ -184,9 +184,9 @@
     </courseCodes>
     <gradingType>letter grade only</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1131</effectiveSemester>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">JOUR 101 and 162; ARCH/ARTP/IDES/JOMC/LARC/TXCD 412.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">JOMC 101 and 162; ARCH/ARTP/IDES/JOMC/LARC/TMFD 412.</div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">Work in JOUR 202 will appear on the student news World Wide Web (WWW) site. JOUR 202 is 'Letter grade only'.</div>
@@ -387,6 +387,44 @@
       <activity>
         <type>quz</type>
         <hours>2</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Multimedia Journalism</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>JOUR</subject>
+        <courseNumber>304</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">JOMC 160; JOUR 202.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Explores a variety of digital reporting and storytelling options used to produce journalistic content online.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
       </activity>
     </activities>
     <credits>
@@ -897,6 +935,50 @@
       <credit type="Single Value">3</credit>
       <credit type="Per Career Limit">3</credit>
     </credits>
+  </course>
+  <course>
+    <title>Nebraska Mosaic</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>JOUR</subject>
+        <courseNumber>446</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>JOUR</subject>
+        <courseNumber>846</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">JOUR 202 and JOUR 302 or BRDC 369 and BRDC 370.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Create and present news and information of particular interest to Lincoln's growing refugee communities. The stories students report will be presented on the Nebraska Mosaic website (www.nemosaic.org), and they may also be repurposed as part of printed newsletters or video projects distributed on DVD.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+    <aceOutcomes>
+      <slo>10</slo>
+    </aceOutcomes>
   </course>
   <course>
     <title>The Real World II</title>

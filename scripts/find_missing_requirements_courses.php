@@ -16,6 +16,9 @@ UNL_UndergraduateBulletin_Controller::setEdition(UNL_UndergraduateBulletin_Editi
 foreach (new UNL_UndergraduateBulletin_CollegeList() as $college) {
 
 
+    echo '****************************************************'.PHP_EOL
+         .$college->name.PHP_EOL;
+    
     /* @var $college UNL_UndergraduateBulletin_College */
     foreach ($college->majors as $major) {
 
@@ -25,7 +28,7 @@ foreach (new UNL_UndergraduateBulletin_CollegeList() as $college) {
             continue;
         }
 
-        echo $major->title.' unknown courses:'.PHP_EOL;
+        echo $major->title.' ('.$major->getURL().') unknown courses:'.PHP_EOL;
         foreach ($missing_courses as $missing_subject_code=>$missing_course_numbers) {
             foreach ($missing_course_numbers as $missing_course_number) {
                 echo "  - $missing_subject_code $missing_course_number\n";

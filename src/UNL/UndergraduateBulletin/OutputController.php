@@ -75,7 +75,12 @@ class UNL_UndergraduateBulletin_OutputController extends Savvy
                 }
                 ob_end_clean();
             }
-            
+
+            if ($object instanceof Savvy_ObjectProxy) {
+                // Prevent double-encoding, and make sure postRunReplacements are handled
+                $object = $object->getRawObject();
+            }
+
             if ($object instanceof UNL_UndergraduateBulletin_PostRunReplacements) {
                 $data = $object->postRun($data);
             }

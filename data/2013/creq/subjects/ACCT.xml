@@ -12,10 +12,10 @@
     <dfRemoval>true</dfRemoval>
     <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">For non-CBA students only; Sophomore standing (or freshman standing with 14 credit hours of UNL credit and Math 104 with a grade of 'C' or 'Pass' or better); 2.5 GPA.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">For non-CBA students only; 2.5 cum GPA; Sophomore standing (or freshman standing with 14 credit hours of UNL credit and Math 104 with a grade of 'C' or 'Pass' or better).</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Letter grade only. ACCT 200 fulfills the Accounting requirement for the minor in business administration for non-business students and is part of a six course sequence for the minor. Credit towards the degree cannot be earned in both ACCT 200 and ACCT 201 and/or ACCT 202.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Letter grade only. Credit towards the degree cannot be earned in both ACCT 200 and ACCT 201 and/or ACCT 202.</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">This course is designed to introduce financial and managerial accounting concepts to students who are not business majors but who will use such information in future roles as investors, owners, managers, employees and /or taxpaying citizens. Because accounting is referred to as ‘the language of business’ a primary objective of this course is to enable you to understand how accounting meets the information needs of various users. The course lays a foundation for understanding and use of accounting concepts, skills and judgments in numerous endeavors, both career and personal.</div>
@@ -93,13 +93,13 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Good standing in the University Honors Program or by invitation; freshman standing; 3.5 GPA over at least 14 credit hours earned at UNL.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Open only to CBA Honors Academy students in good standing or by permission; freshman standing; 3.5 GPA over at least 14 credit hours earned at UNL.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">For course description, see ACCT 201.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Fundamentals of accounting, reporting, and analysis to understand financial, managerial, and business concepts and practices.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -115,6 +115,7 @@
     <activities>
       <activity>
         <type>lec</type>
+        <hours>3</hours>
       </activity>
     </activities>
     <credits>
@@ -151,6 +152,45 @@
       <term>Summer</term>
     </termsOffered>
     <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Introductory Accounting II</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ACCT</subject>
+        <courseNumber>202</courseNumber>
+        <courseLetter>H</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Open only to CBA Honors Academy students in good standing or by permission. Sophomore standing; ACCT201 or ACCT201H with a grade of C or above; and a 2.5 cumulative GPA.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Continuation of ACCT 201H.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
@@ -709,39 +749,6 @@
     </credits>
   </course>
   <course>
-    <title>Financial Accounting</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ACCT</subject>
-        <courseNumber>805</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">ACCT 805 is not open to Masters of Professional Accountancy (MPA) students.</div>
-    </notes>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Basics of financial accounting and reporting. The construction of financial statements and their interpretation for internal and external users of financial information.</div>
-    </description>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <activities>
-      <activity>
-        <type>lec</type>
-        <hours>3</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
     <title>Professional Responsibility and Ethics in Accounting</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -750,10 +757,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Permission of MBA or MPA director</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Admission to the Master of Professional Accountancy (MPA) program;or permission of MPA faculty advisor and instructor.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Standards of ethical financial reporting and corporate governance in the context of the legal, regulatory, and social environments of corporate business. Acts of law and sanctions imposed for violations of standards of financial reporting.</div>
@@ -764,7 +771,17 @@
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
-    <activities/>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
@@ -778,16 +795,16 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ACCT 812 and admission to the Master of Professional Accountancy Program</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">ACCT 412/812 with a grade of C or better and admission to the Master of Professional Accountancy Program</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Federal income taxation for corporations. Tax laws associated with formation, operation, distribution, redemption, and reorganizations are analyzed.</div>
     </description>
     <campuses>
-      <campus></campus>
+      <campus>UNL</campus>
     </campuses>
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
@@ -811,10 +828,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ACCT 314</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">ACCT 314 with a grade of C or better; Admission to the Master of Professional Accountancy (MPA) program;or permission of MPA faculty advisor and instructor.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Accounting and reporting for governmental units and organizations established as not-for-profit corporations. Expanded treatment of fund accounting and reporting for agencies operated in and for the general public interest.</div>
@@ -825,7 +842,17 @@
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
-    <activities/>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
@@ -839,10 +866,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ACCT 812</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">ACCT 412/812 with a grade of C or better; Admission to the Master of Professional Accountancy program.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Development of skills in identifying problems, interpreting facts, conducting research, and communicating results in the field of Federal taxation.</div>
@@ -853,7 +880,17 @@
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
-    <activities/>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
@@ -867,10 +904,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ACCT 812</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">ACCT 412/812 with a grade of C or better; Admission to the Master of Professional Accountancy program.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Areas of Federal law that are especially relevant in the prevailing economic and political climate.</div>
@@ -881,7 +918,17 @@
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
-    <activities/>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
@@ -923,8 +970,11 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Acct 412/812 with a grade of C or better; Admission to the Master of Professional Accountancy program.</div>
+    </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Federal income taxation for partnerships. Tax laws associated with formation, operation, distribution, disposal, and dissolution.</div>
     </description>
@@ -934,6 +984,11 @@
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
     <activities>
       <activity>
         <type>lec</type>
@@ -1039,10 +1094,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Admission to the Masters of Professional Accountancy (MPA) program, or permission of MPA faculty adviser and instructor.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Admission to the Master of Professional Accountancy (MPA) program; or permission of MPA faculty advisor and instructor.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Fraud and how fraud differs from other crimes. Fraud techniques, schemes, and actual fraud cases.</div>
@@ -1053,10 +1108,55 @@
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
-    <activities/>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
+  </course>
+  <course>
+    <title>Fraud Detection and Prevention</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ACCT</subject>
+        <courseNumber>841</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">ACCT 201 and ACCT 202</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">ACCT 841 aimed at non-accountants.  The focus is on fraud prevention and detection of risks and weakness that allow fraud to occur.  Criminal theory, ethics training, tone-at-the-top, and desirable company policies and codes are covered in more depth.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
   </course>
   <course>
     <title>Business Planning</title>
@@ -1305,10 +1405,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Permission</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Admission to the Master of Professional Accountancy (MPA) program;or permission of MPA faculty advisor and instructor.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">The historical development of accounting thought and the individuals, institutions, organizations, and philosophies that shaped its past and present and will influence its future.</div>

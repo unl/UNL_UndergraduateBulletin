@@ -61,9 +61,9 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1121</effectiveSemester>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CEEN 103 or (UNO) CEEN 1030; CSCE 155 or (UNO) CIST 1400.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">CEEN 103 or (UNO) CEEN 1030; CSCE 155A, 155E, 155H, 155N, 155T or (UNO) CIST 1400.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Introduction to assembly language programming of microprocessors/microcontrollers, assemblers, and debugging tool utilization. Microprocessor system hardware components, control signals, and 'C' language micro-controller programming.</div>
@@ -375,9 +375,9 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CEEN 106 or (UNO) CEEN 1060; CSCE 155 or (UNO) CIST 1400; MATH 107/107H or<br/> (UNO) MATH 1960.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">CEEN 106 or (UNO) CEEN 1060; CSCE 155A, 155E, 155H, 155N, 155T or (UNO) CIST 1400; MATH 107/107H or<br/> (UNO) MATH 1960.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">The use of mathematical and digital computation tools key to engineering applications. Auditory and visual senses are used in the presentation and study of sinusoidal signals, sampling, frequency response and filtering theory.</div>
@@ -1375,6 +1375,40 @@
     </activities>
     <credits>
       <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Digital Communications Media</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CEEN</subject>
+        <courseNumber>463</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Topics related to the transport of bit streams from one geographical location to another over various physical media such as wire pairs, coaxial cable, optical fiber, and radio waves. Transmission characteristics, media interfacing, delay, distortion, noise, and error detection and correction techniques.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">4</credit>
     </credits>
   </course>
   <course>

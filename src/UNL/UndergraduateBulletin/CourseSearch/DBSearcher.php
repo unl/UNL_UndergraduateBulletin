@@ -45,17 +45,22 @@ class UNL_UndergraduateBulletin_CourseSearch_DBSearcher extends UNL_Services_Cou
     
     function subjectAndNumberPrefixQuery($subject, $number)
     {
-        return "crosslistings.course_id = courses.id AND crosslistings.courseNumber LIKE '$number%' AND crosslistings.subjectArea='$subject'";
+        return "crosslistings.courseNumber LIKE '$number%' AND crosslistings.subjectArea='$subject'";
+    }
+
+    function subjectAndNumberSuffixQuery($subject, $number)
+    {
+        return "crosslistings.courseNumber LIKE '%$number' AND crosslistings.subjectArea='$subject'";
     }
     
     function numberPrefixQuery($number)
     {
-        return "crosslistings.course_id = courses.id AND crosslistings.courseNumber LIKE '$number%'";
+        return "crosslistings.courseNumber LIKE '$number%'";
     }
     
     function honorsQuery()
     {
-        return 'crosslistings.course_id = courses.id AND crosslistings.courseNumber LIKE "%H"';
+        return 'crosslistings.courseNumber LIKE "%H"';
     }
 
     function titleQuery($title)
@@ -65,7 +70,7 @@ class UNL_UndergraduateBulletin_CourseSearch_DBSearcher extends UNL_Services_Cou
     
     function subjectAreaQuery($subject)
     {
-        return "crosslistings.course_id = courses.id AND crosslistings.subjectArea = '".$subject."'";
+        return "crosslistings.subjectArea = '".$subject."'";
     }
     
     function subjectAndNumberQuery($subject, $number, $letter = null)
@@ -75,13 +80,21 @@ class UNL_UndergraduateBulletin_CourseSearch_DBSearcher extends UNL_Services_Cou
         }
         return $this->subjectAndNumberPrefixQuery($subject, $number);
     }
-    
+
     function numberQuery($number, $letter = null)
     {
         if (isset($letter)) {
             $number .= $letter;
         }
-        return "crosslistings.course_id = courses.id AND crosslistings.courseNumber LIKE '$number%'";
+        return "crosslistings.courseNumber LIKE '$number%'";
+    }
+
+    function numberSuffixQuery($number, $letter = null)
+    {
+        if (isset($letter)) {
+            $number .= $letter;
+        }
+        return "crosslistings.courseNumber LIKE '%$number'";
     }
 
     function creditQuery($credits)
@@ -111,8 +124,14 @@ class UNL_UndergraduateBulletin_CourseSearch_DBSearcher extends UNL_Services_Cou
 
     function getQueryResult($query, $offset = 0, $limit = -1)
     {
-        $query =  'SELECT DISTINCT courses.id, courses.xml FROM courses INNER JOIN crosslistings ON courses.id=crosslistings.course_id WHERE crosslistings.courseNumber < "500" AND (' . $query . ');';
-
+        $query =  'SELECT DISTINCT courses.id, courses.xml 
+                   FROM courses INNER JOIN crosslistings ON courses.id=crosslistings.course_id
+                   WHERE (
+                          LENGTH(crosslistings.courseNumber) >= 3
+                          AND crosslistings.courseNumber < "500"
+                          OR LENGTH(crosslistings.courseNumber) < 3
+                         )
+                         AND (' . $query . ');';
         return new UNL_UndergraduateBulletin_CourseSearch_DBSearchResults($query, $offset, $limit);
     }
 }

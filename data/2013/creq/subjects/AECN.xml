@@ -1007,19 +1007,19 @@
         <subject>NREE</subject>
         <courseNumber>456</courseNumber>
       </courseCode>
-      <courseCode type="grad tie-in">
+      <courseCode type="crosslisting">
         <subject>AECN</subject>
         <courseNumber>856</courseNumber>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1141</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Junior standing. AECN/NREE 357 recommended.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Junior standing. AECN 357/NREE 357.</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Offered odd numbered years. Available through Extended Education and Outreach.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Available through Online and Distance Education.</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Administrative law, risk assessment, environmental impact review, Clean Air Act, Clean Water Act, non-point pollution control, wetlands regulations pesticide and toxic substance regulation, solid and hazardous waste regulation, drinking water protection, land use regulation, energy policy, and international environmental law.</div>
@@ -1028,10 +1028,10 @@
       <campus>UNL</campus>
     </campuses>
     <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
+      <deliveryMethod>Web</deliveryMethod>
     </deliveryMethods>
     <termsOffered>
-      <term>Spring</term>
+      <term>Fall</term>
     </termsOffered>
     <activities>
       <activity>
@@ -1325,10 +1325,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>letter grade only</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1111</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ASCI 481.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">ASCI 481; ASCI 395A or ASCI 395B.</div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">ASCI 482 requires attending the National Cattlemen's Beef Association (NCBA) annual convention and then, communicating the new policy and issues to local organizations and undergraduate student groups. ASCI 482 is 'Letter grade only'.</div>
@@ -1822,10 +1822,14 @@
         <subject>AECN</subject>
         <courseNumber>883</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>CDEV</subject>
+        <courseNumber>883</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">AECN 141 or ECON 212 or equivalent</div>
     </prerequisite>

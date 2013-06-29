@@ -133,6 +133,19 @@ class UNL_Services_CourseApproval_SearchInterface_XPath extends UNL_Services_Cou
     }
 
     /**
+     * Construct a query for courses matching a subject and number suffix
+     * 
+     * @param string     $subject Subject code, e.g. MUDC
+     * @param string|int $number  Course number prefix, e.g. 41 for 241, 341, 441
+     * 
+     * @return string XPath query
+     */
+    function subjectAndNumberSuffixQuery($subject, $number)
+    {
+        return "default:courseCodes/default:courseCode[('$number' = substring(default:courseNumber,string-length(default:courseNumber)-string-length('$number')+1)) and default:subject='$subject']/parent::*/parent::*";
+    }
+
+    /**
      * Construct a query for courses matching a number prefix
      * 
      * @param string|int $number  Course number prefix, e.g. 2 for 200 level courses
@@ -142,6 +155,18 @@ class UNL_Services_CourseApproval_SearchInterface_XPath extends UNL_Services_Cou
     function numberPrefixQuery($number)
     {
         return "default:courseCodes/default:courseCode/default:courseNumber[starts-with(., '$number')]/parent::*/parent::*/parent::*";
+    }
+
+    /**
+     * Construct a query for courses matching a number suffix
+     * 
+     * @param string|int $number  Course number suffix, e.g. 41 for 141, 241, 341 etc
+     * 
+     * @return string XPath query
+     */
+    function numberSuffixQuery($number)
+    {
+        return "default:courseCodes/default:courseCode/default:courseNumber['$number' = substring(., string-length(.)-string-length('$number')+1)]/parent::*/parent::*/parent::*";
     }
 
     /**
