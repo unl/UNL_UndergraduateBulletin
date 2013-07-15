@@ -1884,23 +1884,23 @@
   <course>
     <title>Data Mining and Warehousing</title>
     <courseCodes>
-      <courseCode type="home listing">
-        <subject>MIST</subject>
-        <courseNumber>853</courseNumber>
-      </courseCode>
       <courseCode type="crosslisting">
         <subject>MNGT</subject>
         <courseNumber>853</courseNumber>
       </courseCode>
+      <courseCode type="home listing">
+        <subject>SCMS</subject>
+        <courseNumber>853</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1141</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">MNGT 950 or equivalent course in statistics</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">GRBA 851.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Large scale data storage systems used in business. Statistical and data mining tools used for analyzing large sets of data. Sources of data that are internal and external to the organization. Primary data mining applications in business and demonstrated on representative data sets. Data warehouses, data marts, online analytic mining techniques used to support business operations. Application of actual software where possible.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Data mining applies quantitative analysis to support humans in identifying actionable information from large amounts of data.  Actionable means that value can be obtained, which for businesses usually relates to making money.  This course will focus on how data mining has been successfully applied in business.  It will also describe in non-technical terms how the statistical and artificial intelligence-based tools commonly used in data mining work.  The course will also address ethical issues related to use of information obtained through data mining.</div>
     </description>
     <campuses>
       <campus></campus>
@@ -1908,44 +1908,6 @@
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
-    <activities>
-      <activity>
-        <type>lec</type>
-        <hours>3</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Strategic Human Resource Management</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>MNGT</subject>
-        <courseNumber>861</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>letter grade only</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1128</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">MNGT 360 or MNGT 361; or permission.</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">The purpose of this course is to engage students with the theory and practice of strategic human resource management in contemporary organizational settings. Students will examine in detail the fundamentals of HRM strategic planning and scenario models. Students will learn the importance of evidenced based decision making, and using HRM analytics such as return on investment. The primary focus is human resource management effectiveness and engagement as a strategic partner in organizations.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
     <activities>
       <activity>
         <type>lec</type>
@@ -2033,34 +1995,6 @@
     </credits>
   </course>
   <course>
-    <title>Strategic Management</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>MNGT</subject>
-        <courseNumber>876</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Management Department permission</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Theories, concepts, techniques, and practices of strategic management. Includes strategic decision making, assessing the strategic situation, strategic planning systems and techniques, and implementation and control.</div>
-    </description>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <activities/>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
     <title>Masters Thesis</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -2115,31 +2049,6 @@
     </credits>
   </course>
   <course>
-    <title>Operations Planning and Control Systems</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>MNGT</subject>
-        <courseNumber>931</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Taught predominately by the case method with a few classes for review and summary lectures. Concentrates on higher management decisions involving the manufacturing, service, and public sectors. Facilities planning, labor, aggregate planning, strategic planning, capacity management, and trade-off analysis.</div>
-    </description>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <activities/>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
     <title>Business History</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -2163,36 +2072,6 @@
     <credits>
       <credit type="Lower Range Limit">2</credit>
       <credit type="Upper Range Limit">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Advanced Topics in Supply Chain Management</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>MNGT</subject>
-        <courseNumber>933</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Advanced conceptual and methodological practices in designing and planning supply chain systems. Advances and strategies in supply chain procurement, transportation, distribution and warehousing, globalization, outsourcing, and technology.</div>
-    </description>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <activities>
-      <activity>
-        <type>lec</type>
-        <hours>3</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">3</credit>
     </credits>
   </course>
   <course>

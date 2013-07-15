@@ -223,6 +223,39 @@
     </credits>
   </course>
   <course>
+    <title>Introduction to Business Strategy</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>GRBA</subject>
+        <courseNumber>808</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Admission to the MBA or MPA program and/or permission of the MBA director.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Improve the student’s ability to think strategically and to provide an intellectual framework that enhances understanding of the MBA program. Naking sense of corporate complexity and market uncertainty to derive a competitive firm strategy; why firms choose to compete in certain businesses; which business strategies are successful in which environments; and how firms can change in response to dynamic environments. An overarching model for strategic formulation and implementation is developed to facilitate an integrated understanding of the courses that comprise the MBA curriculum. Readings and lectures illustrate strategic management theories and frameworks while case discussions and projects provide opportunities for application.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+      <deliveryMethod>Web</deliveryMethod>
+    </deliveryMethods>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Financial Accounting</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -433,29 +466,67 @@
     </credits>
   </course>
   <course>
-    <title>Managerial Decision Making</title>
+    <title>Strategic Human Resource Management</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>GRBA</subject>
+        <courseNumber>816</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">GRBA808 and admission to the MBA or MPA program and/or permission of the MBA director.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Development of an understanding of how human resource decisions, strategies, and practices contribute to business performance and a firm’s competitive advantage. The Approach to human resource management from a strategic perspective, as it focuses on the relationship between HRM practices and business performance. A general management perspective by focusing on the role of managers and how they can execute effective and ethical human resource practices that support strategic objectives.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+      <deliveryMethod>Web</deliveryMethod>
+    </deliveryMethods>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Business Analytics</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>GRBA</subject>
         <courseNumber>851</courseNumber>
       </courseCode>
     </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1141</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Admission to the MBA program and/or permission of the MBA director</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Admission to the MBA or MPA program and/or permission of the MBA director</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Advanced quantitative tools for aiding and enhancing managerial decision-making so that students develop skills for formulating, analyzing, and solving a wide range of interdisciplinary business problems. Decision-making under certainty, uncertainty and risk, and in competitive situations. Use of various quantitative models and computer-based tools, including problem formulation, interpretation of solution, sensitivity and shadow price, heuristic approaches, simulation and game models.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Broad understanding and knowledge of important business analytic topics and how they can be used to support decision making in all business areas, government, education, and agriculture. Technical procedures used to describe, predict and prescribe data into information for decision making.  Data exploration and how it results in a sequence of descriptive, predictive and prescriptive processes to result in unique and new information on which decisions can be made.</div>
     </description>
     <campuses>
       <campus></campus>
     </campuses>
     <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
+      <deliveryMethod>Web</deliveryMethod>
     </deliveryMethods>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
