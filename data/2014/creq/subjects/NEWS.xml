@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<courses xmlns="http://courseapproval.unl.edu/courses" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://courseapproval.unl.edu/courses /schema/courses.xsd">
+  <course>
+    <title>Lab Newspaper</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>NEWS</subject>
+        <courseNumber>306</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">JOUR 201, 202, 302, and 404/804.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">JOUR 404/804 is waived for "Reporters" and "Editors", but required for "Photographers".</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Publication of a weekly laboratory newspaper.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>1</hours>
+      </activity>
+      <activity>
+        <type>quz</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Special Topics in News-Editorial</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>NEWS</subject>
+        <courseNumber>498</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>NEWS</subject>
+        <courseNumber>898</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1078</effectiveSemester>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">NEWS 498/898 may be repeated up to three times so long as the topics are different.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Topics vary each term.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">4</credit>
+      <credit type="Per Semester Limit">12</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Public Journalism</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>NEWS</subject>
+        <courseNumber>803</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">BRDC 372 or NEWS 371 or permission</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Survey of public/civic journalism, its goals and practices and how it differs from and is similar to traditional ideas of journalism.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Advanced Graphics</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>NEWS</subject>
+        <courseNumber>879</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">NEWS 303 and permission</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Intensive lecture-laboratory experience. Journalism writing and editing with computer graphics techniques.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+</courses>

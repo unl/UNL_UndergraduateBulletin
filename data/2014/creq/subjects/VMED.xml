@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<courses xmlns="http://courseapproval.unl.edu/courses" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://courseapproval.unl.edu/courses /schema/courses.xsd">
+  <course>
+    <title>Veterinary Anatomy I</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>VMED</subject>
+        <courseNumber>630</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>VBMS</subject>
+        <courseNumber>830</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">For VBMS *830: none. For VMED 630: First year standing in the Professional Program in Veterinary Medicine</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Comparative and topographic anatomy of the dog, cat, and pig.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lab</type>
+        <hours>6</hours>
+      </activity>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">6</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Animal Physiology I</title>
+    <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>ASCI</subject>
+        <courseNumber>845</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>BIOS</subject>
+        <courseNumber>813</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>VBMS</subject>
+        <courseNumber>845</courseNumber>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>VMED</subject>
+        <courseNumber>645</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">For ASCI/VBMS *845/BIOS *813: An undergraduate course in biochemistry or biology or physiology. For VMED 645: First year standing in and admission to VMED.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Primarily for students in animal or biological sciences or veterinary medicine.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Mammalian physiology and cellular mechanisms. Physiology of the cell, embryology, and neuro-sensory, neuromuscular, endocrine, and reproductive systems.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lab</type>
+        <hours>3</hours>
+      </activity>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">4</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Animal Physiology II</title>
+    <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>ASCI</subject>
+        <courseNumber>846</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>BIOS</subject>
+        <courseNumber>814</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>VBMS</subject>
+        <courseNumber>846</courseNumber>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>VMED</subject>
+        <courseNumber>646</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1118</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">For ASCI/VBMS *846/BIOS *814: An undergraduate course in biochemistry or biology or physiology. For VMED 646: First year standing in and admission to VMED.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">ASCI/VBMS *846/BIOS *814/VMED 646 is designed for students in animal or biological sciences or veterinary medicine.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Mammalian physiology and cellular mechanisms. Physiology of the digestive, cardiovascular, respiratory, and renal systems.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lab</type>
+        <hours>3</hours>
+      </activity>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">4</credit>
+    </credits>
+  </course>
+</courses>

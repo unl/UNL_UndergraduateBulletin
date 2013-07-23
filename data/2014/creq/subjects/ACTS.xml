@@ -1,0 +1,697 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<courses xmlns="http://courseapproval.unl.edu/courses" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://courseapproval.unl.edu/courses /schema/courses.xsd">
+  <course>
+    <title>Independent Study</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ACTS</subject>
+        <courseNumber>399</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1111</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Permission.</div>
+    </prerequisite>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Problem Lab: Basic Actuarial Applications of Probability</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ACTS</subject>
+        <courseNumber>401</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1111</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">MATH 208/208H and STAT 462, or parallel, and both with a grade of "Pass" or "C" or better.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Calculus-based probability, both univariate and multivariate, applications to risk management-related problems. Problems as posed in the <em>Society of Actuaries (SOA) Exam "P" and/or Casualty Actuarial Society (CAS) Exam "1"</em>. Determination of loss frequency distributions and their characteristics, expected value, variance, and percentiles. Determination of loss severity distributions and their characteristics, expected value, variance, and percentiles. Determination of loss sharing parameters, deductibles, and maximum payments.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lab</type>
+        <hours>1.5</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">1</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Problem Lab: Basic Actuarial Applications of Financial Mathematics</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ACTS</subject>
+        <courseNumber>402</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1078</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">ACTS 440/840 or parallel.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Application of basic mathematics of finance to problems involving valuation of financial transactions. Problems as posed in the "Society of Actuaries (SOA) Exam 'FM'" and/or "Casualty Actuarial Society (CAS) Exam '2'". Determining equivalent measures of interest; estimating the rate of return on a fund; discounting or accumulating a sequence of payments with interest; determining yield rate; length of investment; amounts of investment contributions or amounts of investment returns for various types of financial transactions; and basic calculations involving yield curves, spot rates, forward rates, duration, convexity, immunization and short sales; introduction to financial derivatives (forwards, options, futures, and swaps) and their use in risk management; and introduction to the concept of no-arbitage as a fundamental concept in financial mathematics.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lab</type>
+        <hours>1.5</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">1</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Problem Lab: Actuarial Models - Life Contingencies</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ACTS</subject>
+        <courseNumber>403</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1078</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">ACTS 470/870, 471/871, and 473/873.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Problems as posed in the "Society of Actuaries (SOA) Exam 'M'" and/or "Casualty Actuarial Society (CAS) Exam '3'". Survival and severity models; "Markov Chain" models; life contingencies; and "Poisson" processes.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lab</type>
+        <hours>1.5</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">1</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Problem Lab: Construction and Evaluation of Actuarial Models</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ACTS</subject>
+        <courseNumber>404</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1078</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">ACTS 410 and 425.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Problems as posed in the Society of Actuaries (SOA) Exam "C" and/or Casualty Actuarial Society (CAS) Exam "4". Construction of empirical models; construction and selection of parametric models; credibility theory; interpolation and smoothing of data; and simulation.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lab</type>
+        <hours>1</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">1</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Problem Lab: Actuarial Models - Financial Economics</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ACTS</subject>
+        <courseNumber>405</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1078</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">ACTS 440/840 and FINA 467.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Problems as posed in the "Society of Actuaries (SOA) Exam 'M'". Interest rate models; rational valuation of derivative securities (option pricing: put-call parity, the binomial model, Black-Scholes formula, and actuarial applications; interpretation of option Greeks and delta-hedging; features of exotic options; an introduction to Brownian motion and Itô's lemma); and risk management techniques.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lab</type>
+        <hours>1.5</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">1</credit>
+      <credit type="Per Career Limit">1</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Introduction to Credibility, Smoothing of Data, and Simulation</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ACTS</subject>
+        <courseNumber>410</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>ACTS</subject>
+        <courseNumber>810</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1078</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">STAT 463.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Full, partial, Buhlmann, and Buhlmann-Straub credibility models. Introduction to empirical Bayes and statistical distributions used to model loss experience. Application of "polynomial splines" to actuarial data. Simulation of "discrete" and "continuous random" variables in context of actuarial models. Simulation to "p-value" of hypothesis test. "Bootstrap method" of estimating the "mean squared error" of an estimator.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Survival Models</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ACTS</subject>
+        <courseNumber>425</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>ACTS</subject>
+        <courseNumber>825</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1078</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">STAT 463 with a grade of "C" or better.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Parametric and tabular survival models. Estimation based on observations that might not be complete. Concomitant variables. Use of population data. Applications to groups with impaired lives.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Actuarial Applications of Applied Statistics</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ACTS</subject>
+        <courseNumber>430</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>ACTS</subject>
+        <courseNumber>830</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1078</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">STAT 463 with a grade of "C" or better.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Data sets processed and analyzed using statistical software.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to forecasting in actuarial science. Simple and multiple regression, instrumental variables, time series methods, and applications of methods in forecasting actuarial variables. Interest rates, inflation rates, and claim frequencies.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Financial Mathematics</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ACTS</subject>
+        <courseNumber>440</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>ACTS</subject>
+        <courseNumber>840</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1078</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">MATH 208/208H with a grade of "Pass" or "C" or better, or parallel.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Application of financial mathematics to problems involving valuation of financial transactions; equivalent measures of interest; rate of return on a fund; discounting or accumulating a sequence of payments with interest; and yield rates, length of investment, amounts of investment contributions or amounts of investment returns for various types of financial transactions; loans and bonds. Introduction to the mathematics of modern financial analysis. Calculations involving yield curves, spot rates, forward rates, duration, convexity, and immunization and short sales; introduction to financial derivatives (forwards, options, futures, swaps) and their use in risk management; and introduction to the concept of no-arbitrage as a fundamental concept in financial mathematics.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>6</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">4</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Principles of Pension Valuation</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ACTS</subject>
+        <courseNumber>442</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>ACTS</subject>
+        <courseNumber>842</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1078</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">ACTS 471/871 with a grade of "C" or better.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Actuarial cost methods. Determination of normal costs and accrued liability. Effect on valuation results due to changes in experience, assumptions and plan provisions. Valuation of ancillary benefits. Determination of actuarially equivalent benefits at early or postponed retirement and optional forms of payment.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Stochastic Processes for Actuaries</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ACTS</subject>
+        <courseNumber>450</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>ACTS</subject>
+        <courseNumber>850</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1078</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">STAT 463 with a grade of "C" or better.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to stochastic processes and their applications in actuarial science. Discrete-time and continuous-time processes; Markov chains; the Poisson process; compound Poisson processes; non-homogeneous Poisson processes; arithmetic and geometric Brownian motions. Applications of these processes in computation of resident fees for continuing care retirement communities. Pricing of financial instruments.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Life Contingencies I</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ACTS</subject>
+        <courseNumber>470</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>ACTS</subject>
+        <courseNumber>870</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1078</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">ACTS 440 and STAT 462, each with a grade of "C" or better.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">First course of a two-course sequence that includes ACTS 471.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Theory and applications of contingency mathematics in the areas of life and health insurance, annuities, and pensions. Probabilistic models.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Life Contingencies II</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ACTS</subject>
+        <courseNumber>471</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>ACTS</subject>
+        <courseNumber>871</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1078</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">ACTS 470 and STAT 462, each with a grade of "C" or better.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Second course of a two-course sequence that includes ACTS 470.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Life insurance reserve for models based on a single life. Introduction to multiple life models for pensions and life insurance and to multiple decrement models.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Introduction to Risk Theory</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ACTS</subject>
+        <courseNumber>473</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>ACTS</subject>
+        <courseNumber>873</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1078</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">STAT 462 with a grade of "C" or better.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Applications of compound distributions in modeling of insurance loss. Continuous-time compound Poisson surplus processes, computation of ruin probabilities, the distributions of the deficit at the time of ruin, and the maximal aggregate loss. The effect of reinsurance on the probability of ruin.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Introduction to Property/Casualty Actuarial Science</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ACTS</subject>
+        <courseNumber>474</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>ACTS</subject>
+        <courseNumber>874</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">STAT 462 with a grade of "C" or better.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Mathematical, financial, and risk-theoretical foundations of casualty actuarial science. Risk theory, loss reserving, ratemaking, risk classification, credibility theory, reinsurance, financial pricing of insurance, and other special issues and applications.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Actuarial Applications in Practice</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ACTS</subject>
+        <courseNumber>475</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>ACTS</subject>
+        <courseNumber>875</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1095</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">ACTS 471/871; FINA 307/307H or 338.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Principles and practices of pricing and/or funding and valuation for life, health, property and liability insurance, and annuities and pension plans. Commercially available actuarial modeling software.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+    <aceOutcomes>
+      <slo>10</slo>
+    </aceOutcomes>
+  </course>
+</courses>
