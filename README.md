@@ -13,16 +13,20 @@ Copy the `config.sample.php` to `config.inc.php`.
 
 
 ## THE DATA
+
+### Course Information
 Course data is pulled from the creq.unl.edu web service and is cached within 
-the `data/creq` directory. Run the update.sh script to retrieve the latest course
+the `data/creq` directory. Run the `update.sh` script to retrieve the latest course
 data.
 
+### College & Major Requirements
 College and major information is stored in the data directory and contains epub
 exports from Adobe InDesign. Judy Anderson maintains the content for these 
 files, and is repsonsible for updating them and re-exporting the epub files.
 
 Once a new epub file is generated, simply drop it in the respective directory,
 then run `php scripts/epub_to_xhtml.php` to convert the epub files to xhtml.
+
 
 ## CACHED OUTPUT
 
