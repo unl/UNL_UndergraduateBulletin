@@ -1,6 +1,6 @@
 # The UNL Undergraduate Bulletin
 
-This is the source for the 2010-2011 UNL Undergraduate Bulletin website.
+This is the source for the [UNL Undergraduate Bulletin website](http://bulletin.unl.edu/undergraduate/).
 
 ## SETUP
 
