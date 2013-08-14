@@ -19,6 +19,17 @@ Course data is pulled from the creq.unl.edu web service and is cached within
 the `data/creq` directory. Run the `update.sh` script to retrieve the latest course
 data.
 
+The XML follows a fairly straightforward schema. This application provides web services,
+tied to each yearly bulletin/catalog edition, since the requirements and course descriptions change.
+
+* http://bulletin.unl.edu/undergraduate/courses/TMFD/101
+* http://bulletin.unl.edu/undergraduate/courses/TMFD/101?format=xml
+* http://bulletin.unl.edu/undergraduate/courses/TMFD/101?format=json
+* http://bulletin.unl.edu/undergraduate/courses/TMFD/101?format=partial
+
+The "partial" output allows individual sites to pull in the content via an XMLHTTP request, and inject that HTML directly within their page(s). We send Cross Origin Resource Sharing headers, so the content can be included across different domains.
+
+
 ### College & Major Requirements
 College and major information is stored in the data directory and contains epub
 exports from Adobe InDesign. Judy Anderson maintains the content for these 
