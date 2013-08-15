@@ -18,7 +18,7 @@ UNL_UndergraduateBulletin_Major_Description::setEpubToTitleMap(array(
     'PreHealth_PreLaw & Combined Degree Prog'                                => 'Pre-Health, Pre-Law and Combined Degree Programs',
     'Public Policy Analysis_Program Eval Cert'                               => 'Public Policy Analysis & Program Evaluation Certification',
     'Textiles_Merchandising & Fashion Design_Communications'                 => 'Textiles, Merchandising & Fashion Design/Communications',
-    'Textiles_Merchandizing & Fashion Design Minor (CEHS)'                   => 'Textiles, Merchandizing & Fashion Design Minor (CEHS)',
+    'Textiles_Merchandising & Fashion Design Minor (CEHS)'                   => 'Textiles, Merchandising & Fashion Design Minor (CEHS)',
     'Womens & Gender Studies'                                                => 'Women\'s & Gender Studies',
 ));
 
