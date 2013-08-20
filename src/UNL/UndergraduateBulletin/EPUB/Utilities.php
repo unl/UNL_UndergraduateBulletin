@@ -204,6 +204,7 @@ class UNL_UndergraduateBulletin_EPUB_Utilities
                 case '.':
                 case ',':
                 case ')':
+                case ':':
                     $href = substr($href, 0, -1);
                     $link_end = $last_char . $link_end;
                     $done = false;
