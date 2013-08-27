@@ -5,7 +5,7 @@ UNL_Templates::$options['sharedcodepath'] = dirname(__FILE__).'/sharedcode';
 
 $url     = UNL_UndergraduateBulletin_Controller::getURL();
 $baseURL = UNL_UndergraduateBulletin_Controller::getBaseURL();
-$page    = UNL_Templates::factory('Fixed');
+$page    = UNL_Templates::factory('Local');
 
 $page->doctitle     = '<title>Undergraduate Bulletin | University of Nebraska-Lincoln</title>';
 $page->titlegraphic = 'Undergraduate Bulletin '.UNL_UndergraduateBulletin_Controller::getEdition()->getRange();
