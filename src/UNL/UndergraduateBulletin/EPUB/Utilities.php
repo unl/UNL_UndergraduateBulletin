@@ -256,6 +256,7 @@ class UNL_UndergraduateBulletin_EPUB_Utilities
             case 'III':
             case 'OEFL': // TOEFL
             case 'SAT':
+            case 'PKI': // PKI 201E, Omaha building address
             case 'CBA':
             case 'DMIN': // PUB ADMIN (UNO courses)
             case 'UNL':
