@@ -26,7 +26,7 @@ $page->addStylesheet('/wdn/templates_3.1/css/content/notice.css');
 $page->addStylesheet('/wdn/templates_3.1/css/content/grid-v3.css');
 $page->addStylesheet($protocolAgnosticBaseURL. 'templates/html/css/jquery.qtip.css');
 if (UNL_UndergraduateBulletin_OutputController::getCacheInterface() instanceof UNL_UndergraduateBulletin_CacheInterface_Mock) {
-    $page->addStylesheet($baseURL. 'templates/html/css/debug.css');
+    $page->addStylesheet($protocolAgnosticBaseURL. 'templates/html/css/debug.css');
 } else {
     $page->addStylesheet($protocolAgnosticBaseURL. 'templates/html/css/all.css');
 }
