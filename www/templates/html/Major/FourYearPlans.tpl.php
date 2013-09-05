@@ -8,7 +8,11 @@ UNL_UndergraduateBulletin_Controller::setReplacementData('head', '
 ');
 
 foreach ($context as $plan) {
-    echo $savvy->render($plan);
+    foreach ($plan as $year) {
+        foreach ($year as $semester) {
+            echo $savvy->render($semester);
+        }
+    }
 }
 ?>
 <section class="wdn-band">
