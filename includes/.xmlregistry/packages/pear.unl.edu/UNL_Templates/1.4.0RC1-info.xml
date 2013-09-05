@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<package xmlns="http://pear.php.net/dtd/package-2.1" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.1     http://pear.php.net/dtd/package-2.1.xsd" packagerversion="2.0.0">
+<package xmlns="http://pear.php.net/dtd/package-2.1" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.1     http://pear.php.net/dtd/package-2.1.xsd">
  <name>UNL_Templates</name>
  <channel>pear.unl.edu</channel>
  <summary>The UNL HTML Templates as a PEAR Package.
@@ -19,100 +19,93 @@ This package allows you to render UNL Template styled pages using PHP Objects.
   <email>nhummel2@math.unl.edu</email>
   <active>yes</active>
  </lead>
- <date>2013-02-11</date>
- <time>10:50:14</time>
+ <date>2013-09-05</date>
+ <time>06:56:50</time>
  <version>
-  <release>1.3.0</release>
+  <release>1.4.0RC1</release>
   <api>1.0.0</api>
  </version>
  <stability>
-  <release>stable</release>
+  <release>beta</release>
   <api>stable</api>
  </stability>
  <license uri="http://www1.unl.edu/wdn/wiki/Software_License">BSD License</license>
- <notes>Stable Release!
-
-New features:
-
-* Add support for version 3.1 of the UNL Templates
-
-Changes since RC2:
-
-* Update template cache files with validation fixes
-* Reflect UNL_DWT API changes
+ <notes>Add experimental support for version 1.4.0 of the templates
 </notes>
  <contents>
   <dir name="/">
-   <file role="test" name="test/pear.unl.edu/UNL_Templates/UNL_TemplatesTest.php" md5sum="12aa5989d1255dccc299a3dcdd6c6ba8"/>
-   <file role="php" name="php/UNL/Templates/Version3x1/Unlaffiliate_local.php" md5sum="e3f4b2b27e5cbbd81f3a434fdcd949d4"/>
-   <file role="php" name="php/UNL/Templates/Version3x1/Unlaffiliate_debug.php" md5sum="0e7a53d410d00748c53cb9036d43a178"/>
-   <file role="php" name="php/UNL/Templates/Version3x1/Unlaffiliate.php" md5sum="c9e2423f1508286947525968dddd56cb"/>
-   <file role="php" name="php/UNL/Templates/Version3x1/Local.php" md5sum="b18901fcb9b7d59f0de947f649e0cba7"/>
-   <file role="php" name="php/UNL/Templates/Version3x1/Fixed.php" md5sum="1cdda4bc708879eaeb6052aa50980820"/>
-   <file role="php" name="php/UNL/Templates/Version3x1/Debug.php" md5sum="880a7ec565da26995e7fa4b21163e1d3"/>
-   <file role="php" name="php/UNL/Templates/Version3x1.php" md5sum="3db6efc4892a2b68869a27941673bb5a"/>
-   <file role="php" name="php/UNL/Templates/Version3/Unlaffiliate.php" md5sum="40eeca840e02c9e5b2b2b7846bd73397"/>
-   <file role="php" name="php/UNL/Templates/Version3/Shared_column_right.php" md5sum="f9b3c237b7a6b8500ef0d18f4e1c9595"/>
-   <file role="php" name="php/UNL/Templates/Version3/Shared_column_left.php" md5sum="c8e40b9ff760f0d6da578f6f52e85ab2"/>
-   <file role="php" name="php/UNL/Templates/Version3/Secure.php" md5sum="7586ee8d6db673dbef56fe491a0ac517"/>
-   <file role="php" name="php/UNL/Templates/Version3/Popup.php" md5sum="1d63a45e6f7e86585182a09ff8e33962"/>
-   <file role="php" name="php/UNL/Templates/Version3/Mobile.php" md5sum="88ed3fab2afd3f989c53db231ea99715"/>
-   <file role="php" name="php/UNL/Templates/Version3/Liquid.php" md5sum="5ae65bf4c045a5b9b65b726b52d6cd26"/>
-   <file role="php" name="php/UNL/Templates/Version3/Fixed_html5.php" md5sum="183165807ee292fa17a03314c5455a6b"/>
-   <file role="php" name="php/UNL/Templates/Version3/Fixed.php" md5sum="041aae52a187c4986e495a8643b43ae4"/>
-   <file role="php" name="php/UNL/Templates/Version3/Document.php" md5sum="01035abd6b488663747399e74d0065bc"/>
-   <file role="php" name="php/UNL/Templates/Version3/Debug.php" md5sum="05eb7e3f0639e79aeb2e4f5061a356f1"/>
-   <file role="php" name="php/UNL/Templates/Version3/Absolute.php" md5sum="315f0d6be4459208f7733e6e29f99c91"/>
-   <file role="php" name="php/UNL/Templates/Version3.php" md5sum="7edb40844a43918f467f6cf881424aaf"/>
-   <file role="php" name="php/UNL/Templates/Version2/Unlstandardtemplate.php" md5sum="48a0fd1e66226418db0c7c5202343881"/>
-   <file role="php" name="php/UNL/Templates/Version2/Unlframework.php" md5sum="e902fc42cdcb7633fbe07f4d509a1b97"/>
-   <file role="php" name="php/UNL/Templates/Version2/Unlaffiliate.php" md5sum="bdac0dc69918a491efcee2450d99738f"/>
-   <file role="php" name="php/UNL/Templates/Version2/Secure.php" md5sum="f43c4b5320cf2def6d90c71f3e22c1fb"/>
-   <file role="php" name="php/UNL/Templates/Version2/Popup.php" md5sum="0a1b634408248289e89649a49bd7759c"/>
-   <file role="php" name="php/UNL/Templates/Version2/Liquid.php" md5sum="55c715aa91f18226f5be4c3f427b2dea"/>
-   <file role="php" name="php/UNL/Templates/Version2/Fixed.php" md5sum="3fbccc1b6e7a0287577972b4c25a0d19"/>
-   <file role="php" name="php/UNL/Templates/Version2/Document.php" md5sum="ef2068426bb8f73ac706b18a472df967"/>
-   <file role="php" name="php/UNL/Templates/Version2.php" md5sum="d8f5200292c4216e423fc7c5da502e44"/>
-   <file role="php" name="php/UNL/Templates/Version.php" md5sum="c7df0501ec102431d7be6a6cfd133b5b"/>
-   <file role="php" name="php/UNL/Templates/Scanner.php" md5sum="82740c1fadfd1160bb9c67006947ab3b"/>
-   <file role="php" name="php/UNL/Templates/CachingService/UNLCacheLite.php" md5sum="4fa04418d0aa08834b4795caeae5b8c8"/>
-   <file role="php" name="php/UNL/Templates/CachingService/Null.php" md5sum="47991f0e5cffed6d138725a3294f4e6a"/>
-   <file role="php" name="php/UNL/Templates/CachingService/CacheLite.php" md5sum="5b09b184e7d59a2520e99c0b5c66428a"/>
-   <file role="php" name="php/UNL/Templates/CachingService.php" md5sum="07884c3a9bf75657e54782423a088eb4"/>
-   <file role="php" name="php/UNL/Templates.php" md5sum="6f844645177ff75a899210f3a29bfd04"/>
-   <file role="doc" name="doc/pear.unl.edu/UNL_Templates/examples/scanner.php" md5sum="2b116cf09b8d73c439718217d83a32c2"/>
-   <file role="doc" name="doc/pear.unl.edu/UNL_Templates/examples/example1.php" md5sum="c3de6bfef1cee16be4135f310e5e601d"/>
-   <file role="doc" name="doc/pear.unl.edu/UNL_Templates/examples/customization/customization_example.php" md5sum="e9769bdf0cf9ec36430b3f70ec687037"/>
-   <file role="doc" name="doc/pear.unl.edu/UNL_Templates/examples/customization/customization_example.html" md5sum="26c8d867af8ffd4d8d60e348573f9c3d"/>
-   <file role="doc" name="doc/pear.unl.edu/UNL_Templates/examples/customization/CustomClass.php" md5sum="43bc783b2215f9668800ce2e80ad457b"/>
-   <file role="doc" name="doc/pear.unl.edu/UNL_Templates/examples/convert.php" md5sum="a7114a3868d0ba54d4ff76b370ea3201"/>
-   <file role="data" name="data/pear.unl.edu/UNL_Templates/tpl_cache/Version3x1/Unlaffiliate_local.tpl" md5sum="0802ccd854dfe1d6a3f0a22ad7ff09c4"/>
-   <file role="data" name="data/pear.unl.edu/UNL_Templates/tpl_cache/Version3x1/Unlaffiliate_debug.tpl" md5sum="241be8cc9780847dece60b54358de9a3"/>
-   <file role="data" name="data/pear.unl.edu/UNL_Templates/tpl_cache/Version3x1/Unlaffiliate.tpl" md5sum="5b30670bdbd48ecf9eaa9d6f505693f2"/>
-   <file role="data" name="data/pear.unl.edu/UNL_Templates/tpl_cache/Version3x1/Local.tpl" md5sum="4eef418e9e527224b9347e635e95dfba"/>
-   <file role="data" name="data/pear.unl.edu/UNL_Templates/tpl_cache/Version3x1/Fixed.tpl" md5sum="a2151b63d3861496e785f4b10f3b44be"/>
-   <file role="data" name="data/pear.unl.edu/UNL_Templates/tpl_cache/Version3x1/Debug.tpl" md5sum="037f834d2e9cd17856d83a6fbd0465dc"/>
-   <file role="data" name="data/pear.unl.edu/UNL_Templates/tpl_cache/Version3/Unlaffiliate.tpl" md5sum="6644923a681f49bfd425f5768d01e4a3"/>
-   <file role="data" name="data/pear.unl.edu/UNL_Templates/tpl_cache/Version3/Shared_column_right.tpl" md5sum="84cc265b12115d9c2733a6d03f5a4d85"/>
-   <file role="data" name="data/pear.unl.edu/UNL_Templates/tpl_cache/Version3/Shared_column_left.tpl" md5sum="6003b105b79241b8e001d0f375265747"/>
-   <file role="data" name="data/pear.unl.edu/UNL_Templates/tpl_cache/Version3/Secure.tpl" md5sum="6a5f82b61c2c2191494af9fe1384bdca"/>
-   <file role="data" name="data/pear.unl.edu/UNL_Templates/tpl_cache/Version3/Popup.tpl" md5sum="1f3b340e18024423748839343369443d"/>
-   <file role="data" name="data/pear.unl.edu/UNL_Templates/tpl_cache/Version3/Mobile.tpl" md5sum="aa53260716fc4f1d2fc31d149416b7e0"/>
-   <file role="data" name="data/pear.unl.edu/UNL_Templates/tpl_cache/Version3/Liquid.tpl" md5sum="4b576a99e001b22d3c77b01f72789546"/>
-   <file role="data" name="data/pear.unl.edu/UNL_Templates/tpl_cache/Version3/Fixed_html5.tpl" md5sum="9cedaa7c695c654e0f16fa534e35ec32"/>
-   <file role="data" name="data/pear.unl.edu/UNL_Templates/tpl_cache/Version3/Fixed.tpl" md5sum="783216b7dc343283a21ba3f8a8e5396b"/>
-   <file role="data" name="data/pear.unl.edu/UNL_Templates/tpl_cache/Version3/Document.tpl" md5sum="8a7ecbc31b2a4d85bad056f7c0d06039"/>
-   <file role="data" name="data/pear.unl.edu/UNL_Templates/tpl_cache/Version3/Debug.tpl" md5sum="fe52677e48d48d798d70e9cad4b5c0ed"/>
-   <file role="data" name="data/pear.unl.edu/UNL_Templates/tpl_cache/Version3/Absolute.tpl" md5sum="b3cf17273448a34ac869d4369663e819"/>
-   <file role="data" name="data/pear.unl.edu/UNL_Templates/tpl_cache/Version2/Unlstandardtemplate.tpl" md5sum="2082f29e6219b9fdad0faffb2bf9a427"/>
-   <file role="data" name="data/pear.unl.edu/UNL_Templates/tpl_cache/Version2/Unlframework.tpl" md5sum="465cb4e7eef89560faf0c63065d8a9d3"/>
-   <file role="data" name="data/pear.unl.edu/UNL_Templates/tpl_cache/Version2/Unlaffiliate.tpl" md5sum="9f4650a475623a3cf293998c0e5b3233"/>
-   <file role="data" name="data/pear.unl.edu/UNL_Templates/tpl_cache/Version2/Secure.tpl" md5sum="962fecd9908d504e4749f7eb79dc4736"/>
-   <file role="data" name="data/pear.unl.edu/UNL_Templates/tpl_cache/Version2/Popup.tpl" md5sum="a70442037d218c0dc948638bca8e5e08"/>
-   <file role="data" name="data/pear.unl.edu/UNL_Templates/tpl_cache/Version2/Liquid.tpl" md5sum="1a936fdcd4d17383490bd5aef1219ce8"/>
-   <file role="data" name="data/pear.unl.edu/UNL_Templates/tpl_cache/Version2/Fixed.tpl" md5sum="df5ce334e93b844794699f3cc62d20b9"/>
-   <file role="data" name="data/pear.unl.edu/UNL_Templates/tpl_cache/Version2/Document.tpl" md5sum="61cc4ae92fac84a7d38131769c2298ba"/>
-   <file role="data" name="data/pear.unl.edu/UNL_Templates/cssUNLTemplates.ini" md5sum="a56a41abc8a324ef7029dd8b485204bf"/>
+   <file role="test" name="tests/UNL_TemplatesTest.php" md5sum="12aa5989d1255dccc299a3dcdd6c6ba8"/>
+   <file role="php" name="src/UNL/Templates/Version4/Fixed.php" md5sum="924691e9d42300fe8eee9c6a7bae7efc"/>
+   <file role="php" name="src/UNL/Templates/Version4.php" md5sum="2925005b0f249f414a0b3b5cfd0a08fa"/>
+   <file role="php" name="src/UNL/Templates/Version3x1/Unlaffiliate_local.php" md5sum="e3f4b2b27e5cbbd81f3a434fdcd949d4"/>
+   <file role="php" name="src/UNL/Templates/Version3x1/Unlaffiliate_debug.php" md5sum="0e7a53d410d00748c53cb9036d43a178"/>
+   <file role="php" name="src/UNL/Templates/Version3x1/Unlaffiliate.php" md5sum="c9e2423f1508286947525968dddd56cb"/>
+   <file role="php" name="src/UNL/Templates/Version3x1/Local.php" md5sum="b18901fcb9b7d59f0de947f649e0cba7"/>
+   <file role="php" name="src/UNL/Templates/Version3x1/Fixed.php" md5sum="1cdda4bc708879eaeb6052aa50980820"/>
+   <file role="php" name="src/UNL/Templates/Version3x1/Debug.php" md5sum="880a7ec565da26995e7fa4b21163e1d3"/>
+   <file role="php" name="src/UNL/Templates/Version3x1.php" md5sum="2b905fceee314ba84447bbaefdd86073"/>
+   <file role="php" name="src/UNL/Templates/Version3/Unlaffiliate.php" md5sum="40eeca840e02c9e5b2b2b7846bd73397"/>
+   <file role="php" name="src/UNL/Templates/Version3/Shared_column_right.php" md5sum="f9b3c237b7a6b8500ef0d18f4e1c9595"/>
+   <file role="php" name="src/UNL/Templates/Version3/Shared_column_left.php" md5sum="c8e40b9ff760f0d6da578f6f52e85ab2"/>
+   <file role="php" name="src/UNL/Templates/Version3/Secure.php" md5sum="7586ee8d6db673dbef56fe491a0ac517"/>
+   <file role="php" name="src/UNL/Templates/Version3/Popup.php" md5sum="1d63a45e6f7e86585182a09ff8e33962"/>
+   <file role="php" name="src/UNL/Templates/Version3/Mobile.php" md5sum="88ed3fab2afd3f989c53db231ea99715"/>
+   <file role="php" name="src/UNL/Templates/Version3/Liquid.php" md5sum="5ae65bf4c045a5b9b65b726b52d6cd26"/>
+   <file role="php" name="src/UNL/Templates/Version3/Fixed_html5.php" md5sum="183165807ee292fa17a03314c5455a6b"/>
+   <file role="php" name="src/UNL/Templates/Version3/Fixed.php" md5sum="041aae52a187c4986e495a8643b43ae4"/>
+   <file role="php" name="src/UNL/Templates/Version3/Document.php" md5sum="01035abd6b488663747399e74d0065bc"/>
+   <file role="php" name="src/UNL/Templates/Version3/Debug.php" md5sum="05eb7e3f0639e79aeb2e4f5061a356f1"/>
+   <file role="php" name="src/UNL/Templates/Version3/Absolute.php" md5sum="315f0d6be4459208f7733e6e29f99c91"/>
+   <file role="php" name="src/UNL/Templates/Version3.php" md5sum="7edb40844a43918f467f6cf881424aaf"/>
+   <file role="php" name="src/UNL/Templates/Version2/Unlstandardtemplate.php" md5sum="48a0fd1e66226418db0c7c5202343881"/>
+   <file role="php" name="src/UNL/Templates/Version2/Unlframework.php" md5sum="e902fc42cdcb7633fbe07f4d509a1b97"/>
+   <file role="php" name="src/UNL/Templates/Version2/Unlaffiliate.php" md5sum="bdac0dc69918a491efcee2450d99738f"/>
+   <file role="php" name="src/UNL/Templates/Version2/Secure.php" md5sum="f43c4b5320cf2def6d90c71f3e22c1fb"/>
+   <file role="php" name="src/UNL/Templates/Version2/Popup.php" md5sum="0a1b634408248289e89649a49bd7759c"/>
+   <file role="php" name="src/UNL/Templates/Version2/Liquid.php" md5sum="55c715aa91f18226f5be4c3f427b2dea"/>
+   <file role="php" name="src/UNL/Templates/Version2/Fixed.php" md5sum="3fbccc1b6e7a0287577972b4c25a0d19"/>
+   <file role="php" name="src/UNL/Templates/Version2/Document.php" md5sum="ef2068426bb8f73ac706b18a472df967"/>
+   <file role="php" name="src/UNL/Templates/Version2.php" md5sum="d8f5200292c4216e423fc7c5da502e44"/>
+   <file role="php" name="src/UNL/Templates/Version.php" md5sum="c7df0501ec102431d7be6a6cfd133b5b"/>
+   <file role="php" name="src/UNL/Templates/Scanner.php" md5sum="82740c1fadfd1160bb9c67006947ab3b"/>
+   <file role="php" name="src/UNL/Templates/CachingService/UNLCacheLite.php" md5sum="4fa04418d0aa08834b4795caeae5b8c8"/>
+   <file role="php" name="src/UNL/Templates/CachingService/Null.php" md5sum="47991f0e5cffed6d138725a3294f4e6a"/>
+   <file role="php" name="src/UNL/Templates/CachingService/CacheLite.php" md5sum="5b09b184e7d59a2520e99c0b5c66428a"/>
+   <file role="php" name="src/UNL/Templates/CachingService.php" md5sum="07884c3a9bf75657e54782423a088eb4"/>
+   <file role="php" name="src/UNL/Templates.php" md5sum="6f844645177ff75a899210f3a29bfd04"/>
+   <file role="doc" name="docs/examples/scanner.php" md5sum="2b116cf09b8d73c439718217d83a32c2"/>
+   <file role="doc" name="docs/examples/example1.php" md5sum="a55812397a3979fdc939fc1942b8c23c"/>
+   <file role="doc" name="docs/examples/customization/customization_example.php" md5sum="e9769bdf0cf9ec36430b3f70ec687037"/>
+   <file role="doc" name="docs/examples/customization/customization_example.html" md5sum="26c8d867af8ffd4d8d60e348573f9c3d"/>
+   <file role="doc" name="docs/examples/customization/CustomClass.php" md5sum="43bc783b2215f9668800ce2e80ad457b"/>
+   <file role="doc" name="docs/examples/convert.php" md5sum="a7114a3868d0ba54d4ff76b370ea3201"/>
+   <file role="data" name="data/tpl_cache/Version3x1/Unlaffiliate_local.tpl" md5sum="0802ccd854dfe1d6a3f0a22ad7ff09c4"/>
+   <file role="data" name="data/tpl_cache/Version3x1/Unlaffiliate_debug.tpl" md5sum="241be8cc9780847dece60b54358de9a3"/>
+   <file role="data" name="data/tpl_cache/Version3x1/Unlaffiliate.tpl" md5sum="5b30670bdbd48ecf9eaa9d6f505693f2"/>
+   <file role="data" name="data/tpl_cache/Version3x1/Local.tpl" md5sum="4eef418e9e527224b9347e635e95dfba"/>
+   <file role="data" name="data/tpl_cache/Version3x1/Fixed.tpl" md5sum="a2151b63d3861496e785f4b10f3b44be"/>
+   <file role="data" name="data/tpl_cache/Version3x1/Debug.tpl" md5sum="037f834d2e9cd17856d83a6fbd0465dc"/>
+   <file role="data" name="data/tpl_cache/Version3/Unlaffiliate.tpl" md5sum="6644923a681f49bfd425f5768d01e4a3"/>
+   <file role="data" name="data/tpl_cache/Version3/Shared_column_right.tpl" md5sum="84cc265b12115d9c2733a6d03f5a4d85"/>
+   <file role="data" name="data/tpl_cache/Version3/Shared_column_left.tpl" md5sum="6003b105b79241b8e001d0f375265747"/>
+   <file role="data" name="data/tpl_cache/Version3/Secure.tpl" md5sum="6a5f82b61c2c2191494af9fe1384bdca"/>
+   <file role="data" name="data/tpl_cache/Version3/Popup.tpl" md5sum="1f3b340e18024423748839343369443d"/>
+   <file role="data" name="data/tpl_cache/Version3/Mobile.tpl" md5sum="aa53260716fc4f1d2fc31d149416b7e0"/>
+   <file role="data" name="data/tpl_cache/Version3/Liquid.tpl" md5sum="4b576a99e001b22d3c77b01f72789546"/>
+   <file role="data" name="data/tpl_cache/Version3/Fixed_html5.tpl" md5sum="9cedaa7c695c654e0f16fa534e35ec32"/>
+   <file role="data" name="data/tpl_cache/Version3/Fixed.tpl" md5sum="783216b7dc343283a21ba3f8a8e5396b"/>
+   <file role="data" name="data/tpl_cache/Version3/Document.tpl" md5sum="8a7ecbc31b2a4d85bad056f7c0d06039"/>
+   <file role="data" name="data/tpl_cache/Version3/Debug.tpl" md5sum="fe52677e48d48d798d70e9cad4b5c0ed"/>
+   <file role="data" name="data/tpl_cache/Version3/Absolute.tpl" md5sum="b3cf17273448a34ac869d4369663e819"/>
+   <file role="data" name="data/tpl_cache/Version2/Unlstandardtemplate.tpl" md5sum="2082f29e6219b9fdad0faffb2bf9a427"/>
+   <file role="data" name="data/tpl_cache/Version2/Unlframework.tpl" md5sum="465cb4e7eef89560faf0c63065d8a9d3"/>
+   <file role="data" name="data/tpl_cache/Version2/Unlaffiliate.tpl" md5sum="9f4650a475623a3cf293998c0e5b3233"/>
+   <file role="data" name="data/tpl_cache/Version2/Secure.tpl" md5sum="962fecd9908d504e4749f7eb79dc4736"/>
+   <file role="data" name="data/tpl_cache/Version2/Popup.tpl" md5sum="a70442037d218c0dc948638bca8e5e08"/>
+   <file role="data" name="data/tpl_cache/Version2/Liquid.tpl" md5sum="1a936fdcd4d17383490bd5aef1219ce8"/>
+   <file role="data" name="data/tpl_cache/Version2/Fixed.tpl" md5sum="df5ce334e93b844794699f3cc62d20b9"/>
+   <file role="data" name="data/tpl_cache/Version2/Document.tpl" md5sum="61cc4ae92fac84a7d38131769c2298ba"/>
+   <file role="data" name="data/cssUNLTemplates.ini" md5sum="a56a41abc8a324ef7029dd8b485204bf"/>
   </dir>
  </contents>
  <dependencies>
