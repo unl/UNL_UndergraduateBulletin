@@ -30,7 +30,7 @@ function accomodateHash() {
     $(window).scrollTop(hashLocation.top - 60);
 }
 
-$(document).ready(function() {
+WDN.loadJQuery(function() {
     var c = WDN.getCookie('notice');
 
     //Move the subhead above the notice
