@@ -8,7 +8,11 @@ UNL_UndergraduateBulletin_Controller::setReplacementData('head', '
 ');
 
 foreach ($context as $plan) {
-    echo $savvy->render($plan);
+    foreach ($plan as $year) {
+        foreach ($year as $semester) {
+            echo $savvy->render($semester);
+        }
+    }
 }
 ?>
 <section class="wdn-band">
@@ -720,3 +724,16 @@ foreach ($context as $plan) {
 
 	</div>
 </section>
+<section>
+<h3>Note</h3>
+<p>
+This document represents a sample 4-year plan for degree completion with
+this major. Actual course selection and sequence may vary and should be
+discussed individually with an academic adviser at the college and/or
+department. Advisers can also help students plan for other experiences that
+will enrich their undergraduate education such as internships, education
+abroad, undergraduate research, learning communities, and service learning
+and community-based learning.
+</p>
+</section>
+
