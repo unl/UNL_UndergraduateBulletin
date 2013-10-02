@@ -145,7 +145,7 @@
             <ul class="button-list reset-list">
                 <li><a class="pill-button" href="major/Undeclared">Undecided Students</a></li>
                 <li><a class="pill-button" href="major/Pre-Health">Pre-Health</a></li>
-                <li><a class="pill-button" href="major/Pre-Law">Pre-Law</a></li>
+                <li><a class="pill-button" href="major/Pre-Law+(EC)">Pre-Law</a></li>
             </ul>
         </div>
     </div>
