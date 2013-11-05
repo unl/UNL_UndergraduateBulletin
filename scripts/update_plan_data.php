@@ -11,7 +11,7 @@ $latest = UNL_UndergraduateBulletin_Editions::getLatest();
 
 echo 'Updating four-year-plan data'.PHP_EOL;
 
-$plan_feed = 'https://nmc-server1.unl.edu/~tsteiner/CREQ3/fouryearplans/view/feed';
+$plan_feed = 'https://creq.unl.edu/fouryearplans/view/feed/';
 
 $data = file_get_contents($plan_feed);
 
