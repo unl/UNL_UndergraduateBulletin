@@ -1,0 +1,38 @@
+<div class="wdn-col">
+	<table class="wdn-courses">
+		<caption>Semester <?php echo $semester; ?> (<?php echo ($semester%2)?'Fall':'Spring'; ?>)</caption>
+		<thead>
+			<tr>
+				<th>Course</th>
+				<th>Credit Hours</th>
+			</tr>
+		</thead>
+		<tbody>
+		    <?php
+		    $total = 0;
+		    foreach ($context as $course): ?>
+			<tr class="wdn-course-row">
+				<td class="wdn-course-title">
+				    <span class="wdn-course-id wdn-block"> <?php echo $course['course']; ?> </span>
+				    <span class="wdn-course-title wdn-block"> <?php echo $course['title']; ?> </span>
+				</td>
+				<td class="wdn-course-credits"><span class="wdn-course-credit-hours wdn-center wdn-block"> <?php echo $course['hours']; ?> </span> <span
+					class="wdn-block wdn-center wdn-course-credit-hours-label"
+				> cr </span>
+				</td>
+			</tr>
+			<?php
+			if (isset($course['hours'])) {
+                $total += $course['hours'];
+            }
+			?>
+			<?php endforeach; ?>
+		</tbody>
+		<tfoot>
+			<tr>
+				<td>Total Credits</td>
+				<td><?php echo $total; ?></td>
+			</tr>
+		</tfoot>
+	</table>
+</div>
