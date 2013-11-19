@@ -46,18 +46,16 @@ dt .courseID{
 .course .number.l3 {font-size:1.55em;padding:25px 0px 10px 2px;margin:-15px 5px 0 0;letter-spacing:-2px;}
 .course .number.l3 {font-size:1.1em;}
 .course .title {
+	color:#900;
 	font-size:1.4em;
 	display:block;
 	border-bottom:1px solid #C8C8C8;
 	font-weight:bold;
 	margin-left:95px;
-	padding-bottom:2px;}
-.course .title a {
-	position:absolute;
-	right: 0px;
-	top: 3px;
-	display: block;
-	font-size: 0.7em;
+	padding-bottom:2px;
+}
+.course .title:hover {
+	color: #c00;
 }
 
 .course .share {
