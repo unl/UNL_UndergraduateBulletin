@@ -27,6 +27,8 @@ dt .courseID{
     padding: 0 0 0 1em !important;
 }
 .course .subjectCode {
+	font-family: 'Gotham SSm A', 'Gotham SSm B', Verdana, 'Verdana Ref', Geneva, Tahoma, 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', 'Bitstream Vera Sans', 'Liberation Sans', sans-serif;
+	font-size: 14px;
 	color:#818489;
 	display:block;
 	min-width:85px;
@@ -35,15 +37,17 @@ dt .courseID{
 	z-index:12;
 }
 .course .number {
-	font-size:2em;
-	margin-top: -0.5em;
+	font-family: 'Tungsten A', 'Tungsten B', Impact, Haettenschweiler, 'Arial Narrow Bold', 'Franklin Gothic Bold', Charcoal, 'Helvetica Inserat', 'Bitstream Vera Sans Bold', 'Arial Black', sans-serif;
+	font-size:3.2em;
+	margin-top: -0.25em;
 	display:block;
 	font-weight:bold;
 	min-width:85px;
 	text-align:center;
+	line-height: 120%;
 }
 .course .number.l2,
-.course .number.l3 {font-size:1.55em;padding:25px 0px 10px 2px;margin:-15px 5px 0 0;letter-spacing:-2px;}
+.course .number.l3 {font-size: 2em;padding: 2px 0px 4px 0px;}
 .course .number.l3 {font-size:1.1em;}
 .course .title {
 	color:#900;
@@ -78,9 +82,9 @@ dt .courseID{
     display:inline;
 }
 #maincontent .description {margin: 1em 0;}
-#maincontent .notes {margin-bottom:0;opacity:0.85;}
-.course .prereqs {color:#0F900A;font-weight:bold;}
-#maincontent .course .prereqs a {color:#0F900A; text-decoration:underline;}
+#maincontent .notes {font-size:0.85em;margin-bottom:0;opacity:0.85;}
+.course .prereqs {font-size:14px;color:#0F900A;font-weight:bold;font-style:italic;}
+#maincontent .course .prereqs a {color:#0F900A;}
 #maincontent .course .prereqs a:hover, #maincontent .course .prereqs a:focus {color:#28aa23 !important; text-decoration:none;}
 .course .subsequent {
     border-top: 1px solid #C8C8C8;
@@ -88,11 +92,11 @@ dt .courseID{
     background: #F1F1F1;
     color:#777; font-size:smaller;
 }
-#maincontent .course .subsequent a {color:#777; text-decoration:underline;}
+#maincontent .course .subsequent a {color:#777;}
 .course .notes {font-style:italic;}
-.course .description {border-left:3px solid #C8C8C8;padding-left:5px;}
 
 .course .details {border-collapse:collapse; right:0;}
+.course .details tr td {padding-right:0;}
 .course .details tr.alt td {border:1px solid #C9E2F6;border-right:none;border-left:none;background-color:#E3F0FF;}
 .course .details td {word-wrap: break-word;}
 .course .details .label {
@@ -101,7 +105,7 @@ dt .courseID{
 	line-height: 125%;
 }
 .course .details .value {font-size:0.75em;text-align:right;}
-.course .details .credits .value {font-size:1em;}
+.course .details .credits .value, .course .details .value abbr {font-size:16px;}
 .course {clear:both;}
 
 .revealed {background-color:#fffea8;}
