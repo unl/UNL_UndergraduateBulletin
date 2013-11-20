@@ -12,7 +12,7 @@
 		    $total = 0;
 		    foreach ($context as $course): ?>
 			<tr class="wdn-course-row">
-				<td class="wdn-course-title">
+				<td class="wdn-course">
 				    <span class="wdn-course-id wdn-block"> <?php echo $course['course']; ?> </span>
 				    <span class="wdn-course-title wdn-block"> <?php echo $course['title']; ?> </span>
 				</td>
