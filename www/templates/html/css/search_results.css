@@ -93,66 +93,65 @@ Autocomplete CSS
 2012 Combo Search
 
 */
+
+#search_forms, #search_forms:before, #search_forms:after {
+    background: #f1f1f1;
+    box-shadow: 0 3px 0 0 rgba(0, 0, 0, 0.035);
+}
 #search_forms {
-    background: #f6f6f6;
+    position: relative;
     color: #45555F;
-    border-radius: 3px;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
     padding: 10px;
     margin-bottom: 2em;
+    z-index: 1;
+}
+#search_forms:before, #search_forms:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 9999px;   /* some huge width */
+    z-index: -1;
+}
+#search_forms:before {
+  right: 100%; 
+}
+#search_forms:after {
+  left: 100%;
 }
 #maincontent #search_forms h3 {
-    line-height: 1em;
+    line-height: 145%;
     padding-left: 0.5%;
+    margin-top: 0.5em;
 }
 #search_forms .option {
-    padding: 0.2em 0.3em;
+    padding: 0.02em 0.25em;
     border-radius: 3px;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     cursor: pointer;
-    background: #ffffff; /* Old browsers */
-    background: -moz-linear-gradient(top,  #ffffff 0%, #eaeaea 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#eaeaea)); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top,  #ffffff 0%,#eaeaea 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top,  #ffffff 0%,#eaeaea 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(top,  #ffffff 0%,#eaeaea 100%); /* IE10+ */
-    background: linear-gradient(top,  #ffffff 0%,#eaeaea 100%); /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#eaeaea',GradientType=0 ); /* IE6-9 */
+    background: #ffffff;
     color: #3A484F;
-    border: 1px solid #bbbbbb;
+    -webkit-transition: color .2s;
+    -moz-transition: color .2s;
+    -o-transition: color .2s;
+    -ms-transition: color .2s;
+    transition: color .2s;
 }
-#search_forms .option.active {
-    background: #7b8281; /* Old browsers */
-    background: -moz-linear-gradient(top,  #7b8281 0%, #424242 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7b8281), color-stop(100%,#424242)); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top,  #7b8281 0%,#424242 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top,  #7b8281 0%,#424242 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(top,  #7b8281 0%,#424242 100%); /* IE10+ */
-    background: linear-gradient(top,  #7b8281 0%,#424242 100%); /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7b8281', endColorstr='#424242',GradientType=0 ); /* IE6-9 */
+#search_forms .option:hover {
+    color: #608EEE;
+}
+#search_forms .option.active,
+#search_forms .option.active:hover {
+    background: #608EEE;
     color: #fff;
-    border: 1px solid #303030;
-}
-#search_forms input[type="submit"] {
-    background: #80c662; /* Old browsers */
-    background: -moz-linear-gradient(top,  #80c662 0%, #63a945 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#80c662), color-stop(100%,#63a945)); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top,  #80c662 0%,#63a945 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top,  #80c662 0%,#63a945 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(top,  #80c662 0%,#63a945 100%); /* IE10+ */
-    background: linear-gradient(top,  #80c662 0%,#63a945 100%); /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80c662', endColorstr='#63a945',GradientType=0 ); /* IE6-9 */
-    color: #fff;
-    border: 1px solid #59993e;
-}
-#search_forms .option.active {
-    -webkit-box-shadow: inset 1px 1px 1px 0px #303030;
-    -moz-box-shadow: inset 1px 1px 1px 0px #303030;
-    box-shadow: inset 1px 1px 1px 0px #303030;
     cursor: default;
 }
+#search_forms input[type="submit"] {
+    background: #80c662;
+    color: #fff;
+}
+
 #search_forms legend {
     display: none;
 }
@@ -167,16 +166,18 @@ Autocomplete CSS
     margin-top: 1em;
 }
 #search_forms input[type="text"], #search_forms input[type="submit"], #search_forms label{
+    height: 2.1em;
     font-size: 1.4em;
     border-radius: 4px;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     margin: 0;
     padding: 0.3em 4% 0.3em 1%;
+    border: none;
 }
 #search_forms input[type="text"] {
     background: #fff;
-    border: 1px solid #d6d6d6;
+    border: none;
     width: 93%;
 }
 
@@ -197,10 +198,14 @@ Autocomplete CSS
     -webkit-border-radius: 0 4px 4px 0;
     -moz-border-radius: 0 4px 4px 0;
     border-radius: 0 4px 4px 0;
-    padding: 0.3em 1%;
-    -webkit-box-shadow: inset -1px 1px 2px 0px #a4e489;
-    -moz-box-shadow: inset -1px 1px 2px 0px #a4e489;
-    box-shadow: inset -1px 1px 2px 0px #a4e489;
+    padding: 0.3em 0.75em;
+}
+#search_forms input[type="submit"]:hover {
+    background-color: #8FDA70;
+}
+#search_forms input[type="submit"]:active {
+    background-color: #79B85E;
+    color: #f0f0f0;
 }
 .search_help {
     margin: 1.5em 3%;

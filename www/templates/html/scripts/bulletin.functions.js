@@ -31,7 +31,9 @@ function accomodateHash() {
 }
 
 WDN.loadJQuery(function() {
-    var c = WDN.getCookie('notice');
+    WDN.initializePlugin('jqueryui', [function () {
+    var $ = WDN.jQuery,
+    c = WDN.getCookie('notice');
 
     //Move the subhead above the notice
     $('.subhead').insertBefore('#officialMessage');
@@ -409,4 +411,5 @@ WDN.loadJQuery(function() {
             $(this).next('input[type="text"]').focus();
         });
     });
+}]);
 });
