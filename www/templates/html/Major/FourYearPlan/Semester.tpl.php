@@ -31,7 +31,7 @@
 		<tfoot>
 			<tr>
 				<td>Total Credits</td>
-				<td><?php echo $total; ?></td>
+				<td class="wdn-center"><?php echo $total; ?></td>
 			</tr>
 		</tfoot>
 	</table>
