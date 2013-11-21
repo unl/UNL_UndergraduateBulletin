@@ -1,6 +1,6 @@
 <div class="wdn-col">
 	<table class="wdn-courses">
-		<caption>Semester <?php echo $semester; ?> (<?php echo ($semester%2)?'Fall':'Spring'; ?>)</caption>
+		<caption>Semester <?php echo $semester; ?> <span class="wdn-semester-season">&middot; <?php echo ($semester%2)?'Fall':'Spring'; ?></span></caption>
 		<thead>
 			<tr>
 				<th>Course</th>
@@ -30,8 +30,8 @@
 		</tbody>
 		<tfoot>
 			<tr>
-				<td>Total Credits</td>
-				<td class="wdn-center"><?php echo $total; ?></td>
+				<td class="wdn-total-credits-label">Total Credits</td>
+				<td class="wdn-total-credits-number wdn-center"><?php echo $total; ?></td>
 			</tr>
 		</tfoot>
 	</table>
