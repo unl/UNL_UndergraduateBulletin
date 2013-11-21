@@ -57,6 +57,7 @@ dt .courseID{
 	font-weight:bold;
 	margin-left:95px;
 	padding-bottom:2px;
+	line-height: 125%;
 }
 .course .title:hover {
 	color: #c00;
@@ -100,11 +101,11 @@ dt .courseID{
 .course .details tr.alt td {border:1px solid #C9E2F6;border-right:none;border-left:none;background-color:#E3F0FF;}
 .course .details td {word-wrap: break-word;}
 .course .details .label {
-	font-size: 0.75em;
+	font-size: 12px;
 	font-weight: bold;
 	line-height: 125%;
 }
-.course .details .value {font-size:0.75em;text-align:right;}
+.course .details .value {font-size:13px;text-align:right;}
 .course .details .credits .value, .course .details .value abbr {font-size:16px;}
 .course {clear:both;}
 

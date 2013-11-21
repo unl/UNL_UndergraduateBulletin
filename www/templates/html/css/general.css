@@ -66,7 +66,7 @@ Versioning Box
 #versioning {
 	position:fixed;
 	bottom:5px;
-	right:0px;
+	left:0px;
 	z-index:1;
 	font-size:90%;
 }
@@ -93,7 +93,7 @@ Versioning Box
 }
 
 #versioning .action {
-    float:right; 
+    float:left; 
     width:9px;
     height:145px;
     background:#e6e7b6;
@@ -110,7 +110,7 @@ Versioning Box
     border-left:none;	
 }
 #versioning .action a {
-    float:right;
+    float:left;
     text-indent:-9999px;
     background:url('images/actionOpenClose.png') no-repeat 0 -15px;	
     width:9px;
@@ -126,8 +126,8 @@ Versioning Box
 }
 #versioning h5 {
     font-size: 22px;
-    font-weight:bold;
-    margin:4px 0; 
+    font-weight:400;
+    margin:0 0 4px; 
 }
 #versioning h5 span {
     background:	#f8f379;

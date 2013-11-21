@@ -148,7 +148,7 @@ WDN.loadJQuery(function() {
         }
         // slide is a jQuery UI effect
         WDN.loadJQuery(function() {
-            WDN.jQuery('#versioning .content').toggle('slide', {percent : 0, direction : 'right'}, 500, function(){
+            WDN.jQuery('#versioning .content').toggle('slide', {percent : 0, direction : 'left'}, 500, function(){
                 WDN.jQuery('#versioning .action').toggleClass('opened');
             });
         });
