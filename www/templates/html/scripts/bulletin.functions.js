@@ -142,8 +142,29 @@ WDN.loadJQuery(function() {
     // Append Versioning to the top
     $('#pagetitle h1').append( $('#versioning') );
 
-    // Disable hyperlink for selected Bulletin
-    $('#versioning .selected').click( function(e) { e.preventDefault(); });
+    // Disable linking for dropdown
+    if ( Modernizr.mq('only all and (max-width: 768px)')) {
+        $('#versioning .selected a').click(function(e) { 
+            var dropdown = $(this).parents('#versioning ul');
+
+            if (!dropdown.is('.open')) {
+                e.preventDefault();
+                $("#versioning ul").addClass("open");
+                //dropdown.addClass('open').slideDown("fast");
+            }
+
+            $(document).mouseup(function (e) {
+                var container = $("#versioning ul");
+
+                if (!container.is(e.target) // if the target of the click isn't the container...
+                    && container.has(e.target).length === 0) // ... nor a descendant of the container
+                {
+                    container.removeClass("open");
+                }
+            });
+        });
+    }
+
 
     $('#versioning .action').click(function(){
         if ($(this).hasClass('opened')) {

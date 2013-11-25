@@ -79,19 +79,11 @@ Versioning Box
 #versioning ul:after {
     content: '';
     position: absolute;
-    top: 18px;
+    top: 14px;
     left: 8px;
     border-left: 6px solid #4a3b13;
     border-bottom: 6px solid transparent;
     border-top: 6px solid transparent;
-}
-
-#versioning ul:hover:after {
-    top: 22px;
-    left: 4px;
-    border-left: 6px solid transparent;
-    border-right: 6px solid transparent;
-    border-top: 6px solid #aaa;
 }
 
 #versioning p {
@@ -105,16 +97,57 @@ Versioning Box
 }
 
 #versioning ul li {display: none;padding: 0 20px;}
-#versioning ul:hover li, #versioning ul:hover li a, #versioning ul li.selected {display: block;}
-#versioning ul:hover { background: #fff; box-shadow: 2px 4px 8px -2px rgba(0, 0, 0, 0.125); }
-#versioning ul li:hover {
+#versioning ul li.selected {display: block;}
+
+/* For Desktop */
+@media (min-width: 768px) {
+    #versioning ul:after {
+        top: 18px;
+    }
+    #versioning ul:hover li,
+    #versioning ul:hover li a{
+        display: block;
+    }
+    #versioning ul:hover { background: #fff; box-shadow: 2px 4px 8px -2px rgba(0, 0, 0, 0.125); }
+    #versioning ul li:hover {
+        background: #f5f5f5;
+        box-shadow: -8px 0 0 0 #dfdfdf;
+    }
+    #versioning ul:hover li.selected,
+    #versioning ul li.selected:hover {
+        background: #f8f379;
+        box-shadow: -8px 0 0 0 #EEE73C;
+    }
+    #versioning ul:hover:after {
+        top: 22px;
+        left: 4px;
+        border-left: 6px solid transparent;
+        border-right: 6px solid transparent;
+        border-top: 6px solid rgba(0, 0, 0, 0.25);
+    }
+}
+
+/* For mobile */
+#versioning ul.open li,
+#versioning ul.open li a {
+    display: block;
+}
+#versioning ul.open { background: #fff; box-shadow: 2px 4px 8px -2px rgba(0, 0, 0, 0.125); }
+#versioning ul.open li:hover {
     background: #f5f5f5;
     box-shadow: -8px 0 0 0 #dfdfdf;
 }
-#versioning ul:hover li.selected,
-#versioning ul li.selected:hover {
-	background: #f8f379;
+#versioning ul.open li.selected,
+#versioning ul.open li.selected:hover {
+    background: #f8f379;
     box-shadow: -8px 0 0 0 #EEE73C;
+}
+#versioning ul.open:after {
+    top: 22px;
+    left: 4px;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid rgba(0, 0, 0, 0.25);
 }
 
 #versioning .action {
