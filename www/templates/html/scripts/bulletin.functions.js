@@ -139,6 +139,11 @@ WDN.loadJQuery(function() {
         var path = '/';
         document.cookie = name + "=" + value + ";path=" + path;
     }
+    // Append Versioning to the top
+    $('#pagetitle h1').append( $('#versioning') );
+
+    // Disable hyperlink for selected Bulletin
+    $('#versioning .selected').click( function(e) { e.preventDefault(); });
 
     $('#versioning .action').click(function(){
         if ($(this).hasClass('opened')) {

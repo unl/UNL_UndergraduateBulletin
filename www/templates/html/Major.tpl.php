@@ -9,7 +9,7 @@ foreach ($context->colleges as $college) {
     $subhead .= $college->name.' '; 
 }
 
-UNL_UndergraduateBulletin_Controller::setReplacementData('pagetitle', '<h1>'.$context->title.' <span class="subhead">'.$subhead.'</span></h1>');
+UNL_UndergraduateBulletin_Controller::setReplacementData('pagetitle', '<h1><span class="subhead">'.$subhead.'</span>'.$context->title.' </h1>');
 UNL_UndergraduateBulletin_Controller::setReplacementData('breadcrumbs', '
 <ul>
     <li><a href="http://www.unl.edu/">UNL</a></li>
