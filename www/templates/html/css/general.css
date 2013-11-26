@@ -107,11 +107,11 @@ Versioning Box
 #versioning ul:after {
     content: '';
     position: absolute;
-    top: 14px;
+    top: 18px;
     left: 8px;
-    border-left: 6px solid #4a3b13;
-    border-bottom: 6px solid transparent;
-    border-top: 6px solid transparent;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 8px solid #4a3b13;
 }
 
 #versioning p {
@@ -136,9 +136,6 @@ Versioning Box
 
 /* For Desktop */
 @media (min-width: 768px) {
-    #versioning ul:after {
-        top: 18px;
-    }
     #versioning ul:hover li {
         display: block;
     }
@@ -153,11 +150,7 @@ Versioning Box
         box-shadow: -8px 0 0 0 #EEE73C;
     }
     #versioning ul:hover:after {
-        top: 22px;
-        left: 4px;
-        border-left: 6px solid transparent;
-        border-right: 6px solid transparent;
-        border-top: 6px solid rgba(0, 0, 0, 0.25);
+        border-top: 8px solid rgba(0, 0, 0, 0.25);
     }
 }
 
@@ -177,11 +170,7 @@ Versioning Box
     box-shadow: -8px 0 0 0 #EEE73C;
 }
 #versioning ul.open:after {
-    top: 22px;
-    left: 4px;
-    border-left: 6px solid transparent;
-    border-right: 6px solid transparent;
-    border-top: 6px solid rgba(0, 0, 0, 0.25);
+    border-top: 8px solid rgba(0, 0, 0, 0.25);
 }
 
 #versioning h5 {
