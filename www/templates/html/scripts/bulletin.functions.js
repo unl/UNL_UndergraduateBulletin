@@ -31,9 +31,12 @@ function accomodateHash() {
 }
 
 WDN.loadJQuery(function() {
+    var $ = WDN.jQuery;
+    // Append Versioning to the top
+    $('#pagetitle h1').append( $('#versioning') );
+
     WDN.initializePlugin('jqueryui', [function () {
-    var $ = WDN.jQuery,
-    c = WDN.getCookie('notice');
+    var c = WDN.getCookie('notice');
 
     //Move the subhead above the notice
     $('.subhead').insertBefore('#officialMessage');
@@ -139,8 +142,6 @@ WDN.loadJQuery(function() {
         var path = '/';
         document.cookie = name + "=" + value + ";path=" + path;
     }
-    // Append Versioning to the top
-    $('#pagetitle h1').append( $('#versioning') );
 
     // Disable linking for dropdown
     if ( Modernizr.mq('only all and (max-width: 768px)')) {
@@ -150,14 +151,16 @@ WDN.loadJQuery(function() {
             if (!dropdown.is('.open')) {
                 e.preventDefault();
                 $("#versioning ul").addClass("open");
-                //dropdown.addClass('open').slideDown("fast");
             }
 
-            $(document).mouseup(function (e) {
-                var container = $("#versioning ul");
+            // Touch close icon or touch outside of box to close
+            $(document).on('click touchstart', function (e) {
+                var container = $("#versioning ul"),
+                closeBtn = $('#versioning .close span');
 
-                if (!container.is(e.target) // if the target of the click isn't the container...
-                    && container.has(e.target).length === 0) // ... nor a descendant of the container
+                if ( ( closeBtn.is(e.target) )                  // If you click the close button
+                    || (!container.is(e.target)                 // if the target of the click isn't the container...
+                    && container.has(e.target).length == 0) )   // ... nor a descendant of the container
                 {
                     container.removeClass("open");
                 }

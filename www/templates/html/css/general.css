@@ -76,6 +76,34 @@ Versioning Box
     text-transform: capitalize;
 }
 
+#versioning .close span {
+    display: none;
+}
+
+#versioning ul.open .close span {
+    display: block;
+    position: absolute;
+    top: -12px;
+    right: -12px;
+    text-shadow: -1px -1px 0 black;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    cursor: pointer;
+    background: #555;
+    color: white;
+    border-radius: 100px;
+    display: block;
+    font-size: 32px;
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    border: 2px solid white;
+    box-shadow: 0 0 8px -2px rgba(0, 0, 0, 0.5);
+}
+
 #versioning ul:after {
     content: '';
     position: absolute;
@@ -96,7 +124,14 @@ Versioning Box
     padding: 0;
 }
 
-#versioning ul li {display: none;padding: 0 20px;}
+#versioning ul li {
+    display: none;
+    line-height: 120%;
+}
+#versioning ul li a {
+    display: block;
+    padding: 10px 20px;
+}
 #versioning ul li.selected {display: block;}
 
 /* For Desktop */
@@ -104,8 +139,7 @@ Versioning Box
     #versioning ul:after {
         top: 18px;
     }
-    #versioning ul:hover li,
-    #versioning ul:hover li a{
+    #versioning ul:hover li {
         display: block;
     }
     #versioning ul:hover { background: #fff; box-shadow: 2px 4px 8px -2px rgba(0, 0, 0, 0.125); }
@@ -150,38 +184,6 @@ Versioning Box
     border-top: 6px solid rgba(0, 0, 0, 0.25);
 }
 
-#versioning .action {
-    float:left; 
-    width:9px;
-    height:145px;
-    background:#e6e7b6;
-    border: 1px solid #cad094;
-    padding:10px;
-    -webkit-box-shadow: -1px 1px 3px #999999;
-    -moz-box-shadow: -1px 1px 3px #999999;
-    box-shadow: -1px 1px 3px #999999;
-}
-#versioning .action.opened {
-    -webkit-box-shadow: 0px 1px 3px #999999;
-    -moz-box-shadow: 0px 1px 3px #999999;
-    box-shadow: 0px 1px 3px #999999;
-    border-left:none;	
-}
-#versioning .action a {
-    float:left;
-    text-indent:-9999px;
-    background:url('images/actionOpenClose.png') no-repeat 0 -15px;	
-    width:9px;
-    height:15px;
-    opacity:.7;
-    border:none;
-}
-#versioning .action.opened a {
-    background-position:0 0; 
-}
-#versioning .action a:hover {
-    opacity:1;	
-}
 #versioning h5 {
     font-size: 22px;
     font-weight:400;
