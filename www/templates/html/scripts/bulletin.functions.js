@@ -31,9 +31,12 @@ function accomodateHash() {
 }
 
 WDN.loadJQuery(function() {
+    var $ = WDN.jQuery;
+    // Append Versioning to the top
+    $('#pagetitle h1').append( $('#versioning') );
+
     WDN.initializePlugin('jqueryui', [function () {
-    var $ = WDN.jQuery,
-    c = WDN.getCookie('notice');
+    var c = WDN.getCookie('notice');
 
     //Move the subhead above the notice
     $('.subhead').insertBefore('#officialMessage');
@@ -140,6 +143,32 @@ WDN.loadJQuery(function() {
         document.cookie = name + "=" + value + ";path=" + path;
     }
 
+    // Disable linking for dropdown
+    if ( Modernizr.mq('only all and (max-width: 768px)')) {
+        $('#versioning .selected a').click(function(e) { 
+            var dropdown = $(this).parents('#versioning ul');
+
+            if (!dropdown.is('.open')) {
+                e.preventDefault();
+                $("#versioning ul").addClass("open");
+            }
+
+            // Touch close icon or touch outside of box to close
+            $(document).on('click touchstart', function (e) {
+                var container = $("#versioning ul"),
+                closeBtn = $('#versioning .close span');
+
+                if ( ( closeBtn.is(e.target) )                  // If you click the close button
+                    || (!container.is(e.target)                 // if the target of the click isn't the container...
+                    && container.has(e.target).length == 0) )   // ... nor a descendant of the container
+                {
+                    container.removeClass("open");
+                }
+            });
+        });
+    }
+
+
     $('#versioning .action').click(function(){
         if ($(this).hasClass('opened')) {
             setSessionCookie("va", "closed");
@@ -148,7 +177,7 @@ WDN.loadJQuery(function() {
         }
         // slide is a jQuery UI effect
         WDN.loadJQuery(function() {
-            WDN.jQuery('#versioning .content').toggle('slide', {percent : 0, direction : 'right'}, 500, function(){
+            WDN.jQuery('#versioning .content').toggle('slide', {percent : 0, direction : 'left'}, 500, function(){
                 WDN.jQuery('#versioning .action').toggleClass('opened');
             });
         });
