@@ -124,6 +124,16 @@ Versioning Box
     padding: 0;
 }
 
+#versioning ul li,
+#versioning ul li a,
+#versioning ul:after {
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    -o-transition: all .2s;
+    -ms-transition: all .2s;
+    transition: all .2s;
+}
+
 #versioning ul li {
     display: none;
     line-height: 120%;
