@@ -313,19 +313,22 @@ WDN.initializePlugin('jqueryui', [function () {
     );
     $("#toc_nav ol").hide();
 
-//    $("#toc").tableOfContents(
-//            $("#long_content"),      // Scoped to div#long_content
-//      {
-//        startLevel: 2,    // H1 and up
-//        depth:      2,    // H1 through H4,
-//        topLinks:   false, // Add "Top" Links to Each Header
-//        callback : function() {
-//                if (window.location.hash) {
-//                    accomodateHash();
-//                }
-//            }
-//      }
-//    );
+    WDN.loadJS('/workspace/UNL_UndergraduateBulletin/www/templates/html/scripts/jQuery.toc.js', function() {
+    	var $ = WDN.jQuery;
+	    $("#toc").tableOfContents(
+	            $("#long_content"),      // Scoped to div#long_content
+	      {
+	        startLevel: 2,    // H1 and up
+	        depth:      2,    // H1 through H4,
+	        topLinks:   false, // Add "Top" Links to Each Header
+	        callback : function() {
+	                if (window.location.hash) {
+	                    accomodateHash();
+	                }
+	            }
+	      }
+	    );
+    });
     menuFaded = false;
     if ($('#toc_nav').length > 0) {
         WDN.log('setting TOC');
