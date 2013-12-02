@@ -34,7 +34,7 @@ $courses = $search->driver->getQueryResult($query);
 $test->assertEquals(1, count($courses), 'Intersection of two queries');
 
 $courses = $search->graduateCourses();
-$test->assertEquals(1, count($courses), 'One graduate course returned');
+$test->assertEquals(2, count($courses), 'One graduate course returned');
 
 
 ?>

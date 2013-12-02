@@ -100,7 +100,7 @@ abstract class UNL_Services_CourseApproval_SearchInterface
                 '/ace\s*:?\s*([0-9])(X+|\*+)/i'                => 'aceAndNumberPrefixQuery',
 
                 // Course subject code and number
-                '/([A-Z]{3,4})\s+([\d]?[\d]{2,3})([A-Z])?:?/i' => function($matches) use ($driver) {
+                '/([A-Z]{3,4})\s+([\d]?[\d]{2,3})([A-Z])?(:.*)?/i' => function($matches) use ($driver) {
 
                         $subject = strtoupper($matches[1]);
                         $letter = null;

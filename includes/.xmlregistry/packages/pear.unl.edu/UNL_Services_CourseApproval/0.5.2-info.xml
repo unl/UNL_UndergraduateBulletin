@@ -25,9 +25,9 @@ http://courseapproval.unl.edu/schema/courses.xsd</description>
   <active>yes</active>
  </lead>
  <date>2013-12-02</date>
- <time>10:00:51</time>
+ <time>14:11:36</time>
  <version>
-  <release>0.5.1</release>
+  <release>0.5.2</release>
   <api>0.1.0</api>
  </version>
  <stability>
@@ -44,6 +44,7 @@ Examples:
 Bug Fix:
 
 * PHP 5.3 compatibility
+* Ensure ':{TITLE}' is trimmed if it is present after {CODE} {NUMBER}
 </notes>
  <contents>
   <dir name="/">
@@ -51,13 +52,14 @@ Bug Fix:
    <file role="test" name="test/pear.unl.edu/UNL_Services_CourseApproval/subsequent_courses.phpt" md5sum="f64a2e44fbeb29244d1f513dc9345614"/>
    <file role="test" name="test/pear.unl.edu/UNL_Services_CourseApproval/subjects.phpt" md5sum="2cad4c38c985bf9ad5447cd125f722e4"/>
    <file role="test" name="test/pear.unl.edu/UNL_Services_CourseApproval/search/subjectAndNumberSearch.phpt" md5sum="74b734a7ba74314e91bb5ae72adf4181"/>
+   <file role="test" name="test/pear.unl.edu/UNL_Services_CourseApproval/search/subjectAndNumberAndTitle.phpt" md5sum="9e3fe80a7e9d6dc62a02c0a7d947a080"/>
    <file role="test" name="test/pear.unl.edu/UNL_Services_CourseApproval/search/numberSearch.phpt" md5sum="8270d498435ba6880de7ca4a39201854"/>
    <file role="test" name="test/pear.unl.edu/UNL_Services_CourseApproval/search/numberRange.phpt" md5sum="239ff87f4ddb365266721cb625c24355"/>
    <file role="test" name="test/pear.unl.edu/UNL_Services_CourseApproval/search/honorsSearch.phpt" md5sum="3f082e680636e454122a8c6445f28811"/>
-   <file role="test" name="test/pear.unl.edu/UNL_Services_CourseApproval/search/faceted_search.phpt" md5sum="869a71ff74949e509be760c6d97e3843"/>
+   <file role="test" name="test/pear.unl.edu/UNL_Services_CourseApproval/search/faceted_search.phpt" md5sum="fe785268fc7322d7f4e23925c9633ec0"/>
    <file role="test" name="test/pear.unl.edu/UNL_Services_CourseApproval/search/auto_facet.phpt" md5sum="e7e4febaaec785989243050b21bf2e72"/>
    <file role="test" name="test/pear.unl.edu/UNL_Services_CourseApproval/search/ace.phpt" md5sum="bb110673a9c848ee142fd6172adbcfc4"/>
-   <file role="test" name="test/pear.unl.edu/UNL_Services_CourseApproval/search.phpt" md5sum="96138fa9c28c562d58cfc34a015df468"/>
+   <file role="test" name="test/pear.unl.edu/UNL_Services_CourseApproval/search.phpt" md5sum="e94d34e3b68d18aaea41c8c1688a0363"/>
    <file role="test" name="test/pear.unl.edu/UNL_Services_CourseApproval/sample.phpt" md5sum="3aa1605f14db215adbecb5aea6fb9e7e"/>
    <file role="test" name="test/pear.unl.edu/UNL_Services_CourseApproval/listing.phpt" md5sum="09c4d745744c0d1868940c784c818ec1"/>
    <file role="test" name="test/pear.unl.edu/UNL_Services_CourseApproval/isset.phpt" md5sum="894be932fa8e4a53fe5ab6a6a09cf108"/>
@@ -65,14 +67,14 @@ Bug Fix:
    <file role="test" name="test/pear.unl.edu/UNL_Services_CourseApproval/credits.phpt" md5sum="d8a226bcd8df76eba52d2be3fcd1f232"/>
    <file role="test" name="test/pear.unl.edu/UNL_Services_CourseApproval/array_details.phpt" md5sum="a594d847a39c1e4f252ab6f224a4f7f1"/>
    <file role="test" name="test/pear.unl.edu/UNL_Services_CourseApproval/activities.phpt" md5sum="8fc02ef556eebeb64845686c5329a915"/>
-   <file role="php" name="php/UNL/Services/CourseApproval/XCRIService/MockService.php" md5sum="6ce3e7960cc96859324b01d3689e483c"/>
+   <file role="php" name="php/UNL/Services/CourseApproval/XCRIService/MockService.php" md5sum="71f662a9d42fd4c1b580e347a6b734c0"/>
    <file role="php" name="php/UNL/Services/CourseApproval/XCRIService/creq.php" md5sum="fa8f0b57588220b7b1d27d9c310ea438"/>
    <file role="php" name="php/UNL/Services/CourseApproval/XCRIService.php" md5sum="43510f6da18f84d84906db84e85c12ec"/>
    <file role="php" name="php/UNL/Services/CourseApproval/SubjectArea/Groups.php" md5sum="1366c9b03a537a89738761649f6f9192"/>
    <file role="php" name="php/UNL/Services/CourseApproval/SubjectArea/Courses.php" md5sum="5d8f10bdb2abd05623f2d17c4e03ead0"/>
    <file role="php" name="php/UNL/Services/CourseApproval/SubjectArea.php" md5sum="37a06f138ab00f42acca4ba2fa4cedbc"/>
    <file role="php" name="php/UNL/Services/CourseApproval/SearchInterface/XPath.php" md5sum="4f516456310bb20d78bda9d5fcb3276a"/>
-   <file role="php" name="php/UNL/Services/CourseApproval/SearchInterface.php" md5sum="a4e06e6e82773a22e5670461d460d9c1"/>
+   <file role="php" name="php/UNL/Services/CourseApproval/SearchInterface.php" md5sum="5416523cadb5b00acccc9f962f966767"/>
    <file role="php" name="php/UNL/Services/CourseApproval/Search/Results.php" md5sum="fec9d8c559335a6f7e7b894a85056772"/>
    <file role="php" name="php/UNL/Services/CourseApproval/Search.php" md5sum="d11ae6716c8c0584301c78b82147c13a"/>
    <file role="php" name="php/UNL/Services/CourseApproval/Listing.php" md5sum="0d2b6c93325511b5d4a06db12d709200"/>
