@@ -1,7 +1,7 @@
 <?php
 abstract class UNL_Services_CourseApproval_SearchInterface
 {
-    abstract function aceQuery($ace);
+    abstract function aceQuery($ace = null);
     abstract function subjectAndNumberQuery($subject, $number, $letter = null);
     abstract function subjectAndNumberPrefixQuery($subject, $number);
     abstract function subjectAndNumberSuffixQuery($subject, $number);
@@ -64,71 +64,117 @@ abstract class UNL_Services_CourseApproval_SearchInterface
         return $this->getQueryResult($query, $offset, $limit);
     }
 
-    public function byAny($query, $offset = 0, $limit = -1)
+    public function byMany($queries = array(), $offset = 0, $limit = -1)
+    {
+        $query = $this->determineQuery(array_shift($queries));
+
+        foreach ($queries as $sub_query) {
+             $query = $this->intersectQuery($query, $this->determineQuery($sub_query));
+        }
+
+        return $this->getQueryResult($query, $offset, $limit);
+    }
+
+    /**
+     * Helper method to determine the appropriate query based on an input string
+     *
+     * @return string
+     */
+    public function determineQuery($query)
     {
         $query = $this->filterQuery($query);
 
-        switch (true) {
-            case preg_match('/([\d]+)\scredits?/i', $query, $match):
+        $driver = $this;
+
+        $facets = array(
                 // Credit search
-                $query = $this->creditQuery($match[1]);
-                break;
-            case preg_match('/^ace\s*:?\s*([0-9])(X+|\*+)/i', $query, $matches):
-                // ACE course, and number range, eg: ACE 2XX
-                $query = $this->aceAndNumberPrefixQuery($matches[1]);
-                break;
-            case preg_match('/^ace\s*:?\s*(10|[1-9])$/i', $query, $match):
+                '/([\d]+)\scredits?/i'                         => 'creditQuery',
+
                 // ACE outcome number
-                $query = $this->aceQuery($match[1]);
-                break;
-            case preg_match('/^([A-Z]{3,4})\s+([0-9])(X+|\*+)?$/i', $query, $matches):
-                // Course subject and number range, eg: MRKT 3XX
-                $subject = strtoupper($matches[1]);
+                '/ace\s*:?\s*(10|[1-9])/i'                     => 'aceQuery',
 
-                $query = $this->subjectAndNumberPrefixQuery($subject, $matches[2]);
-                break;
-            case preg_match('/^([A-Z]{3,4})\s+(X+|\*+)([0-9]+)$/i', $query, $matches):
-                // Course subject and number suffix, eg: MUDC *41
-                $subject = strtoupper($matches[1]);
+                // ACE course
+                '/ace/i'                                       => 'aceQuery',
 
-                $query = $this->subjectAndNumberSuffixQuery($subject, $matches[3]);
-                break;
-            case preg_match('/^([A-Z]{3,4})\s+([\d]?[\d]{2,3})([A-Z])?:?.*$/i', $query, $matches):
+                // ACE course, and number range, eg: ACE 2XX
+                '/ace\s*:?\s*([0-9])(X+|\*+)/i'                => 'aceAndNumberPrefixQuery',
+
                 // Course subject code and number
-                $subject = strtoupper($matches[1]);
-                $letter = null;
-                if (isset($matches[3])) {
-                    $letter = $matches[3];
-                }
-                $query = $this->subjectAndNumberQuery($subject, $matches[2], $letter);
-                break;
-            case preg_match('/^([0-9])(X+|\*+)?$/i', $query, $match):
-                // Course number range
-                $query = $this->numberPrefixQuery($match[1]);
-                break;
-            case preg_match('/^(X+|\*+)([0-9]+)?$/i', $query, $match):
-                // Course number suffix
-                $query = $this->numberSuffixQuery($match[1]);
-                break;
-            case preg_match('/^([\d]?[\d]{2,3})([A-Z])?(\*+)?$/i', $query, $matches):
+                '/([A-Z]{3,4})\s+([\d]?[\d]{2,3})([A-Z])?:?/i' => function($matches) use ($driver) {
 
-                $letter = null;
-                if (isset($matches[2])) {
-                    $letter = $matches[2];
+                        $subject = strtoupper($matches[1]);
+                        $letter = null;
+                        if (isset($matches[3])) {
+                            $letter = $matches[3];
+                        }
+                        return $driver->subjectAndNumberQuery($subject, $matches[2], $letter);
+                    },
+
+                // Course subject and number range, eg: MRKT 3XX
+                '/([A-Z]{3,4})\s+([0-9])(X+|\*+)?/i'         => function($matches) use ($driver) {
+                        $subject = strtoupper($matches[1]);
+
+                        return $driver->subjectAndNumberPrefixQuery($subject, $matches[2]);
+                    },
+
+                // Course subject and number suffix, eg: MUDC *41
+                '/([A-Z]{3,4})\s+(X+|\*+)([0-9]+)/i'         => function($matches) use ($driver) {
+                        $subject = strtoupper($matches[1]);
+
+                        return $driver->subjectAndNumberSuffixQuery($subject, $matches[3]);
+                    },
+
+                '/([\d]?[\d]{2,3})([A-Z])?(\*+)?/i'          => function($matches) use ($driver) {
+                        $letter = null;
+                        if (isset($matches[2])) {
+                            $letter = $matches[2];
+                        }
+                        return $driver->numberQuery($matches[1], $letter);
+                    },
+
+                '/([0-9])(X+|\*+)?/i'                        => 'numberPrefixQuery',
+                '/(X+|\*+)([0-9]+)?/i'                       => 'numberSuffixQuery',
+                '/([A-Z]{3,4})(\s*:\s*.*)?(\s[Xx]+|\s\*+)?/' => 'subjectAreaQuery',
+                '/honors/i'                                  => 'honorsQuery',
+                '/(.*)/'                                     => 'titleQuery',
+                );
+
+        $queries = array();
+
+        foreach ($facets as $regex => $method) {
+            if (preg_match($regex, $query, $matches)) {
+                if ($method instanceof Closure) {
+                    $queries[] = call_user_func($method, $matches);
+                } else {
+
+                    $param = null;
+                    if (isset($matches[1])) {
+                        $param = $matches[1];
+                    }
+                    $queries[] = call_user_func(array($this, $method), $param);
                 }
-                $query = $this->numberQuery($matches[1], $letter);
-                break;
-            case preg_match('/^([A-Z]{3,4})(\s*:\s*.*)?(\s[Xx]+|\s\*+)?$/', $query, $matches):
-                // Subject code search
-                $query = $this->subjectAreaQuery($matches[1]);
-                break;
-            case preg_match('/^honors$/i', $query):
-                $query = $this->honorsQuery();
-                break;
-            default:
-                // Do a title text search
-                $query = $this->titleQuery($query);
+
+                // Pull this search facet off the query and continue
+                $query = trim(str_replace($matches[0], '', $query));
+
+                if ($query == '') {
+                    break;
+                }
+            }
         }
+
+        $query = array_shift($queries);
+
+        foreach ($queries as $sub_query) {
+             $query = $this->intersectQuery($query, $sub_query);
+        }
+
+        return $query;
+    }
+
+    public function byAny($query, $offset = 0, $limit = -1)
+    {
+        $query = $this->determineQuery($query);
 
         return $this->getQueryResult($query, $offset, $limit);
     }

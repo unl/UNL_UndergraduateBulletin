@@ -27,8 +27,12 @@ class UNL_UndergraduateBulletin_CourseSearch_DBSearcher extends UNL_Services_Cou
         return $query;
     }
     
-    function aceQuery($ace)
+    function aceQuery($ace = null)
     {
+        if (null == $ace) {
+            return "courses.slo != ''";
+        }
+
         if ($ace == 1) {
             return "courses.slo = '1' OR courses.slo LIKE '%1,%' OR courses.slo LIKE '%,1'";
         }
