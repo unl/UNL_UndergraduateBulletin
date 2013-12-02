@@ -25,7 +25,7 @@ $courses = $search->byMany(array('AECN', 'ACE 10'));
 $test->assertEquals(2, count($courses), 'byMany for ACE 10 and AECN');
 
 $courses = $search->byAny('MATH');
-$test->assertEquals(1, count($courses), 'One MATH course');
+$test->assertEquals(2, count($courses), 'Two MATH courses returned for "MATH"');
 
 $courses = $search->byMany(array('MATH', 'ACE'));
 $test->assertEquals(1, count($courses), 'One MATH ACE course');
