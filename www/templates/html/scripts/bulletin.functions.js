@@ -30,8 +30,8 @@ function accomodateHash() {
     $(window).scrollTop(hashLocation.top - 60);
 }
 
-WDN.loadJQuery(function() {
-    var $ = WDN.jQuery;
+WDN.initializePlugin('jqueryui', [function () {
+	var $ = require('jquery');
     // Append Versioning to the top
     $('#pagetitle h1').append( $('#versioning') );
 
@@ -235,7 +235,7 @@ WDN.loadJQuery(function() {
             select: function(e, ui) {
                 window.location.href = UNL_UGB_URL+'courses/search?q='+ui.item.value;
             }
-        }).data( "autocomplete" )._renderItem = function( ul, item ) {
+        }).data( "uiAutocomplete" )._renderItem = function( ul, item ) {
             return WDN.jQuery( "<li></li>" )
                 .data( "item.autocomplete", item )
                 .append( "<a>"+ item.label + "</a>" )
@@ -279,7 +279,7 @@ WDN.loadJQuery(function() {
             select: function(e, ui) {
                 window.location.href = UNL_UGB_URL+'major/'+ui.item.value;
             }
-        }).data( "autocomplete" )._renderItem = function( ul, item ) {
+        }).data( "uiAutocomplete" )._renderItem = function( ul, item ) {
             return WDN.jQuery( "<li></li>" )
                 .data( "item.autocomplete", item )
                 .append( "<a>"+ item.label + "</a>" )
@@ -313,19 +313,19 @@ WDN.loadJQuery(function() {
     );
     $("#toc_nav ol").hide();
 
-    $("#toc").tableOfContents(
-            $("#long_content"),      // Scoped to div#long_content
-      {
-        startLevel: 2,    // H1 and up
-        depth:      2,    // H1 through H4,
-        topLinks:   false, // Add "Top" Links to Each Header
-        callback : function() {
-                if (window.location.hash) {
-                    accomodateHash();
-                }
-            }
-      }
-    );
+//    $("#toc").tableOfContents(
+//            $("#long_content"),      // Scoped to div#long_content
+//      {
+//        startLevel: 2,    // H1 and up
+//        depth:      2,    // H1 through H4,
+//        topLinks:   false, // Add "Top" Links to Each Header
+//        callback : function() {
+//                if (window.location.hash) {
+//                    accomodateHash();
+//                }
+//            }
+//      }
+//    );
     menuFaded = false;
     if ($('#toc_nav').length > 0) {
         WDN.log('setting TOC');
@@ -441,4 +441,4 @@ WDN.loadJQuery(function() {
         });
     });
 }]);
-});
+}]);
