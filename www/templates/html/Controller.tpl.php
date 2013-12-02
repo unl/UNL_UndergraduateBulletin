@@ -40,7 +40,7 @@ $page->head .= '
 
 
 
-<script src="'.$protocolAgnosticBaseURL.'templates/html/scripts/bulletin.functions.js"></script>
+<script src="'.$protocolAgnosticBaseURL.'templates/html/scripts/bulletin.functions.js" type="text/javascript"></script>
 
 <!-- '.md5($context->getRawObject()->getCacheKey()).' -->
 ';
