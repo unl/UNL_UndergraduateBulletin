@@ -313,7 +313,7 @@ WDN.initializePlugin('jqueryui', [function () {
     );
     $("#toc_nav ol").hide();
 
-    WDN.loadJS('/workspace/UNL_UndergraduateBulletin/www/templates/html/scripts/jQuery.toc.js', function() {
+    WDN.loadJS(UNL_UGB_URL + 'templates/html/scripts/jQuery.toc.js', function() {
     	var $ = WDN.jQuery;
 	    $("#toc").tableOfContents(
 	            $("#long_content"),      // Scoped to div#long_content
