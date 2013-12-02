@@ -12,9 +12,15 @@ UNL_UndergraduateBulletin_Controller::setReplacementData('head', '
 	<?php
     foreach ($context as $key => $concentration) {
         echo '<h2>' . $key . ' - 4 Year Plan</h2>';
-        echo '<div class="bp2-wdn-grid-set-halves wdn-clear-halves">';
+        echo '<div class="bp2-wdn-grid-set-halves wdn-grid-clear">';
         echo $savvy->render($concentration);
-        echo '</div>';
+        echo '</div>
+        <div class="wdn-grid-set">
+        <div class="wdn-col-full">
+        <h3>Concentration Notes</h3>
+        '.$concentration->notes.'
+        </div>
+        </div>';
     }
     ?>
     </div>

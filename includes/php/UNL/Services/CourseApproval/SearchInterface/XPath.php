@@ -101,9 +101,12 @@ class UNL_Services_CourseApproval_SearchInterface_XPath extends UNL_Services_Cou
      * 
      * @return string XPath query
      */
-    function aceQuery($ace)
+    function aceQuery($ace = null)
     {
-        return "default:aceOutcomes[default:slo='$ace']/parent::*";
+        if ($ace) {
+            return "default:aceOutcomes[default:slo='$ace']/parent::*";
+        }
+        return "default:aceOutcomes/parent::*";
     }
 
     /**
