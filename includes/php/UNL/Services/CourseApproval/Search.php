@@ -26,7 +26,7 @@ class UNL_Services_CourseApproval_Search extends UNL_Services_CourseApproval_Sea
         return $this->driver->intersectQuery($query1, $query2);
     }
 
-    function aceQuery($ace)
+    function aceQuery($ace = null)
     {
         return $this->driver->aceQuery($ace);
     }
