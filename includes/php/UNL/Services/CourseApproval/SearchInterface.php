@@ -84,6 +84,8 @@ abstract class UNL_Services_CourseApproval_SearchInterface
     {
         $query = $this->filterQuery($query);
 
+        $driver = $this;
+
         $facets = array(
                 // Credit search
                 '/([\d]+)\scredits?/i'                         => 'creditQuery',
@@ -98,36 +100,36 @@ abstract class UNL_Services_CourseApproval_SearchInterface
                 '/ace\s*:?\s*([0-9])(X+|\*+)/i'                => 'aceAndNumberPrefixQuery',
 
                 // Course subject code and number
-                '/([A-Z]{3,4})\s+([\d]?[\d]{2,3})([A-Z])?:?/i' => function($matches) {
+                '/([A-Z]{3,4})\s+([\d]?[\d]{2,3})([A-Z])?:?/i' => function($matches) use ($driver) {
 
                         $subject = strtoupper($matches[1]);
                         $letter = null;
                         if (isset($matches[3])) {
                             $letter = $matches[3];
                         }
-                        return $this->subjectAndNumberQuery($subject, $matches[2], $letter);
+                        return $driver->subjectAndNumberQuery($subject, $matches[2], $letter);
                     },
 
                 // Course subject and number range, eg: MRKT 3XX
-                '/([A-Z]{3,4})\s+([0-9])(X+|\*+)?/i'         => function($matches) {
+                '/([A-Z]{3,4})\s+([0-9])(X+|\*+)?/i'         => function($matches) use ($driver) {
                         $subject = strtoupper($matches[1]);
 
-                        return $this->subjectAndNumberPrefixQuery($subject, $matches[2]);
+                        return $driver->subjectAndNumberPrefixQuery($subject, $matches[2]);
                     },
 
                 // Course subject and number suffix, eg: MUDC *41
-                '/([A-Z]{3,4})\s+(X+|\*+)([0-9]+)/i'         => function($matches) {
+                '/([A-Z]{3,4})\s+(X+|\*+)([0-9]+)/i'         => function($matches) use ($driver) {
                         $subject = strtoupper($matches[1]);
 
-                        return $this->subjectAndNumberSuffixQuery($subject, $matches[3]);
+                        return $driver->subjectAndNumberSuffixQuery($subject, $matches[3]);
                     },
 
-                '/([\d]?[\d]{2,3})([A-Z])?(\*+)?/i'         => function($matches) {
+                '/([\d]?[\d]{2,3})([A-Z])?(\*+)?/i'          => function($matches) use ($driver) {
                         $letter = null;
                         if (isset($matches[2])) {
                             $letter = $matches[2];
                         }
-                        return $this->numberQuery($matches[1], $letter);
+                        return $driver->numberQuery($matches[1], $letter);
                     },
 
                 '/([0-9])(X+|\*+)?/i'                        => 'numberPrefixQuery',
