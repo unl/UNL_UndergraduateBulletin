@@ -1,8 +1,8 @@
 <form id="courseform" class="search" action="<?php echo UNL_UndergraduateBulletin_Controller::getURL(); ?>courses/search" method="get">
     <fieldset>
         <legend>Find a Course</legend>
-        <label for="courseSearch">Course</label>
-        <input type="text" name="q" id="courseSearch" value="<?php echo (isset($controller->options['q']))?htmlentities($controller->options['q'], ENT_QUOTES):''; ?>" />
+        <label for="courseSearch">Course Search</label>
+        <input type="text" placeholder="e.g. CSCE ace 3 honors" name="q" id="courseSearch" value="<?php echo (isset($controller->options['q']))?htmlentities($controller->options['q'], ENT_QUOTES):''; ?>" />
         <input type="submit" value="Find" name="submit" />
     </fieldset>
     <div class="search_help">
