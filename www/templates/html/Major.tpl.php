@@ -39,10 +39,15 @@ UNL_UndergraduateBulletin_Controller::setReplacementData('breadcrumbs', '
     <?php endif; ?>
 </ul>
 <?php
-if ($context->options['view'] == 'major') {
-    echo $savvy->render($context->description);
-} else {
-    echo $savvy->render($context->subjectareas);
+switch($context->options['view']) {
+    case 'major':
+        echo $savvy->render($context->description);
+        break;
+    case 'plans':
+        echo $savvy->render($context->getFourYearPlans());
+        break;
+    default:
+        echo $savvy->render($context->subjectareas);
 }
 
 ?>
