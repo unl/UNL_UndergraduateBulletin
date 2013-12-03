@@ -1,30 +1,3 @@
-function setTOCLocations() {
-    try {
-        tocLocation = $('#toc_nav').offset();
-        lcLocation = $('#long_content').offset();
-        //WDN.log(tocLocation.top);
-    } catch(e) {}
-}
-
-function fadeInTOCMenu() {
-    if (!menuFaded) { //menu is hidden
-        WDN.log('fading menu in');
-        $('#toc_nav').css({'position': 'fixed', 'width': '960px'});
-        $('#toc_major_name').css({'display': 'block'});
-        $('#long_content').css({'margin-top':'73px'});
-        $('#toc_bar').fadeIn(200);
-    }
-}
-function fadeOutTOCMenu() {
-    if (menuFaded) { //menu is displayed
-        WDN.log('fading menu out');
-        $('#toc_nav').css({'position': 'relative', 'width': 'auto'});
-        $('#toc_major_name').css({'display': 'none'});
-        $('#toc_bar').fadeOut(200);
-        $('#long_content').css({'margin-top':'35px'});
-    }
-}
-
 function accomodateHash() {
     hashLocation = $(window.location.hash).offset();
     $(window).scrollTop(hashLocation.top - 60);
@@ -47,7 +20,6 @@ WDN.initializePlugin('jqueryui', [function () {
         $('#officialMessage .minimize').removeClass('minimize').addClass('maximize');
         $("#officialMessage div.message p, #previousBulletins").hide();
         $("#bulletinRules").insertAfter("#officialMessage div.message h4").css({'margin-left' : '10px', 'font-size' : '0.8em'});
-        setTOCLocations();
     }
 
     $("#officialMessage .minimize, #officialMessage .maximize").click(function() {
@@ -59,9 +31,7 @@ WDN.initializePlugin('jqueryui', [function () {
                 $("#bulletinRules").appendTo("div.message p").css({'margin-left' : '0', 'font-size' : '1em'});
                 $(this).children(".maximize").removeClass("maximize").addClass("minimize");
                 $(this).removeClass("small");
-                $(this).fadeIn("fast", function() {
-                    setTOCLocations();
-                });
+                $(this).fadeIn("fast");
             });
         } else {
             $(this).parent(".wdn_notice").fadeOut("fast", function() { //let's hide the full notice
@@ -70,9 +40,7 @@ WDN.initializePlugin('jqueryui', [function () {
                 $("#bulletinRules").insertAfter("div.message h4").css({'margin-left' : '10px', 'font-size' : '0.8em'});
                 $(this).children(".minimize").removeClass("minimize").addClass("maximize");
                 $(this).addClass("small");
-                $(this).fadeIn("fast", function() {
-                    setTOCLocations();
-                });
+                $(this).fadeIn("fast");
                 WDN.setCookie('notice', 'y', 86400);
             });
         }
@@ -307,36 +275,6 @@ WDN.initializePlugin('jqueryui', [function () {
 	      }
 	    );
     });
-    /*
-    menuFaded = false;
-    if ($('#toc_nav').length > 0) {
-        WDN.log('setting TOC');
-        setTOCLocations();
-
-        $(window).scroll(function(){
-            if ($(window).scrollTop() > (tocLocation.top - 10)) {//when we scroll to the top of the TOC (+padding) then start scrolling the cotents boc
-                fadeInTOCMenu();
-                menuFaded = true;
-            }
-            if($(window).scrollTop() < (lcLocation.top - 73)) {
-                fadeOutTOCMenu();
-                menuFaded = false;
-            }
-        });
-
-        if ($(window).scrollTop() > (tocLocation.top - 10)) {//if the page loads and the top of the window is below the TOC, then show the TOC menu
-            fadeInTOCMenu();
-            menuFaded = true;
-        }
-        //deal with small window heights and large toc height
-        WDN.log ($('#toc').height());
-        WDN.log (($(window).height() * 0.85));
-        if ($('#toc').height() > ($(window).height() * 0.85)) {
-            $('#toc').css({'max-height' : $(window).height() * 0.85, 'overflow-y' : 'scroll', '-ms-overflow-y' : 'scroll'});
-        }
-    }
-    */
-    //End: Deal with the Table of Contents for the majors pages.
 
     /*
      * 
