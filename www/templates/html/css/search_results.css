@@ -182,10 +182,7 @@ Autocomplete CSS
 }
 
 #search_forms label {
-    position: absolute;
-    top: 0.4em;
-    color: #999;
-    line-height: 1;
+    display:none;
 }
 #search_forms input:focus{
     outline: none;
