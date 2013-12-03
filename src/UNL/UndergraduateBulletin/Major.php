@@ -24,6 +24,11 @@ class UNL_UndergraduateBulletin_Major implements UNL_UndergraduateBulletin_Cache
     
     function getCacheKey()
     {
+        if (!isset($this->options['view'])) {
+            // We're not sure what we're rendering here, do not cache
+            return false;
+        }
+
         return 'major'.$this->title.$this->options['view'];
     }
     
