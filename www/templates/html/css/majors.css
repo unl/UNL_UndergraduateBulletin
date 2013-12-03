@@ -19,8 +19,7 @@
 #toc_nav {
     position:relative;
     font-size:150%;
-    width:220px;
-    margin-bottom:1em;
+    margin: 1em 0;
     top:10px;
     z-index:9;
 }
@@ -60,47 +59,99 @@ table.major_quick_points .attr {
 table.major_quick_points .value {
     text-align:right;
 }
-#long_content {margin-top:35px;}
+#long_content {margin-top:2em;}
+
+#maincontent #toc_nav {
+    position: relative;
+    background: #fafafa;
+    -moz-border-radius:6px;
+    -webkit-border-radius:6px;
+    border-radius:6px;
+}
+
+#maincontent #tocToggle {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 5px;
+    font-size: 2em;
+    color: #999;
+    line-height: 100%;
+    cursor: pointer;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    -o-transition: all .35s;
+    -ms-transition: all .35s;
+    transition: all .35s;
+    text-decoration: none;
+    border: none;
+}
+
+#maincontent #tocToggle.close {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    opacity: 1;
+}
+
 #maincontent ol#toc {
     font-size:.65em;
-    position:absolute;
-    left:0px;
-    background:#f7f7f7 url('images/majorContentsLowerBG.png') no-repeat top left;
     list-style: upper-alpha;
     padding:10px 10px 10px 35px;
-    width:600px;
     margin:-7px 0 0 4px;
-    border-right:1px solid #ededed;
-    border-bottom:1px solid #ededed;
-    -moz-box-shadow: 2px 2px 5px #888;
-    -moz-border-radius:5px;
-    -webkit-box-shadow: 2px 2px 5px #888;
-    -webkit-border-radius:5px;
-    box-shadow: 2px 2px 5px #888;
-    border-radius:5px;
-} 
+    overflow: hidden;
+}
+
+#maincontent ol#toc > li {
+    font-weight: bold;
+}
+
+#maincontent ol#toc.open > li > ol {
+    line-height: 200%;
+    margin-left: 0;
+    opacity: 1;
+    font-size: 90%;
+}
+
+#maincontent ol#toc > li > ol > li {
+    font-weight: normal;
+}
+
+#maincontent ol#toc > li > ol {
+    position: relative;
+    line-height: 0;
+    margin-left: -100%;
+    font-size: 0%;
+    opacity: 0;
+
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    -ms-transition: all .5s;
+    transition: all .5s;
+}
+
 #maincontent ol#toc ol { list-style: decimal;padding:0 0 0 25px;}
 #maincontent ol#toc ol ol { list-style: lower-roman;padding:0 0 0 25px;}
 #maincontent ol#toc ol ol ol { list-style: lower-alpha;padding:0 0 0 25px;}
 
-#toc_nav a#tocContent {
-    background:url('images/majorContents.png') 0 0;
-    width:135px;
-    height:30px;
-    display:block;
-    padding:8px 0 0 50px;
-    color:#3f85ca;
-    z-index:10;
+@media (min-width: 768px) {
+    #maincontent #toc_nav #tocToggle {
+        opacity: 0;
     }
-#toc_nav a#tocContent:hover {
-    background:url('images/majorContents.png') 0 -39px;
+
+    #maincontent #toc_nav:hover #tocToggle,
+    #maincontent #toc_nav #tocToggle.close {
+        opacity: 1;
+    }
 }
-#toc_nav a#tocContent:active, #toc_nav a#tocContent:focus {
-    color:#3f85ca !important;
-    }
+
 a.top {
     float:right;
 }
+
 #maincontent h4.title-1, #maincontent h4.title-2, #maincontent h3#college-degree-requirements, #maincontent h3#bulletin-rule, #maincontent h2#college_requirements {margin-top:1em;}
 #maincontent h5.title-3, #maincontent h5.title-4 {margin-top:.8em;}
 #maincontent p + p.header-paragraph {

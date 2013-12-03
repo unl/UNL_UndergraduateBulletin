@@ -204,12 +204,24 @@ Autocomplete CSS
     background-color: #79B85E;
     color: #f0f0f0;
 }
+
+#courseform {
+    overflow: hidden;
+}
+
 .search_help {
     margin: 1.5em 3%;
     width: 69%;
     padding: 1%;
     font-size: 80%;
-    position: relative;
+    position: absolute;
+    line-height: 0;
+    opacity: 0;
+    -webkit-transition: all .25s;
+    -moz-transition: all .25s;
+    -o-transition: all .25s;
+    -ms-transition: all .25s;
+    transition: all .25s;
 }
 .search_help:after {
     position: absolute;
@@ -221,6 +233,12 @@ Autocomplete CSS
     border-bottom: 10px solid #e6e6e6;
     top: -10px;
 }
+.search_help.open {
+    position: relative;
+    line-height: 22px;
+    opacity: 1;
+}
+
 /*
 
 Form overrides

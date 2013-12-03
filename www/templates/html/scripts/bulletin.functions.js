@@ -168,27 +168,24 @@ WDN.initializePlugin('jqueryui', [function () {
         });
     }
 
-
-    $('#versioning .action').click(function(){
-        if ($(this).hasClass('opened')) {
-            setSessionCookie("va", "closed");
-        } else {
-            setSessionCookie("va", "opened");
-        }
-        // slide is a jQuery UI effect
-        WDN.loadJQuery(function() {
-            WDN.jQuery('#versioning .content').toggle('slide', {percent : 0, direction : 'left'}, 500, function(){
-                WDN.jQuery('#versioning .action').toggleClass('opened');
-            });
-        });
-        return false;
-    });
-    var va = WDN.getCookie('va');
-    if(va === 'closed'){
-        $('#versioning .action').click();
-    }
-
+    // Course and Major Search Bar
     WDN.jQuery('#courseSearch, #majorSearch').attr("autocomplete", "off");
+
+    $().focus( function() {
+        $(this).addClass('open');
+    });
+
+    $('#courseSearch').on({
+        focus: function() {
+            $("#courseform .search_help").toggleClass( "open" );
+        }, blur: function() {
+            $("#courseform .search_help").removeClass( "open" );
+        }, keyup: function() {
+            $("#courseform .search_help").removeClass( "open" );
+        }
+    });
+
+    // Remove class on keyup
 
     if ($('#courseSearch').length > 0){
         WDN.jQuery('#courseSearch').autocomplete({
@@ -288,30 +285,11 @@ WDN.initializePlugin('jqueryui', [function () {
     }
 
     //Deal with the Table of Contents for the majors pages.
-    $("#toc_nav ol").click(
-        function() {
-            $("#toc_nav ol").hide();
-        }
-    );
-    $("#tocContent, #toc").hover(
-        function() {
-            $("#toc_nav ol").show();
-            $("#toc_nav ol a").click(function(event) {
-                //we need to go to the #ID, but above it by 60 pixels
-                var headingTarget = $($(this).attr('href')).offset();
-                $(window).scrollTop(headingTarget.top - 60);
-                fadeInTOCMenu();
-                menuFaded = true;
-                event.preventDefault();
-                window.location.hash = $(this).attr('href');
-                accomodateHash();
-            });
-        },
-        function() {
-            $("#toc_nav ol").hide();
-        }
-    );
-    $("#toc_nav ol").hide();
+    $('#tocToggle').on('click touchstart', function (e) {
+        e.preventDefault();
+        $(this).toggleClass('close');
+        $('#toc').toggleClass('open');
+    });
 
     WDN.loadJS(UNL_UGB_URL + 'templates/html/scripts/jQuery.toc.js', function() {
     	var $ = WDN.jQuery;
@@ -329,6 +307,7 @@ WDN.initializePlugin('jqueryui', [function () {
 	      }
 	    );
     });
+    /*
     menuFaded = false;
     if ($('#toc_nav').length > 0) {
         WDN.log('setting TOC');
@@ -356,6 +335,7 @@ WDN.initializePlugin('jqueryui', [function () {
             $('#toc').css({'max-height' : $(window).height() * 0.85, 'overflow-y' : 'scroll', '-ms-overflow-y' : 'scroll'});
         }
     }
+    */
     //End: Deal with the Table of Contents for the majors pages.
 
     /*
