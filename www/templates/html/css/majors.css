@@ -112,6 +112,7 @@ table.major_quick_points .value {
     line-height: 200%;
     margin-left: 0;
     opacity: 1;
+    font-size: 90%;
 }
 
 #maincontent ol#toc > li > ol > li {
@@ -122,7 +123,7 @@ table.major_quick_points .value {
     position: relative;
     line-height: 0;
     margin-left: -100%;
-    font-size: 90%;
+    font-size: 0%;
     opacity: 0;
 
     -webkit-transition: all .5s;
