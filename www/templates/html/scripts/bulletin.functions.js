@@ -168,7 +168,24 @@ WDN.initializePlugin('jqueryui', [function () {
         });
     }
 
+    // Course and Major Search Bar
     WDN.jQuery('#courseSearch, #majorSearch').attr("autocomplete", "off");
+
+    $().focus( function() {
+        $(this).addClass('open');
+    });
+
+    $('#courseSearch').on({
+        focus: function() {
+            $("#courseform .search_help").toggleClass( "open" );
+        }, blur: function() {
+            $("#courseform .search_help").removeClass( "open" );
+        }, keyup: function() {
+            $("#courseform .search_help").removeClass( "open" );
+        }
+    });
+
+    // Remove class on keyup
 
     if ($('#courseSearch').length > 0){
         WDN.jQuery('#courseSearch').autocomplete({
