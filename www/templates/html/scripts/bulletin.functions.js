@@ -8,45 +8,6 @@ WDN.initializePlugin('jqueryui', [function () {
     // Append Versioning to the top
     $('#pagetitle h1').append( $('#versioning') );
 
-    WDN.initializePlugin('jqueryui', [function () {
-    var c = WDN.getCookie('notice');
-
-    //Move the subhead above the notice
-    $('.subhead').insertBefore('#officialMessage');
-
-    //Deal with the interactivity behind the wdn_notice
-    if (c) {
-        $('#officialMessage').addClass('small');
-        $('#officialMessage .minimize').removeClass('minimize').addClass('maximize');
-        $("#officialMessage div.message p, #previousBulletins").hide();
-        $("#bulletinRules").insertAfter("#officialMessage div.message h4").css({'margin-left' : '10px', 'font-size' : '0.8em'});
-    }
-
-    $("#officialMessage .minimize, #officialMessage .maximize").click(function() {
-        if ($(this).parent('.wdn_notice').hasClass('small')) { //let's show the full notice
-            $(this).parent(".wdn_notice").fadeOut("fast", function() {
-                $(this).children("div.message").children("a").appendTo("div.message p");
-                $("#officialMessage div.message").children("h4, #previousBulletins").show();
-                $("#officialMessage div.message p").show();
-                $("#bulletinRules").appendTo("div.message p").css({'margin-left' : '0', 'font-size' : '1em'});
-                $(this).children(".maximize").removeClass("maximize").addClass("minimize");
-                $(this).removeClass("small");
-                $(this).fadeIn("fast");
-            });
-        } else {
-            $(this).parent(".wdn_notice").fadeOut("fast", function() { //let's hide the full notice
-                $(this).children("div.message").children("h4, #previousBulletins").hide();
-                $("#officialMessage div.message p").hide();
-                $("#bulletinRules").insertAfter("div.message h4").css({'margin-left' : '10px', 'font-size' : '0.8em'});
-                $(this).children(".minimize").removeClass("minimize").addClass("maximize");
-                $(this).addClass("small");
-                $(this).fadeIn("fast");
-                WDN.setCookie('notice', 'y', 86400);
-            });
-        }
-        return false;
-    });
-    //End: Deal with the interactivity behind the wdn_notice
     //Show/Hide the course information
     $('#toggleAllCourseDescriptions').click(function() {
         $('dd').slideToggle();
@@ -361,5 +322,4 @@ WDN.initializePlugin('jqueryui', [function () {
             $(this).next('input[type="text"]').focus();
         });
     });
-}]);
 }]);
