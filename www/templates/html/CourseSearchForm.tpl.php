@@ -6,12 +6,14 @@
         <input type="submit" value="Find" name="submit" />
     </fieldset>
     <div class="search_help">
-        <p>Search by Course Title (<a class="operator" href="<?php echo UNL_UndergraduateBulletin_Controller::getURL(); ?>courses/search?q=Global+Advertising">Global Advertising</a>), Course Code (<a class="operator" href="<?php echo UNL_UndergraduateBulletin_Controller::getURL(); ?>courses/search?q=ACCT">ACCT</a>), Course Number (<a class="operator" href="<?php echo UNL_UndergraduateBulletin_Controller::getURL(); ?>courses/search?q=438">438</a>) or advanced:</p>
-        <ul>
-            <li>Ace Outcome: <a class="operator" href="<?php echo UNL_UndergraduateBulletin_Controller::getURL(); ?>courses/search?q=ace+3">ace 3</a></li>
-            <li>Course Number Range: <a class="operator" href="<?php echo UNL_UndergraduateBulletin_Controller::getURL(); ?>courses/search?q=2*">2*</a></li>
-            <li>All Honors Courses: <a class="operator" href="<?php echo UNL_UndergraduateBulletin_Controller::getURL(); ?>courses/search?q=honors">honors</a></li>
-            <li>Credit Hours: <a class="operator" href="<?php echo UNL_UndergraduateBulletin_Controller::getURL(); ?>courses/search?q=2+credits">2 credits</a></li>
-        </ul>
+        <p>
+        Sample: Course Title (<a class="operator" href="<?php echo UNL_UndergraduateBulletin_Controller::getURL(); ?>courses/search?q=Global+Advertising">Global Advertising</a>),
+        Course Code (<a class="operator" href="<?php echo UNL_UndergraduateBulletin_Controller::getURL(); ?>courses/search?q=ACCT">ACCT</a>),
+        Course Number (<a class="operator" href="<?php echo UNL_UndergraduateBulletin_Controller::getURL(); ?>courses/search?q=438">438</a>),
+        Ace Outcome (<a class="operator" href="<?php echo UNL_UndergraduateBulletin_Controller::getURL(); ?>courses/search?q=ace+3">ace 3</a>) Course Number Range (<a class="operator" href="<?php echo UNL_UndergraduateBulletin_Controller::getURL(); ?>courses/search?q=2*">2*</a>),
+        Honors Courses (<a class="operator" href="<?php echo UNL_UndergraduateBulletin_Controller::getURL(); ?>courses/search?q=honors">honors</a>),
+        Credit Hours (<a class="operator" href="<?php echo UNL_UndergraduateBulletin_Controller::getURL(); ?>courses/search?q=2+credits">2 credits</a>),
+        or combine terms (<a class="operator" href="<?php echo UNL_UndergraduateBulletin_Controller::getURL(); ?>courses/search?q=ace+3+CSCE+honors">ace 3 CSCE honors</a>)
+        </p>
     </div>
 </form>
