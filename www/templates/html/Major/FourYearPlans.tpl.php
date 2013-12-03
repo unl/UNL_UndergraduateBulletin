@@ -1,10 +1,6 @@
 <?php
 UNL_UndergraduateBulletin_Controller::setReplacementData('head', '
-    <link rel="stylesheet" type="text/css" href="https://www.dropbox.com/s/3c8sgsducmf3l7s/fpa_4.0.css?dl=1" />
-    <link rel="stylesheet" href="/wdn/templates_3.1/css/content/grid-v3.css" />
-    <!--[if lt IE 9]>
-        <link rel="stylesheet" type="text/css" media="all" href="/wdn/templates_3.1/css/variations/grid-v3-ie.css" />
-    <![endif]-->
+    <link rel="stylesheet" type="text/css" href="'.UNL_UndergraduateBulletin_Controller::getBaseURL().'templates/html/css/modules.courses.css" />
 ');
 ?>
 <section class="wdn-band">
