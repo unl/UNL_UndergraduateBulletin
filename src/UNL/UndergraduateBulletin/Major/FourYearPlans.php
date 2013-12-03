@@ -49,6 +49,16 @@ class UNL_UndergraduateBulletin_Major_FourYearPlans extends ArrayIterator
         return $json;
     }
 
+    /**
+     * Get the major associated with this plan
+     *
+     * @return UNL_UndergraduateBulletin_Major
+     */
+    public function getMajor()
+    {
+        return UNL_UndergraduateBulletin_Major::getByName($this->title);
+    }
+
     function current()
     {
         return new UNL_UndergraduateBulletin_Major_FourYearPlan_Concentration(array('id'=>parent::current()));
