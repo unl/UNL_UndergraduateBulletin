@@ -1,0 +1,133 @@
+@import 'templates_less/_mixins/all.less';
+
+table {
+	line-height: 1.333;
+}
+
+h2 {
+	padding-top: .451em;
+	border-top: 1px solid fadeout(@base-text, 90%);
+}
+
+.wdn-4yrplan {
+	.base-font;
+	.rem(17,21);
+	padding-left: 0.451em;
+	color: fadeout(@base-text, 30%);
+}
+
+.wdn-course-year-header {
+	padding-bottom: 0.75em;
+
+	@media @bp2 {
+		padding-bottom: 0.254em;
+	}
+}
+
+.wdn-course-year-header-year {
+	display: inline-block;
+	vertical-align: top;
+	.base-font;
+	.rem(17,21);
+	color: fadeout(@base-text, 30%);	
+	border-top: 1px solid fadeout(@base-text, 90%);
+	border-bottom: 1px solid fadeout(@base-text, 90%);
+}
+
+.wdn-course-year-header-number {
+	display: inline;
+	padding-left: 0.1em;
+	.rem(41,51);
+}
+
+.wdn-block {
+	display: block;
+}
+
+.wdn-courses {
+	.sans-serif-font;
+	.rem(12);
+
+	caption {
+		padding-bottom: 0.254em;
+		.sans-serif-font;
+		.rem(13);
+
+		.wdn-semester-season {
+			.base-font;
+			font-style: italic;
+			color: fadeout(@base-text, 30%);
+		}
+	}
+
+	td {
+		text-align: left;
+		word-break: normal;
+	}
+
+	.wdn-course-credits {
+		text-align: center;
+		padding: 0.451em 0 0.451em 0.254em; 
+
+		@media @bp2 {
+			padding: 0.563em 0 0.563em 0.254em; 
+		}
+	}
+
+	.wdn-course {
+		line-height: 1.333;
+		padding: 0.451em 0 0.451em 0.254em; 
+
+		@media @bp2 {
+			padding: 0.563em 0 0.563em 0.254em; 
+		}
+	}
+
+	.wdn-course-credits {
+		min-width: 45px;
+	}
+
+	.wdn-course-id {
+		.rem(10);
+		color: fadeout(@base-text, 30%);
+	}
+
+	thead {
+		display: none;
+	}
+
+	tbody {
+
+		tr {
+			background-color: transparent;
+		}
+	}
+
+	tfoot, .wdn-course-credit-hours {
+		.brand-font;
+		.rem(28,30);
+	}
+
+	.wdn-course-credits {
+		line-height: 1;
+	}
+
+	.wdn-course-credit-hours-label {
+		.rem(9,10);
+		color: fadeout(@base-text, 30%);
+	}
+
+	td[class*='wdn-total-credits'], td[class^='wdn-total-credits'] {
+		.heading-font;
+	}
+
+	.wdn-total-credits-label {
+		padding-bottom: 1.333em;
+		.rem(17,21);
+	}
+
+	.wdn-total-credits-number {
+		padding-bottom: 1em;
+		.rem(28,30);
+	}
+}

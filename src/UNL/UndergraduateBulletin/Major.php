@@ -24,6 +24,11 @@ class UNL_UndergraduateBulletin_Major implements UNL_UndergraduateBulletin_Cache
     
     function getCacheKey()
     {
+        if (!isset($this->options['view'])) {
+            // We're not sure what we're rendering here, do not cache
+            return false;
+        }
+
         return 'major'.$this->title.$this->options['view'];
     }
     
@@ -102,11 +107,20 @@ class UNL_UndergraduateBulletin_Major implements UNL_UndergraduateBulletin_Cache
     {
         
     }
-    
+
+    /**
+     * Get major by name
+     *
+     * @param string $name Major name, e.g. Accounting
+     *
+     * @return UNL_UndergraduateBulletin_Major
+     */
     static function getByName($name)
     {
-        $major = new UNL_UndergraduateBulletin_Major();
-        $major->title = $name;
+        $options = array('name' => $name);
+
+        $major = new UNL_UndergraduateBulletin_Major($options);
+
         return $major;
     }
     
