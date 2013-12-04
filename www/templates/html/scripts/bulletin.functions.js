@@ -306,20 +306,5 @@ WDN.initializePlugin('jqueryui', [function () {
             }
         });
     }
-    $('.search input[type="text"]').focus(function(){
-        $(this).prev('label').hide();
-    }).blur(function(){
-        if ($(this).val().length === 0){
-            $(this).prev('label').show();
-        }
-    }).each(function() {
-        if ($(this).val().length !== 0){
-            $(this).prev('label').hide();
-        }
-    });
-    $('.search label').click(function(){
-        $(this).hide(function(){
-            $(this).next('input[type="text"]').focus();
-        });
-    });
+
 }]);
