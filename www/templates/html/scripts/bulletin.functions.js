@@ -7,7 +7,7 @@ WDN.initializePlugin('jqueryui', [function () {
 	var $ = require('jquery');
     
     // Append Versioning to the top
-    $('#pagetitle h1').append( $('#versioning') );
+    $('#pagetitle h1').append( $('#versioning').animate({ opacity: 1 }, 500 ) );
 
     //Show/Hide the course information
     $('#toggleAllCourseDescriptions').click(function() {
