@@ -101,13 +101,9 @@ WDN.initializePlugin('jqueryui', [function () {
     // Course and Major Search Bar
     WDN.jQuery('#courseSearch, #majorSearch').attr("autocomplete", "off");
 
-    $().focus( function() {
-        $(this).addClass('open');
-    });
-
     $('#courseSearch').on({
         focus: function() {
-            $("#courseform .search_help").toggleClass( "open" );
+            $("#courseform .search_help").addClass( "open" );
         }, blur: function() {
             $("#courseform .search_help").removeClass( "open" );
         }, keyup: function() {
@@ -115,7 +111,6 @@ WDN.initializePlugin('jqueryui', [function () {
         }
     });
 
-    // Remove class on keyup
 
     if ($('#courseSearch').length > 0){
         WDN.jQuery('#courseSearch').autocomplete({
