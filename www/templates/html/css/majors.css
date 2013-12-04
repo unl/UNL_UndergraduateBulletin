@@ -75,7 +75,8 @@ table.major_quick_points .value {
     top: 0;
     right: 5px;
     font-size: 2em;
-    color: #999;
+    color: #ddd;
+    text-shadow: 0 -1px 0 #ccc;
     line-height: 100%;
     cursor: pointer;
     -webkit-transition: all .35s;
@@ -93,6 +94,7 @@ table.major_quick_points .value {
     -ms-transform: rotate(45deg);
     -o-transform: rotate(45deg);
     transform: rotate(45deg);
+    text-shadow: -1px -1px 0 #ccc;
     opacity: 1;
 }
 

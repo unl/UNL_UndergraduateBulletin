@@ -32,6 +32,7 @@ function accomodateHash() {
 
 WDN.initializePlugin('jqueryui', [function () {
 	var $ = require('jquery');
+    
     // Append Versioning to the top
     $('#pagetitle h1').append( $('#versioning') );
 
