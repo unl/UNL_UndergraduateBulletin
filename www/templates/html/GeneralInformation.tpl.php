@@ -9,12 +9,17 @@ UNL_UndergraduateBulletin_Controller::setReplacementData('breadcrumbs', '
     <li>Academic Policies &amp; General Information</li>
 </ul>');
 ?>
-<div id="toc_nav">
-    <a href="#toc_nav" id="tocContent">Contents</a>
-    <ol id="toc"><li>Intro</li></ol>
-    <div id="toc_major_name">General Information</div>
+
+<div class="wdn-grid-set">
+    <div class="bp1-wdn-col-three-fourths centered">
+		<div id="toc_nav">
+		    <a id="tocToggle" href="#">+</a>
+		    <ol id="toc"><li>Intro</li></ol>
+    		<div id="toc_major_name">General Information</div>
+		</div>
+	</div>
 </div>
-<div id="toc_bar"></div>
+
 <div id="long_content">
 <?php
 $contents = file_get_contents(UNL_UndergraduateBulletin_Controller::getEdition()->getDataDir().'/General Information.xhtml');
