@@ -111,7 +111,6 @@ WDN.initializePlugin('jqueryui', [function () {
         }
     });
 
-
     if ($('#courseSearch').length > 0){
         WDN.jQuery('#courseSearch').autocomplete({
             delay: 555,
