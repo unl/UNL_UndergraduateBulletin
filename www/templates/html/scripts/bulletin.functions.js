@@ -282,39 +282,26 @@ WDN.initializePlugin('jqueryui', [function () {
     });
 
     //When we have the search combo, run these functions
-    if ($('#search_forms').length > 0) {
-        if ($('#search_forms').parent('.activate_major').length > 0) { // we have a major search instead, so reset defaults
-            $('#search_forms .option').toggleClass('active');
+    var $search_forms = $('#search_forms');
+    
+    if ($search_forms.length > 0) {
+        if ($search_forms.parent('.activate_major').length > 0) { // we have a major search instead, so reset defaults
+        	$search_forms.find('.option').toggleClass('active');
         }
-        $('#search_forms form').hide();
-        selected = $('#search_forms .option.active').attr('id');
+        $search_forms.find('form').hide();
+        selected = $search_forms.find('.option.active').attr('id');
         $('#'+selected+'form').show();
-        $('#search_forms .option').click(function(){
+        $search_forms.find('.option').click(function(){
             if (!($(this).hasClass('active'))) {
-                $('#search_forms .option').toggleClass('active');
-                $('#search_forms form').toggle();
+            	$search_forms.find('.option').toggleClass('active');
+            	$search_forms.find('form').toggle();
             }
         }).keyup(function(event){
             if (event.keyCode == 13){
-               $('#search_forms .option').toggleClass('active');
-               $('#search_forms form').toggle();
+            	$search_forms.find('.option').toggleClass('active');
+            	$search_forms.find('form').toggle();
             }
         });
     }
-    $('.search input[type="text"]').focus(function(){
-        $(this).prev('label').hide();
-    }).blur(function(){
-        if ($(this).val().length === 0){
-            $(this).prev('label').show();
-        }
-    }).each(function() {
-        if ($(this).val().length !== 0){
-            $(this).prev('label').hide();
-        }
-    });
-    $('.search label').click(function(){
-        $(this).hide(function(){
-            $(this).next('input[type="text"]').focus();
-        });
-    });
+
 }]);
