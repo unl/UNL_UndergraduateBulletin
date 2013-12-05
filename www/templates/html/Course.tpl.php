@@ -111,12 +111,12 @@
                         echo  "<div class='description'>".UNL_UndergraduateBulletin_EPUB_Utilities::addCourseLinks($context->getRaw('description'), $url)."</div>\n";
                     }
                     $subsequent_courses = $context->getSubsequentCourses($course_search_driver->getRawObject());
-                    if (count($subsequent_courses)) {
+                    $sub_course_array = array();
+                    foreach ($subsequent_courses as $subsequent_course) {
+                        $sub_course_array[] = $subsequent_course->getHomeListing()->subjectArea.' '.$subsequent_course->getHomeListing()->courseNumber;
+                    }
+                    if (count($sub_course_array)) {
                         echo  "<div class='subsequent'>This course is a prerequisite for: ";
-                        $sub_course_array = array();
-                        foreach ($subsequent_courses as $subsequent_courses) {
-                            $sub_course_array[] = $subsequent_courses->getHomeListing()->subjectArea.' '.$subsequent_courses->getHomeListing()->courseNumber;
-                        }
                         echo UNL_UndergraduateBulletin_EPUB_Utilities::addCourseLinks(implode(', ', $sub_course_array), $url);
                         echo "</div>\n";
                     }
