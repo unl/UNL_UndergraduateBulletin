@@ -102,22 +102,22 @@
                 <div class='bp2-wdn-col-two-thirds'>";
 
                     if (!empty($context->prerequisite)) {
-                        echo  "<div class='prereqs'>Prereqs: ".UNL_UndergraduateBulletin_EPUB_Utilities::addCourseLinks($context->getRaw('prerequisite'), $controller->getURL())."</div>\n";
+                        echo  "<div class='prereqs'>Prereqs: ".UNL_UndergraduateBulletin_EPUB_Utilities::addCourseLinks($context->getRaw('prerequisite'), $url)."</div>\n";
                     }
                     if (!empty($context->notes)) {
-                        echo  "<div class='notes'>".UNL_UndergraduateBulletin_EPUB_Utilities::addCourseLinks($context->getRaw('notes'), $controller->getURL())."</div>\n";
+                        echo  "<div class='notes'>".UNL_UndergraduateBulletin_EPUB_Utilities::addCourseLinks($context->getRaw('notes'), $url)."</div>\n";
                     }
                     if (!empty($context->description)) {
-                        echo  "<div class='description'>".UNL_UndergraduateBulletin_EPUB_Utilities::addCourseLinks($context->getRaw('description'), $controller->getURL())."</div>\n";
+                        echo  "<div class='description'>".UNL_UndergraduateBulletin_EPUB_Utilities::addCourseLinks($context->getRaw('description'), $url)."</div>\n";
                     }
                     $subsequent_courses = $context->getSubsequentCourses($course_search_driver->getRawObject());
-                    if (count($subsequent_courses)) {
+                    $sub_course_array = array();
+                    foreach ($subsequent_courses as $subsequent_course) {
+                        $sub_course_array[] = $subsequent_course->getHomeListing()->subjectArea.' '.$subsequent_course->getHomeListing()->courseNumber;
+                    }
+                    if (count($sub_course_array)) {
                         echo  "<div class='subsequent'>This course is a prerequisite for: ";
-                        $sub_course_array = array();
-                        foreach ($subsequent_courses as $subsequent_courses) {
-                            $sub_course_array[] = $subsequent_courses->getHomeListing()->subjectArea.' '.$subsequent_courses->getHomeListing()->courseNumber;
-                        }
-                        echo UNL_UndergraduateBulletin_EPUB_Utilities::addCourseLinks(implode(', ', $sub_course_array), $controller->getURL());
+                        echo UNL_UndergraduateBulletin_EPUB_Utilities::addCourseLinks(implode(', ', $sub_course_array), $url);
                         echo "</div>\n";
                     }
                 echo "</div>"; // Close the text content

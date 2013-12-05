@@ -217,7 +217,7 @@ WDN.initializePlugin('jqueryui', [function () {
         $('#toc').toggleClass('open');
     });
 
-    WDN.loadJS(UNL_UGB_URL + 'templates/html/scripts/jQuery.toc.js', function() {
+    WDN.loadJS(UNL_UGB_BASEURL + 'templates/html/scripts/jQuery.toc.js', function() {
     	var $ = WDN.jQuery;
 	    $("#toc").tableOfContents(
 	            $("#long_content"),      // Scoped to div#long_content

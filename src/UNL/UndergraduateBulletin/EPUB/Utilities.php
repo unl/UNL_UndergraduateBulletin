@@ -21,7 +21,11 @@ class UNL_UndergraduateBulletin_EPUB_Utilities
         $html = self::convertHeadings($html);
         $html = self::addLeaders($html);
         $html = self::linkURLs($html);
-        $html = self::addCourseLinks($html);
+
+        $url = UNL_UndergraduateBulletin_Controller::getURL();
+
+        $html = self::addCourseLinks($html, $url);
+
         return $html;
     }
 
