@@ -4,12 +4,12 @@
  */
 require_once 'UNL/Templates.php';
 
-class UNL_Templates_Version4_Fixed extends UNL_Templates 
+class UNL_Templates_Version4_Debug extends UNL_Templates 
 {
     ###START_AUTOCODE
     /* the code below is auto generated do not remove the above tag */
 
-    public $__template = 'Fixed.tpl';                       // template name
+    public $__template = 'Debug.tpl';                       // template name
     public $doctitle = "<title>Use a descriptive page title | Optional Site Title (use for context) | University of Nebraska&ndash;Lincoln</title>";                       // string()  
     public $head = "<!-- Place optional header elements here -->";                           // string()  
     public $titlegraphic = "The Title of My Site";                   // string()  
@@ -27,12 +27,12 @@ class UNL_Templates_Version4_Fixed extends UNL_Templates
   array (
     'name' => 'class',
     'type' => 'text',
-    'value' => '',
+    'value' => 'debug',
   ),
 );
 
     /* Static get */
-    function staticGet($k,$v=NULL) { return UNL_DWT::staticGet('UNL_Templates_Version4_Fixed',$k,$v); }
+    function staticGet($k,$v=NULL) { return UNL_DWT::staticGet('UNL_Templates_Version4_Debug',$k,$v); }
 
     /* the code above is auto generated do not remove the tag below */
     ###END_AUTOCODE
