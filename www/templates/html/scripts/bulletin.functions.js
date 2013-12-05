@@ -133,9 +133,11 @@ WDN.initializePlugin('jqueryui', [function () {
                                 //key is used to match highlighted course
                                 rows[i] = {
                                     label: '<dt class="course">' +
-                                                '<span class="subjectCode">' + data[i].courseCodes[0].subject + '</span>' +
-                                                '<span class="number">' + data[i].courseCodes[0].courseNumber + '</span>' +
-                                            '<span class="title">' + data[i].title + '</span>' +
+                                                '<div class="courseID">' +
+                                                    '<span class="subjectCode">' + data[i].courseCodes[0].subject + '</span>' +
+                                                    '<span class="number">' + data[i].courseCodes[0].courseNumber + '</span>' +
+                                                '</div>' +
+                                                '<span class="title">' + data[i].title + '</span>' +
                                                 '<span class="key" style="display:none;">' + data[i].courseCodes[0].subject + data[i].courseCodes[0].courseNumber + data[i].title + '</span>' +
                                             '</dt>',
                                     value: data[i].courseCodes[0].subject + " " + data[i].courseCodes[0].courseNumber + ": " + data[i].title,

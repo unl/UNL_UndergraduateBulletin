@@ -88,6 +88,11 @@ table.major_quick_points .value {
     border: none;
 }
 
+#maincontent #tocToggle:hover {
+    color: #ccc;
+    text-shadow: 0 -1px 0 #aaa;
+}
+
 #maincontent #tocToggle.close {
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
@@ -96,6 +101,10 @@ table.major_quick_points .value {
     transform: rotate(45deg);
     text-shadow: -1px -1px 0 #ccc;
     opacity: 1;
+}
+
+#maincontent #tocToggle.close:hover {
+    text-shadow: -1px -1px 0 #aaa;
 }
 
 #maincontent ol#toc {

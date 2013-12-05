@@ -3,10 +3,18 @@
 Autocomplete CSS
 
 *********************************/
+#ui-id-1, #ui-id-2 {
+    position: relative;
+    background-image: none; 
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 0;
+    border: 1px solid #eee;
+    border-radius: 0;
+    box-shadow: 2px 4px 8px -2px rgba(0, 0, 0, 0.1);
+}
+
 .ui-autocomplete {
 	max-width:434px;
-	background-color:#f5f5f5;
-	border:1px solid #B8AFA1;
 	margin:-5px 0 0 4px;
 	border-top:rgba(185, 185, 185, 0.26);color:#494949;
 	font-size:60%;
@@ -17,6 +25,9 @@ Autocomplete CSS
 	line-height:110%;
 	text-align:left;
 }
+.ui-autocomplete .course {
+    margin-left: 2px;
+}
 .ui-autocomplete a span.format {
 	font-size:140%;
 	line-height:110%;
@@ -24,41 +35,40 @@ Autocomplete CSS
 	padding-top:12px;
 	display:block;
 }
-.ui-autocomplete li {
-	padding:0px;
+#ui-id-1.ui-autocomplete > li,
+#ui-id-2.ui-autocomplete > li {
+    display: table;
+	padding: 0px;
 }
-.ui-autocomplete>li>a {
+#ui-id-1.ui-autocomplete > li > a,
+#ui-id-2.ui-autocomplete > li > a {
 	display:block;
-	height:38px;
-	border-top: 1px solid #fff;
-	border-bottom:1px solid #d6d6d6;
-	padding:0 0 0 5px;
+    padding: 8px 2px;
+	border-bottom:1px dashed #d6d6d6;
 }
-.ui-autocomplete a.indicator { /* @todo : need fallback images for other browsers */
-	background: #80c662; /* Old browsers */
-	background: -moz-linear-gradient(top,  #80c662 0%, #63a945 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#80c662), color-stop(100%,#63a945)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top,  #80c662 0%,#63a945 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top,  #80c662 0%,#63a945 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top,  #80c662 0%,#63a945 100%); /* IE10+ */
-	background: linear-gradient(top,  #80c662 0%,#63a945 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80c662', endColorstr='#63a945',GradientType=0 ); /* IE6-9 */
-	color: #fff;
-	-webkit-box-shadow: inset -1px 1px 2px 0px #a4e489;
-	-moz-box-shadow: inset -1px 1px 2px 0px #a4e489;
-	box-shadow: inset -1px 1px 2px 0px #a4e489;
-	cursor: pointer;
+#ui-id-1.ui-autocomplete > li:last-child > a,
+#ui-id-2.ui-autocomplete > li:last-child > a {
+    border-bottom: none;
 }
-.ui-autocomplete a.indicator:active {
-    -webkit-box-shadow: inset 1px 1px 1px 0px #699b53;
-    -moz-box-shadow: inset 1px 1px 1px 0px #699b53;
-    box-shadow: inset 1px 1px 1px 0px #699b53;
-}
-.ui-autocomplete a.indicator .number {
+.ui-autocomplete a .number {
     color: #494949;
 }
-.ui-autocomplete dt {
-	height:37px;	
+.ui-autocomplete a.indicator { 
+	background: #80c662; 
+	border: none;
+    border-radius: 0;
+	cursor: pointer;
+}
+.ui-autocomplete a.indicator .title { 
+    color: #fff;
+}
+.ui-autocomplete .courseID,
+.ui-autocomplete dt.course .title {
+    display: table-cell;
+}
+.ui-autocomplete .courseID {
+    float: none;
+    font-size: 50%;
 }
 .ui-autocomplete dt .number, .ui-autocomplete dt .subjectCode {
 	min-width:40px;
@@ -67,9 +77,8 @@ Autocomplete CSS
 .ui-autocomplete dt .subjectCode {
 	margin-bottom:2px;	
 	font-size:80%;
-	top:5px;
-	left: 3px;
 }
+/*
 .ui-autocomplete dt .number {
 	font-size:160%;	
 	padding:14px 0 5px;
@@ -79,13 +88,16 @@ Autocomplete CSS
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
 	margin: -10px 5px 0 0;
+    width: 50px;
 }
-
+*/
 .ui-autocomplete dt.course .title {
-	margin-left:50px;
-	border:none;
-	line-height:100%;
-	padding-top:6px;	
+	border: none;
+	line-height: 100%;
+	padding-top: 6px;
+    padding-left: 10px;	
+    font-size: 0.85em;
+    vertical-align: middle;
 }
 
 /*

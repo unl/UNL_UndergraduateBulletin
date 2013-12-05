@@ -99,7 +99,7 @@
         echo  "</dt>
         <dd class='$class'>
             <div class='wdn-grid-set'>
-                <div class='bp2-wdn-col-two-thirds bp3-wdn-col-three-fourths'>";
+                <div class='bp2-wdn-col-two-thirds'>";
 
                     if (!empty($context->prerequisite)) {
                         echo  "<div class='prereqs'>Prereqs: ".UNL_UndergraduateBulletin_EPUB_Utilities::addCourseLinks($context->getRaw('prerequisite'), $controller->getURL())."</div>\n";
@@ -121,7 +121,7 @@
                         echo "</div>\n";
                     }
                 echo "</div>"; // Close the text content
-                echo '<div class="bp2-wdn-col-one-third bp3-wdn-col-one-fourth details">';
+                echo '<div class="bp2-wdn-col-one-third details">';
                 echo  '<table class="zentable cool details">';
                 echo $savvy->render($context, 'Course/Credits.tpl.php');
                 if (!empty($format)) {
