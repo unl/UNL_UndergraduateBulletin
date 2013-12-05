@@ -29,11 +29,10 @@ Autocomplete CSS
     margin-left: 2px;
 }
 .ui-autocomplete a span.format {
-	font-size:140%;
-	line-height:110%;
-	font-weight:bold;	
-	padding-top:12px;
-	display:block;
+    display: block;
+	font-size: 100%;
+    font-weight: bold;
+    padding: 5px 10px;
 }
 #ui-id-1.ui-autocomplete > li,
 #ui-id-2.ui-autocomplete > li {
@@ -50,17 +49,19 @@ Autocomplete CSS
 #ui-id-2.ui-autocomplete > li:last-child > a {
     border-bottom: none;
 }
-.ui-autocomplete a .number {
+.ui-autocomplete a .number,
+.ui-autocomplete a .format {
     color: #494949;
+}
+.ui-autocomplete a.indicator .title,
+.ui-autocomplete a.indicator .format { 
+    color: #fff;
 }
 .ui-autocomplete a.indicator { 
 	background: #80c662; 
 	border: none;
     border-radius: 0;
 	cursor: pointer;
-}
-.ui-autocomplete a.indicator .title { 
-    color: #fff;
 }
 .ui-autocomplete .courseID,
 .ui-autocomplete dt.course .title {
@@ -78,19 +79,6 @@ Autocomplete CSS
 	margin-bottom:2px;	
 	font-size:80%;
 }
-/*
-.ui-autocomplete dt .number {
-	font-size:160%;	
-	padding:14px 0 5px;
-    background-color: #E7F0F9;
-    border: 2px solid #cedae7;
-    border-radius: 5px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-	margin: -10px 5px 0 0;
-    width: 50px;
-}
-*/
 .ui-autocomplete dt.course .title {
 	border: none;
 	line-height: 100%;
