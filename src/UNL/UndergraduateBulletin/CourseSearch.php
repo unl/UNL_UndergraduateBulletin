@@ -55,6 +55,16 @@ class UNL_UndergraduateBulletin_CourseSearch implements Countable, UNL_Undergrad
                                         $this->options['limit']);
     }
 
+    /**
+     * Get the filters used for this search
+     *
+     * @return UNL_UndergraduateBulletin_CourseSearch_Filters
+     */
+    public function getFilters()
+    {
+        return new UNL_UndergraduateBulletin_CourseSearch_Filters($this->options);
+    }
+
 
     function count()
     {
