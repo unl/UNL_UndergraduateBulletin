@@ -19,7 +19,9 @@ UNL_UndergraduateBulletin_Controller::setReplacementData('head', '
             </div>';
         }
         ?>
-        <h3>Note</h3>
+        <div class="wdn_notice alert">
+            <div class="message">
+                <h4>Important Note</h4>
         <p>
         This document represents a sample 4-year plan for degree completion with
         this major. Actual course selection and sequence may vary and should be
@@ -29,5 +31,7 @@ UNL_UndergraduateBulletin_Controller::setReplacementData('head', '
         undergraduate research, learning communities, and service learning and
         community-based learning.
         </p>
+            </div>
+        </div>
     </div>
 </section>
