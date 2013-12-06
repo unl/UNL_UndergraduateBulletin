@@ -64,6 +64,6 @@ UNPUBLISHED;
 $page->maincontentarea = '';
 $page->maincontentarea .= $savvy->render($context->output);
 
-$page->maincontentarea .= $savvy->render($context, 'EditionNotice.tpl.php');
+$page->maincontentarea .= $savvy->render(null, 'EditionNotice.tpl.php');
 
 echo $page;
