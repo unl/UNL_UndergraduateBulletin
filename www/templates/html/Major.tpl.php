@@ -35,7 +35,7 @@ UNL_UndergraduateBulletin_Controller::setReplacementData('breadcrumbs', '
     $plans = $context->getFourYearPlans();
     if ($plans):
     ?>
-    <li class="<?php echo ($controller->options['view']=='plans')?'selected':''; ?>"><a href="<?php echo $context->getRawObject()->getURL(); ?>/plans">Plans</a></li>
+    <li class="<?php echo ($controller->options['view']=='plans')?'selected':''; ?>"><a href="<?php echo $context->getRawObject()->getURL(); ?>/plans">4-Year Plans</a></li>
     <?php endif; ?>
 </ul>
 <?php
