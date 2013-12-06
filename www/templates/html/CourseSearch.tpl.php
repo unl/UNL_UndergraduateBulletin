@@ -28,7 +28,7 @@ if (!count($context->results)) {
     echo '<div class="wdn-grid-set">';
     if ($context->options['format'] != 'partial') {
         echo '<div class="bp2-wdn-col-one-fourth">';
-        echo $savvy->render($context, 'CourseFilters.tpl.php');
+        echo $savvy->render($context->getFilters(), 'CourseFilters.tpl.php');
         echo '</div>';
         echo '<div class="bp2-wdn-col-three-fourths">';
     }
