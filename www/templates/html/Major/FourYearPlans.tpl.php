@@ -23,11 +23,11 @@ UNL_UndergraduateBulletin_Controller::setReplacementData('head', '
         <p>
         This document represents a sample 4-year plan for degree completion with
         this major. Actual course selection and sequence may vary and should be
-        discussed individually with an academic adviser at the college and/or
-        department. Advisers can also help students plan for other experiences that
-        will enrich their undergraduate education such as internships, education
-        abroad, undergraduate research, learning communities, and service learning
-        and community-based learning.
+        discussed individually with your college or department academic adviser.
+        Advisers also can help you plan other experiences to enrich your
+        undergraduate education such as internships, education abroad,
+        undergraduate research, learning communities, and service learning and
+        community-based learning.
         </p>
     </div>
 </section>
