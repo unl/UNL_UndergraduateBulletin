@@ -10,11 +10,8 @@ UNL_UndergraduateBulletin_Controller::setReplacementData('breadcrumbs', '
 ?>
 <h2>Bulletin Rules</h2>
 <div class="wdn_notice" id="officialMessage">
-    <div class="minimize">
-        <a href="#">Close message</a>
-    </div>
     <div class="message">
-        <h4 style="color:#a5690c;">PLEASE NOTE:</h4>
+        <h4>PLEASE NOTE:</h4>
         <p>Students who enter a college within the University in the <?php echo UNL_UndergraduateBulletin_Controller::getEdition()->getRange(); ?> academic year are expected to complete the graduation requirements set forth by that college in this bulletin.
         Students are responsible for knowing which bulletin they should follow.</p>
     </div>

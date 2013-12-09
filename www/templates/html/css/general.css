@@ -33,30 +33,9 @@
 #maincontent #previousBulletins ul li:last-child {
     border-bottom:none;	
 }
-#maincontent div.wdn_notice div.minimize a:hover, #maincontent div.wdn_notice div.maximize a:hover {
-	border: 1px solid #aaaf7d;
 
-}
-#maincontent div.wdn_notice.small {
-	height:22px;
-	padding:4px;
-	width:932px;
-}
-#maincontent div.wdn_notice.small div.maximize {
-	margin-right:6px;
-}
-#maincontent div.wdn_notice.small div.message {
-	padding:4px 5px 0 68px;	
-	background:url(images/information.png) no-repeat 0 -467px;
-}
-#maincontent div.wdn_notice.small .message h4 {
-	font-size:1.2em;
-	padding-top:0;
-	display:inline-block;
-	font-weight:bold;
-}
-#maincontent div.wdn_notice.small .message p {
-	display:none;
+.wdn-grid-set + .wdn_notice {
+    margin-top: 3em;
 }
 /*
 
