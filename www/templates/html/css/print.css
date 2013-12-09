@@ -1,3 +1,94 @@
-#toc_nav, #versioning {
-    display:none;
+html, body {
+	font-size: 10pt !important;
+}
+
+a:after {
+	display: none !important;
+}
+
+#header {
+	border: none;
+}
+
+#wdn_navigation_bar, .wdn-menu-trigger.wdn-content-slide, #toc_nav, #versioning, #maincontent .wdn_tabs, #visitorChat {
+    display: none;
+}
+
+#wdn_site_title {
+	margin-top: -35px;
+	margin-left: 78px;
+	margin-bottom: 10px;
+}
+
+#wdn_site_title a:after {
+	font-size: 10pt;
+}
+
+#wdn_content_wrapper {
+	padding-top: 0 !important;
+}
+
+#maincontent,
+#maincontent .wdn-course-year-header {
+	margin: 0;
+	padding: 0;
+}
+
+#pagetitle h1 {
+	margin: 5px 0 -15px;
+}
+
+#pagetitle span.subhead {
+	display: none;
+}
+
+#maincontent .wdn-inner-wrapper {
+	margin: 0;
+	padding: 0;
+	padding: 0 !important;
+}
+
+#maincontent .wdn-inner-wrapper h2 {
+	text-align: center;
+}
+
+[class*="wdn-grid-set-halves"] {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+.bp2-wdn-grid-set-halves .wdn-col {
+	padding: 0 !important;
+	margin: 0;
+	width: 50% !important;
+}
+
+.wdn-courses {
+	padding: 0;
+}
+
+#maincontent .wdn-course {
+	padding: 0;
+}
+
+#maincontent .wdn-course .wdn-course-title {
+	font-size: 0.775rem !important;
+}
+
+#maincontent .wdn-course-credit-hours-label {
+	display: none;
+}
+
+.wdn-courses tfoot, .wdn-courses .wdn-course-credit-hours, .wdn-total-credits-number {
+	font-size: 1.475rem !important;
+}
+
+#maincontent
+.wdn-course-year-header-year {
+	font-size: 1.1125rem;
+}
+
+#maincontent
+.wdn-course-year-header-number {
+	font-size: 2.1875rem;
 }
