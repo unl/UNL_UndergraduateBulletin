@@ -2,7 +2,7 @@
 foreach ($context as $count => $semester) {
     $savvy->addGlobal('semester', $count);
     ?>
-    <div class="wdn-col">
+    <div class="wdn-col wdn-course-year">
 		<h3 class="wdn-center wdn-course-year-header"><span class="wdn-course-year-header-year">Year</span> <span class="wdn-course-year-header-number"><?php echo ($count+1)/2; ?></span></h3>
 		<div class="bp2-wdn-grid-set-halves wdn-grid-clear">
 		<?php
