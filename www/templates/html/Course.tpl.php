@@ -109,6 +109,8 @@
                     }
                     if (!empty($context->description)) {
                         echo  "<div class='description'>".UNL_UndergraduateBulletin_EPUB_Utilities::addCourseLinks($context->getRaw('description'), $url)."</div>\n";
+                    } else {
+                        echo "<div class='description'>This course has no description.</div>";
                     }
                     $subsequent_courses = $context->getSubsequentCourses($course_search_driver->getRawObject());
                     $sub_course_array = array();
