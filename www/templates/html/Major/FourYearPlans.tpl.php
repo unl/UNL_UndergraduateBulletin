@@ -12,7 +12,7 @@ UNL_UndergraduateBulletin_Controller::setReplacementData('head', '
             echo $savvy->render($concentration);
             echo '</div>
             <div class="wdn-grid-set">
-            <div class="wdn-col-full">
+            <div class="wdn-col-full concentration-notes">
             <h3>Notes</h3>
             <p>'.$concentration->notes.'</p>
             </div>
