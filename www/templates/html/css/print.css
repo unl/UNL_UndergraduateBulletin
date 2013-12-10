@@ -1,3 +1,7 @@
+@page {
+  margin:0.5in;
+}
+
 html, body {
 	font-size: 10pt !important;
 }
@@ -44,9 +48,9 @@ a:after {
 
 #maincontent .wdn-inner-wrapper {
 	margin: 0;
-	padding: 0;
 	padding: 0 !important;
 }
+
 
 #maincontent .wdn-inner-wrapper h2 {
 	text-align: center;
@@ -91,4 +95,8 @@ a:after {
 #maincontent
 .wdn-course-year-header-number {
 	font-size: 2.1875rem;
+}
+
+.concentration-notes {
+    page-break-before: always;
 }
