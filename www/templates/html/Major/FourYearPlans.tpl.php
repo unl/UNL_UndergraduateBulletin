@@ -3,7 +3,7 @@ UNL_UndergraduateBulletin_Controller::setReplacementData('head', '
     <link rel="stylesheet" type="text/css" href="'.UNL_UndergraduateBulletin_Controller::getBaseURL().'templates/html/css/modules.courses.css" />
 ');
 ?>
-<section class="wdn-band">
+<section class="wdn-band four-year-plans">
 	<div class="wdn-inner-wrapper">
     	<?php
         foreach ($context as $key => $concentration) {
