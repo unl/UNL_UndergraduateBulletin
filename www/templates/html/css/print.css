@@ -67,8 +67,13 @@ a:after {
 	width: 50% !important;
 }
 
+.four-year-plans .wdn-col {
+	width: 49% !important;
+}
+
 .wdn-courses {
 	padding: 0;
+	width: 65%;
 }
 
 #maincontent .wdn-course {
@@ -76,7 +81,7 @@ a:after {
 }
 
 #maincontent .wdn-course .wdn-course-title {
-	font-size: 0.775rem !important;
+	font-size: 0.675rem !important;
 }
 
 #maincontent .wdn-course-credit-hours-label {
