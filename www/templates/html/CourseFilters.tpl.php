@@ -31,14 +31,14 @@ if (isset($context->subject)) {
                <li><input type="checkbox" checked="checked" class="filterAll" id="<?php echo $idPrefix; ?>_filterAllFormats" name="all" value="all" />
                <label for="<?php echo $idPrefix; ?>_filterAllFormats">All formats</label></li>
                 <?php foreach (array(
-'lec'=>'Lecture',
-'lab'=>'Lab',
-'quz'=>'Quiz',
-'rct'=>'Recitation',
-'stu'=>'Studio',
-'fld'=>'Field',
-'ind'=>'Independent Study',
-'psi'=>'Personalized System of Instruction') as $key => $type) : ?>
+                    'lec'=>'Lecture',
+                    'lab'=>'Lab',
+                    'quz'=>'Quiz',
+                    'rct'=>'Recitation',
+                    'stu'=>'Studio',
+                    'fld'=>'Field',
+                    'ind'=>'Independent Study',
+                    'psi'=>'Personalized System of Instruction') as $key => $type) : ?>
                 <li>
                         <input type="checkbox" id="<?php echo $idPrefix; ?>_filter_format_<?php echo $key; ?>" value="<?php echo $key; ?>" />
                     <label for="<?php echo $idPrefix; ?>_filter_format_<?php echo $key; ?>"><?php echo $type; ?></label>
