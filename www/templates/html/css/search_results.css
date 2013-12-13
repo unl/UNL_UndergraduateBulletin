@@ -138,6 +138,17 @@ Autocomplete CSS
     -ms-transition: color .2s;
     transition: color .2s;
 }
+
+#search_forms .option.active:after {
+    color: #666666;
+    content: "▾";
+    display: block;
+    font-size: 50%;
+    left: 45%;
+    position: absolute;
+    top: 1.5em;
+}
+
 #search_forms .option:hover {
     color: #608EEE;
 }
@@ -146,6 +157,7 @@ Autocomplete CSS
     background: #608EEE;
     color: #fff;
     cursor: default;
+    position: relative;
 }
 #search_forms input[type="submit"] {
     background: #80c662;
