@@ -101,7 +101,7 @@ Autocomplete CSS
 #search_forms {
     position: relative;
     color: #45555F;
-    padding: 10px;
+    padding: 10px 0;
     margin-bottom: 2em;
     z-index: 1;
 }
@@ -158,12 +158,10 @@ Autocomplete CSS
 #search_forms fieldset, .search_help {
     width: 99%;
     background: #e6e6e6;
-    padding: 0.5%;
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     position: relative;
-    margin-top: 1em;
 }
 #search_forms input[type="text"], #search_forms input[type="submit"], #search_forms label{
     height: 2.1em;
