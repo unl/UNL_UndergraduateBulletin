@@ -23,7 +23,7 @@ if ($context->options['format'] != 'partial') {
     echo $savvy->render('', 'SearchForm.tpl.php');
 }
 if (!count($context->results)) {
-    echo 'Sorry, no matching courses';
+    echo '<p>Sorry, no matching courses</p>';
 } else {
     echo '<div class="wdn-grid-set">';
     if ($context->options['format'] != 'partial') {
