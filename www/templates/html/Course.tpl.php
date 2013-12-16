@@ -98,16 +98,17 @@
                     </div>
                     <div class='wdn-col-three-fourths bp-wdn-col-four-fifths bp2-wdn-col-five-sixths'>    
                         <a class='coursetitle' href='" . $permalink . "' title='A permalink to " . $context->title . "'>" . $context->title . "</a>";
-        if (!empty($crosslistings)) {
-            echo  '<span class="crosslistings">Crosslisted as '.$crosslistings.'</span>';
-        }
-        echo  "</div>
+                        if (!empty($crosslistings)) {
+                            echo  '<span class="crosslistings">Crosslisted as '.$crosslistings.'</span>';
+                        }
+        echo  "    </div>
+                </div>
+            </div>
         </dt>
         <dd class='$class'>
             <div class='wdn-inner-wrapper'>
                 <div class='wdn-grid-set'>
-                    <div class='wdn-col-full bp1-wdn-col-four-fifths bp2-wdn-col-five-sixths wdn-pull-right'>
-                    ";
+                    <div class='wdn-col-full bp1-wdn-col-four-fifths bp2-wdn-col-five-sixths wdn-pull-right'>";
 
                     if (!empty($context->prerequisite)) {
                         echo  "<div class='prereqs'>Prereqs: ".UNL_UndergraduateBulletin_EPUB_Utilities::addCourseLinks($context->getRaw('prerequisite'), $url)."</div>\n";
@@ -115,9 +116,10 @@
                     if (!empty($context->notes)) {
                         echo  "<div class='notes'>".UNL_UndergraduateBulletin_EPUB_Utilities::addCourseLinks($context->getRaw('notes'), $url)."</div>\n";
                     }
+                    echo '<div class="wdn-grid-set">
+                            <div class="bp2-wdn-col-two-thirds">';
                     if (!empty($context->description)) {
-                        echo  "<div class='wdn-grid-set'>
-                <div class='bp2-wdn-col-two-thirds'><div class='description'>".UNL_UndergraduateBulletin_EPUB_Utilities::addCourseLinks($context->getRaw('description'), $url)."</div>\n";
+                        echo  "<div class='description'>".UNL_UndergraduateBulletin_EPUB_Utilities::addCourseLinks($context->getRaw('description'), $url)."</div>\n";
                     } else {
                         echo "<div class='description'>This course has no description.</div>";
                     }
@@ -181,11 +183,14 @@
                             <td class="value">'.$groups.'</td>
                            </tr>';
                 }
-                echo  '</table></div>'.PHP_EOL;
-        echo  "</div>
+                echo  '    </table>
+                        </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </dd>";
+        </dd>';
+
     if (isset($parent->parent->context->options)
         && $parent->parent->context->options['view'] == 'course') {
         echo '</dl>';
