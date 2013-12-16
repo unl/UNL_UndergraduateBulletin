@@ -13,22 +13,26 @@ dt {
 
 dd {
 	margin: 0 0 3em 0;
-	padding: 8px 0 0 0 !important;
+	padding: 0.75em 0 0 0 !important;
 	position: relative;
 	overflow: hidden;
 }
+@media (min-width: 480px) {
+	dd {
+		padding: 0 !important;
+	}
+}
+
 dt .courseID {
     float: left;
 	width: 100%;
-	/*background-color:#E7F0F9;*/
-    /*border:2px solid #cedae7;*/
     border-radius: 0.317em;
     padding: 0.602em 0.339em 0.75em;
 	text-align: center;
     background-color: #CEDFE3;
 	color: #213847;
-    /*background-color: #c00;*/
 }
+
 .glossary dt {
     font-weight: bold;
 }
@@ -46,7 +50,6 @@ dt .courseID {
 	font-style: normal;
 	font-size: 13px;
 	font-size: 0.802rem;
-	/*color: #e4e0d4;*/
 }
 .course .number {
 	display: block;
@@ -70,7 +73,7 @@ dt .courseID {
 }
 .coursetitle {
 	display: block;
-	margin-bottom: 0.254em;
+	margin-top: 0.254em;
 	padding-bottom: 0.254em;
 	font-family: 'Tungsten A', 'Tungsten B', Impact, Haettenschweiler, 'Arial Narrow Bold', 'Franklin Gothic Bold', Charcoal, 'Helvetica Inserat', 'Bitstream Vera Sans Bold', 'Arial Black', sans-serif;
 	font-weight: 400;
@@ -124,30 +127,23 @@ dt .courseID {
 	opacity: 0.85;
 }
 .course .prereqs {
-	/*font-size: 14px;*/
-	/*color: #0F900A;*/
 	font-weight: bold;
 	font-style: italic;
 }
-#maincontent .course .prereqs a {
-	/*color:#0F900A;*/
-}
 #maincontent .course .prereqs a:hover, #maincontent .course .prereqs a:focus {
-	/*color:#28aa23 !important; */
 	text-decoration: none;
 }
 .course .subsequent {
-    /*border-top: 1px solid #e6dec5;
-    background: #F1F1F1;
-    padding: 5px;*/
-    color: #777;
-    font-size: smaller;
+	padding: 1em 0.75em;
+	border-radius: 0.317em;
+    font-size: 13px;
+    font-size: 0.802rem;
+    background-color: #f1ede2;
 }
 #maincontent .course .subsequent a {
 	font-family: 'Gotham SSm A', 'Gotham SSm B', Verdana, 'Verdana Ref', Geneva, Tahoma, 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', 'Bitstream Vera Sans', 'Liberation Sans', sans-serif;
 	font-weight: 400;
 	font-size: 12px;
-	color: #777;
 }
 .course .notes {
 	font-style: italic;
@@ -189,7 +185,6 @@ dt .courseID {
 .revealed {background-color:#fffea8;}
 
 #subjectListing li, #majorListing li, #collegeListing li, .collegeListing li  {
-	/*list-style-image: url('images/course.png');*/
 	list-style: none;
 	border-bottom: 1px solid #e1dfd7;
 	line-height: 1.333;
@@ -224,11 +219,8 @@ dt .courseID {
 	font-weight: 400;
 	font-size: 0.75em;
 	color: #716F6B;
-    /*background:url('images/minorIndicator.png') no-repeat right bottom;
-    padding-right:77px;*/
 }
 #collegeListing li, .collegeListing li {
-	/*list-style-image: url('images/buildings.png');*/
 	list-style: none;
 }
 #subjectListing li span.subjectCode {
