@@ -2,6 +2,9 @@
 
 }
 
+#maincontent {
+    padding-bottom: 3.375em;
+}
 #maincontent #previousBulletins ul {
 	list-style:none;
 	margin:0;
@@ -37,6 +40,11 @@
 .wdn-grid-set + .wdn_notice {
     margin-top: 3em;
 }
+#long_content h3,
+#long_content h4,
+#long_content h5 {
+    font-weight: 400;
+}
 /*
 
 Versioning Box
@@ -48,7 +56,7 @@ Versioning Box
     font-weight: 400;
 	position:relative;
     height: 1em;
-    margin-bottom: 1.5em;
+    margin-bottom: 1.899em;
     margin-left: -20px;
 	z-index:10;
 	font-size: 20px;
@@ -198,14 +206,18 @@ Testing Indicator
 Homepage layouts
 */
 #maincontent .thumbs li div, #maincontent .separator-box {
-    border: solid 3px #fff;
 	background-color: #fff;
 	margin-bottom: 24px;
-	-moz-box-shadow:0 0px 6px #f1efe5;
+	-moz-box-shadow: 0 0px 6px #f1efe5;
 	-webkit-box-shadow:0 0px 6px #f1efe5;
-    box-shadow:0 0px 6px #f1efe5;
-	padding: 5px;
+    box-shadow: 0 0px 6px #f1efe5;
 	position: relative;
+}
+#maincontent .thumbs li div {
+    padding: 0.317em 0.317em 0.422em;
+}
+#maincontent .separator-box {
+    padding: 1.333em 1em;
 }
 #maincontent .separator-box p {
     font-size: 14px;
@@ -236,9 +248,6 @@ Homepage layouts
 #maincontent .thumbs ul li a:active, #maincontent .pill-button:active {
     background-color: #79B85E;
     color: #f0f0f0;
-}
-#maincontent .em {
-    font-size: 250%;
 }
 .pull {
     border-radius: 3px;
@@ -281,7 +290,3 @@ Homepage layouts
     padding: 0;
     list-style: none;
 }
-
-
-
-

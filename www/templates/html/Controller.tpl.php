@@ -60,8 +60,9 @@ if (mktime(0, 0, 0, 6, 1, $context->getEdition()->year) > time() ) {
 UNPUBLISHED;
 }
 
-$page->maincontentarea = '';
+$page->maincontentarea = '<div class="'.$context->options['view'].'">';
 $page->maincontentarea .= $savvy->render($context->output);
+$page->maincontentarea .= '</div>';
 
 $page->maincontentarea .= $savvy->render(null, 'EditionNotice.tpl.php');
 

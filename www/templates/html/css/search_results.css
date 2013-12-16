@@ -95,14 +95,13 @@ Autocomplete CSS
 */
 
 #search_forms, #search_forms:before, #search_forms:after {
-    background: #f1f1f1;
-    box-shadow: 0 3px 0 0 rgba(0, 0, 0, 0.035);
+    background: #f1ede2;
 }
 #search_forms {
     position: relative;
     color: #45555F;
-    padding: 10px;
-    margin-bottom: 2em;
+    padding: 1em 0 3.157em;
+    margin-bottom: 1.777em;
     z-index: 1;
 }
 #search_forms:before, #search_forms:after {
@@ -148,7 +147,8 @@ Autocomplete CSS
     cursor: default;
 }
 #search_forms input[type="submit"] {
-    background: #80c662;
+    font-size: 1.333em;
+    background: #008A2C;
     color: #fff;
 }
 
@@ -157,7 +157,7 @@ Autocomplete CSS
 }
 #search_forms fieldset, .search_help {
     width: 99%;
-    background: #e6e6e6;
+    background: #e4e0d4;
     padding: 0.5%;
     border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -166,13 +166,13 @@ Autocomplete CSS
     margin-top: 1em;
 }
 #search_forms input[type="text"], #search_forms input[type="submit"], #search_forms label{
-    height: 2.1em;
-    font-size: 1.4em;
+    height: 2.3689em;
+    font-size: 1em;
     border-radius: 4px;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     margin: 0;
-    padding: 0.3em 4% 0.3em 1%;
+    padding: 0.339em 4% 0.339em 0.602em;
     border: none;
 }
 #search_forms input[type="text"] {
@@ -180,13 +180,15 @@ Autocomplete CSS
     border: none;
     width: 93%;
 }
-
+#search_forms input[type="submit"] {
+    padding: 0.3em 1.333em 0.3em;    
+}
 #majorform {
-	display:none;
+	display: none;
 }
 
 #search_forms label {
-    display:none;
+    display: none;
 }
 #search_forms input:focus{
     outline: none;
@@ -196,16 +198,16 @@ Autocomplete CSS
     font-size-adjust: 0.45; /* a -moz only (at this time) property to control font rendering */
     right: 0.5%;
     cursor: pointer;
-    -webkit-border-radius: 0 4px 4px 0;
-    -moz-border-radius: 0 4px 4px 0;
-    border-radius: 0 4px 4px 0;
-    padding: 0.3em 0.75em;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    padding: 0.339em 0.75em;
 }
 #search_forms input[type="submit"]:hover {
-    background-color: #8FDA70;
+    background-color: #00BD3C;
 }
 #search_forms input[type="submit"]:active {
-    background-color: #79B85E;
+    background-color: #38764C;
     color: #f0f0f0;
 }
 
@@ -214,10 +216,10 @@ Autocomplete CSS
 }
 
 .search_help {
-    margin: 1.5em 3%;
-    width: 69%;
-    padding: 1%;
-    font-size: 80%;
+    margin: 1.333em 0 0 1em;
+    width: 85%;
+    padding: 1em 1.333em;
+    font-size: 0.802em;
     position: absolute;
     line-height: 0;
     opacity: 0;
@@ -234,12 +236,13 @@ Autocomplete CSS
     height: 0px;
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
-    border-bottom: 10px solid #e6e6e6;
-    top: -10px;
+    border-bottom: 10px solid #e4e0d4;
+    top: -8px;
+    left: 1.333em;
 }
 .search_help.open {
     position: relative;
-    line-height: 22px;
+    line-height: 1.777;
     opacity: 1;
 }
 
@@ -258,11 +261,12 @@ Form overrides
 #courseSearchResults .prereqs,
 #courseSearchResults .notes,
 #courseSearchResults .details {
-    display:none;
+    display: none;
 }
 
 #maincontent form.filters label span.count {
-	color:#555;
-	font-size:0.8em;
-	font-style:italic;
+	color: #555;
+    font-size: 13px;
+    font-size: 0.802rem;
+	font-style: italic;
 }

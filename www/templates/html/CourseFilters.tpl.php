@@ -4,9 +4,9 @@ if (isset($context->subject)) {
     $idPrefix = $context->subject;
 }
 ?>
-<div class="zenbox energetic wdn_filterset">
+<div class="zenbox energetic wdn_filterset coursefilter">
     <form method="post" action="#" id="<?php echo $idPrefix; ?>_filters" class="filters courseFilters">
-        <h3>Filter these Courses</h3>
+        <h3 class="wdn-brand">Filter these Courses</h3>
         <?php if (isset($context->groups)
                   && count($context->groups)) : ?>
         <fieldset class="groups">

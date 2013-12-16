@@ -13,7 +13,7 @@ UNL_UndergraduateBulletin_Controller::setReplacementData('pagetitle', '<h1>Major
 <div class="grid3 first">
     <?php echo $savvy->render(null, 'MajorList/Filters.tpl.php'); ?>
 </div>
-<div class="grid9">
-    <h1>Select A Major or Area of Study</h1>
+<div class="grid9 majorlist2col">
+    <h2 class="clear-top">Select A Major or Area of Study</h2>
     <?php echo $savvy->render($context, 'MajorList/UnorderedList.tpl.php'); ?>
 </div>
