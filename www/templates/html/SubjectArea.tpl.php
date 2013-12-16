@@ -16,7 +16,7 @@ if (isset($parent->context->options)
 <h2 class="sec_main" id="<?php echo $context->subject; ?>"> Courses of Instruction (<?php echo $context->subject; ?>)</h2>
 <div class="wdn-grid-set">
     <div class="bp2-wdn-col-one-fourth">
-        <?php echo $savvy->render($context, 'CourseFilters.tpl.php'); ?>
+        <?php echo $savvy->render($context->getFilters(), 'CourseFilters.tpl.php'); ?>
     </div>
     <div class="bp2-wdn-col-three-fourths">
         <dl>

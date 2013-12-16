@@ -2,6 +2,7 @@
 class UNL_UndergraduateBulletin_CourseSearch_DBSearchResults extends LimitIterator implements Countable
 {
     protected $sql;
+    protected $count;
     
     function __construct($sql, $offset = 0, $limit = -1)
     {
@@ -24,10 +25,14 @@ class UNL_UndergraduateBulletin_CourseSearch_DBSearchResults extends LimitIterat
     
     function count()
     {
-        $sql = str_replace(array('SELECT *', 'SELECT courses.xml', 'SELECT DISTINCT courses.id, courses.xml'), 'SELECT COUNT(DISTINCT courses.id) ', $this->sql);
-        $result = $this->getDB()->query($sql);
-        $count = $result->fetch(PDO::FETCH_NUM);
-        return $count[0];
+        if (!isset($this->count)) {
+            $sql = str_replace(array('SELECT *', 'SELECT courses.xml', 'SELECT DISTINCT courses.id, courses.xml'), 'SELECT COUNT(DISTINCT courses.id) ', $this->sql);
+            $result = $this->getDB()->query($sql);
+            $count = $result->fetch(PDO::FETCH_NUM);
+            $this->count = $count[0];
+        }
+
+        return $this->count;
     }
 
     /**

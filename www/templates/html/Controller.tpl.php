@@ -1,13 +1,13 @@
 <?php
 UNL_Templates::setCachingService(new UNL_Templates_CachingService_Null());
-UNL_Templates::$options['version']        = 3.1;
+UNL_Templates::$options['version']        = 4.0;
 UNL_Templates::$options['sharedcodepath'] = dirname(__FILE__).'/sharedcode';
 
 $url     = UNL_UndergraduateBulletin_Controller::getURL();
 $baseURL = UNL_UndergraduateBulletin_Controller::getBaseURL();
 $protocolAgnosticBaseURL = str_replace('http://', '//', $baseURL);
 
-$page    = UNL_Templates::factory('Local');
+$page    = UNL_Templates::factory('Fixed');
 
 $page->doctitle     = '<title>Undergraduate Bulletin | University of Nebraska-Lincoln</title>';
 $page->titlegraphic = 'Undergraduate Bulletin '.UNL_UndergraduateBulletin_Controller::getEdition()->getRange();
@@ -22,8 +22,7 @@ $page->breadcrumbs  = '
 $page->navlinks = $savvy->render(null, 'Navigation.tpl.php');
 
 $page->loadSharedCodeFiles();
-$page->addStylesheet('/wdn/templates_3.1/css/content/notice.css');
-$page->addStylesheet('/wdn/templates_3.1/css/content/grid-v3.css');
+$page->addStylesheet('/wdn/templates_4.0/css/modules/notices.css');
 $page->addStylesheet($protocolAgnosticBaseURL. 'templates/html/css/jquery.qtip.css');
 if (UNL_UndergraduateBulletin_OutputController::getCacheInterface() instanceof UNL_UndergraduateBulletin_CacheInterface_Mock) {
     $page->addStylesheet($protocolAgnosticBaseURL. 'templates/html/css/debug.css');
@@ -37,12 +36,11 @@ $page->head .= '
     var UNL_UGB_URL = "'.$url.'";
     var UNL_UGB_BASEURL = "'.$baseURL.'";
 </script>
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-<script src="//code.jquery.com/jquery-migrate-1.2.1.js"></script>
-<script src="'.$protocolAgnosticBaseURL.'templates/html/scripts/jQuery.toc.min.js"></script>
-<script src="'.$protocolAgnosticBaseURL.'templates/html/scripts/jquery.qtip.min.js"></script>
-<script src="/wdn/templates_3.1/scripts/plugins/ui/jQuery.ui.js"></script>
-<script src="'.$protocolAgnosticBaseURL.'templates/html/scripts/bulletin.functions.js"></script>
+
+
+
+<script src="'.$protocolAgnosticBaseURL.'templates/html/scripts/bulletin.functions.js" type="text/javascript"></script>
+
 <!-- '.md5($context->getRawObject()->getCacheKey()).' -->
 ';
 
@@ -62,9 +60,10 @@ if (mktime(0, 0, 0, 6, 1, $context->getEdition()->year) > time() ) {
 UNPUBLISHED;
 }
 
-$page->maincontentarea = '';
+$page->maincontentarea = '<div class="'.$context->options['view'].'">';
 $page->maincontentarea .= $savvy->render($context->output);
+$page->maincontentarea .= '</div>';
 
-$page->maincontentarea .= $savvy->render($context, 'EditionNotice.tpl.php');
+$page->maincontentarea .= $savvy->render(null, 'EditionNotice.tpl.php');
 
 echo $page;

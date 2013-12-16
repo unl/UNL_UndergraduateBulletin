@@ -30,6 +30,18 @@ class UNL_UndergraduateBulletin_SubjectArea extends UNL_Services_CourseApproval_
         }
         return false;
     }
+
+    /**
+     * Get the filters used for this search
+     *
+     * @return UNL_UndergraduateBulletin_CourseSearch_Filters
+     */
+    public function getFilters()
+    {
+        $filters = new UNL_UndergraduateBulletin_CourseSearch_Filters();
+        $filters->groups = $this->groups;
+        return $filters;
+    }
     
     function __toString()
     {

@@ -1,36 +1,76 @@
 /*filter box*/
-form.filters {color:#a15901;margin-top:15px;}
-form.filters legend span {display:block; font-weight:bold;margin-bottom:10px;font-size:1.1em;}
-form.filters div.element {display:inline;}
-form.filters input[type="checkbox"] {width:20px;float:left;margin-left:-4px;}
-form.filters label {display:inline;margin-left:0px;font-size:.9em;}
-form.filters ol {
-    border-top:1px solid #c39863;
+.coursefilter, .majorfilter {
+	padding: 1.33em 1em;
+	margin-bottom: 1.899em;
+	border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+	background: #fff;
 }
-form.filters ol li {clear:both;}
-#maincontent form.filters ol {list-style:none;padding-left:0px;}
-form.filters ol li.disabled {opacity: 0.5;}
-form.filters ol li.disabled label {text-decoration: line-through;}
-
+form.filters > h3 {
+	color: #4a3b13;
+	font-size: 30px;
+	font-size: 1.899rem;
+}
+form.filters legend {
+	border: none;
+	margin-bottom: 0;
+}
+form.filters legend span {
+	display: block;
+	font-family: 'Gotham SSm A', 'Gotham SSm B', Verdana, 'Verdana Ref', Geneva, Tahoma, 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', 'Bitstream Vera Sans', 'Liberation Sans', sans-serif;
+	font-weight: 400;
+	font-size: 13px;	
+	font-size: 0.802rem;
+}
+form.filters div.element {
+	display: inline;
+}
+form.filters input[type="checkbox"] {
+	width: 20px;
+	margin-left: -4px;
+}
+form.filters label {
+	display: inline;
+	margin-left: 0;
+	font-size: 12px;
+	font-size: 0.75rem;
+}
+form.filters ol {
+	padding: 0.254em 0 1em;
+	border-top: 1px solid #eee;
+}
+form.filters ol li {
+	clear:both;
+}
+#maincontent form.filters ol {
+	list-style: none;
+	padding-left: 0;
+}
+form.filters ol li.disabled {
+	opacity: 0.8;
+}
+form.filters ol li.disabled label {
+	text-decoration: line-through;
+}
 #filterSummary {
-	font-size:0.8em;
-	line-height:2em;
+	font-size: 13px;
+	font-size: 0.802rem;
 }
 #filterSummary a {
-	background:#efefef;
-	padding:0 3px;
-	font-size:0.9em;
-	color:#6e6e6e;
-	border-radius:3px;
-	-moz-border-radius:3px;
-	-webkit-border-radius:3px;
-	display:inline-block;
-	margin:1px;
+	background: #efefef;
+	padding: 0 3px;
+	color: #6e6e6e;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	display: inline-block;
+	margin: 1px;
 }
 #filterSummary .group {
-	font-weight:bold;
-	background-color:#efefef;
-	color:#4e4e4e;
+	font-weight: bold;
+	background-color: #efefef;
+	color: #4e4e4e;
 	font-size: 1.1em;
-	font-style:italic;
+	font-style: italic;
 }

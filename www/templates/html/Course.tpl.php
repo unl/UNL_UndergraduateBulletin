@@ -88,40 +88,51 @@
     
     echo "
         <dt class='$class'>
-        	<div class='courseID'>
-            	<span class='subjectCode'>".$subject."</span>
-            	<span class='number $number_class'>$listings</span>
-            </div>
-            <span class='title'>" . $context->title . " <a href='" . $permalink . "' title='A permalink to " . $context->title . "'>LINK</a></span>";
+            <div class='wdn-inner-wrapper'>
+                <div class='wdn-grid-set'>
+                    <div class='wdn-col-one-fourth bp1-wdn-col-one-fifth bp2-wdn-col-one-sixth'>
+                        <div class='courseID'>
+                            <span class='subjectCode'>".$subject."</span>
+                            <span class='number $number_class'>$listings</span>
+                        </div>
+                    </div>
+                    <div class='wdn-col-three-fourths bp-wdn-col-four-fifths bp2-wdn-col-five-sixths'>    
+                        <a class='coursetitle' href='" . $permalink . "' title='A permalink to " . $context->title . "'>" . $context->title . "</a>";
         if (!empty($crosslistings)) {
             echo  '<span class="crosslistings">Crosslisted as '.$crosslistings.'</span>';
         }
-        echo  "</dt>
+        echo  "</div>
+        </dt>
         <dd class='$class'>
-            <div class='wdn-grid-set'>
-                <div class='bp2-wdn-col-two-thirds bp3-wdn-col-three-fourths'>";
+            <div class='wdn-inner-wrapper'>
+                <div class='wdn-grid-set'>
+                    <div class='wdn-col-full bp1-wdn-col-four-fifths bp2-wdn-col-five-sixths wdn-pull-right'>
+                    ";
 
                     if (!empty($context->prerequisite)) {
-                        echo  "<div class='prereqs'>Prereqs: ".UNL_UndergraduateBulletin_EPUB_Utilities::addCourseLinks($context->getRaw('prerequisite'), $controller->getURL())."</div>\n";
+                        echo  "<div class='prereqs'>Prereqs: ".UNL_UndergraduateBulletin_EPUB_Utilities::addCourseLinks($context->getRaw('prerequisite'), $url)."</div>\n";
                     }
                     if (!empty($context->notes)) {
-                        echo  "<div class='notes'>".UNL_UndergraduateBulletin_EPUB_Utilities::addCourseLinks($context->getRaw('notes'), $controller->getURL())."</div>\n";
+                        echo  "<div class='notes'>".UNL_UndergraduateBulletin_EPUB_Utilities::addCourseLinks($context->getRaw('notes'), $url)."</div>\n";
                     }
                     if (!empty($context->description)) {
-                        echo  "<div class='description'>".UNL_UndergraduateBulletin_EPUB_Utilities::addCourseLinks($context->getRaw('description'), $controller->getURL())."</div>\n";
+                        echo  "<div class='wdn-grid-set'>
+                <div class='bp2-wdn-col-two-thirds'><div class='description'>".UNL_UndergraduateBulletin_EPUB_Utilities::addCourseLinks($context->getRaw('description'), $url)."</div>\n";
+                    } else {
+                        echo "<div class='description'>This course has no description.</div>";
                     }
                     $subsequent_courses = $context->getSubsequentCourses($course_search_driver->getRawObject());
-                    if (count($subsequent_courses)) {
+                    $sub_course_array = array();
+                    foreach ($subsequent_courses as $subsequent_course) {
+                        $sub_course_array[] = $subsequent_course->getHomeListing()->subjectArea.' '.$subsequent_course->getHomeListing()->courseNumber;
+                    }
+                    if (count($sub_course_array)) {
                         echo  "<div class='subsequent'>This course is a prerequisite for: ";
-                        $sub_course_array = array();
-                        foreach ($subsequent_courses as $subsequent_courses) {
-                            $sub_course_array[] = $subsequent_courses->getHomeListing()->subjectArea.' '.$subsequent_courses->getHomeListing()->courseNumber;
-                        }
-                        echo UNL_UndergraduateBulletin_EPUB_Utilities::addCourseLinks(implode(', ', $sub_course_array), $controller->getURL());
+                        echo UNL_UndergraduateBulletin_EPUB_Utilities::addCourseLinks(implode(', ', $sub_course_array), $url);
                         echo "</div>\n";
                     }
                 echo "</div>"; // Close the text content
-                echo '<div class="bp2-wdn-col-one-third bp3-wdn-col-one-fourth details">';
+                echo '<div class="bp2-wdn-col-one-third details">';
                 echo  '<table class="zentable cool details">';
                 echo $savvy->render($context, 'Course/Credits.tpl.php');
                 if (!empty($format)) {
@@ -171,7 +182,10 @@
                            </tr>';
                 }
                 echo  '</table></div>'.PHP_EOL;
-    echo  "</div></dd>";
+        echo  "</div>
+                </div>
+            </div>
+        </dd>";
     if (isset($parent->parent->context->options)
         && $parent->parent->context->options['view'] == 'course') {
         echo '</dl>';
