@@ -60,13 +60,17 @@ table.major_quick_points .value {
     text-align:right;
 }
 #long_content {margin-top:2em;}
-
+#long_content h2 {
+    border-top: 1px solid #e6dec5;
+    padding-top: 1em;
+}
 #maincontent #toc_nav {
     position: relative;
-    background: #fafafa;
-    -moz-border-radius:6px;
-    -webkit-border-radius:6px;
-    border-radius:6px;
+    padding: 1.333em 0.75em 1em;
+    background: #f1ede2;
+    -moz-border-radius: 0.317em;
+    -webkit-border-radius: 0.317em;
+    border-radius: 0.317em;
 }
 
 #maincontent #tocToggle {
@@ -75,8 +79,7 @@ table.major_quick_points .value {
     top: 0;
     right: 5px;
     font-size: 2em;
-    color: #ddd;
-    text-shadow: 0 -1px 0 #ccc;
+    color: #d4cebf;
     line-height: 100%;
     cursor: pointer;
     -webkit-transition: all .35s;
@@ -89,8 +92,7 @@ table.major_quick_points .value {
 }
 
 #maincontent #tocToggle:hover {
-    color: #ccc;
-    text-shadow: 0 -1px 0 #aaa;
+    color: #c5c2b9;
 }
 
 #maincontent #tocToggle.close {
@@ -99,12 +101,7 @@ table.major_quick_points .value {
     -ms-transform: rotate(45deg);
     -o-transform: rotate(45deg);
     transform: rotate(45deg);
-    text-shadow: -1px -1px 0 #ccc;
     opacity: 1;
-}
-
-#maincontent #tocToggle.close:hover {
-    text-shadow: -1px -1px 0 #aaa;
 }
 
 #maincontent ol#toc {
@@ -163,13 +160,6 @@ a.top {
     float:right;
 }
 
-#description h3,
-#description h4,
-#college_admissionRequirements h3,
-#college_admissionRequirements h4 {
-	font-weight:400;
-}
-
 #maincontent h4.title-1, #maincontent h4.title-2, #maincontent h3#college-degree-requirements, #maincontent h3#bulletin-rule, #maincontent h2#college_requirements {margin-top:1em;}
 #maincontent h5.title-3, #maincontent h5.title-4 {margin-top:.8em;}
 #maincontent p + p.header-paragraph {
@@ -197,7 +187,7 @@ a.top {
 }
 #maincontent p.list-indent {
     margin-bottom:0em;
-    text-indent:1.5em;
+    text-indent:1.333em;
 }
 
 #maincontent p.requirement-sec-1 {
@@ -252,9 +242,6 @@ a.top {
 #maincontent p.numbered-list-2 {margin-left:3.3em;}
 #maincontent p.numbered-list-3 {margin-left:4.4em;}
 
-#maincontent p span {
-    background-color:#FFF;
-}
 #maincontent p span.req_desc,
 #maincontent p span.req_desc span.requirement-ital {
     padding-bottom:1px;
@@ -284,7 +271,7 @@ a.top {
 }
 
 #maincontent p.faculty-list {
-    margin:0;
+    margin-bottom: 0.75em;
 }
 
 #maincontent table p {
