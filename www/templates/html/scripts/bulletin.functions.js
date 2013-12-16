@@ -5,6 +5,7 @@ function accomodateHash() {
 
 WDN.initializePlugin('jqueryui', [function () {
 	var $ = require('jquery');
+    var testCount = 0;
     
     // Append Versioning to the top
     $('#pagetitle h1').append( $('#versioning').animate({ opacity: 1 }, 500 ) );
@@ -28,7 +29,10 @@ WDN.initializePlugin('jqueryui', [function () {
                 if ($(this).closest('form').hasClass('courseFilters')) { //otherwise calculate the count
                     total = total/2;
                 }
-                $('label[for='+this.id+']').append(' <span class="count">('+total+')</span>'); // add the count
+                if ( $(this).next('label').children('.count').length == 0 ) { // if span.count doesn't already exists
+                    $('label[for='+this.id+']').append(' <span class="count">('+total+')</span>'); // add the count
+                }
+
             }
         }
         $(this).click(function() {
