@@ -14,16 +14,17 @@ Autocomplete CSS
 }
 
 .ui-autocomplete {
-	max-width:434px;
-	margin:-5px 0 0 4px;
-	border-top:rgba(185, 185, 185, 0.26);color:#494949;
-	font-size:60%;
-	font-style:normal;
+	max-width: 31.474em;
+	margin: -5px 0 0 0.75em;
+	border-top: rgba(185, 185, 185, 0.26);
+    color: #494949;
+	font-size: 60%;
+	font-style: normal;
 	font-family: "Lucida Grande",Verdana,Arial;
-	font-variant:normal;
-	font-weight:normal;
-	line-height:110%;
-	text-align:left;
+	font-variant: normal;
+	font-weight: normal;
+	line-height: 1.069;
+	text-align: left;
 }
 .ui-autocomplete .course {
     margin-left: 2px;
@@ -41,9 +42,9 @@ Autocomplete CSS
 }
 #ui-id-1.ui-autocomplete > li > a,
 #ui-id-2.ui-autocomplete > li > a {
-	display:block;
-    padding: 8px 2px;
-	border-bottom:1px dashed #d6d6d6;
+	display: block;
+    padding: 0.602em 0.339em;
+	border-bottom: 1px dashed #d6d6d6;
 }
 #ui-id-1.ui-autocomplete > li:last-child > a,
 #ui-id-2.ui-autocomplete > li:last-child > a {
@@ -52,6 +53,10 @@ Autocomplete CSS
 .ui-autocomplete a .number,
 .ui-autocomplete a .format {
     color: #494949;
+}
+.ui-autocomplete a .title,
+.ui-autocomplete a .format { 
+    color: #c00;
 }
 .ui-autocomplete a.indicator .title,
 .ui-autocomplete a.indicator .format { 
@@ -69,15 +74,17 @@ Autocomplete CSS
 }
 .ui-autocomplete .courseID {
     float: none;
+    width: 5.997em;
+    padding: 0.339em 0.317em;
     font-size: 50%;
 }
 .ui-autocomplete dt .number, .ui-autocomplete dt .subjectCode {
-	min-width:40px;
+	min-width: 40px;
 	text-align: center;
 }
 .ui-autocomplete dt .subjectCode {
-	margin-bottom:2px;	
-	font-size:80%;
+	margin-bottom: 2px;	
+	font-size: 80%;
 }
 .ui-autocomplete dt.course .title {
 	border: none;
@@ -87,6 +94,11 @@ Autocomplete CSS
     font-size: 0.85em;
     vertical-align: middle;
 }
+#ui-id-1 .ui-widget-content a.ui-corner-all,
+#ui-id-2 .ui-widget-content a.ui-corner-all {
+    color: #c00;
+}
+
 
 /*
 
@@ -265,7 +277,7 @@ Form overrides
 
 #courseSearchResults
 {
-    background-color:#EEE;
+    background-color: #EEE;
 }
 
 #courseSearchResults .description,
