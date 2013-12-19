@@ -152,12 +152,12 @@ Autocomplete CSS
 
 #search_forms .option.active:after {
     color: #666666;
-    content: "▾";
+    content: "\25BC";
     display: block;
-    font-size: 50%;
+    font-size: 30%;
     left: 45%;
     position: absolute;
-    top: 1.5em;
+    top: 2.6em;
 }
 
 #search_forms .option:hover {
