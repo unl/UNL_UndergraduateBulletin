@@ -23,7 +23,6 @@ $files = array(
 'courses.css',
 'filters.css',
 'majors.css',
-'qtip_courses.css',
 'indesign_epub.css',
 'search_results.css',
 );

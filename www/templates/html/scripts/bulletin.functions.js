@@ -155,9 +155,6 @@ WDN.initializePlugin('jqueryui', [function () {
                     }
                 });
             },
-            open: function(){
-                $('#courseSearch').qtip("hide");
-            },
             focus: function(e, ui) {
                 $('a.indicator').removeClass('indicator');
                 $('a:contains("'+ui.item.key+'")').addClass('indicator');
@@ -239,55 +236,6 @@ WDN.initializePlugin('jqueryui', [function () {
 	            }
 	      }
 	    );
-    });
-
-    /*
-     * 
-     * Qtip for course links in content text blocks.
-     * 
-     */
-    $("#maincontent a.course").each(function () {
-        try {
-            $(this).qtip({
-                content : {
-                    text: 'Loading...',
-                    ajax : {
-                        url: this.href+'?format=partial',
-                        method: 'GET',
-                        data: {}
-                    }
-                },
-                position : {
-                    corner : {
-                        target : 'topMiddle',
-                        tooltip : 'bottomMiddle'
-                    },
-                    container: $('body'),
-                    adjust : {
-                        screen : true,
-                        y : 3,
-                        x : 5
-                    }
-                },
-                show: {
-                    delay : 150
-                },
-                hide: {
-                    fixed : true,
-                    delay : 150
-                }
-            });
-            /*
-            $(this).qtip("api").beforeShow = function(){
-                // Check the content
-                if ($('div[qtip='+this.id+'] div.qtip-content dt').length == 0) {
-                    $('div[qtip='+this.id+']').css({width:'120px'});
-                    $('div[qtip='+this.id+'] div.qtip-content').html('<p>Could not find that course.</p>');
-                }
-                return true;
-            };
-            */
-        } catch(e) {}
     });
 
     //When we have the search combo, run these functions
