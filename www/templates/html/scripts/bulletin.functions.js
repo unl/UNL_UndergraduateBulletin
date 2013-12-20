@@ -109,9 +109,12 @@ WDN.initializePlugin('jqueryui', [function () {
         focus: function() {
             $("#courseform .search_help").addClass( "open" );
         }, blur: function() {
-            $("#courseform .search_help").removeClass( "open" );
+        	if ($(document.activeElement).attr('href') !== undefined) {
+        		// User is clicking a link, prevent hide of the help text
+    			$("#courseform .search_help").removeClass( "open" );
+        	}
         }, keyup: function() {
-            $("#courseform .search_help").removeClass( "open" );
+        	setTimeout(function() {$("#courseform .search_help").removeClass( "open" );}, 100);
         }
     });
 
