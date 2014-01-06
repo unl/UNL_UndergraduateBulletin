@@ -28,7 +28,12 @@ class UNL_UndergraduateBulletin_MajorSearch extends ArrayIterator
         }
 
         $majors = array_merge($majors, $aliases);
-        sort($majors);
+        usort($majors, function ($a, $b) {
+            // trim .xhtml off the filename, then compare
+            $a = substr($a, 0, -6);
+            $b = substr($b, 0, -6);
+            return $a > $b;
+        });
         return parent::__construct(array_unique($majors));
     }
     
