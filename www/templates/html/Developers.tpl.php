@@ -118,7 +118,11 @@
                                     </li>
                                     <li>
                                         Provides this:
-                                        <?php 
+                                        <?php
+                                        if (substr($resourceURI, 0, 4) != 'http') {
+                                            $resourceURI = 'http://localhost' . $resourceURI;
+                                        }
+                                        
                                         //Get the output.
                                         if (!$result = file_get_contents($resourceURI)) {
                                             $result = "Error getting file contents.";
