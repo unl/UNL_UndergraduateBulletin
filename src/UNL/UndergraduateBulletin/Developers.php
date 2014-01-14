@@ -1,7 +1,7 @@
 <?php
 class UNL_UndergraduateBulletin_Developers
 {
-    public $resources = array('Course', 'CollegeMajors', 'Colleges', 'SubjectArea', 'CourseSearch');
+    public $resources = array('Course', 'CollegeMajors', 'Colleges', 'SubjectArea', 'CourseSearch', 'FourYearPlans');
     
     public $resource;
     
