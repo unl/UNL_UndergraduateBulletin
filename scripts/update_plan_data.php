@@ -7,7 +7,7 @@ if (file_exists(dirname(__FILE__).'/../config.inc.php')) {
     include_once dirname(__FILE__).'/../config.sample.php';
 }
 
-$latest = UNL_UndergraduateBulletin_Editions::getLatest();
+$edition = UNL_UndergraduateBulletin_Editions::getLatest();
 
 echo 'Updating four-year-plan data'.PHP_EOL;
 
@@ -34,6 +34,6 @@ foreach ($plan_data as $plan) {
     // json encode the data and store it for this individual major
     $data = json_encode($plan);
 
-    file_put_contents($latest->getDataDir().'/fouryearplans/'.$plan->major.'.json', $data);
+    file_put_contents($edition->getDataDir().'/fouryearplans/'.$plan->major.'.json', $data);
 }
 
