@@ -9,7 +9,11 @@ if (file_exists(dirname(__FILE__).'/../config.inc.php')) {
 
 $edition = UNL_UndergraduateBulletin_Editions::getLatest();
 
-echo 'Updating four-year-plan data'.PHP_EOL;
+if (isset($_SERVER['argv'], $_SERVER['argv'][1])) {
+    $edition = UNL_UndergraduateBulletin_Edition::getByYear($_SERVER['argv'][1]);
+}
+
+echo 'Updating four-year-plan data for '.$edition->year.PHP_EOL;
 
 $plan_feed = 'https://creq.unl.edu/fouryearplans/view/feed/';
 
