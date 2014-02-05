@@ -86,6 +86,16 @@ class UNL_UndergraduateBulletin_Major implements UNL_UndergraduateBulletin_Cache
         return new UNL_UndergraduateBulletin_Major_FourYearPlans($this->options);
     }
 
+    /**
+     * Get the Learning Outcomes associated with this major
+     *
+     * @return UNL_UndergraduateBulletin_Major_LearningOutcomes
+     */
+    public function getLearningOutcomes()
+    {
+        return new UNL_UndergraduateBulletin_Major_LearningOutcomes($this->options);
+    }
+
     function getColleges()
     {
         return $this->getDescription()->colleges;
