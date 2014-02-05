@@ -17,6 +17,18 @@ class UNL_UndergraduateBulletin_Edition
     }
 
     /**
+     * Get a specific edition by year
+     *
+     * @param int $year
+     *
+     * @return UNL_UndergraduateBulletin_Edition
+     */
+    public static function getByYear($year)
+    {
+        return new self(array('year'=>(int)$year));
+    }
+
+    /**
      * Return a unique ID for this specific edition.
      *
      * @return string
