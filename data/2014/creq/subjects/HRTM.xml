@@ -120,10 +120,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>letter grade only</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1138</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">HRTM major/minor or PGM major</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">HRTM 171 and HRTM major/minor or PGM major</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Principles of food and beverage management focused on menu planning; procurement; quality; regulation; performance and food service operations.</div>
@@ -638,6 +638,67 @@
     </credits>
   </course>
   <course>
+    <title>Vines, Wines and You</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>HORT</subject>
+        <courseNumber>471</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>NUTR</subject>
+        <courseNumber>471</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>NUTR</subject>
+        <courseNumber>871</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>HORT</subject>
+        <courseNumber>871</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>HRTM</subject>
+        <courseNumber>471</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>HRTM</subject>
+        <courseNumber>871</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">6 hrs science or equivalent experience; 21 years of age or older.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Proof of age is required.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Origin, botany, historical and cultural significance of the grapevine and related species. Principles and practices of vineyard establishment, management and processing of grape products, importance and/or scope of grape and wine industry; global and local significance. Culinary applications, health, environmental and safety-related issues, business and industry relations and experience.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lab</type>
+      </activity>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Fine Food and Wine</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -867,9 +928,9 @@
     </courseCodes>
     <gradingType>letter grade only</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1101</effectiveSemester>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Senior standing; HRTM major; 6 credits hours from the following: HRTM 474/874, HRTM 485/885, or HRTM 489/889.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Senior standing; HRTM major; 12 credits at the 400-level in HRTM, ALEC or CRPL</div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">HRTM 479 is 'Letter grade only'.</div>

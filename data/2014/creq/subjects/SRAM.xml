@@ -1,6 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <courses xmlns="http://courseapproval.unl.edu/courses" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://courseapproval.unl.edu/courses /schema/courses.xsd">
   <course>
+    <title>Survey Design and Analysis</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>SOCI</subject>
+        <courseNumber>465</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>SOCI</subject>
+        <courseNumber>865</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>SRAM</subject>
+        <courseNumber>465</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>SRAM</subject>
+        <courseNumber>865</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1141</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">For SOCI 465: SOCI 205 and SOCI 206. For SOCI 865: None.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Basic issues related to the design and analysis of sample surveys. The basics of questionnaire construction, sampling, data collection, analysis and data presentation.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Research Methods</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -520,10 +565,14 @@
         <subject>SRAM</subject>
         <courseNumber>921</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>SOCI</subject>
+        <courseNumber>921</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Common language of survey errors across social science disciplines. Causes of survey coverage, nonresponse, measurement, and processing errors; techniques used to reduce the error in practice; and statistical models and designs that exist to measure the error. Implications of cost and trade-offs between error sources.</div>
     </description>

@@ -30,7 +30,7 @@
     <activities>
       <activity>
         <type>lec</type>
-        <hours>1.5</hours>
+        <hours>2</hours>
       </activity>
     </activities>
     <credits>
@@ -38,16 +38,50 @@
     </credits>
   </course>
   <course>
-    <title>Garment Assembly</title>
+    <title>Computer Basics for TMFD</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>TMFD</subject>
-        <courseNumber>103</courseNumber>
+        <courseNumber>104</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1141</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Computer aided design software functions and processes specific to textiles, merchandising and fashion design.  Introduction to desgin software at the basic level.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lab</type>
+        <hours>2</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">1</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Product Development I:  Garment Assembly</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TMFD</subject>
+        <courseNumber>112</courseNumber>
       </courseCode>
     </courseCodes>
     <gradingType>letter grade only</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1131</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">This is an 8-week course.</div>
     </notes>
@@ -61,8 +95,8 @@
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
     <termsOffered>
+      <term>Fall</term>
       <term>Spring</term>
-      <term>Summer</term>
     </termsOffered>
     <activities>
       <activity>
@@ -129,7 +163,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1125</effectiveSemester>
+    <effectiveSemester>1141</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Analysis of social, cultural, aesthetic, and economic influences on clothing and human behavior.</div>
     </description>
@@ -528,6 +562,111 @@
     </aceOutcomes>
   </course>
   <course>
+    <title>Introduction to Design Theory and Criticism</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TMFD</subject>
+        <courseNumber>144</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1141</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Describe, analyze, interpret and evaluate two and three dimensional design forms.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Web</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Color Studio:  Theory and Practice</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TMFD</subject>
+        <courseNumber>145</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1141</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Explore color concepts in two and three dimensional formats.  Emphasis on applications to visual merchandising, product development, and fashion design.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>stu</type>
+        <hours>6</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Visualization Studio</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TMFD</subject>
+        <courseNumber>146</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1141</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Develop perceptual and analytical drawing skills through visual problem solving using various media and techniques.  Emphasis on developing skills applicable to fashion and textile representation.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>stu</type>
+        <hours>6</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Textiles</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -573,7 +712,7 @@
     </aceOutcomes>
   </course>
   <course>
-    <title>Product Development I: Apparel Analysis and Development</title>
+    <title>Product Development II: Apparel Analysis and Development</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>TMFD</subject>
@@ -581,8 +720,8 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1125</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Analysis and evaluation of apparel structure. Design, style, and construction variations as related to quality, price, and performance.</div>
     </description>
@@ -652,9 +791,9 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1131</effectiveSemester>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">TMFD 103 and 212.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">TMFD 112 and TMFD 212.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Creative experience in apparel design through the use of flat pattern methods.</div>
@@ -688,9 +827,9 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1131</effectiveSemester>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">For Merchandising or Textile Science option: ARTP/ARCH/IDES/JGEN/LARC/TMFD 141A and 141B. For Textile, Merchandising and Fashion Design Communications option: ARTP/ARCH/IDES/JGEN/LARC/TMFD 140A and 140B. For Textiles and Apparel Design option: ARPT/ARCH/IDES/JGEN/LARC/TMFD 140A, 140B, 141A, 141B, and 143.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">TMFD 144, TMFD 145, and TMFD 146.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Introduction to surface design with creative applications of printing and dyeing techniques on fabric.</div>
@@ -724,9 +863,9 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1138</effectiveSemester>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">TMFD major. For Merchandising or Textile Science option: ARTP/ARCH/IDES/JGEN/LARC/TMFD 141A and 141B. For Textiles, Merchandising and Fashion Design Communications option: ARTP/ARCH/IDES/JGEN/LARC/TMFD 140A and 140B. For Textiles and Apparel Design option: ARTP/ARCH/IDES/JGEN/LARC/TMFD 140A, 140B, 141A, 141B, and 143; TMFD 212.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">TMFD major. TMFD 144, TMFD 145, TMFD 146, and TMFD 212.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Drawing garments and the fashion figure. Aesthetic styling and presentation, refining product specifications, and interpretations of current trends. Intermediate application of computer-aided design in flat drawings and visual presentations.</div>
@@ -743,8 +882,12 @@
     </termsOffered>
     <activities>
       <activity>
-        <type>stu</type>
-        <hours>6</hours>
+        <type>lab</type>
+        <hours>3</hours>
+      </activity>
+      <activity>
+        <type>lec</type>
+        <hours>1</hours>
       </activity>
     </activities>
     <credits>
@@ -797,9 +940,9 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1131</effectiveSemester>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">For Merchandising or Textile Science option: ARTP/ARCH/IDES/JGEN/LARC/TMFD: 141A and 141B. For Textiles, Merchandising and Fashion Design Communications option: ARTP/ARCH/IDES/JGEN/LARC/TMFD: 140A and 140B. For Textiles and Apparel Design option: ARTP/ARCH/IDES/JGEN/LARC/TMFD 140A, 140B, 141A, 141B, 143; or ARCH 210.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">TMFD 144, TMFD 145, and TMFD 146.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Store and non-store visual merchandising and promotion for textiles and apparel. Includes strategies for branding and target market in both real and virtual platforms.</div>
@@ -1038,7 +1181,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1125</effectiveSemester>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Junior standing, AHIS 101 or 102 or 3 hrs HIST 100 or 101.</div>
     </prerequisite>
@@ -2359,13 +2502,13 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1125</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Permission of chair</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Reading, discussions, and reports dealing with the economic, sociological, historical, technical, and aesthetic phases of textiles and clothing.<br/>A.	Textiles<br/>B.	Clothing<br/>D.	Design</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Reading, discussions, and reports dealing with the economic, sociological, historical, technical, and aesthetic phases of textiles and clothing.<br/>A. Textiles<br/>B. Fashion<br/>D. Design</div>
     </description>
     <campuses>
       <campus>UNL</campus>

@@ -585,7 +585,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1121</effectiveSemester>
+    <effectiveSemester>1148</effectiveSemester>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">Pre-1800 content.</div>
     </notes>
@@ -634,7 +634,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1091</effectiveSemester>
+    <effectiveSemester>1141</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Survey of the history of the Land of Israel from Biblical times to the present. Includes Roman and Byzantine rule, the Crusades, Islamic Palestine, Zionism and the modern state of Israel, and the religious importance of the land for Judaism, Christianity, and Islam.</div>
     </description>
@@ -714,7 +714,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1091</effectiveSemester>
+    <effectiveSemester>1141</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Survey of the history of the Jewish people from Biblical times to the present. The Old Testament, Ancient Israel, the Talmud, the relationship to Christianity and Islam, persecution and self-government in the middle ages, Jewish philosophy and mysticism, emancipation, modern anti-Semitism, the Holocaust, Zionism, the modern state of Israel, and the Jewish experience in America.</div>
     </description>
@@ -1228,6 +1228,48 @@
     </credits>
   </course>
   <course>
+    <title>Jews in the Modern World</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>HIST</subject>
+        <courseNumber>333</courseNumber>
+        <courseGroup>European History</courseGroup>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>JUDS</subject>
+        <courseNumber>333</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>RELG</subject>
+        <courseNumber>333</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Sophomore standing or permission.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Examines the history of the Jewish people since the 18th century with geographical foci on Europe, North America, and the Middle East. Emphasis on the Jewish Enlightenment, emancipation and assimilation, anti-Semitism, migration to and adaptation in America, Zionism and the modern state of Israel.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Jews, Christians and the Bible</title>
     <courseCodes>
       <courseCode type="crosslisting">
@@ -1422,45 +1464,6 @@
     <effectiveSemester>1121</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Early Buddhist teachings and Theravada doctrines of the four noble truths, selflessness, cyclic existence and nirvana, structure of consciousness and external universe. Later interpretations of emptiness, perception, buddha-nature and other ideas by Madhyamaka (Middle Way) and Cittamatra (Mind Only)—the two major systems of Mahayana Buddhism. Polemical issues in the Buddhist thought. Synthesis of major systems of thought by later Mahayana thinkers.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>lec</type>
-        <hours>3</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Religion and Reform: Utopian and Communal Societies in America</title>
-    <courseCodes>
-      <courseCode type="crosslisting">
-        <subject>RELG</subject>
-        <courseNumber>370</courseNumber>
-      </courseCode>
-      <courseCode type="home listing">
-        <subject>ANTH</subject>
-        <courseNumber>370</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1105</effectiveSemester>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Communal and Utopian societies residing in North America, 17th century to present. Belief systems, organization, and spiritual and secular challenges to these groups.</div>
     </description>
     <campuses>
       <campus>UNL</campus>

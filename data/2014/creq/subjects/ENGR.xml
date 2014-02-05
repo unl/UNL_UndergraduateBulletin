@@ -318,52 +318,6 @@
     </credits>
   </course>
   <course>
-    <title>Elements of Nuclear Engineering</title>
-    <courseCodes>
-      <courseCode type="crosslisting">
-        <subject>ENGR</subject>
-        <courseNumber>401</courseNumber>
-      </courseCode>
-      <courseCode type="home listing">
-        <subject>MECH</subject>
-        <courseNumber>401</courseNumber>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>MECH</subject>
-        <courseNumber>801</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1088</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ENGR 300 or 301 or 310; MATH 208/208H; and PHYS 212/212H.</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Survey of nuclear engineering concepts and applications. Nuclear reactions, radioactivity, radiation interaction with matter, reactor physics, risk and dose assessment, applications in medicine, industry, agriculture, and research.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>lec</type>
-        <hours>3</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
     <title>Energy Systems and Resources</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -413,7 +367,7 @@
     <dfRemoval>false</dfRemoval>
     <effectiveSemester>1081</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">MECH401/801/ENGR 401.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">MECH401/801/ENGR 421.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Basic principles and concepts of radiation protection and shield design. Dosi-metric units and response functions, hazards of radiation doses, radiation sources, basic methods for dose evaluation, and shielding design techniques for photons and neutrons.</div>
@@ -527,7 +481,7 @@
     <dfRemoval>false</dfRemoval>
     <effectiveSemester>1081</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">MECH 401/801/ENGR 401.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">MECH 421/821/ENGR 421.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">The physics governing nuclear reactors and the design principles for commercial nuclear power plants. Reactor designs currently operating in the power industry.</div>
@@ -542,6 +496,51 @@
       <term>Fall</term>
       <term>Spring</term>
       <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Elements of Nuclear Engineering</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MECH</subject>
+        <courseNumber>421</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>MECH</subject>
+        <courseNumber>821</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>ENGR</subject>
+        <courseNumber>421</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">ENGR 300 or 301 or 310; MATH 208/208H; and PHYS 212/212H.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Survey of nuclear engineering concepts and applications. Nuclear reactions, radioactivity, radiation interaction with matter, reactor physics, risk and dose assessment, applications in medicine, industry, agriculture, and research.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
     </termsOffered>
     <activities>
       <activity>

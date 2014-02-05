@@ -902,7 +902,7 @@
     <activities>
       <activity>
         <type>lab</type>
-        <hours>3.5</hours>
+        <hours>4</hours>
       </activity>
     </activities>
     <credits>
@@ -1309,6 +1309,46 @@
       <credit type="Lower Range Limit">3</credit>
       <credit type="Upper Range Limit">12</credit>
       <credit type="Per Career Limit">12</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Student Teaching with Infants and/or Preschool Children with Disabilities</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>SPED</subject>
+        <courseNumber>497</courseNumber>
+        <courseLetter>Q</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>pass/no pass only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1151</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Completion of all courses and pre-student teaching practica in the Inclusive Early Childhood Education major.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Final supervised field experience in the public schools with young children who have disabilities under age 5.  Minimum 10 weeks, full-time placement.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>fld</type>
+        <hours>35</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">5</credit>
+      <credit type="Per Career Limit">5</credit>
     </credits>
   </course>
   <course>
@@ -2714,6 +2754,40 @@
       <credit type="Lower Range Limit">1</credit>
       <credit type="Upper Range Limit">3</credit>
       <credit type="Per Career Limit">6</credit>
+    </credits>
+  </course>
+  <course>
+    <title>School Mental Health and Behavior Interventions</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>EDPS</subject>
+        <courseNumber>954</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>SPED</subject>
+        <courseNumber>954</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Understanding of models for the delivery of mental health services in schools; and plan and deliver psychosocial interventions in school settings. Evidence-based interventions delivered at the classroom and school-wide levels emphasized with a three-tiered prevention model of service delivery appropriate for culturally and linguistically diverse students.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
     </credits>
   </course>
   <course>

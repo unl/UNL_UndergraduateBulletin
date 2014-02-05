@@ -260,7 +260,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1128</effectiveSemester>
+    <effectiveSemester>1148</effectiveSemester>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">Pre-1800 content.</div>
     </notes>
@@ -307,7 +307,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1128</effectiveSemester>
+    <effectiveSemester>1148</effectiveSemester>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">Pre-1800 content.</div>
     </notes>
@@ -1048,6 +1048,49 @@
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
+  </course>
+  <course>
+    <title>Classical Roots of English Literature</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ENGL</subject>
+        <courseNumber>340</courseNumber>
+        <courseGroup>Literary and Cultural Studies</courseGroup>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>CLAS</subject>
+        <courseNumber>340</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1141</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Greek and Roman literary works emphasizing their influence on English and American literature.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+    <aceOutcomes>
+      <slo>5</slo>
+    </aceOutcomes>
   </course>
   <course>
     <title>Ancient Novel</title>

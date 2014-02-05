@@ -571,7 +571,7 @@
     </credits>
   </course>
   <course>
-    <title>Experimental Design</title>
+    <title>Design and Analysis of Research Studies</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>STAT</subject>
@@ -579,13 +579,13 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">STAT *801.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">STAT 318 or STAT 801.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Suitability and efficiency of various designs in conducting experimental investigations in related areas and the statistical analysis of the data.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Essential statistical characteristics of a research study intended to assess the impact of treatment, environmental or population conditions on response. Focus is on both designed experiments and on studies for which controlled experiments are not feasible but characteristics of controlled experiment must be mimicked to the extent possible. Methods to assess power and compare efficiency of alternative designs are considered. Course covers major design structures, including blocking, nesting, multilevel models, split-plot and repeated measures, and statistical analysis associated with these structures.</div>
     </description>
     <campuses>
       <campus></campus>
@@ -680,6 +680,88 @@
     </credits>
   </course>
   <course>
+    <title>Statistics for Middle-Level Teachers</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>STAT</subject>
+        <courseNumber>811</courseNumber>
+        <courseLetter>T</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">A valid teaching certificate or permission.  An undergraduate coruse in introductory statistics is desirable, but not essential.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Not open to MA or MS students in mathematics or statistics.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Designed primarily to develop and equip middle-level teachers with the statistical knowledge they need for teaching.  The course follows an inquiry/discovery design, dedicating much of class time to activities, discussion and group work.  The course emphasizes topics in statistics that are part of the middle-school mathematics curriculum, as well as their application in other disciplines.  The course also includes statistics that are used in education and school-based research.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Statistics for High School Teachers</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>STAT</subject>
+        <courseNumber>812</courseNumber>
+        <courseLetter>T</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">A valid secondary mathematics teaching certificate or permission.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Not open to MA or MS students in mathematics or statistics.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">The statistical concepts typically taught in a high school statistics class, including linear regression, two-way tables, sampling distributions, statistical inference for means and proportions, chi-square tests, and inference for regression.  Some experience with basic statistical concepts (mean, standard deviation, elementary probability) is necessary.  The course is inquiry-based, and will emphasize applications and statistical thinking.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Spatial Statistics</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -744,7 +826,7 @@
     </credits>
   </course>
   <course>
-    <title>Statistical methods for Micro-array and Related Technologies</title>
+    <title>Statistical Methods for High Throughput Biological Data</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>STAT</subject>
@@ -752,13 +834,13 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">STAT *801 or equivalent.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Basic biological concepts. Image analysis for two-color and oligonucleotide micro-arrays. Normalization, experimental design and mixed linear models for micro-array data. Empirical Bayes methods and false discovery rate. Clustering and gene category based methods. Tiling micro-arrays, massively parallel signature sequencing, and other related technologies.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Basic biological concepts. Multiple testing and false discovery rate. Second generation sequencing and statistical issues. ChIP-seq. RNA-seq. Empirical Bayes methods and software. Normalization, experimental design and commonly used models for microarray data. Metabolomics.</div>
     </description>
     <campuses>
       <campus></campus>
@@ -932,6 +1014,47 @@
     </credits>
   </course>
   <course>
+    <title>Introduction to Survival Analysis</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>STAT</subject>
+        <courseNumber>876</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">STAT 801.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">STAT 876 is offered every other odd-numbered calendar year. Knowledge of at least one statistical package (SAS, R, Splus, SPS) is required.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Application, theory and computational aspects of survival analysis. Survival and hazard functions; parametric models for survival data; censoring and truncation mechanisms; nonparametric estimation (confidence bands for the survival function, interval estimation of the mean and median survival time); univariate estimation of the hazard function; hypothesis testing; regression models (with fixed covariates, with time dependent covariates); and model diagnostics.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Introduction to Mathematical Statistics</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -1039,34 +1162,6 @@
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Introduction to stochastic modeling in operations research. Includes the exponential distribution and the Poisson process, discrete-time and continuous-time Markov chains, renewal processes, queueing models, stochastic inventory models, stochastic models in reliability theory.</div>
-    </description>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <activities/>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Applied Statistics I</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>STAT</subject>
-        <courseNumber>885</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">STAT 880 or IMSE 321, and knowledge of matrix algebra</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">General linear models for estimation and testing problems analysis and interpretation for various experimental designs.</div>
     </description>
     <campuses>
       <campus></campus>
@@ -1424,7 +1519,7 @@
     </credits>
   </course>
   <course>
-    <title>Advanced Statistical Modelling</title>
+    <title>Advanced Statistical Modeling</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>STAT</subject>
@@ -1432,13 +1527,13 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">STAT 970</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">STAT 802, STAT 882, STAT 883, STAT 970 and take Statistics MS Comprehensive Exam prior to start of STAT 971.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Advanced theory and methods for statistical analysis. Systematic development of the needs and requirement of statistical modelling in research. Distribution and estimation theory for analysis of categorical data, survival data, data with correlated errors. Theory and practice of generalized linear models, mixed linear models. Introduction to non-linear models.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Statistical modeling beyond the “general linear model” normally-distributed data, fixed-effects-only case. Focus on, but not limited to, the theory and practice of generalized and mixed linear models. Issues include translation of study design to plausible models, inference space, data and model scale, conditional vs. marginal models, correlated data, zero-inflated data, likelihood-based estimation and inference.</div>
     </description>
     <campuses>
       <campus></campus>
@@ -1491,10 +1586,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">STAT 873 or equivalent</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">STAT 873  and STAT 970, or equivalent.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Statistical inference concerning parameters of multivariate normal distributions with applications to multiple decision problems.</div>

@@ -170,7 +170,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1091</effectiveSemester>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Admission to the University Honors Program or by invitation.</div>
     </prerequisite>
@@ -239,7 +239,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1108</effectiveSemester>
+    <effectiveSemester>1148</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Interdisciplinary examination of the contributions of women to society and societal attitudes toward women. Roles and values of women in contemporary society. Lecture, discussion, special problems.</div>
     </description>
@@ -1368,6 +1368,48 @@
     </credits>
   </course>
   <course>
+    <title>Sociology of Mental Health</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>SOCI</subject>
+        <courseNumber>443</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>SOCI</subject>
+        <courseNumber>843</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">9 hrs of sociology or related social sciences.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Social origins of mental health and illness; social distribution of mental health by race, class, and gender; social construction of mental health; mental health care systems.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Social Demography</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -1672,6 +1714,48 @@
     </credits>
   </course>
   <course>
+    <title>Physical Health Disparities</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>SOCI</subject>
+        <courseNumber>454</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>SOCI</subject>
+        <courseNumber>854</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">9 hrs of sociology or related social sciences</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Contribution of social inequality to health outcomes; Intersection of individual and social factors through which racial, economic, and gender differences in health emerge.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>History of Sociological Theory</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -1881,16 +1965,21 @@
         <subject>SOCI</subject>
         <courseNumber>865</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>SRAM</subject>
+        <courseNumber>465</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>SRAM</subject>
+        <courseNumber>865</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1141</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">For SOCI 465: SOCI 205 and 206.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">For SOCI 465: SOCI 205 and SOCI 206. For SOCI 865: None.</div>
     </prerequisite>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">For SOCI 865: None.</div>
-    </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Basic issues related to the design and analysis of sample surveys. The basics of questionnaire construction, sampling, data collection, analysis and data presentation.</div>
     </description>
@@ -2126,10 +2215,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1141</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Junior standing and 12 hrs in one of the departments in which the course is listed.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Junior standing.</div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">Open to advanced students planning careers in the professions in which knowledge of human behavior and society is important (e.g., helping professions, medicine, law, ministry, education, etc.).</div>
@@ -2148,7 +2237,12 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
@@ -2196,51 +2290,51 @@
   <course>
     <title>Water Quality Strategy</title>
     <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>AGRO</subject>
+        <courseNumber>475</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>AGRO</subject>
+        <courseNumber>875</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>CIVE</subject>
+        <courseNumber>475</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>CIVE</subject>
+        <courseNumber>875</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>CRPL</subject>
+        <courseNumber>475</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>CRPL</subject>
+        <courseNumber>875</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>GEOL</subject>
+        <courseNumber>475</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>GEOL</subject>
+        <courseNumber>875</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>MSYM</subject>
+        <courseNumber>475</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>MSYM</subject>
+        <courseNumber>875</courseNumber>
+      </courseCode>
       <courseCode type="home listing">
-        <subject>AGRO</subject>
-        <courseNumber>475</courseNumber>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>AGRO</subject>
-        <courseNumber>875</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>CIVE</subject>
-        <courseNumber>475</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>CIVE</subject>
-        <courseNumber>875</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>CRPL</subject>
-        <courseNumber>475</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>CRPL</subject>
-        <courseNumber>875</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>GEOL</subject>
-        <courseNumber>475</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>GEOL</subject>
-        <courseNumber>875</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>MSYM</subject>
-        <courseNumber>475</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>MSYM</subject>
-        <courseNumber>875</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
         <subject>NRES</subject>
         <courseNumber>475</courseNumber>
       </courseCode>
-      <courseCode type="crosslisting">
+      <courseCode type="grad tie-in">
         <subject>NRES</subject>
         <courseNumber>875</courseNumber>
       </courseCode>
@@ -2272,8 +2366,8 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1088</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Senior standing or permission.</div>
     </prerequisite>
@@ -3017,6 +3111,40 @@
     <credits>
       <credit type="Single Value">3</credit>
       <credit type="Per Career Limit">9</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Total Survey Error</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>SRAM</subject>
+        <courseNumber>921</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>SOCI</subject>
+        <courseNumber>921</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Common language of survey errors across social science disciplines. Causes of survey coverage, nonresponse, measurement, and processing errors; techniques used to reduce the error in practice; and statistical models and designs that exist to measure the error. Implications of cost and trade-offs between error sources.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
     </credits>
   </course>
   <course>

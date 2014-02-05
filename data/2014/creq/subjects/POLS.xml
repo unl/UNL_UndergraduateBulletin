@@ -8,15 +8,10 @@
         <courseNumber>100</courseNumber>
         <courseGroup>American Government, Politics and Law</courseGroup>
       </courseCode>
-      <courseCode type="crosslisting">
-        <subject>POLS</subject>
-        <courseNumber>100</courseNumber>
-        <courseLetter>X</courseLetter>
-      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1091</effectiveSemester>
+    <effectiveSemester>1141</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Introduction to American government and politics.</div>
     </description>
@@ -234,7 +229,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1128</effectiveSemester>
+    <effectiveSemester>1148</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">How and why states act as they do in their contemporary international relations. Continuing factors, such as power, war, ideology, and governmental organizations, and recently emerging influences, including supranational organizations, multinational corporations, and natural resource allocation analyzed. Diverse approaches and theories examined.</div>
     </description>
@@ -275,7 +270,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1091</effectiveSemester>
+    <effectiveSemester>1141</effectiveSemester>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">Pre-1800 content.</div>
     </notes>
@@ -516,6 +511,11 @@
   <course>
     <title>Elections, Political Parties, and Special Interests</title>
     <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>PHYS</subject>
+        <courseNumber>230</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
       <courseCode type="home listing">
         <subject>POLS</subject>
         <courseNumber>230</courseNumber>
@@ -889,6 +889,42 @@
       <term>Summer</term>
     </termsOffered>
     <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>From National to Human Security</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>POLS</subject>
+        <courseNumber>270</courseNumber>
+        <courseGroup>International Relations</courseGroup>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1141</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Provide a solid understanding of the historical and theoretical debates related to security studies within the subfield of international relations.  Traditional and “new threats” to security as it relates to world order. How nation-states are responding to these threats – namely through multilateral, multi-level strategies based on certain assumptions of governance.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
@@ -1552,10 +1588,14 @@
         <courseNumber>364</courseNumber>
         <courseGroup>International Relations</courseGroup>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>GLST</subject>
+        <courseNumber>364</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1131</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1141</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">An introduction to the United Nations system and the Model United Nations program, including research, debate and resolution writing.</div>
     </description>
@@ -3086,51 +3126,51 @@
   <course>
     <title>Water Quality Strategy</title>
     <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>AGRO</subject>
+        <courseNumber>475</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>AGRO</subject>
+        <courseNumber>875</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>CIVE</subject>
+        <courseNumber>475</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>CIVE</subject>
+        <courseNumber>875</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>CRPL</subject>
+        <courseNumber>475</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>CRPL</subject>
+        <courseNumber>875</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>GEOL</subject>
+        <courseNumber>475</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>GEOL</subject>
+        <courseNumber>875</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>MSYM</subject>
+        <courseNumber>475</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>MSYM</subject>
+        <courseNumber>875</courseNumber>
+      </courseCode>
       <courseCode type="home listing">
-        <subject>AGRO</subject>
-        <courseNumber>475</courseNumber>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>AGRO</subject>
-        <courseNumber>875</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>CIVE</subject>
-        <courseNumber>475</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>CIVE</subject>
-        <courseNumber>875</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>CRPL</subject>
-        <courseNumber>475</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>CRPL</subject>
-        <courseNumber>875</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>GEOL</subject>
-        <courseNumber>475</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>GEOL</subject>
-        <courseNumber>875</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>MSYM</subject>
-        <courseNumber>475</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>MSYM</subject>
-        <courseNumber>875</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
         <subject>NRES</subject>
         <courseNumber>475</courseNumber>
       </courseCode>
-      <courseCode type="crosslisting">
+      <courseCode type="grad tie-in">
         <subject>NRES</subject>
         <courseNumber>875</courseNumber>
       </courseCode>
@@ -3162,8 +3202,8 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1088</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Senior standing or permission.</div>
     </prerequisite>

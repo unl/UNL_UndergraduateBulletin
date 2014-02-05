@@ -100,6 +100,11 @@
         <courseNumber>110</courseNumber>
         <courseGroup>Additional Anthropology Courses</courseGroup>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>ANTH</subject>
+        <courseNumber>110</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
@@ -276,7 +281,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Good standing in University Honors Program or by invitation.</div>
     </prerequisite>
@@ -305,6 +310,9 @@
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
+    <aceOutcomes>
+      <slo>9</slo>
+    </aceOutcomes>
   </course>
   <course>
     <title>Native Language III: Omaha III</title>
@@ -535,6 +543,45 @@
     </aceOutcomes>
   </course>
   <course>
+    <title>Anthropology of Death</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ANTH</subject>
+        <courseNumber>215</courseNumber>
+        <courseGroup>Additional Anthropology Courses</courseGroup>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Past and present survey of human beliefs and practices related to death.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+    <aceOutcomes>
+      <slo>6</slo>
+    </aceOutcomes>
+  </course>
+  <course>
     <title>Introduction to Prehistory</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -578,7 +625,7 @@
     </aceOutcomes>
   </course>
   <course>
-    <title>Introduction to Physical Anthropology</title>
+    <title>Introduction to Biological Anthropology</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>ANTH</subject>
@@ -588,12 +635,12 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1138</effectiveSemester>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Parallel ANTH 242L</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Physical/biological anthropology is the study of human and non human primate biological evolution and biocultural variation. This includes genetics, mechanisms of change, growth and development, primate ecology, and the fossil record.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Biological anthropology is the study of human and non human primate biological evolution and biocultural variation. This includes genetics, mechanisms of change, growth and development, primate ecology, and the fossil record.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -619,7 +666,7 @@
     </aceOutcomes>
   </course>
   <course>
-    <title>Introduction to Physical Anthropology Laboratory</title>
+    <title>Introduction to Biological Anthropology Laboratory</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>ANTH</subject>
@@ -629,8 +676,8 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Parallel ANTH 242.</div>
     </prerequisite>
@@ -877,6 +924,45 @@
     </credits>
   </course>
   <course>
+    <title>Archaeology of the American Southwest</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ANTH</subject>
+        <courseNumber>337</courseNumber>
+        <courseGroup>Archaeology</courseGroup>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Advanced survey of past and present indigenous cultures of the American Southwest.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+    <aceOutcomes>
+      <slo>6</slo>
+    </aceOutcomes>
+  </course>
+  <course>
     <title>Peoples and Cultures of Native Latin America</title>
     <courseCodes>
       <courseCode type="crosslisting">
@@ -1087,42 +1173,6 @@
     </aceOutcomes>
   </course>
   <course>
-    <title>Peoples and Cultures of the Arctic Regions</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ANTH</subject>
-        <courseNumber>363</courseNumber>
-        <courseGroup>Cultural Anthropology</courseGroup>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Advanced survey of indigenous cultural adaptations to boreal environments.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>lec</type>
-        <hours>3</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
     <title>Peoples and Cultures of East Asia</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -1154,45 +1204,6 @@
     <activities>
       <activity>
         <type>lec</type>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Religion and Reform: Utopian and Communal Societies in America</title>
-    <courseCodes>
-      <courseCode type="crosslisting">
-        <subject>RELG</subject>
-        <courseNumber>370</courseNumber>
-      </courseCode>
-      <courseCode type="home listing">
-        <subject>ANTH</subject>
-        <courseNumber>370</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1105</effectiveSemester>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Communal and Utopian societies residing in North America, 17th century to present. Belief systems, organization, and spiritual and secular challenges to these groups.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>lec</type>
-        <hours>3</hours>
       </activity>
     </activities>
     <credits>
@@ -1560,45 +1571,6 @@
     </credits>
   </course>
   <course>
-    <title>Topics in Cultural Anthropology</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ANTH</subject>
-        <courseNumber>416</courseNumber>
-        <courseGroup>Cultural Anthropology</courseGroup>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>ANTH</subject>
-        <courseNumber>816</courseNumber>
-        <courseGroup>Cultural Anthropology</courseGroup>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ANTH 212 or permission.</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Advanced study of selected topics in cultural anthropology.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities/>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
     <title>History of Anthropological Theory</title>
     <courseCodes>
       <courseCode type="grad tie-in">
@@ -1720,46 +1692,6 @@
       <activity>
         <type>lec</type>
         <hours>3</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Ethnic Identity and Ethnic Conflict</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ANTH</subject>
-        <courseNumber>420</courseNumber>
-        <courseGroup>Cultural Anthropology</courseGroup>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>ANTH</subject>
-        <courseNumber>820</courseNumber>
-        <courseGroup>Cultural Anthropology</courseGroup>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Concept of ethnicity and ethnic groups. Reviews how ethnic groups emerge and ethnic relations affect the modern nation state. Several ethnic conflicts reviewed and examined, accompanied by discussion of the dynamics of each of these situations. How ethnic identity is formed, adjusted and recreated.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>lec</type>
       </activity>
     </activities>
     <credits>
@@ -2170,47 +2102,6 @@
     <effectiveSemester>1078</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Introduction to the prehistory of the Maya region and its periphery. Features of the Ancient Maya political, economic, religious, gender and material structures. Main substantive, theoretical and political debates in Mesoamerican scholarship. Interdisciplinary research and the types of methods used to create knowledge about Maya civilization.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>lec</type>
-        <hours>3</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Borders and Frontiers</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ANTH</subject>
-        <courseNumber>437</courseNumber>
-        <courseGroup>Cultural Anthropology</courseGroup>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>ANTH</subject>
-        <courseNumber>837</courseNumber>
-        <courseGroup>Cultural Anthropology</courseGroup>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1091</effectiveSemester>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Social and spatial processes of borders and frontiers though historical and contemporary articulations between local, national, and global orders. Commonalities of frontier and border experiences worldwide. Frontiers in the North American and global experience, border formation and maintenance case studies, contemporary issues of globalization, indigenous peoples, conflict and/or cooperation, natural resources, and ethnic identity.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -2653,7 +2544,7 @@
     </aceOutcomes>
   </course>
   <course>
-    <title>Primitive Technology</title>
+    <title>Artisan Technologies Past and Present</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>ANTH</subject>
@@ -2667,13 +2558,13 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">9 hrs ANTH.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Survey of the major technologies and industrial complexes of the prehistoric and primitive worlds. Through examination of artifacts, gain familiarity with the ways preindustrial people have manipulated the environment. Develop skills necessary to analyze technology within its cultural setting.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Study of selected technologies from around the world at the preindustrial level of production. Examine hand made art and utilitarian artifacts with the goal of understanding them through replication. Analyze technology within its cultural setting.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -3179,49 +3070,6 @@
     <credits>
       <credit type="Lower Range Limit">1</credit>
       <credit type="Upper Range Limit">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Community-Based Research and Evaluation</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ANTH</subject>
-        <courseNumber>486</courseNumber>
-        <courseGroup>Laboratory and Field Training</courseGroup>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>ANTH</subject>
-        <courseNumber>886</courseNumber>
-        <courseGroup>Laboratory and Field Training</courseGroup>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>ETHN</subject>
-        <courseNumber>487</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ANTH 212.</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Qualitative ethnographic field and research projects. The observation, documentation, data analysis, and theory behind selected research designs. Community-based organizations, agencies, and development advocacy projects.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities/>
-    <credits>
-      <credit type="Single Value">3</credit>
     </credits>
   </course>
   <course>

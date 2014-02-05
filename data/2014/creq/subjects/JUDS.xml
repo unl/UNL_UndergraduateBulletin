@@ -131,7 +131,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1091</effectiveSemester>
+    <effectiveSemester>1141</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Survey of the history of the Land of Israel from Biblical times to the present. Includes Roman and Byzantine rule, the Crusades, Islamic Palestine, Zionism and the modern state of Israel, and the religious importance of the land for Judaism, Christianity, and Islam.</div>
     </description>
@@ -173,7 +173,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1091</effectiveSemester>
+    <effectiveSemester>1141</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Survey of the history of the Jewish people from Biblical times to the present. The Old Testament, Ancient Israel, the Talmud, the relationship to Christianity and Islam, persecution and self-government in the middle ages, Jewish philosophy and mysticism, emancipation, modern anti-Semitism, the Holocaust, Zionism, the modern state of Israel, and the Jewish experience in America.</div>
     </description>
@@ -398,10 +398,14 @@
         <subject>JUDS</subject>
         <courseNumber>333</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>RELG</subject>
+        <courseNumber>333</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Sophomore standing or permission.</div>
     </prerequisite>
@@ -626,6 +630,47 @@
     </credits>
   </course>
   <course>
+    <title>Independent Reading in Jewish Studies</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>JUDS</subject>
+        <courseNumber>396</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Permission of instructor.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Letter grade only.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Special reading program or research project under the direction of a member of the Jewish Studies faculty.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>ind</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Lower Range Limit">2</credit>
+      <credit type="Upper Range Limit">4</credit>
+    </credits>
+  </course>
+  <course>
     <title>Special Topics in Judaic Studies</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -822,6 +867,50 @@
       <term>Summer</term>
     </termsOffered>
     <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Advanced Special Topics in Jewish Studies</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>JUDS</subject>
+        <courseNumber>492</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>JUDS</subject>
+        <courseNumber>892</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Junior/senior/grad standing</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Letter grade only</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Advanced seminar on special topics taught by Jewish Studies faculty. Typically requires a substantial research project.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>

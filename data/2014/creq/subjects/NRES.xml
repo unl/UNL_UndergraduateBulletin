@@ -122,42 +122,6 @@
     </aceOutcomes>
   </course>
   <course>
-    <title>Justin Smith Morrill Scholars Seminar</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>NRES</subject>
-        <courseNumber>105</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">NRES 105 is open to Justin Smith Morrill Scholars Program students only.</div>
-    </notes>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">The life, experience, and accomplishments of Justin Smith Morrill, author of the Land-Grant College Acts 1862 and 1890. The role of Land-Grant University in the modern era.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>lec</type>
-        <hours>1</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">1</credit>
-    </credits>
-  </course>
-  <course>
     <title>Invasive Plant Species: Impacts on Ecosystems</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -214,15 +178,10 @@
         <subject>NRES</subject>
         <courseNumber>108</courseNumber>
       </courseCode>
-      <courseCode type="crosslisting">
-        <subject>NRES</subject>
-        <courseNumber>108</courseNumber>
-        <courseLetter>X</courseLetter>
-      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1108</effectiveSemester>
+    <effectiveSemester>1141</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Introduction to Earth's natural resource systems. Interactions between the geosphere (solid earth) and the hydrosphere. The atmosphere and biosphere over many different spatial and temporal scales, and role of humans as part of the system.</div>
     </description>
@@ -327,6 +286,42 @@
     </activities>
     <credits>
       <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Oh My Cod: Exploring Aquatic Ecology Careers</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>NRES</subject>
+        <courseNumber>163</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Limited to Freshman or Sohpmore classification only.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to fisheries and aquatic ecology.  Familiarize with current research and critical review of literature. Guidance on careers in aquatic ecology. Initial field sampling experience. <br/><br/></div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>1</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">1</credit>
     </credits>
   </course>
   <course>
@@ -1378,7 +1373,7 @@
     <dfRemoval>true</dfRemoval>
     <effectiveSemester>1081</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">METR 200.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">METR 100.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Processes that give rise to spatial and temporal differences in climate. Various interrelationships between humans and climate. Influence of climate on building styles, the economy, water resources, human health, and society. Humans' inadvertent and purposeful modification of the atmosphere.</div>
@@ -1422,7 +1417,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1091</effectiveSemester>
+    <effectiveSemester>1148</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Historical roles of women as scientists. Societal constructs of gender in science. Feminist critiques of scientific methodology and interpretation.</div>
     </description>
@@ -2606,7 +2601,7 @@
       </activity>
       <activity>
         <type>lec</type>
-        <hours>1.5</hours>
+        <hours>2</hours>
       </activity>
     </activities>
     <credits>
@@ -2710,6 +2705,48 @@
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Overview of the technical and sociocultural dimensions of global food insecurity. <br/><br/></div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Waterfowl Ecology and Management</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>NRES</subject>
+        <courseNumber>431</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>NRES</subject>
+        <courseNumber>831</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1141</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">NRES 311.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Ecology and identification of North American waterfowl, management of habitats and populations,  and current management issues.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -2839,8 +2876,11 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1131</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Requires 20 hours of service.</div>
+    </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Examination of formal and informal environmental education and interpretation.  Knowledge, application and practice relevant to science teachers and park, extension, museums, and zoo educators.</div>
     </description>
@@ -3141,26 +3181,26 @@
   <course>
     <title>Human Remains in Forensic Science</title>
     <courseCodes>
-      <courseCode type="home listing">
+      <courseCode type="crosslisting">
         <subject>NRES</subject>
         <courseNumber>445</courseNumber>
       </courseCode>
-      <courseCode type="grad tie-in">
+      <courseCode type="crosslisting">
         <subject>NRES</subject>
         <courseNumber>845</courseNumber>
       </courseCode>
-      <courseCode type="crosslisting">
+      <courseCode type="home listing">
         <subject>FORS</subject>
         <courseNumber>445</courseNumber>
       </courseCode>
-      <courseCode type="crosslisting">
+      <courseCode type="grad tie-in">
         <subject>FORS</subject>
         <courseNumber>845</courseNumber>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1091</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1141</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">FORS 120.</div>
     </prerequisite>
@@ -3240,6 +3280,50 @@
     </activities>
     <credits>
       <credit type="Single Value">4</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Archaeoparasitology:  The Archaeology of Disease</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>NRES</subject>
+        <courseNumber>447</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>NRES</subject>
+        <courseNumber>847</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1141</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Junior or senior standing, BIOS 101, MATH 218.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Study of parasites, their hosts, and the relationship between them.  Human parasitology is especially interesting due to the adaptation of human populations to a great variety of parasites over long periods of time in the global diversity of environments.  Fundamental understanding of human-parasite relations and methods of recovery of parasites from a variety of archaeological remains.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lab</type>
+        <hours>2</hours>
+      </activity>
+      <activity>
+        <type>lec</type>
+        <hours>1</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
     </credits>
   </course>
   <course>
@@ -3413,7 +3497,7 @@
     <dfRemoval>false</dfRemoval>
     <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">METR 200 or NRES 370 or equivalent.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">METR 100 or NRES 370 or equivalent.</div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">Offered spring semester of even-numbered calendar years.</div>
@@ -3460,10 +3544,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1121</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1141</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">BIOS 102, 103, and either BIOS 207 or BIOS 220, or equivalent courses.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">LIFE 120 and LIFE 120L; LIFE 121 and LIFE 121L; either BIOS 207 or BIOS 220.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Nature and characteristics of populations and communities. Interactions within and between populations in community structure and dynamics. Direct and indirect interactions and ecological processes, competition, predation, parasitism, herbivory, and pollination. Structure, functioning and persistence of natural communities, foodweb dynamics, succession, and biodiversity.</div>
@@ -3731,7 +3815,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">12 hrs BIOS, including BIOS/NRES 220/BIOS220x; two semesters CHEM.</div>
     </prerequisite>
@@ -3763,6 +3847,9 @@
     <credits>
       <credit type="Single Value">4</credit>
     </credits>
+    <aceOutcomes>
+      <slo>10</slo>
+    </aceOutcomes>
   </course>
   <course>
     <title>Soil Microbiology</title>
@@ -4368,51 +4455,51 @@
   <course>
     <title>Water Quality Strategy</title>
     <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>AGRO</subject>
+        <courseNumber>475</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>AGRO</subject>
+        <courseNumber>875</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>CIVE</subject>
+        <courseNumber>475</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>CIVE</subject>
+        <courseNumber>875</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>CRPL</subject>
+        <courseNumber>475</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>CRPL</subject>
+        <courseNumber>875</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>GEOL</subject>
+        <courseNumber>475</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>GEOL</subject>
+        <courseNumber>875</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>MSYM</subject>
+        <courseNumber>475</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>MSYM</subject>
+        <courseNumber>875</courseNumber>
+      </courseCode>
       <courseCode type="home listing">
-        <subject>AGRO</subject>
-        <courseNumber>475</courseNumber>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>AGRO</subject>
-        <courseNumber>875</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>CIVE</subject>
-        <courseNumber>475</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>CIVE</subject>
-        <courseNumber>875</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>CRPL</subject>
-        <courseNumber>475</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>CRPL</subject>
-        <courseNumber>875</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>GEOL</subject>
-        <courseNumber>475</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>GEOL</subject>
-        <courseNumber>875</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>MSYM</subject>
-        <courseNumber>475</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>MSYM</subject>
-        <courseNumber>875</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
         <subject>NRES</subject>
         <courseNumber>475</courseNumber>
       </courseCode>
-      <courseCode type="crosslisting">
+      <courseCode type="grad tie-in">
         <subject>NRES</subject>
         <courseNumber>875</courseNumber>
       </courseCode>
@@ -4444,8 +4531,8 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1088</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Senior standing or permission.</div>
     </prerequisite>
@@ -4668,7 +4755,7 @@
     <dfRemoval>false</dfRemoval>
     <effectiveSemester>1105</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">NRES 208 or METR 200 or METR/NRES 370.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">NRES 208 or METR 100 or METR/NRES 370.</div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">Offered fall semester of even-numbered calendar years.</div>
@@ -6133,7 +6220,7 @@
       <courseCode type="home listing">
         <subject>NRES</subject>
         <courseNumber>891</courseNumber>
-        <courseLetter>BI</courseLetter>
+        <courseLetter>B</courseLetter>
       </courseCode>
     </courseCodes>
     <gradingType>pass/no pass only</gradingType>
@@ -6551,6 +6638,52 @@
     </activities>
     <credits>
       <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Plant Biology Portfolio and Assessment</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>AGRO</subject>
+        <courseNumber>92</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>HORT</subject>
+        <courseNumber>92</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>NRES</subject>
+        <courseNumber>92</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>pass/no pass only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Junior standing in Plant Biology degree program.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Required for graduation.  Pass/No Pass only.  Offered every Fall during the first 5 weeks.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Development of an experiential portfolio and completion of an online survey as part of assessment activities.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">0</credit>
     </credits>
   </course>
   <course>

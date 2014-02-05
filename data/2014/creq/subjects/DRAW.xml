@@ -34,21 +34,21 @@
     </aceOutcomes>
   </course>
   <course>
-    <title>Intermediate Drawing</title>
+    <title>Drawing</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>DRAW</subject>
         <courseNumber>201</courseNumber>
       </courseCode>
     </courseCodes>
-    <gradingType>unrestricted</gradingType>
+    <gradingType>letter grade only</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1125</effectiveSemester>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ARTP/ARCH/IDES/JGEN/LARC/TMFD 140A and 140B, or ARTP/ARCH/IDES/JGEN/LARC/TMFD 141A and 141B.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Studio Art Major</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Intermediate work in drawing with emphasis on figure drawing.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Drawing with emphasis on perceptual and expressive techniques in a variety of materials</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -59,7 +59,43 @@
     <termsOffered>
       <term>Fall</term>
       <term>Spring</term>
-      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>stu</type>
+        <hours>6</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Life Drawing</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>DRAW</subject>
+        <courseNumber>202</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">DRAW 201.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Drawing the figure from observation with a focus on anatomy, accuracy and the use of the figure in art</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
     </termsOffered>
     <activities>
       <activity>
@@ -81,9 +117,9 @@
     </courseCodes>
     <gradingType>letter grade only</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1128</effectiveSemester>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">DRAW 201.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">DRAW 202.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Advanced work in drawing with emphasis on drawing the human figure.</div>

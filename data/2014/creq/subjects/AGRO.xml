@@ -1636,6 +1636,51 @@
     </credits>
   </course>
   <course>
+    <title>Scientific Writing and Communication</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>AGRO</subject>
+        <courseNumber>403</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>HORT</subject>
+        <courseNumber>403</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>AGRO</subject>
+        <courseNumber>803</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Senior standing or higher, an ACE 1 written communication course, an ACE 2 oral communication course, and permission of instructor.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Reading and critiquing, writing, and presenting scientific information. Use research data to compose a manuscript in standard scientific format, and prepare and present a poster to a general audience.  Ethical issues in research and writing.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+      <deliveryMethod>Web</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Field Crop Physiology</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -2922,7 +2967,7 @@
     <dfRemoval>false</dfRemoval>
     <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">METR 200 or NRES 370 or equivalent.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">METR 100 or NRES 370 or equivalent.</div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">Offered spring semester of even-numbered calendar years.</div>
@@ -3432,51 +3477,51 @@
   <course>
     <title>Water Quality Strategy</title>
     <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>AGRO</subject>
+        <courseNumber>475</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>AGRO</subject>
+        <courseNumber>875</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>CIVE</subject>
+        <courseNumber>475</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>CIVE</subject>
+        <courseNumber>875</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>CRPL</subject>
+        <courseNumber>475</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>CRPL</subject>
+        <courseNumber>875</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>GEOL</subject>
+        <courseNumber>475</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>GEOL</subject>
+        <courseNumber>875</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>MSYM</subject>
+        <courseNumber>475</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>MSYM</subject>
+        <courseNumber>875</courseNumber>
+      </courseCode>
       <courseCode type="home listing">
-        <subject>AGRO</subject>
-        <courseNumber>475</courseNumber>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>AGRO</subject>
-        <courseNumber>875</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>CIVE</subject>
-        <courseNumber>475</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>CIVE</subject>
-        <courseNumber>875</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>CRPL</subject>
-        <courseNumber>475</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>CRPL</subject>
-        <courseNumber>875</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>GEOL</subject>
-        <courseNumber>475</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>GEOL</subject>
-        <courseNumber>875</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>MSYM</subject>
-        <courseNumber>475</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>MSYM</subject>
-        <courseNumber>875</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
         <subject>NRES</subject>
         <courseNumber>475</courseNumber>
       </courseCode>
-      <courseCode type="crosslisting">
+      <courseCode type="grad tie-in">
         <subject>NRES</subject>
         <courseNumber>875</courseNumber>
       </courseCode>
@@ -3508,8 +3553,8 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1088</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Senior standing or permission.</div>
     </prerequisite>
@@ -4038,6 +4083,50 @@
       <credit type="Lower Range Limit">3</credit>
       <credit type="Upper Range Limit">6</credit>
       <credit type="Per Career Limit">6</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Ecology and Management of Plant Pathogens</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>PLPT</subject>
+        <courseNumber>802</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>AGRO</subject>
+        <courseNumber>802</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>HORT</subject>
+        <courseNumber>802</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">PLPT 369 or equivalent; an introduction to biochemistry course.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Principles of plant disease epidemiology and disease control through cultural, biological, chemical and host plant resistance strategies.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
     </credits>
   </course>
   <course>
@@ -5249,13 +5338,13 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">AGRO 315</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Discussions of genetic mechanisms and behavior, with emphasis on plants. Topics include allelism, nonallelic gene interactions, linkage and recombination, inheritance involving the cytoplasm, incompatibility, and mutation.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Focus student learning on principles related to mendelian, population, and molecular genetics of plants including allelisms, nonallelic gene interaction, linkage and recombination, mode of inheritance, mutation, epigenetics, DNA-based makers and mapping techniques, inheritance of qualitative and quantitative traits, and plant transformation.</div>
     </description>
     <campuses>
       <campus></campus>
@@ -5269,11 +5358,57 @@
     <activities>
       <activity>
         <type>lec</type>
-        <hours>2</hours>
+        <hours>3</hours>
       </activity>
     </activities>
     <credits>
-      <credit type="Single Value">2</credit>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Plant Biology Portfolio and Assessment</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>AGRO</subject>
+        <courseNumber>92</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>HORT</subject>
+        <courseNumber>92</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>NRES</subject>
+        <courseNumber>92</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>pass/no pass only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Junior standing in Plant Biology degree program.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Required for graduation.  Pass/No Pass only.  Offered every Fall during the first 5 weeks.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Development of an experiential portfolio and completion of an online survey as part of assessment activities.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">0</credit>
     </credits>
   </course>
   <course>
@@ -5618,6 +5753,105 @@
     </credits>
   </course>
   <course>
+    <title>Genetics of Host-Parasite Interaction</title>
+    <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>AGRO</subject>
+        <courseNumber>963</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>BIOS</subject>
+        <courseNumber>963</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>HORT</subject>
+        <courseNumber>963</courseNumber>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>PLPT</subject>
+        <courseNumber>963</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">BIOS 820; and permission.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">BIOC 837; BIOS 312; and PLPT 801 or 802 recommended. PLPT 963 is offered odd-numbered calendar years.</div>
+    </notes>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Plant Virology</title>
+    <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>BIOS</subject>
+        <courseNumber>965</courseNumber>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>PLPT</subject>
+        <courseNumber>965</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>AGRO</subject>
+        <courseNumber>965</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>HORT</subject>
+        <courseNumber>965</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">PLPT 801 or 802; and permission.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">PLPT 865 is offered odd-numbered calendar years.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Virus molecular biology; virosphere; virus-vector relationships; plant resistance to virus infection economic impact and control of plant diseases by viruses.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Soil Fertility</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -5655,6 +5889,51 @@
     </activities>
     <credits>
       <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Seminar in Plant Pathology</title>
+    <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>BIOS</subject>
+        <courseNumber>968</courseNumber>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>PLPT</subject>
+        <courseNumber>968</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>AGRO</subject>
+        <courseNumber>968</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>HORT</subject>
+        <courseNumber>968</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Permission.</div>
+    </prerequisite>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>1</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Per Semester Limit">1</credit>
     </credits>
   </course>
   <course>
@@ -5881,16 +6160,20 @@
         <subject>AGRO</subject>
         <courseNumber>999</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>HORT</subject>
+        <courseNumber>999</courseNumber>
+      </courseCode>
     </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <gradingType>pass/no pass only</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Admission to doctoral degree program and permission of supervisory committee chair</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Admission to doctoral degree program and permission of supervisory committee chair.</div>
     </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">P/N only.</div>
-    </description>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">AGRO 999 is pass/no pass only.</div>
+    </notes>
     <campuses>
       <campus></campus>
     </campuses>

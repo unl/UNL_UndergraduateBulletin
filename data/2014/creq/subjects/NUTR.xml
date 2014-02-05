@@ -446,7 +446,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1091</effectiveSemester>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">NUTR 100 or 250.</div>
     </prerequisite>
@@ -975,7 +975,7 @@
     </credits>
   </course>
   <course>
-    <title>Facts and Fiction in Fitness and Food</title>
+    <title>Health Information:  Science, Media, and the Consumer</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>NUTR</subject>
@@ -983,13 +983,13 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Senior standing and NUTR major.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">The application of educated judgement to accept or reject the claims made by persons who present themselves as &amp;quot;experts&amp;quot; in health and fitness. Exercise methods, exercise prescription, commonly used food and nutritional supplements, and fact versus fiction in lifetime weight control.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Critical evaluation, interpretation and communication of consumer health messages.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -1004,6 +1004,7 @@
     <activities>
       <activity>
         <type>lec</type>
+        <hours>3</hours>
       </activity>
     </activities>
     <credits>
@@ -1634,10 +1635,22 @@
         <subject>NUTR</subject>
         <courseNumber>871</courseNumber>
       </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>HORT</subject>
+        <courseNumber>871</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>HRTM</subject>
+        <courseNumber>471</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>HRTM</subject>
+        <courseNumber>871</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">6 hrs science or equivalent experience; 21 years of age or older.</div>
     </prerequisite>

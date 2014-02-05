@@ -410,7 +410,7 @@
       <div xmlns="http://www.w3.org/1999/xhtml">Junior standing; JOMC 162, 163, 164, 165; JOUR 202;</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">BRDC 369 is a news track course, and it is a prereq for both JOUR 302 and BRDC 372.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">BRDC 369 is a news track course, and it is a prereq for both JOUR 302 and BRDC 472.</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Produce a news story worthy of airing live during Star City News. Produced live newscast aired in Lincoln. What is news. How to make contact with news makers. How to perform interviews. How to write a news story with a beginning, a middle, and an end. How to shoot and edit the video that supports the story.</div>
@@ -451,7 +451,7 @@
       <div xmlns="http://www.w3.org/1999/xhtml">Junior standing; JOMC 162, 163, 164, 165; JOUR 202.</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">BRDC 370 is a news track course, and it is a prereq for BRDC 372.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">BRDC 370 is a news track course, and it is a prereq for BRDC 472.</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Clear and correct writing principles. Journalistic research techniques. Use of new tools and technologies to create broadcast news content for KRNU radio and other broadcast outlets.</div>
@@ -479,53 +479,6 @@
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
-  </course>
-  <course>
-    <title>Advanced Reporting for Broadcasting</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>BRDC</subject>
-        <courseNumber>372</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>letter grade only</gradingType>
-    <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1128</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">BRDC 369 and 370.</div>
-    </prerequisite>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">BRDC 372 is a news track course.</div>
-    </notes>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Advanced broadcast news writing, editing, and production.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>lab</type>
-      </activity>
-      <activity>
-        <type>lec</type>
-        <hours>3</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-    <aceOutcomes>
-      <slo>10</slo>
-    </aceOutcomes>
   </course>
   <course>
     <title>Sports Broadcasting</title>
@@ -1000,6 +953,58 @@
     </credits>
   </course>
   <course>
+    <title>Advanced Reporting</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>BRDC</subject>
+        <courseNumber>472</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>BRDC</subject>
+        <courseNumber>872</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">BRDC 369, BRDC 370, and JOUR 202.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">BRDC 472 is a capstone course in the news track.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Produce multiple live weekly newscasts with anchors (news, sports, entertainment, social media) to be distributed to a mass audience.  Advanced reporting skills, knowledge of graphics software and non-linear editing equipment.  Prepare demo materials for a professional portfolio.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lab</type>
+        <hours>10</hours>
+      </activity>
+      <activity>
+        <type>lec</type>
+        <hours>8</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">6</credit>
+    </credits>
+    <aceOutcomes>
+      <slo>10</slo>
+    </aceOutcomes>
+  </course>
+  <course>
     <title>Broadcast Documentary</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -1015,7 +1020,7 @@
     <dfRemoval>false</dfRemoval>
     <effectiveSemester>1108</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Senior standing in broadcasting; BRDC 372.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Senior standing in broadcasting; BRDC 472.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Depth reporting and advanced production techniques necessary for the preparation of a broadcast documentary program.</div>
@@ -1080,10 +1085,14 @@
         <subject>BRDC</subject>
         <courseNumber>491</courseNumber>
       </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>BRDC</subject>
+        <courseNumber>891</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1138</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">12 hours max special topics hours at all levels (100, 200, 300, 400) per degree. BRDC 491 may be repeated up to three times so long as the topics are different.</div>
     </notes>

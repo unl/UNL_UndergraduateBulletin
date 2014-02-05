@@ -423,6 +423,43 @@
     </aceOutcomes>
   </course>
   <course>
+    <title>Fundamental Methods of Design Process</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>LARC</subject>
+        <courseNumber>210</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Admission into the Professional Program</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduces the process and methods by which landscape architects read, understand and interact with the landscape.  Group investigation of a landscape territory with a focus on understanding ecological and human systems.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>stu</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">4</credit>
+    </credits>
+  </course>
+  <course>
     <title>Studio II: Site Design</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -648,6 +685,51 @@
     </credits>
   </course>
   <course>
+    <title>Site Systems II: Site Engineering</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>LARC</subject>
+        <courseNumber>231</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">LARC 230.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">LARC 231 is 'Letter Grade Only.'</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Investigation and application of landscape architectural design analysis, process and technology to aesthetic/functional landform manipulation, earthwork estimation, and stormwater management.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lab</type>
+        <hours>2</hours>
+      </activity>
+      <activity>
+        <type>lec</type>
+        <hours>2</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>History of Landscape Architecture</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -678,50 +760,6 @@
     <activities/>
     <credits>
       <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Introduction to Landscape Design</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>HORT</subject>
-        <courseNumber>266</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>LARC</subject>
-        <courseNumber>266</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1138</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">HORT 265; HORT/LARC/NRES 212 or equivalent.</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Landscape design, analysis, and process for design of the landscape site. Problems in examining residential sites; basic uses of plants, land form, and other landscape materials and concepts; and introduction to the concepts of sustainable design.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Spring</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>lec</type>
-        <hours>1</hours>
-      </activity>
-      <activity>
-        <type>rct</type>
-        <hours>2</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">2</credit>
     </credits>
   </course>
   <course>
@@ -804,51 +842,6 @@
     </credits>
   </course>
   <course>
-    <title>Site Systems II: Grading and Stormwater Management</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>LARC</subject>
-        <courseNumber>330</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>letter grade only</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1111</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">LARC 230; Concurrent registration in LARC 310.</div>
-    </prerequisite>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">LARC 330 is 'Letter Grade Only.'</div>
-    </notes>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Investigation and application of landscape architectural design analysis, process and technology to aesthetic/functional landform manipulation, earthwork estimation, and stormwater management.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>lab</type>
-        <hours>2</hours>
-      </activity>
-      <activity>
-        <type>lec</type>
-        <hours>2</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
     <title>Site Systems III: Layout, Utilities and Construction Documentation</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -860,7 +853,7 @@
     <dfRemoval>false</dfRemoval>
     <effectiveSemester>1111</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">LARC 330.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">LARC 231.</div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">LARC 331 is 'Letter Grade Only.'</div>
@@ -1241,19 +1234,27 @@
         <subject>ARCH</subject>
         <courseNumber>461</courseNumber>
       </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>ARCH</subject>
+        <courseNumber>861</courseNumber>
+      </courseCode>
       <courseCode type="crosslisting">
         <subject>LARC</subject>
         <courseNumber>461</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>ARCH</subject>
+        <courseNumber>561</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>letter grade only</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1131</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">For ARCH 461: ARCH 410 and 430; parallel ARCH 411. Prereq for LARC 461: LARC/NRES 487 and LARC 410; parallel LARC 411.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">For ARCH 461: ARCH 410 and 430. Prereq for LARC 461: LARC/NRES 487 and LARC 410; parallel LARC 411. For ARCH 561/861: Admission to a professional program in the College of Architecture or permission.</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">ARCH/LARC 461 is "Letter grade only'.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">ARCH/LARC 461/561/861 is "Letter grade only'.</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Issues of contemporary urbanism and the processes of urban design. Experiential nature of cities, role of public policy, ideology, genesis and development of urban form and space.</div>

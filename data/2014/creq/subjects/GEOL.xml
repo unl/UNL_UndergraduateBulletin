@@ -221,7 +221,7 @@
     </credits>
   </course>
   <course>
-    <title>Life of the Past</title>
+    <title>Dinosaurs and the History of Life</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>GEOL</subject>
@@ -229,13 +229,13 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Credit toward the degree may be earned in only one of GEOL 103 or GEOL 105. GEOL 105 is not open to geology majors</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Lecture examinations and self-paced laboratory assignments using the exhibits in the Nebraska State Museum of Natural History at Morrill Hall.</div>
     </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Survey of the evolution of plants and animals in relation to the geological changes in lands and seas. Records of fossil man, higher mammals, dinosaurs, and invertebrates.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to the history of life based on the fossil record, using dinosaurs as models for understanding evolutionary patterns and processes.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -250,13 +250,20 @@
     </termsOffered>
     <activities>
       <activity>
+        <type>lab</type>
+        <hours>1</hours>
+      </activity>
+      <activity>
         <type>lec</type>
         <hours>3</hours>
       </activity>
     </activities>
     <credits>
-      <credit type="Single Value">3</credit>
+      <credit type="Single Value">4</credit>
     </credits>
+    <aceOutcomes>
+      <slo>4</slo>
+    </aceOutcomes>
   </course>
   <course>
     <title>Environmental Geology</title>
@@ -759,7 +766,7 @@
     <dfRemoval>false</dfRemoval>
     <effectiveSemester>1111</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">GEOL 101, or GEOL 106, or METR 200, and concurrent Math 106, or instructor permission.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">GEOL 101, or GEOL 106, or METR 100, and concurrent Math 106, or instructor permission.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Quantitative understanding of water-related processes in the earth sciences.</div>
@@ -2400,7 +2407,7 @@
     <dfRemoval>false</dfRemoval>
     <effectiveSemester>1078</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">MATH 106 and 107; PHYS 141; and one of the following: GEOL 101 or 106 or METR 200.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">MATH 106 and 107; PHYS 141; and one of the following: GEOL 101 or 106 or METR 100.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Quantitative approach to water in geological media, earth surface and atmosphere. Understanding and analysis of physical processes involved in groundwater-surface-atmosphere interactions.</div>
@@ -2422,51 +2429,51 @@
   <course>
     <title>Water Quality Strategy</title>
     <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>AGRO</subject>
+        <courseNumber>475</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>AGRO</subject>
+        <courseNumber>875</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>CIVE</subject>
+        <courseNumber>475</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>CIVE</subject>
+        <courseNumber>875</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>CRPL</subject>
+        <courseNumber>475</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>CRPL</subject>
+        <courseNumber>875</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>GEOL</subject>
+        <courseNumber>475</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>GEOL</subject>
+        <courseNumber>875</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>MSYM</subject>
+        <courseNumber>475</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>MSYM</subject>
+        <courseNumber>875</courseNumber>
+      </courseCode>
       <courseCode type="home listing">
-        <subject>AGRO</subject>
-        <courseNumber>475</courseNumber>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>AGRO</subject>
-        <courseNumber>875</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>CIVE</subject>
-        <courseNumber>475</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>CIVE</subject>
-        <courseNumber>875</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>CRPL</subject>
-        <courseNumber>475</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>CRPL</subject>
-        <courseNumber>875</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>GEOL</subject>
-        <courseNumber>475</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>GEOL</subject>
-        <courseNumber>875</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>MSYM</subject>
-        <courseNumber>475</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>MSYM</subject>
-        <courseNumber>875</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
         <subject>NRES</subject>
         <courseNumber>475</courseNumber>
       </courseCode>
-      <courseCode type="crosslisting">
+      <courseCode type="grad tie-in">
         <subject>NRES</subject>
         <courseNumber>875</courseNumber>
       </courseCode>
@@ -2498,8 +2505,8 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1088</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Senior standing or permission.</div>
     </prerequisite>
@@ -3226,6 +3233,48 @@
     <credits>
       <credit type="Lower Range Limit">1</credit>
       <credit type="Upper Range Limit">2</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Sedimentary Petrography and Diagenesis</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>GEOL</subject>
+        <courseNumber>921</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Lab fee $35.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Study of sedimentary rocks under the microscope, including origin, composition, texture, and diagenesis.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lab</type>
+        <hours>2</hours>
+      </activity>
+      <activity>
+        <type>lec</type>
+        <hours>2</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
     </credits>
   </course>
   <course>

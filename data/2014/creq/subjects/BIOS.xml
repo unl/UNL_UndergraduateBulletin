@@ -10,12 +10,12 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1128</effectiveSemester>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">High school chemistry or equivalent strongly recommended.</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Parallel BIOS 101L. BIOS 101 provides the foundation for tomorrow’s citizens to critically think about and evaluate issues in biology. Not intended for most Life Sciences majors; such students should take BIOS 102 and BIOS 103 instead. This course does not count towards the biology major.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Parallel BIOS 101L. BIOS 101 provides the foundation for tomorrow’s citizens to critically think about and evaluate issues in biology. Not intended for most Life Sciences majors; such students should take LIFE 120-LIFE 120L and LIFE 121-LIFE 121L instead. This course does not count towards the biology major.</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Analysis of the structure, functions, and interactions of organisms from the molecular to the ecosystem levels.</div>
@@ -931,9 +931,9 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1138</effectiveSemester>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">LIFE 120 &amp;amp; LIFE 120L.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">LIFE 121 and LIFE 121L.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Provides a broad overview of bioinformatics. Shows how bioinformatics can help solving problems in biological research. Covered topics: biological databases, molecular biology tools, sequence comparison methods, phylogenetic inference, and molecular graphics.</div>
@@ -1559,20 +1559,10 @@
         <subject>PSYC</subject>
         <courseNumber>373</courseNumber>
       </courseCode>
-      <courseCode type="crosslisting">
-        <subject>PSYC</subject>
-        <courseNumber>373</courseNumber>
-        <courseLetter>X</courseLetter>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>BIOS</subject>
-        <courseNumber>373</courseNumber>
-        <courseLetter>X</courseLetter>
-      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1108</effectiveSemester>
+    <effectiveSemester>1141</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">PSYC 181 and BIOS 101/101L or their equivalents.</div>
     </prerequisite>
@@ -1598,48 +1588,6 @@
     <aceOutcomes>
       <slo>4</slo>
     </aceOutcomes>
-  </course>
-  <course>
-    <title>Economic Botany</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>BIOS</subject>
-        <courseNumber>374</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">12 hrs BIOS, including BIOS 103 or 109.</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Major groups of economically important plants including food crops, wood, medicinal plants and ornamentals. Evolution, cultivation, processing and uses of the plant.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>lab</type>
-        <hours>3</hours>
-      </activity>
-      <activity>
-        <type>lec</type>
-        <hours>3</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">4</credit>
-    </credits>
   </course>
   <course>
     <title>Invertebrate Zoology</title>
@@ -2231,49 +2179,6 @@
     </aceOutcomes>
   </course>
   <course>
-    <title>Honors: Human Genetics</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>BIOS</subject>
-        <courseNumber>412</courseNumber>
-        <courseLetter>H</courseLetter>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1138</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Good standing in the University Honors Program or by invitation; BIOS 206.</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Genetic basis of human variation, with emphasis on methods of applying genetic principles to humankind. Genetic ratios in pooled data; population and quantitative genetics; consanguinity; polygenic inheritance; blood types; sex linkage; linkage and crossing over; sex determination; visible chromosome variation; mutation; heredity and environment; eugenics; anthropological genetics; molecular genetics and molecular basis of disease; human genome project.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>lec</type>
-        <hours>2</hours>
-      </activity>
-      <activity>
-        <type>rct</type>
-        <hours>1</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
     <title>Developmental Biology</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -2377,9 +2282,9 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1128</effectiveSemester>
+    <effectiveSemester>1141</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">12 hrs psychology or 12 hrs biological sciences, including PSYC 373 or BIOS 373.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">PSYC 373 or BIOS 373.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Relationship of physiological variables to behavior, an introduction to laboratory techniques in neuropsychology.</div>
@@ -2420,10 +2325,14 @@
         <subject>VBMS</subject>
         <courseNumber>820</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>MBIO</subject>
+        <courseNumber>420</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1138</effectiveSemester>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">BIOS 206.</div>
     </prerequisite>
@@ -2540,44 +2449,6 @@
     </activities>
     <credits>
       <credit type="Single Value">1</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Advanced Animal Physiology</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>BIOS</subject>
-        <courseNumber>423</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">BIOS 213 or equivalent and one semester organic chemistry.</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Examination of the more detailed mechanisms operating in selected physiology systems of man and other animals with emphasis on the neural, cardiovascular, renal, and endocrine systems.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>lec</type>
-        <hours>3</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">3</credit>
     </credits>
   </course>
   <course>
@@ -2784,9 +2655,9 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1138</effectiveSemester>
+    <effectiveSemester>1141</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CHEM 252 or 262. LIFE 120 recommended.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">CHEM 252 or CHEM 262 with a grade of C or better. LIFE 120 recommended.</div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">First course of a two-semester, comprehensive biochemistry course sequence.</div>
@@ -2840,12 +2711,15 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1111</effectiveSemester>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">BIOC 431/831.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">BIOC 431/831 with a grade of C or better.</div>
     </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Continuation of BIOC 431/831.</div>
+    </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Continuation of BIOC 431/831. Structural and biochemical aspects of DNA replication and gene expression, and biotechnology.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Structural and biochemical aspects of DNA replication and gene expression, and biotechnology.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -3162,10 +3036,14 @@
         <subject>VBMS</subject>
         <courseNumber>840</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>MBIO</subject>
+        <courseNumber>440</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1111</effectiveSemester>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">BIOS 312 and either 313 or 314, or permission.</div>
     </prerequisite>
@@ -3308,10 +3186,14 @@
         <subject>VBMS</subject>
         <courseNumber>843</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>MBIO</subject>
+        <courseNumber>443</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1138</effectiveSemester>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">BIOS 206 and one semester organic chemistry.</div>
     </prerequisite>
@@ -3718,10 +3600,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1121</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1141</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">BIOS 102, 103, and either BIOS 207 or BIOS 220, or equivalent courses.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">LIFE 120 and LIFE 120L; LIFE 121 and LIFE 121L; either BIOS 207 or BIOS 220.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Nature and characteristics of populations and communities. Interactions within and between populations in community structure and dynamics. Direct and indirect interactions and ecological processes, competition, predation, parasitism, herbivory, and pollination. Structure, functioning and persistence of natural communities, foodweb dynamics, succession, and biodiversity.</div>
@@ -3983,7 +3865,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">12 hrs BIOS, including BIOS/NRES 220/BIOS220x; two semesters CHEM.</div>
     </prerequisite>
@@ -4015,6 +3897,9 @@
     <credits>
       <credit type="Single Value">4</credit>
     </credits>
+    <aceOutcomes>
+      <slo>10</slo>
+    </aceOutcomes>
   </course>
   <course>
     <title>Marine Ecology and Paleoecology</title>
@@ -4228,7 +4113,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">12 hrs biological sciences or permission.</div>
     </prerequisite>
@@ -4251,6 +4136,9 @@
     <credits>
       <credit type="Single Value">4</credit>
     </credits>
+    <aceOutcomes>
+      <slo>10</slo>
+    </aceOutcomes>
   </course>
   <course>
     <title>Prairie Ecology</title>
@@ -4293,7 +4181,7 @@
     </credits>
   </course>
   <course>
-    <title>Plant Taxonomy</title>
+    <title>Plant Systematics</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>BIOS</subject>
@@ -4305,13 +4193,13 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">12 hrs biological sciences.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">LIFE 121 and LIFE 121L.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Principles of plant classification, with emphasis on taxonomic procedures, nomenclatural rules, and plant identification. Lab work on taxonomic analysis and plant identification.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Overview of the diversity of plants and algae, with emphasis on phylogenetic relationships, the evolution of important physical and genomic characteristics, principles of plant classification and identification, and modern methods of plant molecular systematics. Lab work on taxonomic analysis and plant identification.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -4324,7 +4212,16 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lab</type>
+        <hours>3</hours>
+      </activity>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">4</credit>
     </credits>
@@ -4642,51 +4539,6 @@
       <activity>
         <type>lec</type>
         <hours>3</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">4</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Helminthology</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>BIOS</subject>
-        <courseNumber>481</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">12 hrs biological sciences including BIOS 385 and permission.</div>
-    </prerequisite>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">May also be offered at Cedar Point Biological Station.</div>
-    </notes>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Classification, morphology, biology of helminth parasites, chiefly of animals other than man. Includes collection, preparation of specimens, and technique.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>lab</type>
-        <hours>6</hours>
-      </activity>
-      <activity>
-        <type>lec</type>
-        <hours>2</hours>
       </activity>
     </activities>
     <credits>
@@ -5202,8 +5054,8 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Micro- and macroevolutionary patterns and processes. Population genetics, evolutionary ecology, speciation, phylogenetic systematics, and biogeographic patterns of extant and extinct taxa.</div>
     </description>
@@ -5216,11 +5068,11 @@
     <activities>
       <activity>
         <type>lec</type>
-        <hours>2</hours>
+        <hours>3</hours>
       </activity>
     </activities>
     <credits>
-      <credit type="Single Value">2</credit>
+      <credit type="Single Value">3</credit>
     </credits>
   </course>
   <course>
@@ -5232,8 +5084,8 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Introduction to the ecology and evolution of animal behavior.</div>
     </description>
@@ -5246,11 +5098,11 @@
     <activities>
       <activity>
         <type>lec</type>
-        <hours>2</hours>
+        <hours>3</hours>
       </activity>
     </activities>
     <credits>
-      <credit type="Single Value">2</credit>
+      <credit type="Single Value">3</credit>
     </credits>
   </course>
   <course>
@@ -5262,8 +5114,8 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Ecological principles at the populations, community, and ecosystem levels. Population growth, meta-population dynamics, competitive and predatory interactions, temporal and spatial variation in community food webs, tropic cascades, patterns and mechanisms underlying species diversity, ecosystem processes, nutrient cycling, and global change.</div>
     </description>
@@ -5276,11 +5128,11 @@
     <activities>
       <activity>
         <type>lec</type>
-        <hours>2</hours>
+        <hours>3</hours>
       </activity>
     </activities>
     <credits>
-      <credit type="Single Value">2</credit>
+      <credit type="Single Value">3</credit>
     </credits>
   </course>
   <course>
@@ -5520,41 +5372,6 @@
     </credits>
   </course>
   <course>
-    <title>Computer-Aided Sequence Analysis Primer</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>BIOS</subject>
-        <courseNumber>816</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>VBMS</subject>
-        <courseNumber>818</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">BIOC 831 or BIOS 801 or 820</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Introductory course in biological sequence display, analysis and manipulation with computers. Applied rather than theoretical aspects of different programs are emphasized providing skills to satisfy the analysis demands of molecular biology research. Students completing this course will be able to search, display and analyze the biological information content of macromolecules.</div>
-    </description>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-    </termsOffered>
-    <activities/>
-    <credits>
-      <credit type="Single Value">2</credit>
-    </credits>
-  </course>
-  <course>
     <title>Plant-Water Relations</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -5592,78 +5409,6 @@
       <activity>
         <type>lec</type>
         <hours>3</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Advanced Animal Physiology</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>BIOS</subject>
-        <courseNumber>823</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">BIOS 213 or equivalent and one semester organic chemistry</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">More detailed mechanisms operating in selected physiology systems of man and other animals. Neural, cardiovascular, renal, and endocrine systems. Additional areas examined if time permits.</div>
-    </description>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <activities>
-      <activity>
-        <type>lec</type>
-        <hours>3</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Animal Biochemistry</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>BIOS</subject>
-        <courseNumber>835</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>VBMS</subject>
-        <courseNumber>835</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">BIOC 831 or permission</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Biochemistry of animal cells and tissues, with integration of major metabolic pathways and aspects of their control mechanism.</div>
-    </description>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Spring</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>lec</type>
       </activity>
     </activities>
     <credits>
@@ -5794,270 +5539,6 @@
     </credits>
   </course>
   <course>
-    <title>Principles of Plant Pathology I</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>BIOS</subject>
-        <courseNumber>864</courseNumber>
-        <courseLetter>A</courseLetter>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">PLPT 369 or equivalent; an introduction to biochemistry course</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Epidemiology and disease control through cultural, biological, chemical and host plant resistance strategies.</div>
-    </description>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <activities>
-      <activity>
-        <type>lec</type>
-        <hours>2</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Principles of Plant Pathology II</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>BIOS</subject>
-        <courseNumber>864</courseNumber>
-        <courseLetter>B</courseLetter>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">PLPT 369 or equivalent; an introduction to biochemistry course</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Molecular and cellular approach to the study of plant pathological principles.</div>
-    </description>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Spring</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>lec</type>
-        <hours>2</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Insect Transmission of Plant Diseases</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>BIOS</subject>
-        <courseNumber>865</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>ENTO</subject>
-        <courseNumber>865</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">8 hrs biological sciences including BIOS 864 preceding or parallel and 6 hrs entomology or biological sciences (zoology)</div>
-    </prerequisite>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">ENTO *865 is offered even-numbered calendar years.</div>
-    </notes>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Relationships between plant diseases and their vectors with emphasis on virus diseases and transmission by aphids.</div>
-    </description>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Spring</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>lec</type>
-        <hours>2</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">2</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Phytopathogenic Nemotodes</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>BIOS</subject>
-        <courseNumber>866</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">BIOS 864A or *864B, or permission</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Offered odd-numbered calendar years. Lecture and laboratory course concerning principles of nematode-induced disease of plants.</div>
-    </description>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>lab</type>
-        <hours>3</hours>
-      </activity>
-      <activity>
-        <type>lec</type>
-        <hours>2</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Plant Pathogenic Bacteria</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>BIOS</subject>
-        <courseNumber>867</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">BIOS 312, 864A or *864B, and CHEM 832 or 836 or permission</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Offered even-numbered calendar years. Principles and methods of identification, chemistry and function of cell constituents, role and characterization of antibacterial agents, spread and survival mechanisms of pathogenicity, host-parasite relations and control measures.</div>
-    </description>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>lec</type>
-        <hours>2</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">2</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Plant Pathogenic Bacteria Lab</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>BIOS</subject>
-        <courseNumber>867</courseNumber>
-        <courseLetter>L</courseLetter>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Parallel registration in BIOS *867</div>
-    </prerequisite>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>lab</type>
-        <hours>3</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">1</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Phytopathogenic Fungi</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>BIOS</subject>
-        <courseNumber>869</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">BIOS 312, 805, 864A or *864B; or equivalent and permission</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Offered even-numbered calendar years. Ecology and taxonomy of plant pathogenic and plant associated fungi with emphasis on environment influences and on microbial interactions leading to biological control.</div>
-    </description>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Spring</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>lab</type>
-        <hours>2</hours>
-      </activity>
-      <activity>
-        <type>lec</type>
-        <hours>1</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
     <title>Plant Growth and Development</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -6088,43 +5569,6 @@
     </activities>
     <credits>
       <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Helminthology</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>BIOS</subject>
-        <courseNumber>881</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">12 hrs biological sciences including BIOS 385 and permission</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Classification, morphology, biology of helminth parasites, chiefly of animals other than humans. Includes collection, preparation of specimens, and technique.</div>
-    </description>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <activities>
-      <activity>
-        <type>lab</type>
-        <hours>6</hours>
-      </activity>
-      <activity>
-        <type>lec</type>
-        <hours>2</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">4</credit>
     </credits>
   </course>
   <course>
@@ -6496,34 +5940,6 @@
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Diversity of microbial structures, shape, movement, metabolism, symbioses, and adaptations to extreme environments using both bacterial and fungal examples. A physiological approach used throughout.</div>
-    </description>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <activities/>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Physiology of Anaerobic Microorganisms</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>BIOS</subject>
-        <courseNumber>941</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">BIOS 312 and 831 or permission</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">BIOS 840 recommended. Methods of energy transduction, growth, and metabolism of anaerobic microorganisms from a variety of habitats. Microbes considered range from methane producers to photosynthetic bacteria. Molecular and phylogenetic analyses as well as interactions among microorganisms in anaerobic environments.</div>
     </description>
     <campuses>
       <campus></campus>
@@ -6997,6 +6413,54 @@
     </credits>
   </course>
   <course>
+    <title>Genetics of Host-Parasite Interaction</title>
+    <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>AGRO</subject>
+        <courseNumber>963</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>BIOS</subject>
+        <courseNumber>963</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>HORT</subject>
+        <courseNumber>963</courseNumber>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>PLPT</subject>
+        <courseNumber>963</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">BIOS 820; and permission.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">BIOC 837; BIOS 312; and PLPT 801 or 802 recommended. PLPT 963 is offered odd-numbered calendar years.</div>
+    </notes>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Signal Transduction</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -7065,6 +6529,57 @@
     </credits>
   </course>
   <course>
+    <title>Plant Virology</title>
+    <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>BIOS</subject>
+        <courseNumber>965</courseNumber>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>PLPT</subject>
+        <courseNumber>965</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>AGRO</subject>
+        <courseNumber>965</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>HORT</subject>
+        <courseNumber>965</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">PLPT 801 or 802; and permission.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">PLPT 865 is offered odd-numbered calendar years.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Virus molecular biology; virosphere; virus-vector relationships; plant resistance to virus infection economic impact and control of plant diseases by viruses.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Advanced Viral Pathogenesis</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -7119,6 +6634,51 @@
     <activities/>
     <credits>
       <credit type="Single Value">1</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Seminar in Plant Pathology</title>
+    <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>BIOS</subject>
+        <courseNumber>968</courseNumber>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>PLPT</subject>
+        <courseNumber>968</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>AGRO</subject>
+        <courseNumber>968</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>HORT</subject>
+        <courseNumber>968</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Permission.</div>
+    </prerequisite>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>1</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Per Semester Limit">1</credit>
     </credits>
   </course>
   <course>

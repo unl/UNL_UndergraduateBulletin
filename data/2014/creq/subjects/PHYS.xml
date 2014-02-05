@@ -104,7 +104,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1111</effectiveSemester>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Good standing in the University Honors program or by invitation; MATH 102 or equivalent.</div>
     </prerequisite>
@@ -209,7 +209,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1091</effectiveSemester>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Good standing in the University Honors program or by invitation; PHYS 141 or 141H.</div>
     </prerequisite>
@@ -773,6 +773,45 @@
     <credits>
       <credit type="Single Value">1</credit>
     </credits>
+  </course>
+  <course>
+    <title>Elections, Political Parties, and Special Interests</title>
+    <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>PHYS</subject>
+        <courseNumber>230</courseNumber>
+        <courseLetter>X</courseLetter>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>POLS</subject>
+        <courseNumber>230</courseNumber>
+        <courseGroup>American Government, Politics and Law</courseGroup>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1091</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Roles of political parties and interest groups in government and politics, focusing on their efforts of elections and lobbying.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+    <aceOutcomes>
+      <slo>6</slo>
+    </aceOutcomes>
   </course>
   <course>
     <title>Electrical and Electronic Circuits</title>

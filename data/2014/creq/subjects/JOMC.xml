@@ -83,7 +83,7 @@
     </courseCodes>
     <gradingType>letter grade only</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1138</effectiveSemester>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Admitted to the College of Journalism and Mass Communications.</div>
     </prerequisite>
@@ -108,7 +108,7 @@
       </activity>
     </activities>
     <credits>
-      <credit type="Per Semester Limit">3</credit>
+      <credit type="Single Value">3</credit>
     </credits>
     <aceOutcomes>
       <slo>2</slo>
@@ -124,7 +124,7 @@
     </courseCodes>
     <gradingType>letter grade only</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1138</effectiveSemester>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Admitted to the College of Journalism and Mass Communications.</div>
     </prerequisite>
@@ -148,6 +148,9 @@
         <hours>3</hours>
       </activity>
     </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
     <aceOutcomes>
       <slo>2</slo>
     </aceOutcomes>
@@ -796,10 +799,14 @@
         <subject>JOMC</subject>
         <courseNumber>491</courseNumber>
       </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>JOMC</subject>
+        <courseNumber>891</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1138</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">12 hours max special topics hours at all levels (100, 200, 300, 400) per degree. May be repeated up to three times so long as the topics are different.</div>
     </notes>

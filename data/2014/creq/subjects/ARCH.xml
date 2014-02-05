@@ -540,6 +540,125 @@
     </credits>
   </course>
   <course>
+    <title>BIM for Design - Introduction to BIM</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ARCH</subject>
+        <courseNumber>222</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Admission to the Architecture Program.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">This course is a mini course, not a semester-long course.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to Building Information Modeling (BIM) and its application for design. An overview of the capabilities of BIM  for 3D modeling, information tracking, documentation, and collaboration.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lab</type>
+        <hours>3</hours>
+      </activity>
+      <activity>
+        <type>lec</type>
+        <hours>1</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">1</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Structural Fundamentals</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ARCH</subject>
+        <courseNumber>231</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Admission to a professional program in the College of Architecture or permission.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to the concept of structure as integral and essential to architectural design.  Exposure to basic physical principles and structural systems.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Materials and Assemblies</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ARCH</subject>
+        <courseNumber>232</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Admission to a professional program in the College of Architecture or permission.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to materials and assemblies with an emphasis on design implications and contemporary practices.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Architecture History and Theory I</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -549,10 +668,7 @@
     </courseCodes>
     <gradingType>letter grade only</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1088</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Sophomore standing and permission.</div>
-    </prerequisite>
+    <effectiveSemester>1148</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Survey of the development of architecture from prehistory to the mid-eighteenth century.</div>
     </description>
@@ -590,11 +706,8 @@
       </courseCode>
     </courseCodes>
     <gradingType>letter grade only</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1091</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Sophomore standing and permission.</div>
-    </prerequisite>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Survery of the history and theory of architecture from the mid-eighteenth century to the present day.</div>
     </description>
@@ -609,13 +722,54 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
     <aceOutcomes>
       <slo>7</slo>
     </aceOutcomes>
+  </course>
+  <course>
+    <title>Building Organization</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ARCH</subject>
+        <courseNumber>262</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Admission to a professional program in the College of Architecture, or DSGN 110 and ARCH 241.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to spatial organizations as related to architectural programming and the design process. Exposure to common types of organizational configurations, the forces that shape them, and their consequential affects.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
   </course>
   <course>
     <title>Fundamentals of Architectural Design</title>
@@ -2075,19 +2229,27 @@
         <subject>ARCH</subject>
         <courseNumber>461</courseNumber>
       </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>ARCH</subject>
+        <courseNumber>861</courseNumber>
+      </courseCode>
       <courseCode type="crosslisting">
         <subject>LARC</subject>
         <courseNumber>461</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>ARCH</subject>
+        <courseNumber>561</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>letter grade only</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1131</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">For ARCH 461: ARCH 410 and 430; parallel ARCH 411. Prereq for LARC 461: LARC/NRES 487 and LARC 410; parallel LARC 411.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">For ARCH 461: ARCH 410 and 430. Prereq for LARC 461: LARC/NRES 487 and LARC 410; parallel LARC 411. For ARCH 561/861: Admission to a professional program in the College of Architecture or permission.</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">ARCH/LARC 461 is "Letter grade only'.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">ARCH/LARC 461/561/861 is "Letter grade only'.</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Issues of contemporary urbanism and the processes of urban design. Experiential nature of cities, role of public policy, ideology, genesis and development of urban form and space.</div>
@@ -2752,7 +2914,7 @@
       </activity>
       <activity>
         <type>lec</type>
-        <hours>1.5</hours>
+        <hours>2</hours>
       </activity>
     </activities>
     <credits>
@@ -3079,38 +3241,6 @@
         <hours>3</hours>
       </activity>
     </activities>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Studies in Environmental Design</title>
-    <courseCodes>
-      <courseCode type="crosslisting">
-        <subject>ARCH</subject>
-        <courseNumber>861</courseNumber>
-      </courseCode>
-      <courseCode type="home listing">
-        <subject>ARCH</subject>
-        <courseNumber>561</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ARCH 560/*860</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Comparative case studies in environmental development in the fields of landscape architecture, regional planning, conservation, and related areas with emphasis on program techniques. Development of individual or group project programs of contemporary environmental development of large-scale sites, including movement systems, siting of structures, growth phasing, and aesthetic controls.</div>
-    </description>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <activities/>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>

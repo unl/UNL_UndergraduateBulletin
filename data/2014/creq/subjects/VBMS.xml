@@ -238,6 +238,51 @@
     </credits>
   </course>
   <course>
+    <title>Neurobiology: Cells to Senses</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>VBMS</subject>
+        <courseNumber>417</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Two semesters each of Biology and Chemistry recommended. Permission of the instructor required.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Neurobiology, by its very nature, integrates the studies of biology, chemistry, physics, biochemistry, physiology, and anatomy. Introduction to cellular and systems neurobiology, culminating in individual projects focusing on the effects of neuropathological disorders or diseases.  Active participation in classroom discussion expected.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+      <deliveryMethod>Web</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>4</hours>
+      </activity>
+      <activity>
+        <type>rct</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">4</credit>
+    </credits>
+    <aceOutcomes>
+      <slo>10</slo>
+    </aceOutcomes>
+  </course>
+  <course>
     <title>Basic Molecular Infectious Diseases</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -534,41 +579,6 @@
     </credits>
   </course>
   <course>
-    <title>Computer-Aided Sequence Analysis Primer</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>BIOS</subject>
-        <courseNumber>816</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>VBMS</subject>
-        <courseNumber>818</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">BIOC 831 or BIOS 801 or 820</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Introductory course in biological sequence display, analysis and manipulation with computers. Applied rather than theoretical aspects of different programs are emphasized providing skills to satisfy the analysis demands of molecular biology research. Students completing this course will be able to search, display and analyze the biological information content of macromolecules.</div>
-    </description>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-    </termsOffered>
-    <activities/>
-    <credits>
-      <credit type="Single Value">2</credit>
-    </credits>
-  </course>
-  <course>
     <title>Molecular Genetics</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -583,10 +593,14 @@
         <subject>VBMS</subject>
         <courseNumber>820</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>MBIO</subject>
+        <courseNumber>420</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1138</effectiveSemester>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">BIOS 206.</div>
     </prerequisite>
@@ -660,45 +674,6 @@
     </credits>
   </course>
   <course>
-    <title>Animal Biochemistry</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>BIOS</subject>
-        <courseNumber>835</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>VBMS</subject>
-        <courseNumber>835</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">BIOC 831 or permission</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Biochemistry of animal cells and tissues, with integration of major metabolic pathways and aspects of their control mechanism.</div>
-    </description>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Spring</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>lec</type>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
     <title>Microbial Physiology</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -713,10 +688,14 @@
         <subject>VBMS</subject>
         <courseNumber>840</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>MBIO</subject>
+        <courseNumber>440</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1111</effectiveSemester>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">BIOS 312 and either 313 or 314, or permission.</div>
     </prerequisite>
@@ -811,10 +790,14 @@
         <subject>VBMS</subject>
         <courseNumber>843</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>MBIO</subject>
+        <courseNumber>443</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1138</effectiveSemester>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">BIOS 206 and one semester organic chemistry.</div>
     </prerequisite>

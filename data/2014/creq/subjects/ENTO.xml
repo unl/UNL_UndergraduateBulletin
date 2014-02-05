@@ -509,12 +509,12 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1141</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CHEM 251; 12 hrs entomology or biological sciences (zoology).</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">CHEM 251 or CHEM 255;12 hrs entomology or biological sciences (zoology).</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Offered fall semester of odd-numbered calendar years</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Offered spring semester of even-numbered calendar years.</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Functions and other phenomena associated with the major organ systems of insects; the cuticle, nervous, circulatory, digestive, metabolism, nutrition, locomotion, reproduction, respiration, and growth and development.</div>
@@ -526,18 +526,15 @@
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
     <termsOffered>
-      <term>Fall</term>
+      <term>Spring</term>
     </termsOffered>
     <activities>
-      <activity>
-        <type>lab</type>
-      </activity>
       <activity>
         <type>lec</type>
       </activity>
     </activities>
     <credits>
-      <credit type="Single Value">4</credit>
+      <credit type="Single Value">3</credit>
     </credits>
   </course>
   <course>
@@ -1291,23 +1288,23 @@
   <course>
     <title>Biological Control of Pests</title>
     <courseCodes>
-      <courseCode type="home listing">
+      <courseCode type="crosslisting">
         <subject>PLPT</subject>
         <courseNumber>813</courseNumber>
       </courseCode>
-      <courseCode type="crosslisting">
+      <courseCode type="home listing">
         <subject>ENTO</subject>
         <courseNumber>813</courseNumber>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1131</effectiveSemester>
+    <effectiveSemester>1141</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">12 hrs biological sciences and/or agricultural sciences</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">ENTO/PLPT 813 is offered spring semester of even-numbered calendar years. ENTO/PLPT 813 is also offered on the Internet via the World Wide Web (WWW0 in the spring semester of even-numbered calendar years.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">ENTO/PLPT 813 is offered spring semester of even-numbered calendar years. ENTO/PLPT 813 is also offered on the Internet via the World Wide Web (WWW) in the spring semester of even-numbered calendar years.</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Principles and practices of using natural enemies and antagonists to manage the abundance of pests and reduce economic losses.</div>
@@ -1708,18 +1705,18 @@
   <course>
     <title>Introduction to the Development of Distance Education Courses</title>
     <courseCodes>
-      <courseCode type="home listing">
-        <subject>ALEC</subject>
-        <courseNumber>806</courseNumber>
-      </courseCode>
       <courseCode type="crosslisting">
         <subject>ENTO</subject>
+        <courseNumber>830</courseNumber>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>ALEC</subject>
         <courseNumber>830</courseNumber>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1141</effectiveSemester>
+    <effectiveSemester>1148</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Introduction to practical aspects of developing and facilitating distance education courses. Create and facilitate interaction, assessments, course delivery, assignments, course etiquette and ADA compliance. Develop a distance course module grounded in distance education theory and instructional design principles.</div>
     </description>
@@ -1740,49 +1737,6 @@
     </activities>
     <credits>
       <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Insect Transmission of Plant Diseases</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>BIOS</subject>
-        <courseNumber>865</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>ENTO</subject>
-        <courseNumber>865</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">8 hrs biological sciences including BIOS 864 preceding or parallel and 6 hrs entomology or biological sciences (zoology)</div>
-    </prerequisite>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">ENTO *865 is offered even-numbered calendar years.</div>
-    </notes>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Relationships between plant diseases and their vectors with emphasis on virus diseases and transmission by aphids.</div>
-    </description>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Spring</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>lec</type>
-        <hours>2</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">2</credit>
     </credits>
   </course>
   <course>

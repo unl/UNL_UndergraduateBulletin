@@ -40,7 +40,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1125</effectiveSemester>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">First semester international freshman or transfer student.</div>
     </prerequisite>
@@ -1022,10 +1022,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1141</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Junior standing and 12 hrs in one of the departments in which the course is listed.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Junior standing.</div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">Open to advanced students planning careers in the professions in which knowledge of human behavior and society is important (e.g., helping professions, medicine, law, ministry, education, etc.).</div>
@@ -1044,7 +1044,12 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
@@ -1622,7 +1627,7 @@
     </credits>
   </course>
   <course>
-    <title>Roles and Functions in School Psychological Services</title>
+    <title>Ethical and Professional Practice in School Psychology</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>EDPS</subject>
@@ -1630,10 +1635,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Foundations, models, and practices of contemporary school psychology and an exploration of transitions and future developments in the profession. Investigations of the major legal and ethical systems affecting specialists in the schools and the application of standards for ethical professional practice.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Foundations, models, and practices of contemporary school psychology and an exploration of transitions and future developments in the profession. Investigations of the major legal and ethical systems affecting school psychologists and the application of standards for professional practice.</div>
     </description>
     <campuses>
       <campus></campus>
@@ -1641,7 +1646,12 @@
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
@@ -2393,21 +2403,22 @@
     </credits>
   </course>
   <course>
-    <title>Interventions in School Psychology</title>
+    <title>School Mental Health and Behavior Interventions</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>EDPS</subject>
         <courseNumber>954</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>SPED</subject>
+        <courseNumber>954</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">EDPS 463/863, EDPS 951 or parallel; and permission</div>
-    </prerequisite>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Prepares school psychologists to plan and provide evidence-based psychoeducational interventions for children, youth, families and schools. Application of ecobehavioral theory, models of school mental health, the scientist-practitioner model, the practice of psychotherapy, and empirical evidence of the effectiveness of interventions for culturally and linguistically diverse students.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Understanding of models for the delivery of mental health services in schools; and plan and deliver psychosocial interventions in school settings. Evidence-based interventions delivered at the classroom and school-wide levels emphasized with a three-tiered prevention model of service delivery appropriate for culturally and linguistically diverse students.</div>
     </description>
     <campuses>
       <campus></campus>

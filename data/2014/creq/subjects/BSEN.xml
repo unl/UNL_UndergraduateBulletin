@@ -210,7 +210,7 @@
     </credits>
   </course>
   <course>
-    <title>Computational Tools and Modeling for Agricultural and Biological Systems Engineering:  Simulink</title>
+    <title>Computational Tools and Modeling for Agricultural and Biological Systems Engineering:  Control Systems</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>BSEN</subject>
@@ -224,13 +224,16 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1121</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">AGEN or BSEN 212A; or permission.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">AGEN or BSEN 112/112H; ELEC 211 or ELEC 213 or PHYS 212, or parallel; or permission.</div>
     </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">This is a 5-week mini-course in which the lab time entails a combination of a 2nd lecture and followup laboratory applications.<br/></div>
+    </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to tools needed to develop computation-intense solutions for a wide variety of problems relevant to agricultural and biological systems engineering. Advanced problem solving techniques are illustrated using examples of scripts and simulation methods.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to microcontroller based embedded systems for agricultural and biological applications. Fundamental principles of microcontrollers and embedded systems through binary and hexadecimal number systems, digital logic, programming in integrated development environment, and microcontroller perifpherals. Common agricultural and biological microcontroller input and output devices.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -239,10 +242,13 @@
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
     <termsOffered>
-      <term>Fall</term>
       <term>Spring</term>
     </termsOffered>
     <activities>
+      <activity>
+        <type>lab</type>
+        <hours>3</hours>
+      </activity>
       <activity>
         <type>lec</type>
         <hours>1</hours>
@@ -429,11 +435,11 @@
         <courseNumber>311</courseNumber>
       </courseCode>
     </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1141</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">MATH 221.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">MATH 221; and BSEN212A or equivalent</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Mathematical modeling of biophysical systems. Continuous and discrete signals. Signal representation, system classification, impulse response, convolution, Fourier analysis, transfer functions, difference-equation approximations of differential equations. Basic filtering concepts.</div>
@@ -689,13 +695,13 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1141</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">BSEN 244 or MECH 200; MATH 221; MECH/CIVE 310 or CHME 332; or permission.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">BSEN 244 or MECH 200; MATH 221; MECH/CIVE 310 or CHME 332 or parallel; or permission.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to concurrent transport of energy and mass in biological and environmental processes. Modes of heat transfer, steady and non-steady state heat conduction, convective heat transfer, radiative heat transfer, and heat transfer with phase change. Introduction to equilibrium, kinetics, and modes of mass transfer, diffusion, dispersion, and convective mass transfer. Includes soil freezing and thawing, energy and mass balances of crops, diffusivities of membranes, animal energy balances, respiration, and photosynthesis.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to concurrent transport of energy and mass in biological and environmental processes. Modes of heat transfer, steady and non-steady state heat conduction, convective heat transfer, radiative heat transfer, and heat transfer with phase change. Equilibrium, kinetics, and modes of mass transfer, diffusion, dispersion, and convective mass transfer. Soil freezing and thawing, energy and mass balances of crops, diffusivities of membranes, photosynthesis, human and animal energy balances, and respiration.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -704,13 +710,12 @@
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
     <termsOffered>
-      <term>Fall</term>
       <term>Spring</term>
-      <term>Summer</term>
     </termsOffered>
     <activities>
       <activity>
         <type>lec</type>
+        <hours>3</hours>
       </activity>
     </activities>
     <credits>
@@ -1480,7 +1485,57 @@
     </credits>
   </course>
   <course>
-    <title>Special Problems</title>
+    <title>Special Topics</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>BSEN</subject>
+        <courseNumber>492</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>BSEN</subject>
+        <courseNumber>892</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Permission</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Subject matter in emerging areas of Biological Systems Engineering not covered in other courses within the curriculum. Topics, activities, and delivery methods vary.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+      <deliveryMethod>Web</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lab</type>
+      </activity>
+      <activity>
+        <type>lec</type>
+      </activity>
+      <activity>
+        <type>rct</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">6</credit>
+      <credit type="Per Career Limit">6</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Independent Study</title>
     <courseCodes>
       <courseCode type="crosslisting">
         <subject>AGEN</subject>
@@ -1492,13 +1547,13 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Senior standing and permission.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Permission.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Investigation and written report on engineering problems not covered in sufficient depth through existing courses. Topics vary.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Investigation and report on engineering problems not covered in sufficient depth through existing courses. Topics vary.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -1513,7 +1568,7 @@
     </termsOffered>
     <activities>
       <activity>
-        <type>lec</type>
+        <type>ind</type>
       </activity>
     </activities>
     <credits>

@@ -1,6 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <courses xmlns="http://courseapproval.unl.edu/courses" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://courseapproval.unl.edu/courses /schema/courses.xsd">
   <course>
+    <title>Weather and Climate</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>METR</subject>
+        <courseNumber>100</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1141</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">MATH 101 or equivalent.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Physical behavior of the atmosphere; elements of weather and climate and their distribution over the earth. Weather map analysis and forecasting. Atmospheric circulation, precipitation processes, severe weather, air pollution, and the use of weather radar. Concepts of weather forecasting.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lab</type>
+      </activity>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">4</credit>
+    </credits>
+    <aceOutcomes>
+      <slo>4</slo>
+    </aceOutcomes>
+  </course>
+  <course>
     <title>Severe and Unusual Weather</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -83,49 +126,6 @@
     </aceOutcomes>
   </course>
   <course>
-    <title>Weather and Climate</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>METR</subject>
-        <courseNumber>200</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1091</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">MATH 101 or equivalent.</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Physical behavior of the atmosphere; elements of weather and climate and their distribution over the earth. Weather map analysis and forecasting. Atmospheric circulation, precipitation processes, severe weather, air pollution, and the use of weather radar. Concepts of weather forecasting.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>lab</type>
-      </activity>
-      <activity>
-        <type>lec</type>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">4</credit>
-    </credits>
-    <aceOutcomes>
-      <slo>4</slo>
-    </aceOutcomes>
-  </course>
-  <course>
     <title>Introduction to Atmospheric Science</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -137,7 +137,7 @@
     <dfRemoval>true</dfRemoval>
     <effectiveSemester>1081</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">MATH 106/106B/108H; METR 200; PHYS 211/211H.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">MATH 106/106B/108H; METR 100; PHYS 211/211H.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Conceptual foundations for synoptic and dynamic meteorology. Meteorological data analysis, the dynamics of atmospheric motions, and atmospheric thermodynamics.</div>
@@ -337,9 +337,9 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1101</effectiveSemester>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">METR 205.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">METR 223.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Dynamic and thermodynamic concepts and principles applied to synoptic-scale weather forecasting. Dynamics, energetics, structure, evolution, and motion of extra-tropical cyclones. Meteorological communications, interpretation and analysis of weather maps, and thermodynamic diagrams.</div>
@@ -385,7 +385,7 @@
     <dfRemoval>true</dfRemoval>
     <effectiveSemester>1081</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">METR 200.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">METR 100.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Processes that give rise to spatial and temporal differences in climate. Various interrelationships between humans and climate. Influence of climate on building styles, the economy, water resources, human health, and society. Humans' inadvertent and purposeful modification of the atmosphere.</div>
@@ -591,6 +591,48 @@
     </credits>
   </course>
   <course>
+    <title>Cloud Physics</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>METR</subject>
+        <courseNumber>421</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>METR</subject>
+        <courseNumber>821</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1141</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">METR 223 and METR 323 or equivalent.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Buoyancy and parcel mixing, cloud physics instrumentation, the role of aerosols in precipitation processes, growth of liquid cloud droplets/raindrops/ice crystals, processes associated with falling precipitation particles, drop size distributions and their moments, applications to convection, and parameterizations of cloud microphysical processes for numerical modeling applications.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Air Pollution</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -761,6 +803,91 @@
     </credits>
   </course>
   <course>
+    <title>Broadcast Meteorology</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>METR</subject>
+        <courseNumber>446</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">METR 100.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Only 3 hours of credit from METR 446 or METR 447 may be applied to the major and/or minor in Meteorology through Group B requirements.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Information about the history and current status of broadcast meteorology and related technology. Procedures and requirements to obtain Professional Society certification/seal in Broadcast Meteorology. Address on air requirements mandated by the Federal FCC rules and regulations and social impacts of broadcast meteorology.  Opportunity to gain experience in presenting weather information through various media outlets, including the use of chromakey technology and social media.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Broadcast Meteorology Practicum</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>METR</subject>
+        <courseNumber>447</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>pass/no pass only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Permission of instructor.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Only 3 hours of credit from METR 446 or METR 447 may be applied to the major and/or minor in Meteorology through Group B requirements.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Produce weather presentations worthy of airing live during Star City News. Learn how to develop weather presentations for production, including development of graphics, lead ins and promos. One-on-one critiquing/coaching to improve the presentation and content of the presentation will also take place throughout the semester.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">3</credit>
+      <credit type="Per Semester Limit">3</credit>
+      <credit type="Per Career Limit">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Climate and Society</title>
     <courseCodes>
       <courseCode type="crosslisting">
@@ -802,7 +929,7 @@
     <dfRemoval>false</dfRemoval>
     <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">METR 200 or NRES 370 or equivalent.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">METR 100 or NRES 370 or equivalent.</div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">Offered spring semester of even-numbered calendar years.</div>
@@ -925,9 +1052,9 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1091</effectiveSemester>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">METR 205.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">METR 223.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Concepts and principles related to meteorological observations from satellites. Applications for weather analysis and forecasting.</div>
@@ -1288,7 +1415,7 @@
     <dfRemoval>false</dfRemoval>
     <effectiveSemester>1105</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">NRES 208 or METR 200 or METR/NRES 370.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">NRES 208 or METR 100 or METR/NRES 370.</div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">Offered fall semester of even-numbered calendar years.</div>
@@ -1960,6 +2087,44 @@
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Advanced Synoptic Theory and Application</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>METR</subject>
+        <courseNumber>944</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">METR 842 or equivalent.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Advanced theoretical background in synoptic meteorology, and opportunities to apply these concepts to real-world problems.  Topics include the quasi-geostrophic equations, static stability effects, midlatitude cyclones, upper-level waves, frontogenesis, semi-geostrophic theory, potential vorticity, and IPV thinking.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
     <activities>
       <activity>
         <type>lec</type>

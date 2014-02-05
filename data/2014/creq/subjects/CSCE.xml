@@ -1,6 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <courses xmlns="http://courseapproval.unl.edu/courses" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://courseapproval.unl.edu/courses /schema/courses.xsd">
   <course>
+    <title>Introduction to CSE</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CSCE</subject>
+        <courseNumber>10</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>pass/no pass only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1141</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Optional pass/no pass course designed to help incoming first-year CSE students in their transition into the University of Nebraska-Lincoln and the Computer Science and Engineering department. The course introduces various departmental resources and policies, explore possible career paths, fields, and opportunities available to a computer scientist or computer engineer. Assignments may include attending department orientations and lectures, a student organization meeting, and on-campus activities including Career Fair, E-Week, and Research Fair.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>1</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">0</credit>
+    </credits>
+  </course>
+  <course>
     <title>Fundamentals of Computer Science</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -352,9 +387,9 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1111</effectiveSemester>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Appropriate score on the CSE Placement Exam or a grade of "P" or "C" or better in CSCE 155A, CSCE155E, CSCE 155H, CSCE 155N, or CSCE 155T; Math 106 or equivalent.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Appropriate score on the CSE Placement Exam or a grade of "P" or "C" or better in CSCE 155A, CSCE155E, CSCE 155H, CSCE 155N, or CSCE 155T; Math 106 or parallel.</div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">Laboratories supplement the lecture material and give an opportunity to practice concepts.</div>
@@ -397,10 +432,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1091</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Good standing in the University Honors Program or by invitation; appropriate score on CSE Placement Exam or a grade of "P" or "C" or better in CSCE 155 or 155H; MATH 103 or equivalent.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Good standing in the University Honors Program or by invitation; appropriate score on CSE Placement Exam or a grade of "P" or "C" or better in CSCE 155 or 155H; MATH 106 or parallel.</div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">CSCE 156H covers the same topics as CSCE 156, but in greater depth. Laboratories supplement the lecture material and give an opportunity to practice concepts.</div>
@@ -618,12 +653,12 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1111</effectiveSemester>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">A grade of 'P' or 'C' or better in CSCE 155A, CSCE 155E, CSCE 155H, CSCE 155N, or CSCE 155T or equivalent knowledge of a high-level programming language; parallel CSCE 230L.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">A grade of 'P' or 'C' or better in CSCE 155A, CSCE 155E, CSCE 155H, CSCE 155N, or CSCE 155T or equivalent knowledge of a high-level programming language.</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">ACE SLO 8 is met if CSCE 230 and either CSCE 486 or CSCE 488 are completed.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Laboratories supplement the lecture material and give an opportunity to practice concepts. ACE SLO 8 is met if CSCE 230 and either CSCE 486 or CSCE 488 are completed.</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Introduction to organization and structure of computer systems. Boolean logic, digital arithmetic, processor organization, machine language programming, input/output, memory organization, system support software, communication, and ethics.</div>
@@ -641,6 +676,10 @@
     </termsOffered>
     <activities>
       <activity>
+        <type>lab</type>
+        <hours>2</hours>
+      </activity>
+      <activity>
         <type>lec</type>
         <hours>3</hours>
       </activity>
@@ -650,7 +689,7 @@
       </activity>
     </activities>
     <credits>
-      <credit type="Single Value">3</credit>
+      <credit type="Single Value">4</credit>
     </credits>
     <aceOutcomes>
       <slo>8</slo>
@@ -667,12 +706,12 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1111</effectiveSemester>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Good standing in the University Honors Program or by invitation; a grade of 'P' or 'C' or better in CSCE 155A, CSCE 155E, CSCE 155H, CSCE 155N, or CSCE 155T or equivalent knowledge of a high-level programming language; parallel CSCE 230L.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Good standing in the University Honors Program or by invitation; a grade of 'P' or 'C' or better in CSCE 155A, CSCE 155E, CSCE 155H, CSCE 155N, or CSCE 155T or equivalent knowledge of a high-level programming language.</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 230H covers the same topics as CSCE 230, but in greater depth.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 230H covers the same topics as CSCE 230, but in greater depth. Laboratories supplement the lecture material and give an opportunity to practice concepts. ACE SLO 8 is met if CSCE 230H and either CSCE 486 or CSCE 488 are completed.</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">For course description, see CSCE 230.</div>
@@ -690,58 +729,24 @@
     </termsOffered>
     <activities>
       <activity>
+        <type>lab</type>
+        <hours>2</hours>
+      </activity>
+      <activity>
         <type>lec</type>
-        <hours>4</hours>
+        <hours>3</hours>
+      </activity>
+      <activity>
+        <type>rct</type>
+        <hours>1</hours>
       </activity>
     </activities>
     <credits>
-      <credit type="Single Value">3</credit>
+      <credit type="Single Value">4</credit>
     </credits>
     <aceOutcomes>
       <slo>8</slo>
     </aceOutcomes>
-  </course>
-  <course>
-    <title>Computer Organization Laboratory</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>CSCE</subject>
-        <courseNumber>230</courseNumber>
-        <courseLetter>L</courseLetter>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1111</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">A grade of 'P' or 'C' or better in CSCE 155A, CSCE 155E, CSCE 155H, CSCE 155N, or CSCE 155T or equivalent knowledge of a high-level programming language; parallel CSCE 230 or CSCE 230H.</div>
-    </prerequisite>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 230L includes a project designing and implementing a processor.</div>
-    </notes>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Computer-aided tools to provide practice and reinforcement of concepts and techniques learned in CSCE 230 or CSCE 230H. Assembler programming and arithmetic and logic function design.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>lab</type>
-        <hours>2</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">1</credit>
-    </credits>
   </course>
   <course>
     <title>Introduction to Discrete Structures</title>
@@ -1748,7 +1753,7 @@
     </credits>
   </course>
   <course>
-    <title></title>
+    <title>Honors: Human-Computer Interaction</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>CSCE</subject>
@@ -1757,10 +1762,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1111</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1141</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 310 or CSCE 283H; Good standing in the University Honors Program or by instructor permission.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 310, CSCE 311, or CSCE 283H; Good standing in the University Honors Program or by instructor permission.</div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">CSCE 378H covers the same topics as CSCE 378, but in greater depth.</div>
@@ -2584,9 +2589,9 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1111</effectiveSemester>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 236; CSCE 310 or equivalent; senior/graduate standing.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 236; CSCE 310, CSCE 311, or equivalent; senior/graduate standing.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Embedded hardware design techniques; transceiver design and low-power communication techniques; sensors and distributed sampling techniques; embedded software design and embedded operating systems; driver development; embedded debugging techniques;hardware and software architectures of embedded systems; and design, development, and implementation of embedded applications.</div>
@@ -2700,7 +2705,7 @@
     </credits>
   </course>
   <course>
-    <title>Robotics</title>
+    <title>Robotics: Algorithms and Applications</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>CSCE</subject>
@@ -2712,8 +2717,8 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1128</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">CSCE236 or ELEC222 and CSCE 310/311 or equivalent programming experience, MATH 314, senior/graduate standing, or instructor permission.</div>
     </prerequisite>
@@ -3020,6 +3025,48 @@
     </credits>
   </course>
   <course>
+    <title>Software Engineering II</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CSCE</subject>
+        <courseNumber>461</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>CSCE</subject>
+        <courseNumber>861</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">CSCE361 or CSCE361H</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Advanced or emerging techniques in software engineering. Topics include design methodology, software dependability, and advanced software development environments.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Communication Networks</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -3062,25 +3109,25 @@
     </credits>
   </course>
   <course>
-    <title>Internet Systems and Programming</title>
+    <title>Data and Network Security</title>
     <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>CSCE</subject>
+        <courseNumber>863</courseNumber>
+      </courseCode>
       <courseCode type="home listing">
         <subject>CSCE</subject>
-        <courseNumber>464</courseNumber>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>CSCE</subject>
-        <courseNumber>864</courseNumber>
+        <courseNumber>463</courseNumber>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1111</effectiveSemester>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 310 or CSCE 311 or equivalent programming experience.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">CSCE310, CSCE310H, or CSCE311</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Paradigms, systems, and languages for Internet applications. Client-side amd server-side programming, object-based and event-based distributed programmming, and multi-tier applications. Coverage of specific technologies varies.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Concepts and principles of data and network security. Focuses on practical aspects and application of crypto systems in security protocols for networks such as the Internet. Topics include: applications of cryptography and cryptosystems for digital signatures, authentication, network security protocols for wired and wireless networks, cyberattacks and countermeasures, and security in modern computing platforms.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -3104,25 +3151,25 @@
     </credits>
   </course>
   <course>
-    <title>Software Quality</title>
+    <title>Internet Systems and Programming</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>CSCE</subject>
-        <courseNumber>467</courseNumber>
+        <courseNumber>464</courseNumber>
       </courseCode>
       <courseCode type="grad tie-in">
         <subject>CSCE</subject>
-        <courseNumber>867</courseNumber>
+        <courseNumber>864</courseNumber>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
     <effectiveSemester>1111</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 310 or CSCE 311.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 310 or CSCE 311 or equivalent programming experience.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Initial and ongoing software analysis, including metrics, requirements, correctness, performance, testing and validation. Frameworks and methods for software quality. Benchmarks and testing, processes for quality assurance, performance and quality models, software quality tools, testable designs and automated testing.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Paradigms, systems, and languages for Internet applications. Client-side amd server-side programming, object-based and event-based distributed programmming, and multi-tier applications. Coverage of specific technologies varies.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -3443,7 +3490,7 @@
     </credits>
   </course>
   <course>
-    <title></title>
+    <title>Honors: Introduction to Artificial Intelligence</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>CSCE</subject>
@@ -3452,10 +3499,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1111</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1141</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 310 or CSCE 283H; Good standing in the University Honors Program or by instructor permission.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 310, CSCE 311, or CSCE 283H; Good standing in the University Honors Program or by instructor permission.</div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">
@@ -3715,10 +3762,10 @@
       <div xmlns="http://www.w3.org/1999/xhtml">CSCE 236; CSCE 351; CSCE361 or CSCE361H; formal admission to the College of Engineering; prereq or coreq: JGEN 300.</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 488 is a preparation course for the computer engineering Senior Design Project (CSCE 489). CSCE 488 and 489 are a sequence of courses that are to be taken in consecutive terms.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 488 must be taken exactly one semester before CSCE 489. ACE SLO 8 is met only if CSCE 230 and, either CSCE 486 or CSCE 488 are completed.</div>
     </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Professional practice through familiarity and practice with current tools, resources, and technologies; professional standards, practices, and ethics; and oral and written report styles used in the computer engineering field.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Preparation for the senior design project. Professional practice through familiarity and practice with current tools, resources, and technologies; professional standards, practices, and ethics; and oral and written report styles used in the computer engineering field.</div>
     </description>
     <campuses>
       <campus>UNL</campus>

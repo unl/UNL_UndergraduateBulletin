@@ -131,6 +131,39 @@
     </credits>
   </course>
   <course>
+    <title>Career Opportunities in Applied Sciences</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>AGRI</subject>
+        <courseNumber>205</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1141</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">For Applied Science students to select an appropriate internship, formulate career goals, develop a resume, and improve academic success skills.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>1</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">1</credit>
+    </credits>
+  </course>
+  <course>
     <title>An Introduction to Computer Applications in Agriculture</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -348,7 +381,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1091</effectiveSemester>
+    <effectiveSemester>1148</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Historical roles of women as scientists. Societal constructs of gender in science. Feminist critiques of scientific methodology and interpretation.</div>
     </description>
@@ -533,6 +566,44 @@
     </activities>
     <credits>
       <credit type="Single Value">0</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Invasive Pests and International Trade</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>AGRI</subject>
+        <courseNumber>462</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>AGRI</subject>
+        <courseNumber>862</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Examination of the global issue of the impact of invasive pests on international trade, food production, and ability to feed increasing populations in the future. Focus on how local changes have biological, economic and social consequences at the global level and impact sustainability. Offered fully online and covers pest introductions and pathways, impact on global agriculture and trade, principles and practices in agricultural pest risk analysis and international cooperation.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Web</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
     </credits>
   </course>
   <course>
@@ -757,6 +828,42 @@
       <credit type="Lower Range Limit">1</credit>
       <credit type="Upper Range Limit">6</credit>
       <credit type="Per Career Limit">6</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Master of Applied Science Thesis</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>AGRI</subject>
+        <courseNumber>899</courseNumber>
+        <courseGroup>Research and Thesis</courseGroup>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Admission to masters degree program and permission of major adviser.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Thesis in support of candidate for a Master of Applied Science degree.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">6</credit>
+      <credit type="Upper Range Limit">10</credit>
+      <credit type="Per Career Limit">10</credit>
     </credits>
   </course>
 </courses>

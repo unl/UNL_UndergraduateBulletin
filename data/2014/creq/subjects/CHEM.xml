@@ -793,13 +793,13 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1128</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">CHEM 110 or 114.</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">This course should not be taken by majors in Chemistry or Chemical and Biological Engineering.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">This course should not be taken by majors in Chemistry or Chemical Engineering.</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">One-semester organic chemistry course in which biological molecules and biochemical reactions will be used to explain and illustrate the central concepts of organic chemistry.</div>
@@ -1358,9 +1358,9 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1138</effectiveSemester>
+    <effectiveSemester>1141</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CHEM 252 or 262. LIFE 120 recommended.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">CHEM 252 or CHEM 262 with a grade of C or better. LIFE 120 recommended.</div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">First course of a two-semester, comprehensive biochemistry course sequence.</div>
@@ -1414,12 +1414,15 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1111</effectiveSemester>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">BIOC 431/831.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">BIOC 431/831 with a grade of C or better.</div>
     </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Continuation of BIOC 431/831.</div>
+    </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Continuation of BIOC 431/831. Structural and biochemical aspects of DNA replication and gene expression, and biotechnology.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Structural and biochemical aspects of DNA replication and gene expression, and biotechnology.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -2724,6 +2727,80 @@
     </credits>
   </course>
   <course>
+    <title>Research Update Interview</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CHEM</subject>
+        <courseNumber>898</courseNumber>
+        <courseLetter>B</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>pass/no pass only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Open to graduate students in Chemistry in the third semester of their program, or with instructor permission.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Preparation for and presentation of the Research Update Interview.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>ind</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">1</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Original Proposal Oral</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CHEM</subject>
+        <courseNumber>898</courseNumber>
+        <courseLetter>E</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>pass/no pass only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Open to graduate students in Chemistry in the sixth semester of their program, or with instructor permission.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Preparation for and presentation of an Original Research Proposal.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>ind</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">1</credit>
+    </credits>
+  </course>
+  <course>
     <title>Masters Thesis</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -2917,6 +2994,45 @@
     </activities>
     <credits>
       <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Molecular Biology Methods</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CHEM</subject>
+        <courseNumber>936</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">CHEM 431/831, or CHEM 835, or with instructor permission.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">The fundamentals of molecular biology and biotechnology and applications. The fundamentals include methods for DNA cloning, sequencing, annotation, recombination, mutagenesis, and expression. The applications include the production of molecular diagnostics and therapeutic agents etc. with a focus on the molecular biotechnology of microbial systems.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Lower Range Limit">2</credit>
+      <credit type="Upper Range Limit">3</credit>
+      <credit type="Per Career Limit">3</credit>
     </credits>
   </course>
   <course>

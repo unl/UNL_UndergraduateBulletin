@@ -860,52 +860,6 @@
     </credits>
   </course>
   <course>
-    <title>Elements of Nuclear Engineering</title>
-    <courseCodes>
-      <courseCode type="crosslisting">
-        <subject>ENGR</subject>
-        <courseNumber>401</courseNumber>
-      </courseCode>
-      <courseCode type="home listing">
-        <subject>MECH</subject>
-        <courseNumber>401</courseNumber>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>MECH</subject>
-        <courseNumber>801</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1088</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ENGR 300 or 301 or 310; MATH 208/208H; and PHYS 212/212H.</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Survey of nuclear engineering concepts and applications. Nuclear reactions, radioactivity, radiation interaction with matter, reactor physics, risk and dose assessment, applications in medicine, industry, agriculture, and research.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>lec</type>
-        <hours>3</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
     <title>Internal Combustion Engines</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -1316,6 +1270,92 @@
     </credits>
   </course>
   <course>
+    <title>Elements of Nuclear Engineering</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MECH</subject>
+        <courseNumber>421</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>MECH</subject>
+        <courseNumber>821</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>ENGR</subject>
+        <courseNumber>421</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">ENGR 300 or 301 or 310; MATH 208/208H; and PHYS 212/212H.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Survey of nuclear engineering concepts and applications. Nuclear reactions, radioactivity, radiation interaction with matter, reactor physics, risk and dose assessment, applications in medicine, industry, agriculture, and research.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Industrial Quality Control</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MECH</subject>
+        <courseNumber>422</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>MECH</subject>
+        <courseNumber>822</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">IMSE 321 or STAT 380.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Statistical process control and quality assurance techniques in manufacturing. Control charts, acceptance sampling, and analyses and design of quality control systems.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Laser Material Processing with Compressible Flow Perspective</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -1681,8 +1721,8 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1138</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1141</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">MECH 300, MECH 310, MECH 343, MECH 350, professional admission to Mechanical Engineering BS program.</div>
     </prerequisite>
@@ -1698,10 +1738,11 @@
     <termsOffered>
       <term>Fall</term>
       <term>Spring</term>
+      <term>Summer</term>
     </termsOffered>
     <activities/>
     <credits>
-      <credit type="Single Value">2</credit>
+      <credit type="Single Value">3</credit>
     </credits>
     <aceOutcomes>
       <slo>10</slo>
@@ -2231,6 +2272,47 @@
     </deliveryMethods>
     <termsOffered>
       <term>Fall</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Engineering Analysis with Finite Elements</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MECH</subject>
+        <courseNumber>483</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>MECH</subject>
+        <courseNumber>883</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">MECH 310; MECH 343; MECH 350; MECH 420 or parallel.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Analysis of engineering systems using finite elements; a critical and challenging task performed during the design process for many engineering systems.  Four very distinct domains are studied: Structural stress analysis, heat transfer, fluid flow, and modal analysis.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
     </termsOffered>
     <activities>
       <activity>

@@ -165,7 +165,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1131</effectiveSemester>
+    <effectiveSemester>1138</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">An introduction to the systems required to produce, distribute and sell the food that sustains life.  The course provides the opportunity to learn from international experts who specialize in the sources, production, safety, distribution, culture, sale, politics and consumption of food worldwide.</div>
     </description>
@@ -186,6 +186,9 @@
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
+    <aceOutcomes>
+      <slo>6</slo>
+    </aceOutcomes>
   </course>
   <course>
     <title>Industrial Metals and Plastics Materials Processing</title>
@@ -294,6 +297,9 @@
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
+    <aceOutcomes>
+      <slo>8</slo>
+    </aceOutcomes>
   </course>
   <course>
     <title>Agricultural Education, Journalism, and Leadership Careers</title>
@@ -358,6 +364,39 @@
     <activities/>
     <credits>
       <credit type="Single Value">1</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Fundamentals of Agricultural and Natural Resources Communication</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ALEC</subject>
+        <courseNumber>136</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1141</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to the study of agricultural journalism and communications. Strategies and techniques for success in the agricultural journalism major and college courses generally using a systems thinking approach, fundamental concepts of communicating information related to science, agriculture and natural resources to internal and external audiences, and job shadowing experience to help prepare for careers in the field.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
     </credits>
   </course>
   <course>
@@ -1030,8 +1069,8 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">6 hrs mechanized systems management; advanced standing.</div>
     </prerequisite>
@@ -1048,14 +1087,16 @@
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
     <termsOffered>
-      <term>Spring</term>
+      <term>Fall</term>
     </termsOffered>
     <activities>
       <activity>
         <type>lec</type>
+        <hours>3</hours>
       </activity>
       <activity>
         <type>rct</type>
+        <hours>1</hours>
       </activity>
     </activities>
     <credits>
@@ -1330,6 +1371,54 @@
     </credits>
   </course>
   <course>
+    <title>Digital Imaging and Storytelling in Agriculture and Natural Resources</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ALEC</subject>
+        <courseNumber>393</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1141</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Consent of instructor(s). One college level course in photography or equivalent, and knowledge of the basics of shooting still photographs or video using digital cameras. Open only to College of Agricultural Sciences and Natural Resources (CASNR) students and to School of Natural Resources students.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Can be repeated for a maximum of 9 credit hours by consent of instructor.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Concepts and techniques related to use of remote and automated digital camera technology to capture images in agriculture and natural resources contexts to communicate a narrative/story. Completion of individual project using a variety of technologies including camera traps, time-lapse camera systems, remote triggered cameras, as well as traditional audio and video and conventional photography.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>fld</type>
+        <hours>3</hours>
+      </activity>
+      <activity>
+        <type>lab</type>
+        <hours>2</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Lower Range Limit">3</credit>
+      <credit type="Upper Range Limit">9</credit>
+      <credit type="Per Semester Limit">3</credit>
+      <credit type="Per Career Limit">9</credit>
+    </credits>
+  </course>
+  <course>
     <title>Special Topics</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -1454,8 +1543,8 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1121</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Senior standing and 3 hrs educational psychology, or permission.</div>
     </prerequisite>
@@ -1469,9 +1558,14 @@
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
     <termsOffered>
-      <term>Fall</term>
+      <term>Spring</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
@@ -1663,8 +1757,8 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Junior standing and acceptance into the student teaching program in agricultural education.</div>
     </prerequisite>
@@ -1678,16 +1772,16 @@
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
     <termsOffered>
-      <term>Fall</term>
       <term>Spring</term>
-      <term>Summer</term>
     </termsOffered>
     <activities>
       <activity>
         <type>lec</type>
+        <hours>3</hours>
       </activity>
       <activity>
         <type>rct</type>
+        <hours>1</hours>
       </activity>
     </activities>
     <credits>
@@ -2466,43 +2560,6 @@
     </credits>
   </course>
   <course>
-    <title>Introduction to the Development of Distance Education Courses</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ALEC</subject>
-        <courseNumber>806</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>ENTO</subject>
-        <courseNumber>830</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1141</effectiveSemester>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to practical aspects of developing and facilitating distance education courses. Create and facilitate interaction, assessments, course delivery, assignments, course etiquette and ADA compliance. Develop a distance course module grounded in distance education theory and instructional design principles.</div>
-    </description>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Web</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Spring</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>lec</type>
-        <hours>3</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
     <title>Classic Figures in Leadership</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -2594,6 +2651,43 @@
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
     <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Introduction to the Development of Distance Education Courses</title>
+    <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>ENTO</subject>
+        <courseNumber>830</courseNumber>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>ALEC</subject>
+        <courseNumber>830</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to practical aspects of developing and facilitating distance education courses. Create and facilitate interaction, assessments, course delivery, assignments, course etiquette and ADA compliance. Develop a distance course module grounded in distance education theory and instructional design principles.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Web</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>

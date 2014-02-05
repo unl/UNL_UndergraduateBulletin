@@ -1,21 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <courses xmlns="http://courseapproval.unl.edu/courses" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://courseapproval.unl.edu/courses /schema/courses.xsd">
   <course>
-    <title>Beginning Graphic Design</title>
+    <title>Digital Literacy</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>GRPH</subject>
+        <courseNumber>121</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Instruction in design principles and tools of industry standard digital media production.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>stu</type>
+        <hours>6</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Graphic Design I</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>GRPH</subject>
         <courseNumber>221</courseNumber>
       </courseCode>
     </courseCodes>
-    <gradingType>unrestricted</gradingType>
+    <gradingType>letter grade only</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1125</effectiveSemester>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ARTP/ARCH/IDES/JGEN/LARC/TMFD 140A, 140B, 141A, and 141B.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">ARTP 140A, ARTP 140B, ARTP 141A, and ARTP 141B; or ARTP 150, ARTP 151, ARTP 152, and DRAW 201; or permission.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to the graphic designer's literal and visual methods of creative communication including comprehensive art preparation.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to the field of visual communications, the use of the tools, materials and methods of the graphic designer.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -26,7 +61,6 @@
     <termsOffered>
       <term>Fall</term>
       <term>Spring</term>
-      <term>Summer</term>
     </termsOffered>
     <activities>
       <activity>
@@ -39,21 +73,21 @@
     </credits>
   </course>
   <course>
-    <title>Basic Typography</title>
+    <title>Typography I</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>GRPH</subject>
         <courseNumber>223</courseNumber>
       </courseCode>
     </courseCodes>
-    <gradingType>unrestricted</gradingType>
+    <gradingType>letter grade only</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1125</effectiveSemester>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ARTP/ARCH/IDES/JGEN/LARC/TMFD 140A, 140B, 141A, and 141B.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">ARTP 140A, ARTP 140B, ARTP 141A, and ARTP 141B; or ARTP 150, ARTP 151, ARTP 152, and DRAW 201; or permission.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to typeface classification, foundations of typographic imaging systems, and fundamentals of typographic design problem solving.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to the practice, history, and theory of typography.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -64,7 +98,6 @@
     <termsOffered>
       <term>Fall</term>
       <term>Spring</term>
-      <term>Summer</term>
     </termsOffered>
     <activities>
       <activity>
@@ -77,21 +110,21 @@
     </credits>
   </course>
   <course>
-    <title>Intermediate Graphic Design</title>
+    <title>Graphic Design II</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>GRPH</subject>
         <courseNumber>321</courseNumber>
       </courseCode>
     </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">GRPH 221.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">GRPH 221 or permission</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Continued studies of the graphic designer creative approach, including elements of typography, photography, illustration, and design in various print formats.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Emphasis on the creation of meaning through visual form and the responsibility of visual communicators as authors of the creative process.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -102,29 +135,33 @@
     <termsOffered>
       <term>Fall</term>
       <term>Spring</term>
-      <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>stu</type>
+        <hours>6</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
   </course>
   <course>
-    <title>Advanced Typography</title>
+    <title>Typography II</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>GRPH</subject>
         <courseNumber>323</courseNumber>
       </courseCode>
     </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">GRPH 223 or permission.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">GRPH 221 and GRPH 223, or permission.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Survey of historic and contemporary typographic trends; letterforms as abstract images; practice of typographic design by editing literal concepts for visual ideas.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Emphasis on relationships between typographic systems and the connective language to society and culture.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -135,9 +172,13 @@
     <termsOffered>
       <term>Fall</term>
       <term>Spring</term>
-      <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>stu</type>
+        <hours>6</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
@@ -150,14 +191,14 @@
         <courseNumber>324</courseNumber>
       </courseCode>
     </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">GRPH 321.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">GRPH 221 or permission</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Modular grid usage as an organizational tool for textual and graphic elements in various publication formats.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Instruction in publication models such as digital editorial design, the modern book, magazine design, book cover design and the history of bookmaking.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -168,9 +209,87 @@
     <termsOffered>
       <term>Fall</term>
       <term>Spring</term>
-      <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>stu</type>
+        <hours>6</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Interaction Design I</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>GRPH</subject>
+        <courseNumber>325</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">GRPH 221 and GRPH 223, or permission.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to the fundamental concepts of user-centered design for web, tablet, mobile devices and screen-based media.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>stu</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Interaction Design II</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>GRPH</subject>
+        <courseNumber>326</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">GRPH 325 or permission</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Critical engagement with the process of designing responsive, reactive and interactive experiences.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>stu</type>
+        <hours>6</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
@@ -213,21 +332,21 @@
     </credits>
   </course>
   <course>
-    <title>Advanced Graphic Design</title>
+    <title>Graphic Design III</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>GRPH</subject>
         <courseNumber>421</courseNumber>
       </courseCode>
     </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">GRPH 321 or permission.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">GRPH 321 and GRPH 223, or permission.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Advanced graphic design problem solving to formulate the student's individual creative design approach.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Visual form and content are studied in the context of aesthetic, cultural, historical and critical issues.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -238,9 +357,13 @@
     <termsOffered>
       <term>Fall</term>
       <term>Spring</term>
-      <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>stu</type>
+        <hours>6</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
@@ -279,21 +402,21 @@
     </credits>
   </course>
   <course>
-    <title>Design Studio</title>
+    <title>Design Studio I</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>GRPH</subject>
         <courseNumber>426</courseNumber>
       </courseCode>
     </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Senior standing in art or permission.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">GRPH 421 or permission.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Advanced study through projects commissioned by community and campus organizations.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Focus on the application of advanced graphic design principles and systems in the generation of a self-authored body of written and visual work.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -304,12 +427,56 @@
     <termsOffered>
       <term>Fall</term>
       <term>Spring</term>
-      <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>stu</type>
+        <hours>6</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
+  </course>
+  <course>
+    <title>Design Studio II: Design Capstone</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>GRPH</subject>
+        <courseNumber>428</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">GRPH 426 or permission</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Emphasis in advanced design research development, peer and professional collaboration, and critical thinking</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>stu</type>
+        <hours>6</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+    <aceOutcomes>
+      <slo>10</slo>
+    </aceOutcomes>
   </course>
   <course>
     <title>Graphic Design I</title>

@@ -62,7 +62,7 @@
     <activities>
       <activity>
         <type>lab</type>
-        <hours>1.5</hours>
+        <hours>2</hours>
       </activity>
     </activities>
     <credits>
@@ -100,7 +100,7 @@
     <activities>
       <activity>
         <type>lab</type>
-        <hours>1.5</hours>
+        <hours>2</hours>
       </activity>
     </activities>
     <credits>
@@ -138,7 +138,7 @@
     <activities>
       <activity>
         <type>lab</type>
-        <hours>1.5</hours>
+        <hours>2</hours>
       </activity>
     </activities>
     <credits>
@@ -214,7 +214,7 @@
     <activities>
       <activity>
         <type>lab</type>
-        <hours>1.5</hours>
+        <hours>2</hours>
       </activity>
     </activities>
     <credits>
@@ -351,7 +351,7 @@
     </credits>
   </course>
   <course>
-    <title>Financial Mathematics</title>
+    <title>Interest Theory</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>ACTS</subject>
@@ -362,14 +362,17 @@
         <courseNumber>840</courseNumber>
       </courseCode>
     </courseCodes>
-    <gradingType>unrestricted</gradingType>
+    <gradingType>letter grade only</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">MATH 208/208H with a grade of "Pass" or "C" or better, or parallel.</div>
     </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Grade only.</div>
+    </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Application of financial mathematics to problems involving valuation of financial transactions; equivalent measures of interest; rate of return on a fund; discounting or accumulating a sequence of payments with interest; and yield rates, length of investment, amounts of investment contributions or amounts of investment returns for various types of financial transactions; loans and bonds. Introduction to the mathematics of modern financial analysis. Calculations involving yield curves, spot rates, forward rates, duration, convexity, and immunization and short sales; introduction to financial derivatives (forwards, options, futures, swaps) and their use in risk management; and introduction to the concept of no-arbitrage as a fundamental concept in financial mathematics.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Application of financial mathematics to problems involving valuation of financial transactions; equivalent measures of interest; rate of return on a fund; discounting or accumulating a sequence of payments with interest; and yield rates, length of investment, amounts of investment contributions or amounts of investment returns for various types of financial transactions; loans and bonds. Introduction to the mathematics of modern financial analysis. Calculations involving yield curves, spot rates, forward rates, duration, convexity, and immunization.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -385,11 +388,53 @@
     <activities>
       <activity>
         <type>lec</type>
-        <hours>6</hours>
+        <hours>4</hours>
       </activity>
     </activities>
     <credits>
       <credit type="Single Value">4</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Introduction to Financial Economics</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ACTS</subject>
+        <courseNumber>441</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>ACTS</subject>
+        <courseNumber>841</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1141</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">MATH 208 with grade of "C" or better or concurrent.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Financial mathematics concepts related to short sales, forwards, options, futures, and swaps, and their use in risk management, hedging and investment strategies, fundamental concepts of put-call parity and no-arbitrage, and interest rate models.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
     </credits>
   </course>
   <course>

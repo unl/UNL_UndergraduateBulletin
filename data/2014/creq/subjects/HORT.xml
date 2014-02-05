@@ -981,50 +981,6 @@
     </credits>
   </course>
   <course>
-    <title>Introduction to Landscape Design</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>HORT</subject>
-        <courseNumber>266</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>LARC</subject>
-        <courseNumber>266</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1138</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">HORT 265; HORT/LARC/NRES 212 or equivalent.</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Landscape design, analysis, and process for design of the landscape site. Problems in examining residential sites; basic uses of plants, land form, and other landscape materials and concepts; and introduction to the concepts of sustainable design.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Spring</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>lec</type>
-        <hours>1</hours>
-      </activity>
-      <activity>
-        <type>rct</type>
-        <hours>2</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">2</credit>
-    </credits>
-  </course>
-  <course>
     <title>Introduction to Landscape Design Studio</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -1169,15 +1125,15 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1121</effectiveSemester>
+    <effectiveSemester>1151</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">HORT 266; MATH 102 or 106/108H; MSYM 109 or PHYS 141. SOIL 153 and CNST 131 recommended.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">HORT 263; HORT 267.</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">HORT 300 requires field trips to landscape installation sites.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Offered Spring Semester of odd years and alternate with HORT 301. HORT 300 requires field trips to landscape installation sites.</div>
     </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to the landscape construction industry. Sustainable use and installation of hard-scape materials; business and safety procedures; cost estimates; erosion control; grading; and drainage.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Materials, systems, and methods for constructing landscapes.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -1186,16 +1142,56 @@
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
     <termsOffered>
-      <term>Fall</term>
+      <term>Spring</term>
     </termsOffered>
     <activities>
       <activity>
         <type>lab</type>
-        <hours>2</hours>
+        <hours>3</hours>
       </activity>
       <activity>
         <type>lec</type>
         <hours>2</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Introduction to Landscape Contracting</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>HORT</subject>
+        <courseNumber>301</courseNumber>
+        <courseGroup>Techniques</courseGroup>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1161</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">HORT 267 or concurrent; HORT 388.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Offered Spring of even years and alternate with HORT 300.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Overview of the landscape contracting business and administration of contracts, cost estimation and bidding.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
       </activity>
     </activities>
     <credits>
@@ -2058,6 +2054,51 @@
       <credit type="Lower Range Limit">1</credit>
       <credit type="Upper Range Limit">5</credit>
       <credit type="Per Career Limit">12</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Scientific Writing and Communication</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>AGRO</subject>
+        <courseNumber>403</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>HORT</subject>
+        <courseNumber>403</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>AGRO</subject>
+        <courseNumber>803</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Senior standing or higher, an ACE 1 written communication course, an ACE 2 oral communication course, and permission of instructor.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Reading and critiquing, writing, and presenting scientific information. Use research data to compose a manuscript in standard scientific format, and prepare and present a poster to a general audience.  Ethical issues in research and writing.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+      <deliveryMethod>Web</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
     </credits>
   </course>
   <course>
@@ -3126,10 +3167,22 @@
         <subject>NUTR</subject>
         <courseNumber>871</courseNumber>
       </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>HORT</subject>
+        <courseNumber>871</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>HRTM</subject>
+        <courseNumber>471</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>HRTM</subject>
+        <courseNumber>871</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">6 hrs science or equivalent experience; 21 years of age or older.</div>
     </prerequisite>
@@ -3485,6 +3538,50 @@
       <credit type="Lower Range Limit">3</credit>
       <credit type="Upper Range Limit">6</credit>
       <credit type="Per Career Limit">6</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Ecology and Management of Plant Pathogens</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>PLPT</subject>
+        <courseNumber>802</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>AGRO</subject>
+        <courseNumber>802</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>HORT</subject>
+        <courseNumber>802</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">PLPT 369 or equivalent; an introduction to biochemistry course.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Principles of plant disease epidemiology and disease control through cultural, biological, chemical and host plant resistance strategies.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
     </credits>
   </course>
   <course>
@@ -3986,6 +4083,443 @@
     </credits>
   </course>
   <course>
+    <title>Floral Crops Production and Handling</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>HORT</subject>
+        <courseNumber>842</courseNumber>
+        <courseLetter>E</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Admission to the Horticulture graduate certificate program; and permission.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Distance education course delivered by Kansas State University. HORT 842E is offered spring semester of even-numbered calendar years.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Principles and commercial practices for producting floral potted crops and cut flowers and the physical responses of plants to their environment. Aspects of post harvest physiology.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>2</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">2</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Water Issues in Lawn and Landscape</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>HORT</subject>
+        <courseNumber>842</courseNumber>
+        <courseLetter>J</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Admission to the Horticulture graduate certificate program; and permission.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Distance education course delivered by Kansas State University. Hort 842J is offered spring semesters.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Critical water issues related to irrigation in urbanizing watersheds and water quality and quantity.  Factors impacting water scarcity and quality. Interrelatedness of correct irrigation practices and water quality/quantity and equip students to protect water resources through application of science-based irrigation practices.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Greenhouse Crop Production</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>HORT</subject>
+        <courseNumber>843</courseNumber>
+        <courseLetter>A</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Admission to the Horticulture graduate certificate program; and permission.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Distance education course delivered by Texas Tech University. Hort 843A is offered spring semester of odd-numbered calendar years.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to the concepts of greenhouse construction, operation and management for a variety of horticultural crops, with an emphasis on ornamental crops.  Greenhouse construction, heating, cooling, growing media, pest management, nutrition, fertility, growth regulation, irrigation, post-harvest handling, and marketing of greenhouse crops.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>4</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">4</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Seed Sciences</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>HORT</subject>
+        <courseNumber>843</courseNumber>
+        <courseLetter>B</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Admission to the Horticulture graduate certificate program; and permission.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Distance education course delivered by Texas Tech University. HORT 843B is offered spring semester of even-number calendar years.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Seed morphology, anatomy, and chemistry. Germination, emergence, and dormancy processes in seed, as well as various quality aspects including vigor, longevity, and deterioration. Discussion of genetically engineered seeds and other current topics.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Advanced Interiorscaping</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>HORT</subject>
+        <courseNumber>843</courseNumber>
+        <courseLetter>E</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Admission to the Horticulture graduate certificate program; and permission.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Distance education course delivered by Texas Tech University. HORT 843E is offered spring semester of even-numbered calendar years.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Physiological principles and industry practices in the production, moving, care, and maintenance of interior plants. Career tools to design, install and maintain interior plant-scapes.  Review of pertinent literature and class exercises designed to improve skills and knowledge of interior plant physiology, care and maintenance.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Herbicide Action</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>HORT</subject>
+        <courseNumber>843</courseNumber>
+        <courseLetter>J</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Admission to the Horticulture graduate certificate program; and permission.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Distance education course delivered by Texas Tech University. HORT 843E is offered spring semester of odd-numbered calendar years.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Familiarize advanced students with current state of knowledge on herbicide modes and mechanisms of action and recent developments by industry and universities in plant physiology. Integration of plant pathology, plant physiology, biochemistry, plant breeding, and principles of weed science as they relate to herbicide modes and mechanisms of action.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>4</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">4</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Advanced Arboriculture</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>HORT</subject>
+        <courseNumber>843</courseNumber>
+        <courseLetter>K</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Admission to the Horticulture graduate certificate program; and permission.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Distance education course delivered by Texas Tech University. HORT 843K is offered fall semester of odd-numbered calendar years.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Physiological principles and industry practices in the production, moving, care, and maintenance of ornamental trees, shrubs, and ground covers. Provides career tools for installation and maintenance woody plants.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Weed Science</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>HORT</subject>
+        <courseNumber>843</courseNumber>
+        <courseLetter>M</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Admission to the Horticulture graduate certificate program; and permission.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Distance education course delivered by Texas Tech University. HORT 843M is offered fall semester of odd-numbered calendar years.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Weeds and weed control methods in agronomic and horticultural crops and turf grass with chemical weed control. History of weed control, weed characteristics, weed competition, and methods of weed control including mechanical, cultural, biological, and chemical. Discussion of herbicides by family with regard to chemical structure, efficacy, mode and mechanism of action, crop selectivity, soil activity and persistence, and cost.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>4</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">4</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Environmental Nursery Production Practices</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>HORT</subject>
+        <courseNumber>844</courseNumber>
+        <courseLetter>A</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Admission to the Horticulture graduate certificate program; and permission.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Distance education course delivered by North Carolina State University. HORT 844A is offered spring semester of odd-numbered calendar years.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Cultural nursery crop production practices presented in consideration of current best management practices, conservation of resources, scientific research-based investigations related to nursery cultural practices, potential risks to nursery personnel, and off-site movement of airborne materials and effluents to surrounding areas and public watersheds.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Environmental Stress Physiology</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>HORT</subject>
+        <courseNumber>844</courseNumber>
+        <courseLetter>B</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Admission to the Horticulture graduate certificate program; and permission.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Distance education course delivered by North Carolina State University. HORT 844B is offered spring semester every year and fall semester of even-numbered calendar years.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Physiology of plant responses to environmental stresses, with emphasis on current research in selected physiological, molecular, and biochemical mechanisms for tolerance to environmental stresses, such as temperature extremes, drought, salt, pathogens and other plants.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>1</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">1</credit>
+    </credits>
+  </course>
+  <course>
+    <title>General Viticulture</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>HORT</subject>
+        <courseNumber>844</courseNumber>
+        <courseLetter>E</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Admission to the Horticulture graduate certificate program; and permission.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Distance education course delivered by North Carolina State University.  HORT 844E is offered spring semester of odd-numbered calendar years.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Aspects of grapes from vine anatomy to final products.  Cultivars, propagation, canopy management, diseases, weed control, physiology, anatomy, irrigation, wine production, climates and soils.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Woody Plant Growth and Development</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -4204,12 +4738,15 @@
         <courseNumber>899</courseNumber>
       </courseCode>
     </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <gradingType>pass/no pass only</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Admission to masters degree program and permission of major adviser</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Admission to masters degree program and permission of major adviser.</div>
     </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">HORT 899 is pass/no pass only.</div>
+    </notes>
     <campuses>
       <campus></campus>
     </campuses>
@@ -4369,13 +4906,13 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">AGRO 315</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Discussions of genetic mechanisms and behavior, with emphasis on plants. Topics include allelism, nonallelic gene interactions, linkage and recombination, inheritance involving the cytoplasm, incompatibility, and mutation.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Focus student learning on principles related to mendelian, population, and molecular genetics of plants including allelisms, nonallelic gene interaction, linkage and recombination, mode of inheritance, mutation, epigenetics, DNA-based makers and mapping techniques, inheritance of qualitative and quantitative traits, and plant transformation.</div>
     </description>
     <campuses>
       <campus></campus>
@@ -4389,11 +4926,57 @@
     <activities>
       <activity>
         <type>lec</type>
-        <hours>2</hours>
+        <hours>3</hours>
       </activity>
     </activities>
     <credits>
-      <credit type="Single Value">2</credit>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Plant Biology Portfolio and Assessment</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>AGRO</subject>
+        <courseNumber>92</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>HORT</subject>
+        <courseNumber>92</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>NRES</subject>
+        <courseNumber>92</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>pass/no pass only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Junior standing in Plant Biology degree program.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Required for graduation.  Pass/No Pass only.  Offered every Fall during the first 5 weeks.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Development of an experiential portfolio and completion of an online survey as part of assessment activities.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">0</credit>
     </credits>
   </course>
   <course>
@@ -4536,6 +5119,150 @@
     </credits>
   </course>
   <course>
+    <title>Genetics of Host-Parasite Interaction</title>
+    <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>AGRO</subject>
+        <courseNumber>963</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>BIOS</subject>
+        <courseNumber>963</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>HORT</subject>
+        <courseNumber>963</courseNumber>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>PLPT</subject>
+        <courseNumber>963</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">BIOS 820; and permission.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">BIOC 837; BIOS 312; and PLPT 801 or 802 recommended. PLPT 963 is offered odd-numbered calendar years.</div>
+    </notes>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Plant Virology</title>
+    <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>BIOS</subject>
+        <courseNumber>965</courseNumber>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>PLPT</subject>
+        <courseNumber>965</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>AGRO</subject>
+        <courseNumber>965</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>HORT</subject>
+        <courseNumber>965</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">PLPT 801 or 802; and permission.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">PLPT 865 is offered odd-numbered calendar years.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Virus molecular biology; virosphere; virus-vector relationships; plant resistance to virus infection economic impact and control of plant diseases by viruses.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Seminar in Plant Pathology</title>
+    <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>BIOS</subject>
+        <courseNumber>968</courseNumber>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>PLPT</subject>
+        <courseNumber>968</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>AGRO</subject>
+        <courseNumber>968</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>HORT</subject>
+        <courseNumber>968</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Permission.</div>
+    </prerequisite>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>1</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Per Semester Limit">1</credit>
+    </credits>
+  </course>
+  <course>
     <title>Seminar Presentation and Evaluation</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -4649,6 +5376,40 @@
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Admission to doctoral degree program and permission of supervisory committee chair</div>
     </prerequisite>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">24</credit>
+      <credit type="Per Career Limit">55</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Doctoral Dissertation</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>AGRO</subject>
+        <courseNumber>999</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>HORT</subject>
+        <courseNumber>999</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>pass/no pass only</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Admission to doctoral degree program and permission of supervisory committee chair.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">AGRO 999 is pass/no pass only.</div>
+    </notes>
     <campuses>
       <campus></campus>
     </campuses>

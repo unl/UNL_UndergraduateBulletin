@@ -1,6 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <courses xmlns="http://courseapproval.unl.edu/courses" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://courseapproval.unl.edu/courses /schema/courses.xsd">
   <course>
+    <title>Communication in the 21st Century</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>COMM</subject>
+        <courseNumber>101</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1141</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to the discipline of communication studies through a problem centered learning approach.  How communication theory can be applied to solve everyday problems in public, professional, and private lives through learning how to advocate, negotiate, and relate.  </div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+    <aceOutcomes>
+      <slo>2</slo>
+    </aceOutcomes>
+  </course>
+  <course>
     <title>Fundamentals of Human Communication</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -1366,16 +1404,12 @@
         <subject>COMM</subject>
         <courseNumber>400</courseNumber>
       </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>COMM</subject>
-        <courseNumber>800</courseNumber>
-      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1141</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Junior standing, COMM 200 and 201, or permission.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Junior standing, COMM 200 and COMM 201, or permission.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Major writers, works, and concepts involved in the rhetorical approach to the study of human communication.</div>
@@ -1990,11 +2024,8 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">COMM 200 and 201; and permission</div>
-    </prerequisite>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1141</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Theories of mass media, digital media, and culture as the basis for investigation of human communication in a variety of contexts and activities.</div>
     </description>
@@ -2015,31 +2046,6 @@
     </credits>
   </course>
   <course>
-    <title>Human Communication Theory</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>COMM</subject>
-        <courseNumber>859</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Evolution of human communication theory as a social science. Major writers, works, and concepts involved in the study of human communicative interaction.</div>
-    </description>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <activities/>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
     <title>Interpersonal Communication Theory</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -2048,11 +2054,8 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">COMM 200 and 201; and permission</div>
-    </prerequisite>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1141</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">In-depth exploration of interpersonal communication theory and research across contexts. How people interact to create, maintain, and dissolve relationships.</div>
     </description>
@@ -2085,36 +2088,6 @@
     <effectiveSemester>1118</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Principles and theories relevant to communication behavior within organizations which can be used to guide the way people communicate in organizations.</div>
-    </description>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <activities>
-      <activity>
-        <type>lec</type>
-        <hours>3</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Consulting and Training in Communication</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>COMM</subject>
-        <courseNumber>887</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Research on communication consulting and training. Design of consulting and training programs for use in organizational environments.</div>
     </description>
     <campuses>
       <campus></campus>
@@ -2201,11 +2174,8 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Will be required for all graduate students in communication studies.</div>
-    </notes>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1141</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Systematic introduction to the discipline of communication studies, focusing upon the various dimensions of scholarship essential to successful pursuit of an advanced degree in communication studies. Function of communication studies research, surveys major research trends of the discipline, examines epistemology from a human communication perspective, and helps to develop writing and research skills.</div>
     </description>
@@ -2226,6 +2196,41 @@
     </credits>
   </course>
   <course>
+    <title>Influential Books in Communication Studies</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>COMM</subject>
+        <courseNumber>905</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Study of Historical and foundational texts with opportunity to analyze texts tailored to students' specialization.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Classical Rhetoric</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -2235,11 +2240,8 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Permission</div>
-    </prerequisite>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1141</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">In-depth study of the evolution of rhetorical theory from its origin to St. Augustine, with emphasis on rhetorical theory in Classical Greece and Rome.</div>
     </description>
@@ -2269,11 +2271,8 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Permission</div>
-    </prerequisite>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1141</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">In-depth study of the evolution of rhetorical theory from the middle ages through the modern period, with emphasis on eighteenth- and nineteenth-century British rhetorical thought.</div>
     </description>
@@ -2303,11 +2302,8 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Permission</div>
-    </prerequisite>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1141</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">In-depth study of the development of rhetorical theory in the twentieth century.</div>
     </description>
@@ -2421,6 +2417,41 @@
     </credits>
   </course>
   <course>
+    <title>Social Identity and Intergroup Communication</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>COMM</subject>
+        <courseNumber>930</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1141</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to the theories, concepts, and research on intergroup communication, personal and social identity, and social categorization. Communicative processes associated with defining self and others including social comparison, prejudice and discrimination, and social conflict.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Special Topics in Rhetoric and Public Culture</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -2430,11 +2461,8 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Permission</div>
-    </prerequisite>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1141</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Investigation of current topics in the research on the relationship between cultural processes and human communication.</div>
     </description>
@@ -2608,7 +2636,7 @@
     </credits>
   </course>
   <course>
-    <title>Advanced Experimental Research</title>
+    <title>Introduction to Quantitative Research Methods</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>COMM</subject>
@@ -2616,10 +2644,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1141</effectiveSemester>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Experimental designs with an emphasis on assessing strengths and limitations of the various approaches. Individual research projects are planned, conducted, and reported.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to quantitative research methodology and analysis. Paradigmatic assumptions, reading and interpreting quantitative research studies, and quantitative research design and analysis. Posing research questions and/or hypotheses, quantitative measurement and study design, data collection, and univariate statistical analyses.</div>
     </description>
     <campuses>
       <campus></campus>
@@ -2707,10 +2735,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1141</effectiveSemester>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Perspectives in organizational communication range from a system-cultural-applied orientation to that of the paradigmatic. Various orientations, strengths and weaknesses of each, and looks at empirical and theoretical research representative of these views.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Examines post-positivist, interpretive and critical perspectives on organizational communication research and their use to creatively explore problematic communication situations.</div>
     </description>
     <campuses>
       <campus></campus>
@@ -2738,10 +2766,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1141</effectiveSemester>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Basic issues in the study of organizational communication range from differences in the structure of the organization itself to differences in the task activities of work units. How such differences influence the communication behavior of those involved.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Examines consequential problems of communication in and around contemporary organizations. Recent subjects include communicating and organizing for social change.</div>
     </description>
     <campuses>
       <campus></campus>
@@ -2769,10 +2797,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1141</effectiveSemester>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Current research in organizational communication over a two-year period. Emphasis on issues studied, the focus organizational communication research takes, and the methodology employed.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Explores current research foci of the faculty. Recent subjects include the development of a communication perspective on globalization.</div>
     </description>
     <campuses>
       <campus></campus>

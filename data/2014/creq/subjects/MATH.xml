@@ -147,7 +147,7 @@
     </credits>
   </course>
   <course>
-    <title>Calculus for Managerial and Social Sciences</title>
+    <title>Applied Calculus</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>MATH</subject>
@@ -156,8 +156,8 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1108</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Appropriate placement exam score or a grade of P (pass), or C or better in MATH 101.</div>
     </prerequisite>
@@ -188,7 +188,7 @@
     </aceOutcomes>
   </course>
   <course>
-    <title>Analytic Geometry and Calculus I</title>
+    <title>Calculus I</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>MATH</subject>
@@ -197,13 +197,13 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1091</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">One year high school geometry; two years algebra and one year precalculus-trig in high school, or MATH 102 or 103 or equivalent.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">One year high school geometry; two years algebra and one year precalculus-trig in high school, or MATH 102 or MATH 103 or equivalent.</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Math Placement Policy applies. Credit for both MATH 104 and 106 is not allowed.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Math Placement Policy applies. Credit for both MATH 104 and MATH 106 is not allowed.</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Functions of one variable, limits, differentiation, exponential, trigonometric and inverse trigonometric functions, maximum-minimum, and basic integration theory (Riemann sums) with some applications.</div>
@@ -276,7 +276,7 @@
     </aceOutcomes>
   </course>
   <course>
-    <title>Analytic Geometry and Calculus II</title>
+    <title>Calculus II</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>MATH</subject>
@@ -285,8 +285,8 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1138</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">A grade of P, C or better in MATH 106.</div>
     </prerequisite>
@@ -678,7 +678,7 @@
     </aceOutcomes>
   </course>
   <course>
-    <title>Analytic Geometry and Calculus III</title>
+    <title>Calculus III</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>MATH</subject>
@@ -687,8 +687,8 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1108</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">A grade of P, C or better in MATH 107.</div>
     </prerequisite>
@@ -1206,7 +1206,7 @@
     </aceOutcomes>
   </course>
   <course>
-    <title>Applied Linear Algebra (Matrix Theory)</title>
+    <title>Linear Algebra</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>MATH</subject>
@@ -1220,13 +1220,13 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">Not open to MA or MS students in mathematics or statistics</div>
     </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Fundamental concepts of linear algebra from the point of view of matrix manipulation with emphasis on concepts that are most important in applications. Includes solving systems of linear equations, vector spaces, inner products, determinants, eigenvalues, similarity of matrices, and Jordan Canonical Form.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Fundamental concepts of linear algebra, including properties of matrix arithmetic, systems of linearequations, vector spaces, inner products, determinants, eigenvalues and eigenvectors, and diagonalization.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -1357,48 +1357,6 @@
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Uniform convergence of sequences and series of functions, Green's theorem, Stoke's theorem, divergence theorem, line integrals, implicit and inverse function theorems, and general coordinate transformations.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities/>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Introduction to Partial Differential Equations</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>MATH</subject>
-        <courseNumber>324</courseNumber>
-        <courseGroup>Advanced Mathematics Courses</courseGroup>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>MATH</subject>
-        <courseNumber>824</courseNumber>
-        <courseGroup>Advanced Mathematics Courses</courseGroup>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1091</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">MATH 221.</div>
-    </prerequisite>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Not open to MA or MS students in mathematics or statistics.</div>
-    </notes>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Derivation of the heat, wave, and potential equations; separation of variables method of solution; solutions of boundary value problems by use of Fourier series, Fourier transforms, eigenfunction expansions with emphasis on the Bessel and Legendre functions; interpretations of solutions in various physical settings.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -1929,7 +1887,7 @@
     </credits>
   </course>
   <course>
-    <title>Introduction to Modern Algebra I</title>
+    <title>Group Theory</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>MATH</subject>
@@ -1938,13 +1896,13 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1091</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">MATH 310.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Elementary group theory and ring theory, including fundamental isomorphism theorems, ideals, quotient rings, domains, Euclidean or principal ideal rings, unique factorization, modules and vector spaces, including direct sum decompositions, bases, and dual spaces.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Elementary group theory, including cyclic, dihedral, and permutation groups; subgroups, cosets, normality, and quotient groups; fundamental isomorphism theorems; the theorems of Cayley, Lagrange, and Cauchy; and if time allows, Sylow's theorems.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -1970,7 +1928,7 @@
     </aceOutcomes>
   </course>
   <course>
-    <title>Introduction to Complex Variable Theory</title>
+    <title>Complex Analysis</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>MATH</subject>
@@ -1984,10 +1942,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Advanced introductory course for engineering, physical sciences, and mathematics majors. Complex numbers, functions of complex variables, analytic functions, complex integration, Cauchy's integral formulas, Taylor and Laurant series, calculus of residues and contour integration, conformal mappings, harmonic functions, and some applications.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Complex numbers, functions of complex variables, analytic functions, complex integration, Cauchy's integral formulas, Taylor and Laurent series, calculus of residues and contour integration, conformal mappings, harmonic functions. Applications of these concepts in engineering, physical sciences, and mathematics</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -2001,6 +1959,53 @@
       <term>Summer</term>
     </termsOffered>
     <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Introduction to Partial Differential Equations</title>
+    <courseCodes>
+      <courseCode type="grad tie-in">
+        <subject>MATH</subject>
+        <courseNumber>824</courseNumber>
+        <courseGroup>Advanced Mathematics Courses</courseGroup>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>MATH</subject>
+        <courseNumber>424</courseNumber>
+        <courseGroup>Advanced Mathematics Courses</courseGroup>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">MATH 221.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Not open to MA or MS students in mathematics or statistics.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Derivation of the heat, wave, and potential equations; separation of variables method of solution; solutions of boundary value problems by use of Fourier series, Fourier transforms, eigenfunction expansions with emphasis on the Bessel and Legendre functions; interpretations of solutions in various physical settings.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
@@ -2124,7 +2129,7 @@
     </aceOutcomes>
   </course>
   <course>
-    <title>Ordinary Differential Equations I</title>
+    <title>Ordinary Differential Equations</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>MATH</subject>
@@ -2134,52 +2139,13 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1108</effectiveSemester>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">MATH 221 or 221H.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Picard existence theorem, linear equations and linear systems, Sturm separation theorems, boundary value problems, phase plane analysis, stability theory, limit cycles, and periodic solutions.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Qualitative behaviour of solutions of systems of differential equations, including existence and uniqueness, extendibility, and periodic solutions. The Putzer algorithm, Floquet theory, matrix norms, linearization,stability theory, and period-doubling and chaos.</div>
     </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>lec</type>
-        <hours>3</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Ordinary Differential Equations II</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>MATH</subject>
-        <courseNumber>431</courseNumber>
-        <courseGroup>Advanced Mathematics Courses</courseGroup>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1108</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">MATH 430.</div>
-    </prerequisite>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">MATH 431 is a continuation of MATH 430.</div>
-    </notes>
     <campuses>
       <campus>UNL</campus>
     </campuses>
@@ -2255,13 +2221,13 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">MATH 314/814.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Mathematical theory of constrained and unconstrained optimization, conjugate direction and quasi-Newton methods, convex functions, Lagrange multiplier theory, constraint qualifications.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Mathematical theory of unconstrained and constrained optimization for nonlinear multivariate functions, particularly iterative methods, such as quasi-Newton methods, least squares optimization, and convex programming.  Computer implementation of these methods.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -2335,8 +2301,8 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">MATH 107 or permission.</div>
     </prerequisite>
@@ -2344,7 +2310,7 @@
       <div xmlns="http://www.w3.org/1999/xhtml">MATH 439/839 has a small laboratory component.</div>
     </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Discrete and continuous models in ecology, population models, predation and food webs, the spread of infectious diseases and life histories. Probability and random processes in nature, elementary models for molecular events, and pharamacokinetics.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Discrete and continuous models in ecology: population models, predation, food webs, the spread of infectious diseases, and life histories.  Elementary biochemical reaction kinetics; random processes in nature. Use of software for computation and graphics.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -2449,7 +2415,7 @@
     </credits>
   </course>
   <course>
-    <title>Introduction to the Theory of Numbers</title>
+    <title>Number Theory</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>MATH</subject>
@@ -2464,12 +2430,12 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1108</effectiveSemester>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">MATH 310 or 310H.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Arithmetic functions, congruences, reciprocity theorem, primitive roots, Diophantine equations, and continued fractions.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Fundamentals of number theory, including congruences, primality tests, factoring methods. Diophantine equations, quadratic reciprocity, continued fractions, and elliptic curves.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -4930,8 +4896,8 @@
       </activity>
     </activities>
     <credits>
-      <credit type="Single Value">6</credit>
       <credit type="Single Value">3</credit>
+      <credit type="Single Value">6</credit>
       <credit type="Per Career Limit">18</credit>
     </credits>
   </course>

@@ -696,7 +696,7 @@
     </credits>
   </course>
   <course>
-    <title>Corporations Seminar</title>
+    <title>Science and the Law Seminar</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>LAW</subject>
@@ -704,25 +704,25 @@
         <courseLetter>G</courseLetter>
       </courseCode>
     </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">LAW 632/G or permission; LAW 789/G is not a requirement</div>
-    </prerequisite>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1141</effectiveSemester>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Selected issues in corporate and securities law.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Analysis of the role of science in the law. This seminar will explore issues such as biotechnology, computers, scientific evidence, regulatory approval, antitrust, and environmental law to explore the intersection of science, technology, and the effect on the law and legal decision making.</div>
     </description>
     <campuses>
-      <campus></campus>
+      <campus>UNL</campus>
     </campuses>
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
     <activities/>
     <credits>
-      <credit type="Lower Range Limit">1</credit>
-      <credit type="Upper Range Limit">4</credit>
+      <credit type="Single Value">3</credit>
     </credits>
   </course>
   <course>
@@ -868,7 +868,7 @@
     <activities>
       <activity>
         <type>lec</type>
-        <hours>2.5</hours>
+        <hours>2</hours>
       </activity>
     </activities>
     <credits>
@@ -1554,7 +1554,7 @@
     </credits>
   </course>
   <course>
-    <title>Refugee and Asylum Law and Practice</title>
+    <title>Forced Migration and Human Rights</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>LAW</subject>
@@ -1563,13 +1563,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Completion of the survey course in immigration law is helpful, but not required</div>
-    </prerequisite>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Each student will be required to write a 15 page paper for the course. This paper requirement will not fulfill the Law College seminar requirement for graduation. Introduces students to US refugee and asylum law. Refugee issues in the context of domestic and international political environments. Asylum reform, gender-based persecution, persecution of lesbians and gays, deficiencies in international and domestic refugee law, and firm resettlement of displaced persons. With an interdisciplinary focus, interplay among political, social, economic, cultural and psychological phenomena as refugees, governments of host countries, and international and nongovernmental organizations interact in the context of ongoing crises around the world. Contrasting viewpoints discussed. Along with relevant substantive law and procedure, participation in simulations designed to teach practical skills necessary to an asylum and refugee law practice, including working with translators, interviewing and case advocacy. Asylum cases serve as the foundation for role play exercises.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">An examination of refugee issues in the context of domestic and international political environments.  Topics for examination will include human trafficking, asylum reform, gender-based persecution, deficiencies in international and domestic refugee law, and firm resettlement of displaced persons.  With an interdisciplinary focus, students will consider the interplay among political, social, economic, cultural and psychological phenomena as refugees, governments of host countries, and international and nongovernmental organizations interact in the context of ongoing crises around the world. Students who have previously taken Forced Migration and Human Rights: Refugees, Asylees, IDPs, Victims of Trafficking Seminar (Law 718) may not enroll in this course.</div>
     </description>
     <campuses>
       <campus></campus>
@@ -1577,8 +1574,18 @@
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
-    <activities/>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
+      <credit type="Single Value">3</credit>
       <credit type="Lower Range Limit">1</credit>
       <credit type="Upper Range Limit">4</credit>
     </credits>
@@ -2599,6 +2606,41 @@
     </credits>
   </course>
   <course>
+    <title>Public Health Law</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>LAW</subject>
+        <courseNumber>687</courseNumber>
+        <courseLetter>G</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Public Health is the term generally used to describe initiatives that focus on the health of entire populations. Public health generally is contrasted with health care, which most often focuses on the health needs of individuals. Public health initiatives can arise in the private sector, but because they focus on the health of entire populations, they very often originate in government, and are a part ofpublic rather than private law. Classic examples of public health at work at the control of epidemic diseases, the assurance of sanitation in food and water and of safety in workplaces, and the regulation of tobacco and alcohol. In all these areas and many more, the law is involved in protecting the public's health. Government initiatives aimed at protecting the public's health, however, may infringe on individual liberty. Students will study public health as an independent field, but the course will emphasize the law's involvement in implementing public health initiatives, and in setting limits on them.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Sex-Based Discrimination</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -2632,6 +2674,44 @@
     </activities>
     <credits>
       <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Workers' Compensation Law</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>LAW</subject>
+        <courseNumber>689</courseNumber>
+        <courseLetter>G</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">This course is closed to first year students.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Supplement students' understanding of tort principles and to acquire a better understanding of how work-place injuries and occupational diseases are handled within the legal system, with particular emphasis on Nebraska law, practice, and procedure. For graduates that might enter into a litigation pracftice, and for graduates who undertake to provide advice to business clients about insurance coverage and employment law. Obtain a better understanding of the interrelationships between tort law situations and work-place insuries/occupational diseases, including the interplay paid by private health insurers or government insurers such as Medicare, Medicaid, and the Veterans Administration. A brief overview of other work-place injury systems such as the Federal Employees' Compensation Act (FECA) and the Longshore and Harbor Workers' Compensation Act will be provided. Some practical application related to Nebraska workers' compensation law and suggested pleadings, trial, and settlement practice will be presented.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>1</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">1</credit>
     </credits>
   </course>
   <course>
@@ -5311,7 +5391,7 @@
     </credits>
   </course>
   <course>
-    <title>Legal Profession Seminar</title>
+    <title>JSD Research</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>LAW</subject>
@@ -5320,21 +5400,32 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1141</effectiveSemester>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">This course is part of participation in the J.S.D. program. Students must generate progress reports each semester.</div>
+    </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">When so designated by the instructor, this seminar meets the faculty’s requirement for a course in professional responsibility. Problems related to the American legal profession.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Research based on an aspect of law.</div>
     </description>
     <campuses>
-      <campus></campus>
+      <campus>UNL</campus>
     </campuses>
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
-    <activities/>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>ind</type>
+      </activity>
+    </activities>
     <credits>
-      <credit type="Lower Range Limit">1</credit>
-      <credit type="Upper Range Limit">4</credit>
+      <credit type="Single Value">6</credit>
+      <credit type="Per Career Limit">24</credit>
     </credits>
   </course>
   <course>

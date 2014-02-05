@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<courses xmlns="http://courseapproval.unl.edu/courses" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://courseapproval.unl.edu/courses /schema/courses.xsd">
+  <course>
+    <title>Molecular Genetics</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>BIOS</subject>
+        <courseNumber>420</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>BIOS</subject>
+        <courseNumber>820</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>VBMS</subject>
+        <courseNumber>820</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>MBIO</subject>
+        <courseNumber>420</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">BIOS 206.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Molecular basis of genetics. Gene structure and regulation, transposable elements, chromosome structure, DNA replication, and repair mechanisms and recombination.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+    <aceOutcomes>
+      <slo>10</slo>
+    </aceOutcomes>
+  </course>
+  <course>
+    <title>Microbial Physiology</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>BIOS</subject>
+        <courseNumber>440</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>BIOS</subject>
+        <courseNumber>840</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>VBMS</subject>
+        <courseNumber>840</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>MBIO</subject>
+        <courseNumber>440</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">BIOS 312 and either 313 or 314, or permission.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Molecular approaches to the study of prokaryotic cell structure and physiology, including growth, cell division, metabolism, and alternative microbial life styles.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Immunology</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>BIOS</subject>
+        <courseNumber>443</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>BIOS</subject>
+        <courseNumber>843</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>VBMS</subject>
+        <courseNumber>843</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>MBIO</subject>
+        <courseNumber>443</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">BIOS 206 and one semester organic chemistry.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Fundamental consideration of cellular and humoral mechanisms of immunity, the structure and function of immunoglobulins, antigen-antibody interactions; hypersensitivity; transplantation and tumor immunity; immune and autoimmune disorders.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+</courses>

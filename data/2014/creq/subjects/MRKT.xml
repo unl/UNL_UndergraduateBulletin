@@ -45,6 +45,47 @@
     </credits>
   </course>
   <course>
+    <title>Sales Communication</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MRKT</subject>
+        <courseNumber>257</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">MRKT 257 is "Letter Grade only".</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">This course provides an introduction to the fundamentals of sales communication including verbal, listening and written skills. Students learn the various components of the selling process, develop a written selling plan, and gain experience in executing each step of the selling process through role-play exercises.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+    <aceOutcomes>
+      <slo>2</slo>
+    </aceOutcomes>
+  </course>
+  <course>
     <title>Contemporary Marketing</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -138,10 +179,13 @@
     </courseCodes>
     <gradingType>letter grade only</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1138</effectiveSemester>
+    <effectiveSemester>1141</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Sophomore standing; 2.5 GPA; Business Qualified (MATH 104 or MATH 106 or MATH 107/107H or MATH 208/208H; ACCT 201 or ACCT 201H or RAIK 181H; ACCT 202 or ACCT 202H or RAIK 282H; ECON 211 or ECON 211H or RAIK 282H; ECON 212 or ECON 212H or RAIK 182H; ECON 215 or ECON 215H or STAT 218). Prereq for actuarial science, Raikes School and agribusiness majors: refer to exceptions for the requirements.</div>
     </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Credit toward the degree cannot be earned in both MRKT 300 and MRKT 341.</div>
+    </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">The marketing system, its relations with the socioeconomic system, and the influences of each upon the other. Evolution and present structure of marketing institutions and processes. Customer attributes and behavioral characteristics, and how a marketing manager responds to these in the design of marketing strategies, using research, product development, pricing, distribution structure, and promotion.</div>
     </description>
@@ -418,7 +462,7 @@
     </credits>
   </course>
   <course>
-    <title>Professional Selling</title>
+    <title>Advanced Professional Selling</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>MRKT</subject>
@@ -427,9 +471,9 @@
     </courseCodes>
     <gradingType>letter grade only</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">MRKT 341 and a marketing major.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">MRKT 257; admission to Center for Sales Excellence or Permission</div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">MRKT 357 is "Letter Grade only".</div>
@@ -456,6 +500,82 @@
     </activities>
     <credits>
       <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Sales Practicum I</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MRKT</subject>
+        <courseNumber>371</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Admission to Center for Sales Excellence or permission.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Provides guidelines and workshops on effective career strategies in sales. Exposes students to the organizational culture and opportunities provided by CSE partner companies and what they look for in potential hires. Students learn to put into practice their selling skills to obtain their dream job.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>1</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">1</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Sales Practicum II</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MRKT</subject>
+        <courseNumber>372</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Admission to Center for Sales Excellence or permission.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Reinforces and builds upon the fundamentals taught in MRKT 371 to enhance and create a personal brand. Teaches the necessary skills of networking, etiquette, negotiating, and presentations to best prepare students for launching a successful sales career.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>1</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">1</credit>
     </credits>
   </course>
   <course>
@@ -936,48 +1056,6 @@
     </credits>
   </course>
   <course>
-    <title>Strategic Database Marketing</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>MRKT</subject>
-        <courseNumber>450</courseNumber>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>MRKT</subject>
-        <courseNumber>850</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1111</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">For MRKT 450: ECON 215 or equivalent; MRKT 341 and 350. For MRKT 850: ECON 215 or equivalent.</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Theory and strategic use of large marketing databases. Advances in theory and practice. Concepts of customer relationship management, integration with electronic commerce systems, analytical techniques, and ethics and practices of customer data privacy.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>lec</type>
-        <hours>3</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
     <title>International Marketing</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -987,9 +1065,9 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1111</effectiveSemester>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">6 hrs marketing.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">6 hrs marketing and Junior standing.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Marketing problems of international business. Export marketing and domestic marketing of USA products abroad. Influence of international institutions, culture, stage of development, and geography; problems in terminology, product policy, promotion, distribution, research, pricing, and starting marketing operations.</div>
@@ -1016,21 +1094,106 @@
     </credits>
   </course>
   <course>
-    <title>Sales Management</title>
+    <title>Customer Relationship Management</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MRKT</subject>
+        <courseNumber>457</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1141</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">MRKT 257 and admission to Center for Sales Excellence.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">MRKT 457 is "Letter Grade only".</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">This course focuses on CRM as it applies to sales. It teaches how to use CRM systems to identifying good customer attrition; customer retention; and customer lifetime value. Students will also get hands on experience of using a CRM system to successfully plan and execute a sales plan.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Sales Force Management</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>MRKT</subject>
         <courseNumber>458</courseNumber>
       </courseCode>
     </courseCodes>
-    <gradingType>unrestricted</gradingType>
+    <gradingType>letter grade only</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1111</effectiveSemester>
+    <effectiveSemester>1141</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">MRKT 341.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">MRKT 341 or admission to Center for Sales Excellence.</div>
     </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">MRKT 458 is "Letter Grade only".</div>
+    </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Problems of the sales executive in building, directing, and controlling a force of outside sales personnel. Sales forecasting, territory design, expense control. Dealer relationships, merchandising and promotional plans, sales policies.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">This course covers issues faced by sales managers in building, directing, and leading a sales force. Topics include sales forecasting, territory structure design, hiring and managing salespeople, and compensation and performance evaluation systems.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Key Account Selling</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MRKT</subject>
+        <courseNumber>460</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">MRKT 257; MRKT 357; MRKT 457; and admission to Center for Sales Excellence.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">MRKT 460 is "Letter Grade only".</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Teaches how to segment key accounts, how to identify high-margin business opportunities, how to sell to complex enterprises, and how to manage a Key Account team. Students practice key account presentations through role-play exercises and make actual calls and presentations to businesses in the region.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -1272,6 +1435,44 @@
     </credits>
   </course>
   <course>
+    <title>Strategic Database Marketing</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MRKT</subject>
+        <courseNumber>850</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1141</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">GRBA 851 or ECON 817 or one or more graduate or undergraduate statistics classes that cover basic statistics through least-squares regression.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Theory and strategic use of large marketing databases. Advances in theory and practice. Concepts of customer relationship management, integration with electronic commerce systems, analytical techniques, and ethics and practices of customer data privacy.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Marketing and Globalization</title>
     <courseCodes>
       <courseCode type="crosslisting">
@@ -1385,6 +1586,82 @@
     <credits>
       <credit type="Lower Range Limit">6</credit>
       <credit type="Upper Range Limit">10</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Seminar in Marketing Communication Strategy</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MRKT</subject>
+        <courseNumber>921</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1141</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Permission.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">A, B, D, E, G, J</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Marketing Channels Topical Seminar</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MRKT</subject>
+        <courseNumber>931</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1141</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Permission.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">A, B, D, E, G, J</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
     </credits>
   </course>
   <course>
@@ -1601,6 +1878,117 @@
     <credits>
       <credit type="Lower Range Limit">1</credit>
       <credit type="Upper Range Limit">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Seminar in Special Topics</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MRKT</subject>
+        <courseNumber>998</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1141</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Permission.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">New topics announced prior to each term in which course is offered.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">(A, B, D, E, J, K)<br/>Seminar in current topics in marketing.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Second Year Qualifying Paper</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MRKT</subject>
+        <courseNumber>998</courseNumber>
+        <courseLetter>A</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1141</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Permission.</div>
+    </prerequisite>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Seminar in Special Topics</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MRKT</subject>
+        <courseNumber>998</courseNumber>
+        <courseLetter>B</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1141</effectiveSemester>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">New topics announced prior to each term in which course is offered.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Seminar in current topics in marketing.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
     </credits>
   </course>
   <course>

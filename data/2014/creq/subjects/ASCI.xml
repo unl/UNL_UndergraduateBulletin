@@ -153,6 +153,41 @@
     </credits>
   </course>
   <course>
+    <title>Introductory Companion Animal Biology</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ASCI</subject>
+        <courseNumber>151</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Domestication, anatomy, care, nutrition, reproduction and welfare of dogs, cats, rabbits, and other companion animals.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Web</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Human-Companion Animal Interactions</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -542,13 +577,13 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Sophomore standing.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Study and application of basic equitation principles for the novice rider. Basic horse handling practices and adapting dressage maneuvers toward Western and English performance excellence emphasized.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Study and application of basic equitation principles for the novice rider. Review of fundamental horse safety and horsemanship to include handling, grooming, equipping, riding western or English, and the relationship of riding to physical and mental well-being. Development of balanced seat, hands and posture at all the natural gaits of the horse. Emphasis will be on control of the horse through the use of the primary and secondary aids.  Welfare and communication considerations in order to have effective horse-human relationships.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -563,7 +598,11 @@
     <activities>
       <activity>
         <type>lab</type>
-        <hours>4</hours>
+        <hours>2</hours>
+      </activity>
+      <activity>
+        <type>lec</type>
+        <hours>1</hours>
       </activity>
       <activity>
         <type>rct</type>
@@ -926,10 +965,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ASCI 240, 250; CHEM 251.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">ASCI 240 or equivalent, CHEM 106 or equivalent.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Fundamentals of nutrition and feeding of domestic livestock, nutrients and nutrient requirements, characteristics of feedstuffs, methods of feeding, and the feed industry.</div>
@@ -1322,10 +1361,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>letter grade only</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1091</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Acceptance into the Nebraska Beef Industry Scholars (NBIS) program; ASCI 311E.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Acceptance into the Nebraska Beef Industry Scholars (NBIS) program; ASCI 311E, ALEC 417.</div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">ASCI 381 is 'Letter grade only'.</div>
@@ -1807,6 +1846,46 @@
     </credits>
   </course>
   <course>
+    <title>Genome Analysis</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ASCI</subject>
+        <courseNumber>432</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>ASCI</subject>
+        <courseNumber>832</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1141</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">AGRO 315 and BIOC 321 or equivalent.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Theoretical and practical aspects of: structure and function of eukaryotic genomes; genome sequencing and assembling, polymorphism and isoform detection and genotyping; gene and genome annotation; strategies used to identify genetic variants responsible for phenotypic differences; and personalized genomics, social and ethical aspects associated with genomic information.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>New Techniques in Reproductive Biology</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -1911,10 +1990,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Junior standing and ASCI 100. ASCI 320 and 341 recommended.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Senior standing or permission; ASCI 320, ASCI 330 or ASCI 341.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Light horse production. Nutrition, reproduction, management, housing, and principle usage of light horses.</div>
@@ -1941,6 +2020,9 @@
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
+    <aceOutcomes>
+      <slo>10</slo>
+    </aceOutcomes>
   </course>
   <course>
     <title>Livestock Management on Range and Pasture</title>
@@ -2132,10 +2214,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Senior standing or permission; ASCI 250; AECN 201. ASCI 210, 240, 320 and 330 recommended.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Senior standing or permission; ASCI 320; ASCI 330 or 341.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Integrated management specific to the beef cow-calf enterprise necessary to achieve biologic and economic efficiency.</div>
@@ -2214,10 +2296,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Senior standing or permission; ASCI 250, 320; AECN 201. ASCI 210, 240 recommended.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Senior standing or permission; ASCI 320.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Advanced preparation in the feeding of cattle for slaughter. Emphasis on the nutrition and management of feedlot cattle and related health and economic considerations. Covers the beef enterprise from weaning to market and relates closely to beef cow-calf production.</div>

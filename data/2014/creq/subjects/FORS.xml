@@ -9,13 +9,13 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1081</effectiveSemester>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">Register for FORS 120L to go with FORS 120 as an optional one credit hour lab.</div>
     </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">The United States legal system, taphonomy, criminalistics, forensic engineering, digital forensics, and behavioral sciences.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">The United States legal system, serology, DNA analysis, crime scene investigation, comparative analysis, digital forensics, and behavioral sciences.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -33,7 +33,7 @@
       </activity>
     </activities>
     <credits>
-      <credit type="Single Value">3</credit>
+      <credit type="Single Value">2</credit>
     </credits>
   </course>
   <course>
@@ -346,9 +346,9 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1111</effectiveSemester>
+    <effectiveSemester>1141</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">FORS 120 and 200.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">FORS 120 and FORS 200.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Concepts, techniques, analysis, and interpretation of photographic evidence.</div>
@@ -363,6 +363,9 @@
       <term>Fall</term>
     </termsOffered>
     <activities>
+      <activity>
+        <type>lab</type>
+      </activity>
       <activity>
         <type>lec</type>
         <hours>1</hours>
@@ -385,10 +388,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1108</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1141</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">FORS 120, 200, and 402/802.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">FORS 120, FORS 200, and FORS 402/FORS 802.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Advanced concepts, techniques, analysis, and interpretation of photographic evidence.</div>
@@ -403,6 +406,9 @@
       <term>Spring</term>
     </termsOffered>
     <activities>
+      <activity>
+        <type>lab</type>
+      </activity>
       <activity>
         <type>lec</type>
         <hours>1</hours>
@@ -425,10 +431,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1108</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1141</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">FORS 120 and 200.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">FORS 120 and FORS 200.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Documentation and interpretation of geometric bloodstains, calculating probable origins, and collecting blood as a source of DNA evidence.</div>
@@ -443,6 +449,9 @@
       <term>Fall</term>
     </termsOffered>
     <activities>
+      <activity>
+        <type>lab</type>
+      </activity>
       <activity>
         <type>lec</type>
         <hours>1</hours>
@@ -465,10 +474,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1108</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1141</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">FORS 120 and 200.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">FORS 120 and FORS 200.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Critical thinking, reasoning, investigative failure, resource management, and supervision in criminal investigation.</div>
@@ -483,6 +492,9 @@
       <term>Spring</term>
     </termsOffered>
     <activities>
+      <activity>
+        <type>lab</type>
+      </activity>
       <activity>
         <type>lec</type>
         <hours>1</hours>
@@ -623,26 +635,26 @@
   <course>
     <title>Human Remains in Forensic Science</title>
     <courseCodes>
-      <courseCode type="home listing">
+      <courseCode type="crosslisting">
         <subject>NRES</subject>
         <courseNumber>445</courseNumber>
       </courseCode>
-      <courseCode type="grad tie-in">
+      <courseCode type="crosslisting">
         <subject>NRES</subject>
         <courseNumber>845</courseNumber>
       </courseCode>
-      <courseCode type="crosslisting">
+      <courseCode type="home listing">
         <subject>FORS</subject>
         <courseNumber>445</courseNumber>
       </courseCode>
-      <courseCode type="crosslisting">
+      <courseCode type="grad tie-in">
         <subject>FORS</subject>
         <courseNumber>845</courseNumber>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1091</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1141</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">FORS 120.</div>
     </prerequisite>
@@ -734,9 +746,9 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1091</effectiveSemester>
+    <effectiveSemester>1141</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Senior standing and completion of FORS core requirements.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">FORS 401/FORS 401L or FORS 400/FORS 400L</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Application and integration of principles to address emerging issues involving forensic science.</div>
