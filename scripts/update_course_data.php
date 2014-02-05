@@ -7,17 +7,24 @@ if (file_exists(dirname(__FILE__).'/../config.inc.php')) {
     include_once dirname(__FILE__).'/../config.sample.php';
 }
 
-$latest = UNL_UndergraduateBulletin_Editions::getLatest();
+
+$edition = UNL_UndergraduateBulletin_Editions::getLatest();
+
+if (isset($_SERVER['argv'], $_SERVER['argv'][1])) {
+    $edition = UNL_UndergraduateBulletin_Edition::getByYear($_SERVER['argv'][1]);
+}
+
+echo 'Updating course data for '.$edition->year.PHP_EOL;
 
 echo 'Updating all course data file'.PHP_EOL;
 
-passthru('wget --no-check-certificate http://creq.unl.edu/courses/public-view/all-courses -O '.$latest->getCourseDataDir().'/all-courses.xml');
+passthru('wget --no-check-certificate http://creq.unl.edu/courses/public-view/all-courses -O '.$edition->getCourseDataDir().'/all-courses.xml');
 
 echo 'Now retrieving all courses by subject code.'.PHP_EOL;
-$handle = fopen($latest->getCourseDataDir().'/subject_codes.csv', 'r');
+$handle = fopen($edition->getCourseDataDir().'/subject_codes.csv', 'r');
 while (($subject = fgetcsv($handle, 1000, ",", "'")) !== false) {
     if ($data = file_get_contents('http://creq.unl.edu/courses/public-view/all-courses/subject/'.$subject[0])) {
-        file_put_contents($latest->getCourseDataDir().'/subjects/'.$subject[0].'.xml', $data);
+        file_put_contents($edition->getCourseDataDir().'/subjects/'.$subject[0].'.xml', $data);
     } else {
         echo 'Could not retrieve data for '.$subject[0].PHP_EOL;
     }
@@ -46,14 +53,14 @@ foreach ($courses as $course) {
     }
 }
 
-$courses->asXML($latest->getCourseDataDir().'/all-courses-min.xml');
+$courses->asXML($edition->getCourseDataDir().'/all-courses-min.xml');
 
 
-$courses = file_get_contents($latest->getCourseDataDir().'/all-courses-min.xml');
+$courses = file_get_contents($edition->getCourseDataDir().'/all-courses-min.xml');
 
 $courses = str_replace("    \n", "", $courses);
 
-file_put_contents($latest->getCourseDataDir().'/all-courses-min.xml', $courses);
+file_put_contents($edition->getCourseDataDir().'/all-courses-min.xml', $courses);
 
 
 
