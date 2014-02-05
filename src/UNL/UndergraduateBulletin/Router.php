@@ -70,6 +70,10 @@ class UNL_UndergraduateBulletin_Router
                 $options['view'] = 'plans';
                 $options['name'] = urldecode($matches[1]);
                 break;
+            case preg_match('/^major\/(.+)\/outcomes$/', $requestURI, $matches):
+                $options['view'] = 'outcomes';
+                $options['name'] = urldecode($matches[1]);
+                break;
             // Individual major major/Architecture
             case preg_match('/^major\/(.+)\/?$/', $requestURI, $matches):
                 $options['view'] = 'major';

@@ -41,6 +41,14 @@ UNL_UndergraduateBulletin_Controller::setReplacementData('breadcrumbs', '
         } catch (Exception $plans) {
             // no plan data could be found, $plans now contains an exception object
         }
+        try {
+            $outcomes = $context->getLearningOutcomes();
+            ?>
+            <li class="<?php echo ($controller->options['view']=='outcomes')?'selected':''; ?>"><a href="<?php echo $context->getRawObject()->getURL(); ?>/outcomes">Learning Outcomes</a></li>
+            <?php
+        } catch (Exception $outcomes) {
+            // no outcome data could be found, $outcomes now contains an exception object
+        }
         ?>
     </ul>
     <?php
@@ -50,6 +58,9 @@ UNL_UndergraduateBulletin_Controller::setReplacementData('breadcrumbs', '
             break;
         case 'plans':
             echo $savvy->render($plans);
+            break;
+        case 'outcomes':
+            echo $savvy->render($outcomes);
             break;
         default:
             echo $savvy->render($context->subjectareas);
