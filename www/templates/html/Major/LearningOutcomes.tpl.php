@@ -2,7 +2,7 @@
 	<div class="wdn-inner-wrapper">
     	<?php
         foreach ($context as $key => $concentration) {
-            echo '<h2 class="wdn-brand">' . $key . ' <span class="outcome">Learning Outcome</span></h2>';
+            echo '<h2 class="wdn-brand">Majors in ' . $key . ' will be able to:</h2>';
             echo '<div class="bp2-wdn-grid-set-halves wdn-grid-clear">';
             echo $savvy->render($concentration);
             echo '</div>';
