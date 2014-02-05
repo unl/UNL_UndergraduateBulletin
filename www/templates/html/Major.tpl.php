@@ -45,7 +45,7 @@ UNL_UndergraduateBulletin_Controller::setReplacementData('breadcrumbs', '
             echo $savvy->render($context->description);
             break;
         case 'plans':
-            echo $savvy->render($context->getFourYearPlans());
+            echo $savvy->render($plans);
             break;
         default:
             echo $savvy->render($context->subjectareas);
