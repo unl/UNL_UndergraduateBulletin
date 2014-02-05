@@ -33,11 +33,15 @@ UNL_UndergraduateBulletin_Controller::setReplacementData('breadcrumbs', '
         </li>
         <?php endif; ?>
         <?php
-        $plans = $context->getFourYearPlans();
-        if ($plans):
+        try {
+            $plans = $context->getFourYearPlans();
+            ?>
+            <li class="<?php echo ($controller->options['view']=='plans')?'selected':''; ?>"><a href="<?php echo $context->getRawObject()->getURL(); ?>/plans">4-Year Plans</a></li>
+            <?php
+        } catch (Exception $plans) {
+            // no plan data could be found, $plans now contains an exception object
+        }
         ?>
-        <li class="<?php echo ($controller->options['view']=='plans')?'selected':''; ?>"><a href="<?php echo $context->getRawObject()->getURL(); ?>/plans">4-Year Plans</a></li>
-        <?php endif; ?>
     </ul>
     <?php
     switch($context->options['view']) {

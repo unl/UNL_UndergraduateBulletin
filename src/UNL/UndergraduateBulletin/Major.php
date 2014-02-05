@@ -83,11 +83,7 @@ class UNL_UndergraduateBulletin_Major implements UNL_UndergraduateBulletin_Cache
      */
     public function getFourYearPlans()
     {
-        try {
-            return new UNL_UndergraduateBulletin_Major_FourYearPlans($this->options);
-        } catch (Exception $e) {
-            return false;
-        }
+        return new UNL_UndergraduateBulletin_Major_FourYearPlans($this->options);
     }
 
     function getColleges()
