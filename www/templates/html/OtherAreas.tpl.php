@@ -1,4 +1,4 @@
-<h3>Other Content Areas</h3>
+<h3>Academic Policies &amp; Other Content Areas</h3>
 <ul>
 <?php
 foreach ($context as $otherarea) {
