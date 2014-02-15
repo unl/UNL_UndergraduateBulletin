@@ -35,7 +35,6 @@ UNL_UndergraduateBulletin_CollegeList::$colleges = array(
     'EPAC'  => 'Exploratory & Pre-Professional Advising Center',
     'FPA'   => 'Fine & Performing Arts',
     'JMC'   => 'Journalism & Mass Communications',
-    'LIB'   => 'Libraries',
     'PACS'  => 'Public Affairs & Community Service',
 );
 
