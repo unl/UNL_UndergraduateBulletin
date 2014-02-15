@@ -83,9 +83,9 @@ class UNL_UndergraduateBulletin_Router
                 $options['view'] = 'colleges';
                 break;
             case preg_match('/^college\/(.*)\/majors/', $requestURI, $matches):
-            	$options['view'] = 'collegemajors';
-            	$options['name'] = urldecode($matches[1]);
-            	break;
+                $options['view'] = 'collegemajors';
+                $options['name'] = urldecode($matches[1]);
+                break;
             case preg_match('/^college\/(.*)/', $requestURI, $matches):
                 $options['view'] = 'college';
                 $options['name'] = urldecode($matches[1]);
