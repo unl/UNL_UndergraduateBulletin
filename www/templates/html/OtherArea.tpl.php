@@ -25,8 +25,8 @@ UNL_UndergraduateBulletin_Controller::setReplacementData('breadcrumbs', '
         </div>
         <div class="bp1-wdn-col-one-fourth">
             <?php
-            //$otherareas = new UNL_UndergraduateBulletin_OtherAreas();
-            //echo $savvy->render($otherareas);
+            $otherareas = new UNL_UndergraduateBulletin_OtherAreas();
+            echo $savvy->render($otherareas);
             ?>
         </div>
     </div>
