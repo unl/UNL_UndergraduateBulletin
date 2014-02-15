@@ -27,6 +27,8 @@ class UNL_UndergraduateBulletin_OtherAreas extends ArrayIterator  implements UNL
 
     function current()
     {
-        return new UNL_UndergraduateBulletin_OtherArea(array('name'=>UNL_UndergraduateBulletin_OtherArea_Description::getNameByFile(parent::current())));
+        $name = UNL_UndergraduateBulletin_EPUB_Utilities::getNameByFile(parent::current());
+
+        return new UNL_UndergraduateBulletin_OtherArea(array('name'=>$name));
     }
 }
