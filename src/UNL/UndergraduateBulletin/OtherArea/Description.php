@@ -11,11 +11,7 @@ class UNL_UndergraduateBulletin_OtherArea_Description
     {
         $this->otherarea = $otherarea;
 
-        $file = UNL_UndergraduateBulletin_Controller::getEdition()->getDataDir().'/other/'.$otherarea->name.'.xhtml';
-
-        if (!file_exists($file)) {
-            throw new Exception('No description for the "'.$otherarea->name.'" area.', 404);
-        }
+        $file = UNL_UndergraduateBulletin_EPUB_Utilities::getFileByName($otherarea->name, 'other', 'xhtml');
 
         $this->_xml = simplexml_load_string(file_get_contents($file));
 
