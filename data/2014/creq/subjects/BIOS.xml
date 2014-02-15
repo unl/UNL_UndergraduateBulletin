@@ -1225,10 +1225,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>pass/no pass only</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">12 hrs biological sciences with an average of B or above, and permission.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">LIFE 120 and LIFE 121</div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">P/N only.</div>
@@ -1247,7 +1247,12 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>1</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">1</credit>
       <credit type="Per Career Limit">3</credit>
@@ -1262,13 +1267,13 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1138</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">One year biological sciences, one year general chemistry, and one semester organic chemistry or one semester biochemistry.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">LIFE 120 and LIFE 121, one year general chemistry, and one semester organic chemistry or one semester biochemistry.</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">One semester organic chemistry and one semester biochemistry recommended. Parallel registration in BIOS 313 or 314 recommended.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">BIOS 206 recommended. Parallel registration in BIOS 313 or 314 recommended.</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Microbial cell structure, genetics, metabolic and biosynthetic activity, diversity, ecology and evolution including host-microbe interactions.</div>
@@ -1303,13 +1308,13 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">One year each of biological sciences and general chemistry; one semester organic chemistry or biochemistry; BIOS 312 or parallel.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">LIFE 120 and LIFE 121, one year general chemistry; one semester organic chemistry or one semester biochemistry</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">One semester of organic chemistry and one semester biochemistry recommended; BIOS 312 parallel recommended. Credit towards the degree may not be earned in both BIOS 313 and 314.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">BIOS 206 recommended. Parallel registration in BIOS 312 recommended. Credit towards the degree may not be earned in both BIOS 313 and 314.</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Microbiology techniques which include recombinant DNA methods used in industry, medicine and research.</div>
