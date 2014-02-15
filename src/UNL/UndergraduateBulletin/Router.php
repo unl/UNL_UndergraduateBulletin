@@ -90,6 +90,10 @@ class UNL_UndergraduateBulletin_Router
                 $options['view'] = 'college';
                 $options['name'] = urldecode($matches[1]);
                 break;
+            case preg_match('/^other\/(.*)/', $requestURI, $matches):
+                $options['view'] = 'otherarea';
+                $options['name'] = urldecode($matches[1]);
+                break;
             case preg_match('/^bulletinrules\/?$/', $requestURI, $matches):
                 $options['view'] = 'bulletinrules';
                 break;
