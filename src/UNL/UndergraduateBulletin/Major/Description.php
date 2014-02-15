@@ -1,10 +1,6 @@
 <?php
 class UNL_UndergraduateBulletin_Major_Description
 {
-    protected static $epub_files = array(
-        // data/majors/{FILENAME}.xhtml => title displayed
-    );
-    
     /**
      * The major associated with this description
      * @var UNL_UndergraduateBulletin_Major
@@ -124,51 +120,15 @@ class UNL_UndergraduateBulletin_Major_Description
             }
         }
     }
-    
-    static function getNameByFile($filename)
-    {
-        
-        $filename = str_replace(array(UNL_UndergraduateBulletin_Controller::getEdition()->getDataDir().'/majors/', '.xhtml'), '', $filename);
-        
-        if (isset(self::$epub_files[$filename])) {
-            return self::$epub_files[$filename];
-        }
-        return $filename;
-    }
-
-    /**
-     * Get the base portion of the filename by the major name
-     *
-     * @param string $name The major name
-     *
-     * @return string
-     */
-    public static function getFilenameBaseByName($name)
-    {
-        if ($new = array_search($name, self::$epub_files)) {
-            $name = $new;
-        }
-
-        return $name;
-    }
 
     static function getFileByName($name)
     {
-
-        $name = self::getFilenameBaseByName($name);
-
-        $xhtml = UNL_UndergraduateBulletin_Controller::getEdition()->getDataDir().'/majors/'.$name.'.xhtml';
-
-        if (!file_exists($xhtml)) {
-            throw new Exception('Sorry, no description exists for '.$name, 404);
-        }
-
-        return $xhtml;
+        return UNL_UndergraduateBulletin_EPUB_Utilities::getFileByName($name, 'majors', 'xhtml');
     }
 
     static function setEpubToTitleMap($array)
     {
-        self::$epub_files = $array;
+        UNL_UndergraduateBulletin_EPUB_Utilities::setEpubToTitleMap($array);
     }
 
     /**
@@ -178,6 +138,6 @@ class UNL_UndergraduateBulletin_Major_Description
      */
     static function getEpubToTitleMap()
     {
-        return self::$epub_files;
+        return UNL_UndergraduateBulletin_EPUB_Utilities::getEpubToTitleMap();
     }
 }

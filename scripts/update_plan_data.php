@@ -38,7 +38,7 @@ foreach ($plan_data as $plan) {
     // json encode the data and store it for this individual major
     $data = json_encode($plan);
 
-    $filename = UNL_UndergraduateBulletin_Major_Description::getFilenameBaseByName($plan->major);
+    $filename = UNL_UndergraduateBulletin_EPUB_Utilities::getFilenameBaseByName($plan->major);
 
     file_put_contents($edition->getDataDir().'/fouryearplans/'.$filename.'.json', $data);
 }

@@ -36,17 +36,7 @@ class UNL_UndergraduateBulletin_Major_FourYearPlans extends ArrayIterator
 
     static function getFileByName($name)
     {
-        if ($new = array_search($name, UNL_UndergraduateBulletin_Major_Description::getEpubToTitleMap())) {
-            $name = $new;
-        }
-
-        $json = UNL_UndergraduateBulletin_Controller::getEdition()->getDataDir().'/fouryearplans/'.$name.'.json';
-
-        if (!file_exists($json)) {
-            throw new Exception('Sorry, no plan data exists for '.$name, 404);
-        }
-
-        return $json;
+        return UNL_UndergraduateBulletin_EPUB_Utilities::getFileByName($name, 'fouryearplans', 'json');
     }
 
     /**

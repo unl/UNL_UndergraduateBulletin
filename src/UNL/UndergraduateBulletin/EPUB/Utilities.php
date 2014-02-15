@@ -9,6 +9,10 @@
  */
 class UNL_UndergraduateBulletin_EPUB_Utilities
 {
+    protected static $epub_files = array(
+        // data/majors/{FILENAME}.xhtml => title displayed
+    );
+    
     /**
      * Overall method which applies all formatting
      * 
@@ -290,5 +294,88 @@ class UNL_UndergraduateBulletin_EPUB_Utilities
             
             return preg_replace('/(' . $originalCourseNumeber . ')([^0-9A-Z]|$)/', $newCourseNumber . '$2', $matches[0]);
         });
+    }
+
+    /**
+     * Get the name of the content area by the filename
+     *
+     * The name of certain majors or content areas cannot be used in file names.
+     * This function translates the filename to the name of the content region
+     * 
+     * @return mixed
+     */
+    public static function getNameByFile($filename)
+    {
+        $filename = str_replace(array(
+                UNL_UndergraduateBulletin_Controller::getEdition()->getDataDir(),
+                '/majors/',
+                '/other/',
+                '.xhtml'), '', $filename);
+        
+        if (isset(self::$epub_files[$filename])) {
+            return self::$epub_files[$filename];
+        }
+
+        return $filename;
+    }
+
+    /**
+     * Set the filename map for content areas with special characters
+     *
+     * @param array $array
+     */
+    static function setEpubToTitleMap($array)
+    {
+        self::$epub_files = $array;
+    }
+
+    /**
+     * Get the epub filename to title map
+     * 
+     * @return array Associative array of [filename]=>[title]
+     */
+    static function getEpubToTitleMap()
+    {
+        return self::$epub_files;
+    }
+
+    /**
+     * Get the base portion of the filename by the major name
+     *
+     * @param string $name The major name
+     *
+     * @return string
+     */
+    public static function getFilenameBaseByName($name)
+    {
+        if ($new = array_search($name, self::getEpubToTitleMap())) {
+            $name = $new;
+        }
+
+        return $name;
+    }
+
+    /**
+     * Get the EPUB/xhtml content filename with the name
+     * @param string $name         Name of the major or other area
+     * @param string $content_type The content type to search, majors|other|fouryearplans
+     * @param string $extentsion   The filename extension to search for
+     *
+     * @throws Exception
+     *
+     * @return string
+     */
+    public static function getFileByName($name, $content_type = 'majors', $extension = 'xhtml')
+    {
+
+        $name = self::getFilenameBaseByName($name);
+
+        $xhtml = UNL_UndergraduateBulletin_Controller::getEdition()->getDataDir().'/'.$content_type.'/'.$name.'.'.$extension;
+
+        if (!file_exists($xhtml)) {
+            throw new Exception('Sorry, no '.$content_type.' information exists for '.$name, 404);
+        }
+
+        return $xhtml;
     }
 }
