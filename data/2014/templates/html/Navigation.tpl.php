@@ -13,13 +13,12 @@ $url = UNL_UndergraduateBulletin_Controller::getURL();
             <li><a href="<?php echo $url; ?>courses/">Course Abbreviations</a></li>
         </ul>
     </li>
-    <li><a href="<?php echo $url; ?>general">Academic Policies</a>
+    <li><a href="<?php echo $url; ?>other/Academic+Policies+%26+Procedures">Academic Policies</a>
         <ul>
-            <li><a href="<?php echo $url; ?>general#admission-categories">Admission Categories</a></li>
-            <li><a href="<?php echo $url; ?>general#undergraduate-transfer-credit-policy">Undergraduate Transfer Credit Policy</a></li>
-            <li><a href="<?php echo $url; ?>general#graduation-requirements">Graduation Requirements</a></li>
-            <li><a href="<?php echo $url; ?>general#academic-policies-and-procedures">Academic Policies and Procedures</a></li>
-            <li><a href="<?php echo $url; ?>general#glossary-of-academic-and-advising-terms">Glossary of Academic and Advising Terms</a></li>
+            <li><a href="<?php echo $url; ?>other/Admissions">Admission Categories</a></li>
+            <li><a href="<?php echo $url; ?>other/Transfer">Undergraduate Transfer Credit Policy</a></li>
+            <li><a href="<?php echo $url; ?>other/General+Education+Requirements+(ACE)">General Education (ACE)</a></li>
+            <li><a href="<?php echo $url; ?>other/Academic+Policies+%26+Procedures#glossary-of-academic-and-advising-terms">Glossary of Academic and Advising Terms</a></li>
             <li><a href="http://stuafs.unl.edu/ja/code" title="Go to the Student Code of Conduct">Student Code of Conduct</a></li>
         </ul>
     </li>
@@ -44,12 +43,12 @@ $url = UNL_UndergraduateBulletin_Controller::getURL();
     </li>
     <li><a href="<?php echo $url; ?>college/">Other Academic Units</a>
         <ul>
-            <li><a href="<?php echo $url; ?>college/Undergraduate+Education#general-education-requirements-ace">General Education (ACE)</a></li>
-            <li><a href="<?php echo $url; ?>college/Undergraduate+Education#jeffrey-s-raikes-school-of-computer-science-and-ma">Jeffrey S. Raikes School of Computer Science and Management</a></li>
+            <li><a href="<?php echo $url; ?>other/Jeffrey+S.+Raikes+School+of+Computer+Science+%26+Management">Jeffrey S. Raikes School of Computer Science and Management</a></li>
             <li><a href="<?php echo $url; ?>other/The%20Libraries">Libraries</a></li>
             <li><a href="<?php echo $url; ?>college/Public+Affairs+%26+Community+Service">Public Affairs &amp; Community Service</a></li>
-            <li><a href="<?php echo $url; ?>college/Reserve+Officers+Training+Corps+%28ROTC%29">Reserve Officers Training Corps (ROTC)</a></li>
-            <li><a href="<?php echo $url; ?>college/Undergraduate+Education#university-honors-program-">University Honors</a></li>
+            <li><a href="<?php echo $url; ?>other/Military+Science/Army+ROTC">Military Science/Army <abbr title="Reserve Officers Training Corps">ROTC</abbr></a>
+            <li><a href="<?php echo $url; ?>other/Naval+Science/Naval+ROTC">Naval Science/Naval <abbr title="Reserve Officers Training Corps">ROTC</abbr></a>
+            <li><a href="<?php echo $url; ?>other/University+Honors+Program">University Honors Program</a></li>
         </ul>
     </li>
 </ul>
