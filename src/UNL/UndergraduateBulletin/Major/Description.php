@@ -135,12 +135,27 @@ class UNL_UndergraduateBulletin_Major_Description
         }
         return $filename;
     }
-    
-    static function getFileByName($name)
+
+    /**
+     * Get the base portion of the filename by the major name
+     *
+     * @param string $name The major name
+     *
+     * @return string
+     */
+    public static function getFilenameBaseByName($name)
     {
         if ($new = array_search($name, self::$epub_files)) {
             $name = $new;
         }
+
+        return $name;
+    }
+
+    static function getFileByName($name)
+    {
+
+        $name = self::getFilenameBaseByName($name);
 
         $xhtml = UNL_UndergraduateBulletin_Controller::getEdition()->getDataDir().'/majors/'.$name.'.xhtml';
 
