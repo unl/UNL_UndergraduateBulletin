@@ -58,6 +58,7 @@ class UNL_UndergraduateBulletin_OtherArea implements UNL_UndergraduateBulletin_C
 
     public function getURL()
     {
-        return UNL_UndergraduateBulletin_Controller::getURL().'other/'.urlencode($this->name);
+        $url = UNL_UndergraduateBulletin_Controller::getURL().'other/'.urlencode($this->name);
+        return str_replace('%2F', '/', $url);
     }
 }
