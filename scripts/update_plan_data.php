@@ -13,6 +13,8 @@ if (isset($_SERVER['argv'], $_SERVER['argv'][1])) {
     $edition = UNL_UndergraduateBulletin_Edition::getByYear($_SERVER['argv'][1]);
 }
 
+UNL_UndergraduateBulletin_Controller::setEdition($edition);
+
 echo 'Updating four-year-plan data for '.$edition->year.PHP_EOL;
 
 $plan_feed = 'https://creq.unl.edu/fouryearplans/view/feed/';

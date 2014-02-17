@@ -14,6 +14,8 @@ if (isset($_SERVER['argv'], $_SERVER['argv'][1])) {
     $edition = UNL_UndergraduateBulletin_Edition::getByYear($_SERVER['argv'][1]);
 }
 
+UNL_UndergraduateBulletin_Controller::setEdition($edition);
+
 echo 'Updating course data for '.$edition->year.PHP_EOL;
 
 echo 'Updating all course data file'.PHP_EOL;
