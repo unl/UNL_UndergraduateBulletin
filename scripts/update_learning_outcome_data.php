@@ -13,7 +13,9 @@ if (isset($_SERVER['argv'], $_SERVER['argv'][1])) {
     $edition = UNL_UndergraduateBulletin_Edition::getByYear($_SERVER['argv'][1]);
 }
 
-echo 'Updating four-year-plan data for '.$edition->year.PHP_EOL;
+UNL_UndergraduateBulletin_Controller::setEdition($edition);
+
+echo 'Updating learning outcome data for '.$edition->year.PHP_EOL;
 
 $outcomes_feed = 'https://creq.unl.edu/learningoutcomes/view/feed';
 
@@ -38,6 +40,8 @@ foreach ($outcome_data as $outcome) {
     // json encode the data and store it for this individual major
     $data = json_encode($outcome);
 
-    file_put_contents($edition->getDataDir().'/outcomes/'.$outcome->major.'.json', $data);
+    $filename = UNL_UndergraduateBulletin_EPUB_Utilities::getFilenameBaseByName($outcome->major);
+
+    file_put_contents($edition->getDataDir().'/outcomes/'.$filename.'.json', $data);
 }
 
