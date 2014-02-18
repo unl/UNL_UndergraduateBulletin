@@ -1,6 +1,12 @@
-<div class="wdn-col">
+<div class="wdn-col <?php echo ($context->isSummerSemester())?'right':''; ?>">
 	<table class="wdn-courses">
-		<caption>Semester <?php echo $semester; ?> <span class="wdn-semester-season">&middot; <?php echo ($semester%2)?'Fall':'Spring'; ?></span></caption>
+		<caption>
+		<?php if (!$context->isSummerSemester()): ?>
+		Semester <?php echo $semester; ?> <span class="wdn-semester-season">&middot; <?php echo ($semester%2)?'Fall':'Spring'; ?></span>
+		<?php else: ?>
+		<span class="wdn-semester-season">Summer Semester</span>
+		<?php endif; ?>
+		</caption>
 		<thead>
 			<tr>
 				<th>Course</th>
