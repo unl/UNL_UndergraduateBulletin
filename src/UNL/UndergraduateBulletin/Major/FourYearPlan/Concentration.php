@@ -16,6 +16,19 @@ class UNL_UndergraduateBulletin_Major_FourYearPlan_Concentration extends ArrayIt
 
     public function current()
     {
-        return new UNL_UndergraduateBulletin_Major_FourYearPlan_Semester(parent::current());
+        return $this->buildSemesterObject(parent::key(), parent::current());
+    }
+
+    public function offsetGet($offset)
+    {
+        return $this->buildSemesterObject($offset, parent::offsetGet($offset));
+    }
+
+    protected function buildSemesterObject($semesterNumber, $data)
+    {
+        $semester = new UNL_UndergraduateBulletin_Major_FourYearPlan_Semester($data);
+
+        $semester->semesterNumber = $semesterNumber;
+        return $semester;
     }
 }
