@@ -4,7 +4,7 @@
 		<?php if (!$context->isSummerSemester()): ?>
 		Semester <?php echo $semester; ?> <span class="wdn-semester-season">&middot; <?php echo ($semester%2)?'Fall':'Spring'; ?></span>
 		<?php else: ?>
-		<span class="wdn-semester-season">Summer Semester</span>
+		<span class="wdn-semester-season">Summer Sessions</span>
 		<?php endif; ?>
 		</caption>
 		<thead>
