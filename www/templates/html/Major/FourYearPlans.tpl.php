@@ -10,13 +10,15 @@ UNL_UndergraduateBulletin_Controller::setReplacementData('head', '
             echo '<h2>' . $key . ' <span class="wdn-4yrplan">4-Year Plan</span></h2>';
             echo '<div class="bp2-wdn-grid-set-halves wdn-grid-clear">';
             echo $savvy->render($concentration);
-            echo '</div>
-            <div class="wdn-grid-set">
-            <div class="wdn-col-full concentration-notes">
-            <h3>Notes</h3>
-            <p>'.$concentration->notes.'</p>
-            </div>
-            </div>';
+            echo '</div>';
+            if (!empty($concentration->notes)) {
+    	        echo '<div class="wdn-grid-set">
+                <div class="wdn-col-full concentration-notes">
+                <h3>Notes</h3>
+                <p>'.nl2br($concentration->notes).'</p>
+                </div>
+                </div>';
+	        }
         }
         ?>
         <div class="wdn_notice alert">
