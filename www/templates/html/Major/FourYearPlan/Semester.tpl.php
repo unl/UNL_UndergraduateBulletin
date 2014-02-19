@@ -1,4 +1,4 @@
-<div class="wdn-col <?php echo ($context->isSummerSemester())?'right':''; ?>">
+<div class="wdn-col<?php echo ($context->isSummerSemester())?' wdn-pull-right':''; ?>">
 	<table class="wdn-courses">
 		<caption>
 		<?php if (!$context->isSummerSemester()): ?>
