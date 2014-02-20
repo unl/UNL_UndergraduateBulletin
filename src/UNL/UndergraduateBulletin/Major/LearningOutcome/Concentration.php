@@ -9,6 +9,11 @@ class UNL_UndergraduateBulletin_Major_LearningOutcome_Concentration extends Filt
 
     public function accept()
     {
+        $key = parent::key();
+        if ($key == 'notes') {
+            return false;
+        }
+
         $description = parent::current();
         return !empty($description);
     }
