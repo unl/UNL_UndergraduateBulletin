@@ -10,7 +10,7 @@ class UNL_UndergraduateBulletin_Major_FourYearPlans extends ArrayIterator
 
     public $options = array();
     
-    function __construct($options = array())
+    public function __construct($options = array())
     {
         if (isset($options['name'])) {
             $this->title = $options['name'];
@@ -22,7 +22,7 @@ class UNL_UndergraduateBulletin_Major_FourYearPlans extends ArrayIterator
         parent::__construct($this->concentrations);
     }
 
-    function getPlanData()
+    public function getPlanData()
     {
         $file = self::getFileByName($this->title);
         $data = array();
@@ -34,7 +34,7 @@ class UNL_UndergraduateBulletin_Major_FourYearPlans extends ArrayIterator
         return $data;
     }
 
-    static function getFileByName($name)
+    public static function getFileByName($name)
     {
         return UNL_UndergraduateBulletin_EPUB_Utilities::getFileByName($name, 'fouryearplans', 'json');
     }
@@ -49,7 +49,7 @@ class UNL_UndergraduateBulletin_Major_FourYearPlans extends ArrayIterator
         return UNL_UndergraduateBulletin_Major::getByName($this->title);
     }
 
-    function current()
+    public function current()
     {
         return new UNL_UndergraduateBulletin_Major_FourYearPlan_Concentration(array('id'=>parent::current()));
     }
