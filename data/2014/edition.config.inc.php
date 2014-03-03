@@ -18,7 +18,6 @@ UNL_UndergraduateBulletin_Major_Description::setEpubToTitleMap(array(
     'Modern Languages-French German & Russian Minor (ENGR)'                  => 'Modern Languages-French, German & Russian Minor (ENGR)',
     'Naval Science_Naval ROTC'                                               => 'Naval Science/Naval ROTC',
     'Nutrition_Exercise & Health Sciences'                                   => 'Nutrition, Exercise & Health Sciences',
-    'PreHealth_PreLaw & Combined Degree Prog'                                => 'Pre-Health, Pre-Law and Combined Degree Programs',
     'Public Policy Analysis_Program Eval Cert'                               => 'Public Policy Analysis & Program Evaluation Certification',
     'Textiles_Merchandising & Fashion Design_Communications'                 => 'Textiles, Merchandising & Fashion Design/Communications',
     'Textiles_Merchandising & Fashion Design Minor (CEHS)'                   => 'Textiles, Merchandising & Fashion Design Minor (CEHS)',
