@@ -19,6 +19,9 @@ class UNL_UndergraduateBulletin_Major_FourYearPlans extends ArrayIterator
 
         $this->set($this->getPlanData());
 
+        // Sort the concentrations alphabetically, requested by Brooke Glenn
+        ksort($this->concentrations);
+
         parent::__construct($this->concentrations);
     }
 
