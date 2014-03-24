@@ -1818,10 +1818,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1138</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">NUTR/BIOS 484/884; EDPS 459/859.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">NUTR/BIOS 484/884; EDPS 459/859 or STAT 218.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">In-depth analysis and development of the techniques and knowledges prerequisite for certification in adult fitness and cardiac rehabilitation as prescribed by the American College of Sports Medicine.</div>
@@ -2608,8 +2608,8 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Admission to Dietetic Internship</div>
     </prerequisite>
@@ -2622,9 +2622,15 @@
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
     <activities/>
     <credits>
-      <credit type="Single Value">6</credit>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">6</credit>
+      <credit type="Per Career Limit">6</credit>
     </credits>
   </course>
   <course>

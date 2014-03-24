@@ -1110,10 +1110,14 @@
         <subject>JOUR</subject>
         <courseNumber>490</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>JOUR</subject>
+        <courseNumber>890</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>letter grade only</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1141</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">JOUR 404.</div>
     </prerequisite>
@@ -1310,49 +1314,6 @@
       <credit type="Lower Range Limit">1</credit>
       <credit type="Upper Range Limit">4</credit>
       <credit type="Per Career Limit">4</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Global Multimedia Photojournalism Project</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>JOUR</subject>
-        <courseNumber>809</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>letter grade only</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1148</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">JOUR 404 Digital Photojournalism.</div>
-    </prerequisite>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Eight weeks during the semester are spent conducting story research; after the semester ends, students and faculty will travel to that country for three weeks to report the story.</div>
-    </notes>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Research and visit an emerging country and produce a multimedia story dealing with people's needs in that country.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>fld</type>
-        <hours>3</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">3</credit>
-      <credit type="Per Semester Limit">3</credit>
-      <credit type="Per Career Limit">6</credit>
     </credits>
   </course>
   <course>

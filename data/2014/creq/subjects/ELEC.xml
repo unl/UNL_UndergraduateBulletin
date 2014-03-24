@@ -231,12 +231,12 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1128</effectiveSemester>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ELEC 122 or CSCE 230, and CSCE 155E, or equivalent.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">ELEC 122 or CSCE 230, and CSCE 155E, or working knowledge of C programming.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Basic hardware and software concepts of embedded microprocessor systems and interfacing with other hardware components. Simple circuits are designed and drivers to run these circuits are written. Design and build hardware and write drivers in assembly language.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Basic hardware and software concepts of embedded microprocessor systems and interfacing with other hardware components. Simple circuits are designed and drivers to run them are written. Design and build hardware and write drivers in assembly or C programming languages.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -247,7 +247,6 @@
     <termsOffered>
       <term>Fall</term>
       <term>Spring</term>
-      <term>Summer</term>
     </termsOffered>
     <activities>
       <activity>
@@ -626,6 +625,43 @@
     </activities>
     <credits>
       <credit type="Single Value">2</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Electrical Engineering Internship or Cooperative Education</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ELEC</subject>
+        <courseNumber>350</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Open to Electrical Engineering majors only. Approval of faculty sponsor required.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">For Internships or Cooperatives primarily technical in nature lasting 4.5 months or greater. Weekly communication and/or final report required. Must be taken during or after the semester in which the Internship/Co‐op occurs.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>ind</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
     </credits>
   </course>
   <course>
@@ -1289,6 +1325,48 @@
     </credits>
   </course>
   <course>
+    <title>Electric Machines</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ELEC</subject>
+        <courseNumber>436</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>ELEC</subject>
+        <courseNumber>836</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">PHYS 212 &amp;amp; ELEC 216.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Provides a solid background in electric machine analysis, covering fundamental concepts, techniques, and methods for analysis and design. Discussion of transformers and presentation of some new systems and applications.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+      <campus>UNO</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Introduction to Electric Power Engineering</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -1395,6 +1473,48 @@
       <term>Summer</term>
     </termsOffered>
     <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Decision Analysis</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ELEC</subject>
+        <courseNumber>448</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>ELEC</subject>
+        <courseNumber>848</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">ELEC 305 or STAT 380</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Principles of engineering economy including time value of money, net present value and internal rate of return. Use of influence diagram and ecision tree to structure and analyze decision situations under uncertainty including use of stochastic dominance, value of information, and utility theory. Fundamentals of two-person matrix games including Nash equilibrium.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+      <campus>UNO</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>

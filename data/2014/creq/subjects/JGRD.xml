@@ -400,9 +400,9 @@
         <courseNumber>992</courseNumber>
       </courseCode>
     </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <gradingType>pass/no pass only</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Development of thesis topic may come from JGRD 992. JGRD 992 is designed for increasing competency in professional practice and depending on goals, may be concentrated in ADVT, BRDC, or NEWS. Translation of social, political, and economic affairs to mass audiences in both print and electronic media.</div>
     </description>
@@ -411,7 +411,13 @@
     </campuses>
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
+      <deliveryMethod>Web</deliveryMethod>
     </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
     <activities>
       <activity>
         <type>ind</type>

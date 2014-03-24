@@ -1349,13 +1349,13 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">One year each biological sciences and general chemistry; one semester organic chemistry or biochemistry; and BIOS 312 or parallel.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">LIFE 120 and LIFE 121, one year general chemistry; one semester organic chemistry or one semester biochemistry</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">One semester of organic chemistry and one semester biochemistry recommended. BIOS 312 parallel recommended.Credit towards the degree may not be earned in both BIOS 313 and 314.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">BIOS 206 recommended. Parallel registration in BIOS 312 recommended. Credit towards the degree may not be earned in both BIOS 313 and 314.</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Traditional microbiology techniques without recombinant DNA methods.</div>
@@ -1390,10 +1390,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">12 hrs BIOS; comparative anatomy recommended.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">BIOS 206</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Gametogenesis, fertilization, cleavage, early development of a number of vertebrates, and the development of specific organ systems. Includes a three-hour lab in which the morphological aspects of development are illustrated on slides and in which some modern techniques used in experimental mammalian development are introduced.</div>
@@ -1404,11 +1404,6 @@
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
     <activities>
       <activity>
         <type>lab</type>
@@ -2058,8 +2053,8 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1138</effectiveSemester>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">BIOS 206.</div>
     </prerequisite>
@@ -2072,14 +2067,14 @@
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
-      <credit type="Single Value">4</credit>
+      <credit type="Single Value">3</credit>
     </credits>
   </course>
   <course>
@@ -2551,10 +2546,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">12 hrs BIOS.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">LIFE 120 and LIFE 121.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Computer programming, using Perl, as applied to biological sciences, bioinformatics, computational biology, and genomics.</div>
@@ -2578,7 +2573,6 @@
     </activities>
     <credits>
       <credit type="Single Value">3</credit>
-      <credit type="Per Career Limit">3</credit>
     </credits>
   </course>
   <course>
@@ -3548,11 +3542,14 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1128</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">12 hours biological sciences.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">LIFE 120 and LIFE 121 and one additional 200-level life science course; or permission</div>
     </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Offered summers only at Cedar Point Biological Station</div>
+    </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Principles of epidemiology and the role in modern medicine. Combination of  theory and practice with living populations.</div>
     </description>
@@ -3650,13 +3647,13 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">12 hrs biological sciences or permission.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">LIFE 120 and LIFE 121</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">May also be offered at Cedar Point Biological Station.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">BIOS 207 or BIOS 220 recommended. May also be offered at Cedar Point Biological Station.</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Plant identification. Field study of the flora in various habitats. Field trips include grassland and woodland vegetation of this region.</div>
@@ -4117,13 +4114,13 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1138</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">12 hrs biological sciences or permission.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">LIFE 120 and LIFE 121</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Offered in the summer at Cedar Point Biological Station. Requires extensive field work and independent research project.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">BIOS 207 or BIOS 220 recommended. Offered summers only at Cedar Point Biological Station.</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Behavior of animals. Stresses methods for testing evolutionary hypotheses under field conditions with emphasis on foraging behavior, animal communication, and animal social systems.</div>
@@ -4135,9 +4132,20 @@
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
     <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lab</type>
+        <hours>4</hours>
+      </activity>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">4</credit>
     </credits>
@@ -4844,13 +4852,13 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">12 hrs biological sciences.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">LIFE 120 and LIFE 121</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Offered summers only at Cedar Point Biological Station.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">BIOS 207 or BIOS 220 recommended. Offered summers only at Cedar Point Biological Station.</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Animal host-parasite relationships, epizootiology, ecology, host distribution, classification, and life cycle stages of animal parasites.</div>
@@ -4862,9 +4870,20 @@
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
     <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lab</type>
+        <hours>4</hours>
+      </activity>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">4</credit>
     </credits>
@@ -4885,13 +4904,13 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">12 hrs biological sciences.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">LIFE 120 and LIFE 121</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Offered summers only at Cedar Point Biological Station.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">BIOS 207 or BIOS 220 recommended. Offered summers only at Cedar Point Biological Station.</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Field course in invertebrate community relations stressing on-site observation of community components, natural history, and interactions.</div>
@@ -4903,9 +4922,20 @@
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
     <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lab</type>
+        <hours>4</hours>
+      </activity>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">4</credit>
     </credits>
@@ -4931,10 +4961,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">12 hrs biological sciences.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">LIFE 120 and LIFE 121</div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">May also be offered at Cedar Point Biological Station.</div>
@@ -4948,9 +4978,6 @@
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-    </termsOffered>
     <activities>
       <activity>
         <type>lab</type>
@@ -4978,10 +5005,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1111</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">12 hrs biological sciences and permission.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">LIFE 120 and LIFE 121; and permission</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Topics vary by term.</div>
@@ -4997,7 +5024,12 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>1</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Lower Range Limit">1</credit>
       <credit type="Upper Range Limit">4</credit>
@@ -5017,13 +5049,13 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">12 hrs BIOS and permission.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">LIFE 120 and LIFE 121; and permission.</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Four credit hours may be counted toward the undergraduate BIOS major. Before registering, arrangements must be made with a faculty member in BIOS to reach an agreement on the scope and to determine the amount of credit for the project.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Four credit hours may be counted toward the undergraduate BIOS major. Before registering, arrangements must be made with a School of Biological Sciences faculty member to reach an agreement on the scope and to determine the amount of credit for the project.</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Independent study and laboratory or field investigation of a specific problem.</div>
@@ -5677,21 +5709,30 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Permission</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Topics include the following:<br/>A. Graduate Seminar	<br/>D.	Botany<br/>E.	Ecology<br/>G.	Cell Biology and Genetics<br/>M.	Microbiology<br/>P.	Parasitology<br/>W.	Evolutionary Biology<br/>Z.	Other Topics</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Topics include:<br/>A. Genetics, Cellular and Molecular Biology (GCMB)<br/>B. Behavioral Ecology<br/>E. Ecology, Evolution and Behavior (EEB)<br/>M. Microbiology<br/>P. Parasitology<br/>W. Evolutionary Biology<br/><br/></div>
     </description>
     <campuses>
-      <campus></campus>
+      <campus>UNL</campus>
     </campuses>
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
-    <activities/>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
     <credits>
       <credit type="Lower Range Limit">1</credit>
       <credit type="Upper Range Limit">3</credit>
