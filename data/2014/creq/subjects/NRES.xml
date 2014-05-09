@@ -6373,13 +6373,13 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">NRES 808 or equivalent or permission</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Required: AGRO 325/HORT 325 Introductory Plant Physiology or equivalent; Recommended: AGRO 406/806 NRES 406/806 HORT 406/806 Plant Ecophysiology or equivalent.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Experience in programming in a high-level computer language. Offered spring semester of even-numbered calendar years. Descriptive and explanatory crop growth and yield models studied in detail. Descriptive models focus on yield predictions using easily available inputs while the processes that lead to yield will be examined in explanatory models.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Understanding and use of crop simulation models and ability to build crop models. Studying principles and quantitative descriptions of crop production ecology.  Offered fall semester of odd-numbered calendar years.</div>
     </description>
     <campuses>
       <campus></campus>
@@ -6388,9 +6388,13 @@
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
     <termsOffered>
-      <term>Spring</term>
+      <term>Fall</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>

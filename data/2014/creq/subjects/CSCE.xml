@@ -658,7 +658,7 @@
       <div xmlns="http://www.w3.org/1999/xhtml">A grade of 'P' or 'C' or better in CSCE 155A, CSCE 155E, CSCE 155H, CSCE 155N, or CSCE 155T or equivalent knowledge of a high-level programming language.</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Laboratories supplement the lecture material and give an opportunity to practice concepts. ACE SLO 8 is met if CSCE 230 and either CSCE 486 or CSCE 488 are completed.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Laboratories supplement the lecture material and give an opportunity to practice concepts.</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Introduction to organization and structure of computer systems. Boolean logic, digital arithmetic, processor organization, machine language programming, input/output, memory organization, system support software, communication, and ethics.</div>
@@ -711,7 +711,7 @@
       <div xmlns="http://www.w3.org/1999/xhtml">Good standing in the University Honors Program or by invitation; a grade of 'P' or 'C' or better in CSCE 155A, CSCE 155E, CSCE 155H, CSCE 155N, or CSCE 155T or equivalent knowledge of a high-level programming language.</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 230H covers the same topics as CSCE 230, but in greater depth. Laboratories supplement the lecture material and give an opportunity to practice concepts. ACE SLO 8 is met if CSCE 230H and either CSCE 486 or CSCE 488 are completed.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 230H covers the same topics as CSCE 230, but in greater depth. Laboratories supplement the lecture material and give an opportunity to practice concepts.</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">For course description, see CSCE 230.</div>
@@ -925,14 +925,11 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Familiarity with one high-level programming language.</div>
     </prerequisite>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Required of computer science and engineering majors who do not know C, but who have knowledge of another high-level language.</div>
-    </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Introduction to the C programming language.</div>
     </description>
@@ -1596,9 +1593,9 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1111</effectiveSemester>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 230; CSCE 230L; CSCE 310 or CSCE 311.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 230; CSCE 310 or CSCE 311.</div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">Lab content reinforces concepts through practice.</div>
@@ -2415,9 +2412,9 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1131</effectiveSemester>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 230; CSCE 230L; CSCE 310 or CSCE 311; Prereq or Coreq: MATH/STAT 380 or ELEC 305.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 230; CSCE 310 or CSCE 311; Prereq or Coreq: MATH/STAT 380 or ELEC 305.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Architecture of single-processor (Von Neumann or SISD) computer systems. Evolution, design, implementation, and evaluation of state-of-the-art systems. Memory Systems, including interleaving, hierarchies, virtual memory and cache implementations; Communications and I/O, including bus architectures, arbitration, I/O processors and DMA channels; and Central Processor Architectures, including RISC and Stack machines, high-speed arithmetic, fetch/execute overlap, and parallelism in a single-processor system.</div>
@@ -2867,9 +2864,9 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1131</effectiveSemester>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 230; CSCE 230L; CSCE 310 or CSCE 311.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 230; CSCE 310 or CSCE 311.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Organization and structure of operating systems. Control, communication, and synchronization of concurrent processes. Processor and job scheduling. Memory organization and management including paging, segmentation, and virtual memory. Resource management. Deadlock avoidance, detection, recovery. File system concepts and structure. Protection and security. Substantial programming.</div>
@@ -3080,9 +3077,9 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1111</effectiveSemester>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 230; CSCE 230L; CSCE 310 or CSCE 311; MATH/STAT 380 or ELEC 305.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 230; CSCE 310 or CSCE 311; MATH/STAT 380 or ELEC 305.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Introduction to the architecture of communication networks and the rudiments of performance modeling. Circuit switching, packet switching, hybrid switching, protocols, local and metro area networks, wide area networks and the Internet, elements of performance modeling, and network programming. Network security, asynchronous transfer mode (ATM), optical, wireless, cellular, and satellite networks, and their performance studies.</div>

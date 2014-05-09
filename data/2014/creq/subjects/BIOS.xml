@@ -2098,10 +2098,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1151</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">BIOS 101 and 101L, or 102 or 112; BIOS 213 or ASCI 240. BIOS 315 recommended.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">BIOS 101 and 101L or LIFE 120 and 120L or BIOS 112; BIOS 213 or ASCI 240. BIOS 315 recommended.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Microscopic anatomy of the tissues and organs of major vertebrate species, including humans. Normal cellular arrangements of tissues and organs as related to their macroscopic anatomy and function, with reference to sub-cellular characteristics and biochemical processes. Functional relationships among cells, tissues, organs and organ systems, contributory to organismal well being. General introduction to pathological processes and principles underlying some diseases.</div>
@@ -2494,6 +2494,46 @@
     </credits>
   </course>
   <course>
+    <title>Systems Biology</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>BIOS</subject>
+        <courseNumber>426</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>BIOS</subject>
+        <courseNumber>826</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1151</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">LIFE 120 and LIFE 121, or BIOS 101 or equivalent; STAT 218 or equivalent.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">BIOS 206 and CSCE 155T are recommended, but not required.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Fundamentals of the analysis of high throughput experiments to understand complex biological systems. Principles and methods such as next generation sequencing, protein-protein interaction networks, regulatory networks, and biological data mining and integration. Emerging research in new biotechnology and data analysis in biomedical and life sciences.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Practical Bioinformatics Laboratory</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -2625,7 +2665,7 @@
     </aceOutcomes>
   </course>
   <course>
-    <title>Biomolecules and Metabolism</title>
+    <title>Structure and Metabolism</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>BIOC</subject>
@@ -2653,16 +2693,16 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1141</effectiveSemester>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CHEM 252 or CHEM 262 with a grade of C or better. LIFE 120 recommended.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">CHEM 252 or CHEM 262 with a grade of C or better. LIFE 120 and BIOS 206 are recommended.</div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">First course of a two-semester, comprehensive biochemistry course sequence.</div>
     </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Structure and function of proteins, nucleic acids, carbohydrates and lipids; nature of enzymes; major metabolic pathways; and biochemical energy production.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Structure and function of proteins, nucleic acids, carbohydrates and lipids; nature of enzymes; major metabolic pathways of catabolism; and biochemical energy production.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -2677,11 +2717,11 @@
     <activities>
       <activity>
         <type>lec</type>
-        <hours>4</hours>
+        <hours>3</hours>
       </activity>
     </activities>
     <credits>
-      <credit type="Single Value">4</credit>
+      <credit type="Single Value">3</credit>
     </credits>
   </course>
   <course>
@@ -2712,13 +2752,13 @@
     <dfRemoval>true</dfRemoval>
     <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">BIOC 431/831 with a grade of C or better.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">BIOC 431/831 with a grade of C or better, BIOS 206</div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">Continuation of BIOC 431/831.</div>
     </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Structural and biochemical aspects of DNA replication and gene expression, and biotechnology.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Major metabolic pathways of anabolism, structural and biochemical aspects of biological information flow and use in biotechnology.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -2733,11 +2773,11 @@
     <activities>
       <activity>
         <type>lec</type>
-        <hours>2</hours>
+        <hours>3</hours>
       </activity>
     </activities>
     <credits>
-      <credit type="Single Value">2</credit>
+      <credit type="Single Value">3</credit>
     </credits>
   </course>
   <course>
