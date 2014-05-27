@@ -145,7 +145,7 @@
                 <p>The Explore Center provides an academic home for students who have not decided upon a major. The Center also provides advising for students interested in Pre-Professional (pre-health and pre-law) programs.</p>
                 <ul class="button-list reset-list">
                     <li><a class="pill-button" href="major/Undeclared">Undecided Students</a></li>
-                    <li><a class="pill-button" href="major/Pre-Health">Pre-Health</a></li>
+                    <li><a class="pill-button" href="major/Pre-Health+(EC)">Pre-Health</a></li>
                     <li><a class="pill-button" href="major/Pre-Law+(EC)">Pre-Law</a></li>
                 </ul>
             </div>
