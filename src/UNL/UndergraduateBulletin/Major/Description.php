@@ -41,7 +41,11 @@ class UNL_UndergraduateBulletin_Major_Description
             throw new Exception('Could not open ' . $file, 404);
         }
         $simplexml = simplexml_load_string($xhtml);
-        
+
+        if (!$simplexml) {
+            throw new Exception('The file '.$file.' could not be parsed. Check for XML validity.', 500);
+        }
+
         // Fetch all namespaces
         $namespaces = $simplexml->getNamespaces(true);
         $simplexml->registerXPathNamespace('default', $namespaces['']);
