@@ -19,7 +19,7 @@
 		    foreach ($context as $course): ?>
 			<tr class="wdn-course-row">
 				<td class="wdn-course">
-				    <span class="wdn-course-id wdn-block"> <?php echo $course['course']; ?> </span>
+				    <span class="wdn-course-id wdn-block"> <?php echo UNL_UndergraduateBulletin_EPUB_Utilities::addCourseLinks($course['course']); ?> </span>
 				    <span class="wdn-course-title wdn-block"> <?php echo $course['title']; ?> </span>
 				</td>
 				<td class="wdn-course-credits"><span class="wdn-course-credit-hours wdn-center wdn-block"> <?php echo $course['hours']; ?> </span> <span
