@@ -11,26 +11,6 @@ The `www` dir is where the web files are stored, and should be the served root.
 Copy the `www/sample.htaccess` to `www/.htaccess` and configure as necessary.
 Copy the `config.sample.php` to `config.inc.php`.
 
-
-## THE DATA
-
-### Course Information
-Course data is pulled from the creq.unl.edu web service and is cached within 
-the `data/creq` directory. Run the `update_course_data.php` script to retrieve the latest course
-data.
-
-### Four Year Plans & Learning Outcomes
-
-The Four Year Plan and Learning Outcome information comes from the Curriculum Request system as JSON data.
-Run the `update_plan_data.php` or `update_learning_outcome_data.php` script to grab the latest information.
-
-### College & Major Requirements Text
-College, major, and minor information is stored in the `data` directory.
-
-The XHTML files are edited through the Curriculum Request system, [creq.unl.edu](https://creq.unl.edu/).
-
-The original source of these files was epub exports from Adobe InDesign.
-
 ## EDITION INFORMATION
 
 Every edition is stored in a separate `data` directory, corresponding to the year of the fall term.
@@ -52,6 +32,25 @@ Edit this file with the information on which bulletins exist, and which is the l
 Once the new edition has been created, notify the Curriculum Request team.
 
 Edits to the upcoming edition will come through in Pull Requests from the [Curriculum Request repo](https://github.com/unl-creq/UNL_UndergraduateBulletin/).
+
+## THE DATA
+
+### Course Information
+Course data is pulled from the creq.unl.edu web service and is cached within 
+the `data/creq` directory. Run the `update_course_data.php` script to retrieve the latest course
+data.
+
+### Four Year Plans & Learning Outcomes
+
+The Four Year Plan and Learning Outcome information comes from the Curriculum Request system as JSON data.
+Run the `update_plan_data.php` or `update_learning_outcome_data.php` script to grab the latest information.
+
+### College & Major Requirements Text
+College, major, and minor information is stored in the `data` directory.
+
+The XHTML files are edited through the Curriculum Request system, [creq.unl.edu](https://creq.unl.edu/).
+
+The original source of these files was epub exports from Adobe InDesign.
 
 ## CACHED OUTPUT
 
