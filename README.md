@@ -122,3 +122,14 @@ Four-year-plan data is available in JSON and partial HTML output:
 The Learning outcome data is available in partial HTML output:
 
 * http://bulletin.unl.edu/undergraduate/major/Accounting/outcomes?format=partial
+
+## Tests
+
+To run the test suite, use PEAR, Pyrus, or PHPUnit.
+```bash
+phpunit tests
+pyrus run-phpt -r tests
+pear run-tests -r tests
+```
+
+Travis-CI is connected to the main GitHub repository. and will run automatically for pull requests and pushes to the master branch.
