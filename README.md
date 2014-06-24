@@ -37,7 +37,7 @@ Edits to the upcoming edition will come through in Pull Requests from the [Curri
 
 ### Course Information
 Course data is pulled from the creq.unl.edu web service and is cached within 
-the `data/creq` directory. Run the `update_course_data.php` script to retrieve the latest course
+the `data/[year]/creq` directory. Run the `update_course_data.php` script to retrieve the latest course
 data.
 
 ### Four Year Plans & Learning Outcomes
@@ -46,9 +46,12 @@ The Four Year Plan and Learning Outcome information comes from the Curriculum Re
 Run the `update_plan_data.php` or `update_learning_outcome_data.php` script to grab the latest information.
 
 ### College & Major Requirements Text
-College, major, and minor information is stored in the `data` directory.
+College, major, and minor information is stored in the `data/[year]/` directory.
 
 The XHTML files are edited through the Curriculum Request system, [creq.unl.edu](https://creq.unl.edu/).
+
+There is a one-to-one mapping between each Major/Minor and the College it belongs to.
+The college association is contained within the "Quick Points" section of the file.
 
 The original source of these files was epub exports from Adobe InDesign.
 
