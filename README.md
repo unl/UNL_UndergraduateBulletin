@@ -29,9 +29,7 @@ There is a static file which contains the list of all the editions, and which on
 published edition: `src/UNL/UndergraduateBulletin/Editions.php`
 Edit this file with the information on which bulletins exist, and which is the latest.
 
-Once the new edition has been created, notify the Curriculum Request team.
-
-Edits to the upcoming edition will come through in Pull Requests from the [Curriculum Request repo](https://github.com/unl-creq/UNL_UndergraduateBulletin/).
+Once the new edition has been created, notify the Curriculum Request team (Nick Barry, Casey Nugent).
 
 ## THE DATA
 
@@ -49,6 +47,11 @@ Run the `update_plan_data.php` or `update_learning_outcome_data.php` script to g
 College, major, and minor information is stored in the `data/[year]/` directory.
 
 The XHTML files are edited through the Curriculum Request system, [creq.unl.edu](https://creq.unl.edu/).
+
+Once edits have been approved in the [Curriculum Request System](http://creq.unl.edu/),
+a Pull Request will be opened from the corresponding branch on the
+[Curriculum Request fork](https://github.com/unl-creq/UNL_UndergraduateBulletin/).
+If all the Travis-CI tests pass, that's a good indication that the changes can be merged in.
 
 There is a one-to-one mapping between each Major/Minor and the College it belongs to.
 The college association is contained within the "Quick Points" section of the file.
