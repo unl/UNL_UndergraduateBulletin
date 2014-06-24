@@ -19,16 +19,6 @@ Course data is pulled from the creq.unl.edu web service and is cached within
 the `data/creq` directory. Run the `update_course_data.php` script to retrieve the latest course
 data.
 
-The XML follows a fairly straightforward schema. This application provides web services,
-tied to each yearly bulletin/catalog edition, since the requirements and course descriptions change.
-
-* http://bulletin.unl.edu/undergraduate/courses/TMFD/101
-* http://bulletin.unl.edu/undergraduate/courses/TMFD/101?format=xml
-* http://bulletin.unl.edu/undergraduate/courses/TMFD/101?format=json
-* http://bulletin.unl.edu/undergraduate/courses/TMFD/101?format=partial
-
-The "partial" output allows individual sites to pull in the content via an XMLHTTP request, and inject that HTML directly within their page(s). We send Cross Origin Resource Sharing headers, so the content can be included across different domains.
-
 ### Four Year Plans & Learning Outcomes
 
 The Four Year Plan and Learning Outcome information comes from the Curriculum Request system as JSON data.
@@ -93,3 +83,29 @@ channel pear.unl.edu:
 
 To upgrade an individual package, use:
 `php pyrus.phar includes upgrade unl/UNL_Autoload`
+
+## API Information
+
+### Course Data
+The XML follows a fairly straightforward schema. This application provides web services,
+tied to each yearly bulletin/catalog edition, since the requirements and course descriptions change.
+
+* http://bulletin.unl.edu/undergraduate/courses/TMFD/101
+* http://bulletin.unl.edu/undergraduate/courses/TMFD/101?format=xml
+* http://bulletin.unl.edu/undergraduate/courses/TMFD/101?format=json
+* http://bulletin.unl.edu/undergraduate/courses/TMFD/101?format=partial
+
+The "partial" output allows individual sites to pull in the content via an XMLHTTP request, and inject that HTML directly within their page(s). We send Cross Origin Resource Sharing headers, so the content can be included across different domains.
+
+### Four-Year-Plan Data
+
+Four-year-plan data is available in JSON and partial HTML output:
+
+* http://bulletin.unl.edu/undergraduate/major/Accounting/plans?format=xml
+* http://bulletin.unl.edu/undergraduate/major/Accounting/plans?format=partial
+
+### Learning Outcome data
+
+The Learning outcome data is available in partial HTML output:
+
+* http://bulletin.unl.edu/undergraduate/major/Accounting/outcomes?format=partial
