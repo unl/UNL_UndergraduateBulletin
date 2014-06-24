@@ -13,8 +13,8 @@ Copy the `config.sample.php` to `config.inc.php`.
 
 ## EDITION INFORMATION
 
-Every edition is stored in a separate `data` directory, corresponding to the year of the fall term.
-The 2012 directory is for the 2012-2013 bulletin year.
+Every edition is stored in a separate `data/[year]` directory, corresponding to the year of the fall term.
+The `data/2012` directory is for the 2012-2013 bulletin year.
 
 ### New Editions
 
