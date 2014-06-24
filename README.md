@@ -5,7 +5,7 @@ This is the source for the [UNL Undergraduate Bulletin website](http://bulletin.
 ## SETUP
 
 Required:
-PHP 5.3 & Phar extension
+PHP 5.3
 
 The `www` dir is where the web files are stored, and should be the served root.
 Copy the `www/sample.htaccess` to `www/.htaccess` and configure as necessary.
