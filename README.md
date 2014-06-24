@@ -58,6 +58,14 @@ The college association is contained within the "Quick Points" section of the fi
 
 The original source of these files was epub exports from Adobe InDesign.
 
+### Major to Subject Code Mapping
+
+Every major/minor can have subject codes associated with it. These subject codes are displayed in a tab on the major information page.
+
+Sample: http://bulletin.unl.edu/undergraduate/major/Accounting/courses
+
+The `data/[year]/major_to_subject_code.csv` file is where these associations come from. Once any edits to this file have been made, run the `scripts/major_to_subject_code.php` script to create a serialized copy of this data in `data/[year]/major_to_subject_code.php.ser`.
+
 ## CACHED OUTPUT
 
 All output is cached within  a temp directory, such as 
