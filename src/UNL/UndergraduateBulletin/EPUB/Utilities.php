@@ -110,7 +110,7 @@ class UNL_UndergraduateBulletin_EPUB_Utilities
                 . ")"
                 . "([0-9]{2,3}[A-Z]?)   # course number, with optional letter \n"
             . ")+"
-            . "([\.\s\<\,\;\/\)]|$)     # characters which signal the end of a course sequence \n"
+            . "\b(?!<\w)     # the end of a word and not the start of HTML \n"
             . "/x",
             $callback, $text);
 
