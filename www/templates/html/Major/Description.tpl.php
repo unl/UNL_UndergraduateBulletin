@@ -34,7 +34,7 @@
         </div>
     </div>
     <div class="bp1-wdn-col-one-fourth">
-        <table class="major_quick_points zentable cool" summary="Quick points about the <?php echo $context->major->title; ?> major/program.">
+        <table class="major_quick_points zentable cool">
             <caption>Quick points about the <?php echo $context->major->title; ?> major/program.</caption>
             <thead>
                 <tr>
