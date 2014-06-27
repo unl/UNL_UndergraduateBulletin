@@ -193,14 +193,18 @@
   <course>
     <title>Fluid Mechanics</title>
     <courseCodes>
-      <courseCode type="home listing">
+      <courseCode type="crosslisting">
         <subject>CIVE</subject>
+        <courseNumber>310</courseNumber>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>MECH</subject>
         <courseNumber>310</courseNumber>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1125</effectiveSemester>
+    <effectiveSemester>1151</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">MECH 373; MATH 221.</div>
     </prerequisite>
@@ -208,7 +212,7 @@
       <div xmlns="http://www.w3.org/1999/xhtml">Parallel: MECH 200.</div>
     </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">For description see MECH 310.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Fluid statics, equations of continuity, momentum, and energy dimensional analysis and dynamic similitude. Applications to: flow meters; fluid pumps and turbines; viscous flow and lubrication; flow in closed conduits and open channels. Two-dimensional potential flow.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -1597,19 +1601,20 @@
   <course>
     <title>Introduction to Finite Element Analysis</title>
     <courseCodes>
-      <courseCode type="home listing">
+      <courseCode type="crosslisting">
         <subject>CIVE</subject>
+        <courseNumber>451</courseNumber>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>MECH</subject>
         <courseNumber>451</courseNumber>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1125</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">MECH 325 and 480 or permission.</div>
-    </prerequisite>
+    <effectiveSemester>1151</effectiveSemester>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">For course description, see MECH 451/851.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Matrix methods of analysis. Finite element stiffness method. Computer programs. Applications to structures and soils. Introduction to finite element analysis of fluid flow.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -2237,12 +2242,12 @@
       <courseCode type="crosslisting">
         <subject>POLS</subject>
         <courseNumber>475</courseNumber>
-        <courseGroup>Public Administration and Policy</courseGroup>
+        <courseGroup>American Government and Public Policy</courseGroup>
       </courseCode>
       <courseCode type="crosslisting">
         <subject>POLS</subject>
         <courseNumber>875</courseNumber>
-        <courseGroup>Public Administration and Policy</courseGroup>
+        <courseGroup>American Government and Public Policy</courseGroup>
       </courseCode>
       <courseCode type="crosslisting">
         <subject>SOCI</subject>
@@ -2263,7 +2268,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1148</effectiveSemester>
+    <effectiveSemester>1151</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Senior standing or permission.</div>
     </prerequisite>

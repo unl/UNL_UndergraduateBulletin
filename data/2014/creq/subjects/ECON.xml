@@ -1844,12 +1844,12 @@
       <courseCode type="home listing">
         <subject>POLS</subject>
         <courseNumber>466</courseNumber>
-        <courseGroup>International Relations</courseGroup>
+        <courseGroup>International Relations and Comparative Politics</courseGroup>
       </courseCode>
       <courseCode type="grad tie-in">
         <subject>POLS</subject>
         <courseNumber>866</courseNumber>
-        <courseGroup>International Relations</courseGroup>
+        <courseGroup>International Relations and Comparative Politics</courseGroup>
       </courseCode>
       <courseCode type="crosslisting">
         <subject>SOCI</subject>
@@ -1862,7 +1862,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1151</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Senior standing and permission.</div>
     </prerequisite>
@@ -2731,16 +2731,87 @@
     </credits>
   </course>
   <course>
-    <title>Seminar in Research Methods</title>
+    <title>Advanced Macroeconomic Theory I</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>ECON</subject>
-        <courseNumber>919</courseNumber>
+        <courseNumber>911</courseNumber>
+        <courseLetter>A</courseLetter>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1151</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Advanced topics in aggregate dynamics and growth.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Advanced Microeconomic Theory I</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ECON</subject>
+        <courseNumber>912</courseNumber>
+        <courseLetter>B</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1151</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">ECON 312 or equivalent</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Survey of the theory of individual choice; demand, supply, production, price formation. Theory of market structure.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Econometrics I</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ECON</subject>
+        <courseNumber>917</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1151</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">ECON 815 or equivalent; STAT 880 or equivalent</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Matrix-based approach to the construction of statistical economic models, estimation of model parameters, and econometric inference. Multiple hypothesis tests, prediction, and general error structures.</div>
+    </description>
     <campuses>
       <campus></campus>
     </campuses>
@@ -2748,6 +2819,64 @@
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
     <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Econometrics II</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ECON</subject>
+        <courseNumber>918</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1151</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">ECON 917</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Continuation of Econometrics I involving a more advanced treatment of statistical economics models. Identification problem and alternative methods of estimating parameters.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Advanced Topics in Econometrics</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ECON</subject>
+        <courseNumber>920</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1151</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">ECON 918 with a grade of "B" or better</div>
+    </prerequisite>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
@@ -2850,92 +2979,6 @@
     </credits>
   </course>
   <course>
-    <title>Econometrics I</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ECON</subject>
-        <courseNumber>957</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ECON 815 or equivalent; STAT 880 or equivalent</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Matrix-based approach to the construction of statistical economic models, estimation of model parameters, and econometric inference. Multiple hypothesis tests, prediction, and general error structures.</div>
-    </description>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <activities/>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Econometrics II</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ECON</subject>
-        <courseNumber>958</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ECON 957</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Continuation of Econometrics I involving a more advanced treatment of statistical economics models. Identification problem and alternative methods of estimating parameters.</div>
-    </description>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <activities/>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Advanced Topics in Econometrics I</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ECON</subject>
-        <courseNumber>959</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ECON 958 with a grade of "B" or better</div>
-    </prerequisite>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <activities>
-      <activity>
-        <type>lec</type>
-        <hours>3</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
     <title>Advanced Topics in Econometrics II</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -3017,64 +3060,6 @@
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
     <activities/>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Advanced Microeconomic Theory I</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ECON</subject>
-        <courseNumber>973</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ECON 312 or equivalent</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Survey of the theory of individual choice; demand, supply, production, price formation. Theory of market structure.</div>
-    </description>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <activities/>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Advanced Macroeconomic Theory I</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ECON</subject>
-        <courseNumber>974</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Advanced topics in aggregate dynamics and growth.</div>
-    </description>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <activities>
-      <activity>
-        <type>lec</type>
-        <hours>3</hours>
-      </activity>
-    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>

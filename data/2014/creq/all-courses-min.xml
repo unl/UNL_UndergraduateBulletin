@@ -295,6 +295,15 @@
     </courseCodes>
   </course>
   <course>
+    <title>Applied Auditing</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ACCT</subject>
+        <courseNumber>832</courseNumber>
+      </courseCode>
+    </courseCodes>
+  </course>
+  <course>
     <title>Taxation-Individual Income</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -5949,52 +5958,6 @@
     </courseCodes>
   </course>
   <course>
-    <title>Food Security: A Global Perspective</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ANTH</subject>
-        <courseNumber>429</courseNumber>
-        <courseLetter>A</courseLetter>
-        <courseGroup>Additional Anthropology Courses</courseGroup>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>ANTH</subject>
-        <courseNumber>829</courseNumber>
-        <courseLetter>A</courseLetter>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>HORT</subject>
-        <courseNumber>429</courseNumber>
-        <courseLetter>A</courseLetter>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>HORT</subject>
-        <courseNumber>829</courseNumber>
-        <courseLetter>A</courseLetter>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>AGRO</subject>
-        <courseNumber>429</courseNumber>
-        <courseLetter>A</courseLetter>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>AGRO</subject>
-        <courseNumber>829</courseNumber>
-        <courseLetter>A</courseLetter>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>NRES</subject>
-        <courseNumber>429</courseNumber>
-        <courseLetter>A</courseLetter>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>NRES</subject>
-        <courseNumber>829</courseNumber>
-        <courseLetter>A</courseLetter>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
     <title>Nutritional Anthropology</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -6342,12 +6305,12 @@
       <courseCode type="crosslisting">
         <subject>POLS</subject>
         <courseNumber>478</courseNumber>
-        <courseGroup>Foreign and Comparative Government</courseGroup>
+        <courseGroup>International Relations and Comparative Politics</courseGroup>
       </courseCode>
       <courseCode type="grad tie-in">
         <subject>POLS</subject>
         <courseNumber>878</courseNumber>
-        <courseGroup>Foreign and Comparative Government</courseGroup>
+        <courseGroup>International Relations and Comparative Politics</courseGroup>
       </courseCode>
       <courseCode type="crosslisting">
         <subject>SOCI</subject>
@@ -6583,6 +6546,15 @@
         <subject>ANTH</subject>
         <courseNumber>499</courseNumber>
         <courseGroup>Integrative Courses, Research and Reading</courseGroup>
+      </courseCode>
+    </courseCodes>
+  </course>
+  <course>
+    <title>Cultural Heritage of the American Southwest</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ANTH</subject>
+        <courseNumber>837</courseNumber>
       </courseCode>
     </courseCodes>
   </course>
@@ -7763,23 +7735,6 @@
       <courseCode type="crosslisting">
         <subject>ARCH</subject>
         <courseNumber>865</courseNumber>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
-    <title>Planting Design</title>
-    <courseCodes>
-      <courseCode type="crosslisting">
-        <subject>HORT</subject>
-        <courseNumber>341</courseNumber>
-      </courseCode>
-      <courseCode type="home listing">
-        <subject>ARCH</subject>
-        <courseNumber>568</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>ARCH</subject>
-        <courseNumber>868</courseNumber>
       </courseCode>
     </courseCodes>
   </course>
@@ -15681,15 +15636,6 @@
     </courseCodes>
   </course>
   <course>
-    <title>Fluid Mechanics</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>CIVE</subject>
-        <courseNumber>310</courseNumber>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
     <title>Honors: Fluid Mechanics</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -16125,15 +16071,6 @@
     <gradPrerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">CIVE 440/840.</div>
     </gradPrerequisite>
-  </course>
-  <course>
-    <title>Introduction to Finite Element Analysis</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>CIVE</subject>
-        <courseNumber>451</courseNumber>
-      </courseCode>
-    </courseCodes>
   </course>
   <course>
     <title>Water Resources Development</title>
@@ -23903,11 +23840,49 @@
     </courseCodes>
   </course>
   <course>
-    <title>Seminar in Research Methods</title>
+    <title>Advanced Macroeconomic Theory I</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>ECON</subject>
-        <courseNumber>919</courseNumber>
+        <courseNumber>911</courseNumber>
+        <courseLetter>A</courseLetter>
+      </courseCode>
+    </courseCodes>
+  </course>
+  <course>
+    <title>Advanced Microeconomic Theory I</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ECON</subject>
+        <courseNumber>912</courseNumber>
+        <courseLetter>B</courseLetter>
+      </courseCode>
+    </courseCodes>
+  </course>
+  <course>
+    <title>Econometrics I</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ECON</subject>
+        <courseNumber>917</courseNumber>
+      </courseCode>
+    </courseCodes>
+  </course>
+  <course>
+    <title>Econometrics II</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ECON</subject>
+        <courseNumber>918</courseNumber>
+      </courseCode>
+    </courseCodes>
+  </course>
+  <course>
+    <title>Advanced Topics in Econometrics</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ECON</subject>
+        <courseNumber>920</courseNumber>
       </courseCode>
     </courseCodes>
   </course>
@@ -23939,33 +23914,6 @@
     </courseCodes>
   </course>
   <course>
-    <title>Econometrics I</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ECON</subject>
-        <courseNumber>957</courseNumber>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
-    <title>Econometrics II</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ECON</subject>
-        <courseNumber>958</courseNumber>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
-    <title>Advanced Topics in Econometrics I</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ECON</subject>
-        <courseNumber>959</courseNumber>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
     <title>Advanced Topics in Econometrics II</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -23989,24 +23937,6 @@
       <courseCode type="home listing">
         <subject>ECON</subject>
         <courseNumber>972</courseNumber>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
-    <title>Advanced Microeconomic Theory I</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ECON</subject>
-        <courseNumber>973</courseNumber>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
-    <title>Advanced Macroeconomic Theory I</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ECON</subject>
-        <courseNumber>974</courseNumber>
       </courseCode>
     </courseCodes>
   </course>
@@ -37047,7 +36977,7 @@
       <courseCode type="crosslisting">
         <subject>POLS</subject>
         <courseNumber>105</courseNumber>
-        <courseGroup>American Government, Politics and Law</courseGroup>
+        <courseGroup>American Government and Public Policy</courseGroup>
       </courseCode>
     </courseCodes>
   </course>
@@ -37124,6 +37054,7 @@
         <subject>HIST</subject>
         <courseNumber>120</courseNumber>
         <courseGroup>Latin American, Asian, Middle Eastern or African History</courseGroup>
+        <courseGroup>Pre-1800</courseGroup>
       </courseCode>
     </courseCodes>
     <aceOutcomes>
@@ -37189,7 +37120,7 @@
       <courseCode type="crosslisting">
         <subject>POLS</subject>
         <courseNumber>171</courseNumber>
-        <courseGroup>Foreign and Comparative Government</courseGroup>
+        <courseGroup>International Relations and Comparative Politics</courseGroup>
       </courseCode>
     </courseCodes>
     <aceOutcomes>
@@ -44041,7 +43972,7 @@
     </courseCodes>
   </course>
   <course>
-    <title>International Trade Law and Policy</title>
+    <title>Into to the U.S. Legal System and Constitutional Principles for LL.M. Students</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>LAW</subject>
@@ -46672,6 +46603,10 @@
   <course>
     <title>Fluid Mechanics</title>
     <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>CIVE</subject>
+        <courseNumber>310</courseNumber>
+      </courseCode>
       <courseCode type="home listing">
         <subject>MECH</subject>
         <courseNumber>310</courseNumber>
@@ -47171,6 +47106,10 @@
   <course>
     <title>Introduction to Finite Element Analysis</title>
     <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>CIVE</subject>
+        <courseNumber>451</courseNumber>
+      </courseCode>
       <courseCode type="home listing">
         <subject>MECH</subject>
         <courseNumber>451</courseNumber>
@@ -49675,6 +49614,15 @@
       <courseCode type="home listing">
         <subject>MRKT</subject>
         <courseNumber>944</courseNumber>
+      </courseCode>
+    </courseCodes>
+  </course>
+  <course>
+    <title>Qualitative Research Methods in Business Seminar</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MRKT</subject>
+        <courseNumber>945</courseNumber>
       </courseCode>
     </courseCodes>
   </course>
@@ -56035,12 +55983,12 @@
       <courseCode type="crosslisting">
         <subject>POLS</subject>
         <courseNumber>475</courseNumber>
-        <courseGroup>Public Administration and Policy</courseGroup>
+        <courseGroup>American Government and Public Policy</courseGroup>
       </courseCode>
       <courseCode type="crosslisting">
         <subject>POLS</subject>
         <courseNumber>875</courseNumber>
-        <courseGroup>Public Administration and Policy</courseGroup>
+        <courseGroup>American Government and Public Policy</courseGroup>
       </courseCode>
       <courseCode type="crosslisting">
         <subject>SOCI</subject>
@@ -56455,6 +56403,16 @@
     </courseCodes>
   </course>
   <course>
+    <title>Seminar: Writing in Science</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>NRES</subject>
+        <courseNumber>891</courseNumber>
+        <courseLetter>A</courseLetter>
+      </courseCode>
+    </courseCodes>
+  </course>
+  <course>
     <title>Readings in Aquatic Ecology</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -56853,6 +56811,61 @@
       <courseCode type="home listing">
         <subject>NUTR</subject>
         <courseNumber>427</courseNumber>
+      </courseCode>
+    </courseCodes>
+  </course>
+  <course>
+    <title>Food Security: A Global Perspective</title>
+    <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>ANTH</subject>
+        <courseNumber>429</courseNumber>
+        <courseLetter>A</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>ANTH</subject>
+        <courseNumber>829</courseNumber>
+        <courseLetter>A</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>HORT</subject>
+        <courseNumber>429</courseNumber>
+        <courseLetter>A</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>HORT</subject>
+        <courseNumber>829</courseNumber>
+        <courseLetter>A</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>AGRO</subject>
+        <courseNumber>429</courseNumber>
+        <courseLetter>A</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>AGRO</subject>
+        <courseNumber>829</courseNumber>
+        <courseLetter>A</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>NRES</subject>
+        <courseNumber>429</courseNumber>
+        <courseLetter>A</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>NRES</subject>
+        <courseNumber>829</courseNumber>
+        <courseLetter>A</courseLetter>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>NUTR</subject>
+        <courseNumber>429</courseNumber>
+        <courseLetter>A</courseLetter>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>NUTR</subject>
+        <courseNumber>829</courseNumber>
+        <courseLetter>A</courseLetter>
       </courseCode>
     </courseCodes>
   </course>
@@ -59755,7 +59768,7 @@
       <courseCode type="home listing">
         <subject>POLS</subject>
         <courseNumber>100</courseNumber>
-        <courseGroup>American Government, Politics and Law</courseGroup>
+        <courseGroup>American Government and Public Policy</courseGroup>
       </courseCode>
     </courseCodes>
     <aceOutcomes>
@@ -59769,7 +59782,7 @@
       <courseCode type="home listing">
         <subject>POLS</subject>
         <courseNumber>104</courseNumber>
-        <courseGroup>Foreign and Comparative Government</courseGroup>
+        <courseGroup>International Relations and Comparative Politics</courseGroup>
       </courseCode>
     </courseCodes>
   </course>
@@ -59779,7 +59792,6 @@
       <courseCode type="home listing">
         <subject>POLS</subject>
         <courseNumber>108</courseNumber>
-        <courseGroup>Political Theory</courseGroup>
       </courseCode>
     </courseCodes>
   </course>
@@ -59811,6 +59823,7 @@
       <courseCode type="home listing">
         <subject>POLS</subject>
         <courseNumber>160</courseNumber>
+        <courseGroup>International Relations and Comparative Politics</courseGroup>
       </courseCode>
       <courseCode type="crosslisting">
         <subject>GLST</subject>
@@ -59828,7 +59841,6 @@
         <subject>POLS</subject>
         <courseNumber>189</courseNumber>
         <courseLetter>H</courseLetter>
-        <courseGroup>Other, Theses, and Dissertations</courseGroup>
       </courseCode>
     </courseCodes>
     <aceOutcomes>
@@ -59851,7 +59863,7 @@
       <courseCode type="home listing">
         <subject>POLS</subject>
         <courseNumber>210</courseNumber>
-        <courseGroup>Public Administration and Policy</courseGroup>
+        <courseGroup>American Government and Public Policy</courseGroup>
       </courseCode>
     </courseCodes>
   </course>
@@ -59861,7 +59873,7 @@
       <courseCode type="home listing">
         <subject>POLS</subject>
         <courseNumber>221</courseNumber>
-        <courseGroup>American Government, Politics and Law</courseGroup>
+        <courseGroup>American Government and Public Policy</courseGroup>
       </courseCode>
     </courseCodes>
   </course>
@@ -59871,7 +59883,7 @@
       <courseCode type="home listing">
         <subject>POLS</subject>
         <courseNumber>225</courseNumber>
-        <courseGroup>American Government, Politics and Law</courseGroup>
+        <courseGroup>American Government and Public Policy</courseGroup>
       </courseCode>
     </courseCodes>
   </course>
@@ -59881,7 +59893,7 @@
       <courseCode type="home listing">
         <subject>POLS</subject>
         <courseNumber>227</courseNumber>
-        <courseGroup>American Government, Politics and Law</courseGroup>
+        <courseGroup>American Government and Public Policy</courseGroup>
       </courseCode>
     </courseCodes>
     <aceOutcomes>
@@ -59894,7 +59906,7 @@
       <courseCode type="home listing">
         <subject>POLS</subject>
         <courseNumber>230</courseNumber>
-        <courseGroup>American Government, Politics and Law</courseGroup>
+        <courseGroup>American Government and Public Policy</courseGroup>
       </courseCode>
     </courseCodes>
     <aceOutcomes>
@@ -59907,7 +59919,7 @@
       <courseCode type="home listing">
         <subject>POLS</subject>
         <courseNumber>232</courseNumber>
-        <courseGroup>American Government, Politics and Law</courseGroup>
+        <courseGroup>American Government and Public Policy</courseGroup>
       </courseCode>
     </courseCodes>
   </course>
@@ -59917,7 +59929,7 @@
       <courseCode type="home listing">
         <subject>POLS</subject>
         <courseNumber>234</courseNumber>
-        <courseGroup>American Government, Politics and Law</courseGroup>
+        <courseGroup>American Government and Public Policy</courseGroup>
       </courseCode>
     </courseCodes>
   </course>
@@ -59927,7 +59939,7 @@
       <courseCode type="home listing">
         <subject>POLS</subject>
         <courseNumber>235</courseNumber>
-        <courseGroup>Public Administration and Policy</courseGroup>
+        <courseGroup>American Government and Public Policy</courseGroup>
       </courseCode>
     </courseCodes>
   </course>
@@ -59937,7 +59949,7 @@
       <courseCode type="home listing">
         <subject>POLS</subject>
         <courseNumber>236</courseNumber>
-        <courseGroup>Public Administration and Policy</courseGroup>
+        <courseGroup>American Government and Public Policy</courseGroup>
       </courseCode>
     </courseCodes>
   </course>
@@ -59951,7 +59963,7 @@
       <courseCode type="home listing">
         <subject>POLS</subject>
         <courseNumber>238</courseNumber>
-        <courseGroup>American Government, Politics and Law</courseGroup>
+        <courseGroup>American Government and Public Policy</courseGroup>
       </courseCode>
     </courseCodes>
     <aceOutcomes>
@@ -59979,7 +59991,7 @@
       <courseCode type="home listing">
         <subject>POLS</subject>
         <courseNumber>260</courseNumber>
-        <courseGroup>International Relations</courseGroup>
+        <courseGroup>International Relations and Comparative Politics</courseGroup>
       </courseCode>
     </courseCodes>
   </course>
@@ -59989,7 +60001,7 @@
       <courseCode type="home listing">
         <subject>POLS</subject>
         <courseNumber>261</courseNumber>
-        <courseGroup>International Relations</courseGroup>
+        <courseGroup>International Relations and Comparative Politics</courseGroup>
       </courseCode>
       <courseCode type="crosslisting">
         <subject>PSYC</subject>
@@ -60042,7 +60054,7 @@
       <courseCode type="home listing">
         <subject>POLS</subject>
         <courseNumber>271</courseNumber>
-        <courseGroup>Foreign and Comparative Government</courseGroup>
+        <courseGroup>International Relations and Comparative Politics</courseGroup>
       </courseCode>
     </courseCodes>
   </course>
@@ -60052,7 +60064,7 @@
       <courseCode type="home listing">
         <subject>POLS</subject>
         <courseNumber>272</courseNumber>
-        <courseGroup>Foreign and Comparative Government</courseGroup>
+        <courseGroup>International Relations and Comparative Politics</courseGroup>
       </courseCode>
     </courseCodes>
   </course>
@@ -60062,7 +60074,7 @@
       <courseCode type="home listing">
         <subject>POLS</subject>
         <courseNumber>274</courseNumber>
-        <courseGroup>Foreign and Comparative Government</courseGroup>
+        <courseGroup>International Relations and Comparative Politics</courseGroup>
       </courseCode>
     </courseCodes>
   </course>
@@ -60072,7 +60084,7 @@
       <courseCode type="home listing">
         <subject>POLS</subject>
         <courseNumber>275</courseNumber>
-        <courseGroup>Foreign and Comparative Government</courseGroup>
+        <courseGroup>International Relations and Comparative Politics</courseGroup>
       </courseCode>
     </courseCodes>
   </course>
@@ -60086,7 +60098,7 @@
       <courseCode type="home listing">
         <subject>POLS</subject>
         <courseNumber>277</courseNumber>
-        <courseGroup>Foreign and Comparative Government</courseGroup>
+        <courseGroup>International Relations and Comparative Politics</courseGroup>
       </courseCode>
       <courseCode type="crosslisting">
         <subject>LAMS</subject>
@@ -60100,7 +60112,7 @@
       <courseCode type="home listing">
         <subject>POLS</subject>
         <courseNumber>281</courseNumber>
-        <courseGroup>Foreign and Comparative Government</courseGroup>
+        <courseGroup>International Relations and Comparative Politics</courseGroup>
       </courseCode>
     </courseCodes>
   </course>
@@ -60110,7 +60122,6 @@
       <courseCode type="home listing">
         <subject>POLS</subject>
         <courseNumber>286</courseNumber>
-        <courseGroup>Other, Theses, and Dissertations</courseGroup>
       </courseCode>
     </courseCodes>
   </course>
@@ -60130,7 +60141,7 @@
       <courseCode type="home listing">
         <subject>POLS</subject>
         <courseNumber>325</courseNumber>
-        <courseGroup>American Government, Politics and Law</courseGroup>
+        <courseGroup>American Government and Public Policy</courseGroup>
       </courseCode>
     </courseCodes>
   </course>
@@ -60160,7 +60171,7 @@
       <courseCode type="home listing">
         <subject>POLS</subject>
         <courseNumber>334</courseNumber>
-        <courseGroup>American Government, Politics and Law</courseGroup>
+        <courseGroup>American Government and Public Policy</courseGroup>
       </courseCode>
     </courseCodes>
   </course>
@@ -60170,7 +60181,7 @@
       <courseCode type="home listing">
         <subject>POLS</subject>
         <courseNumber>338</courseNumber>
-        <courseGroup>American Government, Politics and Law</courseGroup>
+        <courseGroup>American Government and Public Policy</courseGroup>
       </courseCode>
       <courseCode type="crosslisting">
         <subject>WMNS</subject>
@@ -60184,7 +60195,7 @@
       <courseCode type="home listing">
         <subject>POLS</subject>
         <courseNumber>345</courseNumber>
-        <courseGroup>American Government, Politics and Law</courseGroup>
+        <courseGroup>American Government and Public Policy</courseGroup>
       </courseCode>
     </courseCodes>
   </course>
@@ -60194,6 +60205,7 @@
       <courseCode type="home listing">
         <subject>POLS</subject>
         <courseNumber>347</courseNumber>
+        <courseGroup>American Government and Public Policy</courseGroup>
       </courseCode>
     </courseCodes>
   </course>
@@ -60216,7 +60228,7 @@
       <courseCode type="home listing">
         <subject>POLS</subject>
         <courseNumber>360</courseNumber>
-        <courseGroup>International Relations</courseGroup>
+        <courseGroup>International Relations and Comparative Politics</courseGroup>
       </courseCode>
     </courseCodes>
   </course>
@@ -60236,7 +60248,7 @@
       <courseCode type="home listing">
         <subject>POLS</subject>
         <courseNumber>362</courseNumber>
-        <courseGroup>International Relations</courseGroup>
+        <courseGroup>Human Rights and Security</courseGroup>
       </courseCode>
     </courseCodes>
   </course>
@@ -60246,7 +60258,7 @@
       <courseCode type="home listing">
         <subject>POLS</subject>
         <courseNumber>363</courseNumber>
-        <courseGroup>International Relations</courseGroup>
+        <courseGroup>International Relations and Comparative Politics</courseGroup>
       </courseCode>
     </courseCodes>
   </course>
@@ -60270,6 +60282,7 @@
       <courseCode type="home listing">
         <subject>POLS</subject>
         <courseNumber>365</courseNumber>
+        <courseGroup>International Relations and Comparative Politics</courseGroup>
       </courseCode>
     </courseCodes>
   </course>
@@ -60279,7 +60292,7 @@
       <courseCode type="home listing">
         <subject>POLS</subject>
         <courseNumber>371</courseNumber>
-        <courseGroup>Foreign and Comparative Government</courseGroup>
+        <courseGroup>International Relations and Comparative Politics</courseGroup>
       </courseCode>
     </courseCodes>
   </course>
@@ -60289,7 +60302,7 @@
       <courseCode type="home listing">
         <subject>POLS</subject>
         <courseNumber>372</courseNumber>
-        <courseGroup>Foreign and Comparative Government</courseGroup>
+        <courseGroup>International Relations and Comparative Politics</courseGroup>
       </courseCode>
     </courseCodes>
   </course>
@@ -60299,7 +60312,7 @@
       <courseCode type="home listing">
         <subject>POLS</subject>
         <courseNumber>374</courseNumber>
-        <courseGroup>Foreign and Comparative Government</courseGroup>
+        <courseGroup>International Relations and Comparative Politics</courseGroup>
       </courseCode>
     </courseCodes>
   </course>
@@ -60326,7 +60339,7 @@
       <courseCode type="home listing">
         <subject>POLS</subject>
         <courseNumber>376</courseNumber>
-        <courseGroup>Foreign and Comparative Government</courseGroup>
+        <courseGroup>International Relations and Comparative Politics</courseGroup>
       </courseCode>
     </courseCodes>
   </course>
@@ -60345,7 +60358,6 @@
       <courseCode type="home listing">
         <subject>POLS</subject>
         <courseNumber>380</courseNumber>
-        <courseGroup>Political Theory</courseGroup>
       </courseCode>
     </courseCodes>
   </course>
@@ -60355,7 +60367,6 @@
       <courseCode type="home listing">
         <subject>POLS</subject>
         <courseNumber>383</courseNumber>
-        <courseGroup>Political Theory</courseGroup>
       </courseCode>
     </courseCodes>
   </course>
@@ -60365,7 +60376,6 @@
       <courseCode type="home listing">
         <subject>POLS</subject>
         <courseNumber>384</courseNumber>
-        <courseGroup>Political Theory</courseGroup>
       </courseCode>
     </courseCodes>
   </course>
@@ -60375,7 +60385,6 @@
       <courseCode type="home listing">
         <subject>POLS</subject>
         <courseNumber>386</courseNumber>
-        <courseGroup>Political Theory</courseGroup>
       </courseCode>
     </courseCodes>
   </course>
@@ -60405,7 +60414,6 @@
       <courseCode type="home listing">
         <subject>POLS</subject>
         <courseNumber>399</courseNumber>
-        <courseGroup>Other, Theses, and Dissertations</courseGroup>
       </courseCode>
     </courseCodes>
   </course>
@@ -60416,7 +60424,6 @@
         <subject>POLS</subject>
         <courseNumber>399</courseNumber>
         <courseLetter>H</courseLetter>
-        <courseGroup>Other, Theses, and Dissertations</courseGroup>
       </courseCode>
     </courseCodes>
   </course>
@@ -60426,7 +60433,6 @@
       <courseCode type="home listing">
         <subject>POLS</subject>
         <courseNumber>400</courseNumber>
-        <courseGroup>Other, Theses, and Dissertations</courseGroup>
       </courseCode>
     </courseCodes>
     <aceOutcomes>
@@ -60439,12 +60445,12 @@
       <courseCode type="home listing">
         <subject>POLS</subject>
         <courseNumber>410</courseNumber>
-        <courseGroup>Public Administration and Policy</courseGroup>
+        <courseGroup>American Government and Public Policy</courseGroup>
       </courseCode>
       <courseCode type="grad tie-in">
         <subject>POLS</subject>
         <courseNumber>810</courseNumber>
-        <courseGroup>Public Administration and Policy</courseGroup>
+        <courseGroup>American Government and Public Policy</courseGroup>
       </courseCode>
     </courseCodes>
   </course>
@@ -60454,12 +60460,12 @@
       <courseCode type="home listing">
         <subject>POLS</subject>
         <courseNumber>414</courseNumber>
-        <courseGroup>American Government, Politics and Law</courseGroup>
+        <courseGroup>American Government and Public Policy</courseGroup>
       </courseCode>
       <courseCode type="grad tie-in">
         <subject>POLS</subject>
         <courseNumber>814</courseNumber>
-        <courseGroup>American Government, Politics and Law</courseGroup>
+        <courseGroup>American Government and Public Policy</courseGroup>
       </courseCode>
     </courseCodes>
   </course>
@@ -60469,12 +60475,12 @@
       <courseCode type="home listing">
         <subject>POLS</subject>
         <courseNumber>417</courseNumber>
-        <courseGroup>Public Administration and Policy</courseGroup>
+        <courseGroup>American Government and Public Policy</courseGroup>
       </courseCode>
       <courseCode type="grad tie-in">
         <subject>POLS</subject>
         <courseNumber>817</courseNumber>
-        <courseGroup>Public Administration and Policy</courseGroup>
+        <courseGroup>American Government and Public Policy</courseGroup>
       </courseCode>
       <courseCode type="crosslisting">
         <subject>SOCI</subject>
@@ -60492,12 +60498,12 @@
       <courseCode type="home listing">
         <subject>POLS</subject>
         <courseNumber>425</courseNumber>
-        <courseGroup>American Government, Politics and Law</courseGroup>
+        <courseGroup>American Government and Public Policy</courseGroup>
       </courseCode>
       <courseCode type="grad tie-in">
         <subject>POLS</subject>
         <courseNumber>825</courseNumber>
-        <courseGroup>American Government, Politics and Law</courseGroup>
+        <courseGroup>American Government and Public Policy</courseGroup>
       </courseCode>
     </courseCodes>
   </course>
@@ -60507,12 +60513,12 @@
       <courseCode type="home listing">
         <subject>POLS</subject>
         <courseNumber>426</courseNumber>
-        <courseGroup>American Government, Politics and Law</courseGroup>
+        <courseGroup>American Government and Public Policy</courseGroup>
       </courseCode>
       <courseCode type="grad tie-in">
         <subject>POLS</subject>
         <courseNumber>826</courseNumber>
-        <courseGroup>American Government, Politics and Law</courseGroup>
+        <courseGroup>American Government and Public Policy</courseGroup>
       </courseCode>
     </courseCodes>
   </course>
@@ -60530,12 +60536,12 @@
       <courseCode type="home listing">
         <subject>POLS</subject>
         <courseNumber>430</courseNumber>
-        <courseGroup>American Government, Politics and Law</courseGroup>
+        <courseGroup>American Government and Public Policy</courseGroup>
       </courseCode>
       <courseCode type="grad tie-in">
         <subject>POLS</subject>
         <courseNumber>830</courseNumber>
-        <courseGroup>American Government, Politics and Law</courseGroup>
+        <courseGroup>American Government and Public Policy</courseGroup>
       </courseCode>
     </courseCodes>
   </course>
@@ -60545,12 +60551,12 @@
       <courseCode type="home listing">
         <subject>POLS</subject>
         <courseNumber>441</courseNumber>
-        <courseGroup>American Government, Politics and Law</courseGroup>
+        <courseGroup>American Government and Public Policy</courseGroup>
       </courseCode>
       <courseCode type="grad tie-in">
         <subject>POLS</subject>
         <courseNumber>841</courseNumber>
-        <courseGroup>American Government, Politics and Law</courseGroup>
+        <courseGroup>American Government and Public Policy</courseGroup>
       </courseCode>
     </courseCodes>
   </course>
@@ -60560,12 +60566,12 @@
       <courseCode type="home listing">
         <subject>POLS</subject>
         <courseNumber>442</courseNumber>
-        <courseGroup>American Government, Politics and Law</courseGroup>
+        <courseGroup>American Government and Public Policy</courseGroup>
       </courseCode>
       <courseCode type="grad tie-in">
         <subject>POLS</subject>
         <courseNumber>842</courseNumber>
-        <courseGroup>American Government, Politics and Law</courseGroup>
+        <courseGroup>American Government and Public Policy</courseGroup>
       </courseCode>
     </courseCodes>
   </course>
@@ -60575,12 +60581,12 @@
       <courseCode type="home listing">
         <subject>POLS</subject>
         <courseNumber>443</courseNumber>
-        <courseGroup>American Government, Politics and Law</courseGroup>
+        <courseGroup>American Government and Public Policy</courseGroup>
       </courseCode>
       <courseCode type="grad tie-in">
         <subject>POLS</subject>
         <courseNumber>843</courseNumber>
-        <courseGroup>American Government, Politics and Law</courseGroup>
+        <courseGroup>American Government and Public Policy</courseGroup>
       </courseCode>
     </courseCodes>
   </course>
@@ -60603,12 +60609,12 @@
       <courseCode type="home listing">
         <subject>POLS</subject>
         <courseNumber>459</courseNumber>
-        <courseGroup>International Relations</courseGroup>
+        <courseGroup>International Relations and Comparative Politics</courseGroup>
       </courseCode>
       <courseCode type="grad tie-in">
         <subject>POLS</subject>
         <courseNumber>859</courseNumber>
-        <courseGroup>International Relations</courseGroup>
+        <courseGroup>International Relations and Comparative Politics</courseGroup>
       </courseCode>
     </courseCodes>
   </course>
@@ -60648,12 +60654,12 @@
       <courseCode type="home listing">
         <subject>POLS</subject>
         <courseNumber>464</courseNumber>
-        <courseGroup>International Relations</courseGroup>
+        <courseGroup>International Relations and Comparative Politics</courseGroup>
       </courseCode>
       <courseCode type="grad tie-in">
         <subject>POLS</subject>
         <courseNumber>864</courseNumber>
-        <courseGroup>International Relations</courseGroup>
+        <courseGroup>International Relations and Comparative Politics</courseGroup>
       </courseCode>
     </courseCodes>
   </course>
@@ -60673,12 +60679,12 @@
       <courseCode type="home listing">
         <subject>POLS</subject>
         <courseNumber>466</courseNumber>
-        <courseGroup>International Relations</courseGroup>
+        <courseGroup>International Relations and Comparative Politics</courseGroup>
       </courseCode>
       <courseCode type="grad tie-in">
         <subject>POLS</subject>
         <courseNumber>866</courseNumber>
-        <courseGroup>International Relations</courseGroup>
+        <courseGroup>International Relations and Comparative Politics</courseGroup>
       </courseCode>
       <courseCode type="crosslisting">
         <subject>SOCI</subject>
@@ -60755,12 +60761,12 @@
       <courseCode type="home listing">
         <subject>POLS</subject>
         <courseNumber>468</courseNumber>
-        <courseGroup>International Relations</courseGroup>
+        <courseGroup>International Relations and Comparative Politics</courseGroup>
       </courseCode>
       <courseCode type="grad tie-in">
         <subject>POLS</subject>
         <courseNumber>868</courseNumber>
-        <courseGroup>International Relations</courseGroup>
+        <courseGroup>International Relations and Comparative Politics</courseGroup>
       </courseCode>
     </courseCodes>
   </course>
@@ -60770,12 +60776,12 @@
       <courseCode type="home listing">
         <subject>POLS</subject>
         <courseNumber>469</courseNumber>
-        <courseGroup>International Relations</courseGroup>
+        <courseGroup>International Relations and Comparative Politics</courseGroup>
       </courseCode>
       <courseCode type="grad tie-in">
         <subject>POLS</subject>
         <courseNumber>869</courseNumber>
-        <courseGroup>International Relations</courseGroup>
+        <courseGroup>International Relations and Comparative Politics</courseGroup>
       </courseCode>
     </courseCodes>
   </course>
@@ -60785,12 +60791,12 @@
       <courseCode type="home listing">
         <subject>POLS</subject>
         <courseNumber>470</courseNumber>
-        <courseGroup>International Relations</courseGroup>
+        <courseGroup>Human Rights and Security</courseGroup>
       </courseCode>
       <courseCode type="grad tie-in">
         <subject>POLS</subject>
         <courseNumber>870</courseNumber>
-        <courseGroup>International Relations</courseGroup>
+        <courseGroup>Human Rights and Security</courseGroup>
       </courseCode>
     </courseCodes>
   </course>
@@ -60845,12 +60851,12 @@
       <courseCode type="home listing">
         <subject>POLS</subject>
         <courseNumber>474</courseNumber>
-        <courseGroup>Foreign and Comparative Government</courseGroup>
+        <courseGroup>International Relations and Comparative Politics</courseGroup>
       </courseCode>
       <courseCode type="grad tie-in">
         <subject>POLS</subject>
         <courseNumber>874</courseNumber>
-        <courseGroup>Foreign and Comparative Government</courseGroup>
+        <courseGroup>International Relations and Comparative Politics</courseGroup>
       </courseCode>
     </courseCodes>
   </course>
@@ -60860,12 +60866,14 @@
       <courseCode type="home listing">
         <subject>POLS</subject>
         <courseNumber>476</courseNumber>
-        <courseGroup>Foreign and Comparative Government</courseGroup>
+        <courseGroup>Human Rights and Security</courseGroup>
+        <courseGroup>International Relations and Comparative Politics</courseGroup>
       </courseCode>
       <courseCode type="grad tie-in">
         <subject>POLS</subject>
         <courseNumber>876</courseNumber>
-        <courseGroup>Foreign and Comparative Government</courseGroup>
+        <courseGroup>Human Rights and Security</courseGroup>
+        <courseGroup>International Relations and Comparative Politics</courseGroup>
       </courseCode>
       <courseCode type="crosslisting">
         <subject>JUDS</subject>
@@ -60879,12 +60887,12 @@
       <courseCode type="home listing">
         <subject>POLS</subject>
         <courseNumber>477</courseNumber>
-        <courseGroup>Foreign and Comparative Government</courseGroup>
+        <courseGroup>International Relations and Comparative Politics</courseGroup>
       </courseCode>
       <courseCode type="grad tie-in">
         <subject>POLS</subject>
         <courseNumber>877</courseNumber>
-        <courseGroup>Foreign and Comparative Government</courseGroup>
+        <courseGroup>International Relations and Comparative Politics</courseGroup>
       </courseCode>
       <courseCode type="crosslisting">
         <subject>JUDS</subject>
@@ -60898,6 +60906,7 @@
       <courseCode type="home listing">
         <subject>POLS</subject>
         <courseNumber>479</courseNumber>
+        <courseGroup>Human Rights and Security</courseGroup>
       </courseCode>
     </courseCodes>
   </course>
@@ -60907,12 +60916,12 @@
       <courseCode type="home listing">
         <subject>POLS</subject>
         <courseNumber>481</courseNumber>
-        <courseGroup>American Government, Politics and Law</courseGroup>
+        <courseGroup>American Government and Public Policy</courseGroup>
       </courseCode>
       <courseCode type="grad tie-in">
         <subject>POLS</subject>
         <courseNumber>881</courseNumber>
-        <courseGroup>American Government, Politics and Law</courseGroup>
+        <courseGroup>American Government and Public Policy</courseGroup>
       </courseCode>
     </courseCodes>
   </course>
@@ -60922,12 +60931,10 @@
       <courseCode type="home listing">
         <subject>POLS</subject>
         <courseNumber>498</courseNumber>
-        <courseGroup>Other, Theses, and Dissertations</courseGroup>
       </courseCode>
       <courseCode type="grad tie-in">
         <subject>POLS</subject>
         <courseNumber>898</courseNumber>
-        <courseGroup>Other, Theses, and Dissertations</courseGroup>
       </courseCode>
     </courseCodes>
   </course>

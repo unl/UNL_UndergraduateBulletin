@@ -313,6 +313,10 @@
   <course>
     <title>Fluid Mechanics</title>
     <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>CIVE</subject>
+        <courseNumber>310</courseNumber>
+      </courseCode>
       <courseCode type="home listing">
         <subject>MECH</subject>
         <courseNumber>310</courseNumber>
@@ -320,7 +324,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1125</effectiveSemester>
+    <effectiveSemester>1151</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">MECH 373; MATH 221.</div>
     </prerequisite>
@@ -1901,6 +1905,10 @@
   <course>
     <title>Introduction to Finite Element Analysis</title>
     <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>CIVE</subject>
+        <courseNumber>451</courseNumber>
+      </courseCode>
       <courseCode type="home listing">
         <subject>MECH</subject>
         <courseNumber>451</courseNumber>
@@ -1908,7 +1916,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1125</effectiveSemester>
+    <effectiveSemester>1151</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Matrix methods of analysis. Finite element stiffness method. Computer programs. Applications to structures and soils. Introduction to finite element analysis of fluid flow.</div>
     </description>

@@ -2655,51 +2655,60 @@
   <course>
     <title>Food Security: A Global Perspective</title>
     <courseCodes>
-      <courseCode type="home listing">
+      <courseCode type="crosslisting">
         <subject>ANTH</subject>
         <courseNumber>429</courseNumber>
         <courseLetter>A</courseLetter>
-        <courseGroup>Additional Anthropology Courses</courseGroup>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>ANTH</subject>
+        <courseNumber>829</courseNumber>
+        <courseLetter>A</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>AGRO</subject>
+        <courseNumber>429</courseNumber>
+        <courseLetter>A</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>AGRO</subject>
+        <courseNumber>829</courseNumber>
+        <courseLetter>A</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>HORT</subject>
+        <courseNumber>429</courseNumber>
+        <courseLetter>A</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>HORT</subject>
+        <courseNumber>829</courseNumber>
+        <courseLetter>A</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>NRES</subject>
+        <courseNumber>429</courseNumber>
+        <courseLetter>A</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>NRES</subject>
+        <courseNumber>829</courseNumber>
+        <courseLetter>A</courseLetter>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>NUTR</subject>
+        <courseNumber>429</courseNumber>
+        <courseLetter>A</courseLetter>
       </courseCode>
       <courseCode type="grad tie-in">
-        <subject>ANTH</subject>
-        <courseNumber>829</courseNumber>
-        <courseLetter>A</courseLetter>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>AGRO</subject>
-        <courseNumber>429</courseNumber>
-        <courseLetter>A</courseLetter>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>AGRO</subject>
-        <courseNumber>829</courseNumber>
-        <courseLetter>A</courseLetter>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>HORT</subject>
-        <courseNumber>429</courseNumber>
-        <courseLetter>A</courseLetter>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>HORT</subject>
-        <courseNumber>829</courseNumber>
-        <courseLetter>A</courseLetter>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>NRES</subject>
-        <courseNumber>429</courseNumber>
-        <courseLetter>A</courseLetter>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>NRES</subject>
+        <subject>NUTR</subject>
         <courseNumber>829</courseNumber>
         <courseLetter>A</courseLetter>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1125</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Junior standing</div>
     </prerequisite>
@@ -4505,12 +4514,12 @@
       <courseCode type="crosslisting">
         <subject>POLS</subject>
         <courseNumber>475</courseNumber>
-        <courseGroup>Public Administration and Policy</courseGroup>
+        <courseGroup>American Government and Public Policy</courseGroup>
       </courseCode>
       <courseCode type="crosslisting">
         <subject>POLS</subject>
         <courseNumber>875</courseNumber>
-        <courseGroup>Public Administration and Policy</courseGroup>
+        <courseGroup>American Government and Public Policy</courseGroup>
       </courseCode>
       <courseCode type="crosslisting">
         <subject>SOCI</subject>
@@ -4531,7 +4540,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1148</effectiveSemester>
+    <effectiveSemester>1151</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Senior standing or permission.</div>
     </prerequisite>
@@ -6208,6 +6217,43 @@
     <credits>
       <credit type="Single Value">1</credit>
       <credit type="Per Career Limit">2</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Seminar: Writing in Science</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>NRES</subject>
+        <courseNumber>891</courseNumber>
+        <courseLetter>A</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>pass/no pass only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1151</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">None</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">The goal of this class is to make you a better writer through discussion and critique of published scientific papers.  Writing is the core of how we communicate our scientific findings; fostering good writing skills now will help you throughout your career regardless of if you remain in academia.  This class is suitable for all graduate students working on a proposal or a manuscript, or who want to focus on improving their academic reading and writing skills.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>rct</type>
+        <hours>1</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">1</credit>
     </credits>
   </course>
   <course>

@@ -754,7 +754,7 @@
       <courseCode type="home listing">
         <subject>POLS</subject>
         <courseNumber>261</courseNumber>
-        <courseGroup>International Relations</courseGroup>
+        <courseGroup>International Relations and Comparative Politics</courseGroup>
       </courseCode>
       <courseCode type="crosslisting">
         <subject>PSYC</subject>
@@ -767,7 +767,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1108</effectiveSemester>
+    <effectiveSemester>1151</effectiveSemester>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">Core course for minors in conflict and conflict resolution</div>
     </notes>
@@ -1732,51 +1732,60 @@
   <course>
     <title>Food Security: A Global Perspective</title>
     <courseCodes>
-      <courseCode type="home listing">
+      <courseCode type="crosslisting">
         <subject>ANTH</subject>
         <courseNumber>429</courseNumber>
         <courseLetter>A</courseLetter>
-        <courseGroup>Additional Anthropology Courses</courseGroup>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>ANTH</subject>
+        <courseNumber>829</courseNumber>
+        <courseLetter>A</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>AGRO</subject>
+        <courseNumber>429</courseNumber>
+        <courseLetter>A</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>AGRO</subject>
+        <courseNumber>829</courseNumber>
+        <courseLetter>A</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>HORT</subject>
+        <courseNumber>429</courseNumber>
+        <courseLetter>A</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>HORT</subject>
+        <courseNumber>829</courseNumber>
+        <courseLetter>A</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>NRES</subject>
+        <courseNumber>429</courseNumber>
+        <courseLetter>A</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>NRES</subject>
+        <courseNumber>829</courseNumber>
+        <courseLetter>A</courseLetter>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>NUTR</subject>
+        <courseNumber>429</courseNumber>
+        <courseLetter>A</courseLetter>
       </courseCode>
       <courseCode type="grad tie-in">
-        <subject>ANTH</subject>
-        <courseNumber>829</courseNumber>
-        <courseLetter>A</courseLetter>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>AGRO</subject>
-        <courseNumber>429</courseNumber>
-        <courseLetter>A</courseLetter>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>AGRO</subject>
-        <courseNumber>829</courseNumber>
-        <courseLetter>A</courseLetter>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>HORT</subject>
-        <courseNumber>429</courseNumber>
-        <courseLetter>A</courseLetter>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>HORT</subject>
-        <courseNumber>829</courseNumber>
-        <courseLetter>A</courseLetter>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>NRES</subject>
-        <courseNumber>429</courseNumber>
-        <courseLetter>A</courseLetter>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>NRES</subject>
+        <subject>NUTR</subject>
         <courseNumber>829</courseNumber>
         <courseLetter>A</courseLetter>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1125</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Junior standing</div>
     </prerequisite>
@@ -2726,12 +2735,12 @@
       <courseCode type="crosslisting">
         <subject>POLS</subject>
         <courseNumber>478</courseNumber>
-        <courseGroup>Foreign and Comparative Government</courseGroup>
+        <courseGroup>International Relations and Comparative Politics</courseGroup>
       </courseCode>
       <courseCode type="grad tie-in">
         <subject>POLS</subject>
         <courseNumber>878</courseNumber>
-        <courseGroup>Foreign and Comparative Government</courseGroup>
+        <courseGroup>International Relations and Comparative Politics</courseGroup>
       </courseCode>
       <courseCode type="crosslisting">
         <subject>SOCI</subject>
@@ -2744,7 +2753,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1151</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Junior standing and permission.</div>
     </prerequisite>
@@ -2821,12 +2830,12 @@
       <courseCode type="home listing">
         <subject>POLS</subject>
         <courseNumber>466</courseNumber>
-        <courseGroup>International Relations</courseGroup>
+        <courseGroup>International Relations and Comparative Politics</courseGroup>
       </courseCode>
       <courseCode type="grad tie-in">
         <subject>POLS</subject>
         <courseNumber>866</courseNumber>
-        <courseGroup>International Relations</courseGroup>
+        <courseGroup>International Relations and Comparative Politics</courseGroup>
       </courseCode>
       <courseCode type="crosslisting">
         <subject>SOCI</subject>
@@ -2839,7 +2848,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1151</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Senior standing and permission.</div>
     </prerequisite>
@@ -3408,6 +3417,44 @@
       <credit type="Lower Range Limit">1</credit>
       <credit type="Upper Range Limit">6</credit>
       <credit type="Per Semester Limit">6</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Cultural Heritage of the American Southwest</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ANTH</subject>
+        <courseNumber>837</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1151</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Graduate student standing</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Advanced survey of past and present indigenous cultures and heritage of the American Southwest.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
     </credits>
   </course>
   <course>
