@@ -81,7 +81,7 @@ class UNL_UndergraduateBulletin_EPUB_Utilities
     public static function addLeaders($html)
     {
         $html = preg_replace('/<br \/>/', ' ', $html);
-        $html = preg_replace('/<p class="(requirement-sec-[1-4](?:\-(?:ledr|note))?)"[^>]*>(.*)\s([\d]{1,3}(?:\-[\d]{1,3})?)[\s]*<\/p>/', '<p class="$1"><span class="req_desc">$2</span><span class="leader"></span><span class="req_value">$3</span></p>', $html);
+        $html = preg_replace('/<p class="(requirement-sec-[1-4](?:\-(?:ledr|note))?)"[^>]*>(.*)\s([\d]{1,2}(?:\-[\d]{1,3})?)[\s]*<\/p>/', '<p class="$1"><span class="req_desc">$2</span><span class="leader"></span><span class="req_value">$3</span></p>', $html);
         $html = preg_replace('/<p class="(abbreviations-list)"[^>]*>(((\sor\s)?[^\s]+)+)\s([^<]*)(<span.*>.*<\/span>)?<\/p>/', '<p class="$1"><span class="req_desc">$2</span><span class="leader"></span><span class="req_value">$5 $6</span></p>', $html);
         return $html;
     }
