@@ -46,6 +46,12 @@ $html = UNL_UndergraduateBulletin_EPUB_Utilities::addLeaders($string);
 
 $test->assertEquals($string, $html, 'no leaders on course numbers');
 
+$string = '<p class="requirement-sec-1">Total Hours 120</p>';
+
+$html = UNL_UndergraduateBulletin_EPUB_Utilities::addLeaders($string);
+
+$test->assertEquals('<p class="requirement-sec-1"><span class="req_desc">Total Hours</span><span class="leader"></span><span class="req_value">120</span></p>', $html, 'basic leader in hundreds');
+
 ?>
 ===DONE===
 --EXPECT--
