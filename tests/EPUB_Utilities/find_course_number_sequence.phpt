@@ -17,6 +17,17 @@ $test->assertEquals(array (
   ),
 ), $linked, 'basic link');
 
+$string = 'HIST 244 19<sup>th</sup>';
+
+$linked = UNL_UndergraduateBulletin_EPUB_Utilities::findCourses($string);
+
+$test->assertEquals(array (
+  'HIST' => 
+  array (
+    0 => '244',
+  ),
+), $linked, 'No HTML in course number sequence');
+
 ?>
 ===DONE===
 --EXPECT--
