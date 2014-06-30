@@ -40,6 +40,12 @@ $html = UNL_UndergraduateBulletin_EPUB_Utilities::addLeaders($string);
 
 $test->assertEquals('<p class="requirement-sec-3-ledr"><span class="req_desc">ACE 6. EDPS 251 <span class="requirement-ital">(Pre-Professional Education Requirement)</span></span><span class="leader"></span><span class="req_value">3</span></p>', $html, 'leader with html - third level');
 
+$string = '<p class="requirement-sec-2">6 hours of SPAN 305 and SPAN 317</p>';
+
+$html = UNL_UndergraduateBulletin_EPUB_Utilities::addLeaders($string);
+
+$test->assertEquals($string, $html, 'no leaders on course numbers');
+
 ?>
 ===DONE===
 --EXPECT--
