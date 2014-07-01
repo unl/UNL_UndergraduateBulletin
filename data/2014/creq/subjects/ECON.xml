@@ -1905,17 +1905,17 @@
       <courseCode type="home listing">
         <subject>POLS</subject>
         <courseNumber>467</courseNumber>
-        <courseGroup>International Relations</courseGroup>
+        <courseGroup>International Relations and Comparative Politics</courseGroup>
       </courseCode>
       <courseCode type="grad tie-in">
         <subject>POLS</subject>
         <courseNumber>867</courseNumber>
-        <courseGroup>International Relations</courseGroup>
+        <courseGroup>International Relations and Comparative Politics</courseGroup>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1151</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Senior standing and permission.</div>
     </prerequisite>
@@ -2762,6 +2762,32 @@
     </credits>
   </course>
   <course>
+    <title>Advanced Macroeconomic Theory II</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ECON</subject>
+        <courseNumber>911</courseNumber>
+        <courseLetter>B</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1151</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Advanced topics in macroeconomic fluctuations.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Advanced Microeconomic Theory I</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -2847,6 +2873,36 @@
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
     <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Advanced Topics in Econometrics III</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ECON</subject>
+        <courseNumber>919</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1151</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">ECON 918 with a grade of "B" or better</div>
+    </prerequisite>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
@@ -2974,36 +3030,6 @@
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
     <activities/>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Advanced Topics in Econometrics II</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ECON</subject>
-        <courseNumber>960</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ECON 958 with a grade of "B" or better</div>
-    </prerequisite>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <activities>
-      <activity>
-        <type>lec</type>
-        <hours>3</hours>
-      </activity>
-    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
@@ -3150,31 +3176,6 @@
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Survey of general equilibrium and welfare theory; proof of the existence and stability of equilibrium allocations, their welfare interpretation, welfare functions, externalities, the possibility theorem, the theory of clubs.</div>
-    </description>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <activities/>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Advanced Macroeconomic Theory II</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ECON</subject>
-        <courseNumber>984</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Advanced topics in macroeconomic fluctuations.</div>
     </description>
     <campuses>
       <campus></campus>
