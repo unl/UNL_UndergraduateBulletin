@@ -1,9 +1,4 @@
 <?php
-if (gettype($context->results) == 'string') {
-    echo $context->getRaw('results');
-    return;
-}
-
 
 //$group by course code
 $courses = array();

@@ -1,8 +1,4 @@
 <?php
-if (gettype($context->results) == 'string') {
-    echo $context->getRaw('results');
-    return;
-}
 
 $subjectAreas = new UNL_UndergraduateBulletin_SubjectAreas();
 

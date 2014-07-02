@@ -1,2 +1,2 @@
 <?php
-echo json_encode($context->getRawObject());
+echo json_encode($context);
