@@ -2,6 +2,7 @@
 class UNL_UndergraduateBulletin_Editions extends ArrayIterator
 {
     public static $editions = array(
+        2015,
         2014,
         2013,
         2012,
