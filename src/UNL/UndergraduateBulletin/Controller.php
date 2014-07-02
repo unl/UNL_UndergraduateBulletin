@@ -72,17 +72,6 @@ class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_
     function run()
     {
         try {
-
-            switch($this->options['format']) {
-            case 'partial':
-                UNL_UndergraduateBulletin_ClassToTemplateMapper::$output_template[__CLASS__] = 'Controller-partial';
-            case 'html':
-            default:
-                // Standard template works for html.
-
-                break;
-            }
-
             if (!isset($this->view_map[$this->options['view']])) {
                 throw new Exception('Sorry, that view does not exist.', 404);
             }

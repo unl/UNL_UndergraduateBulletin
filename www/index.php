@@ -12,26 +12,23 @@ $controller = new UNL_UndergraduateBulletin_Controller(UNL_UndergraduateBulletin
 
 $outputcontroller = new UNL_UndergraduateBulletin_OutputController();
 $outputcontroller->setTemplatePath(dirname(__FILE__).'/templates/html');
+$expire = UNL_UndergraduateBulletin_OutputController::getDefaultExpireTimestamp();
 
 switch($controller->options['format']) {
-    case 'partial':
-        $outputcontroller->sendCORSHeaders(UNL_UndergraduateBulletin_OutputController::getDefaultExpireTimestamp());
-        break;
     case 'xml':
-        $outputcontroller->sendCORSHeaders(UNL_UndergraduateBulletin_OutputController::getDefaultExpireTimestamp());
         header('Content-type: text/xml');
+        $outputcontroller->setEscape('htmlspecialchars');
         $outputcontroller->addTemplatePath(dirname(__FILE__).'/templates/xml');
         break;
     case 'json':
-        $outputcontroller->sendCORSHeaders(UNL_UndergraduateBulletin_OutputController::getDefaultExpireTimestamp());
         header('Content-type: application/json');
         $outputcontroller->addTemplatePath(dirname(__FILE__).'/templates/json');
         break;
     case 'collegesource':
+        header('Content-type: text/plain; charset=UTF-8');
         //Collegesource is also csv, but they require specific data... so they have a special template.
         $outputcontroller->addTemplatePath(dirname(__FILE__).'/templates/collegesource');
 
-        header('Content-type: text/plain; charset=UTF-8');
 
         if (!isset($controller->options['delimiter'])) {
             $controller->options['delimiter'] = ",";
@@ -57,11 +54,9 @@ switch($controller->options['format']) {
         
         break;
     case 'csv':
-        $outputcontroller->addTemplatePath(dirname(__FILE__).'/templates/csv');
-        
-        $outputcontroller->sendCORSHeaders(UNL_UndergraduateBulletin_OutputController::getDefaultExpireTimestamp());
-        
         header('Content-type: text/plain; charset=UTF-8');
+        
+        $outputcontroller->addTemplatePath(dirname(__FILE__).'/templates/csv');
         
         if (!isset($controller->options['delimiter'])) {
             $controller->options['delimiter'] = ",";
@@ -74,25 +69,19 @@ switch($controller->options['format']) {
             fputcsv($out, $array, $delimiter);
         });
         break;
+    case 'partial':
+        UNL_UndergraduateBulletin_ClassToTemplateMapper::$output_template[__CLASS__] = 'Controller-partial';
+        // no break
     default:
-        header('Expires: '.date('r', strtotime('tomorrow')));
+        $outputcontroller->addTemplatePath($controller->getEdition()->getDataDir() . '/templates/html');
+        $outputcontroller->setEscape('htmlentities');
+        $expire = strtotime('tomorrow');
         break;
 }
 
-
-$edition_template_dir = $controller->getEdition()->getDataDir().'/templates/'.$controller->options['format'];
-
-if (is_dir($edition_template_dir)
-    && dirname($edition_template_dir) == $controller->getEdition()->getDataDir().'/templates') {
-    // Add the local template dir
-    $outputcontroller->addTemplatePath($edition_template_dir);
-}
-
 $outputcontroller->setClassToTemplateMapper(new UNL_UndergraduateBulletin_ClassToTemplateMapper());
-
-$outputcontroller->setEscape('htmlentities');
 $outputcontroller->addFilters(array($controller, 'postRun'));
 $outputcontroller->addGlobal('controller', $controller);
 $outputcontroller->addGlobal('course_search_driver', new UNL_UndergraduateBulletin_CourseSearch_DBSearcher());
+$outputcontroller->sendCORSHeaders($expire);
 echo $outputcontroller->render($controller);
-
