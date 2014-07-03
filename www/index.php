@@ -70,7 +70,7 @@ switch($controller->options['format']) {
         });
         break;
     case 'partial':
-        UNL_UndergraduateBulletin_ClassToTemplateMapper::$output_template[__CLASS__] = 'Controller-partial';
+        UNL_UndergraduateBulletin_ClassToTemplateMapper::$output_template['UNL_UndergraduateBulletin_Controller'] = 'Controller-partial';
         // no break
     default:
         $outputcontroller->addTemplatePath($controller->getEdition()->getDataDir() . '/templates/html');
