@@ -56,9 +56,7 @@ class UNL_UndergraduateBulletin_OutputController extends Savvy
                 $object->preRun(true);
             } else {
                 // Content should be cached, but none could be found.
-                //flush();
                 
-                ob_start();
                 $object->preRun(false);
                 try {
                     $object->run();
@@ -70,10 +68,13 @@ class UNL_UndergraduateBulletin_OutputController extends Savvy
                     }
                     
                 } catch (Exception $e) {
-                    ob_end_clean();
-                    return parent::renderObject($e);
+                    if ($object instanceof UNL_UndergraduateBulletin_Controller) {
+                        $object->output = $e;
+                        return parent::renderObject($object, $template);
+                    } else {
+                        throw $e;
+                    }
                 }
-                ob_end_clean();
             }
 
             if ($object instanceof Savvy_ObjectProxy) {
