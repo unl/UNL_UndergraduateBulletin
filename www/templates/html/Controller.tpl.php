@@ -39,8 +39,6 @@ $page->head .= '
 
 
 <script src="'.$protocolAgnosticBaseURL.'templates/html/scripts/bulletin.functions.js" type="text/javascript"></script>
-
-<!-- '.md5($context->getRawObject()->getCacheKey()).' -->
 ';
 
 // Check if the year of this edition indicates it has not been published
