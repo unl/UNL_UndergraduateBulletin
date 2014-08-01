@@ -80,7 +80,6 @@ switch($controller->options['format']) {
 }
 
 $outputcontroller->setClassToTemplateMapper(new UNL_UndergraduateBulletin_ClassToTemplateMapper());
-$outputcontroller->addFilters(array($controller, 'postRun'));
 $outputcontroller->addGlobal('controller', $controller);
 $outputcontroller->addGlobal('course_search_driver', new UNL_UndergraduateBulletin_CourseSearch_DBSearcher());
 $outputcontroller->sendCORSHeaders($expire);
