@@ -83,4 +83,9 @@ $outputcontroller->setClassToTemplateMapper(new UNL_UndergraduateBulletin_ClassT
 $outputcontroller->addGlobal('controller', $controller);
 $outputcontroller->addGlobal('course_search_driver', new UNL_UndergraduateBulletin_CourseSearch_DBSearcher());
 $outputcontroller->sendCORSHeaders($expire);
-echo $outputcontroller->render($controller);
+try {
+    echo $outputcontroller->render($controller);
+} catch (Exception $e) {
+    $controller->outputException($e);
+    echo $outputcontroller->render($controller);
+}

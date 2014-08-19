@@ -12,6 +12,16 @@ class UNL_UndergraduateBulletin_OutputController extends Savvy
         parent::__construct();
     }
     
+    protected static function basicOutputController($context, $parent, $file, $savvy)
+    {
+        try {
+            return parent::basicOutputController($context, $parent, $file, $savvy);
+        } catch (Exception $e) {
+            ob_end_clean();
+            throw $e;
+        }
+    }
+    
     static public function setCacheInterface(UNL_UndergraduateBulletin_CacheInterface $cache)
     {
         self::$cache = $cache;
@@ -39,58 +49,94 @@ class UNL_UndergraduateBulletin_OutputController extends Savvy
         return self::$defaultExpireTimestamp;
     }
     
-    public function renderObject($object, $template = null)
+    protected function getRawObject($object)
     {
-        if ($object instanceof UNL_UndergraduateBulletin_CacheableInterface
-            || ($object                    instanceof Savvy_ObjectProxy
-                && $object->getRawObject() instanceof UNL_UndergraduateBulletin_CacheableInterface)) {
-            $key = $object->getCacheKey();
-
-            if (false !== $key) {
-                $key .= UNL_UndergraduateBulletin_Controller::getEdition()->getCacheKey();
-            }
-
-            // We have a valid key to store the output of this object.
-            if ($key !== false && $data = self::getCacheInterface()->get($key)) {
-                // Tell the object we have cached data and will output that.
-                $object->preRun(true);
-            } else {
-                // Content should be cached, but none could be found.
-                
-                $object->preRun(false);
-                try {
-                    $object->run();
-                    
-                    $data = parent::renderObject($object, $template);
-                    
-                    if ($key !== false) {
-                        self::getCacheInterface()->save($data, $key);
-                    }
-                    
-                } catch (Exception $e) {
-                    if ($object instanceof UNL_UndergraduateBulletin_Controller) {
-                        $object->output = $e;
-                        return parent::renderObject($object, $template);
-                    } else {
-                        throw $e;
-                    }
-                }
-            }
-
-            if ($object instanceof Savvy_ObjectProxy) {
-                // Prevent double-encoding, and make sure postRunReplacements are handled
-                $object = $object->getRawObject();
-            }
-
-            if ($object instanceof UNL_UndergraduateBulletin_PostRunReplacements) {
-                $data = $object->postRun($data);
-            }
-            
-            return $data;
+        $rawObject = $object;
+        if ($rawObject instanceof Savvy_ObjectProxy) {
+            $rawObject = $object->getRawObject();
         }
         
-        return parent::renderObject($object, $template);
-
+        return $rawObject;
+    }
+    
+    protected function getCacheKey(UNL_UndergraduateBulletin_CacheableInterface $object)
+    {
+        $key = $object->getCacheKey();
+        
+        if ($key === false) {
+            return false;
+        }
+        
+        $key .= UNL_UndergraduateBulletin_Controller::getEdition()->getCacheKey();
+        
+        return $key;
+    }
+    
+    protected function loadCache($object)
+    {
+        $cacheObject = $this->getRawObject($object);
+        if (!($cacheObject instanceof UNL_UndergraduateBulletin_CacheableInterface)) {
+            return false;
+        }
+        
+        $key = $this->getCacheKey($cacheObject);
+        if ($key === false) {
+            return false;
+        }
+        
+        $data = self::getCacheInterface()->get($key);
+        
+        if ($data !== false) {
+            $cacheObject->preRun(true);
+        } else {
+            $cacheObject->preRun(false);
+            $cacheObject->run();
+        }
+        
+        return $data;
+    }
+    
+    protected function saveCache($object, $data)
+    {
+        $cacheObject = $this->getRawObject($object); 
+        if (!($cacheObject instanceof UNL_UndergraduateBulletin_CacheableInterface)) {
+            return;
+        }
+        
+        $key = $this->getCacheKey($cacheObject);
+        if ($key === false) {
+            return;
+        }
+        
+        self::getCacheInterface()->save($data, $key);
+    }
+    
+    public function renderObject($object, $template = null)
+    {
+        $rawObject = $this->getRawObject($object);
+        $data = $this->loadCache($object);
+        if ($data === false) {
+            $data = parent::renderObject($object, $template);
+        
+            if ($rawObject instanceof UNL_UndergraduateBulletin_PostRunReplacements) {
+                $data = $rawObject->postRun($data);
+            }
+            
+            $this->saveCache($object, $data);
+        }
+        return $data;
+    }
+    
+    protected function fetch($mixed, $template = null)
+    {
+        try {
+            return parent::fetch($mixed, $template);
+        } catch (Savvy_Exception $e) {
+            throw $e;
+        } catch (Exception $e) {
+            array_pop($this->templateStack);
+            throw $e;
+        }
     }
     
     /**
