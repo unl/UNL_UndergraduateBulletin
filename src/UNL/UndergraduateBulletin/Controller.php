@@ -47,7 +47,7 @@ class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_
         'editions'      => 'UNL_UndergraduateBulletin_Editions',
         'developers'    => 'UNL_UndergraduateBulletin_Developers'
         );
-
+    
     protected static $replacement_data = array();
 
     function __construct($options = array())
@@ -61,6 +61,10 @@ class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_
 
     function getCacheKey()
     {
+        if ($this->output instanceof Exception) {
+            return false;
+        }
+        
         return serialize($this->options);
     }
 
@@ -71,6 +75,10 @@ class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_
 
     function run()
     {
+        if (!empty($this->output)) {
+            return;
+        }
+        
         try {
             if (!isset($this->view_map[$this->options['view']])) {
                 throw new Exception('Sorry, that view does not exist.', 404);
@@ -81,10 +89,21 @@ class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_
             $this->output[] = $e;
         }
     }
+    
+    public function outputException(Exception $e)
+    {
+        self::resetReplacementData();
+        $this->output = $e;
+    }
 
     public static function setReplacementData($field, $data)
     {
         self::$replacement_data[$field] = $data;
+    }
+    
+    public static function resetReplacementData()
+    {
+        self::$replacement_data = array();
     }
 
     function postRun($data)
