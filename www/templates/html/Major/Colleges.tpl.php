@@ -11,7 +11,7 @@ foreach ($context as $college) {
             $college_section = $college->description->getRaw($id);
             ?>
             <div id="college_<?php echo $id; ?>">
-                <h3 class="sec_header"><?php echo $title; ?></h3>
+                <h3><?php echo $title; ?></h3>
                 <?php echo str_replace(array('<h3', '</h3>'),
                                        array('<h4', '</h4>'), $college_section); ?>
             </div>
