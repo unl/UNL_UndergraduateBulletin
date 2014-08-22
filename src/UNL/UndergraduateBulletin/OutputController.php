@@ -87,9 +87,9 @@ class UNL_UndergraduateBulletin_OutputController extends Savvy
         $data = self::getCacheInterface()->get($key);
         
         if ($data !== false) {
-            $cacheObject->preRun(true);
+            $cacheObject->preRun(true, $this);
         } else {
-            $cacheObject->preRun(false);
+            $cacheObject->preRun(false, $this);
             $cacheObject->run();
         }
         
