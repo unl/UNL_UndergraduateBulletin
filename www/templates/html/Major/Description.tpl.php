@@ -1,5 +1,4 @@
 <?php
-    $url = UNL_UndergraduateBulletin_Controller::getURL();
     $regions = array(
     'description'                   => 'Description',
     'admission'                     => 'Admission',
