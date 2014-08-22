@@ -1,10 +1,13 @@
 @import 'templates_less/_mixins/all.less';
 
+@uidecor: mix(#000, @cream, 55%);
+
 table {
 	line-height: 1.333;
 }
 
 h2 {
+	margin-top: 0;
 	padding-top: .451em;
 	border-top: 1px solid fadeout(@base-text, 90%);
 }
@@ -21,7 +24,7 @@ h2 {
 	.base-font;
 	.rem(17,21);
 	padding-left: 0.451em;
-	color: fadeout(@base-text, 30%);
+	color: @uidecor;
 }
 
 .wdn-course-year-header {
@@ -37,7 +40,7 @@ h2 {
 	vertical-align: top;
 	.base-font;
 	.rem(17,21);
-	color: fadeout(@base-text, 30%);	
+	color: @uidecor;
 	border-top: 1px solid fadeout(@base-text, 90%);
 	border-bottom: 1px solid fadeout(@base-text, 90%);
 }
@@ -55,6 +58,7 @@ h2 {
 .wdn-courses {
 	.sans-serif-font;
 	.rem(12);
+	margin-bottom: 1em;
 
 	caption {
 		padding-bottom: 0.254em;
@@ -64,7 +68,7 @@ h2 {
 		.wdn-semester-season {
 			.base-font;
 			font-style: italic;
-			color: fadeout(@base-text, 30%);
+			color: @uidecor;
 		}
 	}
 
@@ -97,7 +101,7 @@ h2 {
 
 	.wdn-course-id {
 		.rem(10);
-		color: fadeout(@base-text, 30%);
+		color: @uidecor;
 	}
 
 	thead {
@@ -122,20 +126,28 @@ h2 {
 
 	.wdn-course-credit-hours-label {
 		.rem(9,10);
-		color: fadeout(@base-text, 30%);
+		color: @uidecor;
 	}
 
 	td[class*='wdn-total-credits'], td[class^='wdn-total-credits'] {
-		.heading-font;
+		font-weight: 600;
 	}
 
 	.wdn-total-credits-label {
-		padding-bottom: 1.333em;
 		.rem(17,21);
+		padding: 0.451em 0 0.451em 0.254em; 
+
+		@media @bp2 {
+			padding: 0.563em 0 0.563em 0.254em; 
+		}
 	}
 
 	.wdn-total-credits-number {
-		padding-bottom: 1em;
 		.rem(28,30);
+		padding: 0.451em 0 0.451em 0.254em; 
+
+		@media @bp2 {
+			padding: 0.563em 0 0.563em 0.254em; 
+		}
 	}
 }
