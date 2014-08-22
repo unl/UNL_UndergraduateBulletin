@@ -5,7 +5,9 @@
  *
  * @author bbieber
  */
-class UNL_UndergraduateBulletin_OtherArea implements UNL_UndergraduateBulletin_CacheableInterface
+class UNL_UndergraduateBulletin_OtherArea implements
+    UNL_UndergraduateBulletin_CacheableInterface,
+    UNL_UndergraduateBulletin_ControllerAwareInterface
 {
 
     /**
@@ -16,10 +18,23 @@ class UNL_UndergraduateBulletin_OtherArea implements UNL_UndergraduateBulletin_C
     public $name;
 
     protected $_description;
+    
+    protected $controller;
 
     public function __construct($options = array())
     {
         $this->name = $options['name'];
+    }
+    
+    public function setController(UNL_UndergraduateBulletin_Controller $controller)
+    {
+        $this->controller = $controller;
+        return $this;
+    }
+    
+    public function getController()
+    {
+        return $this->controller;
     }
 
     public function getCacheKey()
