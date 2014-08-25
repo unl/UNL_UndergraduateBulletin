@@ -20,7 +20,7 @@ class UNL_UndergraduateBulletin_OtherAreas extends ArrayIterator  implements UNL
         
     }
 
-    function preRun()
+    function preRun($fromCache, Savvy $savvy)
     {
         
     }

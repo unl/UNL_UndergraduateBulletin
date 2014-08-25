@@ -87,9 +87,9 @@ class UNL_UndergraduateBulletin_OutputController extends Savvy
         $data = self::getCacheInterface()->get($key);
         
         if ($data !== false) {
-            $cacheObject->preRun(true);
+            $cacheObject->preRun(true, $this);
         } else {
-            $cacheObject->preRun(false);
+            $cacheObject->preRun(false, $this);
             $cacheObject->run();
         }
         
@@ -109,6 +109,15 @@ class UNL_UndergraduateBulletin_OutputController extends Savvy
         }
         
         self::getCacheInterface()->save($data, $key);
+    }
+    
+    public function escape($var)
+    {
+        if (!is_array($this->__config['escape'])) {
+            return $var;
+        }
+        
+        return parent::escape($var);
     }
     
     public function renderObject($object, $template = null)

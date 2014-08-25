@@ -19,7 +19,7 @@ class UNL_UndergraduateBulletin_SubjectAreas extends ArrayIterator implements UN
         return 'subjectareas'.$this->options['format'];
     }
     
-    function preRun()
+    function preRun($fromCache, Savvy $savvy)
     {
         
     }

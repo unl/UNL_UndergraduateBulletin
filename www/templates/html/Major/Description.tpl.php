@@ -1,5 +1,4 @@
 <?php
-    $url = UNL_UndergraduateBulletin_Controller::getURL();
     $regions = array(
     'description'                   => 'Description',
     'admission'                     => 'Admission',
@@ -22,24 +21,21 @@
             <?php
             foreach ($regions as $id => $title) {
                 if (!empty($context->$id)) {
-                    echo '<div id="'.$id.'">'.$context->getRaw($id).'</div>';
+                    echo '<div>'.$context->getRaw($id).'</div>';
                 }
             }
             
             $college_requirements = $savvy->render($context->colleges);
             if (!empty($college_requirements)): ?>
-                <h2 id="college_requirements" class="sec_header">COLLEGE REQUIREMENTS</h2>
+                <h2 id="college_requirements">COLLEGE REQUIREMENTS</h2>
                 <?php echo $college_requirements;
             endif; ?>
         </div>
     </div>
     <div class="bp1-wdn-col-one-fourth">
         <table class="major_quick_points zentable cool">
-            <caption>Quick points about the <?php echo $context->major->title; ?> major/program.</caption>
+            <caption>Quick points</caption>
             <thead>
-                <tr>
-                    <th colspan="2">Quick Points</th>
-                </tr>
                 <tr class="table_heading">
                     <th scope="col">Attribute</th>
                     <th scope="col">Value</th>

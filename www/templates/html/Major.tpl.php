@@ -1,23 +1,3 @@
-<?php
-$url = UNL_UndergraduateBulletin_Controller::getURL();
-UNL_UndergraduateBulletin_Controller::setReplacementData('doctitle', $context->title.' | Undergraduate Bulletin | University of Nebraska-Lincoln');
-UNL_UndergraduateBulletin_Controller::setReplacementData('pagetitle', '<h1>'.$context->title.'</h1>');
-
-
-$subhead = '';
-foreach ($context->colleges as $college) {
-    $subhead .= $college->name.' '; 
-}
-
-UNL_UndergraduateBulletin_Controller::setReplacementData('pagetitle', '<h1><span class="subhead">'.$subhead.'</span>'.$context->title.' </h1>');
-UNL_UndergraduateBulletin_Controller::setReplacementData('breadcrumbs', '
-<ul>
-    <li><a href="http://www.unl.edu/">UNL</a></li>
-    <li><a href="'.$url.'">Undergraduate Bulletin</a></li>
-    <li>'.$context->title.'</li>
-</ul>
-');
-?>
 <div class="wdn-inner-wrapper">
     <ul class="wdn_tabs disableSwitching">
         <li class="<?php echo ($controller->options['view']=='major')?'selected':''; ?>"><a href="<?php echo $context->getRawObject()->getURL(); ?>"><span>Description</span></a></li>

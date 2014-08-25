@@ -1,5 +1,7 @@
 <?php
-class UNL_UndergraduateBulletin_Major implements UNL_UndergraduateBulletin_CacheableInterface
+class UNL_UndergraduateBulletin_Major implements 
+    UNL_UndergraduateBulletin_CacheableInterface,
+    UNL_UndergraduateBulletin_ControllerAwareInterface
 {
     
     public $title;
@@ -14,12 +16,25 @@ class UNL_UndergraduateBulletin_Major implements UNL_UndergraduateBulletin_Cache
     
     protected $_subjectareas;
     
+    protected $controller;
+    
     function __construct($options = array())
     {
         if (isset($options['name'])) {
             $this->title = $options['name'];
         }
         $this->options = $options;
+    }
+    
+    public function setController(UNL_UndergraduateBulletin_Controller $controller)
+    {
+        $this->controller = $controller;
+        return $this;
+    }
+    
+    public function getController()
+    {
+        return $this->controller;
     }
     
     function getCacheKey()
@@ -29,12 +44,37 @@ class UNL_UndergraduateBulletin_Major implements UNL_UndergraduateBulletin_Cache
             return false;
         }
 
-        return 'major'.$this->title.$this->options['view'];
+        return 'major'.$this->title.$this->options['view'].$this->options['format'];
     }
     
-    function preRun()
+    function preRun($fromCache, Savvy $savvy)
     {
+        $controller = $this->getController();
+        $controller::setReplacementData('doctitle', $savvy->escape($this->title) . ' | Undergraduate Bulletin | University of Nebraska-Lincoln');
         
+        $subhead = '';
+        foreach ($this->getColleges() as $college) {
+            $subhead .= $college->name.' ';
+        }
+        $pagetitle = '<h1>';
+        if ($subhead) {
+            $pagetitle .= '<span class="subhead">' . $savvy->escape($subhead) . '</span> ';
+        }
+        $pagetitle .= $savvy->escape($this->title) . '</h1>';
+        $controller::setReplacementData('pagetitle', $pagetitle);
+        
+        $controller::setReplacementData('breadcrumbs', <<<EOD
+<ul>
+    <li><a href="http://www.unl.edu/">UNL</a></li>
+    <li><a href="{$controller::getURL()}">Undergraduate Bulletin</a></li>
+    <li>{$savvy->escape($this->title)}</li>
+</ul>
+EOD
+        );
+        
+        if ($this->options['view'] == 'plans') {
+            $controller::setReplacementData('head', '<link rel="stylesheet" type="text/css" href="' . $controller::getBaseURL() . 'templates/html/css/modules.courses.css" />');
+        }
     }
     
     function run()

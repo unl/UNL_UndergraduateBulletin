@@ -5,7 +5,9 @@
  *
  * @author bbieber
  */
-class UNL_UndergraduateBulletin_OtherArea implements UNL_UndergraduateBulletin_CacheableInterface
+class UNL_UndergraduateBulletin_OtherArea implements
+    UNL_UndergraduateBulletin_CacheableInterface,
+    UNL_UndergraduateBulletin_ControllerAwareInterface
 {
 
     /**
@@ -16,10 +18,23 @@ class UNL_UndergraduateBulletin_OtherArea implements UNL_UndergraduateBulletin_C
     public $name;
 
     protected $_description;
+    
+    protected $controller;
 
     public function __construct($options = array())
     {
         $this->name = $options['name'];
+    }
+    
+    public function setController(UNL_UndergraduateBulletin_Controller $controller)
+    {
+        $this->controller = $controller;
+        return $this;
+    }
+    
+    public function getController()
+    {
+        return $this->controller;
     }
 
     public function getCacheKey()
@@ -31,8 +46,22 @@ class UNL_UndergraduateBulletin_OtherArea implements UNL_UndergraduateBulletin_C
     {
     }
 
-    public function preRun()
+    public function preRun($fromCache, Savvy $savvy)
     {
+        $controller = $this->getController();
+        $controller::setReplacementData('doctitle', $savvy->escape($this->name) . ' | Undergraduate Bulletin | University of Nebraska-Lincoln');
+        
+        $pagetitle = '<h1>' . $savvy->escape($this->name) . '</h1>';
+        $controller::setReplacementData('pagetitle', $pagetitle);
+        
+        $controller::setReplacementData('breadcrumbs', <<<EOD
+<ul>
+    <li><a href="http://www.unl.edu/">UNL</a></li>
+    <li><a href="{$controller::getURL()}">Undergraduate Bulletin</a></li>
+    <li>{$savvy->escape($this->name)}</li>
+</ul>
+EOD
+        );
     }
 
     public function __get($var)

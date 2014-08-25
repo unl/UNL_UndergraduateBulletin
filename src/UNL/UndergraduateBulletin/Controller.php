@@ -68,7 +68,7 @@ class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_
         return serialize($this->options);
     }
 
-    function preRun()
+    function preRun($fromCache, Savvy $savvy)
     {
 
     }
@@ -83,8 +83,14 @@ class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_
             if (!isset($this->view_map[$this->options['view']])) {
                 throw new Exception('Sorry, that view does not exist.', 404);
             }
+            
+            $outputModel = new $this->view_map[$this->options['view']]($this->options);
+            
+            if ($outputModel instanceof UNL_UndergraduateBulletin_ControllerAwareInterface) {
+                $outputModel->setController($this);
+            }
 
-            $this->output[] = new $this->view_map[$this->options['view']]($this->options);
+            $this->output[] = $outputModel;
         } catch(Exception $e) {
             $this->output[] = $e;
         }

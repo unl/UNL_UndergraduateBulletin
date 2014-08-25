@@ -5,7 +5,7 @@
     font-weight: 400;
     display:block;
 }
-#maincontent div.story h2.sec_header,
+#maincontent div.story h2,
 #maincontent div.story h3,
 #maincontent div.story h4,
 #maincontent div.story h5 {
@@ -47,7 +47,6 @@
 table.major_quick_points {
     margin-bottom:2em;
 }
-table.major_quick_points caption,
 table.major_quick_points .table_heading {
     display:none;
     visibility:hidden;
@@ -79,7 +78,6 @@ table.major_quick_points .value {
     top: 0;
     right: 5px;
     font-size: 2em;
-    color: #d4cebf;
     line-height: 100%;
     cursor: pointer;
     -webkit-transition: all .35s;
@@ -89,10 +87,6 @@ table.major_quick_points .value {
     transition: all .35s;
     text-decoration: none;
     border: none;
-}
-
-#maincontent #tocToggle:hover {
-    color: #c5c2b9;
 }
 
 #maincontent #tocToggle.close {
@@ -172,7 +166,7 @@ a.top {
     margin-bottom:0;
 }
 
-#maincontent p + .sec_header, #maincontent p + .title-1 {
+#maincontent p + .title-1 {
     margin-top: 1em;
 }
 

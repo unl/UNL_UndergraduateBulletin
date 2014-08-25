@@ -1,15 +1,3 @@
-<?php
-$url = UNL_UndergraduateBulletin_Controller::getURL();
-UNL_UndergraduateBulletin_Controller::setReplacementData('doctitle', $context->name.' | Undergraduate Bulletin | University of Nebraska-Lincoln');
-UNL_UndergraduateBulletin_Controller::setReplacementData('pagetitle', '<h1>'.$context->name.'</h1>');
-UNL_UndergraduateBulletin_Controller::setReplacementData('breadcrumbs', '
-<ul>
-    <li><a href="http://www.unl.edu/">UNL</a></li>
-    <li><a href="'.$url.'">Undergraduate Bulletin</a></li>
-    <li>'.$context->name.'</li>
-</ul>
-');
-?>
 <div class="wdn-inner-wrapper">
     <div class="wdn-grid-set">
         <div class="bp1-wdn-col-three-fourths">

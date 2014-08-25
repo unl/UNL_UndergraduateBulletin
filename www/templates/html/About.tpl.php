@@ -19,17 +19,17 @@ UNL_UndergraduateBulletin_Controller::setReplacementData('breadcrumbs', '
 <div id="toc_bar"></div>
 <div class="wdn-grid-set">
     <div id="long_content" class="wdn-col-three-fourths centered">
-        <h3 class="sec_header">GENERAL NAVIGATION</h3>
+        <h3>GENERAL NAVIGATION</h3>
         <p>The <em>Undergraduate Bulletin</em> tab on the main NAVIGATION BAR at the top of the page is the bulletin's main or first page.&nbsp; The user should click on this tab whenever they want to return to the bulletin's main page.&nbsp; </p>
         <p>The user can also choose to go to a COLLEGE page, a MAJOR page, the university's ACADEMIC POLICIES page or learn about COURSES from either the NAVIGATION BAR at the top of the page or by selecting the same items from options provided on the main page.&nbsp; </p>
         <p>One of the benefits to the bulletin is that each page is similar in the way the content is presented. Some colleges and majors have slightly different menu items and may have chosen to populate their pages in a slightly different way, but overall, the user should find the navigation easy to understand and fairly standard.</p>
-        <h3 class="sec_header">GENERAL CONTENT GUIDELINES</h3>
+        <h3>GENERAL CONTENT GUIDELINES</h3>
         <p>The intent of the bulletin document is to include academic curriculum, policies and procedures that guide students in their quest to earn a degree. In developing the bulletin, the colleges were asked to include only information that is academic in scope.&nbsp; Information that has historically been a part of the bulletin that is not defined as curriculum, as an academic policy or as an academic procedure, and that is described on the UNL greater website, has not been included in the 2010-2011 bulletin.&nbsp; </p>
-        <h3 class="sec_header">CONTENT UPDATES and ARCHIVING: </h3>
+        <h3>CONTENT UPDATES and ARCHIVING: </h3>
         <p>Please recognize that the bulletin content will change during the summer months of 2010 as colleges review their COLLEGE and MAJOR pages and submit corrections and additions. The bulletin file should &quot;freeze&quot; sometime in August, 2010 (date TBA). The &quot;frozen&quot; version will be the one that is archived as the year passes and the next bulletin is brought forward.</p>
-        <h3 class="sec_header">COURSE DESCRIPTIONS (CONTENT)</h3>
+        <h3>COURSE DESCRIPTIONS (CONTENT)</h3>
         <p>The course descriptions in the bulletin feed from the UNL CREQ database. The feed will &quot;lock&quot; when the bulletin &quot;freezes&quot; so any course updates that occur in CREQ after the bulletin freeze date will NOT display in the bulletin. In this way we will have a historical record of what was in place during the bulletin year in question.</p>
-        <h3 class="sec_header">FINDING A MAJOR OR DEGREE</h3>
+        <h3>FINDING A MAJOR OR DEGREE</h3>
         <p>The bulletin offers several ways for the user to search for a degree, major or program of study.&nbsp; The bulletin uses the term "MAJOR" interchangeably for these terms.&nbsp; There are several ways to search for a major:&nbsp; </p>
         <ul>
             <li>&nbsp;Users who know any portion of the major name can use the &nbsp;FIND A MAJOR OR DEGREE search box to find a specific major:
@@ -77,7 +77,7 @@ UNL_UndergraduateBulletin_Controller::setReplacementData('breadcrumbs', '
             <li>Majors that are offered in more than one college are noted with the college designation on any major list.&nbsp; For example, both CASNR and ASC offer a major in Plant Biology. Thus Plant Biology appears twice on the major list. </li>
             <li>The default for listing majors as a result of a search is to include all majors and minors. The minors that are listed on a search result atr minors for which the department does not have a corresponding major.&nbsp; Departments included these minors if the minor is open to all students.&nbsp; For example, ASC offers a Japanese major but not a minor.&nbsp; In a search to find all majors, the Japanese minor would be listed as Japanese (Minor) and the list that the search returns.&nbsp; Majors that offer both a major and a minor are only listed once on a search result.&nbsp;&nbsp; &nbsp;&nbsp;The minors are included on the search result because the default filter option is checked to include all minors.&nbsp; Users who do not want to include minors in their search can de-select "Minor Available-All".&nbsp; To make changes in the filter options before searching, use the NAVIGATION BAR method for searching majors. </li>
         </ul>
-        <h3 class="sec_header">FINDING A MINOR</h3>
+        <h3>FINDING A MINOR</h3>
         <p>One feature that the new bulletin provides is the opportunity for the user to search for minors. </p>
         <ul>
             <li>To see a listing of all minors use the NAVIGATION BAR AT THE TOP OF ANY PAGE OF THE BULLETIN
@@ -89,7 +89,7 @@ UNL_UndergraduateBulletin_Controller::setReplacementData('breadcrumbs', '
                 </ul>
             </li>
         </ul>
-        <h3 class="sec_header">COURSES</h3>
+        <h3>COURSES</h3>
         <p>The user may locate course information via several options.</p>
         <ul>
             <li>FIND A COURSE search box:</li>
@@ -136,7 +136,7 @@ UNL_UndergraduateBulletin_Controller::setReplacementData('breadcrumbs', '
                 </ul>
             </li>
         </ul>
-        <h3 class="sec_header">COLLEGE PAGE</h3>
+        <h3>COLLEGE PAGE</h3>
         <p>Each of UNL's undergraduate colleges and the College of Public Affairs and Community Service has their own COLLEGE page.&nbsp; This page includes all of the college's academic policies and procedures such as college admission requirements, college rules about the pass/no pass grade option and residency etc.&nbsp; </p>
         <p>Colleges have their own educational philosophies.&nbsp; In developing the bulletin, colleges have the latitude to develop their college information within the framework of the bulletin template.&nbsp;&nbsp; For example, one college may choose to include curriculum within their COLLEGE page whereas another college may choose to include all curriculum requirements on theits MAJOR pages.&nbsp; The user may access COLLEGE pages one of two ways:</p>
         <ul>
@@ -154,7 +154,7 @@ UNL_UndergraduateBulletin_Controller::setReplacementData('breadcrumbs', '
                 </ul>
             </li>
         </ul>
-        <h3 class="sec_header">VIEW MAJOR PAGE CONTENT</h3>
+        <h3>VIEW MAJOR PAGE CONTENT</h3>
         <p>Each department has a MAJOR page each of its majors. Users may view the topics included on the MAJOR page by selecting the CONTENTS box.&nbsp; This box contains a pull-down menu that contains the primary headers for the information included on the page.&nbsp; The user may also scroll through the contents using the down arrow key.&nbsp; </p>
         <p>The page also contains a QUICK POINTS area that includes:</p>
         <ul>
@@ -165,7 +165,7 @@ UNL_UndergraduateBulletin_Controller::setReplacementData('breadcrumbs', '
             <li>Minor Available:&nbsp; This field indicates if the department that offers the affiliated major also offers a minor. If yes, the user can view the minor requirements by selecting the MINOR INFORMATION item on the CONTENTS BOX menu on the MAJOR page. </li>
             <li>Chief Adviser:&nbsp; This field identifies the primary academic adviser the user should contact should they need additional information about the major. </li>
         </ul>
-        <h3 class="sec_header">ACADEMIC POLICIES</h3>
+        <h3>ACADEMIC POLICIES</h3>
         <p>The <em>University of Nebraska-Lincoln</em> has academic policies and procedures. The user may view these policies in one of two ways: <br />
             1. <em>ACADEMIC POLICIES</em> ON FIRST PAGE OF THE BULLETIN:&nbsp; </p>
         <ul>
