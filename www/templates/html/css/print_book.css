@@ -1,0 +1,111 @@
+h1, h2, h3, h4, h5, h6 {
+	font-family: sans-serif;
+}
+
+.general .major-name {
+	font-size: 1.75em;
+	font-weight: bold;
+	font-family: sans-serif;
+}
+
+.college .major-name {
+	font-size: 1.75em;
+	font-weight: bold;
+	font-family: sans-serif;
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+}
+
+.major .major-name {
+	border-top: 0;
+}
+
+p.list {
+    margin-bottom:0em;
+}
+p.list-indent {
+    margin-bottom:0em;
+    text-indent:1.333em;
+}
+
+p.requirement-sec-1 {
+    font-weight:bold;
+    margin:1em 0 0;
+    position: relative;
+}
+p.requirement-hours {
+    margin-top:1em;
+    font-weight: bold;
+}
+.requirement-underline {
+    text-decoration:underline;
+}
+.requirement-ital,
+.basic-text-ital,
+.list-ital,
+.requirement-sec-3-note {
+    font-style: italic;
+}
+.requirement-bold,
+.basic-text-bold,
+.faculty-list-bold,
+.list-bold,
+.header-paragraph-title {
+    font-weight: bold;
+}
+p.abbreviations-list,
+p.abbreviations-note,
+p.requirement-sec-2,
+p.requirement-sec-3,
+p.requirement-sec-3-ledr,
+p.requirement-sec-3-note,
+p.requirement-sec-4 {
+	position: relative;
+    margin:0 1em 0 1em;
+    display:block;
+    clear:both;
+}
+
+p.requirement-sec-3,
+p.requirement-sec-3-note,
+p.requirement-sec-3-ledr {
+    margin-left:2em;
+    margin-right:2em;
+}
+p.requirement-sec-4,
+p.requirement-sec-4-ledr {
+    margin-left:3em;
+    margin-right:3em;
+}
+
+li.bullet-2 {margin-left:1.1em;}
+li.bullet-3 {margin-left:2.2em;}
+p.bullet-2 {margin-left:3.3em;}
+p.numbered-list-2 {margin-left:3.3em;}
+p.numbered-list-3 {margin-left:4.4em;}
+
+p span.req_desc {
+    background-color:#fff;
+    position:relative;
+    z-index:1;
+}
+
+p span.leader {
+	position:absolute;
+    display:block;
+    width:100%;
+    border-bottom:1px dotted;
+    bottom:0.235em;
+    }
+
+p span.req_value {
+    float:right;
+    margin-left:3px;
+    background-color:#fff;
+    position:relative;
+}
+
+p.basic-text {
+    margin:0;
+    text-indent: 1.5em;
+}

@@ -34,6 +34,10 @@ class UNL_UndergraduateBulletin_Router
             case preg_match('/^developers\/?$/', $requestURI):
                 $options['view'] = 'developers';
                 break;
+            case preg_match('/^book\/?$/', $requestURI):
+                $options['view'] = 'book';
+                $options['format'] = 'print';
+                break;
             case preg_match('/^courses\/$/', $requestURI, $matches):
                 $options['view'] = 'subjects';
                 break;

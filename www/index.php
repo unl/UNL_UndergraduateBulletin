@@ -69,6 +69,11 @@ switch($controller->options['format']) {
             fputcsv($out, $array, $delimiter);
         });
         break;
+    case 'print':
+        $outputcontroller->addTemplatePath(dirname(__FILE__).'/templates/print');
+        $outputcontroller->setEscape('htmlentities');
+        $expire = strtotime('tomorrow');
+        break;
     case 'partial':
         UNL_UndergraduateBulletin_ClassToTemplateMapper::$output_template['UNL_UndergraduateBulletin_Controller'] = 'Controller-partial';
         // no break
