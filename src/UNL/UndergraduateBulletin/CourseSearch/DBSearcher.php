@@ -110,7 +110,7 @@ class UNL_UndergraduateBulletin_CourseSearch_DBSearcher extends UNL_Services_Cou
     {
         $query = explode(' ', $prereq, 2);
         $sql = '
-SELECT courses.id, courses.xml
+SELECT DISTINCT courses.id, courses.xml
 FROM courses 
 INNER JOIN prereqs ON prereqs.course_id = courses.id
 WHERE prereqs.subjectArea = ' . self::getDB()->quote($query[0]) . ' AND prereqs.courseNumber = ' . self::getDB()->quote($query[1] ?: '');
