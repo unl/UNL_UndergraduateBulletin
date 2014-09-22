@@ -105,10 +105,17 @@ class UNL_UndergraduateBulletin_CourseSearch_DBSearcher extends UNL_Services_Cou
     {
         return "courses.credits = {$credits}";
     }
-
+    
     function prerequisiteQuery($prereq)
     {
-        return 'courses.prerequisite LIKE '.self::getDB()->quote('%'.$prereq.'%');
+        $query = explode(' ', $prereq, 2);
+        $sql = '
+SELECT DISTINCT courses.id, courses.xml
+FROM courses 
+INNER JOIN prereqs ON prereqs.course_id = courses.id
+WHERE prereqs.subjectArea = ' . self::getDB()->quote($query[0]) . ' AND prereqs.courseNumber = ' . self::getDB()->quote($query[1] ?: '');
+        
+        return new UNL_UndergraduateBulletin_CourseSearch_Select($sql);
     }
 
     function intersectQuery($query1, $query2)
@@ -128,14 +135,18 @@ class UNL_UndergraduateBulletin_CourseSearch_DBSearcher extends UNL_Services_Cou
 
     function getQueryResult($query, $offset = 0, $limit = -1)
     {
-        $query =  'SELECT DISTINCT courses.id, courses.xml 
-                   FROM courses INNER JOIN crosslistings ON courses.id=crosslistings.course_id
-                   WHERE (
-                          LENGTH(crosslistings.courseNumber) >= 3
-                          AND crosslistings.courseNumber < "500"
-                          OR LENGTH(crosslistings.courseNumber) < 3
-                         )
-                         AND (' . $query . ');';
+        if ($query instanceof UNL_UndergraduateBulletin_CourseSearch_Select) {
+            $query = $query->__toString();
+        } else {
+            $query =  'SELECT DISTINCT courses.id, courses.xml 
+                       FROM courses INNER JOIN crosslistings ON courses.id=crosslistings.course_id
+                       WHERE (
+                              LENGTH(crosslistings.courseNumber) >= 3
+                              AND crosslistings.courseNumber < "500"
+                              OR LENGTH(crosslistings.courseNumber) < 3
+                             )
+                             AND (' . $query . ');';
+        }
         return new UNL_UndergraduateBulletin_CourseSearch_DBSearchResults($query, $offset, $limit);
     }
 }

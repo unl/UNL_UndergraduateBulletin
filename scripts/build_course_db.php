@@ -61,9 +61,17 @@ foreach (UNL_UndergraduateBulletin_Editions::getAll() as $edition) {
     $db->exec('ALTER TABLE `crosslistings` ADD INDEX ( `subjectArea` )  ');
     $db->exec('ALTER TABLE `crosslistings` ADD INDEX ( `courseNumber` )  ');
     
+    $db->exec('CREATE TABLE IF NOT EXISTS prereqs (
+    course_id INT UNSIGNED NOT NULL ,
+    subjectArea VARCHAR( 4 ) NOT NULL ,
+    courseNumber VARCHAR( 4 ) NOT NULL
+    );');
+    
+    $db->exec('CREATE INDEX IF NOT EXISTS IX_prereqs_subjectArea_courseNumber ON prereqs ( subjectArea, courseNumber );');
     
     $course_stmt = $db->prepare('INSERT INTO courses (id,subjectArea,courseNumber,title,slo,prerequisite,credits,xml) VALUES (?,?,?,?,?,?,?,?);');
     $cross_stmt =  $db->prepare('INSERT INTO crosslistings (course_id, subjectArea, courseNumber) VALUES (?,?,?);');
+    $prereq_stmt = $db->prepare('INSERT INTO prereqs (course_id, subjectArea, courseNumber) VALUES (?,?,?);');
     
     foreach ($courses as $course) {
         $id++;
@@ -86,6 +94,14 @@ foreach (UNL_UndergraduateBulletin_Editions::getAll() as $edition) {
         }
     
         $values[] = $course->prerequisite;
+        $prereqs = UNL_UndergraduateBulletin_EPUB_Utilities::findCourses($course->prerequisite);
+        foreach ($prereqs as $subj => $courseNums) {
+            foreach ($courseNums as $num) {
+                $prereq_stmt->execute(array($id, $subj, $num));
+            }
+        }
+        unset($subj, $courseNums, $num, $prereqs);
+        
     
         $credits = $course->getCredits();
         if (isset($credits['Single Value'])) {
