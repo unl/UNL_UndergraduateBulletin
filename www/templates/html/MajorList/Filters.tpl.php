@@ -1,4 +1,4 @@
-<div class="zenbox energetic wdn_filterset majorfilter">
+<div class="wdn_filterset majorfilter">
     <form method="post" action="#" class="filters majorFilters">
     <h3 class="wdn-brand">Filter these Areas of Study</h3>
     <fieldset class="formats">
