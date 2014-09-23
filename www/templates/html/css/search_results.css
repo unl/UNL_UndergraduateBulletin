@@ -269,22 +269,9 @@ Autocomplete CSS
     opacity: 1;
 }
 
-/*
-
-Form overrides
-
-*/
-
-#courseSearchResults
-{
-    background-color: #EEE;
-}
-
-#courseSearchResults .description,
-#courseSearchResults .prereqs,
-#courseSearchResults .notes,
-#courseSearchResults .details {
-    display: none;
+.searchcourses .course .info-1,
+.searchcourses .course .info-2 {
+	width: 100%;
 }
 
 #maincontent form.filters label span.count {
