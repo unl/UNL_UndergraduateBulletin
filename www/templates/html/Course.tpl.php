@@ -96,7 +96,7 @@
                             <span class='number $number_class'>$listings</span>
                         </div>
                     </div>
-                    <div class='wdn-col-three-fourths bp-wdn-col-four-fifths bp2-wdn-col-five-sixths'>    
+                    <div class='wdn-col-three-fourths bp1-wdn-col-four-fifths bp2-wdn-col-five-sixths'>    
                         <a class='coursetitle' href='" . $permalink . "' title='A permalink to " . $context->title . "'>" . $context->title . "</a>";
                         if (!empty($crosslistings)) {
                             echo  '<span class="crosslistings">Crosslisted as '.$crosslistings.'</span>';
@@ -117,7 +117,7 @@
                         echo  "<div class='notes'>".UNL_UndergraduateBulletin_EPUB_Utilities::addCourseLinks($context->getRaw('notes'), $url)."</div>\n";
                     }
                     echo '<div class="wdn-grid-set">
-                            <div class="bp2-wdn-col-two-thirds">';
+                            <div class="bp2-wdn-col-two-thirds info-1">';
                     if (!empty($context->description)) {
                         echo  "<div class='description'>".UNL_UndergraduateBulletin_EPUB_Utilities::addCourseLinks($context->getRaw('description'), $url)."</div>\n";
                     } else {
@@ -134,7 +134,7 @@
                         echo "</div>\n";
                     }
                 echo "</div>"; // Close the text content
-                echo '<div class="bp2-wdn-col-one-third details">';
+                echo '<div class="bp2-wdn-col-one-third info-2">';
                 echo  '<table class="zentable cool details">';
                 echo $savvy->render($context, 'Course/Credits.tpl.php');
                 if (!empty($format)) {
