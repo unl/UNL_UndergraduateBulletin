@@ -4,7 +4,7 @@ if (isset($context->subject)) {
     $idPrefix = $context->subject;
 }
 ?>
-<div class="zenbox energetic wdn_filterset coursefilter">
+<div class="wdn_filterset coursefilter">
     <form method="post" action="#" id="<?php echo $idPrefix; ?>_filters" class="filters courseFilters">
         <h3 class="wdn-brand">Filter these Courses</h3>
         <?php if (isset($context->groups)

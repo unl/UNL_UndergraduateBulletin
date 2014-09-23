@@ -3,7 +3,7 @@
         <legend>Find a Course</legend>
         <label for="courseSearch">Course Search</label>
         <input type="text" placeholder="search for a course" name="q" id="courseSearch" value="<?php echo (isset($controller->options['q']))?htmlentities($controller->options['q'], ENT_QUOTES):''; ?>" />
-        <input type="submit" value="Find" name="submit" />
+        <input type="submit" value="Find" />
     </fieldset>
     <div class="search_help">
         <p>
