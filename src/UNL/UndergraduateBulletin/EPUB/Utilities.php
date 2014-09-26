@@ -55,7 +55,7 @@ class UNL_UndergraduateBulletin_EPUB_Utilities
             '/<p class="content-box-h-1"[^>]*>([^<]*)<\/p>/'     => '<h2 class="content-box-h-1">$1</h2>',
             '/<p class="content-box-m-p"[^>]*>([^<]*)<\/p>/'     => '<h2 class="content-box-m-p">$1</h2>',
             '/<p class="section-1"[^>]*>([^<]*)<\/p>/'           => '<h3 class="section-1">$1</h3>',
-            '/<p class="title-1"[^>]*>([^<]*)<\/p>/'             => '<h3 class="title-1">$1</h3>',
+            '/<p class="title-1"([^>]*)>([^<]*)<\/p>/'           => '<h3 class="title-1"$1>$2</h3>',
             '/<p class="title-2"[^>]*>([^<]*)<\/p>/'             => '<h4 class="title-2">$1</h4>',
             '/<p class="title-3"[^>]*>([^<]*)<\/p>/'             => '<h5 class="title-3">$1</h5>',
             '/<p class="section-2"[^>]*>([^<]*)<\/p>/'           => '<h4 class="section-2">$1</h4>',
