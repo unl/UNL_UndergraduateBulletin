@@ -46,6 +46,7 @@ $url = UNL_UndergraduateBulletin_Controller::getURL();
             <li><a href="<?php echo $url; ?>other/Jeffrey+S.+Raikes+School+of+Computer+Science+%26+Management">Jeffrey S. Raikes School of Computer Science and Management</a></li>
             <li><a href="<?php echo $url; ?>other/The%20Libraries">Libraries</a></li>
             <li><a href="<?php echo $url; ?>college/Public+Affairs+%26+Community+Service">Public Affairs &amp; Community Service</a></li>
+            <li><a href="<?php echo $url; ?>other/Aerospace+Studies/Air+Force+ROTC">Aerospace Studies/Air Force <abbr title="Reserve Officers Training Corps">ROTC</abbr></a>
             <li><a href="<?php echo $url; ?>other/Military+Science/Army+ROTC">Military Science/Army <abbr title="Reserve Officers Training Corps">ROTC</abbr></a>
             <li><a href="<?php echo $url; ?>other/Naval+Science/Naval+ROTC">Naval Science/Naval <abbr title="Reserve Officers Training Corps">ROTC</abbr></a>
             <li><a href="<?php echo $url; ?>other/University+Honors+Program">University Honors Program</a></li>
