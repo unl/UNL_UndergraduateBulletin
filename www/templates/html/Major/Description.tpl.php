@@ -10,29 +10,7 @@
     );
 ?>
 <div class="wdn-grid-set">
-    <div class="bp1-wdn-col-three-fourths">
-        <div id="toc_nav">
-            <a id="tocToggle" href="#">+</a>
-            <ol id="toc"><li>Intro</li></ol>
-            <div id="toc_major_name"><?php echo $context->major->title; ?></div>
-        </div>
-
-        <div id="long_content">
-            <?php
-            foreach ($regions as $id => $title) {
-                if (!empty($context->$id)) {
-                    echo '<div>'.$context->getRaw($id).'</div>';
-                }
-            }
-            
-            $college_requirements = $savvy->render($context->colleges);
-            if (!empty($college_requirements)): ?>
-                <h2 id="college_requirements">COLLEGE REQUIREMENTS</h2>
-                <?php echo $college_requirements;
-            endif; ?>
-        </div>
-    </div>
-    <div class="bp1-wdn-col-one-fourth">
+    <div class="bp3-wdn-col-one-third wdn-pull-right">
         <table class="major_quick_points zentable cool">
             <caption>Quick points</caption>
             <thead>
@@ -70,5 +48,27 @@
         <h3>Featured Faculty</h3>
         <h3 id="relatedMajors">Related Majors</h3>
          -->
+    </div>
+    <div class="bp3-wdn-col-two-thirds">
+        <div id="toc_nav">
+            <a id="tocToggle" href="#">+</a>
+            <ol id="toc"><li>Intro</li></ol>
+            <div id="toc_major_name"><?php echo $context->major->title; ?></div>
+        </div>
+
+        <div id="long_content">
+            <?php
+            foreach ($regions as $id => $title) {
+                if (!empty($context->$id)) {
+                    echo '<div>'.$context->getRaw($id).'</div>';
+                }
+            }
+            
+            $college_requirements = $savvy->render($context->colleges);
+            if (!empty($college_requirements)): ?>
+                <h2 id="college_requirements">COLLEGE REQUIREMENTS</h2>
+                <?php echo $college_requirements;
+            endif; ?>
+        </div>
     </div>
 </div>

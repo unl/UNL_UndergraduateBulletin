@@ -1,6 +1,6 @@
 <div class="wdn-inner-wrapper">
     <div class="wdn-grid-set">
-        <div class="bp1-wdn-col-three-fourths">
+        <div class="bp2-wdn-col-two-thirds">
             <div id="toc_nav">
                 <a id="tocToggle" href="#">+</a>
                 <ol id="toc"><li>Intro</li></ol>
@@ -11,7 +11,7 @@
             echo UNL_UndergraduateBulletin_EPUB_Utilities::convertHeadings($context->getRaw('description')); ?>
             </div>
         </div>
-        <div class="bp1-wdn-col-one-fourth">
+        <div class="bp2-wdn-col-one-third">
             <?php
             $otherareas = new UNL_UndergraduateBulletin_OtherAreas();
             echo $savvy->render($otherareas);
