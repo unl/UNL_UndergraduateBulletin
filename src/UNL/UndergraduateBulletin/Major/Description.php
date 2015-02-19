@@ -99,6 +99,8 @@ class UNL_UndergraduateBulletin_Major_Description
                     case 'MINOR AVAILABLE':
                     case 'CHIEF ADVISER':
                     case 'CHIEF ADVISERS':
+                    case 'CHIEF ADVISOR':
+                    case 'CHIEF ADVISORS':
                     case 'MINOR ONLY':
                     case 'DEPARTMENT':
                     case 'DEPARTMENTS':
@@ -106,6 +108,8 @@ class UNL_UndergraduateBulletin_Major_Description
                     case 'DEGREE':
                     case 'ADVISERS':
                     case 'ADVISER':
+                    case 'ADVISORS':
+                    case 'ADVISOR':
                         $attr = explode(' ', strtolower($attr));
                         $attr = array_map('ucfirst', $attr);
                         $attr = implode(' ', $attr);
