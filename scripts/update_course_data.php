@@ -20,7 +20,13 @@ echo 'Updating course data for '.$edition->year.PHP_EOL;
 
 echo 'Updating all course data file'.PHP_EOL;
 
-passthru('wget --no-check-certificate http://creq.unl.edu/courses/public-view/all-courses -O '.$edition->getCourseDataDir().'/all-courses.xml');
+$fp = fopen($edition->getCourseDataDir().'/all-courses.xml', 'w+');
+$ch = curl_init('http://creq.unl.edu/courses/public-view/all-courses');
+curl_setopt($ch, CURLOPT_FILE, $fp);
+curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
+curl_exec($ch);
+curl_close($ch);
+fclose($fp);
 
 echo 'Now retrieving all courses by subject code.'.PHP_EOL;
 $handle = fopen($edition->getCourseDataDir().'/subject_codes.csv', 'r');
