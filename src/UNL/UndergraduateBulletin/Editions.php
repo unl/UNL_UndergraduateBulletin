@@ -15,7 +15,7 @@ class UNL_UndergraduateBulletin_Editions extends ArrayIterator
      *
      * @var string|int
      */
-    public static $latest = 2014;
+    public static $latest = 2015;
 
     public $options = array('format'=>'html');
     
