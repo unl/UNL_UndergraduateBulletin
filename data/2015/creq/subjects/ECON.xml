@@ -1766,7 +1766,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1111</effectiveSemester>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">ECON 211 and ECON 212, or ECON 210.</div>
     </prerequisite>
@@ -1793,6 +1793,9 @@
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
+    <aceOutcomes>
+      <slo>10</slo>
+    </aceOutcomes>
   </course>
   <course>
     <title>Pro-seminar in International Relations I</title>
@@ -2117,10 +2120,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
+    <dfRemoval>true</dfRemoval>
     <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ECON 210, or 211 and 212.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">ECON 210, or ECON 211 and/or ECON 212.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Macroeconomics aspects of labor economics; how the labor sector of the economy and the economy's overall performance are interrelated; analysis of the general level of wages, employment, unemployment, business cycles, and inflation.</div>
@@ -2793,7 +2796,7 @@
       <courseCode type="home listing">
         <subject>ECON</subject>
         <courseNumber>912</courseNumber>
-        <courseLetter>B</courseLetter>
+        <courseLetter>A</courseLetter>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
@@ -2804,6 +2807,40 @@
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Survey of the theory of individual choice; demand, supply, production, price formation. Theory of market structure.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Advanced Microeconomic Theory II</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ECON</subject>
+        <courseNumber>912</courseNumber>
+        <courseLetter>B</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1151</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">ECON 912A</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Survey of general equilibrium and welfare theory; proof of the existence and stability of equilibrium allocations, their welfare interpretation, welfare functions, externalities, the possibility theorem, the theory of clubs.</div>
     </description>
     <campuses>
       <campus></campus>
@@ -3149,34 +3186,6 @@
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
     <effectiveSemester>1118</effectiveSemester>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <activities/>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Advanced Microeconomic Theory II</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ECON</subject>
-        <courseNumber>983</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ECON 973</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Survey of general equilibrium and welfare theory; proof of the existence and stability of equilibrium allocations, their welfare interpretation, welfare functions, externalities, the possibility theorem, the theory of clubs.</div>
-    </description>
     <campuses>
       <campus></campus>
     </campuses>

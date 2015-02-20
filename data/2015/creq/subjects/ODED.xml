@@ -494,7 +494,7 @@
     <activities/>
   </course>
   <course>
-    <title>Backpacking II</title>
+    <title>Intermediate Backpacking</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>ODED</subject>
@@ -502,9 +502,12 @@
         <courseLetter>B</courseLetter>
       </courseCode>
     </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <gradingType>pass/no pass only</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Backpacking and backcountry travel with an emphasis on expanding fundamental backcountry skills. Designed for the adventurous novice and intermediate backpackers.</div>
+    </description>
     <campuses>
       <campus>UNL</campus>
     </campuses>
@@ -514,12 +517,18 @@
     <termsOffered>
       <term>Fall</term>
       <term>Spring</term>
-      <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">1</credit>
+    </credits>
   </course>
   <course>
-    <title>Cycling II</title>
+    <title>Bike Camping</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>ODED</subject>
@@ -527,15 +536,18 @@
         <courseLetter>E</courseLetter>
       </courseCode>
     </courseCodes>
-    <gradingType>unrestricted</gradingType>
+    <gradingType>pass/no pass only</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1121</effectiveSemester>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">ODED 107E or equivalent.</div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">Special Fee - $75</div>
     </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Cycling and touring with an emphasis on building fundamental touring skills. Designed for the novice cyclist.</div>
+    </description>
     <campuses>
       <campus>UNL</campus>
     </campuses>
@@ -545,12 +557,15 @@
     <termsOffered>
       <term>Fall</term>
       <term>Spring</term>
-      <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
     <credits>
+      <credit type="Single Value">1</credit>
       <credit type="Lower Range Limit">0</credit>
-      <credit type="Upper Range Limit">1</credit>
     </credits>
   </course>
   <course>
@@ -663,6 +678,112 @@
     </credits>
   </course>
   <course>
+    <title>Lead Climbing for Rock Climbing</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ODED</subject>
+        <courseNumber>135</courseNumber>
+        <courseLetter>A</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>pass/no pass only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Instructor permission.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Intermediate rock climbing fundamentals incorporating skills and judgment necessary to competently lead climb in an indoor rock climbing environment.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">1</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Technical Rappelling</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ODED</subject>
+        <courseNumber>135</courseNumber>
+        <courseLetter>B</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>pass/no pass only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to develop and expand skills and awareness of technical rappelling.  Explore a variety of rappel set-ups and develop skills to effecively manage a self-rescue.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">1</credit>
+      <credit type="Lower Range Limit">0</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Self-Rescue and other Technical Rope Skills</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ODED</subject>
+        <courseNumber>135</courseNumber>
+        <courseLetter>E</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>pass/no pass only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1151</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to help climbers develop and expand personal knowledge and skills associated with multi-pitch climbing.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">1</credit>
+    </credits>
+  </course>
+  <course>
     <title>Bike Maintenance</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -676,6 +797,42 @@
     <effectiveSemester>1148</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Introduction to the basic knowledge and skills necessary to perform regular preventative bike maintenance and basic repairs.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">1</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Paddling Site Management</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ODED</subject>
+        <courseNumber>140</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>pass/no pass only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Instructor permission.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to the skills needed to effectively lead a group of paddlers in a river environment.  Instructional experience leading others in a nuanced technical skill, as well as management of group dynamics.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -764,6 +921,47 @@
     </activities>
     <credits>
       <credit type="Single Value">1</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Outdoor Leadership Seminar</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ODED</subject>
+        <courseNumber>160</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>pass/no pass only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Instructor permission.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Out-of-state travel required.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Foundational component to introducing the value of the use of adventure as a powerful tool to facilitate develoment in others utilizing technical skills relevant to the educational human skills expected of adventure leaders.  Conducted in various outdoor settings.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>fld</type>
+      </activity>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
     </credits>
   </course>
 </courses>

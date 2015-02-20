@@ -324,40 +324,6 @@
     </credits>
   </course>
   <course>
-    <title>Characteristics of Exceptional Persons</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>SPED</subject>
-        <courseNumber>400</courseNumber>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>SPED</subject>
-        <courseNumber>800</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Etiology, growth and development, and characteristics of children and youth who deviate from the norm.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities/>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
     <title>Accommodating Exceptional Learners in the Elementary School Classroom</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -444,11 +410,8 @@
       </courseCode>
     </courseCodes>
     <gradingType>pass/no pass only</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1108</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Parallel SPED 497M.</div>
-    </prerequisite>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1151</effectiveSemester>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">SPED 403 is 'Pass/No Pass only'.</div>
     </notes>
@@ -464,7 +427,6 @@
     <termsOffered>
       <term>Fall</term>
       <term>Spring</term>
-      <term>Summer</term>
     </termsOffered>
     <activities>
       <activity>
@@ -675,14 +637,10 @@
         <subject>SPED</subject>
         <courseNumber>407</courseNumber>
       </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>SPED</subject>
-        <courseNumber>807</courseNumber>
-      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1151</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">SPED 201 or 400/800.</div>
     </prerequisite>
@@ -749,14 +707,10 @@
         <subject>SPED</subject>
         <courseNumber>412</courseNumber>
       </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>SPED</subject>
-        <courseNumber>812</courseNumber>
-      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1101</effectiveSemester>
+    <effectiveSemester>1151</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Sophomore standing; SPED 201 and 303.</div>
     </prerequisite>
@@ -1022,14 +976,10 @@
         <subject>SPED</subject>
         <courseNumber>472</courseNumber>
       </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>SPED</subject>
-        <courseNumber>872</courseNumber>
-      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Education of the hearing impaired including history of, professional roles in, and educational programming within this field. Social/psychological theories as related to the hearing impaired. Patterns of social/emotional development, psychological characteristics, issues of family stress and social adaptation and discussion of counseling techniques.</div>
     </description>
@@ -1038,13 +988,17 @@
     </campuses>
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
+      <deliveryMethod>Web</deliveryMethod>
     </deliveryMethods>
     <termsOffered>
       <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
@@ -2589,14 +2543,14 @@
         <courseNumber>897</courseNumber>
       </courseCode>
     </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <gradingType>pass/no pass only</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Permission</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Laboratory and teaching experience in the area(s) of specialization.<br/>A.	Mainstream (1-12 cr)<br/>B.	Behavior Disorders<br/>D.	Deaf/Hard of Hearing<br/>E.	General Special Education<br/>J.	Gifted/Talented (EDPS *897J)<br/>L.	Learning Disabilities<br/>M.	Mildly/Moderate Disabilities<br/>P.	Severe Disabilities<br/>Q.	Early Childhood Special Education<br/>V.	Visual Impairments<br/>Y.	Inclusion<br/>Z.	Multicultural Education</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Laboratory and teaching experience in the area(s) of specialization.<br/>A. Mainstream (1-12 cr)<br/>B. Behavior Disorders<br/>D. Deaf/Hard of Hearing<br/>E. General Special Education<br/>J. Gifted/Talented (EDPS *897J)<br/>L. Learning Disabilities<br/>M. Mildly/Moderate Disabilities<br/>P. Severe Disabilities<br/>Q. Early Childhood Special Education<br/>V. Visual Impairments<br/>Y. Inclusion<br/>Z. Multicultural Education</div>
     </description>
     <campuses>
       <campus></campus>

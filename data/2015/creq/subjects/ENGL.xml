@@ -242,6 +242,44 @@
     </credits>
   </course>
   <course>
+    <title>Seminar in Credit English for Academic Purposes</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ENGL</subject>
+        <courseNumber>143</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Admission to the Credit English for Academic Purposes program.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Oral and written English communication skills skills critical for international study and a survey of campus resources</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>2</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">1</credit>
+    </credits>
+  </course>
+  <course>
     <title>Writing: Rhetoric as Inquiry</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -605,7 +643,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1091</effectiveSemester>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Good standing in the University Honors Program or by invitation.</div>
     </prerequisite>
@@ -812,10 +850,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
+    <dfRemoval>true</dfRemoval>
     <effectiveSemester>1148</effectiveSemester>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Examines the science fiction genre from its origins in the 18th century to its contemporary expression.  Issues of technological modernity and consider how these are mediated through literary texts will be introduced.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Examines the science fiction genre from its origins in the 18th century to its contemporary expression.  Issues of technological modernity and how these are mediated through literary texts will be introduced.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -2266,7 +2304,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1111</effectiveSemester>
+    <effectiveSemester>1148</effectiveSemester>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">May be repeated once for credit with a different topic.</div>
     </notes>
@@ -2303,7 +2341,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1091</effectiveSemester>
+    <effectiveSemester>1148</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Nature and function of literary/critical theory in the study of literary texts. Selected approaches and is not intended as a general survey.</div>
     </description>
@@ -2376,7 +2414,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1131</effectiveSemester>
+    <effectiveSemester>1148</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Introduction to some of the major implications of computer technologies to the humanities; examination of the historical influence of new technologies on how we think of ourselves, both individually and collectively; how we interact socially and politically; how we determine public and private spaces in an increasingly connected world; and how we can use computer technologies to produce, preserve, and study cultural materials.</div>
     </description>
@@ -2400,24 +2438,28 @@
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
+    <aceOutcomes>
+      <slo>5</slo>
+    </aceOutcomes>
   </course>
   <course>
-    <title>Introduction to Humanities Computing</title>
+    <title>Introduction to Digital Humanities</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>ENGL</subject>
         <courseNumber>278</courseNumber>
         <courseGroup>Digital Humanities</courseGroup>
+        <courseGroup>Literary and Cultural Studies</courseGroup>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">ENGL 278 requires contributing to an ongoing web-based project.</div>
     </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to the variety of rationales, technologies, and materials that commonly inform electronic projects in the humanities. Definitions of digital research, various theoretical and methodological approaches, and the implications for the academy, publishers, classrooms, and libraries.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Practical and theoretical introduction to the concepts, tools, and techniques of digital humanities. Electronic research, text encoding, text processing, and collaborative research.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -2440,6 +2482,51 @@
       <credit type="Single Value">3</credit>
       <credit type="Per Career Limit">3</credit>
     </credits>
+    <aceOutcomes>
+      <slo>5</slo>
+    </aceOutcomes>
+  </course>
+  <course>
+    <title>Digital Literary Analysis</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ENGL</subject>
+        <courseNumber>279</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1151</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Sophomore standing or higher.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to computational text analysis with an emphasis on text processing for literary topics. Write computer algorithms for text analysis and exploration while developing a broad understanding of data structures and current trends in natural language processing, information retrieval, text mining, and statistical machine learning.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+      <deliveryMethod>Web</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+    <aceOutcomes>
+      <slo>3</slo>
+    </aceOutcomes>
   </course>
   <course>
     <title>Literature and the Other Arts</title>
@@ -2589,7 +2676,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1115</effectiveSemester>
+    <effectiveSemester>1148</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Major playwrights and dramatic movements, such as realism, naturalism, expressionism, "epic theater," and theater of the absurd, from Ibsen to the present.</div>
     </description>
@@ -2627,7 +2714,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <effectiveSemester>1148</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Introductory survey of major authors and movements in English-language poetry during the modernist period of the early twentieth century.</div>
     </description>
@@ -2667,7 +2754,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1091</effectiveSemester>
+    <effectiveSemester>1148</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Major authors, themes, and trends in poetry from 1945 through the end of the 20<sup>th</sup> Century. Works from the Beat, Confessional, New York School, San Francisco Renaissance, Black Arts, Feminist, Language, New Formalist, and other “schools” of poetry.</div>
     </description>
@@ -2807,10 +2894,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1148</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Permission.</div>
-    </prerequisite>
+    <effectiveSemester>1158</effectiveSemester>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">Course not taught every year.</div>
     </notes>
@@ -2946,7 +3030,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1098</effectiveSemester>
+    <effectiveSemester>1148</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Various issues, trends, and traditions concerning the literary representation of the natural environment.</div>
     </description>
@@ -3084,7 +3168,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1091</effectiveSemester>
+    <effectiveSemester>1148</effectiveSemester>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">ENGL 330A requires weekly film screenings.</div>
     </notes>
@@ -3413,6 +3497,45 @@
     <aceOutcomes>
       <slo>5</slo>
     </aceOutcomes>
+  </course>
+  <course>
+    <title>The Quran</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>RELG</subject>
+        <courseNumber>342</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>ENGL</subject>
+        <courseNumber>342</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1151</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Examination of the Quran, the scripture of Islam.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
   </course>
   <course>
     <title>Ethnicity and Film</title>
@@ -4081,6 +4204,45 @@
     </aceOutcomes>
   </course>
   <course>
+    <title>Theorizing the Digital</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ENGL</subject>
+        <courseNumber>375</courseNumber>
+        <courseGroup>Digital Humanities</courseGroup>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">ENGL 277, ENGL 278, or ENGL 279.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Digital Humanities and other technologies within cultural, historical, and philosophical contexts.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Rhetoric: Argument and Society</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -4150,6 +4312,84 @@
       <term>Summer</term>
     </termsOffered>
     <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Literary Studies in the Digital Age</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ENGL</subject>
+        <courseNumber>378</courseNumber>
+        <courseGroup>Digital Humanities</courseGroup>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">One of the following courses: ENGL 277, ENGL 278, or ENGL 279.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Provides an opportunity to study a literary subject in a digitally inflected environment, a space in which the methods and approaches to the material are informed and enriched by digital media and computational techniques. Topics will vary, but would include such areas as Victorian literature, African-American literature, modern poetry.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Reading Technologies from Antiquity to the Digital Age</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ENGL</subject>
+        <courseNumber>379</courseNumber>
+        <courseGroup>Digital Humanities</courseGroup>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">One of the following courses: ENGL 277, ENGL 278, or ENGL 279.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Surveys the development of reading technologies through the ages including the emergence of reading and writing in the ancient world, the proliferation of the book in the middle ages, the cultural shifts caused by the invention of movable type, and the ways in which contemporary technologies are shaping literacy practices and the future of the book.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
@@ -4361,8 +4601,8 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1151</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Good standing in the University Honors Program or by invitation.</div>
     </prerequisite>
@@ -4380,7 +4620,8 @@
     <activities/>
     <credits>
       <credit type="Lower Range Limit">1</credit>
-      <credit type="Upper Range Limit">4</credit>
+      <credit type="Upper Range Limit">6</credit>
+      <credit type="Per Career Limit">6</credit>
     </credits>
   </course>
   <course>
@@ -6476,6 +6717,45 @@
     </credits>
   </course>
   <course>
+    <title>Advanced Topics in Digital Humanities</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ENGL</subject>
+        <courseNumber>477</courseNumber>
+        <courseGroup>Digital Humanities</courseGroup>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Senior standing and one of the following courses: ENGL 277, ENGL 278, or ENGL 279.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Advanced Topics in Digital Humanities provides students the opportunity to study, learn, and practice a digital humanities method in considerable depth. Theses courses tend to be project oriented and frequently involve collaborative work. Topics will vary.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Digital Archives and Editions</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -6495,6 +6775,49 @@
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">The shift from printed to digital texts and its implications for the humanities. Practice in digitally representing texts, archival design, and analysis of representative electronic projects dedicated to a variety of authors and genres.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Digital Humanities Practicum</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ENGL</subject>
+        <courseNumber>479</courseNumber>
+        <courseGroup>Digital Humanities</courseGroup>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>ENGL</subject>
+        <courseNumber>879</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Senior standing and one of the following courses: ENGL 277, ENGL 278, or ENGL 279.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Provide students with real, in-depth experience in collaboratively creating digital humanities projects. Guided by faculty with expertise in a broad range of digital humanities methods and resources, students work in teams to tackle challenges proposed by UNL researchers and/or local and regional humanities organizations.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -6623,9 +6946,9 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <effectiveSemester>1151</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Senior standing.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Senior standing; English and Film Studies majors only.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Integration and application of skills and knowledge gained in courses taken for the English major. Involves synthesis, reflection, and a substantive final writing project.</div>
@@ -7766,6 +8089,83 @@
     <credits>
       <credit type="Lower Range Limit">1</credit>
       <credit type="Upper Range Limit">24</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Seminar in Ethnic Literature</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ENGL</subject>
+        <courseNumber>945</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>ETHN</subject>
+        <courseNumber>945</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Issues of importance to a particular ethnic experience through the study of relevant literary texts.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Lower Range Limit">3</credit>
+      <credit type="Upper Range Limit">4</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Interdisciplinary Readings in Digital Humanities</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MODL</subject>
+        <courseNumber>946</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>ENGL</subject>
+        <courseNumber>946</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>HIST</subject>
+        <courseNumber>946</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Methods, theories, and practices of digital humanities scholarship.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
     </credits>
   </course>
   <course>

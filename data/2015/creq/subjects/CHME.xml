@@ -527,6 +527,47 @@
     </credits>
   </course>
   <course>
+    <title>Principles and Applications of Catalysis in Reaction Engineering</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CHME</subject>
+        <courseNumber>847</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>CHME</subject>
+        <courseNumber>447</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1151</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">CHME 323 or permission.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Principles and applications of heterogeneous catalysis, mechanisms, catalytic reactor types and catalyst characterization and performance.  Case studies on current catalytic technologies.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Chemical Engineering Process Economics and Optimization</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -787,9 +828,9 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1141</effectiveSemester>
+    <effectiveSemester>1151</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CHEM 262; CHME 323 and 333.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">CHEM 262, CHEM 431.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Dynamics of microbial growth and death. Engineering processes for microbiological synthesis of cellular materials and industrial products, with emphasis on food and pharmaceutical production by bacteria and fungi.</div>
@@ -802,8 +843,6 @@
     </deliveryMethods>
     <termsOffered>
       <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
     </termsOffered>
     <activities>
       <activity>
@@ -1439,34 +1478,6 @@
     <effectiveSemester>1118</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">CHME *815, CHME 823, CHME *835, CHME 842</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Kinetics of chemical reactions in several categories of reactors for interpretation of experimental data and design of equipment.</div>
-    </description>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <activities/>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Principles and Applications of Catalysis in Reaction Engineering</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>CHME</subject>
-        <courseNumber>847</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CHME 842 or equivalent</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Kinetics of chemical reactions in several categories of reactors for interpretation of experimental data and design of equipment.</div>

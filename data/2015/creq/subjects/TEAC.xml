@@ -178,8 +178,14 @@
       </courseCode>
     </courseCodes>
     <gradingType>letter grade only</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1125</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Admission to Elementary Teacher Education Program.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Recommended parallel with TEAC 297B, TEAC 308, and MATH 300.</div>
+    </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Development of strategies for using technology to support K-12 classroom instruction. Internet resources, applications software, and authoring programs.</div>
     </description>
@@ -214,11 +220,14 @@
       </courseCode>
     </courseCodes>
     <gradingType>letter grade only</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1125</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Acceptance into the Teacher Elementary Education Program.<br/>Must be taken in conjuntion with TEAC397a.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Acceptance into the Teacher Elementary Education Program.</div>
     </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Recommended parallel with TEAC 397A.</div>
+    </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Practicum in Instructional Technology is a course aimed at supporting pre-service teachers in their efforts to integrate computers, mobile devices, multimedia, and other technological tools to enhance the teaching and learning process. <br/><br/></div>
     </description>
@@ -989,12 +998,11 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Admission to the Elementary Teacher Education Program or Special Education/Elementary Education or Early Childhood/Elementary Education;&#13;
-parallel TEAC 297B, TEAC 308, and MATH 300.</div>
-    </prerequisite>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Recommended parallel with TEAC 297A.</div>
+    </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Organizing the learning environment in a culturally and socially responsive classroom. Theory and practice of creating a cooperative community that fosters both social and academic development. Theoretical perspectives are linked to actual classroom experience.</div>
     </description>
@@ -1198,6 +1206,42 @@ parallel TEAC 297B, TEAC 308, and MATH 300.</div>
         <subject>TEAC</subject>
         <courseNumber>397</courseNumber>
         <courseLetter>I</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1138</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Admission to Teacher Education Program.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Guided observations and/or clinical experiences in schools and/or agencies offering programs for children and/or youth.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">10</credit>
+      <credit type="Per Career Limit">10</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Professional Practicum Experience III: Secondary Business Education</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>397</courseNumber>
+        <courseLetter>J</courseLetter>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
@@ -1726,7 +1770,7 @@ parallel TEAC 297B, TEAC 308, and MATH 300.</div>
     </courseCodes>
     <gradingType>letter grade only</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1111</effectiveSemester>
+    <effectiveSemester>1151</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Parellel TEAC497A.</div>
     </prerequisite>
@@ -1750,51 +1794,6 @@ parallel TEAC 297B, TEAC 308, and MATH 300.</div>
     <activities>
       <activity>
         <type>lec</type>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-    <aceOutcomes>
-      <slo>10</slo>
-    </aceOutcomes>
-  </course>
-  <course>
-    <title>Secondary Student Teaching Seminar</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>TEAC</subject>
-        <courseNumber>403</courseNumber>
-        <courseLetter>B</courseLetter>
-      </courseCode>
-    </courseCodes>
-    <gradingType>letter grade only</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1115</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Must be admitted into the Secondary Teacher Education Program</div>
-    </prerequisite>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Course numbers and call numbers can be obtained from the appropriate subject matter adviser in the College Student Services Center.</div>
-    </notes>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">The capstone course will consist of three all day sessions addressing different issues that complement the pre-service teaching experience (e.g. teaching English learners; assessment; integrated teaching), Blackboard discussions and a presentation. Examine and reflect on the nine themes outlined in the TLTE Cognitive Map. Reflect on evidence from the whole pre-service development and examine it through the entire length of coursework and field experiences.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-      <deliveryMethod>Web</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>lec</type>
-        <hours>3</hours>
       </activity>
     </activities>
     <credits>
@@ -2266,7 +2265,7 @@ parallel TEAC 297B, TEAC 308, and MATH 300.</div>
     </credits>
   </course>
   <course>
-    <title>Teaching Writing in the Elementary School</title>
+    <title>Teaching Writing in K-12 Schools</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>TEAC</subject>
@@ -2278,8 +2277,8 @@ parallel TEAC 297B, TEAC 308, and MATH 300.</div>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1151</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Learning and teaching of writing with consideration given to developmental factors of children and adolescents.</div>
     </description>
@@ -2294,7 +2293,12 @@ parallel TEAC 297B, TEAC 308, and MATH 300.</div>
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
@@ -3483,38 +3487,6 @@ parallel TEAC 297B, TEAC 308, and MATH 300.</div>
       <credit type="Lower Range Limit">1</credit>
       <credit type="Upper Range Limit">10</credit>
       <credit type="Per Semester Limit">10</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Independent Study</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>TEAC</subject>
-        <courseNumber>495</courseNumber>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>TEAC</subject>
-        <courseNumber>895</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities/>
-    <credits>
-      <credit type="Lower Range Limit">1</credit>
-      <credit type="Upper Range Limit">6</credit>
     </credits>
   </course>
   <course>
@@ -5060,6 +5032,41 @@ parallel TEAC 297B, TEAC 308, and MATH 300.</div>
     </credits>
   </course>
   <course>
+    <title>Special Topics in Education for a Pluralistic Society</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>861</courseNumber>
+        <courseLetter>A</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">9</credit>
+      <credit type="Per Career Limit">9</credit>
+    </credits>
+  </course>
+  <course>
     <title>Chemistry for Secondary School Classrooms</title>
     <courseCodes>
       <courseCode type="crosslisting">
@@ -5543,6 +5550,34 @@ parallel TEAC 297B, TEAC 308, and MATH 300.</div>
     </credits>
   </course>
   <course>
+    <title>Independent Study</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>895</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">6</credit>
+    </credits>
+  </course>
+  <course>
     <title>Nebraska Writing Project Internship</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -5923,6 +5958,42 @@ parallel TEAC 297B, TEAC 308, and MATH 300.</div>
       <credit type="Lower Range Limit">1</credit>
       <credit type="Upper Range Limit">21</credit>
       <credit type="Per Career Limit">21</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Assessment in the Foreign Language Classroom</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>922</courseNumber>
+        <courseLetter>M</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1151</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Fundamental concepts, principles of language assessment and strategies for assessment development. The target language will be used in all products created.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Web</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
     </credits>
   </course>
   <course>
@@ -6562,7 +6633,7 @@ parallel TEAC 297B, TEAC 308, and MATH 300.</div>
     </credits>
   </course>
   <course>
-    <title>Psychology of Reading</title>
+    <title>Psychology of Reading and Writing</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>EDPS</subject>
@@ -6574,13 +6645,16 @@ parallel TEAC 297B, TEAC 308, and MATH 300.</div>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">TEAC *811 or 841 or SPED 886</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">TEAC *811 or 841 or SPED 886 or EDPS 854</div>
     </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">This course combines two earlier courses, Psychology of Reading, EDPS 989 (cross listed with TEAC 989) and Seminar in Educational Psychology (Psychology of Writing, EDPS, 991)</div>
+    </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Relationship of psychological processes of attention, perception, memory and problem solving to reading and reading comprehension. Theories and models of reading, especially of the comprehensive process, applied to all levels of reading from beginning reading through mature reading.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Study of the research literature on cognitive and motivational processes involved in reading and writing. Readings and classroom discussion will focus on theories and models of reading and writing. Specific topics include the roles of component processes of literacy such as attention, perception, memory, and problem solving, as well as studies of self-regulatory and social influences on literacy development and performance. Literacy research and models are examined at all levels of reading and writing, from early acquisition through high-level reading and writing expertise, as well as with respect to changes in literacy activities tied to new technologies.</div>
     </description>
     <campuses>
       <campus></campus>
@@ -6588,7 +6662,16 @@ parallel TEAC 297B, TEAC 308, and MATH 300.</div>
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
-    <activities/>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>

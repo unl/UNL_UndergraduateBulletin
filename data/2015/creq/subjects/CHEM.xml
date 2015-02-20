@@ -1386,7 +1386,7 @@
     </credits>
   </course>
   <course>
-    <title>Gene Expression and Replication</title>
+    <title>Metabolism and Biological Information</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>BIOC</subject>
@@ -1411,7 +1411,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1148</effectiveSemester>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">BIOC 431/831 with a grade of C or better, BIOS 206</div>
     </prerequisite>
@@ -3714,7 +3714,7 @@
     </credits>
   </course>
   <course>
-    <title>Seminar in Analytical Chemistry</title>
+    <title>Graduate Seminar in Analytical/Bioanalytical Chemistry</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>CHEM</subject>
@@ -3723,23 +3723,40 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1151</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Graduate student enrollment in Chemistry, or permission.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">CHEM 992A is a once a week graduate student seminar intended for Masters and Doctoral graduate students in Chemistry whose research projects have analytical or bioanalytical emphasis.</div>
+    </notes>
     <campuses>
       <campus></campus>
     </campuses>
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
-    <activities/>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>1</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Lower Range Limit">1</credit>
-      <credit type="Upper Range Limit">5</credit>
-      <credit type="Per Career Limit">5</credit>
+      <credit type="Upper Range Limit">6</credit>
+      <credit type="Per Semester Limit">1</credit>
+      <credit type="Per Career Limit">6</credit>
     </credits>
   </course>
   <course>
-    <title>Seminar on Current Literature of Organic Chemistry</title>
+    <title>Graduate Seminar in Organic Chemistry/Chemical Biology</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>CHEM</subject>
@@ -3748,26 +3765,40 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Weekly seminar summarizing recently published developments in organic chemistry.</div>
-    </description>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1151</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Graduate student enrollment in Chemistry, or permission.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">CHEM 992E is a once a week graduate student seminar intended for Masters and Doctoral students in Chemistry whose research projects have organic chemistry or chemical biology emphasis.</div>
+    </notes>
     <campuses>
       <campus></campus>
     </campuses>
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
-    <activities/>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>1</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Lower Range Limit">1</credit>
-      <credit type="Upper Range Limit">5</credit>
-      <credit type="Per Career Limit">5</credit>
+      <credit type="Upper Range Limit">6</credit>
+      <credit type="Per Semester Limit">1</credit>
+      <credit type="Per Career Limit">6</credit>
     </credits>
   </course>
   <course>
-    <title>Seminar in Physical Chemistry</title>
+    <title>Graduate Seminar in Physical/Inorganic/Materials Chemistry</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>CHEM</subject>
@@ -3776,22 +3807,36 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1151</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CHEM *885</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Graduate student enrollment in Chemistry, or permission.</div>
     </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">CHEM 992J is a once a week graduate student seminar intended for Masters and Doctoral graduate students in Chemistry whose research projects have physical, inorganic or materials emphasis.</div>
+    </notes>
     <campuses>
       <campus></campus>
     </campuses>
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
-    <activities/>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>1</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Lower Range Limit">1</credit>
-      <credit type="Upper Range Limit">5</credit>
-      <credit type="Per Career Limit">5</credit>
+      <credit type="Upper Range Limit">6</credit>
+      <credit type="Per Semester Limit">1</credit>
+      <credit type="Per Career Limit">6</credit>
     </credits>
   </course>
   <course>

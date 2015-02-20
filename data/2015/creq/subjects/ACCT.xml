@@ -560,13 +560,13 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">FINA 361 and ACCT 308 with grade of C or better, or permission.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">ACCT 313 and FINA 361 with grades of C or better.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Advanced treatment of managerial accounting topics with emphasis on generation, communication, and use of information to assist management in performance of the planning and control function. Problems, cases, library materials, and computer systems analysis are used to develop understanding of variance analysis, cost systems, capital budgeting, and other quantitative techniques relevant to internal accounting.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Provides a broad framework for using financial statement analysis to evaluate a firm’s business operations and to predict its future condition using concepts and principles learned in previous accounting and finance courses.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -579,7 +579,54 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Accounting Information Systems (AIS)</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ACCT</subject>
+        <courseNumber>409</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>ACCT</subject>
+        <courseNumber>809</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1151</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">ACCT 309 with a grade of C or better.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Identify, document, evaluate, and suggest improvements to accounting information systems (AIS).  Focus on impact of new technology on business transactions in an AIS, and how the information system influences and supports business decisions.  Current events in the AIS field.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>

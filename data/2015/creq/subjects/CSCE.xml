@@ -9,10 +9,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>pass/no pass only</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1141</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Optional pass/no pass course designed to help incoming first-year CSE students in their transition into the University of Nebraska-Lincoln and the Computer Science and Engineering department. The course introduces various departmental resources and policies, explore possible career paths, fields, and opportunities available to a computer scientist or computer engineer. Assignments may include attending department orientations and lectures, a student organization meeting, and on-campus activities including Career Fair, E-Week, and Research Fair.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Required pass/no pass course designed to help incoming first-year CSE students in their transition into the University of Nebraska-Lincoln and the Computer Science and Engineering department. The course introduces various departmental resources and policies, explore possible career paths, fields, and opportunities available to a computer scientist or computer engineer. Assignments may include attending department orientations and lectures, a student organization meeting, and on-campus activities including Career Fair, E-Week, and Research Fair.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -1528,62 +1528,6 @@
     </credits>
   </course>
   <course>
-    <title>Numerical Analysis I</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>CSCE</subject>
-        <courseNumber>340</courseNumber>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>CSCE</subject>
-        <courseNumber>840</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>MATH</subject>
-        <courseNumber>340</courseNumber>
-        <courseGroup>Advanced Mathematics Courses</courseGroup>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>MATH</subject>
-        <courseNumber>840</courseNumber>
-        <courseGroup>Advanced Mathematics Courses</courseGroup>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1125</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 155A, CSCE 155E, CSCE 155H, CSCE 155N, or CSCE 155T; Math 107.</div>
-    </prerequisite>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Credit toward the degree may be earned in only one of the following: CSCE/MATH 340/840 and MECH 480/880.</div>
-    </notes>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Algorithm formulation for the practical solution of problems, interpolation, roots of equations, differentiation, and integration. Effects of finite precision.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>lec</type>
-        <hours>3</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">3</credit>
-      <credit type="Per Career Limit">3</credit>
-    </credits>
-  </course>
-  <course>
     <title>Operating System Kernels</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -2010,7 +1954,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1111</effectiveSemester>
+    <effectiveSemester>1151</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Good standing in the University Honors Program or by invitation; admission to the Jeffrey S.<br/>Raikes School of Computer Science and Management; and BSAD/CSCE/RAIK 302H.</div>
     </prerequisite>
@@ -2043,6 +1987,9 @@
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
+    <aceOutcomes>
+      <slo>8</slo>
+    </aceOutcomes>
   </course>
   <course>
     <title>Honors: RAIK Design Studio IV</title>
@@ -2065,7 +2012,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1111</effectiveSemester>
+    <effectiveSemester>1151</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Good standing in the University Honors Program or by invitation; admission to the Jeffrey S.<br/>Raikes School of Computer Science and Management; and BSAD/CSCE/RAIK 401H.</div>
     </prerequisite>
@@ -2122,6 +2069,48 @@
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Outline of the general information retrieval problem, functional overview of information retrieval. Deterministic models of information retrieval systems; conventional Boolean, fuzzy set theory, p-norm, and vector space models. Probabilistic models. Text analysis and automatic indexing. Automatic query formulation. System-user adaptation and learning mechanisms. Intelligent information retrieval. Retrieval evaluation. Review of new theories and future directions. Practical experience with a working experimental information retrieval system.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Data Modeling for Systems Development</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CSCE</subject>
+        <courseNumber>411</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>CSCE</subject>
+        <courseNumber>811</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 310, CSCE 310H, or CSCE 311</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Concepts of relational and object-oriented data modeling through the process of data model development including conceptual, logical and physical modeling. Techniques for identifying and creating relationships between discrete data members, reasoning about how data modeling and analysis are incorporated in system design and development, and specification paradigms for data models. Common tools and technologies for engineering systems and frameworks for integrating data. Design and analysis of algorithms and techniques for identification and exploration of data relationships, such as Bayesian probability and statistics, clustering, map-reduce, and web-based visualization.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -2747,6 +2736,62 @@
     </credits>
   </course>
   <course>
+    <title>Numerical Analysis I</title>
+    <courseCodes>
+      <courseCode type="grad tie-in">
+        <subject>CSCE</subject>
+        <courseNumber>840</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>MATH</subject>
+        <courseNumber>840</courseNumber>
+        <courseGroup>Advanced Mathematics Courses</courseGroup>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>CSCE</subject>
+        <courseNumber>440</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>MATH</subject>
+        <courseNumber>440</courseNumber>
+        <courseGroup>Advanced Mathematics Courses</courseGroup>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1151</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 155A, CSCE 155E, CSCE 155H, CSCE 155N, or CSCE 155T; Math 107.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Credit toward the degree may be earned in only one of the following: CSCE/MATH 440/840 and MECH 480/880.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Principles of numerical computing and error analysis covering numerical error, root finding, systems of equations, interpolation, numerical differentiation and integration, and differential equations. Modeling real-world engineering problems on digital computers. Effects of floating point arithmetic.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+      <credit type="Per Career Limit">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Approximation of Functions</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -2799,20 +2844,20 @@
     </credits>
   </course>
   <course>
-    <title>Numerical Analysis II</title>
+    <title>Numerical Linear Algebra</title>
     <courseCodes>
-      <courseCode type="home listing">
+      <courseCode type="crosslisting">
         <subject>CSCE</subject>
         <courseNumber>447</courseNumber>
+        <courseGroup>Advanced Mathematics Courses</courseGroup>
       </courseCode>
-      <courseCode type="grad tie-in">
+      <courseCode type="crosslisting">
         <subject>CSCE</subject>
         <courseNumber>847</courseNumber>
       </courseCode>
-      <courseCode type="crosslisting">
+      <courseCode type="home listing">
         <subject>MATH</subject>
         <courseNumber>447</courseNumber>
-        <courseGroup>Advanced Mathematics Courses</courseGroup>
       </courseCode>
       <courseCode type="grad tie-in">
         <subject>MATH</subject>
@@ -2821,13 +2866,13 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 340, MATH 221 and 314.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">MATH 314</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Numberical matrix methods and numerical solutions of ordinary differntial equations.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Mathematics and algorithms for numerically stable matrix and linear algebra computations, including solution of linear systems, computation of eigenvalues and eigenvectors, singular value decomposition, and QR decomposition.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -3167,6 +3212,48 @@
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Paradigms, systems, and languages for Internet applications. Client-side amd server-side programming, object-based and event-based distributed programmming, and multi-tier applications. Coverage of specific technologies varies.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Wireless Communication Networks</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CSCE</subject>
+        <courseNumber>465</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>CSCE</subject>
+        <courseNumber>865</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1151</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 230; CSCE 310 or CSCE 311; MATH/STAT 380 or ELEC 305; or instructor permission</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Discussion of theoretical and practical insight to wireless communications and wireless networking, current practices, and future trends. Wireless network architectures, mobility management, radio propagation, modulation, power control, antennas, channel access, pricing, and standards.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -3926,10 +4013,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1138</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CSCE230 or CSCE230H and CSCE310, CSCE310H, or CSCE311</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">CSCE310, CSCE310H, CSCE311, or CSCE320</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Innovative team projects executed under the guidance of members of the faculty of the Department of Computer Science and Managing Director of the CSCE Innovation Lab. Students will work in teams and collaborate with CSE research faculty, supervising MS students, and sponsors that include private sectors and UNL faculty to design and develop real-world systems.</div>

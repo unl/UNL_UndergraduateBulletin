@@ -73,12 +73,12 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1151</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">2 sems high school Spanish and departmental permission.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">1 year of high school Spanish or equivalent.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Covers the same materials as SPAN 101-102 and counts as 101-102 in satisfying the liberal education requirements.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Review and covers equivalent materials to those presented in SPAN 101-102 and counts as 101-102 in satisfying the liberal education requirements.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -91,9 +91,14 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>6</hours>
+      </activity>
+    </activities>
     <credits>
-      <credit type="Single Value">10</credit>
+      <credit type="Single Value">6</credit>
     </credits>
   </course>
   <course>
@@ -141,14 +146,11 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1151</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">SPAN 102 or equivalent score on Spanish Language Placement Exam.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">SPAN 102, or SPAN 110,  or equivalent score on Spanish Language Placement Exam.</div>
     </prerequisite>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Spanish 201x does not count toward Essential Studies requirements except by permission of the departmental chair.</div>
-    </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Intensive and extensive reading of moderately difficult Spanish texts; thorough review of minimum essentials of Spanish grammar; conversational practice supplemented by drill in pronunciation laboratory.</div>
     </description>
@@ -347,10 +349,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">SPAN 102 or equivalent score on Spanish Language Placement Exam and departmental permission.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">SPAN 102 or SPAN 110 or equivalent score on Spanish Language Placement Exam and departmental permission.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Covers the same material as SPAN 201-202 and counts as 201-202 in satisfying the liberal education requirements.</div>
@@ -367,6 +369,47 @@
       <term>Summer</term>
     </termsOffered>
     <activities/>
+    <credits>
+      <credit type="Single Value">6</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Intensive Spanish for the Professions</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>SPAN</subject>
+        <courseNumber>220</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1151</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">SPAN 202 or SPAN 210 or equivalent score on Spanish Language Placement Exam.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Equivalent to SPAN 203 and SPAN 204.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Intensive intermediate reading, writing and conversation.Emphasis on communication and professional interactions and on the language of professional communities, such as business, journalism and mass communication, health and medicine, law and government. Particular emphasis on cultural knowledge to increase chances of professional work related to the Hispanic community.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>6</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">6</credit>
     </credits>
@@ -454,11 +497,14 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">SPAN 203 and 204; or equivalent.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">SPAN 200, or SPAN 203 and SPAN 204, or equivalent.</div>
     </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Credit toward the degree may be earned in only one of the following: SPAN 300, SPAN 300A, SPAN 300B or SPAN 303/304.</div>
+    </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">A block course combining SPAN 303 and 304 in one semester.</div>
     </description>
@@ -473,7 +519,54 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>6</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">6</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Advanced Reading, Writing and Conversation: Emphasis on Translation and Interpretation</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>SPAN</subject>
+        <courseNumber>300</courseNumber>
+        <courseLetter>B</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">SPAN 203 and SPAN 204; or SPAN 220 or equivalent</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Credit toward the degree may be earned in only one of the following: SPAN 300, SPAN 300A, SPAN 300B or SPAN 303/304.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Intensive advanced reading, writing and conversation; comparison of grammatical constructions and vocabulary in Spanish and English; review of basic translation and interpretation techniques.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>6</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">6</credit>
     </credits>
@@ -487,128 +580,16 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1105</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">SPAN 203 and 204, or equivalent.</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to literary texts and to the practice of reading for comprehension and interpretation. Students write short summaries of texts selected from Spanish and Spanish-American Literary works.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities/>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-    <aceOutcomes>
-      <slo>2</slo>
-    </aceOutcomes>
-  </course>
-  <course>
-    <title>Advanced Writing</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>SPAN</subject>
-        <courseNumber>304</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1098</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">SPAN 203 and 204, or equivalent.</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Develops writing skills by concentrating on techniques for writing term papers, such as organizing ideas, structuring arguments and conducting bibliographic searches.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities/>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-    <aceOutcomes>
-      <slo>1</slo>
-    </aceOutcomes>
-  </course>
-  <course>
-    <title>Literary Analysis in Spanish</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>SPAN</subject>
-        <courseNumber>305</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1148</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">SPAN 303 and 304, or SPAN 300 or equivalent.</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Readings of short stories, critical and creative essays, short plays and poems to facilitate the acquisition of critical skills in the identification of basic ideological and formalistic issues within the text being studied. Reading selections come from Spain and Spanish America. Lectures, oral discussions, and written reports in Spanish.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities/>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-    <aceOutcomes>
-      <slo>5</slo>
-    </aceOutcomes>
-  </course>
-  <course>
-    <title>Representative Spanish-American Authors I</title>
-    <courseCodes>
-      <courseCode type="crosslisting">
-        <subject>LAMS</subject>
-        <courseNumber>311</courseNumber>
-      </courseCode>
-      <courseCode type="home listing">
-        <subject>SPAN</subject>
-        <courseNumber>311</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">SPAN 305 or equivalent.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">SPAN 200, or SPAN 203 and SPAN 204, or equivalent.</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Lectures, oral discussions, and written work in Spanish.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Credit toward the degree may be earned in only one of the following: SPAN 300, SPAN 300A, SPAN 300B or SPAN 303/304.</div>
     </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Masterpieces by great writers chosen from the Modernista period to the present time.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to literary texts and to the practice of reading for comprehension and interpretation. Students write short summaries of texts selected from Spanish and Spanish-American Literary works.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -630,9 +611,143 @@
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
+    <aceOutcomes>
+      <slo>2</slo>
+    </aceOutcomes>
   </course>
   <course>
-    <title>Representative Spanish-American Authors II</title>
+    <title>Advanced Writing</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>SPAN</subject>
+        <courseNumber>304</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">SPAN 200, or SPAN 203 and SPAN 204, or equivalent.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Credit toward the degree may be earned in only one of the following: SPAN 300, SPAN 300A, SPAN 300B or SPAN 303/304.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Develops writing skills by concentrating on techniques for writing term papers, such as organizing ideas, structuring arguments and conducting bibliographic searches.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+    <aceOutcomes>
+      <slo>1</slo>
+    </aceOutcomes>
+  </course>
+  <course>
+    <title>The Analysis of Communication in Spanish</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>SPAN</subject>
+        <courseNumber>305</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">SPAN 303 and SPAN 304, or SPAN 300, or SPAN 300B or equivalent.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Analysis of oral, written and visual genres. Evaluation of contexts, regularities, conventions and forms. Acquisition of critical skills in the identification of basic ideological and formalistic issues within the genres being studied.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+    <aceOutcomes>
+      <slo>5</slo>
+    </aceOutcomes>
+  </course>
+  <course>
+    <title>Introduction to Hispanic Literature: Latin America</title>
+    <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>LAMS</subject>
+        <courseNumber>311</courseNumber>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>SPAN</subject>
+        <courseNumber>311</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">SPAN 305 or equivalent.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Lectures, oral discussions, and written work in Spanish.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Examination of important  forms and themes in the history of early Latin-American literature.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+      <deliveryMethod>Web</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Representative Spanish-American Authors</title>
     <courseCodes>
       <courseCode type="crosslisting">
         <subject>LAMS</subject>
@@ -644,8 +759,8 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">SPAN 305 or equivalent.</div>
     </prerequisite>
@@ -653,7 +768,7 @@
       <div xmlns="http://www.w3.org/1999/xhtml">Lectures, oral discussions, and written work in Spanish.</div>
     </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Masterpieces by great writers from colonial times to the Modernista period.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Masterpieces by great writers chosen from the Modernista period to the present time.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -795,7 +910,7 @@
     </credits>
   </course>
   <course>
-    <title>Spanish Phonetics</title>
+    <title>Sound Systems of Spanish</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>SPAN</subject>
@@ -803,13 +918,13 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">SPAN 300 or equivalent.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">SPAN 317 or equivalent.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Production of Spanish sounds, isolated and in groups; analysis of rhythm and intonation in conversation and reading; oral and aural practice in the laboratory.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Description of the Spanish sound system: articulatory and acoustic phonetics, variation, oral practice.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -822,7 +937,12 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
@@ -1059,7 +1179,7 @@
     </credits>
   </course>
   <course>
-    <title>Spanish Stylistics</title>
+    <title>Syntactic Structures of Spanish</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>SPAN</subject>
@@ -1071,16 +1191,16 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1151</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">SPAN 305 and 319 or equivalent.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">SPAN 317 or equivalent.</div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">For advanced students, particularly prospective teachers, who wish to improve their ability to write idiomatic Spanish.</div>
     </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Translations and composition in Spanish.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Comparative study of the structure of complex sentences in Spanish and English: Translation and composition.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -1093,7 +1213,12 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
@@ -1111,10 +1236,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">SPAN 300 and 317 or 319 or equivalent.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">SPAN 317 or equivalent.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Theoretical and practical aspects of Spanish grammar.</div>
@@ -1130,7 +1255,12 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
@@ -1149,7 +1279,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1121</effectiveSemester>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">SPAN 317 and SPAN 319, or equivalent.</div>
     </prerequisite>
@@ -1194,7 +1324,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1148</effectiveSemester>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">SPAN 305 and six additional hours of SPAN 300 level courses above SPAN 305.</div>
     </prerequisite>
@@ -1276,7 +1406,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1148</effectiveSemester>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">SPAN 305 and six additional hours of SPAN 300 level courses above SPAN 305.</div>
     </prerequisite>
@@ -1321,7 +1451,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1148</effectiveSemester>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">SPAN 305 and six additional hours of SPAN 300 level courses above SPAN 305.</div>
     </prerequisite>
@@ -1366,7 +1496,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1148</effectiveSemester>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">SPAN 305 and six additional hours of SPAN 300 level courses above SPAN 305.</div>
     </prerequisite>
@@ -1435,7 +1565,7 @@
     </credits>
   </course>
   <course>
-    <title>Human Rights in Latin American Poetry</title>
+    <title>Human Rights in Latin America</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>SPAN</subject>
@@ -1447,13 +1577,13 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">SPAN 304; and 6 hrs from SPAN 311, 312, 314 or 315.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">SPAN 305 and six additional hours from SPAN 311, SPAN 312, SPAN 314, SPAN 315.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Reading and analysis of Latin American poetry dealing with human rights issues, concentrating on poems produced from 1900 to the present. Topics selected from the Universal Declaration of Human Rights.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Reading and analysis of Latin American texts dealing with human rights issues. Topics selected from the Universal Declaration of Human Rights.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -1466,7 +1596,12 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
@@ -1660,10 +1795,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">6 hrs from: SPAN/LAMS 311, SPAN/LAMS 312, SPAN 314, SPAN 315.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">SPAN 305 and six additional hours of Spanish 300-level courses above SPAN 305.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Spanish-American novels.</div>
@@ -1706,10 +1841,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">6 hrs from: SPAN/LAMS 311, SPAN/LAMS 312, SPAN 314, SPAN 315.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">SPAN 305 and six additional hours of Spanish 300-level courses above SPAN 305.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Masterpieces of the Spanish-American short story from its origins. Works of the twentieth century by authors such as Horacio Quiroga, Jorge Luis Borges, Maria Luisa Bombal, Juan Rulfo, Julio Cortazar, Rosario Castellanos, and Luisa Valenzuela.</div>
@@ -1840,12 +1975,57 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1148</effectiveSemester>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">SPAN 305 and six additional hours of Spanish 300-level courses above SPAN 305.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Examination of Cervantes’ masterpiece in its literary and social context. Emphasis on the impact of digital tools on the humanities.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+    <aceOutcomes>
+      <slo>10</slo>
+    </aceOutcomes>
+  </course>
+  <course>
+    <title>Advanced Translation for the Professions</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>SPAN</subject>
+        <courseNumber>475</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>SPAN</subject>
+        <courseNumber>875</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1151</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Senior standing or instructor's permission</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Theory and practice of translation in professional settings. Introduction to linguistic and cultural challenges of Spanish/English, English/Spanish translation.</div>
     </description>
     <campuses>
       <campus>UNL</campus>

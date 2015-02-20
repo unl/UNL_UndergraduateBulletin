@@ -755,44 +755,6 @@
     </credits>
   </course>
   <course>
-    <title>Water &amp; Earth Connections</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>GEOL</subject>
-        <courseNumber>220</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1111</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">GEOL 101, or GEOL 106, or METR 100, and concurrent Math 106, or instructor permission.</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Quantitative understanding of water-related processes in the earth sciences.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>lec</type>
-        <hours>3</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
     <title>Independent Study in Geology</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -1082,6 +1044,44 @@
     </deliveryMethods>
     <termsOffered>
       <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Water &amp; Earth Connections</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>GEOL</subject>
+        <courseNumber>372</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">GEOL 101, or GEOL 106, or METR 100, and MATH 106, or instructor permission.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Quantitative understanding of water-related processes in the earth sciences.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
     </termsOffered>
     <activities>
       <activity>
@@ -1786,114 +1786,6 @@
     </credits>
   </course>
   <course>
-    <title>Marine Ecology and Paleoecology</title>
-    <courseCodes>
-      <courseCode type="crosslisting">
-        <subject>BIOS</subject>
-        <courseNumber>461</courseNumber>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>BIOS</subject>
-        <courseNumber>861</courseNumber>
-      </courseCode>
-      <courseCode type="home listing">
-        <subject>GEOL</subject>
-        <courseNumber>439</courseNumber>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>GEOL</subject>
-        <courseNumber>839</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">BIOS/NRES 220.</div>
-    </prerequisite>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Geology majors should register for GEOL 439L/BIOS 461L.</div>
-    </notes>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to the fundamentals of marine ecology and their application to paleoecology.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>lec</type>
-        <hours>2</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">2</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Marine Ecology and Paleoecology Lab</title>
-    <courseCodes>
-      <courseCode type="crosslisting">
-        <subject>BIOS</subject>
-        <courseNumber>461</courseNumber>
-        <courseLetter>L</courseLetter>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>BIOS</subject>
-        <courseNumber>861</courseNumber>
-        <courseLetter>L</courseLetter>
-      </courseCode>
-      <courseCode type="home listing">
-        <subject>GEOL</subject>
-        <courseNumber>439</courseNumber>
-        <courseLetter>L</courseLetter>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>GEOL</subject>
-        <courseNumber>839</courseNumber>
-        <courseLetter>L</courseLetter>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Parallel GEOL 439/839.</div>
-    </prerequisite>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Lab includes several field trips.</div>
-    </notes>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>lab</type>
-        <hours>3</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">1</credit>
-      <credit type="Per Career Limit">1</credit>
-    </credits>
-  </course>
-  <course>
     <title>Tectonics</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -2193,7 +2085,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1138</effectiveSemester>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">GEOL310 and GEOL340.</div>
     </prerequisite>

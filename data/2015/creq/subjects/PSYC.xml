@@ -10,7 +10,10 @@
     </courseCodes>
     <gradingType>pass/no pass only</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1128</effectiveSemester>
+    <effectiveSemester>1158</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Psychology major or permission.</div>
+    </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">Pass/No pass only. Students should take this course as early in their studies as possible, even if they have not taken PSYC 181.</div>
     </notes>
@@ -31,6 +34,7 @@
     <activities>
       <activity>
         <type>lec</type>
+        <hours>1</hours>
       </activity>
     </activities>
     <credits>
@@ -741,6 +745,49 @@
     </aceOutcomes>
   </course>
   <course>
+    <title>Psychology of Environmental Sustainability</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>PSYC</subject>
+        <courseNumber>334</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>ENVR</subject>
+        <courseNumber>334</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Applications of psychological principles to understand human transactions with their environments and find behavior-based solutions to environmental problems.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+      <deliveryMethod>Web</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+    <aceOutcomes>
+      <slo>8</slo>
+    </aceOutcomes>
+  </course>
+  <course>
     <title>Research Methods and Data Analysis</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -1268,13 +1315,13 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">12 hrs psychology.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Currently important fundamental issues in psychology considered within a framework of their philosophical foundations and historical perspectives.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Currently important fundamental issues in psychology, focusing on controversies within the science of psychology.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -1287,7 +1334,12 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
@@ -1562,12 +1614,12 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1141</effectiveSemester>
+    <effectiveSemester>1151</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">PSYC 268.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Theoretical evaluation of studies of learning, thinking, and perception.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Evaluation and discussion of studies in learning and cognition that draws from the research literature with nonhuman animals</div>
     </description>
     <campuses>
       <campus>UNL</campus>

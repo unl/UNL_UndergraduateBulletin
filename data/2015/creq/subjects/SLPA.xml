@@ -1058,7 +1058,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">SLPA 250 and 464 or permission</div>
     </prerequisite>
@@ -1071,9 +1071,14 @@
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>2</hours>
+      </activity>
+    </activities>
     <credits>
-      <credit type="Single Value">3</credit>
+      <credit type="Single Value">2</credit>
     </credits>
   </course>
   <course>
@@ -1302,7 +1307,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <effectiveSemester>1158</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Research related to the nature, diagnosis and clinical management of stuttering is considered. Therapy models are presented along with data bearing on the efficacy of particular approaches. Specific rehabilitation procedures.</div>
     </description>
@@ -1312,9 +1317,14 @@
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>2</hours>
+      </activity>
+    </activities>
     <credits>
-      <credit type="Single Value">3</credit>
+      <credit type="Single Value">2</credit>
     </credits>
   </course>
   <course>
@@ -1564,18 +1574,18 @@
     </credits>
   </course>
   <course>
-    <title>Advanced Clinical Evaluation</title>
+    <title>Clinical Assessment</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>SLPA</subject>
         <courseNumber>902</courseNumber>
       </courseCode>
     </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Instruction and practice in understanding, applying, and interpreting advanced clinical tests. Understanding the use of differential diagnostic tests used in assessment of peripheral and central lesions.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to the basic psychlogical and physiological clinical measures for assessment of hearing in adults. The course includes instruction and practice in understanding, presentations and laboratory practice are used to fcilitate the classroom to clinic transition.</div>
     </description>
     <campuses>
       <campus></campus>
@@ -1583,7 +1593,14 @@
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
-    <activities/>
+    <termsOffered>
+      <term>Fall</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
@@ -1596,11 +1613,11 @@
         <courseNumber>904</courseNumber>
       </courseCode>
     </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Basic electrical theory and practical electronic information for the audiologist. Basic electrical and electronic information applicable to hearing, perception and acoustics. Basic electronics and electronic components, analog and digital circuits, transducers, calibration of audiometric instruments, amplifiers, attenuators and test equipment.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">An introductory course for graduate and clinical students in life and health sciences which includees lecturers and exercises in electonics, elecrophysiology, instrumentation, and signal processing. The focus is on the theory and practice of using laboratory and clinical instrumentation in the collection and analysis of signals. Signals commonly used in speech and hearing sciences will serve to illustrate general principles. Topics include basic electronics, cabling, grounding and connecting instruments, signal generation and monitoring, sensors, amplifiers, filters, electronic computation and calibration, analog and digital signal processing.</div>
     </description>
     <campuses>
       <campus></campus>
@@ -1608,6 +1625,9 @@
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+    </termsOffered>
     <activities>
       <activity>
         <type>lab</type>
@@ -1621,18 +1641,18 @@
     </credits>
   </course>
   <course>
-    <title>Advanced Clinical Assessment II</title>
+    <title>Evidence-Based Practice in Audiology</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>SLPA</subject>
         <courseNumber>906</courseNumber>
       </courseCode>
     </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Issues of professionalism and the development of best-practice models in Audiology. Relationship-centered patient care and the impact of multicultural issues on the practice of Audiology. Use of clinical decision analysis and evidence-based practice. Application to the common clinical assessment tools discussed in the “Advanced Audiological Assessment I” course.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Issues of professionalism and the development of best-practice models in Audiology. Relationship-centered patient care and the impact of multicultural issues on the practice of Audiology. Use of clinical decision analysis and evidence-based practice. Application to the common clinical assessment tools discussed in the Clinical Assessment course.</div>
     </description>
     <campuses>
       <campus></campus>
@@ -1640,24 +1660,31 @@
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
-    <activities/>
+    <termsOffered>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
   </course>
   <course>
-    <title>Physiological Acoustics</title>
+    <title>Auditory Physiology and Pharmacology</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>SLPA</subject>
         <courseNumber>908</courseNumber>
       </courseCode>
     </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Pneumatic/mechanical/hydraulic/electrical interfaces involved in the transduction of acoustic energy through the auditory system. Investigation of external ear biophysics, the middle ear transfer function, cochlear hydrodynamics and hydro-mechanics, and auditory biopotentials.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Lectures exploring the fundamental nature of the auditory system from the level of the outer ear to the cerebral cortex. Emphasis will be placed on studying the genetic, anatomical, neurochemical, pharmacological, and physiological bases for both normal and pathological auditory function.</div>
     </description>
     <campuses>
       <campus></campus>
@@ -1665,9 +1692,17 @@
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
-    <activities/>
+    <termsOffered>
+      <term>Fall</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>4</hours>
+      </activity>
+    </activities>
     <credits>
-      <credit type="Single Value">3</credit>
+      <credit type="Single Value">4</credit>
     </credits>
   </course>
   <course>
@@ -1721,18 +1756,18 @@
     </credits>
   </course>
   <course>
-    <title>Medical Aspects of Audiology</title>
+    <title>Disorders of the Auditory System</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>SLPA</subject>
         <courseNumber>916</courseNumber>
       </courseCode>
     </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Effects of, and principles of, medical management of disorders of the cochlea, retrocochlear region, and central auditory mechanism. Anatomy and physiology of the inner ear and central auditory pathways, function and physiology of the vestibule and labyrinth, and histology and biochemistry of the inner ear and ascending auditory tracts.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">An overview of disorders of the peripheral and central auditory systems along with an in-depth disucssion of neurophysiological model, assessment and treatment of tinnitus. Considerations in the screening, assessment and management of Auditory Processing Disorders are included. In addition, there is a review of cranial nerves and temporal bone anatomy. Students are required to complete presentations on selected disorders of the auditory system.</div>
     </description>
     <campuses>
       <campus></campus>
@@ -1740,7 +1775,15 @@
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
-    <activities/>
+    <termsOffered>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
@@ -1774,18 +1817,21 @@
     </credits>
   </course>
   <course>
-    <title>Electrophysiological Assessment of Hearing</title>
+    <title>Auditory Electrophysiological Assessment</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>SLPA</subject>
         <courseNumber>920</courseNumber>
       </courseCode>
     </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Laboratory exercises are included.</div>
+    </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Instrumentation and procedures for electrophysiologic evaluation of the auditory system. Procedures and special tests include Electrocochleography, Auditory Brainstem Response, Middle Latency Response, Late Cortical Response, and others.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">This course focuses on current auditory electrophysiological assessment procedures, and includes theory, instrumentation, techniques and procedures. Test result interpretation is discussed in relation to underlying anatomy and physiology.</div>
     </description>
     <campuses>
       <campus></campus>
@@ -1793,57 +1839,35 @@
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
-    <activities/>
+    <termsOffered>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
   </course>
   <course>
-    <title>Pharmacology for Audiology</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>SLPA</subject>
-        <courseNumber>922</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to pharmacological chemistry, drugs, and drug interactions. Ototoxic drugs and other drugs frequently seen in patients in audiology practice settings.</div>
-    </description>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <activities>
-      <activity>
-        <type>lec</type>
-        <hours>2</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">2</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Sensory Technology and Rehabilitation for the Hearing Impaired I</title>
+    <title>Amplification I</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>SLPA</subject>
         <courseNumber>924</courseNumber>
       </courseCode>
     </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">SLPA 271 or equivalent</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Students will initiate and carry out directed laboratory assignments. Conventional analog hearing aids which includes: the design and operation of hearing aids, electroacoustic measurements and accompanying instrumentation, earmold and plumbing acoustics, evaluation and selection procedures (adults), orientation</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Design and operation of basic digital amplification systems. Discussion of advanced signal processing strategies used in current hearing aids. Instruction and laboratory practice in the electroacoustic analysis and real-ear probe microphone measurements of hearing aid systems and making earmold impressions. Introduction to earmold/plumbing acoustics.</div>
     </description>
     <campuses>
       <campus></campus>
@@ -1851,27 +1875,35 @@
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
-    <activities/>
+    <termsOffered>
+      <term>Fall</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>4</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">4</credit>
     </credits>
   </course>
   <course>
-    <title>Sensory Technology and Rehabilitation for the Hearing Impaired II</title>
+    <title>Amplification II</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>SLPA</subject>
         <courseNumber>926</courseNumber>
       </courseCode>
     </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">SLPA 271 or equivalent</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Students will be expected to engage in class presentations. Various assistive technologies, other than conventional analog hearing aids, utilized by persons who are deaf and hard of hearing. Technologies such as cochlear implants, tactile devices, radio frequency systems, digital hearing aids, and telephone, television and alerting devices. Information regarding pediatric amplification, counseling, and speechreading introduced.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Evaluation, candidacy and selection of hearing aids for adults and children. Discussion of current and emerging prescriptive and fitting verification methods. Instruction and laboratory experience in verification of hearing aid fittings using real-ear probe microphone measurements along with administration of validation measures. The course w ill also address special hearing aid fittings and troubleshooting hearing aid problems.</div>
     </description>
     <campuses>
       <campus></campus>
@@ -1879,10 +1911,12 @@
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
+    <termsOffered>
+      <term>Spring</term>
+    </termsOffered>
     <activities/>
     <credits>
-      <credit type="Lower Range Limit">1</credit>
-      <credit type="Upper Range Limit">3</credit>
+      <credit type="Single Value">3</credit>
     </credits>
   </course>
   <course>
@@ -1911,18 +1945,18 @@
     </credits>
   </course>
   <course>
-    <title>Genetics of Hearing Loss</title>
+    <title>Genetic Basis of Communication and Learning</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>SLPA</subject>
         <courseNumber>930</courseNumber>
       </courseCode>
     </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">The genetic basis for hearing loss.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Study of embryology and genetics related to communication and learning. Embryology of human development is discussed with specific emphasis on development of the brain, craniofacial, and inner ear structures. The genetic basis of normal development is examined, as w ell as disorders of hearing, balance, communication, and learning.</div>
     </description>
     <campuses>
       <campus></campus>
@@ -1930,6 +1964,9 @@
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
+    <termsOffered>
+      <term>Summer</term>
+    </termsOffered>
     <activities>
       <activity>
         <type>lec</type>
@@ -2026,18 +2063,18 @@
     </credits>
   </course>
   <course>
-    <title>Private Practice and/or Clinic Management</title>
+    <title>Business and Financial Management</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>SLPA</subject>
         <courseNumber>938</courseNumber>
       </courseCode>
     </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Principles and procedures for starting and surviving as an independent practitioner in audiology. Practice management strategies for use in any audiological setting.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">An overview of principles and procedures as they relate to an audiology practice. Topics discussed include budgeting, pricing, billing, and coding, regulatory issues, and human resource management. Students are required to design an audiology practice and develop a business plan as part of this course.</div>
     </description>
     <campuses>
       <campus></campus>
@@ -2045,10 +2082,13 @@
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
+    <termsOffered>
+      <term>Spring</term>
+    </termsOffered>
     <activities>
       <activity>
         <type>lec</type>
-        <hours>2</hours>
+        <hours>3</hours>
       </activity>
     </activities>
     <credits>
@@ -2063,11 +2103,11 @@
         <courseNumber>940</courseNumber>
       </courseCode>
     </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Habilitation (for pre-lingual deaf and hard of hearing infants and toddlers) and rehabilitation efforts for individuals of all ages who ar deaf or hard of hearing.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">This course provides students with a survey of approaches to aural rehabilitation for adults and children with hearing loss in various rehabilitative and habilitative settings. Principles of early intervention and family-centered practices are presented for infants and toddlers with hearing loss. Information and techniques for the development of auditory perception and spoken language skills for children with hearing loss. For adults information regarding psychosocial, emotional, and vocational consequences of hearing loss is presented. Speech perception training and communication effectiveness approaches for adults with hearing loss are viewed. Principles of auditory + visual communicaion are discussed.</div>
     </description>
     <campuses>
       <campus></campus>
@@ -2075,6 +2115,9 @@
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
+    <termsOffered>
+      <term>Spring</term>
+    </termsOffered>
     <activities>
       <activity>
         <type>lec</type>
@@ -2592,18 +2635,18 @@
     <activities/>
   </course>
   <course>
-    <title>Doctoral Capstone Thesis</title>
+    <title>Doctoral Capstone</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>SLPA</subject>
         <courseNumber>994</courseNumber>
       </courseCode>
     </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Selection of the topic for this project should take place no later than the summer of the third year by consultation with the project adviser. Enrollment in SLPA 994 is required during each semester that the project is underway. Capstone experience prepared in the form of a research project paper containing a significant treatment of some aspect of audiology.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Selection of the topic for this project should take place no later then Fall of the second year by consultation with the project advisor. Enrollment in SLPA 994 is required during each semester that the project is underway. Students must receive prior permission from their advisor before registering for capstone hours. The capstone experience represents a major research project containing a significant treatment of some aspect of audiology.</div>
     </description>
     <campuses>
       <campus></campus>
@@ -2617,7 +2660,8 @@
       </activity>
     </activities>
     <credits>
-      <credit type="Single Value">3</credit>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">3</credit>
       <credit type="Per Career Limit">9</credit>
     </credits>
   </course>

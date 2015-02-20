@@ -381,14 +381,11 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1138</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1151</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">3 hrs of sociology or related social sciences.</div>
     </prerequisite>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">CRIM 335 and SOCI 209 cannot both be applied toward the degree.</div>
-    </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Introduction to the sociological approach to the study of crime, including the definition of crime, approaches to its measurement, and the major theories of crime. Social institutions intended to prevent or correct criminal behavior.</div>
     </description>
@@ -975,6 +972,56 @@
     </aceOutcomes>
   </course>
   <course>
+    <title>Storytelling</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MODL</subject>
+        <courseNumber>382</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>GLST</subject>
+        <courseNumber>382</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>SOCI</subject>
+        <courseNumber>382</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>MRST</subject>
+        <courseNumber>382</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Close study of stories, in various forms, from around the world. Considers the role of gender, race, and history as lenses through which to approach the production and reception of storytelling. Readings, discussions, and assignments conducted in English.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+    <aceOutcomes>
+      <slo>5</slo>
+    </aceOutcomes>
+  </course>
+  <course>
     <title>Research Experience</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -1010,7 +1057,7 @@
     </credits>
   </course>
   <course>
-    <title>Field Work in Sociology</title>
+    <title>Internship Experience</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>SOCI</subject>
@@ -1018,8 +1065,8 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Sociology major or minor, 9 hrs sociology, and permission.</div>
     </prerequisite>
@@ -1027,7 +1074,7 @@
       <div xmlns="http://www.w3.org/1999/xhtml">Students should see chief undergraduate adviser for details.</div>
     </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Field work in public or other organizations.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Internship and professional experience at government agencies, private, non-profit, or other organizations</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -1677,43 +1724,6 @@
     </credits>
   </course>
   <course>
-    <title>Sociology of Health and Health Professions</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>SOCI</subject>
-        <courseNumber>453</courseNumber>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>SOCI</subject>
-        <courseNumber>853</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">9 hrs sociology or related social sciences.</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Social and cultural bases of health and illness. Social factors in the definition of illness and in the organization and distribution of health care.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities/>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
     <title>Physical Health Disparities</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -1724,12 +1734,16 @@
         <subject>SOCI</subject>
         <courseNumber>854</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>ETHN</subject>
+        <courseNumber>454</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1138</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">9 hrs of sociology or related social sciences</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">9 hrs of sociology or related social sciences.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Contribution of social inequality to health outcomes; Intersection of individual and social factors through which racial, economic, and gender differences in health emerge.</div>
@@ -2092,53 +2106,6 @@
     <credits>
       <credit type="Single Value">3</credit>
       <credit type="Per Career Limit">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Policy and Program Evaluation Research</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>POLS</subject>
-        <courseNumber>417</courseNumber>
-        <courseGroup>American Government and Public Policy</courseGroup>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>POLS</subject>
-        <courseNumber>817</courseNumber>
-        <courseGroup>American Government and Public Policy</courseGroup>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>SOCI</subject>
-        <courseNumber>468</courseNumber>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>SOCI</subject>
-        <courseNumber>868</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1151</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">6 hrs social sciences.</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Techniques useful for research aiding in policy making and for assessing the impact of policy. Acquaints student with the role of research in policy formation and evaluation and to give the student experience in conducting such research.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities/>
-    <credits>
-      <credit type="Single Value">3</credit>
     </credits>
   </course>
   <course>
@@ -2668,16 +2635,16 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1091</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Senior standing; sociology major.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Senior standing; sociology major; SOCI 205; SOCI 355.</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">It is recommended that SOCI 205, 206, and 455 be completed prior to taking the SOCI 495.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">SOCI 206 is strongly recommended.</div>
     </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">A senior-level overview of the discipline of sociology, including theory, methods, and substantive areas. Current monographs critically analyzed. The development of sociology, new directions in the discipline, and careers for sociologists.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">A senior-level overview of the discipline of sociology, including theory, methods, and substantive areas. The development of sociology, new directions in the discipline, and current research and literature critically analyzed. Satisfies research experience requirement for Sociology majors.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -2690,7 +2657,12 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
@@ -2958,7 +2930,7 @@
     </credits>
   </course>
   <course>
-    <title>Seminar in Social Psychology</title>
+    <title>Seminar in Health</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>SOCI</subject>
@@ -2966,10 +2938,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Permission</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Permission.</div>
     </prerequisite>
     <campuses>
       <campus></campus>
@@ -2977,6 +2949,11 @@
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
     <activities/>
     <credits>
       <credit type="Single Value">3</credit>

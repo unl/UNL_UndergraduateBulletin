@@ -511,8 +511,8 @@
       </courseCode>
     </courseCodes>
     <gradingType>letter grade only</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1138</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1151</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Admission to Center for Sales Excellence or permission.</div>
     </prerequisite>
@@ -533,11 +533,12 @@
     <activities>
       <activity>
         <type>lec</type>
-        <hours>1</hours>
       </activity>
     </activities>
     <credits>
-      <credit type="Single Value">1</credit>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">3</credit>
+      <credit type="Per Career Limit">3</credit>
     </credits>
   </course>
   <course>
@@ -549,8 +550,8 @@
       </courseCode>
     </courseCodes>
     <gradingType>letter grade only</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1138</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1151</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Admission to Center for Sales Excellence or permission.</div>
     </prerequisite>
@@ -571,11 +572,12 @@
     <activities>
       <activity>
         <type>lec</type>
-        <hours>1</hours>
       </activity>
     </activities>
     <credits>
-      <credit type="Single Value">1</credit>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">3</credit>
+      <credit type="Per Career Limit">3</credit>
     </credits>
   </course>
   <course>
@@ -1444,9 +1446,9 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1141</effectiveSemester>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">GRBA 851 or ECON 817 or one or more graduate or undergraduate statistics classes that cover basic statistics through least-squares regression.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">GRBA 851 or one or more graduate or undergraduate statistics classes that cover basic statistics through least-squares regression.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Theory and strategic use of large marketing databases. Advances in theory and practice. Concepts of customer relationship management, integration with electronic commerce systems, analytical techniques, and ethics and practices of customer data privacy.</div>
@@ -1456,6 +1458,7 @@
     </campuses>
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
+      <deliveryMethod>Web</deliveryMethod>
     </deliveryMethods>
     <termsOffered>
       <term>Fall</term>

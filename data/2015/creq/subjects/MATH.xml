@@ -1409,62 +1409,6 @@
     </aceOutcomes>
   </course>
   <course>
-    <title>Numerical Analysis I</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>CSCE</subject>
-        <courseNumber>340</courseNumber>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>CSCE</subject>
-        <courseNumber>840</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>MATH</subject>
-        <courseNumber>340</courseNumber>
-        <courseGroup>Advanced Mathematics Courses</courseGroup>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>MATH</subject>
-        <courseNumber>840</courseNumber>
-        <courseGroup>Advanced Mathematics Courses</courseGroup>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1125</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 155A, CSCE 155E, CSCE 155H, CSCE 155N, or CSCE 155T; Math 107.</div>
-    </prerequisite>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Credit toward the degree may be earned in only one of the following: CSCE/MATH 340/840 and MECH 480/880.</div>
-    </notes>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Algorithm formulation for the practical solution of problems, interpolation, roots of equations, differentiation, and integration. Effects of finite precision.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>lec</type>
-        <hours>3</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">3</credit>
-      <credit type="Per Career Limit">3</credit>
-    </credits>
-  </course>
-  <course>
     <title>Concepts in Geometry</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -2329,6 +2273,62 @@
     </credits>
   </course>
   <course>
+    <title>Numerical Analysis I</title>
+    <courseCodes>
+      <courseCode type="grad tie-in">
+        <subject>CSCE</subject>
+        <courseNumber>840</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>MATH</subject>
+        <courseNumber>840</courseNumber>
+        <courseGroup>Advanced Mathematics Courses</courseGroup>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>CSCE</subject>
+        <courseNumber>440</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>MATH</subject>
+        <courseNumber>440</courseNumber>
+        <courseGroup>Advanced Mathematics Courses</courseGroup>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1151</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 155A, CSCE 155E, CSCE 155H, CSCE 155N, or CSCE 155T; Math 107.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Credit toward the degree may be earned in only one of the following: CSCE/MATH 440/840 and MECH 480/880.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Principles of numerical computing and error analysis covering numerical error, root finding, systems of equations, interpolation, numerical differentiation and integration, and differential equations. Modeling real-world engineering problems on digital computers. Effects of floating point arithmetic.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+      <credit type="Per Career Limit">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Approximation of Functions</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -2459,20 +2459,20 @@
     </credits>
   </course>
   <course>
-    <title>Numerical Analysis II</title>
+    <title>Numerical Linear Algebra</title>
     <courseCodes>
-      <courseCode type="home listing">
+      <courseCode type="crosslisting">
         <subject>CSCE</subject>
         <courseNumber>447</courseNumber>
+        <courseGroup>Advanced Mathematics Courses</courseGroup>
       </courseCode>
-      <courseCode type="grad tie-in">
+      <courseCode type="crosslisting">
         <subject>CSCE</subject>
         <courseNumber>847</courseNumber>
       </courseCode>
-      <courseCode type="crosslisting">
+      <courseCode type="home listing">
         <subject>MATH</subject>
         <courseNumber>447</courseNumber>
-        <courseGroup>Advanced Mathematics Courses</courseGroup>
       </courseCode>
       <courseCode type="grad tie-in">
         <subject>MATH</subject>
@@ -2481,13 +2481,13 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 340, MATH 221 and 314.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">MATH 314</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Numberical matrix methods and numerical solutions of ordinary differntial equations.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Mathematics and algorithms for numerically stable matrix and linear algebra computations, including solution of linear systems, computation of eigenvalues and eigenvectors, singular value decomposition, and QR decomposition.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -3267,11 +3267,14 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">MATH 208 and 310</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">MATH 208 and 310.</div>
     </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Not open to graduate students in mathematics.</div>
+    </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Analysis of the connections between college mathematics and high school algebra and precalculus.</div>
     </description>
@@ -3332,11 +3335,14 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">MATH 310 and 350</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">MATH 310 and 350.</div>
     </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Not open to graduate students in mathematics.</div>
+    </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Analysis of the connections between college mathematics and high school algebra and geometry.</div>
     </description>
@@ -3716,13 +3722,13 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">MATH 325</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">MATH 325.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">The Picard existence theorem, linear equations and linear systems, Sturm separation theorems, boundary value problems, phase plane analysis, stability theory, limit cycles and periodic solutions.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Phase diagrams, bifurcation theory, linear systems, the matrix exponential function, Floquet theory, stability theory, existence (Poincare-Bendixson Theorem) and non-existence of periodic solutions for non-linear ordinary differential equations, self-adjoint equations, and Sturm-Liouville theory.</div>
     </description>
     <campuses>
       <campus></campus>
@@ -3749,13 +3755,13 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">MATH 830</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">MATH 830.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">The Picard existence theorem, linear equations and linear systems, Sturm separation theorems, boundary value problems, phase plane analysis, stability theory, limit cycles and periodic solutions.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Vector calculus, transport equations, Laplace's equation, the heat equation, the wave equation, maximum principles, mean-value formulae, finite speed of propagation, energy methods, solution representations.</div>
     </description>
     <campuses>
       <campus></campus>
@@ -4335,8 +4341,8 @@
       </activity>
     </activities>
     <credits>
-      <credit type="Single Value">3</credit>
       <credit type="Single Value">6</credit>
+      <credit type="Single Value">3</credit>
       <credit type="Per Career Limit">18</credit>
     </credits>
   </course>
@@ -4896,8 +4902,8 @@
       </activity>
     </activities>
     <credits>
-      <credit type="Single Value">3</credit>
       <credit type="Single Value">6</credit>
+      <credit type="Single Value">3</credit>
       <credit type="Per Career Limit">18</credit>
     </credits>
   </course>
@@ -4924,8 +4930,8 @@
       </activity>
     </activities>
     <credits>
-      <credit type="Single Value">3</credit>
       <credit type="Single Value">6</credit>
+      <credit type="Single Value">3</credit>
       <credit type="Per Career Limit">18</credit>
     </credits>
   </course>

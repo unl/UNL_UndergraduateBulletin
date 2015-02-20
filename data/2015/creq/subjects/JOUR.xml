@@ -183,10 +183,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>letter grade only</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1148</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1151</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">JOMC 101 and 162.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">JOMC 101 and 160.</div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">Work in JOUR 202 will appear on the student news World Wide Web (WWW) site. JOUR 202 is 'Letter grade only'.</div>
@@ -312,10 +312,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>letter grade only</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1128</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1151</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">JOMC 163; JOUR 201 and 202.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">JOMC 160; JOUR 201 and 202.</div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">Work in JOUR 302 will appear on the student news World Wide Web (WWW) site.</div>
@@ -735,9 +735,9 @@
     </courseCodes>
     <gradingType>letter grade only</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1128</effectiveSemester>
+    <effectiveSemester>1151</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">JOMC 101 and 162.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">JOMC 101 and 160.</div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">Student work in JOUR 404/804 will appear on student news World Wide Web (WWW) site.</div>
@@ -867,9 +867,9 @@
     </courseCodes>
     <gradingType>letter grade only</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1128</effectiveSemester>
+    <effectiveSemester>1151</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">JOMC 162, 163, 164 and 165; JOUR 201.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">JOMC 160 and JOUR 201.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Designing elements of news presentation, including newspapers, magazines, and web sites.</div>
@@ -1030,9 +1030,9 @@
     </courseCodes>
     <gradingType>letter grade only</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1128</effectiveSemester>
+    <effectiveSemester>1151</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">JOMC 162, 163, 164, 165 and 302;  or BRDC 369.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">JOMC 160 and JOUR 302; or BRDC 369.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Producing a multimedia news product.</div>
@@ -1279,6 +1279,9 @@
       <credit type="Per Semester Limit">6</credit>
       <credit type="Per Career Limit">6</credit>
     </credits>
+    <aceOutcomes>
+      <slo>10</slo>
+    </aceOutcomes>
   </course>
   <course>
     <title>Honors Course</title>

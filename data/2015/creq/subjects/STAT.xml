@@ -620,22 +620,28 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">STAT *801 or equivalent.</div>
     </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Available online.</div>
+    </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Model-based inference for ecological data, generalized linear and additive models, mixed models, survival analysis, multi-model inference and information theoretic model selection, and study design.</div>
     </description>
     <campuses>
-      <campus></campus>
+      <campus>UNL</campus>
     </campuses>
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
+      <deliveryMethod>Web</deliveryMethod>
     </deliveryMethods>
     <termsOffered>
       <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
     </termsOffered>
     <activities>
       <activity>
@@ -894,6 +900,51 @@
     </activities>
     <credits>
       <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Applied Variance Component Estimation in Livestock Genetics</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ASCI</subject>
+        <courseNumber>862</courseNumber>
+        <courseLetter>W</courseLetter>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>STAT</subject>
+        <courseNumber>862</courseNumber>
+        <courseLetter>W</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">ASCI 862V.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">This is a 5-week course taught by Speidel and Enns (Colorado State University).</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Principles in the estimation of (co)variance components and genetic parameters required to solve mixed models typical in livestock genetics. Focus on applied knowledge of approaches used to estimate the G and R sub-matrices of the mixed model equations. Demonstrate models commonly used in parameter estimation. Introduce scientific literature concerning implementation, and attributes of the solutions, of variance component estimation strategies.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Web</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">1</credit>
     </credits>
   </course>
   <course>

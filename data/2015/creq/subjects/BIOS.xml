@@ -1773,10 +1773,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1151</effectiveSemester>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Open only to students who expect to become teaching assitants in anatomy or physiology</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Open only to students who expect to become teaching assistants in anatomy or physiology</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">A combination of academic work and instruction in the anatomy or physiology laboratories in biological sciences: cadaver dissection or work with physiological equipment; assist in the instruction of anatomical and physiological concepts.</div>
@@ -1847,10 +1847,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1111</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1151</effectiveSemester>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Specifics of requirements to be arranged with surpervising faculty member. BIOS 395 will not count toward a major in BIOS. Pass/No Pass only.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Specifics of requirements to be arranged with supervising faculty member. BIOS 395 will not count toward a major in BIOS. Pass/No Pass only.</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Combination of work outside the University and academic work in biological sciences arranged through the Career Services Office.</div>
@@ -1883,14 +1883,11 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1151</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Enrollment in the biological sciences honors program.</div>
     </prerequisite>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Enrollment in the biolgical sciences honors program</div>
-    </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Special topics in biology.</div>
     </description>
@@ -2374,14 +2371,11 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1151</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">BIOS 213.</div>
     </prerequisite>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">BIOS 423/823 recommended.</div>
-    </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Comprehensive survey of comparative physiology with emphasis on the diversity of adaptations in basic physiological systems and the effects of environmental parameters upon such systems. Comparative physiology of osmoregulation, temperature regulation, metabolism, muscle, central nervous function, and sensory function.</div>
     </description>
@@ -2725,7 +2719,7 @@
     </credits>
   </course>
   <course>
-    <title>Gene Expression and Replication</title>
+    <title>Metabolism and Biological Information</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>BIOC</subject>
@@ -2750,7 +2744,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1148</effectiveSemester>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">BIOC 431/831 with a grade of C or better, BIOS 206</div>
     </prerequisite>
@@ -3622,6 +3616,48 @@
     </aceOutcomes>
   </course>
   <course>
+    <title>Predator Ecology</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>BIOS</subject>
+        <courseNumber>453</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>BIOS</subject>
+        <courseNumber>853</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">BIOS 207 or NRES 220</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Conservation and management of native and invasive predators. Functional and numerical responses. Evolution of predator-prey interactions. Optimal foraging. Modeling predator-prey population dynamics. Trophic cascades. Prey defenses against predation.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Ecological Interactions</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -3942,114 +3978,6 @@
     <aceOutcomes>
       <slo>10</slo>
     </aceOutcomes>
-  </course>
-  <course>
-    <title>Marine Ecology and Paleoecology</title>
-    <courseCodes>
-      <courseCode type="crosslisting">
-        <subject>BIOS</subject>
-        <courseNumber>461</courseNumber>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>BIOS</subject>
-        <courseNumber>861</courseNumber>
-      </courseCode>
-      <courseCode type="home listing">
-        <subject>GEOL</subject>
-        <courseNumber>439</courseNumber>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>GEOL</subject>
-        <courseNumber>839</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">BIOS/NRES 220.</div>
-    </prerequisite>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Geology majors should register for GEOL 439L/BIOS 461L.</div>
-    </notes>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to the fundamentals of marine ecology and their application to paleoecology.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>lec</type>
-        <hours>2</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">2</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Marine Ecology and Paleoecology Lab</title>
-    <courseCodes>
-      <courseCode type="crosslisting">
-        <subject>BIOS</subject>
-        <courseNumber>461</courseNumber>
-        <courseLetter>L</courseLetter>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>BIOS</subject>
-        <courseNumber>861</courseNumber>
-        <courseLetter>L</courseLetter>
-      </courseCode>
-      <courseCode type="home listing">
-        <subject>GEOL</subject>
-        <courseNumber>439</courseNumber>
-        <courseLetter>L</courseLetter>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>GEOL</subject>
-        <courseNumber>839</courseNumber>
-        <courseLetter>L</courseLetter>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Parallel GEOL 439/839.</div>
-    </prerequisite>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Lab includes several field trips.</div>
-    </notes>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>lab</type>
-        <hours>3</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">1</credit>
-      <credit type="Per Career Limit">1</credit>
-    </credits>
   </course>
   <course>
     <title>Animal Behavior</title>
@@ -5802,6 +5730,71 @@
     <credits>
       <credit type="Single Value">1</credit>
       <credit type="Per Career Limit">10</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Viral Evolution</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>BIOS</subject>
+        <courseNumber>920</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1151</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">The mechanisms by which DNA and RNA viruses evolve.  The relationships between virulence, attenuation and host selection.  Transfer of genetic material between virus and host.  Evolution of HIV leading to escape from immunologic pressure or drug selection.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Viral Oncology</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>BIOS</subject>
+        <courseNumber>922</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1151</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Viral oncogenes and the cellular pathways that they influence.  The mechanisms by which DNA and RNA viruses cause cancer.  Discovery of novel tumor viruses.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
     </credits>
   </course>
   <course>

@@ -384,6 +384,43 @@
     </credits>
   </course>
   <course>
+    <title>Engineering Statistics and Data Analysis</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MECH</subject>
+        <courseNumber>321</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">MATH 208.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">An applications-oriented course for formulating and solving engineering statistical problems.  Includes Descriptive statistics, probability distributions, variability, sampling, confidence intervals, tests of significance, basics of statistical process control, and design of experiments.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Strength of Materials</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -1726,7 +1763,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1141</effectiveSemester>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">MECH 300, MECH 310, MECH 343, MECH 350, professional admission to Mechanical Engineering BS program.</div>
     </prerequisite>
@@ -1762,7 +1799,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1138</effectiveSemester>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">MECH 446, professional admission to Mechanical Engineering BS program.</div>
     </prerequisite>
@@ -2267,7 +2304,7 @@
       <div xmlns="http://www.w3.org/1999/xhtml">MATH 221/821; and Computer Programming. Linear Algebra recommended.</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Credit towards the degree cannot be earned in both CSCE/MATH 340/840 and MECH 480/880.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Credit towards the degree cannot be earned in both CSCE/MATH 440/840 and MECH 480/880.</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Numerical algorithms and their convergence properties in: solving nonlinear equations; direct and iterative schemes for linear systems of equations; eigenvalue problems; polynomial and spline interpolation; curve fitting; numerical integration and differentiation; initial and boundary values problems for Ordinary Differential Equations (ODEs) and systems of ODEs with applications to engineering; finite difference methods for partial differential equations (potential problems, heat-equation, wave-equation).</div>

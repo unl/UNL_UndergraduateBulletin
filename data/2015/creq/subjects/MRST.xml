@@ -137,6 +137,52 @@
     </aceOutcomes>
   </course>
   <course>
+    <title>The Renaissance</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>HIST</subject>
+        <courseNumber>318</courseNumber>
+        <courseGroup>European History</courseGroup>
+        <courseGroup>Pre-1800</courseGroup>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>MRST</subject>
+        <courseNumber>318</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1151</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Sophomore standing or permission.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Pre-1800 content.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Examines the intellectual and artistic achievements of the Italian Renaissance, relating them to the political developments and social changes which occurred throughout the Italian peninsula between ca. 1300-1550 and highlighting those elements which would influence the evolution of European culture. Emphasis on the development of humanism and its role in the transition from medieval to modern values.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>The Crusades</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -232,7 +278,7 @@
     </credits>
   </course>
   <course>
-    <title>European Culture in the Confessional Age 1550-1700</title>
+    <title>The Long Reformation, 1550-1700</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>HIST</subject>
@@ -247,7 +293,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1138</effectiveSemester>
+    <effectiveSemester>1151</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Sophomore standing or permission.</div>
     </prerequisite>
@@ -323,6 +369,106 @@
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
+  </course>
+  <course>
+    <title>Saints, Witches, and Madwomen</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>HIST</subject>
+        <courseNumber>336</courseNumber>
+        <courseGroup>European History</courseGroup>
+        <courseGroup>Pre-1800</courseGroup>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>WMNS</subject>
+        <courseNumber>336</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>MRST</subject>
+        <courseNumber>336</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1151</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Sophomore standing or permission.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Pre-1800 content.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Image of the madwoman throughout European and American history. Emphasis on how women on the margins have been labelled in different periods as saintly, as witches, or as insane.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Storytelling</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MODL</subject>
+        <courseNumber>382</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>GLST</subject>
+        <courseNumber>382</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>SOCI</subject>
+        <courseNumber>382</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>MRST</subject>
+        <courseNumber>382</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Close study of stories, in various forms, from around the world. Considers the role of gender, race, and history as lenses through which to approach the production and reception of storytelling. Readings, discussions, and assignments conducted in English.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+    <aceOutcomes>
+      <slo>5</slo>
+    </aceOutcomes>
   </course>
   <course>
     <title>Body Language: Love, Politics, and the Self in French Literature</title>
@@ -445,61 +591,6 @@
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Historical context of changes in religion, literature, philosophy, and the arts, 400-1450.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>lec</type>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>The Italian Renaissance</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>HIST</subject>
-        <courseNumber>420</courseNumber>
-        <courseGroup>European History</courseGroup>
-        <courseGroup>Pre-1800</courseGroup>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>HIST</subject>
-        <courseNumber>820</courseNumber>
-        <courseGroup>European History</courseGroup>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>MRST</subject>
-        <courseNumber>420</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>MRST</subject>
-        <courseNumber>820</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1141</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Junior standing or permission.</div>
-    </prerequisite>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Pre-1800 content.</div>
-    </notes>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Examines the intellectual and artistic achievements of the Italian Renaissance, relating them to the political developments and social changes which occurred throughout the Italian peninsula between ca. 1300-1550 and highlighting those elements which would influence the evolution of European culture. Emphasis on the development of humanism and its role in the transition from medieval to modern values.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -738,69 +829,6 @@
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">History of English society, politics, and culture from the time of Henry VIII through that of Elizabth I, Shakespeare, Donne, Charles I, Cromwell, and Milton.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>lec</type>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Saints, Witches, and Madwomen</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>HIST</subject>
-        <courseNumber>436</courseNumber>
-        <courseGroup>European History</courseGroup>
-        <courseGroup>Pre-1800</courseGroup>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>HIST</subject>
-        <courseNumber>836</courseNumber>
-        <courseGroup>European History</courseGroup>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>WMNS</subject>
-        <courseNumber>436</courseNumber>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>WMNS</subject>
-        <courseNumber>836</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>MRST</subject>
-        <courseNumber>436</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>MRST</subject>
-        <courseNumber>836</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1141</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Junior standing or permission.</div>
-    </prerequisite>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Pre-1800 content.</div>
-    </notes>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Image of the madwoman throughout European and American history. Emphasis on how women on the margins have been labelled in different periods as saintly, as witches, or as insane.</div>
     </description>
     <campuses>
       <campus>UNL</campus>

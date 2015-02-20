@@ -39,6 +39,44 @@
     </credits>
   </course>
   <course>
+    <title>The First Year Experience</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>JOMC</subject>
+        <courseNumber>11</courseNumber>
+        <courseGroup>Special Topics</courseGroup>
+      </courseCode>
+    </courseCodes>
+    <gradingType>pass/no pass only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">none</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Assists new students in making a successful transition to the University of Nebraska, specifically the College of Journalism and Mass Communications, both academically and personally.  Fosters a sense of belonging, promotes engagement in the curricular and co-curricular life of the University, encourages self responsibility, and articulates the benefits of a higher education and the expectations and values of the University. Helps students develop and apply essential study skills, communication skills and explore interests, abilities and values.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>1</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">0</credit>
+    </credits>
+  </course>
+  <course>
     <title>Introduction to Sports Communication</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -446,48 +484,6 @@
     </credits>
   </course>
   <course>
-    <title>Sports Media Relations</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>JOMC</subject>
-        <courseNumber>464</courseNumber>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>JOMC</subject>
-        <courseNumber>864</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>letter grade only</gradingType>
-    <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1125</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Junior standing.</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Issues in sports media relations and integrated marketing communications. Background of the unpredictable nature of the sports industry and the relationships with its various publics and the media.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>lec</type>
-        <hours>3</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
     <title>Mass Media History</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -584,7 +580,7 @@
     </courseCodes>
     <gradingType>letter grade only</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1128</effectiveSemester>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Senior standing; major in ADPR, BRDC or JOUR.</div>
     </prerequisite>

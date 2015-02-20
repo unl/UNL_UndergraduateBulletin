@@ -37,10 +37,14 @@
         <subject>EDPS</subject>
         <courseNumber>121</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>CYAF</subject>
+        <courseNumber>121</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1148</effectiveSemester>
+    <effectiveSemester>1151</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">First semester international freshman or transfer student.</div>
     </prerequisite>
@@ -2367,8 +2371,8 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">or coreq: EDPS 859, 870, and permission</div>
     </prerequisite>
@@ -2381,10 +2385,14 @@
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>4</hours>
+      </activity>
+    </activities>
     <credits>
-      <credit type="Lower Range Limit">1</credit>
-      <credit type="Upper Range Limit">4</credit>
+      <credit type="Single Value">4</credit>
     </credits>
   </course>
   <course>
@@ -2602,7 +2610,7 @@
     </credits>
   </course>
   <course>
-    <title>Problem Solving and Concept Learning in Humans</title>
+    <title>Advanced Cognitive Psychology in Education</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>EDPS</subject>
@@ -2610,13 +2618,13 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">EDPS 850 or 851 and 854</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Critical examination of the non-Piagetean research literature and theory which examines higher mental processes in humans through the lifespan.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Critical study of the non-Piagetean research literature and theory focusing on higher mental processes in humans through the lifespan. Key course topics include current memory models, encoding and retrieval processes, cognitive load theory, problem solving and critical thinking as well as theories of transfer and expertise development. The effects of self-regulatory processes, social contexts, and beliefs on cognition and learning also are important course emphases.</div>
     </description>
     <campuses>
       <campus></campus>
@@ -2624,7 +2632,16 @@
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
-    <activities/>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
@@ -3513,7 +3530,7 @@
     </credits>
   </course>
   <course>
-    <title>Psychology of Reading</title>
+    <title>Psychology of Reading and Writing</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>EDPS</subject>
@@ -3525,13 +3542,16 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">TEAC *811 or 841 or SPED 886</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">TEAC *811 or 841 or SPED 886 or EDPS 854</div>
     </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">This course combines two earlier courses, Psychology of Reading, EDPS 989 (cross listed with TEAC 989) and Seminar in Educational Psychology (Psychology of Writing, EDPS, 991)</div>
+    </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Relationship of psychological processes of attention, perception, memory and problem solving to reading and reading comprehension. Theories and models of reading, especially of the comprehensive process, applied to all levels of reading from beginning reading through mature reading.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Study of the research literature on cognitive and motivational processes involved in reading and writing. Readings and classroom discussion will focus on theories and models of reading and writing. Specific topics include the roles of component processes of literacy such as attention, perception, memory, and problem solving, as well as studies of self-regulatory and social influences on literacy development and performance. Literacy research and models are examined at all levels of reading and writing, from early acquisition through high-level reading and writing expertise, as well as with respect to changes in literacy activities tied to new technologies.</div>
     </description>
     <campuses>
       <campus></campus>
@@ -3539,7 +3559,16 @@
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
-    <activities/>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>

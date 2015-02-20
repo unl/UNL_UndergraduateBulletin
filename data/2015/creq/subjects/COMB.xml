@@ -101,6 +101,40 @@
     <activities/>
   </course>
   <course>
+    <title>Krav Maga I</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>COMB</subject>
+        <courseNumber>104</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>pass/no pass only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Overview of Krav Maga which is a system of self-defense and hand-to-hand combat. Method of no-frills self-protection that creates a spirit of determination and decisive aggression, should danger arise.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">1</credit>
+      <credit type="Lower Range Limit">0</credit>
+    </credits>
+  </course>
+  <course>
     <title>Judo</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -176,6 +210,43 @@
     <activities/>
   </course>
   <course>
+    <title>Krav Maga II</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>COMB</subject>
+        <courseNumber>114</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>pass/no pass only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">COMB 104 or instructor permission.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Pprogression to an intermediate level of skills in Krav Maga. Improve and advance the basic techniques learned in the Level I course. Self-defense awareness, conflict resolution, and personal protection from physical attacks.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">1</credit>
+      <credit type="Lower Range Limit">0</credit>
+    </credits>
+  </course>
+  <course>
     <title>Karate III</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -199,6 +270,42 @@
       <term>Summer</term>
     </termsOffered>
     <activities/>
+  </course>
+  <course>
+    <title>Krav Maga III</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>COMB</subject>
+        <courseNumber>124</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>pass/no pass only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">COMB 114 or instructor permission.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Progression to the advanced level of skills in Krav Maga. Improve the intermediate skills learned in the Level II class to an advanced level. Ability to identify when confrontations become escalated and techniques to defuse the situations and combative techniques and mental preparedness to improve the ability to successfully survive a potential attack.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">1</credit>
+    </credits>
   </course>
   <course>
     <title>Karate IV</title>

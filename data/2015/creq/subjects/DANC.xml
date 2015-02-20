@@ -82,10 +82,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1101</effectiveSemester>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">DANC 112 will count toward a dance minor and may count toward the dance major.</div>
-    </notes>
+    <effectiveSemester>1158</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Earliest stages of studio training in Modern Dance. Beginning modern dance technique with emphasis on mastering the fundamentals of movement including style, phrasing, musicality, personal interpretation, and improvisation<strong>.</strong></div>
     </description>
@@ -98,17 +95,52 @@
     <termsOffered>
       <term>Fall</term>
       <term>Spring</term>
-      <term>Summer</term>
     </termsOffered>
     <activities>
       <activity>
         <type>stu</type>
-        <hours>4</hours>
+        <hours>3</hours>
       </activity>
     </activities>
     <credits>
       <credit type="Single Value">2</credit>
-      <credit type="Per Career Limit">8</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Modern Dance II</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>DANC</subject>
+        <courseNumber>113</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">DANC 112 or equivalent.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Second phase of the earliest stages of studio training in Modern Dance. Beginning modern dance technique with continued emphasis on mastering the fundamentals of movement including style, phrasing, musicality, personal interpretation, and improvisation</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>stu</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">2</credit>
     </credits>
   </course>
   <course>
@@ -218,7 +250,7 @@
     </credits>
   </course>
   <course>
-    <title>Modern Dance II</title>
+    <title>Modern Dance III</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>DANC</subject>
@@ -226,14 +258,11 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Dance major or minor.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">DANC 113 or equivalent</div>
     </prerequisite>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Continuation of DANC 211.</div>
-    </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">The vocabulary and concepts of the modern dance idiom. Improvisational techniques, strength, and facility of movement.</div>
     </description>
@@ -246,17 +275,52 @@
     <termsOffered>
       <term>Fall</term>
       <term>Spring</term>
-      <term>Summer</term>
     </termsOffered>
     <activities>
       <activity>
         <type>stu</type>
-        <hours>3</hours>
+        <hours>4</hours>
       </activity>
     </activities>
     <credits>
       <credit type="Single Value">2</credit>
-      <credit type="Per Career Limit">16</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Modern Dance IV</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>DANC</subject>
+        <courseNumber>213</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">DANC 212 or equivalent.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">To expand the vocabulary and concepts of the Modern Dance idiom. Low intermediate modern dance technique with continued emphasis on mastering the fundamentals of movement including building technical and physical strength, musicality, facility of movement, and improvisation</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>stu</type>
+        <hours>4</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">2</credit>
     </credits>
   </course>
   <course>
@@ -387,6 +451,43 @@
     </credits>
   </course>
   <course>
+    <title>Dance Techniques</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>DANC</subject>
+        <courseNumber>301</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1148</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Modern dance technique with emphasis on mastering the fundamentals of movement including style, phrasing, musicality, personal interpretation, and improvisation.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>stu</type>
+        <hours>2</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">3</credit>
+      <credit type="Per Semester Limit">3</credit>
+      <credit type="Per Career Limit">16</credit>
+    </credits>
+  </course>
+  <course>
     <title>Ballet III</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -429,7 +530,7 @@
     </credits>
   </course>
   <course>
-    <title>Modern Dance III</title>
+    <title>Modern Dance V</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>DANC</subject>
@@ -437,14 +538,11 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">DANC 212.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">DANC 213 or equivalent.</div>
     </prerequisite>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Continuation of DANC 212.</div>
-    </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Modern dance techniques. Improvisational techniques, strength, facility of movement, and the development of artistry.</div>
     </description>
@@ -457,17 +555,52 @@
     <termsOffered>
       <term>Fall</term>
       <term>Spring</term>
-      <term>Summer</term>
     </termsOffered>
     <activities>
       <activity>
         <type>stu</type>
-        <hours>3</hours>
+        <hours>4</hours>
       </activity>
     </activities>
     <credits>
       <credit type="Single Value">2</credit>
-      <credit type="Per Career Limit">16</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Modern Dance VI</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>DANC</subject>
+        <courseNumber>313</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">DANC 312 or equivalent.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Challenges the student to increase their vocabulary and technical ability at the (high) intermediate level of modern dance technique, with an emphasis on improvisation.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>stu</type>
+        <hours>4</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">2</credit>
     </credits>
   </course>
   <course>
@@ -625,7 +758,7 @@
     </credits>
   </course>
   <course>
-    <title>Modern Dance IV</title>
+    <title>Modern Dance VII</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>DANC</subject>
@@ -633,10 +766,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Dance major or minor; DANC 312.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">DANC 313 or equivalent.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Application of advanced modern dance techniques to styles of performance. Repertory work and extended preparation of complex movement phrases.</div>
@@ -650,17 +783,52 @@
     <termsOffered>
       <term>Fall</term>
       <term>Spring</term>
-      <term>Summer</term>
     </termsOffered>
     <activities>
       <activity>
         <type>stu</type>
-        <hours>3</hours>
+        <hours>4</hours>
       </activity>
     </activities>
     <credits>
       <credit type="Single Value">2</credit>
-      <credit type="Per Career Limit">16</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Modern Dance VIII</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>DANC</subject>
+        <courseNumber>413</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">DANC 412 or equivalent.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Challenges the student to find and apply his or her own physical/artistic style in the performance of modern dance technique with the emphasis on activities to prepare the student for post university dance life.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>stu</type>
+        <hours>4</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">2</credit>
     </credits>
   </course>
   <course>
@@ -673,7 +841,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1148</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Senior standing; Dance major; two 300-level DANC technique courses.</div>
     </prerequisite>
@@ -701,6 +869,9 @@
       <credit type="Single Value">3</credit>
       <credit type="Per Career Limit">3</credit>
     </credits>
+    <aceOutcomes>
+      <slo>10</slo>
+    </aceOutcomes>
   </course>
   <course>
     <title>Seminar in Dance</title>

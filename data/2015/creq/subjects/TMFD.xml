@@ -8,9 +8,9 @@
         <courseNumber>101</courseNumber>
       </courseCode>
     </courseCodes>
-    <gradingType>pass/no pass only</gradingType>
+    <gradingType>letter grade only</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1138</effectiveSemester>
+    <effectiveSemester>1158</effectiveSemester>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">Required of all freshmen and transfer students in the Department of Textiles, Merchandising and Fashion Design programs.</div>
     </notes>
@@ -1229,7 +1229,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1125</effectiveSemester>
+    <effectiveSemester>1151</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Junior standing, TMFD 206, AHIS 101 or 102 or 3 hrs HIST 100 or 101.</div>
     </prerequisite>
@@ -1256,9 +1256,6 @@
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
-    <aceOutcomes>
-      <slo>5</slo>
-    </aceOutcomes>
   </course>
   <course>
     <title>Socio-Psychological Aspects of Clothing</title>
@@ -1326,7 +1323,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1138</effectiveSemester>
+    <effectiveSemester>1151</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Senior Standing; For Merchandising option and for the Textile and Apparel Design option: TMFD 312,  MRKT 300 and 6 hrs from any of the the following:  ACCT 200, ECON 200, BLAW 300, FINA 300, MNGT 300. For Textile Science option and for the Textile, Merchandising and Fashion Design Communications option: TMFD 312 and ECON 200.</div>
     </prerequisite>
@@ -1493,10 +1490,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1125</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">TMFD 123 and 225.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">TMFD 144, TMFD 145, and TMFD 146.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Digital and other media for printed textiles. Design development, professional practices, and expressive and communicative concepts.</div>
@@ -1579,10 +1576,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1125</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">TMFD 216; TMFD 225 or 325; TMFD 403 or 416; parallel TMFD 472.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">TMFD 216 and TMFD 403.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Advanced work in the creation of apparel as visual communication. Design conceptualization with experimentation in media, structure, technique, and presentation.</div>
@@ -1594,11 +1591,12 @@
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
     <termsOffered>
-      <term>Spring</term>
+      <term>Fall</term>
     </termsOffered>
     <activities>
       <activity>
         <type>stu</type>
+        <hours>6</hours>
       </activity>
     </activities>
     <credits>
@@ -1618,13 +1616,13 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1125</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">TMFD 216 and 225; parallel TMFD 471. TMFD 325 and 403 recommended.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">TMFD 216 and TMFD 403.</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">TMFD 472 requires a public presentation of work.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Requires a public presentation of work.</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Advanced work in creation of textiles. Design conceptualization, development and experimentation in media, structure, application, and product development.</div>
@@ -1641,6 +1639,7 @@
     <activities>
       <activity>
         <type>stu</type>
+        <hours>6</hours>
       </activity>
     </activities>
     <credits>
@@ -2043,11 +2042,8 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1125</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">TMFD 225 and 325</div>
-    </prerequisite>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Digital and other media for textiles. Design development, professional practice, and expressive communicative concepts.</div>
     </description>

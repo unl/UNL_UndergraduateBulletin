@@ -45,11 +45,14 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1151</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">MUSC 131; Parallel MUSC 166 and 166A.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">MUSC 131.</div>
     </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Should be taken by music majors together with core classes MUSC 166 and MUSC 166A.</div>
+    </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Continued development of functional piano skills such as sight-reading, harmonization, and improvisation.</div>
     </description>
@@ -60,7 +63,6 @@
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
     <termsOffered>
-      <term>Fall</term>
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
@@ -76,16 +78,14 @@
       <courseCode type="home listing">
         <subject>MUSC</subject>
         <courseNumber>160</courseNumber>
+        <courseGroup>Core Curriculum (MUSC)</courseGroup>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Music major or minor; parallel MUSC 131, 165 or 165H, 165A, and LIBR 110.</div>
-    </prerequisite>
+    <effectiveSemester>1158</effectiveSemester>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Open to music majors and minors only.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">This class is intended for music majors.  Should be taken as part of the fall first year music core, alongside MUSC 131, MUSC 165 or 165H, and MUSC 165A.</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Introduction to the degree programs in music and resources for the study of music at the university level. Historical, social, and stylistic views of music in western and non-western cultures. Significance of music in cultural history, and the understanding of music as aesthetic expression. How to listen to and appreciate the human and cultural values of music.</div>
@@ -203,10 +203,13 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1151</effectiveSemester>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Course should be taken together with core class MUSC 165.</div>
+    </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Intensive drill in skills (ear training, sight singing, and keyboard) to accompany MUSC 165.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Intensive drill in skills (ear training, sight singing, and keyboard).</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -217,7 +220,6 @@
     <termsOffered>
       <term>Fall</term>
       <term>Spring</term>
-      <term>Summer</term>
     </termsOffered>
     <activities/>
     <credits>
@@ -319,12 +321,15 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1138</effectiveSemester>
+    <effectiveSemester>1151</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">MUSC 165A. Corequisite MUSC 166.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">MUSC 165 and MUSC 165A.</div>
     </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Music majors should take this music core class together with core class MUSC 166.</div>
+    </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Intensive drill in skills (ear training, sight singing, and keyboard) to accompany MUSC 166.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Intensive drill in skills (ear training, sight singing, and keyboard).</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -333,7 +338,6 @@
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
     <termsOffered>
-      <term>Fall</term>
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
@@ -507,6 +511,43 @@
     </credits>
   </course>
   <course>
+    <title>Introduction to Keyboard Studies</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MUSC</subject>
+        <courseNumber>250</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1151</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">MUAP 102 or MUAP 103.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to modern and historical keyboard instruments and initial development of skills on each. Emphasis on varied styles of keyboard performance including solo and collaborative, historical, modern, and vernacular. Overview of professional musicianship on keyboard instruments.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">2</credit>
+    </credits>
+  </course>
+  <course>
     <title>German Diction and Literature</title>
     <courseCodes>
       <courseCode type="crosslisting">
@@ -598,12 +639,15 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1138</effectiveSemester>
+    <effectiveSemester>1151</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">MUSC 166A. Corequisite MUSC 265.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">MUSC 166 and MUSC 166A.</div>
     </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Music majors should take this course together with core class MUSC 265.</div>
+    </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Intensive drill in skills (ear training, sight singing, and keyboard) to accompany MUSC 265.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Intensive drill in skills (ear training, sight singing, and keyboard).</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -614,7 +658,6 @@
     <termsOffered>
       <term>Fall</term>
       <term>Spring</term>
-      <term>Summer</term>
     </termsOffered>
     <activities>
       <activity>
@@ -678,12 +721,15 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1138</effectiveSemester>
+    <effectiveSemester>1151</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">MUSC 265A. Corequisite MUSC 266.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">MUSC 265 and MUSC 265A.</div>
     </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Music majors should take this course together with core class MUSC 266.</div>
+    </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Intensive drill in skills (ear training, sight singing, and keyboard) to accompany MUSC 266.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Intensive drill in skills (ear training, sight singing, and keyboard).</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -692,7 +738,6 @@
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
     <termsOffered>
-      <term>Fall</term>
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
@@ -1296,7 +1341,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1108</effectiveSemester>
+    <effectiveSemester>1158</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Investigation of topics in music, and the selection of one topic, for the purpose of preparing a proposal for a research document or undergraduate thesis.<br/> A. BA in Music on the Research Track (1 cr) Lec 1.<br/> B. BM in Music History (1 cr) Lec 1.<br/>E. BM in Music Theory (1 cr) Lec 1.</div>
     </description>
@@ -3126,7 +3171,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1121</effectiveSemester>
+    <effectiveSemester>1158</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Culminating experience in music technology. Proposal and production of project blending music and technology.</div>
     </description>
