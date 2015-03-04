@@ -1,10 +1,13 @@
 function accomodateHash() {
-    hashLocation = $(window.location.hash).offset();
-    $(window).scrollTop(hashLocation.top - 60);
+    var hashLocation = $(window.location.hash).offset();
+    // [HACK] To get all browsers to jump to the proper load location
+    setTimeout(function() {
+    	$(window).scrollTop(hashLocation.top - 60);
+    }, 100);
 }
 
 WDN.initializePlugin('jqueryui', [function () {
-	var $ = require('jquery');
+	$ = require('jquery');
     var testCount = 0;
     
     // Append Versioning to the top
