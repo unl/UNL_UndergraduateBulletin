@@ -225,7 +225,6 @@ WDN.initializePlugin('jqueryui', [function () {
     });
 
     WDN.loadJS(UNL_UGB_BASEURL + 'templates/html/scripts/jQuery.toc.js', function() {
-    	var $ = WDN.jQuery;
 	    $("#toc").tableOfContents(
 	            $("#long_content"),      // Scoped to div#long_content
 	      {
@@ -234,7 +233,11 @@ WDN.initializePlugin('jqueryui', [function () {
 	        topLinks:   false, // Add "Top" Links to Each Header
 	        callback : function() {
 	                if (window.location.hash) {
-	                    accomodateHash();
+	                    var hashLocation = $(window.location.hash).offset();
+					    // [HACK] To get all browsers to jump to the proper load location
+					    setTimeout(function() {
+					    	$(window).scrollTop(hashLocation.top - 60);
+					    }, 100);
 	                }
 	            }
 	      }
