@@ -116,7 +116,7 @@ class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_
     function postRun($data)
     {
 
-        if (isset(self::$replacement_data['doctitle'])
+        if (!empty(self::$replacement_data['doctitle'])
             && strstr($data, '<title>')) {
             $data = preg_replace('/<title>.*<\/title>/',
                                 '<title>'.self::$replacement_data['doctitle'].'</title>',
