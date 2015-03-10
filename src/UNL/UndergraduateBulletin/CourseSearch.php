@@ -66,16 +66,29 @@ EOD
             && file_exists(UNL_UndergraduateBulletin_Controller::getEdition()->getCourseDataDir().'/subjects/'.strtoupper($matches[1]).'.xml')) {
             // There is a subject code prefix, only search the subject code
             $this->options['q'] = strtoupper($matches[1]);
-            $this->results = $search->bySubject(strtoupper($matches[1]),
-                                        $this->options['offset'],
-                                        $this->options['limit']);
+            $this->results = new UNL_UndergraduateBulletin_SubjectAwareCourseIterator(
+                $search->bySubject(
+                    strtoupper($matches[1]),
+                    $this->options['offset'],
+                    $this->options['limit']
+                ), 
+                strtoupper($matches[1])
+            );
+            
             return;
         }
 
         // Check to see if the query matches the full description of a subject code
         if ($area = UNL_UndergraduateBulletin_SubjectArea::getByTitle($this->options['q'])) {
             $this->options['q'] = $area->subject.' : '.$area->title;
-            $this->results = $search->bySubject($area->subject, $this->options['offset'], $this->options['limit']);
+            $this->results = new UNL_UndergraduateBulletin_SubjectAwareCourseIterator(
+                $search->bySubject(
+                    $area->subject,
+                    $this->options['offset'],
+                    $this->options['limit']
+                ),
+                $area->subject
+            );
             return;
         }
 
