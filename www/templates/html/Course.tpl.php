@@ -1,16 +1,11 @@
 <?php
+    /* @var $context UNL_Services_CourseApproval_Course */
     $url = $controller->getURL();
-    /* example code for isArchvied and getNewestURL();
-    if(UNL_UndergraduateBulletin_Controller::isArchived()){
-        echo "This version may be out of date.  ".UNL_UndergraduateBulletin_Controller::getNewestURL();
-    }
-    */
-    
     $class = 'course';
-    if (isset($parent->context->subjectArea)) {
-        $subject = $parent->context->subjectArea;
-    } elseif (isset($parent->context->subject)) {
-        $subject = $parent->context->subject;
+    
+    if (isset($context->subject)) {
+        // If the subject has been injected by the SubjectAwareCourseIterator or Listing
+        $subject = $context->subject;
     } else {
         $subject = $context->getHomeListing()->subjectArea;
     }
@@ -68,130 +63,99 @@
             $class .= ' ace_'.$outcome;
         }
     }
-
-    if (isset($parent->parent->context->options)
-        && $parent->parent->context->options['view'] == 'course') {
-        UNL_UndergraduateBulletin_Controller::setReplacementData('head', '
-        <link rel="alternate" type="text/xml" href="'.$permalink.'?format=xml" />
-        <link rel="alternate" type="text/javascript" href="'.$permalink.'?format=json" />
-        <link rel="alternate" type="text/html" href="'.$permalink.'?format=partial" />');
-        UNL_UndergraduateBulletin_Controller::setReplacementData('doctitle', $subject.' '.$listings.': '.$context->title.' | Undergraduate Bulletin | University of Nebraska-Lincoln');
-        UNL_UndergraduateBulletin_Controller::setReplacementData('breadcrumbs', '
-    <ul>
-        <li><a href="http://www.unl.edu/">UNL</a></li>
-        <li><a href="'.$url.'">Undergraduate Bulletin</a></li>
-        <li>'.$subject.' '.$listings.': '.$context->title.'</li>
-    </ul>
-    ');
-        echo '<dl>';
-    }
+    ?>
     
-    echo "
-        <dt class='$class'>
-            <div class='wdn-inner-wrapper'>
-                <div class='wdn-grid-set'>
-                    <div class='wdn-col-one-fourth bp1-wdn-col-one-fifth bp2-wdn-col-one-sixth'>
-                        <div class='courseID'>
-                            <span class='subjectCode'>".$subject."</span>
-                            <span class='number $number_class'>$listings</span>
-                        </div>
-                    </div>
-                    <div class='wdn-col-three-fourths bp1-wdn-col-four-fifths bp2-wdn-col-five-sixths'>    
-                        <a class='coursetitle' href='" . $permalink . "' title='A permalink to " . $context->title . "'>" . $context->title . "</a>";
-                        if (!empty($crosslistings)) {
-                            echo  '<span class="crosslistings">Crosslisted as '.$crosslistings.'</span>';
-                        }
-        echo  "    </div>
+    <dt class="<?php echo $class ?>">
+        <div class="wdn-grid-set">
+            <div class="wdn-col-one-fourth bp1-wdn-col-one-fifth bp2-wdn-col-one-sixth">
+                <div class="courseID">
+                    <span class="subjectCode"><?php echo $subject ?></span>
+                    <span class="number <?php echo $number_class ?>"><?php echo $listings ?></span>
                 </div>
             </div>
-        </dt>
-        <dd class='$class'>
-            <div class='wdn-inner-wrapper'>
-                <div class='wdn-grid-set'>
-                    <div class='wdn-col-full bp1-wdn-col-four-fifths bp2-wdn-col-five-sixths wdn-pull-right'>";
-
-                    if (!empty($context->prerequisite)) {
-                        echo  "<div class='prereqs'>Prereqs: ".UNL_UndergraduateBulletin_EPUB_Utilities::addCourseLinks($context->getRaw('prerequisite'), $url)."</div>\n";
-                    }
-                    if (!empty($context->notes)) {
-                        echo  "<div class='notes'>".UNL_UndergraduateBulletin_EPUB_Utilities::addCourseLinks($context->getRaw('notes'), $url)."</div>\n";
-                    }
-                    echo '<div class="wdn-grid-set">
-                            <div class="bp2-wdn-col-two-thirds info-1">';
-                    if (!empty($context->description)) {
-                        echo  "<div class='description'>".UNL_UndergraduateBulletin_EPUB_Utilities::addCourseLinks($context->getRaw('description'), $url)."</div>\n";
-                    } else {
-                        echo "<div class='description'>This course has no description.</div>";
-                    }
+            <div class="wdn-col-three-fourths bp1-wdn-col-four-fifths bp2-wdn-col-five-sixths">    
+                <a class="coursetitle" href="<?php echo $permalink ?>"><?php echo $context->title ?></a>
+                <?php if (!empty($crosslistings)): ?>
+                    <span class="crosslistings">Crosslisted as <?php echo $crosslistings ?></span>
+                <?php endif; ?>
+            </div>
+        </div>
+    </dt>
+    <dd class="<?php echo $class ?>">
+        <div class="wdn-grid-set">
+            <div class="wdn-col-full bp1-wdn-col-four-fifths bp2-wdn-col-five-sixths wdn-pull-right">
+            <?php if (!empty($context->prerequisite)): ?>
+                <div class='prereqs'>Prereqs: <?php echo UNL_UndergraduateBulletin_EPUB_Utilities::addCourseLinks($context->getRaw('prerequisite'), $url) ?></div>
+            <?php endif; ?>
+            
+            <?php if (!empty($context->notes)): ?>
+                <div class='notes'><?php echo UNL_UndergraduateBulletin_EPUB_Utilities::addCourseLinks($context->getRaw('notes'), $url) ?></div>
+            <?php endif; ?>
+            
+                <div class="wdn-grid-set">
+                    <div class="bp2-wdn-col-two-thirds info-1">
+                    <?php if (!empty($context->description)): ?>
+                        <div class="description"><?php echo UNL_UndergraduateBulletin_EPUB_Utilities::addCourseLinks($context->getRaw('description'), $url) ?></div>
+                    <?php else: ?>
+                        <div class="description">This course has no description.</div>
+                    <?php endif; ?>
+                    
+                    <?php 
                     $subsequent_courses = $context->getSubsequentCourses($course_search_driver->getRawObject());
                     $sub_course_array = array();
                     foreach ($subsequent_courses as $subsequent_course) {
                         $sub_course_array[] = $subsequent_course->getHomeListing()->subjectArea.' '.$subsequent_course->getHomeListing()->courseNumber;
                     }
-                    if (count($sub_course_array)) {
-                        echo  "<div class='subsequent'>This course is a prerequisite for: ";
-                        echo UNL_UndergraduateBulletin_EPUB_Utilities::addCourseLinks(implode(', ', $sub_course_array), $url);
-                        echo "</div>\n";
-                    }
-                echo "</div>"; // Close the text content
-                echo '<div class="bp2-wdn-col-one-third info-2">';
-                echo  '<table class="zentable cool details">';
-                echo $savvy->render($context, 'Course/Credits.tpl.php');
-                if (!empty($format)) {
-                    echo  '<tr class="format">
-                            <td class="label">Course Format:</td>
-                            <td class="value">'.$format.'</td>
-                           </tr>';
-                }
-                if (count($context->campuses)
-                    && (count($context->campuses) > 1
-                    || $context->campuses[0] != 'UNL')) {
-                    $campuses = '';
-                    foreach ($context->campuses as $campus) {
-                        $campuses .= $campus . ',';
-                    }
-                    $campuses = trim($campuses, ',');
-                    echo  '<tr class="campus">
-                            <td class="label">Campus:</td>
-                            <td class="value">'.$campus.'</td>
-                           </tr>';
-                }
-                $methods = '';
-                foreach ($context->deliveryMethods as $method) {
-                    $methods .= $method . ', ';
-                }
-                $methods = trim($methods, ', ');
-                echo  '<tr class="deliveryMethods">
-                        <td class="label">Course Delivery:</td>
-                        <td class="value">'.$methods.'</td>
-                       </tr>';
-                $ace = '';
-                if (!empty($context->aceOutcomes)) {
-                    $ace = '';
-                    foreach($context->aceOutcomes as $outcome) {
-                        $ace .= '<abbr title="'.UNL_UndergraduateBulletin_ACE::$descriptions[$outcome].'">'.$outcome.'</abbr>, ';
-                    }
-                    $ace = trim($ace, ', ');
-                    echo  '<tr class="aceOutcomes">
-                            <td class="label">ACE Outcomes:</td>
-                            <td class="value">'.$ace.'</td>
-                           </tr>';
-                }
-                if (!empty($groups)) {
-                    echo  '<tr class="groups">
-                            <td class="label">Groups:</td>
-                            <td class="value">'.$groups.'</td>
-                           </tr>';
-                }
-                echo  '    </table>
+                    ?>
+                    <?php if (count($sub_course_array)): ?>
+                        <div class="subsequent">This course is a prerequisite for: 
+                            <?php echo UNL_UndergraduateBulletin_EPUB_Utilities::addCourseLinks(implode(', ', $sub_course_array), $url) ?>
                         </div>
-                        </div>
+                    <?php endif; ?>
+                    </div>
+                    <div class="bp2-wdn-col-one-third info-2">
+                        <table class="zentable cool details">
+                        <?php echo $savvy->render($context, 'Course/Credits.tpl.php'); ?>
+                        <?php if (!empty($format)): ?>
+                            <tr class="format">
+                                <td class="label">Course Format:</td>
+                                <td class="value"><?php echo $format ?></td>
+                            </tr>
+                        <?php endif; ?>
+                        <?php 
+                        $methods = '';
+                        foreach ($context->deliveryMethods as $method) {
+                            $methods .= $method . ', ';
+                        }
+                        $methods = trim($methods, ', ');
+                        ?>
+                            <tr class="deliveryMethods">
+                                <td class="label">Course Delivery:</td>
+                                <td class="value"><?php echo $methods ?></td>
+                           </tr>
+                       <?php if (!empty($context->aceOutcomes)): ?>
+                           <?php 
+                           $ace = array();
+                           foreach($context->aceOutcomes as $outcome) {
+                               $ace[] = '<abbr title="'.UNL_UndergraduateBulletin_ACE::$descriptions[$outcome].'">'.$outcome.'</abbr>';
+                           }
+                           ?>
+                           <tr class="aceOutcomes">
+                                <td class="label">ACE Outcomes:</td>
+                                <td class="value"><?php echo implode(', ', $ace) ?></td>
+                           </tr>
+                       <?php endif; ?>
+                
+                       <?php if (!empty($groups)): ?>
+                           <tr class="groups">
+                               <td class="label">Groups:</td>
+                               <td class="value"><?php echo $groups ?></td>
+                           </tr>
+                       <?php endif; ?>
+                       
+                       </table>
                     </div>
                 </div>
             </div>
-        </dd>';
-
-    if (isset($parent->parent->context->options)
-        && $parent->parent->context->options['view'] == 'course') {
-        echo '</dl>';
-    }
+        </div>
+    </dd>
