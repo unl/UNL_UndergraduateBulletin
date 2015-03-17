@@ -39,7 +39,7 @@ class UNL_UndergraduateBulletin_MajorList extends ArrayIterator  implements
     function preRun($fromCache, Savvy $savvy)
     {
         $controller = $this->getController();
-        $controller::setReplacementData('doctitle', '');
+        $controller::setReplacementData('doctitle', 'Majors/Areas of Study | Undergraduate Bulletin | University of Nebraska-Lincoln');
         
         $pagetitle = '<h1>Majors/Areas of Study</h1>';
         $controller::setReplacementData('pagetitle', $pagetitle);

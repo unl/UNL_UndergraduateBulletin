@@ -176,58 +176,12 @@ dt .courseID {
 }
 .course { clear: both; }
 
-.revealed {background-color:#fffea8;}
-
-#subjectListing li, #majorListing li, #collegeListing li, .collegeListing li  {
-	list-style: none;
-	border-bottom: 1px solid #e1dfd7;
-	line-height: 1.333;
-	padding: 0.602em 0 0.602em 0.339em;
-}
-
-@media (min-width: 480px) {
-	.collegemajors .majorlisting {
-	    -webkit-column-count: 2;
-	    -moz-column-count: 2;
-	    -o-column-count: 2;
-	    -ms-column-count: 2;
-	    column-count: 2;
-		-webkit-column-break-inside: avoid;
-	    -moz-column-break-inside: avoid;
-	    -o-column-break-inside: avoid;
-	    -ms-column-break-inside: avoid;
-	    break-inside: avoid;
-	}
-}
-#majorListing {
+#collegeListing,
+#majorListing,
+#subjectListing {
 	margin: 0;
 	padding: 0;
-}
-#majorListing li a, #collegeListing li a {
-	border: none;
-}
-#majorListing li.minorAvailable a:after, #majorListing li.minorOnly a:after {
-	content:'Minor\0000a0Available';
-	padding-left: 0.75em;
-	font-family: 'Gotham SSm A', 'Gotham SSm B', Verdana, 'Verdana Ref', Geneva, Tahoma, 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', 'Bitstream Vera Sans', 'Liberation Sans', sans-serif;
-	font-weight: 400;
-	font-size: 0.75em;
-	color: #716F6B;
-}
-#collegeListing li, .collegeListing li {
 	list-style: none;
-}
-#subjectListing li span.subjectCode {
-	width: 3.75em;
-	display: inline-block;
-}
-#subjectListing li span.title {
-	border-left: 1px dotted #e1dfd7;
-	color: #565656;
-	padding-left: 0.75em;
-}
-#subjectListing li a {
-	border: none;
 }
 @media (min-width: 480px) {
 	#subjectListing, #collegeListing {
@@ -242,6 +196,41 @@ dt .courseID {
 	    -ms-column-break-inside: avoid;
 	    break-inside: avoid;
 	}
+}
+
+#subjectListing li,
+#majorListing li,
+#collegeListing li {
+	border-bottom: 1px solid #e1dfd7;
+	line-height: 1.333;
+	padding: 0.602em 0 0.602em 0.339em;
+}
+
+#majorListing li a, 
+#collegeListing li a,
+#subjectListing li a {
+	border: none;
+	display: block;
+}
+#majorListing .note {
+	padding-left: 0.75em;
+	font-family: 'Gotham SSm A', 'Gotham SSm B', Verdana, 'Verdana Ref', Geneva, Tahoma, 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', 'Bitstream Vera Sans', 'Liberation Sans', sans-serif;
+	font-weight: 400;
+	font-size: 0.75em;
+	color: #716F6B;
+}
+
+#subjectListing .subjectCode {
+	width: 4.25em;
+	float: left;
+}
+
+#subjectListing .title {
+	border-left: 1px dotted #e1dfd7;
+	color: #565656;
+	padding-left: 0.75em;
+	margin-left: 4.25em;
+	display: block;
 }
 .resultCount {
 	margin-top: 0;
