@@ -1,5 +1,5 @@
 <script type="text/javascript">
-WDN.loadCSS('/wdn/templates_3.0/css/content/pagination.css');
+WDN.loadCSS(WDN.getTemplateFilePath('css/modules/pagination.css'));
 </script>
 <ul class="wdn_pagination">
     <?php if ($context->offset != 0) :?>

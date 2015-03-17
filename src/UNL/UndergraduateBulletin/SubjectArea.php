@@ -9,7 +9,10 @@ class UNL_UndergraduateBulletin_SubjectArea extends UNL_Services_CourseApproval_
             $this->title = $options['title'];
         }
         parent::__construct($options['id']);
-        $this->courses = new UNL_Services_CourseApproval_Filter_ExcludeGraduateCourses($this->courses);
+        $this->courses = new UNL_UndergraduateBulletin_SubjectAwareCourseIterator(
+            new UNL_Services_CourseApproval_Filter_ExcludeGraduateCourses($this->courses),
+            $this->subject
+        );
     }
     
     /**
