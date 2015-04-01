@@ -5,8 +5,13 @@ if (file_exists(dirname(__FILE__).'/../config.inc.php')) {
 } else {
     include_once dirname(__FILE__).'/../config.sample.php';
 }
-iconv_set_encoding("internal_encoding", "UTF-8");
-iconv_set_encoding("output_encoding", "UTF-8");
+
+if (PHP_VERSION_ID < 50600) {
+    iconv_set_encoding('internal_encoding', 'UTF-8');
+    iconv_set_encoding("output_encoding", 'UTF-8');
+} else {
+    ini_set('default_charset', 'UTF-8');
+}
 
 $controller = new UNL_UndergraduateBulletin_Controller(UNL_UndergraduateBulletin_Router::getRoute($_SERVER['REQUEST_URI']) + $_GET);
 
