@@ -19,7 +19,13 @@ $courses = $search_service->byAny('',
                                   );
 $id = 0;
 
-foreach (UNL_UndergraduateBulletin_Editions::getAll() as $edition) {
+if (isset($_SERVER['argv'], $_SERVER['argv'][1])) {
+    $editions = array(UNL_UndergraduateBulletin_Edition::getByYear($_SERVER['argv'][1]));
+} else {
+    $editions = UNL_UndergraduateBulletin_Editions::getAll();
+}
+
+foreach ($editions as $edition) {
 
     @unlink($edition->getCourseDataDir().'/courses.sqlite');
 
