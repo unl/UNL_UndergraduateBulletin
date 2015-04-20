@@ -1,6 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <courses xmlns="http://courseapproval.unl.edu/courses" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://courseapproval.unl.edu/courses /schema/courses.xsd">
   <course>
+    <title>Introduction to Advertising and Public Relations</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ADPR</subject>
+        <courseNumber>151</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">ADPR 151 is open to non-College of Journalism and Mass Communications majors.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Fundamental concepts and processes underlying integrated marketing communications in a global market place. The discipline’s historical roots and current role of professionals.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+      <deliveryMethod>Web</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Special topics</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -82,21 +121,21 @@
     </credits>
   </course>
   <course>
-    <title>Introduction to Advertising and Public Relations</title>
+    <title>Strategic Writing for Advertising and Public Relations</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>ADPR</subject>
-        <courseNumber>251</courseNumber>
+        <courseNumber>221</courseNumber>
       </courseCode>
     </courseCodes>
     <gradingType>letter grade only</gradingType>
-    <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1125</effectiveSemester>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">ADPR 251 is open to non-College of Journalism and Mass Communications majors.</div>
-    </notes>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">ADPR 151 Introduction to Advertising and Public Relations</div>
+    </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Fundamental concepts and processes underlying integrated marketing communications in a global market place. The discipline’s historical roots and current role of professionals.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Advertising and public relations writing styles and techniques to develop effective, goal-oriented communications designed for diverse audiences, tactics and media. This course spans objective news-style writing to digital storytelling, persuasive ad copywriting and promotional direct marketing.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -118,6 +157,9 @@
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
+    <aceOutcomes>
+      <slo>1</slo>
+    </aceOutcomes>
   </course>
   <course>
     <title>Strategy Development for Advertising and Public Relations</title>
@@ -131,7 +173,7 @@
     <dfRemoval>true</dfRemoval>
     <effectiveSemester>1151</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ADPR 251.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">ADPR 151.</div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">Writing assignments require incorporation of research and strategy development, culminating in a creative brief.</div>
@@ -718,7 +760,7 @@
     </courseCodes>
     <gradingType>letter grade only</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1151</effectiveSemester>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Senior standing and nine hours selected from 300- and 400-level ADPR courses and/or ADPR 207 or JOUR 201 or JOUR 202; permission required.</div>
     </prerequisite>
@@ -1333,7 +1375,7 @@
     </courseCodes>
     <gradingType>letter grade only</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1151</effectiveSemester>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Senior standing and nine hours selected from JOUR 201, JOUR 202, ADPR 207, or from 300- or 400- level ADPR electives; permission required.</div>
     </prerequisite>

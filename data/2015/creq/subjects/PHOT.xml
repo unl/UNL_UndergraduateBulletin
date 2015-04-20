@@ -84,11 +84,11 @@
         <courseNumber>262</courseNumber>
       </courseCode>
     </courseCodes>
-    <gradingType>unrestricted</gradingType>
+    <gradingType>letter grade only</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1115</effectiveSemester>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">PHOT 261.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">PHOT261 or  PHOT161 with grade of B or better and declared art minor</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Introduction to traditional photographic processes using black and white film and the wet darkroom with an emphasis on technical and conceptual development.</div>
@@ -103,6 +103,42 @@
       <term>Fall</term>
       <term>Spring</term>
       <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>stu</type>
+        <hours>6</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Studio Photography</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>PHOT</subject>
+        <courseNumber>263</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">PHOT 261 or PHOT 161 with a grade of B or better and declared art minor or permission</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to studio lighting for photography, digital asset management, and post-production, with emphasis on technical and conceptual development.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
     </termsOffered>
     <activities>
       <activity>
@@ -162,12 +198,12 @@
     </courseCodes>
     <gradingType>letter grade only</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1115</effectiveSemester>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">PHOT 361.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">PHOT 361 or permission</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Continued intermediate work in photography with emphasis on contemporary expression in the medium, mastering technical control and development of personal work.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Continued work in photography with emphasis on exhibitions and contemporary issues and expression and the production of self-directed work.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -177,8 +213,6 @@
     </deliveryMethods>
     <termsOffered>
       <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
     </termsOffered>
     <activities>
       <activity>
@@ -191,7 +225,80 @@
     </credits>
   </course>
   <course>
-    <title>Advanced Photography I</title>
+    <title>Intermediate Photography III</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>PHOT</subject>
+        <courseNumber>363</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">PHOT 361 or permission</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Continued work in photography with emphasis on the photobook and production of self-directed work.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>stu</type>
+        <hours>6</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Time-Based Media</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>PHOT</subject>
+        <courseNumber>365</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">PHOT 261 or permission</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to time-based media and video applications for artists and designers.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>stu</type>
+        <hours>6</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Advanced Photography</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>PHOT</subject>
@@ -200,12 +307,12 @@
     </courseCodes>
     <gradingType>letter grade only</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1115</effectiveSemester>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">PHOT 362.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">PHOT 362 or PHOT 363 or permission</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Advanced work in photography with emphasis on individual problems and related readings in photographic history and theory.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Advanced work in photography with emphasis on professional practices and self-directed work for exhibition.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -216,45 +323,6 @@
     <termsOffered>
       <term>Fall</term>
       <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>stu</type>
-        <hours>6</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Advanced Photography II</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>PHOT</subject>
-        <courseNumber>462</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>letter grade only</gradingType>
-    <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1115</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">PHOT 461.</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Continued advanced work in photography with emphasis on individual problems and related readings in photographic history and theory.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
     </termsOffered>
     <activities>
       <activity>
@@ -319,14 +387,11 @@
       </courseCode>
     </courseCodes>
     <gradingType>letter grade only</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1115</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Permission.</div>
     </prerequisite>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Open to students who have completed PHOT 462.</div>
-    </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Problems in technique and expression in photography.</div>
     </description>

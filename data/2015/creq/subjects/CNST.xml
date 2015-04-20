@@ -73,6 +73,44 @@
     </credits>
   </course>
   <course>
+    <title>Introduction to Building Information Modeling</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CNST</subject>
+        <courseNumber>225</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">This course will expose students to the fundamentals of Building Information Modeling (BIM), and establish a solid foundation for further study in this area.  Students will learn about BIM concepts and Modeling Techniques.  BIM by its very nature is software driven.  This class will make use of Autodesk Revit and Navisworks.  Students will use Revit to create 3D models of construction projects.  The great number of benefits offered by BIM will be exposed to the students.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+      <campus>UNO</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lab</type>
+        <hours>3</hours>
+      </activity>
+      <activity>
+        <type>lec</type>
+        <hours>1</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Construction Methods and Equipment I</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -403,7 +441,7 @@
     </credits>
   </course>
   <course>
-    <title>Construction Safety Management</title>
+    <title>Construction Site Safety Management</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>CNST</subject>
@@ -411,16 +449,17 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1138</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">CNST 242.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Introductory construction site safety management including OSHA organization and inspection/enforcement procedures, injury and mortality rates and trends, accident causation theories, human costs of accidents and injuries, safety locus of control, construction site safety inspections and audits, competent person, worker’s compensation, job safety analysis, emergency planning and response, accident investigation and reporting, safety training programs, and 29CFR1926 OSHA Construction Safety and Health Regulations including OSHA record-keeping and reporting requirements.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">This course is designed to provide introductory construction site safety management in construction for project engineers, project managers, safety teams, and company safety officers.  <br/>Satisfactory completion of this course will partially qualify the individual to be designated by their employer as a construction site "competent person" by successfully completing the OSHA 10-hour Construction Safety Card as well as additional certifications in basic first aid, CPR and AED.<br/>This course will address basic accident and injury models, human accident costs, safety behavior, ethical issues in safety, worker's compensation and EMR, job safety analysis (JSA), project site safety audits, safety promotion and training, emergency planning and response, safety management programs and training, and OSHA record-keeping and reporting.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
+      <campus>UNO</campus>
     </campuses>
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
@@ -685,7 +724,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1138</effectiveSemester>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">CNST 379 and BLAW 300 or BLAW 372.</div>
     </prerequisite>
@@ -1124,7 +1163,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1138</effectiveSemester>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">CNST 379; CNST 420, CNST 476/CONE 476, CNST 480 and CNST 485/CONE 485 must be completed as prerequisites or taken parallel.</div>
     </prerequisite>

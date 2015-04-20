@@ -461,7 +461,7 @@
     </credits>
   </course>
   <course>
-    <title>Scripts in Performance</title>
+    <title>Scripts in Production</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>THEA</subject>
@@ -469,13 +469,13 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Sophomore standing.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Survey of dramatic literature and texts in performance designed to provide a broad understanding of the forms and functions of drama, historically, across diverse cultural traditions. Methods for analyzing thematic issues, as those related to gender, race, and ethnicity, as they appear in 12-15 plays.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Survey of dramatic literature and texts in production, promoting a broad understanding of performed scripts. Approximately 12-15 plays and/or screenplays studied.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -488,10 +488,18 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
+    <aceOutcomes>
+      <slo>2</slo>
+    </aceOutcomes>
   </course>
   <course>
     <title>Voice Production for the Stage</title>
@@ -2854,7 +2862,7 @@
     </courseCodes>
     <gradingType>letter grade only</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1128</effectiveSemester>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Senior standing and THEA 489/889.</div>
     </prerequisite>
@@ -3785,20 +3793,24 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1161</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Permission</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Permission.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Systematic approach for analyzing a play based on the four works of Stanislavski.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Analysis of selected plays from ancient Greeks to postmodernism.</div>
     </description>
     <campuses>
-      <campus></campus>
+      <campus>UNL</campus>
     </campuses>
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
     <activities/>
     <credits>
       <credit type="Single Value">3</credit>

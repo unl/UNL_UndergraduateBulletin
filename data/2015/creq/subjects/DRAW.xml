@@ -79,10 +79,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>letter grade only</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1148</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">DRAW 201.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">DRAW201 or  DRAW101 with grade of B or better and declared art minor</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Drawing the figure from observation with a focus on anatomy, accuracy and the use of the figure in art</div>
@@ -108,7 +108,7 @@
     </credits>
   </course>
   <course>
-    <title>Advanced Drawing I: Life Drawing</title>
+    <title>Advanced Life Drawing</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>DRAW</subject>
@@ -117,9 +117,9 @@
     </courseCodes>
     <gradingType>letter grade only</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1148</effectiveSemester>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">DRAW 202.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">DRAW 202 or permission</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Advanced work in drawing with emphasis on drawing the human figure.</div>
@@ -148,21 +148,21 @@
     </credits>
   </course>
   <course>
-    <title>Advanced Drawing II</title>
+    <title>Advanced Drawing I</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>DRAW</subject>
         <courseNumber>302</courseNumber>
       </courseCode>
     </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">DRAW 301, or permission.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">DRAW 202, or permission.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Continuation of DRAW 301.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Advanced work in drawing with emphasis on individual problems.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -173,24 +173,28 @@
     <termsOffered>
       <term>Fall</term>
       <term>Spring</term>
-      <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>stu</type>
+        <hours>6</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
   </course>
   <course>
-    <title>Advanced Drawing III</title>
+    <title>Advanced Drawing II</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>DRAW</subject>
         <courseNumber>401</courseNumber>
       </courseCode>
     </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">DRAW 302 or permission.</div>
     </prerequisite>
@@ -206,29 +210,33 @@
     <termsOffered>
       <term>Fall</term>
       <term>Spring</term>
-      <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>stu</type>
+        <hours>6</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
   </course>
   <course>
-    <title>Advanced Drawing IV</title>
+    <title>Advanced Drawing III</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>DRAW</subject>
         <courseNumber>402</courseNumber>
       </courseCode>
     </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">DRAW 401 or permission.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Continuation of DRAW 401.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Advanced work in drawing with emphasis on individual problems.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -239,9 +247,13 @@
     <termsOffered>
       <term>Fall</term>
       <term>Spring</term>
-      <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>stu</type>
+        <hours>6</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>

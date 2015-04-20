@@ -656,6 +656,46 @@
     </credits>
   </course>
   <course>
+    <title>Introduction to Grassland Ecology and Management</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>NRES</subject>
+        <courseNumber>245</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>AGRO</subject>
+        <courseNumber>245</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1161</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">AGRO 153</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Grassland ecology and management is relevant to students with education and career goals in managing natural resources in Nebraska and the Great Plains. About 50% of the land area in Nebraska is classified as grassland (or rangeland) and is the land type with the most opportunity for enhancing biodiversity and wildlife habitat. Applying ecological principles and social values to managing rangeland resources, students will develop a knowledge and appreciation for the various grassland management uses and techniques available to resource managers.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Current Topics in Plant Protection II</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -3531,12 +3571,10 @@
       <courseCode type="crosslisting">
         <subject>POLS</subject>
         <courseNumber>475</courseNumber>
-        <courseGroup>American Government and Public Policy</courseGroup>
       </courseCode>
       <courseCode type="crosslisting">
         <subject>POLS</subject>
         <courseNumber>875</courseNumber>
-        <courseGroup>American Government and Public Policy</courseGroup>
       </courseCode>
       <courseCode type="crosslisting">
         <subject>SOCI</subject>
@@ -3647,6 +3685,50 @@
     </activities>
     <credits>
       <credit type="Single Value">4</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Applied Soil Physics</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>AGRO</subject>
+        <courseNumber>479</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>AGRO</subject>
+        <courseNumber>879</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">AGRO/HORT/SOIL 153 or equivalent; MATH 104 or MATH 106 or equivalent.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Emphasis on applied soil physics. Discussion of theoretical principles followed by field and laboratory exercises and applications. Fluxes of water, solutes, air, and heat through the soil. Emphasis on water infiltration, water retention, other soil hydraulic properties. Components of soil water balance. Management of soil water.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lab</type>
+        <hours>1</hours>
+      </activity>
+      <activity>
+        <type>lec</type>
+        <hours>2</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
     </credits>
   </course>
   <course>

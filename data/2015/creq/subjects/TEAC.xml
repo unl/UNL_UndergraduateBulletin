@@ -920,7 +920,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1121</effectiveSemester>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Sophomore standing.</div>
     </prerequisite>
@@ -1794,6 +1794,51 @@
     <activities>
       <activity>
         <type>lec</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+    <aceOutcomes>
+      <slo>10</slo>
+    </aceOutcomes>
+  </course>
+  <course>
+    <title>Secondary Student Teaching Seminar</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>403</courseNumber>
+        <courseLetter>B</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Must be admitted approved to student teach (enroll in TEAC 497).</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Course numbers and call numbers can be obtained from the appropriate subject matter adviser in the College Student Services Center.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">The capstone course will consist of seminar sessions requiring broad knowledge of teaching by addressing salient issues that complement the pre-service teaching experience, Blackboard discussions, major writing assignments, and a scholarly presentation. Examine and reflect on the themes outlined in the TLTE 14 Dimensions of Teaching. Reflect on evidence from the whole pre-service development and examine it through the entire length of coursework and field experiences.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+      <deliveryMethod>Web</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
       </activity>
     </activities>
     <credits>
@@ -6646,9 +6691,9 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1158</effectiveSemester>
+    <effectiveSemester>1161</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">TEAC *811 or 841 or SPED 886 or EDPS 854</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Prior graduate coursework in literacy or cognitive psychology required.</div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">This course combines two earlier courses, Psychology of Reading, EDPS 989 (cross listed with TEAC 989) and Seminar in Educational Psychology (Psychology of Writing, EDPS, 991)</div>
@@ -6657,7 +6702,7 @@
       <div xmlns="http://www.w3.org/1999/xhtml">Study of the research literature on cognitive and motivational processes involved in reading and writing. Readings and classroom discussion will focus on theories and models of reading and writing. Specific topics include the roles of component processes of literacy such as attention, perception, memory, and problem solving, as well as studies of self-regulatory and social influences on literacy development and performance. Literacy research and models are examined at all levels of reading and writing, from early acquisition through high-level reading and writing expertise, as well as with respect to changes in literacy activities tied to new technologies.</div>
     </description>
     <campuses>
-      <campus></campus>
+      <campus>UNL</campus>
     </campuses>
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>

@@ -756,12 +756,10 @@
       <courseCode type="crosslisting">
         <subject>POLS</subject>
         <courseNumber>475</courseNumber>
-        <courseGroup>American Government and Public Policy</courseGroup>
       </courseCode>
       <courseCode type="crosslisting">
         <subject>POLS</subject>
         <courseNumber>875</courseNumber>
-        <courseGroup>American Government and Public Policy</courseGroup>
       </courseCode>
       <courseCode type="crosslisting">
         <subject>SOCI</subject>
@@ -867,6 +865,58 @@
     </activities>
     <credits>
       <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Stream and River Ecology</title>
+    <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>BIOS</subject>
+        <courseNumber>481</courseNumber>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>WATS</subject>
+        <courseNumber>481</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>NRES</subject>
+        <courseNumber>481</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>WATS</subject>
+        <courseNumber>881</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">NRES 222 or equivalent.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Fundamental physical drivers operating in stream and river ecosystems and how those vary in space and time. Major classes of organisms associated with stream ecosystems and their functional roles. Fundamental controls on biotic diversity in stream and river ecosystems and its variance. Major aspects of stream ecosystem function including energy flow and nutrient cycling. Ecosystem services provided by stream and river ecosystems and causes and consequences of human impacts on streams and rivers. Underlying principles of bioassessment and current methods of stream restoration.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lab</type>
+        <hours>1</hours>
+      </activity>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">4</credit>
     </credits>
   </course>
   <course>

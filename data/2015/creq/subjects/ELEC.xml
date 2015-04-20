@@ -450,7 +450,7 @@
     </credits>
   </course>
   <course>
-    <title>Probability Theory and Introduction to Random Processes</title>
+    <title>Probability Theory and Statistics for Electrical and Computer Engineers</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>ELEC</subject>
@@ -458,13 +458,13 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">ELEC 304.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Random experiment model, random variables, functions of random variables, and introduction to random processes.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Random experiment model, random variables, functions of random variables, and introduction to random processes; statistics and practical data analysis.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -475,9 +475,13 @@
     <termsOffered>
       <term>Fall</term>
       <term>Spring</term>
-      <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
@@ -628,6 +632,43 @@
     </credits>
   </course>
   <course>
+    <title>Introduction to Power and Energy Systems</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ELEC</subject>
+        <courseNumber>338</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">ELEC 216.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Energy sources, environmental impacts, power systems principles, three-phase circuits, transmission lines, transformers, per unit analysis, generators, loads, and power system modeling.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Electrical Engineering Internship or Cooperative Education</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -636,10 +677,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1148</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Open to Electrical Engineering majors only. Approval of faculty sponsor required.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Open to Electrical Engineering majors only. Approval of faculty sponsor prior to the internship or Co-op is required.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">For Internships or Cooperatives primarily technical in nature lasting 4.5 months or greater. Weekly communication and/or final report required. Must be taken during or after the semester in which the Internship/Co‐op occurs.</div>
@@ -661,7 +702,9 @@
       </activity>
     </activities>
     <credits>
-      <credit type="Single Value">3</credit>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">3</credit>
+      <credit type="Per Career Limit">3</credit>
     </credits>
   </course>
   <course>
@@ -898,7 +941,7 @@
     <dfRemoval>false</dfRemoval>
     <effectiveSemester>1141</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ELEC 438/ELEC 838.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">ELEC 338/ELEC 838.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Symmetrical components and fault calculations, power system stability, generator modeling (circuit view point), voltage control system, high voltage DC transmission, and system protection.</div>
@@ -1367,43 +1410,6 @@
     </credits>
   </course>
   <course>
-    <title>Introduction to Electric Power Engineering</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ELEC</subject>
-        <courseNumber>438</courseNumber>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>ELEC</subject>
-        <courseNumber>838</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1141</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ELEC 216.</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Power systems principles, three phase circuits, transmission line parameters, transmission line modeling, transformers, per unit analysis, generator modeling, and power flow analysis.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities/>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
     <title>Basic Analytical Techniques in Electrical Engineering</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -1577,7 +1583,7 @@
     <dfRemoval>false</dfRemoval>
     <effectiveSemester>1141</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ELEC 438/ELEC 838.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">ELEC 338/ELEC 838.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Characteristics and generating units. Control of generation, economic dispatch, transmission losses, unit commitment, generation with limited supply, hydrothermal coordination, and interchange evaluation and power pool.</div>

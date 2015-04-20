@@ -88,7 +88,7 @@
     </courseCodes>
     <gradingType>letter grade only</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1088</effectiveSemester>
+    <effectiveSemester>1158</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Introduction to the fundamentals, principles and current assessments relative to responsible, sustainable design as applied to the built environment.</div>
     </description>
@@ -1418,7 +1418,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1091</effectiveSemester>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">ARCH 311, 360. Parallel: ARCH 430.</div>
     </prerequisite>
@@ -1459,7 +1459,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1091</effectiveSemester>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">ARCH 410 and 430; parallel ARCH 461.</div>
     </prerequisite>
@@ -2032,10 +2032,6 @@
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
-    <gradCredits>3</gradCredits>
-    <gradPrerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ARCH 341 or permission.</div>
-    </gradPrerequisite>
   </course>
   <course>
     <title>Architecture of the Great Plains</title>
@@ -2775,6 +2771,61 @@
     <activities/>
     <credits>
       <credit type="Single Value">1</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Design Research</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ARCH</subject>
+        <courseNumber>489</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>IDES</subject>
+        <courseNumber>489</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>LARC</subject>
+        <courseNumber>489</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>ARCH</subject>
+        <courseNumber>589</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>ARCH</subject>
+        <courseNumber>889</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>IDES</subject>
+        <courseNumber>889</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Comprehensive overview of the complementary and contributory relationship between research and design, with a particular emphasis on design research as a projective activity.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
     </credits>
   </course>
   <course>

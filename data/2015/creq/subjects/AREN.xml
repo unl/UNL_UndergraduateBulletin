@@ -114,6 +114,50 @@
     </credits>
   </course>
   <course>
+    <title>Global Experiences in Architectural Engineering</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>AREN</subject>
+        <courseNumber>377</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Department permission.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Individual or group educational experience in Architectural Engineering that combine classrooms, lectures, discussions, and/or seminars with field and/or classroom studies in a foreign country.  Choice of subject matter and coordination of on- and off-campus activities are at the discretion of the instructor.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+      <campus>UNO</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">3</credit>
+      <credit type="Per Career Limit">3</credit>
+    </credits>
+    <aceOutcomes>
+      <slo>5</slo>
+    </aceOutcomes>
+  </course>
+  <course>
     <title>Building Energy II: Primary and Secondary Systems (AE 4120)</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -281,6 +325,43 @@
     </aceOutcomes>
   </course>
   <course>
+    <title>AE Graduate Seminar</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>AREN</subject>
+        <courseNumber>800</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Co-requisites: AREN 425 (AE 4250) or AREN 415 (AE 4150) or CIVE 334.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Literature Review, reading and evaluation of technical publications concerned with theory and/or experimental data in various areas of Architectural Engineering, attendance at Architectural Engineering Graduate Project and Team Design presentations, preparation of the Master of Architectural Engineering graduate project proposal, assignments related to improving written and oral communication skills.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>1</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">1</credit>
+    </credits>
+  </course>
+  <course>
     <title>Graduate Design Project I</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -324,16 +405,52 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1125</effectiveSemester>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">AREN *801/(UNO) AE *8010; and permission</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">AREN 801 (AE 8010); and permission.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Second of a two-course capstone design project for the MAE degree.  AREN 802 (AE 8020) requires a professionally-written report and oral presentation that demonstrates both mastery of the subject and a high level of writing and oral communication skills.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>ind</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">1</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Interdisciplinary Team Design Project I</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>AREN</subject>
+        <courseNumber>803</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1161</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">For Acoustics and/or Mechanical option: AREN 415 (AE 4150) and AREN 430 (AE 4300). For Electrical and/or Lighting option: AREN 425 (AE 4250) and AREN 822 (AE 8220). For Structural option: CIVE 444.</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Second of a two-course capstone design project for the MAE degree. AREN *802/(UNO) AE *8020 requires a professionally-written report and oral presentation that demonstrates both mastery of the subject and a high level of writing and oral communication skills.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">This course is the 1st semester of the capstone design sequence in architectural engineering.</div>
     </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Complete a detailed investigation in the Option Area of the master of architectural engineering degree.  Students are permitted to enroll in this course twice.  Those who fail to earn a passing grade after enrolling in AE 8020/AREN 802 a second time will be referred to the AE Graduate Committee, and this may result in termination of their program of graduate studies.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Develop and design the electrical, lighting, mechanical, and structural systems for a building, from programming through design development phase, as an interdisciplinary team effort.</div>
     </description>
     <campuses>
       <campus></campus>
@@ -343,42 +460,47 @@
     </deliveryMethods>
     <activities>
       <activity>
-        <type>ind</type>
+        <type>lec</type>
+        <hours>4</hours>
       </activity>
     </activities>
     <credits>
-      <credit type="Single Value">3</credit>
+      <credit type="Single Value">4</credit>
     </credits>
   </course>
   <course>
-    <title>Building Communication Systems</title>
+    <title>Interdisciplinary Team Design Project 2</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>AREN</subject>
-        <courseNumber>803</courseNumber>
+        <courseNumber>804</courseNumber>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">AE 3220</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">AREN 803.</div>
     </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">AREN 804 is the 2<sup>nd</sup> semester of the capstone design sequence in architectural engineering.</div>
+    </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Integration of voice, data and video systems into overall building design. Scalability; wireless systems; interference; project management; current industry standards and protocols.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Develop and design the electrical, lighting, mechanical, and structural systems for a building, from the design development phase through construction documents, as an interdisciplinary team effort.  This course is intended to be taken the semester following AREN 803.</div>
     </description>
     <campuses>
-      <campus>UNO</campus>
+      <campus></campus>
     </campuses>
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
+    <termsOffered>
+      <term>Spring</term>
+    </termsOffered>
     <activities>
       <activity>
-        <type>lab</type>
-      </activity>
-      <activity>
         <type>lec</type>
+        <hours>3</hours>
       </activity>
     </activities>
     <credits>
@@ -386,7 +508,7 @@
     </credits>
   </course>
   <course>
-    <title>Sustainable Building Design</title>
+    <title>Internship in Architectural Engineering</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>AREN</subject>
@@ -395,12 +517,9 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CIVE 341 or ARCH 332; AE 310 or AREN 841 or ARCH 333</div>
-    </prerequisite>
+    <effectiveSemester>1158</effectiveSemester>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Integrates building design with the principles of minimum resource use, energy conservation and healthy indoor environments.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">This course requires participation in a full time summer internship associated with an Architectural Engineering related entity.  The course includes weekly assignments and a final presentation designed to create interaction between the AE entity and the intern associated with the business side of the entity.  General Topics include Business Plans, Marketing, Finance and Budgets, Contracts, Legal issues and professionalism.</div>
     </description>
     <campuses>
       <campus></campus>
@@ -408,7 +527,17 @@
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
-    <activities/>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>fld</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
@@ -511,7 +640,7 @@
     </credits>
   </course>
   <course>
-    <title>Interdisciplinary Team Design Project</title>
+    <title>Sustainable Building Design</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>AREN</subject>
@@ -520,15 +649,12 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">For Acoustics and/or Mechanical option: AREN 412/(UNO) AE 4120. For Electrical and/or Lighting option: AREN 420/820/(UNO) AE 4200. For (UNO) Structural option: CET 4410.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">CIVE 341 or ARCH 332; AREN 310 (AE 3100) or AREN 841 or ARCH 333</div>
     </prerequisite>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">AREN 809 is the capstone design course in architectural engineering.</div>
-    </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Develop and design the electrical, lighting, mechanical, and structural systems for a building, from programming through construction documents, as an interdisciplinary team effort.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Integrates building design with the principles of minimum resource use, energy conservation and healthy indoor environments.</div>
     </description>
     <campuses>
       <campus></campus>
@@ -536,14 +662,18 @@
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
     <activities>
       <activity>
         <type>lec</type>
-        <hours>4</hours>
+        <hours>3</hours>
       </activity>
     </activities>
     <credits>
-      <credit type="Single Value">4</credit>
+      <credit type="Single Value">3</credit>
     </credits>
   </course>
   <course>
@@ -575,7 +705,7 @@
     </credits>
   </course>
   <course>
-    <title></title>
+    <title>Indoor Air Quality Engineering</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>AREN</subject>
@@ -583,7 +713,7 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
+    <dfRemoval>true</dfRemoval>
     <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">AREN 310.</div>
@@ -903,6 +1033,41 @@
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
     <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Building Communication Systems</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>AREN</subject>
+        <courseNumber>826</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">AREN 322 (AE 3220)</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Integration of voice, data and video systems into overall building design. Scalability; wireless systems; interference; project management; current industry standards and protocols.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities>
+      <activity>
+        <type>lab</type>
+      </activity>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>

@@ -1639,11 +1639,12 @@
         <subject>HIST</subject>
         <courseNumber>243</courseNumber>
         <courseGroup>United States or Canadian History</courseGroup>
+        <courseGroup>Pre-1800</courseGroup>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1141</effectiveSemester>
+    <effectiveSemester>1161</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Sophomore standing.</div>
     </prerequisite>
@@ -1685,7 +1686,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1128</effectiveSemester>
+    <effectiveSemester>1158</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Thematic survey of U.S. history in the nineteenth century including topics such as: slavery, the sectional crisis, the Civil War, Native American displacement, reconstruction, immigration, and the development of modern culture.</div>
     </description>
@@ -1724,7 +1725,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1121</effectiveSemester>
+    <effectiveSemester>1158</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Explores the major issues of the twentieth century: the role of government; the impact of race, class, and gender; immigration; popular culture; and social and political reform movements.</div>
     </description>
@@ -3935,10 +3936,14 @@
         <courseNumber>851</courseNumber>
         <courseGroup>United States or Canadian History</courseGroup>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>ETHN</subject>
+        <courseNumber>341</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Sophomore standing.</div>
     </prerequisite>
@@ -3956,7 +3961,12 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
@@ -4894,6 +4904,49 @@
     <effectiveSemester>1081</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Transformation of women's role in the USA economy from colonial times to the present and the effects of class, race, and changing perceptions of women's role in society. Role of women in household manufacture, the early factory system, the trade union movement, the Great Depression, the home front of WWII, and the economic emergence of women in the postwar economy.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Theorizing the Digital</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ENGL</subject>
+        <courseNumber>378</courseNumber>
+        <courseGroup>Digital Humanities</courseGroup>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>HIST</subject>
+        <courseNumber>378</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">ENGL 277, ENGL 278, or ENGL 279.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Digital Humanities and other technologies within cultural, historical, and philosophical contexts.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -7034,6 +7087,57 @@
     </credits>
   </course>
   <course>
+    <title>Digital Humanities Practicum</title>
+    <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>HIST</subject>
+        <courseNumber>872</courseNumber>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>ENGL</subject>
+        <courseNumber>472</courseNumber>
+        <courseGroup>Digital Humanities</courseGroup>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>ENGL</subject>
+        <courseNumber>872</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>HIST</subject>
+        <courseNumber>472</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1161</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Senior standing and one of the following courses: ENGL/HIST 277, ENGL 278, or ENGL 279.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Provide students with real, in-depth experience in collaboratively creating digital humanities projects. Guided by faculty with expertise in a broad range of digital humanities methods and resources, students work in teams to tackle challenges proposed by UNL researchers and/or local and regional humanities organizations.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>African Americans in the Jazz Age</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -7788,75 +7892,6 @@
     </credits>
   </course>
   <course>
-    <title>Readings and Problems in Ancient History</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>HIST</subject>
-        <courseNumber>901</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <activities/>
-    <credits>
-      <credit type="Lower Range Limit">1</credit>
-      <credit type="Upper Range Limit">24</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Readings and Problems in Medieval History</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>HIST</subject>
-        <courseNumber>911</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <activities/>
-    <credits>
-      <credit type="Lower Range Limit">1</credit>
-      <credit type="Upper Range Limit">24</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Seminar in Medieval History</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>HIST</subject>
-        <courseNumber>912</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <activities/>
-    <credits>
-      <credit type="Lower Range Limit">1</credit>
-      <credit type="Upper Range Limit">24</credit>
-    </credits>
-  </course>
-  <course>
     <title>Interdisciplinary Seminar in Nineteenth-Century Studies</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -7924,99 +7959,7 @@
     </credits>
   </course>
   <course>
-    <title>Readings and Problems in English History</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>HIST</subject>
-        <courseNumber>921</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <activities/>
-    <credits>
-      <credit type="Lower Range Limit">1</credit>
-      <credit type="Upper Range Limit">24</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Seminar in English History</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>HIST</subject>
-        <courseNumber>922</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <activities/>
-    <credits>
-      <credit type="Lower Range Limit">1</credit>
-      <credit type="Upper Range Limit">24</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Readings and Problems in Military History</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>HIST</subject>
-        <courseNumber>928</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <activities/>
-    <credits>
-      <credit type="Lower Range Limit">1</credit>
-      <credit type="Upper Range Limit">24</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Research Seminar in Military History</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>HIST</subject>
-        <courseNumber>929</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <activities/>
-    <credits>
-      <credit type="Lower Range Limit">1</credit>
-      <credit type="Upper Range Limit">24</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Readings and Problems in Early Modern European History</title>
+    <title>Readings and Problems in Pre-Modern European History</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>HIST</subject>
@@ -8024,38 +7967,19 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1161</effectiveSemester>
     <campuses>
       <campus></campus>
     </campuses>
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
-    <activities/>
-    <credits>
-      <credit type="Lower Range Limit">1</credit>
-      <credit type="Upper Range Limit">24</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Seminar in Early Modern European History</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>HIST</subject>
-        <courseNumber>932</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
     <credits>
       <credit type="Lower Range Limit">1</credit>
       <credit type="Upper Range Limit">24</credit>
@@ -8067,29 +7991,6 @@
       <courseCode type="home listing">
         <subject>HIST</subject>
         <courseNumber>933</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <activities/>
-    <credits>
-      <credit type="Lower Range Limit">1</credit>
-      <credit type="Upper Range Limit">24</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Seminar in Recent European History</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>HIST</subject>
-        <courseNumber>934</courseNumber>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
@@ -8133,29 +8034,6 @@
       <credit type="Lower Range Limit">1</credit>
       <credit type="Upper Range Limit">24</credit>
       <credit type="Per Career Limit">24</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Seminar in American History</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>HIST</subject>
-        <courseNumber>942</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <activities/>
-    <credits>
-      <credit type="Lower Range Limit">1</credit>
-      <credit type="Upper Range Limit">24</credit>
     </credits>
   </course>
   <course>
@@ -8409,74 +8287,6 @@
     </credits>
   </course>
   <course>
-    <title>Readings and Problems in Latin American History</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>HIST</subject>
-        <courseNumber>971</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <activities/>
-    <credits>
-      <credit type="Lower Range Limit">1</credit>
-      <credit type="Upper Range Limit">24</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Readings and Problems in East Asian History</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>HIST</subject>
-        <courseNumber>981</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <activities/>
-    <credits>
-      <credit type="Lower Range Limit">1</credit>
-      <credit type="Upper Range Limit">24</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Seminar in East Asian History</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>HIST</subject>
-        <courseNumber>982</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <activities/>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
     <title>Readings and Problems in Race, Ethnicity, and Identity in History</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -8567,9 +8377,13 @@
         <subject>HIST</subject>
         <courseNumber>987</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>POLS</subject>
+        <courseNumber>987</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>letter grade only</gradingType>
-    <dfRemoval>false</dfRemoval>
+    <dfRemoval>true</dfRemoval>
     <effectiveSemester>1158</effectiveSemester>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">Letter grade only.</div>
@@ -8710,12 +8524,16 @@
         <subject>HIST</subject>
         <courseNumber>991</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>GPSP</subject>
+        <courseNumber>991</courseNumber>
+      </courseCode>
     </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">History of the North American West. Past and present historiography; modern themes and methodologies; and topical and comparative historical treatments.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">History of the North American West with special attention to Great Plains. Past and present historiography; modern themes and methodologies; and topical and comparative historical treatments.</div>
     </description>
     <campuses>
       <campus></campus>
@@ -8723,10 +8541,19 @@
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
-    <activities/>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
-      <credit type="Per Career Limit">9</credit>
     </credits>
   </course>
   <course>
@@ -8763,6 +8590,46 @@
     <credits>
       <credit type="Single Value">3</credit>
       <credit type="Per Career Limit">6</credit>
+    </credits>
+  </course>
+  <course>
+    <title>History Practicum</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>HIST</subject>
+        <courseNumber>995</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>pass/no pass only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Pass/No Pass only.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Allows graduate students to volunteer or intern at a museum, archive, historical society, or other history-related organization.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">3</credit>
+      <credit type="Per Career Limit">3</credit>
     </credits>
   </course>
   <course>

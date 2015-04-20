@@ -36,6 +36,44 @@
     </credits>
   </course>
   <course>
+    <title>Introduction to Informatics</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CSCE</subject>
+        <courseNumber>100</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Placement in to MATH 101 or higher.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to the use of data-centric and information technologies—and issues and challenges—in today’s applications in sciences, engineering, the humanities, and the arts.  Exposure to computational thinking and programming, statistical thinking and research design, data analysis and database techniques, and visualization and creative thinking.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Fundamentals of Computer Science</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -120,6 +158,47 @@
     </activities>
     <credits>
       <credit type="Single Value">1</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Learning to Code</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CSCE</subject>
+        <courseNumber>120</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Placement in to MATH 101 or higher.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">First course in a sequence for the minor in Software Development.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to coding in the context of current web development technologies (JavaScript, HTML, CSS).  Basic coding skills and an introduction to computing with an emphasis on processing data: data formatting and structure, data manipulation, data presentation and the basics of an interactive program.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
     </credits>
   </course>
   <course>
@@ -644,6 +723,47 @@
     </credits>
   </course>
   <course>
+    <title>Software Development for Smart-Mobile Systems</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CSCE</subject>
+        <courseNumber>220</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 120.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Second course in a sequence for the minor in Software Development.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Practical experience on building larger scale applications and familiarity with the tools, environments (e.g., Android or IoS), and requirements to develop software for current smart-mobile devices such as phones and tablets.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Computer Organization</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -653,7 +773,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1148</effectiveSemester>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">A grade of 'P' or 'C' or better in CSCE 155A, CSCE 155E, CSCE 155H, CSCE 155N, or CSCE 155T or equivalent knowledge of a high-level programming language.</div>
     </prerequisite>
@@ -691,9 +811,6 @@
     <credits>
       <credit type="Single Value">4</credit>
     </credits>
-    <aceOutcomes>
-      <slo>8</slo>
-    </aceOutcomes>
   </course>
   <course>
     <title>Honors: Computer Organization</title>
@@ -706,7 +823,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1148</effectiveSemester>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Good standing in the University Honors Program or by invitation; a grade of 'P' or 'C' or better in CSCE 155A, CSCE 155E, CSCE 155H, CSCE 155N, or CSCE 155T or equivalent knowledge of a high-level programming language.</div>
     </prerequisite>
@@ -744,9 +861,6 @@
     <credits>
       <credit type="Single Value">4</credit>
     </credits>
-    <aceOutcomes>
-      <slo>8</slo>
-    </aceOutcomes>
   </course>
   <course>
     <title>Introduction to Discrete Structures</title>
@@ -1405,6 +1519,47 @@
         <type>lab</type>
         <hours>1</hours>
       </activity>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Data Analysis</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CSCE</subject>
+        <courseNumber>320</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 220.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Third course in a sequence for the minor in Software Development.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Practical experience on how to model data through existing techniques including object-oriented and relational models. These models can then be used at the center of systems to promote efficient and effective data processing and analysis.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
       <activity>
         <type>lec</type>
         <hours>3</hours>
@@ -2108,6 +2263,50 @@
     <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">CSCE 310, CSCE 310H, or CSCE 311</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Concepts of relational and object-oriented data modeling through the process of data model development including conceptual, logical and physical modeling. Techniques for identifying and creating relationships between discrete data members, reasoning about how data modeling and analysis are incorporated in system design and development, and specification paradigms for data models. Common tools and technologies for engineering systems and frameworks for integrating data. Design and analysis of algorithms and techniques for identification and exploration of data relationships, such as Bayesian probability and statistics, clustering, map-reduce, and web-based visualization.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Honors: Data Modeling for Systems Development</title>
+    <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>RAIK</subject>
+        <courseNumber>411</courseNumber>
+        <courseLetter>H</courseLetter>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>CSCE</subject>
+        <courseNumber>411</courseNumber>
+        <courseLetter>H</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 310, CSCE 310H, CSCE 311, or CSCE 283H. Good standing in the University Honors Program.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Concepts of relational and object-oriented data modeling through the process of data model development including conceptual, logical and physical modeling. Techniques for identifying and creating relationships between discrete data members, reasoning about how data modeling and analysis are incorporated in system design and development, and specification paradigms for data models. Common tools and technologies for engineering systems and frameworks for integrating data. Design and analysis of algorithms and techniques for identification and exploration of data relationships, such as Bayesian probability and statistics, clustering, map-reduce, and web-based visualization.</div>
@@ -3756,7 +3955,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1148</effectiveSemester>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">CSCE 361 or CSCE361H.</div>
     </prerequisite>
@@ -3800,7 +3999,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1138</effectiveSemester>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">CSCE 486 (taken exactly one semester previous).</div>
     </prerequisite>
@@ -3841,7 +4040,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1148</effectiveSemester>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">CSCE 236; CSCE 351; CSCE361 or CSCE361H; formal admission to the College of Engineering; prereq or coreq: JGEN 300.</div>
     </prerequisite>
@@ -3885,7 +4084,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1111</effectiveSemester>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">CSCE 488 (taken exactly one semester previous).</div>
     </prerequisite>
@@ -4020,6 +4219,50 @@
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Innovative team projects executed under the guidance of members of the faculty of the Department of Computer Science and Managing Director of the CSCE Innovation Lab. Students will work in teams and collaborate with CSE research faculty, supervising MS students, and sponsors that include private sectors and UNL faculty to design and develop real-world systems.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">3</credit>
+      <credit type="Per Career Limit">6</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Interdisciplinary Capstone</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CSCE</subject>
+        <courseNumber>493</courseNumber>
+        <courseLetter>A</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 311.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Does not apply toward any requirements for the Computer Science or Computer Engineering degree.  Required for the Informatics minor.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Innovative team projects executed under the guidance of members of the faculty of the Department of Computer Science and Managing Director of the CSCE Innovation Lab. Work in teams and collaboration with CSE research faculty and sponsors that include private sectors and UNL faculty to design and develop real-world systems to solve interdisciplinary problems.</div>
     </description>
     <campuses>
       <campus>UNL</campus>

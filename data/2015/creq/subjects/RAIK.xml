@@ -455,7 +455,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1111</effectiveSemester>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Good standing in the University Honors Program; admission to the Raikes School of Computer Science and Management and BSAD/RAIK 281H.</div>
     </prerequisite>
@@ -489,9 +489,6 @@
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
-    <aceOutcomes>
-      <slo>8</slo>
-    </aceOutcomes>
   </course>
   <course>
     <title>Honors: Foundations of Computer Science</title>
@@ -1241,6 +1238,50 @@
     <aceOutcomes>
       <slo>10</slo>
     </aceOutcomes>
+  </course>
+  <course>
+    <title>Honors: Data Modeling for Systems Development</title>
+    <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>RAIK</subject>
+        <courseNumber>411</courseNumber>
+        <courseLetter>H</courseLetter>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>CSCE</subject>
+        <courseNumber>411</courseNumber>
+        <courseLetter>H</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 310, CSCE 310H, CSCE 311, or CSCE 283H. Good standing in the University Honors Program.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Concepts of relational and object-oriented data modeling through the process of data model development including conceptual, logical and physical modeling. Techniques for identifying and creating relationships between discrete data members, reasoning about how data modeling and analysis are incorporated in system design and development, and specification paradigms for data models. Common tools and technologies for engineering systems and frameworks for integrating data. Design and analysis of algorithms and techniques for identification and exploration of data relationships, such as Bayesian probability and statistics, clustering, map-reduce, and web-based visualization.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
   </course>
   <course>
     <title>Raikes School: Design Studio I</title>

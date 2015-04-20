@@ -1397,15 +1397,16 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1091</effectiveSemester>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CIVE 441 or parallel.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">CIVE 341</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Continuation of analysis for structural systems. Matrix analysis methods and computer solutions for indeterminate structures. Moment distribution method. Introduction to analysis for non-linear effects.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
+      <campus>UNO</campus>
     </campuses>
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
@@ -2057,7 +2058,7 @@
     </gradPrerequisite>
   </course>
   <course>
-    <title>Bituminous Materials and Mixtures Laboratory</title>
+    <title>Bituminous Materials and Mixtures</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>CIVE</subject>
@@ -2070,15 +2071,16 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1091</effectiveSemester>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">CIVE 378 or equivalent.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Portland Cement and Asphalt Concrete Laboratory. Laboratory and field procedures used to obtain portland cement and asphalt concretes for engineered construction.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Understanding of the physical, chemical, geometrical, and mechanical characteristics and practical applications of bituminous materials and mixtures.  Fundamental mechanics for elastic and inelastic materials and basic theories associated with mechanical data analyses and designs.  Recent advances and significant research outcomes for further discussions.  Applications of theories to laboratory and field testing.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
+      <campus>UNO</campus>
     </campuses>
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
@@ -2092,14 +2094,14 @@
       <activity>
         <type>lab</type>
       </activity>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
     </activities>
     <credits>
-      <credit type="Single Value">1</credit>
+      <credit type="Single Value">3</credit>
     </credits>
-    <gradCredits>1</gradCredits>
-    <gradPrerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CIVE 378 or equivalent.</div>
-    </gradPrerequisite>
   </course>
   <course>
     <title>Pavement Design and Evaluation</title>
@@ -2201,12 +2203,10 @@
       <courseCode type="crosslisting">
         <subject>POLS</subject>
         <courseNumber>475</courseNumber>
-        <courseGroup>American Government and Public Policy</courseGroup>
       </courseCode>
       <courseCode type="crosslisting">
         <subject>POLS</subject>
         <courseNumber>875</courseNumber>
-        <courseGroup>American Government and Public Policy</courseGroup>
       </courseCode>
       <courseCode type="crosslisting">
         <subject>SOCI</subject>
@@ -2341,7 +2341,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1091</effectiveSemester>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Senior standing and CIVE 385.</div>
     </prerequisite>
@@ -2382,7 +2382,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1138</effectiveSemester>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Senior standing; parallel CIVE 385; good standing in the University Honors Program or by invitation.</div>
     </prerequisite>

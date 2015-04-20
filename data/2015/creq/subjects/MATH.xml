@@ -603,9 +603,9 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1141</effectiveSemester>
+    <effectiveSemester>1151</effectiveSemester>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Not open to students with credit or concurrent enrollment in MATH 106 or STAT 218.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Not open to students with credit or concurrent enrollment in MATH 106 or MATH 203J.</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Applications of quantitative reasoning and methods to problems and decision making in the areas of management, statistics, and social choice. Includes networks, critical paths, linear programming, sampling, central tendency, inference, voting methods, power index, game theory, and fair division problems.</div>
@@ -646,9 +646,9 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1138</effectiveSemester>
+    <effectiveSemester>1151</effectiveSemester>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">MATH 203J is not open to students with credit in or with parallel enrollment MATH 106, MATH 203, or STAT 218.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Not open to students with credit or concurrent enrollment in MATH 106 or MATH 203.</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Applications of quantitative reasoning and methods to problems and decisions making in areas of particular relevance to College of Journalism and Mass Communication, such as governance, finance, statistics, social choice, and graphical presentation of data. Financial mathematics, statistics and probability (sampling, central tendency, and inference), voting methods, power index, and fair division problems.</div>
@@ -1139,7 +1139,10 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1131</effectiveSemester>
+    <effectiveSemester>1158</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">MATH 208.</div>
+    </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Elementary number theory, including induction, the Fundamental Theorem of Arithmetic, and modular arithmetic. Introduction to rings and fields as natural extension of the integers.  Particular emphasis on the study of polynomials with coefficients in the rational, real, or complex numbers.</div>
     </description>
@@ -1221,7 +1224,10 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1148</effectiveSemester>
+    <effectiveSemester>1161</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">MATH 208.</div>
+    </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">Not open to MA or MS students in mathematics or statistics</div>
     </notes>
@@ -1239,7 +1245,12 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
@@ -1384,10 +1395,13 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1091</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">MATH 208.</div>
+    </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Introductory course emphasizing mastery of basic calculus concepts and the development of skill in constructing proofs. Includes mathematical induction, completeness of the real numbers, sequences and series, limits and continuity, derivatives, uniform convergence, Taylor's theorem, integration and the fundamental theorem of calculus.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">An introduction to mathematical reasoning, construction of proofs, and careful mathematical writing in the context of continuous mathematics and calculus. Topics may include the real number system, limits and continuity, the derivative, integration, and compactness in terms of the real number system.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -1887,7 +1901,10 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1148</effectiveSemester>
+    <effectiveSemester>1161</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Math 208.</div>
+    </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Complex numbers, functions of complex variables, analytic functions, complex integration, Cauchy's integral formulas, Taylor and Laurent series, calculus of residues and contour integration, conformal mappings, harmonic functions. Applications of these concepts in engineering, physical sciences, and mathematics</div>
     </description>
@@ -1902,7 +1919,12 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
@@ -2083,9 +2105,9 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1148</effectiveSemester>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">MATH 221 or 221H.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">MATH 221 or 221H, and either MATH 310 or MATH 325.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Qualitative behaviour of solutions of systems of differential equations, including existence and uniqueness, extendibility, and periodic solutions. The Putzer algorithm, Floquet theory, matrix norms, linearization,stability theory, and period-doubling and chaos.</div>
@@ -2126,10 +2148,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1161</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">MATH 314/814.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">MATH 314/814 and MATH 310 or MATH 325.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Mathematical theory of linear optimization, convex sets, simplex algorithm, duality, multiple objective linear programs, formulation of mathematical models.</div>
@@ -2145,7 +2167,12 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
@@ -2166,9 +2193,9 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1138</effectiveSemester>
+    <effectiveSemester>1161</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">MATH 314/814.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">MATH 314/814 and MATH 310 or MATH 325.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Mathematical theory of unconstrained and constrained optimization for nonlinear multivariate functions, particularly iterative methods, such as quasi-Newton methods, least squares optimization, and convex programming.  Computer implementation of these methods.</div>
@@ -2184,7 +2211,12 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
@@ -2560,9 +2592,9 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1108</effectiveSemester>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">MATH 450, or permission and either MATH 310 or 310H or 325.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">MATH 310 or MATH 325</div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">Selected applications.</div>
@@ -2715,6 +2747,7 @@
       <courseCode type="home listing">
         <subject>MATH</subject>
         <courseNumber>487</courseNumber>
+        <courseGroup>Advanced Mathematics Courses</courseGroup>
       </courseCode>
       <courseCode type="crosslisting">
         <subject>MATH</subject>
@@ -2722,8 +2755,8 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1111</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Math 314 and Math 325.</div>
     </prerequisite>
@@ -2767,7 +2800,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1091</effectiveSemester>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">MATH 221/821, and/or STAT/MATH 380 or STAT 880.</div>
     </prerequisite>
@@ -4341,8 +4374,8 @@
       </activity>
     </activities>
     <credits>
-      <credit type="Single Value">6</credit>
       <credit type="Single Value">3</credit>
+      <credit type="Single Value">6</credit>
       <credit type="Per Career Limit">18</credit>
     </credits>
   </course>
@@ -4902,8 +4935,8 @@
       </activity>
     </activities>
     <credits>
-      <credit type="Single Value">6</credit>
       <credit type="Single Value">3</credit>
+      <credit type="Single Value">6</credit>
       <credit type="Per Career Limit">18</credit>
     </credits>
   </course>
@@ -4930,8 +4963,8 @@
       </activity>
     </activities>
     <credits>
-      <credit type="Single Value">6</credit>
       <credit type="Single Value">3</credit>
+      <credit type="Single Value">6</credit>
       <credit type="Per Career Limit">18</credit>
     </credits>
   </course>

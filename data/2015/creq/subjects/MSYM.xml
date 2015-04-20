@@ -94,10 +94,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1121</effectiveSemester>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Basic principles of describing and evaluating mechanized systems relevant to agriculture, food, energy, and water. Problem solving and using systems-thinking. Exploration of major and career opportunities.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Basic principles of describing and evaluating mechanized systems relevant to agriculture, food, energy, and water. Problem solving using systems-thinking. Exploration of major and career opportunities. Academic success and planning.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -113,17 +113,13 @@
         <type>lec</type>
         <hours>1</hours>
       </activity>
-      <activity>
-        <type>rct</type>
-        <hours>2</hours>
-      </activity>
     </activities>
     <credits>
-      <credit type="Single Value">2</credit>
+      <credit type="Single Value">1</credit>
     </credits>
   </course>
   <course>
-    <title>Equipment Principles</title>
+    <title>Power and Machinery Principles</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>MSYM</subject>
@@ -131,13 +127,13 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">MSYM 109 or general physics.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Operational characteristics of field, farmstead materials handling, processing and turf maintenance machines and their components. Includes objective comparisons of performance, principles for alignment and adjustment, calibration of metering systems and standards necessary for effective operational management of machines.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Operational characteristics of IC engines, field, materials-handling, and processing machines and their components.  Includes analyses, estimations, and objective comparisons of performance; principles for adjustment and calibration of metering systems; and cost-effective sizing of machines.  Exercises include using ASABE Standards and available reports of machine performance (tractor test reports, etc.).</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -146,7 +142,7 @@
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
     <termsOffered>
-      <term>Spring</term>
+      <term>Fall</term>
     </termsOffered>
     <activities>
       <activity>
@@ -201,6 +197,45 @@
     </activities>
     <credits>
       <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Problem Solving in Mechanized Systems Management</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MSYM</subject>
+        <courseNumber>262</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">MATH 102, MSYM 109 or PHYS 141, PHYS 151, or PHYS 211.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Open to MSYM majors only.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Use of computational tools to solve problems relevant to mechanized systems management. Professional communication of technical information. Discussion of current and emerging issues relevant to the major.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>1</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">1</credit>
     </credits>
   </course>
   <course>
@@ -924,7 +959,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1121</effectiveSemester>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Senior standing in MYSM or permission.</div>
     </prerequisite>
@@ -1155,12 +1190,10 @@
       <courseCode type="crosslisting">
         <subject>POLS</subject>
         <courseNumber>475</courseNumber>
-        <courseGroup>American Government and Public Policy</courseGroup>
       </courseCode>
       <courseCode type="crosslisting">
         <subject>POLS</subject>
         <courseNumber>875</courseNumber>
-        <courseGroup>American Government and Public Policy</courseGroup>
       </courseCode>
       <courseCode type="crosslisting">
         <subject>SOCI</subject>
