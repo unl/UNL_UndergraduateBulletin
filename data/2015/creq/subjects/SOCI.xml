@@ -230,7 +230,7 @@
     </credits>
   </course>
   <course>
-    <title>Women in Contemporary Society</title>
+    <title>Gender in Contemporary Society</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>SOCI</subject>
@@ -238,10 +238,13 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1148</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">3 hrs of sociology or related social sciences</div>
+    </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Interdisciplinary examination of the contributions of women to society and societal attitudes toward women. Roles and values of women in contemporary society. Lecture, discussion, special problems.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Examination of how gender matters in the social world. Introduction to sociological theories about gender and related research.  Considers how lifelong gender socialization, social institutions, norms, laws, and cultural practices create gendered effects in every aspect of life.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -255,7 +258,12 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
@@ -410,7 +418,7 @@
     </aceOutcomes>
   </course>
   <course>
-    <title>Nationality and Race Relations</title>
+    <title>Sociology of Race and Ethnicity</title>
     <courseCodes>
       <courseCode type="crosslisting">
         <subject>ETHN</subject>
@@ -422,13 +430,13 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1091</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">3 hrs sociology or related social sciences.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Concepts of race and patterns of race distribution. Impact of European expansion on ethnic relations. Types of ethnic social systems. Patterns of ethnic social interaction. Problems of minorities. Types of ethnic policies.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Overview of sociological theories and research on the experiences of different racial, religious, and ethnic groups. Concepts of race and ethnicity, including their social construction.  Historical and contemporary racial and ethnic relations and patterns of inequality. Intersections of race, social institutions, and social policies.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -449,40 +457,6 @@
       <slo>6</slo>
       <slo>9</slo>
     </aceOutcomes>
-  </course>
-  <course>
-    <title>Chicanos in American Society</title>
-    <courseCodes>
-      <courseCode type="crosslisting">
-        <subject>ETHN</subject>
-        <courseNumber>218</courseNumber>
-      </courseCode>
-      <courseCode type="home listing">
-        <subject>SOCI</subject>
-        <courseNumber>218</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to one of the largest minority groups in the United States-Chicanos (Mexican Americans). Primary consideration given to the history and present status of Chicanos with emphasis on their interaction with various social institutions.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities/>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
   </course>
   <course>
     <title>Marriage and the Family</title>
@@ -557,39 +531,6 @@
         <type>lec</type>
       </activity>
     </activities>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Urban Sociology</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>SOCI</subject>
-        <courseNumber>242</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">3 hrs of sociology or related social sciences.</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Rise of the modern city; patterns of urban growth; demographic, distributive, ecological aspects of the city; institutional and regional tendencies and problems; urban-regional planning.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities/>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
@@ -681,44 +622,6 @@
     </credits>
   </course>
   <course>
-    <title>Sociology of Mass Media</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>SOCI</subject>
-        <courseNumber>273</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1138</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Prereq: 3 hrs of sociology or related social sciences</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to the sociological study of mass media, including the social construction of gender, race, class, and politics.  Explores audience interaction with media texts. Emphasis on analytical skills for media literacy.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>lec</type>
-        <hours>3</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
     <title>Drugs and Society</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -752,7 +655,7 @@
     </credits>
   </course>
   <course>
-    <title>Doing Sociology: Community-based Research I</title>
+    <title>Applied Sociology: Community-based Research I</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>SOCI</subject>
@@ -761,8 +664,8 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">SOCI 101 and 205, or permission.</div>
     </prerequisite>
@@ -799,7 +702,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">SOCI 310A.</div>
     </prerequisite>
@@ -900,6 +803,154 @@
     </credits>
   </course>
   <course>
+    <title>Contemporary Family Issues</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>SOCI</subject>
+        <courseNumber>325</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">6 hrs sociology or related social sciences</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Contemporary issues confronting American families and family research. Adolescent pregnancy, work-family policy, family violence, divorce, single parents, and step families.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Social Psychology of Inequality</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>SOCI</subject>
+        <courseNumber>341</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">6 hrs sociology or related social sciences.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Analysis of social structures and social processes that contribute to, maintain, or change social inequalities across social categories such as gender and race.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Environmental Sociology</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>SOCI</subject>
+        <courseNumber>346</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1161</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">6 hrs sociology or related social sciences or permission.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Role of humans in the ecosystem, especially the interaction of human societies with the natural environment, including other species and other human societies. Theories of the sociocultural causes of environmentally-related problems and the policies designed to deal with these problems.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+      <deliveryMethod>Web</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Sociology of Health Care and Health Professions</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>SOCI</subject>
+        <courseNumber>353</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1161</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">6 hrs sociology or related social sciences.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Social and cultural bases of health care and health professions. Organization, distribution, and delivery of health care.  Institution and profession of medicine and health-allied fields.  Critical evaluation of medical care system and health policy.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Theory and Intensive Writing</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -908,13 +959,16 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">SOCI 101</div>
+    </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Intensive writing activity leading to a social research paper</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Intensive writing activity to prepare students to undertake an independent research project.</div>
     </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Survey of 19th and 20th century writers whose ideas have had a strong impact on the development of contemporary sociology and sociological theory, ranging from Karl Marx, Max Weber and Emile Durkheim to W.E.B. DuBois, Patricia Hill Collins and Harold Garfinkle.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to sociological theories written by key classical and contemporary social theorists. Emphasis on how sociologists try to understand and make predictions about the social world.  Analysis of a range of issues, such as how social contexts shape people’s identities, how people form connections with one another, and inequalities related to race, class, and gender.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -942,7 +996,7 @@
     </courseCodes>
     <gradingType>letter grade only</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">6 hours of social and/or biological sciences.</div>
     </prerequisite>
@@ -970,6 +1024,44 @@
     <aceOutcomes>
       <slo>8</slo>
     </aceOutcomes>
+  </course>
+  <course>
+    <title>Sociology of Mass Media</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>SOCI</subject>
+        <courseNumber>373</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Prereq: 6 hrs of sociology or related social sciences</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to the sociological study of mass media, including the social construction of gender, race, class, and politics.  Explores audience interaction with media texts. Emphasis on analytical skills for media literacy.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
   </course>
   <course>
     <title>Storytelling</title>
@@ -1230,80 +1322,6 @@
     </credits>
   </course>
   <course>
-    <title>Social Change</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>SOCI</subject>
-        <courseNumber>415</courseNumber>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>SOCI</subject>
-        <courseNumber>815</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">9 hrs sociology or related social sciences.</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Analysis of sociological principles of social change at both the community and primary group level; analysis of research and theoretical literature.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities/>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Contemporary Family Issues</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>SOCI</subject>
-        <courseNumber>425</courseNumber>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>SOCI</subject>
-        <courseNumber>825</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">9 hrs sociology or related social sciences</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Contemporary issues confronting American families and family research. Adolescent pregnancy, work-family policy, family violence, divorce, single parents, and step families.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities/>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
     <title>Mass Communication</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -1323,43 +1341,6 @@
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Analysis of the structure and effects of the media of mass communication.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities/>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Social Psychology</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>SOCI</subject>
-        <courseNumber>441</courseNumber>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>SOCI</subject>
-        <courseNumber>841</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">9 hrs sociology or related social sciences.</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Psychosocial bases of group behavior, inter-stimulation, and behavioral products.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -1531,43 +1512,6 @@
     </credits>
   </course>
   <course>
-    <title>Environmental Sociology</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>SOCI</subject>
-        <courseNumber>446</courseNumber>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>SOCI</subject>
-        <courseNumber>846</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">9 hrs sociology or related social sciences or permission.</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Role of humans in the ecosystem, especially the interaction of human societies with the natural environment, including other species and other human societies. Theories of the sociocultural causes of environmentally-related problems and the policies designed to deal with these problems.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities/>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
     <title>Family Diversity</title>
     <courseCodes>
       <courseCode type="crosslisting">
@@ -1632,43 +1576,6 @@
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Contemporary theory and research dealing with family structure and change. Focuses on family systems that characterize different social classes and various ethnic groups in our society. Selected problems and contemporary research emphasized.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities/>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Social Institutions</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>SOCI</subject>
-        <courseNumber>450</courseNumber>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>SOCI</subject>
-        <courseNumber>850</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">9 hrs sociology or related social sciences.</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Analysis of means of social control, with emphasis upon social institutions.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -1844,7 +1751,7 @@
     </credits>
   </course>
   <course>
-    <title>Advanced Social Research Methods</title>
+    <title>Basic Regression Analysis</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>SOCI</subject>
@@ -1854,15 +1761,19 @@
         <subject>SOCI</subject>
         <courseNumber>862</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>SRAM</subject>
+        <courseNumber>863</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1091</effectiveSemester>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">SOCI 101, 205, and 206; and permission.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">The logic and design of sociological research: the nature of science and logic of social inquiry; epistemic relations; design of research problems; data collection techniques and sampling.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">The logic and techniques of sociological data analysis: use statistical software to run linear regression analyses and assess violations of regression assumption; the development of theoretically driven models; and the interpretation of results from linear regression analyses.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -1886,7 +1797,7 @@
     </credits>
   </course>
   <course>
-    <title>Quantitative Methods of Social Research I</title>
+    <title>Advanced Social Research Methods</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>SOCI</subject>
@@ -1896,19 +1807,15 @@
         <subject>SOCI</subject>
         <courseNumber>863</courseNumber>
       </courseCode>
-      <courseCode type="crosslisting">
-        <subject>SRAM</subject>
-        <courseNumber>863</courseNumber>
-      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1091</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">SOCI 101, 205, and 206; and permission.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">The logic and techniques of sociological analysis: techniques of scaling and index construction; contingency table analysis; measures of association; parametric and nonparametric statistical inference; and generalizations from systematic findings.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">The logic and design of sociological research: the nature of science and logic of social inquiry; epistemic relations; design of research problems; data collection techniques and sampling.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -2308,12 +2215,10 @@
       <courseCode type="crosslisting">
         <subject>POLS</subject>
         <courseNumber>475</courseNumber>
-        <courseGroup>American Government and Public Policy</courseGroup>
       </courseCode>
       <courseCode type="crosslisting">
         <subject>POLS</subject>
         <courseNumber>875</courseNumber>
-        <courseGroup>American Government and Public Policy</courseGroup>
       </courseCode>
       <courseCode type="crosslisting">
         <subject>SOCI</subject>
@@ -2550,7 +2455,7 @@
     </credits>
   </course>
   <course>
-    <title>Sociology of Women</title>
+    <title>Sociology of Gender</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>SOCI</subject>
@@ -2562,8 +2467,8 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1161</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">9 hrs social sciences.</div>
     </prerequisite>
@@ -2571,7 +2476,7 @@
       <div xmlns="http://www.w3.org/1999/xhtml">SOCI 200 is strongly recommended.</div>
     </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Evaluation and application of scholarly theory and research on women in their societal context. The nature and effects of sex stratification, gendered culture, institutionalized sexism, feminist theory and sociology of knowledge.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Evaluation and application of scholarly theory and research on gender in societal context. The nature and effects of sex stratification, gendered culture, institutionalized sexism, feminist theory and sociology of knowledge.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -2584,7 +2489,12 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
@@ -2808,6 +2718,41 @@
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Advanced Regression Analysis</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>SOCI</subject>
+        <courseNumber>867</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Multiple linear regression analysis (extending the analytic framework) to include non-normal and limited dependent variables with a focus on sociological problems and statistical software applications.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
     <activities>
       <activity>
         <type>lec</type>

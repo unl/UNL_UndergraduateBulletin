@@ -1328,7 +1328,7 @@
     </courseCodes>
     <gradingType>letter grade only</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1115</effectiveSemester>
+    <effectiveSemester>1158</effectiveSemester>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">Letter Grade only</div>
     </notes>
@@ -1749,5 +1749,47 @@
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
+  </course>
+  <course>
+    <title>Doing Digital Classics: Theory, Approaches, and Research Methods</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CLAS</subject>
+        <courseNumber>490</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Repeatable for credit. New scholarly project required.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Survey of the latest digital and computational methods in the study of ancient Greece and Rome. Experimentation with the tools and techniques currently transforming our understanding of antiquity. Emphasizing hands-on work with: topic modeling, photogrammetry, GIS, RTI imaging, data collection and management, and network analysis.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+      <credit type="Per Career Limit">6</credit>
+    </credits>
+    <aceOutcomes>
+      <slo>10</slo>
+    </aceOutcomes>
   </course>
 </courses>

@@ -50,8 +50,8 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1148</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Graduate student in a science, technology, engineering, or mathematics (STEM) discipline.</div>
     </prerequisite>
@@ -79,7 +79,8 @@
       </activity>
     </activities>
     <credits>
-      <credit type="Single Value">1</credit>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">3</credit>
     </credits>
   </course>
   <course>

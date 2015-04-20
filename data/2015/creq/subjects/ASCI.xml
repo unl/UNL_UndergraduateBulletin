@@ -2589,8 +2589,8 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1138</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">ACCT 201; AECN 325 and 452; ASCI 422 and 457; and permission.</div>
     </prerequisite>
@@ -2614,8 +2614,9 @@
       </activity>
     </activities>
     <credits>
-      <credit type="Single Value">3</credit>
-      <credit type="Per Career Limit">6</credit>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">3</credit>
+      <credit type="Per Career Limit">3</credit>
     </credits>
   </course>
   <course>
@@ -2973,10 +2974,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">For ASCI/VBMS *845/BIOS *813: An undergraduate course in biochemistry or biology or physiology. For VMED 645: First year standing in and admission to VMED.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">For ASCI/VBMS 845/BIOS 813: Undergraduate courses in biochemistry, biology and physiology. For VMED 645: First year standing in and admission to VMED.</div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">Primarily for students in animal or biological sciences or veterinary medicine.</div>
@@ -3028,13 +3029,13 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">For ASCI/VBMS *846/BIOS *814: An undergraduate course in biochemistry or biology or physiology. For VMED 646: First year standing in and admission to VMED.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">For ASCI/VBMS 846/BIOS 814: ASCI/VBMS 845 or BIOS 813. For VMED 646: First year standing in and admission to VMED.</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">ASCI/VBMS *846/BIOS *814/VMED 646 is designed for students in animal or biological sciences or veterinary medicine.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">ASCI/VBMS 846/BIOS 814/VMED 646 is designed for students in animal or biological sciences or veterinary medicine.</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Mammalian physiology and cellular mechanisms. Physiology of the digestive, cardiovascular, respiratory, and renal systems.</div>
@@ -3704,6 +3705,94 @@
     </deliveryMethods>
     <termsOffered>
       <term>Fall</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">1</credit>
+    </credits>
+  </course>
+  <course>
+    <title>An Introduction to R Programming</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ASCI</subject>
+        <courseNumber>868</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>STAT</subject>
+        <courseNumber>868</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1161</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Graduate Standing.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">This is a 5-week course taught by Maltecca (North Carolina State University).</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to the R environment for statistical computing, including use of R as a high-level programming language and as a gateway for more formal low-level languages. Material includes language structure, basic and advanced data manipulation, statistical analysis with R, and using R as a programming language.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+      <deliveryMethod>Web</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">1</credit>
+    </credits>
+  </course>
+  <course>
+    <title>MCMC Methods in Animal Breeding: A Primer</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ASCI</subject>
+        <courseNumber>869</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>STAT</subject>
+        <courseNumber>869</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1161</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">ASCI 868.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">This is a 5-week course taught by Maltecca (North Carolina State University).</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Principles of Markov Chain Monte Carlo (MCMC) methods in animal breeding. Materials include random variable generation, Monte Carlo integration, stochastic search, Expectation-maximization (EM) algorithm and Monte Carlo EM, Markov Chain principles, Metropolis-Hastings algorithm, Gibbs sample, and MCMC for genomic data. Illustrations developed using R software.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+      <deliveryMethod>Web</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Spring</term>
     </termsOffered>
     <activities>
       <activity>

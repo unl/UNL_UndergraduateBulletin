@@ -289,6 +289,45 @@
     </credits>
   </course>
   <course>
+    <title>People of Great Plains</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>NRES</subject>
+        <courseNumber>130</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1161</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">The Great Plains region offers considerable ecological and cultural diversity, encompassing more than 600 million acres which have been occupied by humans for over 12,000 years. Introduction to the different populations who have called the Great Plains home, and how they have made a living on this landscape.  Investigate Native American life ways in the Great Plains from the time of initial colonization up to European contact and the dramatic changes experienced during the historic era. Select topics centered on contemporary socio-ecological systems on the Plains and how understanding of past Plains experiences can be used to inform on these contemporary issues.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+      <deliveryMethod>Web</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+    <aceOutcomes>
+      <slo>5</slo>
+    </aceOutcomes>
+  </course>
+  <course>
     <title>Oh My Cod: Exploring Aquatic Ecology Careers</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -686,6 +725,46 @@
     </credits>
   </course>
   <course>
+    <title>Introduction to Grassland Ecology and Management</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>NRES</subject>
+        <courseNumber>245</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>AGRO</subject>
+        <courseNumber>245</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1161</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">AGRO 153</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Grassland ecology and management is relevant to students with education and career goals in managing natural resources in Nebraska and the Great Plains. About 50% of the land area in Nebraska is classified as grassland (or rangeland) and is the land type with the most opportunity for enhancing biodiversity and wildlife habitat. Applying ecological principles and social values to managing rangeland resources, students will develop a knowledge and appreciation for the various grassland management uses and techniques available to resource managers.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Environmental Communication Skills</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -861,7 +940,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1151</effectiveSemester>
+    <effectiveSemester>1158</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Explore human environmental interaction on the Great Plains. Samples a variety of Great Plains cultures and time periods to explore past use of the Great Plains environment. Evaluation of attributes and related data critical to the operation of past social-ecological systems with reference to changing climatic/ecological dynamics, human environmental impacts, and the sustainability of various indigenous and western modes of land use on the Great Plains. Investigate knowledge of these processes and how they can be of relevance to contemporary issues of Great Plains land management and resource utilization.</div>
     </description>
@@ -886,6 +965,10 @@
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
+    <aceOutcomes>
+      <slo>5</slo>
+      <slo>6</slo>
+    </aceOutcomes>
   </course>
   <course>
     <title>Special Topics</title>
@@ -3682,7 +3765,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1141</effectiveSemester>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">LIFE 120 and LIFE 120L; LIFE 121 and LIFE 121L; either BIOS 207 or BIOS 220.</div>
     </prerequisite>
@@ -4129,7 +4212,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1138</effectiveSemester>
+    <effectiveSemester>1158</effectiveSemester>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">May also be offered at Cedar Point Biological Station.</div>
     </notes>
@@ -4643,12 +4726,10 @@
       <courseCode type="crosslisting">
         <subject>POLS</subject>
         <courseNumber>475</courseNumber>
-        <courseGroup>American Government and Public Policy</courseGroup>
       </courseCode>
       <courseCode type="crosslisting">
         <subject>POLS</subject>
         <courseNumber>875</courseNumber>
-        <courseGroup>American Government and Public Policy</courseGroup>
       </courseCode>
       <courseCode type="crosslisting">
         <subject>SOCI</subject>
@@ -4917,6 +4998,58 @@
     </activities>
     <credits>
       <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Stream and River Ecology</title>
+    <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>BIOS</subject>
+        <courseNumber>481</courseNumber>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>WATS</subject>
+        <courseNumber>481</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>NRES</subject>
+        <courseNumber>481</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>WATS</subject>
+        <courseNumber>881</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">NRES 222 or equivalent.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Fundamental physical drivers operating in stream and river ecosystems and how those vary in space and time. Major classes of organisms associated with stream ecosystems and their functional roles. Fundamental controls on biotic diversity in stream and river ecosystems and its variance. Major aspects of stream ecosystem function including energy flow and nutrient cycling. Ecosystem services provided by stream and river ecosystems and causes and consequences of human impacts on streams and rivers. Underlying principles of bioassessment and current methods of stream restoration.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lab</type>
+        <hours>1</hours>
+      </activity>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">4</credit>
     </credits>
   </course>
   <course>

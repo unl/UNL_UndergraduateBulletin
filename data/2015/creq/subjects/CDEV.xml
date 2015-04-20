@@ -9,10 +9,16 @@
       </courseCode>
     </courseCodes>
     <gradingType>letter grade only</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1138</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Must be enrolled in the Community Development Masters Degree program or by permission.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Course is taught by faculty from South Dakota State University.</div>
+    </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Seminar will serve as an orientation to on-line learning and communities of practice as well as an introduction to the courses, faculty and curriculum.  Course is taught by faculty from South Dakota State University, and will be offered every semester. To enroll, students must be enrolled in the Community Development Masters Degree program or obtain permission.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Seminar will serve as an orientation to on-line learning and communities of practice as well as an introduction to theoretical frameworks that apply to community development, the courses, faculty and curriculum.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -23,15 +29,15 @@
     <termsOffered>
       <term>Fall</term>
       <term>Spring</term>
-      <term>Summer</term>
     </termsOffered>
     <activities>
       <activity>
         <type>lec</type>
+        <hours>2</hours>
       </activity>
     </activities>
     <credits>
-      <credit type="Single Value">1</credit>
+      <credit type="Single Value">2</credit>
     </credits>
   </course>
   <course>

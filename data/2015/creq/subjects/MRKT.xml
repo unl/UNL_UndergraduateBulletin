@@ -747,25 +747,21 @@
     </gradPrerequisite>
   </course>
   <course>
-    <title>Sports Marketing</title>
+    <title>Sports &amp; Event Marketing</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>MRKT</subject>
         <courseNumber>428</courseNumber>
       </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>MRKT</subject>
-        <courseNumber>828</courseNumber>
-      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1111</effectiveSemester>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">MRKT 341 or permission.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">MRKT 341</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Basic concepts and theories unique to sports marketing, review of the basic principles of marketing in the context of sports. Framework provided for incorporation of unpredictable nature of the sports industry and exploration of the complex relationships between the elements of sports and marketing. Current research in the area of sports marketing, coverage if the growing popularity of women's sports, and the globalization of sports.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">The course will focus on the development, promotion, and implementation of various forms of consumer experiences. Topics include, but are not limited to sports participation, sporting events, concerts, theatrical performances, museums, renaissance fairs, and theme parks. Topics covered will also include the planning, promotion, and logistical support needed to provide a meaningful experience to consumers.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -1376,6 +1372,42 @@
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
     <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Sports Marketing</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MRKT</subject>
+        <courseNumber>828</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">GRBA 813 or equivalent, or permission.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Basic concepts and theories unique to sports marketing, review of the basic principles of marketing in the context of sports. Framework provided for incorporation of unpredictable nature of the sports industry and exploration of the complex relationships between the elements of sports and marketing. Current research in the area of sports marketing, coverage if the growing popularity of women's sports, and the globalization of sports.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>

@@ -740,7 +740,7 @@
     </aceOutcomes>
   </course>
   <course>
-    <title>Nationality and Race Relations</title>
+    <title>Sociology of Race and Ethnicity</title>
     <courseCodes>
       <courseCode type="crosslisting">
         <subject>ETHN</subject>
@@ -752,13 +752,13 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1091</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">3 hrs sociology or related social sciences.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Concepts of race and patterns of race distribution. Impact of European expansion on ethnic relations. Types of ethnic social systems. Patterns of ethnic social interaction. Problems of minorities. Types of ethnic policies.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Overview of sociological theories and research on the experiences of different racial, religious, and ethnic groups. Concepts of race and ethnicity, including their social construction.  Historical and contemporary racial and ethnic relations and patterns of inequality. Intersections of race, social institutions, and social policies.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -781,22 +781,26 @@
     </aceOutcomes>
   </course>
   <course>
-    <title>Chicanos in American Society</title>
+    <title>Ancient Mesoamerica</title>
     <courseCodes>
+      <courseCode type="home listing">
+        <subject>ANTH</subject>
+        <courseNumber>237</courseNumber>
+      </courseCode>
       <courseCode type="crosslisting">
         <subject>ETHN</subject>
-        <courseNumber>218</courseNumber>
+        <courseNumber>237</courseNumber>
       </courseCode>
-      <courseCode type="home listing">
-        <subject>SOCI</subject>
-        <courseNumber>218</courseNumber>
+      <courseCode type="crosslisting">
+        <subject>LAMS</subject>
+        <courseNumber>237</courseNumber>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to one of the largest minority groups in the United States-Chicanos (Mexican Americans). Primary consideration given to the history and present status of Chicanos with emphasis on their interaction with various social institutions.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Ancient civilizations of Mexico and Central America including the Ancient Maya, Aztecs, and Toltecs. Anthropological theories and methods dealing with archaeological data about urbanism, architecture, art, human-environment interaction, etc. in ancient Mesoamerica.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -809,10 +813,19 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
+    <aceOutcomes>
+      <slo>6</slo>
+      <slo>9</slo>
+    </aceOutcomes>
   </course>
   <course>
     <title>Blacks and the American Political System</title>
@@ -1627,6 +1640,54 @@
       <term>Summer</term>
     </termsOffered>
     <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>American West to 1900</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>HIST</subject>
+        <courseNumber>351</courseNumber>
+        <courseGroup>United States or Canadian History</courseGroup>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>HIST</subject>
+        <courseNumber>851</courseNumber>
+        <courseGroup>United States or Canadian History</courseGroup>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>ETHN</subject>
+        <courseNumber>341</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Sophomore standing.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">History of indigenous peoples of the West. Euro-American, African American, Asian, and Latina and/or Latino settlements. The changing environment. Gender issues. Economic activities: fur trading, mining, ranching, farming, and lumbering.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
