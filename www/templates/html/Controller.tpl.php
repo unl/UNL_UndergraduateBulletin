@@ -57,6 +57,8 @@ if (mktime(0, 0, 0, 6, 1, $context->getEdition()->year) > time() ) {
 UNPUBLISHED;
 }
 
+$page->footercontent = str_replace('©', '© ' . date('Y'), $page->footercontent);
+
 $page->maincontentarea = '<div class="'.$context->options['view'].'">';
 $page->maincontentarea .= $savvy->render($context->output);
 $page->maincontentarea .= '</div>';

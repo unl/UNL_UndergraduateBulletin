@@ -96,9 +96,6 @@ class UNL_UndergraduateBulletin_Router
             case preg_match('/^search\/?$/', $requestURI):
                 $options['view'] = 'search';
                 break;
-            case preg_match('/^about\/?$/', $requestURI):
-                $options['view'] = 'about';
-                break;
             case preg_match('/^general\/?$/', $requestURI):
                 $options['view'] = 'general';
                 break;
