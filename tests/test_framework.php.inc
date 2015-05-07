@@ -6,9 +6,6 @@ if (file_exists(dirname(__FILE__).'/../config.inc.php')) {
 } else {
     include_once dirname(__FILE__).'/../config.sample.php';
 }
-@include_once 'Text/Diff.php';
-@include_once 'Text/Diff/Renderer.php';
-@include_once 'Text/Diff/Renderer/unified.php';
 error_reporting($__e);
 class PEAR2_PHPT
 {
@@ -156,19 +153,6 @@ class PEAR2_PHPT
             var_export($control, true)) != str_replace(array("\r", "\n"), array('', ''),
             var_export($test, true))) {
             $this->_failTest($trace, $message);
-            if (class_exists('Text_Diff')) {
-                echo "Diff of expecting/received:\n";
-                $diff = new Text_Diff(
-                    explode("\n", var_export($control, true)),
-                    explode("\n", var_export($test, true)));
-
-                // Output the diff in unified format.
-                $renderer = new Text_Diff_Renderer_unified();
-                echo $renderer->render($diff);
-                if ($this->_diffonly) {
-                    return false;
-                }
-            }
             echo "Expecting:\n";
             var_export($control);
             echo "\nReceived:\n";
@@ -211,4 +195,3 @@ class PEAR2_PHPT
     }
 }
 $test = new PEAR2_PHPT();
-?>

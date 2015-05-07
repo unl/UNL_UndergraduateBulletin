@@ -69,10 +69,6 @@ $requestURI = $base . 'general';
 $route = UNL_UndergraduateBulletin_Router::getRoute($requestURI);
 $test->assertEquals($specific_year+array('view'=>'general'), $route, 'general bulletin information section');
 
-$requestURI = $base . 'about';
-$route = UNL_UndergraduateBulletin_Router::getRoute($requestURI);
-$test->assertEquals($specific_year+array('view'=>'about'), $route, 'about bulletin information section');
-
 $requestURI = $base . 'courses/CSCE/';
 $route = UNL_UndergraduateBulletin_Router::getRoute($requestURI);
 $test->assertEquals($specific_year+array('view'=>'subject', 'id'=>'CSCE'), $route, 'subject code');
