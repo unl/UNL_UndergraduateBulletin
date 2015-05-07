@@ -137,12 +137,6 @@
             </ul>
         </div>
         <div class="bp2-wdn-col-one-fourth">
-            <div class="pull">
-                <h4>What you can find here:</h4>
-                <p>The Undergraduate Bulletin contains information about all programs of undergraduate study at the University of Nebraska&ndash;Lincoln.
-                    <a href="about">More info&hellip;</a>
-                </p>
-            </div>
             <h4>Other Academic Units</h4>
             <ul class="collegeListing">
                 <li><a href="college/Division+of+General+Studies">Division of General Studies</a></li>
