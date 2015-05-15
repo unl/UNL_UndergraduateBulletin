@@ -441,6 +441,92 @@
     </credits>
   </course>
   <course>
+    <title>Structural Mechanics</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ARCH</subject>
+        <courseNumber>335</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>CNST</subject>
+        <courseNumber>335</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1161</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">ARCH 232 Materials and Assemblies or admission into the Construction Management degree program</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to various external force systems, and their resulting internal forces and deformations, which act on structural elements.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+      <campus>UNO</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Structural Optimization</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ARCH</subject>
+        <courseNumber>336</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>CNST</subject>
+        <courseNumber>336</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1161</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">ARCH 335 Structural Mechanics</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Optimization of key properties of elemental components and systems of building structures: force, geometric, and material.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+      <campus>UNO</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Construction Site Safety Management</title>
     <courseCodes>
       <courseCode type="home listing">

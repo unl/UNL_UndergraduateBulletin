@@ -161,6 +161,55 @@
     </credits>
   </course>
   <course>
+    <title>Cultures in Transit</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MODL</subject>
+        <courseNumber>381</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>GLST</subject>
+        <courseNumber>381</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>POLS</subject>
+        <courseNumber>381</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Letter grade only.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Interdisciplinary comparative literature course that offers critical studies on socio-political changes in modern nations and respective cultures. It focuses on war, revolution, migration, exile, diaspora, and transnational conditions.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+    <aceOutcomes>
+      <slo>5</slo>
+    </aceOutcomes>
+  </course>
+  <course>
     <title>Storytelling</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -208,6 +257,56 @@
     </credits>
     <aceOutcomes>
       <slo>5</slo>
+    </aceOutcomes>
+  </course>
+  <course>
+    <title>Women Write the World</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MODL</subject>
+        <courseNumber>383</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>WMNS</subject>
+        <courseNumber>383</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>GLST</subject>
+        <courseNumber>383</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>ENGL</subject>
+        <courseNumber>383</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1161</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Survey on the literary production written by women in Europe, Asia, Africa and Latin America.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+    <aceOutcomes>
+      <slo>9</slo>
     </aceOutcomes>
   </course>
   <course>
@@ -297,7 +396,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1138</effectiveSemester>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Junior standing with 18 credits completed toward major in Global Studies.</div>
     </prerequisite>

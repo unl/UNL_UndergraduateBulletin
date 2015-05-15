@@ -1,86 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <courses xmlns="http://courseapproval.unl.edu/courses" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://courseapproval.unl.edu/courses /schema/courses.xsd">
   <course>
-    <title>Writing : Rhetoric and Reading</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ENGL</subject>
-        <courseNumber>101</courseNumber>
-        <courseGroup>First Year Writing</courseGroup>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1125</effectiveSemester>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Special sections of ENGL 101 may be devoted to literature by and about groups of Americans.</div>
-    </notes>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Beginning writing as inquiry using literary texts as resources for writing and the rhetorically-based concepts for reading and writing. Special sections may be devoted to literature by and about groups of Americans. A. African American Literature B. Chicano Literature D. Native American Literature</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities/>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-    <aceOutcomes>
-      <slo>1</slo>
-    </aceOutcomes>
-  </course>
-  <course>
-    <title>Honors Writing: Rhetoric &amp; Reading</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ENGL</subject>
-        <courseNumber>101</courseNumber>
-        <courseLetter>H</courseLetter>
-        <courseGroup>First Year Writing</courseGroup>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1091</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Good standing in the University Honors Program or by invitation.</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Intensive writing. Writing and critical reading practices. Develop writing projects for multiple purposes and audiences.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>lec</type>
-        <hours>3</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-    <aceOutcomes>
-      <slo>1</slo>
-    </aceOutcomes>
-  </course>
-  <course>
     <title>Advanced Academic Writing and Usage</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -2160,6 +2080,49 @@
     <effectiveSemester>1111</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Extended writing and its uses in and by various communities.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+    <aceOutcomes>
+      <slo>1</slo>
+    </aceOutcomes>
+  </course>
+  <course>
+    <title>Honors: Writing and Communities</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ENGL</subject>
+        <courseNumber>254</courseNumber>
+        <courseLetter>H</courseLetter>
+        <courseGroup>Writing, Rhetoric, and Culture</courseGroup>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Good standing in the University Honors Program.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Intensive writing. Extended writing its uses in and by various communities.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -4474,6 +4437,56 @@
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
+  </course>
+  <course>
+    <title>Women Write the World</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MODL</subject>
+        <courseNumber>383</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>WMNS</subject>
+        <courseNumber>383</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>GLST</subject>
+        <courseNumber>383</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>ENGL</subject>
+        <courseNumber>383</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1161</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Survey on the literary production written by women in Europe, Asia, Africa and Latin America.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+    <aceOutcomes>
+      <slo>9</slo>
+    </aceOutcomes>
   </course>
   <course>
     <title>Shakespeare's Dramatic Arts</title>
