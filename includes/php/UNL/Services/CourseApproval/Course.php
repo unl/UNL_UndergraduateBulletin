@@ -113,6 +113,9 @@ class UNL_Services_CourseApproval_Course
      */
     function getCredits()
     {
+        if (!$this->_internal->credits) {
+            return array();
+        }
         return new UNL_Services_CourseApproval_Course_Credits($this->_internal->credits->children());
     }
     
