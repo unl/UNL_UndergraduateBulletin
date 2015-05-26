@@ -10,8 +10,8 @@ class UNL_UndergraduateBulletin_CourseDataDriver implements UNL_Services_CourseA
     {
         
     }
-    
-    function getAllCourses()
+
+    public function getAllCourses()
     {
         if (!isset($this->allCourses)) {
             if (isset($_GET['format'])
@@ -22,13 +22,13 @@ class UNL_UndergraduateBulletin_CourseDataDriver implements UNL_Services_CourseA
         }
         return $this->allCourses;
     }
-    
-    function getSubjectArea($subjectarea)
+
+    public function getSubjectArea($subjectarea)
     {
         if (!isset($this->subjectAreas[(string)$subjectarea])) {
 
             if (!preg_match('/^[A-Z]{3,4}$/', $subjectarea)) {
-                throw new UnexpectedValueException('Invalid subject code '.$subjectarea, 400);
+                throw new UnexpectedValueException('Invalid subject code ' . $subjectarea, 400);
             }
 
             $file = UNL_UndergraduateBulletin_Controller::getEdition()->getCourseDataDir().'/subjects/'.$subjectarea.'.xml';
