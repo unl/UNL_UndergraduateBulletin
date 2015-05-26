@@ -16,6 +16,35 @@ class UNL_UndergraduateBulletin_CourseDataDriver implements UNL_Services_CourseA
 
         $this->currentEdition = $edition;
     }
+    
+    /**
+     * Resets the internal caching members back to inital values
+     * @return self
+     */
+    protected function reset()
+    {
+        unset($this->allCourses);
+        $this->subjectAreas = array();
+        
+        return $this;
+    }
+    
+    /**
+     * Sets the bulletin edition to use course data from
+     * @param UNL_UndergraduateBulletin_Edition $edition
+     * @return self
+     */
+    public function setEdition(UNL_UndergraduateBulletin_Edition $edition)
+    {
+        // if changing years, reset internal caching members 
+        if ($this->currentEdition->getYear() != $edition->getYear()) {
+            $this->reset();
+        }
+        
+        $this->currentEdition = $edition;
+        
+        return $this;
+    }
 
     public function getAllCourses()
     {
