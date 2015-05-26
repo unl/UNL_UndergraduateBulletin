@@ -6,19 +6,29 @@ class UNL_UndergraduateBulletin_CourseDataDriver implements UNL_Services_CourseA
 
     protected $allCourses;
 
-    function __construct()
+    protected $currentEdition;
+
+    public function __construct(UNL_UndergraduateBulletin_Edition $edition = null)
     {
-        
+        if (!$edition) {
+            $edition = UNL_UndergraduateBulletin_Controller::getEdition();
+        }
+
+        $this->currentEdition = $edition;
     }
 
     public function getAllCourses()
     {
         if (!isset($this->allCourses)) {
-            if (isset($_GET['format'])
-                && $_GET['format'] == 'json') {
-                $this->allCourses = file_get_contents(UNL_UndergraduateBulletin_Controller::getEdition()->getCourseDataDir().'/all-courses-min.xml');
+            $cousePath = $this->currentEdition->getCourseDataDir();
+
+            if (isset($_GET['format']) && $_GET['format'] == 'json') {
+                $cousePath .= '/all-courses-min.xml';
+            } else {
+                $cousePath .= '/all-courses.xml';
             }
-            $this->allCourses = file_get_contents(UNL_UndergraduateBulletin_Controller::getEdition()->getCourseDataDir().'/all-courses.xml');
+
+            $this->allCourses = file_get_contents($cousePath);
         }
         return $this->allCourses;
     }
@@ -31,12 +41,13 @@ class UNL_UndergraduateBulletin_CourseDataDriver implements UNL_Services_CourseA
                 throw new UnexpectedValueException('Invalid subject code ' . $subjectarea, 400);
             }
 
-            $file = UNL_UndergraduateBulletin_Controller::getEdition()->getCourseDataDir().'/subjects/'.$subjectarea.'.xml';
+            $file = $this->currentEdition->getCourseDataDir() . '/subjects/' . $subjectarea . '.xml';
 
             if (!file_exists($file)) {
-                throw new Exception('No subject area found matching '.$subjectarea.' in the '.UNL_UndergraduateBulletin_Controller::getEdition()->getYear().' edition.', 404);
+                throw new Exception('No subject area found matching ' . $subjectarea . ' in the '. $this->currentEdition->getYear() . ' edition.', 404);
             }
-            $this->subjectAreas[(string)$subjectarea] = file_get_contents(UNL_UndergraduateBulletin_Controller::getEdition()->getCourseDataDir().'/subjects/'.$subjectarea.'.xml');
+
+            $this->subjectAreas[(string)$subjectarea] = file_get_contents($file);
         }
 
         return $this->subjectAreas[(string)$subjectarea];
