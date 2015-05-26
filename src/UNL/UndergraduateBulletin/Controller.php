@@ -234,6 +234,12 @@ class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_
      */
     public static function setEdition(UNL_UndergraduateBulletin_Edition $edition)
     {
+        $courseService = UNL_Services_CourseApproval::getXCRIService();
+        
+        if ($courseService instanceof UNL_UndergraduateBulletin_CourseDataDriver) {
+            $courseService->setEdition($edition);
+        }
+        
         self::$edition = $edition;
         $edition->loadConfig();
     }
