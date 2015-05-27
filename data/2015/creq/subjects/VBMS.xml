@@ -666,6 +666,50 @@
     </credits>
   </course>
   <course>
+    <title>Anatomy II</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>VBMS</subject>
+        <courseNumber>831</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>VMED</subject>
+        <courseNumber>631</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1161</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">VBMS 830</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Gross anatomy of domestic ruminants, horses, and birds.  An advanced course in detailed gross anatomy incorporating intensive dissection laboratory sessions and classroom lectures.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lab</type>
+        <hours>3</hours>
+      </activity>
+      <activity>
+        <type>lec</type>
+        <hours>1</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">4</credit>
+    </credits>
+  </course>
+  <course>
     <title>Microbial Physiology</title>
     <courseCodes>
       <courseCode type="home listing">
