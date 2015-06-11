@@ -7,41 +7,10 @@ if (file_exists(dirname(__FILE__).'/../config.inc.php')) {
     include_once dirname(__FILE__).'/../config.sample.php';
 }
 
-$edition = UNL_UndergraduateBulletin_Editions::getLatest();
+require_once __DIR__ . '/classes/CreqDataShell.php';
 
-if (isset($_SERVER['argv'], $_SERVER['argv'][1])) {
-    $edition = UNL_UndergraduateBulletin_Edition::getByYear($_SERVER['argv'][1]);
-}
+error_reporting(E_ALL);
+set_time_limit(0);
 
-UNL_UndergraduateBulletin_Controller::setEdition($edition);
-
-echo 'Updating learning outcome data for '.$edition->year.PHP_EOL;
-
-$outcomes_feed = 'https://creq.unl.edu/learningoutcomes/view/feed';
-
-$data = file_get_contents($outcomes_feed);
-
-if (false === $data) {
-    echo 'Could not retrieve data from ' . $outcomes_feed . PHP_EOL;
-    exit(1);
-}
-
-$outcome_data = json_decode($data);
-
-foreach ($outcome_data as $outcome) {
-
-    // Try and get the associated major
-    $major = UNL_UndergraduateBulletin_Major::getByName($outcome->major);
-    
-    if (false === $major) {
-        throw new Exception('Could not find ' . $outcome->major);
-    }
-
-    // json encode the data and store it for this individual major
-    $data = json_encode($outcome);
-
-    $filename = UNL_UndergraduateBulletin_EPUB_Utilities::getFilenameBaseByName($outcome->major);
-
-    file_put_contents($edition->getDataDir().'/outcomes/'.$filename.'.json', $data);
-}
-
+$cli = new CreqDataShell();
+$cli->fetchOutcomes();

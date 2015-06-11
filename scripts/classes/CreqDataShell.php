@@ -2,7 +2,15 @@
 
 class CreqDataShell
 {
-    protected $creqBaseUrl = 'http://creq.unl.edu/courses/public-view/';
+    const CREQ_MODULE_COURSE = 1;
+    const CREQ_MODULE_OUTCOME = 2;
+    const CREQ_MODULE_PLAN = 3;
+    
+    protected $creqModuleUrls = array(
+        self::CREQ_MODULE_COURSE => 'https://creq.unl.edu/courses/public-view/',
+        self::CREQ_MODULE_OUTCOME => 'https://creq.unl.edu/learningoutcomes/view/feed/',
+        self::CREQ_MODULE_PLAN => 'https://creq.unl.edu/fouryearplans/view/feed/',
+    );
     
     protected $activeEdition;
     
@@ -57,22 +65,35 @@ class CreqDataShell
      * @param string $src Source URL relative to Creq public base URL
      * @param string $dest Destination file path relative to edition course data
      * @param bool $removeOnFail If the destination file should be removed if request fails
-     * @return bool
+     * @return mixed Returns a boolean result if a destination is given, otherwise the content is returned
      */
-    protected function fetchCreqFile($src, $dest, $removeOnFail = false)
+    protected function fetchCreqFile($module, $src, $dest, $removeOnFail = false)
     {
-        $file = $this->getEdition()->getCourseDataDir() . '/' . $dest;
-        $filePointer = fopen($file, 'w+');
-        $curlHandle = curl_init($this->creqBaseUrl . $src);
+        if (!isset($this->creqModuleUrls[$module])) {
+            throw new InvalidArgumentException('That creq module does not exist');
+        }
         
-        curl_setopt($curlHandle, CURLOPT_FILE, $filePointer);
+        $curlHandle = curl_init($this->creqModuleUrls[$module] . $src);
         curl_setopt($curlHandle, CURLOPT_FOLLOWLOCATION, true);
+        
+        if (null !== $dest) {
+            $file = $this->getEdition()->getCourseDataDir() . '/' . $dest;
+            $filePointer = fopen($file, 'w+');
+            curl_setopt($curlHandle, CURLOPT_FILE, $filePointer);
+        } else {
+            curl_setopt($curlHandle, CURLOPT_RETURNTRANSFER, true);
+        }
+        
+        
         $result = curl_exec($curlHandle);
         curl_close($curlHandle);
-        fclose($filePointer);
         
-        if ($result === false && $removeOnFail) {
-            @unlink($file);
+        if (null !== $dest) {
+            fclose($filePointer);
+            
+            if ($result === false && $removeOnFail) {
+                @unlink($file);
+            }
         }
         
         return $result;
@@ -112,7 +133,7 @@ class CreqDataShell
         try {
             echo 'Updating all course data file';
             
-            $this->fetchCreqFile('all-courses', 'all-courses.xml');
+            $this->fetchCreqFile(self::CREQ_MODULE_COURSE, 'all-courses', 'all-courses.xml');
             
             $this->echoSuccess();
         } catch (Exception $e) {
@@ -125,7 +146,7 @@ class CreqDataShell
             
             $handle = fopen($edition->getCourseDataDir().'/subject_codes.csv', 'r');
             while (($subject = fgetcsv($handle, 1000, ",", "'")) !== false) {
-                if (!$this->fetchCreqFile('all-courses/subject/' . $subject[0], 'subjects/' . $subject[0] . '.xml', true)) {
+                if (!$this->fetchCreqFile(self::CREQ_MODULE_COURSE, 'all-courses/subject/' . $subject[0], 'subjects/' . $subject[0] . '.xml', true)) {
                     throw new UnexpectedValueException($subject[0]);
                 }
             }
@@ -293,6 +314,78 @@ class CreqDataShell
                 $this->echoFailure();
                 exit(1);
             }
+        }
+    }
+    
+    public function fetchOutcomes()
+    {
+        $edition = $this->getEdition();
+        
+        echo '[Updating outcomes for ' . $edition->getYear() . ']' . PHP_EOL;
+        
+        try {
+            echo 'Retrieving feed';
+        
+            $outcomes = $this->fetchCreqFile(self::CREQ_MODULE_OUTCOME, '', null);
+            if (!$outcomes) {
+                throw new UnexpectedValueException('Outcomes did not properly load');
+            }
+            $outcomes = json_decode($outcomes);
+            
+            foreach ($outcomes as $outcome) {
+                // Try and get the associated major
+                $major = UNL_UndergraduateBulletin_Major::getByName($outcome->major);
+                
+                if (false === $major) {
+                    throw new UnexpectedValueException('Could not find ' . $outcome->major);
+                }
+                
+                $data = json_encode($outcome);
+                $filename = UNL_UndergraduateBulletin_EPUB_Utilities::getFilenameBaseByName($outcome->major);
+                
+                file_put_contents($edition->getDataDir() . '/outcomes/' . $filename . '.json', $data);
+            }
+            
+            $this->echoSuccess();
+        } catch (Exception $e) {
+            $this->echoFailure();
+            exit(1);
+        }
+    }
+    
+    public function fetchPlans()
+    {
+        $edition = $this->getEdition();
+        
+        echo '[Updating 4-year plans for ' . $edition->getYear() . ']' . PHP_EOL;
+        
+        try {
+            echo 'Retrieving feed';
+        
+            $plans = $this->fetchCreqFile(self::CREQ_MODULE_PLAN, '', null);
+            if (!$plans) {
+                throw new UnexpectedValueException('Outcomes did not properly load');
+            }
+            $plans = json_decode($plans);
+        
+            foreach ($plans as $plan) {
+                // Try and get the associated major
+                $major = UNL_UndergraduateBulletin_Major::getByName($plan->major);
+        
+                if (false === $major) {
+                    throw new UnexpectedValueException('Could not find ' . $plan->major);
+                }
+        
+                $data = json_encode($plan);
+                $filename = UNL_UndergraduateBulletin_EPUB_Utilities::getFilenameBaseByName($plan->major);
+        
+                file_put_contents($edition->getDataDir() . '/fouryearplans/' . $filename . '.json', $data);
+            }
+        
+            $this->echoSuccess();
+        } catch (Exception $e) {
+            $this->echoFailure();
+            exit(1);
         }
     }
 }
