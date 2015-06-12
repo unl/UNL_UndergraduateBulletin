@@ -144,10 +144,9 @@ class CreqDataShell
         try {
             echo 'Retrieving all courses by subject code';
             
-            $handle = fopen($edition->getCourseDataDir().'/subject_codes.csv', 'r');
-            while (($subject = fgetcsv($handle, 1000, ",", "'")) !== false) {
-                if (!$this->fetchCreqFile(self::CREQ_MODULE_COURSE, 'all-courses/subject/' . $subject[0], 'subjects/' . $subject[0] . '.xml', true)) {
-                    throw new UnexpectedValueException($subject[0]);
+            foreach (array_keys(UNL_UndergraduateBulletin_SubjectAreas::getMap($edition)) as $subject) {
+                if (!$this->fetchCreqFile(self::CREQ_MODULE_COURSE, 'all-courses/subject/' . $subject, 'subjects/' . $subject . '.xml', true)) {
+                    throw new UnexpectedValueException($subject);
                 }
             }
             
