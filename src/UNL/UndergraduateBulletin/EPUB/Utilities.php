@@ -25,10 +25,7 @@ class UNL_UndergraduateBulletin_EPUB_Utilities
         $html = self::convertHeadings($html);
         $html = self::addLeaders($html);
         $html = self::linkURLs($html);
-
-        $url = UNL_UndergraduateBulletin_Controller::getURL();
-
-        $html = self::addCourseLinks($html, $url);
+        $html = self::addCourseLinks($html, UNL_UndergraduateBulletin_Controller::getURL());
 
         return $html;
     }
@@ -129,7 +126,7 @@ class UNL_UndergraduateBulletin_EPUB_Utilities
     {
         $courses = array();
         $callback = function($matches) use (&$courses) {
-            if (!UNL_UndergraduateBulletin_EPUB_Utilities::isValidSubjectCode($matches[1])) {
+            if (!self::isValidSubjectCode($matches[1])) {
                 return;
             }
 
@@ -188,7 +185,7 @@ class UNL_UndergraduateBulletin_EPUB_Utilities
     public static function addCourseLinks($text, $url = '')
     {
         return self::courseScanCallback($text, function ($matches) use ($url) {
-            return UNL_UndergraduateBulletin_EPUB_Utilities::linkCourse($matches, $url);
+            return self::linkCourse($matches, $url);
         });
     }
 
