@@ -105,7 +105,7 @@ class UNL_UndergraduateBulletin_CourseSearch_DBSearcher extends UNL_Services_Cou
     {
         return "courses.credits = {$credits}";
     }
-    
+
     function prerequisiteQuery($prereq)
     {
         $query = explode(' ', $prereq, 2);

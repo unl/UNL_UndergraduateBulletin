@@ -41,7 +41,7 @@ class UNL_UndergraduateBulletin_EPUB_Utilities
     public static function linkURLs($html)
     {
         $html = preg_replace('/\s(www\.unl\.edu.*)/', ' http://$1', $html);
-        return preg_replace_callback('/(http:\/\/[^<^\s]+)/', array('UNL_UndergraduateBulletin_EPUB_Utilities', 'linkHref'), $html);
+        return preg_replace_callback('/(http:\/\/[^<^\s]+)/', array(__CLASS__, 'linkHref'), $html);
     }
     
     public static function convertHeadings($html)
@@ -126,10 +126,14 @@ class UNL_UndergraduateBulletin_EPUB_Utilities
     {
         $courses = array();
         $callback = function($matches) use (&$courses) {
-            if (!self::isValidSubjectCode($matches[1])) {
+            // needed for backward compat with php 5.3
+            $staticSelf = __CLASS__;
+            
+            if (!$staticSelf::isValidSubjectCode($matches[1])) {
                 return;
             }
 
+            $course_numbers = array();
             preg_match_all('/0?([0-9]{2,4}[A-Z]?)/', $matches[0], $course_numbers);
 
             foreach ($course_numbers[0] as $course_number) {
@@ -155,7 +159,7 @@ class UNL_UndergraduateBulletin_EPUB_Utilities
     {
         $missing_courses = array();
 
-        foreach (self::findCourses($text)  as $subject_code => $courses) {
+        foreach (self::findCourses($text) as $subject_code => $courses) {
             try {
                 $subject = new UNL_Services_CourseApproval_SubjectArea($subject_code);
                 foreach ($courses as $course) {
@@ -185,7 +189,10 @@ class UNL_UndergraduateBulletin_EPUB_Utilities
     public static function addCourseLinks($text, $url = '')
     {
         return self::courseScanCallback($text, function ($matches) use ($url) {
-            return self::linkCourse($matches, $url);
+            // needed for backwards compat with php 5.3
+            $staticSelf = __CLASS__;
+            
+            return $staticSelf::linkCourse($matches, $url);
         });
     }
 
@@ -281,7 +288,10 @@ class UNL_UndergraduateBulletin_EPUB_Utilities
     public static function updateCourseNumber($text, $subject, $originalCourseNumeber, $newCourseNumber)
     {
         return self::courseScanCallback($text, function($matches) use ($subject, $originalCourseNumeber, $newCourseNumber) {
-            if (!self::isValidSubjectCode($matches[1]) || $matches[1] != $subject) {
+            // needed for backwards compat with php 5.3
+            $staticSelf = __CLASS__;
+            
+            if (!$staticSelf::isValidSubjectCode($matches[1]) || $matches[1] != $subject) {
                 return $matches[0];
             }
             
