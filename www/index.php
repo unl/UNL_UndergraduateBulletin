@@ -30,47 +30,29 @@ switch($controller->options['format']) {
         $outputcontroller->addTemplatePath(dirname(__FILE__).'/templates/json');
         break;
     case 'collegesource':
-        header('Content-type: text/plain; charset=UTF-8');
-        //Collegesource is also csv, but they require specific data... so they have a special template.
-        $outputcontroller->addTemplatePath(dirname(__FILE__).'/templates/collegesource');
-
-
-        if (!isset($controller->options['delimiter'])) {
-            $controller->options['delimiter'] = ",";
-        }
-
-        $outputcontroller->addGlobal('delimiter', $controller->options['delimiter']);
-
-        //Needs its own delimiter Due to the fact that SQL 2005 requires that all field values be quoted.
-        $outputcontroller->addGlobal('delimitArray', function($delimiter, $array){
-            //sanitize the array values
-            foreach ($array as $key=>$value) {
-                //remove newlines
-                $value = preg_replace("/[\n\r]/", "", $value);
-                
-                //Can not contain double quotes.
-                $value = str_replace('"', "'", $value);
-                
-                $array[$key] = $value;
-            }
-            
-            echo "\"" . implode("\"" . $delimiter . "\"", $array) . "\"\n";
-        });
-        
-        break;
     case 'csv':
         header('Content-type: text/plain; charset=UTF-8');
         
         $outputcontroller->addTemplatePath(dirname(__FILE__).'/templates/csv');
         
-        if (!isset($controller->options['delimiter'])) {
-            $controller->options['delimiter'] = ",";
+        if ($controller->options['format'] == 'collegesource') {
+            //CollegeSource is also csv, but they require specific data... so they have a special template.
+            $outputcontroller->addTemplatePath(dirname(__FILE__).'/templates/collegesource');
+            
+            if (!isset($controller->options['delimiter'])) {
+                $controller->options['delimiter'] = "|";
+            }
+        } else {
+            if (!isset($controller->options['delimiter'])) {
+                $controller->options['delimiter'] = ",";
+            }
         }
-        
-        $outputcontroller->addGlobal('delimiter', $controller->options['delimiter']);
-        
-        $outputcontroller->addGlobal('delimitArray', function($delimiter, $array){
-            $out = fopen('php://output', 'w');
+
+        $delimiter = $controller->options['delimiter'];
+        $outputcontroller->addGlobal('delimiter', $delimiter);
+
+        $out = fopen('php://output', 'w');
+        $outputcontroller->addGlobal('delimitArray', function($array) use ($delimiter, $out) {            
             fputcsv($out, $array, $delimiter);
         });
         break;

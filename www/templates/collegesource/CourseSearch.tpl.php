@@ -1,23 +1,39 @@
 <?php
 
 $subjectAreas = new UNL_UndergraduateBulletin_SubjectAreas();
+$edition = UNL_UndergraduateBulletin_Controller::getEdition();
 
-//$group by course code
-$courses = array();
+$fields = array(
+    'Edition',
+    'Department',
+    'DepartmentAbbr',
+    'CourseCode',
+    'CourseLabel',
+    'CourseDescription',
+    'Units',
+    'LectureHours',
+    'LabHours',
+    'OtherHours',
+    'Prerequisite',
+    'Corequisite',
+    'Recommended',
+    'Offered',
+    'GradeBasis',
+);
 
-$i = 0;
+$delimitArray($fields);
+
+$baseCsvCourse = array_fill_keys($fields, '');
+
 foreach ($context->results as $course) {
-    $csvCourse                   = array();
-    $csvCourse['Department']     = "";
-    $csvCourse['DepartmentAbbr'] = "";
-    $csvCourse['CourseCode']     = ""; //Leave empty for now...
-    $csvCourse['CourseLabel']    = $course->title;
-    $csvCourse['Description']    = strip_tags(html_entity_decode($course->description));
-    $csvCourse['Prerequisite']   = strip_tags(html_entity_decode($course->prerequisite));
-
-    //Credits
-    $csvCourse['Units'] = $course->credits['Single Value'];
+    $csvCourse = $baseCsvCourse;
     
+    $csvCourse['Edition'] = $edition->getYear();
+    $csvCourse['CourseLabel'] = $course->title;
+    $csvCourse['CourseDescription'] = strip_tags(html_entity_decode($course->description));
+    $csvCourse['Units'] = $course->credits['Single Value'];
+    $csvCourse['Prerequisite'] = strip_tags(html_entity_decode($course->prerequisite));
+
     foreach ($course->codes as $listing) {
         $subject = (string)$listing->subjectArea;
         
@@ -30,12 +46,6 @@ foreach ($context->results as $course) {
         $csvCourse['DepartmentAbbr'] = $subject;
         $csvCourse['CourseCode']     = $subject . " " . (string)$listing->courseNumber;
 
-        if ($i == 0) {
-            $delimitArray($delimiter, array_keys($csvCourse));
-        }
-
-        $delimitArray($delimiter, $csvCourse);
-        
-        $i++;
+        $delimitArray(array_intersect_key($csvCourse, $baseCsvCourse));
     }
 }
