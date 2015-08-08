@@ -16,6 +16,4 @@ UNL_UndergraduateBulletin_Controller::setReplacementData('breadcrumbs', '
     </ul>
     ');
 ?>
-<dl>
-    <?php echo $savvy->render($context->course); ?>
-</dl>
+<?php echo $savvy->render($context->course); ?>

@@ -30,7 +30,7 @@ WDN.initializePlugin('jqueryui', [function () {
                 return true;
             } else {
                 if ($(this).closest('form').hasClass('courseFilters')) { //otherwise calculate the count
-                    total = total/2;
+                    total = total;
                 }
                 if ( $(this).next('label').children('.count').length == 0 ) { // if span.count doesn't already exists
                     $('label[for='+this.id+']').append(' <span class="count">('+total+')</span>'); // add the count
@@ -43,30 +43,30 @@ WDN.initializePlugin('jqueryui', [function () {
                 if (this.checked){
                     $('form.filters input').not('.filterAll').removeAttr('checked');
                     $('.filterAll').attr('checked', 'checked');
-                    $('dd.course, dt.course, #majorListing li').show();
+                    $('div.course, #majorListing li').show();
                     $('#filterSummary a').remove();
                     $('#filterSummary').append('<a href="#" class="all">All Options</a>');
                     $('h2.resultCount span').remove();
                 }
             } else {
                 $('.filterAll').removeAttr('checked'); //uncheck the all checkboxes
-                $('dd.course, dt.course, #majorListing li').hide(); //hide all the coures and majors
+                $('div.course, #majorListing li').hide(); //hide all the coures and majors
                 var one_checked = false;
                 $('#filterSummary a').remove();
                 $('form.filters input').not('.filterAll').each(function(){ //loop through all the checkboxes
                     if (this.checked) {
                         one_checked = true;
-                        $('li.'+$(this).attr('value')+', dd.'+$(this).attr('value')+', dt.'+$(this).attr('value')).show(); //if a checkbox is checked, make sure the corresponding content is shown.
+                        $('li.'+$(this).attr('value')+', div.'+$(this).attr('value')).show(); //if a checkbox is checked, make sure the corresponding content is shown.
                         $('#filterSummary a.all').remove();
                         //$('#filterSummary').append(' <a href="#" class="'+$(this).attr('value')+'"><span class="group">'+$(this).closest('fieldset').children('legend').text()+':</span> '+$(this).siblings('label')[0].childNodes[0].nodeValue+'</a>')
                         $('#filterSummary').append('<a href="#" class="'+$(this).attr('value')+'"><span class="group">'+$(this).closest('fieldset').children('legend').text()+':</span> '+$(this).siblings('label').text()+'</a>');
                     }
                 });
-                totalDisplayed = $('dt.course:visible, #majorListing li:visible').length;
+                totalDisplayed = $('div.course:visible, #majorListing li:visible').length;
                 $('h2.resultCount span').remove();
                 $('h2.resultCount').prepend('<span>'+totalDisplayed+' of </span> ');
                 if (one_checked === false) { //no checkboxes are checked, so show all
-                    $('dd.course, dt.course, #majorListing li').show();
+                    $('div.course, #majorListing li').show();
                     $('.filterAll').attr('checked', 'checked');
                     $('h2.resultCount span').remove();
                 }
@@ -142,14 +142,14 @@ WDN.initializePlugin('jqueryui', [function () {
                                 //value is for the input box
                                 //key is used to match highlighted course
                                 rows[i] = {
-                                    label: '<dt class="course">' +
+                                    label: '<div class="course">' +
                                                 '<div class="courseID">' +
                                                     '<span class="subjectCode">' + data[i].courseCodes[0].subject + '</span>' +
                                                     '<span class="number">' + data[i].courseCodes[0].courseNumber + '</span>' +
                                                 '</div>' +
                                                 '<span class="title">' + data[i].title + '</span>' +
                                                 '<span class="key" style="display:none;">' + data[i].courseCodes[0].subject + data[i].courseCodes[0].courseNumber + data[i].title + '</span>' +
-                                            '</dt>',
+                                            '</div>',
                                     value: data[i].courseCodes[0].subject + " " + data[i].courseCodes[0].courseNumber + ": " + data[i].title,
                                     key: data[i].courseCodes[0].subject + data[i].courseCodes[0].courseNumber + data[i].title
                                 };

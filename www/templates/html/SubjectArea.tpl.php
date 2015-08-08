@@ -19,12 +19,8 @@ if (isset($parent->context->options)
         <?php echo $savvy->render($context->getFilters(), 'CourseFilters.tpl.php'); ?>
     </div>
     <div class="bp2-wdn-col-three-fourths">
-        <dl>
-        <?php
-        foreach ($context->courses as $course) {
-            echo $savvy->render($course);
-        }
-        ?>
-        </dl>
+    <?php foreach ($context->courses as $course): ?>
+        <?php echo $savvy->render($course); ?>
+    <?php endforeach; ?>
     </div>
 </div>

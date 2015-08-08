@@ -1,28 +1,4 @@
-/**
- * Course details are in definition lists. dl > dt, and dl > dd.
- */ 
-
-dl {
-	margin-top: 1.899em;
-}
-
-dt {
-	padding: 0;
-	position: relative;
-}
-
-dd {
-	margin: 0 0 3em 0;
-	padding: 0.75em 0 0 0 !important;
-	position: relative;
-}
-@media (min-width: 480px) {
-	dd {
-		padding: 0 !important;
-	}
-}
-
-dt .courseID {
+.courseID {
     float: left;
 	width: 100%;
     border-radius: 0.317em;
@@ -40,6 +16,11 @@ dt .courseID {
     border-bottom: 1px solid #f1f1f1;
     padding: 0 0 0 1em !important;
 }
+
+div.course {
+	margin-bottom: 3em;
+}
+
 .course .subjectCode {
 	position: relative;
 	display: block;
