@@ -16,18 +16,19 @@ class UNL_Services_CourseApproval_Course
      */
     public $codes;
     
-    protected $_getMap = array('credits'         => 'getCredits',
-                               'dfRemoval'       => 'getDFRemoval',
-                               'campuses'        => 'getCampuses',
-                               'deliveryMethods' => 'getDeliveryMethods',
-                               'termsOffered'    => 'getTermsOffered',
-                               'activities'      => 'getActivities',
-                               'aceOutcomes'     => 'getACEOutcomes',
-                               );
+    protected $_getMap = array(
+        'credits' => 'getCredits',
+        'dfRemoval' => 'getDFRemoval',
+        'campuses' => 'getCampuses',
+        'deliveryMethods' => 'getDeliveryMethods',
+        'termsOffered' => 'getTermsOffered',
+        'activities' => 'getActivities',
+        'aceOutcomes' => 'getACEOutcomes',
+    );
 
     protected $ns_prefix = '';
 
-    function __construct(SimpleXMLElement $xml)
+    public function __construct(SimpleXMLElement $xml)
     {
         $this->_internal = $xml;
         //Fetch all namespaces
@@ -45,14 +46,13 @@ class UNL_Services_CourseApproval_Course
         $this->codes = new UNL_Services_CourseApproval_Course_Codes($this->_internal->courseCodes->children());
     }
     
-    function __get($var)
+    public function __get($var)
     {
         if (array_key_exists($var, $this->_getMap)) {
             return $this->{$this->_getMap[$var]}();
         }
 
-        if (isset($this->_internal->$var)
-            && count($this->_internal->$var->children())) {
+        if (isset($this->_internal->$var)  && count($this->_internal->$var->children())) {
             if (isset($this->_internal->$var->div)) {
                 return str_replace(' xmlns="http://www.w3.org/1999/xhtml"', 
                                    '',
@@ -60,49 +60,53 @@ class UNL_Services_CourseApproval_Course
             }
         }
 
-        return (string)$this->_internal->$var;
+        return (string) $this->_internal->$var;
     }
     
-    function __isset($var)
+    public function __isset($var)
     {
-        $elements = $this->_internal->xpath($this->ns_prefix.$var);
+        $elements = $this->_internal->xpath($this->ns_prefix . $var);
         if (count($elements)) {
             return true;
         }
         return false;
     }
     
-    function getCampuses()
+    public function getCampuses()
     {
         return $this->getArray('campuses');
     }
     
-    function getTermsOffered()
+    public function getTermsOffered()
     {
         return $this->getArray('termsOffered');
     }
     
-    function getDeliveryMethods()
+    public function getDeliveryMethods()
     {
         return $this->getArray('deliveryMethods');
     }
     
-    function getActivities()
+    public function getActivities()
     {
         return new UNL_Services_CourseApproval_Course_Activities($this->_internal->activities->children());
     }
     
-    function getACEOutcomes()
+    public function getACEOutcomes()
     {
         return $this->getArray('aceOutcomes');
     }
     
-    function getArray($var)
+    public function getArray($var)
     {
         $results = array();
-        foreach ($this->_internal->$var->children() as $el) {
-            $results[] = (string)$el;
+        
+        if (isset($this->_internal->$var)) {
+            foreach ($this->_internal->$var->children() as $el) {
+                $results[] = (string)$el;
+            }
         }
+        
         return $results;
     }
     
@@ -111,7 +115,7 @@ class UNL_Services_CourseApproval_Course
      * 
      * @return UNL_Services_CourseApproval_Course_Credits
      */
-    function getCredits()
+    public function getCredits()
     {
         if (!$this->_internal->credits) {
             return array();
@@ -124,7 +128,7 @@ class UNL_Services_CourseApproval_Course
      * 
      * @return bool
      */
-    function getDFRemoval()
+    public function getDFRemoval()
     {
         if ($this->_internal->dfRemoval == 'true') {
             return true;
@@ -197,15 +201,16 @@ class UNL_Services_CourseApproval_Course
      *
      * @return UNL_Services_CourseApproval_Courses
      */
-    function getSubsequentCourses($search_driver = null)
+    public function getSubsequentCourses($search_driver = null)
     {
         $searcher = new UNL_Services_CourseApproval_Search($search_driver);
+        $homeListing = $this->getHomeListing();
 
-        $query = $this->getHomeListing()->subjectArea.' '.$this->getHomeListing()->courseNumber;
+        $query = $homeListing->subjectArea . ' ' . $homeListing->courseNumber;
         return $searcher->byPrerequisite($query);
     }
     
-    function asXML()
+    public function asXML()
     {
         return $this->_internal->asXML();
     }
@@ -213,53 +218,63 @@ class UNL_Services_CourseApproval_Course
     public static function getPossibleActivities()
     {
         //Value=>Description
-        return array('lec' => 'Lecture',
-                     'lab' => 'Lab',
-                     'stu' => 'Studio',
-                     'fld' => 'Field',
-                     'quz' => 'Quiz',
-                     'rct' => 'Recitation',
-                     'ind' => 'Independent Study',
-                     'psi' => 'Personalized System of Instruction');
+        return array(
+            'lec' => 'Lecture',
+            'lab' => 'Lab',
+            'stu' => 'Studio',
+            'fld' => 'Field',
+            'quz' => 'Quiz',
+            'rct' => 'Recitation',
+            'ind' => 'Independent Study',
+            'psi' => 'Personalized System of Instruction',
+        );
     }
 
     public static function getPossibleAceOutcomes()
     {
         //Value=>Description
-        return array(1  => 'ACE 1',
-                     2  => 'ACE 2',
-                     3  => 'ACE 3',
-                     4  => 'ACE 4',
-                     5  => 'ACE 5',
-                     6  => 'ACE 6',
-                     7  => 'ACE 7',
-                     8  => 'ACE 8',
-                     9  => 'ACE 9',
-                     10 => 'ACE 10');
+        return array(
+            1 => 'ACE 1',
+            2 => 'ACE 2',
+            3 => 'ACE 3',
+            4 => 'ACE 4',
+            5 => 'ACE 5',
+            6 => 'ACE 6',
+            7 => 'ACE 7',
+            8 => 'ACE 8',
+            9 => 'ACE 9',
+            10 => 'ACE 10',
+        );
     }
 
     public static function getPossibleCampuses()
     {
         //Value=>Description
-        return array('UNL'  => 'University of Nebraska Lincoln',
-                     'UNO'  => 'University of Nebraska Omaha',
-                     'UNMC' => 'University of Nebraska Medical University',
-                     'UNK'  => 'University of Nebraska Kearney');
+        return array(
+            'UNL' => 'University of Nebraska Lincoln',
+            'UNO' => 'University of Nebraska Omaha',
+            'UNMC' => 'University of Nebraska Medical University',
+            'UNK' => 'University of Nebraska Kearney',
+        );
     }
 
     public static function getPossibleDeliveryMethods()
     {
         //Value=>Description
-        return array('Classroom'      => 'Classroom',
-                     'Web'            => 'Online',
-                     'Correspondence' => 'Correspondence');
+        return array(
+            'Classroom'      => 'Classroom',
+            'Web'            => 'Online',
+            'Correspondence' => 'Correspondence',
+        );
     }
 
     public static function getPossibleTermsOffered()
     {
         //Value=>Description
-        return array('Fall'   => 'Fall',
-                     'Spring' => 'Spring',
-                     'Summer' => 'Summer');
+        return array(
+            'Fall'   => 'Fall',
+            'Spring' => 'Spring',
+            'Summer' => 'Summer',
+        );
     }
 }
