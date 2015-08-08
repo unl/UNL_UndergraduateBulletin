@@ -1266,13 +1266,13 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1161</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">STAT 882</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">STAT 882.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Interval estimation; point estimation, sufficiency and completeness; Bayesian procedures; uniformly most powerful tests, sequential probability ratio test, likelihood ratio test, goodness of fit tests; elements of analysis of variance and nonparametric tests.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Interval estimation; point estimation, sufficiency and completeness; Bayesian procedures; uniformly most powerful tests, likelihood ratio test, goodness of fit tests.</div>
     </description>
     <campuses>
       <campus></campus>
@@ -1280,7 +1280,12 @@
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
@@ -1559,7 +1564,7 @@
     </credits>
   </course>
   <course>
-    <title>Bootstrap Methods and Their Application</title>
+    <title>Computational Statistics I</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>STAT</subject>
@@ -1567,13 +1572,13 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1161</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">STAT *883; STAT *870 or 970; prior experience with “R” software</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">STAT *883; STAT 971 or concurrent enrollment; prior experience with “R” software.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Application, theory, and computational aspects of the bootstrap. Parametric, nonparametric, and jackknife re-sampling; influence function and nonparametric delta method; bootstrap confidence intervals and hypothesis tests; permutation tests; applications to regression; implementation using statistical software.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Statistical computing needed for research and advanced statistical analyses. Topics include: bootstrap, high performance computing, jackknife, Linux, Markov chain Monte Carlo, Monte Carlo simulation, numerical differentiation and integration, optimization, parallel processing, permutation tests.</div>
     </description>
     <campuses>
       <campus></campus>

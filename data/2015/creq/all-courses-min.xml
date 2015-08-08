@@ -1139,6 +1139,22 @@
     </courseCodes>
   </course>
   <course>
+    <title>Advertising and Public Relations Campaigns</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ADPR</subject>
+        <courseNumber>489</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>ADPR</subject>
+        <courseNumber>889</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <aceOutcomes>
+      <slo>10</slo>
+    </aceOutcomes>
+  </course>
+  <course>
     <title>Special Topics in Advertising</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -1198,6 +1214,15 @@
       <courseCode type="home listing">
         <subject>ADPR</subject>
         <courseNumber>881</courseNumber>
+      </courseCode>
+    </courseCodes>
+  </course>
+  <course>
+    <title>Brands &amp; Branding</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ADPR</subject>
+        <courseNumber>884</courseNumber>
       </courseCode>
     </courseCodes>
   </course>
@@ -7428,9 +7453,6 @@
         <courseNumber>851</courseNumber>
       </courseCode>
     </courseCodes>
-    <gradPrerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Admission to the Masters Program and permission.</div>
-    </gradPrerequisite>
   </course>
   <course>
     <title>Behavioral and Social Factors in Environmental Design</title>
@@ -7625,9 +7647,6 @@
         <courseNumber>884</courseNumber>
       </courseCode>
     </courseCodes>
-    <gradPrerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Admission to the MArch program or with permission from the instructor.</div>
-    </gradPrerequisite>
   </course>
   <course>
     <title>Senior Inspection Trip</title>
@@ -7767,19 +7786,6 @@
     </courseCodes>
   </course>
   <course>
-    <title>Advanced Elements of Building Construction</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ARCH</subject>
-        <courseNumber>530</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>ARCH</subject>
-        <courseNumber>830</courseNumber>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
     <title>Architectural Structures III</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -7789,19 +7795,6 @@
       <courseCode type="crosslisting">
         <subject>ARCH</subject>
         <courseNumber>831</courseNumber>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
-    <title>Production Drawings</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ARCH</subject>
-        <courseNumber>532</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>ARCH</subject>
-        <courseNumber>832</courseNumber>
       </courseCode>
     </courseCodes>
   </course>
@@ -7821,19 +7814,6 @@
     </courseCodes>
   </course>
   <course>
-    <title>Architectural Systems Design II</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ARCH</subject>
-        <courseNumber>533</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>ARCH</subject>
-        <courseNumber>833</courseNumber>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
     <title>Daylighting and Energy</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -7843,75 +7823,6 @@
       <courseCode type="crosslisting">
         <subject>ARCH</subject>
         <courseNumber>836</courseNumber>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
-    <title>Architecture, Society, and Culture I</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ARCH</subject>
-        <courseNumber>545</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>ARCH</subject>
-        <courseNumber>845</courseNumber>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
-    <title>Environmental Survey and Analysis</title>
-    <courseCodes>
-      <courseCode type="crosslisting">
-        <subject>CRPL</subject>
-        <courseNumber>872</courseNumber>
-      </courseCode>
-      <courseCode type="home listing">
-        <subject>ARCH</subject>
-        <courseNumber>560</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>ARCH</subject>
-        <courseNumber>860</courseNumber>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
-    <title>Urban Form Typology</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ARCH</subject>
-        <courseNumber>562</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>ARCH</subject>
-        <courseNumber>862</courseNumber>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
-    <title>Urban Design I</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ARCH</subject>
-        <courseNumber>564</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>ARCH</subject>
-        <courseNumber>864</courseNumber>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
-    <title>Urban Design II</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ARCH</subject>
-        <courseNumber>565</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>ARCH</subject>
-        <courseNumber>865</courseNumber>
       </courseCode>
     </courseCodes>
   </course>
@@ -8016,19 +7927,6 @@
       <courseCode type="crosslisting">
         <subject>ARCH</subject>
         <courseNumber>991</courseNumber>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
-    <title>Seminar in Architecture</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ARCH</subject>
-        <courseNumber>692</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>ARCH</subject>
-        <courseNumber>992</courseNumber>
       </courseCode>
     </courseCodes>
   </course>
@@ -30886,23 +30784,6 @@
     </courseCodes>
   </course>
   <course>
-    <title>Toxins in the Environment</title>
-    <courseCodes>
-      <courseCode type="crosslisting">
-        <subject>BIOS</subject>
-        <courseNumber>300</courseNumber>
-      </courseCode>
-      <courseCode type="home listing">
-        <subject>ENTO</subject>
-        <courseNumber>300</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>NRES</subject>
-        <courseNumber>300</courseNumber>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
     <title>Management of Field Crop Insects</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -44083,6 +43964,26 @@
       <courseCode type="home listing">
         <subject>LAW</subject>
         <courseNumber>518</courseNumber>
+        <courseLetter>G</courseLetter>
+      </courseCode>
+    </courseCodes>
+  </course>
+  <course>
+    <title>Litigation Capstone: Labor/Employment Focus</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>LAW</subject>
+        <courseNumber>585</courseNumber>
+        <courseLetter>G</courseLetter>
+      </courseCode>
+    </courseCodes>
+  </course>
+  <course>
+    <title>Disaster Law</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>LAW</subject>
+        <courseNumber>586</courseNumber>
         <courseLetter>G</courseLetter>
       </courseCode>
     </courseCodes>
@@ -59456,18 +59357,6 @@
     </aceOutcomes>
   </course>
   <course>
-    <title>Metaphysics: Ancient and Medieval</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>PHIL</subject>
-        <courseNumber>338</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <aceOutcomes>
-      <slo>5</slo>
-    </aceOutcomes>
-  </course>
-  <course>
     <title>Contemporary Analytical Philosophy</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -68805,7 +68694,7 @@
     </courseCodes>
   </course>
   <course>
-    <title>Bootstrap Methods and Their Application</title>
+    <title>Computational Statistics I</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>STAT</subject>
