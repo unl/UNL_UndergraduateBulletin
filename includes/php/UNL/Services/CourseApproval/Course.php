@@ -1,6 +1,26 @@
 <?php 
 class UNL_Services_CourseApproval_Course
 {
+    const DEFAULT_NS = 'default';
+    const DEFAULT_NS_PREFIX = 'default:';
+    
+    const COURSE_CODE_TYPE_HOME = 'home listing';
+    const COURSE_CODE_TYPE_CROSS = 'crosslisting';
+    const COURSE_CODE_TYPE_GRAD = 'grad tie-in';
+    
+    /**
+     * The subject area the course was loaded for/from
+     * 
+     * @var string $subject
+     */
+    public $subject;
+    
+    /**
+     * The listing to use to render listing specific information
+     * 
+     * @var UNL_Services_CourseApproval_Listing $renderListing
+     */
+    protected $renderListing;
     
     /**
      * The internal object
@@ -33,17 +53,16 @@ class UNL_Services_CourseApproval_Course
         $this->_internal = $xml;
         //Fetch all namespaces
         $namespaces = $this->_internal->getNamespaces(true);
-        if (isset($namespaces[''])
-            && $namespaces[''] == 'http://courseapproval.unl.edu/courses') {
-            $this->_internal->registerXPathNamespace('default', $namespaces['']);
-            $this->ns_prefix = 'default:';
+        if (isset($namespaces['']) && $namespaces[''] == 'http://courseapproval.unl.edu/courses') {
+            $this->_internal->registerXPathNamespace(self::DEFAULT_NS, $namespaces['']);
+            $this->ns_prefix = self::DEFAULT_NS_PREFIX;
 
             //Register the rest with their prefixes
             foreach ($namespaces as $prefix => $ns) {
                 $this->_internal->registerXPathNamespace($prefix, $ns);
             }
         }
-        $this->codes = new UNL_Services_CourseApproval_Course_Codes($this->_internal->courseCodes->children());
+        $this->codes = new UNL_Services_CourseApproval_Course_Codes($this, $this->_internal->courseCodes->children());
     }
     
     public function __get($var)
@@ -54,9 +73,7 @@ class UNL_Services_CourseApproval_Course
 
         if (isset($this->_internal->$var)  && count($this->_internal->$var->children())) {
             if (isset($this->_internal->$var->div)) {
-                return str_replace(' xmlns="http://www.w3.org/1999/xhtml"', 
-                                   '',
-                                   html_entity_decode($this->_internal->$var->div->asXML()));
+                return strip_tags(html_entity_decode($this->_internal->$var->div->asXML()));
             }
         }
 
@@ -137,6 +154,29 @@ class UNL_Services_CourseApproval_Course
         return false;
     }
     
+    public function setRenderListing(UNL_Services_CourseApproval_Listing $listing) {
+        $this->renderListing = $listing;
+    }
+    
+    public function getRenderListing()
+    {
+        if (!$this->renderListing) {
+            if (isset($this->subject)) {
+                foreach ($this->codes as $listing) {
+                    if ($listing->subjectArea == $this->subject) {
+                        return $listing;
+                    }
+                }
+                
+                return null;
+            } else {
+                return $this->getHomeListing();
+            }
+        }
+        
+        return $this->renderListing;
+    }
+    
     /**
      * Verifies that the course number is in the correct format.
      * 
@@ -179,17 +219,47 @@ class UNL_Services_CourseApproval_Course
         return $groups;
     }
     
-    function getHomeListing()
+    protected function getCourseCodeByType($type)
     {
-        $home_listing = $this->_internal->xpath($this->ns_prefix.'courseCodes/'.$this->ns_prefix.'courseCode[@type="home listing"]');
-        if ($home_listing === false
-            || count($home_listing) < 1) {
-            return false;
+        return $this->_internal->xpath($this->ns_prefix . 'courseCodes/' . $this->ns_prefix . 'courseCode[@type="' . $type . '"]');
+    }
+    
+    public function getHomeListing()
+    {
+        return $this->getListingByType(self::COURSE_CODE_TYPE_HOME);
+    }
+    
+    /**
+     * Returns a listing object the represents the interal courseCode with the given type
+     * 
+     * @param string $type
+     * @return UNL_Services_CourseApproval_Listing
+     */
+    public function getListingByType($type)
+    {
+        $courseCode = $this->getCourseCodeByType($type);
+        
+        if (empty($courseCode)) {
+            return null;
         }
-        $number = UNL_Services_CourseApproval_Course::courseNumberFromCourseCode($home_listing[0]);
-        return new UNL_Services_CourseApproval_Listing($home_listing[0]->subject,
-                                                     $number,
-                                                     UNL_Services_CourseApproval_Course::getListingGroups($home_listing[0]));
+        
+        return $this->getListingFromCourseCode(current($courseCode));
+    }
+    
+    /**
+     * Returns a listing object that represents the internal courseCode
+     * 
+     * @param SimpleXMLElement $xml XML Object representing the courseCode
+     * @return UNL_Services_CourseApproval_Listing
+     */
+    public function getListingFromCourseCode($xml)
+    {
+        $type = $xml['type'];
+        $subject = $xml->subject;
+        $number = self::courseNumberFromCourseCode($xml);
+        $groups = self::getListingGroups($xml);
+        
+        return new UNL_Services_CourseApproval_Listing($this, $subject, $number, $type, $groups);
     }
 
     /**

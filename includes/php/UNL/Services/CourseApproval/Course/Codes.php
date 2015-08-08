@@ -6,14 +6,18 @@
  */
 class UNL_Services_CourseApproval_Course_Codes extends ArrayIterator
 {
-
+    protected $course;
+    
 	/**
 	 * Array of results, usually from an xpath query
 	 * 
+	 * @param UNL_Services_CourseApproval_Course $course
 	 * @param array $courseCodes
 	 */
-    function __construct($courseCodes)
+    function __construct(UNL_Services_CourseApproval_Course $course, $courseCodes)
     {
+        $this->course = $course;
+        
         $codes = array();
         foreach ($courseCodes as $code) {
             $codes[] = $code;
@@ -28,10 +32,8 @@ class UNL_Services_CourseApproval_Course_Codes extends ArrayIterator
      */
     function current()
     {
-        $number = UNL_Services_CourseApproval_Course::courseNumberFromCourseCode(parent::current());
-        return new UNL_Services_CourseApproval_Listing(parent::current()->subject,
-                                                     $number,
-                                                     UNL_Services_CourseApproval_Course::getListingGroups(parent::current()));
+        $codeXml = parent::current();
+        return $this->course->getListingFromCourseCode($codeXml);
     }
 
     /**
