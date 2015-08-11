@@ -10,6 +10,6 @@ $groupCount = count($groups);
         <?php foreach ($groups as $i => $group): ?>
         	<?php echo $group ?><?php if (++$i < $groupCount): ?>, <?php endif; ?>
     	<?php endforeach;?>
-       ></td>
+       </td>
    </tr>
 <?php endif; ?>
