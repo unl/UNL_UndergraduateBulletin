@@ -230,7 +230,7 @@ class UNL_Services_CourseApproval_Course
     }
     
     /**
-     * Returns a listing object the represents the interal courseCode with the given type
+     * Returns the first listing object that represents the interal courseCode with the given type
      * 
      * @param string $type
      * @return UNL_Services_CourseApproval_Listing
@@ -244,6 +244,28 @@ class UNL_Services_CourseApproval_Course
         }
         
         return $this->getListingFromCourseCode(current($courseCode));
+    }
+    
+    /**
+     * Returns all of the listing objects that match the given type
+     * 
+     * @param string $type
+     * @return UNL_Services_CourseApproval_Listing[]
+     */
+    public function getListingsByType($type)
+    {
+        $listings = array();
+        $courseCode = $this->getCourseCodeByType($type);
+        
+        if (empty($courseCode)) {
+            return $listings;
+        }
+        
+        foreach ($courseCode as $courseCodeXml) {
+            $listings[] = $this->getListingFromCourseCode($courseCodeXml);
+        }
+        
+        return $listings;
     }
     
     /**
