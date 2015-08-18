@@ -19,7 +19,7 @@ $url = UNL_UndergraduateBulletin_Controller::getURL();
             <li><a href="<?php echo $url; ?>other/Transfer">Undergraduate Transfer Credit Policy</a></li>
             <li><a href="<?php echo $url; ?>other/General+Education+Requirements+(ACE)">General Education (ACE)</a></li>
             <li><a href="<?php echo $url; ?>other/Academic+Policies+%26+Procedures#glossary-of-academic-and-advising-terms">Glossary of Academic and Advising Terms</a></li>
-            <li><a href="http://stuafs.unl.edu/ja/code" title="Go to the Student Code of Conduct">Student Code of Conduct</a></li>
+            <li><a href="http://stuafs.unl.edu/dos/code">Student Code of Conduct</a></li>
         </ul>
     </li>
     <li><a href="<?php echo $url; ?>college/">Academic Colleges</a>
