@@ -11,7 +11,7 @@ class UNL_UndergraduateBulletin_MajorList extends ArrayIterator  implements
     function __construct($options = array())
     {
         $this->options = $options + $this->options;
-        $majors = glob(UNL_UndergraduateBulletin_Controller::getEdition()->getDataDir().'/majors/*.xhtml', GLOB_NOSORT);
+        $majors = glob(UNL_UndergraduateBulletin_Controller::getEdition()->getDataDir().'/majors/*.xhtml');
         return parent::__construct($majors);
     }
     
