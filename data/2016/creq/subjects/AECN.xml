@@ -32,6 +32,50 @@
     </credits>
   </course>
   <course>
+    <title>Water in Society</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>SCIL</subject>
+        <courseNumber>109</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>NRES</subject>
+        <courseNumber>109</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>AECN</subject>
+        <courseNumber>109</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1161</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">none</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to the scientific, social, and economic dimensions of historical and contemporary water systems.  Students will develop an understanding of hydrologic systems and analyze and engage in decision-making about complex challenges associated with water resource use.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Introduction to the Economics of Agriculture</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -416,6 +460,42 @@
     <activities>
       <activity>
         <type>lec</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Grain Merchandising</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>AECN</subject>
+        <courseNumber>336</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">AECN 325</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Study of grain merchandising concepts, tools, and strategies as they relate to grain buyers.  Focus on integration of topics from this course and AECN 325 to help students understand how grain is traded from the grain buyer’s perspective.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
       </activity>
     </activities>
     <credits>
@@ -877,6 +957,45 @@
     <aceOutcomes>
       <slo>10</slo>
     </aceOutcomes>
+  </course>
+  <course>
+    <title>Commodity Price Forecasting</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>AECN</subject>
+        <courseNumber>436</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1161</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">(1) ECON 215 (Statistics) or STAT 218 (Introduction to Statistics)<br/>(2) ECON 212 (Principles of  Microeconomics) or AECN 141 (Introduction to Economics of Agriculture)</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Recommended course (but not required): AECN 325 (Marketing of Agricultural Commodities)</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Participants in commodity markets are constantly trying to forecast prices, since a sound analysis of expected prices in the future is important in many dimensions for producers, merchandisers and all market participants. The overall objective of this course is to teach students how to analyze and forecast commodity prices using fundamental and technical approaches. The most common techniques from each approach will be discussed, focusing on how they can be implemented, their advantages and disadvantages, how they differ and how they can complement each other.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
   </course>
   <course>
     <title>Agricultural and Natural Resource Policy Analysis</title>

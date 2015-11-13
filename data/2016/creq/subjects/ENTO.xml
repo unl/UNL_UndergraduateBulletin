@@ -245,6 +245,47 @@
     </credits>
   </course>
   <course>
+    <title>Toxins in the Environment</title>
+    <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>BIOS</subject>
+        <courseNumber>300</courseNumber>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>ENTO</subject>
+        <courseNumber>300</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>NRES</subject>
+        <courseNumber>300</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1161</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">One semester BIOS and one semester CHEM.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to the principles of toxicology as they apply to environmental contaminants, agri-chemicals, and industrial and naturally occurring chemicals.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Management of Field Crop Insects</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -253,14 +294,11 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1161</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">BIOS 101 and 101L or permission; ENTO 115 recommended.</div>
     </prerequisite>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Offered spring semester.</div>
-    </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Injurious and beneficial insects and pest management practices associated with field crop insects and mites.</div>
     </description>
@@ -270,9 +308,6 @@
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
-    <termsOffered>
-      <term>Spring</term>
-    </termsOffered>
     <activities/>
     <credits>
       <credit type="Single Value">3</credit>
@@ -287,13 +322,13 @@
       </courseCode>
     </courseCodes>
     <gradingType>pass/no pass only</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1161</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Junior standing; introductory courses in entomology; and permission prior to enrolling.</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">P/N only. Course must be concluded with preparation of a written report. Offered first five-week summer session.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">P/N only. Course must be concluded with preparation of a written report.</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Career experience in applied practices is provided via employment with an entomology-related agency, business or industry, research, extension, or teaching activity.</div>
@@ -304,9 +339,6 @@
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
-    <termsOffered>
-      <term>Summer</term>
-    </termsOffered>
     <activities/>
     <credits>
       <credit type="Lower Range Limit">1</credit>
@@ -451,13 +483,10 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1138</effectiveSemester>
+    <effectiveSemester>1161</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">ENTO 115 or graduate standing.</div>
     </prerequisite>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Offered fall semester of even-numbered calendar years.</div>
-    </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Survey of orders and common families of insects with emphasis on biology, ecology, and phylogeny.  Sight recognition of major orders and families, identification of other families with keys. Insect collection required.</div>
     </description>
@@ -467,9 +496,6 @@
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-    </termsOffered>
     <activities>
       <activity>
         <type>lab</type>
@@ -1199,14 +1225,11 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1138</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1161</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">12 hrs. of biological sciences, graduate standing and ENTO 116 or equivalent for entomology majors.</div>
     </prerequisite>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Offered fall semester of odd-numbered years.</div>
-    </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Classification, taxonomy, and biology of adult insects.  Identification of orders and families of insects using keys.  Collection required using techniques for collecting, preparing, and curating.  One oral/written term paper required.</div>
     </description>
@@ -1216,9 +1239,6 @@
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-    </termsOffered>
     <activities>
       <activity>
         <type>lab</type>
@@ -1243,13 +1263,13 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1141</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1161</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">CHEM 251 or CHEM 255; 12 hrs. entomology or biological sciences (zoology).</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Offered spring semester of even-numbered calendar years.  Must also register for required lecture ENTO 801.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Must also register for required lecture ENTO 801.</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Functions and other phenomena associated with the major organ systems of insects; the cuticle, nervous, circulatory, digestive, metabolism, nutrition, locomotion, reproduction, respiration, and growth and development.</div>
@@ -1260,9 +1280,6 @@
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
-    <termsOffered>
-      <term>Spring</term>
-    </termsOffered>
     <activities>
       <activity>
         <type>lab</type>
@@ -1286,13 +1303,10 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1141</effectiveSemester>
+    <effectiveSemester>1161</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">12 hrs biological sciences and/or agricultural sciences</div>
     </prerequisite>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">ENTO/PLPT 813 is offered spring semester of even-numbered calendar years. ENTO/PLPT 813 is also offered on the Internet via the World Wide Web (WWW) in the spring semester of even-numbered calendar years.</div>
-    </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Principles and practices of using natural enemies and antagonists to manage the abundance of pests and reduce economic losses.</div>
     </description>
@@ -1300,12 +1314,8 @@
       <campus>UNL</campus>
     </campuses>
     <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
       <deliveryMethod>Web</deliveryMethod>
     </deliveryMethods>
-    <termsOffered>
-      <term>Spring</term>
-    </termsOffered>
     <activities>
       <activity>
         <type>lec</type>
@@ -1427,14 +1437,11 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1161</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">10 hrs entomology and crop production courses or permission</div>
     </prerequisite>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">ENTO *817 is offered fall semester of odd-numbered calendar years.</div>
-    </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Different philosophies and theories of insect pest management, theory vs. reality of management, interactions of public and private sectors, development and implementation of pest management programs.</div>
     </description>
@@ -1444,9 +1451,6 @@
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-    </termsOffered>
     <activities/>
     <credits>
       <credit type="Single Value">3</credit>
@@ -1501,13 +1505,10 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1131</effectiveSemester>
+    <effectiveSemester>1161</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Introductory course in entomology.</div>
     </prerequisite>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">*ENTO 819 is offered fall semesters of odd-numbered calendar years on the Internet via the World Wide Web (WWW).</div>
-    </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">The process of behavioral study involves investigating the relationship between animals and their surroundings, and their response to their kin and to other organisms.  Topics include charaterizing how insects find and defend their resources, how they avoid predators, how they find mates, how they mate, and how some exist in highly ordered social settings.</div>
     </description>
@@ -1517,9 +1518,6 @@
     <deliveryMethods>
       <deliveryMethod>Web</deliveryMethod>
     </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-    </termsOffered>
     <activities>
       <activity>
         <type>lec</type>
@@ -1540,13 +1538,10 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1131</effectiveSemester>
+    <effectiveSemester>1161</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">12 hrs biological sciences; 4 hrs organic chemistry</div>
     </prerequisite>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">ENTO *820 is offered fall semester of odd-numbered calendar years and also on the Internet via the World Wide Web (WWW).</div>
-    </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Principles of toxicology, insecticide classification, mode of action, metabolism and consequences of insecticide use.</div>
     </description>
@@ -1557,9 +1552,6 @@
       <deliveryMethod>Classroom</deliveryMethod>
       <deliveryMethod>Web</deliveryMethod>
     </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-    </termsOffered>
     <activities>
       <activity>
         <type>lec</type>
@@ -1580,13 +1572,10 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1131</effectiveSemester>
+    <effectiveSemester>1161</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">An introductory entomology course.</div>
     </prerequisite>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">ENTO *825 is offered on the Internet via the World Wide Web (WWW) and requires access to a computer, email, and the Internet.</div>
-    </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Identification, biology, ecology and management of insect pests of agronomic crops such as corn, soybeans, sorghum, wheat, and alfalfa. Integrated Pest Management (IPM) strategies employed to maintain pests below damaging levels while minimizing the use of traditional insecticides</div>
     </description>
@@ -1620,13 +1609,10 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1131</effectiveSemester>
+    <effectiveSemester>1161</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">12 hrs agricultural and/or biological sciences.</div>
     </prerequisite>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">ENTO *826 is offered spring semester of even-numbered calendar years.</div>
-    </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Prepare scientifically accurate, high quality illustrations and graphics for the teaching, presentation, and publication of scientific information. Drawing techniques, drafting, copyright, and publication and presentation of scientific art work.</div>
     </description>
@@ -1636,9 +1622,6 @@
     <deliveryMethods>
       <deliveryMethod>Web</deliveryMethod>
     </deliveryMethods>
-    <termsOffered>
-      <term>Spring</term>
-    </termsOffered>
     <activities>
       <activity>
         <type>ind</type>
@@ -1794,18 +1777,17 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1161</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Presentation of topics in entomology or related subjects.</div>
+    </description>
     <campuses>
       <campus></campus>
     </campuses>
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-    </termsOffered>
     <activities/>
     <credits>
       <credit type="Single Value">1</credit>
@@ -1821,8 +1803,8 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1128</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1161</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Permission.</div>
     </prerequisite>
@@ -1833,12 +1815,8 @@
       <campus>UNL</campus>
     </campuses>
     <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
       <deliveryMethod>Web</deliveryMethod>
     </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-    </termsOffered>
     <activities>
       <activity>
         <type>lab</type>

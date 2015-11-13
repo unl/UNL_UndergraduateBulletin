@@ -3008,6 +3008,49 @@
     </credits>
   </course>
   <course>
+    <title>The Middle Level Curriculum</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>446</courseNumber>
+        <courseLetter>A</courseLetter>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>TEAC</subject>
+        <courseNumber>846</courseNumber>
+        <courseLetter>A</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1161</effectiveSemester>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Required for all Elementary Education majors on the Middle Level Pathway advising sheet and secondary Special Education majors.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Explores the six content areas found in most middle level curricula: Math, Science, Social Studies, Art, Reading and Language Arts.  Subject area content and pedagogy appropriate for young adolescents (10-14 years) and how the subject content areas can be integrated in the classroom.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+      <deliveryMethod>Web</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Middle Level Teacher-Based Advising</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -4365,10 +4408,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1121</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1161</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">SPED 400/800, SPED 412/812, and (TEAC 441 required for undergraduate students only). Parallel SPED 406A/806A.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">SPED 212/812, and (TEAC 441 required for undergraduate students only). Parallel SPED 406A/806A.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Theory and techniques for assessing and teaching word identification, vocabulary, comprehension and writing skills in grades 7 to 12.</div>
@@ -4417,7 +4460,7 @@
     <dfRemoval>false</dfRemoval>
     <effectiveSemester>1121</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">SPED 400/800, 412/812, and (TEAC 441 required for undergraduate students only). Taken parallel with SPED 406/806.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">SPED 400/800, 212/812, and (TEAC 441 required for undergraduate students only). Taken parallel with SPED 406/806.</div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">SPED 406A/806A requires two hours per week in a Reading Center.</div>

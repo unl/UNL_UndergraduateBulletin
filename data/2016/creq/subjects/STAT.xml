@@ -686,6 +686,44 @@
     </credits>
   </course>
   <course>
+    <title>Alpha Seminar</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>STAT</subject>
+        <courseNumber>810</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>pass/no pass only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Statistics graduate student.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Program requirements, resources available, tips for academic success, professional statistical organizations, career paths, history of statistics, ethics, statistical conferences, statistical blogs and online forums, frequentist and Bayesian paradigms, current research in department.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>1</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">1</credit>
+    </credits>
+  </course>
+  <course>
     <title>Statistics for Middle-Level Teachers</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -903,6 +941,44 @@
     </credits>
   </course>
   <course>
+    <title>Computing Tools for Statisticians</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>STAT</subject>
+        <courseNumber>850</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">STAT 801 or equivalent; STAT 462, 880, or equivalent is recommended.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introductions to statistical computing packages and document preparation software. Topics include: graphical techniques, data management, Monte Carlo simulation, dynamic document preparation, presentation software.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>2</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">2</credit>
+    </credits>
+  </course>
+  <course>
     <title>Applied Variance Component Estimation in Livestock Genetics</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -917,13 +993,13 @@
       </courseCode>
     </courseCodes>
     <gradingType>letter grade only</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1158</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">ASCI 862V.</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">This is a 5-week course taught by Speidel and Enns (Colorado State University).</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">This is a 5-week course taught by Speidel and Enns (Colorado State University). Permission required before registering. Contact the Animal Science Department at 402-472-6440.</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Principles in the estimation of (co)variance components and genetic parameters required to solve mixed models typical in livestock genetics. Focus on applied knowledge of approaches used to estimate the G and R sub-matrices of the mixed model equations. Demonstrate models commonly used in parameter estimation. Introduce scientific literature concerning implementation, and attributes of the solutions, of variance component estimation strategies.</div>
@@ -1597,6 +1673,44 @@
     </credits>
   </course>
   <course>
+    <title>Computational Statistics II</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>STAT</subject>
+        <courseNumber>951</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">STAT 950; knowledge of a high-level programming language is recommended.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">A continuation of Computational Statistics I. Topics will be chosen from big data management and data analysis, data generation, high performance and throughput computing, importance sampling, machine learning, optimization, programming languages, web scraping, working with databases.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Matrix Algebra Applications in Statistics</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -1786,13 +1900,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">MATH *825</div>
-    </prerequisite>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Probability spaces and random variables, expectations and fundamental inequalities, characteristic functions, four types of convergence, central limit theorem, introduction to stochastic processes.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Construction of probability spaces, random variables and expectations, monotone and dominated convergence theorems, Fatou's lemma, modes of convergence, Kolmogorov law of large numbers, central limit theory, conditional probability given a sigma field.<br/><br/></div>
     </description>
     <campuses>
       <campus></campus>
@@ -1800,6 +1911,45 @@
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Advanced Probability Measures</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>STAT</subject>
+        <courseNumber>981</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">STAT 980.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">This course is intended primarily for Statistics PhD students who theory oriented.  PhD students interested in applications and computing may also take this course for depth in probability theory.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">A primarily theoretical continuation of STAT 980.  Depth in probability theory and stochastic processes.  Mathematical foundations undergirding the use of probabilistic reasoning in statistics.   Topics include searching examinations of the proofs of major theorems in statistics and a sophisticated treatment of several important stochastic processes.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Summer</term>
+    </termsOffered>
     <activities>
       <activity>
         <type>lec</type>
@@ -1819,13 +1969,13 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">MATH *825 and STAT *883</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">STAT *883 and STAT 980</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">General decision problems, admissibility, mini-max and Bayes rules, invariance and unbiasedness, families of distributions problems in estimation theory.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Uniformly minimum variance unbiased estimators, consistency and asymptotic normality of the maximum likelihood estimator, decision-theoretic Bayes estimation, frequentist testing (likelihood ratio tests, Neyman-Pearson lemma, uniformly most powerful tests), Bayes testing and Bayes factors, nonparametric tests, multiple comparisons procedures.</div>
     </description>
     <campuses>
       <campus></campus>
@@ -1852,13 +2002,13 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">STAT 982</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">STAT 982.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">UMP tests, likelihood ratio tests, confidence ellipsoid multiple decision and multiple comparisons, sequential decision problems.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Model selection including sparsity methods and their oracle properties, information methods, cross-validtion and stochastic search.  Basic theory of kernel methods for regression.  Classification:  linear and quadratic discriminants, Bayes classifier, nearest neighbor methods, kernel methods for classification.  Introduction to neural networks and recursive partitioning. Model averaging methods and measures of complexity.</div>
     </description>
     <campuses>
       <campus></campus>
@@ -1867,6 +2017,46 @@
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
     <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Asymptotics and Applications</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>STAT</subject>
+        <courseNumber>984</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">STAT 980.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">This course is intended primarily for Statistics PhD students who are applications and computing oriented.   PhD students who are theory oriented may also take this course for breadth.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">A continuation of STAT 980 aiming at breadth of familiarity with commonly occuring major subfields of statistics that rely heavily on probability theory.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>

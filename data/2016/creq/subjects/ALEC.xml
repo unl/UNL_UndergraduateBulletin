@@ -156,6 +156,45 @@
     </credits>
   </course>
   <course>
+    <title>Introduction to Engineering design (IED)</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ALEC</subject>
+        <courseNumber>105</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">This course is the first course in the Project Lead the Way pre-engineering program and requires no prerequisite.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">This is a secondary course training option for pre service teachers in Skilled and Technical Sciences. It is a STEM skill requirement for the 2+2 articulation agreement with various community colleges across the state of Nebraska.  By allowing pre-service teachers to complete this course, students can reverse transfer the credit back to the community colleges to enforce rigorous training needs in the STEM field for future STS teachers coming out of the ALEC department.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Students dig deep into the engineering design process, applying math, science, and engineering standards to hands - on projects. They work both individually and in teams to design solutions to a variety of problems using 3d modeling software, and use an engineering notebook to document their work.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lab</type>
+        <hours>60</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">4</credit>
+    </credits>
+  </course>
+  <course>
     <title>Food in Society</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -236,16 +275,16 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1158</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">ALEC 105, Introduction To Engineering Design is a prerequisite</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">This course is the second foundational course taught in the Project Lead the Way pre-engineering curriculum.  Students that complete this course will be certified to teach both foundational courses in any secondary PLTW pre-engineering program across the country.  This certification gives UNL STS students in the ALEC department a rigourous STEM skill set.  Once the course is completed the credit will be reverse transferred back to the community college to fullfill the STEM skill requirement of the 2+2 articulation agreements established with UNL and the ALEC department.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">This course is the second foundational course taught in the Project Lead the Way pre-engineering curriculum.  Students that complete this course will be certified to teach both foundational courses in any secondary PLTW pre-engineering program across the country.  This certification gives UNL STS students in the ALEC department a rigorous STEM skill set.  Once the course is completed the credit will be reverse transferred back to the community college to fulfill the STEM skill requirement of the 2+2 articulation agreements established with UNL and the ALEC department.</div>
     </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Through problems that engage and challenge, students explore a broad range of engineering topics, including mechanisms, the strength of structures and materials, and automation. Students develop  skills in problelm solving, research, and design while learning strategies for design process documentation, collaboration, and presentation.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Through problems that engage and challenge, students explore a broad range of engineering topics, including mechanisms, the strength of structures and materials, and automation. Students develop skills in problem solving, research, and design while learning strategies for design process documentation, collaboration, and presentation.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -1455,12 +1494,16 @@
         <subject>ALEC</subject>
         <courseNumber>393</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>NRES</subject>
+        <courseNumber>393</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>letter grade only</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1141</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Consent of instructor(s). One college level course in photography or equivalent, and knowledge of the basics of shooting still photographs or video using digital cameras. Open only to College of Agricultural Sciences and Natural Resources (CASNR) students and to School of Natural Resources students.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Consent of instructor(s). One college level course in photography or equivalent, and knowledge of the basics of shooting still photographs or video using digital cameras. Open only to College of Agricultural Sciences and Natural Resources (CASNR) students.</div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">Can be repeated for a maximum of 9 credit hours by consent of instructor.</div>
@@ -1477,20 +1520,19 @@
     <termsOffered>
       <term>Fall</term>
       <term>Spring</term>
-      <term>Summer</term>
     </termsOffered>
     <activities>
       <activity>
         <type>fld</type>
-        <hours>3</hours>
+        <hours>15</hours>
       </activity>
       <activity>
         <type>lab</type>
-        <hours>2</hours>
+        <hours>3</hours>
       </activity>
     </activities>
     <credits>
-      <credit type="Lower Range Limit">3</credit>
+      <credit type="Lower Range Limit">1</credit>
       <credit type="Upper Range Limit">9</credit>
       <credit type="Per Semester Limit">3</credit>
       <credit type="Per Career Limit">9</credit>
@@ -2252,9 +2294,9 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1158</effectiveSemester>
+    <effectiveSemester>1161</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Senior standing.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Consent of Instructor. Senior standing.</div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">Requires interviews outside of class time.</div>

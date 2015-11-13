@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <courses xmlns="http://courseapproval.unl.edu/courses" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://courseapproval.unl.edu/courses /schema/courses.xsd">
   <course>
-    <title>Beginning Applied Music</title>
+    <title>College-Level Music Lessons, I</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>MUNM</subject>
@@ -9,17 +9,17 @@
         <courseGroup>Applied Music for Non-majors (MUNM)</courseGroup>
       </courseCode>
     </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1161</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Permission and written permission from School of Music.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Permission from School of Music.</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">May not count toward requirements for music major or minor. No preregistration, since majors and minors must be assigned first to the available instructors. Applied music instruction fee of $80 will be charged in addition to tuition for credit hour. Grade only.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">May not count toward requirements for music major or minor. No preregistration, since majors and minors must be assigned first to the available instructors. Applied music instruction fee of $80 will be charged in addition to tuition for credit hour. Grade only. Maximum of four semesters.</div>
     </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Applied music lessons in voice or instrument for beginners; private or group, at instructor's discretion. A. Voice (1 cr, max 4) B. Keyboard (1 cr, max 4) D. Strings (1 cr, max 4) E.	 rass (1 cr, max 4) G. Woodwind (1 cr, max 4) J. Percussion (1 cr, max 4)</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Music lessons for non-music majors who studied an instrument or voice through high school and wish to continue taking lessons while in college. Private or group lessons at instructor's discretion. A. Voice (1 cr, max 4) B. Keyboard (1 cr, max 4) D. Strings (1 cr, max 4) E. Brass (1 cr, max 4) G. Woodwind (1 cr, max 4) J. Percussion (1 cr, max 4)</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -32,7 +32,12 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>stu</type>
+        <hours>1</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">1</credit>
       <credit type="Per Semester Limit">1</credit>
@@ -158,7 +163,7 @@
     </credits>
   </course>
   <course>
-    <title>Applied Music</title>
+    <title>College-Level Music Lessons, II</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>MUNM</subject>
@@ -167,16 +172,16 @@
       </courseCode>
     </courseCodes>
     <gradingType>letter grade only</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1161</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Permission and written permission from School of Music.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Permission from School of Music.</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Grade only. May not count toward requirements for music major or minor. No preregistration, since majors and minors must be assigned first to the available instructors. Applied music instruction fee of $80 will be charged in addition to tuition for credit hour.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">May not count toward requirements for music major or minor. No preregistration, since majors and minors must be assigned first to the available instructors. Applied music instruction fee of $80 will be charged in addition to tuition for credit hour. Grade only. Maximum of four semesters.</div>
     </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Applied music lessons in voice or instrument for beginners; private or group, at instructor's discretion. A. Voice (1 cr, max 4) B. Keyboard (1 cr, max 4) D. Strings (1 cr, max 4) E. Brass (1 cr, max 4) G. Woodwind (1 cr, max 4) J. Percussion (1 cr, max 4)</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">A continuation of MUNM 100. For non-music majors who studied an instrument or voice through high school and wish to continue taking lessons; more advanced than MUNM 100. Private or group lessons at instructor's discretion. A. Voice (1 cr, max 4) B. Keyboard (1 cr, max 4) D. Strings (1 cr, max 4) E. Brass (1 cr, max 4) G. Woodwind (1 cr, max 4) J. Percussion (1 cr, max 4)</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -189,7 +194,12 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>stu</type>
+        <hours>1</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">1</credit>
       <credit type="Per Semester Limit">1</credit>
@@ -1657,79 +1667,6 @@
     </aceOutcomes>
   </course>
   <course>
-    <title>Music in Africa</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>MUNM</subject>
-        <courseNumber>281</courseNumber>
-        <courseGroup>Music for Non-majors (MUNM)</courseGroup>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Survey of various musical types in Africa.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities/>
-    <credits>
-      <credit type="Single Value">3</credit>
-      <credit type="Per Semester Limit">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Introduction to Music Composition and Digital Audio Production</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>MUNM</subject>
-        <courseNumber>282</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1105</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ARTP 170 or 171.</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Fundamentals of music composition with attention to creating original music in digital mediums including MIDI and digital audio. Theory and practice in improvisation as related to composition as well as techniques for reworking musical ideas towards creating a finished composition.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>lec</type>
-        <hours>3</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-    <aceOutcomes>
-      <slo>7</slo>
-    </aceOutcomes>
-  </course>
-  <course>
     <title>The History of Rock Music</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -1770,45 +1707,6 @@
     <aceOutcomes>
       <slo>7</slo>
     </aceOutcomes>
-  </course>
-  <course>
-    <title>Applied Music</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>MUNM</subject>
-        <courseNumber>300</courseNumber>
-        <courseGroup>Applied Music for Non-majors (MUNM)</courseGroup>
-      </courseCode>
-    </courseCodes>
-    <gradingType>letter grade only</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Permission and written permission from School of Music.</div>
-    </prerequisite>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Grade only. May not count toward requirements for music major or minor. No preregistration, since majors and minors must be assigned first to the available instructors. Applied music instruction fee of $80 will be charged in addition to tuition for credit hour.</div>
-    </notes>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Applied music lessons in voice or instrument for beginners; private or group, at instructor's discretion. A. Voice (1 cr, max 4) B. Keyboard (1 cr, max 4) D. Strings (1 cr, max 4) E. Brass (1 cr, max 4) G. Woodwind (1 cr, max 4) J. Percussion (1 cr, max 4)</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities/>
-    <credits>
-      <credit type="Single Value">1</credit>
-      <credit type="Per Semester Limit">1</credit>
-      <credit type="Per Career Limit">4</credit>
-    </credits>
   </course>
   <course>
     <title>Music and Sports: Performance and Perception</title>
@@ -1993,53 +1891,6 @@
     </credits>
   </course>
   <course>
-    <title>Honors: Women Making Music</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>MUSC</subject>
-        <courseNumber>370</courseNumber>
-        <courseLetter>H</courseLetter>
-        <courseGroup>Music History (MUSC)</courseGroup>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>MUNM</subject>
-        <courseNumber>370</courseNumber>
-        <courseLetter>H</courseLetter>
-        <courseGroup>Music for Non-majors (MUNM)</courseGroup>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Good standing in the University Honors Program or by permission.</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Popular and art music from the perspective of women.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>lec</type>
-        <hours>3</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">3</credit>
-      <credit type="Per Career Limit">3</credit>
-    </credits>
-  </course>
-  <course>
     <title>History of Rock and Roll: Classic Artists</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -2123,139 +1974,6 @@
     <aceOutcomes>
       <slo>7</slo>
     </aceOutcomes>
-  </course>
-  <course>
-    <title>Arts of the 20th Century: 1900-1945</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>AHIS</subject>
-        <courseNumber>388</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>MUNM</subject>
-        <courseNumber>388</courseNumber>
-        <courseGroup>Music for Non-majors (MUNM)</courseGroup>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>THEA</subject>
-        <courseNumber>388</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">AHIS/MUSC/THEA 388 will not count towards the major or minor in studio art and/or art history.</div>
-    </notes>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Interdisciplinary approach to the enjoyment and understanding of the contemporary (first half of the twentieth century) arts.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>lec</type>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">3</credit>
-      <credit type="Per Career Limit">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Arts of the 20th Century: 1945-Present</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>AHIS</subject>
-        <courseNumber>389</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>MUNM</subject>
-        <courseNumber>389</courseNumber>
-        <courseGroup>Music for Non-majors (MUNM)</courseGroup>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>THEA</subject>
-        <courseNumber>389</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">AHIS/MUNM/THEA 389 will not count toward the major or minor in studio art and/or art history.</div>
-    </notes>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Interdisciplinary approach to the enjoyment and understanding of the contemporary (1945 to the present) arts.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>lec</type>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">3</credit>
-      <credit type="Per Career Limit">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Applied Music</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>MUNM</subject>
-        <courseNumber>400</courseNumber>
-        <courseGroup>Applied Music for Non-majors (MUNM)</courseGroup>
-      </courseCode>
-    </courseCodes>
-    <gradingType>letter grade only</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Permission and written permission from School of Music.</div>
-    </prerequisite>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Grade only. May not count toward requirements for music major or minor. No preregistration, since majors and minors must be assigned first to the available instructors. Applied music instruction fee of $80 will be charged in addition to tuition for credit hour.</div>
-    </notes>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Applied music lessons in voice or instrument for beginners; private or group, at instructor's discretion. A. Voice (1 cr, max 4) B. Keyboard (1 cr, max 4) D. Strings (1 cr, max 4) E. Brass (1 cr, max 4) G. Woodwind (1 cr, max 4) J. Percussion ( 1 cr, max 4)</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities/>
-    <credits>
-      <credit type="Single Value">1</credit>
-      <credit type="Per Semester Limit">1</credit>
-      <credit type="Per Career Limit">4</credit>
-    </credits>
   </course>
   <course>
     <title>American Cultural Perspectives through Popular Music and Guitar</title>

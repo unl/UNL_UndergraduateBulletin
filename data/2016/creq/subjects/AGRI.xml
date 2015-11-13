@@ -54,14 +54,10 @@
         <subject>AGRI</subject>
         <courseNumber>115</courseNumber>
       </courseCode>
-      <courseCode type="crosslisting">
-        <subject>LIFE</subject>
-        <courseNumber>115</courseNumber>
-      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1121</effectiveSemester>
+    <effectiveSemester>1161</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Application of biotechnology to genetically engineer, identify, select or propagate microbes, plants or animals. Scientists who use biotechnology to solve problems with the environment, with our food system, or with human health.</div>
     </description>
@@ -199,47 +195,6 @@
     </activities>
     <credits>
       <credit type="Single Value">1</credit>
-    </credits>
-  </course>
-  <course>
-    <title>An Introduction to Computer Applications in Agriculture</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>AGRI</subject>
-        <courseNumber>271</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Each student will complete an individual computer project selected and designed in cooperation with the instructor and/or major departmental adviser or counselor.</div>
-    </notes>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Computing and its application to agriculture. Fundamentals of DOS, word processing, spreadsheets, database management, computer graphics, networks, computer communications, and elements of selecting appropriate hardware and software. Emphasis on practical, agriculturally-oriented applications.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>lab</type>
-        <hours>4</hours>
-      </activity>
-      <activity>
-        <type>lec</type>
-        <hours>2</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">3</credit>
     </credits>
   </course>
   <course>
@@ -729,10 +684,14 @@
         <subject>AGRI</subject>
         <courseNumber>496</courseNumber>
       </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>AGRI</subject>
+        <courseNumber>896</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1161</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Advanced approval of the plan of work and permission.</div>
     </prerequisite>
@@ -744,6 +703,7 @@
     </campuses>
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
+      <deliveryMethod>Web</deliveryMethod>
     </deliveryMethods>
     <termsOffered>
       <term>Fall</term>
@@ -803,13 +763,10 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1131</effectiveSemester>
+    <effectiveSemester>1161</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">12 hrs agricultural and/or biological sciences.</div>
     </prerequisite>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">ENTO *826 is offered spring semester of even-numbered calendar years.</div>
-    </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Prepare scientifically accurate, high quality illustrations and graphics for the teaching, presentation, and publication of scientific information. Drawing techniques, drafting, copyright, and publication and presentation of scientific art work.</div>
     </description>
@@ -819,9 +776,6 @@
     <deliveryMethods>
       <deliveryMethod>Web</deliveryMethod>
     </deliveryMethods>
-    <termsOffered>
-      <term>Spring</term>
-    </termsOffered>
     <activities>
       <activity>
         <type>ind</type>

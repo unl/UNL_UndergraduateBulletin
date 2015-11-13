@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <courses xmlns="http://courseapproval.unl.edu/courses" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://courseapproval.unl.edu/courses /schema/courses.xsd">
   <course>
-    <title>Nutrition, Exercise and Health</title>
+    <title>Healthy Living</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>NUTR</subject>
@@ -9,13 +9,13 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">Use of "Blackboard" required</div>
     </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Positive health behaviors. Nutrition, physical activity, lifetime weight control, and other lifestyle factors known to improve short term and long term health risks. Practical methods for assessing, improving, and maintaining behaviors to reduce the health risks associated with both the college-age population and the general adult population.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Various risk factors and personal behaviors that affect health.  Practical methods for self-assessments and improving and maintaining physically active and healthy eating habits designed to enhance awareness of short- and long-term risks and to achieve a higher level of wellness.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -28,7 +28,11 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
@@ -81,18 +85,21 @@
     </aceOutcomes>
   </course>
   <course>
-    <title>Foundations in Nutrition and Health Promotion</title>
+    <title>Food Literacy</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>NUTR</subject>
-        <courseNumber>150</courseNumber>
+        <courseNumber>145</courseNumber>
       </courseCode>
     </courseCodes>
-    <gradingType>unrestricted</gradingType>
+    <gradingType>letter grade only</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1168</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">NUTR majors only.</div>
+    </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Philosophy and goals of academic programs, curricula, certifications, career opportunities and graduate programs.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Food safety and sanitation, proper use of basic kitchen equipment, food identification, proper handling and preparation, menu planning, food purchasing, and sensory evaluation.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -105,9 +112,48 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lab</type>
+        <hours>2</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">1</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Career Preparation in Nutrition and Health Sciences</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>NUTR</subject>
+        <courseNumber>150</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>pass/no pass only</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Process of career preparation and planning. Philosophy and goals of academic programs, curricula, certifications, career opportunities and graduate programs in the Department of Nutrition and Health Sciences.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">2</credit>
     </credits>
   </course>
   <course>
@@ -437,6 +483,48 @@
     </credits>
   </course>
   <course>
+    <title>Nutrient and Fitness Assessment</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>NUTR</subject>
+        <courseNumber>252</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">NUTR 100, NUTR majors only.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to and practical application of tools frequently used to estimate fitness levels and dietary intake; association among physical activity, nutrition, and health; health screening and risk classification; principles of assessment and various assessment strategies.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lab</type>
+        <hours>1</hours>
+      </activity>
+      <activity>
+        <type>lec</type>
+        <hours>2</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Cultural Aspects of Food and Nutrition</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -506,6 +594,43 @@
     <activities/>
     <credits>
       <credit type="Single Value">2</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Addressing Health Disparities through Health Literacy</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>NUTR</subject>
+        <courseNumber>256</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">NUTR 100</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Understanding of health disparities existing at national and local levels through a social justice lens and the role of health literate communication in reducing health disparities, as well as its limitations.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
     </credits>
   </course>
   <course>
@@ -581,6 +706,43 @@
     </credits>
   </course>
   <course>
+    <title>Health Information:  Science, Media, and the Consumer</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>NUTR</subject>
+        <courseNumber>302</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Junior standing and NUTR major.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Critical evaluation, interpretation and communication of consumer health messages.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Meat CulinologyTMIII: Foodservice Applications</title>
     <courseCodes>
       <courseCode type="crosslisting">
@@ -621,7 +783,7 @@
     </credits>
   </course>
   <course>
-    <title>Food and Nutrition for Healthy Living</title>
+    <title>Nutrition and Food for Optimal Health</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>NUTR</subject>
@@ -629,13 +791,13 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">NUTR 100 or 250; NUTR 244 and 245.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">NUTR 250; NUTR majors only; or permission.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Role of nutrition and physical activity in healthy living. Application of current health promotion guidelines.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Integration of current dietary guidelines, nutrient assessment methodologies, scientific principles of food preparation, financial accountability, concepts of healthy menu planning, and preparation techniques in promotion of healthy living.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -653,11 +815,11 @@
       </activity>
       <activity>
         <type>lec</type>
-        <hours>2</hours>
+        <hours>3</hours>
       </activity>
     </activities>
     <credits>
-      <credit type="Single Value">3</credit>
+      <credit type="Single Value">4</credit>
     </credits>
   </course>
   <course>
@@ -682,6 +844,43 @@
     </deliveryMethods>
     <termsOffered>
       <term>Fall</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Social Marketing in Health Communication</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>NUTR</subject>
+        <courseNumber>352</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Junior standing.  NUTR majors only.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Application of the social marketing framework to analyze public health problems and design program solutions.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
     </termsOffered>
     <activities>
       <activity>
@@ -939,6 +1138,43 @@
     </credits>
   </course>
   <course>
+    <title>Planning and Implementation of Health Promotion Programs</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>NUTR</subject>
+        <courseNumber>400</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">NUTR 250, NUTR 256, and junior standing</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Theory-based process of developing health promotion/education programs.  Principles of planning, implementing and evaluating health education interventions will be taught using evidence-based research.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Health Behavior</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -962,43 +1198,6 @@
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
     <termsOffered>
-      <term>Spring</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>lec</type>
-        <hours>3</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Health Information:  Science, Media, and the Consumer</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>NUTR</subject>
-        <courseNumber>402</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1148</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Senior standing and NUTR major.</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Critical evaluation, interpretation and communication of consumer health messages.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
       <term>Spring</term>
     </termsOffered>
     <activities>
@@ -1042,6 +1241,43 @@
     </credits>
   </course>
   <course>
+    <title>Evaluation and Research Related to Health Promotion</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>NUTR</subject>
+        <courseNumber>404</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">NUTR 400.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to research, study designs, and data collection methods in health and behavior-change related studies, including exercise, nutrition, and health education .Emphasis on understanding research literature and development of research/grant proposals.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Health Promotion Strategies at the Workplace</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -1067,6 +1303,43 @@
       <term>Summer</term>
     </termsOffered>
     <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Management and Administration of Health Promotion Programs</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>NUTR</subject>
+        <courseNumber>406</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">NUTR 404.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Overview of systems approach to the management of resources needed to plan, implement, and evaluate a health education/promotion program including financial, human, curricula, and physical resources.  Qualities of effective leadership will be explored and evaluated.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
@@ -1924,6 +2197,47 @@
     <activities/>
     <credits>
       <credit type="Single Value">4</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Community Health and Wellness Practicum</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>NUTR</subject>
+        <courseNumber>487</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">NUTR 406. Community Health and Wellness majors only.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Background check will be required.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Application of health education concepts and skills in a practical setting while serving as a health education resource person.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>fld</type>
+        <hours>6</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">6</credit>
     </credits>
   </course>
   <course>
@@ -2906,7 +3220,7 @@
     </credits>
   </course>
   <course>
-    <title>Research Methods in Childhood Obesity</title>
+    <title>Research Planning and Grant Writing for Childhood Obesity</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>NUTR</subject>
@@ -2918,19 +3232,20 @@
       </courseCode>
     </courseCodes>
     <gradingType>letter grade only</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1128</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1161</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Graduate standing.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">NUTR 810 or CYAF 810</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">The purpose of this course is to examine the philosophy, goals, and methodologies related within the concept of childhood obesity research. The class will include study design, survey development, evaluation and application of basic research tools. In addition, students will critically evaluate different types of research in relation to childhood obesity. Class discussion will focus on the multiple factors that impact childhood obesity and potential measurement of these factors in the outcome of childhood obesity prevention.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">The purpose of this course is to examine the philosophy, goals, and methodologies related within the concept of childhood obesity research and to apply the principles of the transdisciplinary nature of childhood obesity prevention and treatment in transdisciplinary obesity prevention research and evaluation. The course will include acquisition of resources to address childhood obesity issues, exposure to  funding opportunities, research design and grant development, translation of research or programmatic findings to community and professional audiences.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
     </campuses>
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
+      <deliveryMethod>Web</deliveryMethod>
     </deliveryMethods>
     <termsOffered>
       <term>Spring</term>
@@ -2938,11 +3253,51 @@
     <activities>
       <activity>
         <type>lec</type>
-        <hours>4</hours>
+        <hours>3</hours>
       </activity>
     </activities>
     <credits>
-      <credit type="Single Value">4</credit>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Practicum: Experiential Learning Experiences in Childhood Obesity Prevention</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>NUTR</subject>
+        <courseNumber>911</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>CYAF</subject>
+        <courseNumber>911</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1161</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">NUTR 910 or CYAF 910 or concurrent.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Practicum: Experiential Learning Experiences in Childhood Obesity Prevention is a section of the Nutrition and Health Sciences Practicum course. This course is an applied, monitored, and supervised field based learning experience. Students gain practical experience as they follow a negotiated and/or directed plan of study.   The purpose of this course is to provide students with transdisciplinary experiential learning experiences related to childhood obesity prevention or treatment.  Students will work with the course instructor to determine a practicum site that meets the student’s interests and the requirements of the course.  Students will work collaboratively with a transdisciplinary team of individuals at the practicum site to meet the course student learning outcomes through hands on experiences.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Web</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>fld</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">1</credit>
     </credits>
   </course>
   <course>
@@ -3018,6 +3373,38 @@
     <credits>
       <credit type="Single Value">1</credit>
       <credit type="Per Career Limit">4</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Lipid Metabolism and Metabolic Syndrome</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>NUTR</subject>
+        <courseNumber>922</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Concepts of lipid and lipoprotein metabolism; impact of genetic and nutrient factors on energy metabolism and homeostasis; development and prevention of metabolic disorders</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
     </credits>
   </course>
   <course>

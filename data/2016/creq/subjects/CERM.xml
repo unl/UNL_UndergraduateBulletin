@@ -391,9 +391,9 @@
         <courseNumber>496</courseNumber>
       </courseCode>
     </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1128</effectiveSemester>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1161</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Advanced undergraduate and permission.</div>
     </prerequisite>
@@ -417,9 +417,10 @@
       </activity>
     </activities>
     <credits>
-      <credit type="Single Value">3</credit>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">3</credit>
       <credit type="Per Semester Limit">3</credit>
-      <credit type="Per Career Limit">12</credit>
+      <credit type="Per Career Limit">9</credit>
     </credits>
   </course>
   <course>

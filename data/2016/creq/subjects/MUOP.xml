@@ -33,7 +33,7 @@
     </credits>
   </course>
   <course>
-    <title>Philharmonia: Opera and Chamber Orchestra</title>
+    <title>Philharmonia Chamber Orchestra</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>MUOP</subject>
@@ -42,8 +42,8 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1131</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">Open by audition or permission of ensemble director. Parallel any of the following: MUCO 47, MUDC 247/447, MUCO 247/447, MUNM 247/447, MUCO 48A, MUDC/MUCO 248A, MUDC/MUCO 448A, MUCO 48B, MUDC 248B/448B or MUCO 248B/448B as assigned in the audition process.</div>
     </notes>
@@ -59,7 +59,6 @@
     <termsOffered>
       <term>Fall</term>
       <term>Spring</term>
-      <term>Summer</term>
     </termsOffered>
     <activities>
       <activity>
@@ -68,6 +67,7 @@
     </activities>
     <credits>
       <credit type="Single Value">1</credit>
+      <credit type="Per Semester Limit">1</credit>
       <credit type="Per Career Limit">12</credit>
     </credits>
   </course>

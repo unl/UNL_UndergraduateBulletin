@@ -31,37 +31,37 @@
     </credits>
   </course>
   <course>
-    <title>Behavior Management</title>
+    <title>Assessment Techniques for Diverse Learners</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>SPED</subject>
-        <courseNumber>303</courseNumber>
+        <courseNumber>212</courseNumber>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1138</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">SPED 201.</div>
-    </prerequisite>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">For elementary education majors: Parallel TEAC 297A or any other elementary education practicum. For secondary special education majors: Parallel EDPS 297.</div>
-    </notes>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Strategies and techniques for the management of challenging behaviors displayed by school-age children. Reciprocal nature of human behavior and environment. Functional analyses of behavior problems, strategies for preventing behavior problems, techniques for increasing prosocial behavior, non-aversive procedures for decreasing problematic behavior, and methods for teaching children self-management.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">The role of general education teachers in the primary purposes of assessment of learners with diverse needs. Knowledge and experience with interpreting norm-referenced test information as related to planning educational programs. Use of assessment information for instructional planning and evaluation. Testing accommodations and classroom grading.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
     </campuses>
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
+      <deliveryMethod>Web</deliveryMethod>
     </deliveryMethods>
     <termsOffered>
       <term>Fall</term>
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
@@ -108,13 +108,13 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1138</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1161</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">SPED 201 and 303; parallel SPED 496Y; CYAF 474 or parallel; admission to the Inclusive Early Childhood Education Program (IECE) or permission of instructor and/or adviser.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">SPED 201; parallel SPED 496Y; CYAF 374 or 474 or parallel; admission to the Inclusive Early Childhood Education major (IECE) or permission of instructor and/or adviser.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Teaching and caring for children under age five with specific disabilities. Design of Individualized Education Plans (IEP's) or Family Service Plans (IFSP's) and strategies for teaching and learning in natural, child-interest activities.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Teaching and caring for children under age five with specific disabilities. Design of Individualized Education Plans (IEP's) and strategies for teaching and learning in natural, child-interest routines and activities in classroom settings.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -549,10 +549,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1121</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1161</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">SPED 400/800, SPED 412/812, and (TEAC 441 required for undergraduate students only). Parallel SPED 406A/806A.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">SPED 212/812, and (TEAC 441 required for undergraduate students only). Parallel SPED 406A/806A.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Theory and techniques for assessing and teaching word identification, vocabulary, comprehension and writing skills in grades 7 to 12.</div>
@@ -601,7 +601,7 @@
     <dfRemoval>false</dfRemoval>
     <effectiveSemester>1121</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">SPED 400/800, 412/812, and (TEAC 441 required for undergraduate students only). Taken parallel with SPED 406/806.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">SPED 400/800, 212/812, and (TEAC 441 required for undergraduate students only). Taken parallel with SPED 406/806.</div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">SPED 406A/806A requires two hours per week in a Reading Center.</div>
@@ -640,9 +640,9 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1151</effectiveSemester>
+    <effectiveSemester>1161</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">SPED 201 or 400/800.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">SPED 201</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Information about the mildly/moderately disabled secondary-level student; including characteristics, assessment, models for programs, social skill training, behavior management, working with parents, and curriculum modification.</div>
@@ -701,45 +701,6 @@
     </credits>
   </course>
   <course>
-    <title>Assessment Techniques for Diverse Learners</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>SPED</subject>
-        <courseNumber>412</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1151</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Sophomore standing; SPED 201 and 303.</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">The role of general education teachers in the primary purposes of assessment of learners with diverse needs. Knowledge and experience with interpreting norm-referenced test information as related to planning educational programs. Use of assessment information for instructional planning and evaluation. Testing accommodations and classroom grading.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-      <deliveryMethod>Web</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>lec</type>
-        <hours>3</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
     <title>Instructional Methods for Students with Diverse Needs</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -755,7 +716,7 @@
     <dfRemoval>true</dfRemoval>
     <effectiveSemester>1101</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Sophomore standing; SPED 201 and 303.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Sophomore standing; SPED 201 and 454.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Instructional methods and accommodations for special education and general education teachers necessary to work successfully with students with disabilities or who are at-risk for academic failure. Curriculum modification, classroom management, strategy instruction, and instructional modifications for content areas.</div>
@@ -834,11 +795,14 @@
       </courseCode>
     </courseCodes>
     <gradingType>letter grade only</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1128</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1161</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Prereq: SPED 201, TEAC 311, 313 for elementary education majors; SPED 201, 412, and 414 (or equivalent) for SPED majors. <em>Must be taken with: SPED 415/815.</em></div>
     </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">For SPED 415 students: Priority will be given to student who will be student teaching the following semester.</div>
+    </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">This reading and writing practiucm is taken at the same time as SpEd 415 or SpEd 815</div>
     </description>
@@ -931,6 +895,83 @@
     </credits>
   </course>
   <course>
+    <title>Behavior Management</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>SPED</subject>
+        <courseNumber>454</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">SPED 201; TEAC 297A or EDPS 297</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">These courses may not be taken concurrently with SPED 454, they must be completed prior to taking SPED 454.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Strategies and techniques for the management of challenging behaviors displayed by school-age children. Reciprocal nature of human behavior and environment. Functional analyses of behavior problems, strategies for preventing behavior problems, techniques for increasing prosocial behavior, non-aversive procedures for decreasing problematic behavior, and methods for teaching children self-management.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Early Intervention Principles and Practices for Infants/Toddlers with Developmental Delays/Disabilities</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>SPED</subject>
+        <courseNumber>461</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Sped 201, CYAF 271 and admission to the Inclusive Early Childhood Education major; prefer CYAF 380 completed or taken simultaneously</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Overview of etiology, characteristics and developmental implications of selected conditions related to developmental disabilities. Design and delivery of Individualized Family Service Plans through routine-based interviews, observation of chidren in natural learning environments, activity/routine-based intervention and supports an home-visiting services.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Medically Fragile infants</title>
     <courseCodes>
       <courseCode type="grad tie-in">
@@ -970,7 +1011,7 @@
     </credits>
   </course>
   <course>
-    <title>Psychology and Sociology of Deafness</title>
+    <title>Educating Students with Sensory Disabilities</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>SPED</subject>
@@ -979,9 +1020,9 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1158</effectiveSemester>
+    <effectiveSemester>1161</effectiveSemester>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Education of the hearing impaired including history of, professional roles in, and educational programming within this field. Social/psychological theories as related to the hearing impaired. Patterns of social/emotional development, psychological characteristics, issues of family stress and social adaptation and discussion of counseling techniques.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Education of the hearing and vision impaired including history of, professional roles in, and educational programming within this field. Social/psychological theories as related to the vision hearing impaired. Patterns of social/emotional development, psychological characteristics, issues of family stress and social adaptation and discussion of counseling techniques.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -1502,9 +1543,9 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1121</effectiveSemester>
+    <effectiveSemester>1161</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">SPED 201 or 400 or 800</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">SPED 201</div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">SPED *820 and associated practicum is designed to meet professional standards (i.e., Council for Exceptional Children, Teacher Education Accreditation Council) for teachers in the area of instruction for divers learners.</div>
@@ -1540,7 +1581,7 @@
     <dfRemoval>false</dfRemoval>
     <effectiveSemester>1121</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">SPED 303 or equivalent.  Parallel SPED 824A.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">SPED 454 or equivalent.  Parallel SPED 824A.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Functional behavioral assessments (FBAs) and development of behavior intervention plans (BIPs) based on the assessments. Contextual and curriculum manipulations, and replacement behavior training.</div>
@@ -1574,7 +1615,7 @@
     <dfRemoval>false</dfRemoval>
     <effectiveSemester>1121</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">SPED 303 or approved equivalent.  Parallel SPED 824.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">SPED 454 or approved equivalent.  Parallel SPED 824.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Opportunities to engage in the activities and practice the skills associated with SPED 824. Culmination of the practicum is performing a complete functional behavioral assessment and developing a behavior intervention plan for a student who displays challenging behaviors.</div>

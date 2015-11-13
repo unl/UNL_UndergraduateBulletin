@@ -55,7 +55,10 @@
     </courseCodes>
     <gradingType>letter grade only</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1108</effectiveSemester>
+    <effectiveSemester>1161</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Open to freshmen and sophomores only.</div>
+    </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">CYAF 150 is 'Letter Grade only'.</div>
     </notes>
@@ -2905,10 +2908,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>pass/no pass only</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1111</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1161</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CYAF 497A.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">CYAF 270 and 270L; CYAF 374 and 374L; with a grade of 'C' or better.</div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">Pass/No Pass Only.</div>
@@ -3454,7 +3457,7 @@
     </credits>
   </course>
   <course>
-    <title>Critical Issues for the Beginning Teacher</title>
+    <title>Critical Issues for the Beginning Family and Consumer Sciences Teacher</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>CYAF</subject>
@@ -3462,10 +3465,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1161</effectiveSemester>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Examines issues faced by beginning or returning teachers. Possible issues are classroom management, planning, selecting resources, and other critical issues to the new teacher. The theory and its application to the students’ educational setting discussed for each issue. Includes how teachers can mentor and support one another as a collaborative group.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Examines issues faced by beginning or returning Family and Consumer Sciences (FCS) teachers. Possible issues are classroom management, planning, selecting resources, and other critical issues to the new teacher. The theory and its application to the students’ educational setting discussed for each issue. Includes how teachers can mentor and support one another as a collaborative group.</div>
     </description>
     <campuses>
       <campus></campus>
@@ -5788,7 +5791,7 @@
     </credits>
   </course>
   <course>
-    <title>Research Methods in Childhood Obesity</title>
+    <title>Research Planning and Grant Writing for Childhood Obesity</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>NUTR</subject>
@@ -5800,19 +5803,20 @@
       </courseCode>
     </courseCodes>
     <gradingType>letter grade only</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1128</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1161</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Graduate standing.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">NUTR 810 or CYAF 810</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">The purpose of this course is to examine the philosophy, goals, and methodologies related within the concept of childhood obesity research. The class will include study design, survey development, evaluation and application of basic research tools. In addition, students will critically evaluate different types of research in relation to childhood obesity. Class discussion will focus on the multiple factors that impact childhood obesity and potential measurement of these factors in the outcome of childhood obesity prevention.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">The purpose of this course is to examine the philosophy, goals, and methodologies related within the concept of childhood obesity research and to apply the principles of the transdisciplinary nature of childhood obesity prevention and treatment in transdisciplinary obesity prevention research and evaluation. The course will include acquisition of resources to address childhood obesity issues, exposure to  funding opportunities, research design and grant development, translation of research or programmatic findings to community and professional audiences.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
     </campuses>
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
+      <deliveryMethod>Web</deliveryMethod>
     </deliveryMethods>
     <termsOffered>
       <term>Spring</term>
@@ -5820,11 +5824,51 @@
     <activities>
       <activity>
         <type>lec</type>
-        <hours>4</hours>
+        <hours>3</hours>
       </activity>
     </activities>
     <credits>
-      <credit type="Single Value">4</credit>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Practicum: Experiential Learning Experiences in Childhood Obesity Prevention</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>NUTR</subject>
+        <courseNumber>911</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>CYAF</subject>
+        <courseNumber>911</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1161</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">NUTR 910 or CYAF 910 or concurrent.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Practicum: Experiential Learning Experiences in Childhood Obesity Prevention is a section of the Nutrition and Health Sciences Practicum course. This course is an applied, monitored, and supervised field based learning experience. Students gain practical experience as they follow a negotiated and/or directed plan of study.   The purpose of this course is to provide students with transdisciplinary experiential learning experiences related to childhood obesity prevention or treatment.  Students will work with the course instructor to determine a practicum site that meets the student’s interests and the requirements of the course.  Students will work collaboratively with a transdisciplinary team of individuals at the practicum site to meet the course student learning outcomes through hands on experiences.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Web</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>fld</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">1</credit>
     </credits>
   </course>
   <course>

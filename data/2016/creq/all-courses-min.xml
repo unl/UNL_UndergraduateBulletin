@@ -1392,6 +1392,15 @@
     </courseCodes>
   </course>
   <course>
+    <title>Grain Merchandising</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>AECN</subject>
+        <courseNumber>336</courseNumber>
+      </courseCode>
+    </courseCodes>
+  </course>
+  <course>
     <title>Policy Issues in Agriculture and Natural Resources</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -1514,6 +1523,15 @@
     <aceOutcomes>
       <slo>10</slo>
     </aceOutcomes>
+  </course>
+  <course>
+    <title>Commodity Price Forecasting</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>AECN</subject>
+        <courseNumber>436</courseNumber>
+      </courseCode>
+    </courseCodes>
   </course>
   <course>
     <title>Agricultural and Natural Resource Policy Analysis</title>
@@ -2346,10 +2364,6 @@
         <subject>AGRI</subject>
         <courseNumber>115</courseNumber>
       </courseCode>
-      <courseCode type="crosslisting">
-        <subject>LIFE</subject>
-        <courseNumber>115</courseNumber>
-      </courseCode>
     </courseCodes>
     <aceOutcomes>
       <slo>4</slo>
@@ -2379,15 +2393,6 @@
       <courseCode type="home listing">
         <subject>AGRI</subject>
         <courseNumber>205</courseNumber>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
-    <title>An Introduction to Computer Applications in Agriculture</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>AGRI</subject>
-        <courseNumber>271</courseNumber>
       </courseCode>
     </courseCodes>
   </course>
@@ -2514,6 +2519,10 @@
       <courseCode type="home listing">
         <subject>AGRI</subject>
         <courseNumber>496</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>AGRI</subject>
+        <courseNumber>896</courseNumber>
       </courseCode>
     </courseCodes>
   </course>
@@ -3731,23 +3740,6 @@
     </courseCodes>
   </course>
   <course>
-    <title>Genetics of Host-Parasite Interaction</title>
-    <courseCodes>
-      <courseCode type="crosslisting">
-        <subject>BIOS</subject>
-        <courseNumber>963</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>HORT</subject>
-        <courseNumber>963</courseNumber>
-      </courseCode>
-      <courseCode type="home listing">
-        <subject>AGRO</subject>
-        <courseNumber>963</courseNumber>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
     <title>Soil Fertility</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -4064,42 +4056,6 @@
       <courseCode type="home listing">
         <subject>AHIS</subject>
         <courseNumber>346</courseNumber>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
-    <title>Arts of the 20th Century: 1900-1945</title>
-    <courseCodes>
-      <courseCode type="crosslisting">
-        <subject>MUNM</subject>
-        <courseNumber>388</courseNumber>
-        <courseGroup>Music for Non-majors (MUNM)</courseGroup>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>THEA</subject>
-        <courseNumber>388</courseNumber>
-      </courseCode>
-      <courseCode type="home listing">
-        <subject>AHIS</subject>
-        <courseNumber>388</courseNumber>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
-    <title>Arts of the 20th Century: 1945-Present</title>
-    <courseCodes>
-      <courseCode type="crosslisting">
-        <subject>MUNM</subject>
-        <courseNumber>389</courseNumber>
-        <courseGroup>Music for Non-majors (MUNM)</courseGroup>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>THEA</subject>
-        <courseNumber>389</courseNumber>
-      </courseCode>
-      <courseCode type="home listing">
-        <subject>AHIS</subject>
-        <courseNumber>389</courseNumber>
       </courseCode>
     </courseCodes>
   </course>
@@ -4681,6 +4637,15 @@
     </courseCodes>
   </course>
   <course>
+    <title>Introduction to Engineering design (IED)</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ALEC</subject>
+        <courseNumber>105</courseNumber>
+      </courseCode>
+    </courseCodes>
+  </course>
+  <course>
     <title>Food in Society</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -5012,6 +4977,10 @@
     <courseCodes>
       <courseCode type="home listing">
         <subject>ALEC</subject>
+        <courseNumber>393</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>NRES</subject>
         <courseNumber>393</courseNumber>
       </courseCode>
     </courseCodes>
@@ -5917,7 +5886,7 @@
     <courseCodes>
       <courseCode type="home listing">
         <subject>ANTH</subject>
-        <courseNumber>387</courseNumber>
+        <courseNumber>389</courseNumber>
       </courseCode>
     </courseCodes>
   </course>
@@ -5939,55 +5908,6 @@
         <courseNumber>399</courseNumber>
         <courseLetter>H</courseLetter>
         <courseGroup>Integrative Courses, Research and Reading</courseGroup>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
-    <title>Cross-Cultural Mentoring I</title>
-    <courseCodes>
-      <courseCode type="crosslisting">
-        <subject>WMNS</subject>
-        <courseNumber>408</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>WMNS</subject>
-        <courseNumber>808</courseNumber>
-      </courseCode>
-      <courseCode type="home listing">
-        <subject>ANTH</subject>
-        <courseNumber>408</courseNumber>
-        <courseGroup>Cultural Anthropology</courseGroup>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>ANTH</subject>
-        <courseNumber>808</courseNumber>
-        <courseGroup>Cultural Anthropology</courseGroup>
-      </courseCode>
-    </courseCodes>
-    <aceOutcomes>
-      <slo>8</slo>
-    </aceOutcomes>
-  </course>
-  <course>
-    <title>Cross-Cultural Mentoring II</title>
-    <courseCodes>
-      <courseCode type="crosslisting">
-        <subject>WMNS</subject>
-        <courseNumber>409</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>WMNS</subject>
-        <courseNumber>809</courseNumber>
-      </courseCode>
-      <courseCode type="home listing">
-        <subject>ANTH</subject>
-        <courseNumber>409</courseNumber>
-        <courseGroup>Cultural Anthropology</courseGroup>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>ANTH</subject>
-        <courseNumber>809</courseNumber>
-        <courseGroup>Cultural Anthropology</courseGroup>
       </courseCode>
     </courseCodes>
   </course>
@@ -6895,28 +6815,6 @@
     </courseCodes>
   </course>
   <course>
-    <title>Introduction to Architecture</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ARCH</subject>
-        <courseNumber>101</courseNumber>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
-    <title>Introduction to Design</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ARCH</subject>
-        <courseNumber>106</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>IDES</subject>
-        <courseNumber>106</courseNumber>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
     <title>Sustainability Basics and the Build Environment</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -7035,40 +6933,6 @@
     </courseCodes>
   </course>
   <course>
-    <title>Architectural Structures I</title>
-    <courseCodes>
-      <courseCode type="crosslisting">
-        <subject>CNST</subject>
-        <courseNumber>331</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>CNST</subject>
-        <courseNumber>3310</courseNumber>
-      </courseCode>
-      <courseCode type="home listing">
-        <subject>ARCH</subject>
-        <courseNumber>331</courseNumber>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
-    <title>Architectural Structures II</title>
-    <courseCodes>
-      <courseCode type="crosslisting">
-        <subject>CNST</subject>
-        <courseNumber>332</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>CNST</subject>
-        <courseNumber>3320</courseNumber>
-      </courseCode>
-      <courseCode type="home listing">
-        <subject>ARCH</subject>
-        <courseNumber>332</courseNumber>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
     <title>Building Environmental Technical Systems I</title>
     <courseCodes>
       <courseCode type="crosslisting">
@@ -7121,19 +6985,6 @@
     </courseCodes>
   </course>
   <course>
-    <title>Architectural History and Theory I</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ARCH</subject>
-        <courseNumber>340</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>ARCH</subject>
-        <courseNumber>540</courseNumber>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
     <title>Architectural Theory</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -7160,15 +7011,6 @@
       <courseCode type="crosslisting">
         <subject>ARCH</subject>
         <courseNumber>547</courseNumber>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
-    <title>Design Process</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ARCH</subject>
-        <courseNumber>350</courseNumber>
       </courseCode>
     </courseCodes>
   </course>
@@ -7262,49 +7104,6 @@
     </courseCodes>
   </course>
   <course>
-    <title>Computer Applications in Environmental Development</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ARCH</subject>
-        <courseNumber>423</courseNumber>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
-    <title>Advanced Architectural Drawing</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ARCH</subject>
-        <courseNumber>424</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>ARCH</subject>
-        <courseNumber>524</courseNumber>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>ARCH</subject>
-        <courseNumber>824</courseNumber>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
-    <title>Computer-aided Drawing/Design (CADD) in Architecture</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ARCH</subject>
-        <courseNumber>425</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>ARCH</subject>
-        <courseNumber>525</courseNumber>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>ARCH</subject>
-        <courseNumber>825</courseNumber>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
     <title>Technological Integration</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -7314,185 +7113,11 @@
     </courseCodes>
   </course>
   <course>
-    <title>Advanced Lighting Design</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ARCH</subject>
-        <courseNumber>435</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>ARCH</subject>
-        <courseNumber>535</courseNumber>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>ARCH</subject>
-        <courseNumber>835</courseNumber>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
-    <title>Architectural Acoustics</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ARCH</subject>
-        <courseNumber>437</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>ARCH</subject>
-        <courseNumber>537</courseNumber>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>ARCH</subject>
-        <courseNumber>837</courseNumber>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
     <title>Interior Construction</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>ARCH</subject>
         <courseNumber>438</courseNumber>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
-    <title>Architectural History and Theory II</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ARCH</subject>
-        <courseNumber>441</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>ARCH</subject>
-        <courseNumber>541</courseNumber>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>ARCH</subject>
-        <courseNumber>841</courseNumber>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
-    <title>Contemporary Architecture</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ARCH</subject>
-        <courseNumber>442</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>ARCH</subject>
-        <courseNumber>542</courseNumber>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>ARCH</subject>
-        <courseNumber>842</courseNumber>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
-    <title>Theory and Criticism in Architecture Since 1945</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ARCH</subject>
-        <courseNumber>446</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>ARCH</subject>
-        <courseNumber>546</courseNumber>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>ARCH</subject>
-        <courseNumber>846</courseNumber>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
-    <title>Architecture of the Great Plains</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ARCH</subject>
-        <courseNumber>448</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>ARCH</subject>
-        <courseNumber>548</courseNumber>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>ARCH</subject>
-        <courseNumber>848</courseNumber>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
-    <title>Survey of Asian Architecture</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ARCH</subject>
-        <courseNumber>450</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>ARCH</subject>
-        <courseNumber>550</courseNumber>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>ARCH</subject>
-        <courseNumber>850</courseNumber>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
-    <title>Latin American Architecture</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ARCH</subject>
-        <courseNumber>451</courseNumber>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>ARCH</subject>
-        <courseNumber>851</courseNumber>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
-    <title>Behavioral and Social Factors in Environmental Design</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ARCH</subject>
-        <courseNumber>456</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>ARCH</subject>
-        <courseNumber>556</courseNumber>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>ARCH</subject>
-        <courseNumber>856</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>IDES</subject>
-        <courseNumber>456</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>IDES</subject>
-        <courseNumber>856</courseNumber>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
-    <title>Housing Issues in Contemporary Society</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ARCH</subject>
-        <courseNumber>457</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>ARCH</subject>
-        <courseNumber>557</courseNumber>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>ARCH</subject>
-        <courseNumber>857</courseNumber>
       </courseCode>
     </courseCodes>
   </course>
@@ -7539,32 +7164,6 @@
       <courseCode type="crosslisting">
         <subject>LARC</subject>
         <courseNumber>461</courseNumber>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
-    <title>Architectural Preservation</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ARCH</subject>
-        <courseNumber>463</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>ARCH</subject>
-        <courseNumber>563</courseNumber>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>ARCH</subject>
-        <courseNumber>863</courseNumber>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
-    <title>Urban Structure I</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ARCH</subject>
-        <courseNumber>464</courseNumber>
       </courseCode>
     </courseCodes>
   </course>
@@ -7628,32 +7227,6 @@
       <courseCode type="crosslisting">
         <subject>IDES</subject>
         <courseNumber>882</courseNumber>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
-    <title>Case Study in the Study and Practice of Architecture</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ARCH</subject>
-        <courseNumber>484</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>ARCH</subject>
-        <courseNumber>584</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>ARCH</subject>
-        <courseNumber>884</courseNumber>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
-    <title>Senior Inspection Trip</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ARCH</subject>
-        <courseNumber>488</courseNumber>
       </courseCode>
     </courseCodes>
   </course>
@@ -8490,190 +8063,6 @@
     </aceOutcomes>
   </course>
   <course>
-    <title>Visual Literacy Lab: Analysis and/or Composition</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ARTP</subject>
-        <courseNumber>140</courseNumber>
-        <courseLetter>A</courseLetter>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>ARCH</subject>
-        <courseNumber>140</courseNumber>
-        <courseLetter>A</courseLetter>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>IDES</subject>
-        <courseNumber>140</courseNumber>
-        <courseLetter>A</courseLetter>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>LARC</subject>
-        <courseNumber>140</courseNumber>
-        <courseLetter>A</courseLetter>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>JGEN</subject>
-        <courseNumber>140</courseNumber>
-        <courseLetter>A</courseLetter>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>TMFD</subject>
-        <courseNumber>140</courseNumber>
-        <courseLetter>A</courseLetter>
-      </courseCode>
-    </courseCodes>
-    <aceOutcomes>
-      <slo>2</slo>
-    </aceOutcomes>
-  </course>
-  <course>
-    <title>Visual Literacy Lab: Perceptual Drawing</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ARTP</subject>
-        <courseNumber>140</courseNumber>
-        <courseLetter>B</courseLetter>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>ARCH</subject>
-        <courseNumber>140</courseNumber>
-        <courseLetter>B</courseLetter>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>IDES</subject>
-        <courseNumber>140</courseNumber>
-        <courseLetter>B</courseLetter>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>LARC</subject>
-        <courseNumber>140</courseNumber>
-        <courseLetter>B</courseLetter>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>JGEN</subject>
-        <courseNumber>140</courseNumber>
-        <courseLetter>B</courseLetter>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>TMFD</subject>
-        <courseNumber>140</courseNumber>
-        <courseLetter>B</courseLetter>
-      </courseCode>
-    </courseCodes>
-    <aceOutcomes>
-      <slo>2</slo>
-    </aceOutcomes>
-  </course>
-  <course>
-    <title>Visual Literacy Lab: Color</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ARTP</subject>
-        <courseNumber>141</courseNumber>
-        <courseLetter>A</courseLetter>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>ARCH</subject>
-        <courseNumber>141</courseNumber>
-        <courseLetter>A</courseLetter>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>IDES</subject>
-        <courseNumber>141</courseNumber>
-        <courseLetter>A</courseLetter>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>LARC</subject>
-        <courseNumber>141</courseNumber>
-        <courseLetter>A</courseLetter>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>JGEN</subject>
-        <courseNumber>141</courseNumber>
-        <courseLetter>A</courseLetter>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>TMFD</subject>
-        <courseNumber>141</courseNumber>
-        <courseLetter>A</courseLetter>
-      </courseCode>
-    </courseCodes>
-    <aceOutcomes>
-      <slo>2</slo>
-    </aceOutcomes>
-  </course>
-  <course>
-    <title>Visual Literacy Lab: Speculative Drawing</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ARTP</subject>
-        <courseNumber>141</courseNumber>
-        <courseLetter>B</courseLetter>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>ARCH</subject>
-        <courseNumber>141</courseNumber>
-        <courseLetter>B</courseLetter>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>IDES</subject>
-        <courseNumber>141</courseNumber>
-        <courseLetter>B</courseLetter>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>LARC</subject>
-        <courseNumber>141</courseNumber>
-        <courseLetter>B</courseLetter>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>JGEN</subject>
-        <courseNumber>141</courseNumber>
-        <courseLetter>B</courseLetter>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>TMFD</subject>
-        <courseNumber>141</courseNumber>
-        <courseLetter>B</courseLetter>
-      </courseCode>
-    </courseCodes>
-    <aceOutcomes>
-      <slo>2</slo>
-    </aceOutcomes>
-  </course>
-  <course>
-    <title>Visual Literacy: Art and Design</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ARTP</subject>
-        <courseNumber>143</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>ARCH</subject>
-        <courseNumber>143</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>IDES</subject>
-        <courseNumber>143</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>LARC</subject>
-        <courseNumber>143</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>JGEN</subject>
-        <courseNumber>143</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>TMFD</subject>
-        <courseNumber>143</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <aceOutcomes>
-      <slo>2</slo>
-    </aceOutcomes>
-  </course>
-  <course>
     <title>Studio Foundation</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -8719,18 +8108,6 @@
     </courseCodes>
   </course>
   <course>
-    <title>Art at Cedar Point</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ARTP</subject>
-        <courseNumber>183</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <aceOutcomes>
-      <slo>7</slo>
-    </aceOutcomes>
-  </course>
-  <course>
     <title>University Honors Seminar</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -8752,6 +8129,18 @@
         <courseNumber>381</courseNumber>
       </courseCode>
     </courseCodes>
+  </course>
+  <course>
+    <title>Art at Cedar Point</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ARTP</subject>
+        <courseNumber>383</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <aceOutcomes>
+      <slo>7</slo>
+    </aceOutcomes>
   </course>
   <course>
     <title>Internship in Art</title>
@@ -9742,6 +9131,16 @@
     </courseCodes>
   </course>
   <course>
+    <title>Genetic Prediction</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ASCI</subject>
+        <courseNumber>862</courseNumber>
+        <courseLetter>V</courseLetter>
+      </courseCode>
+    </courseCodes>
+  </course>
+  <course>
     <title>Applied Variance Component Estimation in Livestock Genetics</title>
     <courseCodes>
       <courseCode type="crosslisting">
@@ -9763,6 +9162,16 @@
         <subject>ASCI</subject>
         <courseNumber>863</courseNumber>
         <courseLetter>U</courseLetter>
+      </courseCode>
+    </courseCodes>
+  </course>
+  <course>
+    <title>Introduction to Marker Association Analysis and QTL Detection</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ASCI</subject>
+        <courseNumber>863</courseNumber>
+        <courseLetter>V</courseLetter>
       </courseCode>
     </courseCodes>
   </course>
@@ -10472,6 +9881,15 @@
     </courseCodes>
   </course>
   <course>
+    <title>Scientific Analysis and Technical Writing</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>BIOC</subject>
+        <courseNumber>205</courseNumber>
+      </courseCode>
+    </courseCodes>
+  </course>
+  <course>
     <title>Elements of Biochemistry</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -10877,6 +10295,15 @@
     </courseCodes>
   </course>
   <course>
+    <title>Biological Sciences Learning Community Freshman Seminar</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>BIOS</subject>
+        <courseNumber>191</courseNumber>
+      </courseCode>
+    </courseCodes>
+  </course>
+  <course>
     <title>Bioethics</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -11215,6 +10642,19 @@
     </courseCodes>
   </course>
   <course>
+    <title>Biodiversity Conservation</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>BIOS</subject>
+        <courseNumber>416</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>BIOS</subject>
+        <courseNumber>816</courseNumber>
+      </courseCode>
+    </courseCodes>
+  </course>
+  <course>
     <title>Advanced Genetics</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -11226,6 +10666,9 @@
         <courseNumber>818</courseNumber>
       </courseCode>
     </courseCodes>
+    <aceOutcomes>
+      <slo>10</slo>
+    </aceOutcomes>
   </course>
   <course>
     <title>Molecular Genetics</title>
@@ -11250,6 +10693,23 @@
     <aceOutcomes>
       <slo>10</slo>
     </aceOutcomes>
+  </course>
+  <course>
+    <title>Microbial Diversity</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>BIOS</subject>
+        <courseNumber>421</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>BIOS</subject>
+        <courseNumber>821</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>MBIO</subject>
+        <courseNumber>421</courseNumber>
+      </courseCode>
+    </courseCodes>
   </course>
   <course>
     <title>Comparative Physiology</title>
@@ -11641,6 +11101,19 @@
     </courseCodes>
   </course>
   <course>
+    <title>Ecology and Evolution of Arachnids</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>BIOS</subject>
+        <courseNumber>480</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>BIOS</subject>
+        <courseNumber>880</courseNumber>
+      </courseCode>
+    </courseCodes>
+  </course>
+  <course>
     <title>Field Parasitology</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -12005,15 +11478,6 @@
     </courseCodes>
   </course>
   <course>
-    <title>Plant Pathology-Plant Virology</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>BIOS</subject>
-        <courseNumber>965</courseNumber>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
     <title>Advanced Viral Pathogenesis</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -12023,15 +11487,6 @@
       <courseCode type="crosslisting">
         <subject>VBMS</subject>
         <courseNumber>966</courseNumber>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
-    <title>Seminar in Plant Pathology</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>BIOS</subject>
-        <courseNumber>968</courseNumber>
       </courseCode>
     </courseCodes>
   </course>
@@ -16608,38 +16063,11 @@
     </courseCodes>
   </course>
   <course>
-    <title>Experimental Soil Mechanics</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>CIVE</subject>
-        <courseNumber>835</courseNumber>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
     <title>Structural Dynamics</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>CIVE</subject>
         <courseNumber>842</courseNumber>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
-    <title>Advanced Structural Analysis</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>CIVE</subject>
-        <courseNumber>845</courseNumber>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
-    <title>Reinforced Masonry Design</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>CIVE</subject>
-        <courseNumber>849</courseNumber>
       </courseCode>
     </courseCodes>
   </course>
@@ -16743,87 +16171,6 @@
     </courseCodes>
   </course>
   <course>
-    <title>Advanced Topics in Hazardous Waste Treatment</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>CIVE</subject>
-        <courseNumber>921</courseNumber>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
-    <title>Advanced Topics in Water Treatment</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>CIVE</subject>
-        <courseNumber>926</courseNumber>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
-    <title>Advanced Topics in Wastewater Treatment</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>CIVE</subject>
-        <courseNumber>927</courseNumber>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
-    <title>Industrial Waste Management Engineering</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>CIVE</subject>
-        <courseNumber>928</courseNumber>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
-    <title>Industrial Waste Laboratory</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>CIVE</subject>
-        <courseNumber>929</courseNumber>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
-    <title>Advanced and Industrial Wastewater Treatment</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>CIVE</subject>
-        <courseNumber>930</courseNumber>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
-    <title>Theoretical Soil Mechanics II</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>CIVE</subject>
-        <courseNumber>934</courseNumber>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
-    <title>Advanced Foundation Engineering</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>CIVE</subject>
-        <courseNumber>936</courseNumber>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
-    <title>Applied Soil Mechanics</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>CIVE</subject>
-        <courseNumber>937</courseNumber>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
     <title>Behavior of Steel Members</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -16833,38 +16180,11 @@
     </courseCodes>
   </course>
   <course>
-    <title>Behavior of Reinforced Concrete Members</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>CIVE</subject>
-        <courseNumber>941</courseNumber>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
-    <title>Behavior of Miscellaneous Structural Materials</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>CIVE</subject>
-        <courseNumber>944</courseNumber>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
     <title>Structural Design for Dynamic Loads</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>CIVE</subject>
         <courseNumber>945</courseNumber>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
-    <title>Advanced Structural Engineering</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>CIVE</subject>
-        <courseNumber>946</courseNumber>
       </courseCode>
     </courseCodes>
   </course>
@@ -16883,15 +16203,6 @@
       <courseCode type="home listing">
         <subject>CIVE</subject>
         <courseNumber>949</courseNumber>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
-    <title>Concrete Bridge Design</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>CIVE</subject>
-        <courseNumber>950</courseNumber>
       </courseCode>
     </courseCodes>
   </course>
@@ -17113,6 +16424,19 @@
         <courseLetter>H</courseLetter>
       </courseCode>
     </courseCodes>
+  </course>
+  <course>
+    <title>Sparta</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CLAS</subject>
+        <courseNumber>222</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <aceOutcomes>
+      <slo>5</slo>
+      <slo>8</slo>
+    </aceOutcomes>
   </course>
   <course>
     <title>Science in the Classical World</title>
@@ -19281,6 +18605,28 @@
       <courseCode type="home listing">
         <subject>CRIM</subject>
         <courseNumber>450</courseNumber>
+      </courseCode>
+    </courseCodes>
+  </course>
+  <course>
+    <title>Violence</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CRIM</subject>
+        <courseNumber>451</courseNumber>
+      </courseCode>
+    </courseCodes>
+  </course>
+  <course>
+    <title>Violence</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CRIM</subject>
+        <courseNumber>451</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>CRIM</subject>
+        <courseNumber>851</courseNumber>
       </courseCode>
     </courseCodes>
   </course>
@@ -22139,7 +21485,7 @@
     </courseCodes>
   </course>
   <course>
-    <title>Critical Issues for the Beginning Teacher</title>
+    <title>Critical Issues for the Beginning Family and Consumer Sciences Teacher</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>CYAF</subject>
@@ -24617,7 +23963,7 @@
     </courseCodes>
   </course>
   <course>
-    <title>Practicum in Educational Administration and Supervision</title>
+    <title>Principal Practicum</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>EDAD</subject>
@@ -25080,7 +24426,7 @@
     </courseCodes>
   </course>
   <course>
-    <title>Educational Leadership in Community Colleges</title>
+    <title>Emerging Issues in Community College Leadership</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>EDAD</subject>
@@ -29504,9 +28850,6 @@
         <courseGroup>Writing, Rhetoric, and Culture</courseGroup>
       </courseCode>
     </courseCodes>
-    <aceOutcomes>
-      <slo>10</slo>
-    </aceOutcomes>
   </course>
   <course>
     <title>Composition and Rhetorical Theory</title>
@@ -30764,6 +30107,23 @@
     </courseCodes>
   </course>
   <course>
+    <title>Toxins in the Environment</title>
+    <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>BIOS</subject>
+        <courseNumber>300</courseNumber>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>ENTO</subject>
+        <courseNumber>300</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>NRES</subject>
+        <courseNumber>300</courseNumber>
+      </courseCode>
+    </courseCodes>
+  </course>
+  <course>
     <title>Management of Field Crop Insects</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -31664,6 +31024,15 @@
       <courseCode type="home listing">
         <subject>ETHN</subject>
         <courseNumber>499</courseNumber>
+      </courseCode>
+    </courseCodes>
+  </course>
+  <course>
+    <title>Critical Issues in U.S. and Global Society: Race, Social Justice and Inequality</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ETHN</subject>
+        <courseNumber>890</courseNumber>
       </courseCode>
     </courseCodes>
   </course>
@@ -34997,7 +34366,7 @@
     </courseCodes>
   </course>
   <course>
-    <title>Minerals, Rocks and Ores</title>
+    <title>Earth Materials: Rocks and Minerals</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>GEOL</subject>
@@ -35810,6 +35179,10 @@
         <subject>GEOS</subject>
         <courseNumber>811</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>NRES</subject>
+        <courseNumber>841</courseNumber>
+      </courseCode>
     </courseCodes>
   </course>
   <course>
@@ -36058,6 +35431,15 @@
       <courseCode type="home listing">
         <subject>GERM</subject>
         <courseNumber>392</courseNumber>
+      </courseCode>
+    </courseCodes>
+  </course>
+  <course>
+    <title>Internship in German-Speaking Country</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>GERM</subject>
+        <courseNumber>395</courseNumber>
       </courseCode>
     </courseCodes>
   </course>
@@ -36359,7 +35741,7 @@
     </aceOutcomes>
   </course>
   <course>
-    <title>Goethe's Faust</title>
+    <title>The Faust Tradition</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>GERM</subject>
@@ -39417,25 +38799,6 @@
     </courseCodes>
   </course>
   <course>
-    <title>Indians in American Popular Culture</title>
-    <courseCodes>
-      <courseCode type="crosslisting">
-        <subject>ETHN</subject>
-        <courseNumber>411</courseNumber>
-      </courseCode>
-      <courseCode type="home listing">
-        <subject>HIST</subject>
-        <courseNumber>411</courseNumber>
-        <courseGroup>United States or Canadian History</courseGroup>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>HIST</subject>
-        <courseNumber>811</courseNumber>
-        <courseGroup>United States or Canadian History</courseGroup>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
     <title>Democracy and Tyranny in Classical Athens</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -39927,25 +39290,6 @@
         <subject>HIST</subject>
         <courseNumber>867</courseNumber>
         <courseGroup>Latin American, Asian, Middle Eastern or African History</courseGroup>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
-    <title>Cultural History of Native America</title>
-    <courseCodes>
-      <courseCode type="crosslisting">
-        <subject>ETHN</subject>
-        <courseNumber>468</courseNumber>
-      </courseCode>
-      <courseCode type="home listing">
-        <subject>HIST</subject>
-        <courseNumber>468</courseNumber>
-        <courseGroup>United States or Canadian History</courseGroup>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>HIST</subject>
-        <courseNumber>868</courseNumber>
-        <courseGroup>United States or Canadian History</courseGroup>
       </courseCode>
     </courseCodes>
   </course>
@@ -43513,7 +42857,7 @@
     </courseCodes>
   </course>
   <course>
-    <title>Studio I:  Site Design</title>
+    <title>Studio I:  Landscape Architecture Design Foundations</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>LARC</subject>
@@ -43522,7 +42866,7 @@
     </courseCodes>
   </course>
   <course>
-    <title>Studio II: Site Design</title>
+    <title>Studio II: Landscape Architecture Site Design</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>LARC</subject>
@@ -43562,7 +42906,7 @@
     </aceOutcomes>
   </course>
   <course>
-    <title>Design Studio I: Site Design</title>
+    <title>Studio III: Landscape Architecture Advanced Site Design</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>LARC</subject>
@@ -43571,11 +42915,20 @@
     </courseCodes>
   </course>
   <course>
-    <title>Design Studio II: Site and Building</title>
+    <title>Design Studio IV: Contemporary Landscape Architecture Design Problems</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>LARC</subject>
         <courseNumber>311</courseNumber>
+      </courseCode>
+    </courseCodes>
+  </course>
+  <course>
+    <title>Site Systems III: Landscape Architecture Implementation</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>LARC</subject>
+        <courseNumber>330</courseNumber>
       </courseCode>
     </courseCodes>
   </course>
@@ -43640,20 +42993,11 @@
     </aceOutcomes>
   </course>
   <course>
-    <title>Design Studio IV: Urban Design</title>
+    <title>Design Studio VI: Contemporary Landscape Architecture Design Problems</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>LARC</subject>
         <courseNumber>411</courseNumber>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
-    <title>Design Studio V: Ecological Planning and Design</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>LARC</subject>
-        <courseNumber>412</courseNumber>
       </courseCode>
     </courseCodes>
   </course>
@@ -43663,6 +43007,15 @@
       <courseCode type="home listing">
         <subject>LARC</subject>
         <courseNumber>413</courseNumber>
+      </courseCode>
+    </courseCodes>
+  </course>
+  <course>
+    <title>International Service-Learning Experience</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>LARC</subject>
+        <courseNumber>470</courseNumber>
       </courseCode>
     </courseCodes>
   </course>
@@ -44567,7 +43920,7 @@
     </courseCodes>
   </course>
   <course>
-    <title>Federal Regulation of Food Safety</title>
+    <title>Food Law and Policy: Regulation of Safety and Marketing</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>LAW</subject>
@@ -44912,6 +44265,16 @@
   </course>
   <course>
     <title>Transnational and International Criminal Law</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>LAW</subject>
+        <courseNumber>715</courseNumber>
+        <courseLetter>G</courseLetter>
+      </courseCode>
+    </courseCodes>
+  </course>
+  <course>
+    <title>Human Rights and International Criminal Law</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>LAW</subject>
@@ -49295,6 +48658,16 @@
     </courseCodes>
   </course>
   <course>
+    <title>Honors Introduction to Management</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MNGT</subject>
+        <courseNumber>301</courseNumber>
+        <courseLetter>H</courseLetter>
+      </courseCode>
+    </courseCodes>
+  </course>
+  <course>
     <title>Leadership, Communication and Teams</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -49475,108 +48848,6 @@
       <courseCode type="crosslisting">
         <subject>ENTR</subject>
         <courseNumber>422</courseNumber>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
-    <title>Enterprise Management Systems</title>
-    <courseCodes>
-      <courseCode type="crosslisting">
-        <subject>SCMS</subject>
-        <courseNumber>431</courseNumber>
-      </courseCode>
-      <courseCode type="home listing">
-        <subject>MNGT</subject>
-        <courseNumber>431</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>MNGT</subject>
-        <courseNumber>831</courseNumber>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
-    <title>Supply Chain Risk Management</title>
-    <courseCodes>
-      <courseCode type="crosslisting">
-        <subject>SCMS</subject>
-        <courseNumber>437</courseNumber>
-      </courseCode>
-      <courseCode type="home listing">
-        <subject>MNGT</subject>
-        <courseNumber>437</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>MNGT</subject>
-        <courseNumber>837</courseNumber>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
-    <title>Database Organization and Management</title>
-    <courseCodes>
-      <courseCode type="crosslisting">
-        <subject>SCMS</subject>
-        <courseNumber>452</courseNumber>
-      </courseCode>
-      <courseCode type="home listing">
-        <subject>MNGT</subject>
-        <courseNumber>452</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>MNGT</subject>
-        <courseNumber>852</courseNumber>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
-    <title>Information Systems Analysis and Design</title>
-    <courseCodes>
-      <courseCode type="crosslisting">
-        <subject>SCMS</subject>
-        <courseNumber>454</courseNumber>
-      </courseCode>
-      <courseCode type="home listing">
-        <subject>MNGT</subject>
-        <courseNumber>454</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>MNGT</subject>
-        <courseNumber>854</courseNumber>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
-    <title>Electronic Business</title>
-    <courseCodes>
-      <courseCode type="crosslisting">
-        <subject>SCMS</subject>
-        <courseNumber>458</courseNumber>
-      </courseCode>
-      <courseCode type="home listing">
-        <subject>MNGT</subject>
-        <courseNumber>458</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>MNGT</subject>
-        <courseNumber>858</courseNumber>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
-    <title>Global Information Systems</title>
-    <courseCodes>
-      <courseCode type="crosslisting">
-        <subject>SCMS</subject>
-        <courseNumber>459</courseNumber>
-      </courseCode>
-      <courseCode type="home listing">
-        <subject>MNGT</subject>
-        <courseNumber>459</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>MNGT</subject>
-        <courseNumber>859</courseNumber>
       </courseCode>
     </courseCodes>
   </course>
@@ -52384,6 +51655,16 @@
     </courseCodes>
   </course>
   <course>
+    <title>Guitar</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MUAP</subject>
+        <courseNumber>924</courseNumber>
+        <courseGroup>Applied Music (MUAP)</courseGroup>
+      </courseCode>
+    </courseCodes>
+  </course>
+  <course>
     <title>Small Ensembles</title>
     <courseCodes>
       <courseCode type="crosslisting">
@@ -54230,7 +53511,7 @@
     </courseCodes>
   </course>
   <course>
-    <title>Beginning Applied Music</title>
+    <title>College-Level Music Lessons, I</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>MUNM</subject>
@@ -54265,7 +53546,7 @@
     </courseCodes>
   </course>
   <course>
-    <title>Applied Music</title>
+    <title>College-Level Music Lessons, II</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>MUNM</subject>
@@ -54329,28 +53610,6 @@
     </courseCodes>
   </course>
   <course>
-    <title>Music in Africa</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>MUNM</subject>
-        <courseNumber>281</courseNumber>
-        <courseGroup>Music for Non-majors (MUNM)</courseGroup>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
-    <title>Introduction to Music Composition and Digital Audio Production</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>MUNM</subject>
-        <courseNumber>282</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <aceOutcomes>
-      <slo>7</slo>
-    </aceOutcomes>
-  </course>
-  <course>
     <title>The History of Rock Music</title>
     <courseCodes>
       <courseCode type="crosslisting">
@@ -54365,16 +53624,6 @@
     <aceOutcomes>
       <slo>7</slo>
     </aceOutcomes>
-  </course>
-  <course>
-    <title>Applied Music</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>MUNM</subject>
-        <courseNumber>300</courseNumber>
-        <courseGroup>Applied Music for Non-majors (MUNM)</courseGroup>
-      </courseCode>
-    </courseCodes>
   </course>
   <course>
     <title>Music and Sports: Performance and Perception</title>
@@ -54432,16 +53681,6 @@
     </aceOutcomes>
   </course>
   <course>
-    <title>Applied Music</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>MUNM</subject>
-        <courseNumber>400</courseNumber>
-        <courseGroup>Applied Music for Non-majors (MUNM)</courseGroup>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
     <title>Intermediate Opera Performance Techniques</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -54452,7 +53691,7 @@
     </courseCodes>
   </course>
   <course>
-    <title>Philharmonia: Opera and Chamber Orchestra</title>
+    <title>Philharmonia Chamber Orchestra</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>MUOP</subject>
@@ -54781,6 +54020,18 @@
     </aceOutcomes>
   </course>
   <course>
+    <title>Introduction to Music Composition and Digital Audio Production</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MUSC</subject>
+        <courseNumber>282</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <aceOutcomes>
+      <slo>7</slo>
+    </aceOutcomes>
+  </course>
+  <course>
     <title>Music Technology: Foundations of Audio Recording and Production</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -54846,23 +54097,6 @@
         <subject>MUSC</subject>
         <courseNumber>366</courseNumber>
         <courseGroup>Core Curriculum (MUSC)</courseGroup>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
-    <title>Honors: Women Making Music</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>MUSC</subject>
-        <courseNumber>370</courseNumber>
-        <courseLetter>H</courseLetter>
-        <courseGroup>Music History (MUSC)</courseGroup>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>MUNM</subject>
-        <courseNumber>370</courseNumber>
-        <courseLetter>H</courseLetter>
-        <courseGroup>Music for Non-majors (MUNM)</courseGroup>
       </courseCode>
     </courseCodes>
   </course>
@@ -57421,6 +56655,15 @@
     </courseCodes>
   </course>
   <course>
+    <title>Human Dimensions of Natural Resource Management</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>NRES</subject>
+        <courseNumber>829</courseNumber>
+      </courseCode>
+    </courseCodes>
+  </course>
+  <course>
     <title>Laboratory Earth:  Climate Research Applications</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -57489,6 +56732,15 @@
       <courseCode type="home listing">
         <subject>NRES</subject>
         <courseNumber>880</courseNumber>
+      </courseCode>
+    </courseCodes>
+  </course>
+  <course>
+    <title>Environmental Conflict Management</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>NRES</subject>
+        <courseNumber>881</courseNumber>
       </courseCode>
     </courseCodes>
   </course>
@@ -57655,7 +56907,7 @@
     </courseCodes>
   </course>
   <course>
-    <title>Nutrition, Exercise and Health</title>
+    <title>Healthy Living</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>NUTR</subject>
@@ -57664,7 +56916,16 @@
     </courseCodes>
   </course>
   <course>
-    <title>Foundations in Nutrition and Health Promotion</title>
+    <title>Food Literacy</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>NUTR</subject>
+        <courseNumber>145</courseNumber>
+      </courseCode>
+    </courseCodes>
+  </course>
+  <course>
+    <title>Career Preparation in Nutrition and Health Sciences</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>NUTR</subject>
@@ -57745,6 +57006,15 @@
     </courseCodes>
   </course>
   <course>
+    <title>Nutrient and Fitness Assessment</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>NUTR</subject>
+        <courseNumber>252</courseNumber>
+      </courseCode>
+    </courseCodes>
+  </course>
+  <course>
     <title>Cultural Aspects of Food and Nutrition</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -57762,6 +57032,15 @@
       <courseCode type="home listing">
         <subject>NUTR</subject>
         <courseNumber>255</courseNumber>
+      </courseCode>
+    </courseCodes>
+  </course>
+  <course>
+    <title>Addressing Health Disparities through Health Literacy</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>NUTR</subject>
+        <courseNumber>256</courseNumber>
       </courseCode>
     </courseCodes>
   </course>
@@ -57784,6 +57063,15 @@
     </courseCodes>
   </course>
   <course>
+    <title>Health Information:  Science, Media, and the Consumer</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>NUTR</subject>
+        <courseNumber>302</courseNumber>
+      </courseCode>
+    </courseCodes>
+  </course>
+  <course>
     <title>Meat CulinologyTMIII: Foodservice Applications</title>
     <courseCodes>
       <courseCode type="crosslisting">
@@ -57797,7 +57085,7 @@
     </courseCodes>
   </course>
   <course>
-    <title>Food and Nutrition for Healthy Living</title>
+    <title>Nutrition and Food for Optimal Health</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>NUTR</subject>
@@ -57811,6 +57099,15 @@
       <courseCode type="home listing">
         <subject>NUTR</subject>
         <courseNumber>351</courseNumber>
+      </courseCode>
+    </courseCodes>
+  </course>
+  <course>
+    <title>Social Marketing in Health Communication</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>NUTR</subject>
+        <courseNumber>352</courseNumber>
       </courseCode>
     </courseCodes>
   </course>
@@ -57869,20 +57166,20 @@
     </courseCodes>
   </course>
   <course>
+    <title>Planning and Implementation of Health Promotion Programs</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>NUTR</subject>
+        <courseNumber>400</courseNumber>
+      </courseCode>
+    </courseCodes>
+  </course>
+  <course>
     <title>Health Behavior</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>NUTR</subject>
         <courseNumber>401</courseNumber>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
-    <title>Health Information:  Science, Media, and the Consumer</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>NUTR</subject>
-        <courseNumber>402</courseNumber>
       </courseCode>
     </courseCodes>
   </course>
@@ -57896,11 +57193,29 @@
     </courseCodes>
   </course>
   <course>
+    <title>Evaluation and Research Related to Health Promotion</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>NUTR</subject>
+        <courseNumber>404</courseNumber>
+      </courseCode>
+    </courseCodes>
+  </course>
+  <course>
     <title>Health Promotion Strategies at the Workplace</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>NUTR</subject>
         <courseNumber>405</courseNumber>
+      </courseCode>
+    </courseCodes>
+  </course>
+  <course>
+    <title>Management and Administration of Health Promotion Programs</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>NUTR</subject>
+        <courseNumber>406</courseNumber>
       </courseCode>
     </courseCodes>
   </course>
@@ -58175,6 +57490,15 @@
     </courseCodes>
   </course>
   <course>
+    <title>Community Health and Wellness Practicum</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>NUTR</subject>
+        <courseNumber>487</courseNumber>
+      </courseCode>
+    </courseCodes>
+  </course>
+  <course>
     <title>Practicum in Exercise and Health Behavior Planning</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -58385,7 +57709,7 @@
     </courseCodes>
   </course>
   <course>
-    <title>Research Methods in Childhood Obesity</title>
+    <title>Research Planning and Grant Writing for Childhood Obesity</title>
     <courseCodes>
       <courseCode type="crosslisting">
         <subject>CYAF</subject>
@@ -58394,6 +57718,28 @@
       <courseCode type="home listing">
         <subject>NUTR</subject>
         <courseNumber>910</courseNumber>
+      </courseCode>
+    </courseCodes>
+  </course>
+  <course>
+    <title>Practicum: Experiential Learning Experiences in Childhood Obesity Prevention</title>
+    <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>CYAF</subject>
+        <courseNumber>911</courseNumber>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>NUTR</subject>
+        <courseNumber>911</courseNumber>
+      </courseCode>
+    </courseCodes>
+  </course>
+  <course>
+    <title>Lipid Metabolism and Metabolic Syndrome</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>NUTR</subject>
+        <courseNumber>922</courseNumber>
       </courseCode>
     </courseCodes>
   </course>
@@ -59330,6 +58676,18 @@
       <courseCode type="home listing">
         <subject>PHIL</subject>
         <courseNumber>337</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <aceOutcomes>
+      <slo>5</slo>
+    </aceOutcomes>
+  </course>
+  <course>
+    <title>Metaphysics: Ancient and Medieval</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>PHIL</subject>
+        <courseNumber>338</courseNumber>
       </courseCode>
     </courseCodes>
     <aceOutcomes>
@@ -62160,6 +61518,15 @@
     </courseCodes>
   </course>
   <course>
+    <title>Special Topics in Printmaking</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>PRNT</subject>
+        <courseNumber>391</courseNumber>
+      </courseCode>
+    </courseCodes>
+  </course>
+  <course>
     <title>Advanced Printmaking I</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -64261,6 +63628,45 @@
     </courseCodes>
   </course>
   <course>
+    <title>Water in Society</title>
+    <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>AECN</subject>
+        <courseNumber>109</courseNumber>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>SCIL</subject>
+        <courseNumber>109</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>NRES</subject>
+        <courseNumber>109</courseNumber>
+      </courseCode>
+    </courseCodes>
+  </course>
+  <course>
+    <title>Experiential Learning in Food, Energy and Water Systems I</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>SCIL</subject>
+        <courseNumber>300</courseNumber>
+      </courseCode>
+    </courseCodes>
+  </course>
+  <course>
+    <title>Experiential Learning in Food, Energy and Water Systems II</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>SCIL</subject>
+        <courseNumber>400</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>SCIL</subject>
+        <courseNumber>800</courseNumber>
+      </courseCode>
+    </courseCodes>
+  </course>
+  <course>
     <title>Sculpture for Non-majors</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -64378,10 +63784,6 @@
         <subject>SCMS</subject>
         <courseNumber>250</courseNumber>
       </courseCode>
-      <courseCode type="crosslisting">
-        <subject>MNGT</subject>
-        <courseNumber>250</courseNumber>
-      </courseCode>
     </courseCodes>
     <aceOutcomes>
       <slo>3</slo>
@@ -64392,10 +63794,6 @@
     <courseCodes>
       <courseCode type="home listing">
         <subject>SCMS</subject>
-        <courseNumber>331</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>MNGT</subject>
         <courseNumber>331</courseNumber>
       </courseCode>
     </courseCodes>
@@ -64410,15 +63808,21 @@
     </courseCodes>
   </course>
   <course>
-    <title>Introduction to Management Information Systems</title>
+    <title>Business Analytics/Information Analysis</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>SCMS</subject>
         <courseNumber>350</courseNumber>
       </courseCode>
-      <courseCode type="crosslisting">
-        <subject>MNGT</subject>
+    </courseCodes>
+  </course>
+  <course>
+    <title>Honors Business Analytics/Information Analysis</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>SCMS</subject>
         <courseNumber>350</courseNumber>
+        <courseLetter>H</courseLetter>
       </courseCode>
     </courseCodes>
   </course>
@@ -64451,6 +63855,15 @@
     </courseCodes>
   </course>
   <course>
+    <title>Enterprise Management Systems</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>SCMS</subject>
+        <courseNumber>431</courseNumber>
+      </courseCode>
+    </courseCodes>
+  </course>
+  <course>
     <title>Supply Chain Planning and Control Systems</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -64478,6 +63891,15 @@
     </courseCodes>
   </course>
   <course>
+    <title>Supply Chain Risk Management</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>SCMS</subject>
+        <courseNumber>437</courseNumber>
+      </courseCode>
+    </courseCodes>
+  </course>
+  <course>
     <title>Global Sourcing and Distribution</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -64492,6 +63914,51 @@
       <courseCode type="home listing">
         <subject>SCMS</subject>
         <courseNumber>447</courseNumber>
+      </courseCode>
+    </courseCodes>
+  </course>
+  <course>
+    <title>Introduction to Predictive Analytics</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>SCMS</subject>
+        <courseNumber>451</courseNumber>
+      </courseCode>
+    </courseCodes>
+  </course>
+  <course>
+    <title>Database Organization and Management</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>SCMS</subject>
+        <courseNumber>452</courseNumber>
+      </courseCode>
+    </courseCodes>
+  </course>
+  <course>
+    <title>Information Systems Analysis and Design</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>SCMS</subject>
+        <courseNumber>454</courseNumber>
+      </courseCode>
+    </courseCodes>
+  </course>
+  <course>
+    <title>Electronic Business</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>SCMS</subject>
+        <courseNumber>458</courseNumber>
+      </courseCode>
+    </courseCodes>
+  </course>
+  <course>
+    <title>Global Information Systems</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>SCMS</subject>
+        <courseNumber>459</courseNumber>
       </courseCode>
     </courseCodes>
   </course>
@@ -64551,6 +64018,15 @@
     </courseCodes>
   </course>
   <course>
+    <title>Project Management and Implementation</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>SCMS</subject>
+        <courseNumber>836</courseNumber>
+      </courseCode>
+    </courseCodes>
+  </course>
+  <course>
     <title>Stochastic Supply Chain Modeling</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -64573,10 +64049,6 @@
     <courseCodes>
       <courseCode type="home listing">
         <subject>SCMS</subject>
-        <courseNumber>853</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>MNGT</subject>
         <courseNumber>853</courseNumber>
       </courseCode>
     </courseCodes>
@@ -65012,7 +64484,7 @@
     </courseCodes>
   </course>
   <course>
-    <title>Counseling and Behavior Issues in Speech Language Pathology</title>
+    <title>Counseling and Behavior Issues in Communication Disorders</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>SLPA</subject>
@@ -65583,7 +65055,7 @@
     </courseCodes>
   </course>
   <course>
-    <title>Doing Sociology: Community-based Research II</title>
+    <title>Applied Sociology: Community-based Research II</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>SOCI</subject>
@@ -67323,11 +66795,11 @@
     </courseCodes>
   </course>
   <course>
-    <title>Behavior Management</title>
+    <title>Assessment Techniques for Diverse Learners</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>SPED</subject>
-        <courseNumber>303</courseNumber>
+        <courseNumber>212</courseNumber>
       </courseCode>
     </courseCodes>
   </course>
@@ -67479,15 +66951,6 @@
     </courseCodes>
   </course>
   <course>
-    <title>Assessment Techniques for Diverse Learners</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>SPED</subject>
-        <courseNumber>412</courseNumber>
-      </courseCode>
-    </courseCodes>
-  </course>
-  <course>
     <title>Instructional Methods for Students with Diverse Needs</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -67546,6 +67009,24 @@
     </courseCodes>
   </course>
   <course>
+    <title>Behavior Management</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>SPED</subject>
+        <courseNumber>454</courseNumber>
+      </courseCode>
+    </courseCodes>
+  </course>
+  <course>
+    <title>Early Intervention Principles and Practices for Infants/Toddlers with Developmental Delays/Disabilities</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>SPED</subject>
+        <courseNumber>461</courseNumber>
+      </courseCode>
+    </courseCodes>
+  </course>
+  <course>
     <title>Medically Fragile infants</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -67559,7 +67040,7 @@
     </courseCodes>
   </course>
   <course>
-    <title>Psychology and Sociology of Deafness</title>
+    <title>Educating Students with Sensory Disabilities</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>SPED</subject>
@@ -68474,6 +67955,15 @@
     </courseCodes>
   </course>
   <course>
+    <title>Alpha Seminar</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>STAT</subject>
+        <courseNumber>810</courseNumber>
+      </courseCode>
+    </courseCodes>
+  </course>
+  <course>
     <title>Statistics for Middle-Level Teachers</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -68526,6 +68016,15 @@
       <courseCode type="home listing">
         <subject>STAT</subject>
         <courseNumber>843</courseNumber>
+      </courseCode>
+    </courseCodes>
+  </course>
+  <course>
+    <title>Computing Tools for Statisticians</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>STAT</subject>
+        <courseNumber>850</courseNumber>
       </courseCode>
     </courseCodes>
   </course>
@@ -68683,6 +68182,15 @@
     </courseCodes>
   </course>
   <course>
+    <title>Computational Statistics II</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>STAT</subject>
+        <courseNumber>951</courseNumber>
+      </courseCode>
+    </courseCodes>
+  </course>
+  <course>
     <title>Matrix Algebra Applications in Statistics</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -68746,6 +68254,15 @@
     </courseCodes>
   </course>
   <course>
+    <title>Advanced Probability Measures</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>STAT</subject>
+        <courseNumber>981</courseNumber>
+      </courseCode>
+    </courseCodes>
+  </course>
+  <course>
     <title>Statistics Theory I</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -68760,6 +68277,15 @@
       <courseCode type="home listing">
         <subject>STAT</subject>
         <courseNumber>983</courseNumber>
+      </courseCode>
+    </courseCodes>
+  </course>
+  <course>
+    <title>Asymptotics and Applications</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>STAT</subject>
+        <courseNumber>984</courseNumber>
       </courseCode>
     </courseCodes>
   </course>
@@ -69698,6 +69224,21 @@
       <courseCode type="home listing">
         <subject>TEAC</subject>
         <courseNumber>446</courseNumber>
+      </courseCode>
+    </courseCodes>
+  </course>
+  <course>
+    <title>The Middle Level Curriculum</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>446</courseNumber>
+        <courseLetter>A</courseLetter>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>TEAC</subject>
+        <courseNumber>846</courseNumber>
+        <courseLetter>A</courseLetter>
       </courseCode>
     </courseCodes>
   </course>
@@ -72737,6 +72278,87 @@
     </courseCodes>
   </course>
   <course>
+    <title>Textiles</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TMFD</subject>
+        <courseNumber>830</courseNumber>
+      </courseCode>
+    </courseCodes>
+  </course>
+  <course>
+    <title>Consumer Behavior</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TMFD</subject>
+        <courseNumber>851</courseNumber>
+      </courseCode>
+    </courseCodes>
+  </course>
+  <course>
+    <title>Professional Advancement</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TMFD</subject>
+        <courseNumber>852</courseNumber>
+      </courseCode>
+    </courseCodes>
+  </course>
+  <course>
+    <title>Promotional Strategies in Merchandising</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TMFD</subject>
+        <courseNumber>854</courseNumber>
+      </courseCode>
+    </courseCodes>
+  </course>
+  <course>
+    <title>Retail Theory and Current Practice</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TMFD</subject>
+        <courseNumber>855</courseNumber>
+      </courseCode>
+    </courseCodes>
+  </course>
+  <course>
+    <title>Historical and Contemporary Issues in Trade</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TMFD</subject>
+        <courseNumber>861</courseNumber>
+      </courseCode>
+    </courseCodes>
+  </course>
+  <course>
+    <title>International Retail Expansion</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TMFD</subject>
+        <courseNumber>862</courseNumber>
+      </courseCode>
+    </courseCodes>
+  </course>
+  <course>
+    <title>Financial Merchandising Implications</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TMFD</subject>
+        <courseNumber>864</courseNumber>
+      </courseCode>
+    </courseCodes>
+  </course>
+  <course>
+    <title>Strategic Planning</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TMFD</subject>
+        <courseNumber>865</courseNumber>
+      </courseCode>
+    </courseCodes>
+  </course>
+  <course>
     <title>Current Issues in Textiles, Fashion and Design</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -73683,6 +73305,9 @@
         <courseLetter>H</courseLetter>
       </courseCode>
     </courseCodes>
+    <aceOutcomes>
+      <slo>9</slo>
+    </aceOutcomes>
   </course>
   <course>
     <title>Introduction to Lesbian, Gay, Bisexual, Trans-gender, Queer/Sexuality Studies</title>
