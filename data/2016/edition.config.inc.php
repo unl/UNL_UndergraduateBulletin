@@ -14,7 +14,6 @@ UNL_UndergraduateBulletin_Major_Description::setEpubToTitleMap(array(
     'Modern Languages-French German & Russian Minor (ENGR)'                  => 'Modern Languages-French, German & Russian Minor (ENGR)',
     'Naval Science_Naval ROTC'                                               => 'Naval Science/Naval ROTC',
     'Public Policy Analysis_Program Eval Cert'                               => 'Public Policy Analysis & Program Evaluation Certification',
-    'Textiles_Merchandising & Fashion Design Minor (CEHS)'                   => 'Textiles, Merchandising & Fashion Design Minor (CEHS)',
     'Womens & Gender Studies'                                                => 'Women\'s & Gender Studies',
 ));
 
