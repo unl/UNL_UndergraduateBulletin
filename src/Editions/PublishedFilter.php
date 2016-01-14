@@ -1,19 +1,19 @@
 <?php
-class UNL_UndergraduateBulletin_Editions_PublishedFilter extends FilterIterator
+
+namespace UNL\UndergraduateBulletin\Editions;
+
+class PublishedFilter extends \FilterIterator
 {
-    function __construct(Iterator $iterator)
+    protected $latestYear;
+
+    public function __construct(Editions $iterator)
     {
-        parent::__construct($iterator);
+        $latestYear = Editions::getLatest()->getYear();
     }
 
-    function accept()
+    public function accept()
     {
-        static $latest = false;
-        if (!$latest) {
-            $latest = UNL_UndergraduateBulletin_Editions::getLatest()->year;
-        }
-
-        if (parent::current()->year > $latest) {
+        if ($this->current()->getYear() > $latest) {
             return false;
         }
 
