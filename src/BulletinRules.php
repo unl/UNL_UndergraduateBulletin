@@ -1,4 +1,7 @@
 <?php
-class UNL_UndergraduateBulletin_BulletinRules
+
+namespace UNL\UndergraduateBulletin;
+
+class BulletinRules
 {
 }

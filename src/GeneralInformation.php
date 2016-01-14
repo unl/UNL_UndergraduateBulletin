@@ -1,5 +1,7 @@
 <?php
-class UNL_UndergraduateBulletin_GeneralInformation
+
+namespace UNL\UndergraduateBulletin;
+
+class GeneralInformation
 {
-    
 }

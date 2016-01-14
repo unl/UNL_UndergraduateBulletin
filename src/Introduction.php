@@ -1,9 +1,12 @@
 <?php
-class UNL_UndergraduateBulletin_Introduction
+
+namespace UNL\UndergraduateBulletin;
+
+class Introduction
 {
     public $options;
-    
-    function __construct($options = array())
+
+    public function __construct($options = [])
     {
         $this->options = $options;
     }

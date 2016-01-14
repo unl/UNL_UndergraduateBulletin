@@ -1,5 +1,12 @@
 <?php
-class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_PostRunReplacements, UNL_UndergraduateBulletin_CacheableInterface
+
+namespace UNL\UndergraduateBulletin;
+
+use UNL\UndergraduateBulletin\Edition\Edition;
+use UNL\UndergraduateBulletin\Edition\Editions;
+use UNL\Services\CourseApproval\Data;
+
+class Controller implements PostRunReplacements, CachingService\CacheableInterface
 {
     /**
      * URL to this controller.
@@ -8,146 +15,146 @@ class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_
      */
     public static $url = '';
 
-    public static $newest_url = 'http://bulletin.unl.edu/undergraduate/';
+    public static $newestUrl = 'http://bulletin.unl.edu/undergraduate/';
 
     public $output;
 
-    public $options = array('view'   => 'index', // The default from the view_map
-                            'format' => 'html',  // The default output format
-    );
+    public $options = [
+        'view' => 'index', // The default from the viewMap
+        'format' => 'html',  // The default output format
+    ];
 
     /**
      * The edition we're currently controlling
      *
-     * @var UNL_UndergraduateBulletin_Edition
+     * @var Edition
      */
     public static $edition;
 
-    protected $view_map = array(
-        'index'         => 'UNL_UndergraduateBulletin_Introduction',
-        'general'       => 'UNL_UndergraduateBulletin_GeneralInformation',
-        'otherarea'     => 'UNL_UndergraduateBulletin_OtherArea',
-        'majors'        => 'UNL_UndergraduateBulletin_MajorList',
-        'major'         => 'UNL_UndergraduateBulletin_Major',
-        'majorlookup'   => 'UNL_UndergraduateBulletin_MajorLookup',
-        'plans'         => 'UNL_UndergraduateBulletin_Major',
-        'outcomes'      => 'UNL_UndergraduateBulletin_Major',
-        'courses'       => 'UNL_UndergraduateBulletin_Major',
-        'subject'       => 'UNL_UndergraduateBulletin_SubjectArea',
-        'subjects'      => 'UNL_UndergraduateBulletin_SubjectAreas',
-        'course'        => 'UNL_UndergraduateBulletin_Listing',
-        'college'       => 'UNL_UndergraduateBulletin_College',
-        'collegemajors' => 'UNL_UndergraduateBulletin_College_Majors',
-        'colleges'      => 'UNL_UndergraduateBulletin_CollegeList',
-        'searchcourses' => 'UNL_UndergraduateBulletin_CourseSearch',
-        'searchmajors'  => 'UNL_UndergraduateBulletin_MajorSearch',
-        'search'        => 'UNL_UndergraduateBulletin_Search',
-        'bulletinrules' => 'UNL_UndergraduateBulletin_BulletinRules',
-        'editions'      => 'UNL_UndergraduateBulletin_Editions',
-        'book'          => 'UNL_UndergraduateBulletin_Book',
-        'developers'    => 'UNL_UndergraduateBulletin_Developers'
-        );
-    
-    protected static $replacement_data = array();
+    protected $viewMap = [
+        'index' => 'Introduction',
+        'general' => 'GeneralInformation',
+        'otherarea' => 'OtherArea',
+        'majors' => 'MajorList',
+        'major' => 'Major',
+        'majorlookup' => 'MajorLookup',
+        'plans' => 'Major',
+        'outcomes' => 'Major',
+        'courses' => 'Major',
+        'subject' => 'SubjectArea',
+        'subjects' => 'SubjectAreas',
+        'course' => 'Listing',
+        'college' => 'College',
+        'collegemajors' => 'College_Majors',
+        'colleges' => 'CollegeList',
+        'searchcourses' => 'CourseSearch',
+        'searchmajors' => 'MajorSearch',
+        'search' => 'Search',
+        'bulletinrules' => 'BulletinRules',
+        'editions' => 'Editions',
+        'book' => 'Book',
+        'developers' => 'Developers'
+    ];
 
-    function __construct($options = array())
+    protected static $replacementData = [];
+
+    public function __construct($options = [])
     {
         $this->options = $options + $this->options;
 
         if (!empty($this->options['year'])) {
-            self::setEdition(new UNL_UndergraduateBulletin_Edition($this->options));
+            static::setEdition(new Edition($this->options));
         }
     }
 
-    function getCacheKey()
+    public function getCacheKey()
     {
-        if ($this->output instanceof Exception) {
+        if ($this->output instanceof \Exception) {
             return false;
         }
-        
+
         return serialize($this->options);
     }
 
-    function preRun($fromCache, Savvy $savvy)
+    public function preRun($fromCache, \Savvy $savvy)
     {
 
     }
 
-    function run()
+    public function run()
     {
         if (!empty($this->output)) {
             return;
         }
-        
+
         try {
-            if (!isset($this->view_map[$this->options['view']])) {
+            if (!isset($this->viewMap[$this->options['view']])) {
                 throw new Exception('Sorry, that view does not exist.', 404);
             }
-            
-            $outputModel = new $this->view_map[$this->options['view']]($this->options);
-            
-            if ($outputModel instanceof UNL_UndergraduateBulletin_ControllerAwareInterface) {
+
+            $outputModelClass = __NAMESPACE__ . '\\' . $this->viewMap[$this->options['view']];
+            $outputModel = new $outputModelClass($this->options);
+
+            if ($outputModel instanceof ControllerAwareInterface) {
                 $outputModel->setController($this);
             }
 
             $this->output[] = $outputModel;
-        } catch(Exception $e) {
+        } catch (\Exception $e) {
             $this->output[] = $e;
         }
     }
-    
-    public function outputException(Exception $e)
+
+    public function outputException(\Exception $e)
     {
-        self::resetReplacementData();
+        static::resetReplacementData();
         $this->output = $e;
     }
 
     public static function setReplacementData($field, $data)
     {
-        self::$replacement_data[$field] = $data;
+        static::$replacementData[$field] = $data;
     }
-    
+
     public static function resetReplacementData()
     {
-        self::$replacement_data = array();
+        static::$replacementData = [];
     }
 
-    function postRun($data)
+    public function postRun($data)
     {
-
-        if (!empty(self::$replacement_data['doctitle'])
-            && strstr($data, '<title>')) {
-            $data = preg_replace('/<title>.*<\/title>/',
-                                '<title>'.self::$replacement_data['doctitle'].'</title>',
-                                $data);
-            //unset(self::$replacement_data['doctitle']);
+        if (!empty(static::$replacementData['doctitle']) && strstr($data, '<title>')) {
+            $data = preg_replace(
+                '/<title>.*<\/title>/',
+                '<title>'.static::$replacementData['doctitle'].'</title>',
+                $data
+            );
         }
 
-        if (isset(self::$replacement_data['head'])
-            && strstr($data, '</head>')) {
-            $data = str_replace('</head>', self::$replacement_data['head'].'</head>', $data);
-            //unset(self::$replacement_data['head']);
+        if (isset(static::$replacementData['head']) && strstr($data, '</head>')) {
+            $data = str_replace('</head>', static::$replacementData['head'].'</head>', $data);
         }
 
-        if (isset(self::$replacement_data['breadcrumbs'])
-            && strstr($data, '<!-- InstanceBeginEditable name="breadcrumbs" -->')) {
-
-            $start = strpos($data, '<!-- InstanceBeginEditable name="breadcrumbs" -->')+strlen('<!-- InstanceBeginEditable name="breadcrumbs" -->');
+        if (isset(static::$replacementData['breadcrumbs'])
+            && strstr($data, '<!-- InstanceBeginEditable name="breadcrumbs" -->')
+        ) {
+            $start = strpos($data, '<!-- InstanceBeginEditable name="breadcrumbs" -->')
+                + strlen('<!-- InstanceBeginEditable name="breadcrumbs" -->');
             $end = strpos($data, '<!-- InstanceEndEditable -->', $start);
 
-            $data = substr($data, 0, $start).self::$replacement_data['breadcrumbs'].substr($data, $end);
-            //unset(self::$replacement_data['breadcrumbs']);
+            $data = substr($data, 0, $start).static::$replacementData['breadcrumbs'].substr($data, $end);
         }
 
-        if (isset(self::$replacement_data['pagetitle'])
-            && strstr($data, '<!-- InstanceBeginEditable name="pagetitle" -->')) {
-
-            $start = strpos($data, '<!-- InstanceBeginEditable name="pagetitle" -->')+strlen('<!-- InstanceBeginEditable name="pagetitle" -->');
+        if (isset(static::$replacementData['pagetitle'])
+            && strstr($data, '<!-- InstanceBeginEditable name="pagetitle" -->')
+        ) {
+            $start = strpos($data, '<!-- InstanceBeginEditable name="pagetitle" -->')
+                + strlen('<!-- InstanceBeginEditable name="pagetitle" -->');
             $end = strpos($data, '<!-- InstanceEndEditable -->', $start);
 
-            $data = substr($data, 0, $start).self::$replacement_data['pagetitle'].substr($data, $end);
-            //unset(self::$replacement_data['pagetitle']);
+            $data = substr($data, 0, $start).static::$replacementData['pagetitle'].substr($data, $end);
         }
+
         return $data;
     }
 
@@ -159,32 +166,29 @@ class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_
      *
      * @return string
      */
-    static function getURL($mixed = null, $additional_params = array())
+    public static function getURL($mixed = null, $additionalParams = [])
     {
 
-        $url = self::getEdition()->getURL();
-        $url .= '?';
+        $url = static::getEdition()->getURL();
 
-        foreach ($additional_params as $option => $value) {
-            if (!empty($value)) {
-                $url .= "&amp;$option=$value";
-            }
+        if (!$additionalParams) {
+            return $url;
         }
 
-        return trim($url, '?;=');
+        return $url . '?' . http_build_query($additionalParams);
     }
 
     /**
      * Get the bulletin URL without any edition details.
      */
-    static function getBaseURL()
+    public static function getBaseURL()
     {
-        return self::$url;
+        return static::$url;
     }
 
-    static function getDataDir()
+    public static function getDataDir()
     {
-        return dirname(dirname(dirname(dirname(__FILE__)))).'/data';
+        return dirname(__DIR__) . '/data';
     }
 
     /**
@@ -192,9 +196,9 @@ class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_
      *
      * @return bool True if out of date, False if newest.
      */
-    static function isArchived()
+    public static function isArchived()
     {
-        return !(self::$url == parse_url(self::$newest_url, PHP_URL_PATH));
+        return !(static::$url == parse_url(static::$newestUrl, PHP_URL_PATH));
     }
 
     /**
@@ -203,45 +207,46 @@ class UNL_UndergraduateBulletin_Controller implements UNL_UndergraduateBulletin_
      *
      * @return string. The url to the newest version.
      */
-    static function getNewestURL()
+    public static function getNewestURL()
     {
-        $request = explode(self::$url, $_SERVER['REQUEST_URI']);
+        $newestURL = static::$newestUrl;
+        $request = explode(static::$url, $_SERVER['REQUEST_URI']);
+
         if (isset($request[1])) {
-            $newestURL = self::$newest_url . $request[1];
-        } else {
-            $newestURL = self::$newest_url;
+            $newestURL = static::$newestUrl . $request[1];
         }
+
         return $newestURL;
     }
 
     /**
      * Gets the version of the bulletin.  Version = year in the url.
      *
-     * @return UNL_UndergraduateBulletin_Edition
+     * @return Edition
      */
-    static function getEdition()
+    public static function getEdition()
     {
-        if (!isset(self::$edition)) {
-            self::setEdition(UNL_UndergraduateBulletin_Editions::getLatest());
+        if (!isset(static::$edition)) {
+            static::setEdition(Editions::getLatest());
         }
-        return self::$edition;
+
+        return static::$edition;
     }
 
     /**
      * Set the current edition
      *
-     * @param UNL_UndergraduateBulletin_Edition $edition
+     * @param Edition $edition
      */
-    public static function setEdition(UNL_UndergraduateBulletin_Edition $edition)
+    public static function setEdition(Edition $edition)
     {
-        $courseService = UNL_Services_CourseApproval::getXCRIService();
-        
-        if ($courseService instanceof UNL_UndergraduateBulletin_CourseDataDriver) {
+        $courseService = Data::getXCRIService();
+
+        if ($courseService instanceof CourseDataDriver) {
             $courseService->setEdition($edition);
         }
-        
-        self::$edition = $edition;
+
+        static::$edition = $edition;
         $edition->loadConfig();
     }
-
 }

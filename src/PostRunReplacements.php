@@ -1,7 +1,9 @@
 <?php
 
-interface UNL_UndergraduateBulletin_PostRunReplacements
+namespace UNL\UndergraduateBulletin;
+
+interface PostRunReplacements
 {
-    static function setReplacementData($field, $data);
+    public static function setReplacementData($field, $data);
     public function postRun($data);
 }

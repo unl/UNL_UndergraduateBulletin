@@ -1,5 +1,8 @@
 <?php
-class UNL_UndergraduateBulletin_Router
+
+namespace UNL\UndergraduateBulletin;
+
+class Router
 {
     public static function getRoute($requestURI)
     {

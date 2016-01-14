@@ -1,7 +1,9 @@
 <?php
 
-interface UNL_UndergraduateBulletin_ControllerAwareInterface
+namespace UNL\UndergraduateBulletin;
+
+interface ControllerAwareInterface
 {
-    public function setController(UNL_UndergraduateBulletin_Controller $controller);
+    public function setController(Controller $controller);
     public function getController();
 }

@@ -1,17 +1,19 @@
 <?php
-class UNL_UndergraduateBulletin_Book
+
+namespace UNL\UndergraduateBulletin;
+
+class Book
 {
     public $options;
-    
+
     public $policies;
-    
+
     public $colleges;
-    
-    function __construct($options = array())
+
+    public function __construct($options = [])
     {
         $this->options = $options;
-        
-        $this->policies = new UNL_UndergraduateBulletin_OtherAreas();
-        $this->colleges = new UNL_UndergraduateBulletin_CollegeList();
+        $this->policies = new OtherArea\OtherAreas();
+        $this->colleges = new College\Colleges();
     }
 }
