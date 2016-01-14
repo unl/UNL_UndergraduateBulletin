@@ -1,12 +1,13 @@
 <?php
 
-namespace UNL\UndergraduateBulletin;
+namespace UNL\UndergraduateBulletin\Course;
 
+use UNL\UndergraduateBulletin\Edition\Edition;
 use UNL\Services\CourseApproval\XCRIService\XCRIServiceInterface;
 
-class CourseDataDriver implements XCRIServiceInterface
+class DataDriver implements XCRIServiceInterface
 {
-    protected $subjectAreas = array();
+    protected $subjectAreas = [];
 
     protected $allCourses;
 
@@ -28,7 +29,7 @@ class CourseDataDriver implements XCRIServiceInterface
     protected function reset()
     {
         unset($this->allCourses);
-        $this->subjectAreas = array();
+        $this->subjectAreas = [];
 
         return $this;
     }
