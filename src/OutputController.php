@@ -1,161 +1,215 @@
 <?php
 
-class UNL_UndergraduateBulletin_OutputController extends Savvy
+namespace UNL\UndergraduateBulletin;
+
+class OutputController extends \Savvy
 {
-    
-    static protected $cache;
-    
-    static public $defaultExpireTimestamp = null;
-    
-    function __construct($options = array())
+    protected static $cache;
+
+    public static $defaultExpireTimestamp = null;
+
+    protected $formats = [
+        'partial',
+        'collegesource',
+        'html',
+        'csv',
+        'json',
+        'print',
+        'xml',
+    ];
+
+    public static function setCacheInterface(CachingService\CachingServiceInterface $cache)
     {
-        parent::__construct();
+        static::$cache = $cache;
     }
-    
-    protected static function basicOutputController($context, $parent, $file, $savvy)
-    {
-        try {
-            return parent::basicOutputController($context, $parent, $file, $savvy);
-        } catch (Exception $e) {
-            ob_end_clean();
-            throw $e;
-        }
-    }
-    
-    static public function setCacheInterface(UNL_UndergraduateBulletin_CacheInterface $cache)
-    {
-        self::$cache = $cache;
-    }
-    
+
     /**
      * get the cache interface
      * @return UNL_UndergraduateBulletin_CacheInterface
      */
-    static public function getCacheInterface()
+    public static function getCacheInterface()
     {
-        if (!isset(self::$cache)) {
-            self::setCacheInterface(new UNL_UndergraduateBulletin_CacheInterface_UNLCacheLite());
+        if (!isset(static::$cache)) {
+            static::setCacheInterface(new CachingService\UNLCacheLite());
         }
-        return self::$cache;
+        return static::$cache;
     }
-    
-    static public function setDefaultExpireTimestamp($timestamp)
+
+    public static function setDefaultExpireTimestamp($timestamp)
     {
         self::$defaultExpireTimestamp = $timestamp;
     }
-    
-    static public function getDefaultExpireTimestamp()
+
+    public static function getDefaultExpireTimestamp()
     {
-        return self::$defaultExpireTimestamp;
+        return static::$defaultExpireTimestamp;
     }
-    
-    protected function getRawObject($object)
+
+    public function __construct($config = null)
     {
-        $rawObject = $object;
-        if ($rawObject instanceof Savvy_ObjectProxy) {
-            $rawObject = $object->getRawObject();
+        parent::__construct();
+        $this->setClassToTemplateMapper(new ClassToTemplateMapper());
+    }
+
+    public function setupFromController(Controller $controller)
+    {
+        $templatesPath = dirname(__DIR__) . '/www/templates/';
+        $defaultFormat = 'html';
+        $expire = static::getDefaultExpireTimestamp();
+
+        $this->addGlobal('controller', $controller);
+        $this->setTemplatePath($templatesPath . $defaultFormat);
+
+        $format = $controller->options['format'];
+
+        if (!$this->isSupportedFormat($format)) {
+            $format = $defaultFormat;
         }
-        
-        return $rawObject;
+
+        $formatStack = [$format];
+
+        switch($format) {
+            case 'xml':
+                header('Content-type: text/xml');
+                $this->setEscape('htmlspecialchars');
+                break;
+            case 'json':
+                header('Content-type: application/json');
+                break;
+            case 'collegesource':
+                //CollegeSource is also csv, but they require specific data... so they have a special template.
+                array_unshift($formatStack, 'csv');
+
+                if (!isset($controller->options['delimiter'])) {
+                    $controller->options['delimiter'] = "|";
+                }
+
+                // no break
+                break;
+            case 'csv':
+                header('Content-type: text/plain; charset=UTF-8');
+
+                if (!isset($controller->options['delimiter'])) {
+                    $controller->options['delimiter'] = ",";
+                }
+
+                $delimiter = $controller->options['delimiter'];
+                $this->addGlobal('delimiter', $delimiter);
+
+                $out = fopen('php://output', 'w');
+                $this->addGlobal('delimitArray', function($array) use ($delimiter, $out) {
+                    fputcsv($out, $array, $delimiter);
+                });
+                break;
+            case 'partial':
+                ClassToTemplateMapper::$output_template[Controller::class] = 'Controller-partial';
+                // no break
+            default:
+                if ('print' !== $format) {
+                    $formatStack = [];
+                }
+                $this->addTemplatePath($controller->getEdition()->getDataDir() . '/templates/html');
+                $this->setEscape('htmlentities');
+                $expire = strtotime('tomorrow');
+                break;
+        }
+
+        foreach ($formatStack as $format) {
+            $this->addTemplatePath($templatesPath . $format);
+        }
+
+        static::setDefaultExpireTimestamp($expire);
     }
-    
-    protected function getCacheKey(UNL_UndergraduateBulletin_CacheableInterface $object)
+
+    protected function isSupportedFormat($format)
+    {
+        return in_array($format, $this->formats);
+    }
+
+    protected function getCacheKey(CachingService\CachableInterface $object)
     {
         $key = $object->getCacheKey();
-        
+
         if ($key === false) {
             return false;
         }
-        
-        $key .= UNL_UndergraduateBulletin_Controller::getEdition()->getCacheKey();
-        
+
+        $key .= Controller::getEdition()->getCacheKey();
+
         return $key;
     }
-    
+
     protected function loadCache($object)
     {
         $cacheObject = $this->getRawObject($object);
-        if (!($cacheObject instanceof UNL_UndergraduateBulletin_CacheableInterface)) {
+
+        if (!($cacheObject instanceof CachingService\CachableInterface)) {
             return false;
         }
-        
+
         $key = $this->getCacheKey($cacheObject);
         if ($key === false) {
             return false;
         }
-        
-        $data = self::getCacheInterface()->get($key);
-        
+
+        $data = static::getCacheInterface()->get($key);
+
         if ($data !== false) {
             $cacheObject->preRun(true, $this);
         } else {
             $cacheObject->preRun(false, $this);
             $cacheObject->run();
         }
-        
+
         return $data;
     }
-    
+
     protected function saveCache($object, $data)
     {
-        $cacheObject = $this->getRawObject($object); 
-        if (!($cacheObject instanceof UNL_UndergraduateBulletin_CacheableInterface)) {
+        $cacheObject = $this->getRawObject($object);
+
+        if (!($cacheObject instanceof CachingService\CachableInterface)) {
             return;
         }
-        
+
         $key = $this->getCacheKey($cacheObject);
         if ($key === false) {
             return;
         }
-        
-        self::getCacheInterface()->save($data, $key);
+
+        static::getCacheInterface()->save($data, $key);
     }
-    
-    public function escape($var)
-    {
-        if (!is_array($this->__config['escape'])) {
-            return $var;
-        }
-        
-        return parent::escape($var);
-    }
-    
+
     public function renderObject($object, $template = null)
     {
         $rawObject = $this->getRawObject($object);
         $data = $this->loadCache($object);
+
         if ($data === false) {
             $data = parent::renderObject($object, $template);
-        
-            if ($rawObject instanceof UNL_UndergraduateBulletin_PostRunReplacements) {
+
+            if ($rawObject instanceof PostRunReplacements) {
                 $data = $rawObject->postRun($data);
             }
-            
+
             $this->saveCache($object, $data);
         }
+
         return $data;
     }
-    
-    protected function fetch($mixed, $template = null)
-    {
-        try {
-            return parent::fetch($mixed, $template);
-        } catch (Savvy_Exception $e) {
-            throw $e;
-        } catch (Exception $e) {
-            array_pop($this->templateStack);
-            throw $e;
-        }
-    }
-    
+
     /**
-     * 
+     *
      * @param timestamp $expires timestamp
-     * 
+     *
      * @return void
      */
-    function sendCORSHeaders($expires = null)
+    public function sendCORSHeaders($expires = null)
     {
+        if (!$expires) {
+            $expires = static::getDefaultExpireTimestamp();
+        }
+
         // Specify domains from which requests are allowed
         header('Access-Control-Allow-Origin: *');
 
@@ -164,16 +218,14 @@ class UNL_UndergraduateBulletin_OutputController extends Savvy
 
         // Additional headers which may be sent along with the CORS request
         // The X-Requested-With header allows jQuery requests to go through
-
         header('Access-Control-Allow-Headers: X-Requested-With');
 
         // Set the ages for the access-control header to 20 days to improve speed/caching.
         header('Access-Control-Max-Age: 1728000');
 
-        if (isset($expires)) {
+        if ($expires) {
             // Set expires header for 24 hours to improve speed caching.
             header('Expires: '.date('r', $expires));
         }
     }
 }
-
