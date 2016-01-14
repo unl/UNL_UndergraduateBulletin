@@ -2,7 +2,7 @@
 
 namespace UNL\UndergraduateBulletin;
 
-class ClassToTemplateMapper extends Savvy_ClassToTemplateMapper
+class ClassToTemplateMapper extends \Savvy_ClassToTemplateMapper
 {
 	protected $removePrefixes = [
 		__NAMESPACE__ . '\\',
