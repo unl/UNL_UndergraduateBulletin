@@ -18,7 +18,7 @@ class CacheLite implements CachingServiceInterface
      */
     protected $cache;
 
-    public $options = array('lifeTime'=>3600);
+    public $options = array('lifeTime'=>604800); // One week cache time
 
     /**
      * Constructor

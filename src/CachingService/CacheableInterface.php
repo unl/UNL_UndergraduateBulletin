@@ -1,12 +1,15 @@
 <?php
+
+namespace UNL\UndergraduateBulletin\CachingService;
+
 /**
  * Interface cacheable objects must implement.
- * 
+ *
  * @author bbieber
  */
-interface UNL_UndergraduateBulletin_CacheableInterface
+interface CacheableInterface
 {
     public function getCacheKey();
     public function run();
-    public function preRun($fromCache, Savvy $savvy);
+    public function preRun($fromCache, \Savvy $savvy);
 }
