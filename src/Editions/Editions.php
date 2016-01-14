@@ -32,11 +32,11 @@ class Editions extends \ArrayIterator
     /**
      * Gets an array of all the editions from the latest edition.
      *
-     * @return UNL_UndergraduateBulletin_Editions The list of editions.
+     * @return self The list of editions.
      */
     public static function getAll()
     {
-        return new static();
+        return new self();
     }
 
     public static function getPublished()
