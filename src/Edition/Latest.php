@@ -1,6 +1,6 @@
 <?php
 
-namespace UNL\UndergraduateBulletin\Editions;
+namespace UNL\UndergraduateBulletin\Edition;
 
 use UNL\UndergraduateBulletin\Controller;
 
