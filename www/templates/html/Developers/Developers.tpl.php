@@ -1,4 +1,8 @@
-<style type="text/css">
+<?php
+$url = $controller->getRawObject()::getURL();
+?>
+
+<style>
     blockquote {
          background: none repeat scroll 0pt 0pt rgb(240, 240, 240);
          margin: 15px 0pt;
@@ -6,18 +10,18 @@
          width: auto;
          word-wrap: break-word;
     }
-    
+
     blockquote > p {
          clear: none;
          margin: 0pt;
          padding: 0pt;
     }
-    
+
     div.resource {
          border-bottom: #F0F0F0 5px solid;
          margin-bottom: 20px;
     }
-    
+
     #maincontent div.resource > ul {
         padding-left:0;
     }
@@ -26,18 +30,16 @@
         list-style:none;
     }
 
-    a.resources 
+    a.resources
     {
         float:right;
         font-size:12px
     }
 </style>
 
-<script type="text/javascript">jQuery = $ = WDN.jQuery;</script>
-
-<script type="text/javascript" src="<?php echo UNL_UndergraduateBulletin_Controller::getBaseURL()?>templates/html/scripts/jquery.beautyOfCode.js"></script>
-
-<script type="text/javascript">
+<script>jQuery = $ = WDN.jQuery;</script>
+<script src="<?php echo $url ?>scripts/jquery.beautyOfCode.js"></script>
+<script>
     $.beautyOfCode.init({
         theme: "RDark",
         brushes: ['Xml', 'JScript', 'CSharp', 'Plain', 'Php', "Java", "JavaFX"],
@@ -50,13 +52,12 @@
 </script>
 <div class="wdn-grid-set">
     <div class="bp1-wdn-col-three-fourths">
-        
         <?php
-            $resource = "UNL_UndergraduateBulletin_Developers_" . $context->resource;
+            $resource = "UNL\\UndergraduateBulletin\\Developers\\" . $context->resource;
             $resource = new $resource;
             ?>
             <div class="resource">
-            <h1 id="instance" class="sec_main"><?php echo $resource->title; ?> Resource</h1>
+            <h1 id="instance"><?php echo $resource->title; ?> Resource</h1>
             <h3>Details</h3>
             <ul>
                 <li>
@@ -67,11 +68,11 @@
                 </li>
                 <?php if (count($resource->properties)): ?>
                 <li>
-                    <h4 id="instance-properties"><a href="#instance-properties">Resource Properties</a></h4> 
+                    <h4 id="instance-properties"><a href="#instance-properties">Resource Properties</a></h4>
                     <table class="zentable neutral">
                     <thead><tr><th>Property</th><th>Description</th><th>JSON</th><th>XML</th></tr></thead>
                       <tbody>
-                      <?php 
+                      <?php
                         foreach ($resource->properties as $property) {
                           echo "<tr>
                                     <td>$property[0]</td>
@@ -92,14 +93,14 @@
                 <li>
                     <h4 id="instance-get-example-1"><a href="#instance-get-example-1">Example</a></h4>
                     <ul class="wdn_tabs">
-                    <?php 
+                    <?php
                      foreach ($resource->formats as $format) {
                          echo "<li><a href='#$format'>$format</a></li>";
                      }
                     ?>
                     </ul>
                     <div class="wdn_tabs_content" >
-                         <?php 
+                         <?php
                          foreach ($resource->formats as $format) {
                              $resourceURI = $resource->exampleURI;
                              if (false === strpos($resourceURI, '?')) {
@@ -122,14 +123,14 @@
                                         if (substr($resourceURI, 0, 4) != 'http') {
                                             $resourceURI = 'http://localhost' . $resourceURI;
                                         }
-                                        
+
                                         //Get the output.
                                         if (!$result = file_get_contents($resourceURI)) {
                                             $result = "Error getting file contents.";
                                         }
                                         switch($format) {
                                             case "json":
-                                                $result = UNL_UndergraduateBulletin_Developers::formatJSON($result);
+                                                $result = $context->getRawObject()::formatJSON($result);
                                                 $code = 'javascript';
                                                 break;
                                             case "xml":
@@ -148,21 +149,21 @@
                              <?php
                          }
                          ?>
-                        
+
                     </div>
                 </li>
             </ul>
         </div>
-        
+
     </div>
     <div class="bp1-wdn-col-one-fourth">
         <div id='resources' class="zenbox primary">
             <h3>UNL Undergraduate Bulletin API</h3>
             <p>The following is a list of resources for the Undergraduate Bulletin.</p>
             <ul>
-                <?php 
+                <?php
                 foreach ($context->resources as $resource) {
-                    $resource_url = UNL_UndergraduateBulletin_Controller::getURL().'developers?resource='.$resource;
+                    $resource_url =$url.'developers?resource='.$resource;
                     echo "<li><a href='$resource_url'>$resource</a></li>";
                 }
                 ?>
