@@ -2,7 +2,8 @@
 
 use UNL\UndergraduateBulletin\Controller;
 use UNL\UndergraduateBulletin\OutputController;
-use UNL\UndergraduateBulletin\CourseSearch\DBSearcher;
+use UNL\UndergraduateBulletin\Router;
+use UNL\UndergraduateBulletin\Course\DBSearcher;
 
 $configFile = __DIR__ . '/../config.inc.php';
 
