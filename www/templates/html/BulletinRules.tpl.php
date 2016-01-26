@@ -1,39 +1,49 @@
 <?php
-$baseURL = UNL_UndergraduateBulletin_Controller::getBaseURL();
-UNL_UndergraduateBulletin_Controller::setReplacementData('pagetitle', '<h1>Undergraduate Bulletin Rules</h1>');
-UNL_UndergraduateBulletin_Controller::setReplacementData('breadcrumbs', '
+
+use UNL\UndergraduateBulletin\Edition\Editions;
+
+$rawController = $controller->getRawObject();
+$baseURL = $rawController::getBaseURL();
+$rawController::setReplacementData('pagetitle', '<h1>Undergraduate Bulletin Rules</h1>');
+$rawController::setReplacementData('breadcrumbs', '
 <ul>
     <li><a href="http://www.unl.edu/">UNL</a></li>
     <li><a href="'.$baseURL.'">Undergraduate Bulletin</a></li>
     <li>Bulletin Rules</li>
 </ul>');
+$colleges = new UNL\UndergraduateBulletin\College\Colleges();
 ?>
-<h2>Bulletin Rules</h2>
+<div class="wdn-band">
+<div class="wdn-inner-wrapper">
 <div class="wdn_notice" id="officialMessage">
     <div class="message">
-        <h4>PLEASE NOTE:</h4>
-        <p>Students who enter a college within the University in the <?php echo UNL_UndergraduateBulletin_Controller::getEdition()->getRange(); ?> academic year are expected to complete the graduation requirements set forth by that college in this bulletin.
+        <span class="title">PLEASE NOTE:</span>
+        <p>Students who enter a college within the University in the <?php echo $rawController::getEdition()->getRange(); ?> academic year are expected to complete the graduation requirements set forth by that college in this bulletin.
         Students are responsible for knowing which bulletin they should follow.</p>
     </div>
 </div>
+</div>
+</div>
+
+<div class="wdn-band">
+<div class="wdn-inner-wrapper">
 <div class="wdn-grid-set">
     <div class="bp1-wdn-col-three-fourths">
-    <h3>COLLEGE BULLETIN USAGE RULES</h3>
-    <?php foreach (new UNL_UndergraduateBulletin_CollegeList() as $college) {
-        if (isset($college->description->bulletinRule)) {
-            echo '<h4 class="sec_main">'.htmlspecialchars($college->name).'</h4>';
-            echo $college->description->bulletinRule;
-        }
-    }
-    ?>
+        <h3 class="clear-top">COLLEGE BULLETIN USAGE RULES</h3>
+        <?php foreach ($colleges as $college): ?>
+            <?php if (isset($college->description->bulletinRule)): ?>
+                <h4><?php echo $savvy->escape($college->name) ?></h4>
+                <?php echo $college->description->bulletinRule ?>
+            <?php endif; ?>
+        <?php endforeach; ?>
     </div>
     <div class="bp1-wdn-col-one-fourth">
         <div class="zenbox cool">
             <h3>All Bulletins</h3>
             <ul>
-                <?php 
-                $current = UNL_UndergraduateBulletin_Controller::getEdition();
-                foreach (UNL_UndergraduateBulletin_Editions::getPublished() as $edition):
+                <?php
+                $current = $rawController::getEdition();
+                foreach (Editions::getPublished() as $edition):
                     $class = '';
                     if ($edition->getURL() == $current->getURL()) {
                         $class = 'selected';
@@ -54,4 +64,6 @@ UNL_UndergraduateBulletin_Controller::setReplacementData('breadcrumbs', '
             </ul>
         </div>
     </div>
+</div>
+</div>
 </div>
