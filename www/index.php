@@ -30,6 +30,9 @@ $outputcontroller->sendCORSHeaders();
 try {
     echo $outputcontroller->render($controller);
 } catch (Exception $e) {
+	if ($e instanceof Savvy_TemplateException) {
+		$e = new Exception('Page does not exist', 404, $e);
+	}
     $controller->outputException($e);
     echo $outputcontroller->render($controller);
 }
