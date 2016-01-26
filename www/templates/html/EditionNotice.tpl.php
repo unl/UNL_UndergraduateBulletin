@@ -1,8 +1,12 @@
 <?php
-$latest  = UNL_UndergraduateBulletin_Editions::getLatest();
-$current = UNL_UndergraduateBulletin_Controller::getEdition();
+
+use UNL\UndergraduateBulletin\Edition\Editions;
+
+$latest  = Editions::getLatest();
+$current = UNL\UndergraduateBulletin\Controller::getEdition();
 $count = 0;
-$found_current = false; // Whether or not we're showing the current edition
+$fount = false; // Whether or not we're showing the current edition
+$published = Editions::getPublished();
 ?>
 <div id="versioning">
     <ul>
@@ -10,25 +14,29 @@ $found_current = false; // Whether or not we're showing the current edition
         <?php
         $class = '';
         if ($latest->getURL() == $current->getURL()) {
-            $found_current = true;
+            $fount = true;
             $class = 'selected';
         }
         ?>
         <li class="<?php echo $class; ?>"><a href="<?php echo $latest->getURL(); ?>"><?php echo $latest->getRange(); ?> <em>(Latest Edition)</em></a></li>
-        <?php foreach (UNL_UndergraduateBulletin_Editions::getPublished() as $edition):
-            if ($edition->getRange() == $latest->getRange()) continue;
+        <?php foreach ($published as $edition): ?>
+            <?php
+            if ($edition->getRange() == $latest->getRange()) {
+                continue;
+            }
+
             $count++;
             $class = '';
+
             if ($edition->getURL() == $current->getURL()) {
-                $found_current = true;
+                $fount = true;
                 $class = 'selected';
             }
             ?>
             <li class="<?php echo $class; ?>"><a href="<?php echo $edition->getURL(); ?>"><?php echo $edition->getRange(); ?></a></li>
             <?php if ($count == 2) break; // Only pull two latest entries ?>
-
         <?php endforeach; ?>
-        <?php if (!$found_current) { 
+        <?php if (!$fount) {
                 $class = 'selected'; ?>
              <li class="<?php echo $class; ?>"><a href="<?php echo $current->getURL(); ?>"><?php echo $current->getRange(); ?></a></li>
         <?php } ?>
