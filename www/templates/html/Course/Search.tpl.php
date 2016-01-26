@@ -25,9 +25,10 @@ if ($context->options['format'] != 'partial') {
 <?php if (!count($context->results)): ?>
     <p>Sorry, no matching courses</p>
 <?php else: ?>
-<div class="wdn-grid-set">
+<div class="wdn-band">
 	<div class="wdn-inner-wrapper">
 	<?php if ($context->options['format'] != 'partial'): ?>
+        <div class="wdn-grid-set">
    		<div class="bp2-wdn-col-one-fourth">
     		<?php echo $savvy->render($context->getFilters(), 'Course/Filters.tpl.php'); ?>
     	</div>
@@ -54,5 +55,6 @@ if ($context->options['format'] != 'partial') {
         </div>
     <?php endif; ?>
 	</div>
+    </div>
 </div>
 <?php endif; ?>
