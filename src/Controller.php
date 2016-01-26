@@ -89,7 +89,7 @@ class Controller implements PostRunReplacements, CachingService\CacheableInterfa
 
         try {
             if (!isset($this->viewMap[$this->options['view']])) {
-                throw new Exception('Sorry, that view does not exist.', 404);
+                throw new \Exception('Sorry, that view does not exist.', 404);
             }
 
             $outputModelClass = __NAMESPACE__ . '\\' . $this->viewMap[$this->options['view']];
