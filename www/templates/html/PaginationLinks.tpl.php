@@ -1,4 +1,4 @@
-<script type="text/javascript">
+<script>
 WDN.loadCSS(WDN.getTemplateFilePath('css/modules/pagination.css'));
 </script>
 <ul class="wdn_pagination">
