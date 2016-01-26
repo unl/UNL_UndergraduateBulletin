@@ -7,8 +7,7 @@ if (isset($context->subject)) {
 <div class="wdn_filterset coursefilter">
     <form method="post" action="#" id="<?php echo $idPrefix; ?>_filters" class="filters courseFilters">
         <h3 class="wdn-brand">Filter these Courses</h3>
-        <?php if (isset($context->groups)
-                  && count($context->groups)) : ?>
+        <?php if (isset($context->groups) && count($context->groups)): ?>
         <fieldset class="groups">
             <legend><span>Groups</span></legend>
             <ol>
@@ -17,8 +16,7 @@ if (isset($context->subject)) {
                     <label for="<?php echo $idPrefix; ?>_filterAllGroups">All groups</label></li>
                 <?php foreach ($context->groups as $group) : ?>
                 <li>
-                        <input type="checkbox" id="<?php echo $idPrefix; ?>_filter_grp_<?php echo md5($group); ?>" value="grp_<?php echo md5($group); ?>" />
-                    
+                    <input type="checkbox" id="<?php echo $idPrefix; ?>_filter_grp_<?php echo md5($group); ?>" value="grp_<?php echo md5($group); ?>" />
                     <label for="<?php echo $idPrefix; ?>_filter_grp_<?php echo md5($group); ?>"><?php echo $group; ?></label>
                 </li>
                 <?php endforeach; ?>
@@ -54,9 +52,8 @@ if (isset($context->subject)) {
                     <label for="<?php echo $idPrefix; ?>_filterAllACE">All ACE</label></li>
                 <?php for ($i=1;$i<=10;$i++) : ?>
                 <li>
-                        <input type="checkbox" id="<?php echo $idPrefix; ?>_filter_ace_<?php echo $i; ?>" value="ace_<?php echo $i; ?>" />
-                    
-                    <label for="<?php echo $idPrefix; ?>_filter_ace_<?php echo $i; ?>"><?php echo $i.' '.UNL_UndergraduateBulletin_ACE::$descriptions[$i]; ?></label>
+                    <input type="checkbox" id="<?php echo $idPrefix; ?>_filter_ace_<?php echo $i; ?>" value="ace_<?php echo $i; ?>" />
+                    <label for="<?php echo $idPrefix; ?>_filter_ace_<?php echo $i; ?>"><?php echo $i.' '.UNL\UndergraduateBulletin\Course\Listing::getACEDescription($i); ?></label>
                 </li>
                 <?php endfor; ?>
             </ol>
