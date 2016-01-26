@@ -1,8 +1,9 @@
 <?php
-$url = UNL_UndergraduateBulletin_Controller::getURL();
-UNL_UndergraduateBulletin_Controller::setReplacementData('doctitle', 'College List | Undergraduate Bulletin | University of Nebraska-Lincoln');
-UNL_UndergraduateBulletin_Controller::setReplacementData('pagetitle', '<h1>College List</h1>');
-    UNL_UndergraduateBulletin_Controller::setReplacementData('breadcrumbs', '
+$rawController = $controller->getRawObject();
+$url = $rawController::getURL();
+$rawController::setReplacementData('doctitle', 'College List | Undergraduate Bulletin | University of Nebraska-Lincoln');
+$rawController::setReplacementData('pagetitle', '<h1>College List</h1>');
+$rawController::setReplacementData('breadcrumbs', '
 <ul>
     <li><a href="http://www.unl.edu/">UNL</a></li>
     <li><a href="'.$url.'">Undergraduate Bulletin</a></li>
@@ -10,10 +11,12 @@ UNL_UndergraduateBulletin_Controller::setReplacementData('pagetitle', '<h1>Colle
 </ul>
 ');
 ?>
-<h2>Colleges and Other Areas</h2>
-<ul id="collegeListing">
-<?php
-foreach ($context as $college) {
-    echo '<li><a href="'.$url.'college/'.urlencode($college->getRaw('name')).'">'.$college->name.'</a></li>';
-} ?>
-</ul>
+<div class="wdn-band">
+	<div class="wdn-inner-wrapper">
+		<ul id="collegeListing">
+			<?php foreach ($context as $college): ?>
+			    <li><a href="<?php echo $url . 'college/' . urlencode($college->getRaw('name')) ?>"><?php echo $college->name ?></a></li>
+			<?php endforeach; ?>
+		</ul>
+	</div>
+</div>
