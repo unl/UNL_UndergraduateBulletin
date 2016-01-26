@@ -1,14 +1,16 @@
 <?php
-    $regions = array(
-    'description'                   => 'Description',
-    'admission'                     => 'Admission',
-    'major_requirements'            => 'Major Requirements',
+$regions = [
+    'description' => 'Description',
+    'admission' => 'Admission',
+    'major_requirements' => 'Major Requirements',
     'additional_major_requirements' => 'Additional Major Requirements',
-    'college_degree_requirements'   => 'College Degree Requirements',
-    'ace_requirements'              => 'Ace Requirements',
-    'other'                         => 'Other',
-    );
+    'college_degree_requirements' => 'College Degree Requirements',
+    'ace_requirements' => 'Ace Requirements',
+    'other' => 'Other',
+];
 ?>
+<div class="wdn-band">
+<div class="wdn-inner-wrapper">
 <div class="wdn-grid-set">
     <div class="bp3-wdn-col-one-third wdn-pull-right">
         <table class="major_quick_points zentable cool">
@@ -36,18 +38,14 @@
                 <?php endforeach; ?>
             </tbody>
         </table>
-        <?php if (!empty($context->degrees_offered)) { ?>
+        <?php if (!empty($context->degrees_offered)): ?>
         <h3>Degrees Offered</h3>
         <ul>
-            <?php foreach ($context->degrees_offered as $degree) { ?>
+            <?php foreach ($context->degrees_offered as $degree): ?>
             <li><?php echo $degree; ?></li>
-            <?php } ?>
+            <?php endforeach; ?>
         </ul>
-        <?php } ?>
-        <!-- 
-        <h3>Featured Faculty</h3>
-        <h3 id="relatedMajors">Related Majors</h3>
-         -->
+        <?php endif; ?>
     </div>
     <div class="bp3-wdn-col-two-thirds">
         <div id="toc_nav">
@@ -57,18 +55,19 @@
         </div>
 
         <div id="long_content">
-            <?php
-            foreach ($regions as $id => $title) {
-                if (!empty($context->$id)) {
-                    echo '<div>'.$context->getRaw($id).'</div>';
-                }
-            }
-            
-            $college_requirements = $savvy->render($context->colleges);
-            if (!empty($college_requirements)): ?>
+            <?php foreach ($regions as $id => $title): ?>
+                <?php if (!empty($context->$id)): ?>
+                    <div><?php echo $context->getRaw($id) ?></div>
+                <?php endif; ?>
+            <?php endforeach; ?>
+
+            <?php $college_requirements = $savvy->render($context->colleges); ?>
+            <?php if (!empty($college_requirements)): ?>
                 <h2 id="college_requirements">COLLEGE REQUIREMENTS</h2>
-                <?php echo $college_requirements;
-            endif; ?>
+                <?php echo $college_requirements; ?>
+            <?php endif; ?>
         </div>
     </div>
+</div>
+</div>
 </div>

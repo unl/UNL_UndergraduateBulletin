@@ -1,3 +1,7 @@
+<?php
+$colleges = new UNL\UndergraduateBulletin\College\Colleges();
+?>
+
 <div class="wdn_filterset majorfilter">
     <form method="post" action="#" class="filters majorFilters">
     <h3 class="wdn-brand">Filter these Areas of Study</h3>
@@ -5,9 +9,9 @@
         <legend><span>College</span></legend>
         <ol>
            <li><input type="checkbox" checked="checked" id="filterAllCollege" class="filterAll" name="all" value="all" /><label for="filterAllCollege">All colleges</label></li>
-            <?php foreach(new UNL_UndergraduateBulletin_CollegeList() as $abbreviation => $college): ?>
+            <?php foreach($colleges as $abbreviation => $college): ?>
             <li><input type="checkbox" id="filter<?php echo $abbreviation; ?>" name="<?php echo $abbreviation; ?>" value="<?php echo $abbreviation; ?>" />
-                <label for="filter<?php echo $abbreviation; ?>"><?php echo htmlentities($college->name); ?></label>
+                <label for="filter<?php echo $abbreviation; ?>"><?php echo $savvy->escape($college->name); ?></label>
             </li>
             <?php endforeach; ?>
         </ol>
