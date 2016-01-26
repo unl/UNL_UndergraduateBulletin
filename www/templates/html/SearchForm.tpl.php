@@ -7,13 +7,12 @@ if ($controller->options['view'] == 'searchmajors') {
     $major_search  = 'active';
 }
 ?>
-<div class="wdn-inner-wrapper">
-    <div id="search_forms">
-        <h3 id="search_label">Find a <span class="option <?php echo $course_search; ?>" id="course" tabindex="0">Course</span> or find a <span class="option <?php echo $major_search; ?>" id="major" tabindex="0">Major/Degree</span>
-        </h3>
-        <?php
-        echo $savvy->render('', 'CourseSearchForm.tpl.php');
-        echo $savvy->render('', 'MajorList/SearchForm.tpl.php');
-        ?>
+<div class="wdn-band" id="search_forms">
+    <div class="wdn-inner-wrapper">
+            <h2 class="clear-top" id="search_label">Find a <span class="option <?php echo $course_search; ?>" id="course" tabindex="0">Course</span> or find a <span class="option <?php echo $major_search; ?>" id="major" tabindex="0">Major/Degree</span></h2>
+            <?php
+            echo $savvy->render('', 'Course/SearchForm.tpl.php');
+            echo $savvy->render('', 'Major/SearchForm.tpl.php');
+            ?>
     </div>
 </div>
