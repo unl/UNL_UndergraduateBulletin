@@ -171,6 +171,10 @@ class Controller implements PostRunReplacements, CachingService\CacheableInterfa
 
         $url = static::getEdition()->getURL();
 
+        if ($mixed) {
+            $url .= $mixed;
+        }
+
         if (!$additionalParams) {
             return $url;
         }
