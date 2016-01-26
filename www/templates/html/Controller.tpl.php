@@ -1,17 +1,24 @@
 <?php
-UNL_Templates::setCachingService(new UNL_Templates_CachingService_Null());
-UNL_Templates::$options['version']        = 4.0;
-UNL_Templates::$options['sharedcodepath'] = dirname(__FILE__).'/sharedcode';
 
-$url     = UNL_UndergraduateBulletin_Controller::getURL();
-$baseURL = UNL_UndergraduateBulletin_Controller::getBaseURL();
+use UNL\Templates\Templates;
+use UNL\UndergraduateBulletin\Controller;
+
+$page = Templates::factory('Fixed', Templates::VERSION_4_1);
+$webRoot = dirname(dirname(__DIR__));
+
+if (file_exists($webRoot . '/wdn/templates_4.1')) {
+    $page->setLocalIncludePath($webRoot);
+}
+
+$url = Controller::getURL();
+$baseURL = Controller::getBaseURL();
 $protocolAgnosticBaseURL = str_replace('http://', '//', $baseURL);
 
-$page    = UNL_Templates::factory('Fixed');
-
-$page->doctitle     = '<title>Undergraduate Bulletin | University of Nebraska-Lincoln</title>';
-$page->titlegraphic = 'Undergraduate Bulletin '.UNL_UndergraduateBulletin_Controller::getEdition()->getRange();
-$page->pagetitle     = '<h1>Your Undergraduate Bulletin</h1>';
+$page->setParam('class', 'page-' . $context->options['view']);
+$page->doctitle = '<title>Undergraduate Bulletin | University of Nebraska-Lincoln</title>';
+$page->affiliation = '';
+$page->titlegraphic = 'Undergraduate Bulletin ' . Controller::getEdition()->getRange();
+$page->pagetitle = '<h1>Your Undergraduate Bulletin</h1>';
 $page->breadcrumbs  = '
 <ul>
     <li><a href="http://www.unl.edu/">UNL</a></li>
@@ -20,49 +27,34 @@ $page->breadcrumbs  = '
 ';
 
 $page->navlinks = $savvy->render(null, 'Navigation.tpl.php');
+$page->contactinfo = $savvy->render(null, 'sharedcode/localFooter.html');
 
-$page->loadSharedCodeFiles();
-$page->addStylesheet('/wdn/templates_4.0/css/modules/notices.css');
-if (UNL_UndergraduateBulletin_OutputController::getCacheInterface() instanceof UNL_UndergraduateBulletin_CacheInterface_Mock) {
-    $page->addStylesheet($protocolAgnosticBaseURL. 'templates/html/css/debug.css');
-} else {
-    $page->addStylesheet($protocolAgnosticBaseURL. 'templates/html/css/all.css');
-}
-$page->addStyleSheet($protocolAgnosticBaseURL . 'templates/html/css/print.css', 'print');
+$page->addStylesheet($protocolAgnosticBaseURL. 'css/debug.css');
+$page->addStyleSheet($protocolAgnosticBaseURL . 'css/print.css', 'print');
 
 $page->head .= '
-<script type="text/javascript">
+<script>
     var UNL_UGB_URL = "'.$url.'";
     var UNL_UGB_BASEURL = "'.$baseURL.'";
 </script>
-
-
-
-<script src="'.$protocolAgnosticBaseURL.'templates/html/scripts/bulletin.functions.js" type="text/javascript"></script>
+<script src="'.$protocolAgnosticBaseURL.'scripts/bulletin.functions.js"></script>
 ';
 
 // Check if the year of this edition indicates it has not been published
-if (mktime(0, 0, 0, 6, 1, $context->getEdition()->year) > time() ) {
-    $page->head .= <<<UNPUBLISHED
-    <meta name="robots" content="noindex" />
-    <script type="text/javascript">
-    //<![CDATA[
-    WDN.loadJQuery(function() {
-        WDN.jQuery(document).ready( function() {
-            WDN.jQuery('#wdn_wrapper').before('<div id="testIndicator"></div>');
-        });
+if (mktime(0, 0, 0, 6, 1, $context->getEdition()->getYear()) > time() ) {
+    $page->head .= <<<'UNPUBLISHED'
+<meta name="robots" content="noindex" />
+<script>
+require(['jquery'], function($) {
+    $(function() {
+        $('#wdn_wrapper').before('<div id="testIndicator"></div>');
     });
-    //]]>
-    </script>
+});
+</script>
 UNPUBLISHED;
 }
 
-$page->footercontent = str_replace('©', '© ' . date('Y'), $page->footercontent);
-
-$page->maincontentarea = '<div class="'.$context->options['view'].'">';
-$page->maincontentarea .= $savvy->render($context->output);
-$page->maincontentarea .= '</div>';
-
+$page->maincontentarea = $savvy->render($context->output);
 $page->maincontentarea .= $savvy->render(null, 'EditionNotice.tpl.php');
 
 echo $page;
