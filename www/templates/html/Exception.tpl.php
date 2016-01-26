@@ -7,16 +7,15 @@ if (false == headers_sent()
 }
 ?>
 
-<script type="text/javascript">
+<script>
 WDN.initializePlugin('notice');
 </script>
 <div class="wdn_notice alert">
     <div class="close">
-        <a href="#" title="Close this notice">Close this notice</a>
+        <a href="#">Close this notice</a>
     </div>
     <div class="message">
-        <h4>Whoops! Sorry, there was an error:</h4>
+        <p class="title">Whoops! Sorry, there was an error:</p>
         <p><?php echo $context->getMessage(); ?></p>
-        <!-- <?php echo $context; ?> -->
     </div>
 </div>
