@@ -4,12 +4,12 @@ if (gettype($context->results) == 'string') {
     echo $context->getRaw('results');
     return;
 }
-
-$url = UNL_UndergraduateBulletin_Controller::getURL();
+$rawController = $controller->getRawObject();
+$url = $rawController::getURL();
 if (isset($context->options['view']) && $context->options['view'] == 'searchcourses') {
-    UNL_UndergraduateBulletin_Controller::setReplacementData('doctitle', 'Course Search | Undergraduate Bulletin | University of Nebraska-Lincoln');
-    UNL_UndergraduateBulletin_Controller::setReplacementData('pagetitle', '<h1>Course Search</h1>');
-    UNL_UndergraduateBulletin_Controller::setReplacementData('breadcrumbs', '
+    $rawController::setReplacementData('doctitle', 'Course Search | Undergraduate Bulletin | University of Nebraska-Lincoln');
+    $rawController::setReplacementData('pagetitle', '<h1>Course Search</h1>');
+    $rawController::setReplacementData('breadcrumbs', '
     <ul>
         <li><a href="http://www.unl.edu/">UNL</a></li>
         <li><a href="'.$url.'">Undergraduate Bulletin</a></li>
@@ -19,35 +19,36 @@ if (isset($context->options['view']) && $context->options['view'] == 'searchcour
     ');
 }
 if ($context->options['format'] != 'partial') {
-    echo $savvy->render('', 'SearchForm.tpl.php');
+    echo $savvy->render(null, 'SearchForm.tpl.php');
 }
 ?>
 <?php if (!count($context->results)): ?>
-<p>Sorry, no matching courses</p>
+    <p>Sorry, no matching courses</p>
 <?php else: ?>
 <div class="wdn-grid-set">
 	<div class="wdn-inner-wrapper">
 	<?php if ($context->options['format'] != 'partial'): ?>
    		<div class="bp2-wdn-col-one-fourth">
-    		<?php echo $savvy->render($context->getFilters(), 'CourseFilters.tpl.php'); ?>
+    		<?php echo $savvy->render($context->getFilters(), 'Course/Filters.tpl.php'); ?>
     	</div>
        	<div class="bp2-wdn-col-three-fourths">
     <?php endif; ?>
-    
-		<h2 class="resultCount"><?php echo count($context->results) ?> results</h2>
+
+    <h2 class="resultCount"><?php echo count($context->results) ?> results</h2>
     <?php foreach ($context->results as $course): ?>
         <?php echo $savvy->render($course); ?>
     <?php endforeach; ?>
     <?php if ($context->options['format'] != 'partial'): ?>
-    	<?php 
+    	<?php
         // add the pagination links if necessary
         if (count($context) > $context->options['limit']) {
-            $pager = new stdClass();
-            $pager->total  = count($context);
-            $pager->limit  = $context->options['limit'];
-            $pager->offset = $context->options['offset'];
-            $pager->url    = $url.'courses/search?q='.urlencode($context->options['q']);
-            echo $savvy->render($pager, 'PaginationLinks.tpl.php');
+            $pager = [
+                'total' => count($context),
+                'limit' => $context->options['limit'],
+                'offset' => $context->options['offset'],
+                'url' => $url.'courses/search?q='.urlencode($context->options['q']),
+            ];
+            echo $savvy->render((object) $pager, 'PaginationLinks.tpl.php');
         }
         ?>
         </div>
