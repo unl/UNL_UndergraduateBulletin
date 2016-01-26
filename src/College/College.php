@@ -21,13 +21,15 @@ class College implements
         $this->name = $options['name'];
     }
 
-    public function setController(Controller $controller) {
+    public function setController(Controller $controller)
+    {
         $this->controller = $controller;
         return $this;
     }
 
 
-    public function getController() {
+    public function getController()
+    {
         return $this->controller;
     }
 
@@ -44,7 +46,8 @@ class College implements
     public function preRun($fromCache, \Savvy $savvy)
     {
         $controller = $this->getController();
-        $controller::setReplacementData('doctitle', $savvy->escape($this->name) . ' | Undergraduate Bulletin | University of Nebraska-Lincoln');
+        $controller::setReplacementData('doctitle', $savvy->escape($this->name)
+            . ' | Undergraduate Bulletin | University of Nebraska-Lincoln');
 
         $pagetitle = '<h1>' . $savvy->escape($this->name) . '</h1>';
         $controller::setReplacementData('pagetitle', $pagetitle);

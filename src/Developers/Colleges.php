@@ -1,23 +1,23 @@
 <?php
-class UNL_UndergraduateBulletin_Developers_Colleges
+
+namespace UNL\UndergraduateBulletin\Developers;
+
+class Colleges extends AbstractAction
 {
-    public $title       = "Colleges";
-    
-    public $uri         = "college";
-    
-    public $exampleURI  = "college";
-    
-    public $properties  = array(
-                                array("abbreviation", "(String) The abbreviation of the college", true, true),
-                                array("name", "(String) The college name", true, true),
-                                array("uri", "(String) URI to the college", true, true),
-                                );
-                                
-    public $formats     = array("json", "partial");
-    
-    function __construct()
-    {
-        $this->uri         = UNL_UndergraduateBulletin_Controller::$url . $this->uri;
-        $this->exampleURI  = UNL_UndergraduateBulletin_Controller::$url . $this->exampleURI;
-    }
+    public $title = "Colleges";
+
+    public $uri = "college";
+
+    public $exampleURI = "college";
+
+    public $properties = [
+        ["abbreviation", "(String) The abbreviation of the college", true, true],
+        ["name", "(String) The college name", true, true],
+        ["uri", "(String) URI to the college", true, true],
+    ];
+
+    public $formats = [
+        'json',
+        'partial'
+    ];
 }

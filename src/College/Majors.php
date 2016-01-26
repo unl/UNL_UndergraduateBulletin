@@ -1,32 +1,45 @@
 <?php
-class UNL_UndergraduateBulletin_College_Majors extends FilterIterator
+
+namespace UNL\UndergraduateBulletin\College;
+
+use UNL\UndergraduateBulletin\Major\Majors as MajorCollection;
+
+class Majors extends \FilterIterator
 {
-	/**
-	 * The college
-	 *
-	 * @var UNL_UndergraduateBulletin_College
-	 */
-    protected $_college;
+    /**
+     * The college
+     *
+     * @var College
+     */
+    protected $college;
 
-    function __construct($options = array())
+    public function __construct($options = [])
     {
-    	if (!isset($options['college'])) {
-    		$options['college'] = new UNL_UndergraduateBulletin_College($options);
-    	}
-        $this->_college = $options['college'];
-        parent::__construct(new UNL_UndergraduateBulletin_MajorList);
+        if (!isset($options['college'])) {
+            $options['college'] = new College($options);
+        }
+
+        $this->college = $options['college'];
+
+        parent::__construct(new MajorCollection());
     }
 
-    function accept()
+    public function accept()
     {
-        return $this->current()->colleges->relationshipExists($this->_college->name);
+        return $this->current()->colleges->relationshipExists($this->college->name);
     }
 
-    function __get($var)
+    public function __get($var)
     {
         if ($var == 'college') {
-            return $this->_college;
+            return $this->getCollege();
         }
-        throw new Exception('There\'s no var with that name');
+
+        throw new \Exception("There's no var with name: $var");
+    }
+
+    public function getCollege()
+    {
+        return $this->college;
     }
 }

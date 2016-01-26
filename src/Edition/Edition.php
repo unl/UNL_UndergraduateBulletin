@@ -21,6 +21,13 @@ class Edition
         }
     }
 
+    public function __get($var)
+    {
+        if ('year' === $var) {
+            return $this->year;
+        }
+    }
+
     /**
      * Get a specific edition by year
      *

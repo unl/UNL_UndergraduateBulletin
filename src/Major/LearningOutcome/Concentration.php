@@ -1,27 +1,28 @@
 <?php
-class UNL_UndergraduateBulletin_Major_LearningOutcome_Concentration extends FilterIterator
+
+namespace UNL\UndergraduateBulletin\Major\LearningOutcome;
+
+use UNL\UndergraduateBulletin\Major\DataTrait;
+
+class Concentration extends \FilterIterator
 {
-    public function __construct($options = array())
+    use DataTrait;
+
+    public function __construct($options = [])
     {
         $this->set($options['id']);
-        parent::__construct(new ArrayIterator($this));
+        parent::__construct(new \ArrayIterator($this->data));
     }
 
     public function accept()
     {
         $key = parent::key();
+
         if ($key == 'notes') {
             return false;
         }
 
         $description = parent::current();
         return !empty($description);
-    }
-
-    public function set($data)
-    {
-        foreach ($data as $key => $value) {
-            $this->{$key} = $value;
-        }
     }
 }

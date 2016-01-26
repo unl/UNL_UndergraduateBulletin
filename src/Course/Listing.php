@@ -1,7 +1,14 @@
 <?php
-class UNL_UndergraduateBulletin_Listing
+
+namespace UNL\UndergraduateBulletin\Course;
+
+use UNL\UndergraduateBulletin\Controller;
+use UNL\Services\CourseApproval\Course\Course;
+use UNL\Services\CourseApproval\Course\Listing as CreqListing;
+
+class Listing
 {
-    protected $aceDescriptions = [
+    protected static $aceDescriptions = [
         1 => 'Writing',
         2 => 'Communication Competence',
         3 => 'Math/Stat/Reasoning',
@@ -14,63 +21,59 @@ class UNL_UndergraduateBulletin_Listing
         10 => 'Integrated Product',
     ];
 
-    public static function getACEDescription($ace)
-    {
-        if (!isset($this->aceDescriptions[$ace])) {
-            return '';
-        }
-
-        return $this->aceDescriptions[$ace];
-    }
-
     /**
-     * @var UNL_Services_CourseApproval_Listing
+     * @var CreqListing
      */
     protected $internal;
 
-    /**
-     * Cached version of the internal course
-     *
-     * @var UNL_Services_CourseApproval_Course
-     */
-    public $course;
+    public static function getACEDescription($ace)
+    {
+        if (!isset(static::$aceDescriptions[$ace])) {
+            return '';
+        }
 
-    public function __construct($options = array())
+        return static::$aceDescriptions[$ace];
+    }
+
+    public function __construct($options = [])
     {
         $listing = $options;
-        if (!$listing instanceof UNL_Services_CourseApproval_Listing) {
-            $listing = UNL_Services_CourseApproval_Listing::createFromSubjectAndNumber($options['subjectArea'], $options['courseNumber']);
+        if (!$listing instanceof CreqListing) {
+            $listing = CreqListing::createFromSubjectAndNumber($options['subjectArea'], $options['courseNumber']);
         }
 
         $this->internal = $listing;
-        $this->course = $this->internal->course;
-        $this->course->setRenderListing($listing);
+        $listing->getCourse()->setRenderListing($listing);
+    }
+
+    public function getCourse()
+    {
+        return $this->internal->getCourse();
     }
 
     public function getSubject()
     {
-        return $this->internal->subjectArea;
+        return $this->internal->getSubject();
     }
 
     public function getCourseNumber()
     {
-        return $this->internal->courseNumber;
+        return $this->internal->getCourseNumber();
     }
 
     public function getURL()
     {
-        return UNL_UndergraduateBulletin_Controller::getURL()
-            . 'courses/' . $this->internal->subjectArea . '/' . $this->internal->courseNumber;
+        return Controller::getURL() . 'courses/' . $this->getSubject() . '/' . $this->getCourseNumber();
     }
 
     public function getTitle()
     {
-        return $this->internal->subjectArea . ' ' . $this->getListingNumbers() . ': ' . $this->course->title;
+        return $this->getSubject() . ' ' . $this->getListingNumbers() . ': ' . $this->getCourseTitle();
     }
 
     public function getCourseTitle()
     {
-        return $this->internal->course->title;
+        return $this->internal->getCourse()->title;
     }
 
     public function getCourseNumberCssClass()
@@ -80,6 +83,7 @@ class UNL_UndergraduateBulletin_Listing
 
     public function getCssClass()
     {
+        $course = $this->internal->getCourse();
         $classes = array('course');
 
         $groups = $this->getCourseGroups();
@@ -88,16 +92,16 @@ class UNL_UndergraduateBulletin_Listing
             $classes[] = 'grp_' . md5($group);
         }
 
-        foreach ($this->internal->course->getActivities() as $type => $activity) {
+        foreach ($course->getActivities() as $type => $activity) {
             $classes[] = $type;
         }
         unset($activity);
 
-        if ($this->internal->course->getACEOutcomes()) {
+        if ($course->getACEOutcomes()) {
             $classes[] = 'ace';
         }
 
-        foreach ($this->internal->course->getACEOutcomes() as $outcome) {
+        foreach ($course->getACEOutcomes() as $outcome) {
             $classes[] = 'ace_' . $outcome;
         }
 
@@ -109,7 +113,7 @@ class UNL_UndergraduateBulletin_Listing
         $listings = array();
 
         foreach ($this->internal->getListingsFromSubject() as $listing) {
-            $listings[] = $listing->courseNumber;
+            $listings[] = $listing->getCourseNumber();
         }
 
         sort($listings);
@@ -121,7 +125,7 @@ class UNL_UndergraduateBulletin_Listing
         $groups = array();
         foreach ($this->internal->getListingsFromSubject() as $listing) {
             if ($listing->hasGroups()) {
-                foreach ($listing->groups as $group) {
+                foreach ($listing->getGroups() as $group) {
                     $groups[] = (string) $group;
                 }
             }
@@ -139,7 +143,7 @@ class UNL_UndergraduateBulletin_Listing
             $listingNumbers = array();
 
             foreach ($subjectListings as $listing) {
-                $listingNumbers[] = $listing->courseNumber;
+                $listingNumbers[] = $listing->getCourseNumber();
             }
 
             $subjectStrings[] = $subject . ' ' . implode('/', $listingNumbers);

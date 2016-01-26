@@ -1,47 +1,58 @@
 <?php
-class UNL_UndergraduateBulletin_CourseSearch implements 
-    Countable, 
-    UNL_UndergraduateBulletin_CacheableInterface,
-    UNL_UndergraduateBulletin_ControllerAwareInterface
-{
 
+namespace UNL\UndergraduateBulletin\Course;
+
+use UNL\UndergraduateBulletin\Controller;
+use UNL\UndergraduateBulletin\ControllerAwareInterface;
+use UNL\UndergraduateBulletin\CachingService\CacheableInterface;
+use UNL\UndergraduateBulletin\SubjectArea\SubjectArea;
+use UNL\Services\CourseApproval\Search\Search as CourseSearch;
+
+class Search implements
+    \Countable,
+    CacheableInterface,
+    ControllerAwareInterface
+{
     public $results;
 
-    public $options = array('q'      => null,
-                            'offset' => 0,
-                            'limit'  => 15);
-    
+    public $options = [
+        'q' => null,
+        'offset' => 0,
+        'limit'  => 15,
+    ];
+
     protected $controller;
 
-    function __construct($options = array())
+    public function __construct($options = [])
     {
         $this->options = $options + $this->options;
-
     }
-    
-    public function setController(UNL_UndergraduateBulletin_Controller $controller) {
+
+    public function setController(Controller $controller)
+    {
         $this->controller = $controller;
         return $this;
     }
-    
-    
-    public function getController() {
+
+    public function getController()
+    {
         return $this->controller;
     }
 
-    function getCacheKey()
+    public function getCacheKey()
     {
         return 'coursesearch'.serialize($this->options);
     }
 
-    function preRun($fromCache, Savvy $savvy)
+    public function preRun($fromCache, \Savvy $savvy)
     {
         $controller = $this->getController();
-        $controller::setReplacementData('doctitle', 'Course Search | Undergraduate Bulletin | University of Nebraska-Lincoln');
-        
+        $controller::setReplacementData('doctitle', 'Course Search'
+            . ' | Undergraduate Bulletin | University of Nebraska-Lincoln');
+
         $pagetitle = '<h1>Course Search</h1>';
         $controller::setReplacementData('pagetitle', $pagetitle);
-        
+
         $controller::setReplacementData('breadcrumbs', <<<EOD
 <ul>
     <li><a href="http://www.unl.edu/">UNL</a></li>
@@ -53,35 +64,39 @@ EOD
         );
     }
 
-    function run()
+    public function run()
     {
         $driver = null;
-        if (file_exists(UNL_UndergraduateBulletin_Controller::getEdition()->getCourseDataDir().'/courses.sqlite')) {
-            $driver = new UNL_UndergraduateBulletin_CourseSearch_DBSearcher();
+        $dataDir = Controller::getEdition()->getCourseDataDir();
+
+        if (file_exists($dataDir . '/courses.sqlite')) {
+            $driver = new DBSearcher();
         }
 
-        $search = new UNL_Services_CourseApproval_Search($driver);
+        $search = new CourseSearch($driver);
 
+        // There is a subject code prefix, only search the subject code
         if (preg_match('/^([A-Z]{3,4})(\s*:\s*.*)?$/i', $this->options['q'], $matches)
-            && file_exists(UNL_UndergraduateBulletin_Controller::getEdition()->getCourseDataDir().'/subjects/'.strtoupper($matches[1]).'.xml')) {
-            // There is a subject code prefix, only search the subject code
-            $this->options['q'] = strtoupper($matches[1]);
-            $this->results = new UNL_UndergraduateBulletin_SubjectAwareCourseIterator(
+            && file_exists($dataDir . '/subjects/' . strtoupper($matches[1]) . '.xml')
+        ) {
+            $subject = strtoupper($matches[1]);
+            $this->options['q'] = $subject;
+            $this->results = new SubjectAwareIterator(
                 $search->bySubject(
-                    strtoupper($matches[1]),
+                    $subject,
                     $this->options['offset'],
                     $this->options['limit']
-                ), 
-                strtoupper($matches[1])
+                ),
+                $subject
             );
-            
+
             return;
         }
 
         // Check to see if the query matches the full description of a subject code
-        if ($area = UNL_UndergraduateBulletin_SubjectArea::getByTitle($this->options['q'])) {
-            $this->options['q'] = $area->subject.' : '.$area->title;
-            $this->results = new UNL_UndergraduateBulletin_SubjectAwareCourseIterator(
+        if ($area = SubjectArea::getByTitle($this->options['q'])) {
+            $this->options['q'] = $area->subject .' : ' . $area->title;
+            $this->results = new SubjectAwareIterator(
                 $search->bySubject(
                     $area->subject,
                     $this->options['offset'],
@@ -89,26 +104,25 @@ EOD
                 ),
                 $area->subject
             );
+
             return;
         }
 
-        $this->results = $search->byAny($this->options['q'],
-                                        $this->options['offset'],
-                                        $this->options['limit']);
+        $this->results = $search->byAny($this->options['q'], $this->options['offset'], $this->options['limit']);
     }
 
     /**
      * Get the filters used for this search
      *
-     * @return UNL_UndergraduateBulletin_CourseSearch_Filters
+     * @return Filters
      */
     public function getFilters()
     {
-        return new UNL_UndergraduateBulletin_CourseSearch_Filters($this->options);
+        return new Filters($this->options);
     }
 
 
-    function count()
+    public function count()
     {
         return count($this->results);
     }

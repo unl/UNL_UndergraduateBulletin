@@ -25,7 +25,7 @@ class OutputController extends \Savvy
 
     /**
      * get the cache interface
-     * @return UNL_UndergraduateBulletin_CacheInterface
+     * @return CachingService\CachingServiceInterface
      */
     public static function getCacheInterface()
     {
@@ -68,7 +68,7 @@ class OutputController extends \Savvy
 
         $formatStack = [$format];
 
-        switch($format) {
+        switch ($format) {
             case 'xml':
                 header('Content-type: text/xml');
                 $this->setEscape('htmlspecialchars');
@@ -97,7 +97,7 @@ class OutputController extends \Savvy
                 $this->addGlobal('delimiter', $delimiter);
 
                 $out = fopen('php://output', 'w');
-                $this->addGlobal('delimitArray', function($array) use ($delimiter, $out) {
+                $this->addGlobal('delimitArray', function ($array) use ($delimiter, $out) {
                     fputcsv($out, $array, $delimiter);
                 });
                 break;
@@ -126,7 +126,7 @@ class OutputController extends \Savvy
         return in_array($format, $this->formats);
     }
 
-    protected function getCacheKey(CachingService\CachableInterface $object)
+    protected function getCacheKey(CachingService\CacheableInterface $object)
     {
         $key = $object->getCacheKey();
 
@@ -143,7 +143,7 @@ class OutputController extends \Savvy
     {
         $cacheObject = $this->getRawObject($object);
 
-        if (!($cacheObject instanceof CachingService\CachableInterface)) {
+        if (!($cacheObject instanceof CachingService\CacheableInterface)) {
             return false;
         }
 
@@ -168,7 +168,7 @@ class OutputController extends \Savvy
     {
         $cacheObject = $this->getRawObject($object);
 
-        if (!($cacheObject instanceof CachingService\CachableInterface)) {
+        if (!($cacheObject instanceof CachingService\CacheableInterface)) {
             return;
         }
 

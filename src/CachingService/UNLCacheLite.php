@@ -2,8 +2,6 @@
 
 namespace UNL\UndergraduateBulletin\CachingService;
 
-use UNL_Cache_Lite;
-
 /**
  * A caching service utilizing Cache_Lite
  *
@@ -14,6 +12,6 @@ class UNLCacheLite extends CacheLite
     public function __construct($options = array())
     {
         $this->options = array_merge($this->options, $options);
-        $this->cache = new UNL_Cache_Lite($this->options);
+        $this->cache = new \UNL_Cache_Lite($this->options);
     }
 }

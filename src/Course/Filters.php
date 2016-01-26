@@ -1,11 +1,9 @@
 <?php
-class UNL_UndergraduateBulletin_CourseSearch_Filters
+
+namespace UNL\UndergraduateBulletin\Course;
+
+class Filters
 {
     public $subject;
     public $groups;
-
-    public function __construct($options = array())
-    {
-        
-    }
 }

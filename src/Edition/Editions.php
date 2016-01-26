@@ -21,11 +21,8 @@ class Editions extends \ArrayIterator
      */
     public static $latest = 2015;
 
-    public $options = ['format'=>'html'];
-
     public function __construct($options = [])
     {
-        $this->options = $options + $this->options;
         return parent::__construct(static::$editions);
     }
 
@@ -41,7 +38,7 @@ class Editions extends \ArrayIterator
 
     public static function getPublished()
     {
-        return new PublishedFilter(new static());
+        return new PublishedFilter(new self());
     }
 
     /**

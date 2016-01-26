@@ -1,20 +1,25 @@
 <?php
-class UNL_UndergraduateBulletin_Major_Colleges extends FilterIterator
+
+namespace UNL\UndergraduateBulletin\Major;
+
+use UNL\UndergraduateBulletin\College\Colleges as CollegeCollection;
+
+class Colleges extends \FilterIterator
 {
     /**
      * The value from the college quickpoint for this major
-     * 
+     *
      * @var array
      */
-    protected $_colleges;
+    protected $colleges;
 
-    function __construct($options = array())
+    public function __construct($options = array())
     {
         if (!isset($options['colleges'])) {
             throw new Exception('You must pass a list of colleges');
         }
         $this->setColleges($options['colleges']);
-        parent::__construct(new UNL_UndergraduateBulletin_CollegeList());
+        parent::__construct(new CollegeCollection());
     }
 
     public function setColleges($colleges)
@@ -22,27 +27,29 @@ class UNL_UndergraduateBulletin_Major_Colleges extends FilterIterator
         if (!is_array($colleges)) {
             $colleges = explode(',', $colleges);
         }
-        array_walk($colleges, create_function('&$val', '$val = trim($val);'));
-        $this->_colleges = $colleges;
+        array_walk($colleges, function (&$college) {
+            $college = trim($college);
+        });
+        $this->colleges = $colleges;
     }
 
     public function getArray()
     {
-        return $this->_colleges;
+        return $this->colleges;
     }
 
-    function accept()
+    public function accept()
     {
-        return $this->relationshipExists($this->current()->name);
+        return $this->relationshipExists($this->current()->getName());
     }
 
     /**
      * Checks if a relationship exists between this major and the given college
      *
-     * @param string $college_name
+     * @param string $collegeName
      */
-    public function relationshipExists($college_name)
+    public function relationshipExists($collegeName)
     {
-        return in_array($college_name, $this->_colleges);
+        return in_array($collegeName, $this->colleges);
     }
 }

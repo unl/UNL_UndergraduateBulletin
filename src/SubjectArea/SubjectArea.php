@@ -1,32 +1,37 @@
 <?php
-class UNL_UndergraduateBulletin_SubjectArea extends UNL_Services_CourseApproval_SubjectArea
+
+namespace UNL\UndergraduateBulletin\SubjectArea;
+
+use UNL\UndergraduateBulletin\Course\Filters;
+use UNL\Services\CourseApproval\Filter\ExcludeGraduateCourses;
+use UNL\Services\CourseApproval\SubjectArea\SubjectArea as RealSubjectArea;
+
+class SubjectArea extends RealSubjectArea
 {
     public $title;
-    
-    function __construct($options = array())
+
+    public function __construct($options = [])
     {
         if (isset($options['title'])) {
             $this->title = $options['title'];
         }
         parent::__construct($options['id']);
-        $this->courses = new UNL_UndergraduateBulletin_SubjectAwareCourseIterator(
-            new UNL_Services_CourseApproval_Filter_ExcludeGraduateCourses($this->courses),
-            $this->subject
-        );
+
+        $this->courses = new ExcludeGraduateCourses($this->courses);
     }
-    
+
     /**
      * Get a subject area by full title
      *
      * @param string $title The full title
-     * 
-     * @return UNL_UndergraduateBulletin_SubjectArea
+     *
+     * @return SubjectArea
      */
     public static function getByTitle($title)
     {
         $title = trim(strtolower($title));
-        $subject_areas = new UNL_UndergraduateBulletin_SubjectAreas();
-        foreach ($subject_areas as $code => $area) {
+        $subjectAreas = new SubjectAreas();
+        foreach ($subjectAreas as $code => $area) {
             if (strtolower($area->title) == $title) {
                 return $area;
             }
@@ -37,17 +42,12 @@ class UNL_UndergraduateBulletin_SubjectArea extends UNL_Services_CourseApproval_
     /**
      * Get the filters used for this search
      *
-     * @return UNL_UndergraduateBulletin_CourseSearch_Filters
+     * @return Filters
      */
     public function getFilters()
     {
-        $filters = new UNL_UndergraduateBulletin_CourseSearch_Filters();
+        $filters = new Filters();
         $filters->groups = $this->groups;
         return $filters;
-    }
-    
-    function __toString()
-    {
-        return $this->subject;
     }
 }

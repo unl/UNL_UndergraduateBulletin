@@ -11,12 +11,12 @@ class Router
             $requestURI = substr($requestURI, 0, -strlen($_SERVER['QUERY_STRING']) - 1);
         }
         // Trim the base part of the URL
-        $requestURI = substr($requestURI, strlen(parse_url(UNL_UndergraduateBulletin_Controller::getURL(), PHP_URL_PATH)));
-        $options = array();
+        $requestURI = substr($requestURI, strlen(parse_url(Controller::getURL(), PHP_URL_PATH)));
+        $options = [];
 
         if (preg_match('/^([\d]{4})$/', $requestURI, $matches)) {
             // No trailing slash, add it in for this lazy visitor
-            header('Location: '.UNL_UndergraduateBulletin_Controller::getBaseURL().$matches[0].'/');
+            header('Location: ' . Controller::getBaseURL() . $matches[0] . '/');
             exit();
         }
 
@@ -33,7 +33,7 @@ class Router
             return $options;
         }
 
-        switch(true) {
+        switch (true) {
             case preg_match('/^developers\/?$/', $requestURI):
                 $options['view'] = 'developers';
                 break;

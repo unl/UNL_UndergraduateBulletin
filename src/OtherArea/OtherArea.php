@@ -1,13 +1,20 @@
 <?php
+
+namespace UNL\UndergraduateBulletin\OtherArea;
+
+use UNL\UndergraduateBulletin\Controller;
+use UNL\UndergraduateBulletin\ControllerAwareInterface;
+use UNL\UndergraduateBulletin\CachingService\CacheableInterface;
+
 /**
  * The bulletin contains other areas of content which are not majors
  * or colleges. This class represents those areas of content.
  *
  * @author bbieber
  */
-class UNL_UndergraduateBulletin_OtherArea implements
-    UNL_UndergraduateBulletin_CacheableInterface,
-    UNL_UndergraduateBulletin_ControllerAwareInterface
+class OtherArea implements
+    CacheableInterface,
+    ControllerAwareInterface
 {
 
     /**
@@ -17,21 +24,21 @@ class UNL_UndergraduateBulletin_OtherArea implements
      */
     public $name;
 
-    protected $_description;
-    
+    protected $description;
+
     protected $controller;
 
-    public function __construct($options = array())
+    public function __construct($options = [])
     {
         $this->name = $options['name'];
     }
-    
-    public function setController(UNL_UndergraduateBulletin_Controller $controller)
+
+    public function setController(Controller $controller)
     {
         $this->controller = $controller;
         return $this;
     }
-    
+
     public function getController()
     {
         return $this->controller;
@@ -46,14 +53,15 @@ class UNL_UndergraduateBulletin_OtherArea implements
     {
     }
 
-    public function preRun($fromCache, Savvy $savvy)
+    public function preRun($fromCache, \Savvy $savvy)
     {
         $controller = $this->getController();
-        $controller::setReplacementData('doctitle', $savvy->escape($this->name) . ' | Undergraduate Bulletin | University of Nebraska-Lincoln');
-        
+        $controller::setReplacementData('doctitle', $savvy->escape($this->name)
+            . ' | Undergraduate Bulletin | University of Nebraska-Lincoln');
+
         $pagetitle = '<h1>' . $savvy->escape($this->name) . '</h1>';
         $controller::setReplacementData('pagetitle', $pagetitle);
-        
+
         $controller::setReplacementData('breadcrumbs', <<<EOD
 <ul>
     <li><a href="http://www.unl.edu/">UNL</a></li>
@@ -74,20 +82,20 @@ EOD
 
     /**
      * Get the description for this area of content.
-     * 
-     * @return UNL_UndergraduateBulletin_OtherArea_Description
+     *
+     * @return Description
      */
-    function getDescription()
+    public function getDescription()
     {
-        if (!$this->_description) {
-            $this->_description = new UNL_UndergraduateBulletin_OtherArea_Description($this);
+        if (!$this->description) {
+            $this->description = new Description($this);
         }
-        return $this->_description;
+        return $this->description;
     }
 
     public function getURL()
     {
-        $url = UNL_UndergraduateBulletin_Controller::getURL().'other/'.urlencode($this->name);
+        $url = Controller::getURL().'other/'.urlencode($this->name);
         return str_replace('%2F', '/', $url);
     }
 }

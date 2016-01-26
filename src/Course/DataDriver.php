@@ -2,6 +2,7 @@
 
 namespace UNL\UndergraduateBulletin\Course;
 
+use UNL\UndergraduateBulletin\Controller;
 use UNL\UndergraduateBulletin\Edition\Edition;
 use UNL\Services\CourseApproval\XCRIService\XCRIServiceInterface;
 
@@ -36,7 +37,7 @@ class DataDriver implements XCRIServiceInterface
 
     /**
      * Sets the bulletin edition to use course data from
-     * @param UNL_UndergraduateBulletin_Edition $edition
+     * @param Edition $edition
      * @return self
      */
     public function setEdition(Edition $edition)
@@ -78,7 +79,8 @@ class DataDriver implements XCRIServiceInterface
             $file = $this->currentEdition->getCourseDataDir() . '/subjects/' . $subjectarea . '.xml';
 
             if (!file_exists($file)) {
-                throw new \Exception('No subject area found matching ' . $subjectarea . ' in the '. $this->currentEdition->getYear() . ' edition.', 404);
+                throw new \Exception('No subject area found matching '
+                    . $subjectarea . ' in the '. $this->currentEdition->getYear() . ' edition.', 404);
             }
 
             $this->subjectAreas[(string)$subjectarea] = file_get_contents($file);

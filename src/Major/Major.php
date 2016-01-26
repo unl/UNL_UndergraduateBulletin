@@ -1,43 +1,50 @@
 <?php
-class UNL_UndergraduateBulletin_Major implements 
-    UNL_UndergraduateBulletin_CacheableInterface,
-    UNL_UndergraduateBulletin_ControllerAwareInterface
+
+namespace UNL\UndergraduateBulletin\Major;
+
+use UNL\UndergraduateBulletin\Controller;
+use UNL\UndergraduateBulletin\ControllerAwareInterface;
+use UNL\UndergraduateBulletin\CachingService\CacheableInterface;
+
+class Major implements
+    CacheableInterface,
+    ControllerAwareInterface
 {
-    
+
     public $title;
-    
+
     public $options;
-    
+
     /**
-     * 
+     *
      * @var UNL_UndergraduateBulletin_Major_Description
      */
-    protected $_description;
-    
-    protected $_subjectareas;
-    
+    protected $description;
+
+    protected $subjectareas;
+
     protected $controller;
-    
-    function __construct($options = array())
+
+    public function __construct($options = [])
     {
         if (isset($options['name'])) {
             $this->title = $options['name'];
         }
         $this->options = $options;
     }
-    
-    public function setController(UNL_UndergraduateBulletin_Controller $controller)
+
+    public function setController(Controller $controller)
     {
         $this->controller = $controller;
         return $this;
     }
-    
+
     public function getController()
     {
         return $this->controller;
     }
-    
-    function getCacheKey()
+
+    public function getCacheKey()
     {
         if (!isset($this->options['view'])) {
             // We're not sure what we're rendering here, do not cache
@@ -46,12 +53,13 @@ class UNL_UndergraduateBulletin_Major implements
 
         return 'major'.$this->title.$this->options['view'].$this->options['format'];
     }
-    
-    function preRun($fromCache, Savvy $savvy)
+
+    public function preRun($fromCache, \Savvy $savvy)
     {
         $controller = $this->getController();
-        $controller::setReplacementData('doctitle', $savvy->escape($this->title) . ' | Undergraduate Bulletin | University of Nebraska-Lincoln');
-        
+        $controller::setReplacementData('doctitle', $savvy->escape($this->title)
+            . ' | Undergraduate Bulletin | University of Nebraska-Lincoln');
+
         $subhead = '';
         foreach ($this->getColleges() as $college) {
             $subhead .= $college->name.' ';
@@ -62,7 +70,7 @@ class UNL_UndergraduateBulletin_Major implements
         }
         $pagetitle .= $savvy->escape($this->title) . '</h1>';
         $controller::setReplacementData('pagetitle', $pagetitle);
-        
+
         $controller::setReplacementData('breadcrumbs', <<<EOD
 <ul>
     <li><a href="http://www.unl.edu/">UNL</a></li>
@@ -71,18 +79,18 @@ class UNL_UndergraduateBulletin_Major implements
 </ul>
 EOD
         );
-        
+
         if ($this->options['view'] == 'plans') {
-            $controller::setReplacementData('head', '<link rel="stylesheet" type="text/css" href="' . $controller::getBaseURL() . 'templates/html/css/modules.courses.css" />');
+            $controller::setReplacementData('head', '<link rel="stylesheet" href="'
+                . $controller::getBaseURL() . 'templates/html/css/modules.courses.css" />');
         }
     }
-    
-    function run()
+
+    public function run()
     {
-        
     }
-    
-    function __get($var)
+
+    public function __get($var)
     {
         switch ($var) {
             case 'description':
@@ -94,64 +102,61 @@ EOD
         }
         throw new Exception('Unknown member var! '.$var);
     }
-    
-    function getDescription()
+
+    public function getDescription()
     {
-        if (!$this->_description) {
-            $this->_description = new UNL_UndergraduateBulletin_Major_Description($this);
+        if (!$this->description) {
+            $this->description = new Description($this);
         }
-        return $this->_description;
+        return $this->description;
     }
 
     /**
      * Get all course subject areas associated with this major.
-     * 
-     * @return UNL_UndergraduateBulletin_Major_SubjectAreas
+     *
+     * @return SubjectAreas
      */
-    function getSubjectAreas()
+    public function getSubjectAreas()
     {
-        if (!$this->_subjectareas) {
-            $this->_subjectareas = new UNL_UndergraduateBulletin_Major_SubjectAreas($this);
+        if (!$this->subjectareas) {
+            $this->subjectareas = new SubjectAreas($this);
         }
-        return $this->_subjectareas;
+        return $this->subjectareas;
     }
 
     /**
      * Get the Four-Year-Plans associated with this major
      *
-     * @return UNL_UndergraduateBulletin_Major_FourYearPlans
+     * @return FourYearPlan\FourYearPlans
      */
     public function getFourYearPlans()
     {
-        return new UNL_UndergraduateBulletin_Major_FourYearPlans($this->options);
+        return new FourYearPlan\FourYearPlans($this->options);
     }
 
     /**
      * Get the Learning Outcomes associated with this major
      *
-     * @return UNL_UndergraduateBulletin_Major_LearningOutcomes
+     * @return LearningOutcome\LearningOutcomes
      */
     public function getLearningOutcomes()
     {
-        return new UNL_UndergraduateBulletin_Major_LearningOutcomes($this->options);
+        return new LearningOutcome\LearningOutcomes($this->options);
     }
 
-    function getColleges()
+    public function getColleges()
     {
-        return $this->getDescription()->colleges;
+        return $this->getDescription()->getColleges();
     }
-    
-    function __isset($var)
+
+    public function __isset($var)
     {
         switch ($var) {
             case 'colleges':
                 return isset($this->getDescription()->colleges);
         }
-    }
-    
-    function __set($var, $val)
-    {
-        
+
+        return false;
     }
 
     /**
@@ -159,18 +164,16 @@ EOD
      *
      * @param string $name Major name, e.g. Accounting
      *
-     * @return UNL_UndergraduateBulletin_Major
+     * @return self
      */
-    static function getByName($name)
+    public static function getByName($name)
     {
-        $options = array('name' => $name);
-
-        $major = new UNL_UndergraduateBulletin_Major($options);
-
+        $options = ['name' => $name];
+        $major = new self($options);
         return $major;
     }
-    
-    function minorAvailable()
+
+    public function minorAvailable()
     {
         if (isset($this->description->quickpoints['Minor Available'])) {
             if (preg_match('/^Yes/', $this->description->quickpoints['Minor Available'])) {
@@ -179,25 +182,29 @@ EOD
         }
         return false;
     }
-    
-    function minorOnly()
+
+    public function minorOnly()
     {
         if (strpos($this->title, 'Minor') !== false) {
             return true;
         }
+
         if (isset($this->description->quickpoints['Degree Offered'])
-            && $this->description->quickpoints['Degree Offered'] == 'Minor only') {
+            && $this->description->quickpoints['Degree Offered'] == 'Minor only'
+        ) {
             return true;
         }
+
         if (isset($this->description->quickpoints['Minor Only'])) {
             return true;
         }
+
         return false;
     }
-    
-    function getURL()
+
+    public function getURL()
     {
-        $url = UNL_UndergraduateBulletin_Controller::getURL();
+        $url = Controller::getURL();
         $url .= 'major/'.urlencode($this->title);
         return str_replace('%2F', '/', $url);
     }

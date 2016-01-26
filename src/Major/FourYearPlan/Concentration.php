@@ -1,17 +1,17 @@
 <?php
-class UNL_UndergraduateBulletin_Major_FourYearPlan_Concentration extends ArrayIterator
+
+namespace UNL\UndergraduateBulletin\Major\FourYearPlan;
+
+use UNL\UndergraduateBulletin\Major\DataTrait;
+
+class Concentration extends \ArrayIterator
 {
-    public function __construct($options = array())
+    use DataTrait;
+
+    public function __construct($options = [])
     {
         $this->set($options['id']);
-        parent::__construct($this->semesters);
-    }
-
-    public function set($data)
-    {
-        foreach ($data as $key => $value) {
-            $this->{$key} = $value;
-        }
+        parent::__construct($this->data['semesters']);
     }
 
     public function current()
@@ -26,8 +26,7 @@ class UNL_UndergraduateBulletin_Major_FourYearPlan_Concentration extends ArrayIt
 
     protected function buildSemesterObject($semesterNumber, $data)
     {
-        $semester = new UNL_UndergraduateBulletin_Major_FourYearPlan_Semester($data);
-
+        $semester = new Semester($data);
         $semester->semesterNumber = $semesterNumber;
         return $semester;
     }

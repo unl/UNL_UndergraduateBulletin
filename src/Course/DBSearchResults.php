@@ -1,34 +1,45 @@
 <?php
-class UNL_UndergraduateBulletin_CourseSearch_DBSearchResults extends LimitIterator implements Countable
+
+namespace UNL\UndergraduateBulletin\Course;
+
+use UNL\Services\CourseApproval\Course\Course;
+
+class DBSearchResults extends \LimitIterator implements \Countable
 {
     protected $sql;
     protected $count;
-    
-    function __construct($sql, $offset = 0, $limit = -1)
+
+    public function __construct($sql, $offset = 0, $limit = -1)
     {
         $this->sql = $sql;
 
         $stmnt = $this->getDB()->query($this->sql);
 
         if ($stmnt === false) {
-            throw new Exception('Invalid query result from the database', 500);
+            throw new \Exception('Invalid query result from the database', 500);
         }
 
-        parent::__construct(new IteratorIterator($stmnt), $offset, $limit);
+        parent::__construct(new \IteratorIterator($stmnt), $offset, $limit);
     }
-    
-    function current()
+
+    public function current()
     {
         $xml = parent::current();
-        return new UNL_Services_CourseApproval_Course(new SimpleXMLElement($xml['xml']));
+        return new Course(new \SimpleXMLElement($xml['xml']));
     }
-    
-    function count()
+
+    public function count()
     {
+        $replacements = [
+            'SELECT *',
+            'SELECT courses.xml',
+            'SELECT DISTINCT courses.id, courses.xml',
+        ];
+
         if (!isset($this->count)) {
-            $sql = str_replace(array('SELECT *', 'SELECT courses.xml', 'SELECT DISTINCT courses.id, courses.xml'), 'SELECT COUNT(DISTINCT courses.id) ', $this->sql);
+            $sql = str_replace($replacements, 'SELECT COUNT(DISTINCT courses.id) ', $this->sql);
             $result = $this->getDB()->query($sql);
-            $count = $result->fetch(PDO::FETCH_NUM);
+            $count = $result->fetch(\PDO::FETCH_NUM);
             $this->count = $count[0];
         }
 
@@ -42,6 +53,6 @@ class UNL_UndergraduateBulletin_CourseSearch_DBSearchResults extends LimitIterat
      */
     protected function getDB()
     {
-        return UNL_UndergraduateBulletin_CourseSearch_DBSearcher::getDB();
+        return DBSearcher::getDB();
     }
 }

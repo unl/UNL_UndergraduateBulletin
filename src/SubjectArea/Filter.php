@@ -1,22 +1,25 @@
 <?php
+
+namespace UNL\UndergraduateBulletin\SubjectArea;
+
 /**
  * Simple filter for subject codes to hide un-used or un-advertised subject areas
- * 
+ *
  * @author Brett Bieber <brett.bieber@gmail.com>
  */
-class UNL_UndergraduateBulletin_SubjectAreas_Filter extends FilterIterator
+class Filter extends \FilterIterator
 {
-    public static $filtered_codes = array();
+    public static $filteredCodes = [];
 
-    function __construct(UNL_UndergraduateBulletin_SubjectAreas $subjects)
+    public function __construct(SubjectAreas $subjects)
     {
         parent::__construct($subjects);
     }
 
-    function accept()
+    public function accept()
     {
         $code = $this->key();
-        if (in_array($code, self::$filtered_codes)) {
+        if (in_array($code, static::$filteredCodes)) {
             return false;
         }
         return true;

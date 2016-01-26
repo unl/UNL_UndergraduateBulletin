@@ -4,10 +4,10 @@ namespace UNL\UndergraduateBulletin;
 
 class ClassToTemplateMapper extends \Savvy_ClassToTemplateMapper
 {
-	protected $removePrefixes = [
-		__NAMESPACE__ . '\\',
-		'UNL\\Service\\CourseApproval\\',
-	];
+    protected $removePrefixes = [
+        __NAMESPACE__ . '\\',
+        'UNL\\Services\\CourseApproval\\',
+    ];
 
     public function map($class)
     {

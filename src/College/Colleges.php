@@ -18,7 +18,8 @@ class Colleges extends \ArrayIterator
         $reversed = array_flip(static::$colleges);
 
         if (!isset($reversed[$name])) {
-            throw new \Exception('I don\'t know the abbreviation for '.$name.'. It needs to be added to the list.', 500);
+            throw new \Exception('I don\'t know the abbreviation for '
+                . $name . '. It needs to be added to the list.', 500);
         }
 
         return $reversed[$name];
