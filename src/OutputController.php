@@ -58,7 +58,6 @@ class OutputController extends \Savvy
         $expire = static::getDefaultExpireTimestamp();
 
         $this->addGlobal('controller', $controller);
-        $this->setTemplatePath($templatesPath . $defaultFormat);
 
         $format = $controller->options['format'];
 
@@ -83,9 +82,7 @@ class OutputController extends \Savvy
                 if (!isset($controller->options['delimiter'])) {
                     $controller->options['delimiter'] = "|";
                 }
-
                 // no break
-                break;
             case 'csv':
                 header('Content-type: text/plain; charset=UTF-8');
 
@@ -105,8 +102,8 @@ class OutputController extends \Savvy
                 ClassToTemplateMapper::$output_template[Controller::class] = 'Controller-partial';
                 // no break
             default:
-                if ('print' !== $format) {
-                    $formatStack = [];
+                if ($defaultFormat !== $format) {
+                    array_unshift($formatStack, $defaultFormat);
                 }
                 $this->addTemplatePath($controller->getEdition()->getDataDir() . '/templates/html');
                 $this->setEscape('htmlentities');
