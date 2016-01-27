@@ -11,7 +11,8 @@ use UNL\Services\CourseApproval\Search\Search as CourseSearch;
 class Search implements
     \Countable,
     CacheableInterface,
-    ControllerAwareInterface
+    ControllerAwareInterface,
+    \JsonSerializable
 {
     public $results;
 
@@ -125,5 +126,15 @@ EOD
     public function count()
     {
         return count($this->results);
+    }
+
+    public function jsonSerialize()
+    {
+        $courseListings = [];
+        foreach ($this->results as $course) {
+            $courseListings[] = new Listing($course->getRenderListing());
+        }
+
+        return $courseListings;
     }
 }

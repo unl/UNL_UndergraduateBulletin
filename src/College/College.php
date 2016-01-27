@@ -8,7 +8,8 @@ use UNL\UndergraduateBulletin\CachingService\CacheableInterface;
 
 class College implements
     CacheableInterface,
-    ControllerAwareInterface
+    ControllerAwareInterface,
+    \JsonSerializable
 {
     protected $name;
 
@@ -85,7 +86,7 @@ EOD
 
     public function getAbbreviation()
     {
-        Colleges::getAbbreviation($this->name);
+        return Colleges::getAbbreviation($this->name);
     }
 
     /**
@@ -110,5 +111,14 @@ EOD
     public function getURL()
     {
         return Controller::getURL() . 'college/' . urlencode($this->name);
+    }
+
+    public function jsonSerialize()
+    {
+        return [
+            'abbreviation' => $this->getAbbreviation(),
+            'name' => $this->getName(),
+            'uri' => $this->getURL(),
+        ];
     }
 }

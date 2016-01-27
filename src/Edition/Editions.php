@@ -2,7 +2,8 @@
 
 namespace UNL\UndergraduateBulletin\Edition;
 
-class Editions extends \ArrayIterator
+class Editions extends \ArrayIterator implements
+    \JsonSerializable
 {
     public static $editions = [
         2016,
@@ -59,5 +60,10 @@ class Editions extends \ArrayIterator
     public function current()
     {
         return new Edition(['year' => parent::current()]);
+    }
+
+    public function jsonSerialize()
+    {
+        return static::$editions;
     }
 }

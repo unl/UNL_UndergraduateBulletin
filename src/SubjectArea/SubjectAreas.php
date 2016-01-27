@@ -5,7 +5,9 @@ namespace UNL\UndergraduateBulletin\SubjectArea;
 use UNL\UndergraduateBulletin\Controller;
 use UNL\UndergraduateBulletin\CachingService\CacheableInterface;
 
-class SubjectAreas extends \ArrayIterator implements CacheableInterface
+class SubjectAreas extends \ArrayIterator implements
+    CacheableInterface,
+    \JsonSerializable
 {
     /**
      * Returns an array with subject code keys and title values
@@ -57,5 +59,19 @@ class SubjectAreas extends \ArrayIterator implements CacheableInterface
 
         $area = new SubjectArea($options);
         return $area;
+    }
+
+    public function jsonSerialize()
+    {
+        $data = [];
+        foreach ($this as $id => $area) {
+            $data[$id] = [
+                // '@id' => $id,
+                'href' => Controller::getURL() . 'courses/' . $id . '/',
+                'title' => $area->title,
+            ];
+        }
+
+        return $data;
     }
 }

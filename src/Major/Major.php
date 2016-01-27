@@ -8,7 +8,8 @@ use UNL\UndergraduateBulletin\CachingService\CacheableInterface;
 
 class Major implements
     CacheableInterface,
-    ControllerAwareInterface
+    ControllerAwareInterface,
+    \JsonSerializable
 {
 
     public $title;
@@ -207,5 +208,27 @@ EOD
         $url = Controller::getURL();
         $url .= 'major/'.urlencode($this->title);
         return str_replace('%2F', '/', $url);
+    }
+
+    public function JsonSerialize()
+    {
+        $render = isset($this->options['view']) ? $this->options['view'] : 'major';
+
+        switch($render) {
+            case 'major':
+                return [
+                    'title' => $this->title,
+                    'minorAvailable' => $this->minorAvailable(),
+                    'minorOnly' => $this->minorOnly(),
+                    'college' => $this->getColleges(),
+                    'uri' => $this->getURL(),
+                ];
+            case 'plans':
+                return $this->getFourYearPlans();
+            case 'outcomes':
+                return $this->getLearningOutcomes();
+            default:
+                return $this->getSubjectAreas();
+        }
     }
 }

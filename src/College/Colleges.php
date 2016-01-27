@@ -2,8 +2,13 @@
 
 namespace UNL\UndergraduateBulletin\College;
 
-class Colleges extends \ArrayIterator
+use UNL\UndergraduateBulletin\SelfIteratingJsonSerializationTrait;
+
+class Colleges extends \ArrayIterator implements
+    \JsonSerializable
 {
+    use SelfIteratingJsonSerializationTrait;
+
     public $options = ['name' => false];
 
     public static $colleges = [];

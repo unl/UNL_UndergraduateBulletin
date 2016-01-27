@@ -6,11 +6,15 @@ use UNL\UndergraduateBulletin\Controller;
 use UNL\UndergraduateBulletin\ControllerAwareInterface;
 use UNL\UndergraduateBulletin\CachingService\CacheableInterface;
 use UNL\UndergraduateBulletin\EPUB\Utilities;
+use UNL\UndergraduateBulletin\SelfIteratingJsonSerializationTrait;
 
 class Majors extends \ArrayIterator implements
     CacheableInterface,
-    ControllerAwareInterface
+    ControllerAwareInterface,
+    \JsonSerializable
 {
+    use SelfIteratingJsonSerializationTrait;
+
     protected $controller;
 
     public $options = [];
@@ -63,7 +67,6 @@ EOD
 
     public function current()
     {
-
         $name = Utilities::getNameByFile(parent::current());
         return new Major(['name' => $name]);
     }

@@ -6,7 +6,8 @@ use UNL\UndergraduateBulletin\Controller;
 use UNL\Services\CourseApproval\Course\Course;
 use UNL\Services\CourseApproval\Course\Listing as CreqListing;
 
-class Listing
+class Listing implements
+    \JsonSerializable
 {
     protected static $aceDescriptions = [
         1 => 'Writing',
@@ -156,5 +157,53 @@ class Listing
     {
         $courses = $this->internal->getSubsequentCourses($searcher);
         return $courses;
+    }
+
+    public function jsonSerialize()
+    {
+        $course = $this->getCourse();
+        $data = [
+            'title' => $course->title,
+            'courseCodes' => [],
+            'gradingType' => $course->gradingType,
+            'dfRemoval' => $course->dfRemoval,
+            'effectiveSemester' => $course->effectiveSemester,
+            'prerequisite' => $course->prerequisite,
+            'description' => $course->description,
+            'campuses' => $course->getCampuses(),
+            'deliveryMethods' => $course->getDeliveryMethods(),
+            'termsOffered' => $course->getTermsOffered(),
+            'activities' => [],
+            'credits' => [],
+        ];
+
+        if ($aceOutcomes = $course->getACEOutcomes()) {
+            $data['aceOutcomes'] = $aceOutcomes;
+        }
+
+        foreach ($course->getCodes() as $listing) {
+            $data['courseCodes'][] = [
+                '@type' => $listing->getType(),
+                'subject' => (string)$listing->subjectArea,
+                'courseNumber' => $listing->courseNumber
+            ];
+        }
+
+        foreach ($course->getActivities() as $activity) {
+            $data['activities'][] = [
+                'type' => (string) $activity->type,
+                'hours' => (int) $activity->hours,
+            ];
+        }
+
+        foreach ($course->getCredits() as $credit) {
+            $data['credits'][] = [
+                '@type' => (string) $credit['type'],
+                '' => (int) $credit,
+
+            ];
+        }
+
+        return $data;
     }
 }

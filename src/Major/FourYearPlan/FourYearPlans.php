@@ -6,7 +6,8 @@ use UNL\UndergraduateBulletin\EPUB\Utilities;
 use UNL\UndergraduateBulletin\Major;
 use UNL\UndergraduateBulletin\Major\JsonLoadedDataTrait;
 
-class FourYearPlans extends \ArrayIterator
+class FourYearPlans extends \ArrayIterator implements
+    \JsonSerializable
 {
     use JsonLoadedDataTrait;
 
@@ -42,5 +43,10 @@ class FourYearPlans extends \ArrayIterator
     public function current()
     {
         return new Concentration(['id' => parent::current()]);
+    }
+
+    public function jsonSerialize()
+    {
+        return $this->getArrayCopy();
     }
 }

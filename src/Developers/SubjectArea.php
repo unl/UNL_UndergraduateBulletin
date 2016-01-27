@@ -11,8 +11,6 @@ class SubjectArea extends AbstractAction
     public $exampleURI = "courses/ECON";
 
     public $properties = [
-        ["id", "(String) The subject code", true, true],
-        ["title", "(String) The title of the subject area", true, true],
         ["courses", "(Array) The courses", true, true],
     ];
 }

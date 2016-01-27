@@ -4,7 +4,8 @@ namespace UNL\UndergraduateBulletin\Course;
 
 use UNL\Services\CourseApproval\Course\Course;
 
-class SubjectAwareIterator extends \IteratorIterator implements \Countable
+class SubjectAwareIterator extends \IteratorIterator implements
+    \Countable
 {
     protected $subject;
 

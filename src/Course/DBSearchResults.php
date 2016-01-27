@@ -4,7 +4,8 @@ namespace UNL\UndergraduateBulletin\Course;
 
 use UNL\Services\CourseApproval\Course\Course;
 
-class DBSearchResults extends \LimitIterator implements \Countable
+class DBSearchResults extends \LimitIterator implements
+    \Countable
 {
     protected $sql;
     protected $count;

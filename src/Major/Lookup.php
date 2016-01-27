@@ -4,9 +4,10 @@ namespace UNL\UndergraduateBulletin\Major;
 
 use UNL\UndergraduateBulletin\Controller;
 
-class Lookup extends \ArrayIterator
+class Lookup extends \ArrayIterator implements
+	\JsonSerializable
 {
-    public function __construct($options = array())
+    public function __construct($options = [])
     {
         $mapping = file_get_contents(Controller::getEdition()->getDataDir().'/major_lookup.php.ser');
 
@@ -15,5 +16,10 @@ class Lookup extends \ArrayIterator
         }
 
         parent::__construct($mapping);
+    }
+
+    public function jsonSerialize()
+    {
+        return $this->getArrayCopy();
     }
 }

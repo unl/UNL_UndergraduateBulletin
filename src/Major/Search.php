@@ -3,10 +3,14 @@
 namespace UNL\UndergraduateBulletin\Major;
 
 use UNL\UndergraduateBulletin\Controller;
+use UNL\UndergraduateBulletin\SelfIteratingJsonSerializationTrait;
 use UNL\UndergraduateBulletin\EPUB\Utilities;
 
-class Search extends \ArrayIterator
+class Search extends \ArrayIterator implements
+    \JsonSerializable
 {
+    use SelfIteratingJsonSerializationTrait;
+
     public $options = ['q' => ''];
 
     public function __construct($options = [])

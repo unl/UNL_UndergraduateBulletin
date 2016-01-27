@@ -3,10 +3,12 @@
 namespace UNL\UndergraduateBulletin\SubjectArea;
 
 use UNL\UndergraduateBulletin\Course\Filters;
+use UNL\UndergraduateBulletin\Course\Listing;
 use UNL\Services\CourseApproval\Filter\ExcludeGraduateCourses;
 use UNL\Services\CourseApproval\SubjectArea\SubjectArea as RealSubjectArea;
 
-class SubjectArea extends RealSubjectArea
+class SubjectArea extends RealSubjectArea implements
+    \jsonSerializable
 {
     public $title;
 
@@ -49,5 +51,18 @@ class SubjectArea extends RealSubjectArea
         $filters = new Filters();
         $filters->groups = $this->groups;
         return $filters;
+    }
+
+    public function jsonSerialize()
+    {
+        $data = [
+            'courses' => [],
+        ];
+
+        foreach ($this->courses as $course) {
+            $data['courses'][] = new Listing($course->getRenderListing());
+        }
+
+        return $data;
     }
 }

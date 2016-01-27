@@ -4,7 +4,8 @@ namespace UNL\UndergraduateBulletin\Major;
 
 use UNL\UndergraduateBulletin\College\Colleges as CollegeCollection;
 
-class Colleges extends \FilterIterator
+class Colleges extends \FilterIterator implements
+    \JsonSerializable
 {
     /**
      * The value from the college quickpoint for this major
@@ -51,5 +52,10 @@ class Colleges extends \FilterIterator
     public function relationshipExists($collegeName)
     {
         return in_array($collegeName, $this->colleges);
+    }
+
+    public function jsonSerialize()
+    {
+        return $this->getArray();
     }
 }

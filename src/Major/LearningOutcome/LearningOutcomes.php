@@ -29,4 +29,9 @@ class LearningOutcomes extends \ArrayIterator
     {
         return new Concentration(['id' => parent::current()]);
     }
+
+    public function jsonSerialize()
+    {
+        return $this->getArrayCopy();
+    }
 }

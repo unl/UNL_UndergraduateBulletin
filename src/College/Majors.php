@@ -2,10 +2,14 @@
 
 namespace UNL\UndergraduateBulletin\College;
 
+use UNL\UndergraduateBulletin\SelfIteratingJsonSerializationTrait;
 use UNL\UndergraduateBulletin\Major\Majors as MajorCollection;
 
-class Majors extends \FilterIterator
+class Majors extends \FilterIterator implements
+    \JsonSerializable
 {
+    use SelfIteratingJsonSerializationTrait;
+
     /**
      * The college
      *
@@ -26,7 +30,7 @@ class Majors extends \FilterIterator
 
     public function accept()
     {
-        return $this->current()->colleges->relationshipExists($this->college->name);
+        return $this->current()->getColleges()->relationshipExists($this->college->name);
     }
 
     public function __get($var)
