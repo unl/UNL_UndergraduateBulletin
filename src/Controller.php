@@ -123,12 +123,14 @@ class Controller implements PostRunReplacements, CachingService\CacheableInterfa
 
     public function postRun($data)
     {
-        if (!empty(static::$replacementData['doctitle']) && strstr($data, '<title>')) {
-            $data = preg_replace(
-                '/<title>.*<\/title>/',
-                '<title>'.static::$replacementData['doctitle'].'</title>',
-                $data
-            );
+        if (isset(static::$replacementData['doctitle'])
+            && strstr($data, '<!-- InstanceBeginEditable name="doctitle" -->')
+        ) {
+            $start = strpos($data, '<!-- InstanceBeginEditable name="doctitle" -->')
+                + strlen('<!-- InstanceBeginEditable name="doctitle" -->');
+            $end = strpos($data, '<!-- InstanceEndEditable -->', $start);
+
+            $data = substr($data, 0, $start).static::$replacementData['doctitle'].substr($data, $end);
         }
 
         if (isset(static::$replacementData['head']) && strstr($data, '</head>')) {
