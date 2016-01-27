@@ -198,6 +198,24 @@ class OutputController extends \Savvy
         return $data;
     }
 
+    public function renderJsonObject($object)
+    {
+        $rawObject = $this->getRawObject($object);
+
+        if (!$rawObject instanceof \JsonSerializable) {
+            return $this->renderObject($object);
+        }
+
+        $data = $this->loadCache($object);
+
+        if ($data === false) {
+            $data = json_encode($object);
+            $this->saveCache($object, $data);
+        }
+
+        return $data;
+    }
+
     /**
      *
      * @param timestamp $expires timestamp
