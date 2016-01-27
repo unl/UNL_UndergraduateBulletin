@@ -99,9 +99,9 @@ class Controller implements PostRunReplacements, CachingService\CacheableInterfa
                 $outputModel->setController($this);
             }
 
-            $this->output[] = $outputModel;
+            $this->output = $outputModel;
         } catch (\Exception $e) {
-            $this->output[] = $e;
+            $this->outputException($e);
         }
     }
 
