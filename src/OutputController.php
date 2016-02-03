@@ -66,6 +66,7 @@ class OutputController extends \Savvy
         }
 
         $formatStack = [$format];
+        $alternateTemplateStack = [];
 
         switch ($format) {
             case 'xml':
@@ -105,7 +106,7 @@ class OutputController extends \Savvy
                 if ($defaultFormat !== $format) {
                     array_unshift($formatStack, $defaultFormat);
                 }
-                $this->addTemplatePath($controller->getEdition()->getDataDir() . '/templates/html');
+                $alternateTemplateStack[] = $controller->getEdition()->getDataDir() . '/templates/html';
                 $this->setEscape('htmlentities');
                 $expire = strtotime('tomorrow');
                 break;
@@ -113,6 +114,10 @@ class OutputController extends \Savvy
 
         foreach ($formatStack as $format) {
             $this->addTemplatePath($templatesPath . $format);
+        }
+
+        foreach ($alternateTemplateStack as $templatePath) {
+            $this->addTemplatePath($templatePath);
         }
 
         static::setDefaultExpireTimestamp($expire);
