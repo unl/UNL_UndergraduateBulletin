@@ -32,14 +32,6 @@ $page->contactinfo = $savvy->render(null, 'sharedcode/localFooter.html');
 $page->addStylesheet($protocolAgnosticBaseURL. 'css/debug.css');
 $page->addStyleSheet($protocolAgnosticBaseURL . 'css/print.css', 'print');
 
-$page->head .= '
-<script>
-    var UNL_UGB_URL = "'.$url.'";
-    var UNL_UGB_BASEURL = "'.$baseURL.'";
-</script>
-<script src="'.$protocolAgnosticBaseURL.'scripts/bulletin.functions.js"></script>
-';
-
 // Check if the year of this edition indicates it has not been published
 if (mktime(0, 0, 0, 6, 1, $context->getEdition()->getYear()) > time() ) {
     $page->head .= <<<'UNPUBLISHED'
@@ -56,5 +48,6 @@ UNPUBLISHED;
 
 $page->maincontentarea = $savvy->render($context->output);
 $page->maincontentarea .= $savvy->render(null, 'EditionNotice.tpl.php');
+$page->maincontentarea .= $savvy->render(null, 'sharedcode/entry-script.tpl.php');
 
 echo $page;
