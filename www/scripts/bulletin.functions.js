@@ -26,7 +26,7 @@ define([
         $('#tocToggle').on('click', function (e) {
             e.preventDefault();
             $(this).toggleClass(closeClass);
-            $(tableOfContents).toggleClass(openClass);
+            $(tableOfContentsSelector).toggleClass(openClass);
         });
 
         $(tableOfContentsSelector).tableOfContents(
