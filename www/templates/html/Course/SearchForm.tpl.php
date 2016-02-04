@@ -5,7 +5,7 @@ $url =  $controller->getRawObject()::getURL();
     <fieldset>
         <legend>Find a Course</legend>
         <label for="courseSearch">Course Search</label>
-        <input type="text" placeholder="search for a course" name="q" id="courseSearch" value="<?php echo (isset($controller->options['q']))?htmlentities($controller->options['q'], ENT_QUOTES):''; ?>" />
+        <input type="text" placeholder="search for a course" name="q" id="courseSearch" value="<?php echo (isset($controller->options['q']))?$controller->options['q']:''; ?>" />
         <input type="submit" value="Find" />
     </fieldset>
     <div class="search_help">
