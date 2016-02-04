@@ -248,7 +248,7 @@ class Controller implements PostRunReplacements, CachingService\CacheableInterfa
     {
         $courseService = Data::getXCRIService();
 
-        if ($courseService instanceof CourseDataDriver) {
+        if ($courseService instanceof Course\DataDriver) {
             $courseService->setEdition($edition);
         }
 
