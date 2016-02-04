@@ -130,7 +130,7 @@
 				var depth = this.nodeName.toLowerCase().substr(1,1);
 
 				// This changes depth, or adds separators, only if not the first item
-				if(i > 0 || ( i === 0 && depth !== base.current_depth)){
+				if(i > 0 || ( i === 0 && depth != base.current_depth)){
 
 					base.changeDepth(depth);
 				}
