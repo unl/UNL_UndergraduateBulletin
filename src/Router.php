@@ -18,6 +18,10 @@ class Router
             // No trailing slash, add it in for this lazy visitor
             header('Location: ' . Controller::getBaseURL() . $matches[0] . '/');
             exit();
+        } elseif (preg_match('/^developers\/?$/', $requestURI)) {
+            // Developers is not edition specific
+            $options['view'] = 'developers';
+            return $options;
         }
 
         if (preg_match('/^([\d]{4})\//', $requestURI, $matches)) {
@@ -34,9 +38,6 @@ class Router
         }
 
         switch (true) {
-            case preg_match('/^developers\/?$/', $requestURI):
-                $options['view'] = 'developers';
-                break;
             case preg_match('/^book\/?$/', $requestURI):
                 $options['view'] = 'book';
                 $options['format'] = 'print';
