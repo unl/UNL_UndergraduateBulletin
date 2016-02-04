@@ -176,8 +176,8 @@ EOD
 
     public function minorAvailable()
     {
-        if (isset($this->description->quickpoints['Minor Available'])) {
-            if (preg_match('/^Yes/', $this->description->quickpoints['Minor Available'])) {
+        if (isset($this->getDescription()->quickpoints['Minor Available'])) {
+            if (preg_match('/^Yes/', $this->getDescription()->quickpoints['Minor Available'])) {
                 return true;
             }
         }
@@ -190,13 +190,13 @@ EOD
             return true;
         }
 
-        if (isset($this->description->quickpoints['Degree Offered'])
-            && $this->description->quickpoints['Degree Offered'] == 'Minor only'
+        if (isset($this->getDescription()->quickpoints['Degree Offered'])
+            && $this->getDescription()->quickpoints['Degree Offered'] == 'Minor only'
         ) {
             return true;
         }
 
-        if (isset($this->description->quickpoints['Minor Only'])) {
+        if (isset($this->getDescription()->quickpoints['Minor Only'])) {
             return true;
         }
 
