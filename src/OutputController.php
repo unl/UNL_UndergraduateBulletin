@@ -51,7 +51,7 @@ class OutputController extends \Savvy
         $this->setClassToTemplateMapper(new ClassToTemplateMapper());
     }
 
-    public function setupFromController(Controller $controller)
+    public function setupFromController(Controller $controller, $withHeaders = true)
     {
         $templatesPath = dirname(__DIR__) . '/www/templates/';
         $defaultFormat = 'html';
@@ -70,11 +70,15 @@ class OutputController extends \Savvy
 
         switch ($format) {
             case 'xml':
-                header('Content-type: text/xml');
+                if ($withHeaders) {
+                    header('Content-type: text/xml');
+                }
                 $this->setEscape('htmlspecialchars');
                 break;
             case 'json':
-                header('Content-type: application/json');
+                if ($withHeaders) {
+                    header('Content-type: application/json');
+                }
                 break;
             case 'collegesource':
                 //CollegeSource is also csv, but they require specific data... so they have a special template.
@@ -85,7 +89,9 @@ class OutputController extends \Savvy
                 }
                 // no break
             case 'csv':
-                header('Content-type: text/plain; charset=UTF-8');
+                if ($withHeaders) {
+                    header('Content-type: text/plain; charset=UTF-8');
+                }
 
                 if (!isset($controller->options['delimiter'])) {
                     $controller->options['delimiter'] = ",";
