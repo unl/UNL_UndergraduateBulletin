@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "7327b21d8a51a6a4c8a32e30dec31f38",
-    "content-hash": "4eb2f951cd775d146bc325791fcb49ed",
+    "hash": "1d989486f0b30870490180add4bab282",
+    "content-hash": "6d6c6ace9832c431bb6dd3f8edb345b6",
     "packages": [
         {
             "name": "saltybeagle/savvy",
@@ -151,16 +151,16 @@
         },
         {
             "name": "unl/services-course-approval",
-            "version": "v1.0.1",
+            "version": "v1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/unl/UNL_Services_CourseApproval.git",
-                "reference": "209b4ec8528fbde622dfa9070fbf432c7a947a12"
+                "reference": "d97463d0759404d8a8e7395cba9b68e3a4c5f8c4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/unl/UNL_Services_CourseApproval/zipball/209b4ec8528fbde622dfa9070fbf432c7a947a12",
-                "reference": "209b4ec8528fbde622dfa9070fbf432c7a947a12",
+                "url": "https://api.github.com/repos/unl/UNL_Services_CourseApproval/zipball/d97463d0759404d8a8e7395cba9b68e3a4c5f8c4",
+                "reference": "d97463d0759404d8a8e7395cba9b68e3a4c5f8c4",
                 "shasum": ""
             },
             "require-dev": {
@@ -188,7 +188,7 @@
                 }
             ],
             "description": "This project provides a simple API for the course data within the creq system written by Tim Steiner",
-            "time": "2016-01-26 20:56:04"
+            "time": "2016-02-04 00:17:48"
         },
         {
             "name": "unl/unl_cache_lite",
