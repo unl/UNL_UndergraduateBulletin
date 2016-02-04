@@ -18,8 +18,6 @@ class SubjectArea extends RealSubjectArea implements
             $this->title = $options['title'];
         }
         parent::__construct($options['id']);
-
-        $this->courses = new ExcludeGraduateCourses($this->courses);
     }
 
     /**
@@ -39,6 +37,15 @@ class SubjectArea extends RealSubjectArea implements
             }
         }
         return false;
+    }
+
+    public function getCourses()
+    {
+        if (!$this->courses) {
+            $this->courses = new ExcludeGraduateCourses(parent::getCourses());
+        }
+
+        return $this->courses;
     }
 
     /**
