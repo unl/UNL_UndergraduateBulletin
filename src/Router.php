@@ -11,7 +11,7 @@ class Router
             $requestURI = substr($requestURI, 0, -strlen($_SERVER['QUERY_STRING']) - 1);
         }
         // Trim the base part of the URL
-        $requestURI = substr($requestURI, strlen(parse_url(Controller::getURL(), PHP_URL_PATH)));
+        $requestURI = substr($requestURI, strlen(parse_url(Controller::getBaseURL(), PHP_URL_PATH)));
         $options = [];
 
         if (preg_match('/^([\d]{4})$/', $requestURI, $matches)) {
