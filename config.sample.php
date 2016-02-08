@@ -6,7 +6,7 @@ use UNL\UndergraduateBulletin\CourseDataDriver;
 use UNL\UndergraduateBulletin\CachingService\Mock;
 use UNL\UndergraduateBulletin\CachingService\UNLCacheLite;
 use UNL\UndergraduateBulletin\Course\DataDriver;
-use UNL\UndergraduateBulletin\Editions\Edition;
+use UNL\UndergraduateBulletin\Edition\Edition;
 use UNL\Services\CourseApproval\Data;
 use UNL\Services\CourseApproval\CachingService\NullService;
 
