@@ -6,6 +6,9 @@ cache:
   directories:
     - $HOME/.composer/cache
 
+env:
+  - BULLETIN_EDITION=2016
+
 matrix:
   fast_finish: true
   include:
