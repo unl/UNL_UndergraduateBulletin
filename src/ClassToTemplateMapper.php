@@ -5,9 +5,13 @@ namespace UNL\UndergraduateBulletin;
 class ClassToTemplateMapper extends \Savvy_ClassToTemplateMapper
 {
     protected $removePrefixes = [
-        __NAMESPACE__ . '\\',
         'UNL\\Services\\CourseApproval\\',
     ];
+
+    public function __construct()
+    {
+        $this->removePrefixes[] = __NAMESPACE__ . '\\';
+    }
 
     public function map($class)
     {
