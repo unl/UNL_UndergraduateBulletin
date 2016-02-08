@@ -1,5 +1,5 @@
 <?php
-$url = UNL_UndergraduateBulletin_Controller::getURL();
+$url = UNL\UndergraduateBulletin\Controller::getURL();
 ?>
 <ul>
     <li><a href="<?php echo $url; ?>major/">Majors</a>

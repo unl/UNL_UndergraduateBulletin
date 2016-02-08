@@ -1,6 +1,8 @@
 <?php
-    echo $savvy->render('', 'SearchForm.tpl.php');
+$baseURL = $controller->getRawObject()::getBaseURL();
 ?>
+<?php echo $savvy->render('', 'SearchForm.tpl.php'); ?>
+<div class="wdn-band">
 <div class="wdn-inner-wrapper">
     <div class="wdn-grid-set">
         <div class="bp2-wdn-col-three-fourths">
@@ -9,7 +11,7 @@
                 <li class="wdn-col">
                     <div>
                         <a href="college/Agricultural+Sciences+%26+Natural+Resources" class="header-underlay">
-                            <img src="<?php echo UNL_UndergraduateBulletin_Controller::getBaseURL(); ?>templates/html/images/thumb_casnr.jpg" alt="" />
+                            <img src="<?php echo $baseURL ?>images/thumb_casnr.jpg" alt="" />
                             <h4 class="header-overlay">Agricultural Sciences &amp; Natural Resources</h4>
                         </a>
                         <ul class="wdn-grid-set button-list">
@@ -25,7 +27,7 @@
                 <li class="wdn-col">
                     <div>
                         <a href="college/Architecture" class="header-underlay">
-                            <img src="<?php echo UNL_UndergraduateBulletin_Controller::getBaseURL(); ?>templates/html/images/thumb_arc.jpg" alt="" />
+                            <img src="<?php echo $baseURL ?>images/thumb_arc.jpg" alt="" />
                             <h4 class="header-overlay">Architecture</h4>
                         </a>
                         <ul class="wdn-grid-set button-list">
@@ -41,7 +43,7 @@
                 <li class="wdn-col">
                     <div>
                         <a href="college/Arts+%26+Sciences" class="header-underlay">
-                            <img src="<?php echo UNL_UndergraduateBulletin_Controller::getBaseURL(); ?>templates/html/images/thumb_cas.jpg" alt="" />
+                            <img src="<?php echo $baseURL ?>images/thumb_cas.jpg" alt="" />
                             <h4 class="header-overlay">Arts &amp; Sciences</h4>
                         </a>
                         <ul class="wdn-grid-set button-list">
@@ -57,7 +59,7 @@
                 <li class="wdn-col">
                     <div>
                         <a href="college/Business+Administration" class="header-underlay">
-                            <img src="<?php echo UNL_UndergraduateBulletin_Controller::getBaseURL(); ?>templates/html/images/thumb_cba.jpg" alt="" />
+                            <img src="<?php echo $baseURL ?>images/thumb_cba.jpg" alt="" />
                             <h4 class="header-overlay">Business Administration</h4>
                         </a>
                         <ul class="wdn-grid-set button-list">
@@ -73,7 +75,7 @@
                 <li class="wdn-col">
                     <div>
                         <a href="college/Education+%26+Human+Sciences" class="header-underlay">
-                            <img src="<?php echo UNL_UndergraduateBulletin_Controller::getBaseURL(); ?>templates/html/images/thumb_ehs.jpg" alt="" />
+                            <img src="<?php echo $baseURL ?>images/thumb_ehs.jpg" alt="" />
                             <h4 class="header-overlay">Education &amp; Human Sciences</h4>
                         </a>
                         <ul class="wdn-grid-set button-list">
@@ -89,7 +91,7 @@
                 <li class="wdn-col">
                     <div>
                         <a href="college/Engineering" class="header-underlay">
-                            <img src="<?php echo UNL_UndergraduateBulletin_Controller::getBaseURL(); ?>templates/html/images/thumb_eng.jpg" alt="" />
+                            <img src="<?php echo $baseURL ?>images/thumb_eng.jpg" alt="" />
                             <h4 class="header-overlay">Engineering</h4>
                         </a>
                         <ul class="wdn-grid-set button-list">
@@ -105,7 +107,7 @@
                 <li class="wdn-col">
                     <div>
                         <a href="college/Fine+%26+Performing+Arts" class="header-underlay">
-                            <img src="<?php echo UNL_UndergraduateBulletin_Controller::getBaseURL(); ?>templates/html/images/thumb_fpa.jpg" alt="" />
+                            <img src="<?php echo $baseURL ?>images/thumb_fpa.jpg" alt="" />
                             <h4 class="header-overlay"><span class="college-name">Hixson-Lied College of</span> Fine &amp; Performing Arts</h4>
                         </a>
                         <ul class="wdn-grid-set button-list">
@@ -121,7 +123,7 @@
                 <li class="wdn-col">
                     <div>
                         <a href="college/Journalism+%26+Mass+Communications" class="header-underlay">
-                            <img src="<?php echo UNL_UndergraduateBulletin_Controller::getBaseURL(); ?>templates/html/images/thumb_jmc.jpg" alt="" />
+                            <img src="<?php echo $baseURL ?>images/thumb_jmc.jpg" alt="" />
                             <h4 class="header-overlay">Journalism &amp; Mass Communications</h4>
                         </a>
                         <ul class="wdn-grid-set button-list">
@@ -139,7 +141,7 @@
         <div class="bp2-wdn-col-one-fourth">
             <div class="separator-box" style="margin-top: 59px;">
                 <a href="college/Exploratory+%26+Pre-Professional+Advising+Center">
-                    <img src="<?php echo UNL_UndergraduateBulletin_Controller::getBaseURL(); ?>templates/html/images/thumb_ec.jpg" alt="" />
+                    <img src="<?php echo $baseURL ?>images/thumb_ec.jpg" alt="" />
                     <h4>Explore Center</h4>
                 </a>
                 <p>The Explore Center provides an academic home for students who have not decided upon a major. The Center also provides advising for students interested in Pre-Professional (pre-health and pre-law) programs.</p>
@@ -151,4 +153,5 @@
             </div>
         </div>
     </div>
+</div>
 </div>
