@@ -20,4 +20,8 @@ before_install:
   - phpenv config-rm xdebug.ini
   - composer self-update
 
-script: pyrus run-phpt -r tests || (find . -name *.out | xargs -t cat && exit 1)
+install:
+  - travis_retry composer install --no-interaction --ignore-platform-reqs
+
+script:
+  - ./vendor/bin/phpunit
