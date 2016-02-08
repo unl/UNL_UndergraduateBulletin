@@ -6,7 +6,7 @@ use UNL\UndergraduateBulletin\Major\Majors;
 
 class MajorsTest extends \PHPUnit_Framework_TestCase
 {
-	public function testIteraction()
+	public function testIteration()
 	{
 		$majors = new Majors();
 

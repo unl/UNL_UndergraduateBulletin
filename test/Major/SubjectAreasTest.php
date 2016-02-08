@@ -7,7 +7,7 @@ use UNL\UndergraduateBulletin\Major\SubjectAreas;
 
 class SubjectAreasTest extends \PHPUnit_Framework_TestCase
 {
-	public function testIteraction()
+	public function testIteration()
 	{
 		$subjectAreaMap = SubjectAreas::getMapping();
 		$missingDescriptions = [];

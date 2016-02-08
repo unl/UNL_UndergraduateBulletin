@@ -26,6 +26,10 @@ class ControllerTest extends \PHPUnit_Framework_TestCase
 
 	public function testMajorViewCaching()
 	{
+		if (Controller::getEdition()->getYear() < 2014) {
+			return;
+		}
+
 		$cacheDir = __DIR__ . '/tmp/';
 		@mkdir($cacheDir);
 
