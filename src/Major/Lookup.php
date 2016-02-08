@@ -5,7 +5,7 @@ namespace UNL\UndergraduateBulletin\Major;
 use UNL\UndergraduateBulletin\Controller;
 
 class Lookup extends \ArrayIterator implements
-	\JsonSerializable
+    \JsonSerializable
 {
     public function __construct($options = [])
     {

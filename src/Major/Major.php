@@ -210,11 +210,11 @@ EOD
         return str_replace('%2F', '/', $url);
     }
 
-    public function JsonSerialize()
+    public function jsonSerialize()
     {
         $render = isset($this->options['view']) ? $this->options['view'] : 'major';
 
-        switch($render) {
+        switch ($render) {
             case 'major':
                 return [
                     'title' => $this->title,

@@ -130,7 +130,8 @@ class Controller implements PostRunReplacements, CachingService\CacheableInterfa
                 + strlen('<!-- InstanceBeginEditable name="doctitle" -->');
             $end = strpos($data, '<!-- InstanceEndEditable -->', $start);
 
-            $data = substr($data, 0, $start). '<title>' .static::$replacementData['doctitle'] . '</title>' .substr($data, $end);
+            $data = substr($data, 0, $start). '<title>' .static::$replacementData['doctitle'] . '</title>'
+                . substr($data, $end);
         }
 
         if (isset(static::$replacementData['head']) && strstr($data, '</head>')) {

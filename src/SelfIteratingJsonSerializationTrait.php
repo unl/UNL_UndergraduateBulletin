@@ -4,7 +4,7 @@ namespace UNL\UndergraduateBulletin;
 
 trait SelfIteratingJsonSerializationTrait
 {
-	public function jsonSerialize()
+    public function jsonSerialize()
     {
         $items = [];
         foreach ($this as $item) {
