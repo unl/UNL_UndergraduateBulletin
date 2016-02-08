@@ -1,33 +1,30 @@
-#!/usr/bin/env php -q
+#!/usr/bin/env php
 <?php
-if (file_exists(dirname(__FILE__).'/../config.inc.php')) {
-    include_once dirname(__FILE__).'/../config.inc.php';
-} else {
-    include_once dirname(__FILE__).'/../config.sample.php';
-}
 
+use UNL\UndergraduateBulletin\EPUB\Utilities;
+use UNL\UndergraduateBulletin\SubjectArea\SubjectAreas;
+
+include __DIR__ . '/../test/bootstrap.php';
 error_reporting(E_ALL);
 
-$missing_courses = array();
+$missing_courses = [];
 
-foreach (new UNL_UndergraduateBulletin_SubjectAreas() as $subject_area) {
-    /* @var $subject_area UNL_UndergraduateBulletin_SubjectArea */
-    foreach ($subject_area->courses as $course) {
-        /* @var $course UNL_Services_CourseApproval_Course */
+foreach (new SubjectAreas() as $subject_area) {
+    foreach ($subject_area->getCourses() as $course) {
         // Find courses within prereqs
-        foreach (UNL_UndergraduateBulletin_EPUB_Utilities::findUnknownCourses($course->prerequisite) as $prereq_subject_code => $prereq_courses) {
+        foreach (Utilities::findUnknownCourses($course->prerequisite) as $prereq_subject_code => $prereq_courses) {
             foreach ($prereq_courses as $prereq_course) {
                 $missing_courses["$prereq_subject_code $prereq_course"][] = "Found in $subject_area {$course->getHomeListing()->courseNumber} prereqs";
             }
         }
         // Find courses within notes
-        foreach (UNL_UndergraduateBulletin_EPUB_Utilities::findUnknownCourses($course->notes) as $notes_subject_code => $notes_courses) {
+        foreach (Utilities::findUnknownCourses($course->notes) as $notes_subject_code => $notes_courses) {
             foreach ($notes_courses as $notes_course) {
                 $missing_courses["$notes_subject_code $notes_course"][] = "Found in $subject_area {$course->getHomeListing()->courseNumber} notes";
             }
         }
         // Find courses within description
-        foreach (UNL_UndergraduateBulletin_EPUB_Utilities::findUnknownCourses($course->description) as $desc_subject_code => $desc_courses) {
+        foreach (Utilities::findUnknownCourses($course->description) as $desc_subject_code => $desc_courses) {
             foreach ($desc_courses as $desc_course) {
                 $missing_courses["$desc_subject_code $desc_course"][] = "Found in $subject_area {$course->getHomeListing()->courseNumber} description";
             }

@@ -1,46 +1,55 @@
 <?php
 
+use UNL\UndergraduateBulletin\Course\DataDriver;
+use UNL\UndergraduateBulletin\Edition\Edition;
+use UNL\UndergraduateBulletin\Edition\Editions;
+use UNL\UndergraduateBulletin\EPUB\Utilities;
+use UNL\UndergraduateBulletin\Major\Major;
+use UNL\UndergraduateBulletin\SubjectArea\SubjectAreas;
+use UNL\Services\CourseApproval\Data;
+use UNL\Services\CourseApproval\Course\Courses;
+
 class CreqDataShell
 {
     const CREQ_MODULE_COURSE = 1;
     const CREQ_MODULE_OUTCOME = 2;
     const CREQ_MODULE_PLAN = 3;
 
-    protected $creqModuleUrls = array(
+    protected $creqModuleUrls = [
         self::CREQ_MODULE_COURSE => 'https://creq.unl.edu/courses/public-view/',
         self::CREQ_MODULE_OUTCOME => 'https://creq.unl.edu/learningoutcomes/view/feed/',
         self::CREQ_MODULE_PLAN => 'https://creq.unl.edu/fouryearplans/view/feed/',
-    );
+    ];
 
     protected $activeEdition;
 
     protected $shellCol = 60;
 
     /**
-     * @return UNL_UndergraduateBulletin_CourseDataDriver
+     * @return DataDriver
      */
     protected function getCourseService()
     {
-        $courseService = UNL_Services_CourseApproval::getXCRIService();
+        $courseService = Data::getXCRIService();
 
-        if (!$courseService instanceof UNL_UndergraduateBulletin_CourseDataDriver) {
-            $courseService = new UNL_UndergraduateBulletin_CourseDataDriver();
-            UNL_Services_CourseApproval::setXCRIService($courseService);
+        if (!$courseService instanceof DataDriver) {
+            $courseService = new DataDriver();
+            Data::setXCRIService($courseService);
         }
 
         return $courseService;
     }
 
     /**
-     * @return UNL_UndergraduateBulletin_Edition
+     * @return Edition
      */
     protected function getEdition()
     {
         if (!$this->activeEdition) {
             if (isset($_SERVER['argv'], $_SERVER['argv'][1])) {
-                $this->activeEdition = UNL_UndergraduateBulletin_Edition::getByYear($_SERVER['argv'][1]);
+                $this->activeEdition = Edition::getByYear($_SERVER['argv'][1]);
             } else {
-                $this->activeEdition = UNL_UndergraduateBulletin_Editions::getLatest();
+                $this->activeEdition = Editions::getLatest();
             }
         }
 
@@ -48,17 +57,15 @@ class CreqDataShell
     }
 
     /**
-     * @return UNL_UndergraduateBulletin_Edition[]
+     * @return Edition[]
      */
     protected function getEditions()
     {
         if (isset($_SERVER['argv'], $_SERVER['argv'][1])) {
-            $editions = array(UNL_UndergraduateBulletin_Edition::getByYear($_SERVER['argv'][1]));
-        } else {
-            $editions = UNL_UndergraduateBulletin_Editions::getAll();
+            return [Edition::getByYear($_SERVER['argv'][1])];
         }
 
-        return $editions;
+        return $editions = Editions::getAll();
     }
 
     /**
@@ -123,6 +130,117 @@ class CreqDataShell
         echo ']' . PHP_EOL;
     }
 
+    public function rebuildSubjectMap()
+    {
+        $edition = $this->getEdition();
+        echo '[Rebuilding subject map for ' . $edition->getYear() . ']' . PHP_EOL;
+        echo "Mapping subjects from CSV file";
+
+        $file = file($edition->getCourseDataDir() . '/subject_codes.csv');
+        $codes = [];
+
+        foreach ($file as $line) {
+            $array = str_getcsv(trim($line, ' ,'), ',', '\'');
+            /*
+            For example:
+
+            array(2) {
+                [0] => string(4) "ABUS"
+                [1] => string(12) "Agribusiness"
+            }
+            */
+
+            $codes[$array[0]] = $array[1];
+        }
+
+        $this->echoSuccess();
+        echo PHP_EOL;
+
+        $existingMap = SubjectAreas::getMap($edition);
+        $subjectDifferences = array_diff_key($codes, $existingMap);
+
+        if ($subjectDifferences) {
+            file_put_contents($edition->getCourseDataDir() . '/subject_codes.php.ser', serialize($codes));
+            $this->fetchUpdates();
+        }
+    }
+
+    public function rebuildMajorSubjectMap()
+    {
+        $edition = $this->getEdition();
+        echo '[Rebuilding major to subject map for ' . $edition->getYear() . ']' . PHP_EOL;
+        echo "Mapping majors to subjects from CSV file";
+
+        $file = file($edition->getDataDir().'/major_to_subject_code.csv');
+        $majors = [];
+
+        foreach ($file as $line) {
+            $array = str_getcsv(trim($line, ' ,'));
+            /*
+            For example:
+
+            array(3) {
+              [0]=>
+              string(13) "Water Science"
+              [1]=>
+              string(3) "ANR"
+              [2]=>
+              string(4) "WATS"
+            }
+
+            */
+
+            $major = new UNL\UndergraduateBulletin\Major\Major(array('title' => $array[0]));
+
+            $codes = [];
+            if (isset($array[2]) && trim($array[2]) != 'NO COURSE TAB') {
+                $codes = explode(',', str_replace(' ', '', $array[2]));
+            }
+            $codes = array_unique($codes);
+            sort($codes);
+            foreach ($codes as $key=>$code) {
+                if (empty($code)) {
+                    unset($codes[$key]);
+                }
+            }
+            $majors[trim($array[0])] = $codes;
+        }
+
+        file_put_contents($edition->getDataDir().'/major_to_subject_code.php.ser', serialize($majors));
+    }
+
+    public function rebuildPlanMajorMap()
+    {
+        $edition = $this->getEdition();
+        echo '[Rebuilding plans to majors map for ' . $edition->getYear() . ']' . PHP_EOL;
+        echo "Mapping academic plans to majors from CSV file";
+
+        $file = file($edition->getDataDir().'/acad_plan_full.csv');
+        $majors = [];
+
+        foreach ($file as $line) {
+            $array = str_getcsv($line);
+            /*
+            For example:
+
+            array(2) {
+              [0]=>
+              string(9) "AACTS-MAJ"
+              [1]=>
+              string(17) "Actuarial Science"
+            }
+
+            */
+
+            $plan = explode('-', $array[0]);
+            if (!array_key_exists($plan[0], $majors) || !isset($plan[1]) || in_array($plan[1], ['MIN', 'MAJ', 'GMIN', 'GMAJ', 'NDEG'])) {
+                $majors[$plan[0]] = $array[1];
+            }
+        }
+
+        file_put_contents($edition->getDataDir().'/major_lookup.php.ser', serialize($majors));
+    }
+
     public function fetchUpdates()
     {
         $edition = $this->getEdition();
@@ -144,7 +262,7 @@ class CreqDataShell
         try {
             echo 'Retrieving all courses by subject code';
 
-            foreach (array_keys(UNL_UndergraduateBulletin_SubjectAreas::getMap($edition)) as $subject) {
+            foreach (array_keys(SubjectAreas::getMap($edition)) as $subject) {
                 if (!$this->fetchCreqFile(self::CREQ_MODULE_COURSE, 'all-courses/subject/' . $subject, 'subjects/' . $subject . '.xml', true)) {
                     throw new UnexpectedValueException($subject);
                 }
@@ -188,7 +306,7 @@ class CreqDataShell
         $xml = $this->getCourseService()->getAllCourses();
         $courses = new SimpleXMLElement($xml);
         foreach ($courses as $course) {
-            foreach (array(
+            foreach ([
                 'prerequisite',
                 'description',
                 'effectiveSemester',
@@ -200,7 +318,7 @@ class CreqDataShell
                 'activities',
                 'credits',
                 'notes',
-            ) as $var) {
+            ] as $var) {
                 unset($course->$var);
             }
         }
@@ -273,16 +391,13 @@ class CreqDataShell
                 $xml = new SimpleXMLElement($this->getCourseService()->getAllCourses());
                 $namespaces = $xml->getNamespaces(true);
                 $xml->registerXPathNamespace('c', $namespaces['']);
-                $courses = new UNL_Services_CourseApproval_Courses($xml->xpath('/c:courses/c:course'));
+                $courses = new Courses($xml->xpath('/c:courses/c:course'));
                 unset($xml, $namespaces);
 
                 foreach ($courses as $course) {
-                    /**
-                     * @var UNL_Services_CourseApproval_Course $course
-                     */
                     $home = $course->getHomeListing();
 
-                    $values = array();
+                    $values = [];
                     $values[] = ++$id;
                     $values[] = (string)$home->subjectArea;
                     $values[] = $home->courseNumber;
@@ -295,10 +410,10 @@ class CreqDataShell
                     }
 
                     $values[] = $course->prerequisite;
-                    $prereqs = UNL_UndergraduateBulletin_EPUB_Utilities::findCourses($course->prerequisite);
+                    $prereqs = Utilities::findCourses($course->prerequisite);
                     foreach ($prereqs as $subj => $courseNums) {
                         foreach ($courseNums as $num) {
-                            $prereq_stmt->execute(array($id, $subj, $num));
+                            $prereq_stmt->execute([$id, $subj, $num]);
                         }
                     }
                     unset($subj, $courseNums, $num, $prereqs);
@@ -315,8 +430,8 @@ class CreqDataShell
 
                     $course_stmt->execute($values);
 
-                    foreach ($course->codes as $listing) {
-                        $values = array($id, $listing->subjectArea, $listing->courseNumber);
+                    foreach ($course->getCodes() as $listing) {
+                        $values = [$id, $listing->subjectArea, $listing->courseNumber];
                         $cross_stmt->execute($values);
                     }
                 }
@@ -346,14 +461,14 @@ class CreqDataShell
 
             foreach ($outcomes as $outcome) {
                 // Try and get the associated major
-                $major = UNL_UndergraduateBulletin_Major::getByName($outcome->major);
+                $major = Major::getByName($outcome->major);
 
                 if (false === $major) {
                     throw new UnexpectedValueException('Could not find ' . $outcome->major);
                 }
 
                 $data = json_encode($outcome);
-                $filename = UNL_UndergraduateBulletin_EPUB_Utilities::getFilenameBaseByName($outcome->major);
+                $filename = Utilities::getFilenameBaseByName($outcome->major);
 
                 file_put_contents($edition->getDataDir() . '/outcomes/' . $filename . '.json', $data);
             }
@@ -382,14 +497,14 @@ class CreqDataShell
 
             foreach ($plans as $plan) {
                 // Try and get the associated major
-                $major = UNL_UndergraduateBulletin_Major::getByName($plan->major);
+                $major = Major::getByName($plan->major);
 
                 if (false === $major) {
                     throw new UnexpectedValueException('Could not find ' . $plan->major);
                 }
 
                 $data = json_encode($plan);
-                $filename = UNL_UndergraduateBulletin_EPUB_Utilities::getFilenameBaseByName($plan->major);
+                $filename = Utilities::getFilenameBaseByName($plan->major);
 
                 file_put_contents($edition->getDataDir() . '/fouryearplans/' . $filename . '.json', $data);
             }

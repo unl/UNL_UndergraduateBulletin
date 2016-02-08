@@ -1,46 +1,42 @@
 #!/usr/bin/env php -q
 <?php
-if (file_exists(dirname(__FILE__).'/../config.inc.php')) {
-    include_once dirname(__FILE__).'/../config.inc.php';
-} else {
-    include_once dirname(__FILE__).'/../config.sample.php';
-}
 
+include __DIR__ . '/../test/bootstrap.php';
 error_reporting(E_ALL);
 
 $diffsFound = 0;
 $start = microtime(true);
 
-foreach (new UNL_UndergraduateBulletin_SubjectAreas() as $subject_area) {
+foreach (new UNL\UndergraduateBulletin\SubjectArea\SubjectAreas() as $subject_area) {
     /* @var $subject_area UNL_UndergraduateBulletin_SubjectArea */
     foreach ($subject_area->courses as $course) {
         /* @var $course UNL_Services_CourseApproval_Course */
-        $crosslistings = $course->getListingsByType(UNL_Services_CourseApproval_Course::COURSE_CODE_TYPE_CROSS);
+        $crosslistings = $course->getListingsByType(UNL\Services\CourseApproval\Course\Course::COURSE_CODE_TYPE_CROSS);
         if (!$crosslistings) {
             continue;
         }
-        
+
         $homeListing = $course->getHomeListing();
-        $homeSubsStatic = array();
+        $homeSubsStatic = [];
         foreach ($homeListing->getSubsequentCourses() as $subCourse) {
             $subListing = $subCourse->getHomeListing();
             $homeSubsStatic[] = $subListing->subjectArea . ' ' . $subListing->courseNumber;
         }
-        
+
         foreach ($crosslistings as $crosslisting) {
-            $subsStatic = array();            
-            
+            $subsStatic = [];
+
             foreach ($crosslisting->getSubsequentCourses() as $subCourse) {
                 $subListing = $subCourse->getHomeListing();
                 $subsStatic[] = $subListing->subjectArea . ' ' . $subListing->courseNumber;
             }
-            
+
             $subsDiff = array_diff($homeSubsStatic, $subsStatic);
-            
+
             if (!$subsDiff) {
                 continue;
             }
-            
+
             echo sprintf(
                 "Found different reverse prereqs for course %s and its crosslisting %s:\n",
                 $homeListing->subjectArea . ' ' . $homeListing->courseNumber,
@@ -60,7 +56,7 @@ foreach (new UNL_UndergraduateBulletin_SubjectAreas() as $subject_area) {
                 "Difference: %s\n\n",
                 implode(', ', $subsDiff)
             );
-            
+
             ++$diffsFound;
         }
     }

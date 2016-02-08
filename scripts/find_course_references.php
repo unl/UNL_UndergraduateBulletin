@@ -1,11 +1,7 @@
 #!/usr/bin/env php -q
 <?php
-if (file_exists(dirname(__FILE__).'/../config.inc.php')) {
-    include_once dirname(__FILE__).'/../config.inc.php';
-} else {
-    include_once dirname(__FILE__).'/../config.sample.php';
-}
 
+include __DIR__ . '/../test/bootstrap.php';
 error_reporting(E_ALL);
 
 if (empty($argv[1]) || empty($argv[2])) {
