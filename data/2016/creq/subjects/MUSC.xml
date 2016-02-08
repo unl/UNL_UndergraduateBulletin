@@ -10,13 +10,13 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1138</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Parallel MUSC 165, 165A, and 160.</div>
-    </prerequisite>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Normally taken with MUSC 160, MUSC 165, MUSC 165A as the beginning of the music core curriculum</div>
+    </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Introduction for developing functional piano technique for application to music theory, music reading, harmonization, improvisation, and other practical skills.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction for music majors to the development of functional piano technique for application to music theory, music reading, harmonization, improvisation, and other practical skills.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -29,7 +29,12 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>2</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">1</credit>
       <credit type="Per Semester Limit">1</credit>
@@ -83,9 +88,9 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1158</effectiveSemester>
+    <effectiveSemester>1168</effectiveSemester>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">This class is intended for music majors.  Should be taken as part of the fall first year music core, alongside MUSC 131, MUSC 165 or 165H, and MUSC 165A.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Normally taken with MUSC 131, MUSC 165, MUSC 165A as the beginning of the music core curriculum.</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Introduction to the degree programs in music and resources for the study of music at the university level. Historical, social, and stylistic views of music in western and non-western cultures. Significance of music in cultural history, and the understanding of music as aesthetic expression. How to listen to and appreciate the human and cultural values of music.</div>
@@ -163,17 +168,14 @@
         <courseGroup>Core Curriculum (MUSC)</courseGroup>
       </courseCode>
     </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1138</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Permission.</div>
-    </prerequisite>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Parallel with MUSC 131, 165A, and 160.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Normally taken with MUSC 131, MUSC 160, MUSC 165A as the beginning of the music core curriculum.</div>
     </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Beginning fundamentals of music. Beginning theory (notation, rhythm, and meter, pitch and melody, harmony and form), overview of historical style periods and musics of other cultures.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Beginning fundamentals of music. Beginning theory (notation, rhythm, and meter, pitch and melody, harmony and form).</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -186,7 +188,12 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">2</credit>
       <credit type="Per Semester Limit">2</credit>
@@ -202,14 +209,14 @@
         <courseGroup>Core Curriculum (MUSC)</courseGroup>
       </courseCode>
     </courseCodes>
-    <gradingType>unrestricted</gradingType>
+    <gradingType>letter grade only</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1151</effectiveSemester>
+    <effectiveSemester>1168</effectiveSemester>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Course should be taken together with core class MUSC 165.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Normally taken with MUSC 131, MUSC 160, MUSC 165 as the beginning of the music core curriculum.</div>
     </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Intensive drill in skills (ear training, sight singing, and keyboard).</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Intensive drill in musicianship skills (ear training, sight singing, and keyboard).</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -221,7 +228,16 @@
       <term>Fall</term>
       <term>Spring</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lab</type>
+        <hours>2</hours>
+      </activity>
+      <activity>
+        <type>lec</type>
+        <hours>2</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">1</credit>
       <credit type="Per Semester Limit">1</credit>

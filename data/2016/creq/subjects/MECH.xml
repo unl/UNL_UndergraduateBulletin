@@ -1643,6 +1643,46 @@
     </credits>
   </course>
   <course>
+    <title>Mechanics of Biomaterials</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>MECH</subject>
+        <courseNumber>438</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>MECH</subject>
+        <courseNumber>838</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1161</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">MECH 343 or parallel.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Theory, application, simulation, and design of biomaterials that apply mechanical principles for solving medical problems (case studies in artery, brain, bone, etc.). Tentative Topics include Mechanical characterization of biomaterials; Bio-manufacturing a tissue; Function-structure relationship; Design and analysis of medical implants; Active response of biomaterials: growth and remodeling mechanism; Cellular behavior and measurements, etc.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Intermediate Kinematics</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -1942,18 +1982,14 @@
   <course>
     <title>Introduction to Finite Element Analysis</title>
     <courseCodes>
-      <courseCode type="crosslisting">
-        <subject>CIVE</subject>
-        <courseNumber>451</courseNumber>
-      </courseCode>
       <courseCode type="home listing">
         <subject>MECH</subject>
         <courseNumber>451</courseNumber>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1151</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Matrix methods of analysis. Finite element stiffness method. Computer programs. Applications to structures and soils. Introduction to finite element analysis of fluid flow.</div>
     </description>
@@ -2749,31 +2785,32 @@
   <course>
     <title>Introduction to Finite Element Analysis</title>
     <courseCodes>
-      <courseCode type="crosslisting">
-        <subject>CIVE</subject>
-        <courseNumber>851</courseNumber>
-      </courseCode>
       <courseCode type="home listing">
         <subject>MECH</subject>
         <courseNumber>851</courseNumber>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1125</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">MECH 325 and MECH 880 or permission</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">MECH 325 and MECH 880 or permission.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Matrix methods of analysis. The finite element stiffness method. Computer programs. Applications to structures and soils. Introduction to finite element analysis of fluid flow.</div>
     </description>
     <campuses>
-      <campus></campus>
+      <campus>UNL</campus>
     </campuses>
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>

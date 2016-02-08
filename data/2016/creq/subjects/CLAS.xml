@@ -292,6 +292,49 @@
     </credits>
   </course>
   <course>
+    <title>Art of Ancient Egypt &amp; Mesopotamia</title>
+    <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>ANTH</subject>
+        <courseNumber>206</courseNumber>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>AHIS</subject>
+        <courseNumber>206</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>CLAS</subject>
+        <courseNumber>206</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">A survey of the history of civilization and arts in the Fertile Crescent including Mesopotamia, Egypt, the Levant and Syria from the tenth millenium BC to the first millenium BC, with particular attention paid to the Bronze Age<br/><br/><br/></div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Ancient Greece</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -532,7 +575,7 @@
     </aceOutcomes>
   </course>
   <course>
-    <title>Archaeology of World Civilizations</title>
+    <title>World Archaeology, Global Heritage</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>ANTH</subject>
@@ -545,10 +588,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1091</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to complex societies, called civilizations, in both the Old and the New Worlds. Anthropological theories and models dealing with the evolution of cultural complexity and reviews archaeological data from specific regions, e.g. Near East, Far East, Mediterranean, Europe, Mesoamerica, Peru, etc.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to complex societies around the world and the role of archaeological heritage in contemporary debates.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -564,6 +607,7 @@
     <activities>
       <activity>
         <type>lec</type>
+        <hours>3</hours>
       </activity>
     </activities>
     <credits>
@@ -1437,6 +1481,66 @@
     </aceOutcomes>
   </course>
   <course>
+    <title>Visualizing the Ancient City</title>
+    <courseCodes>
+      <courseCode type="grad tie-in">
+        <subject>AHIS</subject>
+        <courseNumber>806</courseNumber>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>AHIS</subject>
+        <courseNumber>406</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>CLAS</subject>
+        <courseNumber>406</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>CLAS</subject>
+        <courseNumber>806</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>ANTH</subject>
+        <courseNumber>406</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>ANTH</subject>
+        <courseNumber>806</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Junior standing.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Recommend some background knowledge of ancient art, history, or languages, a general background course such as AHIS 101, ANTH 252, CLAS 209/210, or any of the courses listed in the Archaeology or Digital Humanities minors. Computer/design skills welcome but not necessary.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">A new approach to looking at the history and development of ancient cities, combining history and archaeology with digital methods, in particular 3D modeling.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Religion of Late Western Antiquity</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -1655,7 +1759,7 @@
     <dfRemoval>true</dfRemoval>
     <effectiveSemester>1128</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">HIST 100/100H or 210.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">HIST 130/130H or 210.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Augustus’ constitutional transformation of Rome, and enforcement of a national identity and values through religion, social legislation, provincial governance policies, and patronage of public works, display, and literature.</div>
@@ -1682,7 +1786,7 @@
     </credits>
   </course>
   <course>
-    <title>Topics in Old World Prehistory</title>
+    <title>Archaeologies of Europe</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>ANTH</subject>
@@ -1705,12 +1809,9 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1081</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ANTH 242 or equivalent.</div>
-    </prerequisite>
+    <effectiveSemester>1168</effectiveSemester>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Topics drawn from the wide breadth of Old World prehistory. Archaeological data relevant to selected theoretical or topical problems.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Survey of the material remains of Europe and of the various approaches to the study of the European past.</div>
     </description>
     <campuses>
       <campus>UNL</campus>

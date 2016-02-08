@@ -186,6 +186,49 @@
     </credits>
   </course>
   <course>
+    <title>Art of Ancient Egypt &amp; Mesopotamia</title>
+    <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>ANTH</subject>
+        <courseNumber>206</courseNumber>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>AHIS</subject>
+        <courseNumber>206</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>CLAS</subject>
+        <courseNumber>206</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">A survey of the history of civilization and arts in the Fertile Crescent including Mesopotamia, Egypt, the Levant and Syria from the tenth millenium BC to the first millenium BC, with particular attention paid to the Bronze Age<br/><br/><br/></div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Classical Art and Archaeology</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -1093,6 +1136,66 @@
     <aceOutcomes>
       <slo>10</slo>
     </aceOutcomes>
+  </course>
+  <course>
+    <title>Visualizing the Ancient City</title>
+    <courseCodes>
+      <courseCode type="grad tie-in">
+        <subject>AHIS</subject>
+        <courseNumber>806</courseNumber>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>AHIS</subject>
+        <courseNumber>406</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>CLAS</subject>
+        <courseNumber>406</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>CLAS</subject>
+        <courseNumber>806</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>ANTH</subject>
+        <courseNumber>406</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>ANTH</subject>
+        <courseNumber>806</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Junior standing.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Recommend some background knowledge of ancient art, history, or languages, a general background course such as AHIS 101, ANTH 252, CLAS 209/210, or any of the courses listed in the Archaeology or Digital Humanities minors. Computer/design skills welcome but not necessary.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">A new approach to looking at the history and development of ancient cities, combining history and archaeology with digital methods, in particular 3D modeling.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
   </course>
   <course>
     <title>Classical Architecture</title>

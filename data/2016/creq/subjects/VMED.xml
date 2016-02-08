@@ -1,6 +1,121 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <courses xmlns="http://courseapproval.unl.edu/courses" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://courseapproval.unl.edu/courses /schema/courses.xsd">
   <course>
+    <title>Veterinary Medicine Terminology</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>VMED</subject>
+        <courseNumber>501</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Must be admitted to the UNL-ISU Veterinary Medicine Program</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Overview of medical terminology used by veterinarians.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>1</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">1</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Cattle Production Systems I</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>VMED</subject>
+        <courseNumber>521</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Must be admitted to the UNL-ISU Veterinary Medicine Program.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Field trips to the Mead Facility will be made as necessary to complete certain objectives. Some field trips may be required on weekends.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Overview of tools and methods veterinarians use to optimize productivity and improve financial success for beef cattle producers, including how to evaluate and monitor production/management strategies and how to integrate the many factors involved in decision making. Specific topics will include late winter feeding, managing cows for breeding, managing replacement heifers, estrus synchronization, artificial insemination, preparing for calving, handling newborn calves, herd genetics, bull selection, vaccines, parasite control, prebreeding health programs, branding, bull management, and marketing strategies.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>1</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">1</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Cattle Production Systems II</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>VMED</subject>
+        <courseNumber>522</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Must be admitted to the UNL-ISU Veterinary Medicine Program; Cattle Productions Systems I.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Field trips to the Mead Facility will be made as necessary to complete certain objectives. Some field trips may be required on weekends.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Overview of tools and methods veterinarians use to optimize productivity and improve financial success for beef cattle producers, including how to evaluate and monitor production/management strategies and how to integrate the many factors involved in decision making. Specific topics will include pre-weaning processing, record analysis, data entry, reproductive management, pregnancy diagnosis, replacement heifer selection, weaning data, pregnancy diagnosis data, replacement heifer data, winter nutrition, and feedlots.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>1</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">1</credit>
+    </credits>
+  </course>
+  <course>
     <title>Veterinary Anatomy I</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -86,6 +201,46 @@
     </activities>
     <credits>
       <credit type="Single Value">4</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Veterinary Neuroanatomy</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>VMED</subject>
+        <courseNumber>637</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Must be admitted to the UNL-ISU Veterinary Medicine Program.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Concepts of nervous system functioning, problem identification, and neurologic diseases.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lab</type>
+        <hours>2</hours>
+      </activity>
+      <activity>
+        <type>lec</type>
+        <hours>1</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
     </credits>
   </course>
   <course>
@@ -192,6 +347,125 @@
       <activity>
         <type>lec</type>
         <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">4</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Veterinary Systemic Pathology I</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>VMED</subject>
+        <courseNumber>672</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Must be admitted to the UNL-ISU Veterinary Medicine Program.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">The course will study the pathological changes that occur in the body and emphasize selected animal and zoonotic diseases or syndromes which occur with each system.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lab</type>
+        <hours>2</hours>
+      </activity>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">4</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Veterinary Systemic Pathology II</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>VMED</subject>
+        <courseNumber>673</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Must be admitted to the UNL-ISU Veterinary Medicine Program.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Continuation of VMED 672.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Emphasis on disease process, immunopathology and pathogenesis and mechanisms of disease in domestic animals and select enzootic disease of wildlife and birds.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>4</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">2</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Veterinary Parasitology</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>VMED</subject>
+        <courseNumber>676</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Must be admitted to the UNL-ISU Veterinary Medicine Program.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Biology of parasites of major veterinary importance. The understanding required for control of parasitism.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lab</type>
+        <hours>3</hours>
+      </activity>
+      <activity>
+        <type>lec</type>
+        <hours>4</hours>
       </activity>
     </activities>
     <credits>

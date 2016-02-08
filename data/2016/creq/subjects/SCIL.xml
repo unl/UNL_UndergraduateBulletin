@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<courses xmlns="http://courseapproval.unl.edu/courses" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://courseapproval.unl.edu/courses /schema/courses.xsd">
+  <course>
+    <title>Water in Society</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>SCIL</subject>
+        <courseNumber>109</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>NRES</subject>
+        <courseNumber>109</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>AECN</subject>
+        <courseNumber>109</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1161</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">none</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to the scientific, social, and economic dimensions of historical and contemporary water systems.  Students will develop an understanding of hydrologic systems and analyze and engage in decision-making about complex challenges associated with water resource use.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Experiential Learning in Food, Energy and Water Systems I</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>SCIL</subject>
+        <courseNumber>300</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1161</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">9 hours of coursework towards the Food, Energy and Water in Society Minor.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">First-hand discovery of knowledge through active learning experiences that are designed to complement the<br/>students' in-class learning.  Students will be placed in a relevant educational environment (K-12, formal, informal, public, etc.) under the supervision of an experienced educator.  This experience focuses on application of knowledge and skills learned in previous courses associated with the minor to support others’ lifelong learning about the interconnectedness of food, energy, and/or water systems.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>fld</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+  </course>
+  <course>
+    <title>Experiential Learning in Food, Energy and Water Systems II</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>SCIL</subject>
+        <courseNumber>400</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>SCIL</subject>
+        <courseNumber>800</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1161</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">15 hours of coursework towards the Food, Energy, and Water in Society Minor including SCIL 300 (at the 400 level) or 12 hours of graduate coursework (at the 800 level).</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">None</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">A multifaceted experience that serves as a culminating academic and intellectual experience for students. Students will complete an internship or a research project in an approved professional or academic setting that will provide them with a challenging and engaging experience.  As part of this experience, students will cater knowledge and skills from the minor as appropriate for a professional career, begin to build a network for support and future employment, and clarify individual professional goals and strategies for career development.  The experience will culminate in the development of a creative product that illustrates the students’ knowledge and skills relevant to food, energy, and/or water systems.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>fld</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+  </course>
+</courses>

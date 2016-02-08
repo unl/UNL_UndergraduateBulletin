@@ -1426,7 +1426,7 @@
     </aceOutcomes>
   </course>
   <course>
-    <title>Concepts in Geometry</title>
+    <title>Geometry for High School Teaching</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>MATH</subject>
@@ -1435,13 +1435,13 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1161</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">MATH 310.</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Open to MATH majors with degree option "E" and to students seeking a secondary mathematics teaching endorsement.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">NOT open to MATH majors EXCEPT those under degree option "E" who are seeking a secondary mathematics teaching endorsement.</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Modern elementary geometry, plane transformations and applications, the axiomatic approach, Euclidean constructions. Additional topics vary.</div>
@@ -1651,7 +1651,7 @@
     </credits>
   </course>
   <course>
-    <title>Discrete and Finite Mathematics</title>
+    <title>Discrete and Finite Mathematics for High School Teaching</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>MATH</subject>
@@ -1661,12 +1661,12 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1138</effectiveSemester>
+    <effectiveSemester>1161</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">MATH 314 or 314H recommended.</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Credit is not allowed for both CSCE 235 and MATH 405. MATH 405 is not open to math majors except for dual matriculants in the College of Education and Human Sciences.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Credit is not allowed for both CSCE 235 and MATH 405. NOT open to MATH majors EXCEPT those under degree option "E" who are seeking a secondary mathematics teaching endorsement.</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Graphs and networks. Map coloring. Finite differences. Pascal's triangle. The Pigeonholed Principle. Markov chains. Linear programming. Game Theory.</div>
@@ -1693,7 +1693,7 @@
     </credits>
   </course>
   <course>
-    <title>Mathematics for High School Teachers I</title>
+    <title>Mathematics for High School Teaching I</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>MATH</subject>
@@ -1702,11 +1702,14 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1161</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">MATH 208 and 310.</div>
     </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">NOT open to MATH majors EXCEPT those under degree option "E" who are seeking a secondary mathematics teaching endorsement.</div>
+    </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Analysis of the connections between college mathematics and high school algebra and precalculus.</div>
     </description>
@@ -1727,7 +1730,7 @@
     </credits>
   </course>
   <course>
-    <title>Mathematics for High School Teachers II</title>
+    <title>Mathematics for High School Teaching II</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>MATH</subject>
@@ -1736,11 +1739,14 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1161</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">MATH 310 and 350.</div>
     </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">NOT open to MATH majors EXCEPT those under degree option "E" who are seeking a secondary mathematics teaching endorsement.</div>
+    </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Analysis of the connections between college mathematics and high school algebra and geometry.</div>
     </description>
@@ -4377,8 +4383,8 @@
       </activity>
     </activities>
     <credits>
-      <credit type="Single Value">3</credit>
       <credit type="Single Value">6</credit>
+      <credit type="Single Value">3</credit>
       <credit type="Per Career Limit">18</credit>
     </credits>
   </course>
@@ -4938,8 +4944,8 @@
       </activity>
     </activities>
     <credits>
-      <credit type="Single Value">6</credit>
       <credit type="Single Value">3</credit>
+      <credit type="Single Value">6</credit>
       <credit type="Per Career Limit">18</credit>
     </credits>
   </course>

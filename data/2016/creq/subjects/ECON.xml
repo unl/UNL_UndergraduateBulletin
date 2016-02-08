@@ -674,26 +674,26 @@
     </credits>
   </course>
   <course>
-    <title>Financial Institutions and Markets</title>
+    <title>Financial Institutions</title>
     <courseCodes>
-      <courseCode type="home listing">
+      <courseCode type="crosslisting">
         <subject>ECON</subject>
         <courseNumber>365</courseNumber>
         <courseGroup>Monetary Economics</courseGroup>
       </courseCode>
-      <courseCode type="crosslisting">
+      <courseCode type="home listing">
         <subject>FINA</subject>
         <courseNumber>365</courseNumber>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1111</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1161</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ECON 210 or 211, ACCT 201.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">FINA 361 with a grade of C or above or ACTS 440/880</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Various institutions which collectively constitute the US financial system and a discussion of their origin and development. Analysis of the supply and demand for funds and characteristics of the main financial markets. Emphasis on the determination of the price of credit and the term structure of interest rates.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Various institutions which collectively constitute the US financial system and a discussion of their origin and development. Analysis of the supply and demand for funds and characteristic of the main financial markets. Emphasis on the determination of the price of credit and the term structure of interest rates.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -1230,10 +1230,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ECON 416/816.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">ECON 311 and ECON 417.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Selected topics involving the use of quantitative methods in applied research.</div>
@@ -2171,9 +2171,9 @@
     </courseCodes>
     <gradingType>letter grade only</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1161</effectiveSemester>
+    <effectiveSemester>1168</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Junior Standing; MNGT 301/360 and 361 (departmental permission is required if MNGT 301/360 and/or MNGT 361 have not been completed). ECON 381 FOR ECON students.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Junior Standing; MNGT 360 and 361 (departmental permission is required if MNGT 360 and/or MNGT 361 have not been completed). ECON 381 FOR ECON students.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Government regulation of employment and labor relations. Includes laws and agencies relating to employment practices, pay, hours, equal employment opportunity, labor relations, safety, health, pensions, and benefits. Social and economic implications of governmental regulation considered.</div>
@@ -2848,6 +2848,44 @@
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Advanced Microeconomic Theory III</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ECON</subject>
+        <courseNumber>912</courseNumber>
+        <courseLetter>C</courseLetter>
+        <courseGroup>General Economics and Theory</courseGroup>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">ECON 912B or by permission by the instructor.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Survey of various economic tools used to study models explicitly involving strategic behavior, information transmission, and contracting in economics, finance, accounting, and other business disciplines.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+    </termsOffered>
     <activities>
       <activity>
         <type>lec</type>

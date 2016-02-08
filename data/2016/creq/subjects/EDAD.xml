@@ -103,6 +103,31 @@
     </credits>
   </course>
   <course>
+    <title>Foundations of Research and Methods of Inquiry in Educational Administration</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>EDAD</subject>
+        <courseNumber>800</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">A written report is required. Investigation and analysis of current problems in education administration and supervision.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Cross-Cultural Leadership Studies</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -325,32 +350,6 @@
     </credits>
   </course>
   <course>
-    <title>Planning for Change</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>EDAD</subject>
-        <courseNumber>836</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Rationale for planning in a changing environment will be explored; the theoretical base for planning presented; strategic, futuristic planning and operational planning explored; the development of planning strategies, techniques and procedures; the process of evaluation, feedback and revisions explored; and the management of the change process analyzed.</div>
-    </description>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <activities/>
-    <credits>
-      <credit type="Lower Range Limit">2</credit>
-      <credit type="Upper Range Limit">3</credit>
-    </credits>
-  </course>
-  <course>
     <title>Education Law</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -492,6 +491,37 @@
     </activities>
     <credits>
       <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Human Resources Management in Higher Education</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>EDAD</subject>
+        <courseNumber>845</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">The various aspects of human resources (HR) management and how they contribute to mission accomplishment and organizational success in American higher education (HIED).  Students will examine traditional HR responsibilities (e.g., recruitment and selection, supervision and utilization, evaluation, professional development, pay and benefits, etc.) and how these activities operate within a college/university setting.  Strategic HR planning concepts will be emphasized for optimizing human capital and strengthening institutional capabilities in the ever-changing HIED environment.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+      <credit type="Per Semester Limit">3</credit>
     </credits>
   </course>
   <course>
@@ -1029,6 +1059,37 @@
     </credits>
   </course>
   <course>
+    <title>Introduction to Student Affairs</title>
+    <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>EDPS</subject>
+        <courseNumber>979</courseNumber>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>EDAD</subject>
+        <courseNumber>879</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Current professional issues related to the organization and administration of student personnel within higher education. Exploration of research literature, some field experiences, and in-depth examination of special topics.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">2</credit>
+      <credit type="Upper Range Limit">3</credit>
+      <credit type="Per Career Limit">6</credit>
+    </credits>
+  </course>
+  <course>
     <title>Designing Instructional Technology K-12</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -1271,7 +1332,7 @@
     </credits>
   </course>
   <course>
-    <title>Data for Action Planning</title>
+    <title>Data for Decision Making</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>EDAD</subject>
@@ -1279,8 +1340,8 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">EDAD 901.</div>
     </prerequisite>
@@ -1453,37 +1514,6 @@
     </credits>
   </course>
   <course>
-    <title>Seminar in Adult and Continuing Education</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>EDAD</subject>
-        <courseNumber>929</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>EDPS</subject>
-        <courseNumber>929</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>EDAD</subject>
-        <courseNumber>908</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <activities/>
-    <credits>
-      <credit type="Lower Range Limit">1</credit>
-      <credit type="Upper Range Limit">6</credit>
-    </credits>
-  </course>
-  <course>
     <title>Seminar in Human Resource Development</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -1585,6 +1615,36 @@
     </description>
     <campuses>
       <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Diversity and Equity in Educational Organizations</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>EDAD</subject>
+        <courseNumber>920</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Understanding the individual and organizational issues of diversity and multiculturalism in P-20 schools. Increase the students’ knowledge and appreciation of: cultural, social, political, and economic realities of our complex, pluralistic society in relation to our educational system. Through integration of relevant information from history, law, interpersonal development, organizational development, and philosophy, students will develop a complex, comprehensive understanding of diversity and equity.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
     </campuses>
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
@@ -1774,6 +1834,33 @@
     </credits>
   </course>
   <course>
+    <title>Organizational Development and Change</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>EDAD</subject>
+        <courseNumber>929</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Higher Education Information Systems</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -1924,6 +2011,36 @@
     </activities>
     <credits>
       <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Higher Education Planning</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>EDAD</subject>
+        <courseNumber>936</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Rationale for planning in a changing environment will be explored; the theoretical base for planning presented; strategic, futuristic planning and operational planning explored; the development of planning strategies, techniques and procedures; the process of evaluation, feedback and revisions explored; and the management of the change process analyzed.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Lower Range Limit">2</credit>
+      <credit type="Upper Range Limit">3</credit>
     </credits>
   </course>
   <course>
@@ -2378,37 +2495,6 @@
     </credits>
   </course>
   <course>
-    <title>Seminar in College Student Personnel Work</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>EDAD</subject>
-        <courseNumber>979</courseNumber>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>EDPS</subject>
-        <courseNumber>979</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Current professional issues related to the organization and administration of student personnel within higher education. Exploration of research literature, some field experiences, and in-depth examination of special topics.</div>
-    </description>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <activities/>
-    <credits>
-      <credit type="Lower Range Limit">2</credit>
-      <credit type="Upper Range Limit">3</credit>
-      <credit type="Per Career Limit">6</credit>
-    </credits>
-  </course>
-  <course>
     <title>Seminar in College Student Development</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -2440,32 +2526,6 @@
       <credit type="Lower Range Limit">2</credit>
       <credit type="Upper Range Limit">3</credit>
       <credit type="Per Career Limit">6</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Introduction to Research</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>EDAD</subject>
-        <courseNumber>981</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">A written report is required. Investigation and analysis of current problems in education administration and supervision.</div>
-    </description>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <activities/>
-    <credits>
-      <credit type="Lower Range Limit">1</credit>
-      <credit type="Upper Range Limit">6</credit>
     </credits>
   </course>
   <course>

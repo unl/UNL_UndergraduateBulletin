@@ -1153,45 +1153,6 @@
     </credits>
   </course>
   <course>
-    <title>Soil Mechanics II Lab</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>CIVE</subject>
-        <courseNumber>434</courseNumber>
-        <courseLetter>L</courseLetter>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>CIVE</subject>
-        <courseNumber>834</courseNumber>
-        <courseLetter>L</courseLetter>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1141</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CIVE 334 and parallel CIVE 434.</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Determination of shear strength, deformation characteristics, permeability, and custom soil testing protocols to characterize soil behavior as part of slope stability analysis and design, solid waste containment, and finite element modeling.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities/>
-    <credits>
-      <credit type="Single Value">1</credit>
-    </credits>
-  </course>
-  <course>
     <title>Foundation Engineering</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -1229,45 +1190,6 @@
     <activities/>
     <credits>
       <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Foundation Engineering Lab</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>CIVE</subject>
-        <courseNumber>436</courseNumber>
-        <courseLetter>L</courseLetter>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>CIVE</subject>
-        <courseNumber>836</courseNumber>
-        <courseLetter>L</courseLetter>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1141</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CIVE 334.</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Determination of shear strength, consolidation characteristics, and custom soil testing protocols to characterize soil behavior as part of foundation analysis and design.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities/>
-    <credits>
-      <credit type="Single Value">1</credit>
     </credits>
   </course>
   <course>
@@ -1557,40 +1479,6 @@
     <gradPrerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">CIVE 440/840.</div>
     </gradPrerequisite>
-  </course>
-  <course>
-    <title>Introduction to Finite Element Analysis</title>
-    <courseCodes>
-      <courseCode type="crosslisting">
-        <subject>CIVE</subject>
-        <courseNumber>451</courseNumber>
-      </courseCode>
-      <courseCode type="home listing">
-        <subject>MECH</subject>
-        <courseNumber>451</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1151</effectiveSemester>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Matrix methods of analysis. Finite element stiffness method. Computer programs. Applications to structures and soils. Introduction to finite element analysis of fluid flow.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities/>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
   </course>
   <course>
     <title>Water Resources Development</title>
@@ -2340,16 +2228,19 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1158</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Senior standing and CIVE 385.</div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">CIVE 489 requires the formulation and completion of a civil engineering design project.</div>
     </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Course provides senior civil engineering students with the opportunity to apply engineering concepts and principles to a comprehensive design project of multiple sub-disciplinary nature.  The principal objectives are for students to develop an understanding of the entire life-cycle of civil engineering projects with emphasis on the development of a unified and sustainable design that addresses the client’s needs; project team work; strong engineer-client relationships; and effective project communications.</div>
+    </description>
     <campuses>
-      <campus>UNL</campus>
+      <campus></campus>
     </campuses>
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
@@ -2357,11 +2248,15 @@
     <termsOffered>
       <term>Fall</term>
       <term>Spring</term>
-      <term>Summer</term>
     </termsOffered>
     <activities>
       <activity>
-        <type>ind</type>
+        <type>lab</type>
+        <hours>1</hours>
+      </activity>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
       </activity>
     </activities>
     <credits>
@@ -2651,33 +2546,43 @@
     </credits>
   </course>
   <course>
-    <title>Introduction to Finite Element Analysis</title>
+    <title>GIS in Water Resources</title>
     <courseCodes>
-      <courseCode type="crosslisting">
-        <subject>CIVE</subject>
-        <courseNumber>851</courseNumber>
-      </courseCode>
       <courseCode type="home listing">
-        <subject>MECH</subject>
-        <courseNumber>851</courseNumber>
+        <subject>CIVE</subject>
+        <courseNumber>853</courseNumber>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1125</effectiveSemester>
+    <effectiveSemester>1168</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">MECH 325 and MECH 880 or permission</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Prereqs: Graduate standing in Engineering or a related discipline in Natural Resources or Earth Science.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Matrix methods of analysis. The finite element stiffness method. Computer programs. Applications to structures and soils. Introduction to finite element analysis of fluid flow.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Familiarization with a wide range of spatial information and used in hydrologic and water resources analysis. Development of expertise in GIS systems, especially ArcGIS. Digital mapping and analysis of water resources information. Hydrologic terrain analysis using digital elevation models. Integration of time series and geospatial data. Hydrologic Information Systems. River and watershed networks. Evapotranspiration, Precipitation (PRISM), Soil, and Landuse maps, and databases. Use of Remote Sensing tools.</div>
     </description>
     <campuses>
-      <campus></campus>
+      <campus>UNL</campus>
     </campuses>
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
+      <deliveryMethod>Web</deliveryMethod>
     </deliveryMethods>
-    <activities/>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lab</type>
+        <hours>1</hours>
+      </activity>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>

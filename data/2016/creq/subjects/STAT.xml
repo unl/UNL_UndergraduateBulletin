@@ -10,12 +10,12 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1091</effectiveSemester>
+    <effectiveSemester>1168</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Removal of all entrance deficiencies in mathematics.</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Credit toward the degree may be earned in only one of: CRIM 300 or ECON 215 or EDPS 459 or SOCI 206.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Credit toward the degree may be earned in only one of: CRIM 300 or ECON 215 or EDPS 459 or SOCI 206. Credit toward the degree cannot be earned in STAT 218 if taken after or taken in parallel with STAT/MATH 380.</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">The practical application of statistical thinking to contemporary issues; collection and organization of data; probability distributions; statistical inference; estimation; and hypothesis testing.</div>
@@ -806,6 +806,167 @@
     </credits>
   </course>
   <course>
+    <title>Statistical Methods I</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>STAT</subject>
+        <courseNumber>821</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Matrix Algebra; concurrently taking STAT 882, or passed 882 or equivalent  with grade of B or higher.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Designed for Statistics MS majors and minors</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to essential statistical methods and supporting design and modeling theory for professional statistical practice. First in a three semester sequence. Focus of this course on methods for single response variable and non-hierarchical study design.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lab</type>
+        <hours>2</hours>
+      </activity>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">4</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Statistical Methods II</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>STAT</subject>
+        <courseNumber>822</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1171</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">STAT 821; STAT 882; STAT 883: must be concurrently enrolled in 883 or passed STAT 883 or equivalent with a grade of B or higher.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Course is designed for Statistics MS majors and minors.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">A continuation of Statistical Methods I. Second in a three semester sequence on essential statistical methods and supporting design and modeling theory for professional statistical practice. Focus in this course of methods for single response variable and multiple sources of random variation.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lab</type>
+        <hours>2</hours>
+      </activity>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">4</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Statistical Methods III</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>STAT</subject>
+        <courseNumber>823</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1178</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">STAT 821; STAT 822; STAT 882; STAT 883</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">This course is designed for Statistics MS Majors.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to essential statistical methods and supporting design and modeling theory for professional statistical practice. Third in a three semester sequence. Focus of this course on methods for situations that extend beyond the single-response-variable, designed study cases featured in Statistical Methods I and II. These include multivariate statistics, non-linear models, non- and semi-parametric statistics, observational studies, and other theory and methods deemed appropriate as statistical science continues to evolve.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Principles of Statistical Consulting and Interdisciplinary Collaboration</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>STAT</subject>
+        <courseNumber>825</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">STAT 802 and STAT 970</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to the role and purpose of statistical consulting and interdisciplinary collaboration. Topics include: asking good questions, dealing with difficult clients, communicating statistics to non-statisticians, determining solutions, and collaborating.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Spatial Statistics</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -1564,7 +1725,7 @@
     </credits>
   </course>
   <course>
-    <title>Principles of Statistical Consulting</title>
+    <title>Advanced Statistical Consulting and Interdisciplinary Collaboration</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>STAT</subject>
@@ -1573,26 +1734,30 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <effectiveSemester>1168</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Permission</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">STAT 930 is primarily for graduate students in statistics.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">STAT 930 is for advanced Masters degree students or PhD students in Statistics.</div>
     </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Role and purpose of consulting. Statistical issues: understanding the client’s problem and choosing an appropriate procedure. Interpersonal issues: client expectations, difficult clients, working effectively with people and teamwork.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Exposure to more complex statistical consulting problems and how to resolve them. Topics include: major areas of consulting, interdisciplinary collaboration, and effective communication.</div>
     </description>
     <campuses>
-      <campus></campus>
+      <campus>UNL</campus>
     </campuses>
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
     <activities>
       <activity>
+        <type>lab</type>
+        <hours>4</hours>
+      </activity>
+      <activity>
         <type>lec</type>
-        <hours>2</hours>
+        <hours>1</hours>
       </activity>
     </activities>
     <credits>

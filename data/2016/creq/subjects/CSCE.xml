@@ -3266,7 +3266,7 @@
     </credits>
   </course>
   <course>
-    <title>Software Engineering II</title>
+    <title>Advanced Topics in Software Engineering</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>CSCE</subject>
@@ -3276,15 +3276,19 @@
         <subject>CSCE</subject>
         <courseNumber>861</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>SOFT</subject>
+        <courseNumber>461</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1138</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CSCE361 or CSCE361H</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 361, CSCE 361H or SOFT 261.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Advanced or emerging techniques in software engineering. Topics include design methodology, software dependability, and advanced software development environments.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Advanced or emerging techniques in software engineering. Topics include but not limited to design methodology, software dependability, and advanced software development environments.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -4414,8 +4418,8 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1161</effectiveSemester>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">A detailed project proposal must be prepared by the student and approved by the department prior to the start of the project. A final report must be submitted.</div>
     </notes>
@@ -4428,13 +4432,20 @@
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
     <activities>
       <activity>
         <type>fld</type>
       </activity>
     </activities>
     <credits>
-      <credit type="Single Value">1</credit>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">3</credit>
+      <credit type="Per Career Limit">6</credit>
     </credits>
   </course>
   <course>

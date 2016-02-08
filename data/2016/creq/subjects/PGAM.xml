@@ -286,10 +286,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1161</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">PGAM 212</div>
-    </prerequisite>
+    <effectiveSemester>1168</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Continuation of PGA 2.0 Level 2 curriculum modules.  Curriculum modules covered will include Merchandising and Inventory Control, Turf Grass, and Intermediate Teaching and Club Alterations.  In addition, students will attend a 2.5 day PGA sponsored seminar on intermediate Teaching and Club Alterations.  Standardized tests on the modules covered will be administered during the semester.</div>
     </description>
@@ -462,5 +459,90 @@
     <aceOutcomes>
       <slo>10</slo>
     </aceOutcomes>
+  </course>
+  <course>
+    <title>Internship in PGA Golf Management</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>PGAM</subject>
+        <courseNumber>495</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1161</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">In Level 1 of the PGA Golf Management Program</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">A recommended course for any PGA Golf Management student who will participate in an internship experience during her/his undergraduate degree program at UNL.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">PGA Golf Management internships will provide students with an opportunity to enhance their professional skills while contributing meaningful employment and expanding their career networks and pathways in the golf profession.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Web</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>fld</type>
+        <hours>30</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">6</credit>
+      <credit type="Per Career Limit">6</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Independent Study in PGA Golf Management</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>PGAM</subject>
+        <courseNumber>496</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>pass/no pass only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1161</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Sophomore standing and permission.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">The independent study topic is subject to approval by the coordinator. P/N only.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">PGAM 496 requires an individual or group project in research or literature review, or extension of course work in the field during the internship experience.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Web</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>fld</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">6</credit>
+      <credit type="Per Career Limit">6</credit>
+    </credits>
   </course>
 </courses>
