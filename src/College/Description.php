@@ -69,6 +69,15 @@ class Description
 
     public function __isset($var)
     {
+        switch ($var) {
+            case 'description':
+                return isset($this->description);
+            case 'college':
+                return isset($this->college);
+            case 'majors':
+                return isset($this->majors);
+        }
+
         $nodes = $this->getContentSection($var);
         if (!$nodes) {
             return $nodes;
