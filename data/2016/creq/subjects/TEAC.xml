@@ -2182,6 +2182,48 @@
     </credits>
   </course>
   <course>
+    <title>Linguistics for the ELL Teacher</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>413</courseNumber>
+        <courseLetter>K</courseLetter>
+        <courseGroup>ESL and Linguistics</courseGroup>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>TEAC</subject>
+        <courseNumber>813</courseNumber>
+        <courseLetter>K</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">In Linguistics for the ELL Teachers, we will build our understanding of the English language from the perspective of the ESL/EFL learner. This course is designed for teachers of English learners at all levels. However, for those of you that teach other languages in a foreign or second language context, you can easily adapt what you learn to this context as well. The course will provide teachers with a basic understanding of how language works, and in particular, the structure of English. The main goal of this course is to make the “unconscious” knowledge of language conscious, and to be able to explain how English works skillfully and clearly to students.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Teaching English Language Learners (ELLs) in Content Areas</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -2442,10 +2484,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Junior/senior standing; College of Education and Human Sciences major; COMM 200, 201; or permission.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">COMM 101.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Advanced introductory course in instructional communication, focusing on understanding variables associated with the communication process in instructional settings and managing instructional communication more effectively. Provides an experimental and a cognitive understanding of the role of communication in the instructional process.</div>
@@ -2551,11 +2593,8 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">12 hrs education.</div>
-    </prerequisite>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">History and development of America's colleges and universities and recent trends and problems in higher education.</div>
     </description>
@@ -2570,7 +2609,12 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
@@ -3575,6 +3619,38 @@
       <credit type="Lower Range Limit">1</credit>
       <credit type="Upper Range Limit">10</credit>
       <credit type="Per Semester Limit">10</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Independent Study</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>TEAC</subject>
+        <courseNumber>495</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Independent Study</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">6</credit>
+      <credit type="Per Career Limit">6</credit>
     </credits>
   </course>
   <course>
@@ -5129,8 +5205,11 @@
       </courseCode>
     </courseCodes>
     <gradingType>letter grade only</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1158</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to the field of Democratic Education to explore the defining issues, questions, and problems of the field. Readings and discussions on a breadth of issues related to democratic education including the purposes of schools, ideology and curriculum, the relationship between social class and citizen-production in schooling, and the role of discussion, deliberation, and trust in democratic schooling. Students will undertake the issue of how we are to prepare teachers in ways that promote democracy both within teacher education as well as K-12. Undergirding all of these conversations will be explicit attention to diversity, power, and voice. The role of social capital in democratic society, exploring how changing participation and group membership trends in the United States have consequences for democratic health.</div>
+    </description>
     <campuses>
       <campus>UNL</campus>
     </campuses>

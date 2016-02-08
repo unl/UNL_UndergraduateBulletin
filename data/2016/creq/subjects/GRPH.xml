@@ -36,21 +36,21 @@
     </credits>
   </course>
   <course>
-    <title>Graphic Design I</title>
+    <title>Critical and Creative Thinking</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>GRPH</subject>
-        <courseNumber>221</courseNumber>
+        <courseNumber>222</courseNumber>
       </courseCode>
     </courseCodes>
     <gradingType>letter grade only</gradingType>
-    <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1148</effectiveSemester>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ARTP 140A, ARTP 140B, ARTP 141A, and ARTP 141B; or ARTP 150, ARTP 151, ARTP 152, and DRAW 201; or permission.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Graphic Design Major</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to the field of visual communications, the use of the tools, materials and methods of the graphic designer.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Study of methodologies used for creative problem solving.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -61,6 +61,7 @@
     <termsOffered>
       <term>Fall</term>
       <term>Spring</term>
+      <term>Summer</term>
     </termsOffered>
     <activities>
       <activity>
@@ -103,6 +104,44 @@
       <activity>
         <type>stu</type>
         <hours>6</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Design History and Practice</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>GRPH</subject>
+        <courseNumber>224</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Graphic Design Major</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Investigation of the history and theory of Graphic Design.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>4</hours>
       </activity>
     </activities>
     <credits>
@@ -332,6 +371,48 @@
     </credits>
   </course>
   <course>
+    <title>Problems in Graphic Design</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>GRPH</subject>
+        <courseNumber>396</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Graphic Design Major and permission</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Topics, activities, and delivery methods vary depending on individual course expectations.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Independent study course exploring subject matter in specialized areas of graphic design.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>stu</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">6</credit>
+      <credit type="Per Career Limit">6</credit>
+    </credits>
+  </course>
+  <course>
     <title>Graphic Design III</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -369,21 +450,25 @@
     </credits>
   </course>
   <course>
-    <title>Seminar in Illustration</title>
+    <title>Interaction Design II: Interactive Storytelling</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>GRPH</subject>
-        <courseNumber>422</courseNumber>
+        <courseNumber>425</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>GRPH</subject>
+        <courseNumber>825</courseNumber>
       </courseCode>
     </courseCodes>
-    <gradingType>unrestricted</gradingType>
+    <gradingType>letter grade only</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1168</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">WATC 257, PHOT 262, DRAW 401, and PANT 451.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">GRPH 325.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Capstone course in the illustration emphasis area. Survey of historical and contemporary issues, attention to issues of contemporary illustration ideas and expressions, critical thinking and philosophical problems.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Exploration of interactive, multi-dimensional storytelling on the web, mobile devices, gaming systems and tablets.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -394,9 +479,13 @@
     <termsOffered>
       <term>Fall</term>
       <term>Spring</term>
-      <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>stu</type>
+        <hours>6</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
@@ -477,6 +566,130 @@
     <aceOutcomes>
       <slo>10</slo>
     </aceOutcomes>
+  </course>
+  <course>
+    <title>Special Topics in Design</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>GRPH</subject>
+        <courseNumber>491</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Graphic Design Major</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Studio-based course exploring subject matter in emerging areas of graphic design.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>stu</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">6</credit>
+      <credit type="Per Career Limit">6</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Special Topics in Design</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>GRPH</subject>
+        <courseNumber>491</courseNumber>
+        <courseLetter>A</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Graphic Design Major</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Lecture-based course exploring subject matter in emerging areas of graphic design.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">6</credit>
+      <credit type="Per Career Limit">6</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Problems in Graphic Design</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>GRPH</subject>
+        <courseNumber>496</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>GRPH</subject>
+        <courseNumber>896</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Graphic Design major and permission.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Topics, activities, and delivery methods vary depending on individual course expectations.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Independent study course exploring subject matter in specialized areas of graphic design.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>stu</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">6</credit>
+    </credits>
   </course>
   <course>
     <title>Graphic Design I</title>

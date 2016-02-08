@@ -1225,10 +1225,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>letter grade only</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1091</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">12 hrs in major.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Sophomore Standing</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">The theoretical foundations for working with families in the community and school. Professional interaction skills needed to establish sound working relationships with families. Ethical guidelines for professional interactions with families to facilitate appropriate application of principles to the diversity of professions working with families.</div>
@@ -1297,7 +1297,7 @@
     </credits>
   </course>
   <course>
-    <title>Parenting</title>
+    <title>Working with Parents</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>CYAF</subject>
@@ -1306,12 +1306,12 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1148</effectiveSemester>
+    <effectiveSemester>1168</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Sophomore standing.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">CYAF 160 or equivalent, and CYAF 280 or 380</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to principles of parenting within multidimensional contexts, including developmental, structural, and cultural perspectives. Biopsychosocial aspects of parenting in relationship to family life cycles. Evidence-based practices for personal and programmatic application.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to principles of parenting within multiple contexts including developmental, structural, and cultural perspectives. Evaluation of parenting concerns and relationships as they apply to working with families. Content will cover parenting philosophies as well as a central focus on programs and practices related to parent education. There will be a strong emphasis on the links between theory, research, and application.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -2181,9 +2181,9 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1121</effectiveSemester>
+    <effectiveSemester>1161</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">12 hrs family and consumer science, or related social sciences including CYAF 270 and 270L.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">12 hrs CYAF, or related social sciences.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Selection, use, and interpretation of assessment instruments for understanding the developmental level of children from birth through age eight. Assessment of reasoning and thinking processes, concept formation, and social cognition.</div>
@@ -2816,10 +2816,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>pass/no pass only</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1111</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1161</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CYAF 497A.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">CYAF 271 and 271L; CYAF 374 and 374L; with a grade of 'C' or better.</div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">Pass/No Pass Only.</div>
@@ -6279,10 +6279,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CYAF 876, 971, or 972 or equivalent and 18 hours CYAF, PSYC, EDPS, or SOCI</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Graduate Standing.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Synthesis of current and historical perspectives in theory and research on children’s social development including multiple contexts for socialization/individuation.</div>
@@ -6293,7 +6293,12 @@
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>

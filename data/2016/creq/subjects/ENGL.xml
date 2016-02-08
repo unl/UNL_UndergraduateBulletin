@@ -209,9 +209,9 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1091</effectiveSemester>
+    <effectiveSemester>1168</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Good standing in the University Honors Program or by invitation. ENGL 150H is open to Freshman and Sophomores only.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Good standing in the University Honors Program or by invitation and Freshman or Sophomore standing.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Intensive writing. Writing as a tool for inquiry and research. Develop writing projects for multiple purposes and audiences.</div>
@@ -3784,6 +3784,50 @@
     </aceOutcomes>
   </course>
   <course>
+    <title>Cuban-American Ltierature</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ENGL</subject>
+        <courseNumber>346</courseNumber>
+        <courseGroup>Literary and Cultural Studies</courseGroup>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>ETHN</subject>
+        <courseNumber>346</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">An analysis of a variety of works authored by Cuban-Americans in their historical, cultural, and literary contexts.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+    <aceOutcomes>
+      <slo>5</slo>
+      <slo>9</slo>
+    </aceOutcomes>
+  </course>
+  <course>
     <title>Humanities on the Plains</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -6729,7 +6773,7 @@
     <dfRemoval>true</dfRemoval>
     <effectiveSemester>1161</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Senior standing and one of the following courses: ENGL/HIST 277, ENGL 278, or ENGL 279.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Junior standing.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Provide students with real, in-depth experience in collaboratively creating digital humanities projects. Guided by faculty with expertise in a broad range of digital humanities methods and resources, students work in teams to tackle challenges proposed by UNL researchers and/or local and regional humanities organizations.</div>
@@ -6866,15 +6910,19 @@
         <courseNumber>477</courseNumber>
         <courseGroup>Digital Humanities</courseGroup>
       </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>ENGL</subject>
+        <courseNumber>877</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1148</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Senior standing and one of the following courses: ENGL 277, ENGL 278, or ENGL 279.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Junior standing.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Advanced Topics in Digital Humanities provides students the opportunity to study, learn, and practice a digital humanities method in considerable depth. Theses courses tend to be project oriented and frequently involve collaborative work. Topics will vary.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Advanced Topics in Digital Humanities provides students the opportunity to study, learn, and practice a digital humanities method in considerable depth. These courses tend to be project oriented and frequently involve collaborative work. Topics will vary.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -6912,9 +6960,9 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1148</effectiveSemester>
+    <effectiveSemester>1168</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Junior standing and one of the following courses: ENGL 277, ENGL 278, or ENGL 279.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Junior standing.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">The shift from printed to digital texts and its implications for the humanities. Practice in digitally representing texts, archival design, and analysis of representative electronic projects dedicated to a variety of authors and genres.</div>
@@ -7317,13 +7365,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ENGL 252; and permission</div>
-    </prerequisite>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">ENGL *852 is for advanced students with previous experience in fiction writing.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">ENGL 852 is for advanced students with previous experience in fiction writing.</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Longer projects in fiction writing.</div>
@@ -7354,11 +7399,8 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ENGL 252 or 253</div>
-    </prerequisite>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Advanced (workshop) course for creative writers; emphasis on memoirs, personal essays, other forms of literary non-fiction.</div>
     </description>
@@ -7387,11 +7429,8 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ENGL 253 and permission</div>
-    </prerequisite>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">For advanced students with previous experience in poetry writing.</div>
     </description>
@@ -7420,11 +7459,8 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">3 hrs English composition above the ENGL 200 level</div>
-    </prerequisite>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Advanced writing workshop in which experienced writers develop extended projects in writing, analyze their own and others’ writing processes, and read widely in genres related to their projects.</div>
     </description>
@@ -8245,15 +8281,19 @@
         <subject>HIST</subject>
         <courseNumber>946</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>ANTH</subject>
+        <courseNumber>946</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1158</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Methods, theories, and practices of digital humanities scholarship.</div>
     </description>
     <campuses>
-      <campus></campus>
+      <campus>UNL</campus>
     </campuses>
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>

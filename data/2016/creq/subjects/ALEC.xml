@@ -598,6 +598,43 @@
     </credits>
   </course>
   <course>
+    <title>Writing for Agriculture and Natural Resources</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ALEC</subject>
+        <courseNumber>200</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Major or minor in Agricultural and Environmental Sciences Communication (AESC)</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Application of generally accepted practices for students desiring a communications career in agricultural and/or environmental sciences. Associated Press writing style, audience analysis, interviewing skills, writing mechanics, nuances of both verbal and nonverbal communication and professional collaboration.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Electricity/Electronics</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -633,7 +670,7 @@
     </credits>
   </course>
   <course>
-    <title>Leadership Development in Small Groups and Teams</title>
+    <title>Foundations of Leadership Theory and Practice</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>ALEC</subject>
@@ -641,10 +678,13 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1108</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">ALEC 202 will be offered both in face-to-face and online formats during fall and spring semesters and will be offered only online during the summer 8-week session.</div>
+    </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Leadership and followership skills in small groups and teams. Leadership dynamics which make team leaders and members influential and satisfied in both informal and work group settings. Leadership from the perspective of student practical experience. A shadowing experience and simulation exercise.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Foundational knowledge of leadership theory and its relationship to the practice of leadership.  Resolve complex leadership challenges by evaluating the intersection between leader, follower, and context.  Critically assess real-world situations and make decisions about what theoretically-based leadership skills and behaviors are most likely to be effective.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -656,10 +696,12 @@
     <termsOffered>
       <term>Fall</term>
       <term>Spring</term>
+      <term>Summer</term>
     </termsOffered>
     <activities>
       <activity>
         <type>lec</type>
+        <hours>3</hours>
       </activity>
       <activity>
         <type>rct</type>
@@ -852,6 +894,86 @@
       <activity>
         <type>lab</type>
         <hours>3</hours>
+      </activity>
+      <activity>
+        <type>lec</type>
+        <hours>2</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Digital Photography and Visual Communication for Agriculture and the Environment</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ALEC</subject>
+        <courseNumber>240</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Students must be an AESC major or minor.  Otherwise, instuctor permission is required.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Digital photography theory and tools to deliver science-based agricultural and environmental information for diverse audiences. Develop an understanding of and apply digital photography concepts such as composition, lighting, landscape, portrait, and editing in the development of a final photo essay project for a real-world audience.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Mobile Video Production of Agricultural and Environmental Issues</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ALEC</subject>
+        <courseNumber>241</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">AESC major or minor. Othwerwise, instructor permission required.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">This is a blended learning course.  We will meet face-to-face once a week to develop our projects.  We will also participate in weekly online activities such as readings, discussion boards, wikis, etc.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Use mobile devices to research agricultural and environmental science topics, conduct and record video interviews with scientists about controversial scientific topics, record footage in science labs and field sites, and produce final videos for real-world audiences. Gain experience with digital storytelling theory and techniques.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+      <deliveryMethod>Web</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lab</type>
+        <hours>2</hours>
       </activity>
       <activity>
         <type>lec</type>
@@ -1332,6 +1454,50 @@
       </activity>
       <activity>
         <type>lec</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Podcasting to Increase Science Literacy</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ALEC</subject>
+        <courseNumber>341</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">AESC majors and minors. Otherwise, instructor permission is required.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">This is a blended learning course. We will meet face-to-face once a week to develop our projects. We will also participate in weekly online activities such as readings, discussion boards, wikis, etc.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Analysis and research of science literacy concepts, how to engage in public conversations about controversial issues, how to interview scientists, how to edit scientific audio interviews, and how to ultimately produce a podcast series with the goal of increasing the public’s science literacy. Offered in the spring semester of odd years.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+      <deliveryMethod>Web</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lab</type>
+        <hours>2</hours>
+      </activity>
+      <activity>
+        <type>lec</type>
+        <hours>2</hours>
       </activity>
     </activities>
     <credits>
@@ -2028,6 +2194,43 @@
     </credits>
   </course>
   <course>
+    <title>Agricultural &amp; Environmental Sciences Communication Practicum</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ALEC</subject>
+        <courseNumber>421</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Junior status. Major or minor in Agricultural and Environmental Sciences Communication. Students in the minor must have completed a minimum of 12 credits of minor coursework to enroll.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">This is a project course for students enrolled in the Agricultural and Environmental Communications program. It provides students the opportunity to develop, plan, and execute a project of their own design to showcase skills and knowledge gained through coursework. Students are guided by course instructor(s) and collaborate with additional identified faculty with appropriate expertise in agricultural sciences and natural resources.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+      <deliveryMethod>Web</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Foundations of Career and Technical Education</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -2156,6 +2359,46 @@
     <aceOutcomes>
       <slo>10</slo>
     </aceOutcomes>
+  </course>
+  <course>
+    <title>Dynamics of Effective Leadership in Groups &amp; Teams</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ALEC</subject>
+        <courseNumber>433</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>ALEC</subject>
+        <courseNumber>833</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">ALEC 433-At least Junior standing or permission; ALEC 833-ALEC 801 or parallel.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">This course will cover the foundational knowledge of team and group dynamics theory and its relationship to the practice of leadership in organizations and communities.  Development of leadership, followership, and teamwork skills in small groups and teams.  Focus on team and group decision making, problem solving, and creativity, peer assessment, and evaluation using real-world situations and contexts.  Critically apply team and group dynamic theories and research to leadership in organizations and communities.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
   </course>
   <course>
     <title>Science Writing</title>

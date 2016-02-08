@@ -2045,6 +2045,40 @@
     </aceOutcomes>
   </course>
   <course>
+    <title>Digital Image Processing</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CEEN</subject>
+        <courseNumber>815</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">CEEN 424/8246 (UNO CEEN 4240/8246) or permission.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Topics covering the spatial and spectral analysis of digital image processing systems, the design of multi-dimensional digital filters and systems, and advanced theories and technologies in digital image processing systems.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+      <campus>UNO</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Digital Communications Media</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -2079,6 +2113,198 @@
     </activities>
     <credits>
       <credit type="Single Value">4</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Random Processes in Engineering</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CEEN</subject>
+        <courseNumber>880</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">STAT 380 (UNO STAT 3800)</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Topics related to the concept of random variables, functions of random variables and random processes.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+      <campus>UNO</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Spread Spectrum Communications</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CEEN</subject>
+        <courseNumber>886</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">CEEN 463/863 (UNO CEEN 4630/8636)</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to the theory of spread spectrum communications: direct sequence, frequency and time hopping techniques. Topics include properties of pseudo-random binary sequences, low-probability-of-intercept (LPI) and anti-jamming (AJ) methods, performance of spread spectrum systems, applications of spread spectrum techniques in radio frequency and optical code-division multiple access (CDMA) systems.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+      <campus>UNO</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Independent Study in Computer and Electronics Engineering</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CEEN</subject>
+        <courseNumber>893</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Departmentally approved proposal.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Individual study at the graduate level in a selected computer or electronics engineering area under the supervision and guidance of a Computer and Electronics Engineering faculty member.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+      <campus>UNO</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>ind</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Special Topics</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CEEN</subject>
+        <courseNumber>895</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Special topics in the newly emerging areas of computer and electronics engineering not covered in the other courses in the computer and electronics engineering curriculum.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+      <campus>UNO</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Masters Thesis</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CEEN</subject>
+        <courseNumber>899</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Admission to masters degree program and permission of supervisory committee chair.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Masters thesis work.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+      <campus>UNO</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">6</credit>
     </credits>
   </course>
   <course>
@@ -2148,6 +2374,84 @@
     </credits>
   </course>
   <course>
+    <title>Non-Linear Fiber Optic Systems</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CEEN</subject>
+        <courseNumber>979</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">CEEN 479/879 (UNO CEEN 4790/8796) or permission.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Linear and non-linear propagations in optical fibers. Topics include fiber non-linearity, fundamentals of optical amplifiers, semiconductor and fiber amplifiers, soliton communications. Applications include high capacity and long distance transmissions, all-optical networks.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+      <campus>UNO</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Research Other Than Thesis</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CEEN</subject>
+        <courseNumber>992</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Permission and graduate standing.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Supervised non-thesis research and independent study.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+      <campus>UNO</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>ind</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">6</credit>
+    </credits>
+  </course>
+  <course>
     <title>Advanced Special Topics</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -2180,6 +2484,46 @@
       <credit type="Lower Range Limit">1</credit>
       <credit type="Upper Range Limit">3</credit>
       <credit type="Per Career Limit">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Doctoral Dissertation</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CEEN</subject>
+        <courseNumber>999</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Admission to doctoral degree program and permission of supervisory committee chair.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Dissertation research.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+      <campus>UNO</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">24</credit>
+      <credit type="Per Career Limit">55</credit>
     </credits>
   </course>
 </courses>

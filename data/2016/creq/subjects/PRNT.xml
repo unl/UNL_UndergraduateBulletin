@@ -48,9 +48,9 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1148</effectiveSemester>
+    <effectiveSemester>1168</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ARTP 140A, ARTP 140B, ARTP 141A, and ARTP 141B; or ARTP 150, ARTP 151, ARTP 152, and DRAW 201; or permission.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">ARTP 151, ARTP 152, and DRAW 201; or permission.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Introduction to the graphic processes emphasizing intaglio and lithography.</div>
@@ -315,6 +315,83 @@
     </credits>
   </course>
   <course>
+    <title>Special Topics in Printmaking</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>PRNT</subject>
+        <courseNumber>491</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>PRNT</subject>
+        <courseNumber>891</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Special Topics in Printmaking, advanced level.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">6</credit>
+      <credit type="Per Semester Limit">6</credit>
+      <credit type="Per Career Limit">24</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Problems in Printmaking</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>PRNT</subject>
+        <courseNumber>496</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>PRNT</subject>
+        <courseNumber>896</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Permission of Instructor</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Independent study in printmaking.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">6</credit>
+      <credit type="Per Semester Limit">6</credit>
+      <credit type="Per Career Limit">9</credit>
+    </credits>
+  </course>
+  <course>
     <title>Printmaking I</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -420,6 +497,46 @@
       <credit type="Lower Range Limit">1</credit>
       <credit type="Upper Range Limit">6</credit>
       <credit type="Per Career Limit">6</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Problems in Printmaking</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>PRNT</subject>
+        <courseNumber>996</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Permission.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Independent study in Printmaking.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>stu</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">6</credit>
+      <credit type="Per Semester Limit">6</credit>
+      <credit type="Per Career Limit">9</credit>
     </credits>
   </course>
 </courses>

@@ -574,7 +574,7 @@
     </credits>
   </course>
   <course>
-    <title>Forage Crop and Range Management</title>
+    <title>Forage Crop and Pasture Management</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>AGRO</subject>
@@ -586,13 +586,13 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">AGRO 131 or BIOS 109 or equivalent.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Principles basic to the establishment, management, and utilization of forage crops, pastures, and ranges. Plant identification and selection, seeding, fertilization, plant community manipulation, forage/range quality and utilization, and range management. The role of forages and ranges in developing a sustainable agriculture.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Principles basic to the establishment, management, and utilization of forage crops and pastures. Plant identification and selection, seeding, fertilization, irrigation, forage quality and utilization, hay and silage preservation, and grazing management. The role of forages and ranges in developing a sustainable agriculture.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -606,7 +606,7 @@
     </termsOffered>
     <activities/>
     <credits>
-      <credit type="Single Value">4</credit>
+      <credit type="Single Value">3</credit>
     </credits>
   </course>
   <course>
@@ -3481,7 +3481,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1088</effectiveSemester>
+    <effectiveSemester>1158</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">AGRO/HORT/PGMP/TLMT 326.</div>
     </prerequisite>
@@ -5129,6 +5129,39 @@
     </credits>
   </course>
   <course>
+    <title>Grazing Ecology and Management</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>AGRO</subject>
+        <courseNumber>852</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">This course discusses the ecological principles of domesticated livestock grazing and their application to manage grazing lands. Theoretical and applied models of plant/animals interactions will be presented. Grazing systems and their management of ecosystem services will be presented as balance between production and conservation outcomes.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Web</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Modified Rootzones</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -5271,8 +5304,8 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Admission to masters degree program and permission of major adviser</div>
     </prerequisite>
@@ -5287,7 +5320,7 @@
     </deliveryMethods>
     <activities/>
     <credits>
-      <credit type="Lower Range Limit">6</credit>
+      <credit type="Lower Range Limit">1</credit>
       <credit type="Upper Range Limit">10</credit>
     </credits>
   </course>

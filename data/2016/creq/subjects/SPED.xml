@@ -756,11 +756,14 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1131</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1161</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">SPED 201, TEAC 311, TEAC 313 for elementary education majors; SPED 201, SPED 412, and SPED 414 (or equivalent) for SPED majors.  Must be taken with: SPED 415A/815A.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">SPED 201, TEAC 311, TEAC 313 for elementary education majors; SPED 201, SPED 212, and SPED 414 (or equivalent) for SPED majors.  Must be taken with: SPED 415A/815A.</div>
     </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">For SPED 415 - Priority will be given to students who will be student teaching the following semester.</div>
+    </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Theory and techniques for assessing and teaching early literacy skills in small groups and one-on-one for children who struggle with literacy.</div>
     </description>
@@ -965,45 +968,6 @@
       <activity>
         <type>lec</type>
         <hours>3</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Medically Fragile infants</title>
-    <courseCodes>
-      <courseCode type="grad tie-in">
-        <subject>SPED</subject>
-        <courseNumber>863</courseNumber>
-      </courseCode>
-      <courseCode type="home listing">
-        <subject>SPED</subject>
-        <courseNumber>463</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1125</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Major in Special Education, Speech-language Pathology or Child Youth and Family Studies. Senior status or permission of instructor.</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Unique needs, family-coping strategies, specialized medical staff and various health care settings for chronically ill infants, toddlers and preschool age children. Overview of etiology, characteristics and developmental implications of selected medical conditions related to developmental disabilities.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Web</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Summer</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>lec</type>
       </activity>
     </activities>
     <credits>
@@ -2203,6 +2167,41 @@
     </credits>
   </course>
   <course>
+    <title>Medically Fragile infants</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>SPED</subject>
+        <courseNumber>863</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1161</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Major in Special Education, Speech-language Pathology or Child Youth and Family Studies. Senior status or permission of instructor.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Unique needs, family-coping strategies, specialized medical staff and various health care settings for chronically ill infants, toddlers and preschool age children. Overview of etiology, characteristics and developmental implications of selected medical conditions related to developmental disabilities.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Web</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Teaching the Content Areas to the Hearing Impaired</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -2827,9 +2826,9 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1138</effectiveSemester>
+    <effectiveSemester>1168</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">SPED 800, 818, and 824; or permission</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">SPED 818 and 824; or permission</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Strategic therapy structures and cognitive-behavioral interventions for school and clinical professionals dealing with students who present significant behavioral challenges.  Issues in assessment, intervention, and consultation are addressed.</div>
