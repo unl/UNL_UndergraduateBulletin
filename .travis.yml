@@ -1,6 +1,23 @@
+sudo: false
+
 language: php
-php:
-  - 5.3
-  - 5.4
-before_script: pyrus install -p pyrus.net/Pyrus_Developer-alpha
+
+cache:
+  directories:
+    - $HOME/.composer/cache
+
+matrix:
+  fast_finish: true
+  include:
+    - php: 5.5
+    - php: 5.6
+    - php: 7
+    - php: hhvm
+  allow_failures:
+    - php: hhvm
+
+before_install:
+  - phpenv config-rm xdebug.ini
+  - composer self-update
+
 script: pyrus run-phpt -r tests || (find . -name *.out | xargs -t cat && exit 1)
