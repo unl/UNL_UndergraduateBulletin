@@ -2,5 +2,4 @@ language: php
 php:
   - 5.3
   - 5.4
-before_script: pyrus install -p pyrus.net/Pyrus_Developer-alpha
-script: pyrus run-phpt -r tests || (find . -name *.out | xargs -t cat && exit 1)
+script: phpunit tests
