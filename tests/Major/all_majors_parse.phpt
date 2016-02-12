@@ -12,7 +12,7 @@ foreach ($majors as $major) {
     $test->assertSame(0, preg_match('#<span[^>]*?>\s*</span>#', $rawDescription), 'major '.$major->title.' has no empty spans');
     $test->assertSame(0, preg_match('#<strong[^>]*?></strong>#', $rawDescription), 'major '.$major->title.' has no empty strongs');
     $test->assertSame(0, preg_match('# style="#', $rawDescription), 'major '.$major->title.' has no style overrides');
-    $test->assertSame(0, preg_match('#<p class="basic-text"><br /></p>#', $rawDescription), 'major '.$major->title.' has no paragraph breaks');
+    $test->assertSame(0, preg_match('#<br\s*/?>#', $rawDescription), 'major '.$major->title.' has no brs');
 
     try {
         foreach ($major->colleges as $college) {
