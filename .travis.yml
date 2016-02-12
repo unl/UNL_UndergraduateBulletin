@@ -1,5 +1,8 @@
+sudo : false
 language: php
 php:
   - 5.3
   - 5.4
+env:
+  - BULLETIN_EDITION=2016
 script: phpunit tests

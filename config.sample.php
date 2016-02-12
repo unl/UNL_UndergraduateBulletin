@@ -4,7 +4,7 @@ function autoload($class)
     $class = str_replace('_', '/', $class);
     include $class . '.php';
 }
-    
+
 spl_autoload_register("autoload");
 
 // Set to false on production machines
@@ -29,4 +29,6 @@ UNL_UndergraduateBulletin_OutputController::setDefaultExpireTimestamp(strtotime(
 UNL_Services_CourseApproval::setCachingService(new UNL_Services_CourseApproval_CachingService_Null());
 UNL_Services_CourseApproval::setXCRIService(new UNL_UndergraduateBulletin_CourseDataDriver());
 
-//UNL_UndergraduateBulletin_Controller::setEdition(new UNL_UndergraduateBulletin_Edition(array('year'=>'2010')));
+if (isset($_SERVER['BULLETIN_EDITION'])) {
+	UNL_UndergraduateBulletin_Controller::setEdition(new UNL_UndergraduateBulletin_Edition(array('year' => $_SERVER['BULLETIN_EDITION'])));
+}
