@@ -4,6 +4,11 @@ Tests the caching of the Major view
 <?php
 require dirname(__FILE__) . '/../test_framework.php.inc';
 
+if (UNL_UndergraduateBulletin_Controller::getEdition()->year < 2014) {
+	echo "===DONE===";
+	exit;
+}
+
 $cacheDir = dirname(__FILE__) . '/../tmp/';
 @mkdir($cacheDir);
 
