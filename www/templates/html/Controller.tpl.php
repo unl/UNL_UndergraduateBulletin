@@ -29,7 +29,7 @@ $page->breadcrumbs  = '
 $page->navlinks = $savvy->render(null, 'Navigation.tpl.php');
 $page->contactinfo = $savvy->render(null, 'sharedcode/localFooter.html');
 
-$page->addStylesheet($protocolAgnosticBaseURL. 'css/debug.css');
+$page->addStylesheet($protocolAgnosticBaseURL. 'css/all.css');
 $page->addStyleSheet($protocolAgnosticBaseURL . 'css/print.css', 'print');
 
 // Check if the year of this edition indicates it has not been published
