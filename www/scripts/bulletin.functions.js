@@ -16,7 +16,6 @@ define([
         var majorSearchSelector = '#majorSearch';
         var $courseSearch = $(courseSearchSelector);
         var $majorSearch = $(majorSearchSelector);
-        var indicatorClass = 'indicator';
         var activeClass ='active';
 
         // Append Versioning to the top
@@ -186,39 +185,37 @@ define([
                             url: baseUrl+'courses/search?q='+request.term+'&format=json&limit=10',
                             dataType: "json",
                             success: function(data) {
+                                var courseCode, i;
                                 var rows = [];
-                                    for(var i=0; i<data.length; i++){
+                                    for (i = 0; i<data.length; i++) {
                                         //label is for the suggestion
                                         //value is for the input box
                                         //key is used to match highlighted course
+                                        courseCode = data[i].courseCodes[0];
                                         rows[i] = {
                                             label: '<div class="course">' +
                                                         '<div class="courseID">' +
-                                                            '<span class="subjectCode">' + data[i].courseCodes[0].subject + '</span>' +
-                                                            '<span class="number">' + data[i].courseCodes[0].courseNumber + '</span>' +
+                                                            '<span class="subjectCode">' + courseCode.subject + '</span>' +
+                                                            '<span class="number">' + courseCode.courseNumber + '</span>' +
                                                         '</div>' +
                                                         '<span class="title">' + data[i].title + '</span>' +
-                                                        '<span class="key" style="display:none;">' + data[i].courseCodes[0].subject + data[i].courseCodes[0].courseNumber + data[i].title + '</span>' +
                                                     '</div>',
-                                            value: data[i].courseCodes[0].subject + " " + data[i].courseCodes[0].courseNumber + ": " + data[i].title,
-                                            key: data[i].courseCodes[0].subject + data[i].courseCodes[0].courseNumber + data[i].title
+                                            value: courseCode.subject + " " + courseCode.courseNumber + ": " + data[i].title,
+                                            key: courseCode.subject + courseCode.courseNumber + data[i].title,
+                                            courseCode: courseCode
                                         };
                                     }
                                 response(rows);
                             }
                         });
                     },
-                    focus: function(e, ui) {
-                        $('a.indicator').removeClass(indicatorClass);
-                        $('a:contains("'+ui.item.key+'")').addClass(indicatorClass);
-                    },
                     select: function(e, ui) {
-                        window.location.href = baseUrl+'courses/search?q='+ui.item.value;
+                        window.location.href = baseUrl + 'courses/' + ui.item.courseCode.subject + '/' + ui.item.courseCode.courseNumber;
                     }
                 }).autocomplete('instance')._renderItem = function( ul, item ) {
                     return $('<li>')
                         .data( "item.autocomplete", item )
-                        .append( "<a>"+ item.label + "</a>" )
+                        .append( item.label )
                         .appendTo( ul );
                 };
             }
@@ -238,8 +235,7 @@ define([
                                 var rows = [];
                                     for(var i=0; i<data.length; i++){
                                         rows[i] = {
-                                                label : '<span class="format">'+data[i].title+'</span>' +
-                                                        '<span class="key" style="display:none;">'+data[i].title+i+'</span>',
+                                                label : '<span class="format">'+data[i].title+'</span>',
                                                 value : data[i].title,
                                                 key : data[i].title+i
                                         };
@@ -248,17 +244,13 @@ define([
                             }
                         });
                     },
-                    focus: function(e, ui) {
-                        $('a.indicator').removeClass(indicatorClass);
-                        $('a:contains("'+ui.item.key+'")').addClass(indicatorClass);
-                    },
                     select: function(e, ui) {
                         window.location.href = baseUrl+'major/'+ui.item.value;
                     }
                 }).autocomplete('instance')._renderItem = function( ul, item ) {
                     return $('<li>')
                         .data( "item.autocomplete", item )
-                        .append( "<a>"+ item.label + "</a>" )
+                        .append( item.label )
                         .appendTo( ul );
                 };
             }
