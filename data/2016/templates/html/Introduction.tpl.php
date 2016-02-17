@@ -2,156 +2,105 @@
 $baseURL = $controller->getRawObject()::getBaseURL();
 ?>
 <?php echo $savvy->render('', 'SearchForm.tpl.php'); ?>
-<div class="wdn-band">
+<div class="wdn-band splash-academic-colleges">
 <div class="wdn-inner-wrapper">
-    <div class="wdn-grid-set">
-        <div class="bp2-wdn-col-three-fourths">
-            <h3 class="em">Academic Colleges</h3>
-            <ul class="thumbs bp1-wdn-grid-set-halves bp2-wdn-grid-set-thirds">
-                <li class="wdn-col">
-                    <div>
-                        <a href="college/Agricultural+Sciences+%26+Natural+Resources" class="header-underlay">
-                            <img src="<?php echo $baseURL ?>images/thumb_casnr.jpg" alt="" />
-                            <h4 class="header-overlay">Agricultural Sciences &amp; Natural Resources</h4>
-                        </a>
-                        <ul class="wdn-grid-set button-list">
-                            <li class="wdn-col-one-half bp1-wdn-col-full bp2-wdn-col-one-half">
-                                <a href="college/Agricultural+Sciences+%26+Natural+Resources"><span class="hidden">Agricultural Sciences &amp; Natural Resources</span> Bulletin</a>
-                            </li>
-                            <li class="wdn-col-one-half bp1-wdn-col-full bp2-wdn-col-one-half">
-                                <a href="college/Agricultural+Sciences+%26+Natural+Resources/majors"><span class="hidden">Agricultural Sciences &amp; Natural Resources</span>  Majors</a>
-                            </li>
-                        </ul>
-                    </div>
-                </li>
-                <li class="wdn-col">
-                    <div>
-                        <a href="college/Architecture" class="header-underlay">
-                            <img src="<?php echo $baseURL ?>images/thumb_arc.jpg" alt="" />
-                            <h4 class="header-overlay">Architecture</h4>
-                        </a>
-                        <ul class="wdn-grid-set button-list">
-                            <li class="wdn-col-one-half bp1-wdn-col-full bp2-wdn-col-one-half">
-                                <a href="college/Architecture"><span class="hidden">Architecture</span> Bulletin</a>
-                            </li>
-                            <li class="wdn-col-one-half bp1-wdn-col-full bp2-wdn-col-one-half">
-                                <a href="college/Architecture/majors"><span class="hidden">Architecture</span>  Majors</a>
-                            </li>
-                        </ul>
-                    </div>
-                </li>
-                <li class="wdn-col">
-                    <div>
-                        <a href="college/Arts+%26+Sciences" class="header-underlay">
-                            <img src="<?php echo $baseURL ?>images/thumb_cas.jpg" alt="" />
-                            <h4 class="header-overlay">Arts &amp; Sciences</h4>
-                        </a>
-                        <ul class="wdn-grid-set button-list">
-                            <li class="wdn-col-one-half bp1-wdn-col-full bp2-wdn-col-one-half">
-                                <a href="college/Arts+%26+Sciences"><span class="hidden">Arts &amp; Sciences</span> Bulletin</a>
-                            </li>
-                            <li class="wdn-col-one-half bp1-wdn-col-full bp2-wdn-col-one-half">
-                                <a href="college/Arts+%26+Sciences/majors"><span class="hidden">Arts &amp; Sciences</span>  Majors</a>
-                            </li>
-                        </ul>
-                    </div>
-                </li>
-                <li class="wdn-col">
-                    <div>
-                        <a href="college/Business+Administration" class="header-underlay">
-                            <img src="<?php echo $baseURL ?>images/thumb_cba.jpg" alt="" />
-                            <h4 class="header-overlay">Business Administration</h4>
-                        </a>
-                        <ul class="wdn-grid-set button-list">
-                            <li class="wdn-col-one-half bp1-wdn-col-full bp2-wdn-col-one-half">
-                                <a href="college/Business+Administration"><span class="hidden">Business Administration</span> Bulletin</a>
-                            </li>
-                            <li class="wdn-col-one-half bp1-wdn-col-full bp2-wdn-col-one-half">
-                                <a href="college/Business+Administration/majors"><span class="hidden">Business Administration</span>  Majors</a>
-                            </li>
-                        </ul>
-                    </div>
-                </li>
-                <li class="wdn-col">
-                    <div>
-                        <a href="college/Education+%26+Human+Sciences" class="header-underlay">
-                            <img src="<?php echo $baseURL ?>images/thumb_ehs.jpg" alt="" />
-                            <h4 class="header-overlay">Education &amp; Human Sciences</h4>
-                        </a>
-                        <ul class="wdn-grid-set button-list">
-                            <li class="wdn-col-one-half bp1-wdn-col-full bp2-wdn-col-one-half">
-                                <a href="college/Education+%26+Human+Sciences"><span class="hidden">Education &amp; Human Sciences</span> Bulletin</a>
-                            </li>
-                            <li class="wdn-col-one-half bp1-wdn-col-full bp2-wdn-col-one-half">
-                                <a href="college/Education+%26+Human+Sciences/majors"><span class="hidden">Education &amp; Human Sciences</span>  Majors</a>
-                            </li>
-                        </ul>
-                    </div>
-                </li>
-                <li class="wdn-col">
-                    <div>
-                        <a href="college/Engineering" class="header-underlay">
-                            <img src="<?php echo $baseURL ?>images/thumb_eng.jpg" alt="" />
-                            <h4 class="header-overlay">Engineering</h4>
-                        </a>
-                        <ul class="wdn-grid-set button-list">
-                            <li class="wdn-col-one-half bp1-wdn-col-full bp2-wdn-col-one-half">
-                                <a href="college/Engineering"><span class="hidden">Engineering</span> Bulletin</a>
-                            </li>
-                            <li class="wdn-col-one-half bp1-wdn-col-full bp2-wdn-col-one-half">
-                                <a href="college/Engineering/majors"><span class="hidden">Engineering</span>  Majors</a>
-                            </li>
-                        </ul>
-                    </div>
-                </li>
-                <li class="wdn-col">
-                    <div>
-                        <a href="college/Fine+%26+Performing+Arts" class="header-underlay">
-                            <img src="<?php echo $baseURL ?>images/thumb_fpa.jpg" alt="" />
-                            <h4 class="header-overlay"><span class="college-name">Hixson-Lied College of</span> Fine &amp; Performing Arts</h4>
-                        </a>
-                        <ul class="wdn-grid-set button-list">
-                            <li class="wdn-col-one-half bp1-wdn-col-full bp2-wdn-col-one-half">
-                                <a href="college/Fine+%26+Performing+Arts"><span class="hidden">Hixson-Lied College of Fine &amp; Performing Arts</span> Bulletin</a>
-                            </li>
-                            <li class="wdn-col-one-half bp1-wdn-col-full bp2-wdn-col-one-half">
-                                <a href="college/Fine+%26+Performing+Arts/majors"><span class="hidden">Hixson-Lied College of Fine &amp; Performing Arts</span>  Majors</a>
-                            </li>
-                        </ul>
-                    </div>
-                </li>
-                <li class="wdn-col">
-                    <div>
-                        <a href="college/Journalism+%26+Mass+Communications" class="header-underlay">
-                            <img src="<?php echo $baseURL ?>images/thumb_jmc.jpg" alt="" />
-                            <h4 class="header-overlay">Journalism &amp; Mass Communications</h4>
-                        </a>
-                        <ul class="wdn-grid-set button-list">
-                            <li class="wdn-col-one-half bp1-wdn-col-full bp2-wdn-col-one-half">
-                                <a href="college/Journalism+%26+Mass+Communications"><span class="hidden">Journalism &amp; Mass Communications</span> Bulletin</a>
-                            </li>
-                            <li class="wdn-col-one-half bp1-wdn-col-full bp2-wdn-col-one-half">
-                                <a href="college/Journalism+%26+Mass+Communications/majors"><span class="hidden">Journalism &amp; Mass Communications</span> Majors</a>
-                            </li>
-                        </ul>
-                    </div>
-                </li>
-            </ul>
+    <div class="wdn-center">
+        <h2 class="academic-colleges-heading">Academic Colleges/Units</h2>
+    </div>
+    <div class="bp1-wdn-grid-set-halves bp2-wdn-grid-set-thirds">
+        <div class="wdn-col">
+            <div class="bulletin-card splash-college-casnr">
+                <img src="<?php echo $baseURL ?>images/splash/college-casnr.png" alt="Students learning about plants.">
+                <h3><a href="college/Agricultural+Sciences+%26+Natural+Resources">Agricultural Sciences &amp; Natural Resources</a></h3>
+                <ul class="wdn-list-reset">
+                    <li><a href="college/Agricultural+Sciences+%26+Natural+Resources">Bulletin</a></li>
+                    <li><a href="college/Agricultural+Sciences+%26+Natural+Resources/majors">Majors</a></li>
+                </ul>
+            </div>
         </div>
-        <div class="bp2-wdn-col-one-fourth">
-            <div class="separator-box" style="margin-top: 59px;">
-                <a href="college/Exploratory+%26+Pre-Professional+Advising+Center">
-                    <img src="<?php echo $baseURL ?>images/thumb_ec.jpg" alt="" />
-                    <h4>Explore Center</h4>
-                </a>
-                <p>The Explore Center provides an academic home for students who have not decided upon a major. The Center also provides advising for students interested in Pre-Professional (pre-health and pre-law) programs.</p>
-                <ul class="button-list reset-list">
-                    <li><a class="pill-button" href="major/Undeclared">Undecided Students</a></li>
-                    <li><a class="pill-button" href="major/Pre-Health">Pre-Health</a></li>
-                    <li><a class="pill-button" href="major/Pre-Law">Pre-Law</a></li>
+        <div class="wdn-col">
+            <div class="bulletin-card splash-college-architecture">
+                <img src="<?php echo $baseURL ?>images/splash/college-architecture.png" alt="A woman constructing a modal building.">
+                <h3><a href="college/Architecture">Architecture</a></h3>
+                <ul class="wdn-list-reset">
+                    <li><a href="college/Architecture">Bulletin</a></li>
+                    <li><a href="college/Architecture/majors">Majors</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="wdn-col">
+            <div class="bulletin-card splash-college-arts-sciences">
+                <img src="<?php echo $baseURL ?>images/splash/college-arts-sciences.png" alt="A student working in a laboratory.">
+                <h3><a href="college/Arts+%26+Sciences">Arts &amp; Sciences</a></h3>
+                <ul class="wdn-list-reset">
+                    <li><a href="college/Arts+%26+Sciences">Bulletin</a></li>
+                    <li><a href="college/Arts+%26+Sciences/majors">Majors</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="wdn-col">
+            <div class="bulletin-card splash-college-business-admin">
+                <img src="<?php echo $baseURL ?>images/splash/college-cba.png" alt="A student holding a microeconomics text book.">
+                <h3><a href="college/Business+Administration">Business Administration</a></h3>
+                <ul class="wdn-list-reset">
+                    <li><a href="college/Business+Administration">Bulletin</a></li>
+                    <li><a href="college/Business+Administration/majors">Majors</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="wdn-col">
+            <div class="bulletin-card splash-college-cehs">
+                <img src="<?php echo $baseURL ?>images/splash/college-cehs.png" alt="A student teaching a child to read.">
+                <h3><a href="college/Education+%26+Human+Sciences">Education &amp; Human Sciences</a></h3>
+                <ul class="wdn-list-reset">
+                    <li><a href="college/Education+%26+Human+Sciences">Bulletin</a></li>
+                    <li><a href="college/Education+%26+Human+Sciences/majors">Majors</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="wdn-col">
+            <div class="bulletin-card splash-college-engineering">
+                <img src="<?php echo $baseURL ?>images/splash/college-engineering.png" alt="A student using a survey tool.">
+                <h3><a href="college/Engineering">Engineering</a></h3>
+                <ul class="wdn-list-reset">
+                    <li><a href="college/Engineering">Bulletin</a></li>
+                    <li><a href="college/Engineering/majors">Majors</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="wdn-col">
+            <div class="bulletin-card splash-college-fpa">
+                <img src="<?php echo $baseURL ?>images/splash/college-fpa.png" alt="A student dancing.">
+                <h3><a href="college/Fine+%26+Performing+Arts"><span class="wdn-sans-caps college-name">Hixson-Lied College&nbsp;of</span> Fine &amp; Performing Arts</a></h3>
+                <ul class="wdn-list-reset">
+                    <li><a href="college/Fine+%26+Performing+Arts">Bulletin</a></li>
+                    <li><a href="college/Fine+%26+Performing+Arts/majors">Majors</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="wdn-col">
+            <div class="bulletin-card splash-college-jmc">
+                <img src="<?php echo $baseURL ?>images/splash/college-jmc.png" alt="Two students working in a newsroom.">
+                <h3><a href="college/Journalism+%26+Mass+Communications">Journalism &amp; Mass Communications</a></h3>
+                <ul class="wdn-list-reset">
+                    <li><a href="college/Journalism+%26+Mass+Communications">Bulletin</a></li>
+                    <li><a href="college/Journalism+%26+Mass+Communications/majors">Majors</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="wdn-col">
+            <div class="bulletin-card splash-college-ec">
+                <img src="<?php echo $baseURL ?>images/splash/college-ec.png" alt="A compass pointing north">
+                <h3><a href="college/Exploratory+%26+Pre-Professional+Advising+Center">Explore Center</a></h3>
+                <ul class="wdn-list-reset">
+                    <li><a href="college/Exploratory+%26+Pre-Professional+Advising+Center">Bulletin</a></li>
+                    <li><a href="major/Undeclared">Undecided Students</a></li>
+                    <li><a href="major/Pre-Health">Pre-Health</a></li>
+                    <li><a href="major/Pre-Law">Pre-Law</a></li>
                 </ul>
             </div>
         </div>
     </div>
+
 </div>
 </div>
