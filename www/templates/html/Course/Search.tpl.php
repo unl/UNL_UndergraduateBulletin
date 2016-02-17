@@ -25,7 +25,7 @@ if ($context->options['format'] != 'partial') {
 <?php if (!count($context->results)): ?>
     <p>Sorry, no matching courses</p>
 <?php else: ?>
-<div class="wdn-band">
+<div class="wdn-band course-list">
 	<div class="wdn-inner-wrapper">
 	<?php if ($context->options['format'] != 'partial'): ?>
         <div class="wdn-grid-set">
