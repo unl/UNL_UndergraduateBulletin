@@ -64,10 +64,6 @@ div.course {
 	line-height: 1;
 	color: #c00;
 }
-.course .title:hover {
-	color: #900;
-}
-
 .course .share {
     float:right;
 }
@@ -217,3 +213,7 @@ div.course {
 	margin-top: 0;
 }
 
+.course-list .info-1,
+.course-list .info-2 {
+	width: 100%;
+}

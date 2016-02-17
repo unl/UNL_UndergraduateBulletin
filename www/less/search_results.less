@@ -1,0 +1,100 @@
+#search_forms .ui-autocomplete {
+    box-shadow: 2px 4px 8px -2px rgba(0, 0, 0, 0.1);
+	background: rgba(255, 255, 255, 0.95);
+	line-height: 1;
+
+    .course {
+        margin: 0;
+        overflow: auto;
+    }
+
+    .courseID {
+        width: 5.997em;
+        margin-right: 1em;
+    }
+
+    .ui-menu-item {
+        padding: 0.602em 0.339em;
+        border-bottom: 1px dashed #d5d5d2;
+        color: #d00000;
+
+        &:last-child {
+            border: 0;
+        }
+    }
+
+    .ui-state-focus {
+        background: #00892C;
+        color: #fff;
+        border-width: 0 0 1px 0;
+        margin: 0;
+    }
+}
+
+#search_forms {
+    background: #ECEAE3;
+
+    form {
+        max-width: 40em;
+        margin: 0 auto;
+    }
+}
+
+#search_label {
+    font-weight: normal;
+    text-align: center;
+
+    .option {
+        display: inline-block;
+        padding: 0.02em 0.25em;
+        border-radius: 3px;
+        cursor: pointer;
+        background: #fff;
+        transition: color .2s;
+
+        &:focus {
+            outline-color: #137CBD;
+        }
+
+        &:hover {
+            color: #137CBD;
+        }
+
+        &.active {
+            background: #137CBD;
+            color: #fff;
+            position: relative;
+
+
+            &:after {
+                color: #137CBD;
+                content: "";
+                display: block;
+                position: absolute;
+                left: 50%;
+                margin-left: -8px;
+                bottom: -8px;
+                height: 0;
+                border-top: 8px solid #137CBD;
+                border-left: 8px solid transparent;
+                border-right: 8px solid transparent;
+            }
+        }
+    }
+}
+
+#majorform {
+	display: none;
+}
+
+.search_help {
+    font-size: 0.802em;
+    display: none;
+    opacity: 0;
+    transition: all .25s;
+
+    &.open {
+        display: block;
+        opacity: 1;
+    }
+}
