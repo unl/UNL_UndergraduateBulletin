@@ -44,7 +44,7 @@ class DBSearchResults extends \LimitIterator implements
             $this->count = $count[0];
         }
 
-        return $this->count;
+        return (int) $this->count;
     }
 
     /**
