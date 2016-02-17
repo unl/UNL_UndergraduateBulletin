@@ -1,0 +1,26 @@
+{
+  "name": "unl-undergraduatebulletin",
+  "version": "1.0.0",
+  "description": "This is the source for the [UNL Undergraduate Bulletin website](http://bulletin.unl.edu/undergraduate/).",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unl/UNL_UndergraduateBulletin.git"
+  },
+  "author": {
+    "name": "University of Nebraska-Lincoln",
+    "url": "http://wdn.unl.edu/"
+  },
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/unl/UNL_UndergraduateBulletin/issues"
+  },
+  "homepage": "https://github.com/unl/UNL_UndergraduateBulletin#readme",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-less": "^1.2.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "less-plugin-autoprefix": "^1.5.1",
+    "less-plugin-clean-css": "^1.5.1",
+    "load-grunt-tasks": "^3.4.0"
+  }
+}
