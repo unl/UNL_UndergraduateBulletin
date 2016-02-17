@@ -3,13 +3,17 @@
 namespace UNL\UndergraduateBulletin\Major;
 
 use UNL\UndergraduateBulletin\Controller;
+use UNL\UndergraduateBulletin\ControllerAwareInterface;
 use UNL\UndergraduateBulletin\SelfIteratingJsonSerializationTrait;
 use UNL\UndergraduateBulletin\EPUB\Utilities;
 
 class Search extends \ArrayIterator implements
+    ControllerAwareInterface,
     \JsonSerializable
 {
     use SelfIteratingJsonSerializationTrait;
+
+    protected $controller;
 
     public $options = ['q' => ''];
 
@@ -47,6 +51,24 @@ class Search extends \ArrayIterator implements
             return $a > $b;
         });
         return parent::__construct(array_unique($majors));
+    }
+
+    public function setController(Controller $controller)
+    {
+        $this->controller = $controller;
+
+        if (count($this) === 1) {
+            $major = $this->current();
+            header('Location: ' . $major->getURL(), true, 302);
+            exit;
+        }
+
+        return $this;
+    }
+
+    public function getController()
+    {
+        return $this->controller;
     }
 
     public function current()
