@@ -22,7 +22,7 @@ class Search extends \ArrayIterator implements
         $this->options = $options + $this->options;
 
         $this->options['q'] = str_replace(
-            ['..', DIRECTORY_SEPARATOR],
+            ['..', DIRECTORY_SEPARATOR, '?', '*', '['],
             '',
             trim($this->options['q'])
         );
