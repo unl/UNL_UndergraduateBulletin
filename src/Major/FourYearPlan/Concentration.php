@@ -14,6 +14,22 @@ class Concentration extends \ArrayIterator
         parent::__construct($this->data['semesters']);
     }
 
+    public function __get($name)
+    {
+        if ('notes' === $name) {
+            return $this->data['notes'];
+        }
+    }
+
+    public function __isset($name)
+    {
+        if ('notes' === $name) {
+            return isset($this->data['notes']);
+        }
+
+        return false;
+    }
+
     public function current()
     {
         return $this->buildSemesterObject(parent::key(), parent::current());
