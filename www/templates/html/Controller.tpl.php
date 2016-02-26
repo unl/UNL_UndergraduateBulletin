@@ -4,6 +4,7 @@ use UNL\Templates\Templates;
 use UNL\UndergraduateBulletin\Controller;
 
 $page = Templates::factory('Fixed', Templates::VERSION_4_1);
+$savvy->addGlobal('page',  $page);
 $webRoot = dirname(dirname(__DIR__));
 
 if (file_exists($webRoot . '/wdn/templates_4.1')) {
@@ -31,6 +32,7 @@ $page->contactinfo = $savvy->render(null, 'sharedcode/localFooter.html');
 
 $page->addStylesheet($protocolAgnosticBaseURL. 'css/all.css');
 $page->addStyleSheet($protocolAgnosticBaseURL . 'css/print.css', 'print');
+$page->head .= $savvy->render(null, 'sharedcode/editionHead.tpl.php');
 
 // Check if the year of this edition indicates it has not been published
 if (mktime(0, 0, 0, 6, 1, $context->getEdition()->getYear()) > time() ) {
