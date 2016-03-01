@@ -19,11 +19,11 @@
 		    foreach ($context as $course): ?>
 			<tr class="wdn-course-row">
 				<td class="wdn-course">
-				    <span class="wdn-course-id wdn-block"> <?php echo UNL\UndergraduateBulletin\EPUB\Utilities::addCourseLinks($course['course']); ?> </span>
-				    <span class="wdn-course-title wdn-block"> <?php echo $course['title']; ?> </span>
+				    <span class="wdn-course-id"> <?php echo UNL\UndergraduateBulletin\EPUB\Utilities::addCourseLinks($course['course']); ?> </span>
+				    <span class="wdn-course-title"> <?php echo $course['title']; ?> </span>
 				</td>
-				<td class="wdn-course-credits"><span class="wdn-course-credit-hours wdn-center wdn-block"> <?php echo $course['hours']; ?> </span> <span
-					class="wdn-block wdn-center wdn-course-credit-hours-label"
+				<td class="wdn-course-credits"><span class="wdn-course-credit-hours"> <?php echo $course['hours']; ?> </span> <span
+					class="wdn-course-credit-hours-label"
 				> cr </span>
 				</td>
 			</tr>
@@ -37,7 +37,7 @@
 		<tfoot>
 			<tr>
 				<td class="wdn-total-credits-label">Total Credits</td>
-				<td class="wdn-total-credits-number wdn-center"><?php echo $total; ?></td>
+				<td class="wdn-total-credits-number"><?php echo $total; ?></td>
 			</tr>
 		</tfoot>
 	</table>

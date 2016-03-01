@@ -1,7 +1,7 @@
 <section class="wdn-band four-year-plans">
 	<div class="wdn-inner-wrapper">
     	<?php foreach ($context as $key => $concentration): ?>
-            <h2><?php echo $key ?> <span class="wdn-4yrplan">4-Year Plan</span></h2>
+            <h2><?php echo $key ?> <span class="wdn-subhead">4-Year Plan</span></h2>
             <div class="bp2-wdn-grid-set-halves wdn-grid-clear">
                 <?php echo $savvy->render($concentration); ?>
             </div>
