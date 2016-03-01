@@ -67,7 +67,7 @@ class Major implements
         }
         $pagetitle = '<h1>';
         if ($subhead) {
-            $pagetitle .= '<span class="subhead">' . $savvy->escape($subhead) . '</span> ';
+            $pagetitle .= '<span class="wdn-subhead">' . $savvy->escape($subhead) . '</span> ';
         }
         $pagetitle .= $savvy->escape($this->title) . '</h1>';
         $controller::setReplacementData('pagetitle', $pagetitle);

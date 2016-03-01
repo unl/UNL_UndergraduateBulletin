@@ -61,7 +61,7 @@ class ControllerTest extends \PHPUnit_Framework_TestCase
 		// output the entire controller now (should find major from cache)
 		$output = $outputcontroller->render($controller);
 
-		$this->assertTrue(strpos($output, '<h1><span class="subhead">Architecture </span> Architecture</h1>') !== false, 'Pagetitle should include major name');
+		$this->assertTrue(strpos($output, '<h1><span class="wdn-subhead">Architecture </span> Architecture</h1>') !== false, 'Pagetitle should include major name');
 	}
 
 	protected function rrmdir($src)
