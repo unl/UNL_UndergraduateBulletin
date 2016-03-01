@@ -14,7 +14,6 @@ if (false === strpos($relatedMajors, '</li>')) {
                 <div id="toc_nav">
                     <a id="tocToggle" href="#">+</a>
                     <ol id="toc"><li>Intro</li></ol>
-                    <div id="toc_major_name"><?php echo $context->name; ?></div>
                 </div>
                 <div id="long_content">
                 <?php echo Utilities::convertHeadings($context->getRaw('description')); ?>

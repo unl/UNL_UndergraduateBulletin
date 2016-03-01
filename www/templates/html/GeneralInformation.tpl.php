@@ -18,7 +18,6 @@ $rawController::setReplacementData('breadcrumbs', '
         		<div id="toc_nav">
         		    <a id="tocToggle" href="#">+</a>
         		    <ol id="toc"><li>Intro</li></ol>
-            		<div id="toc_major_name">General Information</div>
         		</div>
         	</div>
         </div>
