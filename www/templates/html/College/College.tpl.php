@@ -21,7 +21,7 @@ if (false === strpos($relatedMajors, '</li>')) {
             </div>
             <div class="bp2-wdn-col-one-third">
                 <?php if ($relatedMajors): ?>
-                    <h3 id="relatedMajors">Majors</h3>
+                    <h2 class="bp2-clear-top" id="relatedMajors">Majors</h2>
                     <?php echo $relatedMajors ?>
                 <?php endif; ?>
             </div>
