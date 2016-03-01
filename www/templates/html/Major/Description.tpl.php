@@ -51,7 +51,6 @@ $regions = [
         <div id="toc_nav">
             <a id="tocToggle" href="#">+</a>
             <ol id="toc"><li>Intro</li></ol>
-            <div id="toc_major_name"><?php echo $context->major->title; ?></div>
         </div>
 
         <div id="long_content">
