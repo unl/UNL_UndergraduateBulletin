@@ -24,7 +24,7 @@ if ($context->options['view'] == 'searchmajors') {
             <div class="bp1-wdn-col-one-fourth">
                 <?php echo $savvy->render(null, 'Major/Filters.tpl.php'); ?>
             </div>
-            <div class="bp1-wdn-col-three-fourths">
+            <div class="bp1-wdn-col-three-fourths wdn-pull-right" id="results">
                 <?php if (!$context->count()): ?>
                     Sorry, no matching areas of study
                 <?php else: ?>

@@ -80,11 +80,6 @@ class Major implements
 </ul>
 EOD
         );
-
-        if ($this->options['view'] == 'plans') {
-            $controller::setReplacementData('head', '<link rel="stylesheet" href="'
-                . $controller::getBaseURL() . 'templates/html/css/modules.courses.css" />');
-        }
     }
 
     public function run()

@@ -56,6 +56,7 @@ class SubjectArea extends RealSubjectArea implements
     public function getFilters()
     {
         $filters = new Filters();
+        $filters->subject = $this->getSubject();
         $filters->groups = $this->groups;
         return $filters;
     }

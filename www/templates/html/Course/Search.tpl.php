@@ -32,7 +32,7 @@ if ($context->options['format'] != 'partial') {
    		<div class="bp2-wdn-col-one-fourth">
     		<?php echo $savvy->render($context->getFilters(), 'Course/Filters.tpl.php'); ?>
     	</div>
-       	<div class="bp2-wdn-col-three-fourths">
+       	<div class="bp2-wdn-col-three-fourths wdn-pull-right" id="results">
     <?php endif; ?>
 
     <h2 class="resultCount"><?php echo count($context->results) ?> results</h2>

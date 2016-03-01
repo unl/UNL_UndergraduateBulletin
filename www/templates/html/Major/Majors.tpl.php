@@ -4,8 +4,7 @@
 		    <div class="bp2-wdn-col-one-fourth">
 		        <?php echo $savvy->render(null, 'Major/Filters.tpl.php'); ?>
 		    </div>
-		    <div class="bp2-wdn-col-three-fourths">
-		        <h2 class="clear-top">Select A Major or Area of Study</h2>
+		    <div class="bp2-wdn-col-three-fourths wdn-pull-right" id="results">
 		        <?php echo $savvy->render($context, 'Major/UnorderedList.tpl.php'); ?>
 		    </div>
 		</div>

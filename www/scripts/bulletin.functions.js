@@ -2,9 +2,10 @@ define([
     'jquery',
     'wdn',
     'modernizr',
+    'require',
     'notice',
     './jQuery.toc.js'
-], function($, WDN, Modernizr) {
+], function($, WDN, Modernizr, require) {
     return function(baseUrl) {
         var testCount = 0;
         var tableOfContentsSelector = '#toc';
@@ -17,6 +18,8 @@ define([
         var $courseSearch = $(courseSearchSelector);
         var $majorSearch = $(majorSearchSelector);
         var activeClass ='active';
+        var textExpand = '(Expand)';
+        var textCollapse = '(Collapse)';
 
         // Append Versioning to the top
         $('#pagetitle h1').append( $versioning.animate({ opacity: 1 }, 500 ) );
@@ -98,59 +101,203 @@ define([
             });
         }
 
-        // filters
-        $('h2.resultCount').after('<p id="filterSummary">Displaying: <a href="#" class="all">All Options</a></p>');
-        $('form.filters input').each(function(){
-            if ($(this).attr('value') !== "all") {
+        Filters = function($filters) {
+            var controls = $('.filters', $filters).attr('aria-controls');
+            this.filters = $filters;
+            this.results = $('#' + controls);
+            var $summary = $('.summary', this.results);
+            var $options = $('.filter-options', this.filters);
+            var $toggles = $('.toggle', this.filters);
+            var optionAnimation = 'slideDown';
+            var optionAriaExpanded = 'true';
+            var optionToggleText = '(Collapse)';
+            this.resultsSelector = '.majorlisting li, div.course';
+
+            if ($(window).width() < 768) {
+                optionAnimation = 'slideUp';
+                optionAriaExpanded = 'false';
+                optionToggleText = '(Expand)';
+            }
+
+            $options[optionAnimation](100);
+            $options.attr('aria-expanded', optionAriaExpanded);
+            $toggles.text(optionToggleText);
+
+            if (!$summary.length) {
+                $summary = $(this.generateSummaryTemplate())
+                    .append(this.generateAllSummaryOption())
+                    .prependTo(this.results);
+            }
+
+            var $allResults = $(this.resultsSelector, this.results);
+
+            $('input', $options).not('.filterAll').each(function() {
                 // Check and see if we actually have any of these courses
-                var total = $('.'+$(this).attr('value')).length; //count all based on class
+                var total = $allResults.filter('.' + $(this).attr('value')).length; //count all based on class
+                var $label = $(this).next('label');
+
                 if (!total) {
-                    $(this).attr('disabled', 'disabled'); //disable the input/label
+                    $(this).prop('disabled', true); //disable the input/label
                     $(this).closest('li').addClass('disabled');
                     return true;
                 } else {
-                    if ($(this).closest('form').hasClass('courseFilters')) { //otherwise calculate the count
-                        total = total;
+                    if (!$label.children('.count').length) { // if span.count doesn't already exists
+                        $label.append(' <span class="count">('+total+')</span>'); // add the count
                     }
-                    if (!$(this).next('label').children('.count').length) { // if span.count doesn't already exists
-                        $('label[for='+this.id+']').append(' <span class="count">('+total+')</span>'); // add the count
+                }
+            });
+
+            var self = this;
+
+            $filters.on('click', 'button', function (e) {
+                var $header = $(this);
+                var $container = $header.next();
+                var $toggle = $('.toggle', $header);
+
+                $container.slideToggle(100, function () {
+                    if ($container.is(':visible')) {
+                        //Expanded
+                        $toggle.text('(Collapse)');
+                        $container.attr('aria-expanded', 'true');
+                        $container.focus();
+                    } else {
+                        //Collapsed
+                        $toggle.text('(Expand)');
+                        $container.attr('aria-expanded', 'false');
+                    }
+                });
+            });
+
+            $filters.on('click', 'input', function(e) {
+                self.action($(this));
+            });
+
+            $('input:checked', $filters).each(function() {
+                self.action($(this));
+            });
+        };
+
+        Filters.prototype = {
+            generateSummaryTemplate: function() {
+                return '<p class="summary" area-live="polite">Displaying: </p>';
+            },
+
+            generateAllSummaryOption: function() {
+                return '<span class="all selected-options"> All Options</span>';
+            },
+
+            generateSummaryOption: function(value, type, label) {
+                return [
+                    '<span class="',
+                    value,
+                    ' selected-options"><span class="group">',
+                    type,
+                    '</span> ',
+                    label,
+                    '</span> <span class="operator">OR </span>'
+                ].join('');
+            },
+
+            action : function(checkbox) {
+                var checked = [];
+                var filterElement = 'input';
+                var stateProperty = 'checked';
+                var activeFilterSelector = filterElement + ':' + stateProperty;
+                var allFilterClass = 'filterAll';
+                var allFilterSelector = '.' + allFilterClass;
+                var $optionGroup = checkbox.closest('.filter-options');
+                var filterState = checkbox[0].checked;
+                var self = this;
+
+                var showState = function() {
+                    var $checkedFilters = $(activeFilterSelector, self.filters).not(allFilterSelector);
+                    var $allResults = $(self.resultsSelector, self.results);
+
+                    if (!$checkedFilters.length) {
+                        // return to show everything
+                        $allResults.show();
+                        return;
                     }
 
-                }
-            }
-            $(this).click(function() {
-                if ($(this).hasClass('filterAll')) { //if all was checked, then put the checkmark next to all alls, and show everything.
-                    if (this.checked){
-                        $('form.filters input').not('.filterAll').removeAttr('checked');
-                        $('.filterAll').attr('checked', 'checked');
-                        $('div.course, #majorListing li').show();
-                        $('#filterSummary a').remove();
-                        $('#filterSummary').append('<a href="#" class="all">All Options</a>');
-                        $('h2.resultCount span').remove();
-                    }
-                } else {
-                    $('.filterAll').removeAttr('checked'); //uncheck the all checkboxes
-                    $('div.course, #majorListing li').hide(); //hide all the coures and majors
-                    var one_checked = false;
-                    $('#filterSummary a').remove();
-                    $('form.filters input').not('.filterAll').each(function(){ //loop through all the checkboxes
+                    // selectively show records
+                    $allResults.hide();
+                    $checkedFilters.each(function(){
+                        var value = $(this).attr('value');
+                        var id = $(this).attr('id');
+
                         if (this.checked) {
-                            one_checked = true;
-                            $('li.'+$(this).attr('value')+', div.'+$(this).attr('value')).show(); //if a checkbox is checked, make sure the corresponding content is shown.
-                            $('#filterSummary a.all').remove();
-                            //$('#filterSummary').append(' <a href="#" class="'+$(this).attr('value')+'"><span class="group">'+$(this).closest('fieldset').children('legend').text()+':</span> '+$(this).siblings('label')[0].childNodes[0].nodeValue+'</a>')
-                            $('#filterSummary').append('<a href="#" class="'+$(this).attr('value')+'"><span class="group">'+$(this).closest('fieldset').children('legend').text()+':</span> '+$(this).siblings('label').text()+'</a>');
+                            // make sure the corresponding content is shown.
+                            $allResults.filter('.' + value).show();
+                            checked.push(id);
                         }
                     });
-                    totalDisplayed = $('div.course:visible, #majorListing li:visible').length;
-                    $('h2.resultCount span').remove();
-                    $('h2.resultCount').prepend('<span>'+totalDisplayed+' of </span> ');
-                    if (one_checked === false) { //no checkboxes are checked, so show all
-                        $('div.course, #majorListing li').show();
-                        $('.filterAll').attr('checked', 'checked');
-                        $('h2.resultCount span').remove();
+                };
+
+                var showAll = function(full) {
+                    var $scope = $optionGroup;
+                    if (full) {
+                        $scope = self.filters;
                     }
+                    $(filterElement, $scope).not(allFilterSelector).prop(stateProperty, false);
+                    $(allFilterSelector, $scope).prop(stateProperty, true);
+                    showState();
+                };
+
+                if ((checkbox.hasClass(allFilterClass) && filterState) || !$(activeFilterSelector, $optionGroup).length) {
+                    showAll();
+                } else {
+                    $(allFilterSelector, $optionGroup).prop(stateProperty, false);
+                    showState();
                 }
+
+                var $summary = $('.summary', this.results);
+                $('.selected-options, .operator', $summary).remove();
+
+                if (checked.length < 1) {
+                    //nothing in the array, therefore it's ALL
+                    showAll(true);
+                    $summary.append(this.generateAllSummaryOption());
+                } else {
+                    //at least one id exists in the array
+                    var summaryOptions = [];
+                    $.each(checked, function(key, value) {
+                        var $selected = $('#' + value);
+
+                        if (!$selected.length) {
+                            return;
+                        }
+
+                        var $legend = $selected.closest('.filter-options').prev('button');
+
+                        summaryOptions.push(document.createTextNode(' '));
+                        summaryOptions.push(self.generateSummaryOption($selected.attr('value'), $legend.clone().children().remove().end().text(), $selected.siblings('label').text()));
+                        summaryOptions.push(document.createTextNode(' '));
+                    });
+
+                    $summary.append(summaryOptions);
+                    $('.operator:last-child', $summary).remove();
+                }
+            }
+        };
+
+        // filters
+        $('.filters-wrapper').each(function() {
+            var $filters = $(this);
+            new Filters($filters);
+            var $sidebar = $filters.parent();
+
+            require(['./vendor/jquery.sticky-kit.js'], function() {
+                var checkSticky = function() {
+                    $(document.body).trigger('sticky_kit:recalc');
+
+                    if (Modernizr.mq('only screen and (min-width: 768px)')) {
+                        $sidebar.stick_in_parent({spacer:false});
+                    } else {
+                        $sidebar.trigger('sticky_kit:detach');
+                    }
+                };
+                $(window).on('resize', checkSticky);
+                checkSticky();
             });
         });
 

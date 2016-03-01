@@ -1,0 +1,379 @@
+.bulletin-card {
+    background: #fdfdfc;
+    border-top: 4px solid #848482;
+    box-shadow: 0 0 0 1px #bcbab3;
+
+    &:hover {
+        background: #fff;
+        border-top: 4px solid #c00;
+        box-shadow: 0 0 0 1px #a9a7a0;
+    }
+}
+
+.splash-academic-colleges {
+    background: #c9beac url('../../images/splash/campus-bg.jpg') 50% 0 no-repeat;
+    background-size: 150%;
+    padding-top: 7.994em;
+
+    li {
+        margin: 0;
+        font-size: 0.923rem;
+    }
+
+    .bulletin-card {
+      position: relative;
+      min-height: 14.204em;
+      margin-bottom: 1em;
+    }
+
+    img {
+        position: absolute;
+        display: block;
+        bottom: 0;
+        right: 0;
+        z-index: 1;
+        max-width: 300px;
+    }
+
+    h3 {
+        padding: 0.75em 7.5% 0;
+        font-size: 2.154rem;
+        font-weight: 400;
+        text-transform: uppercase;
+        margin-top: 0;
+    }
+
+    ul {
+        padding: 0 7.5%;
+    }
+
+    li {
+        margin: 0;
+        font-size: 0.923rem;
+    }
+
+    @media (min-width: 480px) {
+        background-size: 100%;
+
+        .bulletin-card {
+            min-height: 17.713em;
+        }
+    }
+
+    @media (min-width: 600px) {
+        padding-top: 9.969em;
+    }
+
+    @media (min-width: 768px) {
+        padding-top: 7.994em;
+
+        li {
+            font-size: 0.802rem;
+        }
+
+        .bulletin-card{
+            min-height: 14.204em;
+        }
+
+        h3 {
+            padding-top: 1em;
+            font-size: 1.75rem;
+        }
+    }
+
+    @media (min-width: 900px) {
+        padding-top: 13.288em;
+
+        h3 {
+            font-size: 1.899rem;
+        }
+    }
+}
+
+.academic-colleges-heading {
+  display: inline-block;
+  margin-bottom: 0.75em;
+  padding: 0.254em 0;
+  font-family: "Tungsten A", "Tungsten B", "HelveticaNeueCondensed", "HelveticaNeue-Condensed", "Helvetica Neue Condensed", "HelveticaNeueRomanCondensed", "HelveticaNeue-Roman-Condensed", "Helvetica Neue Roman Condensed", "Arial Narrow", "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+  font-size: 2.307rem;
+  border-top: 1px solid #adacaa;
+  border-bottom: 1px solid #adacaa;
+}
+
+.splash-college-architecture h3,
+.splash-college-business-admin h3,
+.splash-college-engineering h3,
+.splash-college-jmc h3,
+.splash-college-architecture ul,
+.splash-college-business-admin ul,
+.splash-college-engineering ul,
+.splash-college-jmc ul {
+  float: right !important;
+  text-align: right;
+  width: 100%;
+}
+
+.splash-college-architecture img {
+  left: 0;
+  width: 60%;
+}
+.splash-college-arts-sciences img {
+  right: -0.75em;
+  width: 55%;
+  max-width: 230px;
+}
+
+.splash-college-casnr img {
+  width: 50%;
+  max-width: 210px;
+}
+
+.splash-college-casnr h3 {
+  width: 100%;
+}
+
+.splash-college-business-admin img {
+  left: -0.75em;
+  width: 40%;
+  max-width: 160px;
+}
+
+.splash-college-business-admin h3 {
+  width: 100%;
+}
+
+.splash-college-cehs img {
+  width: 50%;
+  max-width: 200px;
+}
+
+.splash-college-cehs h3 {
+  width: 70%;
+}
+
+.splash-college-engineering img {
+  left: 7%;
+  width: 45%;
+  max-width: 190px;
+}
+
+.splash-college-fpa img {
+  top: -12%;
+  right: -0.75em;
+  width: 35%;
+  max-width: 160px;
+}
+
+.splash-college-jmc img {
+  left: 0;
+  width: 55%;
+  max-width: 300px;
+}
+
+.splash-college-jmc h3 {
+  width: 75%;
+}
+
+.splash-college-ec img {
+  width: 55%;
+  max-width: 260px;
+}
+
+.college-name {
+  display: block;
+  font-size: 0.769rem;
+  line-height: 1.333;
+}
+
+@media (min-width: 380px) {
+    .splash-college-casnr img {
+        width: 45%;
+      }
+}
+
+@media  (min-width: 480px) {
+    .splash-college-architecture h3,
+    .splash-college-business-admin h3,
+    .splash-college-engineering h3,
+    .splash-college-jmc h3,
+    .splash-college-architecture ul,
+    .splash-college-business-admin ul,
+    .splash-college-engineering ul,
+    .splash-college-jmc ul {
+        float: left !important;
+        text-align: left;
+    }
+
+    .splash-college-architecture img {
+        left: auto;
+        right: 0;
+        width: 75%;
+    }
+
+    .splash-college-arts-sciences img {
+        width: 60%;
+    }
+
+    .splash-college-casnr img {
+        width: 55%;
+    }
+
+    .splash-college-business-admin img {
+        left: auto;
+        right: 5%;
+        width: 45%;
+      }
+
+    .splash-college-cehs img {
+        width: 60%;
+    }
+
+    .splash-college-cehs h3 {
+        width: 100%;
+    }
+
+    .splash-college-engineering img {
+        left: auto;
+        right: 0;
+        width: 55%;
+    }
+
+    .splash-college-fpa img {
+        width: 60%;
+        top: 2%;
+    }
+
+    .splash-college-fpa h3 {
+        width: 70%;
+    }
+
+    .splash-college-jmc img {
+        left: auto;
+        right: 0;
+        width: 70%;
+    }
+
+    .splash-college-jmc h3 {
+        width: 100%;
+    }
+
+    .splash-college-ec img {
+        width: 60%;
+    }
+}
+
+@media (min-width: 600px) {
+    .splash-college-cehs h3 {
+        width: 75%;
+    }
+}
+
+@media (min-width: 768px) {
+  .academic-colleges-heading {
+    font-size: 2.532rem;
+  }
+
+  .splash-college-casnr img {
+    width: 55%;
+  }
+
+  .splash-college-business-admin img {
+    right: -1em;
+  }
+
+  .splash-college-business-admin h3 {
+    width: 70%;
+  }
+
+  .splash-college-cehs img {
+    width: 55%;
+  }
+
+  .splash-college-fpa h3 {
+    width: 78%;
+  }
+
+  .splash-college-jmc img {
+    width: 60%;
+  }
+
+  .splash-college-ec img {
+    width: 55%;
+  }
+
+  .college-name {
+    font-size: 0.625rem;
+  }
+}
+
+@media  (min-width: 960px) {
+  .splash-college-cehs img {
+    width: 60%;
+  }
+
+  .splash-college-fpa img {
+    width: 47%;
+    top: 4.499em;
+  }
+
+  .splash-college-fpa h3 {
+    width: 100%;
+  }
+
+  .college-name {
+    font-size: 0.75rem;
+  }
+}
+
+@media (min-width: 420px) and (max-width:479px) {
+  .splash-college-casnr h3 {
+    width: 70%;
+  }
+}
+
+@media (min-width: 540px) {
+  .splash-college-fpa img {
+    width: 60%;
+    top: -5%;
+  }
+}
+@media (min-width: 620px) {
+  .splash-college-fpa img {
+    width: 55%;
+    top: -5%;
+  }
+  .splash-college-fpa h3 {
+    width: 67%;
+  }
+}
+@media (min-width: 660px) {
+  .splash-college-fpa img {
+    width: 45%;
+    top: 3%;
+  }
+}
+@media (min-width: 844px) {
+  .splash-college-fpa img {
+    width: 55%;
+    top: 15%;
+  }
+}
+@media (min-width: 1044px) {
+  .splash-college-fpa img {
+    top: 3.157em;
+    right: -1em;
+  }
+}
+@media  (min-width: 1280px) {
+  .splash-college-fpa img {
+    top: 2.369em;
+  }
+}
+@media  (min-width: 1600px) {
+  .splash-college-fpa img {
+    top: 1.777em;
+  }
+}

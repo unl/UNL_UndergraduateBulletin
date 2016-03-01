@@ -1,0 +1,298 @@
+.course {
+	clear: both;
+
+	#maincontent > & {
+		margin-bottom: 3em;
+	}
+
+	.courseID {
+		float: left;
+		width: 100%;
+	    border-radius: 0.317em;
+	    padding: 0.602em 0.339em 0.75em;
+		text-align: center;
+	    background-color: #CEDFE3;
+		color: #213847;
+	}
+
+	.subjectCode {
+		position: relative;
+		display: block;
+		padding-bottom: 0;
+		font-family: 'Gotham SSm A', 'Gotham SSm B', Verdana, 'Verdana Ref', Geneva, Tahoma, 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', 'Bitstream Vera Sans', 'Liberation Sans', sans-serif;
+		font-weight: 400;
+		font-style: normal;
+		font-size: 0.802rem;
+	}
+
+	.number {
+		display: block;
+		margin-top: -0.1em;
+		font-family: 'Tungsten A', 'Tungsten B', Impact, Haettenschweiler, 'Arial Narrow Bold', 'Franklin Gothic Bold', Charcoal, 'Helvetica Inserat', 'Bitstream Vera Sans Bold', 'Arial Black', sans-serif;
+		font-weight: 600;
+		font-style: normal;
+		font-size: 2.532rem;
+		line-height: 1;
+
+		&.l2 {
+			font-size: 1.899rem;
+			padding: 2px 0px 4px 0px;
+		}
+
+		&.l3 {
+			font-size: 1.069rem;
+			padding: 2px 0px 4px 0px;
+		}
+	}
+
+	.coursetitle {
+		display: block;
+		margin-top: 0.254em;
+		padding-bottom: 0.254em;
+		font-family: 'Tungsten A', 'Tungsten B', Impact, Haettenschweiler, 'Arial Narrow Bold', 'Franklin Gothic Bold', Charcoal, 'Helvetica Inserat', 'Bitstream Vera Sans Bold', 'Arial Black', sans-serif;
+		font-weight: 400;
+		font-size: 2.369rem;
+		font-size: rem;
+		border-bottom: 1px solid #e1dfd7;
+		line-height: 1;
+		color: #c00;
+	}
+
+	.crosslistings {
+		margin: 4px 0;
+		display: block;
+
+		.crosslisting {
+			font-style: italic;
+			background: none;
+		}
+	}
+
+	.prereqs,
+	.notes,
+	.subsequent,
+	.description {
+		margin: 7px 0 4px 0;
+
+		div {
+			display: inline;
+		}
+	}
+
+	.description {
+		margin: 1em 0;
+	}
+
+	.notes {
+		font-size: 0.802rem;
+		font-style: italic;
+		margin-bottom: 0;
+		opacity: 0.85;
+	}
+
+	.prereqs {
+		font-weight: bold;
+		font-style: italic;
+	}
+
+	.subsequent {
+		padding: 1em 0.75em;
+		border-radius: 0.317em;
+		font-size: 13px;
+		font-size: 0.802rem;
+		background-color: #f1ede2;
+
+		a {
+			font-family: 'Gotham SSm A', 'Gotham SSm B', Verdana, 'Verdana Ref', Geneva, Tahoma, 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', 'Bitstream Vera Sans', 'Liberation Sans', sans-serif;
+			font-weight: 400;
+			font-size: 12px;
+		}
+	}
+
+	.details {
+		border-collapse: collapse;
+		margin-top: 0.75em;
+
+		td {
+			word-wrap: break-word;
+			padding: 6px 8px;
+
+		}
+
+		.label {
+			font-family: 'Gotham SSm A', 'Gotham SSm B', Verdana, 'Verdana Ref', Geneva, Tahoma, 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', 'Bitstream Vera Sans', 'Liberation Sans', sans-serif;
+			font-weight: 400;
+			font-size: 0.75rem;
+			line-height: 1.333;
+		}
+
+		.value {
+			font-size: 13px;
+			text-align: right;
+		}
+
+		.credits .value,
+		.value abbr {
+			font-family: 'Tungsten A', 'Tungsten B', Impact, Haettenschweiler, 'Arial Narrow Bold', 'Franklin Gothic Bold', Charcoal, 'Helvetica Inserat', 'Bitstream Vera Sans Bold', 'Arial Black', sans-serif;
+			font-weight: 600;
+			font-size: 1.425rem;
+		}
+	}
+}
+
+#collegeListing,
+#majorListing,
+#subjectListing {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+
+	li {
+		border-bottom: 1px solid #e1dfd7;
+		line-height: 1.333;
+		padding: 0.602em 0 0.602em 0.339em;
+
+		a {
+			border: 0;
+			display: block;
+		}
+	}
+}
+
+@media (min-width: 480px) {
+	#collegeListing,
+	#subjectListing {
+	    column-count: 2;
+	    break-inside: avoid;
+	}
+}
+
+#majorListing {
+	.note {
+		padding-left: 0.75em;
+		font-family: 'Gotham SSm A', 'Gotham SSm B', Verdana, 'Verdana Ref', Geneva, Tahoma, 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', 'Bitstream Vera Sans', 'Liberation Sans', sans-serif;
+		font-weight: 400;
+		font-size: 0.75em;
+		color: #716F6B;
+	}
+}
+
+#subjectListing {
+	.subjectCode {
+		width: 4.25em;
+		float: left;
+	}
+
+	.title {
+		border-left: 1px dotted #e1dfd7;
+		color: #565656;
+		padding-left: 0.75em;
+		margin-left: 4.25em;
+		display: block;
+	}
+}
+
+.resultCount {
+	margin-top: 0;
+}
+
+.course-list {
+	.course {
+		margin-bottom: 3em;
+	}
+
+	.info-1,
+	.info-2 {
+		width: 100%;
+	}
+}
+
+.four-year-plans {
+	h2 {
+		margin-top: 0;
+	}
+}
+
+.wdn-course-year-header-year {
+  display: inline-block;
+  vertical-align: middle;
+  font-family: "Mercury SSm A", "Mercury SSm B", Georgia, Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.3076923rem;
+  line-height: 2;
+  color: #727270;
+  border-top: 1px solid rgba(91, 91, 90, 0.1);
+  border-bottom: 1px solid rgba(91, 91, 90, 0.1);
+}
+
+.wdn-course-year-header-number {
+  vertical-align: middle;
+  padding-left: 0.1em;
+  font-size: 3.1538462rem;
+}
+
+.wdn-courses {
+    font-family: "Gotham SSm A", "Gotham SSm B", Verdana, "Verdana Ref", Geneva, Tahoma, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.9230769rem;
+    margin-bottom: 1em;
+    border: 0;
+    line-height: 1.333;
+    white-space: break-word;
+
+    caption {
+    	font-family: inherit;
+    	font-size: 1rem;
+
+    	.wdn-semester-season {
+    		font-family: "Mercury SSm A", "Mercury SSm B", Georgia, Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+    		font-style: italic;
+    	}
+    }
+
+    thead {
+    	display: none;
+    }
+
+    tfoot {
+    	font-family: "Tungsten A", "Tungsten B", "HelveticaNeueCondensed", "HelveticaNeue-Condensed", "Helvetica Neue Condensed", "HelveticaNeueRomanCondensed", "HelveticaNeue-Roman-Condensed", "Helvetica Neue Roman Condensed", "Arial Narrow", "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    	font-size: 1.272rem;
+
+    	td {
+    		padding-top: 10px;
+    		font-weight: 600;
+    	}
+    }
+
+    td {
+    	padding: 6px 2px;
+    }
+
+    .wdn-course-id {
+    	display: block;
+    }
+
+    .wdn-course-title {
+    	display: block;
+    }
+
+    .wdn-course-credit-hours {
+    	display: block;
+    	text-align: center;
+    	font-family: "Tungsten A", "Tungsten B", "HelveticaNeueCondensed", "HelveticaNeue-Condensed", "Helvetica Neue Condensed", "HelveticaNeueRomanCondensed", "HelveticaNeue-Roman-Condensed", "Helvetica Neue Roman Condensed", "Arial Narrow", "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    	font-size: 2.1538462rem;
+    	line-height: 1;
+    }
+
+    .wdn-course-credit-hours-label {
+    	display: block;
+    	text-align: center;
+    	line-height: 1;
+    }
+
+    .wdn-total-credits-number {
+    	font-size: 1.5em;
+    }
+}

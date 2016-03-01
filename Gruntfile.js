@@ -15,7 +15,22 @@ module.exports = function (grunt) {
 					]
 				},
 				files: {
-					"www/css/all.css": "www/less/all.less"
+					"www/css/all.css": "www/less/all.less",
+					"www/css/print.css": "www/less/print.less",
+					"www/css/print_book.css": "www/less/print_book.less",
+					"www/css/editions/2016.css": "www/less/editions/2016.less",
+					"www/css/editions/2011.css": "www/less/editions/2011.less"
+				}
+			}
+		},
+
+		uglify: {
+			options: {
+				sourceMap: true
+			},
+			all: {
+				files: {
+					"www/scripts/bulletin.functions.min.js": "www/scripts/bulletin.functions.js"
 				}
 			}
 		},
@@ -28,5 +43,5 @@ module.exports = function (grunt) {
 		}
 	});
 
-	grunt.registerTask('default', ['less']);
+	grunt.registerTask('default', ['less', 'uglify']);
 };

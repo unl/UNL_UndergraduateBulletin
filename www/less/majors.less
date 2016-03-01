@@ -1,0 +1,232 @@
+.intro {
+    font-size: 115%;
+    line-height: 1.45;
+}
+
+#toc_nav {
+    margin: 0;
+    background: #ECEAE3;
+    border-radius: 0.317em;
+    position: relative;
+}
+
+#tocToggle {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 5px;
+    font-size: 2em;
+    line-height: 1;
+    cursor: pointer;
+    transition: all .35s;
+    text-decoration: none;
+    border: none;
+
+    &.close {
+        transform: rotate(45deg);
+        opacity: 1;
+    }
+}
+
+ol#toc {
+    list-style: upper-alpha;
+    padding: 1em 1em 1em 2em;
+    margin: 0;
+    overflow: hidden;
+    font-weight: 600;
+
+    &.open {
+        ol {
+            line-height: 2;
+            margin-left: 0;
+            opacity: 1;
+            font-size: 0.9em;
+        }
+    }
+
+    ol {
+        position: relative;
+        line-height: 0;
+        margin-left: -100%;
+        font-size: 0%;
+        opacity: 0;
+        transition: all .5s;
+        list-style: decimal;
+
+        ol {
+            list-style: lower-roman;
+
+            ol {
+                list-style: lower-alpha;
+            }
+        }
+    }
+
+    li li {
+        font-weight: 400;
+    }
+}
+
+table.major_quick_points {
+    margin-bottom:2em;
+
+    .table_heading {
+        display: none;
+    }
+
+    .attr {
+        font-weight: 600;
+    }
+
+    .value {
+        text-align: right;
+    }
+}
+
+#long_content {
+    margin-top:2em;
+
+    h2 {
+        border-top: 1px solid #e6dec5;
+        padding-top: 1em;
+    }
+}
+
+@media (min-width: 768px) {
+    #tocToggle {
+        opacity: 0;
+    }
+
+    #toc_nav:hover #tocToggle,
+    #toc_nav #tocToggle.close {
+        opacity: 1;
+    }
+}
+
+p.basic-text {
+    margin:0;
+    text-indent: 1.5em;
+}
+
+p.faculty-list {
+    margin: 0;
+}
+
+p.faculty-list + p.basic-text {
+    margin-top: 1em;
+}
+
+p.college-name,
+p.major-name {display:none;}
+
+p.list-indent {
+    margin-bottom:0em;
+    text-indent:1.333em;
+}
+
+p.requirement-sec-1 {
+    font-weight:bold;
+    margin:1em 0 0;
+    position: relative;
+}
+
+p.requirement-hours {
+    margin-top:1em;
+    font-weight: bold;
+}
+
+.requirement-underline {
+    text-decoration:underline;
+}
+.requirement-ital,
+.basic-text-ital,
+.list-ital,
+.requirement-sec-3-note,
+.asterisk {
+    font-style: italic;
+}
+
+.requirement-bold,
+.basic-text-bold,
+.faculty-list-bold,
+.list-bold,
+.header-paragraph-title {
+    font-weight: bold;
+}
+
+p.requirement-sec-2,
+p.requirement-sec-3,
+p.requirement-sec-3-ledr,
+p.requirement-sec-3-note,
+p.requirement-sec-4 {
+	position: relative;
+    margin:0 1em 0 1em;
+    display:block;
+    clear:both;
+}
+
+p.requirement-sec-3,
+p.requirement-sec-3-note,
+p.requirement-sec-3-ledr {
+    margin-left:2em;
+    margin-right:2em;
+}
+
+p.requirement-sec-4,
+p.requirement-sec-4-ledr {
+    margin-left:3em;
+    margin-right:3em;
+}
+
+li.bullet-2 {margin-left:1.1em;}
+li.bullet-3 {margin-left:2.2em;}
+p.bullet-2 {margin-left:3.3em;}
+p.numbered-list-2 {margin-left:3.3em;}
+p.numbered-list-3 {margin-left:4.4em;}
+
+p.abbreviations-list {position:relative;}
+
+p span.req_desc,
+p span.req_desc span.requirement-ital {
+    background-color:#FEFDFA;
+    position:relative;
+    z-index:1;
+}
+
+p span.leader {
+	position:absolute;
+    display:block;
+    width:100%;
+    border-bottom:1px dotted;
+    bottom:0.4375em;
+    }
+
+p span.req_value {
+    float:right;
+    margin-left:3px;
+    background-color:#FEFDFA;
+    position:relative;
+}
+
+p.quick-points,
+p.major-name {
+    display:none;
+}
+
+p.abbreviations-note {
+    text-align:right;
+    clear:both;
+    font-style: italic;
+}
+
+#maincontent table p {
+    margin:0;
+}
+
+#maincontent ol.outcomes li {
+	padding: 0.339em 0;
+}
+
+#relatedMajors {
+    margin-top: 0;
+}

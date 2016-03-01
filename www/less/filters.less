@@ -1,0 +1,74 @@
+#results,
+.filter-options {
+	&:focus {
+		outline: none;
+	}
+}
+
+.filters-wrapper {
+	.is_stuck & {
+		margin-top: 64px;
+	}
+
+
+	h2 {
+		margin-top: 0;
+	}
+
+	.filters {
+		line-height: 1.425;
+		font-family: 'Gotham padding: 0 3px;SSm A', 'Gotham SSm B', Verdana, 'Verdana Ref', Geneva, Tahoma, 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', 'Bitstream Vera Sans', 'Liberation Sans', sans-serif;
+	}
+
+	input {
+		margin-right: 0.2em;
+	}
+
+	button {
+		border: 0;
+		border-bottom: 1px solid #d5d5d2;
+		padding: 0;
+		background: none;
+		text-transform: uppercase;
+		text-align: left;
+		display: block;
+		margin-bottom: 1em;
+	}
+
+	ol {
+		list-style: none;
+		padding: 0;
+	}
+
+	li {
+		text-indent: -1.3em;
+		padding-left: 1.3em;
+		margin-bottom: 0.5em;
+
+		&.disabled {
+			opacity: 0.8;
+
+			label {
+				text-decoration: line-through;
+			}
+		}
+	}
+}
+
+.summary {
+	margin-top: 0;
+	font-size: 0.802rem;
+
+	.selected-options {
+		background: #ECEAE3;
+		padding: 0 3px;
+		border-radius: 3px;
+		display: inline-block;
+		margin: 1px;
+	}
+
+	.group {
+		font-style: italic;
+		font-weight: bold;
+	}
+}
