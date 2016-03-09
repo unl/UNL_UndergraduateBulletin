@@ -97,9 +97,6 @@ class Router
             case preg_match('/^bulletinrules\/?$/', $requestURI, $matches):
                 $options['view'] = 'bulletinrules';
                 break;
-            case preg_match('/^search\/?$/', $requestURI):
-                $options['view'] = 'search';
-                break;
             case preg_match('/^general\/?$/', $requestURI):
                 $options['view'] = 'general';
                 break;
