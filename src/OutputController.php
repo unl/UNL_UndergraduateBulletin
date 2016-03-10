@@ -108,6 +108,7 @@ class OutputController extends \Savvy
                 break;
             case 'partial':
                 ClassToTemplateMapper::$output_template[Controller::class] = 'Controller-partial';
+                ClassToTemplateMapper::$output_template[CatalogController::class] = 'Controller-partial';
                 // no break
             default:
                 if ($defaultFormat !== $format) {
