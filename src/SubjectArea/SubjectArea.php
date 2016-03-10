@@ -99,7 +99,13 @@ class SubjectArea extends RealSubjectArea implements
     public function getCourses()
     {
         if (!$this->courses) {
-            $this->courses = new ExcludeGraduateCourses(parent::getCourses());
+            $courses = parent::getCourses();
+
+            if (!$this->controller instanceof CatalogController) {
+                $courses = new ExcludeGraduateCourses($courses);
+            }
+
+            $this->courses = $courses;
         }
 
         return $this->courses;
