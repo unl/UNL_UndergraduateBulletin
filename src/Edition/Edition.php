@@ -10,7 +10,7 @@ class Edition
 
     public function __construct($options = [])
     {
-        if (!isset($options['year'])) {
+        if (!isset($options['year']) || !preg_match('/^\w+$/', $options['year'])) {
             throw new \Exception('Unknown edition');
         }
 
@@ -37,7 +37,7 @@ class Edition
      */
     public static function getByYear($year)
     {
-        return new self(['year' => (int) $year]);
+        return new self(['year' => $year]);
     }
 
     /**
@@ -57,7 +57,7 @@ class Edition
      */
     public function getDataDir()
     {
-        return Controller::getDataDir() . DIRECTORY_SEPARATOR . (int) $this->year;
+        return Controller::getDataDir() . DIRECTORY_SEPARATOR . $this->year;
     }
 
     public function getCourseDataDir()
