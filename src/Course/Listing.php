@@ -3,11 +3,16 @@
 namespace UNL\UndergraduateBulletin\Course;
 
 use UNL\UndergraduateBulletin\Controller;
+use UNL\UndergraduateBulletin\CatalogController;
+use UNL\UndergraduateBulletin\ControllerAwareInterface;
+use UNL\UndergraduateBulletin\RoutableInterface;
 use UNL\Services\CourseApproval\Course\Course;
 use UNL\Services\CourseApproval\Course\Listing as CreqListing;
 
 class Listing implements
-    \JsonSerializable
+    ControllerAwareInterface,
+    \JsonSerializable,
+    RoutableInterface
 {
     protected static $aceDescriptions = [
         1 => 'Writing',
@@ -21,6 +26,8 @@ class Listing implements
         9 => 'Global/Diversity',
         10 => 'Integrated Product',
     ];
+
+    protected $controller;
 
     /**
      * @var CreqListing
@@ -45,6 +52,40 @@ class Listing implements
 
         $this->internal = $listing;
         $listing->getCourse()->setRenderListing($listing);
+    }
+
+    public function setController(Controller $controller)
+    {
+        $page = $controller->getOutputPage();
+        $pageTitle = $controller->getOutputController()->escape($this->getTitle());
+
+        $titleContext = 'Undergraduate Bulletin';
+        if ($controller instanceof CatalogController) {
+            $titleContext = 'Course Catalog';
+            $page->breadcrumbs->addCrumb('Course Catalog', $controller::getURL());
+        }
+
+        $permalink = $controller->getOutputController()->escape($this->getURL());
+
+        $page->head .= '<link rel="alternate" type="text/xml" href="'.$permalink.'.xml" />
+            <link rel="alternate" type="application/json" href="'.$permalink.'.json" />
+            <link rel="alternate" type="text/html" href="'.$permalink.'?format=partial" />';
+
+        $page->doctitle = sprintf(
+            '<title>%s | %s | University of Nebraska-Lincoln</title>',
+            $pageTitle,
+            $titleContext
+        );
+        $page->pagetitle = '<h1 class="hidden">' . $pageTitle . '</h1>';
+        $page->breadcrumbs->addCrumb($pageTitle);
+
+        $this->controller = $controller;
+        return $this;
+    }
+
+    public function getController()
+    {
+        return $this->controller;
     }
 
     public function getCourse()
