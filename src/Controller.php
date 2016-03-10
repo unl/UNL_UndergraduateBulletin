@@ -30,7 +30,7 @@ class Controller implements PostRunReplacements, CachingService\CacheableInterfa
      *
      * @var Edition
      */
-    public static $edition;
+    protected static $edition;
 
     protected $viewMap = [
         'index' => 'Introduction',
