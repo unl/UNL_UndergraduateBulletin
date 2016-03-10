@@ -2,22 +2,46 @@
 
 namespace UNL\UndergraduateBulletin\SubjectArea;
 
+use UNL\UndergraduateBulletin\Controller;
+use UNL\UndergraduateBulletin\CatalogController;
+use UNL\UndergraduateBulletin\ControllerAwareInterface;
 use UNL\UndergraduateBulletin\Course\Filters;
 use UNL\UndergraduateBulletin\Course\Listing;
+use UNL\UndergraduateBulletin\RoutableInterface;
 use UNL\Services\CourseApproval\Filter\ExcludeGraduateCourses;
 use UNL\Services\CourseApproval\SubjectArea\SubjectArea as RealSubjectArea;
 
 class SubjectArea extends RealSubjectArea implements
-    \jsonSerializable
+    ControllerAwareInterface,
+    \JsonSerializable,
+    RoutableInterface
 {
-    public $title;
+    protected $options;
+
+    protected $controller;
+
+    protected $title;
 
     public function __construct($options = [])
     {
+        $this->options = $options;
+
         if (isset($options['title'])) {
             $this->title = $options['title'];
         }
         parent::__construct($options['id']);
+    }
+
+    public function __get($var)
+    {
+        if ('title' === $var) {
+            return $this->$var;
+        }
+    }
+
+    public function getTitle()
+    {
+        return $this->title;
     }
 
     /**
@@ -37,6 +61,39 @@ class SubjectArea extends RealSubjectArea implements
             }
         }
         return false;
+    }
+
+    public function setController(Controller $controller)
+    {
+        if (isset($this->options['redirectToSelf']) && true === $this->options['redirectToSelf']) {
+            header('Location: ' . $this->getUrl(), true, 301);
+            exit();
+        }
+
+        $page = $controller->getOutputPage();
+        $pageTitle = $controller->getOutputController()->escape($this->getSubject()) . ' Courses';
+
+        $titleContext = 'Undergraduate Bulletin';
+        if ($controller instanceof CatalogController) {
+            $titleContext = 'Course Catalog';
+            $page->breadcrumbs->addCrumb('Course Catalog', $controller::getURL());
+        }
+
+        $page->doctitle = sprintf(
+            '<title>%s | %s | University of Nebraska-Lincoln</title>',
+            $pageTitle,
+            $titleContext
+        );
+        $page->pagetitle = '<h1>' . $pageTitle . '</h1>';
+        $page->breadcrumbs->addCrumb($pageTitle);
+
+        $this->controller = $controller;
+        return $this;
+    }
+
+    public function getController()
+    {
+        return $this->controller;
     }
 
     public function getCourses()
@@ -67,10 +124,21 @@ class SubjectArea extends RealSubjectArea implements
             'courses' => [],
         ];
 
-        foreach ($this->courses as $course) {
+        foreach ($this->getCourses() as $course) {
             $data['courses'][] = new Listing($course->getRenderListing());
         }
 
         return $data;
+    }
+
+    public function getUrl(Controller $controller = null)
+    {
+        $path = 'courses/' . $this->getSubject() . '/';
+
+        if ($controller) {
+            return $controller::getURL() . $path;
+        }
+
+        return Controller::getURL() . $path;
     }
 }
