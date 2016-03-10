@@ -53,6 +53,7 @@ class OutputController extends \Savvy
 
     public function setupFromController(Controller $controller, $withHeaders = true)
     {
+        $controller->setOutputController($this);
         $templatesPath = dirname(__DIR__) . '/www/templates/';
         $defaultFormat = 'html';
         $expire = static::getDefaultExpireTimestamp();

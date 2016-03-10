@@ -5,6 +5,7 @@ namespace UNL\UndergraduateBulletin;
 use UNL\UndergraduateBulletin\Edition\Edition;
 use UNL\UndergraduateBulletin\Edition\Editions;
 use UNL\Services\CourseApproval\Data;
+use UNL\Templates\Templates;
 
 class Controller implements PostRunReplacements, CachingService\CacheableInterface
 {
@@ -56,6 +57,10 @@ class Controller implements PostRunReplacements, CachingService\CacheableInterfa
         'developers' => 'Developers\\Developers'
     ];
 
+    protected $outputController;
+
+    protected $page;
+
     protected static $replacementData = [];
 
     public function __construct($options = [])
@@ -103,6 +108,49 @@ class Controller implements PostRunReplacements, CachingService\CacheableInterfa
         } catch (\Exception $e) {
             $this->outputException($e);
         }
+    }
+
+    public function setOutputController(OutputController $outputController = null)
+    {
+        if (!$outputController) {
+            $outputController = new OutputController();
+        }
+
+        $this->outputController = $outputController;
+        return $this;
+    }
+
+    public function getOutputController()
+    {
+        if (!$this->outputController) {
+            $this->setOutputConroller();
+        }
+
+        return $this->outputController;
+    }
+
+    public function getOutputPage()
+    {
+        if (!$this->page) {
+            $page = Templates::factory('Fixed', Templates::VERSION_4_1);
+
+            $webRoot = dirname(__DIR__) . '/www';
+            if (file_exists($webRoot . '/wdn/templates_4.1')) {
+                $page->setLocalIncludePath($webRoot);
+            }
+
+            $page->setParam('class', 'page-' . $this->options['view']);
+            $page->doctitle = '<title>Undergraduate Bulletin | University of Nebraska-Lincoln</title>';
+            $page->affiliation = '';
+            $page->titlegraphic = 'Undergraduate Bulletin ' . static::getEdition()->getRange();
+            $page->pagetitle = '<h1>Your Undergraduate Bulletin</h1>';
+            $page->breadcrumbs = new breadcrumbs();
+            $page->breadcrumbs->addCrumb('Undergraduate Bulletin', static::getURL());
+
+            $this->page = $page;
+        }
+
+        return $this->page;
     }
 
     public function outputException(\Exception $e)
