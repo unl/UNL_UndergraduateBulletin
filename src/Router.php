@@ -4,14 +4,18 @@ namespace UNL\UndergraduateBulletin;
 
 class Router
 {
-    public static function getRoute($requestURI)
+    public static function getRoute($requestURI, $baseUrl = '')
     {
-
         if (!empty($_SERVER['QUERY_STRING'])) {
             $requestURI = substr($requestURI, 0, -strlen($_SERVER['QUERY_STRING']) - 1);
         }
+
+        if (!$baseUrl) {
+            $baseUrl = Controller::getBaseURL();
+        }
+
         // Trim the base part of the URL
-        $requestURI = substr($requestURI, strlen(parse_url(Controller::getBaseURL(), PHP_URL_PATH)));
+        $requestURI = substr($requestURI, strlen(parse_url($baseUrl, PHP_URL_PATH)));
         $options = [];
 
         if (preg_match('/^([\d]{4})$/', $requestURI, $matches)) {
