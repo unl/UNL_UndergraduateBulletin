@@ -62,7 +62,7 @@ class Listing implements
         $titleContext = 'Undergraduate Bulletin';
         if ($controller instanceof CatalogController) {
             $titleContext = 'Course Catalog';
-            $page->breadcrumbs->addCrumb('Course Catalog', $controller::getURL());
+            $page->breadcrumbs->addCrumb('Course Catalog', $controller::getURL() . 'courses/');
         }
 
         $permalink = $controller->getOutputController()->escape($this->getURL());
