@@ -103,9 +103,15 @@ class Listing implements
         return $this->internal->getCourseNumber();
     }
 
-    public function getURL()
+    public function getURL(Controller $controller = null)
     {
-        return Controller::getURL() . 'courses/' . $this->getSubject() . '/' . $this->getCourseNumber();
+        $path = 'courses/' . $this->getSubject() . '/' . $this->getCourseNumber();
+
+        if ($controller) {
+            return $controller::getURL() . $path;
+        }
+
+        return Controller::getURL() . $path;
     }
 
     public function getTitle()
