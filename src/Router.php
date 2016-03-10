@@ -53,15 +53,27 @@ class Router
                 $options['view'] = 'searchcourses';
                 break;
             // Subject Code: ex CSCE/
-            case preg_match('/^courses\/([A-Z]{3,4})\/?$/', $requestURI, $matches):
+            case preg_match('/^courses\/([A-Z]{3,4})(\.(?P<format>\w+)|\/)?$/', $requestURI, $matches):
                 $options['view'] = 'subject';
                 $options['id']   = $matches[1];
+
+                if (empty($matches[2]) || (!empty($matches['format']) && $matches['format'] === 'html')) {
+                    $options['redirectToSelf'] = true;
+                }
+
+                if (!empty($matches['format'])) {
+                    $options['format'] = $matches['format'];
+                }
                 break;
             // Course rewrites, ex: CSCE/420
-            case preg_match('/^courses\/([A-Z]{3,4})\/([\d]?[\d]{2,3}[A-Za-z]?)$/', $requestURI, $matches):
+            case preg_match('/^courses\/([A-Z]{3,4})\/([\d]?[\d]{2,3}[A-Za-z]?)(\.(?P<format>\w+))?$/', $requestURI, $matches):
                 $options['view']         = 'course';
                 $options['subjectArea']  = $matches[1];
                 $options['courseNumber'] = $matches[2];
+
+                if (!empty($matches['format'])) {
+                    $options['format'] = $matches['format'];
+                }
                 break;
             // List of all majors
             case preg_match('/^majors?\/?$/', $requestURI, $matches):
