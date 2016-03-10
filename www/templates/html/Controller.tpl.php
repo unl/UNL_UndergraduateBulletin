@@ -1,41 +1,24 @@
 <?php
 
-use UNL\Templates\Templates;
 use UNL\UndergraduateBulletin\Controller;
 
-$page = Templates::factory('Fixed', Templates::VERSION_4_1);
+$page = $context->getRawObject()->getOutputPage();
 $savvy->addGlobal('page',  $page);
-$webRoot = dirname(dirname(__DIR__));
-
-if (file_exists($webRoot . '/wdn/templates_4.1')) {
-    $page->setLocalIncludePath($webRoot);
-}
 
 $url = Controller::getURL();
 $baseURL = Controller::getBaseURL();
 $protocolAgnosticBaseURL = str_replace('http://', '//', $baseURL);
-
-$page->setParam('class', 'page-' . $context->options['view']);
-$page->doctitle = '<title>Undergraduate Bulletin | University of Nebraska-Lincoln</title>';
-$page->affiliation = '';
-$page->titlegraphic = 'Undergraduate Bulletin ' . Controller::getEdition()->getRange();
-$page->pagetitle = '<h1>Your Undergraduate Bulletin</h1>';
-$page->breadcrumbs  = '
-<ul>
-    <li><a href="http://www.unl.edu/">UNL</a></li>
-    <li>Undergraduate Bulletin</li>
-</ul>
-';
 
 $page->navlinks = $savvy->render(null, 'Navigation.tpl.php');
 $page->contactinfo = $savvy->render(null, 'sharedcode/localFooter.html');
 
 $page->addStylesheet($protocolAgnosticBaseURL. 'css/all.css');
 $page->addStyleSheet($protocolAgnosticBaseURL . 'css/print.css', 'print');
+$page->head .= '<link rel="home" href="'.$url.'" />';
 $page->head .= $savvy->render(null, 'sharedcode/editionHead.tpl.php');
 
 // Check if the year of this edition indicates it has not been published
-if (mktime(0, 0, 0, 6, 1, $context->getEdition()->getYear()) > time() ) {
+if (mktime(0, 0, 0, 6, 1, Controller::getEdition()->getYear()) > time()) {
     $page->head .= <<<'UNPUBLISHED'
 <meta name="robots" content="noindex" />
 <script>
@@ -51,5 +34,9 @@ UNPUBLISHED;
 $page->maincontentarea = $savvy->render($context->output);
 $page->maincontentarea .= $savvy->render(null, 'EditionNotice.tpl.php');
 $page->maincontentarea .= $savvy->render(null, 'sharedcode/entry-script.tpl.php');
+
+if (!is_string($page->breadcrumbs)) {
+    $page->breadcrumbs = $savvy->render($page->breadcrumbs);
+}
 
 echo $page;
