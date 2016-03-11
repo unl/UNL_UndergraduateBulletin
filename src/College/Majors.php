@@ -2,10 +2,13 @@
 
 namespace UNL\UndergraduateBulletin\College;
 
+use UNL\UndergraduateBulletin\Controller;
+use UNL\UndergraduateBulletin\ControllerAwareInterface;
 use UNL\UndergraduateBulletin\SelfIteratingJsonSerializationTrait;
 use UNL\UndergraduateBulletin\Major\Majors as MajorCollection;
 
 class Majors extends \FilterIterator implements
+    ControllerAwareInterface,
     \JsonSerializable
 {
     use SelfIteratingJsonSerializationTrait;
@@ -16,6 +19,8 @@ class Majors extends \FilterIterator implements
      * @var College
      */
     protected $college;
+
+    protected $controller;
 
     public function __construct($options = [])
     {
@@ -45,5 +50,29 @@ class Majors extends \FilterIterator implements
     public function getCollege()
     {
         return $this->college;
+    }
+
+    public function setController(Controller $controller)
+    {
+        $page = $controller->getOutputPage();
+        $pageTitle = $controller->getOutputController()->escape($this->getCollege()->name) . ' Majors';
+
+        $titleContext = 'Undergraduate Bulletin';
+        $page->doctitle = sprintf(
+            '<title>%s | %s | University of Nebraska-Lincoln</title>',
+            $pageTitle,
+            $titleContext
+        );
+        $page->pagetitle = '<h1>' . $pageTitle . '</h1>';
+        // $page->breadcrumbs->addCrumb($this->getCollege()->name, $this->getCollege()->getURL());
+        $page->breadcrumbs->addCrumb($pageTitle);
+
+        $this->controller = $controller;
+        return $this;
+    }
+
+    public function getController()
+    {
+        return $this->controller;
     }
 }
