@@ -22,7 +22,7 @@ define([
         var textCollapse = '(Collapse)';
 
         // Append Versioning to the top
-        $('#pagetitle h1').append( $versioning.animate({ opacity: 1 }, 500 ) );
+        $('#pagetitle').append( $versioning.animate({ opacity: 1 }, 500 ) );
 
         //Deal with the Table of Contents for the majors pages.
         $('#tocToggle').on('click', function (e) {
