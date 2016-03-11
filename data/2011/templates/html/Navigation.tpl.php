@@ -10,7 +10,6 @@ $url = UNL\UndergraduateBulletin\Controller::getURL();
     <li><a href="<?php echo $url; ?>courses/">Courses</a>
         <ul>
             <li><a href="<?php echo $url; ?>courses/search">Search for a Course</a></li>
-            <li><a href="<?php echo $url; ?>courses/">Course Abbreviations</a></li>
         </ul>
     </li>
     <li><a href="<?php echo $url; ?>general">Academic Policies</a>
