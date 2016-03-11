@@ -45,15 +45,6 @@ class CatalogController extends Controller
         return $this;
     }
 
-    public function getOutputController()
-    {
-        if (!$this->outputController) {
-            $this->setOutputConroller();
-        }
-
-        return $this->outputController;
-    }
-
     public function getOutputPage()
     {
         if (!$this->page) {
