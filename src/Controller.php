@@ -17,8 +17,6 @@ class Controller implements
      */
     public static $url = '';
 
-    public static $newestUrl = 'http://bulletin.unl.edu/undergraduate/';
-
     public $output;
 
     public $options = [
@@ -191,34 +189,6 @@ class Controller implements
     public static function getDataDir()
     {
         return dirname(__DIR__) . '/data';
-    }
-
-    /**
-     * Determine if the current url is out of date.
-     *
-     * @return bool True if out of date, False if newest.
-     */
-    public static function isArchived()
-    {
-        return !(static::$url == parse_url(static::$newestUrl, PHP_URL_PATH));
-    }
-
-    /**
-     * Get the request uri for the current selected page and compile a URL to the
-     * Newest URL with the same request uri.
-     *
-     * @return string. The url to the newest version.
-     */
-    public static function getNewestURL()
-    {
-        $newestURL = static::$newestUrl;
-        $request = explode(static::$url, $_SERVER['REQUEST_URI']);
-
-        if (isset($request[1])) {
-            $newestURL = static::$newestUrl . $request[1];
-        }
-
-        return $newestURL;
     }
 
     /**
