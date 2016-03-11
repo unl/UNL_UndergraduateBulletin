@@ -94,10 +94,6 @@ class RouterTest extends \PHPUnit_Framework_TestCase
 				'q=math%202'
 			],
 			[
-				$base . 'search',
-				$specificYear + ['view' => 'search'],
-			],
-			[
 				$base . 'general',
 				$specificYear + ['view' => 'general'],
 			],
