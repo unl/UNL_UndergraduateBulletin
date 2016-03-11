@@ -140,7 +140,7 @@ class Controller implements
             $page->affiliation = '';
             $page->titlegraphic = 'Undergraduate Bulletin ' . static::getEdition()->getRange();
             $page->pagetitle = '<h1>Your Undergraduate Bulletin</h1>';
-            $page->breadcrumbs = new breadcrumbs();
+            $page->breadcrumbs = new Breadcrumbs();
             $page->breadcrumbs->addCrumb('Undergraduate Bulletin', static::getURL());
 
             $this->page = $page;
