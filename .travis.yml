@@ -25,7 +25,7 @@ before_install:
   - composer self-update
 
 install:
-  - travis_retry composer install --no-interaction --ignore-platform-reqs --prefer-dist
+  - travis_retry composer install --no-interaction --ignore-platform-reqs --prefer-dist --no-scripts
 
 script:
   - ./vendor/bin/phpunit
