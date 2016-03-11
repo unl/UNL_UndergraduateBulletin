@@ -22,7 +22,7 @@ class CatalogController extends Controller
         'subject' => 'SubjectArea\\SubjectArea',
         'subjects' => 'SubjectArea\\SubjectAreas',
         'course' => 'Course\\Listing',
-        // 'searchcourses' => 'Course\\Search',
+        'searchcourses' => 'Course\\Search',
     ];
 
     public function __construct($options = [])
