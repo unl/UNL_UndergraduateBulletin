@@ -115,7 +115,7 @@ class Search implements
         if (!($this->results instanceof SubjectAwareIterator) && count($this) === 1) {
             foreach ($this->results as $course) {
                 $listing = new Listing($course->getRenderListing());
-                header('Location: ' . $listing->getURL(), true, 302);
+                header('Location: ' . $listing->getURL($this->controller), true, 302);
                 exit;
             }
         }
