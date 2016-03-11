@@ -7,7 +7,8 @@ use UNL\UndergraduateBulletin\Edition\Editions;
 use UNL\Services\CourseApproval\Data;
 use UNL\Templates\Templates;
 
-class Controller implements PostRunReplacements, CachingService\CacheableInterface
+class Controller implements
+    CachingService\CacheableInterface
 {
     /**
      * URL to this controller.
@@ -61,8 +62,6 @@ class Controller implements PostRunReplacements, CachingService\CacheableInterfa
 
     protected $page;
 
-    protected static $replacementData = [];
-
     public function __construct($options = [])
     {
         $this->options = $options + $this->options;
@@ -83,7 +82,6 @@ class Controller implements PostRunReplacements, CachingService\CacheableInterfa
 
     public function preRun($fromCache, \Savvy $savvy)
     {
-
     }
 
     public function run()
@@ -155,58 +153,7 @@ class Controller implements PostRunReplacements, CachingService\CacheableInterfa
 
     public function outputException(\Exception $e)
     {
-        static::resetReplacementData();
         $this->output = $e;
-    }
-
-    public static function setReplacementData($field, $data)
-    {
-        static::$replacementData[$field] = $data;
-    }
-
-    public static function resetReplacementData()
-    {
-        static::$replacementData = [];
-    }
-
-    public function postRun($data)
-    {
-        if (isset(static::$replacementData['doctitle'])
-            && strstr($data, '<!-- InstanceBeginEditable name="doctitle" -->')
-        ) {
-            $start = strpos($data, '<!-- InstanceBeginEditable name="doctitle" -->')
-                + strlen('<!-- InstanceBeginEditable name="doctitle" -->');
-            $end = strpos($data, '<!-- InstanceEndEditable -->', $start);
-
-            $data = substr($data, 0, $start). '<title>' .static::$replacementData['doctitle'] . '</title>'
-                . substr($data, $end);
-        }
-
-        if (isset(static::$replacementData['head']) && strstr($data, '</head>')) {
-            $data = str_replace('</head>', static::$replacementData['head'].'</head>', $data);
-        }
-
-        if (isset(static::$replacementData['breadcrumbs'])
-            && strstr($data, '<!-- InstanceBeginEditable name="breadcrumbs" -->')
-        ) {
-            $start = strpos($data, '<!-- InstanceBeginEditable name="breadcrumbs" -->')
-                + strlen('<!-- InstanceBeginEditable name="breadcrumbs" -->');
-            $end = strpos($data, '<!-- InstanceEndEditable -->', $start);
-
-            $data = substr($data, 0, $start).static::$replacementData['breadcrumbs'].substr($data, $end);
-        }
-
-        if (isset(static::$replacementData['pagetitle'])
-            && strstr($data, '<!-- InstanceBeginEditable name="pagetitle" -->')
-        ) {
-            $start = strpos($data, '<!-- InstanceBeginEditable name="pagetitle" -->')
-                + strlen('<!-- InstanceBeginEditable name="pagetitle" -->');
-            $end = strpos($data, '<!-- InstanceEndEditable -->', $start);
-
-            $data = substr($data, 0, $start).static::$replacementData['pagetitle'].substr($data, $end);
-        }
-
-        return $data;
     }
 
     /**

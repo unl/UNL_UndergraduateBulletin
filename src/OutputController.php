@@ -197,11 +197,6 @@ class OutputController extends \Savvy
 
         if ($data === false) {
             $data = parent::renderObject($object, $template);
-
-            if ($rawObject instanceof PostRunReplacements) {
-                $data = $rawObject->postRun($data);
-            }
-
             $this->saveCache($object, $data);
         }
 

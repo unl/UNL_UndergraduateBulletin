@@ -2,8 +2,10 @@
 
 namespace UNL\UndergraduateBulletin;
 
-class GeneralInformation
+class GeneralInformation implements
+    ControllerAwareInterface
 {
+    protected $controller;
     protected $domDocument;
 
     public function __construct()
@@ -45,5 +47,29 @@ class GeneralInformation
         }
 
         return EPUB\Utilities::format($output);
+    }
+
+    public function setController(Controller $controller)
+    {
+        $page = $controller->getOutputPage();
+        $pageTitle = 'Academic Policies &amp; General Information';
+
+        $titleContext = 'Undergraduate Bulletin';
+
+        $page->doctitle = sprintf(
+            '<title>%s | %s | University of Nebraska-Lincoln</title>',
+            $pageTitle,
+            $titleContext
+        );
+        $page->pagetitle = '<h1>' . $pageTitle . '</h1>';
+        $page->breadcrumbs->addCrumb($pageTitle);
+
+        $this->controller = $controller;
+        return $this;
+    }
+
+    public function getController()
+    {
+        return $this->controller;
     }
 }

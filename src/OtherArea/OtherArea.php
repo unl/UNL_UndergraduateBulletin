@@ -35,6 +35,18 @@ class OtherArea implements
 
     public function setController(Controller $controller)
     {
+        $page = $controller->getOutputPage();
+        $pageTitle = $controller->getOutputController()->escape($this->name);
+        $titleContext = 'Undergraduate Bulletin';
+
+        $page->doctitle = sprintf(
+            '<title>%s | %s | University of Nebraska-Lincoln</title>',
+            $pageTitle,
+            $titleContext
+        );
+        $page->pagetitle = '<h1>' . $pageTitle . '</h1>';
+        $page->breadcrumbs->addCrumb($pageTitle);
+
         $this->controller = $controller;
         return $this;
     }
@@ -55,21 +67,6 @@ class OtherArea implements
 
     public function preRun($fromCache, \Savvy $savvy)
     {
-        $controller = $this->getController();
-        $controller::setReplacementData('doctitle', $savvy->escape($this->name)
-            . ' | Undergraduate Bulletin | University of Nebraska-Lincoln');
-
-        $pagetitle = '<h1>' . $savvy->escape($this->name) . '</h1>';
-        $controller::setReplacementData('pagetitle', $pagetitle);
-
-        $controller::setReplacementData('breadcrumbs', <<<EOD
-<ul>
-    <li><a href="http://www.unl.edu/">UNL</a></li>
-    <li><a href="{$controller::getURL()}">Undergraduate Bulletin</a></li>
-    <li>{$savvy->escape($this->name)}</li>
-</ul>
-EOD
-        );
     }
 
     public function __get($var)

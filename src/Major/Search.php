@@ -55,8 +55,6 @@ class Search extends \ArrayIterator implements
 
     public function setController(Controller $controller)
     {
-        $this->controller = $controller;
-
         if (count($this) === 1) {
             $major = $this->current();
             header('Location: ' . $major->getURL(), true, 302);
@@ -77,8 +75,6 @@ class Search extends \ArrayIterator implements
         $page->breadcrumbs->addCrumb($pageTitle);
 
         $this->controller = $controller;
-        return $this;
-
         return $this;
     }
 

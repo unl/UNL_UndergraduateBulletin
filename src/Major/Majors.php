@@ -28,6 +28,19 @@ class Majors extends \ArrayIterator implements
 
     public function setController(Controller $controller)
     {
+        $page = $controller->getOutputPage();
+        $pageTitle = 'Majors/Areas of Study';
+        $titleContext = 'Undergraduate Bulletin';
+
+        $page->doctitle = sprintf(
+            '<title>%s | %s | University of Nebraska-Lincoln</title>',
+            $pageTitle,
+            $titleContext
+        );
+
+        $page->pagetitle = '<h1>' . $pageTitle . '</h1>';
+        $page->breadcrumbs->addCrumb($pageTitle);
+
         $this->controller = $controller;
         return $this;
     }
@@ -48,21 +61,6 @@ class Majors extends \ArrayIterator implements
 
     public function preRun($fromCache, \Savvy $savvy)
     {
-        $controller = $this->getController();
-        $controller::setReplacementData('doctitle', 'Majors/Areas of Study'
-            . ' | Undergraduate Bulletin | University of Nebraska-Lincoln');
-
-        $pagetitle = '<h1>Majors/Areas of Study</h1>';
-        $controller::setReplacementData('pagetitle', $pagetitle);
-
-        $controller::setReplacementData('breadcrumbs', <<<EOD
-<ul>
-    <li><a href="http://www.unl.edu/">UNL</a></li>
-    <li><a href="{$controller::getURL()}">Undergraduate Bulletin</a></li>
-    <li>Majors/Areas of Study</li>
-</ul>
-EOD
-        );
     }
 
     public function current()

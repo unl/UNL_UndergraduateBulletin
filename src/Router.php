@@ -66,7 +66,11 @@ class Router
                 }
                 break;
             // Course rewrites, ex: CSCE/420
-            case preg_match('/^courses\/([A-Z]{3,4})\/([\d]?[\d]{2,3}[A-Za-z]?)(\.(?P<format>\w+))?$/', $requestURI, $matches):
+            case preg_match(
+                '/^courses\/([A-Z]{3,4})\/([\d]?[\d]{2,3}[A-Za-z]?)(\.(?P<format>\w+))?$/',
+                $requestURI,
+                $matches
+            ):
                 $options['view']         = 'course';
                 $options['subjectArea']  = $matches[1];
                 $options['courseNumber'] = $matches[2];

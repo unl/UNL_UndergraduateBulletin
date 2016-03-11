@@ -60,7 +60,8 @@ class Search implements
 
     public function getCacheKey()
     {
-        return ($this->controller instanceof CatalogController ? 'catalog-' : '') . 'coursesearch'.serialize($this->options);
+        return ($this->controller instanceof CatalogController ? 'catalog-' : '')
+            . 'coursesearch'.serialize($this->options);
     }
 
     public function preRun($fromCache, \Savvy $savvy)

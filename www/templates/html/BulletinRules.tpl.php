@@ -4,13 +4,6 @@ use UNL\UndergraduateBulletin\Edition\Editions;
 
 $rawController = $controller->getRawObject();
 $baseURL = $rawController::getBaseURL();
-$rawController::setReplacementData('pagetitle', '<h1>Undergraduate Bulletin Rules</h1>');
-$rawController::setReplacementData('breadcrumbs', '
-<ul>
-    <li><a href="http://www.unl.edu/">UNL</a></li>
-    <li><a href="'.$baseURL.'">Undergraduate Bulletin</a></li>
-    <li>Bulletin Rules</li>
-</ul>');
 $colleges = new UNL\UndergraduateBulletin\College\Colleges();
 ?>
 <div class="wdn-band">

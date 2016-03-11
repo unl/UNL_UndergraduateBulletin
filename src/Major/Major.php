@@ -36,6 +36,27 @@ class Major implements
 
     public function setController(Controller $controller)
     {
+        $page = $controller->getOutputPage();
+        $pageTitle = $controller->getOutputController()->escape($this->title);
+        $titleContext = 'Undergraduate Bulletin';
+
+        $page->doctitle = sprintf(
+            '<title>%s | %s | University of Nebraska-Lincoln</title>',
+            $pageTitle,
+            $titleContext
+        );
+
+        $subhead = '';
+        foreach ($this->getColleges() as $college) {
+            $subhead .= $college->name.' ';
+        }
+        if ($subhead) {
+            $subhead = '<span class="wdn-subhead">' . $controller->getOutputController()->escape($subhead) . '</span> ';
+        }
+
+        $page->pagetitle = '<h1>' . $subhead . $pageTitle . '</h1>';
+        $page->breadcrumbs->addCrumb($pageTitle);
+
         $this->controller = $controller;
         return $this;
     }
@@ -57,29 +78,6 @@ class Major implements
 
     public function preRun($fromCache, \Savvy $savvy)
     {
-        $controller = $this->getController();
-        $controller::setReplacementData('doctitle', $savvy->escape($this->title)
-            . ' | Undergraduate Bulletin | University of Nebraska-Lincoln');
-
-        $subhead = '';
-        foreach ($this->getColleges() as $college) {
-            $subhead .= $college->name.' ';
-        }
-        $pagetitle = '<h1>';
-        if ($subhead) {
-            $pagetitle .= '<span class="wdn-subhead">' . $savvy->escape($subhead) . '</span> ';
-        }
-        $pagetitle .= $savvy->escape($this->title) . '</h1>';
-        $controller::setReplacementData('pagetitle', $pagetitle);
-
-        $controller::setReplacementData('breadcrumbs', <<<EOD
-<ul>
-    <li><a href="http://www.unl.edu/">UNL</a></li>
-    <li><a href="{$controller::getURL()}">Undergraduate Bulletin</a></li>
-    <li>{$savvy->escape($this->title)}</li>
-</ul>
-EOD
-        );
     }
 
     public function run()
