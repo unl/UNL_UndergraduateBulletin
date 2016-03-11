@@ -14,5 +14,9 @@ use UNL\UndergraduateBulletin\CatalogController;
             <li><a href="http://www.unl.edu/gradstudies/prospective/programs">Programs and Areas of Study</a></li>
         </ul>
     </li>
-    <li><a href="<?php echo CatalogController::getURL() ?>courses/">Course Catalog</a></li>
+    <li><a href="<?php echo CatalogController::getURL() ?>courses/">Course Catalog</a>
+        <ul>
+        <li><a href="<?php echo CatalogController::getURL() ?>courses/search">Search</a></li>
+        </ul>
+    </li>
 </ul>
