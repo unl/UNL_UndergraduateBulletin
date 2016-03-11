@@ -3,25 +3,41 @@
 namespace UNL\UndergraduateBulletin\Course;
 
 use UNL\UndergraduateBulletin\Controller;
+use UNL\UndergraduateBulletin\CatalogController;
 use UNL\Services\CourseApproval\Search\AbstractSearch;
 
 class DBSearcher extends AbstractSearch
 {
-    public $options = [];
+    protected $controller;
 
-    protected static $db;
+    protected $db;
 
-    public function __construct($options = [])
+    public static function getDatabasePath(Controller $controller = null)
     {
-        $this->options = $options + $this->options;
+        $dataDir = Controller::getEdition()->getCourseDataDir();
+
+        if ($controller) {
+            $dataDir = $controller::getEdition()->getCourseDataDir();
+        }
+
+        return $dataDir . DIRECTORY_SEPARATOR . 'courses.sqlite';
     }
 
-    public static function getDB()
+    public static function databaseExists(Controller $controller = null)
     {
-        if (!isset(static::$db)) {
-            static::$db = new \PDO('sqlite:'. Controller::getEdition()->getCourseDataDir() . '/courses.sqlite');
-        }
-        return static::$db;
+        $dbPath = static::getDatabasePath($controller);
+        return file_exists($dbPath);
+    }
+
+    public function __construct(Controller $controller = null)
+    {
+        $this->controller = $controller;
+        $this->db = new \PDO('sqlite:' . static::getDatabasePath($controller));
+    }
+
+    public function getDB()
+    {
+        return $this->db;
     }
 
     public function filterQuery($query)
@@ -73,7 +89,7 @@ class DBSearcher extends AbstractSearch
 
     public function titleQuery($title)
     {
-        return 'courses.title LIKE '.static::getDB()->quote('%'.$title.'%');
+        return 'courses.title LIKE '.$this->getDB()->quote('%'.$title.'%');
     }
 
     public function subjectAreaQuery($subject)
@@ -116,8 +132,8 @@ class DBSearcher extends AbstractSearch
         $sql = 'SELECT DISTINCT courses.id, courses.xml
 FROM courses
 INNER JOIN prereqs ON prereqs.course_id = courses.id
-WHERE prereqs.subjectArea = ' . static::getDB()->quote($query[0])
-            . ' AND prereqs.courseNumber = ' . static::getDB()->quote($query[1] ?: '');
+WHERE prereqs.subjectArea = ' . $this->getDB()->quote($query[0])
+            . ' AND prereqs.courseNumber = ' . $this->getDB()->quote($query[1] ?: '');
 
         return new Select($sql);
     }
@@ -141,16 +157,22 @@ WHERE prereqs.subjectArea = ' . static::getDB()->quote($query[0])
     {
         if ($query instanceof Select) {
             $query = $query->__toString();
-            return new DBSearchResults($query, $offset, $limit);
+            return new DBSearchResults($this->db, $query, $offset, $limit);
+        }
+
+        $filterQuery = '';
+
+        if (!$this->controller instanceof CatalogController) {
+            $filterQuery = '(
+    LENGTH(crosslistings.courseNumber) >= 3
+    AND crosslistings.courseNumber < "500"
+    OR LENGTH(crosslistings.courseNumber) < 3
+) AND ';
         }
 
         $query =  'SELECT DISTINCT courses.id, courses.xml
 FROM courses INNER JOIN crosslistings ON courses.id=crosslistings.course_id
-WHERE (
-    LENGTH(crosslistings.courseNumber) >= 3
-    AND crosslistings.courseNumber < "500"
-    OR LENGTH(crosslistings.courseNumber) < 3
-) AND (' . $query . ');';
-        return new DBSearchResults($query, $offset, $limit);
+WHERE ' . $filterQuery . ' (' . $query . ');';
+        return new DBSearchResults($this->db, $query, $offset, $limit);
     }
 }

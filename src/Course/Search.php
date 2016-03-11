@@ -3,6 +3,7 @@
 namespace UNL\UndergraduateBulletin\Course;
 
 use UNL\UndergraduateBulletin\Controller;
+use UNL\UndergraduateBulletin\CatalogController;
 use UNL\UndergraduateBulletin\ControllerAwareInterface;
 use UNL\UndergraduateBulletin\CachingService\CacheableInterface;
 use UNL\UndergraduateBulletin\SubjectArea\SubjectArea;
@@ -31,6 +32,23 @@ class Search implements
 
     public function setController(Controller $controller)
     {
+        $page = $controller->getOutputPage();
+        $pageTitle = 'Course Search';
+
+        $titleContext = 'Undergraduate Bulletin';
+        if ($controller instanceof CatalogController) {
+            $titleContext = 'Course Catalog';
+            $page->breadcrumbs->addCrumb('Course Catalog', $controller::getURL() . 'courses/');
+        }
+
+        $page->doctitle = sprintf(
+            '<title>%s | %s | University of Nebraska-Lincoln</title>',
+            $pageTitle,
+            $titleContext
+        );
+        $page->pagetitle = '<h1 class="wdn-text-hidden">' . $pageTitle . '</h1>';
+        $page->breadcrumbs->addCrumb($pageTitle);
+
         $this->controller = $controller;
         return $this;
     }
@@ -42,36 +60,19 @@ class Search implements
 
     public function getCacheKey()
     {
-        return 'coursesearch'.serialize($this->options);
+        return ($this->controller instanceof CatalogController ? 'catalog-' : '') . 'coursesearch'.serialize($this->options);
     }
 
     public function preRun($fromCache, \Savvy $savvy)
     {
-        $controller = $this->getController();
-        $controller::setReplacementData('doctitle', 'Course Search'
-            . ' | Undergraduate Bulletin | University of Nebraska-Lincoln');
-
-        $pagetitle = '<h1>Course Search</h1>';
-        $controller::setReplacementData('pagetitle', $pagetitle);
-
-        $controller::setReplacementData('breadcrumbs', <<<EOD
-<ul>
-    <li><a href="http://www.unl.edu/">UNL</a></li>
-    <li><a href="{$controller::getURL()}">Undergraduate Bulletin</a></li>
-    <li><a href="{$controller::getURL()}courses/">Courses</a></li>
-    <li>Search</li>
-</ul>
-EOD
-        );
     }
 
     public function run()
     {
         $driver = null;
-        $dataDir = Controller::getEdition()->getCourseDataDir();
 
-        if (file_exists($dataDir . '/courses.sqlite')) {
-            $driver = new DBSearcher();
+        if (DBSearcher::databaseExists($this->controller)) {
+            $driver = new DBSearcher($this->controller);
         }
 
         $search = new CourseSearch($driver);

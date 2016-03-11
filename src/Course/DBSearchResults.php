@@ -7,11 +7,13 @@ use UNL\Services\CourseApproval\Course\Course;
 class DBSearchResults extends \LimitIterator implements
     \Countable
 {
+    protected $db;
     protected $sql;
     protected $count;
 
-    public function __construct($sql, $offset = 0, $limit = -1)
+    public function __construct(\PDO $db, $sql, $offset = 0, $limit = -1)
     {
+        $this->db = $db;
         $this->sql = $sql;
 
         $stmnt = $this->getDB()->query($this->sql);
@@ -50,10 +52,10 @@ class DBSearchResults extends \LimitIterator implements
     /**
      * Get the database
      *
-     * @return PDO
+     * @return \PDO
      */
     protected function getDB()
     {
-        return DBSearcher::getDB();
+        return $this->db;
     }
 }

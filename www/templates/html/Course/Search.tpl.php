@@ -6,18 +6,6 @@ if (gettype($context->results) == 'string') {
 }
 $rawController = $controller->getRawObject();
 $url = $rawController::getURL();
-if (isset($context->options['view']) && $context->options['view'] == 'searchcourses') {
-    $rawController::setReplacementData('doctitle', 'Course Search | Undergraduate Bulletin | University of Nebraska-Lincoln');
-    $rawController::setReplacementData('pagetitle', '<h1>Course Search</h1>');
-    $rawController::setReplacementData('breadcrumbs', '
-    <ul>
-        <li><a href="http://www.unl.edu/">UNL</a></li>
-        <li><a href="'.$url.'">Undergraduate Bulletin</a></li>
-        <li><a href="'.$url.'courses/">Courses</a></li>
-        <li>Search</li>
-    </ul>
-    ');
-}
 if ($context->options['format'] != 'partial') {
     echo $savvy->render(null, 'SearchForm.tpl.php');
 }
