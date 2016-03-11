@@ -1,7 +1,7 @@
 <ul>
     <li><a href="http://www.unl.edu/">UNL</a>
     <li><a href="http://svcaa.unl.edu/">Academic Affairs</a>
-    <li><a href="<?php echo $savvy->escape(\UNL\UndergraduateBulletin\CatalogController::getURL()) ?>">Bulletins</a>
+    <li><a href="<?php echo $savvy->escape(\UNL\UndergraduateBulletin\CatalogController::getBaseURL()) ?>">Bulletins</a>
     <?php foreach ($context->getCrumbs() as $crumb): ?>
     <?php $isUrl = isset($crumb['url']) && $crumb['url']; ?>
     <li>

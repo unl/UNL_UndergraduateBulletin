@@ -35,7 +35,7 @@ OutputController::setDefaultExpireTimestamp(strtotime('+1 week'));
 Data::setCachingService(new NullService());
 Data::setXCRIService(new DataDriver());
 
-if (isset($_SERVER['BULLETIN_EDITION'])) {
+if (isset($_SERVER['BULLETIN_EDITION']) && is_numeric($_SERVER['BULLETIN_EDITION'])) {
 	Controller::setEdition(new Edition(['year' => $_SERVER['BULLETIN_EDITION']]));
 }
 
