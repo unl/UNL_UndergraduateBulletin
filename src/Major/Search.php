@@ -63,6 +63,22 @@ class Search extends \ArrayIterator implements
             exit;
         }
 
+        $page = $controller->getOutputPage();
+        $pageTitle = 'Majors Search';
+
+        $titleContext = 'Undergraduate Bulletin';
+
+        $page->doctitle = sprintf(
+            '<title>%s | %s | University of Nebraska-Lincoln</title>',
+            $pageTitle,
+            $titleContext
+        );
+        $page->pagetitle = '<h1 class="wdn-text-hidden">' . $pageTitle . '</h1>';
+        $page->breadcrumbs->addCrumb($pageTitle);
+
+        $this->controller = $controller;
+        return $this;
+
         return $this;
     }
 

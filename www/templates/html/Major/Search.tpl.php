@@ -1,19 +1,3 @@
-<?php
-if ($context->options['view'] == 'searchmajors') {
-    $url = $controller->getRawObject()::getURL();
-    $controller->getRawObject()::setReplacementData('doctitle', 'Majors Search | Undergraduate Bulletin | University of Nebraska-Lincoln');
-    $controller->getRawObject()::setReplacementData('pagetitle', '<h1>Majors Search</h1>');
-    $controller->getRawObject()::setReplacementData('breadcrumbs', '
-    <ul>
-        <li><a href="http://www.unl.edu/">UNL</a></li>
-        <li><a href="'.$url.'">Undergraduate Bulletin</a></li>
-        <li><a href="'.$url.'majors/">Majors/Areas of Study</a></li>
-        <li>Search</li>
-    </ul>
-    ');
-}
-?>
-
 <?php if ($context->options['format'] != 'partial'): ?>
     <?php echo $savvy->render(null, 'SearchForm.tpl.php'); ?>
 <?php endif; ?>
