@@ -4,19 +4,19 @@ namespace UNL\UndergraduateBulletin\Developers;
 
 class Colleges extends AbstractAction
 {
-    public $title = "Colleges";
+    protected $title = 'Colleges';
 
-    public $uri = "college";
+    protected $uri = 'college';
 
-    public $exampleURI = "college";
+    protected $exampleURI = 'college';
 
-    public $properties = [
-        ["abbreviation", "(String) The abbreviation of the college", true, true],
-        ["name", "(String) The college name", true, true],
-        ["uri", "(String) URI to the college", true, true],
+    protected $properties = [
+        ['abbreviation', '(String) The abbreviation of the college'],
+        ['name', '(String) The college name'],
+        ['uri', '(String) URI to the college'],
     ];
 
-    public $formats = [
+    protected $formats = [
         'json',
         'partial'
     ];

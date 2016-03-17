@@ -23,6 +23,7 @@ class CatalogController extends Controller
         'subjects' => 'SubjectArea\\SubjectAreas',
         'course' => 'Course\\Listing',
         'searchcourses' => 'Course\\Search',
+        'developers' => 'Developers\\Developers',
     ];
 
     public function __construct($options = [])

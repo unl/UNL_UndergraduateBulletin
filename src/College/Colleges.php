@@ -20,6 +20,7 @@ class Colleges extends \ArrayIterator implements
 
     public function __construct($options = [])
     {
+        $this->options = $options;
         parent::__construct(static::$colleges);
     }
 
@@ -42,6 +43,11 @@ class Colleges extends \ArrayIterator implements
 
     public function setController(Controller $controller)
     {
+        if (isset($this->options['redirectToSelf']) && true === $this->options['redirectToSelf']) {
+            header('Location: ' . $this->getUrl($controller), true, 302);
+            exit();
+        }
+
         $page = $controller->getOutputPage();
         $pageTitle = 'Colleges';
 
@@ -61,5 +67,21 @@ class Colleges extends \ArrayIterator implements
     public function getController()
     {
         return $this->controller;
+    }
+
+    public function getUrl(Controller $controller = null)
+    {
+        $path = 'college';
+
+        $pathSuffix = '/';
+        if (isset($this->options['format']) && in_array($this->options['format'], ['json', 'xml'], true)) {
+            $pathSuffix = '.' . $this->options['format'];
+        }
+
+        if ($controller) {
+            return $controller::getURL() . $path . $pathSuffix;
+        }
+
+        return Controller::getURL() . $path;
     }
 }

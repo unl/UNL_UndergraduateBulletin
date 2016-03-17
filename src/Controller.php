@@ -53,7 +53,7 @@ class Controller implements
         'bulletinrules' => 'BulletinRules',
         'editions' => 'Edition\\Editions',
         'book' => 'Book',
-        'developers' => 'Developers\\Developers'
+        'developers' => 'Developers\\Developers',
     ];
 
     protected $outputController;

@@ -66,7 +66,7 @@ class SubjectArea extends RealSubjectArea implements
     public function setController(Controller $controller)
     {
         if (isset($this->options['redirectToSelf']) && true === $this->options['redirectToSelf']) {
-            header('Location: ' . $this->getUrl(), true, 301);
+            header('Location: ' . $this->getUrl($controller), true, 301);
             exit();
         }
 
@@ -139,10 +139,15 @@ class SubjectArea extends RealSubjectArea implements
 
     public function getUrl(Controller $controller = null)
     {
-        $path = 'courses/' . $this->getSubject() . '/';
+        $path = 'courses/' . $this->getSubject();
+
+        $pathSuffix = '/';
+        if (isset($this->options['format']) && in_array($this->options['format'], ['json', 'xml'], true)) {
+            $pathSuffix = '.' . $this->options['format'];
+        }
 
         if ($controller) {
-            return $controller::getURL() . $path;
+            return $controller::getURL() . $path . $pathSuffix;
         }
 
         return Controller::getURL() . $path;

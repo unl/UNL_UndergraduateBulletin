@@ -4,13 +4,13 @@ namespace UNL\UndergraduateBulletin\Developers;
 
 class SubjectArea extends AbstractAction
 {
-    public $title = "Subject Area";
+    protected $title = 'Subject Area';
 
-    public $uri = "courses/{subjectArea}";
+    protected $uri = 'courses/{subjectArea}';
 
-    public $exampleURI = "courses/ECON";
+    protected $exampleURI = 'courses/ECON';
 
-    public $properties = [
-        ["courses", "(Array) The courses", true, true],
+    protected $properties = [
+        ['courses', '(Array) The courses'],
     ];
 }

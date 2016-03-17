@@ -44,6 +44,11 @@ class SubjectAreas extends \ArrayIterator implements
 
     public function setController(Controller $controller)
     {
+        if (isset($this->options['redirectToSelf']) && true === $this->options['redirectToSelf']) {
+            header('Location: ' . $this->getUrl($controller), true, 301);
+            exit();
+        }
+
         $page = $controller->getOutputPage();
         $pageTitle = 'Subject Areas';
 
@@ -111,5 +116,21 @@ class SubjectAreas extends \ArrayIterator implements
         }
 
         return $data;
+    }
+
+    public function getUrl(Controller $controller = null)
+    {
+        $path = 'courses';
+
+        $pathSuffix = '/';
+        if (isset($this->options['format']) && in_array($this->options['format'], ['json', 'xml'], true)) {
+            $pathSuffix = '.' . $this->options['format'];
+        }
+
+        if ($controller) {
+            return $controller::getURL() . $path . $pathSuffix;
+        }
+
+        return Controller::getURL() . $path;
     }
 }

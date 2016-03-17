@@ -46,8 +46,16 @@ class Router
                 $options['view'] = 'book';
                 $options['format'] = 'print';
                 break;
-            case preg_match('/^courses\/$/', $requestURI, $matches):
+            case preg_match('/^courses(\.(?P<format>\w+)|\/)?$/', $requestURI, $matches):
                 $options['view'] = 'subjects';
+
+                if (empty($matches[1]) || (!empty($matches['format']) && $matches['format'] === 'html')) {
+                    $options['redirectToSelf'] = true;
+                }
+
+                if (!empty($matches['format'])) {
+                    $options['format'] = $matches['format'];
+                }
                 break;
             case preg_match('/^courses\/search\/?$/', $requestURI, $matches):
                 $options['view'] = 'searchcourses';
@@ -80,35 +88,75 @@ class Router
                 }
                 break;
             // List of all majors
-            case preg_match('/^majors?\/?$/', $requestURI, $matches):
+            case preg_match('/^majors?(\.(?P<format>\w+)|\/)?$/', $requestURI, $matches):
                 $options['view'] = 'majors';
+
+                if (empty($matches[1]) || (!empty($matches['format']) && $matches['format'] === 'html')) {
+                    $options['redirectToSelf'] = true;
+                }
+
+                if (!empty($matches['format'])) {
+                    $options['format'] = $matches['format'];
+                }
                 break;
-            case preg_match('/^majors?\/lookup\/?$/', $requestURI, $matches):
+            case preg_match('/^majors?\/lookup(\.(?P<format>\w+))?$/', $requestURI, $matches):
                 $options['view'] = 'majorlookup';
+
+                if (!empty($matches['format'])) {
+                    $options['format'] = $matches['format'];
+                }
                 break;
             // Search majors
             case preg_match('/^majors?\/search\/?$/', $requestURI, $matches):
                 $options['view'] = 'searchmajors';
                 break;
-            case preg_match('/^major\/(.+)\/(courses|plans|outcomes)$/', $requestURI, $matches):
+            case preg_match(
+                '/^major\/(.+)\/(courses|plans|outcomes)(\.(?P<format>\w+))?$/',
+                $requestURI,
+                $matches
+            ):
                 $options['view'] = $matches[2];
                 $options['name'] = urldecode($matches[1]);
+
+                if (!empty($matches['format'])) {
+                    $options['format'] = $matches['format'];
+                }
                 break;
             // Individual major major/Architecture
-            case preg_match('/^major\/(.+?)\/?$/', $requestURI, $matches):
+            case preg_match('/^major\/(.+?)(\.(?P<format>\w+)|\/)?$/', $requestURI, $matches):
                 $options['view'] = 'major';
                 $options['name'] = urldecode($matches[1]);
+
+                if (!empty($matches['format'])) {
+                    $options['format'] = $matches['format'];
+                }
                 break;
-            case preg_match('/^college\/?$/', $requestURI):
+            case preg_match('/^college(\.(?P<format>\w+)|\/)?$/', $requestURI, $matches):
                 $options['view'] = 'colleges';
+
+                if (empty($matches[1]) || (!empty($matches['format']) && $matches['format'] === 'html')) {
+                    $options['redirectToSelf'] = true;
+                }
+
+                if (!empty($matches['format'])) {
+                    $options['format'] = $matches['format'];
+                }
                 break;
-            case preg_match('/^college\/(.*)\/majors/', $requestURI, $matches):
+            case preg_match('/^college\/(.*)\/majors(\.(?P<format>\w+))?$/', $requestURI, $matches):
                 $options['view'] = 'collegemajors';
                 $options['name'] = urldecode($matches[1]);
+
+                if (!empty($matches['format'])) {
+                    $options['format'] = $matches['format'];
+                }
                 break;
-            case preg_match('/^college\/(.*)/', $requestURI, $matches):
+            case preg_match('/^college\/(.+?)(\.(?P<format>\w+))?$/', $requestURI, $matches):
                 $options['view'] = 'college';
                 $options['name'] = urldecode($matches[1]);
+
+                if (!empty($matches['format'])) {
+                    $options['format'] = $matches['format'];
+                }
                 break;
             case preg_match('/^other\/(.+)$/', $requestURI, $matches):
                 $options['view'] = 'otherarea';

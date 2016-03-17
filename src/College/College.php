@@ -14,6 +14,8 @@ class College implements
 {
     protected $name;
 
+    protected $options;
+
     protected $description;
 
     protected $controller;
@@ -21,6 +23,8 @@ class College implements
     public function __construct($options = [])
     {
         $this->name = $options['name'];
+        unset($options['name']);
+        $this->options = $options;
     }
 
     public function setController(Controller $controller)
@@ -74,7 +78,7 @@ class College implements
                 return $this->getAbbreviation();
         }
 
-        throw new Exception('Unknown member var! '.$var);
+        throw new \Exception('Unknown member var! '.$var);
     }
 
     public function getName()

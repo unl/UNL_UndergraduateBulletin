@@ -4,13 +4,13 @@ namespace UNL\UndergraduateBulletin\Developers;
 
 class FourYearPlans extends AbstractAction
 {
-    public $title = "Four Year Plans";
+    protected $title = 'Major Four Year Plans';
 
-    public $uri = "major/{major}/plans";
+    protected $uri = 'major/{major}/plans';
 
-    public $exampleURI = "major/Actuarial+Science+%28ASC%29/plans";
+    protected $exampleURI = 'major/Actuarial+Science+%28ASC%29/plans';
 
-    public $formats = [
+    protected $formats = [
         'json',
         'partial'
     ];

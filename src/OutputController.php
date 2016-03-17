@@ -60,6 +60,10 @@ class OutputController extends \Savvy
 
         $this->addGlobal('controller', $controller);
 
+        if (isset($controller->options['redirectToSelf']) && $controller->options['redirectToSelf'] === true && !$withHeaders) {
+            unset($controller->options['redirectToSelf']);
+        }
+
         $format = $controller->options['format'];
 
         if (!$this->isSupportedFormat($format)) {

@@ -2,13 +2,13 @@
 
 namespace UNL\UndergraduateBulletin\Developers;
 
-class CollegeMajors extends AbstractAction
+class Majors extends AbstractAction
 {
-    protected $title = 'College Majors';
+    protected $title = 'Majors';
 
-    protected $uri = 'college/{collegeName}/majors';
+    protected $uri = 'majors';
 
-    protected $exampleURI = 'college/Engineering/majors';
+    protected $exampleURI = 'majors';
 
     protected $properties = [
         ['title', '(String) The major (or area of study) name'],

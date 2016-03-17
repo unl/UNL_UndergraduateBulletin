@@ -77,6 +77,7 @@ class Search implements
         }
 
         $search = new CourseSearch($driver);
+        $dataDir = $this->controller::getEdition()->getCourseDataDir();
 
         // There is a subject code prefix, only search the subject code
         if (preg_match('/^([A-Z]{3,4})(\s*:\s*.*)?$/i', $this->options['q'], $matches)
