@@ -291,7 +291,7 @@ define([
                     $(document.body).trigger('sticky_kit:recalc');
 
                     if (Modernizr.mq('only screen and (min-width: 768px)')) {
-                        $sidebar.stick_in_parent({spacer:false});
+                        $sidebar.stick_in_parent({spacer:false, offset_top: 63});
                     } else {
                         $sidebar.trigger('sticky_kit:detach');
                     }
