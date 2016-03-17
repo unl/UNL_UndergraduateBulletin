@@ -1,182 +1,90 @@
 <?php
 $url = $controller->getRawObject()::getURL();
+$resource = $context->getResourceObject();
+$rawController = $controller->getRawObject();
 ?>
 
-<style>
-    blockquote {
-         background: none repeat scroll 0pt 0pt rgb(240, 240, 240);
-         margin: 15px 0pt;
-         padding: 10px;
-         width: auto;
-         word-wrap: break-word;
-    }
+<div class="wdn-band">
+<div class="wdn-inner-wrapper">
 
-    blockquote > p {
-         clear: none;
-         margin: 0pt;
-         padding: 0pt;
-    }
+<?php if (!$resource): ?>
 
-    div.resource {
-         border-bottom: #F0F0F0 5px solid;
-         margin-bottom: 20px;
-    }
+<p>The Bulletin API gives you access to data used to build the bulletin. The following is a list of resources available.</p>
+<ul>
+    <?php foreach ($context->getResources() as $resource => $resourceObject): ?>
+        <li><a href="<?php echo $context->getUrlForResource($resource, $rawController) ?>"><?php echo $resourceObject->title ?></a></li>
+    <?php endforeach; ?>
+</ul>
+<h2>Format Information</h2>
+<p>The following is a list of formats used in the Bulletin. The resources can be loaded in different formats using extension suffixes (<code>.json</code>, <code>.xml</code>) or if the resource requires a querystring, with a <code>format=json</code> parameter.</p>
+<ul>
+    <li><a href='http://www.json.org/'>JSON (JavaScript Object Notation)</a></li>
+    <li><a href='http://en.wikipedia.org/wiki/XML'>XML (Extensible Markup Language)</a></li>
+    <li>Partial (HTML Snippet)</li>
+</ul>
 
-    #maincontent div.resource > ul {
-        padding-left:0;
-    }
+<?php else: ?>
 
-    div.resource > ul > li {
-        list-style:none;
-    }
-
-    a.resources
-    {
-        float:right;
-        font-size:12px
-    }
-</style>
-
-<script>jQuery = $ = WDN.jQuery;</script>
-<script src="<?php echo $url ?>scripts/jquery.beautyOfCode.js"></script>
-<script>
-    $.beautyOfCode.init({
-        theme: "RDark",
-        brushes: ['Xml', 'JScript', 'CSharp', 'Plain', 'Php', "Java", "JavaFX"],
-        defaults: {'wrap-lines':false},
-        ready: function() {
-            $.beautyOfCode.beautifyAll();
-
-        }
-    });
-</script>
 <div class="wdn-grid-set">
     <div class="bp1-wdn-col-three-fourths">
-        <?php
-            $resource = "UNL\\UndergraduateBulletin\\Developers\\" . $context->resource;
-            $resource = new $resource;
-            ?>
-            <div class="resource">
-            <h1 id="instance"><?php echo $resource->title; ?> Resource</h1>
-            <h3>Details</h3>
-            <ul>
-                <li>
-                    <h4 id="instance-uri"><a href="#instance-uri">Resource URI</a></h4>
-                    <blockquote>
-                        <p><?php echo $resource->uri; ?></p>
-                    </blockquote>
-                </li>
-                <?php if (count($resource->properties)): ?>
-                <li>
-                    <h4 id="instance-properties"><a href="#instance-properties">Resource Properties</a></h4>
-                    <table class="zentable neutral">
-                    <thead><tr><th>Property</th><th>Description</th><th>JSON</th><th>XML</th></tr></thead>
-                      <tbody>
-                      <?php
-                        foreach ($resource->properties as $property) {
-                          echo "<tr>
-                                    <td>$property[0]</td>
-                                    <td>$property[1]</td>
-                                    <td>$property[2]</td>
-                                    <td>$property[3]</td>
-                                </tr>";
-                        }
-                      ?>
-                      </tbody>
-                    </table>
-                </li>
-                <?php endif; ?>
-                <li>
-                    <h4 id="instance-get"><a href="#instance-get">HTTP GET</a></h4>
-                    <p>Returns a representation of the resource, including the properties above.</p>
-                </li>
-                <li>
-                    <h4 id="instance-get-example-1"><a href="#instance-get-example-1">Example</a></h4>
-                    <ul class="wdn_tabs">
+        <div class="resource">
+            <h2 id="instance-uri">Resource URI</h2>
+            <p><code><?php echo $resource->getUri($rawController); ?></code></p>
+
+            <?php if (count($resource->properties)): ?>
+                <h2 id="instance-properties">Resource Properties</h2>
+                <table class="zentable neutral">
+                    <thead>
+                        <tr>
+                            <th>Property</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <?php foreach ($resource->properties as $property): ?>
+                            <tr>
+                                <td><?php echo $property[0] ?></td>
+                                <td><?php echo $property[1] ?></td>
+                            </tr>
+                        <?php endforeach; ?>
+                    </tbody>
+                </table>
+            <?php endif; ?>
+
+            <h2 id="instance-get-example-1">Examples</h2>
+            <ul class="wdn_tabs">
+                <?php foreach ($resource->formats as $format): ?>
+                     <li><a href="#<?php echo $format ?>"><?php echo $format ?></a></li>
+                 <?php endforeach; ?>
+            </ul>
+            <div class="wdn_tabs_content">
+                <?php foreach ($resource->formats as $format): ?>
                     <?php
-                     foreach ($resource->formats as $format) {
-                         echo "<li><a href='#$format'>$format</a></li>";
+                     $resourceURI = $resource->getRawObject()->getExampleURI($rawController);
+                     $formatSuffix = '.' . $format;
+                     if (false !== strpos($resourceURI, '?')) {
+                         $formatSuffix = '&format=' . $format;
                      }
-                    ?>
-                    </ul>
-                    <div class="wdn_tabs_content" >
-                         <?php
-                         foreach ($resource->formats as $format) {
-                             $resourceURI = $resource->exampleURI;
-                             if (false === strpos($resourceURI, '?')) {
-                                 $resourceURI .= '?format='.$format;
-                             } else {
-                                 $resourceURI .= '&format='.$format;
-                             }
-                             ?>
-                             <div id="<?php echo $format; ?>">
-                                <ul>
-                                    <li>
-                                        Calling this:
-                                        <blockquote>
-                                            <p>GET <?php echo $resourceURI; ?></p>
-                                        </blockquote>
-                                    </li>
-                                    <li>
-                                        Provides this:
-                                        <?php
-                                        if (substr($resourceURI, 0, 4) != 'http') {
-                                            $resourceURI = 'http://localhost' . $resourceURI;
-                                        }
-
-                                        //Get the output.
-                                        if (!$result = file_get_contents($resourceURI)) {
-                                            $result = "Error getting file contents.";
-                                        }
-                                        switch($format) {
-                                            case "json":
-                                                $result = $context->getRawObject()::formatJSON($result);
-                                                $code = 'javascript';
-                                                break;
-                                            case "xml":
-                                                $code = "xml";
-                                                break;
-                                            default:
-                                                $code = "html";
-                                        }
-                                        ?>
-                                        <pre class="code">
-                                            <code class="<?php echo $code; ?>"><?php echo htmlentities($result); ?></code>
-                                        </pre>
-                                    </li>
-                                </ul>
-                            </div>
-                             <?php
-                         }
-                         ?>
-
+                     ?>
+                     <div id="<?php echo $format; ?>">
+                        <pre><code>GET <?php echo $savvy->escape($resourceURI . $formatSuffix); ?></code></pre>
+                        <h3>Response</h3>
+                        <pre class="code"><code><?php echo $context->simulateRequest($resourceURI . $formatSuffix, $rawController) ?></code></pre>
                     </div>
-                </li>
-            </ul>
+                 <?php endforeach; ?>
+            </div>
         </div>
+    </div>
+</div>
+<script>
+    require(['jquery', 'https://cdn.jsdelivr.net/highlight.js/9.2.0/highlight.min.js'], function($, hljs) {
+        $('.resource pre.code code').each(function() {
+            hljs.highlightBlock(this);
+        })
+    })
+</script>
 
-    </div>
-    <div class="bp1-wdn-col-one-fourth">
-        <div id='resources' class="zenbox primary">
-            <h3>UNL Undergraduate Bulletin API</h3>
-            <p>The following is a list of resources for the Undergraduate Bulletin.</p>
-            <ul>
-                <?php
-                foreach ($context->resources as $resource) {
-                    $resource_url =$url.'developers?resource='.$resource;
-                    echo "<li><a href='$resource_url'>$resource</a></li>";
-                }
-                ?>
-            </ul>
-        </div>
-        <div class="zenbox neutral">
-            <h3>Format Information</h3>
-            <p>The following is a list of formats used in the Undergraduate Bulletin.</p>
-            <ul>
-                <li><a href='http://www.json.org/'>JSON (JavaScript Object Notation)</a></li>
-                <li><a href='http://en.wikipedia.org/wiki/XML'>XML (Extensible Markup Language)</a></li>
-                <li>Partial - The un-themed main content area of the page.</li>
-            </ul>
-        </div>
-    </div>
+<?php endif; ?>
+
+</div>
 </div>
