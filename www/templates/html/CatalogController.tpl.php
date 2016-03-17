@@ -11,7 +11,7 @@ $baseURL = Controller::getBaseURL();
 $protocolAgnosticBaseURL = str_replace('http://', '//', $baseURL);
 
 $page->navlinks = $savvy->render(null, 'sharedcode/catalogNavigation.tpl.php');
-$page->contactinfo = $savvy->render(null, 'sharedcode/bulletinsLocalFooter.html');
+$page->contactinfo = $savvy->render(null, 'sharedcode/bulletinsLocalFooter.tpl.php');
 
 $page->addStylesheet($protocolAgnosticBaseURL. 'css/all.css');
 $page->addStyleSheet($protocolAgnosticBaseURL . 'css/print.css', 'print');

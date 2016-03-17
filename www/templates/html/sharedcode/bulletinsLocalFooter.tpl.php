@@ -11,7 +11,8 @@
             <p class="wdn-icon-phone"><a href="tel:402-472-3751" class="tel">402-472-3751</a></p>
             <p class="wdn-icon-print">402-472-4929</p>
             <p class="wdn-icon-mail"><a href="mailto:academicaffairs&commat;unl.edu">academicaffairs&commat;unl.edu</a></p>
-			<p>This application is developed and maintained by <a href="http://iim.unl.edu/">Internet and Interactive Media</a> (IIM), which is a partnership with University Communications and Information Technology Services.</p>
+            <p><a href="<?php echo UNL\UndergraduateBulletin\CatalogController::getBaseURL() ?>developers">Developer documentation</a> is available for web developers that would like to integrate bulletin information into their website.</p>
+			<p>This application is developed and maintained by <a href="http://iim.unl.edu/">Internet and Interactive Media</a> (IIM), which is a partnership of University Communications and Information Technology Services.</p>
 		</div>
 	</div>
     <div class="bp960-wdn-col-one-third">
