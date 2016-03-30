@@ -139,11 +139,18 @@ class SubjectArea extends RealSubjectArea implements
 
     public function getUrl(Controller $controller = null)
     {
+        $suffixFormats = [
+            'json',
+            'xml',
+            'partial',
+        ];
+        $format = isset($this->options['format']) ? $this->options['format'] : false;
+
         $path = 'courses/' . $this->getSubject();
 
         $pathSuffix = '/';
-        if (isset($this->options['format']) && in_array($this->options['format'], ['json', 'xml'], true)) {
-            $pathSuffix = '.' . $this->options['format'];
+        if ($format && in_array($format, $suffixFormats, true)) {
+            $pathSuffix = '.' . $format;
         }
 
         if ($controller) {

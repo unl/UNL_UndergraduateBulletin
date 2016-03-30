@@ -69,7 +69,7 @@ class Listing implements
 
         $page->head .= '<link rel="alternate" type="text/xml" href="'.$permalink.'.xml" />
             <link rel="alternate" type="application/json" href="'.$permalink.'.json" />
-            <link rel="alternate" type="text/html" href="'.$permalink.'?format=partial" />';
+            <link rel="alternate" type="text/html" href="'.$permalink.'.partial" />';
 
         $page->doctitle = sprintf(
             '<title>%s | %s | University of Nebraska-Lincoln</title>',
@@ -105,10 +105,22 @@ class Listing implements
 
     public function getURL(Controller $controller = null)
     {
+        $suffixFormats = [
+            'json',
+            'xml',
+            'partial',
+        ];
         $path = 'courses/' . $this->getSubject() . '/' . $this->getCourseNumber();
 
         if ($controller) {
-            return $controller::getURL() . $path;
+            $format = isset($controller->options['format']) ? $controller->options['format'] : false;
+            $pathSuffix = '';
+
+            if ($format && in_array($format, $suffixFormats, true)) {
+                $pathSuffix = '.' . $format;
+            }
+
+            return $controller::getURL() . $path . $pathSuffix;
         }
 
         return Controller::getURL() . $path;
