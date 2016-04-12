@@ -99,8 +99,12 @@ class Router
                     $options['format'] = $matches['format'];
                 }
                 break;
-            case preg_match('/^majors?\/lookup(\.(?P<format>\w+))?$/', $requestURI, $matches):
+            case preg_match('/^majors?\/lookup(\.(?P<format>\w+)|\/)?$/', $requestURI, $matches):
                 $options['view'] = 'majorlookup';
+
+                if (empty($matches[1]) || (!empty($matches['format']) && $matches['format'] === 'html')) {
+                    $options['redirectToSelf'] = true;
+                }
 
                 if (!empty($matches['format'])) {
                     $options['format'] = $matches['format'];
