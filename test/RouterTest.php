@@ -65,7 +65,7 @@ class RouterTest extends \PHPUnit_Framework_TestCase
 				$specificYear + ['view' => 'searchmajors'],
 			],
 			[
-				$base . 'major/lookup',
+				$base . 'major/lookup/',
 				$specificYear + ['view' => 'majorlookup'],
 			],
 			[
