@@ -8,12 +8,18 @@ class UNL_UndergraduateBulletin_College_Description
     public $majors = array();
     
     protected $_xml;
+
+    public static function getFileByName($name)
+    {
+        $name .= ' Main Page';
+        return UNL_UndergraduateBulletin_EPUB_Utilities::getFileByName($name, 'colleges', 'xhtml');
+    }
     
     function __construct(UNL_UndergraduateBulletin_College $college)
     {
         $this->college = $college;
 
-        $file = UNL_UndergraduateBulletin_Controller::getEdition()->getDataDir().'/colleges/'.$college->name.' Main Page.xhtml';
+        $file = self::getFileByName($college->name);
 
         if (!file_exists($file)) {
             throw new Exception('No description for the "'.$college->name.'" college.', 404);
