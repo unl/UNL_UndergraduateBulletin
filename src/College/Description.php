@@ -15,11 +15,17 @@ class Description
 
     protected $xml;
 
+    public static function getFileByName($name)
+    {
+        $name .= ' Main Page';
+        return Utilities::getFileByName($name, 'colleges', 'xhtml');
+    }
+
     public function __construct(College $college)
     {
         $this->college = $college;
 
-        $file = Controller::getEdition()->getDataDir().'/colleges/'.$college->name.' Main Page.xhtml';
+        $file = static::getFileByName($college->name);
 
         if (!file_exists($file)) {
             throw new \Exception('No description for the "'.$college->name.'" college.', 404);
