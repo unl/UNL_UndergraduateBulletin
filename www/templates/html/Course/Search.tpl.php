@@ -35,7 +35,7 @@ if ($context->options['format'] != 'partial') {
                 'total' => count($context),
                 'limit' => $context->options['limit'],
                 'offset' => $context->options['offset'],
-                'url' => $url.'courses/search?q='.urlencode($context->options['q']),
+                'url' => $url.'courses/search?q='.urlencode($context->getRawObject()->options['q']),
             ];
             echo $savvy->render((object) $pager, 'PaginationLinks.tpl.php');
         }
