@@ -146,8 +146,10 @@ class Major implements
     public function __isset($var)
     {
         switch ($var) {
+            case 'description':
+            case 'subjectareas':
             case 'colleges':
-                return isset($this->getDescription()->colleges);
+                return null !== $this->__get($var);
         }
 
         return false;
