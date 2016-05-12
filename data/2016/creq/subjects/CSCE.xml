@@ -44,11 +44,14 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1158</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1161</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Placement in to MATH 101 or higher.</div>
     </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">This course should not be taken by majors in Computer Science or Computer Engineering.</div>
+    </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Introduction to the use of data-centric and information technologies—and issues and challenges—in today’s applications in sciences, engineering, the humanities, and the arts.  Exposure to computational thinking and programming, statistical thinking and research design, data analysis and database techniques, and visualization and creative thinking.</div>
     </description>
@@ -169,13 +172,13 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1158</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1161</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Placement in to MATH 101 or higher.</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">First course in a sequence for the minor in Software Development.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">First course in a sequence for the minor in Software Development. This course should not be taken by majors in Computer Science or Computer Engineering.</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Introduction to coding in the context of current web development technologies (JavaScript, HTML, CSS).  Basic coding skills and an introduction to computing with an emphasis on processing data: data formatting and structure, data manipulation, data presentation and the basics of an interactive program.</div>
@@ -731,13 +734,13 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1158</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1161</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">CSCE 120.</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Second course in a sequence for the minor in Software Development.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Second course in a sequence for the minor in Software Development. This course should not be taken by majors in Computer Science or Computer Engineering.</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Practical experience on building larger scale applications and familiarity with the tools, environments (e.g., Android or IoS), and requirements to develop software for current smart-mobile devices such as phones and tablets.</div>
@@ -1537,13 +1540,13 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1158</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1161</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">CSCE 220.</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Third course in a sequence for the minor in Software Development.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Third course in a sequence for the minor in Software Development. This course should not be taken by majors in Computer Science or Computer Engineering.</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Practical experience on how to model data through existing techniques including object-oriented and relational models. These models can then be used at the center of systems to promote efficient and effective data processing and analysis.</div>
@@ -3409,12 +3412,12 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1111</effectiveSemester>
+    <effectiveSemester>1168</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 310 or CSCE 311 or equivalent programming experience.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">CSCE 156, CSCE 311, or CSCE 320 or equivalent programming experience.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Paradigms, systems, and languages for Internet applications. Client-side amd server-side programming, object-based and event-based distributed programmming, and multi-tier applications. Coverage of specific technologies varies.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Paradigms, systems, and languages for Internet applications. Client-side and server-side programming, object-based and event-based distributed programming, and multi-tier applications. Coverage of specific technologies varies.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -3457,6 +3460,153 @@
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Discussion of theoretical and practical insight to wireless communications and wireless networking, current practices, and future trends. Wireless network architectures, mobility management, radio propagation, modulation, power control, antennas, channel access, pricing, and standards.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Software Design and Architecture</title>
+    <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>CSCE</subject>
+        <courseNumber>466</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>CSCE</subject>
+        <courseNumber>866</courseNumber>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>SOFT</subject>
+        <courseNumber>466</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">SOFT 261 or CSCE 361 or equivalent.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Letter grade only.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to the concepts, principles, and state-of-the-art methods in software design and architecture. Topics include application of software engineering process models and management approaches for the design and architecture of large-scale software systems, trade-offs of designing for qualities such as performance, security, and dependability, and techniques and tools for analyzing and evaluating software architectures.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Testing, Verification and Analysis</title>
+    <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>CSCE</subject>
+        <courseNumber>467</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>CSCE</subject>
+        <courseNumber>867</courseNumber>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>SOFT</subject>
+        <courseNumber>467</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">SOFT 261 or CSCE 361 or equivalent.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Letter grade only.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">In-depth coverage of problems related to software quality, and approaches for addressing them.  Topics include testing techniques, dynamic and static program analysis techniques, and other approaches for verifying software qualities. Tool support for performing testing, verification, and analysis will also be studied.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Requirements Elicitation, Modeling and Analysis</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>SOFT</subject>
+        <courseNumber>468</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>CSCE</subject>
+        <courseNumber>468</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>CSCE</subject>
+        <courseNumber>868</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">SOFT 261 or CSCE 361 or equivalent.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Letter grade only.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">In-depth coverage of processes, methods and techniques for determining, or deciding, what a proposed software system should do.   Topics include the requirements engineering process, identification of stakeholders, requirements elicitation techniques, methods for informal and formal requirements documentation, techniques for analyzing requirements models for consistency and completeness, and traceability of requirements across system development and evolution.  Tool support for modeling functional and non-functional requirements to support elicitation and analysis will be studied.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -5180,6 +5330,40 @@
     </activities>
     <credits>
       <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Graduate Seminar</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CSCE</subject>
+        <courseNumber>99</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>pass/no pass only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Required pass/no pass course designed to introduce graduate students to cutting-edge research in computing-related areas and promote professional development.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>2</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">0</credit>
     </credits>
   </course>
   <course>

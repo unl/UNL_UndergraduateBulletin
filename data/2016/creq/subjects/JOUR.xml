@@ -184,9 +184,9 @@
     </courseCodes>
     <gradingType>letter grade only</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1151</effectiveSemester>
+    <effectiveSemester>1168</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">JOMC 101 and 160.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">JOMC 101.</div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">Work in JOUR 202 will appear on the student news World Wide Web (WWW) site. JOUR 202 is 'Letter grade only'.</div>
@@ -313,9 +313,9 @@
     </courseCodes>
     <gradingType>letter grade only</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1151</effectiveSemester>
+    <effectiveSemester>1168</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">JOMC 160; JOUR 201 and 202.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">JOMC 130-134 or JOMC 160, JOUR 201 and 202.</div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">Work in JOUR 302 will appear on the student news World Wide Web (WWW) site.</div>
@@ -402,10 +402,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>letter grade only</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1138</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">JOMC 160; JOUR 202.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">JOMC 130-134 or JOMC 160; JOUR 202.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Explores a variety of digital reporting and storytelling options used to produce journalistic content online.</div>
@@ -461,6 +461,43 @@
       <term>Fall</term>
       <term>Spring</term>
       <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Data Journalism</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>JOUR</subject>
+        <courseNumber>307</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">JOUR 202.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">News reporting using data and analysis. Techniques for analysis and skills for writing complex stories.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
     </termsOffered>
     <activities>
       <activity>
@@ -684,7 +721,7 @@
     </courseCodes>
     <gradingType>letter grade only</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1098</effectiveSemester>
+    <effectiveSemester>1168</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">JOUR 302.</div>
     </prerequisite>
@@ -715,9 +752,17 @@
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
+    <aceOutcomes>
+      <slo>10</slo>
+    </aceOutcomes>
+    <gradNotes>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <em>Work in JOUR 801 will appear on the student news World Wide Web (WWW) site. </em>
+      </div>
+    </gradNotes>
   </course>
   <course>
-    <title>Digital Photojournalism I</title>
+    <title>Digital Photojournalism/Multimedia I</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>JOUR</subject>
@@ -730,9 +775,9 @@
     </courseCodes>
     <gradingType>letter grade only</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1151</effectiveSemester>
+    <effectiveSemester>1171</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">JOMC 101 and 160.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">JOMC 101 and JOMC 130-134.</div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">Student work in JOUR 404/804 will appear on student news World Wide Web (WWW) site.</div>
@@ -761,7 +806,7 @@
     </credits>
   </course>
   <course>
-    <title>Digital Photojournalism II</title>
+    <title>Digital Photojournalism/Multimedia II</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>JOUR</subject>
@@ -774,7 +819,7 @@
     </courseCodes>
     <gradingType>letter grade only</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1128</effectiveSemester>
+    <effectiveSemester>1168</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">JOUR 404/804.</div>
     </prerequisite>
@@ -810,7 +855,7 @@
     </credits>
   </course>
   <course>
-    <title>Investigative and Computer-assisted Reporting</title>
+    <title>Data Visualization</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>JOUR</subject>
@@ -823,9 +868,12 @@
     </courseCodes>
     <gradingType>letter grade only</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1128</effectiveSemester>
+    <effectiveSemester>1168</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">JOUR 202 or by permission.</div>
+    </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Conduct investigative and in-depth reporting by using documents and computer databases, interviewing, and field research to write compelling stories.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Storytelling with visuals generated from data. Theory and practice of visualization and analysis basics.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -837,6 +885,43 @@
       <term>Fall</term>
       <term>Spring</term>
       <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>News Applications</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>JOUR</subject>
+        <courseNumber>408</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">JOUR 202 or by permission.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Web development for data-driven storytelling on the Internet. Programming for news media.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
     </termsOffered>
     <activities>
       <activity>
@@ -862,9 +947,9 @@
     </courseCodes>
     <gradingType>letter grade only</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1151</effectiveSemester>
+    <effectiveSemester>1168</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">JOMC 160 and JOUR 201.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">JOMC 130-134 and JOUR 201.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Designing elements of news presentation, including newspapers, magazines, and web sites.</div>
@@ -944,10 +1029,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>letter grade only</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1158</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1171</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">JOUR 202 and JOUR 302 or BRDC 369 and BRDC 370.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">JOUR 202, JOUR 302 and JOUR 304 or BRDC 371 or BRDC 369 and BRDC 370 and JOUR 304.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Create and present news and information of particular interest to Lincoln's growing refugee communities. The stories students report will be presented on the Nebraska Mosaic website (www.nemosaic.org), and they may also be repurposed as part of printed newsletters or video projects distributed on DVD.</div>
@@ -1025,9 +1110,9 @@
     </courseCodes>
     <gradingType>letter grade only</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1158</effectiveSemester>
+    <effectiveSemester>1168</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">JOMC 160 and JOUR 302; or BRDC 369.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">JOMC 130-134, and JOUR 302 or BRDC 371.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Producing a multimedia news product.</div>

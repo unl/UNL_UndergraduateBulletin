@@ -337,6 +337,46 @@
     </credits>
   </course>
   <course>
+    <title>Mechanics of Materials for Agricultural and Biological Systems Engineering</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>AGEN</subject>
+        <courseNumber>324</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>BSEN</subject>
+        <courseNumber>324</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">AGEN/BSEN 225, MECH 223</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Development of the concepts of stress and strain relevant to agricultural and biological systems.  Stress analysis of axial, torsional, and bending stresses, combined loading analysis, deflection evaluation, static and dynamic failure theory. Practical applications in agricultural and biological systems will be discussed.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Power Systems Design</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -466,6 +506,50 @@
     </activities>
     <credits>
       <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Internship in Agricultural and Biological Systems Engineering</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>AGEN</subject>
+        <courseNumber>395</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>BSEN</subject>
+        <courseNumber>395</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Permission.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Completion of internship approval form is required. The internship proposal is subject to approval by the Department of Biological Systems Engineering.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Practical experience, directed learning, and career exploration and development in a selected business, industry, agency, or educational institution. Activities must include a significant engineering component.</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>fld</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">3</credit>
+      <credit type="Per Semester Limit">3</credit>
+      <credit type="Per Career Limit">3</credit>
     </credits>
   </course>
   <course>
@@ -832,40 +916,6 @@
     </credits>
   </course>
   <course>
-    <title>Honors: Design Project I</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>AGEN</subject>
-        <courseNumber>470</courseNumber>
-        <courseLetter>H</courseLetter>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Senior standing and good standing in the University Honors Program.</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">For course description, see BSEN 470H.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities/>
-    <credits>
-      <credit type="Single Value">1</credit>
-    </credits>
-  </course>
-  <course>
     <title>Design II in Agricultural and Biological Systems Engineering</title>
     <courseCodes>
       <courseCode type="crosslisting">
@@ -907,40 +957,6 @@
     <aceOutcomes>
       <slo>10</slo>
     </aceOutcomes>
-  </course>
-  <course>
-    <title>Honors: Design Project II</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>AGEN</subject>
-        <courseNumber>480</courseNumber>
-        <courseLetter>H</courseLetter>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Good standing in the University Honors Program or by invitation; BSEN/AGEN 470H.</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">For course description, see BSEN 480H.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities/>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
   </course>
   <course>
     <title>Special Topics in Agricultural Engineering</title>

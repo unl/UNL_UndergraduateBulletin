@@ -46,10 +46,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1088</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Open to freshman and sophmores only.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Open to freshman or sophomores or Agricultural Leadership, Education &amp;amp; Communication degree students or Leadership &amp;amp; Communication minor students or Leadership &amp;amp; Entrepreneurship minor students.</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Introduction to the principles and practices of positive interpersonal relationships for leadership development. Self-awareness, awareness of others, effective interpersonal communication, and the building of trust relationships as a basis for understanding and developing leadership. An experiential approach, field projects and a supervised service project.</div>
@@ -419,16 +419,13 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Agricultural leadership, education and communication major or permission.</div>
     </prerequisite>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Required of all agricultural leadership, education and communication majors.</div>
-    </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Observing and/or performance of professional skills in agricultural education, extension education, agribusiness, journalism, and leadership.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">An exploration of the history, philosophy, goals, and objectives of career and Technical Education, more specifically, School-Based Agricultural Education. An introduction to lesson plan development, objective/essential question writing, and peer teaching will provide knowledge and skills that will be used in an early field experience. The early field experience will provide a platform for critical reflection that will help mold future agricultural teachers.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -437,9 +434,50 @@
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
     <termsOffered>
-      <term>Spring</term>
+      <term>Fall</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Introduction to Skilled and Technical Sciences Education</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ALEC</subject>
+        <courseNumber>135</courseNumber>
+        <courseLetter>A</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Course Description This is an introduction to basic lesson plan development, objective writing, and teaching in Skilled and Technical Sciences. A 40-hour early field experience in a Skills USA affiliated STS education program is required. The early field experience explores teaching as a potential career.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>fld</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">1</credit>
     </credits>
@@ -905,6 +943,40 @@
     </credits>
   </course>
   <course>
+    <title>STS Technical Skills and Skills USA</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ALEC</subject>
+        <courseNumber>235</courseNumber>
+        <courseGroup>Introductory</courseGroup>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Theory of experiential education to middle school and secondary Skilled and Technical Sciences education programs, especially leadership and career education. Exposure to Supervised Career and Technical Student Organization Experience (CTSO), Skills USA, appropriate to the community, school, and student needs recording using electronic technology in learning how to teach Skilled and Technical Science courses supported by Skills USA. This course will provide the work based learning credit (006.34D3) for the Industrial Technology Education Field Endorsement, and STS Supplemental endorsements. This course includes 20 hours of SkillsUSA field experience.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Digital Photography and Visual Communication for Agriculture and the Environment</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -1154,10 +1226,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ALEC 202.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Open to sophomores or above.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Principle and process of effective leadership in complex organizations of society and commerce. Dynamic interactions of personal characteristics, technical skills, interpersonal influence, commitment, goals and power.</div>
@@ -2219,6 +2291,45 @@
     </deliveryMethods>
     <termsOffered>
       <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Facilitation and Project Planning</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ALEC</subject>
+        <courseNumber>422</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">ALEC 202 or equivalent and at least junior standing or permission.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">The course will require travel to project sites, which are within 75 miles of Lincoln.  At least 5 project visits are required, and more project visits may be required depending on the project.  Generally, students work in pairs, so not all students need to be able to drive, and the instructor will try to create partnerships that facilitate traveling needs. However, if students cannot find transportation to a project site, they will not be able to complete the course.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Foundational knowledge of project planning and facilitation.  An experiential opportunity to facilitate a project within a community.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
     </termsOffered>
     <activities>
       <activity>

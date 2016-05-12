@@ -1029,10 +1029,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1105</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ANTH 110 and 242.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">ANTH 110 or ANTH 242</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Physical and behavioral diversity of primates through the evolutionary framework.</div>
@@ -1517,13 +1517,13 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">12 hrs anthropology.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">6 hours of anthropology including ANTH 212.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">An approach to the museum as it relates to the growth of anthropology in general and ethnological studies in particular. Emphasis on the study of non-Western technology and its role in the modern museum.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Explores historical and contemporary aspects of the missions, ethical and political issues concerning exhibits and collections held by museums.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -1539,6 +1539,7 @@
     <activities>
       <activity>
         <type>lec</type>
+        <hours>3</hours>
       </activity>
     </activities>
     <credits>
@@ -2308,7 +2309,77 @@
     </credits>
   </course>
   <course>
-    <title>Belief Systems in Anthropological Perspective</title>
+    <title>Geospatial Approaches in Digital Humanities and Social Sciences</title>
+    <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>HIST</subject>
+        <courseNumber>461</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>HIST</subject>
+        <courseNumber>861</courseNumber>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>ANTH</subject>
+        <courseNumber>461</courseNumber>
+        <courseGroup>Laboratory and Field Training</courseGroup>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>ANTH</subject>
+        <courseNumber>861</courseNumber>
+        <courseGroup>Laboratory and Field Training</courseGroup>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>GEOG</subject>
+        <courseNumber>461</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>GEOG</subject>
+        <courseNumber>861</courseNumber>
+        <courseGroup>Techniques</courseGroup>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>CLAS</subject>
+        <courseNumber>461</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>CLAS</subject>
+        <courseNumber>861</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Study of geographic concepts and critical analysis of applications of Geographic Information Systems (GIS) in humanities and social sciences and application of  geospatial tools for humanities and social science research; learn how to collect, manage, analyze, and visualize spatial data for real-world projects</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lab</type>
+        <hours>2</hours>
+      </activity>
+      <activity>
+        <type>lec</type>
+        <hours>1</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Belief Systems: Animism to Zombies</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>ANTH</subject>
@@ -2322,13 +2393,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">12 hrs anthropology.</div>
-    </prerequisite>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Cross-cultural examination of the structure, form, and functions of belief systems. Emphasis on the interrelationship between the ideological subsystem of a culture and its social, political, and economic organization. Primitive and contemporary societies.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Explores the diversity of beliefs and rituals surrounding the mysteries of birth, life, death and beyond.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -2344,6 +2412,7 @@
     <activities>
       <activity>
         <type>lec</type>
+        <hours>3</hours>
       </activity>
     </activities>
     <credits>

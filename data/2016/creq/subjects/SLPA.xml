@@ -550,6 +550,39 @@
     </credits>
   </course>
   <course>
+    <title>Neurological Foundations of Speech and Language</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>SLPA</subject>
+        <courseNumber>453</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1171</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">To gain a working knowledge of the organization (neuroanatomy) and function (neurophysiology) of the central and peripheral nervous system in relation to motor control, somatosensory physiology, vocalization, central pattern generation, speech, and language production. Special consideration is directed towards the neurology of human communication processes, speech and language; classification of impairments (sensory, motor, integrative functions) according to the site of lesion(s).</div>
+    </description>
+    <campuses>
+      <campus></campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Research Methodology in Speech-Language Pathology and Audiology</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -1075,31 +1108,6 @@
     </activities>
     <credits>
       <credit type="Single Value">2</credit>
-    </credits>
-  </course>
-  <course>
-    <title>Neurological Foundations of Speech and Language</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>SLPA</subject>
-        <courseNumber>853</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Basic concepts of neurology, protection and blood supply of the Central Nervous System (CNS), anatomical structures of the CNS, neuromotor control of speech, cranial nerves for speech production and neuron motor disorders.</div>
-    </description>
-    <campuses>
-      <campus></campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <activities/>
-    <credits>
-      <credit type="Single Value">3</credit>
     </credits>
   </course>
   <course>
@@ -2163,8 +2171,11 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Admission to Graduate Degree or Certificate program in Special Education or Speech-Language Pathology or by permission of instructor.</div>
+    </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Theoretical and practical aspects of American Sign Language (ASL) structure. Issues relevant to the use of sign language in education, written English as a second language, classroom discourse, and educational interpreting. Sociolinguistic aspects of sign language among deaf and hearing individuals.</div>
     </description>

@@ -171,7 +171,7 @@
     </courseCodes>
     <gradingType>letter grade only</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1151</effectiveSemester>
+    <effectiveSemester>1168</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">ADPR 151.</div>
     </prerequisite>
@@ -201,9 +201,6 @@
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
-    <aceOutcomes>
-      <slo>1</slo>
-    </aceOutcomes>
   </course>
   <course>
     <title>Special Topics</title>
@@ -340,7 +337,7 @@
     <dfRemoval>true</dfRemoval>
     <effectiveSemester>1168</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ADPR 283 and JOMC 130-134.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">ADPR 283 and JOMC 130-134 or JOMC 161.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Graphics and design of advertising. Principles and techniques of typography, layout and design, computer graphics, and production methods. Develop strategies and design ads for various media using industry-standard graphic design programs.</div>
@@ -485,6 +482,80 @@
       <activity>
         <type>lec</type>
         <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Connecting Through Owned, Earned, and Paid Media</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ADPR</subject>
+        <courseNumber>361</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">ADPR 283.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Understanding connections between paid media (advertising) and owned and earned media (public relations) as part of integrated marketing communications.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Digital Content Strategy</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ADPR</subject>
+        <courseNumber>362</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">ADPR 283.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Overview of decisions communications managers must make when developing digital content. Introduction to breadth of digital content strategy.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
       </activity>
     </activities>
     <credits>
@@ -892,7 +963,7 @@
     </courseCodes>
     <gradingType>letter grade only</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1158</effectiveSemester>
+    <effectiveSemester>1168</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Junior standing and ADPR 283.</div>
     </prerequisite>
@@ -920,9 +991,6 @@
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
-    <aceOutcomes>
-      <slo>6</slo>
-    </aceOutcomes>
   </course>
   <course>
     <title>Public Relations Techniques</title>
@@ -1025,7 +1093,7 @@
     <dfRemoval>true</dfRemoval>
     <effectiveSemester>1168</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Junior standing, ADPR 283 and JOMC 130-134.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Junior standing, ADPR 283 and JOMC 130-134 or JOMC 161.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Communication strategies and tactics using interactive media. Exploration of interactive’s role in strategic communications, user experience, information architecture, interactive design and development using current web technologies.</div>
@@ -1337,7 +1405,7 @@
     <dfRemoval>true</dfRemoval>
     <effectiveSemester>1168</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Junior standing; ADPR 283 and JOMC 130-134.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Junior standing; ADPR 283 and JOMC 130-134 or JOMC 161.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">How to improve individual portfolios of creative work and execute a variety of creative pieces that demonstrate improvement in their collections.</div>

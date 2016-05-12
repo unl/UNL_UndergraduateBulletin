@@ -118,10 +118,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1138</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Prerequisite or parallel: MATH 107 and ASTR 131 or PHYS 211.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Prerequisite or parallel: MATH 107 and PHYS 211.</div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">Not for electrical engineering majors.</div>
@@ -131,6 +131,7 @@
     </description>
     <campuses>
       <campus>UNL</campus>
+      <campus>UNO</campus>
     </campuses>
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
@@ -138,9 +139,13 @@
     <termsOffered>
       <term>Fall</term>
       <term>Spring</term>
-      <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
@@ -226,12 +231,12 @@
     <courseCodes>
       <courseCode type="home listing">
         <subject>ELEC</subject>
-        <courseNumber>222</courseNumber>
+        <courseNumber>220</courseNumber>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1148</effectiveSemester>
+    <effectiveSemester>1168</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">ELEC 122 or CSCE 230, and CSCE 155E, or working knowledge of C programming.</div>
     </prerequisite>
@@ -240,6 +245,7 @@
     </description>
     <campuses>
       <campus>UNL</campus>
+      <campus>UNO</campus>
     </campuses>
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
@@ -250,8 +256,12 @@
     </termsOffered>
     <activities>
       <activity>
+        <type>lab</type>
+        <hours>1</hours>
+      </activity>
+      <activity>
         <type>lec</type>
-        <hours>3</hours>
+        <hours>2</hours>
       </activity>
     </activities>
     <credits>
@@ -531,7 +541,7 @@
     <dfRemoval>true</dfRemoval>
     <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ELEC 222 and ELEC 236; prereq or parallel ELEC 370; admission to the College of Engineering.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">ELEC 220 and ELEC 236; prereq or parallel ELEC 370; admission to the College of Engineering.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Laboratory work on circuits and systems, digital and analog electronic circuits, and electromagnetics.</div>
@@ -1530,16 +1540,16 @@
     <courseCodes>
       <courseCode type="home listing">
         <subject>ELEC</subject>
-        <courseNumber>452</courseNumber>
+        <courseNumber>450</courseNumber>
       </courseCode>
       <courseCode type="grad tie-in">
         <subject>ELEC</subject>
-        <courseNumber>852</courseNumber>
+        <courseNumber>850</courseNumber>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Computer programming language and ELEC 305 or IMSE 321 or STAT 380 or equivalent.</div>
     </prerequisite>
@@ -1548,6 +1558,7 @@
     </description>
     <campuses>
       <campus>UNL</campus>
+      <campus>UNO</campus>
     </campuses>
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
@@ -1947,16 +1958,16 @@
     <courseCodes>
       <courseCode type="grad tie-in">
         <subject>ELEC</subject>
-        <courseNumber>875</courseNumber>
+        <courseNumber>874</courseNumber>
       </courseCode>
       <courseCode type="home listing">
         <subject>ELEC</subject>
-        <courseNumber>475</courseNumber>
+        <courseNumber>474</courseNumber>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">ELEC 370.</div>
     </prerequisite>
@@ -1965,6 +1976,7 @@
     </description>
     <campuses>
       <campus>UNL</campus>
+      <campus>UNO</campus>
     </campuses>
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
@@ -1989,24 +2001,25 @@
     <courseCodes>
       <courseCode type="home listing">
         <subject>ELEC</subject>
-        <courseNumber>479</courseNumber>
+        <courseNumber>477</courseNumber>
       </courseCode>
       <courseCode type="grad tie-in">
         <subject>ELEC</subject>
-        <courseNumber>879</courseNumber>
+        <courseNumber>877</courseNumber>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1128</effectiveSemester>
+    <effectiveSemester>1168</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ELEC 475/875.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">ELEC 474/874.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Hardware development languages, hardware organization and realization, microprogramming, interrupt, intersystem communication, and peripheral interfacing.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
+      <campus>UNO</campus>
     </campuses>
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
@@ -2109,7 +2122,7 @@
     </credits>
   </course>
   <course>
-    <title>Electrical Engineering Senior Design I</title>
+    <title>Capstone I</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>ELEC</subject>
@@ -2118,7 +2131,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1138</effectiveSemester>
+    <effectiveSemester>1168</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">ELEC 317 or permission; admission to the College of Engineering</div>
     </prerequisite>
@@ -2130,6 +2143,7 @@
     </description>
     <campuses>
       <campus>UNL</campus>
+      <campus>UNO</campus>
     </campuses>
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
@@ -2138,13 +2152,24 @@
       <term>Fall</term>
       <term>Spring</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>ind</type>
+      </activity>
+      <activity>
+        <type>lab</type>
+      </activity>
+      <activity>
+        <type>lec</type>
+        <hours>2</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">2</credit>
     </credits>
   </course>
   <course>
-    <title>Electrical Engineering Senior Design II</title>
+    <title>Capstone II</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>ELEC</subject>
@@ -2153,7 +2178,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1158</effectiveSemester>
+    <effectiveSemester>1168</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">ELEC 494 or permission; admission to the College of Engineering.</div>
     </prerequisite>
@@ -2165,6 +2190,7 @@
     </description>
     <campuses>
       <campus>UNL</campus>
+      <campus>UNO</campus>
     </campuses>
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
@@ -2172,9 +2198,19 @@
     <termsOffered>
       <term>Fall</term>
       <term>Spring</term>
-      <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>ind</type>
+      </activity>
+      <activity>
+        <type>lab</type>
+      </activity>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
@@ -2301,24 +2337,30 @@
         <courseNumber>899</courseNumber>
       </courseCode>
     </courseCodes>
-    <gradingType>unrestricted</gradingType>
+    <gradingType>letter grade only</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <effectiveSemester>1168</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Admission to masters degree program and permission of major adviser</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Admission to masters degree program and permission of major adviser.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">P/N only.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Masters thesis work.</div>
     </description>
     <campuses>
-      <campus></campus>
+      <campus>UNL</campus>
+      <campus>UNO</campus>
     </campuses>
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
     <activities/>
     <credits>
-      <credit type="Lower Range Limit">6</credit>
+      <credit type="Lower Range Limit">1</credit>
       <credit type="Upper Range Limit">10</credit>
     </credits>
   </course>
@@ -2870,22 +2912,32 @@
         <courseNumber>999</courseNumber>
       </courseCode>
     </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Admission to doctoral degree program and permission of supervisory committee chair</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Admission to doctoral degree program and permission of supervisory committee chair.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">P/N only.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Dissertation research.</div>
     </description>
     <campuses>
-      <campus></campus>
+      <campus>UNL</campus>
+      <campus>UNO</campus>
     </campuses>
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
-    <activities/>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
     <credits>
       <credit type="Lower Range Limit">1</credit>
       <credit type="Upper Range Limit">24</credit>

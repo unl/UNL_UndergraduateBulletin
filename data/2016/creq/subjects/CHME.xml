@@ -120,9 +120,9 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <effectiveSemester>1168</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">A grade of C- or better in CHME 202; CSCE 155E or parallel.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">A grade of C- or better in CHME 202; CSCE 155N or parallel.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Application of the three fundamental laws to chemical engineering problems.</div>
@@ -228,10 +228,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1148</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CHME 322 or parallel</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">CHME 323 or parallel</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Microscopic processes, such as statistical thermodynamics and molecular kinetics are introduced.  Emphasis is placed on an engineering approach to developing problem-solving skills in systems requiring molecular-level understanding.</div>
@@ -307,9 +307,9 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1138</effectiveSemester>
+    <effectiveSemester>1168</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">MATH 107; a grade of C- or better in CHME 202; CHME 223, CSCE 155E or parallel.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">MATH 107; a grade of C- or better in CHME 202; CHME 223, CSCE 155N or parallel.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Phase equilibrium and mass and energy balances applied to staged mass transfer operations.</div>
@@ -407,6 +407,46 @@
     </credits>
   </course>
   <course>
+    <title>Introduction to Atomistic Simulations</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CHME</subject>
+        <courseNumber>412</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>CHME</subject>
+        <courseNumber>812</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Senior standing or permission</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Theory and application of quantum-based computational methods used to model, predict and analyze materials properties.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
     <title>Chemical Engineering Laboratory II</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -464,10 +504,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1141</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CHME 333 and 442, MATH 221.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">CHME 331, MATH 221.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Application of diffusional theory to the design of processing equipment required for absorption, adsorption, leaching, drying, and chemical reactions.</div>
@@ -579,13 +619,13 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1141</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1171</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Senior standing in chemical engineering.</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Credit toward the degree may be earned in only one of: IMSE 206 or CHME 452/852.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Credit toward the degree may be earned only in CHME 452/852.</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Criteria of chemical process economics: cost and asset accounting, time value of money, profitability, alternative investments, minimum attractive rate of return, sensitivity and risk analysis. Process optimization in: plant operations, unit operations, using successive calculations, linear programming and dynamic programming.</div>
@@ -601,7 +641,12 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
