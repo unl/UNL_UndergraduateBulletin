@@ -49,7 +49,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1161</effectiveSemester>
+    <effectiveSemester>1168</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">none</div>
     </prerequisite>
@@ -74,6 +74,10 @@
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
+    <aceOutcomes>
+      <slo>4</slo>
+      <slo>8</slo>
+    </aceOutcomes>
   </course>
   <course>
     <title>Introduction to the Economics of Agriculture</title>
@@ -1642,6 +1646,42 @@
         <type>fld</type>
       </activity>
     </activities>
+    <credits>
+      <credit type="Lower Range Limit">1</credit>
+      <credit type="Upper Range Limit">3</credit>
+      <credit type="Per Career Limit">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Internship in Commodity Marketing</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>AECN</subject>
+        <courseNumber>495</courseNumber>
+        <courseLetter>D</courseLetter>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Departmental permission.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">AECN 235 – Introduction to Commodity Marketing is recommended</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">The overall objective of this internship is to allow students to gather more exposure to commodity markets and hands-on experience in the field.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
     <credits>
       <credit type="Lower Range Limit">1</credit>
       <credit type="Upper Range Limit">3</credit>

@@ -721,14 +721,14 @@
         <courseNumber>360</courseNumber>
       </courseCode>
     </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ARCH 310, 350, or permission. Parallel: ARCH 311 or permission.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">ARCH 310 or permission.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Investigation of the interrelationship among the physical context as created by nature and humanity, the various design professions concerned with site development and architectural ideas. Site analysis, selection, and development project done in conjunction with the linked studio, along with practical exercises form the basis of the lab experience.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Investigation of the interrelationship among the physical context as created by nature and humanity, the various design professions concerned with site development and architectural ideas. Site analysis, research, selection, and development projects along with practical exercises form the basis of the lab experience.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -1202,9 +1202,9 @@
     </courseCodes>
     <gradingType>letter grade only</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1148</effectiveSemester>
+    <effectiveSemester>1168</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">For ARCH 461: ARCH 410 and 430. Prereq for LARC 461: LARC/NRES 487 and LARC 410; parallel LARC 411. For ARCH 561/861: Admission to a professional program in the College of Architecture or permission.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">For ARCH 461: ARCH 360 or permission. Prereq for LARC 461: LARC/NRES 487; parallel DSGN 410. For ARCH 561/861: Admission to a professional program in the College of Architecture or permission.</div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">ARCH/LARC 461/561/861 is "Letter grade only'.</div>
@@ -1916,6 +1916,90 @@
       <activity>
         <type>lec</type>
         <hours>1</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Urbanism and the Catalysts of Change</title>
+    <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>ARCH</subject>
+        <courseNumber>562</courseNumber>
+      </courseCode>
+      <courseCode type="home listing">
+        <subject>ARCH</subject>
+        <courseNumber>862</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Admission into the graduate portion of the professional program in architecture or permission.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Exploration into the relationship between the evolution of urbanism and the cultural, economic and scientific advances made by civilization.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Project Territory</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ARCH</subject>
+        <courseNumber>863</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>ARCH</subject>
+        <courseNumber>563</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Admission into the graduate portion of the professional program in architecture or permission.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Comprehensive review and examination of territorial relationships between spatial development, engineering, ecology, and architecture. Focuses on emerging factors affecting urban, suburban, and rural communities and spatial configurations beyond the binary of city and country.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
       </activity>
     </activities>
     <credits>

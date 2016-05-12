@@ -86,12 +86,15 @@
         <courseNumber>201</courseNumber>
       </courseCode>
     </courseCodes>
-    <gradingType>pass/no pass only</gradingType>
+    <gradingType>letter grade only</gradingType>
     <dfRemoval>true</dfRemoval>
     <effectiveSemester>1168</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Global Studies major</div>
     </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Letter grade only.</div>
+    </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">In this foundation course you will develop an understanding of the contemporary and interdisciplinary nature of global studies. Global Studies focuses on basic questions, such as the connectivity of human populations and their activities across time and space, the dynamics of conflict in different regions, and how local issues or regional developments have profound impacts on people across the globe.</div>
     </description>
@@ -115,6 +118,50 @@
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
+  </course>
+  <course>
+    <title>Global Literatures since 1850</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ENGL</subject>
+        <courseNumber>242</courseNumber>
+        <courseGroup>Literary and Cultural Studies</courseGroup>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>GLST</subject>
+        <courseNumber>242</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">A survey of literatures written since 1850 from around the globe in historical and cultural contexts.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+    <aceOutcomes>
+      <slo>5</slo>
+      <slo>9</slo>
+    </aceOutcomes>
   </course>
   <course>
     <title>Model United Nations</title>

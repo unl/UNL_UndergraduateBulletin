@@ -131,10 +131,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1141</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Sophomore standing; ACCT 201 with grade of C or above; and a 2.5 cumulative GPA.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Prereqs: Sophomore standing (or freshman standing with 14 credit hours of UNL credit and Math 104 or Math 106 with a grade of ‘C’ or ‘Pass’ or better); ACCT 201 or 201H with grade of ‘C’ or above; and 2.5 GPA.</div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">Credit toward the degree cannot be earned in both ACCT 200 and either of ACCT 201 and/or ACCT 202.</div>
@@ -154,7 +154,11 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
@@ -187,6 +191,47 @@
       <term>Fall</term>
       <term>Spring</term>
       <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Using Accounting Information</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ACCT</subject>
+        <courseNumber>301</courseNumber>
+        <courseGroup>General Economics and Theory</courseGroup>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">For non-Accounting majors only; 2.5 GPA, ACCT 201 or 201H and ACCT 202 or202H with a C or better.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Does not provide credit toward an accounting degree or accounting minor.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Designed to introduce non-accounting majors to the basics of using accounting information. Covers the practical relationships between business decisions and the financial statements, including forecasting, investment decisions, and tax effects.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
     </termsOffered>
     <activities>
       <activity>
@@ -243,10 +288,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1108</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ACCT 201 and 202 with grades of C or better, or 306 with grade of C or better.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Prereqs: ACCT 201 or 201H, ACCT 202 or 202H, or ACCT 306, ECON 215 or STAT 218, and Math 104 or 106/108H; all with grades of ‘C’ or above.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Internal accounting as a tool to generate information for managerial planning and control. Conventional and computer problem materials are used to develop understanding of operating and capital budgets, standard costs, incremental concepts, relevant costs, transfer pricing, and responsibility and profit center reports as a means of analysis as well as techniques of measurement.</div>
@@ -276,13 +321,46 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ACCT 201 and 202 with grade of C or better, or ACCT 306 with grade of C or better; MNGT/MIST 350; or permission.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Prereqs: ACCT 201 or 201H and ACCT 202 or 202H, or ACCT 306, and Math 104 or 106/108H; with grades of C or better; or permission</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Examination of accounting system concepts, applications, and the process by which they are analyzed, designed, and implemented. Emphasis on management information and computer applications in financial accounting, auditing, and management accounting by means of case study analysis.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Federal Tax Accounting</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ACCT</subject>
+        <courseNumber>312</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Co-requisite: to be taken con-currently with or after ACCT 313.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Federal and state income tax concepts. Includes theory and historical growth of the fundamentals of the federal tax laws and regulations. Emphasis on the practical application of the tax laws in the preparation of the tax returns (for wage earners and sole proprietors) and the need for tax planning.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -309,10 +387,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1108</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ACCT 201 and 202 with grades of C or better, or 306 with grade of C or better.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Prereqs: ACCT 201 or 201H and ACCT 202 or 202H, or ACCT 306, and Math 104 or 106/108H; with grades of C or better.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Analysis and interpretation of financial and operating statements; net income concepts, statements from incomplete records; theory and practice relating to cash flow; and the investment in tangible and intangible assets.</div>
@@ -362,6 +440,42 @@
       <term>Summer</term>
     </termsOffered>
     <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Research in Accounting</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ACCT</subject>
+        <courseNumber>355</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">ACCT 313 with a grade of C or better.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Research, analysis, and communication of proposals based on current issues in accounting, auditing, and taxation via written reports and presentations.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
@@ -471,6 +585,47 @@
     <credits>
       <credit type="Lower Range Limit">3</credit>
       <credit type="Upper Range Limit">6</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Fraud Examination and Internal Audit</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ACCT</subject>
+        <courseNumber>401</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>ACCT</subject>
+        <courseNumber>801</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">ACCT 314 and ACCT 309 with grade of C or better.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Principles and methodologies of detecting and deterring fraud using accounting, auditing, and investigative skills. Also introduces the fundamentals of internal auditing in a changing business environment.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
     </credits>
   </course>
   <course>
@@ -669,25 +824,25 @@
     </credits>
   </course>
   <course>
-    <title>Federal Tax Accounting</title>
+    <title>Corporate Tax Accounting</title>
     <courseCodes>
+      <courseCode type="crosslisting">
+        <subject>ACCT</subject>
+        <courseNumber>813</courseNumber>
+      </courseCode>
       <courseCode type="home listing">
         <subject>ACCT</subject>
-        <courseNumber>412</courseNumber>
-      </courseCode>
-      <courseCode type="grad tie-in">
-        <subject>ACCT</subject>
-        <courseNumber>812</courseNumber>
+        <courseNumber>413</courseNumber>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ACCT 313 with a grade of C or better, or permission.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">ACCT 412/812 with a grade of C or better.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Federal and state income tax concepts. Includes theory and historical growth of the fundamentals of the federal tax laws and regulations. Emphasis on the practical application of the tax laws in the preparation of the tax returns (for wage earners and sole proprietors) and the need for tax planning.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Federal income taxation for corporations. Tax laws associated with formation, operation, distribution, redemption, and reorganizations are analyzed.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -695,12 +850,12 @@
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
@@ -837,39 +992,6 @@
     </credits>
   </course>
   <course>
-    <title>Corporate Tax Accounting</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>ACCT</subject>
-        <courseNumber>813</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>unrestricted</gradingType>
-    <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1138</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ACCT 412/812 with a grade of C or better and admission to the Master of Professional Accountancy Program</div>
-    </prerequisite>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Federal income taxation for corporations. Tax laws associated with formation, operation, distribution, redemption, and reorganizations are analyzed.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <activities>
-      <activity>
-        <type>lec</type>
-        <hours>3</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
     <title>Governmental and Not-For-Profit Accounting</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -919,7 +1041,7 @@
     <dfRemoval>true</dfRemoval>
     <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ACCT 412/812 with a grade of C or better; Admission to the Master of Professional Accountancy program.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">ACCT 312/812 with a grade of C or better; Admission to the Master of Professional Accountancy program.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Development of skills in identifying problems, interpreting facts, conducting research, and communicating results in the field of Federal taxation.</div>
@@ -957,7 +1079,7 @@
     <dfRemoval>true</dfRemoval>
     <effectiveSemester>1138</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">ACCT 412/812 with a grade of C or better; Admission to the Master of Professional Accountancy program.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">ACCT 312/812 with a grade of C or better; Admission to the Master of Professional Accountancy program.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Areas of Federal law that are especially relevant in the prevailing economic and political climate.</div>

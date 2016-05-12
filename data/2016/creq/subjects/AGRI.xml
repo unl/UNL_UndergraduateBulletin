@@ -98,12 +98,15 @@
         <courseNumber>192</courseNumber>
       </courseCode>
     </courseCodes>
-    <gradingType>unrestricted</gradingType>
+    <gradingType>pass/no pass only</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1148</effectiveSemester>
+    <effectiveSemester>1168</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Permission</div>
     </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Pass/NP</div>
+    </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Introduction to the Justin Smith Morrill Scholars Program.  Discussion of critical issues facing society with an emphasis on food, agriculture, natural resources, and rural landscapes.  Strategies to develop and implement issue-based civic engagement activities.  Discussion of the Morrill Land-Grants Acts and the life and accomplishments of Justin Smith Morrill.</div>
     </description>
@@ -120,11 +123,11 @@
     <activities>
       <activity>
         <type>lec</type>
+        <hours>1</hours>
       </activity>
     </activities>
     <credits>
-      <credit type="Lower Range Limit">1</credit>
-      <credit type="Upper Range Limit">2</credit>
+      <credit type="Single Value">1</credit>
       <credit type="Per Career Limit">2</credit>
     </credits>
   </course>

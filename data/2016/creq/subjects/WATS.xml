@@ -835,15 +835,23 @@
         <subject>METR</subject>
         <courseNumber>879</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>BSEN</subject>
+        <courseNumber>479</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>BSEN</subject>
+        <courseNumber>879</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1105</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">NRES 208 or METR 100 or METR/NRES 370.</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Offered fall semester of even-numbered calendar years.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Offered spring semester of even-numbered calendar years.</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Interaction between earth’s climate and the hydrologic cycle. Energy and water fluxes at the land-atmosphere interface. Atmospheric moisture transport, precipitation, evaporation, snowmelt, and runoff. Impacts of climate variability and change on the hydrologic cycle.</div>

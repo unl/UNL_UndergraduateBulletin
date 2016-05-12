@@ -1431,7 +1431,7 @@
     </credits>
   </course>
   <course>
-    <title>Masters Project I</title>
+    <title>Masters Project</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>CNST</subject>
@@ -1439,8 +1439,8 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Admission to the master of engineering degree program with an emphasis in construction, and permission</div>
     </prerequisite>
@@ -1456,7 +1456,12 @@
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>

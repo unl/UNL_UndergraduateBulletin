@@ -236,10 +236,14 @@
         <subject>SOCI</subject>
         <courseNumber>200</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>WMNS</subject>
+        <courseNumber>200</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1158</effectiveSemester>
+    <effectiveSemester>1168</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">3 hrs of sociology or related social sciences</div>
     </prerequisite>
@@ -459,21 +463,25 @@
     </aceOutcomes>
   </course>
   <course>
-    <title>Marriage and the Family</title>
+    <title>Families and Society</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>SOCI</subject>
-        <courseNumber>225</courseNumber>
+        <courseNumber>226</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>WMNS</subject>
+        <courseNumber>226</courseNumber>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1108</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">3 hrs of sociology or related social sciences.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Historic marriage and family patterns. American family, past and present. Husband-wife relationships. Parent-child relationships. Family-society relationships.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Overview of the sociological study of families. Family and marriage patterns over time. Socialization, economic exchange, and social support functions of family roles. The effect of the economy, public policy, and other social institutions on families.  Emphasis on gender, sexuality, social class, and racial/ethnic diversity in U.S families.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -809,15 +817,19 @@
         <subject>SOCI</subject>
         <courseNumber>325</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>WMNS</subject>
+        <courseNumber>325</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1158</effectiveSemester>
+    <effectiveSemester>1168</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">6 hrs sociology or related social sciences</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Contemporary issues confronting American families and family research. Adolescent pregnancy, work-family policy, family violence, divorce, single parents, and step families.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">In-depth examination of select contemporary issues confronting families and family research. Adolescent pregnancy, union formation, parenting, work-family, divorce and family instability, and family violence. Topics vary by instructor.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -1557,7 +1569,7 @@
     </credits>
   </course>
   <course>
-    <title>Family Research and Theory</title>
+    <title>Perspectives on Families</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>SOCI</subject>
@@ -1569,13 +1581,13 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1171</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">9 hrs sociology or related social sciences.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Contemporary theory and research dealing with family structure and change. Focuses on family systems that characterize different social classes and various ethnic groups in our society. Selected problems and contemporary research emphasized.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Sociological perspectives on marriage and different family types.  Focuses on formation and organization of families, and issues confronting families. Emphasizes contemporary research and theory.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -1588,7 +1600,12 @@
       <term>Spring</term>
       <term>Summer</term>
     </termsOffered>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
@@ -2465,10 +2482,14 @@
         <subject>SOCI</subject>
         <courseNumber>890</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>WMNS</subject>
+        <courseNumber>490</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1161</effectiveSemester>
+    <effectiveSemester>1168</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">9 hrs social sciences.</div>
     </prerequisite>
@@ -3180,7 +3201,7 @@
     </credits>
   </course>
   <course>
-    <title>Publications</title>
+    <title>Publications Seminar</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>SOCI</subject>
@@ -3189,17 +3210,22 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1171</effectiveSemester>
     <campuses>
-      <campus></campus>
+      <campus>UNL</campus>
     </campuses>
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
-    <activities/>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
-      <credit type="Single Value">1</credit>
+      <credit type="Single Value">3</credit>
     </credits>
   </course>
   <course>

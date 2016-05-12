@@ -467,7 +467,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1168</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Good standing in the University Honors Program or by invitation.</div>
     </prerequisite>
@@ -497,6 +497,9 @@
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
+    <aceOutcomes>
+      <slo>4</slo>
+    </aceOutcomes>
   </course>
   <course>
     <title>Biological Sciences Learning Community Freshman Seminar</title>
@@ -1672,11 +1675,16 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1141</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">PSYC 181 and BIOS 101/101L or their equivalents.</div>
     </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <em>Credit cannot be earned in both PSYC 273 and PSYC 373 or BIOS 373<br/></em>
+      </div>
+    </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Critical introduction into methods and concepts useful in analyzing the biological basis of animal behavior. Topics surveyed are the physiological, genetic, developmental, and environmental mechanisms controlling behavior in various species of animals including humans.</div>
     </description>
@@ -1921,10 +1929,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">PSYC/BIOS 373.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">PSYC 273 OR PSYC 373/BIOS 373</div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">May be repeated for credit under different topics.</div>
@@ -2411,9 +2419,9 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1141</effectiveSemester>
+    <effectiveSemester>1168</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">PSYC 373 or BIOS 373.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">PSYC 273 or PSYC 373 or BIOS 373.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Relationship of physiological variables to behavior, an introduction to laboratory techniques in neuropsychology.</div>
@@ -3913,9 +3921,9 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1158</effectiveSemester>
+    <effectiveSemester>1168</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">LIFE 120 and LIFE 120L; LIFE 121 and LIFE 121L; either BIOS 207 or BIOS 220.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">LIFE 121 &amp;amp; 121L, BIOS 207 or BIOS 220 and Senior standing.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Nature and characteristics of populations and communities. Interactions within and between populations in community structure and dynamics. Direct and indirect interactions and ecological processes, competition, predation, parasitism, herbivory, and pollination. Structure, functioning and persistence of natural communities, foodweb dynamics, succession, and biodiversity.</div>
@@ -3926,11 +3934,6 @@
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
     <activities>
       <activity>
         <type>lec</type>
@@ -4227,12 +4230,12 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1138</effectiveSemester>
+    <effectiveSemester>1168</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">BIOS 207.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to animal behavior stressing the ethological approach. Anatomical and physiological bases of behavior, ontogenetic and phylogenetic observations, and the relations of animal behavior studies to genetics, ecology, taxonomy, and evolution. Assigned reading.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introduction to animal behavior stressing the ethological approach. Anatomical and physiological bases of behavior, ontogenetic and phylogenetic observations, and the relations of animal behavior studies to genetics, ecology, taxonomy, and evolution.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -4240,9 +4243,6 @@
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-    </termsOffered>
     <activities>
       <activity>
         <type>lec</type>
@@ -4252,6 +4252,9 @@
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
+    <aceOutcomes>
+      <slo>10</slo>
+    </aceOutcomes>
   </course>
   <course>
     <title>Fisheries Biology</title>
@@ -4531,7 +4534,7 @@
     </credits>
   </course>
   <course>
-    <title>Ornithology</title>
+    <title>Avian Biology</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>BIOS</subject>
@@ -4544,15 +4547,15 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1138</effectiveSemester>
+    <effectiveSemester>1168</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">LIFE 121 &amp;amp; LIFE 121L.</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Optional lab (BIOS 475L/875L) by arrangement. May also be offered at Cedar Point Biological Station.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">May also be offered at Cedar Point Biological Station.</div>
     </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Review of avian biology. Functional morphology, evolutionary relationships and breeding biology.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Biology of birds emphasizing the behavior and ecology of this group. Topics include avian diversity, systematics &amp;amp; evolutionary history, flight, foraging, migration, communication, reproductive biology, population ecology and conservation biology.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -4560,9 +4563,6 @@
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-    </termsOffered>
     <activities>
       <activity>
         <type>lec</type>
@@ -4574,7 +4574,7 @@
     </credits>
   </course>
   <course>
-    <title>Ornithology Lab</title>
+    <title>Avian Biology Laboratory</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>BIOS</subject>
@@ -4588,20 +4588,23 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Parallel BIOS 475/875 and permission.</div>
     </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">An immersive field biology experience at Cedar Point Biological Station.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Avian field identification in diverse prairie, riparian, and montane habitats. Individual studies of foraging behavior, territoriality, anti-predator behavior, mating systems, or nesting ecology.</div>
+    </description>
     <campuses>
       <campus>UNL</campus>
     </campuses>
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-    </termsOffered>
     <activities>
       <activity>
         <type>lab</type>

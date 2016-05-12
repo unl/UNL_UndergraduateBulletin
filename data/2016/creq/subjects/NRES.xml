@@ -227,7 +227,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1161</effectiveSemester>
+    <effectiveSemester>1168</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">none</div>
     </prerequisite>
@@ -252,6 +252,10 @@
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
+    <aceOutcomes>
+      <slo>4</slo>
+      <slo>8</slo>
+    </aceOutcomes>
   </course>
   <course>
     <title>Exploring Plant Biology</title>
@@ -769,6 +773,46 @@
     </credits>
   </course>
   <course>
+    <title>Wildlife Field Techniques</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>NRES</subject>
+        <courseNumber>233</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">LIFE 121.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">Offered off-campus during academic breaks at Cedar Point Biological Station.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Field and laboratory skills needed for wildlife management emphasizing wildlife and vegetation surveys, mark-recapture of wildlife, radio-telemetry, aging and forensic methods, and habitat assessment.  Course fee applies.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lab</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">1</credit>
+    </credits>
+  </course>
+  <course>
     <title>Introduction to Grassland Ecology and Management</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -1198,10 +1242,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1151</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">NRES/BIOS 220 and NRES/BIOS 222.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">NRES/BIOS 220.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Advanced wildlife ecology, conservation biology, population biology, and enhancement of wildlife populations through management. Emphasis on both game and nongame species.</div>
@@ -1218,11 +1262,7 @@
     <activities>
       <activity>
         <type>lec</type>
-        <hours>2</hours>
-      </activity>
-      <activity>
-        <type>rct</type>
-        <hours>1</hours>
+        <hours>3</hours>
       </activity>
     </activities>
     <credits>
@@ -3070,53 +3110,6 @@
     </aceOutcomes>
   </course>
   <course>
-    <title>Wildlife Management Techniques Lab</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>NRES</subject>
-        <courseNumber>433</courseNumber>
-        <courseLetter>L</courseLetter>
-      </courseCode>
-      <courseCode type="crosslisting">
-        <subject>NRES</subject>
-        <courseNumber>833</courseNumber>
-        <courseLetter>L</courseLetter>
-      </courseCode>
-    </courseCodes>
-    <gradingType>letter grade only</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1138</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">NRES 222.</div>
-    </prerequisite>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Offered off-campus during academic breaks at Cedar Point Biological Station.</div>
-    </notes>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Field and laboratory skills needed for wildlife management emphasizing wildlife and vegetation surveys, mark-recapture of wildlife, radio-telemetry, aging and forensic methods, and habitat assessment.  Course fee $180.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>lab</type>
-        <hours>3</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">1</credit>
-    </credits>
-  </course>
-  <course>
     <title>Environmental Education and Interpretation</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -3270,6 +3263,49 @@
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
+  </course>
+  <course>
+    <title>Grassland Conservation:  Planning and Management</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>NRES</subject>
+        <courseNumber>438</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>NRES</subject>
+        <courseNumber>838</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Introductory soils and introductory ecology.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Apply fundamental grassland ecology principles to grassland conservation and identify grassland establishment and management practices appropriate for different environmental and cultural situations. Based on field study, critically analyze management options and outcomes for several grasslands and develop a management plan for a grassland resource.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+    <aceOutcomes>
+      <slo>10</slo>
+    </aceOutcomes>
   </course>
   <course>
     <title>Great Plains Ecosystem</title>
@@ -3841,9 +3877,9 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1158</effectiveSemester>
+    <effectiveSemester>1168</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">LIFE 120 and LIFE 120L; LIFE 121 and LIFE 121L; either BIOS 207 or BIOS 220.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">LIFE 121 &amp;amp; 121L, BIOS 207 or BIOS 220 and Senior standing.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Nature and characteristics of populations and communities. Interactions within and between populations in community structure and dynamics. Direct and indirect interactions and ecological processes, competition, predation, parasitism, herbivory, and pollination. Structure, functioning and persistence of natural communities, foodweb dynamics, succession, and biodiversity.</div>
@@ -3854,11 +3890,6 @@
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
     <activities>
       <activity>
         <type>lec</type>
@@ -5044,15 +5075,23 @@
         <subject>METR</subject>
         <courseNumber>879</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>BSEN</subject>
+        <courseNumber>479</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>BSEN</subject>
+        <courseNumber>879</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1105</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">NRES 208 or METR 100 or METR/NRES 370.</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">Offered fall semester of even-numbered calendar years.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Offered spring semester of even-numbered calendar years.</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Interaction between earth’s climate and the hydrologic cycle. Energy and water fluxes at the land-atmosphere interface. Atmospheric moisture transport, precipitation, evaporation, snowmelt, and runoff. Impacts of climate variability and change on the hydrologic cycle.</div>

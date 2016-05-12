@@ -196,7 +196,7 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1078</effectiveSemester>
+    <effectiveSemester>1168</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">CEEN 103 or (UNO) CEEN 1030; CEEN 225 or (UNO) CEEN 2500; MATH 221/221H/821 or<br/> (UNO) MATH 3350, or parallel.</div>
     </prerequisite>
@@ -213,16 +213,15 @@
     <termsOffered>
       <term>Fall</term>
       <term>Spring</term>
-      <term>Summer</term>
     </termsOffered>
     <activities>
       <activity>
         <type>lec</type>
-        <hours>4</hours>
+        <hours>3</hours>
       </activity>
     </activities>
     <credits>
-      <credit type="Single Value">4</credit>
+      <credit type="Single Value">3</credit>
     </credits>
   </course>
   <course>
@@ -266,6 +265,47 @@
     </activities>
     <credits>
       <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Electrical Circuits III</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>CEEN</subject>
+        <courseNumber>217</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>CEEN</subject>
+        <courseNumber>2170</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>unrestricted</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">CEEN 213 or (UNO) CEEN 2130.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Analysis of first and second order RLC circuits using differential equations and Laplace transforms.  Variable frequency network performance analysis. This course is for computer engineering majors only.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+      <campus>UNO</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>1</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">1</credit>
     </credits>
   </course>
   <course>
@@ -949,12 +989,16 @@
     <courseCodes>
       <courseCode type="home listing">
         <subject>CEEN</subject>
-        <courseNumber>361</courseNumber>
+        <courseNumber>362</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>CEEN</subject>
+        <courseNumber>3620</courseNumber>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1128</effectiveSemester>
+    <effectiveSemester>1168</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">CEEN 352 or (UNO) CEEN 3520; CEEN 325 or (UNO) CEEN 3250, or parallel; and CEEN 328 or (UNO) CEEN 3280, or parallel.</div>
     </prerequisite>
@@ -1186,24 +1230,24 @@
     <courseCodes>
       <courseCode type="crosslisting">
         <subject>CEEN</subject>
-        <courseNumber>4360</courseNumber>
+        <courseNumber>4350</courseNumber>
       </courseCode>
       <courseCode type="home listing">
         <subject>CEEN</subject>
-        <courseNumber>436</courseNumber>
+        <courseNumber>435</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
         <subject>CEEN</subject>
-        <courseNumber>836</courseNumber>
+        <courseNumber>835</courseNumber>
       </courseCode>
       <courseCode type="crosslisting">
         <subject>CEEN</subject>
-        <courseNumber>8366</courseNumber>
+        <courseNumber>8356</courseNumber>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1091</effectiveSemester>
+    <effectiveSemester>1168</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">CEEN 433/833 or (UNO) CEEN 4330/8336; STAT/MATH 380 or (UNO) STAT 3800;<br/> CSCE 451/851 or (UNO) CSCI 4500, or parallel.</div>
     </prerequisite>
@@ -1256,7 +1300,7 @@
     <dfRemoval>true</dfRemoval>
     <effectiveSemester>1078</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CEEN 436/836 or (UNO) CEEN 4360/8360.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">CEEN 435/835 or (UNO) CEEN 4350/8360.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Parallel and distributed processing concepts, principles, techniques, and machines.</div>
@@ -1382,17 +1426,22 @@
     <courseCodes>
       <courseCode type="home listing">
         <subject>CEEN</subject>
-        <courseNumber>463</courseNumber>
+        <courseNumber>461</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>CEEN</subject>
+        <courseNumber>4610</courseNumber>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1138</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1171</effectiveSemester>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Topics related to the transport of bit streams from one geographical location to another over various physical media such as wire pairs, coaxial cable, optical fiber, and radio waves. Transmission characteristics, media interfacing, delay, distortion, noise, and error detection and correction techniques.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
+      <campus>UNO</campus>
     </campuses>
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
@@ -1405,6 +1454,7 @@
     <activities>
       <activity>
         <type>lec</type>
+        <hours>4</hours>
       </activity>
     </activities>
     <credits>
@@ -1431,7 +1481,7 @@
     <dfRemoval>true</dfRemoval>
     <effectiveSemester>1078</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CEEN 361 or (UNO) CEEN 3610; CEEN 463/863 or (UNO) CEEN 4630/8630, or parallel.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">CEEN 362 or (UNO) CEEN 3610; CEEN 461/861 or (UNO) CEEN 4630/8630, or parallel.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Standard telecommunications protocols, architecture of long distance integrated data networks, local area networks, wide area networks, radio and satellite networks. Network management, internetworking, system modeling and performance analysis.</div>
@@ -1682,7 +1732,7 @@
     <dfRemoval>true</dfRemoval>
     <effectiveSemester>1078</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CEEN 463/863 or (UNO) CEEN 4630/8630.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">CEEN 461/861 or (UNO) CEEN 4630/8630.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Fundamentals of lightwave communication in optical fiber waveguides, physical description of fiber optic systems. Properties of the optical fiber and fiber components. Electro-optic devices: light sources and modulators, detectors and amplifiers; optical transmitter and receiver systems. Fiber optic link design and specification; fiber optic networks.</div>
@@ -1954,7 +2004,7 @@
     </credits>
   </course>
   <course>
-    <title>Senior Thesis Proposal</title>
+    <title>Capstone I</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>CEEN</subject>
@@ -1966,13 +2016,13 @@
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1105</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CEEN 313/(UNO) CEEN 3130; CEEN 436/836/(UNO) CEEN 4360/8366 or CEEN 466/866/(UNO) CEEN 4660/8666, or parallel; and JGEN 300.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">CEEN 313/(UNO) CEEN 3130; CEEN 435/835/(UNO) CEEN 4350/8356 or CEEN 466/866/(UNO) CEEN 4660/8666, or parallel; and JGEN 300.</div>
     </prerequisite>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Preliminary investigation into topics for the Senior Thesis course. Defining deliverables, scheduling, interdisciplinary team design.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Preliminary investigation into topics for the capstone course. Defining deliverables, scheduling, interdisciplinary team design.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -1983,20 +2033,19 @@
     </deliveryMethods>
     <termsOffered>
       <term>Fall</term>
-      <term>Spring</term>
     </termsOffered>
     <activities>
       <activity>
         <type>ind</type>
-        <hours>1</hours>
+        <hours>2</hours>
       </activity>
     </activities>
     <credits>
-      <credit type="Single Value">1</credit>
+      <credit type="Single Value">2</credit>
     </credits>
   </course>
   <course>
-    <title>Senior Thesis</title>
+    <title>Capstone II</title>
     <courseCodes>
       <courseCode type="crosslisting">
         <subject>CEEN</subject>
@@ -2009,15 +2058,12 @@
     </courseCodes>
     <gradingType>unrestricted</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1158</effectiveSemester>
+    <effectiveSemester>1168</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">CEEN 496 or (UNO) CEEN 4960.</div>
     </prerequisite>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">CEEN 499/(UNO) CEEN 4990 requires the completion of a design project that demonstrates the ability to combine the knowledge from individual courses in the program to complete a design task.</div>
-    </notes>
     <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">The capstone design course for the B.S. in computer engineering and electronics engineering.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">CEEN 499/(UNO) CEEN 4990 requires the completion of a design project that demonstrates the ability to combine the knowledge from individual courses in the program to complete a design task. The capstone design course for the B.S. in computer engineering and electronics engineering.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -2027,9 +2073,7 @@
       <deliveryMethod>Classroom</deliveryMethod>
     </deliveryMethods>
     <termsOffered>
-      <term>Fall</term>
       <term>Spring</term>
-      <term>Summer</term>
     </termsOffered>
     <activities>
       <activity>
@@ -2083,12 +2127,16 @@
     <courseCodes>
       <courseCode type="home listing">
         <subject>CEEN</subject>
-        <courseNumber>863</courseNumber>
+        <courseNumber>861</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>CEEN</subject>
+        <courseNumber>8616</courseNumber>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1118</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">CEEN 3610</div>
     </prerequisite>
@@ -2096,7 +2144,8 @@
       <div xmlns="http://www.w3.org/1999/xhtml">Offered on Omaha Campus. Transport of bit streams from one geographical location to another over various physical media such as wire pairs, coaxial cable, optical fiber, and radio waves. Transmission characteristics, media interfacing, delay, distortion, noise, and error detection and correction techniques.</div>
     </description>
     <campuses>
-      <campus></campus>
+      <campus>UNL</campus>
+      <campus>UNO</campus>
     </campuses>
     <deliveryMethods>
       <deliveryMethod>Classroom</deliveryMethod>
@@ -2120,11 +2169,15 @@
     <courseCodes>
       <courseCode type="home listing">
         <subject>CEEN</subject>
-        <courseNumber>880</courseNumber>
+        <courseNumber>883</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>CEEN</subject>
+        <courseNumber>8830</courseNumber>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
+    <dfRemoval>true</dfRemoval>
     <effectiveSemester>1168</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">STAT 380 (UNO STAT 3800)</div>
@@ -2159,14 +2212,18 @@
     <courseCodes>
       <courseCode type="home listing">
         <subject>CEEN</subject>
-        <courseNumber>886</courseNumber>
+        <courseNumber>885</courseNumber>
+      </courseCode>
+      <courseCode type="crosslisting">
+        <subject>CEEN</subject>
+        <courseNumber>8850</courseNumber>
       </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
-    <effectiveSemester>1168</effectiveSemester>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1171</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CEEN 463/863 (UNO CEEN 4630/8636)</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">CEEN 461/861 (UNO CEEN 4610/8616)</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Introduction to the theory of spread spectrum communications: direct sequence, frequency and time hopping techniques. Topics include properties of pseudo-random binary sequences, low-probability-of-intercept (LPI) and anti-jamming (AJ) methods, performance of spread spectrum systems, applications of spread spectrum techniques in radio frequency and optical code-division multiple access (CDMA) systems.</div>
@@ -2275,12 +2332,16 @@
         <subject>CEEN</subject>
         <courseNumber>899</courseNumber>
       </courseCode>
+      <courseCode type="crosslisting">
+        <subject>CEEN</subject>
+        <courseNumber>8990</courseNumber>
+      </courseCode>
     </courseCodes>
     <gradingType>unrestricted</gradingType>
-    <dfRemoval>false</dfRemoval>
+    <dfRemoval>true</dfRemoval>
     <effectiveSemester>1168</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Admission to masters degree program and permission of supervisory committee chair.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Admission to masters degree program and permission of major advisor.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Masters thesis work.</div>
@@ -2304,7 +2365,8 @@
     </activities>
     <credits>
       <credit type="Lower Range Limit">1</credit>
-      <credit type="Upper Range Limit">6</credit>
+      <credit type="Upper Range Limit">10</credit>
+      <credit type="Per Career Limit">10</credit>
     </credits>
   </course>
   <course>
@@ -2319,7 +2381,7 @@
     <dfRemoval>false</dfRemoval>
     <effectiveSemester>1118</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CEEN 424/824/(UNO) 4240/8246; CEEN 476/876/(UNO) 4760/8760; and CEEN 880/(UNO) 8800</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">CEEN 424/824/(UNO) 4240/8246; CEEN 476/876/(UNO) 4760/8760; and CEEN 883/(UNO) 8800</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Statistical signal processing and applications for wireless communications: the characteristics of random signals; optimum linear filters; statistical parameter estimation using maximum likelihood (ML) and minimum mean-square error (MMSE) methods; adaptive signal processing using least-mean-square (LMS) and recursive least-square (RLS) approaches; Kalman filtering; and eigenanalysis.</div>
@@ -2352,7 +2414,7 @@
     <dfRemoval>false</dfRemoval>
     <effectiveSemester>1118</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">CEEN 463/863/(UNO) 4630/8636; CEEN 476/876/(UNO) 4760/8760.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">CEEN 461/861/(UNO) 4630/8636; CEEN 476/876/(UNO) 4760/8760.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Theory of space-time (ST) wireless communication systems. Spatial diversity, smart antenna systems, MIMO capacity of multi-antenna fading channels, space-time signaling, space-time receivers, and interference mitigation. Overview of more advanced topics such as MIMO-OFDM. Current trends in research and in the industry.</div>

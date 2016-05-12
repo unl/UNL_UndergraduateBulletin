@@ -85,13 +85,13 @@
       </courseCode>
     </courseCodes>
     <gradingType>letter grade only</gradingType>
-    <dfRemoval>false</dfRemoval>
+    <dfRemoval>true</dfRemoval>
     <effectiveSemester>1168</effectiveSemester>
     <prerequisite>
       <div xmlns="http://www.w3.org/1999/xhtml">Admitted to College of Journalism and Mass Communications or by permission for students whose home college has a written agreement with the COJMC regarding this course.</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">This is the first of six credit hours in visual communications required for all COJMC majors. Students can complete JOMC 130, 131, 132, 133 and 134 in two, three or four semesters. The courses cannot be completed in one semester.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">This is the first of six credit hours in visual communications required for all COJMC majors. Students can complete JOMC 130, 131, 132, 133 and 134 in two, three or four semesters. The courses cannot be completed in one semester. Students can register for JOMC 130, 131, and 132 simultaneously.</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Live events, online materials and activities in design thinking, storytelling, and how technology works to challenge students to think creatively, strategically and intelligently when producing content.</div>
@@ -208,10 +208,10 @@
       </courseCode>
     </courseCodes>
     <gradingType>letter grade only</gradingType>
-    <dfRemoval>false</dfRemoval>
+    <dfRemoval>true</dfRemoval>
     <effectiveSemester>1168</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Admission to College of Journalism and Mass Communications or by permission for students whose home college has a written agreement with the COJMC regarding this course.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Successful completion of JOMC 130, JOMC 131, and JOMC 132.</div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">Students can complete JOMC 130, 131, 132, 133 and 134 in two, three or four semesters. The courses cannot be completed in one semester.</div>
@@ -394,6 +394,44 @@
     <credits>
       <credit type="Single Value">0</credit>
     </credits>
+  </course>
+  <course>
+    <title>Social Justice, Human Rights and the Media</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>JOMC</subject>
+        <courseNumber>222</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Role of ethical principles and social responsibility and their importance in society and media today. Analysis of local and global human trafficking issues and advancing knowledge and solutions in areas of awareness, prevention, education, and role of media.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+    <aceOutcomes>
+      <slo>8</slo>
+      <slo>9</slo>
+    </aceOutcomes>
   </course>
   <course>
     <title>Special Topics</title>

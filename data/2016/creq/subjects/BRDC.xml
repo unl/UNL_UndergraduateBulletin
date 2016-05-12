@@ -131,9 +131,9 @@
     </courseCodes>
     <gradingType>letter grade only</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1151</effectiveSemester>
+    <effectiveSemester>1168</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">JOMC 160; BRDC 227.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">BRDC 227, JOMC 130-134.</div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">BRDC 228 is a production track course.</div>
@@ -323,9 +323,9 @@
     </courseCodes>
     <gradingType>letter grade only</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1151</effectiveSemester>
+    <effectiveSemester>1168</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Junior standing; JOMC 160; BRDC 227.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">Junior standing; JOMC 130-134 or JOMC 160; BRDC 227.</div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">BRDC 359 is a production track course, and is a prereq for BRDC 462.</div>
@@ -364,56 +364,15 @@
     </courseCodes>
     <gradingType>letter grade only</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1151</effectiveSemester>
+    <effectiveSemester>1168</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Junior standing; JOMC 160; BRDC 228.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">BRDC 228. JOMC 130-134.</div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">BRDC 360 is a production track course, and it is a prereq for BRDC 462.</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Writing scripts and preparing materials for broadcast, cable, and video streaming production processes. Audience composition thorough research of topics, and adaptation to concurrent delivery through multiple mass media technologies. Awareness of diverse audiences and use of statistics.</div>
-    </description>
-    <campuses>
-      <campus>UNL</campus>
-    </campuses>
-    <deliveryMethods>
-      <deliveryMethod>Classroom</deliveryMethod>
-    </deliveryMethods>
-    <termsOffered>
-      <term>Fall</term>
-      <term>Spring</term>
-      <term>Summer</term>
-    </termsOffered>
-    <activities>
-      <activity>
-        <type>lec</type>
-        <hours>3</hours>
-      </activity>
-    </activities>
-    <credits>
-      <credit type="Single Value">3</credit>
-    </credits>
-  </course>
-  <course>
-    <title>News Videography</title>
-    <courseCodes>
-      <courseCode type="home listing">
-        <subject>BRDC</subject>
-        <courseNumber>369</courseNumber>
-      </courseCode>
-    </courseCodes>
-    <gradingType>letter grade only</gradingType>
-    <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1151</effectiveSemester>
-    <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Junior standing; JOMC 160 and JOUR 202.</div>
-    </prerequisite>
-    <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">BRDC 369 is a news track course, and it is a prereq for BRDC 472.</div>
-    </notes>
-    <description>
-      <div xmlns="http://www.w3.org/1999/xhtml">Produce a news story worthy of airing live during Star City News. Produced live newscast aired in Lincoln. What is news. How to make contact with news makers. How to perform interviews. How to write a news story with a beginning, a middle, and an end. How to shoot and edit the video that supports the story.</div>
     </description>
     <campuses>
       <campus>UNL</campus>
@@ -446,12 +405,12 @@
     </courseCodes>
     <gradingType>letter grade only</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1151</effectiveSemester>
+    <effectiveSemester>1168</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">Junior standing; JOMC 160 and JOUR 202.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">JOUR 202. JOMC 130-134. Junior standing.</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">BRDC 370 is a news track course, and it is a prereq for BRDC 472.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">BRDC 370 is a news track course, and it is a prereq for BRDC 371 and BRDC 472.</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Clear and correct writing principles. Journalistic research techniques. Use of new tools and technologies to create broadcast news content for KRNU radio and other broadcast outlets.</div>
@@ -471,6 +430,47 @@
       <activity>
         <type>lab</type>
       </activity>
+      <activity>
+        <type>lec</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>News Videography</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>BRDC</subject>
+        <courseNumber>371</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>true</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">JOUR 202. JOMC 130-134 or JOMC 160. BRDC 370.</div>
+    </prerequisite>
+    <notes>
+      <div xmlns="http://www.w3.org/1999/xhtml">BRDC 371 is a news track course, and it is a prereq for BRDC 472.</div>
+    </notes>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Produce a news story worthy of airing live during Star City News. Produced live newscast aired in Lincoln. What is news. How to make contact with news makers. How to perform interviews. How to write a news story with a beginning, a middle, and an end. How to shoot and edit the video that supports the story.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
       <activity>
         <type>lec</type>
         <hours>3</hours>
@@ -533,7 +533,7 @@
     <dfRemoval>false</dfRemoval>
     <effectiveSemester>1108</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">BRDC 369 or parallel.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">BRDC 371 or parallel.</div>
     </prerequisite>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Intensive exploration of television and related visual communications technologies in the corporate and organizational environment. Formulation, production and applications of informational and motivational video communications in corporate and non-profit operations.</div>
@@ -628,6 +628,47 @@
       <term>Summer</term>
     </termsOffered>
     <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Digital Motion Graphics</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>BRDC</subject>
+        <courseNumber>433</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>BRDC</subject>
+        <courseNumber>833</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
+    <prerequisite>
+      <div xmlns="http://www.w3.org/1999/xhtml">Upper class standing and successful completion of JOMC 130-134.</div>
+    </prerequisite>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Creating digital motion graphics and animation using compositing and animation software. Covers project creation, techniques, workflow management, and related post-production work.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>lab</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
@@ -923,10 +964,10 @@
     <dfRemoval>false</dfRemoval>
     <effectiveSemester>1108</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">BRDC 359 and 369.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">BRDC 359 and 371.</div>
     </prerequisite>
     <notes>
-      <div xmlns="http://www.w3.org/1999/xhtml">BRDC 469/869 is a continuation of BRDC 359 and 369.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">BRDC 469/869 is a continuation of BRDC 359 and 371.</div>
     </notes>
     <description>
       <div xmlns="http://www.w3.org/1999/xhtml">Production of single and double system sound films. Production of videotapes for television.</div>
@@ -966,9 +1007,9 @@
     </courseCodes>
     <gradingType>letter grade only</gradingType>
     <dfRemoval>true</dfRemoval>
-    <effectiveSemester>1158</effectiveSemester>
+    <effectiveSemester>1168</effectiveSemester>
     <prerequisite>
-      <div xmlns="http://www.w3.org/1999/xhtml">BRDC 369, BRDC 370, and JOUR 202.</div>
+      <div xmlns="http://www.w3.org/1999/xhtml">BRDC 369 or BRDC 371, BRDC 370, and JOUR 202.</div>
     </prerequisite>
     <notes>
       <div xmlns="http://www.w3.org/1999/xhtml">BRDC 472 is a capstone course in the news track.</div>
@@ -1074,6 +1115,41 @@
       <term>Summer</term>
     </termsOffered>
     <activities/>
+    <credits>
+      <credit type="Single Value">3</credit>
+    </credits>
+  </course>
+  <course>
+    <title>Broadcast Performance</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>BRDC</subject>
+        <courseNumber>477</courseNumber>
+      </courseCode>
+    </courseCodes>
+    <gradingType>letter grade only</gradingType>
+    <dfRemoval>false</dfRemoval>
+    <effectiveSemester>1168</effectiveSemester>
+    <description>
+      <div xmlns="http://www.w3.org/1999/xhtml">Improve communications skills by gaining experience performing in front of live camera. Learn how to control nerves, voice, mannerisms. Daily tapings and critiques.</div>
+    </description>
+    <campuses>
+      <campus>UNL</campus>
+    </campuses>
+    <deliveryMethods>
+      <deliveryMethod>Classroom</deliveryMethod>
+    </deliveryMethods>
+    <termsOffered>
+      <term>Fall</term>
+      <term>Spring</term>
+      <term>Summer</term>
+    </termsOffered>
+    <activities>
+      <activity>
+        <type>stu</type>
+        <hours>3</hours>
+      </activity>
+    </activities>
     <credits>
       <credit type="Single Value">3</credit>
     </credits>
