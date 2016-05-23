@@ -20,7 +20,7 @@ class Editions extends \ArrayIterator implements
      *
      * @var string|int
      */
-    public static $latest = 2015;
+    public static $latest = 2016;
 
     public function __construct($options = [])
     {
