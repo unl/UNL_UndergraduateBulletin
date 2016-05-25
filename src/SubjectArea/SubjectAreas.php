@@ -117,9 +117,10 @@ class SubjectAreas extends \ArrayIterator implements
     public function jsonSerialize()
     {
         $url = Controller::getURL();
+        $controller = $this->controller;
 
-        if ($this->controller) {
-            $url = $this->controller::getURL();
+        if ($controller) {
+            $url = $controller::getURL();
         }
 
         $data = [];
