@@ -4,6 +4,7 @@ namespace UNL\UndergraduateBulletin\Course;
 
 use UNL\UndergraduateBulletin\Controller;
 use UNL\UndergraduateBulletin\CatalogController;
+use UNL\UndergraduateBulletin\GraduateController;
 use UNL\UndergraduateBulletin\ControllerAwareInterface;
 use UNL\UndergraduateBulletin\CachingService\CacheableInterface;
 use UNL\UndergraduateBulletin\SubjectArea\SubjectArea;
@@ -38,7 +39,12 @@ class Search implements
         $titleContext = 'Undergraduate Bulletin';
         if ($controller instanceof CatalogController) {
             $titleContext = 'Course Catalog';
-            $page->breadcrumbs->addCrumb('Course Catalog', $controller::getURL() . 'courses/');
+
+            if ($controller instanceof GraduateController) {
+                $titleContext = 'Graduate ' . $titleContext;
+            }
+
+            $page->breadcrumbs->addCrumb($titleContext, $controller::getURL() . 'courses/');
         }
 
         $page->doctitle = sprintf(

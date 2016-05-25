@@ -4,11 +4,13 @@ namespace UNL\UndergraduateBulletin\SubjectArea;
 
 use UNL\UndergraduateBulletin\Controller;
 use UNL\UndergraduateBulletin\CatalogController;
+use UNL\UndergraduateBulletin\GraduateController;
 use UNL\UndergraduateBulletin\ControllerAwareInterface;
 use UNL\UndergraduateBulletin\Course\Filters;
 use UNL\UndergraduateBulletin\Course\Listing;
 use UNL\UndergraduateBulletin\RoutableInterface;
 use UNL\Services\CourseApproval\Filter\ExcludeGraduateCourses;
+use UNL\Services\CourseApproval\Filter\ExcludeUndergraduateCourses;
 use UNL\Services\CourseApproval\SubjectArea\SubjectArea as RealSubjectArea;
 
 class SubjectArea extends RealSubjectArea implements
@@ -76,7 +78,12 @@ class SubjectArea extends RealSubjectArea implements
         $titleContext = 'Undergraduate Bulletin';
         if ($controller instanceof CatalogController) {
             $titleContext = 'Course Catalog';
-            $page->breadcrumbs->addCrumb('Course Catalog', $controller::getURL() . 'courses/');
+
+            if ($controller instanceof GraduateController) {
+                $titleContext = 'Graduate ' . $titleContext;
+            }
+
+            $page->breadcrumbs->addCrumb($titleContext, $controller::getURL() . 'courses/');
         }
 
         $page->doctitle = sprintf(
@@ -96,13 +103,19 @@ class SubjectArea extends RealSubjectArea implements
         return $this->controller;
     }
 
-    public function getCourses()
+    public function getCourses(Controller $controller = null)
     {
+        if (!$controller) {
+            $controller = $this->controller;
+        }
+
         if (!$this->courses) {
             $courses = parent::getCourses();
 
-            if (!$this->controller instanceof CatalogController) {
+            if (!$controller instanceof CatalogController) {
                 $courses = new ExcludeGraduateCourses($courses);
+            } elseif ($controller instanceof GraduateController) {
+                $courses = new ExcludeUndergraduateCourses($courses);
             }
 
             $this->courses = $courses;
