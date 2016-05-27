@@ -6,9 +6,9 @@ use UNL\UndergraduateBulletin\Controller;
 
 class FilterWithCourses extends \FilterIterator
 {
-	protected $controller;
+    protected $controller;
 
-	public function __construct(SubjectAreas $subjects, Controller $controller)
+    public function __construct(SubjectAreas $subjects, Controller $controller)
     {
         $this->controller = $controller;
         parent::__construct($subjects);
