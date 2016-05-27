@@ -115,50 +115,13 @@ class SubjectArea extends RealSubjectArea implements
             if (!$controller instanceof CatalogController) {
                 $courses = new ExcludeGraduateCourses($courses);
             } elseif ($controller instanceof GraduateController) {
-                $courses = $this->getGradSortedCourses(new ExcludeUndergraduateCourses($courses));
+                $courses = new GraduateSortedCourses(new ExcludeUndergraduateCourses($courses));
             }
 
             $this->courses = $courses;
         }
 
         return $this->courses;
-    }
-
-    protected function getGradSortedCourses($courses)
-    {
-        $coursesArray = iterator_to_array($courses);
-        uasort($coursesArray, function($a, $b) {
-            $aListing = $a->getRenderListing();
-            $bListing = $b->getRenderListing();
-
-            $aLastGradListing = $aListing->getCourseNumber();
-            $bLastGradListing = $bListing->getCourseNumber();
-
-            foreach ($aListing->getListingsFromSubject() as $listing) {
-                if ($listing->getCourseNumber() >= 500) {
-                    $aLastGradListing = $listing->getCourseNumber();
-                }
-            }
-
-            foreach ($bListing->getListingsFromSubject() as $listing) {
-                if ($listing->getCourseNumber() >= 500) {
-                    $bLastGradListing = $listing->getCourseNumber();
-                }
-            }
-
-            if ($aLastGradListing == $bLastGradListing) {
-                return 0;
-            }
-
-            return $aLastGradListing < $bLastGradListing ? -1 : 1;
-        });
-
-        return new \ArrayIterator($coursesArray);
-    }
-
-    protected function compareCourses($a, $b)
-    {
-
     }
 
     /**
