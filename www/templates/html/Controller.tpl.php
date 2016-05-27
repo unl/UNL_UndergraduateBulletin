@@ -1,6 +1,7 @@
 <?php
 
 use UNL\UndergraduateBulletin\Controller;
+use UNL\UndergraduateBulletin\Edition\Editions;
 
 $page = $context->getRawObject()->getOutputPage();
 $savvy->addGlobal('page',  $page);
@@ -18,7 +19,7 @@ $page->head .= '<link rel="home" href="'.$url.'" />';
 $page->head .= $savvy->render(null, 'sharedcode/editionHead.tpl.php');
 
 // Check if the year of this edition indicates it has not been published
-if (mktime(0, 0, 0, 6, 1, Controller::getEdition()->getYear()) > time()) {
+if (Controller::getEdition()->getYear() > Editions::getLatest()->getYear()) {
     $page->head .= <<<'UNPUBLISHED'
 <meta name="robots" content="noindex" />
 <script>
