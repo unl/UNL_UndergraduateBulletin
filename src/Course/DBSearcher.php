@@ -4,6 +4,7 @@ namespace UNL\UndergraduateBulletin\Course;
 
 use UNL\UndergraduateBulletin\Controller;
 use UNL\UndergraduateBulletin\CatalogController;
+use UNL\UndergraduateBulletin\GraduateController;
 use UNL\Services\CourseApproval\Search\AbstractSearch;
 
 class DBSearcher extends AbstractSearch
@@ -168,6 +169,8 @@ WHERE prereqs.subjectArea = ' . $this->getDB()->quote($query[0])
     AND crosslistings.courseNumber < "500"
     OR LENGTH(crosslistings.courseNumber) < 3
 ) AND ';
+        } elseif ($this->controller instanceof GraduateController) {
+            $filterQuery = '(crosslistings.courseNumber >= "500") AND ';
         }
 
         $query =  'SELECT DISTINCT courses.id, courses.xml

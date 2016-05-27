@@ -4,6 +4,7 @@ namespace UNL\UndergraduateBulletin\Course;
 
 use UNL\UndergraduateBulletin\Controller;
 use UNL\UndergraduateBulletin\CatalogController;
+use UNL\UndergraduateBulletin\GraduateController;
 use UNL\UndergraduateBulletin\ControllerAwareInterface;
 use UNL\UndergraduateBulletin\RoutableInterface;
 use UNL\Services\CourseApproval\Course\Course;
@@ -34,6 +35,11 @@ class Listing implements
      */
     protected $internal;
 
+    /**
+     * @var bool
+     */
+    protected $redirectToInternal = false;
+
     public static function getACEDescription($ace)
     {
         if (!isset(static::$aceDescriptions[$ace])) {
@@ -47,7 +53,31 @@ class Listing implements
     {
         $listing = $options;
         if (!$listing instanceof CreqListing) {
-            $listing = CreqListing::createFromSubjectAndNumber($options['subjectArea'], $options['courseNumber']);
+            $hasCourseLetter = !is_numeric(substr($options['courseNumber'], -1));
+            $originalException = null;
+
+            try {
+                $listing = CreqListing::createFromSubjectAndNumber($options['subjectArea'], $options['courseNumber']);
+            } catch (\Exception $e) {
+                if (!404 === $e->getCode() || !$hasCourseLetter) {
+                    throw $e;
+                }
+
+                $originalException = $e;
+            }
+
+            // If the requested listing fails and the listing has a course number letter suffix,
+            // attempt to look for a listing without the suffix and redirect
+            // Example: TEAC 808B redirects to TEAC 808
+            if ($originalException) {
+                try {
+                    $this->redirectToInternal = true;
+                    $courseNumberNoLetter = substr($options['courseNumber'], 0, -1);
+                    $listing = CreqListing::createFromSubjectAndNumber($options['subjectArea'], $courseNumberNoLetter);
+                } catch (\Exception $e) {
+                    throw $originalException;
+                }
+            }
         }
 
         $this->internal = $listing;
@@ -56,13 +86,23 @@ class Listing implements
 
     public function setController(Controller $controller)
     {
+        if ($this->redirectToInternal) {
+            header('Location: ' . $this->getUrl($controller));
+            exit();
+        }
+
         $page = $controller->getOutputPage();
         $pageTitle = $controller->getOutputController()->escape($this->getTitle());
 
         $titleContext = 'Undergraduate Bulletin';
         if ($controller instanceof CatalogController) {
             $titleContext = 'Course Catalog';
-            $page->breadcrumbs->addCrumb('Course Catalog', $controller::getURL() . 'courses/');
+
+            if ($controller instanceof GraduateController) {
+                $titleContext = 'Graduate ' . $titleContext;
+            }
+
+            $page->breadcrumbs->addCrumb($titleContext, $controller::getURL() . 'courses/');
         }
 
         $permalink = $controller->getOutputController()->escape($this->getURL());

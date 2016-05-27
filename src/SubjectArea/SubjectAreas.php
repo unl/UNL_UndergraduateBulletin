@@ -4,6 +4,7 @@ namespace UNL\UndergraduateBulletin\SubjectArea;
 
 use UNL\UndergraduateBulletin\Controller;
 use UNL\UndergraduateBulletin\CatalogController;
+use UNL\UndergraduateBulletin\GraduateController;
 use UNL\UndergraduateBulletin\ControllerAwareInterface;
 use UNL\UndergraduateBulletin\CachingService\CacheableInterface;
 
@@ -55,7 +56,12 @@ class SubjectAreas extends \ArrayIterator implements
         $titleContext = 'Undergraduate Bulletin';
         if ($controller instanceof CatalogController) {
             $titleContext = 'Course Catalog';
-            $page->breadcrumbs->addCrumb('Course Catalog', $controller::getURL() . 'courses/');
+
+            if ($controller instanceof GraduateController) {
+                $titleContext = 'Graduate ' . $titleContext;
+            }
+
+            $page->breadcrumbs->addCrumb($titleContext, $controller::getURL() . 'courses/');
         }
 
         $page->doctitle = sprintf(
@@ -101,16 +107,27 @@ class SubjectAreas extends \ArrayIterator implements
 
     public function getFiltered()
     {
+        if ($this->controller instanceof GraduateController) {
+            return new FilterWithCourses($this, $this->controller);
+        }
+
         return new Filter($this);
     }
 
     public function jsonSerialize()
     {
+        $url = Controller::getURL();
+        $controller = $this->controller;
+
+        if ($controller) {
+            $url = $controller::getURL();
+        }
+
         $data = [];
         foreach ($this as $id => $area) {
             $data[$id] = [
                 // '@id' => $id,
-                'href' => Controller::getURL() . 'courses/' . $id . '/',
+                'href' => $url . 'courses/' . $id . '/',
                 'title' => $area->title,
             ];
         }

@@ -2,6 +2,7 @@
 
 use UNL\UndergraduateBulletin\Controller;
 use UNL\UndergraduateBulletin\CatalogController;
+use UNL\UndergraduateBulletin\GraduateController;
 use UNL\UndergraduateBulletin\OutputController;
 use UNL\UndergraduateBulletin\CourseDataDriver;
 use UNL\UndergraduateBulletin\CachingService\Mock;
@@ -20,6 +21,7 @@ require __DIR__ . '/vendor/autoload.php';
 // Set this to the web root for the site
 Controller::$url = '/workspace/UNL_UndergraduateBulletin/www/';
 CatalogController::$url = '/workspace/UNL_UndergraduateBulletin/www/course-catalog/';
+GraduateController::$url = '/workspace/UNL_UndergraduateBulletin/www/graduate/';
 
 // Remove this line on production machines so the default UNLCacheLite cache interface is used
 OutputController::setCacheInterface(new Mock());
