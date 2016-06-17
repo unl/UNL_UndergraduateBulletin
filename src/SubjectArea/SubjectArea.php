@@ -133,7 +133,7 @@ class SubjectArea extends RealSubjectArea implements
     {
         $filters = new Filters();
         $filters->subject = $this->getSubject();
-        $filters->groups = $this->groups;
+        $filters->groups = $this->getGroups();
         return $filters;
     }
 
