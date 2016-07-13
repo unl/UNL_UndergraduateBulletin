@@ -7547,6 +7547,32 @@
     </courseCodes>
   </course>
   <course>
+    <title>Architecture Core Studio I: Project</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ARCH</subject>
+        <courseNumber>500</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>ARCH</subject>
+        <courseNumber>800</courseNumber>
+      </courseCode>
+    </courseCodes>
+  </course>
+  <course>
+    <title>Architecture Core Studio II: Incorporate</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ARCH</subject>
+        <courseNumber>501</courseNumber>
+      </courseCode>
+      <courseCode type="grad tie-in">
+        <subject>ARCH</subject>
+        <courseNumber>801</courseNumber>
+      </courseCode>
+    </courseCodes>
+  </course>
+  <course>
     <title>Advanced Architectural Design I</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -17052,12 +17078,12 @@
       <courseCode type="crosslisting">
         <subject>HIST</subject>
         <courseNumber>183</courseNumber>
+        <courseGroup>European History</courseGroup>
+        <courseGroup>Pre-1800</courseGroup>
       </courseCode>
       <courseCode type="home listing">
         <subject>CLAS</subject>
         <courseNumber>183</courseNumber>
-        <courseGroup>European History</courseGroup>
-        <courseGroup>Pre-1800</courseGroup>
       </courseCode>
     </courseCodes>
     <aceOutcomes>
@@ -30897,6 +30923,15 @@
     </courseCodes>
   </course>
   <course>
+    <title>Special Topics in Engineering Management</title>
+    <courseCodes>
+      <courseCode type="home listing">
+        <subject>ENGR</subject>
+        <courseNumber>891</courseNumber>
+      </courseCode>
+    </courseCodes>
+  </course>
+  <course>
     <title>Energy in Perspective</title>
     <courseCodes>
       <courseCode type="home listing">
@@ -44008,7 +44043,7 @@
     </courseCodes>
   </course>
   <course>
-    <title>Foundational Legal Skills: Research, Writing and Professionalism</title>
+    <title>Legal Research and Writing</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>LAW</subject>
@@ -44018,7 +44053,7 @@
     </courseCodes>
   </course>
   <course>
-    <title>Foundational Legal Skills: Research, Writing, and Professionalism II</title>
+    <title>Legal Research and Writing</title>
     <courseCodes>
       <courseCode type="home listing">
         <subject>LAW</subject>
@@ -57118,6 +57153,7 @@
       <courseCode type="crosslisting">
         <subject>POLS</subject>
         <courseNumber>475</courseNumber>
+        <courseGroup>American Government and Public Policy</courseGroup>
       </courseCode>
       <courseCode type="crosslisting">
         <subject>POLS</subject>
@@ -57162,6 +57198,7 @@
       <courseCode type="home listing">
         <subject>NRES</subject>
         <courseNumber>475</courseNumber>
+        <courseGroup>American Government and Public Policy</courseGroup>
       </courseCode>
       <courseCode type="grad tie-in">
         <subject>NRES</subject>
@@ -61530,6 +61567,7 @@
         <subject>POLS</subject>
         <courseNumber>263</courseNumber>
         <courseGroup>Human Rights and Security</courseGroup>
+        <courseGroup>International Relations and Comparative Politics</courseGroup>
       </courseCode>
     </courseCodes>
   </course>
@@ -61540,6 +61578,7 @@
         <subject>POLS</subject>
         <courseNumber>268</courseNumber>
         <courseGroup>Human Rights and Security</courseGroup>
+        <courseGroup>International Relations and Comparative Politics</courseGroup>
       </courseCode>
     </courseCodes>
   </course>
