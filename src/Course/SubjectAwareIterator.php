@@ -12,7 +12,7 @@ class SubjectAwareIterator extends \IteratorIterator implements
     public function __construct(\Traversable $iterator, $subject)
     {
         if (empty($subject)) {
-            throw InvalidArgumentException('Missing subject to use for course iterator rendering');
+            throw \InvalidArgumentException('Missing subject to use for course iterator rendering');
         }
 
         $this->subject = $subject;
@@ -24,7 +24,7 @@ class SubjectAwareIterator extends \IteratorIterator implements
         $course = parent::current();
 
         if (!$course instanceof Course) {
-            throw UnexpectedValueException('The iterator expects only instances of ' . Course::class);
+            throw \UnexpectedValueException('The iterator expects only instances of ' . Course::class);
         }
 
         $course->setSubject($this->subject);
