@@ -31,7 +31,7 @@ class SubjectArea extends RealSubjectArea implements
         if (isset($options['title'])) {
             $this->title = $options['title'];
         }
-        parent::__construct($options['id']);
+        parent::__construct(isset($options['id']) ? $options['id'] : '');
     }
 
     public function __get($var)
