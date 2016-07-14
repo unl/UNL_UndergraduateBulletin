@@ -73,7 +73,7 @@ class DataDriver implements XCRIServiceInterface
         if (!isset($this->subjectAreas[(string)$subjectarea])) {
 
             if (!preg_match('/^[A-Z]{3,4}$/', $subjectarea)) {
-                throw new \UnexpectedValueException('Invalid subject code ' . $subjectarea, 400);
+                throw new \Exception('Invalid subject code ' . $subjectarea, 404);
             }
 
             $file = $this->currentEdition->getCourseDataDir() . '/subjects/' . $subjectarea . '.xml';
