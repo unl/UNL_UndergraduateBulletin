@@ -11,7 +11,7 @@ class Concentration extends \ArrayIterator
     public function __construct($options = [])
     {
         $this->set($options['id']);
-        parent::__construct($this->data['semesters']);
+        parent::__construct(isset($this->data['semesters']) ? $this->data['semesters'] : []);
     }
 
     public function __get($name)
