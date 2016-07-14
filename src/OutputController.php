@@ -68,6 +68,7 @@ class OutputController extends \Savvy
 
         if (!$this->isSupportedFormat($format)) {
             $format = $defaultFormat;
+            $controller->outputException(new \Exception('Invalid output format requested', 404));
         }
 
         $formatStack = [$format];
