@@ -39,6 +39,8 @@ class SubjectArea extends RealSubjectArea implements
         if ('title' === $var) {
             return $this->$var;
         }
+
+        return parent::__get($var);
     }
 
     public function getTitle()
