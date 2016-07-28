@@ -5,9 +5,10 @@ $college_regions = array(
     'aceRequirements'               => 'ACE Requirements',
     'bulletinRule'                  => 'Bulletin Rule',
     );
+
 foreach ($context as $college) {
     foreach ($college_regions as $id => $title) {
-        if (isset($college->description->$id)) { 
+        if (isset($college->description->$id)) {
             $college_section = $college->description->getRaw($id);
             ?>
             <div id="college_<?php echo $id; ?>">
@@ -19,4 +20,3 @@ foreach ($context as $college) {
         }
     }
 }
-?>
