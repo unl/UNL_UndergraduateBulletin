@@ -81,6 +81,18 @@ class College implements
         throw new \Exception('Unknown member var! '.$var);
     }
 
+    public function __isset($var)
+    {
+        $value = null;
+        try {
+            $value = $this->__get($var);
+        } catch (\Exception $e) {
+            return false;
+        }
+
+        return !is_null($value);
+    }
+
     public function getName()
     {
         return $this->name;
