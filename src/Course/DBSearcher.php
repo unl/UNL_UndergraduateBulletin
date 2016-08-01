@@ -146,12 +146,12 @@ WHERE prereqs.subjectArea = ' . $this->getDB()->quote($query[0])
 
     public function graduateQuery()
     {
-        return 'crosslistings.courseNumber >= 500';
+        return 'CAST(crosslistings.courseNumber AS INTEGER) >= 500';
     }
 
     public function undergraduateQuery()
     {
-        return 'crosslistings.courseNumber < 500';
+        return 'CAST(crosslistings.courseNumber AS INTEGER) < 500';
     }
 
     public function getQueryResult($query, $offset = 0, $limit = -1)
@@ -164,18 +164,15 @@ WHERE prereqs.subjectArea = ' . $this->getDB()->quote($query[0])
         $filterQuery = '';
 
         if (!$this->controller instanceof CatalogController) {
-            $filterQuery = '(
-    LENGTH(crosslistings.courseNumber) >= 3
-    AND crosslistings.courseNumber < "500"
-    OR LENGTH(crosslistings.courseNumber) < 3
-) AND ';
+            $filterQuery = sprintf('(%s) AND', $this->undergraduateQuery());
         } elseif ($this->controller instanceof GraduateController) {
-            $filterQuery = '(crosslistings.courseNumber >= "500") AND ';
+            $filterQuery = sprintf('(%s) AND', $this->graduateQuery());
         }
 
         $query =  'SELECT DISTINCT courses.id, courses.xml
 FROM courses INNER JOIN crosslistings ON courses.id=crosslistings.course_id
-WHERE ' . $filterQuery . ' (' . $query . ');';
+WHERE ' . $filterQuery . ' (' . $query . ')
+ORDER BY CAST(crosslistings.courseNumber AS INTEGER);';
         return new DBSearchResults($this->db, $query, $offset, $limit);
     }
 }
