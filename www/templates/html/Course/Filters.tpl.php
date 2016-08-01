@@ -20,10 +20,10 @@ if (isset($context->subject)) {
                     <li>
                         <input type="checkbox" checked="checked" class="filterAll" id="<?php echo $idPrefix; ?>_filterAllGroups" name="all" value="all" />
                         <label for="<?php echo $idPrefix; ?>_filterAllGroups">All groups</label></li>
-                    <?php foreach ($context->groups as $group) : ?>
+                    <?php foreach ($context->getRaw('groups') as $group) : ?>
                     <li>
                         <input type="checkbox" id="<?php echo $idPrefix; ?>_filter_grp_<?php echo md5($group); ?>" value="grp_<?php echo md5($group); ?>" />
-                        <label for="<?php echo $idPrefix; ?>_filter_grp_<?php echo md5($group); ?>"><?php echo $group; ?></label>
+                        <label for="<?php echo $idPrefix; ?>_filter_grp_<?php echo md5($group); ?>"><?php echo $savvy->escape($group); ?></label>
                     </li>
                     <?php endforeach; ?>
                 </ol>
