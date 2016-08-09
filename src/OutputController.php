@@ -120,7 +120,7 @@ class OutputController extends \Savvy
                     array_unshift($formatStack, $defaultFormat);
                 }
                 $alternateTemplateStack[] = $controller->getEdition()->getDataDir() . '/templates/html';
-                $this->setEscape('htmlentities');
+                $this->setEscape('htmlspecialchars');
                 $expire = strtotime('tomorrow');
                 break;
         }
