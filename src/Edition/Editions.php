@@ -6,6 +6,7 @@ class Editions extends \ArrayIterator implements
     \JsonSerializable
 {
     public static $editions = [
+        2017,
         2016,
         2015,
         2014,
