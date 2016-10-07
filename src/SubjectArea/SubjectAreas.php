@@ -50,6 +50,9 @@ class SubjectAreas extends \ArrayIterator implements
             exit();
         }
 
+        // the subject map may be different from the controller
+        parent::__construct(self::getMap($controller::getEdition()));
+
         $page = $controller->getOutputPage();
         $pageTitle = 'Subject Areas';
 
