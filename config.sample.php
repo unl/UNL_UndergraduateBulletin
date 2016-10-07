@@ -9,6 +9,7 @@ use UNL\UndergraduateBulletin\CachingService\Mock;
 use UNL\UndergraduateBulletin\CachingService\UNLCacheLite;
 use UNL\UndergraduateBulletin\Course\DataDriver;
 use UNL\UndergraduateBulletin\Edition\Edition;
+use UNL\UndergraduateBulletin\Edition\Next;
 use UNL\Services\CourseApproval\Data;
 use UNL\Services\CourseApproval\CachingService\NullService;
 
@@ -37,8 +38,14 @@ OutputController::setDefaultExpireTimestamp(strtotime('+1 week'));
 Data::setCachingService(new NullService());
 Data::setXCRIService(new DataDriver());
 
-if (isset($_SERVER['BULLETIN_EDITION']) && is_numeric($_SERVER['BULLETIN_EDITION'])) {
-	Controller::setEdition(new Edition(['year' => $_SERVER['BULLETIN_EDITION']]));
+if (isset($_SERVER['BULLETIN_EDITION'])) {
+	$edition = new Edition(['year' => $_SERVER['BULLETIN_EDITION']]);
+	if ($_SERVER['BULLETIN_EDITION'] === 'next') {
+		$edition = new Next();
+	}
+
+	Controller::setEdition($edition);
+	unset($edition);
 }
 
 // Controller::setEdition(new Edition(['year' => '2010']));

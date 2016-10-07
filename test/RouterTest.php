@@ -5,9 +5,17 @@ namespace UNLTest\UndergraduateBulletin;
 use UNL\UndergraduateBulletin\Controller;
 use UNL\UndergraduateBulletin\Router;
 use UNL\UndergraduateBulletin\Edition\Latest;
+use UNL\UndergraduateBulletin\Edition\Next;
 
 class RouterTest extends \PHPUnit_Framework_TestCase
 {
+	protected function setUp()
+	{
+		if (Controller::getEdition() instanceof Next) {
+			$this->markTestSkipped('Routing skipped for next edition');
+		}
+	}
+
 	/**
 	 * @dataProvider getRouteProvider
 	 */
