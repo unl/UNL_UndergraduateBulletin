@@ -4,5 +4,5 @@ php:
   - 5.3
   - 5.4
 env:
-  - BULLETIN_EDITION=2016
+  - BULLETIN_EDITION=2017
 script: phpunit tests
