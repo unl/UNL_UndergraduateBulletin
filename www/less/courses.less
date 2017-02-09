@@ -145,7 +145,6 @@
 }
 
 #collegeListing,
-#majorListing,
 #subjectListing {
 	margin: 0;
 	padding: 0;
@@ -172,12 +171,96 @@
 }
 
 #majorListing {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0;
+	margin: 0 -.7rem;
+	list-style: none;
+
+	li {
+		margin-bottom: 1rem;
+		padding-left: .7rem;
+		padding-right: .7rem;
+		width: 100%;
+
+		@media (min-width: 480px) {
+			width: 33%;
+		}
+
+		a {
+			border: 0;
+			border-top: 5px solid #c1c0be;
+			display: block;
+			box-shadow: 0 0 0 1px rgba(20,20,20,.1);
+			transition: border-color .2s ease-out;
+			background: #fff;
+			padding: 1.486rem .887rem;
+			height: 100%;
+			line-height: 1.333;
+
+			&:hover {
+				border-color: #d00000;
+			}
+		}
+	}
+
+	.major-img {
+		background-repeat: no-repeat;
+		background-size: contain;
+		width: 84px;
+		height: 64px;
+		display: block;
+		margin: auto;
+		margin-bottom: 1em;
+	}
+
+	.CASNR .major-img {
+		background-image: data-uri('../images/casnr.svg');
+	}
+
+	.ARCH .major-img {
+		background-image: data-uri('../images/arch.svg');
+	}
+
+	.CBA .major-img {
+		background-image: data-uri('../images/cba.svg');
+	}
+
+	.ASC .major-img {
+		background-image: data-uri('../images/cas.svg');
+	}
+
+	.CEHS .major-img {
+		background-image: data-uri('../images/cehs.svg');
+	}
+
+	.ENG .major-img {
+		background-image: data-uri('../images/eng.svg');
+	}
+
+	.EPAC .major-img {
+		background-image: data-uri('../images/exp.svg');
+	}
+
+	.FPA .major-img {
+		background-image: data-uri('../images/fpa.svg');
+	}
+
+	.JMC .major-img {
+		background-image: data-uri('../images/cojmc.svg');
+	}
+
+	.PACS .major-img {
+		background-image: data-uri('../images/cpac.svg');
+	}
+
 	.note {
-		padding-left: 0.75em;
+		display: block;
 		font-family: 'Gotham SSm A', 'Gotham SSm B', Verdana, 'Verdana Ref', Geneva, Tahoma, 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', 'Bitstream Vera Sans', 'Liberation Sans', sans-serif;
 		font-weight: 400;
 		font-size: 0.75em;
 		color: #716F6B;
+		margin-top: .25rem;
 	}
 }
 
