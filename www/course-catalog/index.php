@@ -23,7 +23,7 @@ if (PHP_VERSION_ID < 50600) {
 $controller = new CatalogController(Router::getRoute($_SERVER['REQUEST_URI'], CatalogController::getBaseURL()) + $_GET);
 $outputcontroller = new OutputController();
 $outputcontroller->setupFromController($controller);
-$outputcontroller->addGlobal('course_search_driver', new DBSearcher());
+$outputcontroller->addGlobal('course_search_driver', new DBSearcher($controller));
 
 $outputcontroller->sendCORSHeaders();
 
