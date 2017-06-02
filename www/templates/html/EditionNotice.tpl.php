@@ -8,6 +8,17 @@ $count = 0;
 $fount = false; // Whether or not we're showing the current edition
 $published = Editions::getPublished();
 ?>
+
+<div class="wdn_notice" data-overlay="maincontent">
+    <div class="close">
+        <a href="#">Close this notice</a>
+    </div>
+    <div class="message">
+        <p class="title">Attention</p>
+        <p>This is the site for old bulletin data. Please head to <a href="http://catalog.unl.edu">UNL's Course Catalog</a> for updated course and program information.</p>
+    </div>
+</div>
+
 <div id="versioning">
     <ul>
         <li class="close"><span>+</span></li>
@@ -44,3 +55,7 @@ $published = Editions::getPublished();
         <li><a href="<?php echo $current->getURL(); ?>bulletinrules">More info, and other archived bulletins</a></li>
     </ul>
 </div>
+
+<script>
+  WDN.initializePlugin('notice');
+</script>
