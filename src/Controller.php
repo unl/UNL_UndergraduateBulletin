@@ -135,7 +135,7 @@ class Controller implements
                 $page->setLocalIncludePath($webRoot);
             }
 
-            $page->setParam('class', 'page-' . $this->options['view']);
+            // $page->setParam('class', 'page-' . $this->options['view']);
             $page->doctitle = '<title>Undergraduate Bulletin | University of Nebraska-Lincoln</title>';
             $page->affiliation = '';
             $page->titlegraphic = 'Undergraduate Bulletin ' . static::getEdition()->getRange();

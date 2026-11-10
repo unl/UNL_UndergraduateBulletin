@@ -50,7 +50,7 @@ class GraduateController extends CatalogController
     {
         if (!$this->page) {
             $page = parent::getOutputPage();
-            $page->setParam('class', 'graduate-catalog ' . $page->getParams()['class']);
+            // $page->setParam('class', 'graduate-catalog ' . $page->getParams()['class']);
             $page->doctitle = '<title>Bulletins | University of Nebraska-Lincoln</title>';
             $page->titlegraphic = 'Bulletins';
             $page->pagetitle = '';
